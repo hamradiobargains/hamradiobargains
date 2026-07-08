@@ -1,10 +1,10 @@
-———→<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ham Radio Bargains</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTYwIDE2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTYwIiBoZWlnaHQ9IjE2MCIgcng9IjI4IiBmaWxsPSIjMGYxNDE3Ii8+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAsMjApIj4KICAgIDxwYXRoIGQ9Ik0yNCw1MCBRMTYsNjAgMjQsNzAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2U4ZWRmMCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9IjEiLz4KICAgIDxwYXRoIGQ9Ik0yMCw0MiBROCw2MCAyMCw3OCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZThlZGYwIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgb3BhY2l0eT0iMC43Ii8+CiAgICA8cGF0aCBkPSJNMTYsMzQgUTIsNjAgMTYsODYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2U4ZWRmMCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9IjAuNDUiLz4KICAgIDxwYXRoIGQ9Ik0zNCw2MCBMNjAsMjggTDEyMiwyOCBMMTIyLDkyIEw2MCw5MiBaIE01MCw2MCBBOCw4IDAgMSwwIDY2LDYwIEE4LDggMCAxLDAgNTAsNjAgWiIgZmlsbD0iI2ZmOGMzYiIgZmlsbC1ydWxlPSJldmVub2RkIi8+CiAgPC9nPgo8L3N2Zz4K">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTYwIDE2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTYwIiBoZWlnaHQ9IjE2MCIgcng9IjI4IiBmaWxsPSIjMGYxNDE3Ii8+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAsMjApIj4KICAgIDxwYXRoIGQ9Ik0yNCw1MCBRMTYsNjAgMjQsNzAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2U4ZWRmMCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9IjEiLz4KICAgIDxwYXRoIGQ9Ik0yMCw0MiBROCw2MCAyMCw3OCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZThlZGYwIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgb3BhY2l0eT0iMC43Ii8+CiAgICA8cGF0aCBkPSJNMTYsMzQgUTIsNjAgMTYsODYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2U4ZWRmMCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9IjAuNDUiLz4KICAgIDxwYXRoIGQ9Ik0zNCw2MCBMNjAsMjggTDEyMiwyOCBMMTIyLDkyIEw2MCw5MiBaIE01MCw2MCBBOCw4IDAgMSwwIDY2LDYwIEA4LDggMCAxLDAgNTAsNjAgWiIgZmlsbD0iI2ZmOGMzYiIgZmlsbC1ydWxlPSJldmVub2RkIi8+CiAgPC9nPgo8L3N2Zz4K">
 <style>
   :root {
     --bg: #0f1417;
@@ -41,6 +41,7 @@
   #status { text-align: center; color: var(--muted); padding: 24px; }
   #error { text-align: center; color: #ff6b6b; padding: 24px; display: none; }
   .deal {
+    position: relative;
     background: var(--card-bg);
     border: 1px solid var(--border);
     border-radius: 10px;
@@ -51,7 +52,9 @@
     justify-content: space-between;
     gap: 16px;
     flex-wrap: wrap;
+    overflow: hidden;
   }
+  .deal.sold { opacity: 0.88; }
   .deal-info { flex: 1; min-width: 240px; }
   .deal-meta {
     display: flex;
@@ -83,6 +86,19 @@
     transition: opacity 0.15s ease;
   }
   .listing-btn:hover { opacity: 0.85; }
+  .sold-stamp {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    z-index: 2;
+  }
+  .sold-stamp svg {
+    width: 150px;
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4));
+  }
   footer {
     text-align: center;
     color: var(--muted);
@@ -124,6 +140,15 @@
   // ---- CONFIGURE THIS: your public Google Sheet ----
   const SHEET_ID = '1bazPsFf5ofiLqSvkfEpS-5yI__54enFmbkIrpRQMZaI';
   const GID = '997433872';
+  const SOLD_MAX_AGE_DAYS = 7;
+
+  const SOLD_STAMP_SVG = `<div class="sold-stamp"><svg viewBox="0 0 200 100">
+    <g transform="rotate(-12 100 50)">
+      <ellipse cx="100" cy="50" rx="90" ry="42" fill="none" stroke="#c0392b" stroke-width="6"/>
+      <ellipse cx="100" cy="50" rx="78" ry="32" fill="none" stroke="#c0392b" stroke-width="3"/>
+      <text x="100" y="60" font-family="Arial Black, Arial, sans-serif" font-size="30" font-weight="900" fill="#c0392b" text-anchor="middle" letter-spacing="2">SOLD</text>
+    </g>
+  </svg></div>`;
 
   // Uses Google's JSONP-style visualization endpoint instead of fetch(),
   // because docs.google.com does not send CORS headers that allow a plain
@@ -134,35 +159,6 @@
     if (cell.f !== undefined && cell.f !== null) return String(cell.f);
     if (cell.v !== undefined && cell.v !== null) return String(cell.v);
     return '';
-  }
-
-  window.__handleSheetData = function (data) {
-    try {
-      if (data.status === 'error') {
-        const msg = (data.errors && data.errors[0] && data.errors[0].detailed_message) || 'unknown error';
-        showError('Sheet query error: ' + msg);
-        return;
-      }
-      // Prepend the auto-detected column labels as a row too, in case Google's
-      // header auto-detection swallowed our real header row into `cols`
-      // instead of leaving it in `rows`.
-      const colsRow = (data.table.cols || []).map(c => c.label || '');
-      const dataRows = (data.table.rows || []).map(r => r.c.map(cellText));
-      const rows = [colsRow, ...dataRows];
-      const deals = parseDeals(rows);
-      render(deals);
-    } catch (e) {
-      showError('Could not read the sheet data: ' + e.message);
-    }
-  };
-
-  function loadSheet() {
-    const script = document.createElement('script');
-    // headers=0 forces Google to treat every row as data (no auto-detected
-    // header row), since our real header isn't on row 1 of the sheet.
-    script.src = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?gid=${GID}&headers=0&tqx=out:json;responseHandler:__handleSheetData`;
-    script.onerror = () => showError('Could not load the sheet. Make sure it is shared as "Anyone with the link can view."');
-    document.body.appendChild(script);
   }
 
   // Fixed column positions (A=0 .. O=14) rather than looking up by header
@@ -195,16 +191,67 @@
     return deals;
   }
 
-  function render(deals) {
+  function loadSheetData() {
+    return new Promise((resolve, reject) => {
+      window.__handleSheetData = function (data) {
+        try {
+          if (data.status === 'error') {
+            const msg = (data.errors && data.errors[0] && data.errors[0].detailed_message) || 'unknown error';
+            reject(new Error('Sheet query error: ' + msg));
+            return;
+          }
+          const colsRow = (data.table.cols || []).map(c => c.label || '');
+          const dataRows = (data.table.rows || []).map(r => r.c.map(cellText));
+          const rows = [colsRow, ...dataRows];
+          resolve(parseDeals(rows));
+        } catch (e) {
+          reject(e);
+        }
+      };
+      const script = document.createElement('script');
+      // headers=0 forces Google to treat every row as data (no auto-detected
+      // header row), since our real header isn't on row 1 of the sheet.
+      script.src = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?gid=${GID}&headers=0&tqx=out:json;responseHandler:__handleSheetData`;
+      script.onerror = () => reject(new Error('Could not load the sheet. Make sure it is shared as "Anyone with the link can view."'));
+      document.body.appendChild(script);
+    });
+  }
+
+  // sold.json lives alongside this page in the same repo. It's a plain
+  // object keyed by listing link: { "<link>": { "soldDate": "YYYY-MM-DD" } }
+  // Kept up to date by a scheduled check; missing/unreachable just means
+  // nothing is marked sold yet.
+  function loadSoldMap() {
+    return fetch('./sold.json', { cache: 'no-store' })
+      .then(r => (r.ok ? r.json() : {}))
+      .catch(() => ({}));
+  }
+
+  function render(deals, soldMap) {
+    soldMap = soldMap || {};
+    const now = Date.now();
+    const maxAgeMs = SOLD_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
+
+    const visible = deals.filter(d => {
+      const sold = soldMap[d.link];
+      if (!sold) return true;
+      const soldTime = new Date(sold.soldDate).getTime();
+      if (isNaN(soldTime)) return true;
+      return (now - soldTime) < maxAgeMs;
+    });
+
     const container = document.getElementById('deals');
     const status = document.getElementById('status');
-    if (!deals.length) {
+    if (!visible.length) {
       status.textContent = 'No deals found right now. Check back soon.';
       return;
     }
     status.style.display = 'none';
-    container.innerHTML = deals.map(d => `
-      <div class="deal">
+    container.innerHTML = visible.map(d => {
+      const sold = soldMap[d.link];
+      return `
+      <div class="deal${sold ? ' sold' : ''}">
+        ${sold ? SOLD_STAMP_SVG : ''}
         <div class="deal-info">
           <div class="deal-meta">
             ${d.pctBelow ? `<span class="badge">${d.pctBelow} below market</span>` : ''}
@@ -214,7 +261,8 @@
         </div>
         ${d.link ? `<a class="listing-btn" href="${d.link}" target="_blank" rel="noopener noreferrer">View Listing →</a>` : ''}
       </div>
-    `).join('');
+    `;
+    }).join('');
   }
 
   function showError(msg) {
@@ -224,7 +272,9 @@
     err.textContent = msg;
   }
 
-  loadSheet();
+  Promise.all([loadSheetData(), loadSoldMap()])
+    .then(([deals, soldMap]) => render(deals, soldMap))
+    .catch(e => showError(e.message || 'Something went wrong loading deals.'));
 </script>
 
 <script type="text/javascript"
