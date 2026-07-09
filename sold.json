@@ -1,8 +1,5 @@
 {
-  "https://forums.qrz.com/index.php?threads/996601/": {
-    "soldDate": "2026-07-07"
-  },
-  "https://swap.qth.com/view_ad.php?counter=1772728": {
-    "soldDate": "2026-07-08"
-  }
+  "https://swap.qth.com/view_ad.php?counter=1772728": {"soldDate": "2026-07-09"},
+  "https://forums.qrz.com/index.php?threads/996601/": {"soldDate": "2026-07-09"},
+  "https://forums.qrz.com/index.php?threads/996585/": {"soldDate": "2026-07-09"}
 }
