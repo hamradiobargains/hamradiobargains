@@ -202,70 +202,79 @@ const SOLD_STAMP_SVG = `<div class="sold-stamp"><svg viewBox="0 0 200 100">
 </g>
 </svg></div>`;
 
-// Uses Google's JSONP-style visualization endpoint instead of fetch(),
-// because docs.google.com does not send CORS headers that allow a plain
-// cross-origin fetch() to read the sheet from another domain. Loading it
-// as a <script> tag with a responseHandler callback sidesteps that.
-function cellText(cell) {
-if (!cell) return '';
-if (cell.f !== undefined && cell.f !== null) return String(cell.f);
-if (cell.v !== undefined && cell.v !== null) return String(cell.v);
-return '';
+// Fetches the sheet as CSV via a plain cross-origin fetch() (Google's gviz
+// endpoint sends permissive CORS headers for the CSV output format, unlike
+// the JSON output). This replaced an earlier <script src> JSONP approach:
+// on at least one mobile browser (Samsung Internet on Android) the JSONP
+// script tag was being silently blocked by built-in tracking/ad protection,
+// since its URL pattern (a docs.google.com request with a "responseHandler"
+// callback parameter) looks like a common JSONP-tracking signature to some
+// content blockers. A plain fetch() to a plain CSV URL avoids that pattern
+// and is also simpler to reason about/debug than JSONP.
+function parseCsv(text) {
+  const rows = [];
+  let row = [];
+  let field = '';
+  let inQuotes = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (inQuotes) {
+      if (c === '"') {
+        if (text[i + 1] === '"') { field += '"'; i++; }
+        else { inQuotes = false; }
+      } else {
+        field += c;
+      }
+    } else {
+      if (c === '"') { inQuotes = true; }
+      else if (c === ',') { row.push(field); field = ''; }
+      else if (c === '\r') { /* skip, \n handles line end */ }
+      else if (c === '\n') { row.push(field); rows.push(row); row = []; field = ''; }
+      else { field += c; }
+    }
+  }
+  if (field.length || row.length) { row.push(field); rows.push(row); }
+  return rows;
 }
 
 // Fixed column positions rather than looking up by header name: Google's
 // endpoint infers one data type per column from all its values, and
-// silently nulls out header-cell text that doesn't match the inferred
-// type. Data rows are unaffected, so reading by position is reliable.
-// The header is located via the Item column since item names are always
-// text and never trigger this. (This feed sheet has just 5 columns:
-// Date, Item, Link, Price, Pct Below — no seller callsign or margin data.)
+// silently blanks header-cell text that doesn't match the inferred type
+// (e.g. a date-typed column blanks its own "Date" header text). Data rows
+// are unaffected, so reading by position is reliable. The header row is
+// located via the Item column since item names are always text and never
+// trigger this. (This feed sheet has just 5 columns: Date, Item, Link,
+// Price, Pct Below — no seller callsign or margin data.)
 const COL_DATE = 0, COL_ITEM = 1, COL_LINK = 2, COL_PRICE = 3, COL_PCT = 4;
 
 function parseDeals(rows) {
-const headerIdx = rows.findIndex(r => (r[COL_ITEM] || '').trim() === 'Item');
-if (headerIdx === -1) return [];
+  const headerIdx = rows.findIndex(r => (r[COL_ITEM] || '').trim() === 'Item');
+  if (headerIdx === -1) return [];
 
-const deals = [];
-for (let i = headerIdx + 1; i < rows.length; i++) {
-const r = rows[i];
-const item = (r[COL_ITEM] || '').trim();
-if (!item) continue;
-deals.push({
-date: (r[COL_DATE] || '').trim(),
-item,
-link: (r[COL_LINK] || '').trim(),
-price: (r[COL_PRICE] || '').trim(),
-pctBelow: (r[COL_PCT] || '').trim(),
-});
-}
-return deals;
+  const deals = [];
+  for (let i = headerIdx + 1; i < rows.length; i++) {
+    const r = rows[i];
+    const item = (r[COL_ITEM] || '').trim();
+    if (!item) continue;
+    deals.push({
+      date: (r[COL_DATE] || '').trim(),
+      item,
+      link: (r[COL_LINK] || '').trim(),
+      price: (r[COL_PRICE] || '').trim(),
+      pctBelow: (r[COL_PCT] || '').trim(),
+    });
+  }
+  return deals;
 }
 
 function loadSheetData() {
-return new Promise((resolve, reject) => {
-window.__handleSheetData = function (data) {
-try {
-if (data.status === 'error') {
-const msg = (data.errors && data.errors[0] && data.errors[0].detailed_message) || 'unknown error';
-reject(new Error('Sheet query error: ' + msg));
-return;
-}
-const colsRow = (data.table.cols || []).map(c => c.label || '');
-const dataRows = (data.table.rows || []).map(r => r.c.map(cellText));
-const rows = [colsRow, ...dataRows];
-resolve(parseDeals(rows));
-} catch (e) {
-reject(e);
-}
-};
-const script = document.createElement('script');
-// headers=0 forces Google to treat every row as data (no auto-detected
-// header row), since our real header isn't on row 1 of the sheet.
-script.src = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?gid=${GID}&headers=0&tqx=out:json;responseHandler:__handleSheetData`;
-script.onerror = () => reject(new Error('Could not load the sheet. Make sure it is shared as "Anyone with the link can view."'));
-document.body.appendChild(script);
-});
+  const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?gid=${GID}&headers=0&tqx=out:csv`;
+  return fetch(url)
+    .then(r => {
+      if (!r.ok) throw new Error('Could not load the sheet. Make sure it is shared as "Anyone with the link can view."');
+      return r.text();
+    })
+    .then(text => parseDeals(parseCsv(text)));
 }
 
 // sold.json lives alongside this page in the same repo. It's a plain
@@ -273,59 +282,59 @@ document.body.appendChild(script);
 // Kept up to date by a scheduled check; missing/unreachable just means
 // nothing is marked sold yet.
 function loadSoldMap() {
-return fetch('./sold.json', { cache: 'no-store' })
-.then(r => (r.ok ? r.json() : {}))
-.catch(() => ({}));
+  return fetch('./sold.json', { cache: 'no-store' })
+    .then(r => (r.ok ? r.json() : {}))
+    .catch(() => ({}));
 }
 
 function render(deals, soldMap) {
-soldMap = soldMap || {};
-const now = Date.now();
-const maxAgeMs = SOLD_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
+  soldMap = soldMap || {};
+  const now = Date.now();
+  const maxAgeMs = SOLD_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
 
-const visible = deals.filter(d => {
-const sold = soldMap[d.link];
-if (!sold) return true;
-const soldTime = new Date(sold.soldDate).getTime();
-if (isNaN(soldTime)) return true;
-return (now - soldTime) < maxAgeMs;
-});
+  const visible = deals.filter(d => {
+    const sold = soldMap[d.link];
+    if (!sold) return true;
+    const soldTime = new Date(sold.soldDate).getTime();
+    if (isNaN(soldTime)) return true;
+    return (now - soldTime) < maxAgeMs;
+  });
 
-const container = document.getElementById('deals');
-const status = document.getElementById('status');
-if (!visible.length) {
-status.textContent = 'No deals found right now. Check back soon.';
-return;
-}
-status.style.display = 'none';
-container.innerHTML = visible.map(d => {
-const sold = soldMap[d.link];
-return `
-<div class="deal${sold ? ' sold' : ''}">
-${sold ? SOLD_STAMP_SVG : ''}
-<div class="deal-info">
-<div class="deal-meta">
-${d.pctBelow ? `<span class="badge">${d.pctBelow} below market</span>` : ''}
-${d.date ? `<span>${d.date}</span>` : ''}
-</div>
-<div class="price">${d.item}${d.price ? ' — ' + d.price : ''}</div>
-</div>
-${d.link ? `<a class="listing-btn" href="${d.link}" target="_blank" rel="noopener noreferrer">View Listing →</a>` : ''}
-</div>
-`;
-}).join('');
+  const container = document.getElementById('deals');
+  const status = document.getElementById('status');
+  if (!visible.length) {
+    status.textContent = 'No deals found right now. Check back soon.';
+    return;
+  }
+  status.style.display = 'none';
+  container.innerHTML = visible.map(d => {
+    const sold = soldMap[d.link];
+    return `
+    <div class="deal${sold ? ' sold' : ''}">
+      ${sold ? SOLD_STAMP_SVG : ''}
+      <div class="deal-info">
+        <div class="deal-meta">
+          ${d.pctBelow ? `<span class="badge">${d.pctBelow} below market</span>` : ''}
+          ${d.date ? `<span>${d.date}</span>` : ''}
+        </div>
+        <div class="price">${d.item}${d.price ? ' — ' + d.price : ''}</div>
+      </div>
+      ${d.link ? `<a class="listing-btn" href="${d.link}" target="_blank" rel="noopener noreferrer">View Listing →</a>` : ''}
+    </div>
+  `;
+  }).join('');
 }
 
 function showError(msg) {
-document.getElementById('status').style.display = 'none';
-const err = document.getElementById('error');
-err.style.display = 'block';
-err.textContent = msg;
+  document.getElementById('status').style.display = 'none';
+  const err = document.getElementById('error');
+  err.style.display = 'block';
+  err.textContent = msg;
 }
 
 Promise.all([loadSheetData(), loadSoldMap()])
-.then(([deals, soldMap]) => render(deals, soldMap))
-.catch(e => showError(e.message || 'Something went wrong loading deals.'));
+  .then(([deals, soldMap]) => render(deals, soldMap))
+  .catch(e => showError(e.message || 'Something went wrong loading deals.'));
 </script>
 
 <script type="text/javascript"
