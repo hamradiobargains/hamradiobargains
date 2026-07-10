@@ -185,8 +185,13 @@ Found a great deal here? Consider <a href="https://buymeacoffee.com/hamradiobarg
 
 <script>
 // ---- CONFIGURE THIS: your public Google Sheet ----
-const SHEET_ID = '1bazPsFf5ofiLqSvkfEpS-5yI__54enFmbkIrpRQMZaI';
-const GID = '997433872';
+// Points at a stripped-down "public feed" sheet (date/item/link/price/pct
+// below only) that is itself kept in sync via a live IMPORTRANGE/QUERY
+// formula from the private master margin-calculator sheet. The master
+// sheet (with seller callsigns and profit/margin figures) is NOT shared
+// publicly — only this feed sheet is, and it never contains those columns.
+const SHEET_ID = '1o8Ir0xy8ckXil7QI0oV2ReQ59vCLgE7foqjxxppqkCY';
+const GID = '0';
 const SOLD_MAX_AGE_DAYS = 7;
 
 const SOLD_STAMP_SVG = `<div class="sold-stamp"><svg viewBox="0 0 200 100">
@@ -208,15 +213,14 @@ if (cell.v !== undefined && cell.v !== null) return String(cell.v);
 return '';
 }
 
-// Fixed column positions (A=0 .. O=14) rather than looking up by header
-// name: Google's endpoint infers one data type per column from all its
-// values, and silently nulls out header-cell text that doesn't match the
-// inferred type (e.g. a numeric column nulls "QRZ Asking Price", a date
-// column nulls "Date Flagged" if any date cell is entered as a real date
-// value instead of text). Data rows are unaffected, so reading by
-// position is reliable. The header is located via the Item column since
-// item names are always text and never trigger this.
-const COL_DATE = 0, COL_ITEM = 1, COL_LINK = 3, COL_PRICE = 4, COL_PCT = 8;
+// Fixed column positions rather than looking up by header name: Google's
+// endpoint infers one data type per column from all its values, and
+// silently nulls out header-cell text that doesn't match the inferred
+// type. Data rows are unaffected, so reading by position is reliable.
+// The header is located via the Item column since item names are always
+// text and never trigger this. (This feed sheet has just 5 columns:
+// Date, Item, Link, Price, Pct Below — no seller callsign or margin data.)
+const COL_DATE = 0, COL_ITEM = 1, COL_LINK = 2, COL_PRICE = 3, COL_PCT = 4;
 
 function parseDeals(rows) {
 const headerIdx = rows.findIndex(r => (r[COL_ITEM] || '').trim() === 'Item');
