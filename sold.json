@@ -1,5 +1,14 @@
 {
-  "https://swap.qth.com/view_ad.php?counter=1772728": {"soldDate": "2026-07-10"},
-  "https://swap.qth.com/view_ad.php?counter=1772772": {"soldDate": "2026-07-10"},
-  "https://forums.qrz.com/index.php?threads/996601/": {"soldDate": "2026-07-10"}
+  "https://swap.qth.com/view_ad.php?counter=1772728": {
+    "soldDate": "2026-07-10"
+  },
+  "https://swap.qth.com/view_ad.php?counter=1772772": {
+    "soldDate": "2026-07-10"
+  },
+  "https://forums.qrz.com/index.php?threads/996601/": {
+    "soldDate": "2026-07-10"
+  },
+  "https://forums.qrz.com/index.php?threads/996585/": {
+    "soldDate": "2026-07-10"
+  }
 }
