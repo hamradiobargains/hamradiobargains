@@ -109,21 +109,24 @@ font-size: 0.78rem;
 }
 .price { font-weight: 600; color: var(--text); }
 .listing-wrap {
-display: flex;
-align-items: center;
-gap: 6px;
+position: relative;
+display: inline-flex;
 flex-shrink: 0;
 }
 .new-burst {
+position: absolute;
+top: -14px;
+right: -16px;
 display: inline-flex;
 align-items: center;
 justify-content: center;
-width: 50px;
-height: 50px;
-flex-shrink: 0;
+width: 40px;
+height: 40px;
 transform: rotate(-10deg);
 filter: drop-shadow(0 2px 3px rgba(0,0,0,0.45));
 animation: new-burst-pop 0.35s ease-out;
+pointer-events: none;
+z-index: 3;
 }
 .new-burst svg { width: 100%; height: 100%; display: block; }
 @keyframes new-burst-pop {
