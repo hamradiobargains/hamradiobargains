@@ -108,6 +108,29 @@ font-weight: 600;
 font-size: 0.78rem;
 }
 .price { font-weight: 600; color: var(--text); }
+.listing-wrap {
+display: flex;
+align-items: center;
+gap: 6px;
+flex-shrink: 0;
+}
+.new-burst {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+width: 50px;
+height: 50px;
+flex-shrink: 0;
+transform: rotate(-10deg);
+filter: drop-shadow(0 2px 3px rgba(0,0,0,0.45));
+animation: new-burst-pop 0.35s ease-out;
+}
+.new-burst svg { width: 100%; height: 100%; display: block; }
+@keyframes new-burst-pop {
+0% { transform: rotate(-10deg) scale(0.4); opacity: 0; }
+70% { transform: rotate(-10deg) scale(1.08); opacity: 1; }
+100% { transform: rotate(-10deg) scale(1); opacity: 1; }
+}
 .listing-btn {
 display: inline-block;
 background: var(--accent);
@@ -202,6 +225,13 @@ const SOLD_STAMP_SVG = `<div class="sold-stamp"><svg viewBox="0 0 200 100">
 </g>
 </svg></div>`;
 
+// Comic-book "POW!"-style starburst badge shown next to the listing button
+// for any deal posted within the last 24 hours.
+const NEW_BURST_SVG = `<span class="new-burst"><svg viewBox="0 0 200 200" role="img" aria-label="New">
+<polygon points="100.0,4.0 112.2,46.4 138.6,19.8 138.7,51.5 169.6,44.5 149.6,76.1 193.6,78.6 155.0,100.0 186.8,119.8 155.9,126.9 169.6,155.5 134.3,143.0 141.7,186.5 112.2,153.6 100.0,189.0 86.2,160.4 61.4,180.2 65.7,143.0 24.9,159.9 50.4,123.9 13.2,119.8 38.0,100.0 13.2,80.2 50.4,76.1 24.9,40.1 65.7,57.0 61.4,19.8 86.2,39.6" fill="#ffffff" stroke="#14181b" stroke-width="5" stroke-linejoin="round"/>
+<text x="100" y="114" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="46" font-weight="900" font-style="italic" fill="#14181b" letter-spacing="1">NEW</text>
+</svg></span>`;
+
 // Fetches the sheet as CSV via a plain cross-origin fetch() (Google's gviz
 // endpoint sends permissive CORS headers for the CSV output format, unlike
 // the JSON output). This replaced an earlier <script src> JSONP approach:
@@ -212,29 +242,29 @@ const SOLD_STAMP_SVG = `<div class="sold-stamp"><svg viewBox="0 0 200 100">
 // content blockers. A plain fetch() to a plain CSV URL avoids that pattern
 // and is also simpler to reason about/debug than JSONP.
 function parseCsv(text) {
-  const rows = [];
-  let row = [];
-  let field = '';
-  let inQuotes = false;
-  for (let i = 0; i < text.length; i++) {
-    const c = text[i];
-    if (inQuotes) {
-      if (c === '"') {
-        if (text[i + 1] === '"') { field += '"'; i++; }
-        else { inQuotes = false; }
-      } else {
-        field += c;
-      }
-    } else {
-      if (c === '"') { inQuotes = true; }
-      else if (c === ',') { row.push(field); field = ''; }
-      else if (c === '\r') { /* skip, \n handles line end */ }
-      else if (c === '\n') { row.push(field); rows.push(row); row = []; field = ''; }
-      else { field += c; }
-    }
-  }
-  if (field.length || row.length) { row.push(field); rows.push(row); }
-  return rows;
+const rows = [];
+let row = [];
+let field = '';
+let inQuotes = false;
+for (let i = 0; i < text.length; i++) {
+const c = text[i];
+if (inQuotes) {
+if (c === '"') {
+if (text[i + 1] === '"') { field += '"'; i++; }
+else { inQuotes = false; }
+} else {
+field += c;
+}
+} else {
+if (c === '"') { inQuotes = true; }
+else if (c === ',') { row.push(field); field = ''; }
+else if (c === '\r') { /* skip, \n handles line end */ }
+else if (c === '\n') { row.push(field); rows.push(row); row = []; field = ''; }
+else { field += c; }
+}
+}
+if (field.length || row.length) { row.push(field); rows.push(row); }
+return rows;
 }
 
 // Fixed column positions rather than looking up by header name: Google's
@@ -248,33 +278,33 @@ function parseCsv(text) {
 const COL_DATE = 0, COL_ITEM = 1, COL_LINK = 2, COL_PRICE = 3, COL_PCT = 4;
 
 function parseDeals(rows) {
-  const headerIdx = rows.findIndex(r => (r[COL_ITEM] || '').trim() === 'Item');
-  if (headerIdx === -1) return [];
+const headerIdx = rows.findIndex(r => (r[COL_ITEM] || '').trim() === 'Item');
+if (headerIdx === -1) return [];
 
-  const deals = [];
-  for (let i = headerIdx + 1; i < rows.length; i++) {
-    const r = rows[i];
-    const item = (r[COL_ITEM] || '').trim();
-    if (!item) continue;
-    deals.push({
-      date: (r[COL_DATE] || '').trim(),
-      item,
-      link: (r[COL_LINK] || '').trim(),
-      price: (r[COL_PRICE] || '').trim(),
-      pctBelow: (r[COL_PCT] || '').trim(),
-    });
-  }
-  return deals;
+const deals = [];
+for (let i = headerIdx + 1; i < rows.length; i++) {
+const r = rows[i];
+const item = (r[COL_ITEM] || '').trim();
+if (!item) continue;
+deals.push({
+date: (r[COL_DATE] || '').trim(),
+item,
+link: (r[COL_LINK] || '').trim(),
+price: (r[COL_PRICE] || '').trim(),
+pctBelow: (r[COL_PCT] || '').trim(),
+});
+}
+return deals;
 }
 
 function loadSheetData() {
-  const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?gid=${GID}&headers=0&tqx=out:csv`;
-  return fetch(url)
-    .then(r => {
-      if (!r.ok) throw new Error('Could not load the sheet. Make sure it is shared as "Anyone with the link can view."');
-      return r.text();
-    })
-    .then(text => parseDeals(parseCsv(text)));
+const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?gid=${GID}&headers=0&tqx=out:csv`;
+return fetch(url)
+.then(r => {
+if (!r.ok) throw new Error('Could not load the sheet. Make sure it is shared as "Anyone with the link can view."');
+return r.text();
+})
+.then(text => parseDeals(parseCsv(text)));
 }
 
 // sold.json lives alongside this page in the same repo. It's a plain
@@ -282,59 +312,74 @@ function loadSheetData() {
 // Kept up to date by a scheduled check; missing/unreachable just means
 // nothing is marked sold yet.
 function loadSoldMap() {
-  return fetch('./sold.json', { cache: 'no-store' })
-    .then(r => (r.ok ? r.json() : {}))
-    .catch(() => ({}));
+return fetch('./sold.json', { cache: 'no-store' })
+.then(r => (r.ok ? r.json() : {}))
+.catch(() => ({}));
+}
+
+// A deal counts as "new" for the POW! burst badge if it was posted within
+// the last 24 hours. Dates in the sheet are day-granularity only (no time
+// of day), so this is measured from local midnight of the deal's date.
+function isRecentDeal(dateStr) {
+if (!dateStr) return false;
+const posted = new Date(dateStr + 'T00:00:00');
+const postedTime = posted.getTime();
+if (isNaN(postedTime)) return false;
+return (Date.now() - postedTime) < (24 * 60 * 60 * 1000);
 }
 
 function render(deals, soldMap) {
-  soldMap = soldMap || {};
-  const now = Date.now();
-  const maxAgeMs = SOLD_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
+soldMap = soldMap || {};
+const now = Date.now();
+const maxAgeMs = SOLD_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
 
-  const visible = deals.filter(d => {
-    const sold = soldMap[d.link];
-    if (!sold) return true;
-    const soldTime = new Date(sold.soldDate).getTime();
-    if (isNaN(soldTime)) return true;
-    return (now - soldTime) < maxAgeMs;
-  });
+const visible = deals.filter(d => {
+const sold = soldMap[d.link];
+if (!sold) return true;
+const soldTime = new Date(sold.soldDate).getTime();
+if (isNaN(soldTime)) return true;
+return (now - soldTime) < maxAgeMs;
+});
 
-  const container = document.getElementById('deals');
-  const status = document.getElementById('status');
-  if (!visible.length) {
-    status.textContent = 'No deals found right now. Check back soon.';
-    return;
-  }
-  status.style.display = 'none';
-  container.innerHTML = visible.map(d => {
-    const sold = soldMap[d.link];
-    return `
-    <div class="deal${sold ? ' sold' : ''}">
-      ${sold ? SOLD_STAMP_SVG : ''}
-      <div class="deal-info">
-        <div class="deal-meta">
-          ${d.pctBelow ? `<span class="badge">${d.pctBelow} below market</span>` : ''}
-          ${d.date ? `<span>${d.date}</span>` : ''}
-        </div>
-        <div class="price">${d.item}${d.price ? ' — ' + d.price : ''}</div>
-      </div>
-      ${d.link ? `<a class="listing-btn" href="${d.link}" target="_blank" rel="noopener noreferrer">View Listing →</a>` : ''}
-    </div>
-  `;
-  }).join('');
+const container = document.getElementById('deals');
+const status = document.getElementById('status');
+if (!visible.length) {
+status.textContent = 'No deals found right now. Check back soon.';
+return;
+}
+status.style.display = 'none';
+container.innerHTML = visible.map(d => {
+const sold = soldMap[d.link];
+const isNew = !sold && isRecentDeal(d.date);
+return `
+<div class="deal${sold ? ' sold' : ''}">
+${sold ? SOLD_STAMP_SVG : ''}
+<div class="deal-info">
+<div class="deal-meta">
+${d.pctBelow ? `<span class="badge">${d.pctBelow} below market</span>` : ''}
+${d.date ? `<span>${d.date}</span>` : ''}
+</div>
+<div class="price">${d.item}${d.price ? ' — ' + d.price : ''}</div>
+</div>
+<div class="listing-wrap">
+${isNew ? NEW_BURST_SVG : ''}
+${d.link ? `<a class="listing-btn" href="${d.link}" target="_blank" rel="noopener noreferrer">View Listing →</a>` : ''}
+</div>
+</div>
+`;
+}).join('');
 }
 
 function showError(msg) {
-  document.getElementById('status').style.display = 'none';
-  const err = document.getElementById('error');
-  err.style.display = 'block';
-  err.textContent = msg;
+document.getElementById('status').style.display = 'none';
+const err = document.getElementById('error');
+err.style.display = 'block';
+err.textContent = msg;
 }
 
 Promise.all([loadSheetData(), loadSoldMap()])
-  .then(([deals, soldMap]) => render(deals, soldMap))
-  .catch(e => showError(e.message || 'Something went wrong loading deals.'));
+.then(([deals, soldMap]) => render(deals, soldMap))
+.catch(e => showError(e.message || 'Something went wrong loading deals.'));
 </script>
 
 <script type="text/javascript"
