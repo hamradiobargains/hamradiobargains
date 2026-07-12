@@ -1,29 +1,5 @@
 {
-  "https://swap.qth.com/view_ad.php?counter=1772728": {
-    "soldDate": "2026-07-10"
-  },
-  "https://swap.qth.com/view_ad.php?counter=1772772": {
-    "soldDate": "2026-07-10"
-  },
-  "https://forums.qrz.com/index.php?threads/996601/": {
-    "soldDate": "2026-07-10"
-  },
-  "https://forums.qrz.com/index.php?threads/996585/": {
-    "soldDate": "2026-07-10"
-  },
-  "https://www.eham.net/classifieds/627656": {
-    "soldDate": "2026-07-10"
-  },
-  "https://www.eham.net/classifieds/627655": {
-    "soldDate": "2026-07-10"
-  },
-  "https://www.ebay.com/itm/117274263171": {
-    "soldDate": "2026-07-10"
-  },
-  "https://www.facebook.com/marketplace/item/1047491097838719/": {
-    "soldDate": "2026-07-10"
-  },
-  "https://www.eham.net/classifieds/627602": {
-    "soldDate": "2026-07-11"
-  }
+  "https://swap.qth.com/view_ad.php?counter=1772728": {"soldDate": "2026-07-12"},
+  "https://swap.qth.com/view_ad.php?counter=1772772": {"soldDate": "2026-07-12"},
+  "https://www.eham.net/classifieds/627602": {"soldDate": "2026-07-12"}
 }
