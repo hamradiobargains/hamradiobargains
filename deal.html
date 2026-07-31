@@ -96,6 +96,13 @@ text-align: center;
 .comp-stat .num { font-size: 1.15rem; font-weight: 700; color: var(--text); }
 .comp-stat .lbl { font-size: 0.72rem; color: var(--muted); margin-top: 2px; }
 .comp-note { color: var(--muted); font-size: 0.85rem; margin: 0; }
+.seller-note {
+color: var(--muted);
+font-size: 0.82rem;
+margin: 14px 0 0;
+padding-top: 14px;
+border-top: 1px solid var(--border);
+}
 .no-comp-note {
 color: var(--muted);
 font-size: 0.88rem;
@@ -313,6 +320,7 @@ compBody.innerHTML = `
 </div>
 </div>
 <p class="comp-note">This listing was compared against ${compCount} recent comparable sales of similar equipment. Its asking price is ${deal.pctBelow || 'significantly'} below the median of those sales.</p>
+<p class="seller-note">We've done the math on pricing, but we haven't checked out the seller — that part's on you, the same as it would be anywhere else online. Take a look at their feedback and history before you buy.</p>
 `;
 } else {
 compCard.style.display = 'none';
