@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deal Analysis — Ham Radio Bargains</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTYwIDE2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTYwIiBoZWlnaHQ9IjE2MCIgcng9IjI4IiBmaWxsPSIjMGYxNDE3Ii8+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAsMjApIj4KICAgIDxwYXRoIGQ9Ik0yNCw1MCBRMTYsNjAgMjQsNzAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2U4ZWRmMCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9IjEiLz4KICAgIDxwYXRoIGQ9Ik0yMCw0MiBROCw2MCAyMCw3OCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZThlZGYwIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgb3BhY2l0eT0iMC43Ii8+CiAgICA8cGF0aCBkPSJNMTYsMzQgUTIsNjAgMTYsODYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2U4ZWRmMCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9IjAuNDUiLz4KICAgIDxwYXRoIGQ9Ik0zNCw2MCBMNjAsMjggTDEyMiwyOCBMMTIyLDkyIEw2MCw5MiBaIE01MCw2MCBBOCw4IDAgMSwwIDY2LDYwIEA4LDggMCAxLDAgNTAsNjAgWiIgZmlsbD0iI2ZmOGMzYiIgZmlsbC1ydWxlPSJldmVub2RkIi8+CiAgPC9nPgo8L3N2Zz4K">
+<style>
+:root {
+--bg: #0f1417;
+--card-bg: #171e23;
+--border: #2a343a;
+--text: #e8edf0;
+--muted: #8fa1a8;
+--accent: #ff8c3b;
+--accent-dim: #3a2a1a;
+--good: #4caf7d;
+}
+* { box-sizing: border-box; }
+body {
+margin: 0;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+background: var(--bg);
+color: var(--text);
+line-height: 1.5;
+}
+header {
+padding: 28px 24px;
+text-align: center;
+border-bottom: 1px solid var(--border);
+}
+header a { text-decoration: none; }
+header svg { width: 260px; max-width: 80%; height: auto; display: block; margin: 0 auto; }
+main { max-width: 640px; margin: 0 auto; padding: 32px 20px 64px; }
+.back-link {
+display: inline-block;
+color: var(--muted);
+text-decoration: none;
+font-size: 0.85rem;
+margin-bottom: 18px;
+}
+.back-link:hover { color: var(--text); }
+#status { text-align: center; color: var(--muted); padding: 60px 24px; }
+#error { text-align: center; color: #ff6b6b; padding: 60px 24px; display: none; }
+#content { display: none; }
+.card {
+background: var(--card-bg);
+border: 1px solid var(--border);
+border-radius: 12px;
+padding: 24px;
+margin-bottom: 16px;
+}
+.item-title { font-size: 1.3rem; font-weight: 700; margin: 0 0 6px; }
+.item-date { color: var(--muted); font-size: 0.85rem; margin: 0 0 18px; }
+.badge {
+display: inline-block;
+background: var(--accent-dim);
+color: var(--accent);
+padding: 3px 10px;
+border-radius: 999px;
+font-weight: 600;
+font-size: 0.82rem;
+margin-bottom: 16px;
+}
+.price-row {
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+padding: 10px 0;
+border-top: 1px solid var(--border);
+}
+.price-row:first-of-type { border-top: none; }
+.price-row .label { color: var(--muted); font-size: 0.9rem; }
+.price-row .value { font-weight: 600; font-size: 1rem; }
+.price-row .value.total { color: var(--accent); font-size: 1.15rem; }
+.section-title {
+font-size: 0.78rem;
+text-transform: uppercase;
+letter-spacing: 0.06em;
+color: var(--muted);
+margin: 0 0 14px;
+}
+.comp-stats {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 12px;
+margin-bottom: 16px;
+}
+.comp-stat {
+background: var(--bg);
+border: 1px solid var(--border);
+border-radius: 8px;
+padding: 14px 10px;
+text-align: center;
+}
+.comp-stat .num { font-size: 1.15rem; font-weight: 700; color: var(--text); }
+.comp-stat .lbl { font-size: 0.72rem; color: var(--muted); margin-top: 2px; }
+.comp-note { color: var(--muted); font-size: 0.85rem; margin: 0; }
+.no-comp-note {
+color: var(--muted);
+font-size: 0.88rem;
+padding: 4px 0 0;
+}
+.listing-btn {
+display: block;
+text-align: center;
+background: var(--accent);
+color: #1a1206;
+font-weight: 700;
+text-decoration: none;
+padding: 14px 18px;
+border-radius: 10px;
+font-size: 1rem;
+margin-top: 20px;
+transition: opacity 0.15s ease;
+}
+.listing-btn:hover { opacity: 0.85; }
+.disclaimer {
+color: var(--muted);
+font-size: 0.78rem;
+text-align: center;
+margin-top: 20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<a href="./" aria-label="Ham Radio Bargains home">
+<svg viewBox="0 0 680 160" role="img" aria-label="Ham Radio Bargains">
+<g transform="translate(20,20)">
+<path d="M24,50 Q16,60 24,70" fill="none" stroke="#e8edf0" stroke-width="4" stroke-linecap="round" opacity="1"/>
+<path d="M20,42 Q8,60 20,78" fill="none" stroke="#e8edf0" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+<path d="M16,34 Q2,60 16,86" fill="none" stroke="#e8edf0" stroke-width="4" stroke-linecap="round" opacity="0.45"/>
+<path d="M34,60 L60,28 L122,28 L122,92 L60,92 Z M50,60 A8,8 0 1,0 66,60 A8,8 0 1,0 50,60 Z" fill="#ff8c3b" fill-rule="evenodd"/>
+</g>
+<text x="190" y="93" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#e8edf0">Ham Radio</text>
+<text x="420" y="93" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#ff8c3b">Bargains</text>
+</svg>
+</a>
+</header>
+
+<main>
+<a class="back-link" href="./">&larr; Back to all deals</a>
+<div id="status">Loading deal analysis&hellip;</div>
+<div id="error"></div>
+
+<div id="content">
+<div class="card">
+<div class="item-title" id="item-title"></div>
+<div class="item-date" id="item-date"></div>
+<div class="badge" id="item-badge"></div>
+
+<div class="price-row">
+<span class="label">Asking price</span>
+<span class="value" id="price-asking"></span>
+</div>
+<div class="price-row" id="row-extra" style="display:none;">
+<span class="label">Additional shipping / fees</span>
+<span class="value" id="price-extra"></span>
+</div>
+<div class="price-row">
+<span class="label">Total to acquire</span>
+<span class="value total" id="price-total"></span>
+</div>
+</div>
+
+<div class="card" id="comp-card">
+<div class="section-title">How we checked this price</div>
+<div id="comp-body"></div>
+</div>
+
+<a class="listing-btn" id="go-to-listing" href="#" target="_blank" rel="noopener noreferrer">Go to Listing &rarr;</a>
+
+<p class="disclaimer">"% below market" and the comparison figures above are estimates based on recent comparable sale prices — condition, included accessories, and current prices can vary. Always compare before buying.</p>
+</div>
+</main>
+
+<script>
+// Same public feed sheet the homepage reads from. Columns (in order):
+// Date, Item, Link, Price, Extra Cost, Pct Below, Median Comp Price,
+// Comp Count, Comp Price Low, Comp Price High. The last four columns are
+// only populated for deals flagged after this detail-page feature shipped;
+// older deals will simply have blanks there, which this page handles
+// gracefully by omitting the "how we checked this" section.
+const SHEET_ID = '1o8Ir0xy8ckXil7QI0oV2ReQ59vCLgE7foqjxxppqkCY';
+const GID = '0';
+
+const COL_DATE = 0, COL_ITEM = 1, COL_LINK = 2, COL_PRICE = 3, COL_EXTRA = 4,
+COL_PCT = 5, COL_MEDIAN = 6, COL_COMPCOUNT = 7, COL_COMPLOW = 8, COL_COMPHIGH = 9;
+
+function parseCsv(text) {
+const rows = [];
+let row = [];
+let field = '';
+let inQuotes = false;
+for (let i = 0; i < text.length; i++) {
+const c = text[i];
+if (inQuotes) {
+if (c === '"') {
+if (text[i + 1] === '"') { field += '"'; i++; }
+else { inQuotes = false; }
+} else {
+field += c;
+}
+} else {
+if (c === '"') { inQuotes = true; }
+else if (c === ',') { row.push(field); field = ''; }
+else if (c === '\r') { /* skip */ }
+else if (c === '\n') { row.push(field); rows.push(row); row = []; field = ''; }
+else { field += c; }
+}
+}
+if (field.length || row.length) { row.push(field); rows.push(row); }
+return rows;
+}
+
+function parseDeals(rows) {
+const headerIdx = rows.findIndex(r => (r[COL_ITEM] || '').trim() === 'Item');
+if (headerIdx === -1) return [];
+const deals = [];
+for (let i = headerIdx + 1; i < rows.length; i++) {
+const r = rows[i];
+const item = (r[COL_ITEM] || '').trim();
+if (!item) continue;
+deals.push({
+date: (r[COL_DATE] || '').trim(),
+item,
+link: (r[COL_LINK] || '').trim(),
+price: (r[COL_PRICE] || '').trim(),
+extra: (r[COL_EXTRA] || '').trim(),
+pctBelow: (r[COL_PCT] || '').trim(),
+median: (r[COL_MEDIAN] || '').trim(),
+compCount: (r[COL_COMPCOUNT] || '').trim(),
+compLow: (r[COL_COMPLOW] || '').trim(),
+compHigh: (r[COL_COMPHIGH] || '').trim(),
+});
+}
+return deals;
+}
+
+function loadDeals() {
+const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?gid=${GID}&headers=0&tqx=out:csv`;
+return fetch(url)
+.then(r => {
+if (!r.ok) throw new Error('Could not load deal data right now.');
+return r.text();
+})
+.then(text => parseDeals(parseCsv(text)));
+}
+
+function moneyToNumber(s) {
+if (!s) return NaN;
+const n = parseFloat(String(s).replace(/[^0-9.\-]/g, ''));
+return isNaN(n) ? NaN : n;
+}
+
+function formatMoney(n) {
+if (isNaN(n)) return '';
+return '$' + n.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+function showError(msg) {
+document.getElementById('status').style.display = 'none';
+const err = document.getElementById('error');
+err.style.display = 'block';
+err.innerHTML = msg + '<br><br><a class="back-link" href="./" style="display:inline-block;">&larr; Back to all deals</a>';
+}
+
+function render(deal) {
+document.getElementById('status').style.display = 'none';
+document.getElementById('content').style.display = 'block';
+
+document.getElementById('item-title').textContent = deal.item;
+document.getElementById('item-date').textContent = deal.date ? `Flagged ${deal.date}` : '';
+document.getElementById('item-badge').textContent = deal.pctBelow ? `${deal.pctBelow} below market` : 'Below-market deal';
+
+const asking = moneyToNumber(deal.price);
+const extra = moneyToNumber(deal.extra);
+document.getElementById('price-asking').textContent = formatMoney(asking) || deal.price || '—';
+
+if (!isNaN(extra) && extra > 0) {
+document.getElementById('row-extra').style.display = 'flex';
+document.getElementById('price-extra').textContent = formatMoney(extra);
+document.getElementById('price-total').textContent = formatMoney(asking + extra);
+} else {
+document.getElementById('price-total').textContent = (!isNaN(extra) && extra === 0)
+? formatMoney(asking) + ' (shipping/fees included)'
+: (formatMoney(asking) || deal.price || '—');
+}
+
+const compCard = document.getElementById('comp-card');
+const compBody = document.getElementById('comp-body');
+const compCount = parseInt(deal.compCount, 10);
+const compLow = moneyToNumber(deal.compLow);
+const compHigh = moneyToNumber(deal.compHigh);
+const median = moneyToNumber(deal.median);
+
+if (compCount && compCount > 0 && !isNaN(compLow) && !isNaN(compHigh)) {
+compBody.innerHTML = `
+<div class="comp-stats">
+<div class="comp-stat">
+<div class="num">${compCount}</div>
+<div class="lbl">Comparable sales</div>
+</div>
+<div class="comp-stat">
+<div class="num">${formatMoney(compLow)}&ndash;${formatMoney(compHigh)}</div>
+<div class="lbl">Price range</div>
+</div>
+<div class="comp-stat">
+<div class="num">${!isNaN(median) ? formatMoney(median) : '—'}</div>
+<div class="lbl">Median price</div>
+</div>
+</div>
+<p class="comp-note">This listing was compared against ${compCount} recent comparable sales of similar equipment. Its asking price is ${deal.pctBelow || 'significantly'} below the median of those sales.</p>
+`;
+} else {
+compCard.style.display = 'none';
+}
+
+const link = document.getElementById('go-to-listing');
+if (deal.link) {
+link.href = deal.link;
+} else {
+link.style.display = 'none';
+}
+}
+
+const params = new URLSearchParams(window.location.search);
+const linkParam = params.get('link');
+
+if (!linkParam) {
+showError('No listing was specified.');
+} else {
+loadDeals()
+.then(deals => {
+const match = deals.find(d => d.link === linkParam);
+if (!match) {
+showError('This deal could not be found — it may have been removed.');
+return;
+}
+render(match);
+})
+.catch(e => showError(e.message || 'Something went wrong loading this deal.'));
+}
+</script>
+
+</body>
+</html>
