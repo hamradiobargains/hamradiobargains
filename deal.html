@@ -130,7 +130,7 @@ margin-top: 20px;
 }
 </style>
 <script data-goatcounter="https://hrb.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
 
@@ -294,7 +294,7 @@ document.getElementById('price-extra').textContent = formatMoney(extra);
 document.getElementById('price-total').textContent = formatMoney(asking + extra);
 } else {
 document.getElementById('price-total').textContent = (!isNaN(extra) && extra === 0)
-? formatMoney(asking) + ' (shipping/fees included)'
+? formatMoney(asking) + ' (no added cost beyond asking price)'
 : (formatMoney(asking) || deal.price || '—');
 }
 
