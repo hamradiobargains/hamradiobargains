@@ -294,7 +294,7 @@ document.getElementById('price-extra').textContent = formatMoney(extra);
 document.getElementById('price-total').textContent = formatMoney(asking + extra);
 } else {
 document.getElementById('price-total').textContent = (!isNaN(extra) && extra === 0)
-? formatMoney(asking) + ' (no added cost beyond asking price)'
+? formatMoney(asking) + ''
 : (formatMoney(asking) || deal.price || '—');
 }
 
