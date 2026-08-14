@@ -1,0 +1,83 @@
+<!--
+  Ham Radio Bargains — Daily Digest email template
+  =================================================
+  For use with Resend's `html` field on the emails/send (or Broadcasts) endpoint.
+
+  Placeholders (simple string-replace, not a templating engine):
+    {{DATE}}              - e.g. "August 14, 2026"
+    {{DEAL_COUNT}}        - number of new deals in this digest, e.g. "3"
+    {{DEALS_HTML}}        - concatenated deal-card blocks (see deal-card-partial.html)
+    {{RESEND_UNSUBSCRIBE_URL}} - Resend's merge tag, leave literal, Resend fills it in
+
+  Email-safe constraints followed here:
+    - Table-based layout (no flexbox/grid — unreliable in Outlook/older clients)
+    - All styles inline (no <style> block relied on for anything structural)
+    - Max width 600px
+    - Web-safe fallback fonts
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>New Ham Radio Bargains — {{DATE}}</title>
+</head>
+<body style="margin:0; padding:0; background-color:#0f1417; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#0f1417;">
+<tr>
+<td align="center" style="padding:24px 16px;">
+
+<table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px; width:100%;">
+
+<!-- Header / logo -->
+<tr>
+<td align="center" style="padding-bottom:24px; border-bottom:1px solid #2a343a;">
+<a href="https://hamradiobargains.com/" style="text-decoration:none;">
+<span style="font-size:28px; font-weight:700; color:#e8edf0; font-family:Arial,Helvetica,sans-serif;">Ham Radio </span><span style="font-size:28px; font-weight:700; color:#ff8c3b; font-family:Arial,Helvetica,sans-serif;">Bargains</span>
+</a>
+</td>
+</tr>
+
+<!-- Intro line -->
+<tr>
+<td style="padding:24px 8px 8px;">
+<p style="margin:0; color:#8fa1a8; font-size:14px;">{{DATE}}</p>
+<h1 style="margin:6px 0 0; color:#e8edf0; font-size:22px; font-weight:700;">{{DEAL_COUNT}} new below-market deal(s) just posted</h1>
+</td>
+</tr>
+
+<!-- Deal cards go here -->
+<tr>
+<td style="padding:16px 8px;">
+{{DEALS_HTML}}
+</td>
+</tr>
+
+<!-- CTA back to site -->
+<tr>
+<td align="center" style="padding:8px 8px 32px;">
+<a href="https://hamradiobargains.com/" style="display:inline-block; background-color:#ff8c3b; color:#1a1206; font-weight:700; text-decoration:none; padding:12px 24px; border-radius:8px; font-size:15px;">See all deals &rarr;</a>
+</td>
+</tr>
+
+<!-- Footer -->
+<tr>
+<td style="padding:20px 8px; border-top:1px solid #2a343a; text-align:center;">
+<p style="margin:0 0 8px; color:#8fa1a8; font-size:12px; line-height:1.5;">
+"% below market" and comparison figures are estimates based on recent comparable sale prices &mdash; condition, included accessories, and current prices can vary. Always compare before buying.
+</p>
+<p style="margin:0 0 8px; color:#8fa1a8; font-size:12px;">
+87 Indian Springs Rd, Burlington, NC 27217
+</p>
+<p style="margin:0; color:#8fa1a8; font-size:12px;">
+<a href="{{{RESEND_UNSUBSCRIBE_URL}}}" style="color:#8fa1a8; text-decoration:underline;">Unsubscribe</a> from these alerts
+</p>
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

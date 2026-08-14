@@ -1,0 +1,42 @@
+<!--
+  Ham Radio Bargains — single deal-card partial
+  ===============================================
+  One of these gets built per new deal and concatenated into {{DEALS_HTML}}
+  in daily-digest-template.html. Also reusable standalone as the body of the
+  future instant-alert send (see instant-alert-template.html for the full
+  single-deal email wrapper).
+
+  Placeholders:
+    {{ITEM_NAME}}     - e.g. "Ameritron AL-811H HF Linear Amplifier"
+    {{PRICE}}         - e.g. "$850.00"
+    {{PCT_BELOW}}     - e.g. "26.1%"
+    {{DEAL_URL}}      - full deal.html?link=... URL, percent-encoded per existing policy
+-->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#171e23; border:1px solid #2a343a; border-radius:10px; margin-bottom:12px;">
+<tr>
+<td style="padding:18px 20px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<span style="display:inline-block; background-color:#3a2a1a; color:#ff8c3b; font-size:12px; font-weight:600; padding:3px 10px; border-radius:999px;">{{PCT_BELOW}} below market</span>
+</td>
+</tr>
+<tr>
+<td style="padding-top:10px;">
+<a href="{{DEAL_URL}}" style="color:#e8edf0; font-size:17px; font-weight:700; text-decoration:none;">{{ITEM_NAME}}</a>
+</td>
+</tr>
+<tr>
+<td style="padding-top:6px;">
+<span style="color:#ff8c3b; font-size:16px; font-weight:600;">{{PRICE}}</span>
+</td>
+</tr>
+<tr>
+<td style="padding-top:12px;">
+<a href="{{DEAL_URL}}" style="color:#8fa1a8; font-size:13px; text-decoration:underline;">See the price breakdown &rarr;</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
