@@ -1,13 +1,4 @@
 {
-  "https://www.ebay.com/itm/407033942447": {
-    "soldDate": "2026-07-15"
-  },
-  "https://swap.qth.com/view_ad.php?counter=1773203": {
-    "soldDate": "2026-07-15"
-  },
-  "https://www.ebay.com/itm/278029342937": {
-    "soldDate": "2026-07-15"
-  },
   "https://swap.qth.com/view_ad.php?counter=1773489": {
     "soldDate": "2026-07-16"
   },
@@ -289,5 +280,11 @@
   },
   "https://www.ebay.com/itm/206489050428": {
     "soldDate": "2026-08-14"
+  },
+  "https://www.eham.net/classifieds/628179": {
+    "soldDate": "2026-08-15"
+  },
+  "https://www.facebook.com/marketplace/item/3608344485985041/": {
+    "soldDate": "2026-08-15"
   }
 }
