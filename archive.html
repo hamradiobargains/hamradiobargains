@@ -64,7 +64,7 @@ gap: 12px;
 }
 .filters .row {
 display: grid;
-grid-template-columns: repeat(3, 1fr);
+grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 gap: 12px;
 }
 @media (max-width: 560px) {
@@ -183,17 +183,6 @@ border-top: 1px solid var(--border);
 </div>
 <div class="row">
 <div>
-<label for="f-source">Source</label>
-<select id="f-source">
-<option value="">All sources</option>
-<option value="ebay.com">eBay</option>
-<option value="eham.net">eHam</option>
-<option value="swap.qth.com">QTH</option>
-<option value="facebook.com">Facebook Marketplace</option>
-<option value="forums.qrz.com">QRZ Forums</option>
-</select>
-</div>
-<div>
 <label for="f-sort">Sort by</label>
 <select id="f-sort">
 <option value="date-desc">Newest first</option>
@@ -203,7 +192,6 @@ border-top: 1px solid var(--border);
 <option value="price-desc">Highest price</option>
 </select>
 </div>
-<div></div>
 </div>
 </div>
 
@@ -326,14 +314,12 @@ function applyFilters() {
 const kw = document.getElementById('f-keyword').value.trim().toLowerCase();
 const priceMax = parseFloat(document.getElementById('f-price-max').value);
 const pctMin = parseFloat(document.getElementById('f-pct-min').value);
-const source = document.getElementById('f-source').value;
 const sort = document.getElementById('f-sort').value;
 
 filtered = allDeals.filter(d => {
 if (kw && !d.item.toLowerCase().includes(kw)) return false;
 if (!isNaN(priceMax) && (d.price === null || d.price > priceMax)) return false;
 if (!isNaN(pctMin) && (d.pctBelow === null || d.pctBelow < pctMin)) return false;
-if (source && d.source !== source) return false;
 return true;
 });
 
@@ -379,7 +365,7 @@ function escapeHtml(s) {
 return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
-['f-keyword','f-price-max','f-pct-min','f-source','f-sort'].forEach(id => {
+['f-keyword','f-price-max','f-pct-min','f-sort'].forEach(id => {
 document.getElementById(id).addEventListener('input', applyFilters);
 document.getElementById(id).addEventListener('change', applyFilters);
 });
