@@ -255,20 +255,6 @@ function fmtMoney(n) {
 if (n === null) return '—';
 return '$' + n.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
 }
-function sourceFromLink(link) {
-try {
-const host = new URL(link).hostname.replace(/^www\./, '');
-if (host.includes('ebay.com')) return 'ebay.com';
-if (host.includes('eham.net')) return 'eham.net';
-if (host.includes('swap.qth.com')) return 'swap.qth.com';
-if (host.includes('facebook.com')) return 'facebook.com';
-if (host.includes('forums.qrz.com')) return 'forums.qrz.com';
-return host;
-} catch (e) { return ''; }
-}
-function sourceLabel(src) {
-return { 'ebay.com': 'eBay', 'eham.net': 'eHam', 'swap.qth.com': 'QTH', 'facebook.com': 'Facebook Marketplace', 'forums.qrz.com': 'QRZ Forums' }[src] || src;
-}
 
 async function loadArchive() {
 const statusEl = document.getElementById('status');
@@ -297,8 +283,7 @@ pctBelow: pct(r[5]),
 median: money(r[6]),
 compCount: r[7] || '',
 compLow: money(r[8]),
-compHigh: money(r[9]),
-source: sourceFromLink(link)
+compHigh: money(r[9])
 });
 });
 statusEl.style.display = 'none';
@@ -353,7 +338,7 @@ a.innerHTML = `
 <span class="badge">${pctText}</span>
 <div class="item-name">${escapeHtml(d.item)}</div>
 <div class="price">${priceText}</div>
-<div class="meta">${escapeHtml(d.date)}${d.source ? ' &middot; ' + escapeHtml(sourceLabel(d.source)) : ''}</div>
+<div class="meta">${escapeHtml(d.date)}</div>
 `;
 cardsEl.appendChild(a);
 });
