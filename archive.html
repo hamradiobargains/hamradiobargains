@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Deal Archive — Ham Radio Bargains</title>
-<meta name="description" content="Search every below-market ham radio deal ever flagged by Ham Radio Bargains.">
+<meta name="description" content="Look up the fair market value of ham radio gear based on every comparable deal we've flagged.">
 <style>
 :root {
 --bg: #0f1417;
@@ -50,102 +50,75 @@ text-decoration: none;
 font-size: 0.9rem;
 }
 header .back-link:hover { text-decoration: underline; }
-main { max-width: 760px; margin: 0 auto; padding: 28px 20px 64px; }
+main { max-width: 640px; margin: 0 auto; padding: 32px 20px 64px; }
 
-.filters {
+.search-box {
 background: var(--card-bg);
 border: 1px solid var(--border);
 border-radius: 10px;
 padding: 18px 20px;
-margin-bottom: 20px;
-display: grid;
-grid-template-columns: 1fr;
-gap: 12px;
+margin-bottom: 24px;
 }
-.filters .row {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-gap: 12px;
-}
-@media (max-width: 560px) {
-.filters .row { grid-template-columns: 1fr; }
-}
-.filters label {
+.search-box label {
 display: block;
 font-size: 0.78rem;
 color: var(--muted);
-margin-bottom: 4px;
+margin-bottom: 6px;
 }
-.filters input, .filters select {
+.search-box input {
 width: 100%;
 background: var(--bg);
 border: 1px solid var(--border);
 color: var(--text);
 border-radius: 6px;
-padding: 8px 10px;
-font-size: 0.9rem;
+padding: 10px 12px;
+font-size: 1rem;
 font-family: inherit;
 }
-.filters input:focus, .filters select:focus {
+.search-box input:focus {
 outline: none;
 border-color: var(--accent);
 }
 
 #status { text-align: center; color: var(--muted); padding: 24px; }
 #error { text-align: center; color: #ff6b6b; padding: 24px; display: none; }
-#result-count { color: var(--muted); font-size: 0.85rem; margin: 0 0 12px 4px; }
+#prompt { text-align: center; color: var(--muted); padding: 32px 16px; display: none; }
+#no-results { text-align: center; color: var(--muted); padding: 32px 16px; display: none; }
 
-.deal-card {
+.result-card {
 background: var(--card-bg);
 border: 1px solid var(--border);
 border-radius: 10px;
-padding: 16px 20px;
-margin-bottom: 12px;
-display: block;
-text-decoration: none;
-color: inherit;
-transition: border-color 0.15s;
+padding: 24px 28px;
+display: none;
 }
-.deal-card:hover { border-color: var(--accent); }
-.deal-card .badge {
-display: inline-block;
-background: var(--accent-dim);
-color: var(--accent);
-font-size: 0.75rem;
-font-weight: 600;
-padding: 3px 10px;
-border-radius: 999px;
+.result-card .query-label {
+color: var(--muted);
+font-size: 0.85rem;
+margin-bottom: 4px;
 }
-.deal-card .item-name {
-margin: 10px 0 4px;
-font-size: 1.02rem;
+.result-card .item-name {
+font-size: 1.3rem;
 font-weight: 700;
 color: var(--text);
+margin-bottom: 20px;
 }
-.deal-card .price {
+.stat-row {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 16px;
+}
+.stat { text-align: center; }
+.stat .value {
+font-size: 1.35rem;
+font-weight: 700;
 color: var(--accent);
-font-size: 0.98rem;
-font-weight: 600;
 }
-.deal-card .meta {
-margin-top: 6px;
+.stat .label {
+font-size: 0.75rem;
 color: var(--muted);
-font-size: 0.8rem;
+margin-top: 4px;
 }
-
-#load-more {
-display: block;
-margin: 20px auto 0;
-background: var(--card-bg);
-border: 1px solid var(--border);
-color: var(--text);
-border-radius: 8px;
-padding: 10px 20px;
-font-size: 0.9rem;
-cursor: pointer;
-}
-#load-more:hover { border-color: var(--accent); }
-#no-results { text-align: center; color: var(--muted); padding: 32px 0; display: none; }
 
 footer {
 text-align: center;
@@ -161,60 +134,50 @@ border-top: 1px solid var(--border);
 <header>
 <a class="logo" href="https://hamradiobargains.com/"><span style="font-size:1.5rem; font-weight:700;"><span class="b">Ham Radio </span><span class="o">Bargains</span></span></a>
 <h1>Deal Archive</h1>
-<p>Every below-market deal we've ever flagged, searchable. New deals get added here the same day they're posted — nothing is ever removed, even after it sells or ages off the live feed.</p>
+<p>Search any radio or gear model to see its fair market value, based on every comparable deal we've flagged. The more we log, the more reliable this gets.</p>
 <a class="back-link" href="https://hamradiobargains.com/">&larr; Back to live deals</a>
 </header>
 
 <main>
-<div class="filters">
-<div class="row">
-<div>
+<div class="search-box">
 <label for="f-keyword">Search item</label>
-<input type="text" id="f-keyword" placeholder="e.g. Yaesu, IC-7300, amplifier">
-</div>
-<div>
-<label for="f-price-max">Max price</label>
-<input type="number" id="f-price-max" placeholder="e.g. 500" min="0">
-</div>
-<div>
-<label for="f-pct-min">Min % below market</label>
-<input type="number" id="f-pct-min" placeholder="e.g. 20" min="0" max="100">
-</div>
-</div>
-<div class="row">
-<div>
-<label for="f-sort">Sort by</label>
-<select id="f-sort">
-<option value="date-desc">Newest first</option>
-<option value="date-asc">Oldest first</option>
-<option value="pct-desc">Biggest discount</option>
-<option value="price-asc">Lowest price</option>
-<option value="price-desc">Highest price</option>
-</select>
-</div>
-</div>
+<input type="text" id="f-keyword" placeholder="e.g. Yaesu FT-857, IC-7300, AL-80B" autocomplete="off">
 </div>
 
 <div id="status">Loading archive&hellip;</div>
 <div id="error">Couldn't load the archive right now. Try refreshing in a bit.</div>
-<div id="result-count"></div>
-<div id="cards"></div>
-<div id="no-results">No deals match those filters. Try widening your search.</div>
-<button id="load-more" style="display:none;">Show more</button>
+<div id="prompt">Type a model name above to look up its fair market value.</div>
+<div id="no-results">No comparable sales found in the archive yet for this search. Check back as we log more deals.</div>
+
+<div class="result-card" id="result-card">
+<div class="query-label">Fair market value for</div>
+<div class="item-name" id="result-name"></div>
+<div class="stat-row">
+<div class="stat">
+<div class="value" id="result-count"></div>
+<div class="label">Comparable sales</div>
+</div>
+<div class="stat">
+<div class="value" id="result-range"></div>
+<div class="label">Price range</div>
+</div>
+<div class="stat">
+<div class="value" id="result-median"></div>
+<div class="label">Median price</div>
+</div>
+</div>
+</div>
 </main>
 
 <footer>
-"% below market" is an estimate based on recent comparable sale prices — condition, included accessories, and current prices can vary. Always compare before buying.
+Fair market estimates are based on prices from deals we've flagged over time — not a live market feed. Condition, included accessories, and current prices can vary. Always compare before buying.
 </footer>
 
 <script>
 const SHEET_ID = "1o8Ir0xy8ckXil7QI0oV2ReQ59vCLgE7foqjxxppqkCY";
 const ARCHIVE_GID = "230246201";
-const PAGE_SIZE = 30;
 
 let allDeals = [];
-let filtered = [];
-let shown = 0;
 
 function parseCsv(text) {
 const rows = [];
@@ -246,14 +209,14 @@ if (!v) return null;
 const n = parseFloat(String(v).replace(/[^0-9.\-]/g, ''));
 return isNaN(n) ? null : n;
 }
-function pct(v) {
-if (!v) return null;
-const n = parseFloat(String(v).replace(/[^0-9.\-]/g, ''));
-return isNaN(n) ? null : n;
-}
 function fmtMoney(n) {
 if (n === null) return '—';
 return '$' + n.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
+}
+function median(arr) {
+const sorted = [...arr].sort((a, b) => a - b);
+const mid = Math.floor(sorted.length / 2);
+return sorted.length % 2 !== 0 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
 }
 
 async function loadArchive() {
@@ -272,22 +235,13 @@ dataRows.forEach(r => {
 const link = r[2];
 if (!link || seen.has(link)) return;
 seen.add(link);
-allDeals.push({
-date: r[0] || '',
-item: r[1] || '',
-link: link,
-price: money(r[3]),
-priceRaw: r[3] || '',
-extraCost: money(r[4]),
-pctBelow: pct(r[5]),
-median: money(r[6]),
-compCount: r[7] || '',
-compLow: money(r[8]),
-compHigh: money(r[9])
-});
+const price = money(r[3]);
+if (price === null) return;
+const extra = money(r[4]) || 0;
+allDeals.push({ item: r[1] || '', totalPrice: price + extra });
 });
 statusEl.style.display = 'none';
-applyFilters();
+document.getElementById('prompt').style.display = 'block';
 } catch (e) {
 statusEl.style.display = 'none';
 errorEl.style.display = 'block';
@@ -295,66 +249,44 @@ console.error(e);
 }
 }
 
-function applyFilters() {
+function runSearch() {
 const kw = document.getElementById('f-keyword').value.trim().toLowerCase();
-const priceMax = parseFloat(document.getElementById('f-price-max').value);
-const pctMin = parseFloat(document.getElementById('f-pct-min').value);
-const sort = document.getElementById('f-sort').value;
+const promptEl = document.getElementById('prompt');
+const noResultsEl = document.getElementById('no-results');
+const resultCard = document.getElementById('result-card');
 
-filtered = allDeals.filter(d => {
-if (kw && !d.item.toLowerCase().includes(kw)) return false;
-if (!isNaN(priceMax) && (d.price === null || d.price > priceMax)) return false;
-if (!isNaN(pctMin) && (d.pctBelow === null || d.pctBelow < pctMin)) return false;
-return true;
-});
-
-filtered.sort((a, b) => {
-switch (sort) {
-case 'date-asc': return (a.date || '').localeCompare(b.date || '');
-case 'pct-desc': return (b.pctBelow || -Infinity) - (a.pctBelow || -Infinity);
-case 'price-asc': return (a.price === null ? Infinity : a.price) - (b.price === null ? Infinity : b.price);
-case 'price-desc': return (b.price === null ? -Infinity : b.price) - (a.price === null ? -Infinity : a.price);
-default: return (b.date || '').localeCompare(a.date || '');
-}
-});
-
-shown = 0;
-document.getElementById('cards').innerHTML = '';
-document.getElementById('result-count').textContent = filtered.length.toLocaleString() + ' deal' + (filtered.length === 1 ? '' : 's') + ' found';
-document.getElementById('no-results').style.display = filtered.length === 0 ? 'block' : 'none';
-renderMore();
+if (!kw) {
+promptEl.style.display = 'block';
+noResultsEl.style.display = 'none';
+resultCard.style.display = 'none';
+return;
 }
 
-function renderMore() {
-const cardsEl = document.getElementById('cards');
-const next = filtered.slice(shown, shown + PAGE_SIZE);
-next.forEach(d => {
-const a = document.createElement('a');
-a.className = 'deal-card';
-a.href = 'https://hamradiobargains.com/deal.html?link=' + encodeURIComponent(d.link);
-const pctText = d.pctBelow !== null ? d.pctBelow + '% below market' : 'Price comp on file';
-const priceText = d.price !== null ? fmtMoney(d.price) : (d.priceRaw || '—');
-a.innerHTML = `
-<span class="badge">${pctText}</span>
-<div class="item-name">${escapeHtml(d.item)}</div>
-<div class="price">${priceText}</div>
-<div class="meta">${escapeHtml(d.date)}</div>
-`;
-cardsEl.appendChild(a);
-});
-shown += next.length;
-document.getElementById('load-more').style.display = shown < filtered.length ? 'block' : 'none';
+const matches = allDeals.filter(d => d.item.toLowerCase().includes(kw));
+
+if (matches.length === 0) {
+promptEl.style.display = 'none';
+noResultsEl.style.display = 'block';
+resultCard.style.display = 'none';
+return;
 }
 
-function escapeHtml(s) {
-return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const prices = matches.map(d => d.totalPrice);
+const low = Math.min(...prices);
+const high = Math.max(...prices);
+const med = median(prices);
+
+document.getElementById('result-name').textContent = document.getElementById('f-keyword').value.trim();
+document.getElementById('result-count').textContent = matches.length.toLocaleString();
+document.getElementById('result-range').textContent = low === high ? fmtMoney(low) : (fmtMoney(low) + ' – ' + fmtMoney(high));
+document.getElementById('result-median').textContent = fmtMoney(med);
+
+promptEl.style.display = 'none';
+noResultsEl.style.display = 'none';
+resultCard.style.display = 'block';
 }
 
-['f-keyword','f-price-max','f-pct-min','f-sort'].forEach(id => {
-document.getElementById(id).addEventListener('input', applyFilters);
-document.getElementById(id).addEventListener('change', applyFilters);
-});
-document.getElementById('load-more').addEventListener('click', renderMore);
+document.getElementById('f-keyword').addEventListener('input', runSearch);
 
 loadArchive();
 </script>
