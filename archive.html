@@ -235,10 +235,19 @@ dataRows.forEach(r => {
 const link = r[2];
 if (!link || seen.has(link)) return;
 seen.add(link);
-const price = money(r[3]);
-if (price === null) return;
-const extra = money(r[4]) || 0;
-allDeals.push({ item: r[1] || '', totalPrice: price + extra });
+// Use the comp-check data logged at flag time (Median/Count/Low/High of
+// actual comparable SOLD listings) rather than this deal's own asking
+// price -- the asking price is deliberately below market by definition,
+// so it would systematically understate fair market value.
+const compMedian = money(r[6]);
+if (compMedian === null) return;
+allDeals.push({
+item: r[1] || '',
+compMedian,
+compCount: money(r[7]),
+compLow: money(r[8]),
+compHigh: money(r[9])
+});
 });
 statusEl.style.display = 'none';
 document.getElementById('prompt').style.display = 'block';
@@ -271,13 +280,24 @@ resultCard.style.display = 'none';
 return;
 }
 
-const prices = matches.map(d => d.totalPrice);
-const low = Math.min(...prices);
-const high = Math.max(...prices);
-const med = median(prices);
+// Aggregate the comp-check stats across every matching archived deal.
+// Rows that logged a full comp breakdown (count/low/high) are weighted by
+// their real comp count; older rows that only have a median are weighted
+// as 1 so they still contribute without skewing the total.
+let count = 0, low = Infinity, high = -Infinity, weightedSum = 0;
+matches.forEach(d => {
+const w = (d.compCount && d.compCount > 0) ? d.compCount : 1;
+const lo = d.compLow !== null ? d.compLow : d.compMedian;
+const hi = d.compHigh !== null ? d.compHigh : d.compMedian;
+count += w;
+low = Math.min(low, lo);
+high = Math.max(high, hi);
+weightedSum += d.compMedian * w;
+});
+const med = weightedSum / count;
 
 document.getElementById('result-name').textContent = document.getElementById('f-keyword').value.trim();
-document.getElementById('result-count').textContent = matches.length.toLocaleString();
+document.getElementById('result-count').textContent = count.toLocaleString();
 document.getElementById('result-range').textContent = low === high ? fmtMoney(low) : (fmtMoney(low) + ' – ' + fmtMoney(high));
 document.getElementById('result-median').textContent = fmtMoney(med);
 
