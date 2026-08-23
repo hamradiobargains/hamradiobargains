@@ -180,9 +180,12 @@
     "https://swap.qth.com/view_ad.php?counter=1777169",
     "https://swap.qth.com/view_ad.php?counter=1777167",
     "https://swap.qth.com/view_ad.php?counter=1777162",
-    "https://www.ebay.com/itm/298608996991"
+    "https://www.ebay.com/itm/298608996991",
+    "https://www.eham.net/classifieds/628357",
+    "https://www.eham.net/classifieds/628358",
+    "https://swap.qth.com/view_ad.php?counter=1777295"
   ],
   "seeded_at": "2026-08-13T00:00:00Z",
   "note": "Seed resend-sent-log.json with current 112 live deals (baseline for Resend migration)",
-  "last_updated": "2026-08-23T00:04:27.280Z"
+  "last_updated": "2026-08-23T23:58:04.768Z"
 }
