@@ -232,9 +232,14 @@ const dataRows = parsed.filter(r => r[1] && r[1] !== 'Item');
 const seen = new Set();
 allDeals = [];
 dataRows.forEach(r => {
+// Deals have a Link (column C) which we dedupe on. Price-check log
+// entries folded in by the archive-sync task have no Link (they aren't
+// tied to a specific listing) -- fall back to Date+Item as the dedupe
+// key for those so they still load into the searchable set.
 const link = r[2];
-if (!link || seen.has(link)) return;
-seen.add(link);
+const dedupeKey = link || (r[0] + '|' + r[1]);
+if (!dedupeKey || seen.has(dedupeKey)) return;
+seen.add(dedupeKey);
 // Use the comp-check data logged at flag time (Median/Count/Low/High of
 // actual comparable SOLD listings) rather than this deal's own asking
 // price -- the asking price is deliberately below market by definition,
