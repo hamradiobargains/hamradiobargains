@@ -391,7 +391,7 @@ err.textContent = msg;
 }
 
 Promise.all([loadSheetData(), loadSoldMap()])
-.then(([deals, soldMap]) => render(deals, soldMap))
+.then(([deals, soldMap]) => render(deals.slice().reverse(), soldMap))
 .catch(e => showError(e.message || 'Something went wrong loading deals.'));
 </script>
 
