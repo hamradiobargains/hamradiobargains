@@ -263,6 +263,20 @@ console.error(e);
 }
 }
 
+function matchesKeyword(item, kw) {
+const itemLower = item.toLowerCase();
+const isAlnum = c => c && /[a-z0-9]/.test(c);
+let idx = 0;
+while (true) {
+const pos = itemLower.indexOf(kw, idx);
+if (pos === -1) return false;
+const before = pos > 0 ? itemLower[pos - 1] : null;
+const after = pos + kw.length < itemLower.length ? itemLower[pos + kw.length] : null;
+if (!isAlnum(before) && !isAlnum(after)) return true;
+idx = pos + 1;
+}
+}
+
 function runSearch() {
 const kw = document.getElementById('f-keyword').value.trim().toLowerCase();
 const promptEl = document.getElementById('prompt');
@@ -276,7 +290,7 @@ resultCard.style.display = 'none';
 return;
 }
 
-const matches = allDeals.filter(d => d.item.toLowerCase().includes(kw));
+const matches = allDeals.filter(d => matchesKeyword(d.item, kw));
 
 if (matches.length === 0) {
 promptEl.style.display = 'none';
