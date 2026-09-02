@@ -332,6 +332,14 @@ runSearch();
 }
 });
 
+document.getElementById('f-keyword').addEventListener('input', () => {
+if (!document.getElementById('f-keyword').value.trim()) {
+document.getElementById('prompt').style.display = 'block';
+document.getElementById('no-results').style.display = 'none';
+document.getElementById('result-card').style.display = 'none';
+}
+});
+
 loadArchive();
 </script>
 
