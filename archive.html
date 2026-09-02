@@ -325,7 +325,12 @@ noResultsEl.style.display = 'none';
 resultCard.style.display = 'block';
 }
 
-document.getElementById('f-keyword').addEventListener('input', runSearch);
+document.getElementById('f-keyword').addEventListener('keydown', (e) => {
+if (e.key === 'Enter') {
+e.preventDefault();
+runSearch();
+}
+});
 
 loadArchive();
 </script>
