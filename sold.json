@@ -1,10 +1,4 @@
 {
-  "https://swap.qth.com/view_ad.php?counter=1773183": {
-    "soldDate": "2026-08-03"
-  },
-  "https://swap.qth.com/view_ad.php?counter=1773185": {
-    "soldDate": "2026-08-03"
-  },
   "https://swap.qth.com/view_ad.php?counter=1773486": {
     "soldDate": "2026-08-28"
   },
@@ -22,12 +16,6 @@
   },
   "https://swap.qth.com/view_ad.php?counter=1775157": {
     "soldDate": "2026-08-09"
-  },
-  "https://swap.qth.com/view_ad.php?counter=1775271": {
-    "soldDate": "2026-08-03"
-  },
-  "https://swap.qth.com/view_ad.php?counter=1775374": {
-    "soldDate": "2026-08-03"
   },
   "https://swap.qth.com/view_ad.php?counter=1775450": {
     "soldDate": "2026-08-05"
@@ -209,15 +197,6 @@
   "https://www.eham.net/classifieds/627955": {
     "soldDate": "2026-08-14"
   },
-  "https://www.eham.net/classifieds/628006": {
-    "soldDate": "2026-08-03"
-  },
-  "https://www.eham.net/classifieds/628007": {
-    "soldDate": "2026-08-03"
-  },
-  "https://www.eham.net/classifieds/628009": {
-    "soldDate": "2026-08-03"
-  },
   "https://www.eham.net/classifieds/628045": {
     "soldDate": "2026-08-25"
   },
@@ -307,5 +286,17 @@
   },
   "https://www.facebook.com/marketplace/item/1047376441444127/": {
     "soldDate": "2026-09-02"
+  },
+  "https://swap.qth.com/view_ad.php?counter=1777169": {
+    "soldDate": "2026-09-03"
+  },
+  "https://www.eham.net/classifieds/628358": {
+    "soldDate": "2026-09-03"
+  },
+  "https://swap.qth.com/view_ad.php?counter=1777827": {
+    "soldDate": "2026-09-03"
+  },
+  "https://swap.qth.com/view_ad.php?counter=1778255": {
+    "soldDate": "2026-09-03"
   }
 }
