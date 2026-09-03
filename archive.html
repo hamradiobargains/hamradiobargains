@@ -277,7 +277,15 @@ idx = pos + 1;
 }
 }
 
-function runSearch() {
+function logMissedSearch(term) {
+      try {
+        const url = 'https://script.google.com/macros/s/AKfycbwkp_xUGfbXOBuM0eLRlqszGWxm0s7RNQ7qN9lgRd61otkiSsKifFEJgMzGa9kHoF0SNw/exec';
+        const body = new URLSearchParams({ type: 'missed_search', term: term });
+        fetch(url, { method: 'POST', mode: 'no-cors', body: body });
+      } catch (e) {}
+    }
+
+    function runSearch() {
 const kw = document.getElementById('f-keyword').value.trim().toLowerCase();
 const promptEl = document.getElementById('prompt');
 const noResultsEl = document.getElementById('no-results');
@@ -293,11 +301,12 @@ return;
 const matches = allDeals.filter(d => matchesKeyword(d.item, kw));
 
 if (matches.length === 0) {
-promptEl.style.display = 'none';
-noResultsEl.style.display = 'block';
-resultCard.style.display = 'none';
-return;
-}
+      promptEl.style.display = 'none';
+      noResultsEl.style.display = 'block';
+      resultCard.style.display = 'none';
+      logMissedSearch(kw);
+      return;
+    }
 
 // Aggregate the comp-check stats across every matching archived deal.
 // Rows that logged a full comp breakdown (count/low/high) are weighted by
