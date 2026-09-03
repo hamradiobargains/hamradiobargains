@@ -216,10 +216,10 @@ border-top: 1px solid var(--border);
 </header>
 
 <main>
-<div id="top-deals-section">
-<h2 class="section-title">Biggest deals right now</h2>
-<p class="section-sub">Sorted by percent below market</p>
-<div id="top-deals" class="top-deals-grid"></div>
+<div id="new-deals-section">
+<h2 class="section-title">New deals</h2>
+<p class="section-sub">Posted in the last 24 hours</p>
+<div id="new-deals" class="top-deals-grid"></div>
 </div>
 
 <div class="signup-card">
@@ -235,6 +235,13 @@ border-top: 1px solid var(--border);
 </form>
 <p class="signup-note">No spam — just an email when a new deal is posted. Unsubscribe anytime.</p>
 </div>
+
+<div id="top-deals-section">
+<h2 class="section-title">Biggest deals right now</h2>
+<p class="section-sub">Sorted by percent below market</p>
+<div id="top-deals" class="top-deals-grid"></div>
+</div>
+
 <div id="status">Loading latest deals&hellip;</div>
 <div id="error"></div>
 <div id="deals"></div>
@@ -430,15 +437,19 @@ const visible = deals.filter(d => !soldMap[d.link]);
 return visible.slice().sort((a, b) => parsePct(b.pctBelow) - parsePct(a.pctBelow)).slice(0, 6);
 }
 
-function renderTopDeals(topDeals, soldMap) {
-const section = document.getElementById('top-deals-section');
-const container = document.getElementById('top-deals');
+function getNewDeals(deals, soldMap) {
+return deals.filter(d => !soldMap[d.link] && isRecentDeal(d.date));
+}
+
+function renderDealGrid(sectionId, containerId, deals) {
+const section = document.getElementById(sectionId);
+const container = document.getElementById(containerId);
 if (!container || !section) return;
-if (!topDeals.length) {
+if (!deals.length) {
 section.style.display = 'none';
 return;
 }
-container.innerHTML = topDeals.map(d => {
+container.innerHTML = deals.map(d => {
 const isNew = isRecentDeal(d.date);
 return `
 <div class="deal">
@@ -460,11 +471,14 @@ ${isNew ? NEW_BURST_SVG : ''}
 
 Promise.all([loadSheetData(), loadSoldMap()])
 .then(([deals, soldMap]) => {
-const topDeals = getTopDeals(deals, soldMap);
+const newDeals = getNewDeals(deals, soldMap);
+const newLinks = new Set(newDeals.map(d => d.link));
+const topDeals = getTopDeals(deals.filter(d => !newLinks.has(d.link)), soldMap);
 const topLinks = new Set(topDeals.map(d => d.link));
-const rest = deals.filter(d => !topLinks.has(d.link));
+const rest = deals.filter(d => !newLinks.has(d.link) && !topLinks.has(d.link));
 render(rest.slice().reverse(), soldMap);
-renderTopDeals(topDeals, soldMap);
+renderDealGrid('top-deals-section', 'top-deals', topDeals);
+renderDealGrid('new-deals-section', 'new-deals', newDeals);
 })
 .catch(e => showError(e.message || 'Something went wrong loading deals.'));
 </script>
