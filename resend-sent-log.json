@@ -224,9 +224,10 @@
     "https://swap.qth.com/view_ad.php?counter=1778260",
     "https://swap.qth.com/view_ad.php?counter=1778255",
     "https://swap.qth.com/view_ad.php?counter=1778202",
-    "https://swap.qth.com/view_ad.php?counter=1778180"
+    "https://swap.qth.com/view_ad.php?counter=1778180",
+    "https://swap.qth.com/view_ad.php?counter=1778360"
   ],
   "seeded_at": "2026-08-13T00:00:00Z",
   "note": "Seed resend-sent-log.json with current 112 live deals (baseline for Resend migration)",
-  "last_updated": "2026-09-02T23:57:22.743Z"
+  "last_updated": "2026-09-03T23:58:19.760Z"
 }
