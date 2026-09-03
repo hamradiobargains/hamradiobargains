@@ -79,12 +79,28 @@ white-space: nowrap;
 .top-deals-grid {
 display: grid;
 grid-template-columns: 1fr 1fr;
-gap: 14px;
+gap: 10px;
 margin-bottom: 32px;
 }
-.top-deals-grid .deal { margin-bottom: 0; }
-@media (max-width: 640px) {
-.top-deals-grid { grid-template-columns: 1fr; }
+.top-deals-grid .deal {
+margin-bottom: 0;
+flex-direction: column;
+align-items: stretch;
+padding: 14px 16px;
+gap: 10px;
+}
+.top-deals-grid .deal-info { min-width: 0; }
+.top-deals-grid .deal-meta { flex-wrap: wrap; }
+.top-deals-grid .price { font-size: 0.88rem; }
+.top-deals-grid .listing-wrap { width: 100%; }
+.top-deals-grid .listing-btn { width: 100%; text-align: center; padding: 9px 10px; font-size: 0.82rem; }
+@media (max-width: 400px) {
+.top-deals-grid { gap: 8px; }
+.top-deals-grid .deal { padding: 10px 12px; }
+.top-deals-grid .deal-meta { font-size: 0.7rem; gap: 6px; }
+.top-deals-grid .badge { font-size: 0.66rem; padding: 2px 6px; }
+.top-deals-grid .price { font-size: 0.78rem; }
+.top-deals-grid .listing-btn { font-size: 0.74rem; padding: 7px 8px; }
 }
 .deal {
 position: relative;
