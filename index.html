@@ -424,18 +424,21 @@ err.style.display = 'block';
 err.textContent = msg;
 }
 
-function renderTopDeals(deals, soldMap) {
+function getTopDeals(deals, soldMap) {
+const parsePct = s => parseFloat((s || '').replace('%', '')) || 0;
+const visible = deals.filter(d => !soldMap[d.link]);
+return visible.slice().sort((a, b) => parsePct(b.pctBelow) - parsePct(a.pctBelow)).slice(0, 6);
+}
+
+function renderTopDeals(topDeals, soldMap) {
 const section = document.getElementById('top-deals-section');
 const container = document.getElementById('top-deals');
 if (!container || !section) return;
-const parsePct = s => parseFloat((s || '').replace('%', '')) || 0;
-const visible = deals.filter(d => !soldMap[d.link]);
-const top = visible.slice().sort((a, b) => parsePct(b.pctBelow) - parsePct(a.pctBelow)).slice(0, 6);
-if (!top.length) {
+if (!topDeals.length) {
 section.style.display = 'none';
 return;
 }
-container.innerHTML = top.map(d => {
+container.innerHTML = topDeals.map(d => {
 const isNew = isRecentDeal(d.date);
 return `
 <div class="deal">
@@ -457,8 +460,11 @@ ${isNew ? NEW_BURST_SVG : ''}
 
 Promise.all([loadSheetData(), loadSoldMap()])
 .then(([deals, soldMap]) => {
-render(deals.slice().reverse(), soldMap);
-renderTopDeals(deals, soldMap);
+const topDeals = getTopDeals(deals, soldMap);
+const topLinks = new Set(topDeals.map(d => d.link));
+const rest = deals.filter(d => !topLinks.has(d.link));
+render(rest.slice().reverse(), soldMap);
+renderTopDeals(topDeals, soldMap);
 })
 .catch(e => showError(e.message || 'Something went wrong loading deals.'));
 </script>
