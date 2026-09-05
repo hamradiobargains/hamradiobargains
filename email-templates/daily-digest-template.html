@@ -4,10 +4,10 @@
   For use with Resend's `html` field on the emails/send (or Broadcasts) endpoint.
 
   Placeholders (simple string-replace, not a templating engine):
-    {{DATE}}              - e.g. "August 14, 2026"
-    {{DEAL_COUNT}}        - number of new deals in this digest, e.g. "3"
-    {{DEALS_HTML}}        - concatenated deal-card blocks (see deal-card-partial.html)
-    {{RESEND_UNSUBSCRIBE_URL}} - Resend's merge tag, leave literal, Resend fills it in
+    DATE (no braces)       - e.g. "August 14, 2026"
+    DEAL_COUNT (no braces) - number of new deals in this digest, e.g. "3"
+    DEALS_HTML (no braces) - concatenated deal-card blocks (see deal-card-partial.html)
+    RESEND_UNSUBSCRIBE_URL merge tag (Resend's own, leave the real one literal, Resend fills it in)
 
   Email-safe constraints followed here:
     - Table-based layout (no flexbox/grid — unreliable in Outlook/older clients)
