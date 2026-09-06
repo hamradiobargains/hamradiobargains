@@ -229,9 +229,14 @@
     "https://www.eham.net/classifieds/628539",
     "https://www.eham.net/classifieds/628537",
     "https://www.eham.net/classifieds/628524",
-    "https://www.ebay.com/itm/407190953868"
+    "https://www.ebay.com/itm/407190953868",
+    "https://www.facebook.com/marketplace/item/1543571830386013/",
+    "https://www.facebook.com/marketplace/item/1065598539161284/",
+    "https://swap.qth.com/view_ad.php?counter=1778257",
+    "https://swap.qth.com/view_ad.php?counter=1778531",
+    "https://swap.qth.com/view_ad.php?counter=1778458"
   ],
   "seeded_at": "2026-08-13T00:00:00Z",
   "note": "Seed resend-sent-log.json with current 112 live deals (baseline for Resend migration)",
-  "last_updated": "2026-09-05T00:02:22.342Z"
+  "last_updated": "2026-09-05T23:57:20.581Z"
 }
