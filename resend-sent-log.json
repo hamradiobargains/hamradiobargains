@@ -273,9 +273,15 @@
     "https://swap.qth.com/view_ad.php?counter=1779660",
     "https://swap.qth.com/view_ad.php?counter=1779665",
     "https://www.ebay.com/itm/800677701676",
-    "https://www.ebay.com/itm/327359273259"
+    "https://www.ebay.com/itm/327359273259",
+    "https://swap.qth.com/view_ad.php?counter=1779810",
+    "https://swap.qth.com/view_ad.php?counter=1779803",
+    "https://swap.qth.com/view_ad.php?counter=1779793",
+    "https://www.ebay.com/itm/407219326519",
+    "https://www.ebay.com/itm/398391539051",
+    "https://www.ebay.com/itm/377490849272"
   ],
   "seeded_at": "2026-08-13T00:00:00Z",
   "note": "Seed resend-sent-log.json with current 112 live deals (baseline for Resend migration)",
-  "last_updated": "2026-09-17T23:58:15.228Z"
+  "last_updated": "2026-09-19T00:59:16.790Z"
 }
