@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ============================================================
+  MARKET REPORT — EDITION 1
+  "The State of the Used Ham Radio Market: July–September 2026"
+  Built in the model-page template structure so the publishing
+  workflow can consume it unchanged. All figures come from the
+  July–September 2026 state-of-the-union report (272 tracked
+  listings); prose is Leo's own words, kept verbatim.
+  Monthly editions accumulate as edition-<period>.html in this
+  folder; /market-report/ should point at the latest.
+============================================================ -->
+
+<title>State of the Used Ham Radio Market: July–September 2026 | Ham Radio Bargains</title>
+<meta name="description" content="A below-market pricing report on used amateur radio equipment, built from 272 real listings tracked July–September 2026. Average discount: 36.6% below fair market value.">
+<link rel="canonical" href="https://hamradiobargains.com/market-report/jul-sep-2026/">
+<meta property="og:title" content="The State of the Used Ham Radio Market — July–September 2026">
+<meta property="og:description" content="272 tracked listings. Average discount 36.6% below market. Which brands and categories produce the deepest deals?">
+<meta property="og:type" content="article">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The State of the Used Ham Radio Market: July–September 2026",
+  "description": "A below-market pricing report on used amateur radio equipment, built from 272 real listings tracked July–September 2026.",
+  "datePublished": "2026-09-27",
+  "author": { "@type": "Organization", "name": "Ham Radio Bargains", "url": "https://hamradiobargains.com" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does \u201cpercent below market\u201d mean?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Every listing is checked against a set of comparable recent sales for that same model \u2014 not a single reference point, but a range. From that range, we calculate a median price, which becomes our estimate of fair market value. A listing\u2019s \u201cpercent below market\u201d is simply the gap between its asking price and that median." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this report cover the whole used ham radio market?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. Ham Radio Bargains only publishes listings that come in at or below 25% under fair market value \u2014 the rare exceptions run slightly above that line. Every number in this report reflects that pre-filtered set, not typical used equipment pricing. It shows what the best deals found actually look like, not what a random used listing looks like." }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do some brands show deeper average discounts than others?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Heathkit and Ameritron gear tends to run the deepest below market on average \u2014 likely because these are older, more niche items with a smaller pool of buyers actively searching for them, which means less competition driving the price back up." }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I keep in mind when using this report to buy?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Don\u2019t rely on a single listing to judge fair value \u2014 a real price estimate needs several comparable sales. Older or niche gear often shows deeper discounts due to a smaller buyer pool, not because something is wrong with the item. A wide comp range usually means condition and included accessories matter a lot for that model. And seller vetting is a separate step from price: check feedback, account age, and return history before you buy." }
+    }
+  ]
+}
+</script>
+
+<style>
+  :root {
+    --bg: #121212; --card: #1c1c1e; --text: #f2f2f2; --muted: #9a9aa0;
+    --accent: #ff8c1a; --accent-dim: rgba(255,140,26,.14);
+    --border: #2c2c2e; --green: #3ddc84;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text);
+         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         line-height: 1.6; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 20px 60px; }
+  header.site { display: flex; align-items: center; gap: 10px;
+                padding: 18px 20px; border-bottom: 1px solid var(--border);
+                max-width: 900px; margin: 0 auto; }
+  header.site .logo { font-weight: 800; font-size: 1.15rem; }
+  header.site .logo span { color: var(--accent); }
+  nav.crumb { font-size: .85rem; color: var(--muted); margin: 22px 0 6px; }
+  nav.crumb a { color: var(--muted); text-decoration: none; }
+  nav.crumb a:hover { color: var(--accent); }
+  .kicker { text-transform: uppercase; letter-spacing: .12em; font-size: .78rem;
+            color: var(--accent); font-weight: 700; margin: 0 0 8px; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin-bottom: 6px; }
+  .sub { color: var(--muted); font-size: 1.02rem; margin-bottom: 22px; }
+
+  /* Quick-answer box — the featured-snippet target */
+  .answer-box { background: var(--card); border: 1px solid var(--border);
+                border-left: 4px solid var(--accent); border-radius: 10px;
+                padding: 20px 22px; margin-bottom: 30px; }
+  .answer-box .big { font-size: 2rem; font-weight: 800; color: var(--accent); }
+  .answer-box dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px;
+                   margin-top: 10px; font-size: .95rem; }
+  .answer-box dt { color: var(--muted); }
+  .answer-box .fine { font-size: .8rem; color: var(--muted); margin-top: 10px; }
+
+  h2 { font-size: 1.3rem; margin: 38px 0 14px;
+       padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  .chart-card, .table-card { background: var(--card); border: 1px solid var(--border);
+                             border-radius: 10px; padding: 18px; overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; font-size: .8rem; text-transform: uppercase; }
+  tr:last-child td { border-bottom: none; }
+  .chart-note { color: var(--muted); font-size: .85rem; margin-top: 8px; }
+
+  .deals { display: grid; gap: 14px; }
+  .deal { background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+          padding: 18px; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  .deal .pct { background: var(--green); color: #06281a; font-weight: 800;
+               font-size: .85rem; padding: 4px 10px; border-radius: 20px; white-space: nowrap; }
+  .deal .name { font-weight: 700; }
+  .deal .meta { color: var(--muted); font-size: .9rem; margin-top: 2px; }
+
+  .prose p { margin-bottom: 14px; }
+  .prose ul { margin: 0 0 14px 20px; }
+  .prose li { margin-bottom: 8px; }
+
+  .faq details { background: var(--card); border: 1px solid var(--border);
+                 border-radius: 10px; padding: 14px 18px; margin-bottom: 10px; }
+  .faq summary { font-weight: 700; cursor: pointer; }
+  .faq p, .faq ul { margin-top: 8px; color: #d8d8dc; font-size: .95rem; }
+  .faq ul { margin-left: 20px; }
+  .faq li { margin-bottom: 6px; }
+
+  .alert-box { background: var(--accent-dim); border: 1px solid var(--accent);
+               border-radius: 10px; padding: 22px; margin-top: 38px; text-align: center; }
+  .alert-box h2 { border: none; margin: 0 0 8px; padding: 0; }
+  .alert-box p { color: #d8d8dc; font-size: .95rem; margin-bottom: 14px; }
+  .alert-box form { display: flex; gap: 10px; max-width: 440px; margin: 0 auto; }
+  .alert-box input { flex: 1; padding: 11px 14px; border-radius: 8px; border: 1px solid var(--border);
+                     background: var(--bg); color: var(--text); font-size: .95rem; }
+  .alert-box button { background: var(--accent); color: #1a1005; border: none;
+                      font-weight: 700; padding: 11px 20px; border-radius: 8px; cursor: pointer; }
+
+  .related { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+  .related span { background: var(--card); border: 1px solid var(--accent); color: var(--text);
+                  padding: 8px 14px; border-radius: 20px; font-size: .9rem; }
+  .related .note { width: 100%; background: none; border: none; padding: 0;
+                   color: var(--muted); font-size: .9rem; }
+
+  footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid var(--border);
+           color: var(--muted); font-size: .8rem; }
+  @media (max-width: 560px) {
+    .deal { flex-direction: column; align-items: flex-start; }
+    .alert-box form { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="logo">📻 Ham Radio <span>Bargains</span></div>
+</header>
+
+<div class="wrap">
+
+  <nav class="crumb" aria-label="Breadcrumb">
+    <a href="/">Home</a> &nbsp;›&nbsp; <a href="/market-report/">Market Report</a> &nbsp;›&nbsp; July–September 2026
+  </nav>
+
+  <p class="kicker">Market Report · Edition 1</p>
+  <h1>The State of the Used Ham Radio Market</h1>
+  <p class="sub"><em>A Below-Market Pricing Report</em> &nbsp;·&nbsp; July – September 2026 &nbsp;·&nbsp; Based on 272 tracked listings</p>
+
+  <!-- 1. QUICK-ANSWER BOX -->
+  <section class="answer-box" aria-label="Market summary">
+    <div class="big">36.6% below market</div>
+    <dl>
+      <dt>Average discount</dt><dd><strong>36.6%</strong> below fair market value — well past our 25% minimum bar</dd>
+      <dt>Listings tracked</dt><dd>272 qualifying listings, each evaluated against real comparable sales</dd>
+      <dt>Widest discount</dt><dd>94.6% — a Kenwood TM-D700A listed at $20 against a $450 median</dd>
+      <dt>Average deal price</dt><dd>$409 across the tracked deals</dd>
+    </dl>
+    <p class="fine">September 2026 data was partial at the time this edition was compiled.</p>
+  </section>
+
+  <!-- 2. DISCOUNT TREND -->
+  <h2>Discount trend</h2>
+  <div class="chart-card">
+    <svg viewBox="0 0 720 280" width="100%" role="img" aria-label="Average discount below market by month: July 35.9 percent, August 36.9 percent, September 37.7 percent">
+      <g font-family="inherit" font-size="12" fill="#9a9aa0">
+        <line x1="60" y1="193" x2="660" y2="193" stroke="#2c2c2e"/><text x="52" y="197" text-anchor="end">35.5%</text>
+        <line x1="60" y1="166" x2="660" y2="166" stroke="#2c2c2e"/><text x="52" y="170" text-anchor="end">36%</text>
+        <line x1="60" y1="139" x2="660" y2="139" stroke="#2c2c2e"/><text x="52" y="143" text-anchor="end">36.5%</text>
+        <line x1="60" y1="111" x2="660" y2="111" stroke="#2c2c2e"/><text x="52" y="115" text-anchor="end">37%</text>
+        <line x1="60" y1="84" x2="660" y2="84" stroke="#2c2c2e"/><text x="52" y="88" text-anchor="end">37.5%</text>
+        <line x1="60" y1="57" x2="660" y2="57" stroke="#2c2c2e"/><text x="52" y="61" text-anchor="end">38%</text>
+      </g>
+      <polyline points="110,171 360,117 610,73" fill="none" stroke="#ff8c1a" stroke-width="3"/>
+      <g font-family="inherit" font-size="13" fill="#f2f2f2" text-anchor="middle">
+        <circle cx="110" cy="171" r="6" fill="#ff8c1a"/>
+        <text x="110" y="150" font-weight="700">35.9%</text>
+        <text x="110" y="262" fill="#9a9aa0">July 2026</text>
+        <text x="110" y="278" fill="#9a9aa0" font-size="11">90 deals</text>
+        <circle cx="360" cy="117" r="6" fill="#ff8c1a"/>
+        <text x="360" y="96" font-weight="700">36.9%</text>
+        <text x="360" y="262" fill="#9a9aa0">August 2026</text>
+        <text x="360" y="278" fill="#9a9aa0" font-size="11">126 deals</text>
+        <circle cx="610" cy="73" r="6" fill="#ff8c1a"/>
+        <text x="610" y="52" font-weight="700">37.7%</text>
+        <text x="610" y="262" fill="#9a9aa0">September 2026</text>
+        <text x="610" y="278" fill="#9a9aa0" font-size="11">31 deals (partial)</text>
+      </g>
+    </svg>
+    <p class="chart-note">Both the volume of tracked deals and the average discount trended upward month over month since tracking began.</p>
+  </div>
+
+  <!-- 3. DEALS BY BRAND -->
+  <h2>Deals by brand</h2>
+  <div class="table-card">
+    <table>
+      <thead><tr><th>Brand</th><th>Deals Tracked</th><th>Avg. % Below Market</th></tr></thead>
+      <tbody>
+        <tr><td>Yaesu</td><td>55</td><td>34.3%</td></tr>
+        <tr><td>Icom</td><td>47</td><td>34.6%</td></tr>
+        <tr><td>Kenwood</td><td>38</td><td>35.4%</td></tr>
+        <tr><td>FlexRadio</td><td>20</td><td>34.5%</td></tr>
+        <tr><td>Ameritron</td><td>9</td><td>46.2%</td></tr>
+        <tr><td>Heathkit</td><td>9</td><td>48.0%</td></tr>
+        <tr><td>MFJ</td><td>9</td><td>32.9%</td></tr>
+        <tr><td>Astron</td><td>5</td><td>35.0%</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="prose" style="margin-top:14px;">
+    <p>Transceivers from the "big three" — Yaesu, Icom, and Kenwood — make up the bulk of what qualifies and gets tracked, which makes sense given how much of the used market they represent. Among listings that already cleared the 25% threshold, two smaller, specialty brands consistently post the deepest average discounts.</p>
+    <p>Heathkit and Ameritron gear tends to run the deepest below market on average — likely because these are older, more niche items with a smaller pool of buyers actively searching for them, which means less competition driving the price back up.</p>
+  </div>
+
+  <!-- 4. DEALS BY CATEGORY -->
+  <h2>Deals by category</h2>
+  <div class="table-card">
+    <table>
+      <thead><tr><th>Category</th><th>Deals Tracked</th><th>Share of Total</th></tr></thead>
+      <tbody>
+        <tr><td>Transceivers</td><td>162</td><td>59.6%</td></tr>
+        <tr><td>Other / Specialty Gear</td><td>57</td><td>21.0%</td></tr>
+        <tr><td>Accessories</td><td>22</td><td>8.1%</td></tr>
+        <tr><td>Antennas</td><td>17</td><td>6.3%</td></tr>
+        <tr><td>Power Supplies</td><td>8</td><td>2.9%</td></tr>
+        <tr><td>Amplifiers</td><td>6</td><td>2.2%</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="prose" style="margin-top:14px;">
+    <p>Transceivers dominate simply because that's what most sellers list and most buyers search for. But the discount percentage tells a different story — smaller categories like power supplies and amplifiers, while less common, still show up when a genuine below-market opportunity appears.</p>
+  </div>
+
+  <!-- 5. TOP 10 DEALS ON RECORD -->
+  <h2>Top 10 deals on record</h2>
+  <div class="prose" style="margin-bottom:14px;">
+    <p>These are the ten deepest discounts flagged since tracking began — real listings, real comps, real math. A few of these are older or specialty items where a smaller buyer pool meant a seller was willing to let a piece go well under what it would typically bring.</p>
+  </div>
+  <div class="deals">
+    <div class="deal"><div><div class="name">Kenwood TM-D700A Dual Band Transceiver</div><div class="meta">Listed $20 · Fair market $450</div></div><span class="pct">94.6% below</span></div>
+    <div class="deal"><div><div class="name">Johnson Viking II Transmitter</div><div class="meta">Listed $60 · Fair market $400</div></div><span class="pct">85.0% below</span></div>
+    <div class="deal"><div><div class="name">Ten-Tec Argosy 525 Transceiver w/ PS</div><div class="meta">Listed $60 · Fair market $283</div></div><span class="pct">78.8% below</span></div>
+    <div class="deal"><div><div class="name">Heathkit HW-7 QRP Transceiver</div><div class="meta">Listed $15 · Fair market $102</div></div><span class="pct">75.6% below</span></div>
+    <div class="deal"><div><div class="name">Vintage Hallicrafters SX-71</div><div class="meta">Listed $60 · Fair market $230</div></div><span class="pct">73.9% below</span></div>
+    <div class="deal"><div><div class="name">Heathkit HW-8 QRP Transceiver + PS</div><div class="meta">Listed $30 · Fair market $150</div></div><span class="pct">73.3% below</span></div>
+    <div class="deal"><div><div class="name">Kenwood TH-F6A Tri-Band HT</div><div class="meta">Listed $75 · Fair market $262</div></div><span class="pct">71.4% below</span></div>
+    <div class="deal"><div><div class="name">Motorola XPR 6550 VHF Radios (Lot of 2)</div><div class="meta">Listed $100 · Fair market $349</div></div><span class="pct">71.3% below</span></div>
+    <div class="deal"><div><div class="name">Icom IC-T8A Tri-Band HT</div><div class="meta">Listed $25 · Fair market $80</div></div><span class="pct">68.8% below</span></div>
+    <div class="deal"><div><div class="name">Extra Class Element 4 Book (Gordon West)</div><div class="meta">Listed $6 · Fair market $19</div></div><span class="pct">68.4% below</span></div>
+  </div>
+
+  <!-- 6. ABOUT THIS REPORT -->
+  <h2>About this report</h2>
+  <div class="prose">
+    <p>This report is built entirely from real listings tracked by Ham Radio Bargains — a site that aggregates used amateur radio equipment sold across eBay, QTH classifieds, Facebook Marketplace, and similar sources, and flags the ones priced meaningfully below fair market value.</p>
+    <p><strong>Important context:</strong> this is not a snapshot of the whole used gear market. Ham Radio Bargains only publishes listings that come in at or below 25% under fair market value — the rare exceptions run slightly above that line. Every number in this report reflects that pre-filtered set, not typical used equipment pricing. In other words, this report shows what the best deals we found actually look like, not what a random used listing looks like.</p>
+    <p>Every number here comes from actual comparable sales, not estimates or industry guesses. This is the same underlying data and methodology used every day to flag listings on the site, summarized here so you can see the bigger picture: which brands and categories tend to produce the deepest qualifying deals, how often they show up, and what a genuinely exceptional find looks like.</p>
+    <h2 style="border:none;padding:0;margin:28px 0 14px;">How we calculate "below market"</h2>
+    <p>Every listing is checked against a set of comparable recent sales for that same model — not a single reference point, but a range. From that range, we calculate a median price, which becomes our estimate of fair market value. A listing's "percent below market" is simply the gap between its asking price and that median.</p>
+    <p>This is the exact same method available to you directly on the site — type any model into the "Is This a Good Price?" tool at hamradiobargains.com, and you'll see the same comps, price range, and median calculation used throughout this report.</p>
+    <h2 style="border:none;padding:0;margin:28px 0 14px;">How to use this report yourself</h2>
+    <ul>
+      <li>Don't rely on a single listing to judge fair value — a real price estimate needs several comparable sales, not just one.</li>
+      <li>Older or niche gear (like the Heathkit and Ameritron items above) often shows deeper discounts simply due to a smaller buyer pool — don't assume something's wrong with the item.</li>
+      <li>A wide comp range (some listings selling for much more than others) usually means condition and included accessories matter a lot for that model — read listings carefully.</li>
+      <li>Seller vetting is a separate step from price. A good price on paper is still worth checking against seller feedback, account age, and return history before you buy.</li>
+    </ul>
+  </div>
+
+  <!-- 7. FAQ -->
+  <h2>Common questions</h2>
+  <div class="faq">
+    <details>
+      <summary>What does "percent below market" mean?</summary>
+      <p>Every listing is checked against a set of comparable recent sales for that same model — not a single reference point, but a range. From that range, we calculate a median price, which becomes our estimate of fair market value. A listing's "percent below market" is simply the gap between its asking price and that median.</p>
+    </details>
+    <details>
+      <summary>Does this report cover the whole used ham radio market?</summary>
+      <p>No. Ham Radio Bargains only publishes listings that come in at or below 25% under fair market value — the rare exceptions run slightly above that line. Every number in this report reflects that pre-filtered set, not typical used equipment pricing. It shows what the best deals found actually look like, not what a random used listing looks like.</p>
+    </details>
+    <details>
+      <summary>Why do some brands show deeper average discounts than others?</summary>
+      <p>Heathkit and Ameritron gear tends to run the deepest below market on average — likely because these are older, more niche items with a smaller pool of buyers actively searching for them, which means less competition driving the price back up.</p>
+    </details>
+    <details>
+      <summary>What should I keep in mind when using this report to buy?</summary>
+      <ul>
+        <li>Don't rely on a single listing to judge fair value — a real price estimate needs several comparable sales, not just one.</li>
+        <li>Older or niche gear often shows deeper discounts due to a smaller buyer pool — don't assume something's wrong with the item.</li>
+        <li>A wide comp range usually means condition and included accessories matter a lot for that model — read listings carefully.</li>
+        <li>Seller vetting is a separate step from price: check feedback, account age, and return history before you buy.</li>
+      </ul>
+    </details>
+  </div>
+
+  <!-- 8. EMAIL SIGNUP -->
+  <div class="alert-box">
+    <h2>Get the next market report first</h2>
+    <p>Everything in this report was pulled from listings already flagged on Ham Radio Bargains. New deals are posted throughout the day, every day — and the next market report lands in your inbox first.</p>
+    <!-- Email signup: wired to the site's Mailchimp list (same as the homepage signup). -->
+    <form action="https://aol.us10.list-manage.com/subscribe/post?u=441753dd20abb2aaec7030997&amp;id=e37bef4cda&amp;f_id=001851e4f0" method="post" target="_blank" novalidate>
+      <input type="email" name="EMAIL" placeholder="you@example.com" required aria-label="Email address">
+      <div hidden><input type="hidden" name="tags" value="14572049"></div>
+      <div aria-hidden="true" style="position:absolute; left:-5000px;">
+        <input type="text" name="b_441753dd20abb2aaec7030997_e37bef4cda" tabindex="-1" value="">
+      </div>
+      <button type="submit">Get the next report free</button>
+    </form>
+    <p style="font-size:.85rem;margin:12px 0 0;">Free daily digest · Instant deal alerts · One email a day, unsubscribe anytime.</p>
+  </div>
+
+  <!-- 9. MORE EDITIONS -->
+  <h2>More market reports</h2>
+  <div class="related">
+    <span>July–September 2026 · this edition</span>
+    <span class="note">A new edition lands each month, built from that month's tracked listings. This page will always point at the latest.</span>
+  </div>
+
+  <footer>
+    <p>Prices, comps, and availability reflect listings at the time they were tracked and may have changed. This report is for informational purposes only and does not constitute a guarantee of value, condition, or seller reliability. Always do your own research before purchasing.</p>
+    <p style="margin-top:8px;">© 2026 Ham Radio Bargains</p>
+  </footer>
+
+</div>
+</body>
+</html>
+</html>
