@@ -370,14 +370,32 @@ compCount: (r[COL_COMPCOUNT] || '').trim(),
 return deals;
 }
 
+// Preview build: deals load from the local deals.json data file instead of the
+// Google Sheet. adaptDeal maps each JSON record to exactly the object shape
+// parseDeals() produced from the sheet CSV. pctBelow is formatted exactly as
+// the sheet displayed it (e.g. "33.9%"), using the same half-up rounding to
+// one decimal place the sheet's ROUND() used.
+function formatPctDisplay(frac) {
+if (frac == null || isNaN(Number(frac))) return '';
+return (Math.round(Number(frac) * 1000) / 10).toFixed(1) + '%';
+}
+function adaptDeal(d) {
+return {
+date: d.date || '',
+item: d.item || '',
+link: d.link || '',
+price: d.price == null ? '' : String(d.price),
+pctBelow: formatPctDisplay(d.pctBelow),
+compCount: d.compCount == null ? '' : String(d.compCount),
+};
+}
 function loadSheetData() {
-const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?gid=${GID}&headers=0&tqx=out:csv`;
-return fetch(url)
+return fetch('deals.json')
 .then(r => {
-if (!r.ok) throw new Error('Could not load the sheet. Make sure it is shared as "Anyone with the link can view."');
-return r.text();
+if (!r.ok) throw new Error('Could not load deal data right now.');
+return r.json();
 })
-.then(text => parseDeals(parseCsv(text)));
+.then(json => json.map(adaptDeal));
 }
 
 // sold.json lives alongside this page in the same repo. It's a plain
