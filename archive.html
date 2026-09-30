@@ -279,8 +279,8 @@ idx = pos + 1;
 
 function logMissedSearch(term) {
       try {
-        const url = 'https://script.google.com/macros/s/AKfycbwkp_xUGfbXOBuM0eLRlqszGWxm0s7RNQ7qN9lgRd61otkiSsKifFEJgMzGa9kHoF0SNw/exec';
-        const body = new URLSearchParams({ type: 'missed_search', term: term });
+        const url = 'https://formspree.io/f/xvkgylvb';
+        const body = new URLSearchParams({ type: 'missed_search', term: term, site: 'hamradiobargains' });
         fetch(url, { method: 'POST', mode: 'no-cors', body: body });
       } catch (e) {}
     }
