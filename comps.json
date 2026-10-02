@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01T12:53:02+00:00",
+ "updated": "2026-10-02T12:53:07+00:00",
  "source": "eHam.net classifieds marked SOLD (asking prices marked sold, not confirmed sale prices)",
  "models": {
   "AMERITRON AL-811H": {
@@ -485,6 +485,24 @@
      "low": 90,
      "high": 125,
      "count": 5
+    }
+   ]
+  },
+  "YAESU FT-736R": {
+   "latest": {
+    "date": "2026-10-01",
+    "median": 475,
+    "low": 350,
+    "high": 595,
+    "count": 6
+   },
+   "history": [
+    {
+     "date": "2026-10-01",
+     "median": 475,
+     "low": 350,
+     "high": 595,
+     "count": 6
     }
    ]
   },
