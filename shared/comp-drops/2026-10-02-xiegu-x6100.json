@@ -1,0 +1,65 @@
+{
+  "model": "Xiegu X6100",
+  "slug": "xiegu-x6100",
+  "searched_at": "2026-10-02T17:57:56-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam shows no sold date; sold_date is the ad's posted date. Prices are the seller's asking price on ads marked SOLD. Page 1 of eHam keyword results only; 2 unsold ads (KZ4XU $650 w/EFHW, KD6CCP $700 shack-in-a-box) and 1 wanted ad excluded.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/287622490700",
+    "site": "ebay",
+    "ask": 395.0,
+    "shipping": 20.0
+  },
+  "comps": [
+    {
+      "price": 450.0,
+      "sold_date": "2026-07-19",
+      "condition": "Excellent; custom side rails, waterproof pelican-style case, original box and accessories, everything works",
+      "url": "https://www.eham.net/classifieds/627809",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2026-04-01",
+      "condition": "Used a couple times, screen film still on, no scratches",
+      "url": "https://www.eham.net/classifieds/625910",
+      "notes": "BUNDLE: includes MFJ-1899T telescopic antenna with stand, mic, 12V 5A adapter, PowerPole adapter, coax; local pickup or shipped USPS (shipping terms not stated)"
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2026-02-06",
+      "condition": "Excellent; side brackets with handle, R1CBU firmware microSD, PowerPole DC cord, unused mic, manual, original box and protective case",
+      "url": "https://www.eham.net/classifieds/624961",
+      "notes": "shipped to lower 48; alternate (R1CBU) firmware card included"
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2025-04-21",
+      "condition": "Like new, original owner; optional side rails and stand",
+      "url": "https://www.eham.net/classifieds/620240",
+      "notes": "shipped CONUS"
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2025-02-13",
+      "condition": "Less than 3 months old, works and looks like new, original box and all accessories",
+      "url": "https://www.eham.net/classifieds/619017",
+      "notes": "shipped CONUS (money order or check)"
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2024-09-08",
+      "condition": "Good, one POTA activation; protective rails, Elecraft heat sinks, PowerPole cable, mic, USB cable",
+      "url": "https://www.eham.net/classifieds/616147",
+      "notes": "plus shipping; aftermarket heat sinks added"
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2024-08-09",
+      "condition": "Used; mic, PowerPole cable, USB CAT cable, L4001 amp control cable, retail box, manual, printed side handles",
+      "url": "https://www.eham.net/classifieds/615455",
+      "notes": "plus shipping"
+    }
+  ]
+}
