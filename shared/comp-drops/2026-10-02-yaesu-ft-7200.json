@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-7200",
+  "slug": "yaesu-ft-7200",
+  "searched_at": "2026-10-02T18:00:51-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Zero sold comps. eHam search for FT-7200 returned 3 ads: one unsold for-sale ad (583504, 2021-01-08) and two 2005 WANTED ads (172421, 172420) that carry a SOLD tag but are not sales; all excluded.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/168756847338",
+    "site": "ebay",
+    "ask": 85.0,
+    "shipping": 11.82
+  },
+  "comps": []
+}
