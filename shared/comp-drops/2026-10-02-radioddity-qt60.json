@@ -1,0 +1,15 @@
+{
+  "model": "Radioddity QT60",
+  "slug": "radioddity-qt60",
+  "searched_at": "2026-10-02T15:00:46-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "No comps. Only sold match was a Radioddity QT60Pro (eHam 627629, 2026-07-07) - different model (QT60Pro != QT60), excluded.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781078",
+    "site": "qth",
+    "ask": 250.0,
+    "shipping": 0
+  },
+  "comps": []
+}
