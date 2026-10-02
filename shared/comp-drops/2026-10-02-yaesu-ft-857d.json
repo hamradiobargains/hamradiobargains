@@ -1,0 +1,58 @@
+{
+  "model": "Yaesu FT-857D",
+  "slug": "yaesu-ft-857d",
+  "searched_at": "2026-10-02T17:56:35-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam shows no sold date; sold_date is the ad's posted date. Prices are the seller's asking price on ads marked SOLD. Page 1 of eHam keyword results only (6 sold ads); 2 wanted ads and 1 unsold ad (K3ROQ, $900, MARS mod) excluded.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/257778711498",
+    "site": "ebay",
+    "ask": 825.0,
+    "shipping": 8.03
+  },
+  "comps": [
+    {
+      "price": 775.0,
+      "sold_date": "2025-11-30",
+      "condition": "Excellent, no scratches; unused mic, mobile mount, separation kit still packaged; power and CAT cable, plug-in meter, original box",
+      "url": "https://www.eham.net/classifieds/624056",
+      "notes": "price includes shipping in USA"
+    },
+    {
+      "price": 820.0,
+      "sold_date": "2025-07-09",
+      "condition": "Pristine, rarely used, display perfect; S-meter, separation cable, MH-59A8J mic, RT Systems software, original boxes",
+      "url": "https://www.eham.net/classifieds/621672",
+      "notes": "price includes shipping"
+    },
+    {
+      "price": 925.0,
+      "sold_date": "2025-07-07",
+      "condition": "New in box, never used, with YSK-857 separation kit",
+      "url": "https://www.eham.net/classifieds/621625",
+      "notes": "plus shipping; NIB unit"
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2024-11-10",
+      "condition": "Very clean, clean display; INRAD 2 kHz SSB filter installed, MH-31 mic, mount, new YSK-857 kit, original box, manual",
+      "url": "https://www.eham.net/classifieds/617283",
+      "notes": "price includes insured shipping CONUS; has added filter"
+    },
+    {
+      "price": 1300.0,
+      "sold_date": "2024-11-06",
+      "condition": "Good/new, fully functional; MARS mod",
+      "url": "https://www.eham.net/classifieds/617224",
+      "notes": "BUNDLE: radio plus Armorloq pack frame, PRC-117G pouch, Digirig, Bioenno battery etc., sold as a lot; shipped CONUS. Not comparable to radio alone; MARS mod"
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2024-08-04",
+      "condition": "Incredible condition; side rails, original packaging and manual",
+      "url": "https://www.eham.net/classifieds/615333",
+      "notes": "asking 850 or best offer, buyer pays shipping"
+    }
+  ]
+}
