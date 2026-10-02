@@ -1,0 +1,30 @@
+{
+  "model": "Kenwood VB-2530",
+  "slug": "kenwood-vb-2530",
+  "searched_at": "2026-10-02T15:00:46-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Thin: 2 comps, both very old (2003, 2010). Dates are ad post dates; eHam prices are asking prices on ads marked SOLD.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781112",
+    "site": "qth",
+    "ask": 199.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 30.0,
+      "sold_date": "2010-03-28",
+      "condition": "Clean, 9/10 appearance, non-smoking home; amp only - no power cable, box or manual. $30 shipped lower 48 (postal money order).",
+      "url": "https://www.eham.net/classifieds/314094",
+      "notes": "Ad date is post date; marked SOLD. Missing power cable/box/manual."
+    },
+    {
+      "price": 75.0,
+      "sold_date": "2003-04-13",
+      "condition": "New, never used, still in plastic wrap in original box. $75 shipped.",
+      "url": "https://www.eham.net/classifieds/85212",
+      "notes": "Ad date is post date; marked SOLD. Very old comp."
+    }
+  ]
+}
