@@ -1,0 +1,30 @@
+{
+  "model": "Alpha 4510A",
+  "slug": "alpha-4510a",
+  "searched_at": "2026-10-02T15:00:46-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Thin: 2 comps. Two other results were WANTED ads (excluded). Caution: QTH trigger listing describes 160-6m coverage and USB control, while the 2020 comp describes 1.8-30 MHz and RS-232 - possible newer revision under same model name; verify exact match. Dates are ad post dates; eHam prices are asking prices on ads marked SOLD.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781113",
+    "site": "qth",
+    "ask": 1299.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 450.0,
+      "sold_date": "2020-08-25",
+      "condition": "Excellent mechanically and electrically; includes printed manual and wall-wart PS. Described as 1.8-30 MHz, 200mW-3kW, RS-232. $450 shipped US.",
+      "url": "https://www.eham.net/classifieds/580021",
+      "notes": "Ad date is post date; marked SOLD."
+    },
+    {
+      "price": 618.0,
+      "sold_date": "2016-02-15",
+      "condition": "Mint, 5 months old, seller says used less than 10 (rest of phrase not captured). $618 shipped/insured US.",
+      "url": "https://www.eham.net/classifieds/490280",
+      "notes": "Ad date is post date; marked SOLD."
+    }
+  ]
+}
