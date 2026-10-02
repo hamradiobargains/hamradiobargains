@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ============================================================
+  MODEL PAGE TEMPLATE — Ham Radio Bargains
+  Working template for build_model_pages.py — do not hand-edit
+  per-model values; every dynamic value is a named token from the
+  TOKENS list below, written in double braces.
+
+  URL pattern: /models/icom-ic-9700/   e.g. /models/icom-ic-7300/
+
+  TOKENS (replaced at build time):
+    Icom IC-9700 icom-ic-9700 ICOM IC-9700 2026 1,670 1,150
+    2,049 8 August 11, 2026 What&#x27;s a Icom IC-9700 worth? Based on 8 recent sold listings, fair market value is ~$1,670 (range $1,150–$2,049). See price history, sold comps, and live below-market deals.
+    The Icom IC-9700 is the default answer to &#x27;what is the VHF/UHF all-mode box?&#x27; -- 2 meters, 70 centimeters, and 1.2 GHz, all modes including D-STAR, with a touchscreen, spectrum scope, and satellite features (full duplex, Doppler correction, 99 satellite memories) that made it the satellite operators&#x27; favorite overnight. Weak-signal VHF contesters swear its receiver digs signals out of the noise that older rigs left behind. Now the honest part, because every 9700 conversation eventually gets here: thermal drift. The master clock sits where the PA cooling fan blows warm air across it, so extended transmitting -- especially on 1.2 GHz digital modes -- can walk the frequency around. Firmware updates added a re-disciplining feature that helped a lot, and the 10 MHz reference input lets you drive it from a GPSDO, but the folk fix tells the story: an aftermarket solderless GPS board exists precisely because enough owners wanted sub-Hz stability. Also know: there is no internal GPS (position data comes from your phone), no internal antenna tuner, and digital-satellite folks grumble about the missing 9600-baud packet output. Buying used, key the transmitter on all three bands -- the 1.2 GHz finals are the expensive risk -- warm it up and check drift against a known signal, and test every corner of the touchscreen. A cool-running, low-drift 9700 is the VHF/UHF station in a box. <svg viewBox="0 0 620 280" width="100%" role="img" aria-label="Trailing 1-month median sold price trend">
+      <line x1="40" y1="230" x2="40" y2="40" stroke="#2c2c2e"/>
+      <line x1="40" y1="230" x2="600" y2="230" stroke="#2c2c2e"/>
+      <g font-size="11" fill="#9a9aa0" stroke="none">
+        <line x1="40" y1="230" x2="600" y2="230"/><text x="8" y="234">$1,645</text><line x1="40" y1="182" x2="600" y2="182"/><text x="8" y="186">$1,658</text><line x1="40" y1="135" x2="600" y2="135"/><text x="8" y="139">$1,670</text><line x1="40" y1="88" x2="600" y2="88"/><text x="8" y="92">$1,682</text><line x1="40" y1="40" x2="600" y2="40"/><text x="8" y="44">$1,695</text>
+      </g>
+      <g stroke="#2c2c2e" stroke-dasharray="3,4" fill="none">
+        <line x1="40" y1="230" x2="600" y2="230"/><line x1="40" y1="182" x2="600" y2="182"/><line x1="40" y1="135" x2="600" y2="135"/><line x1="40" y1="88" x2="600" y2="88"/><line x1="40" y1="40" x2="600" y2="40"/>
+      </g>
+      <polyline fill="none" stroke="#ff8c1a" stroke-width="3" points="40,135"/>
+      <g fill="#ff8c1a">
+        <circle cx="40" cy="135" r="4"/>
+      </g>
+      <g font-size="11" fill="#9a9aa0">
+        <text x="32" y="250">Aug</text>
+        <text x="570" y="250">Aug</text>
+        <text x="540" y="123" fill="#ff8c1a" font-weight="700">$1,670</text>
+      </g>
+    </svg> Median sold price per month, trailing 1 months. Roughly flat over the period. <tr><td colspan="4">Individual sold records for this model are still being compiled — the fair-value estimate above is based on 8 recent sales.</td></tr>
+    <p class="fine">No live below-market deals on this model right now &mdash; the good ones sell fast. <a href="#deal-alerts">Get the daily digest</a> and you&rsquo;ll see the next one before anyone else.</p> <details open>
+      <summary>What is the thermal drift issue, in plain terms?</summary>
+      <p>The radio&#x27;s master clock is not temperature-compensated, and it sits in the path of warm air from the cooling fan. Transmit for a while, especially at high power, and the frequency can wander -- noticeable on 1.2 GHz and on narrow digital modes. Icom improved it with firmware that periodically re-locks the clock, and you can feed it a 10 MHz GPS reference. For FM repeater use you will never notice it; for EME or 1.2 GHz digital work, budget the fix.</p>
+    </details>
+    <details>
+      <summary>Can it do satellites?</summary>
+      <p>Beautifully -- it is arguably the best satellite base radio made. Full duplex in satellite mode, normal and reverse tracking across 99 satellite memories, smooth Doppler correction, and computer control for tracking software. Two caveats: there is no V/V or U/U operation (main and sub must be different bands), and there is no 9600-baud packet output, which annoys some digital-satellite operators. For SSB, CW, and FM birds, it is the gold standard.</p>
+    </details>
+    <details>
+      <summary>What should I test before buying a used one?</summary>
+      <p>Transmit on all three bands -- 2m, 70cm, and especially 1.2 GHz, where the finals are the costly failure point. Warm it up for 15 minutes and check frequency drift against a known beacon or signal. Test every corner of the touchscreen for dead spots, confirm the scope and waterfall render cleanly, and verify the USB, CI-V, and SD card slot all work. Ask how it was used: heavy satellite or EME transmit duty at full power ages the PA faster than casual FM.</p>
+    </details> [
+    {
+      "@type": "Question",
+      "name": "What is the thermal drift issue, in plain terms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The radio's master clock is not temperature-compensated, and it sits in the path of warm air from the cooling fan. Transmit for a while, especially at high power, and the frequency can wander -- noticeable on 1.2 GHz and on narrow digital modes. Icom improved it with firmware that periodically re-locks the clock, and you can feed it a 10 MHz GPS reference. For FM repeater use you will never notice it; for EME or 1.2 GHz digital work, budget the fix."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can it do satellites?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Beautifully -- it is arguably the best satellite base radio made. Full duplex in satellite mode, normal and reverse tracking across 99 satellite memories, smooth Doppler correction, and computer control for tracking software. Two caveats: there is no V/V or U/U operation (main and sub must be different bands), and there is no 9600-baud packet output, which annoys some digital-satellite operators. For SSB, CW, and FM birds, it is the gold standard."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I test before buying a used one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Transmit on all three bands -- 2m, 70cm, and especially 1.2 GHz, where the finals are the costly failure point. Warm it up for 15 minutes and check frequency drift against a known beacon or signal. Test every corner of the touchscreen for dead spots, confirm the scope and waterfall render cleanly, and verify the USB, CI-V, and SD card slot all work. Ask how it was used: heavy satellite or EME transmit duty at full power ages the PA faster than casual FM."
+      }
+    }
+  ] <a href="/models/icom-ic-2720/">Icom IC-2720</a>
+    <a href="/models/icom-ah-4/">Icom AH-4</a>
+    <a href="/models/icom-ic-m34/">Icom IC-M34</a>
+    <a href="/models/icom-ic-705/">Icom IC-705</a>
+
+  Preview: python3 build_model_pages.py --demo   (renders IC-7300 sample)
+============================================================ -->
+
+<title>Icom IC-9700 Used Price (2026): Fair Value &amp; Live Deals | Ham Radio Bargains</title>
+<meta name="description" content="What&#x27;s a Icom IC-9700 worth? Based on 8 recent sold listings, fair market value is ~$1,670 (range $1,150–$2,049). See price history, sold comps, and live below-market deals.">
+<link rel="canonical" href="https://hamradiobargains.com/models/icom-ic-9700/">
+<meta property="og:title" content="Icom IC-9700 Used Price & Fair Market Value (2026)">
+<meta property="og:description" content="What&#x27;s a Icom IC-9700 worth? Based on 8 recent sold listings, fair market value is ~$1,670 (range $1,150–$2,049). See price history, sold comps, and live below-market deals.">
+<meta property="og:type" content="article">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Icom IC-9700",
+  "brand": { "@type": "Brand", "name": "Icom" },
+  "model": "IC-9700",
+  "category": "Amateur Radio Transceiver",
+  "description": "What&#x27;s a Icom IC-9700 worth? Based on 8 recent sold listings, fair market value is ~$1,670 (range $1,150–$2,049). See price history, sold comps, and live below-market deals.",
+  "offers": {
+    "@type": "AggregateOffer",
+    "lowPrice": "1,150",
+    "highPrice": "2,049",
+    "priceCurrency": "USD",
+    "offerCount": "8"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the thermal drift issue, in plain terms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The radio's master clock is not temperature-compensated, and it sits in the path of warm air from the cooling fan. Transmit for a while, especially at high power, and the frequency can wander -- noticeable on 1.2 GHz and on narrow digital modes. Icom improved it with firmware that periodically re-locks the clock, and you can feed it a 10 MHz GPS reference. For FM repeater use you will never notice it; for EME or 1.2 GHz digital work, budget the fix."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can it do satellites?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Beautifully -- it is arguably the best satellite base radio made. Full duplex in satellite mode, normal and reverse tracking across 99 satellite memories, smooth Doppler correction, and computer control for tracking software. Two caveats: there is no V/V or U/U operation (main and sub must be different bands), and there is no 9600-baud packet output, which annoys some digital-satellite operators. For SSB, CW, and FM birds, it is the gold standard."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I test before buying a used one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Transmit on all three bands -- 2m, 70cm, and especially 1.2 GHz, where the finals are the costly failure point. Warm it up for 15 minutes and check frequency drift against a known beacon or signal. Test every corner of the touchscreen for dead spots, confirm the scope and waterfall render cleanly, and verify the USB, CI-V, and SD card slot all work. Ask how it was used: heavy satellite or EME transmit duty at full power ages the PA faster than casual FM."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+  :root {
+    --bg: #121212; --card: #1c1c1e; --text: #f2f2f2; --muted: #9a9aa0;
+    --accent: #ff8c1a; --accent-dim: rgba(255,140,26,.14);
+    --border: #2c2c2e; --green: #3ddc84;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text);
+         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         line-height: 1.6; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 20px 60px; }
+  header.site { display: flex; align-items: center; gap: 10px;
+                padding: 18px 20px; border-bottom: 1px solid var(--border);
+                max-width: 900px; margin: 0 auto; }
+  header.site .logo { font-weight: 800; font-size: 1.15rem; }
+  header.site .logo span { color: var(--accent); }
+  nav.crumb { font-size: .85rem; color: var(--muted); margin: 22px 0 6px; }
+  nav.crumb a { color: var(--muted); text-decoration: none; }
+  nav.crumb a:hover { color: var(--accent); }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin-bottom: 18px; }
+
+  /* Quick-answer box — the featured-snippet target */
+  .answer-box { background: var(--card); border: 1px solid var(--border);
+                border-left: 4px solid var(--accent); border-radius: 10px;
+                padding: 20px 22px; margin-bottom: 30px; }
+  .answer-box .fmv { font-size: 2rem; font-weight: 800; color: var(--accent); }
+  .answer-box dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px;
+                   margin-top: 10px; font-size: .95rem; }
+  .answer-box dt { color: var(--muted); }
+  .answer-box .fine { font-size: .8rem; color: var(--muted); margin-top: 10px; }
+
+  h2 { font-size: 1.3rem; margin: 38px 0 14px;
+       padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  .chart-card, .table-card { background: var(--card); border: 1px solid var(--border);
+                             border-radius: 10px; padding: 18px; overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; font-size: .8rem; text-transform: uppercase; }
+  tr:last-child td { border-bottom: none; }
+  .sold-tag { display: inline-block; background: var(--accent-dim); color: var(--accent);
+              font-size: .75rem; font-weight: 700; padding: 2px 8px; border-radius: 20px; }
+  .live-badge { display: inline-block; background: var(--accent); color: #fff;
+                font-size: .7rem; font-weight: 700; padding: 2px 8px; border-radius: 20px;
+                vertical-align: middle; }
+
+  .deals { display: grid; gap: 14px; }
+  .deals .fine { color: var(--muted); font-size: .95rem; }
+  .deal { background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+          padding: 18px; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  .deal .pct { background: var(--green); color: #06281a; font-weight: 800;
+               font-size: .85rem; padding: 4px 10px; border-radius: 20px; white-space: nowrap; }
+  .deal .name { font-weight: 700; }
+  .deal .price { font-size: 1.3rem; font-weight: 800; color: var(--accent); }
+  .deal a.btn { background: var(--accent); color: #1a1005; font-weight: 700;
+                padding: 10px 16px; border-radius: 8px; text-decoration: none; white-space: nowrap; }
+
+  .faq details { background: var(--card); border: 1px solid var(--border);
+                 border-radius: 10px; padding: 14px 18px; margin-bottom: 10px; }
+  .faq summary { font-weight: 700; cursor: pointer; }
+  .faq p { margin-top: 8px; color: #d8d8dc; font-size: .95rem; }
+
+  .alert-box { background: var(--accent-dim); border: 1px solid var(--accent);
+               border-radius: 10px; padding: 22px; margin-top: 38px; text-align: center; }
+  .alert-box h2 { border: none; margin: 0 0 8px; padding: 0; }
+  .alert-box p { color: #d8d8dc; font-size: .95rem; margin-bottom: 14px; }
+  .alert-box form { display: flex; gap: 10px; max-width: 440px; margin: 0 auto; }
+  .alert-box input { flex: 1; padding: 11px 14px; border-radius: 8px; border: 1px solid var(--border);
+                     background: var(--bg); color: var(--text); font-size: .95rem; }
+  .alert-box button { background: var(--accent); color: #1a1005; border: none;
+                      font-weight: 700; padding: 11px 20px; border-radius: 8px; cursor: pointer; }
+
+  .related { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+  .related a { background: var(--card); border: 1px solid var(--border); color: var(--text);
+               padding: 8px 14px; border-radius: 20px; text-decoration: none; font-size: .9rem; }
+  .related a:hover { border-color: var(--accent); color: var(--accent); }
+
+  footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid var(--border);
+           color: var(--muted); font-size: .8rem; }
+  @media (max-width: 560px) {
+    .deal { flex-direction: column; align-items: flex-start; }
+    .alert-box form { flex-direction: column; }
+  }
+</style>
+<script data-goatcounter="https://hrb.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+
+<header class="site">
+  <div class="logo">📻 Ham Radio <span>Bargains</span></div>
+</header>
+
+<div class="wrap">
+
+  <nav class="crumb" aria-label="Breadcrumb">
+    <a href="/">Home</a> &nbsp;›&nbsp; <a href="/models/">Price Check</a> &nbsp;›&nbsp; Icom IC-9700
+  </nav>
+
+  <h1>Icom IC-9700 Used Price &amp; Fair Market Value</h1>
+
+  <!-- 1. QUICK-ANSWER BOX -->
+  <section class="answer-box" aria-label="Fair market value summary">
+    <div class="fmv">~$1,670</div>
+    <dl>
+      <dt>Fair market value</dt><dd><strong>$1,670</strong> (median of recent sales)</dd>
+      <dt>Typical range</dt><dd>$1,150 – $2,049</dd>
+      <dt>Based on</dt><dd>8 sold listings</dd>
+      <dt>Last updated</dt><dd>August 11, 2026</dd>
+    </dl>
+    <p class="fine">Values are estimates from recent comparable sales — condition, accessories, and included extras vary. Always compare before buying.</p>
+  </section>
+
+  <!-- 2. PRICE HISTORY -->
+  <h2>IC-9700 price history</h2>
+  <div class="chart-card">
+    <svg viewBox="0 0 620 280" width="100%" role="img" aria-label="Trailing 1-month median sold price trend">
+      <line x1="40" y1="230" x2="40" y2="40" stroke="#2c2c2e"/>
+      <line x1="40" y1="230" x2="600" y2="230" stroke="#2c2c2e"/>
+      <g font-size="11" fill="#9a9aa0" stroke="none">
+        <line x1="40" y1="230" x2="600" y2="230"/><text x="8" y="234">$1,645</text><line x1="40" y1="182" x2="600" y2="182"/><text x="8" y="186">$1,658</text><line x1="40" y1="135" x2="600" y2="135"/><text x="8" y="139">$1,670</text><line x1="40" y1="88" x2="600" y2="88"/><text x="8" y="92">$1,682</text><line x1="40" y1="40" x2="600" y2="40"/><text x="8" y="44">$1,695</text>
+      </g>
+      <g stroke="#2c2c2e" stroke-dasharray="3,4" fill="none">
+        <line x1="40" y1="230" x2="600" y2="230"/><line x1="40" y1="182" x2="600" y2="182"/><line x1="40" y1="135" x2="600" y2="135"/><line x1="40" y1="88" x2="600" y2="88"/><line x1="40" y1="40" x2="600" y2="40"/>
+      </g>
+      <polyline fill="none" stroke="#ff8c1a" stroke-width="3" points="40,135"/>
+      <g fill="#ff8c1a">
+        <circle cx="40" cy="135" r="4"/>
+      </g>
+      <g font-size="11" fill="#9a9aa0">
+        <text x="32" y="250">Aug</text>
+        <text x="570" y="250">Aug</text>
+        <text x="540" y="123" fill="#ff8c1a" font-weight="700">$1,670</text>
+      </g>
+    </svg>
+    <p style="color:var(--muted);font-size:.85rem;margin-top:8px;">Median sold price per month, trailing 1 months. Roughly flat over the period.</p>
+  </div>
+
+  <!-- 2b. LIVE MARKET TREND (auto-updated daily from /comps.json; hidden when no data) -->
+  <section class="chart-card" id="market-trend" data-comp-key="ICOM IC-9700" hidden
+           aria-label="Live eHam market trend" style="margin-top:18px;">
+    <h2 style="margin:0 0 10px;border:0;padding:0;">IC-9700 market trend <span class="live-badge">live</span></h2>
+    <p id="mt-summary" style="margin:0 0 10px;"></p>
+    <svg id="mt-chart" viewBox="0 0 320 90" width="100%" role="img"
+         aria-label="eHam sold-price median trend"></svg>
+    <p class="fine" style="margin-top:8px;">Based on eHam.net classifieds marked SOLD — asking prices sellers marked as sold, not confirmed sale prices. Refreshed daily from our deal-scan comp checks.</p>
+  </section>
+
+  <!-- 3. SOLD COMPS -->
+  <h2>Recent sold listings</h2>
+  <div class="table-card">
+    <table>
+      <thead><tr><th>Date sold</th><th>Item</th><th>Price</th><th>Source</th></tr></thead>
+      <tbody>
+        <tr><td colspan="4">Individual sold records for this model are still being compiled — the fair-value estimate above is based on 8 recent sales.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 4. LIVE DEALS -->
+  <h2>Live IC-9700 deals</h2>
+  <div class="deals">
+    <p class="fine">No live below-market deals on this model right now &mdash; the good ones sell fast. <a href="#deal-alerts">Get the daily digest</a> and you&rsquo;ll see the next one before anyone else.</p>
+  </div>
+
+  <!-- 5. MODEL OVERVIEW (hand-written per model in overviews.csv — never auto-generated) -->
+  <h2>About the Icom IC-9700</h2>
+  <p>The Icom IC-9700 is the default answer to &#x27;what is the VHF/UHF all-mode box?&#x27; -- 2 meters, 70 centimeters, and 1.2 GHz, all modes including D-STAR, with a touchscreen, spectrum scope, and satellite features (full duplex, Doppler correction, 99 satellite memories) that made it the satellite operators&#x27; favorite overnight. Weak-signal VHF contesters swear its receiver digs signals out of the noise that older rigs left behind. Now the honest part, because every 9700 conversation eventually gets here: thermal drift. The master clock sits where the PA cooling fan blows warm air across it, so extended transmitting -- especially on 1.2 GHz digital modes -- can walk the frequency around. Firmware updates added a re-disciplining feature that helped a lot, and the 10 MHz reference input lets you drive it from a GPSDO, but the folk fix tells the story: an aftermarket solderless GPS board exists precisely because enough owners wanted sub-Hz stability. Also know: there is no internal GPS (position data comes from your phone), no internal antenna tuner, and digital-satellite folks grumble about the missing 9600-baud packet output. Buying used, key the transmitter on all three bands -- the 1.2 GHz finals are the expensive risk -- warm it up and check drift against a known signal, and test every corner of the touchscreen. A cool-running, low-drift 9700 is the VHF/UHF station in a box.</p>
+
+  <!-- 6. FAQ -->
+  <h2>Common questions</h2>
+  <div class="faq">
+    <details open>
+      <summary>What is the thermal drift issue, in plain terms?</summary>
+      <p>The radio&#x27;s master clock is not temperature-compensated, and it sits in the path of warm air from the cooling fan. Transmit for a while, especially at high power, and the frequency can wander -- noticeable on 1.2 GHz and on narrow digital modes. Icom improved it with firmware that periodically re-locks the clock, and you can feed it a 10 MHz GPS reference. For FM repeater use you will never notice it; for EME or 1.2 GHz digital work, budget the fix.</p>
+    </details>
+    <details>
+      <summary>Can it do satellites?</summary>
+      <p>Beautifully -- it is arguably the best satellite base radio made. Full duplex in satellite mode, normal and reverse tracking across 99 satellite memories, smooth Doppler correction, and computer control for tracking software. Two caveats: there is no V/V or U/U operation (main and sub must be different bands), and there is no 9600-baud packet output, which annoys some digital-satellite operators. For SSB, CW, and FM birds, it is the gold standard.</p>
+    </details>
+    <details>
+      <summary>What should I test before buying a used one?</summary>
+      <p>Transmit on all three bands -- 2m, 70cm, and especially 1.2 GHz, where the finals are the costly failure point. Warm it up for 15 minutes and check frequency drift against a known beacon or signal. Test every corner of the touchscreen for dead spots, confirm the scope and waterfall render cleanly, and verify the USB, CI-V, and SD card slot all work. Ask how it was used: heavy satellite or EME transmit duty at full power ages the PA faster than casual FM.</p>
+    </details>
+  </div>
+
+  <!-- 7. MODEL-SPECIFIC ALERT -->
+  <!-- Wired to the site's Mailchimp list (same signup as the homepage). Submitting
+       opens Mailchimp's confirmation in a new tab. Note: this joins the general
+       daily digest — per-model-only emails would need extra Mailchimp setup. -->
+  <div class="alert-box" id="deal-alerts">
+    <h2>Get IC-9700 deal alerts</h2>
+    <p>Join the daily digest — one email a day when new below-market bargains are posted, including the Icom IC-9700. No spam, unsubscribe anytime.</p>
+    <form action="https://aol.us10.list-manage.com/subscribe/post?u=441753dd20abb2aaec7030997&amp;id=e37bef4cda&amp;f_id=001851e4f0" method="post" target="_blank" novalidate>
+      <input type="email" name="EMAIL" placeholder="you@example.com" required aria-label="Email address">
+      <div hidden><input type="hidden" name="tags" value="14572049"></div>
+      <div aria-hidden="true" style="position:absolute; left:-5000px;">
+        <input type="text" name="b_441753dd20abb2aaec7030997_e37bef4cda" tabindex="-1" value="">
+      </div>
+      <button type="submit">Notify Me</button>
+    </form>
+  </div>
+
+  <!-- 8. RELATED MODELS -->
+  <h2>Compare similar rigs</h2>
+  <div class="related">
+    <a href="/models/icom-ic-2720/">Icom IC-2720</a>
+    <a href="/models/icom-ah-4/">Icom AH-4</a>
+    <a href="/models/icom-ic-m34/">Icom IC-M34</a>
+    <a href="/models/icom-ic-705/">Icom IC-705</a>
+  </div>
+
+  <footer>
+    <p>"% below market" is an estimate based on recent comparable sale prices — condition, included accessories, and current prices can vary. Always compare before buying. Deals are spotted and tracked for the ham radio community.</p>
+    <p style="margin-top:8px;">© 2026 Ham Radio Bargains</p>
+  </footer>
+
+</div>
+<script>
+(function () {
+  var box = document.getElementById('market-trend');
+  if (!box) return;
+  var key = box.getAttribute('data-comp-key');
+  if (!key) return;
+  fetch('/comps.json', { cache: 'no-store' }).then(function (r) {
+    return r.ok ? r.json() : null;
+  }).then(function (d) {
+    if (!d || !d.models || !d.models[key]) return;
+    var m = d.models[key], h = m.history || [];
+    if (!h.length) return;
+    var L = m.latest;
+    var fmt = function (n) { return '$' + Number(n).toLocaleString('en-US'); };
+    document.getElementById('mt-summary').innerHTML =
+      'Median of <strong>' + L.count + '</strong> eHam sold listings: <strong>' + fmt(L.median) +
+      '</strong> <span style="color:var(--muted)">(range ' + fmt(L.low) + ' &ndash; ' + fmt(L.high) +
+      ' &middot; as of ' + L.date + ')</span>';
+    var W = 320, H = 90, P = 10;
+    var vals = h.map(function (p) { return p.median; });
+    var mn = Math.min.apply(null, vals), mx = Math.max.apply(null, vals);
+    if (mx === mn) { mx = mn + 1; }
+    var X = function (i) { return P + (W - 2 * P) * (h.length === 1 ? 0.5 : i / (h.length - 1)); };
+    var Y = function (v) { return H - P - (H - 2 * P) * (v - mn) / (mx - mn); };
+    var pts = h.map(function (p, i) {
+      return X(i).toFixed(1) + ',' + Y(p.median).toFixed(1);
+    }).join(' ');
+    var dots = h.map(function (p, i) {
+      return '<circle cx="' + X(i).toFixed(1) + '" cy="' + Y(p.median).toFixed(1) +
+             '" r="3.5" style="fill:var(--accent)"><title>' + p.date + ': ' + fmt(p.median) +
+             ' (n=' + p.count + ')</title></circle>';
+    }).join('');
+    document.getElementById('mt-chart').innerHTML =
+      '<polyline points="' + pts + '" fill="none" stroke-width="2.5" style="stroke:var(--accent)"/>' + dots;
+    box.hidden = false;
+  }).catch(function () { /* offline or missing file: leave the section hidden */ });
+})();
+</script>
+</body>
+</html>
