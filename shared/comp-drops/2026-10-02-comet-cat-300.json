@@ -1,0 +1,30 @@
+{
+  "model": "Comet CAT-300",
+  "slug": "comet-cat-300",
+  "searched_at": "2026-10-02T15:00:46-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Thin: 2 comps. Search also returned many CAT-300/CAT-300DX repeater controller ads (different product, excluded). Dates are ad post dates; eHam prices are asking prices on ads marked SOLD.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781106",
+    "site": "qth",
+    "ask": 150.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 200.0,
+      "sold_date": "2026-06-11",
+      "condition": "Excellent, like new, ~2.5 yrs old, non-smoking; OEM box, DC light cable, instructions. $200 incl. CONUS shipping.",
+      "url": "https://www.eham.net/classifieds/627207",
+      "notes": "Ad date is post date; marked SOLD."
+    },
+    {
+      "price": 224.0,
+      "sold_date": "2025-11-25",
+      "condition": "New (received as gift), stock/original box. Pickup San Jose CA or buyer pays shipping.",
+      "url": "https://www.eham.net/classifieds/623978",
+      "notes": "Ad date is post date; marked SOLD. Price excludes shipping."
+    }
+  ]
+}
