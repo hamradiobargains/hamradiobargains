@@ -1,0 +1,58 @@
+{
+  "model": "Kenwood R-1000",
+  "slug": "kenwood-r-1000",
+  "searched_at": "2026-10-02T17:59:54-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam shows no sold date; sold_date is the ad's posted date. Prices are the seller's asking price on ads marked SOLD. Three of the six comps (621760, 621759, 621165) are from the same seller (WQ5J) with near-identical text in 2025; 621760 and 621759 were posted the same day in different categories at different prices ($275 vs $365) and may be the same radio, so treat them with caution. Unsold R-1000 ads (612910, 601602) and non-matching models (Flex SDR-1000, IFR-1000A) excluded.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/287622477680",
+    "site": "ebay",
+    "ask": 299.99,
+    "shipping": 11.14
+  },
+  "comps": [
+    {
+      "price": 350.0,
+      "sold_date": "2025-08-17",
+      "condition": "LNIB, working perfectly; both original boxes, packing, power cord; no manual",
+      "url": "https://www.eham.net/classifieds/622397",
+      "notes": "shipped and insured CONUS ($300 local pickup). Flaw: previous owner's number etched on bottom of bezel"
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2025-07-14",
+      "condition": "Immaculate",
+      "url": "https://www.eham.net/classifieds/621760",
+      "notes": "plus $32 shipping; posted in Misc category; same seller and day as 621759 at a different price, possibly the same radio"
+    },
+    {
+      "price": 365.0,
+      "sold_date": "2025-07-14",
+      "condition": "Immaculate",
+      "url": "https://www.eham.net/classifieds/621759",
+      "notes": "plus $32 shipping; same seller and day as 621760 at a different price, possibly the same radio"
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2025-06-09",
+      "condition": "Immaculate",
+      "url": "https://www.eham.net/classifieds/621165",
+      "notes": "plus $42 shipping; same seller (WQ5J) as 621760/621759"
+    },
+    {
+      "price": 299.0,
+      "sold_date": "2023-01-12",
+      "condition": "Minor scratches on top, works great; includes service manual",
+      "url": "https://www.eham.net/classifieds/602496",
+      "notes": "plus $29.50 shipping; seller WQ5J"
+    },
+    {
+      "price": 299.0,
+      "sold_date": "2021-12-02",
+      "condition": "Everything works, very good cosmetics, no scratches/dings/dents; original AC cord, manual, service manual copy",
+      "url": "https://www.eham.net/classifieds/592151",
+      "notes": "$275 plus $24 shipping = $299 shipped CONUS"
+    }
+  ]
+}
