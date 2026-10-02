@@ -1690,5 +1690,17 @@
   "compCount": 6,
   "compLow": 350.0,
   "compHigh": 595.0
+ },
+ {
+  "date": "2026-10-02",
+  "item": "Comet CAT-300",
+  "link": "https://swap.qth.com/view_ad.php?counter=1781106",
+  "price": 150.0,
+  "extraCost": 0.0,
+  "pctBelow": 0.2925,
+  "median": 212.0,
+  "compCount": 2,
+  "compLow": 200.0,
+  "compHigh": 224.0
  }
 ]
