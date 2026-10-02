@@ -1,0 +1,49 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-02",
+  "ran_at": "2026-10-02T15:00:46-04:00",
+  "ran_by": "claude",
+  "notes": "First qth run (no prior qth listing drop), window = prior 24h. Scanned QTH all-ads pages 1-2 (20 newest ads). Only ads submitted within window considered; older ads renewed/modified today (e.g. Yaesu M90 mic, TS-520S bundle) skipped. Elecraft KX3/PX3 bundle skipped (marked pending, bundle).",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781112",
+      "site": "qth",
+      "title": "AMPVHF - Kenwood VB-2530 2m Power Amp",
+      "price": 199.0,
+      "shipping": 0,
+      "found_at": "2026-10-02",
+      "condition_notes": "Seller: excellent condition, works as it should. 25W 2m amp. $199 shipped CONUS. Photo posted.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781106",
+      "site": "qth",
+      "title": "ANTETUNE - Comet CAT-300 1.8-50 MHz Manual Tuner",
+      "price": 150.0,
+      "shipping": 0,
+      "found_at": "2026-10-02",
+      "condition_notes": "Seller: like new, original box, manual, works great. $150 shipped CONUS via Zelle; PayPal adds $10.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781078",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE: RADIODDITY QT60 10 METER TX/RX",
+      "price": 250.0,
+      "shipping": 0,
+      "found_at": "2026-10-02",
+      "condition_notes": "Seller: excellent condition, hardly used, non-smoking, with hand mic and manual; includes Kenwood HS-5 headphones. Price is PLUS shipping (amount not stated; shipping recorded as 0/unknown). Mainland USA only.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781113",
+      "site": "qth",
+      "title": "MISC - Alpha 4510A HF+6m 3kW Meter",
+      "price": 1299.0,
+      "shipping": 0,
+      "found_at": "2026-10-02",
+      "condition_notes": "Seller: immaculate condition; describes it as upgraded successor to the 4510 with 160-6m coverage, 3kW, direct USB control, LED display. $1299 shipped CONUS. Note: spec description (6m, USB) differs from older 4510A eHam comps (1.8-30 MHz, RS-232).",
+      "seller_feedback": ""
+    }
+  ]
+}
