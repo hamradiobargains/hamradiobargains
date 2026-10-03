@@ -1,0 +1,59 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-03",
+  "ran_at": "2026-10-03T14:58:11-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-02T15:00:46-04:00 (prior qth drop). Scanned QTH all-ads pages 1-2 (20 newest). Renewed/modified older ads skipped (IC-7600, FT-757GX, Flex TGXL wanted). Skipped: Elecraft KX2 station bundle (bundle), IC-775DSP (no price), 3-500ZG tubes, scanner, minor accessories. All 5 candidates were ledger misses; eHam comps searched for all 5 with no blocks.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781235",
+      "site": "qth",
+      "title": "ANTETUNE - Palstar BT 1500A Ladder line tuner",
+      "price": 650.0,
+      "shipping": 0,
+      "found_at": "2026-10-03",
+      "condition_notes": "Hardly used, excellent condition, works as it should. $650 shipped. PayPal or Zelle.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781228",
+      "site": "qth",
+      "title": "AMPHF - FOR SALE: SPE 1.3K-FA amplifier",
+      "price": 2950.0,
+      "shipping": 0,
+      "found_at": "2026-10-03",
+      "condition_notes": "Used for an IOTA activation with an Elecraft KX2; includes soft case. Condition not otherwise described; shipping not stated. Same seller (N1DL) also has it on eHam today at $3000.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781224",
+      "site": "qth",
+      "title": "AMPHF - Ameritron AL82 Amolifier",
+      "price": 1900.0,
+      "shipping": 0,
+      "found_at": "2026-10-03",
+      "condition_notes": "Nice condition, full output. Local pickup only (can be tested before pickup); no shipping.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781223",
+      "site": "qth",
+      "title": "ANTETUNE - FOR SALE: LDG Z-100 Plus tuner $100",
+      "price": 100.0,
+      "shipping": 0,
+      "found_at": "2026-10-03",
+      "condition_notes": "Very nice / excellent condition; includes 12V power cord and AA battery tray. $100 shipped CONUS.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781226",
+      "site": "qth",
+      "title": "ANTETUNE - Heathkit SA 2060-A 2kW tuner",
+      "price": 200.0,
+      "shipping": 0,
+      "found_at": "2026-10-03",
+      "condition_notes": "No condition detail in ad (more pictures on request). $200 plus shipping; shipping amount not stated (recorded as 0/unknown).",
+      "seller_feedback": ""
+    }
+  ]
+}
