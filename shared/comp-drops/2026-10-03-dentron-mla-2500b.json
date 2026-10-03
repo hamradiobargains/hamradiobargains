@@ -1,0 +1,51 @@
+{
+  "model": "Dentron MLA-2500B",
+  "slug": "dentron-mla-2500b",
+  "searched_at": "2026-10-03T18:01:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Ledger miss (no entry). eHam search 'MLA-2500' with sold box, first 50 results. Only MLA-2500B ads kept — plain MLA-2500 and MLA-2500S are different models. Excluded tube/parts/manual ads, wanted ads, and 289707 (no clear price). All 5 comps are 2005–2010 — very old. eBay item specifics list the model as 'MLB-2500B' (seller typo); title says MLA-2500B.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/147617497516",
+    "site": "ebay",
+    "ask": 1250.0,
+    "shipping": 54.87
+  },
+  "comps": [
+    {
+      "price": 550.0,
+      "sold_date": "2010-10-20",
+      "condition": "Very nice; 2 x 8875 tubes; looks and operates great; no mods; non-smoker",
+      "url": "https://www.eham.net/classifieds/328834",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2009-01-16",
+      "condition": "'B' model; two Eimac 8875 tubes at ~98–99%, >1400 W out; new HV bleeder/operation/meter parts; original manual; set up for 234 V",
+      "url": "https://www.eham.net/classifieds/275494",
+      "notes": "OBO plus actual shipping; same seller as 275757 — possibly the same amp relisted"
+    },
+    {
+      "price": 875.0,
+      "sold_date": "2008-12-12",
+      "condition": "'B' model; Eimac 8875 tubes; new HV bleeder, function and meter lamps; wired for 234 VAC",
+      "url": "https://www.eham.net/classifieds/275757",
+      "notes": "OBO plus shipping; marked 'sold pending payment'; possibly same amp as 275494"
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2005-05-19",
+      "condition": "Good condition with manual; not fired up lately, worked last time used",
+      "url": "https://www.eham.net/classifieds/172069",
+      "notes": "FLAG: untested recently; plus freight; seller said it sold in 30 minutes"
+    },
+    {
+      "price": 595.0,
+      "sold_date": "2005-05-04",
+      "condition": "Excellent shape, 2 kW PEP",
+      "url": "https://www.eham.net/classifieds/170608",
+      "notes": "multi-item ad; MLA-2500B priced separately at $595; Dayton pickup"
+    }
+  ]
+}
