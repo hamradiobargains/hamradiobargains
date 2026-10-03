@@ -1,0 +1,37 @@
+{
+  "model": "Ameritron AL-82",
+  "slug": "ameritron-al-82",
+  "searched_at": "2026-10-03T14:58:11-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "3 comps from page 1 of 9 of eHam results; later pages not checked. Many unsold relists (WQ5J x5, W2BA, N4AX) excluded as not marked SOLD. Two of three comps were pickup-only; one comp has CTR upgrade mods. Dates are ad post dates; eHam prices are asking prices on ads marked SOLD.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781224",
+    "site": "qth",
+    "ask": 1900.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1700.0,
+      "sold_date": "2026-06-11",
+      "condition": "Real nice condition, not butchered. MODS: CTR Engineering upgraded capacitor board, rectifier board, soft start and HV relay (~$500 of upgrades). Full output. Sold as is, local pickup only, no shipping.",
+      "url": "https://www.eham.net/classifieds/627208",
+      "notes": "Ad date is post date; marked SOLD. Modified (CTR upgrades); pickup only."
+    },
+    {
+      "price": 1650.0,
+      "sold_date": "2024-06-15",
+      "condition": "Very nice, lightly used (160m backup), 3 boxes and manual, non-smoking. Very minor scratches, missing top screw. 240 VAC. Pickup only, Winchester VA.",
+      "url": "https://www.eham.net/classifieds/614319",
+      "notes": "Ad date is post date; marked SOLD. Price after a stated price reduction; pickup only."
+    },
+    {
+      "price": 2000.0,
+      "sold_date": "2023-11-26",
+      "condition": "Excellent condition. $2000 delivered.",
+      "url": "https://www.eham.net/classifieds/609635",
+      "notes": "Ad date is post date; marked SOLD. Price includes delivery."
+    }
+  ]
+}
