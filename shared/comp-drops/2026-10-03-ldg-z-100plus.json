@@ -1,0 +1,30 @@
+{
+  "model": "LDG Z-100Plus",
+  "slug": "ldg-z-100plus",
+  "searched_at": "2026-10-03T14:58:11-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Thin: 2 standalone comps from page 1 of eHam results. Excluded: LDG Z-100A (different model, incl. a SOLD $125+ship 2026-03-16 ad), Z-100 (no suffix, cancelled), and two SOLD bundles where the Z-100Plus was a minor item (FT-891 bundle, IC-705 bundle). Dates are ad post dates; eHam prices are asking prices on ads marked SOLD.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781223",
+    "site": "qth",
+    "ask": 100.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 150.0,
+      "sold_date": "2025-11-07",
+      "condition": "Excellent, works great; bought new July 2025; includes a 12VDC wall wart. $150 shipped.",
+      "url": "https://www.eham.net/classifieds/623742",
+      "notes": "Ad date is post date; marked SOLD."
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2024-07-15",
+      "condition": "Excellent condition, with Yaesu cable. $160 shipped.",
+      "url": "https://www.eham.net/classifieds/614987",
+      "notes": "Ad date is post date; marked SOLD."
+    }
+  ]
+}
