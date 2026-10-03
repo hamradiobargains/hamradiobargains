@@ -1,0 +1,135 @@
+{
+  "model": "Yaesu FT-757GX",
+  "slug": "yaesu-ft-757gx",
+  "searched_at": "2026-10-03T17:59:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Ledger miss (no YAESU FT-757GX entry). eHam search '757GX' with sold box, first 50 results. FT-757GX II ads excluded (different model). eBay listing title says 'FT 757GX' and item specifics give only brand — no sign it is a GX II, but not verified from photos. Excluded bundles with FC-757AT tuner and/or FP-757 supply priced together (615726, 593889, 583636, 565211, 442593, 431980, 353973, 330153, 326372), wanted ads, software ads, and 450171 (no price). Only 2 comps since 2017; most are 2011–2016. Several comps are flagged as faulty or modified.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/237104350857",
+    "site": "ebay",
+    "ask": 450.0,
+    "shipping": 48.0
+  },
+  "comps": [
+    {
+      "price": 249.0,
+      "sold_date": "2026-08-13",
+      "condition": "Used; receiver appears OK, 115 W peak out; includes Yaesu mic and DC power cord",
+      "url": "https://www.eham.net/classifieds/628213",
+      "notes": "plus $32 shipping"
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2024-11-21",
+      "condition": "Fair-to-good; hears fine, full power; minor scratches; frequency display reads ~500 Hz low — sold as 'tech special', as-is",
+      "url": "https://www.eham.net/classifieds/617547",
+      "notes": "FLAG: display calibration off; as-is; shipping included"
+    },
+    {
+      "price": 390.0,
+      "sold_date": "2016-07-30",
+      "condition": "Good condition; MH-1B8 mic, power cable; meter LED backlight modification",
+      "url": "https://www.eham.net/classifieds/496071",
+      "notes": "FLAG: modified (LED meter backlight); shipped lower 48"
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2014-12-03",
+      "condition": "Working fine, bench and on-air tested, not mint",
+      "url": "https://www.eham.net/classifieds/453005",
+      "notes": "title 'HF Rig & Accessories'; shipped CONUS"
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2014-08-17",
+      "condition": "Good working order; power cord, manual, mic",
+      "url": "https://www.eham.net/classifieds/416377",
+      "notes": "plus shipping; same text/seller as 413627 — possibly the same radio"
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2014-08-17",
+      "condition": "Good working order; power cord, manual, mic",
+      "url": "https://www.eham.net/classifieds/413627",
+      "notes": "sale or trade; same text/seller as 416377 — possibly the same radio"
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2013-11-17",
+      "condition": "Dial won't move the frequency; sold as-is",
+      "url": "https://www.eham.net/classifieds/423338",
+      "notes": "FLAG: tuning fault; plus shipping"
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2013-10-29",
+      "condition": "Very good condition, works well; original box and hand mic",
+      "url": "https://www.eham.net/classifieds/420779",
+      "notes": ""
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2013-06-01",
+      "condition": "Powers on but no output power; SW receiver / parts radio; sold as-is",
+      "url": "https://www.eham.net/classifieds/408302",
+      "notes": "FLAG: no transmit output; plus shipping"
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2013-03-02",
+      "condition": "Used; sold for an SK's family",
+      "url": "https://www.eham.net/classifieds/401006",
+      "notes": "shipping not included"
+    },
+    {
+      "price": 265.0,
+      "sold_date": "2012-02-13",
+      "condition": "Radio, hand mic, power cord; non-smoking environment",
+      "url": "https://www.eham.net/classifieds/366948",
+      "notes": "OBO"
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2011-12-07",
+      "condition": "Good working radio with hand mic, power cord",
+      "url": "https://www.eham.net/classifieds/361371",
+      "notes": "same seller also listed it at $350 (361026, 360340) — likely the same radio relisted"
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2011-12-07",
+      "condition": "Good working radio with hand mic, power cord",
+      "url": "https://www.eham.net/classifieds/361026",
+      "notes": "likely same radio as 361371/360340"
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2011-11-23",
+      "condition": "Good working radio with hand mic, power cord",
+      "url": "https://www.eham.net/classifieds/360340",
+      "notes": "likely same radio as 361371/361026"
+    },
+    {
+      "price": 380.0,
+      "sold_date": "2011-09-19",
+      "condition": "Fully operational all modes; CAT system installed; MH-1B8 mic and manual",
+      "url": "https://www.eham.net/classifieds/355310",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2011-07-10",
+      "condition": "Good condition, works great; power cord and mic",
+      "url": "https://www.eham.net/classifieds/349717",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2011-06-07",
+      "condition": "Nice condition, from an SK; all functions operate, power output checked",
+      "url": "https://www.eham.net/classifieds/346819",
+      "notes": ""
+    }
+  ]
+}
