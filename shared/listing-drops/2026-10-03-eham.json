@@ -1,0 +1,49 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-03",
+  "ran_at": "2026-10-03T05:52:44-04:00",
+  "ran_by": "claude",
+  "notes": "First eHam run (no prior eham drop) - covered prior 24 hours; eHam shows post dates only, so ads dated 2026-10-02 were treated as in-window. Cloudflare 'Just a moment' interstitial on first load cleared on its own after ~10s; no challenge after that.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629000",
+      "site": "eham",
+      "title": "FS: YAESU FTDX101D",
+      "price": 3250.0,
+      "shipping": 0,
+      "found_at": "2026-10-03",
+      "condition_notes": "Seller: not yet a year old (bought Nov 2025), screen protector still on, perfect working order; original box, manual, hand mic, plus two guide books. Shipping 'U-ship' (buyer pays, amount unknown).",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/628999",
+      "site": "eham",
+      "title": "Elecraft KPA500 with KV5J DDS",
+      "price": 2450.0,
+      "shipping": 50.0,
+      "found_at": "2026-10-03",
+      "condition_notes": "SN 1046, excellent condition and operation; factory serviced/updated 2022; 400W+ out. Includes discontinued KV5J Digital Display Unit, manuals, RS232 cable.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/628998",
+      "site": "eham",
+      "title": "NEW TYT UVL-15W GPS/APRS 15 Watts w/program cable",
+      "price": 205.0,
+      "shipping": 13.0,
+      "found_at": "2026-10-03",
+      "condition_notes": "New, unused; includes programming cable. Seller appears to be a reseller ('only seller in US').",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/628994",
+      "site": "eham",
+      "title": "Heil HM-IC Microphone - 8 pin",
+      "price": 44.99,
+      "shipping": 0,
+      "found_at": "2026-10-03",
+      "condition_notes": "Mic works fine; included free 8-pin cable has issues (works, needs heat shrink). Price is delivered.",
+      "seller_feedback": ""
+    }
+  ]
+}
