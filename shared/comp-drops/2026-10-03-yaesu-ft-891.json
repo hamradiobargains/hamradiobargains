@@ -1,0 +1,233 @@
+{
+  "model": "Yaesu FT-891",
+  "slug": "yaesu-ft-891",
+  "searched_at": "2026-10-03T17:57:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Ledger miss (no YAESU FT-891 entry). eHam search 'FT-891' with sold box, first 50 results (36 marked SOLD). 31 comps kept. Excluded as bundles where extra gear is priced in: 625192 ($795 w/ LDG Z-100Plus + Digirig), 621173 ($900 w/ ATAS-120A), 611763 ($775 w/ Armoloq + Digirig, Powerpole mod), 604612 ($750 w/ FC-50). Excluded 617353 (marked 'Sold' but offered both $400 w/ FP-1023 PSU or $340 radio-only; unclear which sold). One comp (605785, $240) is a non-working unit — flagged. eHam prices are the asking price on ads marked sold.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/198686025988",
+    "site": "ebay",
+    "ask": 567.77,
+    "shipping": 37.0
+  },
+  "comps": [
+    {
+      "price": 550.0,
+      "sold_date": "2026-09-28",
+      "condition": "Works perfectly, good working order; includes mic, power cable, YSK-891 separation kit and speaker; no original box",
+      "url": "https://www.eham.net/classifieds/628929",
+      "notes": "OBO, shipping included; includes YSK-891 separation kit and speaker"
+    },
+    {
+      "price": 570.0,
+      "sold_date": "2026-08-27",
+      "condition": "Excellent, like-new; bought new March 2026; lightly used, never mobile/outdoors; original box and all accessories",
+      "url": "https://www.eham.net/classifieds/628421",
+      "notes": "insured shipping included (CONUS)"
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2026-07-17",
+      "condition": "Used, original owner; includes factory mic, Armoloq rails, original factory box",
+      "url": "https://www.eham.net/classifieds/627781",
+      "notes": ""
+    },
+    {
+      "price": 580.0,
+      "sold_date": "2026-02-21",
+      "condition": "Like-new, fully functional, no scratches or dings; hand mic, power cable, mobile mount",
+      "url": "https://www.eham.net/classifieds/625199",
+      "notes": "shipped CONUS"
+    },
+    {
+      "price": 610.0,
+      "sold_date": "2026-01-16",
+      "condition": "New, never used",
+      "url": "https://www.eham.net/classifieds/624702",
+      "notes": "seller double-boxes/insures, CONUS"
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2025-11-18",
+      "condition": "Mint, original owner; box, manual, DC cord, hand mic, bracket",
+      "url": "https://www.eham.net/classifieds/623910",
+      "notes": "plus shipping; seller added a note about the display ('Display looks littl...' — text truncated in search results)"
+    },
+    {
+      "price": 575.0,
+      "sold_date": "2025-09-20",
+      "condition": "Like new, with side rails",
+      "url": "https://www.eham.net/classifieds/622981",
+      "notes": "plus $37 shipping"
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2025-08-18",
+      "condition": "Used; 'awesome radio', includes all that came with it",
+      "url": "https://www.eham.net/classifieds/622415",
+      "notes": "shipped"
+    },
+    {
+      "price": 575.0,
+      "sold_date": "2025-06-15",
+      "condition": "As-new; was an SK's spare radio",
+      "url": "https://www.eham.net/classifieds/621274",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 485.0,
+      "sold_date": "2025-06-06",
+      "condition": "Like new and complete in original box; used ~2 hours",
+      "url": "https://www.eham.net/classifieds/621106",
+      "notes": "plus shipping; dealer listing (W4AJF)"
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2025-06-01",
+      "condition": "Pristine, very lightly used; box, manual, mic, power cable, 3D-printed remote head mount + cable, mobile bracket",
+      "url": "https://www.eham.net/classifieds/620973",
+      "notes": "OBO, CONUS"
+    },
+    {
+      "price": 599.0,
+      "sold_date": "2025-04-06",
+      "condition": "Just like new, blank warranty card",
+      "url": "https://www.eham.net/classifieds/619995",
+      "notes": "plus $20 shipping"
+    },
+    {
+      "price": 569.0,
+      "sold_date": "2024-09-08",
+      "condition": "Like new",
+      "url": "https://www.eham.net/classifieds/616132",
+      "notes": "plus shipping; FC-50 tuner offered separately for $175 — radio-only price used"
+    },
+    {
+      "price": 525.0,
+      "sold_date": "2024-05-04",
+      "condition": "Very good; original box",
+      "url": "https://www.eham.net/classifieds/613302",
+      "notes": "shipped"
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2024-04-27",
+      "condition": "Very clean, non-smoking household",
+      "url": "https://www.eham.net/classifieds/613165",
+      "notes": "shipping included"
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2024-04-21",
+      "condition": "2nd owner, no known issues, very little use; 'with extras' (incl. RT Systems software)",
+      "url": "https://www.eham.net/classifieds/613045",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2023-09-09",
+      "condition": "Works perfectly; MARS mod; original box, manual, mic",
+      "url": "https://www.eham.net/classifieds/608115",
+      "notes": "FLAG: modified (MARS mod); shipped"
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2023-08-05",
+      "condition": "Used; includes a second power cable (details truncated in search results)",
+      "url": "https://www.eham.net/classifieds/607473",
+      "notes": "shipped CONUS"
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2023-07-08",
+      "condition": "Excellent cosmetics, all functions work; includes mobile bracket",
+      "url": "https://www.eham.net/classifieds/606936",
+      "notes": "a tuner was offered for $150 more — radio-only price used"
+    },
+    {
+      "price": 240.0,
+      "sold_date": "2023-05-20",
+      "condition": "NOT WORKING: won't boot past the 'Yaesu' screen; radio and manual only; sold as-is, no returns",
+      "url": "https://www.eham.net/classifieds/605785",
+      "notes": "FLAG: non-functional unit; shipping included (from Saipan)"
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2023-05-03",
+      "condition": "Works perfectly; comes with all parts shown in pictures",
+      "url": "https://www.eham.net/classifieds/605272",
+      "notes": "price includes shipping"
+    },
+    {
+      "price": 540.0,
+      "sold_date": "2022-11-30",
+      "condition": "Practically brand new, used once; manual and box; non-smoker; from an SK estate",
+      "url": "https://www.eham.net/classifieds/601489",
+      "notes": "shipped"
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2022-08-13",
+      "condition": "Less than a month of use; original box",
+      "url": "https://www.eham.net/classifieds/598452",
+      "notes": ""
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2022-06-05",
+      "condition": "Clean; bought Oct 2020, used on 3 trips",
+      "url": "https://www.eham.net/classifieds/596766",
+      "notes": "shipped, 48 states"
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2022-02-22",
+      "condition": "Brand new, never out of the box",
+      "url": "https://www.eham.net/classifieds/594076",
+      "notes": "OBO"
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2021-12-17",
+      "condition": "Original owner, ~1 year old; used base/mobile; power cord was shortened",
+      "url": "https://www.eham.net/classifieds/592491",
+      "notes": "FLAG: shortened power cord; shipped"
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2021-11-11",
+      "condition": "Used; includes MiniPro sound card interface",
+      "url": "https://www.eham.net/classifieds/591594",
+      "notes": "OBO, free shipping CONUS; includes sound card interface"
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2021-11-04",
+      "condition": "Great condition; seller bought it second-hand",
+      "url": "https://www.eham.net/classifieds/591415",
+      "notes": "plus $25 shipping; price reduced / trade offered"
+    },
+    {
+      "price": 475.0,
+      "sold_date": "2021-05-10",
+      "condition": "Original owner, ~5 months old, ~50 hours use",
+      "url": "https://www.eham.net/classifieds/586721",
+      "notes": ""
+    },
+    {
+      "price": 520.0,
+      "sold_date": "2021-04-28",
+      "condition": "Never opened or modified; mic, mobile bracket, power cord (Anderson connectors)",
+      "url": "https://www.eham.net/classifieds/586391",
+      "notes": "shipped CONUS via USPS Priority"
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2021-03-14",
+      "condition": "Mint per seller",
+      "url": "https://www.eham.net/classifieds/585219",
+      "notes": "shipped"
+    }
+  ]
+}
