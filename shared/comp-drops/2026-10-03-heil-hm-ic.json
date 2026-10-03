@@ -1,0 +1,261 @@
+{
+  "model": "Heil HM-IC",
+  "slug": "heil-hm-ic",
+  "searched_at": "2026-10-03T06:02:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam SOLD tag reflects listed asking price when marked sold, not a verified transaction price. Searched 'HM-IC' (all 41 results read on one page). HM-IC and HM-iC treated as the same model (same Heil Handi Mic iC). Many comps are relists by the same seller (W7BV, W7CNK, NE6RD) and may represent one unit. Excluded SOLD-tagged ads with no price (306205, 295562, 294299) and 295055 (seller said they were keeping it). Most comps include a cable/adapter; trigger listing includes an 8-pin cable with issues.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/628994",
+    "site": "eham",
+    "ask": 44.99,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 89.99,
+      "sold_date": "2025-09-27",
+      "condition": "Great working mic; hairline crack in the plastic on the mic",
+      "url": "https://www.eham.net/classifieds/623099",
+      "notes": "FLAG: cosmetic crack. Includes special 8-pin cable. Price delivered. Same seller (K6RO) as trigger listing and also came with a K3 - possibly the same mic relisted"
+    },
+    {
+      "price": 80.0,
+      "sold_date": "2023-04-21",
+      "condition": "Used on IC-706MkIIG with good results",
+      "url": "https://www.eham.net/classifieds/604880",
+      "notes": "Includes CC-1-IM adapter for Icom. Price shipped CONUS"
+    },
+    {
+      "price": 65,
+      "sold_date": "2016-10-19",
+      "condition": "Like new, non-smoking",
+      "url": "https://www.eham.net/classifieds/504722",
+      "notes": "With CC-1K cable (Kenwood/K3). Price shipped CONUS. Same seller W7BV posted several identical ads - likely relists/multiple units"
+    },
+    {
+      "price": 70,
+      "sold_date": "2016-10-19",
+      "condition": "Like new, non-smoking",
+      "url": "https://www.eham.net/classifieds/504258",
+      "notes": "With CC-1K cable. Price shipped CONUS. W7BV relist/multiple ads"
+    },
+    {
+      "price": 70,
+      "sold_date": "2016-10-19",
+      "condition": "Like new, non-smoking",
+      "url": "https://www.eham.net/classifieds/502356",
+      "notes": "With CC-1K cable. Price shipped CONUS. W7BV relist/multiple ads"
+    },
+    {
+      "price": 50.0,
+      "sold_date": "2016-07-18",
+      "condition": "No condition stated",
+      "url": "https://www.eham.net/classifieds/483730",
+      "notes": "Includes cord for Icom radios. Price includes shipping"
+    },
+    {
+      "price": 65,
+      "sold_date": "2016-04-11",
+      "condition": "Clean, no marks, non-smoking; unused mount and wind screen",
+      "url": "https://www.eham.net/classifieds/488473",
+      "notes": "Price shipped CONUS"
+    },
+    {
+      "price": 75,
+      "sold_date": "2015-12-15",
+      "condition": "Like new, in original box, from non-smoking environment",
+      "url": "https://www.eham.net/classifieds/485613",
+      "notes": "With CC-1K cable. Price shipped. W7BV relist/multiple ads (same date shown on several)"
+    },
+    {
+      "price": 90,
+      "sold_date": "2015-12-15",
+      "condition": "Like new, in original box, from non-smoking environment",
+      "url": "https://www.eham.net/classifieds/482297",
+      "notes": "With CC-1K cable. Price shipped. W7BV relist/multiple ads"
+    },
+    {
+      "price": 90,
+      "sold_date": "2015-12-15",
+      "condition": "Like new, in original box, from non-smoking environment",
+      "url": "https://www.eham.net/classifieds/480293",
+      "notes": "With CC-1K cable. Price shipped. W7BV relist/multiple ads"
+    },
+    {
+      "price": 90,
+      "sold_date": "2015-12-15",
+      "condition": "Like new, in original box, from non-smoking environment",
+      "url": "https://www.eham.net/classifieds/479195",
+      "notes": "With CC-1K cable. Price shipped. W7BV relist/multiple ads"
+    },
+    {
+      "price": 90,
+      "sold_date": "2015-12-15",
+      "condition": "Like new, in original box, from non-smoking environment",
+      "url": "https://www.eham.net/classifieds/477491",
+      "notes": "With CC-1K cable. Price shipped. W7BV relist/multiple ads"
+    },
+    {
+      "price": 99,
+      "sold_date": "2015-12-15",
+      "condition": "Like new, in original box, from non-smoking environment",
+      "url": "https://www.eham.net/classifieds/476778",
+      "notes": "With CC-1K cable. Price shipped. W7BV relist/multiple ads"
+    },
+    {
+      "price": 99,
+      "sold_date": "2015-12-15",
+      "condition": "Like new, in original box, from non-smoking environment",
+      "url": "https://www.eham.net/classifieds/476452",
+      "notes": "With CC-1K cable. Price shipped. W7BV relist/multiple ads"
+    },
+    {
+      "price": 50.0,
+      "sold_date": "2015-10-09",
+      "condition": "No condition stated",
+      "url": "https://www.eham.net/classifieds/481379",
+      "notes": "Includes cord for Icom radios. Plus shipping"
+    },
+    {
+      "price": 78.0,
+      "sold_date": "2013-09-29",
+      "condition": "New in box, never used",
+      "url": "https://www.eham.net/classifieds/419259",
+      "notes": "Includes CH-1-IM cable. Free shipping US48. W7CNK relisted several times"
+    },
+    {
+      "price": 78.0,
+      "sold_date": "2013-09-20",
+      "condition": "New in box, never used",
+      "url": "https://www.eham.net/classifieds/418573",
+      "notes": "Includes CH-1-IM cable. Free shipping US48. W7CNK relist"
+    },
+    {
+      "price": 87.0,
+      "sold_date": "2013-09-15",
+      "condition": "New in box, never used",
+      "url": "https://www.eham.net/classifieds/418165",
+      "notes": "Includes CH-1-IM cable. Free shipping. W7CNK relist"
+    },
+    {
+      "price": 95.0,
+      "sold_date": "2013-09-13",
+      "condition": "New in box, never used",
+      "url": "https://www.eham.net/classifieds/417905",
+      "notes": "Includes CH-1-IM cable. Free shipping. W7CNK relist"
+    },
+    {
+      "price": 65.0,
+      "sold_date": "2010-04-05",
+      "condition": "As new with box",
+      "url": "https://www.eham.net/classifieds/314437",
+      "notes": "Includes CH1M coil cord. Plus $6 shipping"
+    },
+    {
+      "price": 70.0,
+      "sold_date": "2010-04-01",
+      "condition": "Works great",
+      "url": "https://www.eham.net/classifieds/314289",
+      "notes": "With coil cord. Plus $6 shipping"
+    },
+    {
+      "price": 85.0,
+      "sold_date": "2009-12-23",
+      "condition": "Never used, with box and manual",
+      "url": "https://www.eham.net/classifieds/305754",
+      "notes": "Includes CH-1-IM cable for IC-7000. Free shipping"
+    },
+    {
+      "price": 50,
+      "sold_date": "2009-10-17",
+      "condition": "Barely used, as new, original box",
+      "url": "https://www.eham.net/classifieds/299427",
+      "notes": "Price shipped CONUS"
+    },
+    {
+      "price": 65,
+      "sold_date": "2009-08-16",
+      "condition": "Never used",
+      "url": "https://www.eham.net/classifieds/295922",
+      "notes": "Plus $5 shipping"
+    },
+    {
+      "price": 60,
+      "sold_date": "2009-08-01",
+      "condition": "Hardly used, original box",
+      "url": "https://www.eham.net/classifieds/295404",
+      "notes": "Price shipped CONUS"
+    },
+    {
+      "price": 95,
+      "sold_date": "2009-02-02",
+      "condition": "No condition grade stated",
+      "url": "https://www.eham.net/classifieds/279872",
+      "notes": "Includes 2 cables (CC-1-IM and CC-1-I) and stand. Plus shipping. NE6RD relisted"
+    },
+    {
+      "price": 95,
+      "sold_date": "2009-02-02",
+      "condition": "No condition grade stated",
+      "url": "https://www.eham.net/classifieds/278928",
+      "notes": "Includes 2 cables and stand. Plus shipping. NE6RD relist"
+    },
+    {
+      "price": 110,
+      "sold_date": "2009-01-21",
+      "condition": "No condition grade stated",
+      "url": "https://www.eham.net/classifieds/278262",
+      "notes": "Includes 2 cables and stand. Plus shipping. NE6RD relist"
+    },
+    {
+      "price": 70.0,
+      "sold_date": "2008-08-11",
+      "condition": "As new; original box and directions",
+      "url": "https://www.eham.net/classifieds/266747",
+      "notes": "Includes Heil cable. Price shipped"
+    },
+    {
+      "price": 70,
+      "sold_date": "2008-07-19",
+      "condition": "Mint (per title)",
+      "url": "https://www.eham.net/classifieds/264400",
+      "notes": "Includes pictured accessories. Plus $5 shipping"
+    },
+    {
+      "price": 65,
+      "sold_date": "2008-02-11",
+      "condition": "New, packaged as it came from Heil; clip never opened",
+      "url": "https://www.eham.net/classifieds/252206",
+      "notes": "Mic alone $65 shipped (CC-1I adapter offered separately $22.50, both $82.50); ad does not say which sold"
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2008-02-05",
+      "condition": "As new",
+      "url": "https://www.eham.net/classifieds/251904",
+      "notes": "BUNDLE: HM-IC with base (usable as hand or base mic); seller said cost was $209"
+    },
+    {
+      "price": 80,
+      "sold_date": "2007-12-28",
+      "condition": "Looks like new; original box",
+      "url": "https://www.eham.net/classifieds/236280",
+      "notes": "Includes 6ft 8-pin modular cable, wind screen, clips. Price shipped CONUS"
+    },
+    {
+      "price": 90,
+      "sold_date": "2007-05-25",
+      "condition": "No condition grade seen",
+      "url": "https://www.eham.net/classifieds/231851",
+      "notes": "Price shipped US"
+    },
+    {
+      "price": 65,
+      "sold_date": "2007-04-03",
+      "condition": "Used one month",
+      "url": "https://www.eham.net/classifieds/227843",
+      "notes": "Includes cable. Price includes Priority shipping"
+    }
+  ]
+}
