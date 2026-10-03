@@ -1,0 +1,37 @@
+{
+  "model": "SPE Expert 1.3K-FA",
+  "slug": "spe-expert-1-3k-fa",
+  "searched_at": "2026-10-03T14:58:11-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "3 comps from page 1 of 2 of eHam results; page 2 not checked. Excluded unsold/active ads (incl. seller N1DL's own 2026-10-03 eHam ad at $3000 for apparently the same unit, a 2024 'sale pending' ad not marked SOLD, a 2021 EU-model ad not marked SOLD) and WANTED ads. Comps span versions (Late Series II, Ver 3); 1.3K-FA only, 1.5K-FA/2K-FA not counted. Dates are ad post dates; eHam prices are asking prices on ads marked SOLD.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781228",
+    "site": "qth",
+    "ask": 2950.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 4150.0,
+      "sold_date": "2023-09-05",
+      "condition": "Ver 3 with built-in ATU, bought new 03/2023, includes everything as shipped in original factory box. $4150 shipped USA.",
+      "url": "https://www.eham.net/classifieds/608054",
+      "notes": "Ad date is post date; marked SOLD (ad also says payment pending). Late version, nearly new - high end of set."
+    },
+    {
+      "price": 3000.0,
+      "sold_date": "2022-07-12",
+      "condition": "~2.5 years old, Late Series II with ATU; manuals, Expert cables, carrying case, latest firmware, plus Icom interface cable. One small scratch on top cover, otherwise pristine, non-smoking.",
+      "url": "https://www.eham.net/classifieds/597598",
+      "notes": "Ad date is post date; marked SOLD. Price excludes shipping/insurance."
+    },
+    {
+      "price": 3050.0,
+      "sold_date": "2020-04-18",
+      "condition": "Excellent, works as it should, with ATU. Two small 1/4-inch holes in rear panel from a removed Pure Signal coupler mod; seller discounted $200 for this. $3050 shipped US/Canada.",
+      "url": "https://www.eham.net/classifieds/576604",
+      "notes": "Ad date is post date; marked SOLD. Flag: rear-panel holes from removed mod."
+    }
+  ]
+}
