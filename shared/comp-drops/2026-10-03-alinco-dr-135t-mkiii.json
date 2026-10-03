@@ -1,0 +1,51 @@
+{
+  "model": "Alinco DR-135T MkIII",
+  "slug": "alinco-dr-135t-mkiii",
+  "searched_at": "2026-10-03T18:02:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Ledger miss (no entry). eBay title says only 'Alinco DR-135'; item specifics give MPN DR-135T MKIII, so comps limited to MkIII ads. eHam search 'DR-135' with sold box, first 50 results; earlier DR-135 versions excluded (different models), as were DR-135TP Mk3 ads (TNC variant), 580473 (bundle with Microsat WX3in1), 347501 (bundle with DR-235, no price) and wanted ads. Only 2 comps since 2014.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/267802661113",
+    "site": "ebay",
+    "ask": 200.0,
+    "shipping": 30.32
+  },
+  "comps": [
+    {
+      "price": 100.0,
+      "sold_date": "2021-04-28",
+      "condition": "Original box with all original parts",
+      "url": "https://www.eham.net/classifieds/586367",
+      "notes": "plus $15 USPS flat rate shipping"
+    },
+    {
+      "price": 115.0,
+      "sold_date": "2020-05-11",
+      "condition": "As-new condition",
+      "url": "https://www.eham.net/classifieds/577206",
+      "notes": "shipped CONUS"
+    },
+    {
+      "price": 175.0,
+      "sold_date": "2013-04-11",
+      "condition": "Like new, never mobile; complete in original box; non-smoking shack",
+      "url": "https://www.eham.net/classifieds/400582",
+      "notes": "FLAG: has factory-installed EJ-41U TNC module (adds value); shipped"
+    },
+    {
+      "price": 145.0,
+      "sold_date": "2011-03-21",
+      "condition": "Used in shack, works perfectly",
+      "url": "https://www.eham.net/classifieds/339626",
+      "notes": "FLAG: internal TNC mounted"
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2010-10-13",
+      "condition": "Excellent; mic, manual, power cord, bracket, original box",
+      "url": "https://www.eham.net/classifieds/328351",
+      "notes": "CONUS only"
+    }
+  ]
+}
