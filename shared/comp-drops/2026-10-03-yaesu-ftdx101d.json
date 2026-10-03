@@ -1,0 +1,149 @@
+{
+  "model": "Yaesu FTDX101D",
+  "slug": "yaesu-ftdx101d",
+  "searched_at": "2026-10-03T05:55:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam SOLD tag reflects listed asking price when marked sold, not a verified transaction price. Excluded from search results: WTB/WTT ads (614356, 586283), Nifty manual ads (603684, 587722), and unsold/active ads. FTDX101MP not included.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629000",
+    "site": "eham",
+    "ask": 3250.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 2400,
+      "sold_date": "2026-03-09",
+      "condition": "Excellent condition, always kept covered; original box, manual",
+      "url": "https://www.eham.net/classifieds/625471",
+      "notes": "Price includes insured shipping, CONUS only"
+    },
+    {
+      "price": 2400,
+      "sold_date": "2025-12-12",
+      "condition": "Always kept covered, original box",
+      "url": "https://www.eham.net/classifieds/624205",
+      "notes": "Price includes insured shipping, US only"
+    },
+    {
+      "price": 2600,
+      "sold_date": "2025-08-31",
+      "condition": "Great condition, mid-2024 manufacture",
+      "url": "https://www.eham.net/classifieds/622629",
+      "notes": "MODIFIED: MARS mod done by HRO. Plus shipping"
+    },
+    {
+      "price": 2150,
+      "sold_date": "2025-08-18",
+      "condition": "Lightly used, excellent working condition; minor cosmetic scratches on top",
+      "url": "https://www.eham.net/classifieds/622417",
+      "notes": "Buyer pays shipping"
+    },
+    {
+      "price": 2500,
+      "sold_date": "2025-05-07",
+      "condition": "Mint condition",
+      "url": "https://www.eham.net/classifieds/620595",
+      "notes": "Factory-installed XF-128CN 300Hz CW filter. Plus $50 shipping"
+    },
+    {
+      "price": 2650,
+      "sold_date": "2024-11-11",
+      "condition": "No condition grade given; sold without microphone",
+      "url": "https://www.eham.net/classifieds/617291",
+      "notes": "Extras: second VC Tune unit and two filters (per seller, ~$800 of extras). Price shipped to US"
+    },
+    {
+      "price": 2500,
+      "sold_date": "2023-11-14",
+      "condition": "Mint condition, only used a few hours",
+      "url": "https://www.eham.net/classifieds/609423",
+      "notes": "Includes 300Hz CW filter, 1.2kHz SSB filter and power supply. Plus shipping"
+    },
+    {
+      "price": 2950,
+      "sold_date": "2023-08-14",
+      "condition": "Like new, ~3 hours operating time",
+      "url": "https://www.eham.net/classifieds/607638",
+      "notes": "BUNDLE: includes SP-101 speakers"
+    },
+    {
+      "price": 3000,
+      "sold_date": "2023-04-21",
+      "condition": "3 months old, super condition, boxes and inserts",
+      "url": "https://www.eham.net/classifieds/604874",
+      "notes": "Price shipped CONUS ($2900 local pickup)"
+    },
+    {
+      "price": 2700,
+      "sold_date": "2022-11-09",
+      "condition": "Works great, like new",
+      "url": "https://www.eham.net/classifieds/600988",
+      "notes": "Price shipped CONUS"
+    },
+    {
+      "price": 2900,
+      "sold_date": "2022-06-24",
+      "condition": "8 months old, no mods, excellent condition, no marks",
+      "url": "https://www.eham.net/classifieds/597210",
+      "notes": "Plus cost of shipping"
+    },
+    {
+      "price": 2575,
+      "sold_date": "2022-06-13",
+      "condition": "Minty; original boxes, mic, manual",
+      "url": "https://www.eham.net/classifieds/596990",
+      "notes": "Split shipping"
+    },
+    {
+      "price": 2500,
+      "sold_date": "2021-10-09",
+      "condition": "No condition grade given",
+      "url": "https://www.eham.net/classifieds/590790",
+      "notes": "Split shipping"
+    },
+    {
+      "price": 2500,
+      "sold_date": "2021-01-18",
+      "condition": "Perfect condition, hardly used",
+      "url": "https://www.eham.net/classifieds/583777",
+      "notes": "BUNDLE: price is for radio plus SP-101 speaker combo"
+    },
+    {
+      "price": 2593,
+      "sold_date": "2020-10-12",
+      "condition": "New in box, never opened",
+      "url": "https://www.eham.net/classifieds/581100",
+      "notes": "Ad offered radio-only at $2593 insured shipped or package with LP-500 at $3315; sold ad does not say which option sold. Recorded radio-only price"
+    },
+    {
+      "price": 2500,
+      "sold_date": "2020-09-08",
+      "condition": "Like new, 1 month old, original box",
+      "url": "https://www.eham.net/classifieds/580344",
+      "notes": "Includes Yaesu power supply. Plus UPS shipping"
+    },
+    {
+      "price": 3000,
+      "sold_date": "2019-11-12",
+      "condition": "Like new; accessories unused in original packaging",
+      "url": "https://www.eham.net/classifieds/572502",
+      "notes": "Free shipping CONUS"
+    },
+    {
+      "price": 3100,
+      "sold_date": "2019-10-30",
+      "condition": "Like new, 5 months, no marks, verified 100%; no box",
+      "url": "https://www.eham.net/classifieds/572025",
+      "notes": "Estate sale. Price is picked up (local)"
+    },
+    {
+      "price": 3500,
+      "sold_date": "2019-08-03",
+      "condition": "Virtually brand new",
+      "url": "https://www.eham.net/classifieds/567376",
+      "notes": "MODIFIED/UPGRADED: overdrive update and 3 filters installed at Yaesu. Split shipping"
+    }
+  ]
+}
