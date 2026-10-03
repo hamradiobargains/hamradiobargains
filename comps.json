@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T10:15:02-04:00",
+ "updated": "2026-10-03T10:15:45-04:00",
  "source": "HamRadioBargains sold-comp ledger \u2014 genuine sold listings from eHam, QTH, eBay and site deals, plus the eHam comp archive. Prices are asking prices at sale; best offers may differ.",
  "models": {
   "AMERITRON AL-1500": {
@@ -16,31 +16,6 @@
      "median": 1000.0,
      "low": 1000.0,
      "high": 1000.0,
-     "count": 1
-    }
-   ]
-  },
-  "AMERITRON AL-811H": {
-   "latest": {
-    "date": "2026-10-03",
-    "median": 600.0,
-    "low": 600.0,
-    "high": 600.0,
-    "count": 1
-   },
-   "history": [
-    {
-     "date": "2026-09-29",
-     "median": 800,
-     "low": 400,
-     "high": 1000,
-     "count": 5
-    },
-    {
-     "date": "2026-10-03",
-     "median": 600.0,
-     "low": 600.0,
-     "high": 600.0,
      "count": 1
     }
    ]
@@ -594,24 +569,6 @@
     }
    ]
   },
-  "ICOM IC-V80": {
-   "latest": {
-    "date": "2026-10-03",
-    "median": 35.0,
-    "low": 35.0,
-    "high": 35.0,
-    "count": 1
-   },
-   "history": [
-    {
-     "date": "2026-10-03",
-     "median": 35.0,
-     "low": 35.0,
-     "high": 35.0,
-     "count": 1
-    }
-   ]
-  },
   "ICOM IC-V86": {
    "latest": {
     "date": "2026-09-04",
@@ -1051,24 +1008,6 @@
     }
    ]
   },
-  "LDG AT-1000PROII": {
-   "latest": {
-    "date": "2026-10-03",
-    "median": 250.0,
-    "low": 250.0,
-    "high": 250.0,
-    "count": 1
-   },
-   "history": [
-    {
-     "date": "2026-10-03",
-     "median": 250.0,
-     "low": 250.0,
-     "high": 250.0,
-     "count": 1
-    }
-   ]
-  },
   "LDG AT-11MP": {
    "latest": {
     "date": "2026-09-25",
@@ -1231,24 +1170,6 @@
     }
    ]
   },
-  "TE SYSTEMS 1452G": {
-   "latest": {
-    "date": "2026-10-03",
-    "median": 475.0,
-    "low": 475.0,
-    "high": 475.0,
-    "count": 1
-   },
-   "history": [
-    {
-     "date": "2026-10-03",
-     "median": 475.0,
-     "low": 475.0,
-     "high": 475.0,
-     "count": 1
-    }
-   ]
-  },
   "TELEWAVE 44A/R44": {
    "latest": {
     "date": "2026-09-14",
@@ -1263,24 +1184,6 @@
      "median": 200.0,
      "low": 200.0,
      "high": 200.0,
-     "count": 1
-    }
-   ]
-  },
-  "TEN-TEC 1254": {
-   "latest": {
-    "date": "2026-10-03",
-    "median": 139.0,
-    "low": 139.0,
-    "high": 139.0,
-    "count": 1
-   },
-   "history": [
-    {
-     "date": "2026-10-03",
-     "median": 139.0,
-     "low": 139.0,
-     "high": 139.0,
      "count": 1
     }
    ]
