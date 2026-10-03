@@ -1702,5 +1702,17 @@
   "compCount": 2,
   "compLow": 200.0,
   "compHigh": 224.0
- }
+ },
+  {
+    "date": "2026-10-03",
+    "item": "Heil HM-IC",
+    "link": "https://www.eham.net/classifieds/628994",
+    "price": 44.99,
+    "extraCost": 0.0,
+    "pctBelow": 0.4232,
+    "median": 78.0,
+    "compCount": 35,
+    "compLow": 50.0,
+    "compHigh": 150.0
+  }
 ]
