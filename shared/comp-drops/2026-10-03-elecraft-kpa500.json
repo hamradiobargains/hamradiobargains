@@ -1,0 +1,135 @@
+{
+  "model": "Elecraft KPA500",
+  "slug": "elecraft-kpa500",
+  "searched_at": "2026-10-03T05:58:30-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam SOLD tag reflects listed asking price when marked sold, not a verified transaction price. Search returned a full first page of 50 results; only that page was read (older results may exist, back to ~2019 seen). Excluded: KPA500/KAT500 combos and station bundles (incl. 620660 which included a KAT500), ads titled KPA500-F/KPA500f (623920, 618023; dropped as possible variant designation), KV5J display-only ad (625798), power-cable ad (556291), WTB ads. Trigger listing includes a KV5J DDS display unit (discontinued add-on) not present in these comps.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/628999",
+    "site": "eham",
+    "ask": 2450.0,
+    "shipping": 50.0
+  },
+  "comps": [
+    {
+      "price": 2375,
+      "sold_date": "2026-06-04",
+      "condition": "Full power out and everything works as it should",
+      "url": "https://www.eham.net/classifieds/627075",
+      "notes": "Plus $30 shipping"
+    },
+    {
+      "price": 2250,
+      "sold_date": "2026-05-13",
+      "condition": "No condition grade given; set up for 110v; manual and power cord",
+      "url": "https://www.eham.net/classifieds/626642",
+      "notes": "Price delivered (serial #0080)"
+    },
+    {
+      "price": 1999,
+      "sold_date": "2026-05-01",
+      "condition": "Good working amp with a minor issue: HI TEMP light comes on and faults in Standby; fault clears in Operate and puts out 500W",
+      "url": "https://www.eham.net/classifieds/626367",
+      "notes": "FLAG: known fault (HI TEMP fault in Standby). Price delivered"
+    },
+    {
+      "price": 2395,
+      "sold_date": "2026-04-17",
+      "condition": "Works great",
+      "url": "https://www.eham.net/classifieds/626132",
+      "notes": "Plus shipping (serial #3126)"
+    },
+    {
+      "price": 2825,
+      "sold_date": "2026-04-13",
+      "condition": "Works great; just serviced at Elecraft (invoice $1058)",
+      "url": "https://www.eham.net/classifieds/626055",
+      "notes": "Price delivered. Same unit (serial #3262) as 625902 - relisted, both ads marked SOLD"
+    },
+    {
+      "price": 2850,
+      "sold_date": "2026-04-01",
+      "condition": "Works great; just serviced at Elecraft (invoice $1058)",
+      "url": "https://www.eham.net/classifieds/625902",
+      "notes": "Price delivered. Same unit (serial #3262) as 626055 - earlier listing of the same amp"
+    },
+    {
+      "price": 2295,
+      "sold_date": "2026-01-27",
+      "condition": "No condition grade given; manual and power cord",
+      "url": "https://www.eham.net/classifieds/624824",
+      "notes": "Price delivered (serial #1882)"
+    },
+    {
+      "price": 2495,
+      "sold_date": "2026-01-14",
+      "condition": "Nice (per title); manual and power cord",
+      "url": "https://www.eham.net/classifieds/624686",
+      "notes": "Price delivered (serial #3480)"
+    },
+    {
+      "price": 2595,
+      "sold_date": "2025-11-15",
+      "condition": "Just back from Elecraft: fan replaced, updates and mods done per invoice",
+      "url": "https://www.eham.net/classifieds/623864",
+      "notes": "FLAG: factory updates/mods per invoice. Plus shipping"
+    },
+    {
+      "price": 1800,
+      "sold_date": "2025-10-11",
+      "condition": "Excellent operating and physical condition, lightly used, original owner; latest software",
+      "url": "https://www.eham.net/classifieds/623342",
+      "notes": "Price is local pickup in Richardson TX; add $120 shipping/insurance if not local"
+    },
+    {
+      "price": 2100,
+      "sold_date": "2025-05-18",
+      "condition": "Good operating condition, great physical condition, very clean; used on a 2023 DXpedition then stored",
+      "url": "https://www.eham.net/classifieds/620761",
+      "notes": "Asking $2100 OBO; shipping available"
+    },
+    {
+      "price": 2000,
+      "sold_date": "2024-05-12",
+      "condition": "No condition stated",
+      "url": "https://www.eham.net/classifieds/613503",
+      "notes": "Price shipped, continental USA"
+    },
+    {
+      "price": 2179,
+      "sold_date": "2023-10-30",
+      "condition": "100% good-to-go; wired for 120VAC; manuals included",
+      "url": "https://www.eham.net/classifieds/609133",
+      "notes": "Price shipped CONUS (K3 in photo not included)"
+    },
+    {
+      "price": 2400,
+      "sold_date": "2023-10-10",
+      "condition": "Like new, less than a year old; original box",
+      "url": "https://www.eham.net/classifieds/608717",
+      "notes": "Price shipped"
+    },
+    {
+      "price": 2150,
+      "sold_date": "2023-09-29",
+      "condition": "Very nice, no issues; box, manual, cords, USB serial cable",
+      "url": "https://www.eham.net/classifieds/608495",
+      "notes": "Seller covers up to $50 shipping"
+    },
+    {
+      "price": 2000,
+      "sold_date": "2022-08-10",
+      "condition": "Factory refurbished unit bought from Elecraft in 2021; original packaging, manual",
+      "url": "https://www.eham.net/classifieds/598389",
+      "notes": "Local pickup cash or PayPal shipping CONUS"
+    },
+    {
+      "price": 2299,
+      "sold_date": "2022-05-09",
+      "condition": "Excellent, like new condition, operates as designed; original box, manuals, cable",
+      "url": "https://www.eham.net/classifieds/596088",
+      "notes": "Plus shipping and insurance, CONUS only"
+    }
+  ]
+}
