@@ -1,0 +1,65 @@
+{
+  "model": "Heathkit SA-2060A",
+  "slug": "heathkit-sa-2060a",
+  "searched_at": "2026-10-03T14:58:11-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "7 comps from page 1 of eHam results; later pages not checked. Excluded a 2022 K4IDR ad titled 'SA-2060' (no A suffix - identity uncertain), a manual-only ad, and an unsold 2023 WQ5J relist. Flags: 628837 is an UNBUILT kit (not comparable to a built unit); 614872 has meter functions needing work. Dates are ad post dates; eHam prices are asking prices on ads marked SOLD.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781226",
+    "site": "qth",
+    "ask": 200.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 600.0,
+      "sold_date": "2026-09-23",
+      "condition": "UNBUILT kit - never assembled. $600 shipped.",
+      "url": "https://www.eham.net/classifieds/628837",
+      "notes": "Ad date is post date; marked SOLD. Flag: unbuilt kit, not comparable to an assembled unit."
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-01-22",
+      "condition": "Smooth roller inductor, built-in balun, no arcing/damage inside, front panel excellent, cabinet has scratches. Non-smoker. $250 plus shipping.",
+      "url": "https://www.eham.net/classifieds/624786",
+      "notes": "Ad date is post date; marked SOLD. Price excludes shipping."
+    },
+    {
+      "price": 240.0,
+      "sold_date": "2024-07-10",
+      "condition": "Estate sale; excellent condition, includes optional balun and original manual. Tuner works; forward high power and SWR meters work but other meter functions need work. $240 pickup Greer SC or +$30 shipping.",
+      "url": "https://www.eham.net/classifieds/614872",
+      "notes": "Ad date is post date; marked SOLD. Flag: some meter functions need work. Price excludes $30 shipping."
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2023-09-01",
+      "condition": "Very nice, excellent condition, non-smoking; dual meters, antenna switch, internal balun. $275 plus $35 shipping.",
+      "url": "https://www.eham.net/classifieds/607983",
+      "notes": "Ad date is post date; body says SOLD. Price excludes $35 shipping. Same seller had an earlier unsold listing at $295."
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2023-03-21",
+      "condition": "Estate of a silent key; tested and working, some scratches on cabinet top, front very clean, no damage inside. $325 local pickup Mount Pleasant NC or can ship.",
+      "url": "https://www.eham.net/classifieds/604140",
+      "notes": "Ad date is post date; marked SOLD. Price excludes shipping."
+    },
+    {
+      "price": 365.0,
+      "sold_date": "2022-05-10",
+      "condition": "Looks almost new, excellent; includes optional balun and original manual. $365 pickup Greer SC or plus shipping.",
+      "url": "https://www.eham.net/classifieds/596130",
+      "notes": "Ad date is post date; marked SOLD. Price excludes shipping."
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2022-04-24",
+      "condition": "Excellent condition, legal limit. $350 plus shipping; prefers local pickup.",
+      "url": "https://www.eham.net/classifieds/595759",
+      "notes": "Ad date is post date; marked SOLD. Price excludes shipping."
+    }
+  ]
+}
