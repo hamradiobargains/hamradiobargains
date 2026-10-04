@@ -1,0 +1,58 @@
+{
+  "model": "Kenwood TH-D75",
+  "slug": "kenwood-th-d75",
+  "searched_at": "2026-10-04T05:55:55-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam SOLD tag reflects the listed asking price when marked sold, not a verified transaction price; sold_date is the ad's post date. Search 'TH-D75' (sold box checked), single results page read. Strict identity: only ads titled 'TH-D75' with no suffix kept. Excluded as possible variant designation (titled TH-D75A): 622005 ($625+ship, 2025-07-27), 621857 ($650+ship, 2025-07-21), 621596 ($525 shipped, no box/manual, 2025-07-05), 619713 ($739+$22 ship w/ MARS mod and accessories, 2025-03-22), and an older TH-D75A ad (N6FN, $680 shipped, 2024-03-02). Also excluded accessory/manual/case/charger ads. Trigger listing is by W2RHA, the same seller as comp 624922 (sold 2026-02-03 at the same $600 shipped) - possibly the same unit relisted, though the accessory list differs (now genuine Kenwood 2nd battery and desktop charger vs. aftermarket before).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629035",
+    "site": "eham",
+    "ask": 600.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 550,
+      "sold_date": "2026-05-24",
+      "condition": "Never used; full factory package (radio, KNB-75LA battery, antenna, belt clip, AC adapter w/ USB-C, manual)",
+      "url": "https://www.eham.net/classifieds/626888",
+      "notes": "Free shipping in US. Seller wrote 'Sold.' in body",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 625,
+      "sold_date": "2026-03-31",
+      "condition": "Seller: cannot tell from brand new; all original items plus 2 aftermarket batteries, aftermarket desk charger, SM34 mic, MFJ headset, Ziptenna",
+      "url": "https://www.eham.net/classifieds/625867",
+      "notes": "$625 shipped CONUS (+ PayPal fees)",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 600,
+      "sold_date": "2026-02-03",
+      "condition": "Hardly used; box and all original items plus aftermarket desktop charger and battery",
+      "url": "https://www.eham.net/classifieds/624922",
+      "notes": "$600 shipped CONUS. Same seller (W2RHA) as the trigger listing 629035 at the same price - possibly the same unit relisted",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 625,
+      "sold_date": "2025-03-27",
+      "condition": "Excellent condition; all original accessories plus extra Kenwood battery, desktop charger, speaker-mic, Nifty manual",
+      "url": "https://www.eham.net/classifieds/619809",
+      "notes": "$625 including shipping",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
