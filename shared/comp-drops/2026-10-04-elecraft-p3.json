@@ -1,0 +1,25 @@
+{
+  "model": "Elecraft P3",
+  "slug": "elecraft-p3",
+  "searched_at": "2026-10-04T06:00:58-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam SOLD tag reflects the listed asking price when marked sold, not a verified transaction price; sold_date is the ad's post date. Search 'Elecraft P3' returned 50 results; only page 1 read. Results dominated by K6RO active listings and P3 parts (bezels, boards, cables); only one P3 panadapter ad on that page was marked SOLD. Thin: 1 comp. Older sold ads may exist on later pages. Trigger is a standard P3 (no SVGA option noted) with K3 cables.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629031",
+    "site": "eham",
+    "ask": 499.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 579,
+      "sold_date": "2026-04-22",
+      "condition": "SN 2012; works great, standard K3 hookup cables and manual",
+      "url": "https://www.eham.net/classifieds/626202",
+      "notes": "Delivered price (K6RO)",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
