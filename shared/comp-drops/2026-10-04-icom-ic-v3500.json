@@ -1,0 +1,25 @@
+{
+  "model": "Icom IC-V3500",
+  "slug": "icom-ic-v3500",
+  "searched_at": "2026-10-04T05:59:28-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam SOLD tag reflects the listed asking price when marked sold, not a verified transaction price; sold_date is the ad's post date. Search 'V3500' returned only 2 results (the trigger and one sold ad). Thin: 1 comp.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629026",
+    "site": "eham",
+    "ask": 160.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 185,
+      "sold_date": "2026-01-20",
+      "condition": "Brand new, purchased Dec 2025 with sales slip; tested, works 100%; mic, bracket, hardware, power cable",
+      "url": "https://www.eham.net/classifieds/624754",
+      "notes": "Shipped USPS",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
