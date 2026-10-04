@@ -1,0 +1,59 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-04",
+  "ran_at": "2026-10-04T17:52:52-04:00",
+  "ran_by": "claude",
+  "notes": "Scanned page 1 only (60 items) of Ham & Amateur Radio Electronics (cat 4670), Buy It Now filter, sorted newly listed; page 1 did not reach back to the previous eBay run (2026-10-03T17:52:54-04:00), so the window is only partly covered. Skipped: Kenwood PS-430 (https://www.ebay.com/itm/307214142385) is an auction with a Buy It Now option ($49.99 bid / $99.99 BIN), not fixed-price. All 5 candidates were ledger misses (TH-D74A and PS-430 entries have count 1; ledger has MFJ 989C, not 989D; no IC-706MKIIG, TS-570S or R-2000 entries), so 5 eHam searches were run. eHam signed in as K4LFC; no blocks or challenges from eBay or eHam. eHam comps taken from the first results page of each search only.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/137812561134",
+      "site": "ebay",
+      "title": "Kenwood TH-D74A Tri-Band 144/220/430MHz APRS LCD w/ KSC-25LS KNB-75L",
+      "price": 400.0,
+      "shipping": 6.63,
+      "found_at": "2026-10-04",
+      "condition_notes": "Used (eBay condition 'Used'); title lists KSC-25LS charger and KNB-75L battery included. No further condition detail visible. Fixed-price Buy It Now, USPS Ground Advantage.",
+      "seller_feedback": "100% (1038 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/327388403323",
+      "site": "ebay",
+      "title": "Icom IC-706MKIIG HF/6/2/440 Mobile Transceiver # 23381",
+      "price": 799.95,
+      "shipping": 20.0,
+      "found_at": "2026-10-04",
+      "condition_notes": "Used; seller notes: 'Works and looks great.' Dealer listing (associatedradio). Fixed-price Buy It Now.",
+      "seller_feedback": "100% (2396 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/800757727635",
+      "site": "ebay",
+      "title": "MFJ-989D VersaTuner V 1500W HF Antenna Tuner Tested Working",
+      "price": 450.0,
+      "shipping": 50.0,
+      "found_at": "2026-10-04",
+      "condition_notes": "Used (eBay condition 'Used'); title says tested working. No further condition detail visible. Fixed-price Buy It Now.",
+      "seller_feedback": "100% (368 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/267803536259",
+      "site": "ebay",
+      "title": "Kenwood TS-570S HF+6m Ham Radio Transceiver with MIC and Power Cable Very Nice",
+      "price": 580.0,
+      "shipping": 88.55,
+      "found_at": "2026-10-04",
+      "condition_notes": "Used (eBay condition 'Used'); title says 'Very Nice', includes mic and power cable. Or Best Offer. Model taken from title as TS-570S (not SG).",
+      "seller_feedback": "100% (6636 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/298732951606",
+      "site": "ebay",
+      "title": "Kenwood R-2000 Communications Receiver AM FM SSB CW Tested",
+      "price": 290.0,
+      "shipping": 25.55,
+      "found_at": "2026-10-04",
+      "condition_notes": "FLAG: eBay condition is 'For parts or not working', but seller notes say: 'Working, some dirty controls, S meter lamp out. Has VHF option.' Fixed-price Buy It Now.",
+      "seller_feedback": "100% (1929 ratings)"
+    }
+  ]
+}
