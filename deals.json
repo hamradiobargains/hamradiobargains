@@ -1727,5 +1727,17 @@
   "compLow": 150.0,
   "compHigh": 160.0,
   "notes": "Very nice/excellent; includes 12V cord and AA tray. $100 shipped CONUS. Thin comp set (2)."
+ },
+ {
+  "date": "2026-10-04",
+  "item": "Heil PR40",
+  "link": "https://www.eham.net/classifieds/629033",
+  "price": 165.0,
+  "extraCost": 0.0,
+  "pctBelow": 0.25,
+  "median": 220.0,
+  "compCount": 15,
+  "compLow": 160.0,
+  "compHigh": 500.0
  }
 ]
