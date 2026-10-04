@@ -1,0 +1,96 @@
+{
+  "model": "Elecraft K3/100",
+  "slug": "elecraft-k3-100",
+  "searched_at": "2026-10-04T05:57:23-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam SOLD tag reflects the listed asking price when marked sold, not a verified transaction price; sold_date is the ad's post date. Search 'K3/100' returned 50 results (page 1 of 6 read only; older sold ads likely exist). Results are dominated by dealer-volume seller K6RO, who relists the same serials repeatedly with price drops; only ads marked SOLD are kept. Options vary widely (tuner, sub-RX, transverter); option-heavy units flagged option_installed. Exact model K3/100 only (K3/10, K3S excluded). Trigger 629027 (serial #2756, K6RO) was previously listed loaded with options at $2599 (628095, 2026-08-06) and has since been stripped to a base 2.7 filter/KIO3 config; it has been relisted at $1099, $1029, $999 and now $979.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629027",
+    "site": "eham",
+    "ask": 979.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 2200,
+      "sold_date": "2026-09-15",
+      "condition": "SN 5680; KAT3 tuner, K144XV 2m module, 5 filters; cables and manuals, no mic",
+      "url": "https://www.eham.net/classifieds/628689",
+      "notes": "$2,200 OBO shipped",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1099,
+      "sold_date": "2026-09-04",
+      "condition": "SN 7025; 2.7 SSB + 400 CW filters, KIO3, KXV3, gold pins; good condition, works as it should",
+      "url": "https://www.eham.net/classifieds/628545",
+      "notes": "Delivered price (K6RO)",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 1479,
+      "sold_date": "2026-08-27",
+      "condition": "SN 5034; KAT3 tuner, KXV3, gold pins; recently updated at Elecraft (DSP replaced, audio protection board, KPOD-ready)",
+      "url": "https://www.eham.net/classifieds/628433",
+      "notes": "Delivered price (K6RO)",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1199,
+      "sold_date": "2026-08-20",
+      "condition": "SN 2700; 2.7 SSB filter, KIO3; 'SUPER nice', 2 pages of Elecraft updates 3/26",
+      "url": "https://www.eham.net/classifieds/628325",
+      "notes": "Delivered price (K6RO); same unit was listed unsold 2026-07-30 at the same price",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 949,
+      "sold_date": "2026-07-15",
+      "condition": "SN 648; 2.7 SSB filter, KIO3; good condition, works as it should",
+      "url": "https://www.eham.net/classifieds/627763",
+      "notes": "Delivered price (K6RO); base configuration",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 2599,
+      "sold_date": "2026-07-09",
+      "condition": "SN 8080; loaded: tuner, KRX3 sub-RX, 6 filters, KXV3A, KBPF3, KDVR, gold pins",
+      "url": "https://www.eham.net/classifieds/627652",
+      "notes": "Delivered price (K6RO)",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 2295,
+      "sold_date": "2026-06-25",
+      "condition": "SN 8508; KRX3 sub-RX, 6 filters, TCXO, gold pins, KXV3A; great condition, power cord and manual",
+      "url": "https://www.eham.net/classifieds/627455",
+      "notes": "Delivered price (K6RO); same unit also listed 2026-06-22",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1199,
+      "sold_date": "2026-06-21",
+      "condition": "SN 7184; 2.7 SSB filter, KIO3, KXV3, TCXO; late serial, lots of updates",
+      "url": "https://www.eham.net/classifieds/627385",
+      "notes": "Delivered price (K6RO)",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
