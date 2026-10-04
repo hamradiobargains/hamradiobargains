@@ -1,0 +1,80 @@
+{
+  "model": "Icom IC-706MKIIG",
+  "slug": "icom-ic-706mkiig",
+  "searched_at": "2026-10-04T18:00:39-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search '706MKIIG', first results page. Excluded 628723 (2026-09-17, $1,050 for an IC-706 plus an IC-706MKIIG together) and 626339 (2026-04-30, marked SOLD but no price shown).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/327388403323",
+    "site": "ebay",
+    "ask": 799.95,
+    "shipping": 20.0
+  },
+  "comps": [
+    {
+      "price": 225.0,
+      "sold_date": "2026-09-25",
+      "condition": "Parts/repair; a repair shop found a bad CPU",
+      "url": "https://www.eham.net/classifieds/628876",
+      "notes": "Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "non_working"
+      ]
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2026-02-17",
+      "condition": "Works great; checked by a pro repair shop; mic glued into the head",
+      "url": "https://www.eham.net/classifieds/625151",
+      "notes": "Includes an unused separation kit and power cord; $25 shipping extra; no case. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2026-02-15",
+      "condition": "2m/70cm transmit fault: full power for a second then drops, no TX audio; HF appears OK",
+      "url": "https://www.eham.net/classifieds/625113",
+      "notes": "Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "faulty"
+      ]
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2025-07-23",
+      "condition": "New in box, never opened",
+      "url": "https://www.eham.net/classifieds/621898",
+      "notes": "$650 plus $25 shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 475.0,
+      "sold_date": "2025-07-11",
+      "condition": "Great condition, a few very minor marks",
+      "url": "https://www.eham.net/classifieds/621719",
+      "notes": "Includes separation cable and MB-63 mount. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 480.0,
+      "sold_date": "2025-07-09",
+      "condition": "Works as it should, good condition; no box",
+      "url": "https://www.eham.net/classifieds/621673",
+      "notes": "Includes Portable Zero rails, stock power cable and mic. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
