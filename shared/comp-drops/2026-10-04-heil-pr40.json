@@ -1,0 +1,240 @@
+{
+  "model": "Heil PR40",
+  "slug": "heil-pr40",
+  "searched_at": "2026-10-04T06:02:05-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam SOLD tag reflects the listed asking price when marked sold, not a verified transaction price; sold_date is the ad's post date. Search 'PR40' (substring match; ads spelled only 'PR-40' or 'PR 40' would not appear). Single results page read, back to 2002. Excluded: 602981 (PR40 Gold - different variant), 203961 (package where the PR40 is bundled with two W2IHY units, $650), 421469 (trade-only, no price), 271414 (trade with TS-940S), 343449/343447 and 182539 (no price shown), 195645 (wanted), Tripp Lite PR40 power supplies, Ramsey PR40 preamp, EIMAC 4PR400A tubes and unrelated ads. Most comps are old (2006-2014); kept per no-age-discard rule.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629033",
+    "site": "eham",
+    "ask": 165.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 200,
+      "sold_date": "2023-07-31",
+      "condition": "Never used, in cherrywood case",
+      "url": "https://www.eham.net/classifieds/607392",
+      "notes": "Plus shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 250,
+      "sold_date": "2022-08-16",
+      "condition": "New in box, opened for pictures only",
+      "url": "https://www.eham.net/classifieds/598558",
+      "notes": "Shipped",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 500,
+      "sold_date": "2020-03-30",
+      "condition": "Brand new, no boxes; set of PR40 + PRSM shock mount + PJ2T boom + FL-2 flag + mic cable",
+      "url": "https://www.eham.net/classifieds/576205",
+      "notes": "Not including shipping; Taiwan seller",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 250,
+      "sold_date": "2014-08-24",
+      "condition": "Mint",
+      "url": "https://www.eham.net/classifieds/427919",
+      "notes": "Same seller posted an identical ad 2014-05-18 (426730)",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 320,
+      "sold_date": "2014-08-19",
+      "condition": "Excellent; with PRSM shock mount, PL2T boom, XLR-to-8-pin Yaesu cable",
+      "url": "https://www.eham.net/classifieds/443546",
+      "notes": "Shipped CONUS",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 250,
+      "sold_date": "2014-05-18",
+      "condition": "Mint",
+      "url": "https://www.eham.net/classifieds/426730",
+      "notes": "Same seller relisted identically 2014-08-24 (427919)",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 350,
+      "sold_date": "2013-10-27",
+      "condition": "Complete setup: carrying case, mounts, EV 309A yoke, desk stand, mic flag, balanced cable",
+      "url": "https://www.eham.net/classifieds/421453",
+      "notes": "Includes shipping",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 200,
+      "sold_date": "2011-06-12",
+      "condition": "Perfect, works like new; with shock mount for boom",
+      "url": "https://www.eham.net/classifieds/347448",
+      "notes": "Plus shipping",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 300,
+      "sold_date": "2011-06-08",
+      "condition": "Nice shape, with wooden case",
+      "url": "https://www.eham.net/classifieds/347124",
+      "notes": "Plus shipping, OBO",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 160,
+      "sold_date": "2010-04-19",
+      "condition": "Used, very good; mic and clip, no case; serviced by Heil 2009",
+      "url": "https://www.eham.net/classifieds/315837",
+      "notes": "Plus $7.50 shipping. Same seller posted a near-identical ad the same day (315797)",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 160,
+      "sold_date": "2010-04-19",
+      "condition": "Used, very good; mic with clip, no case; serviced by Heil 2009",
+      "url": "https://www.eham.net/classifieds/315797",
+      "notes": "Plus $7.50 shipping. Near-identical to ad 315837 same day, same seller",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 295,
+      "sold_date": "2010-03-26",
+      "condition": "Slightly used, aluminum case; with new HS2 hand switch and Icom cable",
+      "url": "https://www.eham.net/classifieds/313799",
+      "notes": "Shipped USA 48; title says PENDING",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 275,
+      "sold_date": "2010-03-09",
+      "condition": "Brand new",
+      "url": "https://www.eham.net/classifieds/312545",
+      "notes": "Shipped CONUS",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 225,
+      "sold_date": "2008-08-17",
+      "condition": "Excellent, mic only, no box",
+      "url": "https://www.eham.net/classifieds/267133",
+      "notes": "Shipped CONUS",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 250,
+      "sold_date": "2008-01-05",
+      "condition": "New in original packaging (~24 months stored)",
+      "url": "https://www.eham.net/classifieds/249230",
+      "notes": "Plus $8.95 shipping. Same seller posted 248374 and 248373 the same day at $290",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 290,
+      "sold_date": "2008-01-05",
+      "condition": "New in original packaging",
+      "url": "https://www.eham.net/classifieds/248374",
+      "notes": "Plus $8.95 shipping; trade also offered. Duplicates 248373 and 249230",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 290,
+      "sold_date": "2008-01-05",
+      "condition": "New in original packaging",
+      "url": "https://www.eham.net/classifieds/248373",
+      "notes": "Plus $8.95 shipping; trade also offered. Duplicates 248374 and 249230",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 250,
+      "sold_date": "2007-08-12",
+      "condition": "About 6 months old, perfect condition",
+      "url": "https://www.eham.net/classifieds/238077",
+      "notes": "Shipped cont. US",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 225,
+      "sold_date": "2007-04-08",
+      "condition": "Used one time, excellent, original wooden box",
+      "url": "https://www.eham.net/classifieds/228303",
+      "notes": "Plus shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 280,
+      "sold_date": "2007-02-26",
+      "condition": "New, unused, original box",
+      "url": "https://www.eham.net/classifieds/225143",
+      "notes": "Shipped",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 375,
+      "sold_date": "2006-09-22",
+      "condition": "Excellent; from a smoking environment; package with W2IHY 8-band EQ and radio cables",
+      "url": "https://www.eham.net/classifieds/212482",
+      "notes": "Shipped US, firm",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 225,
+      "sold_date": "2006-03-17",
+      "condition": "About 5 months old",
+      "url": "https://www.eham.net/classifieds/197299",
+      "notes": "Mic alone $225 (SM-2B shock mount offered separately at $60)",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
