@@ -1,0 +1,316 @@
+{
+  "model": "Xiegu G90",
+  "slug": "xiegu-g90",
+  "searched_at": "2026-10-04T15:00:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Ledger miss (no entry). 29 sold comps; many include accessories (flagged extras_included). Several ads by W4AJF, who resells units bought from locals; treated as separate units. Excluded: accessories-only ads (616740, 609523, 602403) and 612437 (no price). sold_date is the eHam ad's posted date (eHam shows no separate sold date); prices are the asking price on ads marked SOLD. First results page only (50 results).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781350",
+    "site": "qth",
+    "ask": 330.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 385.0,
+      "sold_date": "2026-07-03",
+      "condition": "Excellent, original box; includes modified G90-H1 bracket, DE-19 interface, CAT cable, spare-parts kit; $385 shipped",
+      "url": "https://www.eham.net/classifieds/627571",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2026-07-02",
+      "condition": "Latest model, ~2 months old, used about an hour; includes GZF-1 fan kit, DE-19, larger knob; $375 plus shipping",
+      "url": "https://www.eham.net/classifieds/627560",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-04-29",
+      "condition": "With fan unit, original box, head cable, CE-19 cable, firmware 1.81; $300 plus shipping",
+      "url": "https://www.eham.net/classifieds/626316",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 285.0,
+      "sold_date": "2026-03-06",
+      "condition": "Excellent, latest model, ~2 months old, complete in box with BFK-5 desk stand; $285 plus shipping",
+      "url": "https://www.eham.net/classifieds/625406",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2026-02-08",
+      "condition": "Like new, original cables; $275 shipped",
+      "url": "https://www.eham.net/classifieds/624997",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2026-02-05",
+      "condition": "Excellent, few hours use; includes GZF-1 fan kit, DE-19, G90-H2 bale/brackets, larger knob; $425 plus shipping",
+      "url": "https://www.eham.net/classifieds/624942",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 475.0,
+      "sold_date": "2025-09-16",
+      "condition": "Package with power supply, fan, CE-19 with sound card, Digirig, POTA backpack",
+      "url": "https://www.eham.net/classifieds/622917",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2025-08-20",
+      "condition": "Latest model, bought new ~1 month earlier, used once, complete in box with BFK-5 stand",
+      "url": "https://www.eham.net/classifieds/622454",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 295.0,
+      "sold_date": "2025-06-04",
+      "condition": "Excellent, complete in box with tilt bale, under 3 months old",
+      "url": "https://www.eham.net/classifieds/621057",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 365.0,
+      "sold_date": "2025-03-11",
+      "condition": "Like new in original packaging, metal flip stand; $365 free shipping",
+      "url": "https://www.eham.net/classifieds/619506",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2024-10-30",
+      "condition": "Excellent; includes GSOC controller, fan base, side rails; $550 plus shipping",
+      "url": "https://www.eham.net/classifieds/617127",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2024-09-23",
+      "condition": "Under 10 hours use; includes base fan, unused digital interface, antenna",
+      "url": "https://www.eham.net/classifieds/616452",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 360.0,
+      "sold_date": "2024-07-12",
+      "condition": "Excellent, works great, no issues; $360 shipped",
+      "url": "https://www.eham.net/classifieds/614908",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2024-07-10",
+      "condition": "Bundle with CE-19 and GFZ-1, bought 4/2024, works great; $350 plus shipping",
+      "url": "https://www.eham.net/classifieds/614884",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2024-05-20",
+      "condition": "Set up but never transmitted; includes DE-19, fan stand, programming cable, boxes; $300 shipped",
+      "url": "https://www.eham.net/classifieds/613658",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2024-02-24",
+      "condition": "New in box, never used; ad lists 'MARS MOD G-90' plus coiled mic cable, DC cable, stand, PP adapter; $325 plus ~$27 shipping",
+      "url": "https://www.eham.net/classifieds/611662",
+      "notes": "Ad wording 'MARS MOD G-90' is ambiguous; treated as MARS-modified.",
+      "marketplace": "eHam",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 385.0,
+      "sold_date": "2024-01-22",
+      "condition": "Nearly new; includes CE-19 interface and fan mount",
+      "url": "https://www.eham.net/classifieds/610871",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 385.0,
+      "sold_date": "2023-12-10",
+      "condition": "Excellent, ~2 years old, firmware 1.78b; includes CE-19, tilt stand; $385 shipped ($350 pickup)",
+      "url": "https://www.eham.net/classifieds/609981",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2023-10-30",
+      "condition": "Unmarked, current firmware, complete with box and fold-down bail; $350 shipped (DE-19 offered separately)",
+      "url": "https://www.eham.net/classifieds/609132",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 385.0,
+      "sold_date": "2023-10-04",
+      "condition": "Very good, ~24 hours use; includes unused CE-19 card",
+      "url": "https://www.eham.net/classifieds/608608",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2023-05-25",
+      "condition": "Like new, late model with cooling fan addition, firmware 1.78",
+      "url": "https://www.eham.net/classifieds/605863",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 365.0,
+      "sold_date": "2023-04-27",
+      "condition": "Like new, works perfectly; extra power cable, organizer bag",
+      "url": "https://www.eham.net/classifieds/605039",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2023-04-24",
+      "condition": "Like new; includes Xggcomms USB soundcard and data cable",
+      "url": "https://www.eham.net/classifieds/604968",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 525.0,
+      "sold_date": "2023-02-13",
+      "condition": "Package with Bioenno battery, G90-H1 fan bracket and other accessories; $525 plus shipping",
+      "url": "https://www.eham.net/classifieds/603253",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2022-12-30",
+      "condition": "Excellent; MARS mod, upgraded knob, kickstand; includes QRP end-fed antenna",
+      "url": "https://www.eham.net/classifieds/602246",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2022-12-23",
+      "condition": "Like new in box; includes CE-19, custom knob, soft case; $350 shipped",
+      "url": "https://www.eham.net/classifieds/602090",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2022-10-26",
+      "condition": "Like new with factory box, adjustable stand; shipped Priority",
+      "url": "https://www.eham.net/classifieds/600615",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 385.0,
+      "sold_date": "2022-10-17",
+      "condition": "Excellent, new fall 2021, folding metal stand; $385 shipped",
+      "url": "https://www.eham.net/classifieds/600365",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2022-10-12",
+      "condition": "Excellent, 3 months old; includes external fan, Digirig and cables, backpack; $300 shipped",
+      "url": "https://www.eham.net/classifieds/600226",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
