@@ -1,0 +1,324 @@
+{
+  "model": "Icom IC-7100",
+  "slug": "icom-ic-7100",
+  "searched_at": "2026-10-04T15:00:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Ledger miss (count 1). 31 sold comps. Excluded: 627088 (listed as 'IC-7100a', identity uncertain), 622646 (main body only, no head), 594835 (head only), 620366 (bracket), and SOLD ads with no price (628886, 628207, 619446, 604887) or trade-only (598009). sold_date is the eHam ad's posted date (eHam shows no separate sold date); prices are the asking price on ads marked SOLD. First results page only (50 results).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781347",
+    "site": "qth",
+    "ask": 730.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 800.0,
+      "sold_date": "2026-07-28",
+      "condition": "New in box, $800 shipped CONUS",
+      "url": "https://www.eham.net/classifieds/627955",
+      "notes": "Same seller (W0RJE) also had a new-in-box IC-7100 marked SOLD in ad 625516 (2026-03-12, $875); possibly the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 875.0,
+      "sold_date": "2026-03-12",
+      "condition": "New in box, never used, $875 shipped CONUS",
+      "url": "https://www.eham.net/classifieds/625516",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-05-11",
+      "condition": "Several months old; includes one-week-old LDG Z-100A tuner, boxes, mic, manuals; $750 plus $75 shipping",
+      "url": "https://www.eham.net/classifieds/626586",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 785.0,
+      "sold_date": "2026-04-23",
+      "condition": "With Icom AT-180 auto tuner, factory boxes, interconnect cables, never mobile; $785 shipped",
+      "url": "https://www.eham.net/classifieds/626225",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-02-03",
+      "condition": "2025 new version, short mobile use; includes mobile bracket, extension mic cable, GPS antenna, LDG tuner; $800 obo plus shipping",
+      "url": "https://www.eham.net/classifieds/624917",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2025-10-31",
+      "condition": "Package with LDG AT-200Pro II autotuner, cables, manuals; $800 shipped CONUS",
+      "url": "https://www.eham.net/classifieds/623648",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 775.0,
+      "sold_date": "2025-09-01",
+      "condition": "Excellent condition; original box, hand mic, extension cable",
+      "url": "https://www.eham.net/classifieds/622676",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2025-07-09",
+      "condition": "Excellent, shack use only; stock mic, power cable, head cable, Nifty manual",
+      "url": "https://www.eham.net/classifieds/621671",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 815.0,
+      "sold_date": "2025-03-27",
+      "condition": "Never mobile; USB cable, software, instructions, original mic",
+      "url": "https://www.eham.net/classifieds/619821",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2025-02-17",
+      "condition": "Excellent, very lightly used, was installed mobile; original owner",
+      "url": "https://www.eham.net/classifieds/619117",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 799.0,
+      "sold_date": "2025-01-06",
+      "condition": "Very nice; $799 shipped USA",
+      "url": "https://www.eham.net/classifieds/618395",
+      "notes": "Same seller (KY4LW) also sold an IC-7100 in ad 601210 (2022-11-18, $779); possibly the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 825.0,
+      "sold_date": "2024-12-16",
+      "condition": "Very clean, works perfect; data cable, mic, power cord with Powerpoles",
+      "url": "https://www.eham.net/classifieds/618061",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2024-11-29",
+      "condition": "Mint, backup rig with little use; factory box, mic, accessories",
+      "url": "https://www.eham.net/classifieds/617684",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2024-11-09",
+      "condition": "Works perfectly, never mobile; includes MFJ-929I tuner, mic, manual, cables, boxes; $800 plus shipping",
+      "url": "https://www.eham.net/classifieds/617275",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2024-07-15",
+      "condition": "Great condition, removed from RV; $900 obo plus shipping",
+      "url": "https://www.eham.net/classifieds/614986",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 925.0,
+      "sold_date": "2024-07-05",
+      "condition": "Very good condition, everything works; includes MFJ-939-ICOM tuner, mic, cables, manual",
+      "url": "https://www.eham.net/classifieds/614758",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2024-05-18",
+      "condition": "Bought new 2018 for a yacht; excellent condition",
+      "url": "https://www.eham.net/classifieds/613629",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2024-02-19",
+      "condition": "Beautiful condition, used daily",
+      "url": "https://www.eham.net/classifieds/611513",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2024-01-31",
+      "condition": "Package with AT-180 tuner and 2x IC-MB62 brackets, cables, manual; $900 shipped CONUS",
+      "url": "https://www.eham.net/classifieds/611091",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 925.0,
+      "sold_date": "2023-09-23",
+      "condition": "As new, later serial, very lightly used; MARS mod done; sold as is, no returns; $925 shipped",
+      "url": "https://www.eham.net/classifieds/608374",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "as_is"
+      ]
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2023-09-04",
+      "condition": "Seldom used, excellent, original boxes; $700 plus shipping",
+      "url": "https://www.eham.net/classifieds/608035",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 925.0,
+      "sold_date": "2023-07-13",
+      "condition": "Excellent; MARS modified; mic, programming software, ACC cable, original packaging; $925 free shipping",
+      "url": "https://www.eham.net/classifieds/607039",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2023-05-22",
+      "condition": "Bought ~2 years earlier for a remote site, never installed",
+      "url": "https://www.eham.net/classifieds/605810",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2023-02-04",
+      "condition": "New condition, works perfectly, original box; $900 shipped",
+      "url": "https://www.eham.net/classifieds/602988",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2023-01-29",
+      "condition": "Under a year old; factory mic plus fairly new HM-151 mic; $900 shipped CONUS",
+      "url": "https://www.eham.net/classifieds/602859",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1050.0,
+      "sold_date": "2022-12-24",
+      "condition": "Like new, never mobile, smoke/pet free; $1050 shipped",
+      "url": "https://www.eham.net/classifieds/602105",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 779.0,
+      "sold_date": "2022-11-18",
+      "condition": "Pristine, never any problems or mods; includes stand-up head mount",
+      "url": "https://www.eham.net/classifieds/601210",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 775.0,
+      "sold_date": "2022-05-12",
+      "condition": "Like new, never mobile, no issues; original boxes, SD card, off-brand mobile mount; $775 shipped",
+      "url": "https://www.eham.net/classifieds/596173",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2022-05-03",
+      "condition": "Perfect like-new; includes RT Systems software and cable, SD card, box; $800 plus shipping",
+      "url": "https://www.eham.net/classifieds/595943",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2022-03-24",
+      "condition": "Includes LDG Z-100Plus auto tuner, cables, manuals",
+      "url": "https://www.eham.net/classifieds/594928",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2021-08-30",
+      "condition": "Clean, very lightly used shack radio; $750 shipped CONUS",
+      "url": "https://www.eham.net/classifieds/589686",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
