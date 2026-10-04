@@ -1,0 +1,45 @@
+{
+  "model": "Kenwood TS-570S",
+  "slug": "kenwood-ts-570s",
+  "searched_at": "2026-10-04T18:00:39-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search 'TS-570S', first results page. Strict model match: excluded 609831 (TS-570SG, $595) and 606340 ('TS-570S(g)', $560) because the model is ambiguous. Excluded 590949 ($495), which isn't marked SOLD. 3 comps.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/267803536259",
+    "site": "ebay",
+    "ask": 580.0,
+    "shipping": 88.55
+  },
+  "comps": [
+    {
+      "price": 750.0,
+      "sold_date": "2023-10-03",
+      "condition": "Complete station",
+      "url": "https://www.eham.net/classifieds/608587",
+      "notes": "Bundle with PS-53 supply, SP-23 speaker, MC-90 mic, LDG KT-100 tuner and HS-5 headphones; not a bare radio. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2023-06-15",
+      "condition": "Seller says 10/10 cosmetically and electrically; built-in tuner and DSP",
+      "url": "https://www.eham.net/classifieds/606385",
+      "notes": "Ad says it covers 160 through 10 meters and doesn't mention 6 m. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 525.0,
+      "sold_date": "2022-02-06",
+      "condition": "Clean, some marks on case, works perfectly",
+      "url": "https://www.eham.net/classifieds/593653",
+      "notes": "Plus shipping from Ontario, Canada. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
