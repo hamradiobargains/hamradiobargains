@@ -1,0 +1,185 @@
+{
+  "model": "Icom ID-4100A",
+  "slug": "icom-id-4100a",
+  "searched_at": "2026-10-04T05:58:35-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam SOLD tag reflects the listed asking price when marked sold, not a verified transaction price; sold_date is the ad's post date. Search '4100' (sold box checked), single results page read (46 results back to 2001). Kept only Icom ID-4100A sold ads; three comps titled with typos ('Icom 4100a', 'Icom D-4100A', 'ICOM IC-4100A') kept because they are D-STAR dual-band Icom mobiles that only match the ID-4100A. Excluded: 594065 (titled ID-4100a but body says ID-4100e - variant doubt), 591936 (titled 'ID-4100' with no A suffix and no other identifier, $225 OBO + $10 ship), unsold ads 607279 and 588723, WTB ads, accessories/manuals, Kenwood TW-4100A and Heathkit IM-4100 ads. Comp 624296 is titled 'ID-4100' but the body quotes the ID-4100A product description. Ledger had ICOM ID-4100A with count 1 only (miss), so eHam was searched.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629037",
+    "site": "eham",
+    "ask": 225.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 250,
+      "sold_date": "2025-12-19",
+      "condition": "Like new, never installed in a car, ~5 hours use, boxed",
+      "url": "https://www.eham.net/classifieds/624296",
+      "notes": "Plus $10 shipping; title says ID-4100, body quotes ID-4100A description",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 350,
+      "sold_date": "2023-06-19",
+      "condition": "Like new, all original accessories and box; includes UT-137 Bluetooth unit",
+      "url": "https://www.eham.net/classifieds/606492",
+      "notes": "Shipped CONUS",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 250,
+      "sold_date": "2023-05-22",
+      "condition": "D-STAR and GPS work great; original box and all accessories; includes OPC-2350 data cable",
+      "url": "https://www.eham.net/classifieds/605811",
+      "notes": "Plus shipping",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 280,
+      "sold_date": "2023-01-08",
+      "condition": "Excellent like-new condition",
+      "url": "https://www.eham.net/classifieds/602427",
+      "notes": "Plus $20 toward shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 335,
+      "sold_date": "2022-12-27",
+      "condition": "Excellent+, never used mobile; mic, manual, separation cable, MBA-8 head bracket, Nifty mini-manual, box",
+      "url": "https://www.eham.net/classifieds/602181",
+      "notes": "Shipped",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 350,
+      "sold_date": "2022-09-14",
+      "condition": "Mint, original packaging and parts; seller states final sale 'as-is'",
+      "url": "https://www.eham.net/classifieds/599497",
+      "notes": "Seller covers PayPal fees and shipping CONUS",
+      "marketplace": "eHam",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 300,
+      "sold_date": "2022-01-18",
+      "condition": "New in box, never used; Nifty manual, RT Systems download, 8GB microSD",
+      "url": "https://www.eham.net/classifieds/593205",
+      "notes": "Shipped CONUS",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 250,
+      "sold_date": "2021-06-11",
+      "condition": "Mint, factory plastic still on display; box, cord, mic, separation cable, manual",
+      "url": "https://www.eham.net/classifieds/587509",
+      "notes": "Plus actual shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 295,
+      "sold_date": "2021-05-03",
+      "condition": "Complete with box and manuals",
+      "url": "https://www.eham.net/classifieds/586522",
+      "notes": "Shipped and insured. Same seller posted an identical ad the same day (586521)",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 295,
+      "sold_date": "2021-05-03",
+      "condition": "Complete with box and manuals",
+      "url": "https://www.eham.net/classifieds/586521",
+      "notes": "Shipped and insured. Identical to ad 586522 posted the same day by the same seller",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 210,
+      "sold_date": "2020-03-08",
+      "condition": "Excellent, never mobile, minimal TX; mic, power cable, remote head cable, manuals, box; titled 'Icom 4100a'",
+      "url": "https://www.eham.net/classifieds/575792",
+      "notes": "Plus actual shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 300,
+      "sold_date": "2020-02-14",
+      "condition": "Brand new in box, under 14 days old (hamfest prize)",
+      "url": "https://www.eham.net/classifieds/575227",
+      "notes": "Plus shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 255,
+      "sold_date": "2019-11-07",
+      "condition": "One year old, excellent, all original accessories and box; titled 'Icom D-4100A' (typo)",
+      "url": "https://www.eham.net/classifieds/572262",
+      "notes": "Includes shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 325,
+      "sold_date": "2018-09-22",
+      "condition": "As new, mint, everything as shipped from Icom; titled 'ICOM IC-4100A' (typo)",
+      "url": "https://www.eham.net/classifieds/550999",
+      "notes": "Shipped, firm",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 300,
+      "sold_date": "2018-01-05",
+      "condition": "New in box; includes MBA-8 bracket plus dealer swag",
+      "url": "https://www.eham.net/classifieds/535991",
+      "notes": "Free shipping US48, firm",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 315,
+      "sold_date": "2017-11-02",
+      "condition": "New in box; includes MBA-8 mobile bracket",
+      "url": "https://www.eham.net/classifieds/532413",
+      "notes": "Free shipping US48, firm",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 360,
+      "sold_date": "2017-09-19",
+      "condition": "New condition, protective plastic still on display",
+      "url": "https://www.eham.net/classifieds/524668",
+      "notes": "Plus shipping",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
