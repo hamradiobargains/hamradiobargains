@@ -1,0 +1,39 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-04",
+  "ran_at": "2026-10-04T14:53:05-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-03T14:58:11-04:00 (prior qth drop). Scanned QTH all-ads pages 1-2 (20 newest). Skipped: renewed/modified older ads (FT-2980, PS-150-12, others), FX4CR + tuner (bundle), Anytone 2m (model not stated), Drake L4B converted to 6m RF deck only (modified/incomplete), Q5 Signal 23cm transverter (niche, as-is), wanted ads and minor accessories. All 3 candidates were ledger misses (TL-922: no entry, only TL-922A; IC-7100: count 1; G90: no entry); eHam comps searched for all 3, signed in as K4LFC, no blocks.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781354",
+      "site": "qth",
+      "title": "AMPHF - LIKE NEW KENWOOD RF AMPLIFIER TL922",
+      "price": 1800.0,
+      "shipping": 0,
+      "found_at": "2026-10-04",
+      "condition_notes": "Seller: very nice/clean, in daily use, brand-new matched pair Penta Labs 3-500ZG tubes (one week old), past legal limit with 70W drive, 160-10M. $1800 plus USPS Priority shipping (amount not stated, recorded 0/unknown); free local pickup near Lancaster, PA. Ad says TL922 without the A suffix; 160-10M coverage suggests the non-A/export version or a 10m-enabled unit, not confirmed.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781347",
+      "site": "qth",
+      "title": "RADIOHF - FS: ICOM IC-7100 - Excellent Condition",
+      "price": 730.0,
+      "shipping": 0,
+      "found_at": "2026-10-04",
+      "condition_notes": "Bought new recently from Gigaparts for a mobile install that didn't happen; excellent cosmetic and functional condition. Includes separation cable, power cable, mic, USB cable, original box and manual. $730 shipped CONUS.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781350",
+      "site": "qth",
+      "title": "RADIOHF - XIEGU G90 TRANSCEIVER",
+      "price": 330.0,
+      "shipping": 0,
+      "found_at": "2026-10-04",
+      "condition_notes": "Excellent, full output all bands, no scratches/dents. Includes hand mic, USB cable, separation cable, manual, factory carton, flip/tilt stand and oversize tuning knob. Never mobile/portable. $330 shipped lower 48.",
+      "seller_feedback": ""
+    }
+  ]
+}
