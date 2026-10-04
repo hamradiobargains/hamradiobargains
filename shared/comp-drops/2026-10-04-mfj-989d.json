@@ -1,0 +1,99 @@
+{
+  "model": "MFJ-989D",
+  "slug": "mfj-989d",
+  "searched_at": "2026-10-04T18:00:39-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search '989D', first results page. 9 sold comps. 604710 (2023-04-14) and 606962 (2023-07-09) are from the same seller (W5RG) at the same $250. 606962 is flagged possible_duplicate as a likely relist of 604710, but 604710 says no box and 606962 says it comes with a box, so they may be different units.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/800757727635",
+    "site": "ebay",
+    "ask": 450.0,
+    "shipping": 50.0
+  },
+  "comps": [
+    {
+      "price": 295.0,
+      "sold_date": "2025-08-02",
+      "condition": "Great condition, a few minor scratches on the side",
+      "url": "https://www.eham.net/classifieds/622122",
+      "notes": "$295 plus $49.50 shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2024-12-19",
+      "condition": "Mint, used once",
+      "url": "https://www.eham.net/classifieds/618115",
+      "notes": "Plus shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 285.0,
+      "sold_date": "2024-07-08",
+      "condition": "Very good, never more than 100 W",
+      "url": "https://www.eham.net/classifieds/614817",
+      "notes": "Plus shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2024-05-08",
+      "condition": "Pristine, no modifications; manual and wall wart",
+      "url": "https://www.eham.net/classifieds/613399",
+      "notes": "$325 includes delivery in CONUS. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2024-03-13",
+      "condition": "Works well",
+      "url": "https://www.eham.net/classifieds/612146",
+      "notes": "Plus shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2023-07-09",
+      "condition": "Box and copy of manual",
+      "url": "https://www.eham.net/classifieds/606962",
+      "notes": "Possible relist of 604710 (same seller W5RG, same price); this ad says it includes the box, 604710 said it had none. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 359.0,
+      "sold_date": "2023-05-12",
+      "condition": "Very good condition",
+      "url": "https://www.eham.net/classifieds/605541",
+      "notes": "Pickup or plus shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2023-04-14",
+      "condition": "Looks almost new, no box",
+      "url": "https://www.eham.net/classifieds/604710",
+      "notes": "Same seller (W5RG) and price as the later ad 606962. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2023-02-05",
+      "condition": "As new; copy of manual",
+      "url": "https://www.eham.net/classifieds/603038",
+      "notes": "Plus shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
