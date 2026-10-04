@@ -1,0 +1,47 @@
+{
+  "model": "Kenwood TL-922",
+  "slug": "kenwood-tl-922",
+  "searched_at": "2026-10-04T15:00:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Ledger miss (no TL-922 entry; ledger has TL-922A only). Thin: 3 sold TL-922 (non-A) comps, one parts unit and one modified 240V export unit, all old. ~30 sold TL-922A ads excluded as a different model. Trigger ad says TL922 with 160-10M; not confirmed whether it is a non-A unit or a TL-922A. sold_date is the eHam ad's posted date (eHam shows no separate sold date); prices are the asking price on ads marked SOLD. First results page only (50 results).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781354",
+    "site": "qth",
+    "ask": 1800.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 900.0,
+      "sold_date": "2020-08-23",
+      "condition": "Works excellent, very good tubes, original box, no manual; pickup only near Columbus OH, $900 cash",
+      "url": "https://www.eham.net/classifieds/579958",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2019-04-14",
+      "condition": "For parts or repair; transformer, HV section and band switch good; wired 120V; cosmetics 9/10; $500 plus shipping",
+      "url": "https://www.eham.net/classifieds/561101",
+      "notes": "",
+      "marketplace": "eHam",
+      "flags": [
+        "non_working"
+      ]
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2014-02-12",
+      "condition": "Export 'W' version from Canada, 220/240VAC only (no 110V), factory 28 MHz; RF Parts 3-500ZG tubes; glitch resistor and Harbach soft start installed; everything works; buyer pays shipping",
+      "url": "https://www.eham.net/classifieds/340524",
+      "notes": "240V-only export unit; comparability to a 120V unit uncertain.",
+      "marketplace": "eHam",
+      "flags": [
+        "modified"
+      ]
+    }
+  ]
+}
