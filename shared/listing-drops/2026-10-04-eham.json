@@ -1,0 +1,69 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-04",
+  "ran_at": "2026-10-04T05:52:44-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-03T05:52:44-04:00 (prior eham run). Scanned classifieds pages 1-2 (ads 629025-629047, newest first) per the 1-2 page limit; ads 629001-629024 (posted 2026-10-03, some likely after the prior run) were not scanned this run. Signed in as K4LFC; no Cloudflare challenge or block. 6 candidates, all ledger misses (TH-D75 vs ledger TH-D75A not a certain identity match; ID-4100A ledger count 1), so 6 eHam comp searches were run with 25-30s spacing. Not comped (seen, ham gear with prices): Drake R4C 629043 ($550+$50, heavily modded), Drake MN-2000 629039 ($225+$34.50), SPE 1.3K-FA 629025 ($3000), Heil Pro 7 headset 629034 ($285 shipped, as-is), Kenwood SP-230 629029 ($99.50+$24.50), MHP 6m preamp 629032 ($675+ship), plus small Elecraft parts from K6RO.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629035",
+      "site": "eham",
+      "title": "Kenwood TH-D75",
+      "price": 600.0,
+      "shipping": 0,
+      "found_at": "2026-10-04",
+      "condition_notes": "Seller: practically new; box and all original items plus genuine Kenwood 2nd battery, desktop charger, earpiece mic, manual, Nifty manual. $600 shipped CONUS. Same seller sold a TH-D75 at $600 on 2026-02-03 (624922).",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629027",
+      "site": "eham",
+      "title": "Elecraft K3/100 TRANSCEIVER # 2756",
+      "price": 979.0,
+      "shipping": 0,
+      "found_at": "2026-10-04",
+      "condition_notes": "SN 2756; 100W, 2.7 SSB filter, KIO3; 'lots of mods done 5/2023', super clean, firmware 5.67, works as it should; power cord and manual. Delivered price. Dealer-volume seller K6RO; this serial was previously listed with many options at $2599 (Aug) and has been relisted with price drops since.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629037",
+      "site": "eham",
+      "title": "Icom 4100a Dual Band D-Star",
+      "price": 225.0,
+      "shipping": 0,
+      "found_at": "2026-10-04",
+      "condition_notes": "Very nice, works great; original box, mic, power cord, manual, mobile mount. $225 shipped CONUS (PayPal +3%).",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629026",
+      "site": "eham",
+      "title": "FS:Icom IC-V3500",
+      "price": 160.0,
+      "shipping": 0,
+      "found_at": "2026-10-04",
+      "condition_notes": "Lightly used, non-smoking; manual, original box, RT Systems programming cable, articulated mounting bracket. $160 shipped ($140 local pickup).",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629031",
+      "site": "eham",
+      "title": "ELECRAFT P3 PANADAPTER # 2626",
+      "price": 499.0,
+      "shipping": 0,
+      "found_at": "2026-10-04",
+      "condition_notes": "SN 2626; works great, very good condition, standard K3 hookup cables. Delivered price (K6RO).",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629033",
+      "site": "eham",
+      "title": "Heil pr40 mic",
+      "price": 165.0,
+      "shipping": 0,
+      "found_at": "2026-10-04",
+      "condition_notes": "Seller: very nice, 100% working, 9.9/10; comes with soft case. $165 shipped CONUS.",
+      "seller_feedback": ""
+    }
+  ]
+}
