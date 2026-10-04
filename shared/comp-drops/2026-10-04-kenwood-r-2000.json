@@ -1,0 +1,49 @@
+{
+  "model": "Kenwood R-2000",
+  "slug": "kenwood-r-2000",
+  "searched_at": "2026-10-04T18:00:39-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search 'R-2000', first results page. All 3 sold comps include the VC-10 VHF converter and come from the same seller (WQ5J) in 2023, 2025 and 2026; descriptions differ, so they aren't flagged as duplicates. Excluded 606850 ($250, 2023-07-04), which isn't marked SOLD. Trigger listing is eBay 'For parts or not working' but the seller says it works and has the VHF option.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/298732951606",
+    "site": "ebay",
+    "ask": 290.0,
+    "shipping": 25.55
+  },
+  "comps": [
+    {
+      "price": 275.0,
+      "sold_date": "2026-09-16",
+      "condition": "Great condition, general coverage plus VHF module",
+      "url": "https://www.eham.net/classifieds/628710",
+      "notes": "$275 plus $25 shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2025-06-08",
+      "condition": "Like new; original box, power cord, manual",
+      "url": "https://www.eham.net/classifieds/621145",
+      "notes": "Includes VC-10 VHF converter; $375 plus $37.50 shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 395.0,
+      "sold_date": "2023-05-09",
+      "condition": "Like new except a scratch on top",
+      "url": "https://www.eham.net/classifieds/605483",
+      "notes": "Includes VC-10 VHF converter, manuals and power cord; $395 plus $37.50 shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    }
+  ]
+}
