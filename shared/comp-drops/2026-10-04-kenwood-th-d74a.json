@@ -1,0 +1,57 @@
+{
+  "model": "Kenwood TH-D74A",
+  "slug": "kenwood-th-d74a",
+  "searched_at": "2026-10-04T18:00:39-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search 'TH-D74', first results page. 4 comps where the TH-D74A model is stated. Excluded 3 sold ads that say only 'TH-D74' without the A/E suffix, so the model can't be confirmed: 621343 ($390, 2025-06-19), 616514 ($375, 2024-09-26), 612480 ($550, 2024-03-27, MARS/CAP mod).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/137812561134",
+    "site": "ebay",
+    "ask": 400.0,
+    "shipping": 6.63
+  },
+  "comps": [
+    {
+      "price": 375.0,
+      "sold_date": "2025-03-02",
+      "condition": "Excellent, no marks; battery, clip, antenna, charger, manual, box",
+      "url": "https://www.eham.net/classifieds/619357",
+      "notes": "$375 shipped CONUS. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2025-01-26",
+      "condition": "Very good, works as it should; no box or manual",
+      "url": "https://www.eham.net/classifieds/618711",
+      "notes": "Includes 3D-printed case and KSC-25LS drop-in charger plus OEM charger. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2024-02-29",
+      "condition": "Perfect order, sold as is; MARS/CAP mod done",
+      "url": "https://www.eham.net/classifieds/611824",
+      "notes": "Includes box, charger, mic, case, programming harness, 2 batteries, SRH320A antenna. $600 includes UPS shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2024-02-07",
+      "condition": "Clean, very good, no scuffs; light use",
+      "url": "https://www.eham.net/classifieds/611252",
+      "notes": "Includes battery, AC supply, clip, manual, hand strap, USB cable. $450 includes USPS shipping and insurance. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
