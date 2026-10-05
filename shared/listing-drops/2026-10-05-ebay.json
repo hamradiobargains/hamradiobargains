@@ -1,0 +1,59 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-05",
+  "ran_at": "2026-10-05T18:03:02-04:00",
+  "ran_by": "claude",
+  "notes": "Scanned page 1 only (about 60 items) of Ham & Amateur Radio Electronics (cat 4670), Buy It Now filter, sorted newly listed; window since previous eBay run 2026-10-04T17:52:52-04:00. Page 1 may not reach back to the previous run, so the window may be only partly covered. Several 'Buy It Now'-filtered results were actually auctions (bids shown) and were skipped: Yaesu FT-450D (137815980609), Tokyo Hy-Power HL-160V, Yaesu FT817nd, Ranger RCI-39VHP, RadioShack HTX-10, Yaesu FT-711L. Kenwood TS-570S (267804602997, $580) looks like a relist of the TS-570S dropped on 2026-10-04 (267803536259, same title and price) and was not picked. All 5 candidates were ledger misses: no ledger entry for FT5DR, FC-757AT, FTM-100D or IC-R75; ledger has 'YAESU FTM-400XD' (count 2) but not FTM-400XDR. 5 eHam searches were run, one at a time with 25+ second gaps; signed in as K4LFC; no blocks or challenges from eBay or eHam. IC-R75 comps are from the first of 3 eHam results pages only. FTM-100D comp search found no exact matches (see that comp drop).",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/137815645286",
+      "site": "ebay",
+      "title": "Yaesu FTM-400XDR C4FM FDMA 144 430 MHz 50W Dual Band Mobile Transceiver",
+      "price": 289.99,
+      "shipping": 19.8,
+      "found_at": "2026-10-05",
+      "condition_notes": "Used (eBay condition 'Used'); no seller condition notes visible on the listing page. Item specifics list MPN 'FTM400XD' and year 2021 while the title says FTM-400XDR; model taken from the title. Fixed-price Buy It Now, ships from Rancho Cordova, CA.",
+      "seller_feedback": "100% (2560 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/137815590385",
+      "site": "ebay",
+      "title": "Yaesu FT5DR C4FM Dual Band Ham Radio + 2 Batteries + Drop-In Charger – Works",
+      "price": 324.99,
+      "shipping": 6.33,
+      "found_at": "2026-10-05",
+      "condition_notes": "Used (eBay condition 'Used'); title says works and includes 2 batteries and drop-in charger. Buy It Now or Best Offer.",
+      "seller_feedback": "100% (43 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/307216047934",
+      "site": "ebay",
+      "title": "Yaesu FC-757AT Automatic Antenna Tuner HF Ham Radio Tested and Working. S6",
+      "price": 159.95,
+      "shipping": 0,
+      "found_at": "2026-10-05",
+      "condition_notes": "Used (eBay condition 'Used'); title says tested and working. No mention of interface cable or manual on the listing page. Free shipping. Fixed-price Buy It Now.",
+      "seller_feedback": "98.8% (26947 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366713399956",
+      "site": "ebay",
+      "title": "YAESU FTM-100D 20W Digital Analog Transceiver 144/430MHz Amateur Tested Working",
+      "price": 471.34,
+      "shipping": 85.0,
+      "found_at": "2026-10-05",
+      "condition_notes": "Used (eBay condition 'Used'); title says tested working. Ships from Japan via SpeedPAK; the title's '20W' suggests the Japanese-market FTM-100D, not the US 50 W FTM-100DR. Fixed-price Buy It Now.",
+      "seller_feedback": "100% (223 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366713365094",
+      "site": "ebay",
+      "title": "ICOM IC-R75 HF 50MHz All Mode Receiver Communication Type AC Tested Working",
+      "price": 1048.61,
+      "shipping": 85.0,
+      "found_at": "2026-10-05",
+      "condition_notes": "Used (eBay condition 'Used'); title says tested working, AC type. Ships from Japan via SpeedPAK. No option list (DSP/filters) visible on the listing page. Fixed-price Buy It Now.",
+      "seller_feedback": "100% (223 ratings)"
+    }
+  ]
+}
