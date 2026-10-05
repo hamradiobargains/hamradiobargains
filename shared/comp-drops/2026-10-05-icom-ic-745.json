@@ -1,0 +1,377 @@
+{
+  "model": "Icom IC-745",
+  "slug": "icom-ic-745",
+  "searched_at": "2026-10-05T06:00:32-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam SOLD tag reflects the listed asking price when marked sold, not a verified transaction price; sold_date is the ad's post date. Search 'Icom 745' (sold box checked, 50 per page), first page of 2 read. Only 2 comps since 2014; the rest are 2002-2012. Caution: on older eHam ads (roughly pre-2012) the SOLD tag appears on nearly everything, including wanted ads, so those comps are weaker evidence. Trigger seller WQ5J listed an IC-745 at $425+$37.50 on 2024-08-27 (615877, not marked sold) - possibly the same unit relisted. Excluded: 615877 (not marked sold), board/RAM-board/FM-board/manual/brochure ads, parts lot 63678, wanted ads, K0KLO ads with no price (299353, 299682, 300115), trade-only station 103052, and 355632 (priced AUD$350, Australia).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629054",
+    "site": "eham",
+    "ask": 435.0,
+    "shipping": 49.5
+  },
+  "comps": [
+    {
+      "price": 295,
+      "sold_date": "2023-04-04",
+      "condition": "Pretty clean except near the power button; LED backlight; good audio reports",
+      "url": "https://www.eham.net/classifieds/604496",
+      "notes": "$295 plus shipping (or trade). Optional FM board installed. Title marked SOLD",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 385,
+      "sold_date": "2021-07-21",
+      "condition": "Very nice to excellent, late serial; full power all bands; no mic or power cord",
+      "url": "https://www.eham.net/classifieds/588659",
+      "notes": "$385 shipped CONUS. Memory board replaced with PIEXX board; EX-242 FM board installed",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 425,
+      "sold_date": "2014-07-01",
+      "condition": "Very decent condition, everything works; one stripped case screw",
+      "url": "https://www.eham.net/classifieds/441231",
+      "notes": "$425 shipped ConUS. FM board installed. Same unit listed three times by W1DIO the same day (440725, 440418)",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 425,
+      "sold_date": "2014-07-01",
+      "condition": "Very decent condition, everything works; one stripped case screw",
+      "url": "https://www.eham.net/classifieds/440725",
+      "notes": "$425 shipped. Same unit as 441231 and 440418",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 410,
+      "sold_date": "2014-07-01",
+      "condition": "Very decent condition, everything works; one stripped case screw",
+      "url": "https://www.eham.net/classifieds/440418",
+      "notes": "$410 shipped. Same unit as 441231 and 440725",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 475,
+      "sold_date": "2012-01-10",
+      "condition": "About 9/10 looks, general cabinet blemishes; working all bands; no box or manual",
+      "url": "https://www.eham.net/classifieds/360094",
+      "notes": "$475 or best offer for the station: includes MFJ-945 meter and Icom desk mic; FL-52A CW and FL-30 SSB filters installed",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 300,
+      "sold_date": "2011-09-05",
+      "condition": "Estate of non-smoking ham; HM-12 mic, power cable, manual",
+      "url": "https://www.eham.net/classifieds/354137",
+      "notes": "$300 plus $30 shipping. FL-54 and FL-53A filters installed",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 350,
+      "sold_date": "2011-03-28",
+      "condition": "Extremely clean; PLL and 2nd trimmer caps replaced with ceramic, ROM unit added (Malcolm Technical)",
+      "url": "https://www.eham.net/classifieds/341362",
+      "notes": "$350 firm shipped. CW filter installed; HM-12 included",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 325,
+      "sold_date": "2010-11-17",
+      "condition": "Receives well, good transmit audio; manual, power cord, mic",
+      "url": "https://www.eham.net/classifieds/330970",
+      "notes": "$325 shipped ($300 picked up). Optional 2.4 kHz filter. Same seller (N2RRA) as 328861 - likely the same unit",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 375,
+      "sold_date": "2010-10-20",
+      "condition": "Great condition; radio, power cord, manual, hand mic",
+      "url": "https://www.eham.net/classifieds/328861",
+      "notes": "$375. 2.4 kHz filter installed. Likely same unit as 330970",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 400,
+      "sold_date": "2010-11-08",
+      "condition": "Clean, non-smoking; manual and hand mic",
+      "url": "https://www.eham.net/classifieds/329808",
+      "notes": "$400 plus $40 shipping, includes Icom PS-15 power supply. Additional CW filter installed",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 340,
+      "sold_date": "2009-11-29",
+      "condition": "Power cable and manual",
+      "url": "https://www.eham.net/classifieds/304935",
+      "notes": "$340 OBO",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 185,
+      "sold_date": "2009-10-05",
+      "condition": "Stuck in scan mode; internal PS-35 supply; mic, no manual",
+      "url": "https://www.eham.net/classifieds/300628",
+      "notes": "$185 plus some shipping; tech special",
+      "marketplace": "eHam",
+      "flags": [
+        "faulty"
+      ]
+    },
+    {
+      "price": 450,
+      "sold_date": "2008-08-24",
+      "condition": "Very good, working, no options; no manual or mic",
+      "url": "https://www.eham.net/classifieds/266316",
+      "notes": "$450 plus shipping, includes Icom PS-30 power supply",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 275,
+      "sold_date": "2008-01-14",
+      "condition": "7/10; receiver in spec, 108 W out; internal fan does not work; RF power knob dirty",
+      "url": "https://www.eham.net/classifieds/250068",
+      "notes": "$275 plus $22 shipping",
+      "marketplace": "eHam",
+      "flags": [
+        "faulty"
+      ]
+    },
+    {
+      "price": 425,
+      "sold_date": "2006-04-24",
+      "condition": "Excellent; hand mic, power cable, manual and service manual",
+      "url": "https://www.eham.net/classifieds/200236",
+      "notes": "$425 shipped CONUS. EX-241 marker, EX-242 FM, FL-52A, FL-54, FL-30 installed",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 420,
+      "sold_date": "2006-01-27",
+      "condition": "Excellent; SM-6 desk mic, power cable, manual",
+      "url": "https://www.eham.net/classifieds/193094",
+      "notes": "$420 shipped. FL-30, FL-52A, FL-45 and EX-243 keyer installed. Same unit as 192558",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 450,
+      "sold_date": "2006-01-21",
+      "condition": "Excellent; SM-6 desk mic, power cable, manual",
+      "url": "https://www.eham.net/classifieds/192558",
+      "notes": "$450 shipped. Same unit as 193094",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 300,
+      "sold_date": "2005-11-09",
+      "condition": "Excellent; internal power supply, hand mic, manual",
+      "url": "https://www.eham.net/classifieds/183243",
+      "notes": "$300 plus shipping and insurance",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 425,
+      "sold_date": "2005-10-16",
+      "condition": "9/10 appearance, original owner, little use",
+      "url": "https://www.eham.net/classifieds/184861",
+      "notes": "$425 plus shipping (ad also offered a TS-140S separately)",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 350,
+      "sold_date": "2005-05-08",
+      "condition": "Excellent, no dings or scratches; mic, manual",
+      "url": "https://www.eham.net/classifieds/170933",
+      "notes": "$350 plus shipping, includes matching PS-15 power supply",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 350,
+      "sold_date": "2005-01-12",
+      "condition": "MARS mod; not all memory channels work (seller suspects battery)",
+      "url": "https://www.eham.net/classifieds/159697",
+      "notes": "$350",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "faulty"
+      ]
+    },
+    {
+      "price": 450,
+      "sold_date": "2004-07-19",
+      "condition": "Worked great at Field Day, no mods",
+      "url": "https://www.eham.net/classifieds/143095",
+      "notes": "$450 shipped, includes power supply, mic and manuals",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 425,
+      "sold_date": "2004-05-22",
+      "condition": "Excellent; internal switching power supply; manual",
+      "url": "https://www.eham.net/classifieds/138050",
+      "notes": "$425 plus shipping. Same seller and likely same unit as 135051",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 425,
+      "sold_date": "2004-04-20",
+      "condition": "Excellent; internal switching supply; manual; no mic",
+      "url": "https://www.eham.net/classifieds/135051",
+      "notes": "$425 plus shipping. Likely same unit as 138050",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 325,
+      "sold_date": "2004-02-01",
+      "condition": "Great condition",
+      "url": "https://www.eham.net/classifieds/118167",
+      "notes": "$325 or best offer, includes matching AT-100 tuner and misc items",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 395,
+      "sold_date": "2003-11-22",
+      "condition": "Raspy CW oscillator on 17 and 15 m, otherwise works; no keyer or power supply",
+      "url": "https://www.eham.net/classifieds/114421",
+      "notes": "$395 shipped lower 48",
+      "marketplace": "eHam",
+      "flags": [
+        "faulty"
+      ]
+    },
+    {
+      "price": 325,
+      "sold_date": "2003-04-26",
+      "condition": "Installed AC supply and DC cable; HM-12",
+      "url": "https://www.eham.net/classifieds/85284",
+      "notes": "$325 or offer, buyer ships. FL-44A SSB filter installed",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 375,
+      "sold_date": "2003-03-27",
+      "condition": "Nice; RAM battery replaced 1/03",
+      "url": "https://www.eham.net/classifieds/83322",
+      "notes": "$375. FM board, marker, FL-53/FL-54 installed. Same seller (N2GBT) as 80177 and 76774",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 400,
+      "sold_date": "2003-03-01",
+      "condition": "Works like new, excellent; 2nd owner",
+      "url": "https://www.eham.net/classifieds/80177",
+      "notes": "$400 plus shipping. Same unit as 83322",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 400,
+      "sold_date": "2003-02-03",
+      "condition": "Super clean, works perfectly; RAM battery and caps replaced by Icom",
+      "url": "https://www.eham.net/classifieds/76774",
+      "notes": "$400 plus shipping. CW filters in both IFs. Likely same unit as 83322/80177",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 385,
+      "sold_date": "2003-03-16",
+      "condition": "Very clean, owner's manual",
+      "url": "https://www.eham.net/classifieds/82034",
+      "notes": "$385 plus shipping. FL-44A, FL-53A, marker, CW board, FM board installed",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    }
+  ]
+}
