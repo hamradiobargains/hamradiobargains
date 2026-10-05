@@ -1,0 +1,74 @@
+{
+  "model": "Yaesu FT-290R II",
+  "slug": "yaesu-ft-290r-ii",
+  "searched_at": "2026-10-05T06:01:32-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Thin: 3 distinct sold units (2010, 2013/14, 2024). eHam SOLD tag reflects the listed asking price when marked sold, not a verified transaction price; sold_date is the ad's post date. Search 'FT-290' (sold box checked, 50 per page), single page read; most hits were FT-2900R (different model) and excluded. Strict identity: FT-290R II only - excluded the original FT-290R (wanted ad 611561), a battery box/strap accessory ad (329752) and wanted ad 575230. K3CXG listed the same unit three times (423705, 424792, 427504) - the two earlier ads are flagged possible_duplicate. Every comp includes the matching 25 W clip-on amplifier (as does the trigger listing, which has the FL-2025).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629064",
+    "site": "eham",
+    "ask": 325.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 199,
+      "sold_date": "2024-08-12",
+      "condition": "Excellent condition, original carton; MH-15 mic, DC cord, manual",
+      "url": "https://www.eham.net/classifieds/615551",
+      "notes": "$199 including shipping (USA). Includes FL-2025 25 W amplifier and MMB-31 mobile bracket",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 200,
+      "sold_date": "2014-07-02",
+      "condition": "Very good physical condition, works as it should; mic, mobile bracket, manual",
+      "url": "https://www.eham.net/classifieds/427504",
+      "notes": "$200 ('price further reduced'), shipping to US/Canada included. Includes 25 W amplifier. Same unit as 424792 and 423705",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 225,
+      "sold_date": "2014-07-02",
+      "condition": "Very good physical condition, works as it should",
+      "url": "https://www.eham.net/classifieds/424792",
+      "notes": "$225 shipped US/Canada. Same unit as 427504",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 230,
+      "sold_date": "2013-12-12",
+      "condition": "Very good physical condition, works as it should",
+      "url": "https://www.eham.net/classifieds/423705",
+      "notes": "$230 shipped US/Canada. Same unit as 427504",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 250,
+      "sold_date": "2010-11-15",
+      "condition": "Good shape (8-9), a few cover scratches; no stock mic (Alinco EMS-45 DTMF mic wired in), no tone board, strap or antenna",
+      "url": "https://www.eham.net/classifieds/330879",
+      "notes": "$250 plus shipping. Includes 25 W clip-on amp, mobile bracket and technical supplement",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included",
+        "modified"
+      ]
+    }
+  ]
+}
