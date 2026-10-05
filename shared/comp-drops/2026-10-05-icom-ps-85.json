@@ -1,0 +1,307 @@
+{
+  "model": "Icom PS-85",
+  "slug": "icom-ps-85",
+  "searched_at": "2026-10-05T15:01:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Standalone PS-85 sales only; radio bundles where the PS-85 was secondary, wanted ads, an eBay-auction pointer (41430) and a no-price ad (20664) excluded. Most comps are old (2002-2013). Page 1 of 1. sold_date is the ad date shown on eHam (date posted/last modified) for an ad marked SOLD; prices are the seller's asking price at time marked sold, not a verified transaction price.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781422",
+    "site": "qth",
+    "ask": 100.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 85.0,
+      "sold_date": "2019-07-24",
+      "condition": "Perfect working, nice physical condition; standard 6-pin Molex",
+      "url": "https://www.eham.net/classifieds/566740",
+      "notes": "$85 shipped US (new price).",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2013-03-12",
+      "condition": "New-like; AC cord, instructions, original box",
+      "url": "https://www.eham.net/classifieds/401557",
+      "notes": "$100 plus shipping. Same W3IF unit listed in ads 401557, 399973, 399635, 399353.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 105.0,
+      "sold_date": "2013-03-12",
+      "condition": "New-like; AC cord, instructions, original box",
+      "url": "https://www.eham.net/classifieds/399973",
+      "notes": "$105 plus shipping. Same W3IF unit listed in ads 401557, 399973, 399635, 399353.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 105.0,
+      "sold_date": "2013-03-12",
+      "condition": "New-like; AC cord, instructions, original box",
+      "url": "https://www.eham.net/classifieds/399635",
+      "notes": "$105 plus shipping. Same W3IF unit listed in ads 401557, 399973, 399635, 399353.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 105.0,
+      "sold_date": "2013-03-12",
+      "condition": "New-like; AC cord, instructions, original box",
+      "url": "https://www.eham.net/classifieds/399353",
+      "notes": "$105 plus shipping. Same W3IF unit listed in ads 401557, 399973, 399635, 399353.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2011-01-25",
+      "condition": "Not stated",
+      "url": "https://www.eham.net/classifieds/336128",
+      "notes": "Asking $100.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2009-07-31",
+      "condition": "Excellent, underused, like new",
+      "url": "https://www.eham.net/classifieds/295307",
+      "notes": "$100 plus shipping.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 120.0,
+      "sold_date": "2008-04-30",
+      "condition": "Very decent shape, works 100%",
+      "url": "https://www.eham.net/classifieds/259164",
+      "notes": "$120 shipped lower 48.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 155.0,
+      "sold_date": "2006-11-21",
+      "condition": "Near mint, box and copy of manual",
+      "url": "https://www.eham.net/classifieds/213019",
+      "notes": "$155 plus shipping.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 175.0,
+      "sold_date": "2005-10-15",
+      "condition": "Near mint, no box or manual",
+      "url": "https://www.eham.net/classifieds/184246",
+      "notes": "$175 plus shipping.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 95.0,
+      "sold_date": "2005-04-11",
+      "condition": "Like new, original box and instructions",
+      "url": "https://www.eham.net/classifieds/167768",
+      "notes": "$95 plus shipping.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 80.0,
+      "sold_date": "2005-03-16",
+      "condition": "New unused, original box",
+      "url": "https://www.eham.net/classifieds/154340",
+      "notes": "$80 shipped (reduced).",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 117.0,
+      "sold_date": "2005-01-09",
+      "condition": "Like new",
+      "url": "https://www.eham.net/classifieds/159477",
+      "notes": "$117 shipped. Has an Icom-performed noise mod.",
+      "marketplace": "eHam",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 90.0,
+      "sold_date": "2004-02-03",
+      "condition": "Very good condition",
+      "url": "https://www.eham.net/classifieds/125049",
+      "notes": "$90, shipping from 24527 (terms not stated).",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2003-11-23",
+      "condition": "Excellent, with box",
+      "url": "https://www.eham.net/classifieds/111380",
+      "notes": "$100 plus shipping. KB9SI posted near-identical PS-85 ads 111380, 105990, 100895, 104267 in 2003 - possibly the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2003-10-31",
+      "condition": "Excellent, with box",
+      "url": "https://www.eham.net/classifieds/105990",
+      "notes": "$125 shipped. KB9SI posted near-identical PS-85 ads 111380, 105990, 100895, 104267 in 2003 - possibly the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2003-10-23",
+      "condition": "Like new, with box",
+      "url": "https://www.eham.net/classifieds/100895",
+      "notes": "$125 plus shipping. KB9SI posted near-identical PS-85 ads 111380, 105990, 100895, 104267 in 2003 - possibly the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2003-09-20",
+      "condition": "Excellent, with box",
+      "url": "https://www.eham.net/classifieds/104267",
+      "notes": "$125 plus shipping. KB9SI posted near-identical PS-85 ads 111380, 105990, 100895, 104267 in 2003 - possibly the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 140.0,
+      "sold_date": "2003-09-16",
+      "condition": "Like new, no marks",
+      "url": "https://www.eham.net/classifieds/80613",
+      "notes": "$140 shipped CONUS. K4WWA posted PS-85 ads 80613, 95382, 97791, 92162 in 2003 - possibly the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 115.0,
+      "sold_date": "2003-07-22",
+      "condition": "Like new",
+      "url": "https://www.eham.net/classifieds/95382",
+      "notes": "$115 shipped CONUS. K4WWA posted PS-85 ads 80613, 95382, 97791, 92162 in 2003 - possibly the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 110.0,
+      "sold_date": "2003-07-21",
+      "condition": "Like new",
+      "url": "https://www.eham.net/classifieds/97791",
+      "notes": "$110 shipped CONUS. K4WWA posted PS-85 ads 80613, 95382, 97791, 92162 in 2003 - possibly the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2003-07-04",
+      "condition": "Like new, used very little",
+      "url": "https://www.eham.net/classifieds/92162",
+      "notes": "$125 shipped CONUS. K4WWA posted PS-85 ads 80613, 95382, 97791, 92162 in 2003 - possibly the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 155.0,
+      "sold_date": "2002-11-14",
+      "condition": "Very clean, box and manual",
+      "url": "https://www.eham.net/classifieds/66922",
+      "notes": "$155 plus freight.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2002-10-03",
+      "condition": "Mint, original box",
+      "url": "https://www.eham.net/classifieds/62648",
+      "notes": "$160 shipped CONUS.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2002-09-16",
+      "condition": "Like new mint",
+      "url": "https://www.eham.net/classifieds/61018",
+      "notes": "$160 shipped CONUS.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2002-07-22",
+      "condition": "Electrically perfect, looks new, <20 hours",
+      "url": "https://www.eham.net/classifieds/54846",
+      "notes": "$150 firm plus shipping.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2002-04-21",
+      "condition": "New in box",
+      "url": "https://www.eham.net/classifieds/46783",
+      "notes": "$225 shipped. Same WB2JKJ unit as ad 46896.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2002-04-19",
+      "condition": "New in box",
+      "url": "https://www.eham.net/classifieds/46896",
+      "notes": "$150 shipped. Same WB2JKJ unit as ad 46783.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2002-03-30",
+      "condition": "Like new, very little use, manual and box",
+      "url": "https://www.eham.net/classifieds/44298",
+      "notes": "$150 plus shipping.",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
