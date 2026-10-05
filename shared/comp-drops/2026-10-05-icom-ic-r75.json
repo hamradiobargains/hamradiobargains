@@ -1,0 +1,499 @@
+{
+  "model": "Icom IC-R75",
+  "slug": "icom-ic-r75",
+  "searched_at": "2026-10-05T18:02:28-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search 'IC-R75' with sold box; first of 3 results pages only (50 ads). Kept only ads marked SOLD. Most R75s carry the UT-106 DSP option (flagged option_installed). Seller SLOOPLANE relisted two receivers about 15 times in June-August 2010; the relists are flagged possible_duplicate, with the latest single ad for each unit kept clean. SLOOPLANE two-receiver ads 319736, 319570 and 319490 were left out (pair listings). Excluded as not marked SOLD: 628858 (N3EJT 2026, $500), 618944 (KD8BRS 2025, $600 with antenna), 612844 (WQ5J 2024, $545). Excluded wanted ads 594669 and 519893. 42 comps (14 flagged possible_duplicate, including N2TO relist 333655).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366713365094",
+    "site": "ebay",
+    "ask": 1048.61,
+    "shipping": 85.0
+  },
+  "comps": [
+    {
+      "price": 395.0,
+      "sold_date": "2026-02-19",
+      "condition": "Clean, fully operational, SK estate; DSP and one SSB/CW filter",
+      "url": "https://www.eham.net/classifieds/625182",
+      "notes": "Shipped; includes AD-55A power supply and manual copy. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2025-04-01",
+      "condition": "Mint, used very little, functions perfectly; original power supply, box and manual",
+      "url": "https://www.eham.net/classifieds/619888",
+      "notes": "Shipping included lower 48. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2024-04-20",
+      "condition": "DSP installed; AC adapter included",
+      "url": "https://www.eham.net/classifieds/613011",
+      "notes": "Plus shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2022-10-18",
+      "condition": "Works and looks super; AM sync detector, no DSP; no box or manual",
+      "url": "https://www.eham.net/classifieds/600393",
+      "notes": "Includes shipping lower 48; includes AD-55A power supply. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2022-01-20",
+      "condition": "All filters (FL-100, FL-272, FL-222) and UT-106 DSP; two AD-55A supplies; bound manuals",
+      "url": "https://www.eham.net/classifieds/593279",
+      "notes": "Plus shipping, offers considered; also includes loop receiving antenna with preamp. Marked SOLD in title. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2021-10-28",
+      "condition": "Mint with original box and manual; UT-106 DSP and 1.8 kHz SSB filter",
+      "url": "https://www.eham.net/classifieds/591253",
+      "notes": "Shipping included to 48 states. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 475.0,
+      "sold_date": "2021-05-01",
+      "condition": "Like new, original owner; UT-106 DSP and FL-103 filter; box, manual, AC adapter, service manual",
+      "url": "https://www.eham.net/classifieds/586469",
+      "notes": "Shipped CONUS. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2021-04-08",
+      "condition": "Nearly mint, excellent electrically and cosmetically; DSP module; PSU, manual, box",
+      "url": "https://www.eham.net/classifieds/585820",
+      "notes": "Shipped CONUS or Eastern Canada. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2021-01-28",
+      "condition": "Very clean to pristine, fully functional; UT-106 DSP; AD-55A, original boxes",
+      "url": "https://www.eham.net/classifieds/584062",
+      "notes": "Local pickup only (Philadelphia area); sold as-is, no returns. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "as_is"
+      ]
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2020-08-26",
+      "condition": "Excellent (9.5/10), DSP and wall adapter",
+      "url": "https://www.eham.net/classifieds/580044",
+      "notes": "Shipped CONUS. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2020-01-13",
+      "condition": "Mint, first owner, no mods; factory UT-106 DSP; original packaging",
+      "url": "https://www.eham.net/classifieds/574421",
+      "notes": "Includes UPS ground shipping CONUS. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 525.0,
+      "sold_date": "2019-08-21",
+      "condition": "Package: CR-282, FL-52A, Kiwa SAM, UT-106, UT-102, MB-23, AD-55A, Palstar SP30B speaker",
+      "url": "https://www.eham.net/classifieds/568461",
+      "notes": "Shipped; sold as-is as a package, includes Alpha Delta DX-Ultra antenna. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "modified",
+        "extras_included",
+        "as_is"
+      ]
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2018-03-19",
+      "condition": "Very good, works well; UT-106 DSP; tuning encoder replaced with spliced connector; AD-55S, manual, no box",
+      "url": "https://www.eham.net/classifieds/540386",
+      "notes": "Shipped CONUS. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "modified"
+      ]
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2015-01-23",
+      "condition": "Low hours, looks good, no mods; UT-106 DSP and AD-55S",
+      "url": "https://www.eham.net/classifieds/458096",
+      "notes": "Plus shipping or reasonable offer. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 549.0,
+      "sold_date": "2014-04-28",
+      "condition": "Near mint, looks and works as new; DSP, AD-55A, manual, box",
+      "url": "https://www.eham.net/classifieds/436822",
+      "notes": "Plus shipping or trade. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2012-01-29",
+      "condition": "Like new in original box; DSP and aftermarket sync",
+      "url": "https://www.eham.net/classifieds/366313",
+      "notes": "Plus shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "modified"
+      ]
+    },
+    {
+      "price": 435.0,
+      "sold_date": "2011-10-11",
+      "condition": "Looks new; factory DSP; manual, box, power supply",
+      "url": "https://www.eham.net/classifieds/357234",
+      "notes": "Shipped UPS. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 445.0,
+      "sold_date": "2011-10-01",
+      "condition": "Excellent, works 100%, scratch marks on VFO knob; DSP; box, manual",
+      "url": "https://www.eham.net/classifieds/356381",
+      "notes": "Plus shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 380.0,
+      "sold_date": "2011-06-13",
+      "condition": "Excellent, fewer than 10 hours; factory DSP and AM sync; box, PSU, manual",
+      "url": "https://www.eham.net/classifieds/347392",
+      "notes": "Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2011-06-07",
+      "condition": "Excellent condition, second owner; DSP; manual and power supply, no box",
+      "url": "https://www.eham.net/classifieds/346802",
+      "notes": "Plus UPS ground shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2011-04-22",
+      "condition": "Excellent, no issues; UT-106 DSP; manual and box",
+      "url": "https://www.eham.net/classifieds/342854",
+      "notes": "Plus shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2011-02-02",
+      "condition": "Excellent; Kiwa sync detector and audio mods, Kiwa IF filter swap, added FL-257, FL-102, 9AM6A1 filters, UT-106 DSP",
+      "url": "https://www.eham.net/classifieds/334492",
+      "notes": "Plus split shipping; includes AD-55A and homebrew 12 V adapter. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2011-02-01",
+      "condition": "Very good condition; UT-106 DSP; AC adapter has a taped splice",
+      "url": "https://www.eham.net/classifieds/336613",
+      "notes": "Plus half shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2010-12-24",
+      "condition": "Excellent condition",
+      "url": "https://www.eham.net/classifieds/333655",
+      "notes": "Plus shipping. Same seller N2TO posted ad 324381 ($450) four months earlier; likely the same unit relisted. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2010-09-07",
+      "condition": "Virtually unused",
+      "url": "https://www.eham.net/classifieds/324861",
+      "notes": "Plus shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2010-08-25",
+      "condition": "As-new, about 26 hours on-time; sync-AM detector and UT-106 DSP; box, manual, AD-55A",
+      "url": "https://www.eham.net/classifieds/324201",
+      "notes": "Double-box shipped CONUS. SLOOPLANE receiver #2 (s/n 0201985) relisted many times in 2010: ads 324201, 323588, 323130, 322619, 322034, 321614, 321031, 320507, 320505, 320053; 324201 (latest single ad) kept as the primary record. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2010-08-25",
+      "condition": "Excellent, under 100 hours; sync-AM and UT-106 DSP; knobs highlighted with marker; box, manual, PSU",
+      "url": "https://www.eham.net/classifieds/321962",
+      "notes": "Shipped CONUS. SLOOPLANE receiver #1 (s/n 04065) relisted many times in 2010: ads 321962, 321601, 321028, 320506, 320050; 321962 (latest single ad) kept as the primary record. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "modified"
+      ]
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2010-08-17",
+      "condition": "Excellent condition",
+      "url": "https://www.eham.net/classifieds/324381",
+      "notes": "Plus shipping. See also N2TO ad 333655. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2010-08-08",
+      "condition": "Mint, sync-AM and DSP, box and manual",
+      "url": "https://www.eham.net/classifieds/323721",
+      "notes": "Plus shipping; package includes MFJ-1025, MFJ-1312D adapter, Sennheiser headphones, cables. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 515.0,
+      "sold_date": "2010-08-06",
+      "condition": "As-new, about 26 hours; sync-AM and UT-106 DSP",
+      "url": "https://www.eham.net/classifieds/323588",
+      "notes": "Relist. SLOOPLANE receiver #2 (s/n 0201985) relisted many times in 2010: ads 324201, 323588, 323130, 322619, 322034, 321614, 321031, 320507, 320505, 320053; 324201 (latest single ad) kept as the primary record. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2010-07-31",
+      "condition": "As-new, about 26 hours; sync-AM and UT-106 DSP",
+      "url": "https://www.eham.net/classifieds/323130",
+      "notes": "Relist. SLOOPLANE receiver #2 (s/n 0201985) relisted many times in 2010: ads 324201, 323588, 323130, 322619, 322034, 321614, 321031, 320507, 320505, 320053; 324201 (latest single ad) kept as the primary record. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2010-07-24",
+      "condition": "As-new, about 26 hours; sync-AM and UT-106 DSP",
+      "url": "https://www.eham.net/classifieds/322619",
+      "notes": "Relist. SLOOPLANE receiver #2 (s/n 0201985) relisted many times in 2010: ads 324201, 323588, 323130, 322619, 322034, 321614, 321031, 320507, 320505, 320053; 324201 (latest single ad) kept as the primary record. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2010-07-16",
+      "condition": "As-new, about 26 hours; sync-AM and UT-106 DSP",
+      "url": "https://www.eham.net/classifieds/322034",
+      "notes": "Relist. SLOOPLANE receiver #2 (s/n 0201985) relisted many times in 2010: ads 324201, 323588, 323130, 322619, 322034, 321614, 321031, 320507, 320505, 320053; 324201 (latest single ad) kept as the primary record. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2010-07-10",
+      "condition": "As-new, about 26 hours; sync-AM and UT-106 DSP",
+      "url": "https://www.eham.net/classifieds/321614",
+      "notes": "Relist. SLOOPLANE receiver #2 (s/n 0201985) relisted many times in 2010: ads 324201, 323588, 323130, 322619, 322034, 321614, 321031, 320507, 320505, 320053; 324201 (latest single ad) kept as the primary record. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2010-07-02",
+      "condition": "As-new, about 26 hours; sync-AM and UT-106 DSP",
+      "url": "https://www.eham.net/classifieds/321031",
+      "notes": "Relist. SLOOPLANE receiver #2 (s/n 0201985) relisted many times in 2010: ads 324201, 323588, 323130, 322619, 322034, 321614, 321031, 320507, 320505, 320053; 324201 (latest single ad) kept as the primary record. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2010-06-24",
+      "condition": "As-new, about 26 hours; sync-AM and UT-106 DSP",
+      "url": "https://www.eham.net/classifieds/320507",
+      "notes": "Relist. SLOOPLANE receiver #2 (s/n 0201985) relisted many times in 2010: ads 324201, 323588, 323130, 322619, 322034, 321614, 321031, 320507, 320505, 320053; 324201 (latest single ad) kept as the primary record. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2010-06-24",
+      "condition": "As-new, about 26 hours; sync-AM and UT-106 DSP",
+      "url": "https://www.eham.net/classifieds/320505",
+      "notes": "Relist. SLOOPLANE receiver #2 (s/n 0201985) relisted many times in 2010: ads 324201, 323588, 323130, 322619, 322034, 321614, 321031, 320507, 320505, 320053; 324201 (latest single ad) kept as the primary record. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2010-06-17",
+      "condition": "As-new, about 26 hours; sync-AM and UT-106 DSP",
+      "url": "https://www.eham.net/classifieds/320053",
+      "notes": "Relist. SLOOPLANE receiver #2 (s/n 0201985) relisted many times in 2010: ads 324201, 323588, 323130, 322619, 322034, 321614, 321031, 320507, 320505, 320053; 324201 (latest single ad) kept as the primary record. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2010-07-10",
+      "condition": "Excellent, under 100 hours; sync-AM and UT-106 DSP",
+      "url": "https://www.eham.net/classifieds/321601",
+      "notes": "Relist. SLOOPLANE receiver #1 (s/n 04065) relisted many times in 2010: ads 321962, 321601, 321028, 320506, 320050; 321962 (latest single ad) kept as the primary record. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate",
+        "option_installed",
+        "modified"
+      ]
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2010-07-02",
+      "condition": "Excellent, under 100 hours; sync-AM and UT-106 DSP",
+      "url": "https://www.eham.net/classifieds/321028",
+      "notes": "Relist. SLOOPLANE receiver #1 (s/n 04065) relisted many times in 2010: ads 321962, 321601, 321028, 320506, 320050; 321962 (latest single ad) kept as the primary record. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate",
+        "option_installed",
+        "modified"
+      ]
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2010-06-24",
+      "condition": "Excellent, under 100 hours; sync-AM and UT-106 DSP",
+      "url": "https://www.eham.net/classifieds/320506",
+      "notes": "Relist. SLOOPLANE receiver #1 (s/n 04065) relisted many times in 2010: ads 321962, 321601, 321028, 320506, 320050; 321962 (latest single ad) kept as the primary record. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate",
+        "option_installed",
+        "modified"
+      ]
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2010-06-17",
+      "condition": "Excellent, under 100 hours; sync-AM and UT-106 DSP",
+      "url": "https://www.eham.net/classifieds/320050",
+      "notes": "Relist. SLOOPLANE receiver #1 (s/n 04065) relisted many times in 2010: ads 321962, 321601, 321028, 320506, 320050; 321962 (latest single ad) kept as the primary record. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate",
+        "option_installed",
+        "modified"
+      ]
+    }
+  ]
+}
