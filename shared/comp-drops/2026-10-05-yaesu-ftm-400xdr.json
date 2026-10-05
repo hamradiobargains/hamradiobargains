@@ -1,0 +1,291 @@
+{
+  "model": "Yaesu FTM-400XDR",
+  "slug": "yaesu-ftm-400xdr",
+  "searched_at": "2026-10-05T17:57:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search 'FTM-400XDR' with sold box, all results on one page. Kept only ads marked SOLD. Excluded: 626011 (KE6SRN, 2026-04-11, marked SOLD but no price in the ad), 604120 (W5MFH, WANTED category, no price), 579735 (W1WN, 2020-08-13, $585 with SS-18 supply, not marked SOLD). Ad 585240 ($150) is a local-only moving-sale package with antenna, power supply and coax and is unusually low. Trigger listing's eBay item specifics say MPN FTM400XD while its title says FTM-400XDR. 26 comps.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/137815645286",
+    "site": "ebay",
+    "ask": 289.99,
+    "shipping": 19.8
+  },
+  "comps": [
+    {
+      "price": 525.0,
+      "sold_date": "2026-09-05",
+      "condition": "Brand new in box, components still factory wrapped",
+      "url": "https://www.eham.net/classifieds/628554",
+      "notes": "Shipped to US; seller says sold as-is, no returns. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2025-08-26",
+      "condition": "1 owner, never mobile, 100% operational, factory box",
+      "url": "https://www.eham.net/classifieds/622542",
+      "notes": "Includes UPS shipping; includes RT Systems software and cable, Nifty desk stand, separation cable. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2024-11-20",
+      "condition": "Very nice, used, never used mobile, with original box",
+      "url": "https://www.eham.net/classifieds/617525",
+      "notes": "Shipped CONUS. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 420.0,
+      "sold_date": "2023-11-22",
+      "condition": "Very nice condition",
+      "url": "https://www.eham.net/classifieds/609552",
+      "notes": "Includes external speaker. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2023-08-13",
+      "condition": "Good condition",
+      "url": "https://www.eham.net/classifieds/607629",
+      "notes": "Asking $500 OBO; includes MMB-98 mount and MFJ-281 speaker. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 455.0,
+      "sold_date": "2023-05-12",
+      "condition": "1 owner, very good condition, box and manual",
+      "url": "https://www.eham.net/classifieds/605533",
+      "notes": "Incl. shipping and insurance; includes SCU-20 cable and PowerPole adapter. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2023-03-11",
+      "condition": "2nd owner, no known issues, lightly used",
+      "url": "https://www.eham.net/classifieds/603883",
+      "notes": "Plus shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2023-02-05",
+      "condition": "Like new, no scratches, no issues",
+      "url": "https://www.eham.net/classifieds/603040",
+      "notes": "Free shipping CONUS. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2023-01-28",
+      "condition": "Excellent condition, works as designed, original box, no manual",
+      "url": "https://www.eham.net/classifieds/602829",
+      "notes": "$450 OBO, buyer pays shipping; includes SCU-20 cable and Nifty base station stand. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 475.0,
+      "sold_date": "2022-12-31",
+      "condition": "Very good condition with original box, base use only",
+      "url": "https://www.eham.net/classifieds/602268",
+      "notes": "Includes CONUS shipping; extras: SCU-20 cable, Nifty desk stand, MLS-200 speaker, Nifty mini manual. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2022-07-01",
+      "condition": "Works great, original box, manual",
+      "url": "https://www.eham.net/classifieds/597382",
+      "notes": "Shipped; includes SCU-20 PC connection cable. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2022-03-31",
+      "condition": "Mint, used desktop only",
+      "url": "https://www.eham.net/classifieds/595106",
+      "notes": "Includes CONUS shipping; includes SCU-20 cable and Nifty manual. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 449.0,
+      "sold_date": "2022-01-04",
+      "condition": "Mint, purchased new Aug 2021, shack use only",
+      "url": "https://www.eham.net/classifieds/592866",
+      "notes": "Shipped; includes SCU-20 cable and Nifty desk stand. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2021-10-03",
+      "condition": "Barely used, works flawlessly",
+      "url": "https://www.eham.net/classifieds/590644",
+      "notes": "$500 shipped ($450 local pickup); includes Lido ball mount. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2021-09-03",
+      "condition": "Like new, used fewer than 20 times, shack only",
+      "url": "https://www.eham.net/classifieds/589819",
+      "notes": "Plus shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2021-07-20",
+      "condition": "Never mobile, factory packing and accessories",
+      "url": "https://www.eham.net/classifieds/588620",
+      "notes": "Shipped; includes mic extension cable and RT Systems programming cable. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2021-04-24",
+      "condition": "Like new, lightly used in shack",
+      "url": "https://www.eham.net/classifieds/586291",
+      "notes": "Shipped CONUS; includes micro SD card, control-head stand, RT Systems software license. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2021-03-15",
+      "condition": "Working, good condition",
+      "url": "https://www.eham.net/classifieds/585240",
+      "notes": "Package price, local cash only (moving sale): includes Diamond dual-band vertical antenna, Astron ASR-VS-50M power supply, 25 ft LMR-400, desk stand and PC cable. Unusually low. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2020-11-24",
+      "condition": "Like new, never used mobile",
+      "url": "https://www.eham.net/classifieds/582320",
+      "notes": "Plus shipping; includes Nifty desk mount, SCU-20 cable, RT Systems software, MFJ-281 speaker. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2020-07-11",
+      "condition": "Excellent condition, bench use",
+      "url": "https://www.eham.net/classifieds/578867",
+      "notes": "Includes shipping; opened up for GMRS/MARS; includes SCU-20 cable and RT Systems software. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2019-09-05",
+      "condition": "Unopened in box",
+      "url": "https://www.eham.net/classifieds/569314",
+      "notes": "Shipped. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 345.0,
+      "sold_date": "2019-07-27",
+      "condition": "As new, very clean, original cartons and manual",
+      "url": "https://www.eham.net/classifieds/566889",
+      "notes": "Plus shipping CONUS; includes SCU-20 cable. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2019-07-18",
+      "condition": "Mint, everything supplied by Yaesu",
+      "url": "https://www.eham.net/classifieds/566387",
+      "notes": "Free shipping US48; includes SCU-20 cable and Nifty desk stand. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2018-08-26",
+      "condition": "Good condition, working, no known defects",
+      "url": "https://www.eham.net/classifieds/549622",
+      "notes": "Includes shipping; seller says sold 'as is'. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2018-06-01",
+      "condition": "As new, latest firmware, original packaging",
+      "url": "https://www.eham.net/classifieds/544647",
+      "notes": "Includes CONUS shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2016-11-20",
+      "condition": "As new, mint, never mobile",
+      "url": "https://www.eham.net/classifieds/510294",
+      "notes": "Free shipping US48; includes Nifty stand. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
