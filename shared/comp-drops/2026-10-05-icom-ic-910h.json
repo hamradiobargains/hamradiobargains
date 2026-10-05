@@ -1,0 +1,411 @@
+{
+  "model": "Icom IC-910H",
+  "slug": "icom-ic-910h",
+  "searched_at": "2026-10-05T05:58:33-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam SOLD tag reflects the listed asking price when marked sold, not a verified transaction price; sold_date is the ad's post date. Search '910H' (sold box checked, 50 per page), first results page only (page 1 of 7). Trigger listing is sold as-is with a fading LCD and no UX-910. Many comps carry factory options (UX-910 1.2 GHz module, UT-106 DSP, CR-293 TCXO, CW filters) - flagged option_installed. Excluded: ads not marked sold (614164 $1531 2024-06-11, 602743 $1150 2023-01-23, 596917 $1000+$90 2022-06-11), SOLD ads with no price (608838, 576608, 562243), UX-910 module-only ads (605512, 575859), rackmount kit 576979, wanted ads 605655 and 441687, and 494367 (2016, seller said it was going to eBay instead). Seller W4AJF sold IC-910Hs in Nov 2025 (623679, dim backlight) and Feb 2026 (624944, display excellent) - could be different units, not flagged.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629053",
+    "site": "eham",
+    "ask": 595.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 800,
+      "sold_date": "2026-06-11",
+      "condition": "Like brand new; HM-12 mic, power cord, manual, original packing",
+      "url": "https://www.eham.net/classifieds/627223",
+      "notes": "$800 shipped lower 48",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 625,
+      "sold_date": "2026-02-05",
+      "condition": "Excellent, display excellent; original box; aftermarket hand mic; manual on CD",
+      "url": "https://www.eham.net/classifieds/624944",
+      "notes": "$625 plus shipping. CR-293 high-stability oscillator installed",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 825,
+      "sold_date": "2026-01-21",
+      "condition": "Excellent condition, crisp clear display",
+      "url": "https://www.eham.net/classifieds/624770",
+      "notes": "$825; shipping not stated. Dual optional DSP boards and carrying handle",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 500,
+      "sold_date": "2025-11-02",
+      "condition": "Works very well but display backlight not as bright as it should be; a few front-panel scratches",
+      "url": "https://www.eham.net/classifieds/623679",
+      "notes": "$500 plus some shipping. CR-293 TCXO installed",
+      "marketplace": "eHam",
+      "flags": [
+        "faulty",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 900,
+      "sold_date": "2024-12-06",
+      "condition": "Original owner, low hours; all original accessories unused; original packing",
+      "url": "https://www.eham.net/classifieds/617859",
+      "notes": "$900. Loaded: UT-102, two UT-106 DSP, CR-293, UX-910 1.2 GHz module",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 550,
+      "sold_date": "2023-07-14",
+      "condition": "Full power on both bands; CAT control jack does not work",
+      "url": "https://www.eham.net/classifieds/607058",
+      "notes": "$550; local pickup preferred, buyer pays shipping. Same unit as 606745",
+      "marketplace": "eHam",
+      "flags": [
+        "faulty"
+      ]
+    },
+    {
+      "price": 800,
+      "sold_date": "2023-06-30",
+      "condition": "Completely stock; CAT control jack nonfunctional, otherwise works",
+      "url": "https://www.eham.net/classifieds/606745",
+      "notes": "$800 earlier listing of the same unit later relisted as 607058 at $550",
+      "marketplace": "eHam",
+      "flags": [
+        "faulty",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 850,
+      "sold_date": "2023-06-06",
+      "condition": "Good condition, few light scratches on case",
+      "url": "https://www.eham.net/classifieds/606185",
+      "notes": "$850 plus shipping. UT-106 DSP and FL-132 CW filter installed; includes MFJ-916B duplexer",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 475,
+      "sold_date": "2023-04-17",
+      "condition": "For parts - radio does not work; outside in great condition",
+      "url": "https://www.eham.net/classifieds/604787",
+      "notes": "$475 plus shipping",
+      "marketplace": "eHam",
+      "flags": [
+        "non_working"
+      ]
+    },
+    {
+      "price": 940,
+      "sold_date": "2023-03-09",
+      "condition": "SK estate; works as it should, good cosmetics",
+      "url": "https://www.eham.net/classifieds/603852",
+      "notes": "$940 shipped ($900 picked up in Tampa). UX-910 1296 module installed",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 995,
+      "sold_date": "2023-03-02",
+      "condition": "Looks and works excellent; box, mic, power cord",
+      "url": "https://www.eham.net/classifieds/603658",
+      "notes": "$995 plus $35 shipping. UX-910 23 cm option installed. Same seller (WQ5J) earlier asked $1150 (602743, not marked sold)",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 995,
+      "sold_date": "2023-03-07",
+      "condition": "Excellent, 9/10",
+      "url": "https://www.eham.net/classifieds/603816",
+      "notes": "$995 plus $55 shipping, includes Comet GP-98 triband antenna. UX-910 installed. Same seller and likely same unit as 603658",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 750,
+      "sold_date": "2022-01-13",
+      "condition": "Very nice, 100% working",
+      "url": "https://www.eham.net/classifieds/593095",
+      "notes": "$750 for radio with CR-293 TCXO; UX-910 (+$300) and UT-106 (+$75) offered as add-ons",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 650,
+      "sold_date": "2021-11-03",
+      "condition": "Excellent condition; hand mic, power cable, manual",
+      "url": "https://www.eham.net/classifieds/591407",
+      "notes": "$650, buyer pays shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 1200,
+      "sold_date": "2020-03-14",
+      "condition": "Works great after Icom service center repair and alignment",
+      "url": "https://www.eham.net/classifieds/575903",
+      "notes": "$1200 shipped east of the Mississippi. 1.2 GHz module and one UT-106 installed; includes unassembled M2 33-element 1.2 GHz antenna. Same seller's earlier ad 575269",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1100,
+      "sold_date": "2020-02-15",
+      "condition": "Works great after Icom service center repair and alignment",
+      "url": "https://www.eham.net/classifieds/575269",
+      "notes": "$1100 firm. 1.2 GHz module and one UT-106 installed. Same unit as 575903",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 700,
+      "sold_date": "2019-08-28",
+      "condition": "Very clean, good working",
+      "url": "https://www.eham.net/classifieds/568890",
+      "notes": "$700 plus shipping. CR-293, CW crystals both bands, handle",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1200,
+      "sold_date": "2018-12-31",
+      "condition": "Excellent except a couple small scratches on top cover; original packaging",
+      "url": "https://www.eham.net/classifieds/555708",
+      "notes": "$1200. Two UT-106, CR-293, UX-910, MB-23 handle",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1200,
+      "sold_date": "2018-02-11",
+      "condition": "Excellent with factory box, mic, manual",
+      "url": "https://www.eham.net/classifieds/536008",
+      "notes": "$1200 plus shipping. Includes Icom AG-25 and AG-35 preamps (boxed, never used outdoors)",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 925,
+      "sold_date": "2018-02-01",
+      "condition": "100% operational daily driver",
+      "url": "https://www.eham.net/classifieds/537332",
+      "notes": "$925 shipped. UT-106 DSP (main) and CR-293 TCXO installed",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 875,
+      "sold_date": "2017-12-15",
+      "condition": "Works as it should; no box or manual; plastic still on display",
+      "url": "https://www.eham.net/classifieds/534814",
+      "notes": "$875 shipped",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 1300,
+      "sold_date": "2017-11-29",
+      "condition": "Box, mic, power cable, manual",
+      "url": "https://www.eham.net/classifieds/532975",
+      "notes": "$1300 shipped. UX-910 1.2 GHz and one UT-106 installed",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 900,
+      "sold_date": "2017-11-11",
+      "condition": "One very small nick on top bezel; original box, mic, cord, manual",
+      "url": "https://www.eham.net/classifieds/532865",
+      "notes": "$900 plus shipping (second of two units in the ad)",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 875,
+      "sold_date": "2017-10-25",
+      "condition": "Perfect working condition; original box, HM-12, power cord",
+      "url": "https://www.eham.net/classifieds/531869",
+      "notes": "$875 plus shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 1050,
+      "sold_date": "2017-07-09",
+      "condition": "Very nice; original box, mic, manual, cord",
+      "url": "https://www.eham.net/classifieds/525837",
+      "notes": "$1050 plus shipping. CW filters in main and sub bands",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1200,
+      "sold_date": "2017-05-25",
+      "condition": "Pristine 9/10, 100% functional; manual, cord, mic, handle, box",
+      "url": "https://www.eham.net/classifieds/523292",
+      "notes": "$1200 shipped and insured CONUS",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 1000,
+      "sold_date": "2016-07-01",
+      "condition": "Very clean, original box",
+      "url": "https://www.eham.net/classifieds/500583",
+      "notes": "$1000 plus shipping. One UT-106 DSP",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1000,
+      "sold_date": "2016-02-21",
+      "condition": "Great condition, minor scuffs on one side",
+      "url": "https://www.eham.net/classifieds/491369",
+      "notes": "$1000 shipped. UT-102, CR-293, two UT-106",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1000,
+      "sold_date": "2015-10-29",
+      "condition": "Excellent, small scratch on right bezel",
+      "url": "https://www.eham.net/classifieds/482444",
+      "notes": "$1000. UT-106 DSP and MB-23 handle",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1200,
+      "sold_date": "2015-09-30",
+      "condition": "Mint, plastic still on display; factory box",
+      "url": "https://www.eham.net/classifieds/480403",
+      "notes": "$1200 shipped CONUS",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 900,
+      "sold_date": "2015-08-22",
+      "condition": "Very clean, works great; copy of manual",
+      "url": "https://www.eham.net/classifieds/477473",
+      "notes": "$900 plus shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 1777,
+      "sold_date": "2015-03-03",
+      "condition": "Nice, works great; box, mic, cord, manual",
+      "url": "https://www.eham.net/classifieds/460841",
+      "notes": "$1777 shipped. UX-910 1.2 GHz module",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1400,
+      "sold_date": "2015-01-07",
+      "condition": "Pristine",
+      "url": "https://www.eham.net/classifieds/456588",
+      "notes": "$1400 firm. FL-132, CR-293, UT-106",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 950,
+      "sold_date": "2013-10-12",
+      "condition": "Little use, small scratches on top bezel",
+      "url": "https://www.eham.net/classifieds/419108",
+      "notes": "$950 shipped",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 899,
+      "sold_date": "2013-07-19",
+      "condition": "Excellent; mic, manual, power cord",
+      "url": "https://www.eham.net/classifieds/413395",
+      "notes": "$899 plus shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 1100,
+      "sold_date": "2013-06-13",
+      "condition": "Not described",
+      "url": "https://www.eham.net/classifieds/394004",
+      "notes": "$1100. Includes 1.2 GHz module",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1300,
+      "sold_date": "2013-03-20",
+      "condition": "Very good, one mark on side panel",
+      "url": "https://www.eham.net/classifieds/402798",
+      "notes": "$1300 firm plus shipping. 1.2 GHz installed; includes Heil mic, triplexer, PS-15 supply",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    }
+  ]
+}
