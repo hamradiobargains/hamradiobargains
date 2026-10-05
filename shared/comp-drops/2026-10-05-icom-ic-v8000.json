@@ -1,0 +1,449 @@
+{
+  "model": "Icom IC-V8000",
+  "slug": "icom-ic-v8000",
+  "searched_at": "2026-10-05T15:01:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "QTH ad titles it 'ICOM V-8000'; this is the IC-V8000 2m mobile. Searched 'V8000', page 1 of 6 reviewed. No-price (342948, 336204), trade (339706) and wanted ads excluded. sold_date is the ad date shown on eHam (date posted/last modified) for an ad marked SOLD; prices are the seller's asking price at time marked sold, not a verified transaction price.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781421",
+    "site": "qth",
+    "ask": 140.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 115.0,
+      "sold_date": "2025-07-13",
+      "condition": "Clean, functional, makes specified power; no bracket or box",
+      "url": "https://www.eham.net/classifieds/621748",
+      "notes": "$115 shipped. Includes HM-133V and DC cable with Powerpoles.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2023-09-18",
+      "condition": "Excellent, never mobile, works great",
+      "url": "https://www.eham.net/classifieds/608288",
+      "notes": "$125 plus $16.50 shipping. Box, mic, bracket, manual.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2022-05-23",
+      "condition": "Good working radio",
+      "url": "https://www.eham.net/classifieds/596477",
+      "notes": "$125 plus shipping. Mic and long power cord.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 180.0,
+      "sold_date": "2022-05-17",
+      "condition": "Clean, good condition (estate find)",
+      "url": "https://www.eham.net/classifieds/596315",
+      "notes": "$180 shipped. Manual, mic, bracket.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 110.0,
+      "sold_date": "2021-01-26",
+      "condition": "Works as it should but short in the mic cord; from SK smoker",
+      "url": "https://www.eham.net/classifieds/583990",
+      "notes": "$110 shipped. Bracket, Powerpoles, manual, box. Same 'owned by a now SK smoker' unit text as ads 510222, 499702, 511129 (K1HR) and 583990 (KITEMAN) - possibly the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "faulty",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 140.0,
+      "sold_date": "2020-10-19",
+      "condition": "Never mobile",
+      "url": "https://www.eham.net/classifieds/581301",
+      "notes": "$140 OBO shipped. MARS/CAP modified. Same seller KQ4P same day as ad 581299 - possibly the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 185.0,
+      "sold_date": "2020-10-19",
+      "condition": "Never mobile",
+      "url": "https://www.eham.net/classifieds/581299",
+      "notes": "$185 shipped. MARS/CAP modified; new OPC-1132 cable, mic hanger and MBF4 bracket. Possibly same unit as KQ4P ad 581301.",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 75.0,
+      "sold_date": "2020-08-18",
+      "condition": "Very good, 9/10",
+      "url": "https://www.eham.net/classifieds/579866",
+      "notes": "$75 plus shipping. Seller states 50W output (unit is rated 75W).",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 140.0,
+      "sold_date": "2020-01-21",
+      "condition": "Like-new, mint, fully functional",
+      "url": "https://www.eham.net/classifieds/574636",
+      "notes": "$140 shipped. Includes box, bracket and CS-V8000 cloning software. Serial differs from N5LPO ad 574598.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2020-01-20",
+      "condition": "Very good, fully functional",
+      "url": "https://www.eham.net/classifieds/574598",
+      "notes": "$125 shipped. Bracket, box, HM-133V. Possibly same unit as N5LPO ad 574453 (similar description).",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 120.0,
+      "sold_date": "2020-01-14",
+      "condition": "Very good, fully functional",
+      "url": "https://www.eham.net/classifieds/574453",
+      "notes": "$120 shipped. Bracket, HM-133V. Possibly same unit as N5LPO ad 574598.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2019-03-11",
+      "condition": "New-like",
+      "url": "https://www.eham.net/classifieds/559234",
+      "notes": "$125 plus shipping. Mic, manual, bracket, DC cable. Possibly same W3IF unit as ad 549811.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 135.0,
+      "sold_date": "2018-09-04",
+      "condition": "New-like, never mobile; stick-on feet added",
+      "url": "https://www.eham.net/classifieds/549811",
+      "notes": "$135 plus shipping. Marked sold awaiting payment. Possibly same W3IF unit as ad 559234.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2018-08-12",
+      "condition": "No issues",
+      "url": "https://www.eham.net/classifieds/548649",
+      "notes": "$125 shipped. Includes RT Systems software and cable.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 120.0,
+      "sold_date": "2017-02-12",
+      "condition": "Like new, never mobile, never modified",
+      "url": "https://www.eham.net/classifieds/515798",
+      "notes": "$120 shipped USPS Priority. Box, bracket, mic.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 105.0,
+      "sold_date": "2017-01-01",
+      "condition": "Works as it should; from SK smoker",
+      "url": "https://www.eham.net/classifieds/510222",
+      "notes": "$105 shipped. Same 'owned by a now SK smoker' unit text as ads 510222, 499702, 511129 (K1HR) and 583990 (KITEMAN) - possibly the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 130.0,
+      "sold_date": "2017-01-01",
+      "condition": "Works as it should; from SK smoker",
+      "url": "https://www.eham.net/classifieds/499702",
+      "notes": "$130 shipped. Same 'owned by a now SK smoker' unit text as ads 510222, 499702, 511129 (K1HR) and 583990 (KITEMAN) - possibly the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 105.0,
+      "sold_date": "2016-12-05",
+      "condition": "Works as it should; from SK smoker",
+      "url": "https://www.eham.net/classifieds/511129",
+      "notes": "$105 shipped. Same 'owned by a now SK smoker' unit text as ads 510222, 499702, 511129 (K1HR) and 583990 (KITEMAN) - possibly the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2016-12-01",
+      "condition": "Good condition, not modified; reprinted manual",
+      "url": "https://www.eham.net/classifieds/510872",
+      "notes": "$100 shipped OBO.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2016-11-29",
+      "condition": "Very little use, box and manuals",
+      "url": "https://www.eham.net/classifieds/509109",
+      "notes": "$100 plus shipping.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 95.0,
+      "sold_date": "2015-11-24",
+      "condition": "Like new, lightly used as base; no bracket",
+      "url": "https://www.eham.net/classifieds/483201",
+      "notes": "$95 plus shipping. Body says 'IC-V800' (typo); title IC-V8000.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 135.0,
+      "sold_date": "2015-10-31",
+      "condition": "Excellent cosmetic and operating",
+      "url": "https://www.eham.net/classifieds/449653",
+      "notes": "$135 shipped. Box, bracket, mic, USB programming cable and driver CD. Same K3MEJ unit as ad 449005.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 140.0,
+      "sold_date": "2015-10-31",
+      "condition": "Excellent cosmetic and operating",
+      "url": "https://www.eham.net/classifieds/449005",
+      "notes": "$140 shipped. Same K3MEJ unit as ad 449653; includes USB programming cable.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 140.0,
+      "sold_date": "2015-09-26",
+      "condition": "Not stated",
+      "url": "https://www.eham.net/classifieds/480397",
+      "notes": "$140 shipped.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 25.0,
+      "sold_date": "2015-07-10",
+      "condition": "Strictly for parts",
+      "url": "https://www.eham.net/classifieds/473901",
+      "notes": "$25 plus mailing. Same K9DTC parts unit as ad 473899.",
+      "marketplace": "eHam",
+      "flags": [
+        "non_working",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 25.0,
+      "sold_date": "2015-07-09",
+      "condition": "Strictly for parts",
+      "url": "https://www.eham.net/classifieds/473899",
+      "notes": "$25 plus mailing. Same K9DTC parts unit as ad 473901.",
+      "marketplace": "eHam",
+      "flags": [
+        "non_working",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 85.0,
+      "sold_date": "2015-06-07",
+      "condition": "Works but internal speaker silent - ext speaker jack does not release",
+      "url": "https://www.eham.net/classifieds/470935",
+      "notes": "$85 plus shipping.",
+      "marketplace": "eHam",
+      "flags": [
+        "faulty"
+      ]
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2015-02-28",
+      "condition": "Works fine",
+      "url": "https://www.eham.net/classifieds/460919",
+      "notes": "$150 shipped ($130 pickup). Includes RT Systems WCS-V8000 software and cable.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2014-06-02",
+      "condition": "Real nice",
+      "url": "https://www.eham.net/classifieds/432347",
+      "notes": "$150 shipped. K4DVW also sold V8000s in ads 418790 and 437083 - possibly the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2014-06-02",
+      "condition": "Nice cosmetic and electrical",
+      "url": "https://www.eham.net/classifieds/418790",
+      "notes": "$160 shipped. Possibly same K4DVW unit as ads 432347, 437083.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2014-04-30",
+      "condition": "Perfect shape",
+      "url": "https://www.eham.net/classifieds/437083",
+      "notes": "$160 shipped. Box, manual, bracket, PC programming disc. Possibly same K4DVW unit as ads 432347, 418790.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2013-07-28",
+      "condition": "Almost new in box, bench tested only",
+      "url": "https://www.eham.net/classifieds/388280",
+      "notes": "$160 free shipping.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 175.0,
+      "sold_date": "2013-05-18",
+      "condition": "Excellent; brand new HM-133 mic",
+      "url": "https://www.eham.net/classifieds/406550",
+      "notes": "$175 shipped CONUS.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2012-12-30",
+      "condition": "New-like, never mobile; no bracket",
+      "url": "https://www.eham.net/classifieds/394969",
+      "notes": "$150 plus shipping. Same W3IF unit as ad 394421.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2012-12-30",
+      "condition": "New-like, never mobile; no bracket",
+      "url": "https://www.eham.net/classifieds/394421",
+      "notes": "$150 plus shipping. Same W3IF unit as ad 394969.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2011-11-05",
+      "condition": "New-like, never mobile",
+      "url": "https://www.eham.net/classifieds/358585",
+      "notes": "$150 plus shipping. Same W3IF unit as ad 358268.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2011-11-05",
+      "condition": "New-like, never mobile",
+      "url": "https://www.eham.net/classifieds/358268",
+      "notes": "$150 plus shipping. Same W3IF unit as ad 358585.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2011-10-03",
+      "condition": "Great condition, used very little",
+      "url": "https://www.eham.net/classifieds/356109",
+      "notes": "$160 shipped. Text matches K6VRY ads 355139/345143 - possibly the same unit.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2011-09-19",
+      "condition": "Like new in box",
+      "url": "https://www.eham.net/classifieds/355139",
+      "notes": "$160 shipped. Possibly same unit as ads 345143 (same seller) and 356109.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 220.0,
+      "sold_date": "2011-05-12",
+      "condition": "Like new in box, 65+ watts",
+      "url": "https://www.eham.net/classifieds/345143",
+      "notes": "$220 shipped. Possibly same K6VRY unit as ad 355139.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2011-01-15",
+      "condition": "Almost new in box, ~5 hours bench use",
+      "url": "https://www.eham.net/classifieds/335281",
+      "notes": "$150 plus shipping.",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
