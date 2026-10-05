@@ -1,0 +1,128 @@
+{
+  "model": "Yaesu FC-757AT",
+  "slug": "yaesu-fc-757at",
+  "searched_at": "2026-10-05T17:59:54-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search 'FC-757AT' with sold box, all results on one page; most comps are old (2000-2014). Kept only ads marked SOLD with a price for the tuner itself. Excluded: 615726 (N7QJ 2024, FT-757GX + FC-757AT together for $250, as-is), 240676/169140 (KU5W, radio+tuner+RigBlaster bundle $500/$550), 95748 (KG4OEZ, radio+tuner+PSU $400), 76840 (W2HP bundle $500), 42463 (N7QPP bundle $500), 311631/296738 (KD5TNC, FT-757GX radio only), 112548/111846/111760 (N3PKC, trade offers, no price), 561490 (N4WNW 2019, $200 + shipping, not marked SOLD), 577613 (KC7MF, no longer available, no price), 583373/34263/15143/245621 (wanted ads). Comps 115263, 93821 and 48131 are separately priced tuners within multi-item ads. 12 comps.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/307216047934",
+    "site": "ebay",
+    "ask": 159.95,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 200.0,
+      "sold_date": "2014-10-12",
+      "condition": "Works great, face plate perfect, a few cabinet scratches; original manual and interface cable",
+      "url": "https://www.eham.net/classifieds/405198",
+      "notes": "Includes shipping USA. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 215.0,
+      "sold_date": "2012-02-13",
+      "condition": "Great working tuner, interconnect cables and manual, non-smoking",
+      "url": "https://www.eham.net/classifieds/366950",
+      "notes": "$215 or best offer; free shipping lower 48 at full price. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2011-11-23",
+      "condition": "With cable and original manual",
+      "url": "https://www.eham.net/classifieds/360389",
+      "notes": "Plus shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2010-12-23",
+      "condition": "With cable and original manual",
+      "url": "https://www.eham.net/classifieds/333630",
+      "notes": "Plus shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2010-06-03",
+      "condition": "Great shape, tested works great; cables and copy of manual",
+      "url": "https://www.eham.net/classifieds/318877",
+      "notes": "Shipped in US; estate (SK) item. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2003-11-29",
+      "condition": "Really nice shape, looks good works good",
+      "url": "https://www.eham.net/classifieds/115263",
+      "notes": "Station ad (FT-757GX, FC-757AT, FP-757HD) with a separate FC-757AT price of $275 plus shipping; the SOLD mark covers the ad, so it is not certain the tuner sold at that price. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2003-10-23",
+      "condition": "Brand new in original box, all accessories",
+      "url": "https://www.eham.net/classifieds/110064",
+      "notes": "Plus $60 shipping from Hong Kong. Same seller VR2AI also posted the identical ad 91692 and 99834; may be the same unit relisted. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2003-08-04",
+      "condition": "Brand new, never taken out of original box",
+      "url": "https://www.eham.net/classifieds/99834",
+      "notes": "Plus $60 shipping from Hong Kong. Same seller VR2AI also posted the identical ad 91692 and 110064; may be the same unit relisted. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2003-07-21",
+      "condition": "Excellent condition with original manual and cable",
+      "url": "https://www.eham.net/classifieds/93821",
+      "notes": "Ad also offers an FT-101B; the FC-757AT is separately priced at $225 plus shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2003-06-05",
+      "condition": "Brand new, unused, all accessories and original box",
+      "url": "https://www.eham.net/classifieds/91692",
+      "notes": "Plus shipping (Hong Kong seller VR2AI; see also ads 99834 and 110064). Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2002-05-02",
+      "condition": "Tuner a 10 all around, with cables",
+      "url": "https://www.eham.net/classifieds/48131",
+      "notes": "Ad pairs it with an FT-757GX; the tuner alone is priced $250 (both $500) plus shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2000-09-02",
+      "condition": "Minor scuffs and scratches, electronically good; connector cable and manual",
+      "url": "https://www.eham.net/classifieds/8733",
+      "notes": "Shipping and insurance included. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
