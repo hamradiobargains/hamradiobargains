@@ -1,0 +1,152 @@
+{
+  "model": "Yaesu FT5DR",
+  "slug": "yaesu-ft5dr",
+  "searched_at": "2026-10-05T17:58:15-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search 'FT5DR' with sold box, all results on one page. Kept only ads marked SOLD. Excluded: 629082 (K4PC, 2026-10-05, active ad at $415, not sold) and 613222 (N2DAY, 2024-04-30, $400 with extras, not marked SOLD). 13 comps.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/137815590385",
+    "site": "ebay",
+    "ask": 324.99,
+    "shipping": 6.33
+  },
+  "comps": [
+    {
+      "price": 360.0,
+      "sold_date": "2026-01-08",
+      "condition": "Fully functional, excellent condition",
+      "url": "https://www.eham.net/classifieds/624580",
+      "notes": "Shipped CONUS; includes SBH-52 rapid charger and SCU-57 interface cable. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2025-12-14",
+      "condition": "Mint, like new, TX under 5 hours, no modifications, original packaging",
+      "url": "https://www.eham.net/classifieds/624227",
+      "notes": "Plus actual shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 475.0,
+      "sold_date": "2025-06-08",
+      "condition": "Like new, no cracks or marks",
+      "url": "https://www.eham.net/classifieds/621149",
+      "notes": "Plus $20 shipping; package with extra battery, FBA-39, SSM-17A mic, SSM-BT20 headset, SCU-55/57 cables, drop-in charger, RT Systems software and cable; seller lists a MARS mod. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included",
+        "modified"
+      ]
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2025-04-12",
+      "condition": "Excellent condition, minimal use, bought new Feb 2024",
+      "url": "https://www.eham.net/classifieds/620112",
+      "notes": "$400 or best offer plus shipping; includes rapid charge cradle, 2nd battery, RT Systems USB-68 cable, SCU-55 cable. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2024-11-22",
+      "condition": "Pristine, never used, all factory items and box",
+      "url": "https://www.eham.net/classifieds/617556",
+      "notes": "Shipped lower 48; includes SHC-40 soft case, SDD-13 lighter cord, RT Systems USB-68 cable. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 299.95,
+      "sold_date": "2024-04-24",
+      "condition": "Used, with original box",
+      "url": "https://www.eham.net/classifieds/613122",
+      "notes": "Plus $18 shipping; includes extra SBR-14Li battery, USB-68 cable, charger cradle, MH-85A11U camera mic, SSM-BT20 headset. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2024-02-26",
+      "condition": "Great condition, all original items",
+      "url": "https://www.eham.net/classifieds/611720",
+      "notes": "Includes shipping; extra battery and drop-in charger. Same seller (WX7OR) as ad 606505, which the seller described as a second unit. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2024-01-03",
+      "condition": "New in box, never used, original owner",
+      "url": "https://www.eham.net/classifieds/610448",
+      "notes": "$350 OBO; includes RT Systems programming cable and CD-41 charger. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2023-12-02",
+      "condition": "Gently used, original box and accessories",
+      "url": "https://www.eham.net/classifieds/609776",
+      "notes": "Shipped; includes CD-41 rapid charge cradle and 2 additional SBR-14LI batteries. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 349.0,
+      "sold_date": "2023-10-08",
+      "condition": "New, never taken out of packaging",
+      "url": "https://www.eham.net/classifieds/608690",
+      "notes": "Plus $10 USPS shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 340.0,
+      "sold_date": "2023-06-20",
+      "condition": "Great condition, all original supplied items",
+      "url": "https://www.eham.net/classifieds/606505",
+      "notes": "Plus shipping. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2022-11-18",
+      "condition": "Purchased April 2022, used",
+      "url": "https://www.eham.net/classifieds/601216",
+      "notes": "Plus shipping; includes CD-41 charger and RT Systems software and cable. Marked SOLD in title. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 395.0,
+      "sold_date": "2022-09-07",
+      "condition": "Like new, all original factory items",
+      "url": "https://www.eham.net/classifieds/599244",
+      "notes": "Shipped via Priority Mail. Date is the eHam ad post date (eHam does not show when the ad was marked sold); price is the seller's asking price.",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
