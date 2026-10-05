@@ -1,0 +1,413 @@
+{
+  "model": "Icom IC-9100",
+  "slug": "icom-ic-9100",
+  "searched_at": "2026-10-05T15:01:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "QTH ad has no D-Star/23cm/extra filters; many comps include those options (flagged option_installed). Several sellers relisted the same unit (flagged possible_duplicate). Ad 529942 (trade-only, no price) excluded. Searched 'IC-9100', page 1 of 1. sold_date is the ad date shown on eHam (date posted/last modified) for an ad marked SOLD; prices are the seller's asking price at time marked sold, not a verified transaction price.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781431",
+    "site": "qth",
+    "ask": 950.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1000.0,
+      "sold_date": "2026-04-17",
+      "condition": "Complete with shipping box, manuals, stock mic; seller says may have had extra filters/options",
+      "url": "https://www.eham.net/classifieds/626123",
+      "notes": "Sold for $1000 on local delivery (seller-stated sold price).",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 1575.0,
+      "sold_date": "2024-06-22",
+      "condition": "Very nice condition, original box, new unused HM-36 mic and DC cable",
+      "url": "https://www.eham.net/classifieds/614466",
+      "notes": "$1575 shipped lower 48. Includes UT-121 D-Star unit, FL-430 and FL-431 filters.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1400.0,
+      "sold_date": "2023-05-02",
+      "condition": "Working, 100W HF-2m / 75W 70cm",
+      "url": "https://www.eham.net/classifieds/605240",
+      "notes": "$1400 shipped CONUS. D-Star module installed.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 2100.0,
+      "sold_date": "2022-03-20",
+      "condition": "Excess to needs, bought new 2011",
+      "url": "https://www.eham.net/classifieds/594808",
+      "notes": "$2100 shipped CONUS. Includes UX-9100 1.2 GHz module, D-Star module, both narrow filters, Pat V 9100 multi-tap (panadapter tap) board installed, RT Systems software, box.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "modified",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1575.0,
+      "sold_date": "2022-01-16",
+      "condition": "Excellent condition, everything works",
+      "url": "https://www.eham.net/classifieds/593157",
+      "notes": "$1575 shipped and insured. D-Star module installed; boxes included.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1600.0,
+      "sold_date": "2020-10-17",
+      "condition": "Pristine, estate of an SK",
+      "url": "https://www.eham.net/classifieds/581244",
+      "notes": "$1600 shipped CONUS. MARS/CAP mod, UT-121 D-Star unit, PAT-V-9100 panadapter tap board installed; MB-123 handle.",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2020-06-22",
+      "condition": "Very low hours, excellent condition",
+      "url": "https://www.eham.net/classifieds/578364",
+      "notes": "$1100 plus shipping up to $100. Marked 'SOLD pending funds'. UX-9100 1.2 GHz module and FL-430/FL-431 filters installed, no D-Star. Same seller NZ6E with same option set as ads 562191 and 561346 - likely the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1400.0,
+      "sold_date": "2020-04-14",
+      "condition": "Only one year old, factory boxes",
+      "url": "https://www.eham.net/classifieds/576489",
+      "notes": "$1400 plus shipping. D-Star module installed. Same seller K4DVW listed a one-year-old D-Star IC-9100 in ads 576373 and 576248 - likely the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2020-04-06",
+      "condition": "One year old, unused mic and DC cable, factory cartons",
+      "url": "https://www.eham.net/classifieds/576373",
+      "notes": "$1500 shipped CONUS. D-Star installed; pan-adapter output installed. Likely same unit as K4DVW ads 576489 and 576248.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2020-04-01",
+      "condition": "Includes manual, mic, DC cable, accessories, factory carton",
+      "url": "https://www.eham.net/classifieds/576248",
+      "notes": "$1500 shipped CONUS. D-Star installed. Likely same unit as K4DVW ads 576489 and 576373.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1200.0,
+      "sold_date": "2020-03-10",
+      "condition": "Near mint, very little use, everything works",
+      "url": "https://www.eham.net/classifieds/575827",
+      "notes": "$1200 plus shipping (ships from Ottawa ON or NY 13669). No D-Star, 1.2 GHz or extra filters. Includes schematics and Nifty manual.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 1450.0,
+      "sold_date": "2020-01-23",
+      "condition": "Great condition cosmetically and operationally",
+      "url": "https://www.eham.net/classifieds/574684",
+      "notes": "$1450 (FS/FT). All filters and D-Star installed. Same seller W4IEN, same option set as ad 574523 - likely the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2020-01-17",
+      "condition": "Really nice",
+      "url": "https://www.eham.net/classifieds/574523",
+      "notes": "$1500 shipped. All filters and D-Star installed. Likely same unit as W4IEN ad 574684.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1600.0,
+      "sold_date": "2019-05-05",
+      "condition": "Excellent condition",
+      "url": "https://www.eham.net/classifieds/562191",
+      "notes": "$1600 with shipping up to $100. UX-9100 1.2 GHz module and FL-430/FL-431 installed. Same seller NZ6E as ads 561346 and 578364 - likely the same unit relisted.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1800.0,
+      "sold_date": "2019-04-19",
+      "condition": "Very low hours",
+      "url": "https://www.eham.net/classifieds/561346",
+      "notes": "Asking $1800. UX-9100 1.2 GHz module and FL-430/FL-431 filters. Likely same unit as NZ6E ads 562191 and 578364.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1425.0,
+      "sold_date": "2019-04-02",
+      "condition": "Non smoker; includes power cord and HM-36",
+      "url": "https://www.eham.net/classifieds/558717",
+      "notes": "$1425, shipping split 50-50. D-Star module installed.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 2000.0,
+      "sold_date": "2019-02-28",
+      "condition": "Excellent condition, single owner",
+      "url": "https://www.eham.net/classifieds/558777",
+      "notes": "$2000, shipping negotiable. Fully loaded with 23cm and D-Star plus matching Icom power supply.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1549.0,
+      "sold_date": "2018-12-02",
+      "condition": "Original owner, mint, lightly used",
+      "url": "https://www.eham.net/classifieds/545987",
+      "notes": "$1549 including UPS shipping, insured.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 1725.0,
+      "sold_date": "2018-06-19",
+      "condition": "Very well kept, as from factory with box, mic, accessories, manual",
+      "url": "https://www.eham.net/classifieds/544785",
+      "notes": "$1725 shipped. D-Star module and both roofing filters installed; RT Systems program offered.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1745.0,
+      "sold_date": "2018-02-12",
+      "condition": "Mint, bought new March 2017, some warranty left",
+      "url": "https://www.eham.net/classifieds/537997",
+      "notes": "$1745 shipped via FedEx Ground. Includes custom dust cover.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 1560.0,
+      "sold_date": "2017-08-15",
+      "condition": "Used, excellent condition",
+      "url": "https://www.eham.net/classifieds/527705",
+      "notes": "$1560 shipping paid in 49 states. D-Star option.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 2750.0,
+      "sold_date": "2017-08-04",
+      "condition": "Very well equipped, no manual",
+      "url": "https://www.eham.net/classifieds/527319",
+      "notes": "$2750 shipped insured CONUS. UX-9100 1.2 GHz, D-Star, FL-430 and FL-431 installed.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 2500.0,
+      "sold_date": "2017-05-15",
+      "condition": "Primary HF radio, non-smoking home",
+      "url": "https://www.eham.net/classifieds/501268",
+      "notes": "$2500 plus actual shipping. All options installed: filters, 1.2 GHz module, D-Star.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 2495.0,
+      "sold_date": "2017-02-11",
+      "condition": "Great condition, 11 months old",
+      "url": "https://www.eham.net/classifieds/515575",
+      "notes": "$2495 plus actual shipping. UX-9100 1.2 GHz installed; dust cover included.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 2150.0,
+      "sold_date": "2016-01-22",
+      "condition": "Excellent, works as new, no scratches",
+      "url": "https://www.eham.net/classifieds/489120",
+      "notes": "$2150 plus $35 UPS. UT-121 D-Star, 3 kHz and 6 kHz roofing filters; RT Systems WCS-9100 software and USB CI-V cable included.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 2900.0,
+      "sold_date": "2015-08-24",
+      "condition": "Mint, original owner",
+      "url": "https://www.eham.net/classifieds/477758",
+      "notes": "$2900 firm, free insured shipping US48. Includes UT-121, FL-430, FL-431, UX-9100, PS-125 power supply, RT Systems kit. Same W7CNK unit relisted in ads 477462, 477012, 476928, 476735.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 2925.0,
+      "sold_date": "2015-08-21",
+      "condition": "Mint, original owner",
+      "url": "https://www.eham.net/classifieds/477462",
+      "notes": "$2925 firm, free insured shipping US48. Fully loaded plus PS-125. Same W7CNK unit as ads 477758, 477012, 476928, 476735.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 2925.0,
+      "sold_date": "2015-08-15",
+      "condition": "Mint, original owner",
+      "url": "https://www.eham.net/classifieds/477012",
+      "notes": "$2925 firm, free insured shipping US48. Fully loaded plus PS-125. Same W7CNK unit as ads 477758, 477462, 476928, 476735.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 2925.0,
+      "sold_date": "2015-08-14",
+      "condition": "Mint, loaded, original owner",
+      "url": "https://www.eham.net/classifieds/476928",
+      "notes": "$2925 firm, free insured shipping US48. Fully loaded plus power supply. Same W7CNK unit as ads 477758, 477462, 477012, 476735.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 2925.0,
+      "sold_date": "2015-08-11",
+      "condition": "Mint, loaded, original owner",
+      "url": "https://www.eham.net/classifieds/476735",
+      "notes": "$2925 firm, free insured shipping US48. Fully loaded plus power supply. Same W7CNK unit as ads 477758, 477462, 477012, 476928.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 2500.0,
+      "sold_date": "2014-04-02",
+      "condition": "Just like new, non smoking home",
+      "url": "https://www.eham.net/classifieds/434541",
+      "notes": "$2500 shipped and insured CONUS. UT-121 D-Star and FL-431 installed.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 2500.0,
+      "sold_date": "2013-11-16",
+      "condition": "Excellent condition",
+      "url": "https://www.eham.net/classifieds/416668",
+      "notes": "$2500 plus actual shipping. D-Star module and tight SSB roofing filter installed.",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 3000.0,
+      "sold_date": "2013-03-07",
+      "condition": "As new, low hours, no mods",
+      "url": "https://www.eham.net/classifieds/401382",
+      "notes": "$3000 plus shipping CONUS. Includes new never-installed FL-430/FL-431 and UT-121, Nifty/operator/service manuals.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 2850.0,
+      "sold_date": "2013-01-02",
+      "condition": "Like new, one week old, warranty",
+      "url": "https://www.eham.net/classifieds/395243",
+      "notes": "$2850 shipped CONUS.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 3200.0,
+      "sold_date": "2011-11-28",
+      "condition": "Excellent condition, very little use",
+      "url": "https://www.eham.net/classifieds/357935",
+      "notes": "$3200 plus shipping in CONUS.",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
