@@ -1,0 +1,69 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-05",
+  "ran_at": "2026-10-05T14:52:32-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-04T14:53:05-04:00 (prior qth drop). Scanned QTH all-ads pages 1-2 only (20 newest, all dated 10/05; newest ~ad 1781434 down to 1781421). The 6-candidate cap was reached on those two pages, so older ads in the window (~1781355-1781420) were not reviewed this run. Skipped: wanted ads, Dentron Classic tuner (renewed 9/15 ad, as-is), KX2 desk stand (pending accessory), Electric Radio magazines, Par OA-432 antenna (renewed), Xiegu G90 1781350 (already dropped; price now $315), Flex-1500 + Z11 (bundle), IC-9100 + IC-7410 pair $2000 (bundle, pickup only), FT-891 (no price stated). All 6 candidates were ledger misses (no comps.json entry for IC-9100, FT-991A, PS-85, IC-V8000, FT-530; IC-7800 count 1). eHam: signed in as K4LFC; one Cloudflare 'Just a moment' interstitial on first load cleared on its own; 6 searches, no blocks. Each comp search reviewed page 1 (up to 50 results) only.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781431",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE: Icom IC-9100 $950",
+      "price": 950.0,
+      "shipping": 0,
+      "found_at": "2026-10-05",
+      "condition_notes": "Seller: looks and works great; 100W all bands except 75W on 70cm; built-in tuner HF/6. No extra filters, no D-Star board, no 23cm module. Includes hand mic, power cable, manual. $950 PICKUP ONLY - seller will not ship (Slidell, LA hamfest Oct 16-17).",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781427",
+      "site": "qth",
+      "title": "RADIOHF - Sell or Trade: FT-991A for FTX-1",
+      "price": 925.0,
+      "shipping": 0,
+      "found_at": "2026-10-05",
+      "condition_notes": "Nice working and physical condition, US band plan version. Includes box, mic, power cord, manual (manual front cover has some handwritten notes). $925 including shipping to the U.S.; PayPal +3%. Would consider trade toward FTX-1/Optima.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781423",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE ICOM IC7800",
+      "price": 3200.0,
+      "shipping": 0,
+      "found_at": "2026-10-05",
+      "condition_notes": "Very good shape, no marks, works as it should; 200W internal PSU. Not first owner; seller says previous owner had Icom update it to the 'MK II' version (thinks extra filters) and align it. Includes mic, manuals, connector pack, power cord, heavy-duty shipping crate, handles. $3200 PLUS shipping (amount not stated, recorded 0/unknown); check or postal MO only; seller prefers pickup.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781422",
+      "site": "qth",
+      "title": "RADIOHF - Icom PS-85 Power supply",
+      "price": 100.0,
+      "shipping": 0,
+      "found_at": "2026-10-05",
+      "condition_notes": "Works well, looks OK. $100 plus shipping and UPS Store packing (amount not stated, recorded 0/unknown).",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781421",
+      "site": "qth",
+      "title": "RADIOVHF - ICOM V-8000 VHF",
+      "price": 140.0,
+      "shipping": 0,
+      "found_at": "2026-10-05",
+      "condition_notes": "Works great. Includes radio, power cord, HM-133V mic, mounting bracket, manual. All sales final. $140 shipped anywhere in the US.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781425",
+      "site": "qth",
+      "title": "RADIOVHF - For Sale: Nice Yaesu FT-530 Dual Band HT",
+      "price": 115.0,
+      "shipping": 0,
+      "found_at": "2026-10-05",
+      "condition_notes": "Nice, works as it should, bright green backlight. Includes wrist strap, original antenna, brand-new 10xAA battery case. No battery pack/charger mentioned. $115 including US shipping; PayPal +3%.",
+      "seller_feedback": ""
+    }
+  ]
+}
