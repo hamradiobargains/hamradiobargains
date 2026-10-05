@@ -1,0 +1,371 @@
+{
+  "model": "Yaesu FT-530",
+  "slug": "yaesu-ft-530",
+  "searched_at": "2026-10-05T15:01:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Most comps include extra accessories (display mic, chargers, batteries); QTH ad includes only radio, antenna and AA case. Ad 626882 (SOLD, no price) and 372931 (no price) excluded. Page 1 of 3 reviewed. sold_date is the ad date shown on eHam (date posted/last modified) for an ad marked SOLD; prices are the seller's asking price at time marked sold, not a verified transaction price.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781425",
+    "site": "qth",
+    "ask": 115.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 225.0,
+      "sold_date": "2025-10-02",
+      "condition": "Good working condition; non-original antenna; no batteries",
+      "url": "https://www.eham.net/classifieds/623195",
+      "notes": "$225 shipped CONUS. Includes MH-29A2B remote display mic and two AA battery holders.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2024-05-16",
+      "condition": "Not stated",
+      "url": "https://www.eham.net/classifieds/613589",
+      "notes": "$225 free shipping CONUS. Includes desk charger. Title marked SOLD; AJ4G has relisted FT-530s several times (ads 613588, 617936, 618354, 619605 not marked sold).",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 147.0,
+      "sold_date": "2024-06-06",
+      "condition": "Good working",
+      "url": "https://www.eham.net/classifieds/614067",
+      "notes": "$147 plus $15 shipping. Marked sold pending payment. Includes NC-42 drop-in charger and NiCd pack.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 175.0,
+      "sold_date": "2018-12-11",
+      "condition": "Excellent, original owner; battery nearing end of life",
+      "url": "https://www.eham.net/classifieds/554824",
+      "notes": "$175 shipped. Includes NC-28 charger, FBA-12, E-DC-5B, MH-32 speaker mic, two antennas.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2018-08-15",
+      "condition": "Nearly new, original box",
+      "url": "https://www.eham.net/classifieds/548804",
+      "notes": "$100 plus shipping. Includes FNB-27xs battery and MH-18 speaker mic.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2017-04-12",
+      "condition": "Very good to excellent, works flawlessly; no belt clip",
+      "url": "https://www.eham.net/classifieds/509070",
+      "notes": "$150 firm plus shipping. Includes NC-42 charger, AA case, battery, Diamond RH77CA antenna.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 75.0,
+      "sold_date": "2016-09-19",
+      "condition": "Clean, working",
+      "url": "https://www.eham.net/classifieds/506409",
+      "notes": "$75 shipped. FBA-12 AA case, rubber duck, belt clip, manual.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 90.0,
+      "sold_date": "2016-06-23",
+      "condition": "Very clean, like new, good battery",
+      "url": "https://www.eham.net/classifieds/500117",
+      "notes": "$90 plus shipping. Includes EMS-30Y rapid charger.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 135.0,
+      "sold_date": "2015-12-03",
+      "condition": "Good, light marks and some paint wear on back",
+      "url": "https://www.eham.net/classifieds/485286",
+      "notes": "$135 shipped Priority Mail. Antenna, AA holder, manual on CD.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2014-08-14",
+      "condition": "Nice condition",
+      "url": "https://www.eham.net/classifieds/443597",
+      "notes": "$100 shipped lower 48. 12V battery, NC-18B charger, manual copy.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2014-05-14",
+      "condition": "Good working; cracked battery plate; display window scratches; new memory battery",
+      "url": "https://www.eham.net/classifieds/422819",
+      "notes": "$160 shipped. Box, manual, antenna, charger, battery needing re-pack.",
+      "marketplace": "eHam",
+      "flags": [
+        "faulty"
+      ]
+    },
+    {
+      "price": 235.0,
+      "sold_date": "2012-11-09",
+      "condition": "Very good",
+      "url": "https://www.eham.net/classifieds/390150",
+      "notes": "$235 shipped. Many accessories: two batteries, speaker mic, NC-42 charger, mobile cradle, soft cases, eliminator, car charger.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2012-01-16",
+      "condition": "Excellent, 9/10 cosmetic, 10/10 operational",
+      "url": "https://www.eham.net/classifieds/364479",
+      "notes": "$200 shipped. Two batteries, FBA-12, NC-28B and NC-42 chargers, box, schematics.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 180.0,
+      "sold_date": "2011-07-26",
+      "condition": "Normal wear, paint worn on some buttons; battery clip spring broken",
+      "url": "https://www.eham.net/classifieds/349282",
+      "notes": "$180 plus shipping. Includes MH-29 display mic, 12V NiMH battery.",
+      "marketplace": "eHam",
+      "flags": [
+        "faulty",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2011-07-02",
+      "condition": "Beautiful",
+      "url": "https://www.eham.net/classifieds/346422",
+      "notes": "$325 OBO plus shipping/insurance. Includes MH-29, NC-42, NC-28B, three battery packs, extra Diamond antenna, literature.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2011-06-12",
+      "condition": "Good for age, couple tiny LCD spots, all features work",
+      "url": "https://www.eham.net/classifieds/347505",
+      "notes": "$250. Includes two NiMH packs, EMS-30Y charger, multiple wall chargers, MH-29 and two MH-12 speaker mics.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2011-05-08",
+      "condition": "Works 100%; the two FNB-27 packs do not hold charge",
+      "url": "https://www.eham.net/classifieds/344857",
+      "notes": "$150 shipped. Includes NC-42, NC-28B, mobile charger, FBA-12, soft cases.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 195.0,
+      "sold_date": "2011-02-17",
+      "condition": "Nice shape, no working batteries",
+      "url": "https://www.eham.net/classifieds/337916",
+      "notes": "$195. Box, manual, charger.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2011-01-15",
+      "condition": "All works well",
+      "url": "https://www.eham.net/classifieds/335321",
+      "notes": "$300 shipped/insured. Complete package: display mic, drop-in charger, two batteries, eliminator, case. Possibly same WX2USA unit as ad 334230.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2011-01-02",
+      "condition": "Very good shape, works",
+      "url": "https://www.eham.net/classifieds/334230",
+      "notes": "$300 shipped/insured. Includes MH-29, two batteries, W&W drop-in charger, eliminator, case. Possibly same WX2USA unit as ad 335321.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 175.0,
+      "sold_date": "2010-03-01",
+      "condition": "Backlight lamp out; foam earpieces/windscreens missing",
+      "url": "https://www.eham.net/classifieds/311283",
+      "notes": "$175 plus shipping. Includes two battery packs, NC-42, NC-28B, Powerpole adaptor, two YH-2 headsets.",
+      "marketplace": "eHam",
+      "flags": [
+        "faulty",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2009-03-31",
+      "condition": "Not stated",
+      "url": "https://www.eham.net/classifieds/285009",
+      "notes": "$350 plus $25 shipping. Includes MH-29 mic, NC-42 charger, two FNB-26 packs, soft case.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2008-12-11",
+      "condition": "Bad battery; no original antenna",
+      "url": "https://www.eham.net/classifieds/272703",
+      "notes": "$150 shipped. Includes MH-18 speaker mic, two antennas, AA case, quick charger.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2008-12-07",
+      "condition": "Excellent (estate)",
+      "url": "https://www.eham.net/classifieds/274733",
+      "notes": "$200 OBO. Two batteries, wall charger, speaker mic. Same KK1KW unit as ads 272397 and 271354.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2008-12-07",
+      "condition": "Very clean (estate)",
+      "url": "https://www.eham.net/classifieds/272397",
+      "notes": "$200 plus shipping. Same KK1KW unit as ads 274733 and 271354.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2008-10-13",
+      "condition": "Very clean, like new",
+      "url": "https://www.eham.net/classifieds/271354",
+      "notes": "$200 plus shipping. Same KK1KW unit as ads 274733 and 272397.",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2008-08-11",
+      "condition": "Very good; battery packs do not hold charge",
+      "url": "https://www.eham.net/classifieds/266895",
+      "notes": "$200 shipped. Includes NC-42, soft cases, speaker mic.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2008-07-08",
+      "condition": "Clean",
+      "url": "https://www.eham.net/classifieds/263030",
+      "notes": "$200 plus shipping. Bundle includes Bearcat 350A scanner, MH-29 mic, Comet antenna, two 12V batteries. Same JKVON25 package as ad 262483.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 235.0,
+      "sold_date": "2008-06-16",
+      "condition": "Clean",
+      "url": "https://www.eham.net/classifieds/262483",
+      "notes": "$235 OBO plus shipping. Bundle includes Bearcat BC350A scanner, MH-29 mic, two 12V batteries. Same JKVON25 package as ad 263030.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2008-02-04",
+      "condition": "Rubber duck only; no battery, manual or box",
+      "url": "https://www.eham.net/classifieds/248342",
+      "notes": "$100 plus shipping.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 140.0,
+      "sold_date": "2008-01-04",
+      "condition": "Looks 8/10, works 10/10",
+      "url": "https://www.eham.net/classifieds/249203",
+      "notes": "$140 shipped. Box, docs, W&W NiMH battery, E-DC-5B.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2007-12-26",
+      "condition": "Not stated",
+      "url": "https://www.eham.net/classifieds/248379",
+      "notes": "$125 shipped. Includes 4 batteries, hand mic, headset, drop-in charger.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 185.0,
+      "sold_date": "2007-10-01",
+      "condition": "Brand new battery",
+      "url": "https://www.eham.net/classifieds/242148",
+      "notes": "$185 plus shipping. Manual, antenna, hand mic.",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
