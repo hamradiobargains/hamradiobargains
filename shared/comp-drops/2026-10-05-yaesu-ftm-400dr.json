@@ -1,0 +1,72 @@
+{
+  "model": "Yaesu FTM-400DR",
+  "slug": "yaesu-ftm-400dr",
+  "searched_at": "2026-10-05T05:57:47-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam SOLD tag reflects the listed asking price when marked sold, not a verified transaction price; sold_date is the ad's post date. Search 'FTM-400' (sold box checked, 50 per page), first results page only (50 of more). Strict identity: only ads titled FTM-400DR kept. Excluded as different/uncertain models: all FTM-400XDR/XD ads (newer variant, many sold comps at $300-$525), FTM-400D ads 557743 and 492028, and unsuffixed 'FTM-400' 615716 ($425 shipped, 2024-08-19). Excluded FTM-400DR ads not marked sold (604439 $550 shipped 2023; 581621 $450 2020) and SOLD ads with no price shown (574548, 573157, 481873), plus trade ad 569454. Comps are all 2014-2020 - none recent; ledger had FTM-400DR at count 1 (miss).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629051",
+    "site": "eham",
+    "ask": 459.0,
+    "shipping": 20.0
+  },
+  "comps": [
+    {
+      "price": 450,
+      "sold_date": "2020-09-06",
+      "condition": "Like new, about 6 months old, used in shack as a base; no dings or scratches; complete with box and manual",
+      "url": "https://www.eham.net/classifieds/580293",
+      "notes": "$450 shipped lower 48",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 400,
+      "sold_date": "2017-07-18",
+      "condition": "Like new, used very little, never mobile; box and all original equipment",
+      "url": "https://www.eham.net/classifieds/526130",
+      "notes": "$400 shipped lower 48",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 400,
+      "sold_date": "2016-11-15",
+      "condition": "Excellent condition, never mobile",
+      "url": "https://www.eham.net/classifieds/510029",
+      "notes": "$400 plus shipping (or trade offered)",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 315,
+      "sold_date": "2015-11-03",
+      "condition": "Great shape with a few minor scratches; substitute bolt for control-head mount; previously returned to Yaesu for a Bluetooth module repair (paperwork included)",
+      "url": "https://www.eham.net/classifieds/483039",
+      "notes": "$315 shipped for radio only with standard accessories; $460 shipped with Bluetooth board/headset, FVS-2, camera mic and extension",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 485,
+      "sold_date": "2014-10-20",
+      "condition": "Lightly used",
+      "url": "https://www.eham.net/classifieds/449851",
+      "notes": "$485 plus shipping and PayPal fees. Includes BTK-5 Bluetooth headset and module, MEK-2 mic extension, MMB-98 suction mount, Powerwerx 20A line filter",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 575,
+      "sold_date": "2014-02-28",
+      "condition": "Same as new, used a week; plastic still on face; complete",
+      "url": "https://www.eham.net/classifieds/431715",
+      "notes": "$575 shipped",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
