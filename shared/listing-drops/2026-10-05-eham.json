@@ -1,0 +1,109 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-05",
+  "ran_at": "2026-10-05T05:52:49-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-04T05:52:44-04:00 (prior eham run). Signed in as K4LFC; no Cloudflare block or challenge. Normal window covered by the classifieds feed page 1 (ads 629054-629065) plus a srchdate=2026-10-04 search (629047-629065); new ads 629048-629065. Catch-up sweep of ads 629001-629024: srchdate=2026-10-03 search returned 629014-629024 (no 629018); 629001-629013 were dated 2026-10-02 on eHam, so a second srchdate=2026-10-02 search covered 629001-629011 (no 629002); 629012 and 629013 did not appear in either search (likely deleted/sold) and 629002/629018 likewise. Catch-up candidates: 629010 IC-765, 629004 KX2, 629015 pair of FT-8800R, 629024 K3/100 #3501 (ledger hit, no eHam search). 6 normal-window eHam comp searches + 3 catch-up searches, all ledger misses except K3/100; spaced 25s+. Seen but not comped (ham gear with prices): DU-1500T tuner 629065 ($500+ship), Heil ICM mic 629062 ($99.50+$15.75), FL-430/FL-431 filters 629059 ($320 shipped), MFJ-949B 629058 ($80), Ten-Tec Century 21 629057 ($280, local only), Uniden BCD536HP scanner 629055 ($375+ship), FTM-300DR 629052 ($279+$19; ad body describes an FT-3DR handheld - identity unclear), Alpha 4510A meter 629049 ($1299 shipped), SteppIR SDA100 controller 629050; catch-up: Kenwood SP-940 629021, Moonraker SWR200 629001, Dosy PM-1000 629005, Micom-2E ALE 629011 ($1000), KPA500 628999 and FTDX101D 629000 (already dropped), plus K6RO Elecraft parts.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629048",
+      "site": "eham",
+      "title": "Kenwood TM-D710GA VHF/UHF/APRS Radio",
+      "price": 749.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-05",
+      "condition_notes": "Seller: pristine, used as a backup; 2020 production. Box, manual, data cable, extension cable, mic, hanger, brackets, Nifty guide, power cable. $749 shipped CONUS.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629051",
+      "site": "eham",
+      "title": "Yaesu FTM-400DR with EXTRAS",
+      "price": 459.0,
+      "shipping": 20.0,
+      "found_at": "2026-10-05",
+      "condition_notes": "Seller: mint/immaculate with all original accessories, plus SCU-20 cable (unused), mag mount, Nagoya NL-770R antenna, Whistler WS-360 speaker, FVS-2 voice module. $459 + $20 shipping.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629053",
+      "site": "eham",
+      "title": "ICOM 910H",
+      "price": 595.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-05",
+      "condition_notes": "Sold AS-IS: LCD fades/dims significantly after warm-up (common Icom display issue); otherwise functions properly per seller. No UX-910 1.2 GHz module. Original box with inserts, printed manual, hand mic, DC cord. $595 shipped CONUS.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629060",
+      "site": "eham",
+      "title": "IC756 with Power Supply and Microham keyer",
+      "price": 450.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-05",
+      "condition_notes": "Lightly used IC-756 (not PRO) with power supply, SM-20 mic, HM-26 mic and microHAM MK-IC8 keyer; no manual or box. $450 including shipping, Venmo only.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629054",
+      "site": "eham",
+      "title": "Icom 745 Transceiver",
+      "price": 435.0,
+      "shipping": 49.5,
+      "found_at": "2026-10-05",
+      "condition_notes": "Seller: excellent, built-in power supply, clean and clear fluorescent display, no smoke. $435 + $49.50 shipping. Same seller listed an IC-745 at $425 + $37.50 in Aug 2024 (615877, not marked sold) - possibly the same unit.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629064",
+      "site": "eham",
+      "title": "Yaesu Ft-290 RII",
+      "price": 325.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-05",
+      "condition_notes": "FT-290R II, serial 61030912; looks good and works as it should. Includes FL-2025 linear amp (21 W out), MH-15C8 DTMF mic, original manual. $325 shipped.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629010",
+      "site": "eham",
+      "title": "ICOM IC-765 HF Transceiver,Excellent Condition",
+      "price": 1000.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-05",
+      "condition_notes": "Catch-up sweep. Seller: excellent, private collection. CR-282, Inrad roofing filter, UT-30, UT-36, all filters, ceramic trimmers mod, MARS; tuner works. Includes SP-20 speaker, dust cover, spare RL-13 relay, manuals, original boxes. $1000 or best offer; shipping (40 lb) at buyer's expense, amount not stated.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629004",
+      "site": "eham",
+      "title": "Elecraft KX2 package $1800",
+      "price": 1800.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-05",
+      "condition_notes": "Catch-up sweep. Price from ad title; body states no price or shipping. Complete KX2 station with built-in ATU, KXIO2, AX1 antenna, AXB1, extra KXBT2, ES60 case, KXACBL, KXBC2, KXUSB, Nifty manual, Pelican 1550 case. Used for IOTA/with SPE amp; condition not otherwise stated.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629015",
+      "site": "eham",
+      "title": "Ttwo Yaesu FT-8800Rs",
+      "price": 420.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-05",
+      "condition_notes": "Catch-up sweep. PAIR of FT-8800Rs for $420 total, shipped CONUS (USPS MO or check). Both good operating and cosmetic condition, solid displays, original boxes; ~7 years on the shelf; one manual, quick-setup card, spare mic cord, FT-Basic software + cable. One rubber pad missing.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629024",
+      "site": "eham",
+      "title": "Elecraft K3/100 TRANSCEIVER # 3501",
+      "price": 929.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-05",
+      "condition_notes": "Catch-up sweep. SN 3501, 100 W, 2.7 kHz SSB filter, TCXO, KIO3, K3S VFO band, gold front-panel pins, 'lots of mods', firmware 5.67, works as it should, good condition, power cord. $929 delivered. Dealer-volume seller K6RO.",
+      "seller_feedback": ""
+    }
+  ]
+}
