@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FTM-100D",
+  "slug": "yaesu-ftm-100d",
+  "searched_at": "2026-10-05T18:00:55-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search 'FTM-100D' with sold box returned 41 ads, almost all for the US-market FTM-100DR or FTM-100DR/DE (50 W). The trigger listing is a 20 W FTM-100D from Japan, which is a different variant, so FTM-100DR ads were not used. The three ads titled 'FTM-100D' were not usable: 628391 (KI7EMX, 2026-08-24, $200 shipped, SOLD) describes 50 W on both bands, so it is likely an FTM-100DR, not the 20 W model; 620685 (K0QG, 2025-05-12) is marked SOLD but shows no price; 588084 (KA4OTB, 2021-07-02, $325 + $25) is not marked SOLD. No exact-model comps found; zero comps, thin.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366713399956",
+    "site": "ebay",
+    "ask": 471.34,
+    "shipping": 85.0
+  },
+  "comps": []
+}
