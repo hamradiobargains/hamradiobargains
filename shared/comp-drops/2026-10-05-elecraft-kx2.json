@@ -1,0 +1,269 @@
+{
+  "model": "Elecraft KX2",
+  "slug": "elecraft-kx2",
+  "searched_at": "2026-10-05T06:03:28-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Catch-up sweep candidate (ad 629004). Ledger had Elecraft KX2 at count 1 (miss). eHam SOLD tag reflects the listed asking price when marked sold, not a verified transaction price; sold_date is the ad's post date. Search 'KX2' (sold box checked, 50 per page), first page of 5 read (back to 2021). Nearly every KX2 sells as a package: most comps have the KXAT2 ATU (option_installed) plus batteries, chargers, antennas, cases etc. (extras_included). Excluded: accessory-only ads (cases, knobs, SignaLink cables, AX1 antenna kit, books, HardRock-50), wanted ads, unrelated hits from seller callsign KX2V (amps, meters, Flex 6500), and 595742 (SOLD, no price). WA6MOW sold KX2s in 2023-03, 2023-07 and 2024-09 - not confirmed to be the same unit, not flagged. Trigger: $1800 package (price from title; ad body gives no price or shipping) with ATU, KXIO2, AX1/AXB1, extra battery, cases incl. Pelican 1550.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629004",
+    "site": "eham",
+    "ask": 1800.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1550,
+      "sold_date": "2025-12-15",
+      "condition": "Excellent, never used outdoors",
+      "url": "https://www.eham.net/classifieds/624243",
+      "notes": "$1550 shipped USA. Loaded: KXPD2, KXIO2, KXAT2, MH3, four telescoping antennas, 2 Li-ion packs, fitted case, manuals",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1200,
+      "sold_date": "2025-10-07",
+      "condition": "No issues, recently checked by Elecraft; no scratches",
+      "url": "https://www.eham.net/classifieds/623283",
+      "notes": "$1200 shipped CONUS. KXAT2, KXIO2, KXBT2/KXBC2, MH3, CS60 bag, SideKX cover, desk stand, key port, book",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1250,
+      "sold_date": "2025-09-25",
+      "condition": "Non-smoking home",
+      "url": "https://www.eham.net/classifieds/623073",
+      "notes": "$1250 shipped CONUS. Shack-in-a-box: AX1 + 17/20 m add-on, AXB1, KXAT2, KXIO2, KXBT2 + charger, MH3, ES60, book",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 2700,
+      "sold_date": "2025-05-05",
+      "condition": "Perfect condition (SK estate); many options still factory-sealed",
+      "url": "https://www.eham.net/classifieds/620532",
+      "notes": "$2700 plus shipping for KX2-F shack-in-a-box AND a KXPA100 100 W amp with ATU - not comparable to a KX2 alone",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1125,
+      "sold_date": "2024-09-18",
+      "condition": "Pristine, 12 W output; ATU working inconsistently",
+      "url": "https://www.eham.net/classifieds/616329",
+      "notes": "$1125 shipped. #2967",
+      "marketplace": "eHam",
+      "flags": [
+        "faulty",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1300,
+      "sold_date": "2024-07-18",
+      "condition": "Mint, about 3 hours use; opened for MARS frequencies via Elecraft firmware",
+      "url": "https://www.eham.net/classifieds/615012",
+      "notes": "$1300 shipped CONUS. Internal battery, charger, SideKX heat panel/cover, cases, mic",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1250,
+      "sold_date": "2024-04-06",
+      "condition": "Like new",
+      "url": "https://www.eham.net/classifieds/612690",
+      "notes": "$1250 shipped. ATU, clock, new key, dummy-load kit, new hand mic, internal battery, case",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 925,
+      "sold_date": "2024-01-23",
+      "condition": "Mint, used portable fewer than a dozen times; factory assembled",
+      "url": "https://www.eham.net/classifieds/610897",
+      "notes": "$925 shipped lower 48. KXAT2-F, KXBT2, KXBC2, MH3, CS60 bag",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1750,
+      "sold_date": "2024-01-07",
+      "condition": "About 2 years old, everything works; original box and manual",
+      "url": "https://www.eham.net/classifieds/610566",
+      "notes": "$1750 for everything: ATU, MH3, AX1 + 40 m extension, charger, KXPD2, Digirig Mobile with cables",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1275,
+      "sold_date": "2023-07-16",
+      "condition": "Mint, all like new",
+      "url": "https://www.eham.net/classifieds/607104",
+      "notes": "$1275 shipped. ATU, battery, charger, mic, AX1, AXB1, AXT1, Nifty stand, case",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1150,
+      "sold_date": "2023-07-15",
+      "condition": "Excellent, seldom used",
+      "url": "https://www.eham.net/classifieds/607089",
+      "notes": "$1150 shipped and insured CONUS. Internal ATU, both Elecraft keys, charger, cables, stand, case. Same ad posted twice (607088)",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1150,
+      "sold_date": "2023-07-15",
+      "condition": "Excellent, seldom used",
+      "url": "https://www.eham.net/classifieds/607088",
+      "notes": "Duplicate posting of 607089",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1200,
+      "sold_date": "2023-05-04",
+      "condition": "Excellent, 2+ years light use",
+      "url": "https://www.eham.net/classifieds/605303",
+      "notes": "$1200 total: $1000 for KX2 shack-in-a-box bundle plus $200 for aftermarket keyer, digital cable kit, wire antenna, case",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1200,
+      "sold_date": "2023-03-09",
+      "condition": "Excellent, well cared for; upgraded side panels (OEM included)",
+      "url": "https://www.eham.net/classifieds/603849",
+      "notes": "$1200 shipped CONUS. KXAT2, two KXBT2, Bioenno battery, cases, heatsink, Digirig, OEM box",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1100,
+      "sold_date": "2023-03-06",
+      "condition": "Excellent; KX side covers, bottom protector, CNC knobs",
+      "url": "https://www.eham.net/classifieds/603767",
+      "notes": "$1100 shipped. Internal ATU, internal battery, charger, mic",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1000,
+      "sold_date": "2023-02-16",
+      "condition": "Like new",
+      "url": "https://www.eham.net/classifieds/603302",
+      "notes": "$1000 shipped US. KXAT2, KXBT2, KXBC2, MH3, ES60, cables",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1195,
+      "sold_date": "2022-07-30",
+      "condition": "Repaired by Elecraft and tested to spec in 2020; little use since",
+      "url": "https://www.eham.net/classifieds/598107",
+      "notes": "$1195 shipped. MH3, KXAT2, KXIO2, KXBT2/KXBC2, SideKX panels, PAE heat sink",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1225,
+      "sold_date": "2022-04-06",
+      "condition": "Like new, 2019 purchase; original box",
+      "url": "https://www.eham.net/classifieds/595300",
+      "notes": "$1225 plus shipping. ATU, IO module, AX1 + bipod + 40 m coil, battery/charger, paddle, KX side panels",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1500,
+      "sold_date": "2022-04-02",
+      "condition": "Very little used (~10 hours)",
+      "url": "https://www.eham.net/classifieds/595177",
+      "notes": "$1500 shipped lower 48. Autotuner, charger/battery, AX1, cables, case, book",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1100,
+      "sold_date": "2021-09-28",
+      "condition": "Excellent, factory assembled",
+      "url": "https://www.eham.net/classifieds/590509",
+      "notes": "$1100 plus shipping, package only: KXPD3, MH3, KXAT2, KXIO2, KXBT2, KXBC2, Powerwerx 30 A supply",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1000,
+      "sold_date": "2021-07-24",
+      "condition": "Excellent; side bars, cover",
+      "url": "https://www.eham.net/classifieds/588727",
+      "notes": "$1000 shipped US/Canada. Internal ATU, two internal batteries, charger, USB cable",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    }
+  ]
+}
