@@ -1164,6 +1164,18 @@
   "compHigh": 219.99
  },
  {
+  "date": "2026-09-19",
+  "item": "Kenwood TS-2000X HF/VHF/UHF Transceiver",
+  "link": "https://www.facebook.com/marketplace/item/2231617870740163/",
+  "price": 950.0,
+  "extraCost": 11.0,
+  "median": 1459.65,
+  "compCount": 8,
+  "compLow": 708.69,
+  "compHigh": 1580.0,
+  "pctBelow": 0.3416
+ },
+ {
   "date": "2026-09-20",
   "item": "DVMEGA Cast",
   "link": "https://www.eham.net/classifieds/628759",
@@ -1198,18 +1210,6 @@
   "compCount": 4,
   "compLow": 175.0,
   "compHigh": 375.0
- },
- {
-  "date": "2026-09-20",
-  "item": "Kenwood TS-930SAT HF Transceiver",
-  "link": "https://swap.qth.com/view_ad.php?counter=1779957",
-  "price": 500.0,
-  "extraCost": 0.0,
-  "pctBelow": 0.2857,
-  "median": 699.99,
-  "compCount": 1,
-  "compLow": 699.99,
-  "compHigh": 699.99
  },
  {
   "date": "2026-09-21",
