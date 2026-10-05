@@ -1,0 +1,330 @@
+{
+  "model": "Icom IC-765",
+  "slug": "icom-ic-765",
+  "searched_at": "2026-10-05T06:02:28-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Catch-up sweep candidate (ad 629010). eHam SOLD tag reflects the listed asking price when marked sold, not a verified transaction price; sold_date is the ad's post date. Search '765' (sold box checked, 50 per page), first page of 10 read (back to 2012). Excluded: IC-765 ads not marked sold (576603 $675, 568948, 562436 $300 radio-only, 559345 $750 shipped), parts/part-out/cover/PA-assembly ads, wanted/trade ads, the mislabeled 'IC-765PRO III' ad 457817 (an IC-756PRO III), and unrelated hits (Dukane mic, Tenma PS, Nifty manual). Seller KD0YX sold IC-765s in 2023 (603673) and 2025 (622106) - descriptions differ, not flagged. Trigger is heavily optioned (CR-282, Inrad roofing filter, all filters, UT-30, UT-36, ceramic trimmers, MARS) and includes an SP-20 speaker.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629010",
+    "site": "eham",
+    "ask": 1000.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 375,
+      "sold_date": "2025-08-01",
+      "condition": "Fully functional; good to very good cosmetics, a few scratches and rub marks",
+      "url": "https://www.eham.net/classifieds/622106",
+      "notes": "$375 pickup Denver or plus actual shipping; OEM AC cord",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 495,
+      "sold_date": "2023-03-03",
+      "condition": "Working as it should; very good to excellent cosmetics, a few light scratches",
+      "url": "https://www.eham.net/classifieds/603673",
+      "notes": "$495 cash and carry (W. SD) or plus actual UPS shipping; copy of manual, heavy AC cord",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 495,
+      "sold_date": "2022-06-20",
+      "condition": "Fully operational on external supply; internal power supply inoperative (top cover must be off)",
+      "url": "https://www.eham.net/classifieds/597131",
+      "notes": "$495 plus shipping for the package: Icom PS-15 supply, SP-23 speaker, hand mic, manual, parts to repair internal PS",
+      "marketplace": "eHam",
+      "flags": [
+        "faulty",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 550,
+      "sold_date": "2021-09-20",
+      "condition": "Nice, clean; 100 W all bands; no microphone; operating and service manuals",
+      "url": "https://www.eham.net/classifieds/590243",
+      "notes": "$550 plus shipping (about $100). 500 Hz CW filter installed",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 575,
+      "sold_date": "2020-05-25",
+      "condition": "Not described",
+      "url": "https://www.eham.net/classifieds/577575",
+      "notes": "$575; ad body contains only the title and price",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 325,
+      "sold_date": "2019-06-19",
+      "condition": "Sold as-is, used very little in recent years; no original box",
+      "url": "https://www.eham.net/classifieds/563984",
+      "notes": "$325 negotiable plus shipping. 250/500 CW filters; PBT, AGC and sidetone mods. Same seller (N3RA) and likely same unit as 537515",
+      "marketplace": "eHam",
+      "flags": [
+        "as_is",
+        "modified",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 475,
+      "sold_date": "2018-03-26",
+      "condition": "Lightly used, appears in good condition; new top cover included",
+      "url": "https://www.eham.net/classifieds/537515",
+      "notes": "$475 negotiable plus shipping. 250/500 CW filters; AGC, PBT, PIN diode mods. Likely same unit as 563984",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 625,
+      "sold_date": "2019-05-09",
+      "condition": "Very good appearance and operation except antenna tuner hunts; sold as-is",
+      "url": "https://www.eham.net/classifieds/454719",
+      "notes": "$625 plus shipping. UT-36, FL-30, FL-96, FL-32A, FL-52A; ceramic trimmers",
+      "marketplace": "eHam",
+      "flags": [
+        "faulty",
+        "as_is",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 500,
+      "sold_date": "2019-03-30",
+      "condition": "Very nice, 100% operational; ding on top of case; HM-36 like new, original box; as-is, no returns",
+      "url": "https://www.eham.net/classifieds/559679",
+      "notes": "$500 for the IC-765 (SP-20 offered separately at $150); prefer local pickup. All filters except AM",
+      "marketplace": "eHam",
+      "flags": [
+        "as_is",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 400,
+      "sold_date": "2019-03-09",
+      "condition": "Pristine; worked fine when retired two years ago (video test); sold as-is",
+      "url": "https://www.eham.net/classifieds/558549",
+      "notes": "$400 firm plus $150 shipping. Every option except voice synth; includes Heil ICM mic and CT-17 level converter",
+      "marketplace": "eHam",
+      "flags": [
+        "as_is",
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 400,
+      "sold_date": "2018-11-11",
+      "condition": "Works as it should, light scuffs, clean face; 12 VDC radio",
+      "url": "https://www.eham.net/classifieds/553373",
+      "notes": "$400 shipped ($325 pickup San Antonio). FL-96, FL-52A, FL-30, FL-32A installed",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 275,
+      "sold_date": "2018-10-30",
+      "condition": "Needs new finals; AC supply converted to 13.8 V; sold as-is",
+      "url": "https://www.eham.net/classifieds/552885",
+      "notes": "$275 plus shipping",
+      "marketplace": "eHam",
+      "flags": [
+        "non_working",
+        "as_is",
+        "modified"
+      ]
+    },
+    {
+      "price": 550,
+      "sold_date": "2018-04-16",
+      "condition": "Performs flawlessly, 8/10 appearance; trimmer caps replaced and professional alignment",
+      "url": "https://www.eham.net/classifieds/535945",
+      "notes": "$550 OBO plus shipping. 500 Hz CW filter",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 500,
+      "sold_date": "2018-03-15",
+      "condition": "Very clean, a couple of light scuffs; operator and service manuals; no mic",
+      "url": "https://www.eham.net/classifieds/540168",
+      "notes": "$500 plus shipping. Optional TCXO and super-narrow CW filter",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 650,
+      "sold_date": "2016-08-06",
+      "condition": "Very good physical condition, works properly; original boxes",
+      "url": "https://www.eham.net/classifieds/503202",
+      "notes": "$650 plus shipping. PLL mod; extended transmit",
+      "marketplace": "eHam",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 475,
+      "sold_date": "2016-04-22",
+      "condition": "Antenna tuner intermittent (fails on 160/15 m or entirely at times); original box",
+      "url": "https://www.eham.net/classifieds/495976",
+      "notes": "$475. CR-282, 500 Hz CW filter, trimmer caps replaced, MARS mod",
+      "marketplace": "eHam",
+      "flags": [
+        "faulty",
+        "modified",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 850,
+      "sold_date": "2014-06-24",
+      "condition": "9+ condition; original box, manual, receipt, service manual",
+      "url": "https://www.eham.net/classifieds/441324",
+      "notes": "$850, prefer no shipping. Includes Icom SM-8 microphone",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1000,
+      "sold_date": "2014-05-21",
+      "condition": "Works as new; caps and batteries replaced; manual, HM-36, no box",
+      "url": "https://www.eham.net/classifieds/438593",
+      "notes": "$1000 OBO plus shipping. All filters, new CR-282",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 745,
+      "sold_date": "2014-02-22",
+      "condition": "Very good, stock, no modifications; original box; new HM-36",
+      "url": "https://www.eham.net/classifieds/430823",
+      "notes": "$745 plus shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 1000,
+      "sold_date": "2013-06-11",
+      "condition": "Very clean, good working order",
+      "url": "https://www.eham.net/classifieds/408736",
+      "notes": "$1000 plus shipping. Includes SP-20, SM-20; CR-282 and FL-53A installed",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 750,
+      "sold_date": "2013-05-14",
+      "condition": "9/10 cosmetics, no known faults",
+      "url": "https://www.eham.net/classifieds/407627",
+      "notes": "$750 plus shipping. PBT, AGC and MOSFET mods; ceramic trimmers; full filters and Inrad roofing filter",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 750,
+      "sold_date": "2013-02-12",
+      "condition": "Excellent, 100% working, no mods; small scratches on trim ring",
+      "url": "https://www.eham.net/classifieds/396682",
+      "notes": "$750; HM-36 included. One 500 Hz CW filter",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1275,
+      "sold_date": "2012-08-11",
+      "condition": "Mint, low hours, original owner; documented N1EQ tune-up",
+      "url": "https://www.eham.net/classifieds/382781",
+      "notes": "$1275 plus shipping including SP-20. Ceramic trimmers, PBT mod, CR-282, Inrad roofing filter, FL-80/FL-44A/FL-53A",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 750,
+      "sold_date": "2012-07-29",
+      "condition": "Works great on receive, full power into dummy load; a few marks",
+      "url": "https://www.eham.net/classifieds/380098",
+      "notes": "$750 shipped. PBT mod, LED meter lamp, MARS mod, FL-44. Same unit (HIFIMAN, SN 2xxx) as 375614 and 374616",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 675,
+      "sold_date": "2012-06-18",
+      "condition": "Full power most bands; case and bezel have a few marks",
+      "url": "https://www.eham.net/classifieds/375614",
+      "notes": "$675 shipped. Same unit as 380098",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 750,
+      "sold_date": "2012-05-05",
+      "condition": "Full power most bands; case and bezel have a few marks; as-is",
+      "url": "https://www.eham.net/classifieds/374616",
+      "notes": "$750 shipped. Same unit as 380098",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 750,
+      "sold_date": "2012-05-09",
+      "condition": "Nice, no issues, works great",
+      "url": "https://www.eham.net/classifieds/370335",
+      "notes": "$750 plus UPS shipping. PBT mod, 500 Hz CW filter, HM-36",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "option_installed"
+      ]
+    }
+  ]
+}
