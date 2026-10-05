@@ -1,0 +1,414 @@
+{
+  "model": "Yaesu FT-991A",
+  "slug": "yaesu-ft-991a",
+  "searched_at": "2026-10-05T15:01:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Searched 'FT-991A' (not FT-991). Results page 1 of 3 reviewed; unsold ads, trade-only (597603) and no-price (593316) ads excluded. sold_date is the ad date shown on eHam (date posted/last modified) for an ad marked SOLD; prices are the seller's asking price at time marked sold, not a verified transaction price.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781427",
+    "site": "qth",
+    "ask": 925.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 989.0,
+      "sold_date": "2026-09-22",
+      "condition": "Excellent, works as it should, tested full power out",
+      "url": "https://www.eham.net/classifieds/628793",
+      "notes": "$989 shipped CONUS. Includes HF/VHF-UHF diplexer. Seller K1FIE also sold an FT-991A in ad 627375 (June 2026); accessories differ, not confirmed same unit.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2026-08-05",
+      "condition": "Great shape; factory box without inserts; no manual",
+      "url": "https://www.eham.net/classifieds/628080",
+      "notes": "$900 shipped CONUS. MARS mod.",
+      "marketplace": "eHam",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 979.0,
+      "sold_date": "2026-06-20",
+      "condition": "Lightly used, excellent, tested full function and power",
+      "url": "https://www.eham.net/classifieds/627375",
+      "notes": "$979 plus shipping. Title marked SOLD.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 1050.0,
+      "sold_date": "2026-05-14",
+      "condition": "New in box (bought 2023, stored)",
+      "url": "https://www.eham.net/classifieds/626672",
+      "notes": "$1050 shipped.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 925.0,
+      "sold_date": "2026-02-23",
+      "condition": "Very nice, all functions work, never mobile",
+      "url": "https://www.eham.net/classifieds/625243",
+      "notes": "$925 shipped CONUS. Includes data cable.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2025-11-08",
+      "condition": "Beautiful condition, operates as it should",
+      "url": "https://www.eham.net/classifieds/623761",
+      "notes": "Asking $950; seller notes UPS shipping est. at least $50 (unclear if included). Custom rig cover included.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 895.0,
+      "sold_date": "2025-09-20",
+      "condition": "Pristine",
+      "url": "https://www.eham.net/classifieds/622977",
+      "notes": "$895 plus $32 shipping. MARS mod.",
+      "marketplace": "eHam",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2025-08-10",
+      "condition": "Used; sound card/USB port went bad (bypassed with Digirig)",
+      "url": "https://www.eham.net/classifieds/622255",
+      "notes": "$800 OBO, seller handles shipping. Includes LDG YT-1200 tuner, Digirig, Powerwerx speaker, data cable.",
+      "marketplace": "eHam",
+      "flags": [
+        "faulty",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2025-08-08",
+      "condition": "Super clean, no issues, working as intended",
+      "url": "https://www.eham.net/classifieds/622234",
+      "notes": "$950 shipped CONUS.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2025-07-23",
+      "condition": "Practically new, superb shape, plastic on display",
+      "url": "https://www.eham.net/classifieds/621902",
+      "notes": "$950 shipped.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 975.0,
+      "sold_date": "2025-05-02",
+      "condition": "Plugged in to test only; under warranty",
+      "url": "https://www.eham.net/classifieds/620472",
+      "notes": "Asking $975; ship anywhere USA or pickup (shipping terms not stated).",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 875.0,
+      "sold_date": "2025-04-09",
+      "condition": "Bought new ~3 months earlier, beautiful shape",
+      "url": "https://www.eham.net/classifieds/620060",
+      "notes": "$875 plus shipping.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2025-04-03",
+      "condition": "Normal wear, everything works; sold as-is",
+      "url": "https://www.eham.net/classifieds/619919",
+      "notes": "$950 shipped. MARS mod done at HRO.",
+      "marketplace": "eHam",
+      "flags": [
+        "as_is",
+        "modified"
+      ]
+    },
+    {
+      "price": 645.0,
+      "sold_date": "2025-02-02",
+      "condition": "Four years old, everything works as far as seller knows",
+      "url": "https://www.eham.net/classifieds/618816",
+      "notes": "$645 including shipping.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 895.0,
+      "sold_date": "2024-12-21",
+      "condition": "Excellent, fully functional, ~1.5 years old",
+      "url": "https://www.eham.net/classifieds/618150",
+      "notes": "$895 with free shipping lower 48.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2024-12-17",
+      "condition": "Lightly used, works perfectly",
+      "url": "https://www.eham.net/classifieds/618076",
+      "notes": "$1000, buyer pays shipping.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 920.0,
+      "sold_date": "2024-11-22",
+      "condition": "Just like new",
+      "url": "https://www.eham.net/classifieds/617567",
+      "notes": "$920 plus $37 shipping.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2024-08-27",
+      "condition": "Very little use; sold as-is, everything in working order",
+      "url": "https://www.eham.net/classifieds/615869",
+      "notes": "$900 OBO plus shipping. Includes dust cover, RT Systems software and cable, Heil adapter; power cord has Powerpoles.",
+      "marketplace": "eHam",
+      "flags": [
+        "as_is",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 825.0,
+      "sold_date": "2024-07-28",
+      "condition": "Clean, estate sale, checked on all bands",
+      "url": "https://www.eham.net/classifieds/615185",
+      "notes": "$825 plus $50 shipping.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2024-06-10",
+      "condition": "Like new, very low hours",
+      "url": "https://www.eham.net/classifieds/614150",
+      "notes": "$850 plus $50 shipping (+$20 west of Mississippi).",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2024-04-02",
+      "condition": "Great condition, works as it should; standard as-is disclaimer",
+      "url": "https://www.eham.net/classifieds/612594",
+      "notes": "$900 plus shipping.",
+      "marketplace": "eHam",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2024-01-17",
+      "condition": "Very clean, lightly used; no original box",
+      "url": "https://www.eham.net/classifieds/610765",
+      "notes": "$950 shipped CONUS. Body text says 'FT-991' once but title and listing are FT-991A.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2023-12-18",
+      "condition": "Not stated beyond working package",
+      "url": "https://www.eham.net/classifieds/610138",
+      "notes": "$900 plus shipping. Includes SP-10 speaker and dust cover.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 980.0,
+      "sold_date": "2023-12-16",
+      "condition": "Mint, used 5 days, warranty",
+      "url": "https://www.eham.net/classifieds/610091",
+      "notes": "$980 shipped. Includes RT Systems software.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2023-11-16",
+      "condition": "Purchased new Oct 2023, unused",
+      "url": "https://www.eham.net/classifieds/609450",
+      "notes": "$1000, ships CONUS. Includes invoice for warranty.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2023-11-12",
+      "condition": "Pristine, <10 hours",
+      "url": "https://www.eham.net/classifieds/609379",
+      "notes": "$1000 shipped UPS CONUS.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 975.0,
+      "sold_date": "2023-09-26",
+      "condition": "Brand new condition, very low hours",
+      "url": "https://www.eham.net/classifieds/608438",
+      "notes": "$975 plus $50 shipping.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 925.0,
+      "sold_date": "2023-09-07",
+      "condition": "Clean shape",
+      "url": "https://www.eham.net/classifieds/608090",
+      "notes": "$925 shipped free.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 985.0,
+      "sold_date": "2023-05-18",
+      "condition": "9/10, works 100%",
+      "url": "https://www.eham.net/classifieds/605737",
+      "notes": "$985 shipped lower 48 ($950 local).",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 1050.0,
+      "sold_date": "2023-04-18",
+      "condition": "Like new, 10/10",
+      "url": "https://www.eham.net/classifieds/604828",
+      "notes": "$1050, shipping split. Includes SP-10 speaker (speaker modded with large magnet).",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1150.0,
+      "sold_date": "2023-01-03",
+      "condition": "Pristine",
+      "url": "https://www.eham.net/classifieds/602331",
+      "notes": "$1150 shipped. Includes SP-10 speaker and dust cover.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 980.0,
+      "sold_date": "2022-11-29",
+      "condition": "Excellent, 9/10, never mobile",
+      "url": "https://www.eham.net/classifieds/601479",
+      "notes": "$980 shipped incl. PayPal fee.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2022-11-11",
+      "condition": "As new in box",
+      "url": "https://www.eham.net/classifieds/601016",
+      "notes": "$1100 shipped east of Mississippi (+$50 west).",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 985.0,
+      "sold_date": "2022-10-21",
+      "condition": "Very nice, hardly used",
+      "url": "https://www.eham.net/classifieds/600450",
+      "notes": "$985 shipped and insured.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 825.0,
+      "sold_date": "2022-10-11",
+      "condition": "Mint, late manufacture",
+      "url": "https://www.eham.net/classifieds/600171",
+      "notes": "$825 plus shipping.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2022-09-27",
+      "condition": "1.5 years old; no original box",
+      "url": "https://www.eham.net/classifieds/599818",
+      "notes": "$1100 shipped. Includes Novexcomm rackmount with speaker, switching power supply, RT Systems software.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2022-08-28",
+      "condition": "Works great, excellent",
+      "url": "https://www.eham.net/classifieds/598959",
+      "notes": "$950 plus $50 shipping/insurance.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 975.0,
+      "sold_date": "2022-07-26",
+      "condition": "Brand new condition, very low hours",
+      "url": "https://www.eham.net/classifieds/597998",
+      "notes": "$975 plus $50 shipping.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2022-03-16",
+      "condition": "Like brand new",
+      "url": "https://www.eham.net/classifieds/594724",
+      "notes": "Reduced from $950 to $900 plus shipping. Includes Nifty manual and Escort side panels with handle.",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2022-03-16",
+      "condition": "Excellent, used 2 months",
+      "url": "https://www.eham.net/classifieds/594720",
+      "notes": "$950 plus shipping and insurance.",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 975.0,
+      "sold_date": "2022-03-15",
+      "condition": "As new",
+      "url": "https://www.eham.net/classifieds/594687",
+      "notes": "$975 shipped.",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
