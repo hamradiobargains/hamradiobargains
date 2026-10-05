@@ -1,0 +1,265 @@
+{
+  "model": "Yaesu FT-8800R",
+  "slug": "yaesu-ft-8800r",
+  "searched_at": "2026-10-05T06:04:31-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Catch-up sweep candidate (ad 629015). The trigger is a PAIR of FT-8800Rs for $420 total (shipped CONUS) with programming kit - compare per unit with care. eHam SOLD tag reflects the listed asking price when marked sold, not a verified transaction price; sold_date is the ad's post date. Search 'FT-8800' (sold box checked, 50 per page), first page of 4 read (back to 2011). Strict identity: only ads whose title or body says FT-8800R kept; ads that say only 'FT-8800' excluded (627587 $235 MARS 2026-07, 616378 $225 2024-09, 615649 $200+ship 2024-08, 604451 $275 MARS 2023-04, 570691 $175 2019, 567007 $320 2019, 548058 $275 2018, 529703 $220 2018, 528548 $250 2017, 510148 and 509903 $200 2016, 479783 $250 2015, 471818 $300 each 2015, 474203 $200 2015, 376884 $300 2015, 425672 $300 2014, 379894 $285 2012, 440529 no price). Also excluded: 463034 (2015-03-27, two FT-8800Rs + software + two YSK-8900 kits for $600 total - a bundle), 358824 (SOLD, no price), software/cable-only ad 530636 and wanted ads.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629015",
+    "site": "eham",
+    "ask": 420.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 375,
+      "sold_date": "2026-08-26",
+      "condition": "Orange display LEDs swapped for white (orange ones included); used for ISS work; factory box",
+      "url": "https://www.eham.net/classifieds/628416",
+      "notes": "$375; shipping not stated. Includes protector rail, car cable, bracket, original mic, Powerpole",
+      "marketplace": "eHam",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 325,
+      "sold_date": "2026-01-11",
+      "condition": "Shack only, never mobile; original box, MH-48, manual",
+      "url": "https://www.eham.net/classifieds/624647",
+      "notes": "$325 shipped USA. Includes never-used YSK-8900 separation kit and programming cable",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 335,
+      "sold_date": "2025-11-17",
+      "condition": "Just tested, works as it should",
+      "url": "https://www.eham.net/classifieds/623892",
+      "notes": "$335 shipped. Includes MH-48, bracket, manual, fused cord, YSK-8900 separation kit",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 325,
+      "sold_date": "2025-08-23",
+      "condition": "Very clean, excellent; all functions work; original box",
+      "url": "https://www.eham.net/classifieds/622507",
+      "notes": "$325 shipped CONUS. Includes YSK-8900, MMB-60 quick-release bracket, RT Systems file and data cable",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 265,
+      "sold_date": "2023-02-25",
+      "condition": "Base station use only; original manual and box; new MH-48 mic and power cable",
+      "url": "https://www.eham.net/classifieds/603541",
+      "notes": "$265 shipped lower 48",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 330,
+      "sold_date": "2021-04-10",
+      "condition": "Works great; bracket, MH-48, DC cable",
+      "url": "https://www.eham.net/classifieds/585890",
+      "notes": "$330 shipped and insured lower 48 (title says FT-8800, body says FT-8800R)",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 325,
+      "sold_date": "2020-11-26",
+      "condition": "Never used (hooked up once)",
+      "url": "https://www.eham.net/classifieds/582373",
+      "notes": "$325 shipped. Includes unused YSK-8900 kit",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 180,
+      "sold_date": "2019-09-10",
+      "condition": "Nice, working; mic, power cord, manual",
+      "url": "https://www.eham.net/classifieds/569574",
+      "notes": "$180 plus shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 245,
+      "sold_date": "2019-08-22",
+      "condition": "Excellent, used indoors until recently; original box, manual, mic, bracket",
+      "url": "https://www.eham.net/classifieds/568395",
+      "notes": "$245 shipped. Includes separation kit",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 300,
+      "sold_date": "2018-10-29",
+      "condition": "Hardly used; factory box",
+      "url": "https://www.eham.net/classifieds/520477",
+      "notes": "$300 shipped. Includes separation kit",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 200,
+      "sold_date": "2017-07-12",
+      "condition": "Very good operating and cosmetic condition; no mods; never mobile; original box",
+      "url": "https://www.eham.net/classifieds/526066",
+      "notes": "$200 shipped. Marked 'sold pending funds'; same seller (K3MEJ) listed an FT-8800R again in 2017-09 (530071)",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 200,
+      "sold_date": "2017-09-23",
+      "condition": "Excellent operating and cosmetic condition; original box and accessories",
+      "url": "https://www.eham.net/classifieds/530071",
+      "notes": "$200 shipped. Possibly the same unit as K3MEJ's 526066",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 225,
+      "sold_date": "2017-06-08",
+      "condition": "Like new in original box with everything",
+      "url": "https://www.eham.net/classifieds/524176",
+      "notes": "$225 plus shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 225,
+      "sold_date": "2016-12-15",
+      "condition": "Excellent; box, manual, bracket, mic",
+      "url": "https://www.eham.net/classifieds/510200",
+      "notes": "$225 shipped. Includes separation cable and mount",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 235,
+      "sold_date": "2016-06-10",
+      "condition": "Mint, very low hours; mic, bracket, cable, manual",
+      "url": "https://www.eham.net/classifieds/499379",
+      "notes": "$235 shipped USPS Priority CONUS",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 278,
+      "sold_date": "2015-12-28",
+      "condition": "Very nice; all original items",
+      "url": "https://www.eham.net/classifieds/486462",
+      "notes": "$278. Includes separation kit (title says FT-8800, body FT-8800R)",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 325,
+      "sold_date": "2014-05-04",
+      "condition": "Mint, 6 months old; original boxes and invoice; MARS/CAP mod done",
+      "url": "https://www.eham.net/classifieds/437315",
+      "notes": "$325 USD shipped (US/Canada). Includes YSK-8900. Same unit as 436753",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 335,
+      "sold_date": "2014-05-04",
+      "condition": "Mint, 6 months old; MARS/CAP mod done",
+      "url": "https://www.eham.net/classifieds/436753",
+      "notes": "$335 USD shipped. Same unit as 437315",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 325,
+      "sold_date": "2014-01-25",
+      "condition": "New in box / like new",
+      "url": "https://www.eham.net/classifieds/426204",
+      "notes": "$325",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 395,
+      "sold_date": "2013-12-14",
+      "condition": "New, boxes never opened (made Aug 2013)",
+      "url": "https://www.eham.net/classifieds/422097",
+      "notes": "$395 plus insured shipping. Includes ADMS USB programming cable/software, Nifty guide, YSK-8900R",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 345,
+      "sold_date": "2012-10-20",
+      "condition": "Lightly used as base monitor; box, manual, mic, unused bracket",
+      "url": "https://www.eham.net/classifieds/388927",
+      "notes": "$345 shipped CONUS. Includes USB data cable and software",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 325,
+      "sold_date": "2012-07-15",
+      "condition": "New in factory box, never opened",
+      "url": "https://www.eham.net/classifieds/379975",
+      "notes": "$325 shipped",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 250,
+      "sold_date": "2012-01-27",
+      "condition": "Excellent, very clean, never mobile; all original accessories and box",
+      "url": "https://www.eham.net/classifieds/366045",
+      "notes": "$250 plus actual shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 350,
+      "sold_date": "2011-11-22",
+      "condition": "Great condition, lightly used",
+      "url": "https://www.eham.net/classifieds/359158",
+      "notes": "$350 shipped CONUS. Includes separation kit and programming CD",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
