@@ -1,0 +1,46 @@
+{
+  "model": "Icom IC-756",
+  "slug": "icom-ic-756",
+  "searched_at": "2026-10-05T05:59:40-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Thin: 3 sold comps, all 2018-2021. eHam SOLD tag reflects the listed asking price when marked sold, not a verified transaction price; sold_date is the ad's post date. Search 'IC-756' (sold box checked, 50 per page), single page read; ads titled 'IC756' without a hyphen (like the trigger) may not have matched. Strict identity: original IC-756 only - every IC-756PRO / PRO II / PRO III ad excluded, plus manuals, boxes, filters and wanted ads. Excluded 591326 (IC-756 non-pro, replaced screen, $500, 2021-10-30) because it is not marked sold. Trigger listing price includes a power supply, SM-20 and HM-26 mics and a microHAM MK-IC8 keyer.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629060",
+    "site": "eham",
+    "ask": 450.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 380,
+      "sold_date": "2021-01-31",
+      "condition": "Working condition; aftermarket LCD; power cord, mic, service manual; sold as-is, no returns",
+      "url": "https://www.eham.net/classifieds/584157",
+      "notes": "$380, prefer local pickup or split actual shipping. Title says PENDING, body marked SOLD",
+      "marketplace": "eHam",
+      "flags": [
+        "as_is",
+        "modified"
+      ]
+    },
+    {
+      "price": 450,
+      "sold_date": "2020-06-07",
+      "condition": "Like new with new screen installed by Icom; original box, power cord, mic",
+      "url": "https://www.eham.net/classifieds/577908",
+      "notes": "$450 plus shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 600,
+      "sold_date": "2018-11-26",
+      "condition": "Pristine; seller notes it is not the Pro",
+      "url": "https://www.eham.net/classifieds/554121",
+      "notes": "$600 plus $40 shipping lower 48",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
