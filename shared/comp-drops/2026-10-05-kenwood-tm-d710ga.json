@@ -1,0 +1,197 @@
+{
+  "model": "Kenwood TM-D710GA",
+  "slug": "kenwood-tm-d710ga",
+  "searched_at": "2026-10-05T05:56:50-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam SOLD tag reflects the listed asking price when marked sold, not a verified transaction price; sold_date is the ad's post date. Search 'TM-D710GA' (sold box checked, 50 per page), single results page (22 ads) read. Excluded: 559150 (2019-03-08, control head only with mic/cable, not a full radio), wanted ads 611326 and 598403, and the trigger listing itself. Ledger had TM-D710GA at count 1 (miss). K3MEJ listed what reads as the same unit three times in March 2019 (559020 $450, 559083 $400, 559524 $450) - the two earlier ads are flagged possible_duplicate. 3+ comps in the last 12 months. searched_at is approximate (within about a minute).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629048",
+    "site": "eham",
+    "ask": 749.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 725,
+      "sold_date": "2026-08-07",
+      "condition": "Good cosmetic and working condition; original manual and box; aftermarket coiled head cable instead of Kenwood cable",
+      "url": "https://www.eham.net/classifieds/628101",
+      "notes": "Title marked (SOLD). Seller had asked $835 the month before, then $725 'motivated to sell'; shipping not stated. Includes RT Systems programming software/cable package",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 750,
+      "sold_date": "2026-05-19",
+      "condition": "Great condition, minimal use, everything works; power cable, mic, separation cable, brackets",
+      "url": "https://www.eham.net/classifieds/626758",
+      "notes": "$1,000 CAD / $750 USD plus shipping; seller in Vancouver BC",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 700,
+      "sold_date": "2026-03-27",
+      "condition": "Works as it should, never mobile; factory box, manual, mic, all accessories",
+      "url": "https://www.eham.net/classifieds/625792",
+      "notes": "$700 plus shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 750,
+      "sold_date": "2026-01-21",
+      "condition": "Very nice condition, very little use; power cable, mic, separation cable, bracket, manual, box",
+      "url": "https://www.eham.net/classifieds/624769",
+      "notes": "$750 shipped. Includes RT Systems USB programming cable and software",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 550,
+      "sold_date": "2025-02-22",
+      "condition": "Very nice, gently used, not original owner; everything original except no manual; power cable a little short (fused)",
+      "url": "https://www.eham.net/classifieds/619210",
+      "notes": "$550 shipped. Includes programming cable",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 635,
+      "sold_date": "2024-12-25",
+      "condition": "Great condition, 2nd owner, never mobile; original fan replaced with a quieter one (original kept)",
+      "url": "https://www.eham.net/classifieds/618194",
+      "notes": "$635 cash and carry (local pickup, DC). Includes RT Systems cable, keypad mic, box, manual, all accessories",
+      "marketplace": "eHam",
+      "flags": [
+        "modified",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 450,
+      "sold_date": "2024-03-06",
+      "condition": "Nearly new; mic, separation cable, manual, bracket, warranty card",
+      "url": "https://www.eham.net/classifieds/611994",
+      "notes": "$450 plus shipping; SK estate sale. Includes Nifty manual and NMO magnetic mount",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 622,
+      "sold_date": "2024-02-20",
+      "condition": "Barely used (ARES group, mainly testing)",
+      "url": "https://www.eham.net/classifieds/611528",
+      "notes": "$622 each ($600 cash/MO) plus shipping; two units, both marked SOLD",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 600,
+      "sold_date": "2022-12-07",
+      "condition": "No box; items as pictured",
+      "url": "https://www.eham.net/classifieds/601690",
+      "notes": "$600 plus shipping; repost after earlier buyer backed out",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 549,
+      "sold_date": "2021-09-17",
+      "condition": "Excellent, a few months old; original box, manual, all accessories",
+      "url": "https://www.eham.net/classifieds/590158",
+      "notes": "$549 plus actual shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 460,
+      "sold_date": "2020-07-24",
+      "condition": "Very good condition",
+      "url": "https://www.eham.net/classifieds/579245",
+      "notes": "$460 shipped",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 450,
+      "sold_date": "2019-03-15",
+      "condition": "Excellent cosmetic and operating condition; original box, documents, accessories; never mobile",
+      "url": "https://www.eham.net/classifieds/559524",
+      "notes": "$450 shipped. Includes Nifty manual and PG-5G programming cable. Same seller (K3MEJ) also listed 559020 and 559083 in March 2019",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 400,
+      "sold_date": "2019-03-07",
+      "condition": "Mint operating and cosmetic condition; original box and accessories",
+      "url": "https://www.eham.net/classifieds/559083",
+      "notes": "$400 shipped. Likely same unit as K3MEJ ads 559020 and 559524",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 450,
+      "sold_date": "2019-03-06",
+      "condition": "Mint operating and cosmetic condition; original box and accessories",
+      "url": "https://www.eham.net/classifieds/559020",
+      "notes": "$450 shipped. Likely same unit as K3MEJ ads 559083 and 559524",
+      "marketplace": "eHam",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 425,
+      "sold_date": "2018-10-08",
+      "condition": "9.8/10 appearance, works great; original box, manual, accessories",
+      "url": "https://www.eham.net/classifieds/551811",
+      "notes": "$425 plus shipping. Includes PG-5G programming cable and PG-5H Echolink cable set",
+      "marketplace": "eHam",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 400,
+      "sold_date": "2017-04-21",
+      "condition": "Very good condition; original documentation and box",
+      "url": "https://www.eham.net/classifieds/520792",
+      "notes": "$400 shipped",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 400,
+      "sold_date": "2016-09-28",
+      "condition": "Works as it should; sold as pictured",
+      "url": "https://www.eham.net/classifieds/506969",
+      "notes": "$400 shipped",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 350,
+      "sold_date": "2016-05-06",
+      "condition": "Like new, under an hour of use; original box and accessories",
+      "url": "https://www.eham.net/classifieds/496117",
+      "notes": "$350 plus shipping",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
