@@ -1,0 +1,79 @@
+{
+  "model": "Kenwood TS-450S",
+  "slug": "kenwood-ts-450s",
+  "searched_at": "2026-10-06T18:02:44-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Ledger miss: 'KENWOOD TS-450S' count 1 (needs 3). eHam search 'TS-450S' with sold box, page 1 of 9 only (50 ads, back to 2016). Exact model only, by the seller's model designation: 15 SOLD ads designated TS-450SAT or TS-450S/AT were excluded as a different model variant (factory auto-tuner version) under the strict-identity rule (e.g. 626629 $469 shipped 2026-05-12, 616034 $525+$42 2024-09-04, 603493 $460+$39.50, 602543 $450+$39.50, 600774 $395+ship); Leo may want them. Also excluded: board/tuner/parts-out sales, manuals CDs, a CAT cable, a swap ad, and unmarked active ads. Comps include one non-working tech special and one bundle (flagged). Trigger listing is itself a bundle: TS-450S plus 35A power supply, stock mic new in box, MC-85 desk mic, manuals; MARS mod; seller says works great. Prices are asking prices at time marked sold.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/257786212398",
+    "site": "ebay",
+    "ask": 650,
+    "shipping": 88.55
+  },
+  "comps": [
+    {
+      "price": 175,
+      "sold_date": "2026-09-30",
+      "condition": "hand mic and power cord; no ATU or filters; full power out; plus shipping",
+      "url": "https://www.eham.net/classifieds/628966",
+      "notes": "FLAW: seller says 'Flock' and RIT icons stay on the display (they function properly)"
+    },
+    {
+      "price": 395,
+      "sold_date": "2026-05-29",
+      "condition": "very, very nice, operates perfect; hand mic, manual, power cord; plus $44.50 shipping",
+      "url": "https://www.eham.net/classifieds/626968",
+      "notes": ""
+    },
+    {
+      "price": 380,
+      "sold_date": "2024-01-31",
+      "condition": "very clean, works great; no tuner; hand mic, power cord; plus shipping",
+      "url": "https://www.eham.net/classifieds/611094",
+      "notes": ""
+    },
+    {
+      "price": 425,
+      "sold_date": "2021-01-22",
+      "condition": "great working rig, stock; hand mic, DC cable, manual; no AT; plus insured shipping",
+      "url": "https://www.eham.net/classifieds/583887",
+      "notes": ""
+    },
+    {
+      "price": 200,
+      "sold_date": "2019-10-09",
+      "condition": "tech special: clean, RX and TX work (100W PEP) but no audio output from speaker or headphones; has internal tuner; cash, local pickup preferred",
+      "url": "https://www.eham.net/classifieds/571065",
+      "notes": "NOT WORKING: no audio output (suspected audio board fault)"
+    },
+    {
+      "price": 650,
+      "sold_date": "2019-01-09",
+      "condition": "exceptional condition, realigned and recapped (audio/display) Nov 2018; light scratch on top; plus shipping",
+      "url": "https://www.eham.net/classifieds/555760",
+      "notes": "bundle: PS-30 power supply, YK-88SN-1 and YK-88C-1 filters, MC-43S mic, W1GEE CAT interface; body says TS-450S AT (internal tuner)"
+    },
+    {
+      "price": 450,
+      "sold_date": "2018-09-10",
+      "condition": "excellent condition; internal antenna tuner; mic, USB CAT cable, power cord; $450 mailed; sale final no returns",
+      "url": "https://www.eham.net/classifieds/548158",
+      "notes": "mod: MARS mod; has internal tuner"
+    },
+    {
+      "price": 435,
+      "sold_date": "2018-06-03",
+      "condition": "good working condition, full power; built-in antenna tuner; hand mic, power cord, original box; plus $40 shipping",
+      "url": "https://www.eham.net/classifieds/546957",
+      "notes": "has internal tuner"
+    },
+    {
+      "price": 250,
+      "sold_date": "2017-09-23",
+      "condition": "good cosmetic condition, works as it should; original power cord only; $250 shipped",
+      "url": "https://www.eham.net/classifieds/544428",
+      "notes": "no microphone included"
+    }
+  ]
+}
