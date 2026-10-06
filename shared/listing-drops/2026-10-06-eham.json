@@ -1,0 +1,42 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-06",
+  "ran_at": "2026-10-06T05:53:10-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-05T05:52:49-04:00 (prior eham run). Signed in as K4LFC. Classifieds feed pages 1-2 covered new ads 629066-629085 (629068, 629071, 629073 not shown - likely deleted). Comps: IC-705 ledger hit (no eHam search); eHam searches for FTDX101D ('101D') and TS-430S ('TS-430') completed, spaced 25s+. The third search ('5100' for the ID-5100) returned a browser error page; the classifieds home reloaded fine (still K4LFC, no Cloudflare/1015 or challenge seen), but a single retry 30s later did not return results either, so all further eHam work was stopped this run out of caution. Seen but not comped (left out of listings so a later run can pick them up with comps): Icom ID5100 629078 ($350 + shipping), Yaesu FTM-400XDR 629083 ($435 shipped; ledger entry 'YAESU FTM-400XD' not treated as same model, count 2 anyway), Yaesu FT5DR 629082 ($415 shipped incl. CD-41, SDD-13, SSM-17), RGO One v6 629084 ($1195 + shipping), Yaesu VX-5R 629075 ($125 shipped, replacement stubby antenna), Yaesu FT-60R 629074 ($150 shipped incl. Diamond SRH77CD and ADMS cable), Icom V-8000 629079 ($140 shipped, 'All sales final'), Acom 1500 629067 ($1500 cash, pickup only Havana IL, no returns), Hallicrafters HT-9 629072 ($50 pickup only NE Texas, 'will need caps'), Kenwood filters/SO-2 TCXO lot 629070, Buddipole Pro Deluxe 629080 ($175 shipped, antenna). Not for sale: 629081 scam warning, 629077 and 629076 wanted ads.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629085",
+      "site": "eham",
+      "title": "ICOM IC-705",
+      "price": 1150.0,
+      "shipping": 0,
+      "found_at": "2026-10-06",
+      "condition_notes": "Like new, no scratches or marks; original box, mic, power cable, fuses, battery, manuals; bundled with Micro PA50 GEN3 amplifier, MFJ-818 mobile SWR/wattmeter, protective front cover. $1,150 shipped lower 48, USPS money order only.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629069",
+      "site": "eham",
+      "title": "YAES FTDX-101D WITH SPEAKER, EXTRAS",
+      "price": 2899.0,
+      "shipping": 0,
+      "found_at": "2026-10-06",
+      "condition_notes": "Excellent appearance and operation; includes SP-101 speaker, LDG MC-101 meter, Radio Today guide, Nifty manual, mouse, OEM power cable, original boxes. $2899 shipped CONUS; seller requires a phone call; 'the sale is final with no returns'.",
+      "work_flag": "sale is final with no returns",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629066",
+      "site": "eham",
+      "title": "Kenwood TS-430S",
+      "price": 470.0,
+      "shipping": 0,
+      "found_at": "2026-10-06",
+      "condition_notes": "Pristine late serial (7,020,xxx); FM unit, hand mic, DC cord, external EF Johnson speaker, original manual, packing and box; full output, never mobile, smoke free. $470 shipped CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
