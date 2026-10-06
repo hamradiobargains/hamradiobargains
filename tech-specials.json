@@ -2,16 +2,15 @@
   "listings": [
     {
       "date": "2026-09-29",
-      "item": "Collins 75S-3 Receiver",
-      "link": "https://swap.qth.com/view_ad.php?counter=1780791",
+      "title": "Collins 75S-3 Receiver",
+      "url": "https://swap.qth.com/view_ad.php?counter=1780791",
       "price": 295.0,
-      "extraCost": 0.0,
-      "pctBelow": 0.41,
+      "extra": 0.0,
+      "pct_below": 41,
       "median": 500.0,
-      "compCount": 3,
-      "compLow": 500.0,
-      "compHigh": 550.0,
-      "workFlag": "no audio \u2014 seller suspects dead audio output tube; no power cable"
+      "comp_count": 3,
+      "source": "QTH",
+      "work_flag": "no audio \u2014 seller suspects dead audio output tube; no power cable"
     }
   ]
 }
