@@ -159,6 +159,7 @@ async src="//gc.zgo.at/count.js"></script>
 <div class="item-title" id="item-title"></div>
 <div class="item-date" id="item-date"></div>
 <div class="badge" id="item-badge"></div>
+<div id="work-flag" style="display:none;margin:8px 0 0;padding:10px 12px;background:#3a2b12;border:1px solid #8a6a2f;border-radius:8px;color:#f5c86e;font-size:14px;"></div>
 
 <div class="price-row">
 <span class="label">Asking price</span>
@@ -269,15 +270,38 @@ median: d.median == null ? '' : String(d.median),
 compCount: d.compCount == null ? '' : String(d.compCount),
 compLow: d.compLow == null ? '' : String(d.compLow),
 compHigh: d.compHigh == null ? '' : String(d.compHigh),
+workFlag: ''
+};
+}
+function adaptTech(d) {
+return {
+date: d.date || '',
+item: d.title || '',
+link: d.url || '',
+price: d.price == null ? '' : String(d.price),
+extra: d.extra == null ? '' : String(d.extra),
+pctBelow: formatPctDisplay(d.pct_below == null ? null : Number(d.pct_below) / 100),
+median: d.median == null ? '' : String(d.median),
+compCount: d.comp_count == null ? '' : String(d.comp_count),
+compLow: '',
+compHigh: '',
+workFlag: d.work_flag || ''
 };
 }
 function loadDeals() {
-return fetch('deals.json')
+return Promise.all([
+fetch('deals.json')
 .then(r => {
 if (!r.ok) throw new Error('Could not load deal data right now.');
 return r.json();
 })
-.then(json => json.map(adaptDeal));
+.then(json => json.map(adaptDeal)),
+fetch('tech-specials.json')
+.then(r => r.ok ? r.json() : { listings: [] })
+.then(json => (json.listings || []).map(adaptTech))
+.catch(() => [])
+])
+.then(parts => parts[0].concat(parts[1]));
 }
 
 function moneyToNumber(s) {
@@ -305,6 +329,14 @@ document.getElementById('content').style.display = 'block';
 document.getElementById('item-title').textContent = deal.item;
 document.getElementById('item-date').textContent = deal.date ? `Flagged ${deal.date}` : '';
 document.getElementById('item-badge').textContent = deal.pctBelow ? `${deal.pctBelow} below market` : 'Below-market deal';
+
+const wf = document.getElementById('work-flag');
+if (deal.workFlag) {
+wf.style.display = 'block';
+wf.textContent = '\u26A0 Needs work: ' + deal.workFlag;
+} else {
+wf.style.display = 'none';
+}
 
 const asking = moneyToNumber(deal.price);
 const extra = moneyToNumber(deal.extra);
