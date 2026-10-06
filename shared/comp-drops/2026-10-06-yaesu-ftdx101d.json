@@ -1,0 +1,292 @@
+{
+  "model": "Yaesu FTDX101D",
+  "slug": "yaesu-ftdx101d",
+  "searched_at": "2026-10-06T05:56:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Ledger miss (YAESU FTDX101D latest date 2026-03-09, older than 30 days). eHam SOLD tag reflects the listed asking price when marked sold, not a verified transaction price; sold_date is the ad's post date. Search '101D' (sold box checked, 50 per page), first results page only (page 1 of 2). Many comps are bundles or carry options (flagged). Excluded: ads not marked sold (629000 $3250 2026-10-02, 628582 $2800 2026-09-07, 626110 $2800 2026-04-16, 619712 $2600 2025-03-22, 617670 $2425 2024-11-28, 613767 $2500 2024-05-25, 611341 $2650 2024-02-11, 607659 $3150 2023-08-15), SOLD ads with no price (576274), 581100 (NIB, SOLD, offered at $2593 radio alone or $3315 with LP-500 - unclear which sold), 586283 (WTT/trade ad marked SOLD, $3000 with speakers), wanted/trade ads (614365, 614356, 607998, 580640, 576932, 574734), accessories (607066 Microham cable, 603684 and 587722 Nifty manuals). Trigger listing (629069) says sale is final with no returns and bundles SP-101 speaker, MC-101 meter, guides.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629069",
+    "site": "eham",
+    "ask": 2899.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 2350,
+      "sold_date": "2026-05-12",
+      "condition": "Excellent condition, original owner, everything works; original accessories, mic, DC cable, manual, schematics, double box",
+      "url": "https://www.eham.net/classifieds/626618",
+      "notes": "$2350 plus shipping CONUS; ad also said SALE PENDING",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 2400,
+      "sold_date": "2026-03-09",
+      "condition": "Excellent condition, always kept covered; original box, manual, power cord, SSM-75G mic, Radio Today book",
+      "url": "https://www.eham.net/classifieds/625471",
+      "notes": "$2400 shipped & insured CONUS",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 2400,
+      "sold_date": "2025-12-12",
+      "condition": "Always kept covered; original box, manual, mic, accessories, CT-39 and other cables, Nifty manual, Radio Today book",
+      "url": "https://www.eham.net/classifieds/624205",
+      "notes": "$2400 shipped & insured US",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 2600,
+      "sold_date": "2025-08-31",
+      "condition": "Great condition, mid-2024 manufacture; original boxes, hand mic, accessories, manual, Radio Today guide",
+      "url": "https://www.eham.net/classifieds/622629",
+      "notes": "$2600 plus shipping; MARS mod done by HRO",
+      "marketplace": "eHam",
+      "flags": [
+        "mod"
+      ]
+    },
+    {
+      "price": 2700,
+      "sold_date": "2025-08-21",
+      "condition": "Excellent condition, no dents or scratches, low air time; factory boxes",
+      "url": "https://www.eham.net/classifieds/622472",
+      "notes": "$2700 total package incl. Heil PRO7 headset, HS-2 hand switch, AD-1-Y adapter; local delivery near Charlotte NC or UPS",
+      "marketplace": "eHam",
+      "flags": [
+        "bundle"
+      ]
+    },
+    {
+      "price": 2150,
+      "sold_date": "2025-08-18",
+      "condition": "Lightly used, excellent working condition; minor cosmetic scratches on top",
+      "url": "https://www.eham.net/classifieds/622417",
+      "notes": "$2150 plus shipping",
+      "marketplace": "eHam",
+      "flags": [
+        "cosmetic"
+      ]
+    },
+    {
+      "price": 2500,
+      "sold_date": "2025-05-07",
+      "condition": "Mint, never used beyond power-on test; factory XF-128CN 300 Hz CW filter; original double box, manual, mic, cord, Radio Today and Nifty guides",
+      "url": "https://www.eham.net/classifieds/620595",
+      "notes": "$2500 plus $50 shipping",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 2250,
+      "sold_date": "2025-02-18",
+      "condition": "Non-smoking, runs fine, no known issues; cover, hand mic, box, manual",
+      "url": "https://www.eham.net/classifieds/619134",
+      "notes": "$2250 shipped CONUS (reduced); optional bundle with SP-101 speakers at $2550",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 2250,
+      "sold_date": "2025-01-23",
+      "condition": "Super condition, no dings/dents/issues; mic, manual, power cord, double boxing",
+      "url": "https://www.eham.net/classifieds/618681",
+      "notes": "$2250 plus $49 shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 2650,
+      "sold_date": "2024-11-11",
+      "condition": "Listed as FTDX101D+ (second VC-Tune unit and two extra filters installed); manual, boxes, Heil adapter, power cord, book; no microphone",
+      "url": "https://www.eham.net/classifieds/617291",
+      "notes": "$2650 shipped US",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "missing_parts"
+      ]
+    },
+    {
+      "price": 2500,
+      "sold_date": "2023-11-14",
+      "condition": "Mint, only used a few hours; factory VC-Tune unit, 300 Hz CW filter, 1.2 kHz SSB filter",
+      "url": "https://www.eham.net/classifieds/609423",
+      "notes": "$2500 plus shipping; includes a power supply",
+      "marketplace": "eHam",
+      "flags": [
+        "option_installed",
+        "bundle"
+      ]
+    },
+    {
+      "price": 2895,
+      "sold_date": "2023-08-19",
+      "condition": "Excellent; box, mic, manual, power cord",
+      "url": "https://www.eham.net/classifieds/607728",
+      "notes": "$2895 plus $37 shipping (same seller listed it at $3150 on 2023-08-15, ad 607659, not marked sold)",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 2950,
+      "sold_date": "2023-08-14",
+      "condition": "Like new, ~3 hours operating time; original mic, manual, factory boxes, power cord",
+      "url": "https://www.eham.net/classifieds/607638",
+      "notes": "$2950 incl. two SP-101 speakers; seller preferred not to ship",
+      "marketplace": "eHam",
+      "flags": [
+        "bundle"
+      ]
+    },
+    {
+      "price": 3000,
+      "sold_date": "2023-04-21",
+      "condition": "3 months old, super condition; boxes, inserts, everything from new",
+      "url": "https://www.eham.net/classifieds/604874",
+      "notes": "$3000 shipped, $2900 local pickup, CONUS",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 3100,
+      "sold_date": "2023-03-30",
+      "condition": "3 months old, perfect condition; original boxes",
+      "url": "https://www.eham.net/classifieds/604393",
+      "notes": "$3100, split shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 2300,
+      "sold_date": "2023-02-24",
+      "condition": "Good condition; hand mic and power cord; no original box",
+      "url": "https://www.eham.net/classifieds/603503",
+      "notes": "$2300 plus $100 shipping",
+      "marketplace": "eHam",
+      "flags": [
+        "missing_parts"
+      ]
+    },
+    {
+      "price": 2700,
+      "sold_date": "2022-11-09",
+      "condition": "Works great, like new; accessories unused; Radio Today book, Nifty manual, amp keying/ALC cable; original double box",
+      "url": "https://www.eham.net/classifieds/600988",
+      "notes": "$2700 shipped CONUS",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 2600,
+      "sold_date": "2022-10-09",
+      "condition": "Excellent, latest firmware; mic, manual, power cord, mouse, 32 GB card, Radio Today guide; original boxes",
+      "url": "https://www.eham.net/classifieds/600114",
+      "notes": "$2600 plus half of shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 2900,
+      "sold_date": "2022-06-24",
+      "condition": "8 months old, no mods, excellent; manuals and mic",
+      "url": "https://www.eham.net/classifieds/597210",
+      "notes": "$2900; local pickup (Medina OH / Ocala FL) or ship at buyer cost",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 2575,
+      "sold_date": "2022-06-13",
+      "condition": "Minty, looks new; original boxes, mic, manual, power cable",
+      "url": "https://www.eham.net/classifieds/596990",
+      "notes": "$2575, split shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 2500,
+      "sold_date": "2022-05-08",
+      "condition": "Very clean, no scratches/dents; power cord, SSM-75G mic, accessories, manual, original packaging",
+      "url": "https://www.eham.net/classifieds/596058",
+      "notes": "$2500 plus shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 2500,
+      "sold_date": "2021-10-09",
+      "condition": "Pristine, not a mark on it",
+      "url": "https://www.eham.net/classifieds/590790",
+      "notes": "$2500, split shipping or meet within 150 mi of Gainesville FL",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 2650,
+      "sold_date": "2021-09-26",
+      "condition": "Looks and works perfect, ~10 months old; both boxes, mic, power cord, manual, goody bag",
+      "url": "https://www.eham.net/classifieds/590441",
+      "notes": "$2650 includes shipping",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 2500,
+      "sold_date": "2021-01-18",
+      "condition": "Perfect condition, hardly used",
+      "url": "https://www.eham.net/classifieds/583777",
+      "notes": "$2500 for radio plus SP-101 speaker combo",
+      "marketplace": "eHam",
+      "flags": [
+        "bundle"
+      ]
+    },
+    {
+      "price": 2500,
+      "sold_date": "2020-09-08",
+      "condition": "Like new, 1 month old; all original materials in box",
+      "url": "https://www.eham.net/classifieds/580344",
+      "notes": "$2500 plus UPS shipping; includes Yaesu power supply",
+      "marketplace": "eHam",
+      "flags": [
+        "bundle"
+      ]
+    },
+    {
+      "price": 2650,
+      "sold_date": "2020-06-29",
+      "condition": "Excellent cosmetic and operating condition; original parts, manual, mic, original triple boxes",
+      "url": "https://www.eham.net/classifieds/578624",
+      "notes": "$2650, share shipping CONUS",
+      "marketplace": "eHam",
+      "flags": []
+    },
+    {
+      "price": 3500,
+      "sold_date": "2020-02-23",
+      "condition": "2 weeks old, brand new condition; all original accessories and box",
+      "url": "https://www.eham.net/classifieds/575455",
+      "notes": "$3500 shipped for radio plus Yaesu M-1 microphone plus promo monitor; seller would not split",
+      "marketplace": "eHam",
+      "flags": [
+        "bundle"
+      ]
+    },
+    {
+      "price": 3000,
+      "sold_date": "2019-11-12",
+      "condition": "Essentially new; original packaging, all factory accessories and documentation",
+      "url": "https://www.eham.net/classifieds/572502",
+      "notes": "$3000 free shipping CONUS",
+      "marketplace": "eHam",
+      "flags": []
+    }
+  ]
+}
