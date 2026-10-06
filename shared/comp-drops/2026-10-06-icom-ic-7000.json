@@ -1,0 +1,247 @@
+{
+  "model": "Icom IC-7000",
+  "slug": "icom-ic-7000",
+  "searched_at": "2026-10-06T18:00:07-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Ledger miss: 'ICOM IC-7000' count 1 (needs 3). eHam search 'IC-7000' with sold box, page 1 of 10 only (50 ads, back to 2022-01); later pages not loaded to keep eHam load light. Kept only ads marked SOLD with a stated price. Excluded: SOLD ads with no price shown (626354 KJ6HI, 625618 K0OIL, 624134 K4SSS, 613885 KD7UM bundle with no asking price), separation cables/kits and a Nifty manual (accessories), wanted ads, unmarked active ads, and duplicate ad 595648. Many comps are bundles with tuners/supplies (flagged); one lacks the mic (flagged). Seller KR0P accounts for 12 of the comps (repeat refurb seller). Prices are asking prices at time marked sold.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/920013867204",
+    "site": "ebay",
+    "ask": 849.95,
+    "shipping": 34.95
+  },
+  "comps": [
+    {
+      "price": 800,
+      "sold_date": "2026-08-07",
+      "condition": "great condition, fully functional; $800 incl CONUS shipping",
+      "url": "https://www.eham.net/classifieds/628106",
+      "notes": "bundle: LDG IT-100 tuner, MFJ-4125 power supply, hard case, mobile bracket; mod: AB5N mic upgrade"
+    },
+    {
+      "price": 595,
+      "sold_date": "2026-08-02",
+      "condition": "excellent, operationally 100%, 9/10 cosmetically; HM-151 mic, shortened power cord, box, no manual; plus shipping; sold as is, no returns",
+      "url": "https://www.eham.net/classifieds/628035",
+      "notes": ""
+    },
+    {
+      "price": 730,
+      "sold_date": "2025-09-24",
+      "condition": "never mobile, very newish looking; original mic, new power cable, book, no box; $730 shipped",
+      "url": "https://www.eham.net/classifieds/623048",
+      "notes": ""
+    },
+    {
+      "price": 719,
+      "sold_date": "2025-07-19",
+      "condition": "very clean, works perfectly; missing paint at right rear frame edge; mic, DC cable, box, no book; $719 shipped",
+      "url": "https://www.eham.net/classifieds/621823",
+      "notes": "cosmetic: missing paint on frame edge; ad says payment pending"
+    },
+    {
+      "price": 850,
+      "sold_date": "2025-04-15",
+      "condition": "lightly used, works great, a few scuffs on case; $850 shipped",
+      "url": "https://www.eham.net/classifieds/620162",
+      "notes": "bundle: LDG AT-7000 tuner and unused DM5AL head separation kit"
+    },
+    {
+      "price": 950,
+      "sold_date": "2024-12-17",
+      "condition": "excellent, full power all bands; seller pays shipping at $950",
+      "url": "https://www.eham.net/classifieds/618083",
+      "notes": "bundle: Armoloq rails, Digirig and cables, 2 HM-151 mics, Pelican case"
+    },
+    {
+      "price": 650,
+      "sold_date": "2024-10-13",
+      "condition": "good working radio with mic and power cord; plus shipping",
+      "url": "https://www.eham.net/classifieds/616790",
+      "notes": ""
+    },
+    {
+      "price": 750,
+      "sold_date": "2024-07-28",
+      "condition": "served well; plus shipping",
+      "url": "https://www.eham.net/classifieds/615180",
+      "notes": "bundle: LDG IT-100 tuner, Alinco power supply, SKT-7000 remote head kit"
+    },
+    {
+      "price": 765,
+      "sold_date": "2024-07-06",
+      "condition": "like new, 9+/10, works as it should; HM-155 mic, power cord; plus $45 shipping",
+      "url": "https://www.eham.net/classifieds/614782",
+      "notes": "seller KR0P has many repeat IC-7000 sales on eHam"
+    },
+    {
+      "price": 975,
+      "sold_date": "2024-06-25",
+      "condition": "like new in original box; $975 obo",
+      "url": "https://www.eham.net/classifieds/614548",
+      "notes": ""
+    },
+    {
+      "price": 750,
+      "sold_date": "2024-05-16",
+      "condition": "nice, 8+/10, works as it should; HM-155 mic, power cord; plus $45 shipping",
+      "url": "https://www.eham.net/classifieds/613574",
+      "notes": "seller KR0P; ad says sold pending funds"
+    },
+    {
+      "price": 750,
+      "sold_date": "2024-04-12",
+      "condition": "nice, 8+/10; original box, new HM-155 mic; plus $45 shipping",
+      "url": "https://www.eham.net/classifieds/612816",
+      "notes": "seller KR0P; ad says sold pending funds"
+    },
+    {
+      "price": 765,
+      "sold_date": "2024-03-31",
+      "condition": "very nice, 9+/10; HM-155 mic, power cord; plus $45 shipping",
+      "url": "https://www.eham.net/classifieds/612574",
+      "notes": "seller KR0P; ad says sold pending funds"
+    },
+    {
+      "price": 765,
+      "sold_date": "2024-02-22",
+      "condition": "very nice, 9+/10; HM-155 mic, power cord; plus $45 shipping",
+      "url": "https://www.eham.net/classifieds/611575",
+      "notes": "seller KR0P; ad says sold pending funds"
+    },
+    {
+      "price": 650,
+      "sold_date": "2024-01-19",
+      "condition": "excellent, works great; mic, power cord, handle, box, no manual; plus shipping; no warranty or returns",
+      "url": "https://www.eham.net/classifieds/610816",
+      "notes": "ad says sold pending payment"
+    },
+    {
+      "price": 650,
+      "sold_date": "2024-01-06",
+      "condition": "works great; manual, mic, power cord",
+      "url": "https://www.eham.net/classifieds/610520",
+      "notes": "same ad also offered an AT-180 tuner separately for $150; radio price used"
+    },
+    {
+      "price": 700,
+      "sold_date": "2023-12-25",
+      "condition": "works great; Portable Zero rails, powerpole; plus shipping",
+      "url": "https://www.eham.net/classifieds/610264",
+      "notes": ""
+    },
+    {
+      "price": 775,
+      "sold_date": "2023-08-27",
+      "condition": "nice, 8/10, some scratches on top edge of display; HM-155 mic, manual, power cord; plus $45 shipping",
+      "url": "https://www.eham.net/classifieds/607886",
+      "notes": "seller KR0P"
+    },
+    {
+      "price": 750,
+      "sold_date": "2023-05-03",
+      "condition": "very clean, works great per HRO check; box, manual, power cord; $750 shipped",
+      "url": "https://www.eham.net/classifieds/605283",
+      "notes": "MISSING PARTS: no microphone (ships with Heil headset instead); SK estate"
+    },
+    {
+      "price": 750,
+      "sold_date": "2023-04-04",
+      "condition": "good working condition, some minor scratches; mic, power cable, box, manual; $750 shipped",
+      "url": "https://www.eham.net/classifieds/604495",
+      "notes": "includes unused mobile separation kit"
+    },
+    {
+      "price": 795,
+      "sold_date": "2023-02-16",
+      "condition": "very nice, 9/10; new HM-155 mic, manual, box; plus $45 shipping",
+      "url": "https://www.eham.net/classifieds/603310",
+      "notes": "seller KR0P; ad says sold pending funds"
+    },
+    {
+      "price": 850,
+      "sold_date": "2023-02-02",
+      "condition": "very nice, 9/10; HM-155 mic, separation cable, manual, box; plus $45 shipping",
+      "url": "https://www.eham.net/classifieds/602963",
+      "notes": "seller KR0P"
+    },
+    {
+      "price": 825,
+      "sold_date": "2023-01-21",
+      "condition": "as new, complete with box and accessories, no mods; $825 shipped",
+      "url": "https://www.eham.net/classifieds/602711",
+      "notes": ""
+    },
+    {
+      "price": 700,
+      "sold_date": "2023-01-15",
+      "condition": "just returned from Icom service, meets spec; power cord, mic, bracket, manuals",
+      "url": "https://www.eham.net/classifieds/602569",
+      "notes": "bundle: LDG IT-100 tuner"
+    },
+    {
+      "price": 795,
+      "sold_date": "2022-12-28",
+      "condition": "very nice, 9.5+/10; HM-151 mic, power cord, original box; plus $40 shipping",
+      "url": "https://www.eham.net/classifieds/602193",
+      "notes": "seller KR0P; ad says sold pending funds"
+    },
+    {
+      "price": 750,
+      "sold_date": "2022-12-21",
+      "condition": "looks unused; HM-151 mic, DC cord, Nifty manual; plus $24 shipping",
+      "url": "https://www.eham.net/classifieds/602046",
+      "notes": ""
+    },
+    {
+      "price": 795,
+      "sold_date": "2022-12-17",
+      "condition": "very nice, 9+/10, light scratch on display unit bottom; HM-151 mic, box; plus $40 shipping",
+      "url": "https://www.eham.net/classifieds/601948",
+      "notes": "seller KR0P; ad says sold pending funds"
+    },
+    {
+      "price": 775,
+      "sold_date": "2022-09-09",
+      "condition": "very nice, 9+/10; new HM-118TN mic, power cord; plus $40 shipping",
+      "url": "https://www.eham.net/classifieds/599309",
+      "notes": "seller KR0P"
+    },
+    {
+      "price": 775,
+      "sold_date": "2022-08-05",
+      "condition": "great cosmetic condition, fully tested; box, manual; $775 shipped",
+      "url": "https://www.eham.net/classifieds/598259",
+      "notes": "includes separation kit, MB-62/MB-105 brackets, HM-151 mic"
+    },
+    {
+      "price": 795,
+      "sold_date": "2022-06-03",
+      "condition": "very nice, 9+/10; new HM-155 mic, power cord; plus $40 shipping",
+      "url": "https://www.eham.net/classifieds/596723",
+      "notes": "seller KR0P"
+    },
+    {
+      "price": 850,
+      "sold_date": "2022-05-02",
+      "condition": "go box; local pickup only near Rockwall TX; cash; no returns",
+      "url": "https://www.eham.net/classifieds/595942",
+      "notes": "bundle: LDG IT-100 tuner, Jetstream 15A PS, aluminum case, separation kit, 7-inch monitor; mod: AB5N mic"
+    },
+    {
+      "price": 750,
+      "sold_date": "2022-04-18",
+      "condition": "works 100%, very good condition; original owner; manuals, mic, power cord, box",
+      "url": "https://www.eham.net/classifieds/595649",
+      "notes": "includes remote kit; same radio also posted as ad 595648 (duplicate, counted once)"
+    },
+    {
+      "price": 950,
+      "sold_date": "2022-03-14",
+      "condition": "used - like new; sales final; buyer pays shipping",
+      "url": "https://www.eham.net/classifieds/594670",
+      "notes": "bundle: mAT-150H tuner, Heil PMS-iC headset, AD-1-I-M, HS-2 PTT, IAB2-13 cable, mini manual"
+    }
+  ]
+}
