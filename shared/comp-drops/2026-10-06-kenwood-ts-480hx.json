@@ -1,0 +1,86 @@
+{
+  "model": "Kenwood TS-480HX",
+  "slug": "kenwood-ts-480hx",
+  "searched_at": "2026-10-06T15:01:02-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Searched 'TS-480HX' (sold box checked), 10 results, all marked SOLD. Several are packages (tuner/power supply/antenna) — noted per comp. QTH ad has cosmetic scratches and possibly missing cables. sold_date is the ad date shown on eHam (date posted/last modified) for an ad marked SOLD; prices are the seller's asking price at time marked sold, not a verified transaction price. Page 1 of results reviewed only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781387",
+    "site": "qth",
+    "ask": 500.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1000.0,
+      "sold_date": "2026-09-27",
+      "condition": "Excellent, no marks, never mobile; head, mounts, cables, mic, manuals; SO-3 TCXO, YF-107SN and YF-107C filters installed",
+      "url": "https://www.eham.net/classifieds/628897",
+      "notes": "$1000 plus (shipping). Options installed."
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2025-11-09",
+      "condition": "Not described",
+      "url": "https://www.eham.net/classifieds/623766",
+      "notes": "Package: TS-480HX with carry handle + LDG AT-200PROII tuner + Diamond GZV6000 power supply, $1000, buyer pays shipping."
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2025-04-11",
+      "condition": "Works perfect, excellent, never mobile; MARS mod; SO-3 TCXO; power cords, manuals, RT Systems software/cable",
+      "url": "https://www.eham.net/classifieds/620093",
+      "notes": "$750 + $50 shipping; VGS-1 voice recorder +$300 installed (optional)."
+    },
+    {
+      "price": 1125.0,
+      "sold_date": "2024-09-03",
+      "condition": "Excellent, all original accessories in OEM box; TCXO and 1.8 kHz SSB filter",
+      "url": "https://www.eham.net/classifieds/616006",
+      "notes": "$1125 shipped, double boxed, insured."
+    },
+    {
+      "price": 775.0,
+      "sold_date": "2023-11-18",
+      "condition": "Spare remote-station rig, 100% reliable; minor nicks on top; desk stand, long sep cable, power cable, mic, manual",
+      "url": "https://www.eham.net/classifieds/609473",
+      "notes": "$775 shipped in USA."
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2023-06-20",
+      "condition": "Mint; all cables, mic, mounts, box, manual",
+      "url": "https://www.eham.net/classifieds/606511",
+      "notes": "$900 plus shipping."
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2022-11-22",
+      "condition": "Excellent (looks new), never mobile; power cables, manual, mic",
+      "url": "https://www.eham.net/classifieds/601297",
+      "notes": "$1000 shipped."
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2022-11-01",
+      "condition": "Like new in OEM box with everything",
+      "url": "https://www.eham.net/classifieds/600791",
+      "notes": "$1000 shipped."
+    },
+    {
+      "price": 1195.0,
+      "sold_date": "2022-06-04",
+      "condition": "Excellent, low hours, never mobile",
+      "url": "https://www.eham.net/classifieds/596738",
+      "notes": "Package with MFJ-4245MV 45A power supply and new MFJ-939K tuner, $1,195."
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2022-05-27",
+      "condition": "Minimal use since 2016; modified for software panadapter",
+      "url": "https://www.eham.net/classifieds/596545",
+      "notes": "Package with power supplies, West Mountain PWRspkr and other items; $800 plus shipping. Mod noted."
+    }
+  ]
+}
