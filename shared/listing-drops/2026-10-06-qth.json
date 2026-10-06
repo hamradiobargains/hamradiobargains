@@ -1,0 +1,75 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-06",
+  "ran_at": "2026-10-06T15:01:02-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-05T14:52:32-04:00 (prior qth drop). Scanned QTH all-ads pages 1-2 only (20 newest; new ads 1781516-1781527 dated 10/06 plus several renewed/modified ads). Skipped: Kenwood TS-50 parts radio $265 (no RX/TX, parts) and TS-50S parts boards; wanted ads (Rohn U-bolts, ACOM 2000A ISO, Hi/Q dipole); audio preamp kit; Motorola CP200/CP200XLS HTs and Motorola headsets (commercial gear); Heil headset; CAT300DX repeater controller board; Hustler ball mount; Elecraft KX3 1780567 $1450 (renewed ad, heavily optioned package). Ledger: IC-7610 HIT (count 8, 2026-09-30); IC-7100 miss (ledger date 2026-09-04, older than 30 days); ACOM 2100A, TS-480HX, FLEX-5000A, ANAN-10E not in ledger. eHam: signed in as K4LFC; one Cloudflare 'Just a moment' interstitial on first load cleared on its own; 5 searches ~25-30s apart, no blocks.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781525",
+      "site": "qth",
+      "title": "AMPHF - F/S ACOM 2100A 1.8-54 MHz AMPLIFIER",
+      "price": 3995.0,
+      "shipping": 0,
+      "found_at": "2026-10-06",
+      "condition_notes": "Seller: beautiful condition, pulled from friend's fully operating station (downsizing); friend says under 100 hours. Transformer removed from chassis; amp and transformer repacked in original factory boxes. Includes original manual. $3995 including shipping CONUS, or $3795 pickup.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781524",
+      "site": "qth",
+      "title": "RADIOHF - F/S ICOM IC-7610",
+      "price": 2200.0,
+      "shipping": 0,
+      "found_at": "2026-10-06",
+      "condition_notes": "Seller: very good condition, from friend's fully operating station. 'Only slight issue' - for a few seconds at power-on a slight burn-in is visible on the screen; once the screen lights up everything looks normal. Original Icom box, manual, printed supplemental manual, hand mic, DC cord. $2200 shipped CONUS or $2100 pickup.",
+      "work_flag": "slight burn-in visible on the screen when first turned on (a few seconds)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781384",
+      "site": "qth",
+      "title": "RADIOHF - For Sale IC-7100 $$ LOWER PRICE $$",
+      "price": 700.0,
+      "shipping": 0,
+      "found_at": "2026-10-06",
+      "condition_notes": "Ad originally posted 10/04, price lowered/modified 10/06. MARS mod / opened for aircraft band; seller says full output all modes HF/50/VHF/UHF/D-Star. Original box with inserts, owner's manual, serial cable, ARB-704 amp buffer, hand mic. $700 shipped; cashier's check, USPS MO, or PayPal +3%.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781387",
+      "site": "qth",
+      "title": "RADIOHF - Kenwood TS-480HX",
+      "price": 500.0,
+      "shipping": 0,
+      "found_at": "2026-10-06",
+      "condition_notes": "Ad originally posted 10/04, modified 10/06. Seller: excellent working condition, a few cosmetic scratches. Missing a separation cable and/or the 4-pin 12AWG 30A DC power cable (wording ambiguous). $500 includes shipping within the US.",
+      "work_flag": "Missing a separation cable, 4-pin 12AWG 30A DC power cable",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781516",
+      "site": "qth",
+      "title": "RADIOHF - Flex 5000",
+      "price": 700.0,
+      "shipping": 0,
+      "found_at": "2026-10-06",
+      "condition_notes": "Seller: very nice Flex 5000 SDR. Includes power cable, FireWire cable and FireWire card. $700 shipped and insured. Ad does not say whether ATU or 2nd receiver is installed.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781517",
+      "site": "qth",
+      "title": "RADIOHF - Anan10E",
+      "price": 475.0,
+      "shipping": 0,
+      "found_at": "2026-10-06",
+      "condition_notes": "Seller: very nice ANAN-10E blue face in great shape, covers 160-6 m. Asking $475; shipping not stated (recorded 0/unknown).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
