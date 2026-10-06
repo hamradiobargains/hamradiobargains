@@ -1,0 +1,15 @@
+{
+  "model": "ACOM 2100A",
+  "slug": "acom-2100a",
+  "searched_at": "2026-10-06T15:01:02-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Searched 'ACOM 2100' (sold box checked), 9 results, all titled 'ACOM 2100' with none identified as the 2100A. QTH seller says 2100A = 2100 plus a fan on the PSU section, but per exact-model rule all were dropped as not certainly the same model. Dropped sold ads for reference only (NOT comps): 628476 'Acom 2100' SOLD 2026-08-31 $3400 (2-3 yrs old, two spare 4CX1000 tubes); 615102 'Acom 2100' SOLD 2024-07-24 $4,000 (bought new Dec 2023, ~20 hrs); 587324 SOLD 2021-06-05 $3800 picked up. Older 2018-2019 sold ads also titled 2100. Zero exact-model comps — thin. sold_date is the ad date shown on eHam (date posted/last modified) for an ad marked SOLD; prices are the seller's asking price at time marked sold, not a verified transaction price. Page 1 of results reviewed only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781525",
+    "site": "qth",
+    "ask": 3995.0,
+    "shipping": 0
+  },
+  "comps": []
+}
