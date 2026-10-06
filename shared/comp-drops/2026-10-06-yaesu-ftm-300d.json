@@ -1,0 +1,65 @@
+{
+  "model": "Yaesu FTM-300D",
+  "slug": "yaesu-ftm-300d",
+  "searched_at": "2026-10-06T18:01:08-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Ledger miss: no 'YAESU FTM-300D' entry. eHam search 'FTM-300D' with sold box; one page, 17 ads total. Exact model only: 5 SOLD ads titled 'FTM-300DR' (628350 $369+$18, 627048 $399+$13, 607499 $350 shipped, 603904 $300+ship, 579436 $400 shipped) were left out because the ledger treats D/DR variants as separate models (e.g. FTM-400XD vs FTM-400XDR) and identity was not certain; Leo may want to fold them in. Also excluded: a control-head-only sale, a WTB ad, a cancelled ad, and an active FT-3DR ad. Trigger listing has a MARS mod and replaced fan. Prices are asking prices at time marked sold.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/168770061248",
+    "site": "ebay",
+    "ask": 399.0,
+    "shipping": 9.56
+  },
+  "comps": [
+    {
+      "price": 400.0,
+      "sold_date": "2026-04-05",
+      "condition": "original box, SSM-85D mic, uncut power cord, bracket, manual; $400 shipped; all sales final",
+      "url": "https://www.eham.net/classifieds/625951",
+      "notes": ""
+    },
+    {
+      "price": 340.0,
+      "sold_date": "2025-05-27",
+      "condition": "excellent, most items still in original packaging; $340 shipped",
+      "url": "https://www.eham.net/classifieds/620881",
+      "notes": "mod: MARS mod"
+    },
+    {
+      "price": 295.0,
+      "sold_date": "2024-05-03",
+      "condition": "as new condition; plus $18 shipping",
+      "url": "https://www.eham.net/classifieds/613282",
+      "notes": ""
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2024-01-17",
+      "condition": "never mobile, no issues; bracket, power cord, mic, manual, box, separation cable; $375 shipped; all sales final",
+      "url": "https://www.eham.net/classifieds/610783",
+      "notes": "mod: fan replaced with quieter fan"
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2022-12-23",
+      "condition": "mint; power cable, programming cable, mic, manual; $300 shipped",
+      "url": "https://www.eham.net/classifieds/602078",
+      "notes": ""
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2022-01-25",
+      "condition": "worked great, no scratches; original box, accessories, manuals, head vehicle mount; $300 shipped",
+      "url": "https://www.eham.net/classifieds/593389",
+      "notes": ""
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2021-01-27",
+      "condition": "about 60 days old, bench use only; $500 or best offer for all",
+      "url": "https://www.eham.net/classifieds/584028",
+      "notes": "bundle: includes Yaesu HRI-200 WIRES-X interface, SCU-20 cable, RT programming software; same sale posted twice (584027), counted once"
+    }
+  ]
+}
