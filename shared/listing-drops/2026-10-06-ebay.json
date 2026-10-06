@@ -1,0 +1,75 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-06",
+  "ran_at": "2026-10-06T18:03:12-04:00",
+  "ran_by": "claude",
+  "notes": "Scanned page 1 only (60 items) of Ham & Amateur Radio Electronics (cat 4670), Buy It Now filter, sorted newly listed (eBay redirected to the category browse page with filters kept); window since previous eBay run 2026-10-05T18:03:02-04:00. Page 1 shows only 'NEW LISTING' items, so it may not reach back to the previous run; window may be only partly covered. 6 candidates picked. Ledger hits (eHam skipped): IC-7600 (count 5, 2026-09-29) and FT-991A (count 15, 2026-09-22). Ledger misses: IC-7100 (count 11 but latest 2026-09-04 is over 30 days old), IC-7000 (count 1), FTM-300D (no entry), TS-450S (count 1). 4 eHam searches run one at a time with gaps; signed in as K4LFC; no blocks or challenges from eBay or eHam. eHam comp files used page 1 of results only (IC-7100 p1/3, IC-7000 p1/10, TS-450S p1/9). Not picked from page 1: AOR AR8600 receiver, Kenwood R-300, Ten-Tec Corsair 560 (parts/repair), Flex-3000 (untested), Collins KWM-2A station, Heathkit SB-200, Yaesu VX-6, Icom IC-2350H and others, to stay within the 5-6 candidate cap. BK Radio KNG M-150HP showed bids (auction) despite the BIN filter.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/137820002543",
+      "site": "ebay",
+      "title": "ICOM IC-7600 100W HF/50MHz Amateur Radio Transceiver Tested w/ Microphone RS-BA1",
+      "price": 1288.0,
+      "shipping": 0,
+      "found_at": "2026-10-06",
+      "condition_notes": "Used. Seller notes: 'The unit has been tested and confirmed to be working. There are no noticeable scratches or stains.' Title says includes microphone and RS-BA1. Buy It Now or Best Offer. Ships free (SpeedPAK Expedited) from Fukuoka, Japan — buyer may owe import duties/fees not shown in the price. Returns accepted (free returns).",
+      "work_flag": "",
+      "seller_feedback": "99.7% (653 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/189052877826",
+      "site": "ebay",
+      "title": "YAESU FT-991A HF, UHF,VHF+extras",
+      "price": 970.0,
+      "shipping": 30.0,
+      "found_at": "2026-10-06",
+      "condition_notes": "Used. Description: very lightly used, original owner, bought three years ago; includes original manual, extra manuals and unopened RT Systems software. Buy It Now or Best Offer. Ships UPS Ground from Madera, CA.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (606 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/307217929188",
+      "site": "ebay",
+      "title": "icom IC-7100 ALL MODE TRANSCEIVER",
+      "price": 899.99,
+      "shipping": 0,
+      "found_at": "2026-10-06",
+      "condition_notes": "Used, sold by a PayMore resale store. Description: good pre-owned condition, light to moderate wear; 'All ports are fully functional, and the system powers on without any issues.' No mention of a transmit test. Only the radio is listed as included (no mention of mic or cables: 'if it is not listed it is not included'). 30-day returns, seller pays return shipping; store 30-day warranty. Free shipping from Vernon Hills, IL.",
+      "work_flag": "powers on without any issues (no transmit test mentioned)",
+      "seller_feedback": "99.6% (3402 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/920013867204",
+      "site": "ebay",
+      "title": "Icom IC-7000 HF/VHF/UHF Ham Radio Transceiver Ex Cond Orig Box & Accessories /CE",
+      "price": 849.95,
+      "shipping": 34.95,
+      "found_at": "2026-10-06",
+      "condition_notes": "Used. Description: excellent, near mint cosmetic condition; original box, manual and all factory accessories; 'Unit is guaranteed 100% fully working.' 30-day returns, buyer pays return shipping. Ships from Huntington Beach, CA.",
+      "work_flag": "",
+      "seller_feedback": "99.8% (39294 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/168770061248",
+      "site": "ebay",
+      "title": "Yaesu FTM-300D Dual Band Transceiver 50W with MARS mod - Bluetooth - Fan Upgrade",
+      "price": 399.0,
+      "shipping": 9.56,
+      "found_at": "2026-10-06",
+      "condition_notes": "Used, seller notes 'USED, Mint Condition'. Modified: MARS mod and stock fan replaced with a Noctua fan. Includes radio, mic, mic clip, mounts/screws, power cable, manuals, original box. Buy It Now or Best Offer. Ships from Hillsborough, NJ.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (2042 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/257786212398",
+      "site": "ebay",
+      "title": "kenwood hf transceiver ts-450s $650",
+      "price": 650.0,
+      "shipping": 88.55,
+      "found_at": "2026-10-06",
+      "condition_notes": "Used. Description: 'looks good, works great, mars mod'; bundle includes 35 amp power supply, stock mic new in box, MC-85 power mic, owner's manual with schematics, operation manual. Seller is an 11-meter operator. Does not say whether the internal antenna tuner is installed. Buy It Now or Best Offer. Ships from Uncasville, CT.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (232 ratings)"
+    }
+  ]
+}
