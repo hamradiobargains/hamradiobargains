@@ -1,0 +1,44 @@
+{
+  "model": "FlexRadio FLEX-5000A",
+  "slug": "flexradio-flex-5000a",
+  "searched_at": "2026-10-06T15:01:02-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "QTH ad says 'Flex 5000'; FlexRadio's model is the FLEX-5000A (treated as same model). QTH ad does not say if ATU/2nd receiver installed; comps vary (noted per comp). Searched 'Flex 5000' (sold box checked), 10 results. Excluded: 620608 and 616286 (not marked sold), 617692 (wanted), 604862/604817 (trade ads marked SOLD, no price), 594026 (not marked sold). Comp 592815 is from KB4HL, the same callsign as the QTH seller. sold_date is the ad date shown on eHam (date posted/last modified) for an ad marked SOLD; prices are the seller's asking price at time marked sold, not a verified transaction price. Page 1 of results reviewed only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781516",
+    "site": "qth",
+    "ask": 700.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 900.0,
+      "sold_date": "2025-01-28",
+      "condition": "Recently professionally gone over, perfect working order; single receiver with internal ATU; 2 FireWire cards/cables, Heil adapter",
+      "url": "https://www.eham.net/classifieds/618738",
+      "notes": "$900 obo shipped lower 48."
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2024-11-30",
+      "condition": "Very nice, clean, fully functional; 2nd receiver and ATU installed; K9DUR software",
+      "url": "https://www.eham.net/classifieds/617728",
+      "notes": "$800, will split shipping/insurance."
+    },
+    {
+      "price": 875.0,
+      "sold_date": "2022-01-03",
+      "condition": "Very nice; no 2nd receiver or tuner; FireWire card/cable, power cable, boom mic",
+      "url": "https://www.eham.net/classifieds/592815",
+      "notes": "$875 shipped and insured. Seller KB4HL (same as QTH seller)."
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2021-12-18",
+      "condition": "Factory ATU and 2nd receiver; FireWire cable, CD; needs FireWire card",
+      "url": "https://www.eham.net/classifieds/592509",
+      "notes": "$850 plus shipping."
+    }
+  ]
+}
