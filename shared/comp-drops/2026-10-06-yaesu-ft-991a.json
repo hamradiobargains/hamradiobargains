@@ -1,0 +1,22 @@
+{
+  "model": "Yaesu FT-991A",
+  "slug": "yaesu-ft-991a",
+  "searched_at": "2026-10-06T18:03:12-04:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eHam search skipped — median 950.0, count 15, ledger date 2026-09-22",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/189052877826",
+    "site": "ebay",
+    "ask": 970.0,
+    "shipping": 30.0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 950.0,
+    "low": 645.0,
+    "high": 1000.0,
+    "count": 15,
+    "date": "2026-09-22"
+  }
+}
