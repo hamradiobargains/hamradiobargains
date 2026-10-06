@@ -1,0 +1,58 @@
+{
+  "model": "Icom IC-7100",
+  "slug": "icom-ic-7100",
+  "searched_at": "2026-10-06T15:01:02-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Searched 'IC-7100' (sold box checked), 10 results. Excluded: 628991 (active, not marked sold, $795 + s/i); 628886 and 628207 (trade ads marked SOLD, no price stated); 625776 ($1100 with AT-180, says 'sold with no warranty' but not marked SOLD). Several comps include a tuner or are new-in-box (noted per comp). QTH ad has MARS mod and includes ARB-704. sold_date is the ad date shown on eHam (date posted/last modified) for an ad marked SOLD; prices are the seller's asking price at time marked sold, not a verified transaction price. Page 1 of results reviewed only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781384",
+    "site": "qth",
+    "ask": 700.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 745.0,
+      "sold_date": "2026-08-20",
+      "condition": "Great condition, works on all bands/modes; original box, power cord, mic; sold as-is, no returns",
+      "url": "https://www.eham.net/classifieds/628330",
+      "notes": "Title 'Sold.'"
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-07-28",
+      "condition": "New in box",
+      "url": "https://www.eham.net/classifieds/627955",
+      "notes": "$800 shipped CONUS; PayPal +3%. New-in-box unit."
+    },
+    {
+      "price": 749.0,
+      "sold_date": "2026-06-04",
+      "condition": "Excellent, everything works; mic, power cable, extension cable, data cable, ACC plug, CD, original packaging",
+      "url": "https://www.eham.net/classifieds/627088",
+      "notes": "Listed as IC-7100A. $749 + $18 shipping."
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-05-11",
+      "condition": "Several months old; with boxes, cables, mic, manuals",
+      "url": "https://www.eham.net/classifieds/626586",
+      "notes": "$750 + $75 shipping. Bundle includes LDG Z-100A tuner."
+    },
+    {
+      "price": 785.0,
+      "sold_date": "2026-04-23",
+      "condition": "Factory boxes, interconnect cables, never mobile",
+      "url": "https://www.eham.net/classifieds/626225",
+      "notes": "$785 shipped CONUS. Bundle includes Icom AT-180 auto tuner."
+    },
+    {
+      "price": 875.0,
+      "sold_date": "2026-03-12",
+      "condition": "New in box",
+      "url": "https://www.eham.net/classifieds/625516",
+      "notes": "$875 shipped CONUS; PayPal +3%. New-in-box unit."
+    }
+  ]
+}
