@@ -1,0 +1,37 @@
+{
+  "model": "Apache Labs ANAN-10E",
+  "slug": "apache-labs-anan-10e",
+  "searched_at": "2026-10-06T15:01:02-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Searched 'ANAN-10E' (sold box checked), 3 results, all marked SOLD. Thin set (3), all 2016-2023. sold_date is the ad date shown on eHam (date posted/last modified) for an ad marked SOLD; prices are the seller's asking price at time marked sold, not a verified transaction price. Page 1 of results reviewed only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781517",
+    "site": "qth",
+    "ask": 475.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 800.0,
+      "sold_date": "2023-10-18",
+      "condition": "Original owner, works great; jumper set for RadioSport headset (not included); 20W PEP",
+      "url": "https://www.eham.net/classifieds/608916",
+      "notes": "$800 shipped."
+    },
+    {
+      "price": 725.0,
+      "sold_date": "2020-12-10",
+      "condition": "Original owner, never out of shack; includes rear-port I/O extender and network cable",
+      "url": "https://www.eham.net/classifieds/582777",
+      "notes": "$725 shipped USA."
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2016-05-13",
+      "condition": "One year old, works 100%, like new",
+      "url": "https://www.eham.net/classifieds/497493",
+      "notes": "$850 or trade."
+    }
+  ]
+}
