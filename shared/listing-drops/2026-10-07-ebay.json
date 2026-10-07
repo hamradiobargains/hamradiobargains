@@ -1,0 +1,75 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-07",
+  "ran_at": "2026-10-07T17:52:45-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now filter, sorted newly listed; the /sch/ search URL redirected to the category browse page, so the browse page was used with LH_BIN=1&_sop=10. Scanned page 1 only (60 items, all tagged NEW LISTING); window since previous eBay run 2026-10-06T18:03:12-04:00 may be only partly covered. 6 candidates; all sellers passed the 95%/10-ratings check. Ledger: 0 hits (TS-430S count 1 dated 2026-02-26; FT-8900R count 1 dated 2026-09-03; IC-756PROII, IC-7200, NRD-525, Drake 2-NT no entry; JRC NRD 535D exists but is a different model). 6 eHam searches run one at a time with 25s+ gaps, signed in as K4LFC; first eHam page load showed a Cloudflare 'Just a moment' interstitial that cleared on its own after ~8s with no interaction; no 1015 or challenge after that. eHam comp files use page 1 of results only (IC-756PRO p1/10, IC-7200 p1/3, TS-430 p1/9, FT-8900 p1/5; NRD-525 and Drake 2-NT single page). Not picked from page 1: Maco 750 RF amp ($875, CB-style amp, listing page says 30-day returns but description says no returns), Yaesu FT-8800, FT-4900H, FT-7800R (modified), Icom ID-800D, IC-208D, Trio TR-9000G, Tokyo Hy-Power amps, Standard VX-3, and accessories, to stay within the candidate cap. Three of the six candidates (IC-756PROII, IC-7200, TS-430S) come from one Japan-based seller, J's Market, which listed many radios at once.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/366718916376",
+      "site": "ebay",
+      "title": "ICOM IC-756PROII 100W HF 50MHz Amateur Radio Transceiver General Coverage",
+      "price": 1217.46,
+      "shipping": 120.0,
+      "found_at": "2026-10-07",
+      "condition_notes": "Used. Seller (Japan): output verified 100W into dummy load; automatic tuner; mic and DC cable included; 'Some scratches and dirt'. General coverage transmit 1.8-30 MHz (seller warns about CB). 30-day returns, buyer pays return shipping. Duties included for US.",
+      "work_flag": "",
+      "seller_feedback": "100% (223 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366718916444",
+      "site": "ebay",
+      "title": "ICOM IC-7200 HF 50MHz 100W High Power Transceiver Amateur Radio Fixed",
+      "price": 1005.73,
+      "shipping": 120.0,
+      "found_at": "2026-10-07",
+      "condition_notes": "Used. Seller (Japan): all bands verified at 100W into dummy load; 'Complies with new spurious emission standards'; condition section says only 'check the condition of the item in the photos'. Accessories not listed. 30-day returns, buyer pays return shipping.",
+      "work_flag": "Fixed",
+      "seller_feedback": "100% (223 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366718954690",
+      "site": "ebay",
+      "title": "KENWOOD TS-430S 100W All Mode Amateur Radio Transceiver 1.8-30MHz Modified",
+      "price": 825.76,
+      "shipping": 110.0,
+      "found_at": "2026-10-07",
+      "condition_notes": "Used. Seller (Japan): general coverage transmit modification installed (TX 1.8-30 MHz); 100W TX/RX confirmed with dummy load; AM modulation good; 'Minor scratches and/or dirt'; includes mic and power cable. 30-day returns, buyer pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (223 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/267807286210",
+      "site": "ebay",
+      "title": "JRC NRD-525 Base Station Communications Receiver",
+      "price": 425.0,
+      "shipping": 18.81,
+      "found_at": "2026-10-07",
+      "condition_notes": "Used receiver. Seller: 'WORKING RADIO ON ALL MODES OF OPERATION', used mainly for WEFAX, 'SEE PICTURES FOR COSMETIC DEFECTS', clean, power cord included. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (1185 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/298741108799",
+      "site": "ebay",
+      "title": "YAESU FT-8900 R QUAD BAND FM TRANSCEIVER NIB",
+      "price": 525.0,
+      "shipping": 15.0,
+      "found_at": "2026-10-07",
+      "condition_notes": "Open box. Seller: 'New in box box was opened to take pictures', still has a piece of gift wrapping paper attached. 30-day returns, seller pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (6104 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/189058080056",
+      "site": "ebay",
+      "title": "Vintage Drake 2-NT CW HF 100 Watt Transmitter CLEAN",
+      "price": 149.0,
+      "shipping": 18.13,
+      "found_at": "2026-10-07",
+      "condition_notes": "Used, or Best Offer. Description is generic boilerplate plus 'Coming from a very large Estate.' No statement that it was powered up or tested. 30-day returns, buyer pays return shipping.",
+      "work_flag": "Coming from a very large Estate (no testing stated)",
+      "seller_feedback": "100% (1020 ratings)"
+    }
+  ]
+}
