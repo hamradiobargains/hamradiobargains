@@ -1,0 +1,156 @@
+{
+  "model": "JRC NRD-525",
+  "slug": "jrc-nrd-525",
+  "searched_at": "2026-10-07T18:03:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Searched eHam 'NRD-525' with sold box; single page of results. Kept SOLD ads with a stated price. Excluded wanted ads, a 2023 'NO LONGER AVAILABLE' ad not marked SOLD, and three SOLD ads with no price (W1EGB 2010, M0JSS 2009, WD0EUT 2004). Most comps are old (2000-2012); only 4 since 2019. searched_at is when this file was built, right after the eHam searches (run started 17:52 EDT).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/267807286210",
+    "site": "ebay",
+    "ask": 425.0,
+    "shipping": 18.81
+  },
+  "comps": [
+    {
+      "price": 450.0,
+      "sold_date": "2020-09-20",
+      "condition": "Very clean, good working stock receiver",
+      "url": "https://www.eham.net/classifieds/580608",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2019-09-16",
+      "condition": "Very nice working; small scratch on top left; CD of docs",
+      "url": "https://www.eham.net/classifieds/569625",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2019-04-26",
+      "condition": "Excellent; with CMH-530 RS-232 and CMK-165 VHF/UHF boards, Panasonic KX-P1150 printer, original manuals",
+      "url": "https://www.eham.net/classifieds/561746",
+      "notes": "FLAG: bundle incl. CMK-165 VHF/UHF option and printer; shipped"
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2012-09-03",
+      "condition": "Excellent; two Sherwood Engineering filters added (one Collins mechanical), bench tested 2010; manual",
+      "url": "https://www.eham.net/classifieds/376121",
+      "notes": "MOD: added Sherwood filters"
+    },
+    {
+      "price": 449.0,
+      "sold_date": "2010-08-21",
+      "condition": "Very clean, minor wear marks on top; with NVA-88 speaker, CMH-532 RS-232, original box",
+      "url": "https://www.eham.net/classifieds/324650",
+      "notes": "MODS: Radio West Collins CW/SSB/AM mechanical filter mods; FLAG: incl. NVA-88 speaker; plus shipping"
+    },
+    {
+      "price": 495.0,
+      "sold_date": "2008-03-20",
+      "condition": "Mint, latest firmware; owner's and repair manuals",
+      "url": "https://www.eham.net/classifieds/254049",
+      "notes": "plus shipping CONUS"
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2008-03-15",
+      "condition": "Excellent, optional 1kHz and 500Hz filters, no mods; box, manual",
+      "url": "https://www.eham.net/classifieds/253078",
+      "notes": "NI6S posted several ads 2008-01/03, likely same unit"
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2008-03-15",
+      "condition": "Mint, optional 500Hz and 1kHz filters, no mods; box, manual",
+      "url": "https://www.eham.net/classifieds/249191",
+      "notes": "likely repost of same NI6S unit"
+    },
+    {
+      "price": 525.0,
+      "sold_date": "2008-02-27",
+      "condition": "Mint; manual, custom cover",
+      "url": "https://www.eham.net/classifieds/253662",
+      "notes": "shipped lower 48"
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2008-01-05",
+      "condition": "Mint, optional 500Hz and 1kHz filters, no mods; box, manual",
+      "url": "https://www.eham.net/classifieds/249190",
+      "notes": "plus shipping; likely same NI6S unit as later ads"
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2008-01-03",
+      "condition": "Excellent; up/down buttons show wear",
+      "url": "https://www.eham.net/classifieds/244151",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 395.0,
+      "sold_date": "2007-09-04",
+      "condition": "Excellent, works great; up/down arrows worn",
+      "url": "https://www.eham.net/classifieds/239886",
+      "notes": "plus some help shipping; AF7D also posted 2007-08-12, likely same unit"
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2007-08-12",
+      "condition": "9 of 10 cosmetically; up/down buttons worn",
+      "url": "https://www.eham.net/classifieds/238020",
+      "notes": "shipped CONUS; likely same AF7D unit"
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2006-07-20",
+      "condition": "Very good mechanical, perfect electrical; 1kHz and 300Hz filters; manual copy",
+      "url": "https://www.eham.net/classifieds/206985",
+      "notes": "shipped US"
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2006-07-12",
+      "condition": "Stock, very good; manual copy, service manual CD",
+      "url": "https://www.eham.net/classifieds/206385",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2004-04-16",
+      "condition": "Very good overall; with CMK-165 VHF/UHF converter and NVA-88 speaker",
+      "url": "https://www.eham.net/classifieds/134747",
+      "notes": "FLAG: bundle incl. CMK-165 and NVA-88; or best offer"
+    },
+    {
+      "price": 435.0,
+      "sold_date": "2002-01-19",
+      "condition": "Excellent; optional 2kHz SSB filter; original and service manuals",
+      "url": "https://www.eham.net/classifieds/37581",
+      "notes": "shipped CONUS"
+    },
+    {
+      "price": 595.0,
+      "sold_date": "2001-09-10",
+      "condition": "Very good, slight wear on keypad and power switch; CMK-165 VHF/UHF converter, Kiwa 3.5kHz filter",
+      "url": "https://www.eham.net/classifieds/13464",
+      "notes": "FLAG: includes CMK-165 option; KL7XL posted twice, same unit"
+    },
+    {
+      "price": 595.0,
+      "sold_date": "2001-09-10",
+      "condition": "Excellent operating, very good overall, slight wear on keypad/power switch; CMK-165, Kiwa 3.5kHz filter",
+      "url": "https://www.eham.net/classifieds/8542",
+      "notes": "shipped lower 48/AK; likely repost of same KL7XL unit"
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2000-03-02",
+      "condition": "Excellent 9+; no 6m",
+      "url": "https://www.eham.net/classifieds/2447",
+      "notes": "FLAG: ad offered JST-135 + NRD-525 pair for $1200 or NRD-525 alone $550; unknown which sold; NRD-525 separate price recorded"
+    }
+  ]
+}
