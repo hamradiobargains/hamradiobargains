@@ -224,7 +224,7 @@ border-top: 1px solid var(--border);
 <text x="420" y="93" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#ff8c3b">Bargains</text>
 </svg>
 <p>Below-market used ham radio gear, found with a little help from technology and a lot of judgment from a 40-year ham. Updated numerous times per day — click a listing to go straight to the original ad.</p>
-<p style="margin-top:12px;"><a href="/archive.html" style="color:#ff8c3b; text-decoration:none; font-size:0.9rem;">Is this a good price? &rarr;</a> <span style="color:#5a6b7a;">&middot;</span> <a href="/market-report/" style="color:#ff8c3b; text-decoration:none; font-size:0.9rem;">Market report &rarr;</a> <span style="color:#5a6b7a;">&middot;</span> <a href="/models/" style="color:#ff8c3b; text-decoration:none; font-size:0.9rem;">Browse by model &rarr;</a> <span style="color:#5a6b7a;">&middot;</span> <a href="/tech-specials/" style="color:#ff8c3b; text-decoration:none; font-size:0.9rem;">Tech Specials &rarr;</a></p>
+<p style="margin-top:12px;"><a href="/archive.html" style="color:#ff8c3b; text-decoration:none; font-size:0.9rem;">Is this a good price? &rarr;</a> <span style="color:#5a6b7a;">&middot;</span> <a href="/market-report/" style="color:#ff8c3b; text-decoration:none; font-size:0.9rem;">Market report &rarr;</a> <span style="color:#5a6b7a;">&middot;</span> <a href="/models/" style="color:#ff8c3b; text-decoration:none; font-size:0.9rem;">Browse by model &rarr;</a> <span style="color:#5a6b7a;">&middot;</span> <a href="/tech-specials/" style="color:#ff8c3b; text-decoration:none; font-size:0.9rem;">Tech Specials &rarr;</a> <span style="color:#5a6b7a;">&middot;</span> <a href="/on-the-air/" style="color:#ff8c3b; text-decoration:none; font-size:0.9rem;">On the Air &rarr;</a></p>
 </header>
 
 <main>
@@ -238,6 +238,39 @@ border-top: 1px solid var(--border);
 <h2 class="section-title">Biggest deals right now</h2>
 <p class="section-sub">Sorted by percent below market</p>
 <div id="top-deals" class="top-deals-grid"></div>
+</div>
+
+<style>
+.ota-teaser{max-width:1100px;margin:0 auto 32px;padding:0 16px;}
+.ota-teaser-head{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:4px;}
+.ota-teaser-head h2{font-size:1.4rem;font-weight:700;}
+.ota-teaser-head h2 .accent{color:#ff8c3b;}
+.ota-teaser-dates{color:#8fa1a8;font-size:0.9rem;}
+.ota-teaser-sub{color:#8fa1a8;font-size:0.95rem;margin-bottom:16px;max-width:640px;}
+.ota-teaser-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;}
+.ota-teaser-card{background:#171e23;border:1px solid #2a343a;border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:8px;}
+.ota-teaser-tag{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:#ff8c3b;font-weight:600;}
+.ota-teaser-card h3{font-size:1.05rem;font-weight:700;}
+.ota-teaser-card p{color:#8fa1a8;font-size:0.85rem;}
+.ota-teaser-deal{margin-top:auto;background:#0f1417;border:1px solid #2a343a;border-radius:8px;padding:10px 12px;}
+.ota-teaser-deal .t-label{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:#8fa1a8;margin-bottom:2px;}
+.ota-teaser-deal .t-item{font-weight:600;font-size:0.92rem;}
+.ota-teaser-deal .t-nums{display:flex;align-items:center;gap:8px;margin-top:4px;flex-wrap:wrap;}
+.ota-teaser-deal .t-price{font-size:1.15rem;font-weight:700;color:#ff8c3b;}
+.ota-teaser-deal .t-pct{background:#1d3a24;color:#7ddf9a;font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;}
+.ota-teaser-deal a{color:#ff8c3b;font-size:0.85rem;font-weight:600;text-decoration:none;display:inline-block;margin-top:6px;}
+.ota-teaser-more{display:block;text-align:center;margin-top:14px;color:#ff8c3b;font-weight:600;text-decoration:none;}
+</style>
+<div class="ota-teaser">
+<div class="ota-teaser-head"><h2>On the Air <span class="accent">This Weekend</span></h2><span class="ota-teaser-dates">October 10&ndash;11</span></div>
+<p class="ota-teaser-sub">What&apos;s happening on the bands &mdash; and the below-market gear that gets you into it.</p>
+<div class="ota-teaser-grid">
+<div class="ota-teaser-card"><div class="ota-teaser-tag">State QSO Party</div><h3>Pennsylvania QSO Party</h3><p>One of the biggest state parties of the year &mdash; two sessions across the weekend.</p><div class="ota-teaser-deal"><div class="t-label">Get into it with</div><div class="t-item">Yaesu FT-817 &mdash; $399</div><div class="t-nums"><span class="t-price">$399</span><span class="t-pct">38% below market</span></div><a href="/deal.html?link=https%3A%2F%2Fswap.qth.com%2Fview_ad.php%3Fcounter%3D1779668">View the deal &rarr;</a></div></div>
+<div class="ota-teaser-card"><div class="ota-teaser-tag">DX &middot; CW</div><h3>Oceania DX Contest</h3><p>Work Australia, New Zealand, and the Pacific on CW, 160&ndash;10m.</p><div class="ota-teaser-deal"><div class="t-label">Get into it with</div><div class="t-item">Kenwood TS-850S w/ mic</div><div class="t-nums"><span class="t-price">$375</span><span class="t-pct">31% below market</span></div><a href="/deal.html?link=https%3A%2F%2Fswap.qth.com%2Fview_ad.php%3Fcounter%3D1778694">View the deal &rarr;</a></div></div>
+<div class="ota-teaser-card"><div class="ota-teaser-tag">Digital</div><h3>Makrothen RTTY Contest</h3><p>A weekend RTTY sprint &mdash; your grid square is the exchange.</p><div class="ota-teaser-deal"><div class="t-label">Get into it with</div><div class="t-item">Timewave Navigator interface</div><div class="t-nums"><span class="t-price">$175</span><span class="t-pct">31% below market</span></div><a href="/deal.html?link=https%3A%2F%2Fswap.qth.com%2Fview_ad.php%3Fcounter%3D1780588">View the deal &rarr;</a></div></div>
+<div class="ota-teaser-card"><div class="ota-teaser-tag">10 Meters</div><h3>10-10 Day Sprint</h3><p>24 hours, 10 meters only, all modes. Saturday on the radio, simplified.</p><div class="ota-teaser-deal"><div class="t-label">Get into it with</div><div class="t-item">Hustler 5-BTV vertical</div><div class="t-nums"><span class="t-price">$200</span><span class="t-pct">40% below market</span></div><a href="/deal.html?link=https%3A%2F%2Fswap.qth.com%2Fview_ad.php%3Fcounter%3D1778840">View the deal &rarr;</a></div></div>
+</div>
+<a class="ota-teaser-more" href="/on-the-air/">See the full October calendar &rarr;</a>
 </div>
 
 <div class="signup-card">
