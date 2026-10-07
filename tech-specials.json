@@ -1,16 +1,28 @@
 {
-  "listings": [
-    {
-      "date": "2026-09-29",
-      "title": "Collins 75S-3 Receiver",
-      "url": "https://swap.qth.com/view_ad.php?counter=1780791",
-      "price": 295.0,
-      "extra": 0.0,
-      "pct_below": 41,
-      "median": 500.0,
-      "comp_count": 3,
-      "source": "QTH",
-      "work_flag": "no audio \u2014 seller suspects dead audio output tube; no power cable"
-    }
-  ]
+ "listings": [
+  {
+   "date": "2026-09-29",
+   "title": "Collins 75S-3 Receiver",
+   "url": "https://swap.qth.com/view_ad.php?counter=1780791",
+   "price": 295.0,
+   "extra": 0.0,
+   "pct_below": 41,
+   "median": 500.0,
+   "comp_count": 3,
+   "source": "QTH",
+   "work_flag": "no audio — seller suspects dead audio output tube; no power cable"
+  },
+  {
+   "date": "2026-09-26",
+   "title": "Kenwood TM-742A Tri-Band FM Mobile (144/220/440, one pilot lamp out)",
+   "url": "https://swap.qth.com/view_ad.php?counter=1780585",
+   "price": 299.0,
+   "extra": 0.0,
+   "pct_below": 42,
+   "median": 512.5,
+   "comp_count": 4,
+   "source": "QTH",
+   "work_flag": "one pilot lamp out"
+  }
+ ]
 }
