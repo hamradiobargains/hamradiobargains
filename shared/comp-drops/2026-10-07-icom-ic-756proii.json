@@ -1,0 +1,79 @@
+{
+  "model": "Icom IC-756PROII",
+  "slug": "icom-ic-756proii",
+  "searched_at": "2026-10-07T18:03:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Searched eHam keyword '756PRO' with sold box; kept only ads marked SOLD that are the PRO II (excluded IC-756PRO and PRO III, a parts-out ad with no price, and a trade ad with no price). Asking prices at time marked sold. Page 1 of 10 only. searched_at is when this file was built, right after the eHam searches (run started 17:52 EDT).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366718916376",
+    "site": "ebay",
+    "ask": 1217.46,
+    "shipping": 120.0
+  },
+  "comps": [
+    {
+      "price": 975.0,
+      "sold_date": "2021-09-09",
+      "condition": "Excellent condition, tested on air, from estate; w/ desk mic, power cable, manual",
+      "url": "https://www.eham.net/classifieds/589965",
+      "notes": "listed $975 plus pack/shipping"
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2021-07-13",
+      "condition": "Beautiful condition, lightly used, works perfectly; HM-36 mic, DC cord, box, manual",
+      "url": "https://www.eham.net/classifieds/588399",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 695.0,
+      "sold_date": "2020-07-26",
+      "condition": "Excellent condition, works as it should; box, mic, power cord, manual",
+      "url": "https://www.eham.net/classifieds/579274",
+      "notes": "free shipping to US48 included"
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2020-03-10",
+      "condition": "Fully functional, no cosmetic issues; HM-36 mic, dust cover",
+      "url": "https://www.eham.net/classifieds/575835",
+      "notes": "bundle includes ICOM PS-125 power supply; split shipping"
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2020-01-24",
+      "condition": "Recently serviced by Icom Service Center, works as it should; box, manual, HM-36",
+      "url": "https://www.eham.net/classifieds/574733",
+      "notes": "shipped price"
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2019-12-06",
+      "condition": "Fully operational, no functional or obvious cosmetic issues; mic, power cable, box",
+      "url": "https://www.eham.net/classifieds/573319",
+      "notes": "MOD: unlocked for transmit outside ham bands; plus actual shipping"
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2019-08-27",
+      "condition": "Excellent condition, full power all bands; PS-125, HM-36, manual, boxes",
+      "url": "https://www.eham.net/classifieds/564126",
+      "notes": "MODS: INRAD roofing filter, LED backlight; bundle includes PS-125 power supply; price reduced; plus shipping"
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2018-12-07",
+      "condition": "Excellent condition spare radio; box, manual, hand mic",
+      "url": "https://www.eham.net/classifieds/554653",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2017-05-20",
+      "condition": "Very nice working, original box, mic, power cord, manual",
+      "url": "https://www.eham.net/classifieds/522885",
+      "notes": "plus shipping"
+    }
+  ]
+}
