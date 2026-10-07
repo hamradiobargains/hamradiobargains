@@ -1,0 +1,303 @@
+{
+  "model": "Icom IC-7200",
+  "slug": "icom-ic-7200",
+  "searched_at": "2026-10-07T18:03:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Searched eHam 'IC-7200' with sold box; kept SOLD ads for the radio. Excluded rack/front handle accessory ads, a WANTED ad marked sold, a trade ad with no price, and a 'MIGHT BE SOLD' ad not marked SOLD. Several sellers reposted the same unit (noted per comp). Page 1 of 3 only. searched_at is when this file was built, right after the eHam searches (run started 17:52 EDT).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366718916444",
+    "site": "ebay",
+    "ask": 1005.73,
+    "shipping": 120.0
+  },
+  "comps": [
+    {
+      "price": 600.0,
+      "sold_date": "2025-08-04",
+      "condition": "Very little use, no cosmetic flaws; front handles, side handle, box (beat up), mic, manual",
+      "url": "https://www.eham.net/classifieds/622141",
+      "notes": "buyer pays shipping"
+    },
+    {
+      "price": 625.0,
+      "sold_date": "2024-04-25",
+      "condition": "Like new; hand mic, power cord, handles",
+      "url": "https://www.eham.net/classifieds/613125",
+      "notes": ""
+    },
+    {
+      "price": 725.0,
+      "sold_date": "2023-04-14",
+      "condition": "Near-new; box, mic, power cable w/ Powerpoles, front handles",
+      "url": "https://www.eham.net/classifieds/604717",
+      "notes": "shipped CONUS"
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2023-04-14",
+      "condition": "Nice, works like it should, looks good; cord, manual, side handle, HM-36",
+      "url": "https://www.eham.net/classifieds/604706",
+      "notes": "shipped CONUS; marked SOLD PENDING FUNDS"
+    },
+    {
+      "price": 599.0,
+      "sold_date": "2022-12-26",
+      "condition": "Good condition, all functions operate; bail possibly bent, radio does not lay flat; sold As Is, No Returns",
+      "url": "https://www.eham.net/classifieds/602153",
+      "notes": "FLAG: possibly bent bail, as-is; plus shipping"
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2022-05-14",
+      "condition": "Excellent, almost no use; MB-116 handles; no original box",
+      "url": "https://www.eham.net/classifieds/596237",
+      "notes": "shipped USA"
+    },
+    {
+      "price": 575.0,
+      "sold_date": "2021-08-27",
+      "condition": "VG condition, 100W verified all bands; box, manual, HM-36",
+      "url": "https://www.eham.net/classifieds/589597",
+      "notes": "MODS: full MARS mods, AB5N mic upgrade; shipping extra"
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2021-07-22",
+      "condition": "Like new; box, manual, cord, CD, mic",
+      "url": "https://www.eham.net/classifieds/588676",
+      "notes": "local pickup only (Marion OH), will not ship"
+    },
+    {
+      "price": 525.0,
+      "sold_date": "2021-07-01",
+      "condition": "Original owner, works great; manual, mic, CD, cord, handles; no box",
+      "url": "https://www.eham.net/classifieds/588055",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 625.0,
+      "sold_date": "2021-06-01",
+      "condition": "Good condition, works 100%, a few small scratches; manual, mic, new power cord",
+      "url": "https://www.eham.net/classifieds/587235",
+      "notes": "plus half shipping"
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2021-04-13",
+      "condition": "Looks new; optional handle kit, mic, manual, cable, box",
+      "url": "https://www.eham.net/classifieds/585988",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2020-12-14",
+      "condition": "Does not work, no lights, no sound; hooked up with reverse polarity; good cosmetics; AS IS, NO RETURNS",
+      "url": "https://www.eham.net/classifieds/582879",
+      "notes": "FLAG: dead unit for parts; plus shipping"
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2020-06-13",
+      "condition": "One owner, very low usage, everything works; side handles, SM-20 desk mic, box",
+      "url": "https://www.eham.net/classifieds/578082",
+      "notes": "plus $30 FedEx shipping"
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2020-03-09",
+      "condition": "Very good condition, very low hours; box, manual, cord, mic",
+      "url": "https://www.eham.net/classifieds/575796",
+      "notes": "shipped CONUS"
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2019-09-16",
+      "condition": "Excellent, bought new 2018; handles, 2 hand mics",
+      "url": "https://www.eham.net/classifieds/569905",
+      "notes": "shipped lower 48"
+    },
+    {
+      "price": 875.0,
+      "sold_date": "2019-01-06",
+      "condition": "Pristine; with SM-20 mic and LDG Z-100 antenna tuner",
+      "url": "https://www.eham.net/classifieds/556070",
+      "notes": "FLAG: bundle incl. LDG Z-100 tuner and SM-20 mic; shipped"
+    },
+    {
+      "price": 625.0,
+      "sold_date": "2018-07-16",
+      "condition": "Mint, one owner, rarely used; side and front handles, box, manual",
+      "url": "https://www.eham.net/classifieds/547018",
+      "notes": "shipped lower 48"
+    },
+    {
+      "price": 585.0,
+      "sold_date": "2018-05-19",
+      "condition": "Mint, very low hours; box, manual, Powerpole cord",
+      "url": "https://www.eham.net/classifieds/543870",
+      "notes": "MOD: HM-36 mic modded for audio; shipped CONUS"
+    },
+    {
+      "price": 625.0,
+      "sold_date": "2017-06-14",
+      "condition": "Works 100%",
+      "url": "https://www.eham.net/classifieds/524399",
+      "notes": "free CONUS shipping; same seller K0VOZ posted 5 ads 2017-06-13/14 at $600-$700, likely reposts of one unit"
+    },
+    {
+      "price": 625.0,
+      "sold_date": "2017-06-14",
+      "condition": "Works 100%; SM-30 desk mic, HM-30 mic, USB cable, front handles",
+      "url": "https://www.eham.net/classifieds/524338",
+      "notes": "shipped CONUS; likely repost of same K0VOZ unit"
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2017-06-14",
+      "condition": "SM-30 desk mic, HM-30 mic, USB cable, front handles",
+      "url": "https://www.eham.net/classifieds/524280",
+      "notes": "shipped CONUS; likely repost of same K0VOZ unit"
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2017-06-14",
+      "condition": "SM-30 desk mic, HM-30 mic, USB cable, front handles",
+      "url": "https://www.eham.net/classifieds/524251",
+      "notes": "shipped CONUS; likely repost of same K0VOZ unit"
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2017-06-13",
+      "condition": "Works 100%",
+      "url": "https://www.eham.net/classifieds/524443",
+      "notes": "free CONUS shipping; likely repost of same K0VOZ unit"
+    },
+    {
+      "price": 625.0,
+      "sold_date": "2017-03-29",
+      "condition": "Excellent, looks and works great; box, mic, manual, cord",
+      "url": "https://www.eham.net/classifieds/519040",
+      "notes": "shipped US; NZ8J posted twice, likely same unit"
+    },
+    {
+      "price": 645.0,
+      "sold_date": "2017-03-29",
+      "condition": "Excellent, looks and works great; box, mic, manual, cord",
+      "url": "https://www.eham.net/classifieds/518738",
+      "notes": "shipped US; likely repost of same NZ8J unit"
+    },
+    {
+      "price": 1050.0,
+      "sold_date": "2017-03-18",
+      "condition": "IC-7200 with MB-116, MB-117, LDG IT-100 tuner, Astron SS-30M PS, keyer paddle, box",
+      "url": "https://www.eham.net/classifieds/516776",
+      "notes": "FLAG: bundle incl. tuner and power supply; shipping paid by seller"
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2017-02-11",
+      "condition": "Like new, 3 years old; box, manual, HM-36",
+      "url": "https://www.eham.net/classifieds/509546",
+      "notes": "shipped continental US"
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2017-02-02",
+      "condition": "Very good, backup radio; box, cable, mic, handles",
+      "url": "https://www.eham.net/classifieds/514855",
+      "notes": "MOD: MARS mod applied; shipping included"
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2017-01-11",
+      "condition": "Clean, no marks; front handles, mic, cord, manual reprint, box",
+      "url": "https://www.eham.net/classifieds/513484",
+      "notes": "shipped CONUS"
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2017-01-01",
+      "condition": "Mint, 100%; box, cord, mic, side handles; manual copy",
+      "url": "https://www.eham.net/classifieds/512698",
+      "notes": "plus $20 shipping"
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2016-11-13",
+      "condition": "Like new, low hours; boxes, manual, uncut cord, mic",
+      "url": "https://www.eham.net/classifieds/509845",
+      "notes": "shipped and insured"
+    },
+    {
+      "price": 675.0,
+      "sold_date": "2016-08-12",
+      "condition": "Stock radio; MB-116 handles, box, manual",
+      "url": "https://www.eham.net/classifieds/503675",
+      "notes": "MOD: HM-36 mic AB5N mod; shipped lower 48; WB7RBN repost of 2016-08-06 ad"
+    },
+    {
+      "price": 725.0,
+      "sold_date": "2016-08-06",
+      "condition": "Stock radio; MB-116 handles, box, manual; sold as is, no returns",
+      "url": "https://www.eham.net/classifieds/502805",
+      "notes": "MOD: HM-36 mic AB5N mod; shipped lower 48"
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2016-06-17",
+      "condition": "Like new, with Acer laptop running FLDIGI/FLRIG; boxes, manuals, front handles",
+      "url": "https://www.eham.net/classifieds/493571",
+      "notes": "FLAG: bundle incl. laptop; split shipping"
+    },
+    {
+      "price": 695.0,
+      "sold_date": "2016-05-01",
+      "condition": "New never used, never out of box; HM-36, cord",
+      "url": "https://www.eham.net/classifieds/495892",
+      "notes": "shipped CONUS"
+    },
+    {
+      "price": 625.0,
+      "sold_date": "2016-04-02",
+      "condition": "Clean, no marks; mic, cord, manual reprint",
+      "url": "https://www.eham.net/classifieds/494215",
+      "notes": "shipped and insured CONUS"
+    },
+    {
+      "price": 599.0,
+      "sold_date": "2016-03-29",
+      "condition": "Gently used, works as it should; mic, cord, manual; sold as is, no returns",
+      "url": "https://www.eham.net/classifieds/493963",
+      "notes": "plus $25 shipping"
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2015-12-02",
+      "condition": "Lightly used, looks like new; HM-36, manuals, cord, front handles, box",
+      "url": "https://www.eham.net/classifieds/485194",
+      "notes": "MOD: HM-36 AB5N mod; shipped lower 48"
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2015-11-03",
+      "condition": "Excellent, one owner; side and front handles",
+      "url": "https://www.eham.net/classifieds/482492",
+      "notes": "seller pays shipping CONUS"
+    },
+    {
+      "price": 695.0,
+      "sold_date": "2015-10-20",
+      "condition": "Perfect condition; Powerpole cord, HM-36, MB-117, USB cable",
+      "url": "https://www.eham.net/classifieds/482112",
+      "notes": "shipped US; WB0MMZ posted twice same day, same unit"
+    },
+    {
+      "price": 695.0,
+      "sold_date": "2015-10-20",
+      "condition": "Perfect condition; Powerpole cord, HM-36, MB-117, USB cable",
+      "url": "https://www.eham.net/classifieds/482093",
+      "notes": "shipped US; likely repost of same WB0MMZ unit"
+    }
+  ]
+}
