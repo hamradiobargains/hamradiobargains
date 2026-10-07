@@ -1,0 +1,22 @@
+{
+  "model": "Icom IC-705",
+  "slug": "icom-ic-705",
+  "searched_at": "2026-10-07T05:57:17-04:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eHam search skipped — median 1150, count 12, ledger date 2026-09-29",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629090",
+    "site": "eham",
+    "ask": 900.0,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 1150,
+    "low": 999,
+    "high": 1550,
+    "count": 12,
+    "date": "2026-09-29"
+  }
+}
