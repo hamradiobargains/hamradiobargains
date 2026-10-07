@@ -1,0 +1,275 @@
+{
+  "model": "Kenwood TS-430S",
+  "slug": "kenwood-ts-430s",
+  "searched_at": "2026-10-07T18:03:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Searched eHam 'TS-430' with sold box; kept SOLD ads naming the TS-430S. Excluded ads titled only 'TS-430' (WL7B 2017 $325, K9DTC 2018 parts $150) per strict model rule, an FM-430 board accessory, a trade ad with no price, and K3AC 2020-11-22 (marked sold but no price stated). Trigger listing has a general-coverage transmit mod; many comps also carry MARS/10Hz mods. Page 1 of 9 only. searched_at is when this file was built, right after the eHam searches (run started 17:52 EDT).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366718954690",
+    "site": "ebay",
+    "ask": 825.76,
+    "shipping": 110.0
+  },
+  "comps": [
+    {
+      "price": 350.0,
+      "sold_date": "2026-02-26",
+      "condition": "Excellent; tuned/adjusted July 2024 by Midwest Technical Services; narrow and wide SSB filters, FM board, MC-43S mic",
+      "url": "https://www.eham.net/classifieds/625273",
+      "notes": "plus shipping; PS-85 power supply offered separately at $80"
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2024-03-09",
+      "condition": "Clean, working, 100W; manual, DC cable",
+      "url": "https://www.eham.net/classifieds/612056",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2023-01-12",
+      "condition": "All pieces fully functional, very clean inside; exterior 5/10 with typical wear and oxidation; YK-88SN filter, FM-430 board",
+      "url": "https://www.eham.net/classifieds/602485",
+      "notes": "FLAG: ad offered full station (PS-430, AT-250, SP-430) for $600 or radio alone $375; unknown which sold; radio-only price recorded"
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2022-11-17",
+      "condition": "Sat unused; receives well, AM audio poor, 'does need some work'; transmit unchecked",
+      "url": "https://www.eham.net/classifieds/601196",
+      "notes": "FLAG: needs work, untested transmit; $140 with power cable; marked sale pending"
+    },
+    {
+      "price": 535.0,
+      "sold_date": "2022-10-29",
+      "condition": "Very nice, just back from HamRadioRepair (Cal Fischer), works great; with PS-50 power supply, SP-430 speaker, hand mic",
+      "url": "https://www.eham.net/classifieds/600718",
+      "notes": "FLAG: bundle incl. PS-50 and SP-430; plus $65 shipping"
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2022-08-20",
+      "condition": "Full output all bands; manual, new MC-43S mic",
+      "url": "https://www.eham.net/classifieds/598678",
+      "notes": "shipped ConUS"
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2022-06-27",
+      "condition": "Excellent, all 4 filter positions filled, full power; some marks on top cover; MC-43 mic, cord",
+      "url": "https://www.eham.net/classifieds/597287",
+      "notes": "plus shipping or pickup"
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2022-06-14",
+      "condition": "Very nice, all 4 filters, FM-430 installed, full power; some marks on top cover; meter dial lamp not working",
+      "url": "https://www.eham.net/classifieds/597010",
+      "notes": "FLAG: meter lamp out; plus shipping or pickup"
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2022-06-04",
+      "condition": "For parts or repair: PA not working, no transmit, S-meter dead, no cabinet screws, front panel scratched/gouged; narrow SSB and AM filters",
+      "url": "https://www.eham.net/classifieds/596749",
+      "notes": "FLAG: parts/repair unit; plus shipping"
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2021-11-15",
+      "condition": "Works great; FM board, all filters except CW, final rivet mod; with PS-430 power supply and hand mic",
+      "url": "https://www.eham.net/classifieds/591703",
+      "notes": "FLAG: bundle incl. PS-430; OBO plus shipping"
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2021-05-22",
+      "condition": "Super nice, hardly any scratches, ~110W; CW filter; box, cord, manual; no mic",
+      "url": "https://www.eham.net/classifieds/586972",
+      "notes": "shipped lower 48"
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2021-05-02",
+      "condition": "Clean, never mobile; CW filter and FM module; mic, cord, manual",
+      "url": "https://www.eham.net/classifieds/586495",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 335.0,
+      "sold_date": "2020-11-12",
+      "condition": "Very clean, works 100%",
+      "url": "https://www.eham.net/classifieds/581966",
+      "notes": "MODS: MARS and 10Hz; FedEx shipped"
+    },
+    {
+      "price": 299.0,
+      "sold_date": "2020-09-28",
+      "condition": "Working as designed; cosmetics fair to good; ~100W+; mic, cord",
+      "url": "https://www.eham.net/classifieds/580783",
+      "notes": "shipped FedEx"
+    },
+    {
+      "price": 297.0,
+      "sold_date": "2020-08-25",
+      "condition": "MC-42S mic, power cord",
+      "url": "https://www.eham.net/classifieds/580025",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 285.0,
+      "sold_date": "2020-05-26",
+      "condition": "Works very well; repainted black wrinkle; no extra filters or FM; generic mic",
+      "url": "https://www.eham.net/classifieds/577626",
+      "notes": "FLAG: repainted; shipped FedEx"
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2020-03-27",
+      "condition": "Works well; FM module, new memory battery, new LED meter lamp; some scratches",
+      "url": "https://www.eham.net/classifieds/576133",
+      "notes": "shipped lower 48"
+    },
+    {
+      "price": 295.0,
+      "sold_date": "2020-03-25",
+      "condition": "Very good, works fine; AM filter, LED dial lamp",
+      "url": "https://www.eham.net/classifieds/576101",
+      "notes": "MOD: MARS mod; plus half shipping"
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2020-02-16",
+      "condition": "Great starter rig; hand mic and cord",
+      "url": "https://www.eham.net/classifieds/575302",
+      "notes": "plus shipping; body says THIS RIG HAS BEEN SOLD"
+    },
+    {
+      "price": 330.0,
+      "sold_date": "2019-03-21",
+      "condition": "Very clean, non smoker; mic, manual, DC cord",
+      "url": "https://www.eham.net/classifieds/554331",
+      "notes": "MODS: 10Hz, 60m, MARS; shipped"
+    },
+    {
+      "price": 330.0,
+      "sold_date": "2019-03-21",
+      "condition": "Very clean, works 100%; mic, manual, DC cord",
+      "url": "https://www.eham.net/classifieds/544930",
+      "notes": "MODS: MARS, 10Hz; shipped"
+    },
+    {
+      "price": 465.0,
+      "sold_date": "2018-11-04",
+      "condition": "Very nice; with matching speaker, power supply, mic",
+      "url": "https://www.eham.net/classifieds/553129",
+      "notes": "FLAG: bundle incl. power supply and speaker; plus shipping"
+    },
+    {
+      "price": 335.0,
+      "sold_date": "2018-06-07",
+      "condition": "Very clean; AM filter",
+      "url": "https://www.eham.net/classifieds/528790",
+      "notes": "MODS: 10Hz and general-coverage transmit; shipped"
+    },
+    {
+      "price": 330.0,
+      "sold_date": "2018-06-07",
+      "condition": "Very clean; AM filter; mic, manual, cord",
+      "url": "https://www.eham.net/classifieds/526903",
+      "notes": "MODS: 10Hz and general-coverage transmit; shipped"
+    },
+    {
+      "price": 330.0,
+      "sold_date": "2018-06-07",
+      "condition": "Works 100% all bands",
+      "url": "https://www.eham.net/classifieds/516788",
+      "notes": "MODS: 10Hz, 60m, MARS; shipped"
+    },
+    {
+      "price": 335.0,
+      "sold_date": "2018-06-07",
+      "condition": "Works 100%; YK-88S 2.4 installed",
+      "url": "https://www.eham.net/classifieds/499460",
+      "notes": "MODS: MARS, 60m, 10Hz; shipped"
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2018-05-26",
+      "condition": "Works good; fair physical condition, faint smoker smell; FM board, YK88A/S/N filters; with PS30 power supply, mobile brackets",
+      "url": "https://www.eham.net/classifieds/538788",
+      "notes": "FLAG: smoker smell; bundle incl. PS30; plus shipping"
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2017-07-14",
+      "condition": "Average/good; 10 and 12m lose readout and RX/TX after ~15 min, 'maybe it just needs tuning'; no returns",
+      "url": "https://www.eham.net/classifieds/523328",
+      "notes": "FLAG: intermittent on 10/12m; plus $35 shipping; KD4UWD posted twice, same unit"
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2017-07-14",
+      "condition": "Good; 10 and 12m lose readout after ~15 min; no returns",
+      "url": "https://www.eham.net/classifieds/501245",
+      "notes": "FLAG: intermittent on 10/12m; likely repost of same KD4UWD unit"
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2017-07-05",
+      "condition": "Good working, FM board, 100W all bands",
+      "url": "https://www.eham.net/classifieds/507730",
+      "notes": "shipped"
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2017-03-21",
+      "condition": "Excellent operating condition; YK88C CW filter, Fox Tango 2.1 kHz filter; box, manuals",
+      "url": "https://www.eham.net/classifieds/518448",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2016-07-15",
+      "condition": "Very good, works well, FM board; with power supply, mic, manual",
+      "url": "https://www.eham.net/classifieds/501518",
+      "notes": "MOD: MARS; FLAG: bundle incl. PS-30 power supply; plus $45 shipping"
+    },
+    {
+      "price": 335.0,
+      "sold_date": "2016-05-12",
+      "condition": "Very clean, works 100%; YK-88S",
+      "url": "https://www.eham.net/classifieds/496611",
+      "notes": "MODS: 10Hz, MARS; shipped"
+    },
+    {
+      "price": 330.0,
+      "sold_date": "2016-03-12",
+      "condition": "Clean; YK-88S",
+      "url": "https://www.eham.net/classifieds/492202",
+      "notes": "MODS: MARS, 10Hz; shipped"
+    },
+    {
+      "price": 340.0,
+      "sold_date": "2016-03-05",
+      "condition": "YK-88S installed",
+      "url": "https://www.eham.net/classifieds/488761",
+      "notes": "MODS: MARS, 10Hz; shipped"
+    },
+    {
+      "price": 315.0,
+      "sold_date": "2016-01-03",
+      "condition": "Very good; hand mic, YK-88S, DC cable",
+      "url": "https://www.eham.net/classifieds/470323",
+      "notes": "shipped lower 48"
+    },
+    {
+      "price": 340.0,
+      "sold_date": "2015-12-01",
+      "condition": "Very clean",
+      "url": "https://www.eham.net/classifieds/482329",
+      "notes": "MODS: MARS, 10Hz; shipped"
+    }
+  ]
+}
