@@ -1,0 +1,53 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-07",
+  "ran_at": "2026-10-07T05:52:43-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-06T05:53:10-04:00 (prior eham run). Signed in as K4LFC. Classifieds feed page 1 covered new ads 629086-629092. Comps: IC-705 and FT-991A ledger hits (no eHam search); eHam searches for 'Acom 1000' and 'ID-5100' completed, spaced 25s+, no Cloudflare/1015 or challenge seen. ID-5100 (629078) was carried over from the prior run, whose comp search had errored. Seen but not comped / not dropped: Yaesu FT-4 #1 629091 and #2 629092 ($75 each + actual shipping, MARS-mod, seller KH2EI) - variant (FT-4XR/XE/VR) not stated, ad pastes a European spec sheet, so model identity too uncertain for comps; SCS P4 Dragon 629086 ($950) - title says DR-7400 but body says DR-7800, identity unclear; Motorola SL3500E 629087 ($285 shipped) - commercial DMR handheld. Still unpicked from prior run: FTM-400XDR 629083, FT5DR 629082, RGO One v6 629084 and others listed in the 2026-10-06 notes. Observation (not a judgment): KH2EI posted 4 ads in one batch (IC-705 $900, FT-991A $900, two FT-4 $75), all 'almost new', MARS-modded, PayPal+2%, spec-sheet text, FT-991A ad says pics are stock; the 2026-10-06 feed also had a scam-warning ad (629081).",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629090",
+      "site": "eham",
+      "title": "ICOM IC-705 Pristine with Low Hours",
+      "price": 900.0,
+      "shipping": 0,
+      "found_at": "2026-10-07",
+      "condition_notes": "Seller says almost new, pristine, less than 5 hours use; quick release adapter, cage, MARS-Mod, box and manual. 'Fully functional', guaranteed or full refund incl. shipping. PayPal + 2% charge. Shipping not stated. Same seller (KH2EI) posted 4 ads at once (IC-705, FT-991A, 2x FT-4) with spec-sheet copy; FT-991A ad says 'pics are stock'.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629089",
+      "site": "eham",
+      "title": "Yaesu 991A Pristine Low Time $900",
+      "price": 900.0,
+      "shipping": 0,
+      "found_at": "2026-10-07",
+      "condition_notes": "Seller says pristine, less than 10 hours total operation; stock mic, manual, box. 'Fully functioning', guaranteed or full refund incl. shipping. PayPal + 2% charge. Shipping 'actual costs' (amount not stated). Seller notes 'The pics are stock but I will update add with actual pics.' Same seller KH2EI posted 4 ads at once.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629088",
+      "site": "eham",
+      "title": "Acom",
+      "price": 2300.0,
+      "shipping": 0,
+      "found_at": "2026-10-07",
+      "condition_notes": "Acom 1000 HF + 6m from a non-smoking home; wired for 115 V, 'easily puts out 1000 watts'. Located in Connecticut; shipping/pickup terms not stated. $2300.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629078",
+      "site": "eham",
+      "title": "ID5100 / DStar",
+      "price": 350.0,
+      "shipping": 0,
+      "found_at": "2026-10-07",
+      "condition_notes": "Posted 2026-10-05 (deferred from the 2026-10-06 run, comps now done). ICOM ID5100 D-Star dual band in 'excellent' condition; all cords, box, manual, original shipping boxes. $350 plus shipping and insurance (amount not stated). Variant (ID-5100A vs Deluxe) not stated.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
