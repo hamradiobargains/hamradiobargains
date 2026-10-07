@@ -1,0 +1,51 @@
+{
+  "model": "Acom 1000",
+  "slug": "acom-1000",
+  "searched_at": "2026-10-07T05:57:17-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search 'Acom 1000' with sold box, page 1 only. 5 sold comps. Dates are ad post dates (eHam does not show sold date); prices are asking prices on ads marked SOLD. Excluded: 623828 (not marked sold, PN-07 fault), 610208 and 606468 (not marked sold), 598757 (dust cover only). Not in site ledger.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629088",
+    "site": "eham",
+    "ask": 2300.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1700.0,
+      "sold_date": "2025-05-22",
+      "condition": "Excellent condition, 160-6m, wired 240 VAC, works great, manual, display film still on, non-smoking. Will not ship - meet near Shippensburg PA.",
+      "url": "https://www.eham.net/classifieds/620823",
+      "notes": "pickup only; date is ad post date, sold date not shown"
+    },
+    {
+      "price": 1700.0,
+      "sold_date": "2024-08-09",
+      "condition": "Excellent late model, from estate of SK friend, original manual. Pickup Greer SC, no shipping.",
+      "url": "https://www.eham.net/classifieds/615468",
+      "notes": "pickup only; estate item; date is ad post date"
+    },
+    {
+      "price": 1800.0,
+      "sold_date": "2024-07-24",
+      "condition": "Newer black face model, very low hours (<5), like new, checked out working, wired 230 V, manual and cover. Pickup only near Danville VA.",
+      "url": "https://www.eham.net/classifieds/615098",
+      "notes": "pickup only; estate item; date is ad post date"
+    },
+    {
+      "price": 2195.0,
+      "sold_date": "2022-08-09",
+      "condition": "Exceptional condition, rarely used, wired 240 V; manual, power cord, double box; includes a new spare GU-74B tube. Local pickup preferred, may ship.",
+      "url": "https://www.eham.net/classifieds/598355",
+      "notes": "includes spare GU-74B tube; duplicate ad 598307 (2022-08-07, same seller/item/price, also SOLD) counted once"
+    },
+    {
+      "price": 2750.0,
+      "sold_date": "2022-05-12",
+      "condition": "Excellent, purchased new Feb 2022 from DXE with invoice; wired 240 VAC; original boxes and manual. Shipping split.",
+      "url": "https://www.eham.net/classifieds/596162",
+      "notes": "model listed as ACOM 1000-240 (factory-wired 240 V version of the Acom 1000); date is ad post date"
+    }
+  ]
+}
