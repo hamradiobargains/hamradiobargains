@@ -1,0 +1,240 @@
+{
+  "model": "Yaesu FT-8900R",
+  "slug": "yaesu-ft-8900r",
+  "searched_at": "2026-10-07T18:03:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Searched eHam 'FT-8900' with sold box; kept SOLD ads that name the FT-8900R. Excluded ads naming only 'FT-8900' without R (K7ZP 2019-02-03 $270, K9DTC 2014-11-24 $300, K2MCI 2013, K3UG 2013 x2, WT6V 2013) and K9DTC 2021-06-02 (title says FT-8900A, body says FT-8900R) per strict model rule; also wanted/trade ads and SOLD ads with no price. Many reposts of the same unit (noted per comp). Page 1 of 5 only. searched_at is when this file was built, right after the eHam searches (run started 17:52 EDT).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/298741108799",
+    "site": "ebay",
+    "ask": 525.0,
+    "shipping": 15.0
+  },
+  "comps": [
+    {
+      "price": 200.0,
+      "sold_date": "2026-03-24",
+      "condition": "Used, great shape, turns on and works; mic and short power cable; sold as-is, no returns",
+      "url": "https://www.eham.net/classifieds/625750",
+      "notes": "plus $20 US shipping"
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2023-12-09",
+      "condition": "Like-new, never installed; YSK-8900 separation kit, MMB-60 bracket, 12' power cable, unopened RT Systems ADMS-2H software and cable",
+      "url": "https://www.eham.net/classifieds/609960",
+      "notes": "FLAG: bundle incl. YSK-8900, MMB-60 and programming kit; plus shipping"
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2023-06-29",
+      "condition": "Excellent, works as it should; YSK-8900, mic, bracket, new power cord, box, manual; no returns",
+      "url": "https://www.eham.net/classifieds/606701",
+      "notes": "shipped and insured; marked SOLD in title only"
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2022-12-21",
+      "condition": "Working FB; home-made remote-head kit (not official YSK-8900); original box; possibly missing a washer or nut",
+      "url": "https://www.eham.net/classifieds/602045",
+      "notes": "OBO plus shipping"
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2021-05-23",
+      "condition": "Super nice; original box, manuals, long power cord",
+      "url": "https://www.eham.net/classifieds/587002",
+      "notes": "shipped lower 48"
+    },
+    {
+      "price": 270.0,
+      "sold_date": "2019-02-10",
+      "condition": "As new, never mobile; unused YSK-8900 kit",
+      "url": "https://www.eham.net/classifieds/556302",
+      "notes": "OBO plus shipping; K7ZP posted 3 ads 2019-01/02, same unit"
+    },
+    {
+      "price": 270.0,
+      "sold_date": "2019-01-19",
+      "condition": "As new, never mobile; unused YSK-8900 kit",
+      "url": "https://www.eham.net/classifieds/556425",
+      "notes": "OBO plus shipping; likely same K7ZP unit"
+    },
+    {
+      "price": 280.0,
+      "sold_date": "2018-05-11",
+      "condition": "Excellent; DTMF mic, front-panel bracket, separation cable, mobile bracket, programming software and cable; manual misplaced",
+      "url": "https://www.eham.net/classifieds/543314",
+      "notes": "plus half shipping"
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2017-11-20",
+      "condition": "New in box, never used, mint; YSK-8900, new-in-box Diamond CR-8900A antenna",
+      "url": "https://www.eham.net/classifieds/533443",
+      "notes": "FLAG: bundle incl. Diamond CR-8900A antenna; shipped; W7CNK posted 3 ads 2017-11-19/20 for same unit"
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2017-11-20",
+      "condition": "New in box, never used, mint; YSK-8900, Diamond CR-8900A antenna",
+      "url": "https://www.eham.net/classifieds/533390",
+      "notes": "FLAG: bundle incl. antenna; relist of same W7CNK unit"
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2017-11-19",
+      "condition": "New in box, never used, mint; YSK-8900, Diamond CR-8900A antenna",
+      "url": "https://www.eham.net/classifieds/533388",
+      "notes": "FLAG: bundle incl. antenna; same W7CNK unit"
+    },
+    {
+      "price": 235.0,
+      "sold_date": "2017-07-29",
+      "condition": "Working, full output; MH-48 mic, bracket, remote head attachment",
+      "url": "https://www.eham.net/classifieds/526886",
+      "notes": "MOD: original power T-connector removed, extended wiring with inline fuse; shipped"
+    },
+    {
+      "price": 245.0,
+      "sold_date": "2017-05-07",
+      "condition": "New in box, never used; YSK-8900 kit",
+      "url": "https://www.eham.net/classifieds/522140",
+      "notes": "shipped US48"
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2017-02-22",
+      "condition": "Main unit works but control head defective (no display); mic, cord, bracket, box; no return, no refund",
+      "url": "https://www.eham.net/classifieds/516362",
+      "notes": "FLAG: defective control head; MOD: extended transmit; plus $20 shipping"
+    },
+    {
+      "price": 295.0,
+      "sold_date": "2016-07-01",
+      "condition": "Basically brand new, used one weekend",
+      "url": "https://www.eham.net/classifieds/499983",
+      "notes": "price each; seller had multiple units"
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2016-06-27",
+      "condition": "Used mobile, well treated; separation kit, power cable, hardware",
+      "url": "https://www.eham.net/classifieds/500403",
+      "notes": "shipped lower 48"
+    },
+    {
+      "price": 385.0,
+      "sold_date": "2015-08-04",
+      "condition": "As new, mint, never mobile; unused CR-8900 antenna, RT Systems programming kit, manual",
+      "url": "https://www.eham.net/classifieds/476179",
+      "notes": "FLAG: bundle incl. antenna and programming kit; shipped; W7CNK same unit as 476191"
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2015-08-04",
+      "condition": "As new, mint, never mobile; unused CR-8900 antenna, RT Systems programming kit",
+      "url": "https://www.eham.net/classifieds/476191",
+      "notes": "FLAG: bundle incl. antenna and programming kit; relist of same unit; shipped"
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2015-01-07",
+      "condition": "Like new, works perfect; box, mic, bracket, long power cord",
+      "url": "https://www.eham.net/classifieds/456716",
+      "notes": "shipped"
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2014-12-01",
+      "condition": "Nice condition, tested, works; Velcro adhesive marks on head; separation cable and head bracket; no short head cable or mobile bracket",
+      "url": "https://www.eham.net/classifieds/453965",
+      "notes": "estate; plus shipping"
+    },
+    {
+      "price": 271.3,
+      "sold_date": "2014-08-20",
+      "condition": "SK estate; seller only knows it was in use before owner passed; very nice physical condition; box, cable, mic, bracket, manual; no returns",
+      "url": "https://www.eham.net/classifieds/446036",
+      "notes": "FLAG: not tested by seller; shipped CONUS"
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2014-05-23",
+      "condition": "Excellent, works 100%; MH-48 mic, cord, bracket, unused separation kit",
+      "url": "https://www.eham.net/classifieds/438715",
+      "notes": "MOD: MARS/CAP mod; shipped"
+    },
+    {
+      "price": 399.0,
+      "sold_date": "2013-11-03",
+      "condition": "Package with Comet UHV4 antenna, remote head mount, RT Systems ADMS-2H software and cable",
+      "url": "https://www.eham.net/classifieds/421746",
+      "notes": "FLAG: bundle incl. antenna and programming kit"
+    },
+    {
+      "price": 475.0,
+      "sold_date": "2013-07-07",
+      "condition": "As new mint, never mobile; YSK-8900, Diamond CR-8900A antenna, ADMS-2H kit, HRO invoice",
+      "url": "https://www.eham.net/classifieds/412295",
+      "notes": "FLAG: package; shipped; W7CNK posted this unit 5 times 2013-03/07 ($475-$495)"
+    },
+    {
+      "price": 475.0,
+      "sold_date": "2013-06-07",
+      "condition": "As new mint; YSK-8900, Diamond CR-8900A, ADMS-2H kit",
+      "url": "https://www.eham.net/classifieds/409819",
+      "notes": "FLAG: package; same W7CNK unit"
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2013-06-03",
+      "condition": "Like new; separation kit, programming cable and software, original boxes; no mobile bracket",
+      "url": "https://www.eham.net/classifieds/409421",
+      "notes": "FLAG: incl. programming kit; shipped"
+    },
+    {
+      "price": 475.0,
+      "sold_date": "2013-05-28",
+      "condition": "As new mint; YSK-8900, Diamond CR-8900A, ADMS-2H kit",
+      "url": "https://www.eham.net/classifieds/408948",
+      "notes": "FLAG: package; same W7CNK unit"
+    },
+    {
+      "price": 475.0,
+      "sold_date": "2013-05-27",
+      "condition": "As new mint; YSK-8900, Diamond CR-8900A, ADMS-2H kit",
+      "url": "https://www.eham.net/classifieds/408913",
+      "notes": "FLAG: package; same W7CNK unit"
+    },
+    {
+      "price": 399.0,
+      "sold_date": "2013-05-21",
+      "condition": "Like new, never mobile; factory accessories, separation bracket, RTS software and cable",
+      "url": "https://www.eham.net/classifieds/383901",
+      "notes": "shipped"
+    },
+    {
+      "price": 495.0,
+      "sold_date": "2013-03-12",
+      "condition": "As new mint; YSK-8900, Diamond CR-8900A, ADMS-2H kit",
+      "url": "https://www.eham.net/classifieds/402122",
+      "notes": "FLAG: package; same W7CNK unit; shipped"
+    },
+    {
+      "price": 365.0,
+      "sold_date": "2012-06-29",
+      "condition": "Very good, original owner, no issues; YSK-8900 remote cable, manual",
+      "url": "https://www.eham.net/classifieds/378989",
+      "notes": "shipped CONUS; W4GCB posted twice"
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2012-06-20",
+      "condition": "Mint, base station only, never mobile; mic, manual, new YSK-8900 cable",
+      "url": "https://www.eham.net/classifieds/377197",
+      "notes": "shipped CONUS"
+    }
+  ]
+}
