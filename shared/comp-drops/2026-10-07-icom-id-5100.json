@@ -1,0 +1,51 @@
+{
+  "model": "Icom ID-5100",
+  "slug": "icom-id-5100",
+  "searched_at": "2026-10-07T05:57:17-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search 'ID-5100' with sold box, page 1 only. 5 sold comps (ID-5100 / ID-5100A, US version). Excluded: 622230 'ID-5100AD' (Deluxe - different model), 623125 (not marked sold), 625456 Nifty stand, 624392 LCD board, 620773 ISO ad. Trigger listing says 'ID5100' and does not state Deluxe. Dates are ad post dates; prices are asking prices on ads marked SOLD. Not in site ledger.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629078",
+    "site": "eham",
+    "ask": 350.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 350.0,
+      "sold_date": "2026-09-29",
+      "condition": "Used very little, works like day 1; original box, manuals, Nifty mini-manual, Bluetooth unit installed, custom oak (trim); call-sign transfers on screen protector.",
+      "url": "https://www.eham.net/classifieds/628942",
+      "notes": "titled 'Icom ID-5100'; shipping not stated; date is ad post date"
+    },
+    {
+      "price": 399.0,
+      "sold_date": "2026-06-03",
+      "condition": "Mint ID-5100A with all original accessories, box, cables, mic, hanger, manual, brackets, extension cable and optional UT-133 Bluetooth adapter.",
+      "url": "https://www.eham.net/classifieds/627049",
+      "notes": "+$25 shipping; includes UT-133 Bluetooth option"
+    },
+    {
+      "price": 525.0,
+      "sold_date": "2026-05-24",
+      "condition": "ID-5100A with Bluetooth module installed, MARS mod, control head cables (3 ft + 11.4 ft extension), bracket, DTMF mic, Icom + RT Systems software, programming cable, manual.",
+      "url": "https://www.eham.net/classifieds/626881",
+      "notes": "free shipping; MARS-modded; bundled software/cables - flag"
+    },
+    {
+      "price": 295.0,
+      "sold_date": "2025-12-20",
+      "condition": "ID-5100A, non-smoking home; no other condition detail.",
+      "url": "https://www.eham.net/classifieds/624309",
+      "notes": "+$24 shipping"
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2025-12-19",
+      "condition": "ID-5100A D-Star dual band; no condition detail beyond spec text.",
+      "url": "https://www.eham.net/classifieds/624295",
+      "notes": "$10 shipping"
+    }
+  ]
+}
