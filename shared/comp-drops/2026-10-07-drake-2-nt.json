@@ -1,0 +1,58 @@
+{
+  "model": "Drake 2-NT",
+  "slug": "drake-2-nt",
+  "searched_at": "2026-10-07T18:03:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Searched eHam 'Drake 2-NT' with sold box; single page. Kept SOLD ads with a price; excluded wanted ads, a trade ad, and a removed ad. Comps are old (2002-2018); thin after removing reposts. searched_at is when this file was built, right after the eHam searches (run started 17:52 EDT).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/189058080056",
+    "site": "ebay",
+    "ask": 149.0,
+    "shipping": 18.13
+  },
+  "comps": [
+    {
+      "price": 250.0,
+      "sold_date": "2018-07-27",
+      "condition": "Very clean; tested with 40m and 20m crystals, about 65 watts out",
+      "url": "https://www.eham.net/classifieds/547865",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2009-07-03",
+      "condition": "Drake 2-NT with Drake 2-C receiver, both 80-10m",
+      "url": "https://www.eham.net/classifieds/282840",
+      "notes": "FLAG: bundle price incl. 2-C receiver; local pickup only, no shipping"
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2008-10-07",
+      "condition": "As clean as they come; copy of manual",
+      "url": "https://www.eham.net/classifieds/270583",
+      "notes": "plus UPS shipping; K4BP posted twice, same unit"
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2008-10-03",
+      "condition": "As clean as they come; copy of manual",
+      "url": "https://www.eham.net/classifieds/270661",
+      "notes": "plus UPS shipping; likely same K4BP unit"
+    },
+    {
+      "price": 110.0,
+      "sold_date": "2005-05-27",
+      "condition": "Good condition, works fine; light-colored area in face paint above tune control",
+      "url": "https://www.eham.net/classifieds/172821",
+      "notes": "shipped east of Mississippi ($120 west)"
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2002-08-25",
+      "condition": "Like the day Drake made it, no mods, dents or dings",
+      "url": "https://www.eham.net/classifieds/58995",
+      "notes": "shipped"
+    }
+  ]
+}
