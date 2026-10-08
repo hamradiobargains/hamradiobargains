@@ -1,0 +1,261 @@
+{
+  "model": "Icom IC-7100",
+  "slug": "icom-ic-7100",
+  "searched_at": "2026-10-08T05:55:00-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search '7100' with sold box, 50 results, page 1 only. Not a ledger hit (ledger latest 2026-09-04, older than 30 days). 35 sold comps kept (IC-7100 / IC-7100A, the US version). Excluded: 628886 and 628207 (SOLD trade ads, no price); not marked sold: 625776, 623723, 622818, 620181, 619802, 619554, 616783; 622359 and 619313 (IC-R7100 receiver, different model); 620366 brackets; 608745 manual CD; 610733 wanted ad. Several comps are bundles (tuners, go-box) or incomplete (622646 main body only) - flagged in each comp's notes. Dates are ad post dates (eHam shows no sold date); prices are asking prices on ads marked SOLD. searched_at is approximate (search ran between 05:53 and 05:57).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629111",
+    "site": "eham",
+    "ask": 795.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 745.0,
+      "sold_date": "2026-08-20",
+      "condition": "Great condition, works on all bands/modes, non-smoking, original box, power cord, mic; no mods/repairs. No returns, sold as is.",
+      "url": "https://www.eham.net/classifieds/628330",
+      "notes": "buyer pays actual shipping; title 'Sold. Icom IC-7100'; date is ad post date"
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-07-28",
+      "condition": "New in box.",
+      "url": "https://www.eham.net/classifieds/627955",
+      "notes": "shipped CONUS; PayPal +3%"
+    },
+    {
+      "price": 695.0,
+      "sold_date": "2026-07-26",
+      "condition": "'Like new'; original box, mic, manual, Nifty manual, manual on disc.",
+      "url": "https://www.eham.net/classifieds/627931",
+      "notes": "+$45 shipping"
+    },
+    {
+      "price": 749.0,
+      "sold_date": "2026-06-04",
+      "condition": "IC-7100A, excellent, everything works; mic, power cable, extension cable, data cable, ACC plug, CD, original packaging.",
+      "url": "https://www.eham.net/classifieds/627088",
+      "notes": "+$18 shipping"
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-05-11",
+      "condition": "Several months old; bundled with one-week-old LDG Z-100A tuner; boxes, cables, mic, manuals.",
+      "url": "https://www.eham.net/classifieds/626586",
+      "notes": "+$75 shipping; BUNDLE with LDG Z-100A tuner - flag"
+    },
+    {
+      "price": 785.0,
+      "sold_date": "2026-04-23",
+      "condition": "With Icom AT-180 auto tuner; factory boxes, interconnect cables; never mobile.",
+      "url": "https://www.eham.net/classifieds/626225",
+      "notes": "shipped CONUS; BUNDLE with AT-180 tuner - flag"
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-04-13",
+      "condition": "Excellent, lightly used, fully operational; box, mic, separation cable, power cord, USB cable, Lido cupholder head mount.",
+      "url": "https://www.eham.net/classifieds/626056",
+      "notes": "shipped CONUS (option 1 price; $1025 option with antenna/tuner not used)"
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2026-03-12",
+      "condition": "Like new, used less than one hour, purchased 11/2025.",
+      "url": "https://www.eham.net/classifieds/625523",
+      "notes": "shipping not stated"
+    },
+    {
+      "price": 875.0,
+      "sold_date": "2026-03-12",
+      "condition": "New in box.",
+      "url": "https://www.eham.net/classifieds/625516",
+      "notes": "shipped CONUS; PayPal +3%"
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2026-02-18",
+      "condition": "Very good to excellent; manual, aftermarket control head cable, power connector; no original box. No warranty.",
+      "url": "https://www.eham.net/classifieds/625161",
+      "notes": "+$40 shipping"
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-02-03",
+      "condition": "'New version 2025', short mobile use; mobile bracket, extension mic cable, GPS antenna, LDG tuner w/ cable. No returns.",
+      "url": "https://www.eham.net/classifieds/624917",
+      "notes": "OBO, plus shipping; BUNDLE with LDG tuner and GPS antenna - flag"
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2025-10-31",
+      "condition": "With LDG AT-200Pro II autotuner; cables and manuals; non-smoking.",
+      "url": "https://www.eham.net/classifieds/623648",
+      "notes": "includes CONUS shipping; BUNDLE with LDG AT-200Pro II - flag"
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2025-09-28",
+      "condition": "Chassis, control head, cable and mic; no other condition detail.",
+      "url": "https://www.eham.net/classifieds/623111",
+      "notes": "shipping not stated"
+    },
+    {
+      "price": 725.0,
+      "sold_date": "2025-09-16",
+      "condition": "No condition stated (spec-sheet copy only).",
+      "url": "https://www.eham.net/classifieds/622909",
+      "notes": "plus shipping and PayPal 3%"
+    },
+    {
+      "price": 775.0,
+      "sold_date": "2025-09-01",
+      "condition": "Excellent; original box, hand mic, control head extension cable, power cable, manual. All sales final, no returns.",
+      "url": "https://www.eham.net/classifieds/622676",
+      "notes": "shipping not stated"
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2025-09-01",
+      "condition": "MAIN BODY ONLY - appears new/unused, from SK estate; NO control head, NO interconnect cable.",
+      "url": "https://www.eham.net/classifieds/622646",
+      "notes": "+$18 shipping; MISSING control head - incomplete unit, flag"
+    },
+    {
+      "price": 690.0,
+      "sold_date": "2025-08-21",
+      "condition": "Great condition; with LDG tuner and cable, original box, plugs, cables.",
+      "url": "https://www.eham.net/classifieds/622460",
+      "notes": "shipped lower 48; BUNDLE with LDG tuner - flag"
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2025-07-09",
+      "condition": "Excellent; radio, stock mic, power cable, head cable, Nifty manual; no original box.",
+      "url": "https://www.eham.net/classifieds/621671",
+      "notes": "insured and shipped"
+    },
+    {
+      "price": 815.0,
+      "sold_date": "2025-03-27",
+      "condition": "Fully functional, never mobile; HM-151 remote mic, USB cable, software, original mic, original box. No returns.",
+      "url": "https://www.eham.net/classifieds/619821",
+      "notes": "plus shipping; includes HM-151 mic"
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2025-03-08",
+      "condition": "Beautiful condition, all cables, factory box.",
+      "url": "https://www.eham.net/classifieds/619446",
+      "notes": "shipped or local pickup; PayPal G&S only"
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2025-02-17",
+      "condition": "Excellent, very lightly used, ex-mobile, original owner (bought 10/2024); original box.",
+      "url": "https://www.eham.net/classifieds/619117",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 799.0,
+      "sold_date": "2025-01-06",
+      "condition": "Very nice; original box, manual, mic, DC cable, interconnect cables, stand-alone head mount.",
+      "url": "https://www.eham.net/classifieds/618395",
+      "notes": "shipped USA; ad says payment 'pending' plus SOLD tag"
+    },
+    {
+      "price": 825.0,
+      "sold_date": "2024-12-16",
+      "condition": "Works perfect, very clean; mic, power cord w/ power poles, data cable, GPS data cable, box, manual.",
+      "url": "https://www.eham.net/classifieds/618061",
+      "notes": "shipped"
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2024-11-29",
+      "condition": "Mint, backup rig, little use; factory box, mic, accessories.",
+      "url": "https://www.eham.net/classifieds/617684",
+      "notes": "free shipping CONUS"
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2024-11-09",
+      "condition": "Works perfectly; with MFJ-929I tuner, mic, manual, cables, original boxes; never mobile.",
+      "url": "https://www.eham.net/classifieds/617275",
+      "notes": "plus shipping; BUNDLE with MFJ-929I tuner - flag"
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2024-10-13",
+      "condition": "Very nice, no mods, all original, shack use only; box, manual, mic, accessories.",
+      "url": "https://www.eham.net/classifieds/616789",
+      "notes": "firm, plus shipping; title 'SOLD..Icom 7100'"
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2024-07-15",
+      "condition": "Great condition, ex-RV.",
+      "url": "https://www.eham.net/classifieds/614986",
+      "notes": "OBO plus shipping; title begins 'SOLD.'"
+    },
+    {
+      "price": 925.0,
+      "sold_date": "2024-07-05",
+      "condition": "Very good condition, everything works; with MFJ-939 Icom tuner and cable, mic, DC cord, USB cable, manual.",
+      "url": "https://www.eham.net/classifieds/614758",
+      "notes": "includes shipping lower 48; BUNDLE with MFJ-939 tuner - flag"
+    },
+    {
+      "price": 1200.0,
+      "sold_date": "2024-06-17",
+      "condition": "IC-7100 built into ammo-can go-box with 22Ah LiFePO4 battery, chargers, speakers, power meter; includes 60 W solar panel.",
+      "url": "https://www.eham.net/classifieds/614351",
+      "notes": "HEAVY BUNDLE (go-box + battery + solar) - not comparable to bare radio, flag"
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2024-05-18",
+      "condition": "Excellent, bought new 2018; all cables, original carton, manual.",
+      "url": "https://www.eham.net/classifieds/613629",
+      "notes": "shipped CONUS"
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2024-02-19",
+      "condition": "Beautiful condition, full output on all bands. No returns or refunds.",
+      "url": "https://www.eham.net/classifieds/611513",
+      "notes": "buyer pays actual shipping"
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2024-01-31",
+      "condition": "With AT-180 tuner, cables, manual, 2x MB-62 brackets; non-smoking.",
+      "url": "https://www.eham.net/classifieds/611091",
+      "notes": "includes CONUS shipping; BUNDLE with AT-180 tuner - flag"
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2023-11-27",
+      "condition": "Excellent, little to no wear; original box, manual, CD, mic adapter.",
+      "url": "https://www.eham.net/classifieds/609647",
+      "notes": "includes shipping US"
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2023-11-26",
+      "condition": "Clean, working; MARS mod (by Gigaparts); power cord, mic, cable, Nifty manual, USB cable. Sale final.",
+      "url": "https://www.eham.net/classifieds/609632",
+      "notes": "shipped CONUS; MARS-modded - flag"
+    },
+    {
+      "price": 925.0,
+      "sold_date": "2023-09-23",
+      "condition": "As new, later serial, very lightly used; MARS mod done; unused mic, power cord, manual, box, cable. Sold as is, no returns.",
+      "url": "https://www.eham.net/classifieds/608374",
+      "notes": "shipped CONUS; MARS-modded - flag"
+    }
+  ]
+}
