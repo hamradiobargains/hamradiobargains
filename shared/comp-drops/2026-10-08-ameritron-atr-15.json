@@ -1,0 +1,184 @@
+{
+  "model": "Ameritron ATR-15",
+  "slug": "ameritron-atr-15",
+  "searched_at": "2026-10-08T05:59:49-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search 'ATR-15' with sold box, all 36 results on one page. Not in ledger. 24 sold comps kept, all 2000-2020 (no sold ATR-15 since 2020). Note: trigger seller N4ATS sold a backlight-modded ATR-15 here in 2008 (254882). Excluded: 616689, 616139 (WQ5J 2024, $279 + ship, 'sale pending' but not marked SOLD); 239382 (no price/text); 225661 (best offer, no price); 209351 (AL-811 amp + tuner pair $625, tuner not main item); 114706 (AL-82 amp; tuner only as $225 add-on, not sold separately); 184846, 173459, 10798, 145307 wanted ads. Dates are ad post dates; prices are asking prices on ads marked SOLD.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629112",
+    "site": "eham",
+    "ask": 150.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 200.0,
+      "sold_date": "2020-06-12",
+      "condition": "Very good condition and working; original manual plus copy.",
+      "url": "https://www.eham.net/classifieds/578062",
+      "notes": "plus FedEx shipping"
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2020-02-02",
+      "condition": "No condition issues stated; includes dial-lamp cable.",
+      "url": "https://www.eham.net/classifieds/574943",
+      "notes": "shipped lower 48"
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2018-02-27",
+      "condition": "Great condition; includes meter-light power cable.",
+      "url": "https://www.eham.net/classifieds/539070",
+      "notes": "shipped"
+    },
+    {
+      "price": 235.0,
+      "sold_date": "2013-07-25",
+      "condition": "Very nice, very clean inside, few minor light scratches on top; repro manual, wallwart; rear toggle switch added for panel lights.",
+      "url": "https://www.eham.net/classifieds/413378",
+      "notes": "shipped and insured CONUS; minor mod (light switch) - flag"
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2011-09-29",
+      "condition": "Minor scratches top right; inherited, seller has no knowledge of functionality. As is.",
+      "url": "https://www.eham.net/classifieds/355885",
+      "notes": "plus shipping; UNTESTED/as-is - flag"
+    },
+    {
+      "price": 175.0,
+      "sold_date": "2011-02-03",
+      "condition": "Excellent; meter lamp 'not sure working'; original box, manual.",
+      "url": "https://www.eham.net/classifieds/336766",
+      "notes": "plus $25 shipping/insurance; lamp status unknown - flag"
+    },
+    {
+      "price": 175.0,
+      "sold_date": "2011-01-26",
+      "condition": "Excellent, some scrapes on front top edge; meter lamp 'not sure if working'; original box.",
+      "url": "https://www.eham.net/classifieds/336213",
+      "notes": "plus $25 shipping; same seller NZ8X as 336766 (likely same tuner relisted)"
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2010-01-08",
+      "condition": "Excellent, unused recently.",
+      "url": "https://www.eham.net/classifieds/307983",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2008-04-22",
+      "condition": "Immaculate; meter backlit with added cold-cathode fluorescent light (modification).",
+      "url": "https://www.eham.net/classifieds/254882",
+      "notes": "firm; seller is N4ATS, same seller as the trigger listing; backlight mod - flag"
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2008-02-11",
+      "condition": "Good working, 9 cosmetically; two diodes on SWR board need replacing and one resistor needs resoldering.",
+      "url": "https://www.eham.net/classifieds/252299",
+      "notes": "plus shipping; METER BOARD REPAIR NEEDED - flag"
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2007-06-23",
+      "condition": "Worked great; no issues stated.",
+      "url": "https://www.eham.net/classifieds/234016",
+      "notes": "includes shipping and insurance US"
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2007-03-18",
+      "condition": "Excellent condition.",
+      "url": "https://www.eham.net/classifieds/226758",
+      "notes": "seller will ship; shipping cost not stated"
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2007-02-07",
+      "condition": "Close to mint, works as it should; original manual, no box.",
+      "url": "https://www.eham.net/classifieds/223508",
+      "notes": "firm; buyer pays UPS"
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2005-05-07",
+      "condition": "Excellent, but cabinet has been repainted; looks and works great; manual, no box.",
+      "url": "https://www.eham.net/classifieds/169555",
+      "notes": "OBO plus shipping; REPAINTED cabinet - flag"
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2005-04-24",
+      "condition": "Same repainted-cabinet tuner as 169555.",
+      "url": "https://www.eham.net/classifieds/169455",
+      "notes": "OBO plus shipping; likely duplicate of 169555"
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2005-02-13",
+      "condition": "Clean, perfect condition, non-smoking.",
+      "url": "https://www.eham.net/classifieds/162402",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2004-07-15",
+      "condition": "Excellent shape with manual.",
+      "url": "https://www.eham.net/classifieds/99533",
+      "notes": "shipping not stated"
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2004-01-14",
+      "condition": "As nice as you'll find; factory box, manual.",
+      "url": "https://www.eham.net/classifieds/121856",
+      "notes": "shipped/insured CONUS; title says REDUCED"
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2004-01-14",
+      "condition": "Duplicate posting of 121856 (factory box, manual).",
+      "url": "https://www.eham.net/classifieds/121726",
+      "notes": "shipped/insured CONUS; duplicate ad"
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2004-01-07",
+      "condition": "Excellent with manual.",
+      "url": "https://www.eham.net/classifieds/119384",
+      "notes": "OBO plus shipping"
+    },
+    {
+      "price": 195.0,
+      "sold_date": "2003-06-16",
+      "condition": "Functionally perfect, cosmetically very good; paint wear on top corners; box, instructions, wallwart.",
+      "url": "https://www.eham.net/classifieds/90321",
+      "notes": "OBO plus actual shipping"
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2002-08-11",
+      "condition": "Mint condition.",
+      "url": "https://www.eham.net/classifieds/57812",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 175.0,
+      "sold_date": "2002-04-12",
+      "condition": "9.5/10, non-smoker, with manual.",
+      "url": "https://www.eham.net/classifieds/46144",
+      "notes": "shipped"
+    },
+    {
+      "price": 240.0,
+      "sold_date": "2000-09-23",
+      "condition": "Excellent except small scratches on top of case; book and original boxes.",
+      "url": "https://www.eham.net/classifieds/8666",
+      "notes": "shipped insured lower 48"
+    }
+  ]
+}
