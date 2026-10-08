@@ -1,0 +1,254 @@
+{
+  "model": "Icom IC-9700",
+  "slug": "icom-ic-9700",
+  "searched_at": "2026-10-08T15:03:39-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search 'IC-9700' (sold box checked), 43 results, single page. 34 sold comps. Excluded: 626449 SOLD 2026-05-05 complete portable SAT station bundle ($3,000/$2,000 — not a radio-only sale), 579547 IC-7300/IC-9700 matching set (no price), 609672 manual. Several comps include extras (noted per comp). Seller K1FIE (trigger seller) also appears on sold 2025-12-18 ad 624284. Prices are eHam asking prices at time marked sold.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781626",
+    "site": "qth",
+    "ask": 1699.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1699.0,
+      "sold_date": "2026-09-26",
+      "condition": "lightly used for a few years, sold as part of an estate",
+      "url": "https://www.eham.net/classifieds/628888",
+      "notes": ""
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2026-09-03",
+      "condition": "pristine condition, used a handful of times; $1500 shipped CONUS",
+      "url": "https://www.eham.net/classifieds/628527",
+      "notes": ""
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2026-07-14",
+      "condition": "great condition, only used 3 times at desk, non-smoking",
+      "url": "https://www.eham.net/classifieds/627747",
+      "notes": ""
+    },
+    {
+      "price": 1300.0,
+      "sold_date": "2026-03-05",
+      "condition": "original owner, like new condition, no smoke/no pets",
+      "url": "https://www.eham.net/classifieds/625382",
+      "notes": ""
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2025-12-28",
+      "condition": "like new, one owner, non-smoking",
+      "url": "https://www.eham.net/classifieds/624421",
+      "notes": ""
+    },
+    {
+      "price": 1399.0,
+      "sold_date": "2025-12-18",
+      "condition": "MINT, ~2 hours transmit time, satellite use only, with extras",
+      "url": "https://www.eham.net/classifieds/624284",
+      "notes": "seller K1FIE (same callsign as trigger listing seller); includes extras"
+    },
+    {
+      "price": 1600.0,
+      "sold_date": "2025-12-16",
+      "condition": "like new, fully functional, no scratches or dings, under warranty",
+      "url": "https://www.eham.net/classifieds/624251",
+      "notes": ""
+    },
+    {
+      "price": 1450.0,
+      "sold_date": "2025-07-08",
+      "condition": "not described in snippet reviewed",
+      "url": "https://www.eham.net/classifieds/621661",
+      "notes": "title 'SOLD ICOM IC-9700'"
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2025-06-20",
+      "condition": "3-year-old radio, sold with extras ('Sale (again)')",
+      "url": "https://www.eham.net/classifieds/621357",
+      "notes": "includes extras; relist"
+    },
+    {
+      "price": 1200.0,
+      "sold_date": "2025-06-06",
+      "condition": "sold with 1.2 GHz beam",
+      "url": "https://www.eham.net/classifieds/621098",
+      "notes": "bundle includes 1.2 GHz beam antenna"
+    },
+    {
+      "price": 1375.0,
+      "sold_date": "2023-09-13",
+      "condition": "not described in snippet reviewed",
+      "url": "https://www.eham.net/classifieds/608186",
+      "notes": ""
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2023-07-08",
+      "condition": "offered for sale, condition not captured",
+      "url": "https://www.eham.net/classifieds/606933",
+      "notes": ""
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2023-06-19",
+      "condition": "not described in snippet reviewed",
+      "url": "https://www.eham.net/classifieds/606498",
+      "notes": ""
+    },
+    {
+      "price": 1400.0,
+      "sold_date": "2023-04-29",
+      "condition": "like new, includes 144/440 MHz duplexer",
+      "url": "https://www.eham.net/classifieds/605111",
+      "notes": "includes duplexer"
+    },
+    {
+      "price": 1850.0,
+      "sold_date": "2023-04-17",
+      "condition": "complete package with SP-38 speaker",
+      "url": "https://www.eham.net/classifieds/604796",
+      "notes": "bundle: complete package incl. SP-38"
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2023-04-03",
+      "condition": "2m/70cm/23cm, 100W all-mode; condition not captured",
+      "url": "https://www.eham.net/classifieds/604488",
+      "notes": ""
+    },
+    {
+      "price": 1250.0,
+      "sold_date": "2023-03-04",
+      "condition": "excellent condition, barely used",
+      "url": "https://www.eham.net/classifieds/603719",
+      "notes": ""
+    },
+    {
+      "price": 1400.0,
+      "sold_date": "2023-03-02",
+      "condition": "excellent condition, comes with power cable",
+      "url": "https://www.eham.net/classifieds/603645",
+      "notes": ""
+    },
+    {
+      "price": 1400.0,
+      "sold_date": "2023-01-02",
+      "condition": "purchased new from HRO Nov; sale/trade/partial",
+      "url": "https://www.eham.net/classifieds/602320",
+      "notes": "sale, trade or partial trade ad"
+    },
+    {
+      "price": 1600.0,
+      "sold_date": "2022-06-16",
+      "condition": "as new",
+      "url": "https://www.eham.net/classifieds/597042",
+      "notes": ""
+    },
+    {
+      "price": 1275.0,
+      "sold_date": "2022-05-02",
+      "condition": "like new condition, very low hours",
+      "url": "https://www.eham.net/classifieds/595926",
+      "notes": ""
+    },
+    {
+      "price": 1700.0,
+      "sold_date": "2022-04-12",
+      "condition": "box first opened for photos; includes triplexer",
+      "url": "https://www.eham.net/classifieds/595484",
+      "notes": "bundle incl. triplexer; ad said 'Pending Sale'"
+    },
+    {
+      "price": 1300.0,
+      "sold_date": "2021-06-19",
+      "condition": "purchased from HRO June 2020",
+      "url": "https://www.eham.net/classifieds/587744",
+      "notes": "local pickup in Denver saves $100"
+    },
+    {
+      "price": 1290.0,
+      "sold_date": "2021-01-20",
+      "condition": "almost new (bought previous October)",
+      "url": "https://www.eham.net/classifieds/583822",
+      "notes": ""
+    },
+    {
+      "price": 1700.0,
+      "sold_date": "2020-12-19",
+      "condition": "complete station plus extras (original cost over $2500)",
+      "url": "https://www.eham.net/classifieds/582983",
+      "notes": "bundle with extras; asking $1700 plus SIH"
+    },
+    {
+      "price": 1200.0,
+      "sold_date": "2020-07-18",
+      "condition": "condition not captured",
+      "url": "https://www.eham.net/classifieds/579098",
+      "notes": ""
+    },
+    {
+      "price": 1200.0,
+      "sold_date": "2020-05-24",
+      "condition": "NIB, box never opened, in warranty; asking 1200 firm shipped US48",
+      "url": "https://www.eham.net/classifieds/577532",
+      "notes": ""
+    },
+    {
+      "price": 1375.0,
+      "sold_date": "2020-05-19",
+      "condition": "condition not captured",
+      "url": "https://www.eham.net/classifieds/577406",
+      "notes": ""
+    },
+    {
+      "price": 1400.0,
+      "sold_date": "2019-10-30",
+      "condition": "like new, 6 months old; 1400.00 picked up, no box",
+      "url": "https://www.eham.net/classifieds/572026",
+      "notes": "local pickup price, no original box"
+    },
+    {
+      "price": 1350.0,
+      "sold_date": "2019-07-19",
+      "condition": "9 months warranty left; plus actual shipping",
+      "url": "https://www.eham.net/classifieds/566384",
+      "notes": "ad text similar to 566305/566163/566149 (possibly same seller relisting)"
+    },
+    {
+      "price": 1450.0,
+      "sold_date": "2019-07-18",
+      "condition": "condition not captured",
+      "url": "https://www.eham.net/classifieds/566305",
+      "notes": "possibly same seller as 566384 series"
+    },
+    {
+      "price": 1395.0,
+      "sold_date": "2019-07-16",
+      "condition": "good condition, one slight blemish",
+      "url": "https://www.eham.net/classifieds/566163",
+      "notes": "possibly same seller as 566384 series"
+    },
+    {
+      "price": 1450.0,
+      "sold_date": "2019-07-14",
+      "condition": "good condition, one slight blemish",
+      "url": "https://www.eham.net/classifieds/566149",
+      "notes": "possibly same seller as 566384 series"
+    },
+    {
+      "price": 1400.0,
+      "sold_date": "2019-07-02",
+      "condition": "like new in original box with all factory accessories",
+      "url": "https://www.eham.net/classifieds/565417",
+      "notes": ""
+    }
+  ]
+}
