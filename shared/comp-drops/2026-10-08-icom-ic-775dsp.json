@@ -1,0 +1,156 @@
+{
+  "model": "Icom IC-775DSP",
+  "slug": "icom-ic-775dsp",
+  "searched_at": "2026-10-08T06:00:30-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search '775' with sold box, page 1 only (50 results, more pages exist, oldest shown 2011). Not in ledger. 20 sold comps of the IC-775DSP kept. Trigger is a NON-TRANSMITTING parts/receiver unit; nearly all comps are working radios - only 586560 (non-working project with spare boards) and 351399 (erratic ATU) are flawed comps. Excluded: 628617 (SOLD trade ad, no price; has chattering-relay + LCD issues); 558827 and 476515 (SOLD, no price); 555419 (not marked sold); 623624 PS only; 611265 service manual; 361884 boxes; 351122 filters; wanted ads 616041, 599941, 379113, 353988, 353457, 615630; unrelated '775' matches (FT-710, FT-857D, FT-950, TS-480SAT, TR-7A, MFJ-1775, FX775, XPR7750, IFR A-7750, WJ 775-15). Dates are ad post dates; prices are asking prices on ads marked SOLD.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629110",
+    "site": "eham",
+    "ask": 200.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 800.0,
+      "sold_date": "2022-08-26",
+      "condition": "Ex radio-club station, well cared for, good condition; built-in auto tuner; original box and manual.",
+      "url": "https://www.eham.net/classifieds/598897",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2021-05-04",
+      "condition": "NON-WORKING project radio (powered up, display lit, no signals heard; ribbon cable damaged during repair); missing speaker, PA finals and cover screws; sold with full set of spare boards (PLL, IF, RF, DSP, Main, PSU) and ribbon cables.",
+      "url": "https://www.eham.net/classifieds/586560",
+      "notes": "shipped; PROJECT/PARTS + spare-board bundle - flag"
+    },
+    {
+      "price": 975.0,
+      "sold_date": "2020-03-06",
+      "condition": "Like new in box, very late S/N 02686; CR-282 TCXO, FL-222 and FL-223; both boxes, manuals; no mic.",
+      "url": "https://www.eham.net/classifieds/575723",
+      "notes": "shipped CONUS ($900 pickup)"
+    },
+    {
+      "price": 1850.0,
+      "sold_date": "2016-07-18",
+      "condition": "Excellent electrical, good physical, S/N 01634; stock filters, manual, HM-36, power cord; 200 W, no known issues.",
+      "url": "https://www.eham.net/classifieds/501795",
+      "notes": "includes shipping lower 48"
+    },
+    {
+      "price": 1575.0,
+      "sold_date": "2016-03-10",
+      "condition": "Excellent except minor scratch on side; standard filters, power cord, manual, original box.",
+      "url": "https://www.eham.net/classifieds/492359",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 1625.0,
+      "sold_date": "2015-05-20",
+      "condition": "Original owner, excellent; 200 W, ATU; full set of optional crystal filters plus InRad roofing filter; manual, original shipping container.",
+      "url": "https://www.eham.net/classifieds/468665",
+      "notes": "plus shipping; LOADED with filters - flag"
+    },
+    {
+      "price": 1695.0,
+      "sold_date": "2013-11-06",
+      "condition": "Very close to mint, S/N 02123, functions as new; no optional filters; no original box.",
+      "url": "https://www.eham.net/classifieds/396725",
+      "notes": "shipped CONUS"
+    },
+    {
+      "price": 1700.0,
+      "sold_date": "2012-12-21",
+      "condition": "SK-owned, pristine, no scratches, S/N 02621; no Icom box.",
+      "url": "https://www.eham.net/classifieds/393022",
+      "notes": "shipping not stated; title 'SOLD ON DAY ONE'; same seller as 392923"
+    },
+    {
+      "price": 1700.0,
+      "sold_date": "2012-12-04",
+      "condition": "Immaculate, gently used, from SK estate.",
+      "url": "https://www.eham.net/classifieds/392923",
+      "notes": "shipping not stated; same seller KY7W as 393022 (possibly same radio)"
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2012-06-02",
+      "condition": "Very nice, original owner, no mods, no scratches, S/N 10xx.",
+      "url": "https://www.eham.net/classifieds/376773",
+      "notes": "seller pays shipping continental US"
+    },
+    {
+      "price": 1400.0,
+      "sold_date": "2011-09-30",
+      "condition": "Like new, super clean, stock filters, works perfect; manual; no box.",
+      "url": "https://www.eham.net/classifieds/356248",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 2200.0,
+      "sold_date": "2011-09-25",
+      "condition": "Pristine, very late S/N 26xx, 100% operational; INRAD roofing filters #320/#322, FL-96, FL-52A, FL-80, FL-32A, UT-66; manuals, factory double box.",
+      "url": "https://www.eham.net/classifieds/355790",
+      "notes": "plus shipping; LOADED - flag; duplicate posting of 355727"
+    },
+    {
+      "price": 2200.0,
+      "sold_date": "2011-09-24",
+      "condition": "Late serial, pristine; International Radio filter; original boxes, accessories.",
+      "url": "https://www.eham.net/classifieds/355733",
+      "notes": "shipping split equally"
+    },
+    {
+      "price": 2200.0,
+      "sold_date": "2011-09-24",
+      "condition": "Same W1EY radio as 355790 (late S/N 26xx, INRAD roofing + Icom filters, UT-66).",
+      "url": "https://www.eham.net/classifieds/355727",
+      "notes": "plus shipping; duplicate of 355790"
+    },
+    {
+      "price": 1650.0,
+      "sold_date": "2011-08-19",
+      "condition": "Immaculate, late S/N 02588, very little use, trouble-free; power cord, manual, original box. Price without optional filters ($1950 with 5 filters).",
+      "url": "https://www.eham.net/classifieds/352817",
+      "notes": "plus $50 FedEx"
+    },
+    {
+      "price": 1400.0,
+      "sold_date": "2011-08-02",
+      "condition": "Like new; original box, manual, power cord, hand mic, stock filters; ANTENNA TUNER IS ERRATIC.",
+      "url": "https://www.eham.net/classifieds/351399",
+      "notes": "plus shipping; ERRATIC ATU - flag"
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2011-04-25",
+      "condition": "Stock, late S/N 23xx, ~9/10, perfect working; manual, hand mic, power cord; no box.",
+      "url": "https://www.eham.net/classifieds/341644",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 1800.0,
+      "sold_date": "2011-03-22",
+      "condition": "Excellent, 100% physical and electrical; SM-20 desk mic, hand mic, manuals, both original boxes.",
+      "url": "https://www.eham.net/classifieds/340741",
+      "notes": "buyer pays shipping/insurance; includes SM-20"
+    },
+    {
+      "price": 1700.0,
+      "sold_date": "2011-03-18",
+      "condition": "Pristine, stock, late S/N 23xx, works perfect; original box, hand mic, manual, power cord.",
+      "url": "https://www.eham.net/classifieds/340346",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 1750.0,
+      "sold_date": "2011-02-12",
+      "condition": "Excellent, S/N 0149x, full 200 W; INRAD roofing filter, FL-222 and FL-223; manual.",
+      "url": "https://www.eham.net/classifieds/332550",
+      "notes": "plus actual shipping"
+    }
+  ]
+}
