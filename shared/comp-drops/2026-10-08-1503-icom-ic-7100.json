@@ -1,0 +1,261 @@
+{
+  "model": "Icom IC-7100",
+  "slug": "icom-ic-7100",
+  "searched_at": "2026-10-08T15:03:39-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Ledger miss (latest 2026-09-04, older than 30 days). eHam search 'IC-7100' (sold box checked), 50 results on page 1 (a further page exists; not paginated). 35 priced sold comps back to 2021-08. Excluded: trade-only ads 628886/628207/598009 (no cash price), 622646 main body only (no head), 594835 head unit only, 620366 mounting brackets. Bundles with tuners noted per comp; 604887 MARS/CAP opened. Prices are asking prices at time marked sold.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781555",
+    "site": "qth",
+    "ask": 695.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 745.0,
+      "sold_date": "2026-08-20",
+      "condition": "great condition",
+      "url": "https://www.eham.net/classifieds/628330",
+      "notes": "title 'Sold. Icom IC-7100'"
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-07-28",
+      "condition": "NEW IN BOX; $800.00 shipped",
+      "url": "https://www.eham.net/classifieds/627955",
+      "notes": ""
+    },
+    {
+      "price": 749.0,
+      "sold_date": "2026-06-04",
+      "condition": "IC-7100a with mic, power cable, extras; everything works flawlessly; $749 + $18 shipping",
+      "url": "https://www.eham.net/classifieds/627088",
+      "notes": "title marked SOLD"
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-05-11",
+      "condition": "several months old, with one-week-old LDG Z-100A tuner, boxes for both; $750 plus $75 shipping",
+      "url": "https://www.eham.net/classifieds/626586",
+      "notes": "bundle incl. LDG Z-100A tuner"
+    },
+    {
+      "price": 785.0,
+      "sold_date": "2026-04-23",
+      "condition": "with AT-180 auto tuner, all factory accessories, never mobile; $785 shipped",
+      "url": "https://www.eham.net/classifieds/626225",
+      "notes": "bundle incl. AT-180 tuner"
+    },
+    {
+      "price": 875.0,
+      "sold_date": "2026-03-12",
+      "condition": "NEW in the box, bought for a project that never materialized; $875 shipped",
+      "url": "https://www.eham.net/classifieds/625516",
+      "notes": ""
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-02-03",
+      "condition": "new version 2025, non-smoker; $800 obo",
+      "url": "https://www.eham.net/classifieds/624917",
+      "notes": ""
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2025-10-31",
+      "condition": "with LDG AT-200Pro II tuner, non-smoking shack; $800 includes tuner",
+      "url": "https://www.eham.net/classifieds/623648",
+      "notes": "bundle incl. LDG AT-200Pro II"
+    },
+    {
+      "price": 775.0,
+      "sold_date": "2025-09-01",
+      "condition": "'shack in a box', excellent condition, with original box",
+      "url": "https://www.eham.net/classifieds/622676",
+      "notes": ""
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2025-07-09",
+      "condition": "excellent condition; $750 insured",
+      "url": "https://www.eham.net/classifieds/621671",
+      "notes": ""
+    },
+    {
+      "price": 815.0,
+      "sold_date": "2025-03-27",
+      "condition": "condition not captured; double-boxed; $815 plus shipping",
+      "url": "https://www.eham.net/classifieds/619821",
+      "notes": ""
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2025-03-08",
+      "condition": "beautiful condition, all cables and factory box; asking 850.00 shipped",
+      "url": "https://www.eham.net/classifieds/619446",
+      "notes": ""
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2025-02-17",
+      "condition": "excellent condition; $850 plus shipping",
+      "url": "https://www.eham.net/classifieds/619117",
+      "notes": ""
+    },
+    {
+      "price": 799.0,
+      "sold_date": "2025-01-06",
+      "condition": "very nice; $799.00 shipped",
+      "url": "https://www.eham.net/classifieds/618395",
+      "notes": ""
+    },
+    {
+      "price": 825.0,
+      "sold_date": "2024-12-16",
+      "condition": "very nice, with data cable; $825 shipped",
+      "url": "https://www.eham.net/classifieds/618061",
+      "notes": ""
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2024-11-09",
+      "condition": "with MFJ-929I tuner, mic, manual, all cables; works perfectly; $800 + shipping",
+      "url": "https://www.eham.net/classifieds/617275",
+      "notes": "bundle incl. MFJ-929I tuner"
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2024-11-29",
+      "condition": "mint condition, box, mic and accessories; $800 with free shipping",
+      "url": "https://www.eham.net/classifieds/617684",
+      "notes": ""
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2024-07-15",
+      "condition": "great condition; $900 obo + shipping",
+      "url": "https://www.eham.net/classifieds/614986",
+      "notes": "title marked SOLD"
+    },
+    {
+      "price": 925.0,
+      "sold_date": "2024-07-05",
+      "condition": "with MFJ-939 Icom tuner in very good condition; $925 includes tuner",
+      "url": "https://www.eham.net/classifieds/614758",
+      "notes": "bundle incl. MFJ-939I tuner"
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2024-05-18",
+      "condition": "purchased new 2018, with carton and manual; $850 shipped",
+      "url": "https://www.eham.net/classifieds/613629",
+      "notes": ""
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2024-02-19",
+      "condition": "beautiful condition; $850",
+      "url": "https://www.eham.net/classifieds/611513",
+      "notes": ""
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2024-01-31",
+      "condition": "with AT-180 tuner, non-smoking shack; $900 includes tuner",
+      "url": "https://www.eham.net/classifieds/611091",
+      "notes": "bundle incl. AT-180 tuner"
+    },
+    {
+      "price": 925.0,
+      "sold_date": "2023-09-23",
+      "condition": "as new, later serial number; sold as is, no returns; $925 shipped",
+      "url": "https://www.eham.net/classifieds/608374",
+      "notes": "seller wrote 'as is, no returns'"
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2023-09-04",
+      "condition": "seldom used, original boxes; $700 plus shipping",
+      "url": "https://www.eham.net/classifieds/608035",
+      "notes": ""
+    },
+    {
+      "price": 925.0,
+      "sold_date": "2023-07-13",
+      "condition": "original packaging; $925 with free shipping",
+      "url": "https://www.eham.net/classifieds/607039",
+      "notes": ""
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2023-05-22",
+      "condition": "bought ~2 years earlier; $850 plus shipping",
+      "url": "https://www.eham.net/classifieds/605810",
+      "notes": ""
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2023-04-21",
+      "condition": "all OEM accessories; MARS/CAP opened; $800 shipped CONUS",
+      "url": "https://www.eham.net/classifieds/604887",
+      "notes": "MOD: MARS/CAP opened"
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2023-02-04",
+      "condition": "with original Icom box; $900 shipped CONUS",
+      "url": "https://www.eham.net/classifieds/602988",
+      "notes": ""
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2023-01-29",
+      "condition": "with fairly new HM-151; $900 shipped",
+      "url": "https://www.eham.net/classifieds/602859",
+      "notes": "ad said 'Sold pending funds'"
+    },
+    {
+      "price": 1050.0,
+      "sold_date": "2022-12-24",
+      "condition": "seller has other radios, little time to operate; $1050 shipped",
+      "url": "https://www.eham.net/classifieds/602105",
+      "notes": ""
+    },
+    {
+      "price": 779.0,
+      "sold_date": "2022-11-18",
+      "condition": "condition not captured; $779.00 shipped",
+      "url": "https://www.eham.net/classifieds/601210",
+      "notes": ""
+    },
+    {
+      "price": 775.0,
+      "sold_date": "2022-05-12",
+      "condition": "like new, non-smoking; $775 shipped",
+      "url": "https://www.eham.net/classifieds/596173",
+      "notes": ""
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2022-05-03",
+      "condition": "original owner; $800 + shipping",
+      "url": "https://www.eham.net/classifieds/595943",
+      "notes": "title marked SOLD; ad also offered a $110 accessory separately"
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2022-03-24",
+      "condition": "condition not captured; $800 plus shipping",
+      "url": "https://www.eham.net/classifieds/594928",
+      "notes": "title marked SOLD"
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2021-08-30",
+      "condition": "condition not captured; $750 shipped",
+      "url": "https://www.eham.net/classifieds/589686",
+      "notes": ""
+    }
+  ]
+}
