@@ -551,5 +551,17 @@
     "compCount": 3,
     "compLow": 725.0,
     "compHigh": 850.0
+  },
+  {
+    "date": "2026-10-08",
+    "item": "Ameritron ATR-15 Tuner",
+    "link": "https://www.eham.net/classifieds/629112",
+    "price": 150.0,
+    "extraCost": 0.0,
+    "pctBelow": 0.4,
+    "median": 250.0,
+    "compCount": 24,
+    "compLow": 150.0,
+    "compHigh": 400.0
   }
 ]
