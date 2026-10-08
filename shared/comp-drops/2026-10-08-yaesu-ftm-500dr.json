@@ -1,0 +1,65 @@
+{
+  "model": "Yaesu FTM-500DR",
+  "slug": "yaesu-ftm-500dr",
+  "searched_at": "2026-10-08T15:03:39-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search 'FTM-500' (sold box checked), 14 results. 7 priced sold FTM-500DR comps. Excluded for model identity: FTM-500D ads (621476, 621059, 628281) — not certain FTM-500D = FTM-500DR. Excluded 628235 (SOLD 2026-08-15, FTM-500DR, but no asking price shown in ad). 619787 had a DSP fault per seller (flagged). Seller K1FIE appears on two sold comps (628506, 626782). Prices are asking prices at time marked sold.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781680",
+    "site": "qth",
+    "ask": 400.0,
+    "shipping": 30.0
+  },
+  "comps": [
+    {
+      "price": 499.0,
+      "sold_date": "2026-09-01",
+      "condition": "like new condition with separation cable; $499 + $18 shipping",
+      "url": "https://www.eham.net/classifieds/628506",
+      "notes": "seller K1FIE"
+    },
+    {
+      "price": 469.0,
+      "sold_date": "2026-05-20",
+      "condition": "excellent condition, works as it should, original box and manual; $469 shipped CONUS",
+      "url": "https://www.eham.net/classifieds/626782",
+      "notes": "seller K1FIE; title marked SOLD"
+    },
+    {
+      "price": 540.0,
+      "sold_date": "2026-04-26",
+      "condition": "mint, in original packaging with everything that came with it",
+      "url": "https://www.eham.net/classifieds/626278",
+      "notes": ""
+    },
+    {
+      "price": 475.0,
+      "sold_date": "2025-05-20",
+      "condition": "Excellent Condition; includes Yaesu trucker cap and Larsen dual band NMO whip; free shipping lower 48",
+      "url": "https://www.eham.net/classifieds/620788",
+      "notes": "small extras included"
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2025-03-26",
+      "condition": "very good cosmetic condition, all accessories; seller reports 'DSP NOT FOUND' message on startup (DSP ver 0.00)",
+      "url": "https://www.eham.net/classifieds/619787",
+      "notes": "FLAG: unit has a DSP/firmware fault per seller — not comparable to a working unit"
+    },
+    {
+      "price": 475.0,
+      "sold_date": "2024-12-29",
+      "condition": "purchased new at HRO summer 2024, used in car a few months; mounting hardware new/unused; $475 shipped",
+      "url": "https://www.eham.net/classifieds/618264",
+      "notes": ""
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2024-04-05",
+      "condition": "NIB, never removed from original packing; $500 firm + $15 shipping",
+      "url": "https://www.eham.net/classifieds/612657",
+      "notes": ""
+    }
+  ]
+}
