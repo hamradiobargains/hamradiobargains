@@ -1,0 +1,64 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-08",
+  "ran_at": "2026-10-08T17:58:17-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now filter, sorted newly listed; the /b/ browse URL returned an eBay 'Discover error' page, so the /sch/4670 search URL was used (it redirected to the category browse page with LH_BIN=1&_sop=10&_ipg=120). Scanned page 1 only (120 items, all tagged NEW LISTING); window since previous eBay run 2026-10-07T17:52:45-04:00 may be only partly covered. 6 candidates picked; 1 skipped on the seller rule: Xiegu X6100 ($450, https://www.ebay.com/itm/227558745875) seller gato-6929 has only 3 ratings (100%). 5 listings dropped; all their sellers passed 95%/10-ratings. Ledger: 1 hit (YAESU FT-991A, count 15, dated 2026-09-22). Misses: KENWOOD TS-850S (ledger has 'KENWOOD TS-850' only, not treated as same display name), ICOM IC-706 (ledger has only IC-706MKIIG), ELECRAFT K3S/100 (ledger has K3/100 only), YAESU FT-847 (no entry). eHam BLOCKED: first eHam page load (classifieds) showed a Cloudflare 'Performing security verification' page with a 'Verify you are human' checkbox that did not clear after ~20s of waiting; did not click it. All eHam work stopped for this run, so no eHam comp searches were run and no comp drops were written for the 4 misses (TS-850S, IC-706, K3S/100, FT-847). K4LFC sign-in status could not be checked behind the challenge. Not picked from page 1: Yaesu FT-920 (parts only, $599.99), Elecraft P3 ($879), Icom IC-R7100 ($399), Kenwood TS-820S (untested, $199), Yaesu FT-2900R, Yaesu FT-7800R lot (untested), Swan 350 (as-is), Heathkit DX-60A/B, Kenwood TM-231A/241A/261A, accessories and parts.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/267808178957",
+      "site": "ebay",
+      "title": "Kenwood TS-850S HF Transceiver Ham Radio Tested Working Extras DRU-2, VS-2, SSB",
+      "price": 999.0,
+      "shipping": 79.94,
+      "found_at": "2026-10-08",
+      "condition_notes": "Used. Title says tested working. Description: installed YK-88S1 SSB filter, includes VS-2 voice synthesizer and DRU-2 digital recording unit, short DC power pigtail. Seller notes one foot is broken and the display works but is a bit dim. Seller does not accept returns. Best Offer enabled.",
+      "work_flag": "display works but is a bit dim; one foot is broken; seller does not accept returns",
+      "seller_feedback": "100% (451 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/117455605147",
+      "site": "ebay",
+      "title": "Yaesu FT-991A + SDRplay RSPdx + Panadapter Board + MARS Mod + Mic + Power Cord",
+      "price": 1375.0,
+      "shipping": 0,
+      "found_at": "2026-10-08",
+      "condition_notes": "Used. Bundle: FT-991A with alloy side rails, SDRplay RSPdx, installed panadapter/buffered IF tap board, MARS modification completed, hand mic, DC power cord. Seller says it has operated properly. Free shipping. Seller does not accept returns. Best Offer enabled.",
+      "work_flag": "MARS modification completed; installed panadapter/IF tap board; seller does not accept returns",
+      "seller_feedback": "100% (899 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/128123221809",
+      "site": "ebay",
+      "title": "Icom IC-706 100W All Mode Radio Transceiver HF VHF HAM RADIO",
+      "price": 498.75,
+      "shipping": 21.49,
+      "found_at": "2026-10-08",
+      "condition_notes": "Used. Original IC-706 (not MKII/MKIIG per item specifics 'Model IC-706'). Seller: meter shows just shy of 100 watts; includes hand mic and power cord (meter not included). Seller does not accept returns. Best Offer enabled.",
+      "work_flag": "seller does not accept returns",
+      "seller_feedback": "100% (735 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/327395147264",
+      "site": "ebay",
+      "title": "Elecraft K3S/100 High Perf 160-6m Transceiver # 10193 100 Watt - LOADED",
+      "price": 4299.0,
+      "shipping": 62.65,
+      "found_at": "2026-10-08",
+      "condition_notes": "Used, seller note 'nice !'. Loaded: KPA3A, KAT3A tuner, KRX3A sub receiver, KBPF3A, KDVR3, K144XV 2m module, KIO3B, KXV3B, multiple filters; power cord. Seller says 'feels like a new radio'. Seller notes it is also listed on QRZ for $3999. Seller does not accept returns. Best Offer enabled.",
+      "work_flag": "seller does not accept returns",
+      "seller_feedback": "100% (2090 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/117455421483",
+      "site": "ebay",
+      "title": "Yaesu FT-847 Earth Station Transceiver Amateur Ham Radio VHF UHF 50/144/430 MHz",
+      "price": 749.99,
+      "shipping": 24.45,
+      "found_at": "2026-10-08",
+      "condition_notes": "Listed as 'For parts or not working'. Seller: unit turns on, overall good condition, screen seems fine, few scuffs on top, inside looks clean; seller not versed in the equipment so listed untested as is and says to assume a little TLC may be needed. 30-day returns, buyer pays return shipping. Best Offer enabled.",
+      "work_flag": "For parts or not working; turns on but listed untested as is; 'assume a little TLC may need to be done'",
+      "seller_feedback": "100% (1336 ratings)"
+    }
+  ]
+}
