@@ -1,0 +1,86 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-08",
+  "ran_at": "2026-10-08T05:52:39-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-07T05:52:43-04:00 (prior eham run, last ad covered 629092). Signed in as K4LFC. Scanned classifieds pages 1-2 (ads 629093-629113, all new). eHam searches spaced 40s+ apart, no Cloudflare/1015 or challenge seen. Comps: Elecraft K3/100 ledger hit (both K6RO K3 listings, no eHam search); eHam searches for '7100', '910H', '720A', 'ATR-15', '775' (page 1 of results only, 50/page). Seen but not comped / not dropped: Palomar M-827 wattmeter 629097 ($99.50 + $17.75 ship); Arlan RS60 boom headset 629098 ($250 + $15); Tarheel screwdriver antenna 629095 ($450 OBO, cracked bug shield + crack near top-cap screw, no control cables); Icom FL-223 filter 629094 ($120, as-is); Tidradio TD-H3 Plus 629096 ($25); K6RO Elecraft parts/options 629100 (KBPF3 $137), 629101 (K144XV $149.95), 629104 (multi-item list), P3 panadapter 629103 ($495 delivered); AME Bushwacker paddle 629108 ($80 shipped); non-ham: Mac Mini 629107, Whistler WS-1080 scanner 629099, ham-home wanted ad 629102.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629113",
+      "site": "eham",
+      "title": "FOR SALE:  ICOM IC-720A HF TRANSCEIVER",
+      "price": 299.0,
+      "shipping": 0,
+      "found_at": "2026-10-08",
+      "condition_notes": "Posted 2026-10-07 by WA8DVD. 'In good shape for its age.' Comes with power cord and copy of manual. $299 (SHIPPED).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629112",
+      "site": "eham",
+      "title": "Ameritron ATR-15 Tuner",
+      "price": 150.0,
+      "shipping": 0,
+      "found_at": "2026-10-08",
+      "condition_notes": "Posted 2026-10-07 by N4ATS. 'Very clean', no longer using, non-smoker. $150 shipped CONUS, Zelle preferred.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629111",
+      "site": "eham",
+      "title": "ICOM IC-7100",
+      "price": 795.0,
+      "shipping": 0,
+      "found_at": "2026-10-08",
+      "condition_notes": "Posted 2026-10-07 by N5RAH. VGC, bought for a project that didn't happen; HM mic, DC cable w/ Powerpoles, separation cable, paper + CD manual. $795 plus shipping/insurance (amount not stated).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629110",
+      "site": "eham",
+      "title": "Icom 775dsp",
+      "price": 200.0,
+      "shipping": 0,
+      "found_at": "2026-10-08",
+      "condition_notes": "Posted 2026-10-07 by WA1EXA. 'Does not transmit, use for parts or receiver.' Ad text reads '200 w any offer buyer pays shipping' (no $ sign; recorded as $200 asking, open to offers). Shipping not stated.",
+      "work_flag": "Does not transmit, use for parts or receiver",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629105",
+      "site": "eham",
+      "title": "Elecraft K3/100  TRANSCEIVER # 443",
+      "price": 959.0,
+      "shipping": 0,
+      "found_at": "2026-10-08",
+      "condition_notes": "Posted 2026-10-06 by K6RO (seller says he has many K3s and options for sale). S/N 443, 100 W, 2.7 SSB + 500 Hz CW filters, KIO3, KXV3; latest firmware 5.67; 'works as it should', good condition; power cord. No KAT3 tuner. $959 delivered.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629106",
+      "site": "eham",
+      "title": "Elecraft K3/100  TRANSCEIVER # 1292 SUB",
+      "price": 1669.0,
+      "shipping": 0,
+      "found_at": "2026-10-08",
+      "condition_notes": "Posted 2026-10-06 by K6RO. S/N 1292, 100 W, KAT3 tuner, KRX3 sub receiver, 2.7 SSB filters, KIO3, KXV3A; firmware 5.67; good condition, used on CW/SSB the day of posting; power cord. $1669 delivered ($1369 without tuner).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629093",
+      "site": "eham",
+      "title": "ICOM 910H",
+      "price": 1350.0,
+      "shipping": 0,
+      "found_at": "2026-10-08",
+      "condition_notes": "Posted 2026-10-06 by N2RER. Stock 2m/440 (no UX-910 1.2 GHz mentioned), 'great shape', with matching SP-23 speaker and PS-125 supply; original boxes/manuals, hand mic, DC cord. $1350, shipping extra (amount not stated). CONUS only.",
+      "work_flag": "No warranties expressed or implied, sold as is where is. No returns accepted.",
+      "seller_feedback": ""
+    }
+  ]
+}
