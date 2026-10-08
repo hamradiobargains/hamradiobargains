@@ -1,0 +1,275 @@
+{
+  "model": "Icom IC-720A",
+  "slug": "icom-ic-720a",
+  "searched_at": "2026-10-08T05:58:48-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search '720A' with sold box, page 1 (50 results; one more page exists). Not in ledger. 37 sold comps kept, nearly all 2005-2018 - no sold IC-720A comps since 2018 on page 1. Many are bundles with PS-15/PS-20/PS-55 supplies or have faults (flagged). Several sellers reposted the same radio (W3ESE x3, K6SRD x4, KK4WS x4, IRVIN x2) - flagged. Excluded: 617473, 599133 (not marked sold); 436725, 339179, 170023 (no price); 561032 PA board; 344620 LDA unit; 273169 IC-2720A; 235732 HP scope; 217789 parts wanted; 125504, 143687 wanted ads. Dates are ad post dates; prices are asking prices on ads marked SOLD.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629113",
+    "site": "eham",
+    "ask": 299.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 200.0,
+      "sold_date": "2018-11-04",
+      "condition": "From SK; missing the FAST push button; >100 W all bands, band relays work; with hand + desk mic, PS-15 supply, G5RV antenna. No returns.",
+      "url": "https://www.eham.net/classifieds/541185",
+      "notes": "plus USPS shipping; BUNDLE (PS-15, mics, G5RV) + missing button - flag"
+    },
+    {
+      "price": 280.0,
+      "sold_date": "2017-11-09",
+      "condition": "Very nice, 9/10, tuned and aligned, fully functional, late S/N 12xxx.",
+      "url": "https://www.eham.net/classifieds/529153",
+      "notes": "buyer ships or pickup Reno NV"
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2017-04-25",
+      "condition": "Really nice, late serial, fully functional, fully outfitted with filters; HM-7 mic, power cord.",
+      "url": "https://www.eham.net/classifieds/504307",
+      "notes": "shipping not included"
+    },
+    {
+      "price": 295.0,
+      "sold_date": "2016-10-17",
+      "condition": "Very nice, fully operational; with matching DC power supply/speaker, CW filter, manuals, cords.",
+      "url": "https://www.eham.net/classifieds/507257",
+      "notes": "shipped CONUS ($250 pickup); BUNDLE with matching PS/speaker - flag"
+    },
+    {
+      "price": 199.0,
+      "sold_date": "2015-10-14",
+      "condition": "Nice working and looking; original box, power cord.",
+      "url": "https://www.eham.net/classifieds/481633",
+      "notes": "plus help with shipping"
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2015-10-03",
+      "condition": "Nice working, 95 W out; original box, fused power cord, aftermarket mic.",
+      "url": "https://www.eham.net/classifieds/480857",
+      "notes": "plus help with shipping; same seller as 481633 (possibly same radio relisted lower)"
+    },
+    {
+      "price": 320.0,
+      "sold_date": "2014-12-07",
+      "condition": "Works good; power cord, Realistic base mic. Sold AS IS - NO RETURNS.",
+      "url": "https://www.eham.net/classifieds/454251",
+      "notes": "shipped"
+    },
+    {
+      "price": 365.0,
+      "sold_date": "2014-07-18",
+      "condition": "Pristine collector condition, tuned/aligned, loaded with filters; HM-7, manual, cord, serial-numbered original box.",
+      "url": "https://www.eham.net/classifieds/442823",
+      "notes": "shipped; also offered for trade; ad says PENDING"
+    },
+    {
+      "price": 260.0,
+      "sold_date": "2012-04-13",
+      "condition": "'Does seem to be working', transmits; band change is noisy; cosmetically clean; with PS-15 supply, HM-7 mic, manuals on CD.",
+      "url": "https://www.eham.net/classifieds/372881",
+      "notes": "plus $45 shipping; BUNDLE with PS-15; seller unsure of function - flag"
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2011-09-20",
+      "condition": "Back-up rig; stubborn power switch, sometimes needs a key-up after band change to restore receive; 60m/TX-all mod; HM-7 mic, cord.",
+      "url": "https://www.eham.net/classifieds/355397",
+      "notes": "shipped; MINOR FAULTS + TX mod - flag; ad says PENDING"
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2010-11-16",
+      "condition": "Looks close to new; with matching PS-15 supply, SP-3 speaker, SM-5 desk mic, cables, manuals.",
+      "url": "https://www.eham.net/classifieds/330920",
+      "notes": "pickup Delaware/local delivery; BUNDLE - flag; seller posted same package 3 times (330919, 329330)"
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2010-11-16",
+      "condition": "Same package as 330920: PS-15, SP-3, SM-5, cables, manuals; looks close to new.",
+      "url": "https://www.eham.net/classifieds/330919",
+      "notes": "pickup/local delivery; BUNDLE; likely duplicate of 330920 - flag"
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2010-10-26",
+      "condition": "Excellent; with PS-15, SP-3, SM-5, manuals, cables.",
+      "url": "https://www.eham.net/classifieds/329330",
+      "notes": "pickup/local delivery; BUNDLE; likely same package as 330920 - flag"
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2010-08-26",
+      "condition": "IC-720A with Jetstream 20 A supply, B&W VS-300 tuner, Icom desk mic, manual.",
+      "url": "https://www.eham.net/classifieds/325084",
+      "notes": "shipped lower 48; BUNDLE with supply and tuner - flag"
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2010-07-31",
+      "condition": "Excellent 8.5+, serviced/realigned by COMTEK ~3 yrs prior; with PS-20 supply; original docs.",
+      "url": "https://www.eham.net/classifieds/323066",
+      "notes": "buyer pays shipping; BUNDLE with PS-20 - flag"
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2010-03-12",
+      "condition": "Fine working, minor smudges/scratches; manual copy, cord, mic + homebuilt mic preamp.",
+      "url": "https://www.eham.net/classifieds/312905",
+      "notes": "plus actual shipping"
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2009-12-13",
+      "condition": "Very good (basic wear), makes 100 W; manuals, schematics, service manual; NO hand mic.",
+      "url": "https://www.eham.net/classifieds/297240",
+      "notes": "plus shipping; radio-only price (PS-55 offered separately)"
+    },
+    {
+      "price": 245.0,
+      "sold_date": "2009-12-13",
+      "condition": "Good-VG, makes 100 W; manuals/service manual; NO hand mic. As is, no returns.",
+      "url": "https://www.eham.net/classifieds/297031",
+      "notes": "OBO plus shipping; same seller as 297240"
+    },
+    {
+      "price": 340.0,
+      "sold_date": "2009-12-13",
+      "condition": "Good condition with PS-55 supply, manuals, service manual; NO hand mic. As is, no returns.",
+      "url": "https://www.eham.net/classifieds/296648",
+      "notes": "OBO plus shipping; BUNDLE with PS-55 - flag"
+    },
+    {
+      "price": 295.0,
+      "sold_date": "2009-08-28",
+      "condition": "Works great, full output, very clean; MARS/CAP modified; with matching PS-15 supply, manual.",
+      "url": "https://www.eham.net/classifieds/289861",
+      "notes": "shipping not stated; BUNDLE with PS-15, MARS mod - flag"
+    },
+    {
+      "price": 340.0,
+      "sold_date": "2009-08-17",
+      "condition": "Good condition with PS-55, manuals, service manual; NO hand mic. As is, no returns.",
+      "url": "https://www.eham.net/classifieds/296392",
+      "notes": "OBO plus shipping; BUNDLE with PS-55; same seller K6SRD relisted - flag"
+    },
+    {
+      "price": 340.0,
+      "sold_date": "2009-08-15",
+      "condition": "Good condition with PS-55, manuals; NO hand mic. As is, no returns.",
+      "url": "https://www.eham.net/classifieds/296217",
+      "notes": "OBO plus shipping; BUNDLE with PS-55; same seller relisted - flag"
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2009-05-25",
+      "condition": "Works great, full output, very clean; MARS/CAP modified; with PS-15 supply, manual.",
+      "url": "https://www.eham.net/classifieds/289658",
+      "notes": "shipping not stated; BUNDLE with PS-15, MARS mod - flag"
+    },
+    {
+      "price": 295.0,
+      "sold_date": "2009-05-22",
+      "condition": "Works great, full output, very clean; MARS/CAP modified; manual.",
+      "url": "https://www.eham.net/classifieds/288551",
+      "notes": "shipping not stated; MARS mod; same seller KK4WS relisted"
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2009-05-10",
+      "condition": "Works great, full output, very clean; MARS/CAP modified; manual.",
+      "url": "https://www.eham.net/classifieds/287979",
+      "notes": "shipping not stated; MARS mod; same seller KK4WS"
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2009-04-10",
+      "condition": "Clean, works well; with power supply, hand mic, external speaker/phone patch.",
+      "url": "https://www.eham.net/classifieds/285839",
+      "notes": "or make offer; BUNDLE - flag"
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2008-05-12",
+      "condition": "Clean, works fine; with matching PS-20, filters, original boxes.",
+      "url": "https://www.eham.net/classifieds/260323",
+      "notes": "OBO; pickup NYC preferred; BUNDLE with PS-20 - flag"
+    },
+    {
+      "price": 110.0,
+      "sold_date": "2007-11-29",
+      "condition": "TECH SPECIAL: stuck in RTTY mode, VFO will not change frequency; full power out; HM-10 mic, manual, diagram.",
+      "url": "https://www.eham.net/classifieds/246754",
+      "notes": "plus shipping; NEEDS REPAIR - flag"
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2007-05-14",
+      "condition": "No details (body just 'SOLD').",
+      "url": "https://www.eham.net/classifieds/230631",
+      "notes": "price from title 'PRICE REDUCED $300.00'"
+    },
+    {
+      "price": 235.0,
+      "sold_date": "2006-11-22",
+      "condition": "Good shape, some chassis scratches (ex-mobile), works great; stock mic, manual copy, service manual CD.",
+      "url": "https://www.eham.net/classifieds/216907",
+      "notes": "plus $25 shipping"
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2006-09-15",
+      "condition": "As new cosmetically; volume control scratchy, band switch/relays need cleaning; power cord, manual copy, HM-7.",
+      "url": "https://www.eham.net/classifieds/212038",
+      "notes": "plus shipping; SCRATCHY VOLUME + BAND RELAY issue - flag"
+    },
+    {
+      "price": 395.0,
+      "sold_date": "2006-04-15",
+      "condition": "Excellent; with SM-5 mic, SP-3 speaker and MFJ-949C tuner.",
+      "url": "https://www.eham.net/classifieds/195914",
+      "notes": "plus shipping; BUNDLE with tuner/speaker - flag"
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2006-04-01",
+      "condition": "Excellent, TX/RX perfect; HM-7 mic, DC cable, manuals on CD; with SignaLink LX-1+ and interface cables.",
+      "url": "https://www.eham.net/classifieds/198543",
+      "notes": "plus shipping/insurance; BUNDLE with SignaLink - flag"
+    },
+    {
+      "price": 190.0,
+      "sold_date": "2006-01-08",
+      "condition": "Estate, works as it should; original equipment, manual, HM-7, power cord.",
+      "url": "https://www.eham.net/classifieds/191371",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 299.0,
+      "sold_date": "2005-12-09",
+      "condition": "Serviced at service center for low audio, functions as it should; slight rust spots on case; box, manuals, hand mic, DC cable.",
+      "url": "https://www.eham.net/classifieds/156025",
+      "notes": "shipped; RUST SPOTS - flag"
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2005-11-15",
+      "condition": "Working, solid 8, scratches/wear; included IC-PS20 supply does NOT work; Powerpole-modified cable; original mic.",
+      "url": "https://www.eham.net/classifieds/187206",
+      "notes": "buyer pays shipping; negotiable; BUNDLE incl. non-working PS-20 - flag"
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2005-06-21",
+      "condition": "Just replaced finals, works great; with preamplified SM-5 desk mic.",
+      "url": "https://www.eham.net/classifieds/175258",
+      "notes": "plus shipping CONUS; finals replaced - flag"
+    }
+  ]
+}
