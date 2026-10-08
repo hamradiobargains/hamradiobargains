@@ -1,0 +1,275 @@
+{
+  "model": "Icom IC-910H",
+  "slug": "icom-ic-910h",
+  "searched_at": "2026-10-08T05:57:08-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search '910H' with sold box, 50 results, page 1 only (more pages exist, oldest shown 2013). Not a ledger hit (ledger latest 2026-06-11). 37 sold comps kept. Many comps include the UX-910 1.2 GHz module or other options (flagged) - trigger is stock 2m/440 but bundled with PS-125 supply and SP-23 speaker. Excluded: 629053 (active, not sold - already in dropped list), 602743, 596917, 614164 (not marked sold); 608838, 576608, 562243 (SOLD but no price shown); 605512 and 575859 (UX-910 module only); 576979 rack kit; 605655 and 441687 wanted ads. Dates are ad post dates; prices are asking prices on ads marked SOLD.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629093",
+    "site": "eham",
+    "ask": 1350.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 800.0,
+      "sold_date": "2026-06-11",
+      "condition": "Like brand new; HM-12 mic, power cord, manual in plastic, spare fuses, original packing.",
+      "url": "https://www.eham.net/classifieds/627223",
+      "notes": "shipped lower 48; stock (no options mentioned)"
+    },
+    {
+      "price": 625.0,
+      "sold_date": "2026-02-05",
+      "condition": "Excellent, original box; CR-293 high-stability option installed; manual on CD, aftermarket (knock-off) hand mic, Icom power cord.",
+      "url": "https://www.eham.net/classifieds/624944",
+      "notes": "plus shipping; non-Icom mic"
+    },
+    {
+      "price": 825.0,
+      "sold_date": "2026-01-21",
+      "condition": "Excellent; dual optional DSP boards (UT-106 x2) and carry handle; HM-12 mic, power cord, manual.",
+      "url": "https://www.eham.net/classifieds/624770",
+      "notes": "shipping not stated"
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2025-11-02",
+      "condition": "Works very well but display backlight 'not quite as bright as it should be'; few front-panel scratches; CR-293 installed; mic and power cord.",
+      "url": "https://www.eham.net/classifieds/623679",
+      "notes": "plus shipping; DIM BACKLIGHT + scratches - flag; also offered for trade"
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2024-12-06",
+      "condition": "Original owner, low hours; UX-910 1.2 GHz module, 2x UT-106 DSP, CR-293, UT-102 voice synth; original accessories unused, original packing.",
+      "url": "https://www.eham.net/classifieds/617859",
+      "notes": "shipping not stated; LOADED incl. UX-910 1.2 GHz - not stock, flag"
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2023-07-14",
+      "condition": "CAT control jack does not work; otherwise full power on 2m and 70cm; printed manual, mic, power cable w/ Powerpoles.",
+      "url": "https://www.eham.net/classifieds/607058",
+      "notes": "buyer pays shipping; CAT JACK FAULT - flag; same seller/radio as 606745 relisted lower"
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2023-06-30",
+      "condition": "Completely stock, no 1.2 GHz or filters; CAT control jack nonfunctional, otherwise works perfectly; manual, mic, power cable.",
+      "url": "https://www.eham.net/classifieds/606745",
+      "notes": "buyer pays shipping; CAT JACK FAULT - flag; same radio later relisted at $550 (607058), both ads marked SOLD"
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2023-06-06",
+      "condition": "Good condition, few light scratches; UT-106 DSP and FL-132 CW filter; no 1.2 GHz; with HM-36 mic and MFJ-916B duplexer.",
+      "url": "https://www.eham.net/classifieds/606185",
+      "notes": "plus shipping; includes duplexer"
+    },
+    {
+      "price": 475.0,
+      "sold_date": "2023-04-17",
+      "condition": "FOR PARTS - radio does not work; outside in great condition; ad says '2 meter, 23 cm'.",
+      "url": "https://www.eham.net/classifieds/604787",
+      "notes": "plus shipping; NON-WORKING PARTS UNIT - flag"
+    },
+    {
+      "price": 940.0,
+      "sold_date": "2023-03-09",
+      "condition": "SK estate, works as it should, good cosmetics; with 1296 module; manual, mic, power cord.",
+      "url": "https://www.eham.net/classifieds/603852",
+      "notes": "$940 shipped US ($900 picked up Tampa); includes UX-910 1.2 GHz - flag"
+    },
+    {
+      "price": 995.0,
+      "sold_date": "2023-03-07",
+      "condition": "Excellent (9/10); UX-910 23cm option; bundled with Comet GP-98 tri-band antenna.",
+      "url": "https://www.eham.net/classifieds/603816",
+      "notes": "plus $55 shipping; BUNDLE with antenna and UX-910 - flag"
+    },
+    {
+      "price": 995.0,
+      "sold_date": "2023-03-02",
+      "condition": "Beautiful, looks and works excellent; 23 cm option; box, mic, power cord.",
+      "url": "https://www.eham.net/classifieds/603658",
+      "notes": "plus $35 shipping; includes UX-910 - flag"
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2022-01-13",
+      "condition": "Very nice, 100% working; CR-293 TCXO; base price (UX-910 add $300, UT-106 add $75 offered separately).",
+      "url": "https://www.eham.net/classifieds/593095",
+      "notes": "base radio price used; sale final"
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2021-11-03",
+      "condition": "Excellent; hand mic, power cable, spiral-bound manual.",
+      "url": "https://www.eham.net/classifieds/591407",
+      "notes": "buyer pays shipping"
+    },
+    {
+      "price": 1200.0,
+      "sold_date": "2020-03-14",
+      "condition": "1.2 GHz module, one UT-106; serviced/aligned at Icom service center; plus unassembled M2 33-el antenna.",
+      "url": "https://www.eham.net/classifieds/575903",
+      "notes": "shipped east of the Mississippi; BUNDLE w/ antenna, UX-910 - flag"
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2020-02-15",
+      "condition": "With 1.2 GHz module and one UT-106; serviced/aligned at Icom service center.",
+      "url": "https://www.eham.net/classifieds/575269",
+      "notes": "price from title '$1100.00 firm'; includes UX-910 - flag"
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2019-08-28",
+      "condition": "Very clean, good working; CR-293, CW crystals both bands, handle; mic and power cord.",
+      "url": "https://www.eham.net/classifieds/568890",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 1200.0,
+      "sold_date": "2018-12-31",
+      "condition": "Excellent, couple small scratches on top cover; UX-910, 2x UT-106, CR-293, MB-23; HM-36 mic, cable, manual, original packaging.",
+      "url": "https://www.eham.net/classifieds/555708",
+      "notes": "shipping not stated; LOADED incl. UX-910 - flag"
+    },
+    {
+      "price": 1200.0,
+      "sold_date": "2018-02-11",
+      "condition": "Excellent; factory box, mic, manual, power cord; with AG-25 and AG-35 Icom preamps (boxed).",
+      "url": "https://www.eham.net/classifieds/536008",
+      "notes": "plus shipping; BUNDLE with two preamps - flag"
+    },
+    {
+      "price": 925.0,
+      "sold_date": "2018-02-01",
+      "condition": "100% operational, daily driver; UT-106 main band, CR-293; SM-30 mic, power cord, manual. Sales final.",
+      "url": "https://www.eham.net/classifieds/537332",
+      "notes": "shipped"
+    },
+    {
+      "price": 875.0,
+      "sold_date": "2017-12-15",
+      "condition": "Works as it should; power cable, HM-36 mic; no box or manual; plastic still on display.",
+      "url": "https://www.eham.net/classifieds/534814",
+      "notes": "shipped CONUS"
+    },
+    {
+      "price": 1300.0,
+      "sold_date": "2017-11-29",
+      "condition": "With UX-910 1.2 GHz and one UT-106; mic, power cable, manual, original box.",
+      "url": "https://www.eham.net/classifieds/532975",
+      "notes": "shipped CONUS; includes UX-910 - flag"
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2017-11-11",
+      "condition": "Second of two radios offered; one very small nick on top bezel; original box, mic, power cord, manual; full power.",
+      "url": "https://www.eham.net/classifieds/532865",
+      "notes": "plus shipping; ad offered 2 radios (first marked sold in text), price is for the second"
+    },
+    {
+      "price": 875.0,
+      "sold_date": "2017-10-25",
+      "condition": "Perfect working condition, non-smoking; original box, HM-12, power cord.",
+      "url": "https://www.eham.net/classifieds/531869",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 1050.0,
+      "sold_date": "2017-07-09",
+      "condition": "Very nice; original box, mic, manual, power cord; CW filters in main and sub.",
+      "url": "https://www.eham.net/classifieds/525837",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 1200.0,
+      "sold_date": "2017-05-25",
+      "condition": "Pristine 9/10, 100% functional; manual, power cord, mic, handle, original box.",
+      "url": "https://www.eham.net/classifieds/523292",
+      "notes": "shipped and insured CONUS"
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2016-07-01",
+      "condition": "Very clean, original box; one UT-106; mic, power cord, manual.",
+      "url": "https://www.eham.net/classifieds/500583",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2016-05-23",
+      "condition": "Very clean, works perfectly; UT-102, CR-293, 2x UT-106; cord, mic, manual, box, USB CI-V cable.",
+      "url": "https://www.eham.net/classifieds/494367",
+      "notes": "OBO; ad text says it was moved to eBay after no serious offers - price may not reflect an eHam sale, flag"
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2016-02-21",
+      "condition": "Great condition, minor scuffs one side; UT-102, CR-293, UT-106 main and sub; manual, box, HM-12, DC cord.",
+      "url": "https://www.eham.net/classifieds/491369",
+      "notes": "shipped and insured CONUS/Canada"
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2015-10-29",
+      "condition": "Excellent, small scratch on right bezel; UT-106 and MB-23; original box, manual, DC cord.",
+      "url": "https://www.eham.net/classifieds/482444",
+      "notes": "shipping not stated"
+    },
+    {
+      "price": 1200.0,
+      "sold_date": "2015-09-30",
+      "condition": "Mint, plastic still on display, very little use; factory box, manual, cord, mic.",
+      "url": "https://www.eham.net/classifieds/480403",
+      "notes": "shipped CONUS"
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2015-08-22",
+      "condition": "Very clean, works great; mic, power cord, copies of manual.",
+      "url": "https://www.eham.net/classifieds/477473",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 1777.0,
+      "sold_date": "2015-03-03",
+      "condition": "With 1.2 GHz module; original mic, cord, manual, box; works great.",
+      "url": "https://www.eham.net/classifieds/460841",
+      "notes": "shipped; includes UX-910 - flag"
+    },
+    {
+      "price": 1400.0,
+      "sold_date": "2015-01-07",
+      "condition": "Pristine; FL-132, CR-293, UT-106; manual, HM-36 mic, box.",
+      "url": "https://www.eham.net/classifieds/456588",
+      "notes": "firm; shipping not stated"
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2013-10-12",
+      "condition": "Little use, small scratches on top bezel, good condition.",
+      "url": "https://www.eham.net/classifieds/419108",
+      "notes": "shipped"
+    },
+    {
+      "price": 899.0,
+      "sold_date": "2013-07-19",
+      "condition": "Excellent; mic, manual, power cord.",
+      "url": "https://www.eham.net/classifieds/413395",
+      "notes": "plus shipping"
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2013-06-13",
+      "condition": "Includes 1.2 GHz module.",
+      "url": "https://www.eham.net/classifieds/394004",
+      "notes": "shipping not stated; includes UX-910 - flag"
+    }
+  ]
+}
