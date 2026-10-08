@@ -1,0 +1,75 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-08",
+  "ran_at": "2026-10-08T15:03:39-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-06T15:01:02-04:00 (prior qth drop; no 10-07 qth drop exists). Scanned QTH all-ads pages 1-4 (40 newest incl. renewed), well short of the full ~2-day backlog (new IDs ~1781528-1781685); no deeper pagination. QTH page text read via in-page JS (get_page_text permission denied on swap.qth.com). Not picked (cap): Elecraft K3S/100 loaded $3999, DU 3500 AL auto tuner $1750, Diamond GZV4000 $125 shipped, Yaesu FTM-400DR/FT3DR (renewed), homebrew 3-500Z amp, W2IHY EQs, wanted/trade ads. Ledger: IC-7610 HIT (count 8, 2026-09-30); IC-7100 miss (ledger date 2026-09-04 > 30 days); IC-9700, FTM-500DR, AT5K, Titan 425 not in ledger. eHam: signed in as K4LFC, 5 sequential searches, no Cloudflare/challenge. Chrome extension dropped once briefly mid-run, reconnected on retry.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781675",
+      "site": "qth",
+      "title": "RADIOHF - Icom 7610",
+      "price": 1950.0,
+      "shipping": 0,
+      "found_at": "2026-10-08",
+      "condition_notes": "Seller: very good shape, no dings or scratches. Comes with power cord, mic, manual, and box. $1950 shipped and insured.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781626",
+      "site": "qth",
+      "title": "RADIOVHF - Icom IC-9700 VHF/UHF/SHF",
+      "price": 1699.0,
+      "shipping": 0,
+      "found_at": "2026-10-08",
+      "condition_notes": "Seller: fully tested, full power out on all bands; from an estate, little use; pet/smoke-free; excellent operational and cosmetic condition. Original Icom mic, heavy duty power cable, manual. $1699 shipped CONUS. Submitted 10/07, modified 10/08. Same seller (K1FIE) has an eHam ad for this radio dated 2026-10-08 at $1679 shipped.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781680",
+      "site": "qth",
+      "title": "RADIOVHF - Yaesu FTM-500DR",
+      "price": 400.0,
+      "shipping": 30.0,
+      "found_at": "2026-10-08",
+      "condition_notes": "Seller: spare radio, very little use since new; all accessories unopened; plastic still on the face. Ships CONUS only. $400 + $30 shipping. 'NO RETURNS DUE TO PART SWAPPERS..'",
+      "work_flag": "NO RETURNS DUE TO PART SWAPPERS",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781555",
+      "site": "qth",
+      "title": "RADIOHF - ICOM IC-7100",
+      "price": 695.0,
+      "shipping": 0,
+      "found_at": "2026-10-08",
+      "condition_notes": "Seller: VGC - purchased for a project that did not happen. Has h-mic, dc cable w/power poles, sep cable, paper & CD manual. $695 + s/i (shipping/insurance extra, amount not stated). Submitted 10/06 (after last QTH run), modified 10/08.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781673",
+      "site": "qth",
+      "title": "ANTETUNE - FS Palstar AT5K Tuner",
+      "price": 735.0,
+      "shipping": 0,
+      "found_at": "2026-10-08",
+      "condition_notes": "Seller: in original box, excellent shape. $735 plus shipping (amount not stated). Ad's callsign field shows a phone number rather than a callsign.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781678",
+      "site": "qth",
+      "title": "AMPHF - Ten-Tec Titan 425",
+      "price": 4000.0,
+      "shipping": 0,
+      "found_at": "2026-10-08",
+      "condition_notes": "Seller: bundled with matching separate power supply; pair of Eimac 3CX800A7 tubes; '100% Fully Tested', meters responsive per photos; clean faceplate, smoke-free. Auto tuner in photos excluded. $4,000 firm, no offers/trades. Local pickup highly preferred; insured freight at buyer's actual expense (shipping unknown). Listing says it is 'handled by' a named third party.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
