@@ -1,0 +1,22 @@
+{
+  "model": "Icom IC-7610",
+  "slug": "icom-ic-7610",
+  "searched_at": "2026-10-08T15:30:19-04:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "Supplemental note to 2026-10-08-icom-ic-7610.json (same ledger values, no new search). ledger comps used, eHam search skipped — median 2575, count 8, ledger date 2026-09-30. SUMMARY-ONLY LEDGER HIT: comps.json entry 'ICOM IC-7610' holds only latest/history summary stats (median/low/high/count/date) with no individual comps (prices, dates, URLs) behind it, so this median cannot be audited from the ledger file. Per Leo, the 8 comps come from the legacy archive merged into comps.json.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781675",
+    "site": "qth",
+    "ask": 1950.0,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 2575,
+    "low": 2299,
+    "high": 2775,
+    "count": 8,
+    "date": "2026-09-30"
+  }
+}
