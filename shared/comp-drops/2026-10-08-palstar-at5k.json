@@ -1,0 +1,170 @@
+{
+  "model": "Palstar AT5K",
+  "slug": "palstar-at5k",
+  "searched_at": "2026-10-08T15:03:39-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "eHam search 'AT5K' (sold box checked), 31 results back to 2005. 22 priced sold AT5K comps (many old; kept per rules). Excluded for model identity: AT5K-HP ads 616087 (SOLD 2024-09-06 $975 shipped) and 602563 (SOLD 2023-01-15 $695) — not certain AT5K-HP = AT5K. Excluded 597567 (sold, no asking price shown). 362853 'NEEDS REPAIR' $400 flagged. Prices are asking prices at time marked sold.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781673",
+    "site": "qth",
+    "ask": 735.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1049.0,
+      "sold_date": "2025-01-05",
+      "condition": "3500W tuner, 'TOP OF THE LINE'; $1049 plus shipping",
+      "url": "https://www.eham.net/classifieds/618378",
+      "notes": ""
+    },
+    {
+      "price": 825.0,
+      "sold_date": "2024-04-18",
+      "condition": "excellent condition; $825 plus $57 shipping",
+      "url": "https://www.eham.net/classifieds/612963",
+      "notes": "sold noted in ad text ('SOLD, THANK YOU')"
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2023-04-01",
+      "condition": "sold for an SK estate; ships from Albany OR",
+      "url": "https://www.eham.net/classifieds/604438",
+      "notes": ""
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2021-06-19",
+      "condition": "3kW PEP; with manual and power cable; $850 shipped CONUS",
+      "url": "https://www.eham.net/classifieds/587739",
+      "notes": ""
+    },
+    {
+      "price": 775.0,
+      "sold_date": "2020-03-31",
+      "condition": "condition not captured; price $775",
+      "url": "https://www.eham.net/classifieds/576238",
+      "notes": ""
+    },
+    {
+      "price": 775.0,
+      "sold_date": "2019-06-17",
+      "condition": "excellent condition, original owner, non-smoker; $775 shipped",
+      "url": "https://www.eham.net/classifieds/561986",
+      "notes": ""
+    },
+    {
+      "price": 725.0,
+      "sold_date": "2018-09-01",
+      "condition": "completely restored by Palstar May 2018; $725 shipped US",
+      "url": "https://www.eham.net/classifieds/543822",
+      "notes": "factory restored"
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2014-08-21",
+      "condition": "mint, about 1 year old, no smoking",
+      "url": "https://www.eham.net/classifieds/445879",
+      "notes": ""
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2012-09-05",
+      "condition": "built like a tank; mentions scratches on top of case; $700 incl. FedEx",
+      "url": "https://www.eham.net/classifieds/385096",
+      "notes": "cosmetic: scratches on top of case"
+    },
+    {
+      "price": 775.0,
+      "sold_date": "2012-01-19",
+      "condition": "condition not captured; selling for $775",
+      "url": "https://www.eham.net/classifieds/365085",
+      "notes": ""
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2011-12-19",
+      "condition": "NEEDS REPAIR",
+      "url": "https://www.eham.net/classifieds/362853",
+      "notes": "FLAG: needs repair — not comparable to a working unit"
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2011-10-05",
+      "condition": "LIKE NEW with original box and manual; $850 plus shipping",
+      "url": "https://www.eham.net/classifieds/356288",
+      "notes": ""
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2011-07-22",
+      "condition": "like new condition, works perfectly; $850 shipped",
+      "url": "https://www.eham.net/classifieds/350674",
+      "notes": ""
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2011-02-12",
+      "condition": "original owner, near-mint, used briefly; $800 plus actual shipping",
+      "url": "https://www.eham.net/classifieds/337433",
+      "notes": "same seller as 331448"
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2010-11-23",
+      "condition": "original owner, near-mint, used briefly; $900 plus actual shipping",
+      "url": "https://www.eham.net/classifieds/331448",
+      "notes": "same seller as 337433"
+    },
+    {
+      "price": 925.0,
+      "sold_date": "2010-07-15",
+      "condition": "5 months old, mint, like new; $925 + $25 shipping",
+      "url": "https://www.eham.net/classifieds/321900",
+      "notes": ""
+    },
+    {
+      "price": 975.0,
+      "sold_date": "2010-06-01",
+      "condition": "3 months old, mint condition",
+      "url": "https://www.eham.net/classifieds/318910",
+      "notes": ""
+    },
+    {
+      "price": 825.0,
+      "sold_date": "2010-02-10",
+      "condition": "nice, with manual, box and packaging",
+      "url": "https://www.eham.net/classifieds/310286",
+      "notes": "same seller as 304796"
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2009-11-30",
+      "condition": "nice (per seller); $900",
+      "url": "https://www.eham.net/classifieds/304796",
+      "notes": "same seller as 310286"
+    },
+    {
+      "price": 795.0,
+      "sold_date": "2009-10-08",
+      "condition": "very good condition; $795 plus shipping",
+      "url": "https://www.eham.net/classifieds/300872",
+      "notes": ""
+    },
+    {
+      "price": 875.0,
+      "sold_date": "2006-09-18",
+      "condition": "two months old, one-owner/nonsmoker, manual and box; $875 + shipping",
+      "url": "https://www.eham.net/classifieds/212218",
+      "notes": "same seller as 208635"
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2006-09-18",
+      "condition": "two months old, one-owner/nonsmoker, manual and box; $900 + shipping",
+      "url": "https://www.eham.net/classifieds/208635",
+      "notes": "same seller as 212218"
+    }
+  ]
+}
