@@ -1,0 +1,65 @@
+{
+  "model": "Ten-Tec Titan 425",
+  "slug": "ten-tec-titan-425",
+  "searched_at": "2026-10-08T15:03:39-04:00",
+  "searched_by": "claude",
+  "source": "eham",
+  "notes": "Thin-ish/old: eHam search 'Titan' (sold box checked), 50 results (mostly unrelated GAP Titan antennas etc.), not paginated. 7 sold Titan 425 comps, newest 2020-10; two are duplicate ads by one seller (2015-06-11). Excluded: Titan 425E ads 532729 ($1800, 2017) and 459106 ($1600, 2015) — not certain 425E = 425; Titan III; 578385 (sold 2020-06-23, no asking price shown); 447269 (sold 2014, no price shown); parts/power-supply-only ads. 572677 price ambiguous (see comp note). Trigger is local-pickup/freight with power supply. Prices are asking prices at time marked sold.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781678",
+    "site": "qth",
+    "ask": 4000.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1100.0,
+      "sold_date": "2020-10-13",
+      "condition": "fully operational, will do legal limit; seller owns two; $1100 plus shipping",
+      "url": "https://www.eham.net/classifieds/581128",
+      "notes": ""
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2019-11-16",
+      "condition": "with Ten Tec power supply, two 800 tubes doing full output; ad text: '$600 without Power Supply $750 Shipping'",
+      "url": "https://www.eham.net/classifieds/572677",
+      "notes": "price ambiguous: $600 is amp WITHOUT power supply; ad also mentions $750 — unclear if that is the with-PS price"
+    },
+    {
+      "price": 1995.0,
+      "sold_date": "2016-10-18",
+      "condition": "Beautiful, Legal Limit; $1995.00 plus shipping",
+      "url": "https://www.eham.net/classifieds/505773",
+      "notes": ""
+    },
+    {
+      "price": 1450.0,
+      "sold_date": "2015-06-11",
+      "condition": "clean; $1450 plus shipping at cost",
+      "url": "https://www.eham.net/classifieds/470008",
+      "notes": "same seller posted several duplicate ads 2015-06-11 (469672 also marked sold)"
+    },
+    {
+      "price": 1450.0,
+      "sold_date": "2015-06-11",
+      "condition": "clean; $1450 plus shipping at cost",
+      "url": "https://www.eham.net/classifieds/469672",
+      "notes": "duplicate of 470008 by same seller — likely same unit"
+    },
+    {
+      "price": 1800.0,
+      "sold_date": "2014-05-06",
+      "condition": "legal limit HF amp, (2) 3CX800, runs very quiet; $1800 + shipping",
+      "url": "https://www.eham.net/classifieds/437021",
+      "notes": ""
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2012-12-20",
+      "condition": "Model 425; price firm at $1500",
+      "url": "https://www.eham.net/classifieds/393782",
+      "notes": ""
+    }
+  ]
+}
