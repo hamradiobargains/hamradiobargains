@@ -1,0 +1,15 @@
+{
+  "model": "Icom IC-703 Plus",
+  "slug": "icom-ic-703-plus",
+  "searched_at": "2026-10-09T14:56:30-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — zero comps. eBay sold search 'icom ic-703 plus' page 1 (above 'fewer words') returned 6 results, all accessories (DC power cables) and one advertising banner; no radio units. Dropped 0 best-offer-accepted units, 0 parts-only units (one best-offer-accepted banner, not a unit). Model not in ledger.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781576",
+    "site": "qth",
+    "ask": 475.0,
+    "shipping": 0
+  },
+  "comps": []
+}
