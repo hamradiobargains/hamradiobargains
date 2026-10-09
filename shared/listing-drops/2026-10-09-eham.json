@@ -1,0 +1,75 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-09",
+  "ran_at": "2026-10-09T05:53:09-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-08T05:52:39-04:00 (prior eham run, last ad covered 629113). Browsed signed OUT (eHam shows 'Welcome Guest'). Classifieds home page 1 only (1 eHam page load) covered all new ads 629114-629125 (629114, 629117, 629122 not shown - likely deleted). No search form, no sold searches, no seller/callsign pages, no individual ad pages opened (full ad text shown on index). No Cloudflare/1015 or challenge. Comps: Elecraft K3/100 and Yaesu FTDX10 ledger hits; eBay sold searches (signed in as Leo) for IC-9700, HL-45B, FT-950, SB-220, spaced 15s+, no challenge. Seen but not dropped: Vibroplex bug 1938 629123 ($190 shipped, new contacts); K6RO chrome K3/K3S VFO knobs 629118 ($139 delivered); Wanted ad Ameritron AL-82 629121.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629125",
+      "site": "eham",
+      "title": "Tokyo High Power HL-45B HF Amplifier",
+      "price": 399.0,
+      "shipping": 0,
+      "found_at": "2026-10-09",
+      "condition_notes": "Seller: like new, cables/manual/spare fuses appear unused, original box. $399 shipped CONUS (shipping included); will ship worldwide.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629124",
+      "site": "eham",
+      "title": "Icom IC-9700",
+      "price": 1679.0,
+      "shipping": 0,
+      "found_at": "2026-10-09",
+      "condition_notes": "Estate radio, little use; seller says fully tested, full power out all bands, excellent operational and cosmetic condition, pet/smoke-free. Includes Icom mic, heavy-duty power cable, manual. $1679 shipped CONUS (shipping included).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629120",
+      "site": "eham",
+      "title": "Elecraft K3/100 TRANSCEIVER # 2756",
+      "price": 949.0,
+      "shipping": 0,
+      "found_at": "2026-10-09",
+      "condition_notes": "SN 2756, KPA3 100W, 2.7 SSB filter, KIO3; 'lots of mods done on 5/2023'; firmware 5.67; seller: super clean, works as it should, used today on CW/SSB. Power cord and manual. $949 delivered (shipping included). Seller K6RO (multiple K3 listings).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629119",
+      "site": "eham",
+      "title": "Yaesu FTDX10 New",
+      "price": 1350.0,
+      "shipping": 0,
+      "found_at": "2026-10-09",
+      "condition_notes": "New in box, bought from HRO in May, never used (taken out only for photos). Seller pays 1/2 shipping to lower 48 (exact shipping unknown, recorded as 0). Check/postal money order only, no PayPal.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629116",
+      "site": "eham",
+      "title": "Yaesu FT950 HF Transceiver",
+      "price": 700.0,
+      "shipping": 0,
+      "found_at": "2026-10-09",
+      "condition_notes": "Lightly used, good condition, one owner. Mod: IF tap to rear SMA connector for panadapter; RTL-SDR and SMA cable included. Original mic and manual. PICKUP ONLY (St Thomas, PA, or possibly near Asbury Park, NJ) - no shipping.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629115",
+      "site": "eham",
+      "title": "SB220 HF Amplifier",
+      "price": 1200.0,
+      "shipping": 0,
+      "found_at": "2026-10-09",
+      "condition_notes": "Heathkit SB-220, 80-10m, restored by seller; very good working and cosmetic condition; wired 110 VAC; soft-start mod and soft-key mod. PICKUP ONLY (St Thomas, PA, or possibly NJ near Asbury Park) - no shipping.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
