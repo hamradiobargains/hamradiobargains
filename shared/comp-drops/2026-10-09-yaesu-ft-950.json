@@ -1,0 +1,56 @@
+{
+  "model": "Yaesu FT-950",
+  "slug": "yaesu-ft-950",
+  "searched_at": "2026-10-09T05:58:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no entry). 5 kept. Dropped 5 best-offer-accepted (Sep 23 $650, Aug 27 $475, Aug 24 $750, Jul 29 $850, Jul 28 $649). Dropped 1 parts-only (Jul 19 $599.99 'No Power Cord Untested', also best-offer-accepted). Excluded FT-2000 (different model) and boards/manual/USB interface parts. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629116",
+    "site": "eham",
+    "ask": 700.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 550.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117433725002",
+      "source": "ebay",
+      "notes": "Or Best Offer (not accepted); +$75.33 delivery; title 'w/ IF-2000 and LP-PAN' (panadapter accessories included)"
+    },
+    {
+      "price": 390.0,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227473319094",
+      "source": "ebay",
+      "notes": "Or Best Offer (not accepted); +$139.86 delivery; title says tested working"
+    },
+    {
+      "price": 880.0,
+      "sold_date": "2026-07-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178320248352",
+      "source": "ebay",
+      "notes": "Buy It Now; +$63.50 delivery; with box, US version, 'excellent'"
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-07-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287315490862",
+      "source": "ebay",
+      "notes": "Buy It Now; +$98.00 delivery; title 'Mars Mods ... 27MHz OK' (modified)"
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-07-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137505534452",
+      "source": "ebay",
+      "notes": "Or Best Offer (not accepted); +$63.45 delivery; MH-31 mic, manual, power cable, fully tested"
+    }
+  ]
+}
