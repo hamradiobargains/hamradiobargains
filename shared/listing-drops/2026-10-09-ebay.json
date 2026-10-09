@@ -1,0 +1,75 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-09",
+  "ran_at": "2026-10-09T17:58:26-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now, sorted newly listed; /sch/4670 URL redirected to the category browse page. Scanned page 1 only (120 items, all NEW LISTING); listing pages say 'listed in the last 3 days' so exact list times vs the previous run (2026-10-08T17:58:17-04:00) could not be pinned. 6 candidates picked, all 6 passed the seller rule (>=95%, >=10 ratings). Ledger: 1 hit (KENWOOD TS-480HX, count 3, dated 2026-09-27). eBay sold searches: Drake TR-7, Yaesu FT-897D, Icom IC-910D, Kenwood TS-790, Xiegu G90 — no challenges. Not picked: Yaesu FT-8900R ($349 OBO), Icom IC-2000H, IC-229H, Alinco DR-135T MKII, Mirage B1016, Yaesu FC-40/FC-80 tuners, Kenwood UT-10, Yaesu FT-4700/FT-8800, Tokyo Hy-Power HL-726D, JRC NRD-515, RigExpert AA-230, parts-only items (Kenwood TS-530SP, TR-7930, Siltronix 1011D, Hallicrafters S-53/SX-28), accessories and general electronics.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/198702128925",
+      "site": "ebay",
+      "title": "Kenwood TS-480HX Mobile 200W Ham Radio All-Mode HF + 6-Meter Transceiver (nice)",
+      "price": 1500.0,
+      "shipping": 56.84,
+      "found_at": "2026-10-09",
+      "condition_notes": "eBay condition: Used. Title says '(nice)'. Buy It Now, fixed price.",
+      "work_flag": "",
+      "seller_feedback": "100% (31325 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/198702128924",
+      "site": "ebay",
+      "title": "Drake TR-7 Vintage Ham Radio Transceiver + Filters + PS-7 Power Supply (works)",
+      "price": 700.0,
+      "shipping": 186.21,
+      "found_at": "2026-10-09",
+      "condition_notes": "eBay condition: Used. Includes filters and PS-7 power supply; title says '(works)'. Buy It Now, fixed price.",
+      "work_flag": "",
+      "seller_feedback": "100% (31325 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/860027256201",
+      "site": "ebay",
+      "title": "Yaesu FT-897D HF/VHF/UHF Tri-Band All Mode Transceiver LCD Black Mic Manual",
+      "price": 750.0,
+      "shipping": 96.39,
+      "found_at": "2026-10-09",
+      "condition_notes": "eBay condition: Used. Includes mic and manual. Buy It Now or Best Offer.",
+      "work_flag": "",
+      "seller_feedback": "100% (63 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/860026724083",
+      "site": "ebay",
+      "title": "ICOM IC-910D 144/430MHz All Mode Transceiver 100W EME Spec w/ CR-293 Tested",
+      "price": 693.99,
+      "shipping": 172.0,
+      "found_at": "2026-10-09",
+      "condition_notes": "eBay condition: Used. Seller notes: 'Used, some scratches or marks (seller-graded). Japanese takeoff.' Title says 'EME Spec w/ CR-293 Tested'. Ships from Japan (SpeedPAK).",
+      "work_flag": "",
+      "seller_feedback": "98.9% (3638 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/860026659915",
+      "site": "ebay",
+      "title": "Kenwood TS-790 144/430MHz All Mode Ham Radio Transceiver VHF UHF Tested Working",
+      "price": 529.98,
+      "shipping": 155.0,
+      "found_at": "2026-10-09",
+      "condition_notes": "eBay condition: Used. Seller notes: 'Used, scratches or marks (seller-graded). Japanese takeoff.' Title says Tested Working. Japanese-market TS-790 (output power not stated in title). Ships from Japan (SpeedPAK).",
+      "work_flag": "",
+      "seller_feedback": "98.9% (3638 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/327396584468",
+      "site": "ebay",
+      "title": "Xiegu G90 HF 20W 0.5-30MHz SDR Amateur Radio Transceiver",
+      "price": 380.0,
+      "shipping": 8.44,
+      "found_at": "2026-10-09",
+      "condition_notes": "eBay condition: Used. Buy It Now or Best Offer.",
+      "work_flag": "",
+      "seller_feedback": "100% (93 ratings)"
+    }
+  ]
+}
