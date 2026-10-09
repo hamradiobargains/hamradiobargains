@@ -1,0 +1,15 @@
+{
+  "model": "Tokyo High Power HL-45B",
+  "slug": "tokyo-high-power-hl-45b",
+  "searched_at": "2026-10-09T05:58:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin: zero qualifying sold comps on page 1 (ledger miss - no entry). Only result was an HL-45B relay keying cable (accessory, $29.99) - excluded.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629125",
+    "site": "eham",
+    "ask": 399.0,
+    "shipping": 0
+  },
+  "comps": []
+}
