@@ -1,0 +1,65 @@
+{
+  "model": "Drake TR-7",
+  "slug": "drake-tr-7",
+  "searched_at": "2026-10-09T17:58:26-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "5 kept comps from eBay sold page 1 (exact model TR-7, complete units). Dropped 1 best-offer-accepted (366571371217 $200, also Parts Only). Dropped 1 parts-only (267763825373 $325, Parts Only). Excluded: Drake TR7A 206561618086 ($301, 28 bids — TR-7A treated as a different model), DR-7 display unit, AUX-7 board, VCO/IF/fan boards, push buttons and other parts; other Drake models (TR-4C, TR-5, 2-C). Two kept comps include PS-7 power supply (trigger listing also includes PS-7). Outliers flagged: 327126480078 $695.00.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/198702128924",
+    "site": "ebay",
+    "ask": 700.0,
+    "shipping": 186.21
+  },
+  "comps": [
+    {
+      "price": 649.95,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298741681836",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted). With PS-7 power supply & 7077 base mic. Shipping $126.55.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267763689565",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted). Title: 'Works Please Read'. Shipping $34.65.",
+      "flags": []
+    },
+    {
+      "price": 290.0,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237005696213",
+      "source": "ebay",
+      "notes": "Auction, 2 bids. With manual. Shipping $40.55.",
+      "flags": []
+    },
+    {
+      "price": 449.99,
+      "sold_date": "2026-08-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227294788199",
+      "source": "ebay",
+      "notes": "Buy It Now. With manual; title says WORKS. Shipping $39.99.",
+      "flags": []
+    },
+    {
+      "price": 695.0,
+      "sold_date": "2026-07-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327126480078",
+      "source": "ebay",
+      "notes": "OUTLIER: $695.00 vs ~$450.00 median for the rest. Buy It Now. With PS-7 power supply, MS7 speaker & mic. Free shipping.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
