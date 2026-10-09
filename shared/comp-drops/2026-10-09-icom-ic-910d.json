@@ -1,0 +1,15 @@
+{
+  "model": "Icom IC-910D",
+  "slug": "icom-ic-910d",
+  "searched_at": "2026-10-09T17:58:26-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — zero qualifying comps. eBay sold page 1 for 'Icom IC-910D' returned only 1 exact-match result (176901308779, IC-910D/H ribbon cable set, $49.99 — accessory, excluded); everything else was under 'Results matching fewer words' and ignored. IC-910D is not the same model as IC-910H; ledger has ICOM IC-910H only. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/860026724083",
+    "site": "ebay",
+    "ask": 693.99,
+    "shipping": 172.0
+  },
+  "comps": []
+}
