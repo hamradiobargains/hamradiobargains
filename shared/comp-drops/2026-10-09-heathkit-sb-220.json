@@ -1,0 +1,64 @@
+{
+  "model": "Heathkit SB-220",
+  "slug": "heathkit-sb-220",
+  "searched_at": "2026-10-09T05:58:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no entry). 6 kept. Dropped 1 best-offer-accepted (Sep 3 $1,299.95 soft-start mod). Dropped 2 parts-only (Sep 6 $549.99 'UNTESTED PARTS/REPAIR'; Aug 28 $1,250 'Very Nice ... Eimac' labeled Parts Only by eBay). Excluded SB-221 (different model), a 3D-printed SB-220 collectible, and many parts/manual/panel listings. OUTLIERS: $575 (Sep 6) vs ~$1,199 median of the rest; $2,000 (Sep 14) vs ~$1,150 median of the rest. Wide spread - vintage restored amps vary a lot.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629115",
+    "site": "eham",
+    "ask": 1200.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1150.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128092019969",
+      "source": "ebay",
+      "notes": "Buy It Now; +$100.00 delivery; title 'Working 2x Taylor 3-500ZG'"
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800663922733",
+      "source": "ebay",
+      "notes": "Or Best Offer (not accepted); +$109.12 delivery"
+    },
+    {
+      "price": 2000.0,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158169024102",
+      "source": "ebay",
+      "notes": "OUTLIER: $2,000 vs ~$1,150 median of the rest. Buy It Now; +$175.00 delivery; title 'Clean'"
+    },
+    {
+      "price": 575.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800587406386",
+      "source": "ebay",
+      "notes": "OUTLIER: $575 vs ~$1,199 median of the rest. Auction (bids); +$96.39 delivery"
+    },
+    {
+      "price": 1199.0,
+      "sold_date": "2026-08-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287506059663",
+      "source": "ebay",
+      "notes": "Buy It Now; +$104.85 delivery; title 'TESTED and WORKING'"
+    },
+    {
+      "price": 795.0,
+      "sold_date": "2026-07-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198529004990",
+      "source": "ebay",
+      "notes": "Or Best Offer (not accepted); +$39.00 delivery; title '3-500 Taylor tubes, modified see descrip.'"
+    }
+  ]
+}
