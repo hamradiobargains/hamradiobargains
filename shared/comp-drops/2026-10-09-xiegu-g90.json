@@ -1,0 +1,333 @@
+{
+  "model": "Xiegu G90",
+  "slug": "xiegu-g90",
+  "searched_at": "2026-10-09T17:58:26-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "33 kept comps from eBay sold page 1 (exact model G90, units only). Dropped 10 best-offer-accepted (407258025300, 407248037317, 336810105681, 158288409917, 236997918793, 188907559269, 389299402822, 198576229014, 336731942603, 117281120315). Dropped 2 parts-only (188904674613 G90+X5105 for parts $361; 137810204445 'Only Part' $55). Excluded: G90S (377485728789 — different model), 'XG G90' 376626026316 ($494.08 — brand/identity unclear), radio boxes/cases, handles, amplifiers, GNR1, DE-19, mics, fans, spare parts kits. Possible duplicate pair: 278176478743 / 278212528007. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/327396584468",
+    "site": "ebay",
+    "ask": 380.0,
+    "shipping": 8.44
+  },
+  "comps": [
+    {
+      "price": 465.8,
+      "sold_date": "2026-10-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/186199985986",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted). Shipping $4.99.",
+      "flags": []
+    },
+    {
+      "price": 260.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168756528610",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. With sound card interface and other extras. Free shipping.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318911026026",
+      "source": "ebay",
+      "notes": "Buy It Now. 'New Version'. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 320.0,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257753227171",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted). With hand mic, cables, manual, box. Shipping $15.65.",
+      "flags": []
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206536268745",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted). Title spelled 'Xeigu'. Shipping $13.42.",
+      "flags": []
+    },
+    {
+      "price": 378.98,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128056042113",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: '* READ DESCRIPTION*'. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117404862298",
+      "source": "ebay",
+      "notes": "Auction, 12 bids. With GY03 cooling fan. Shipping $25.55.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-09-15",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/287571863385",
+      "source": "ebay",
+      "notes": "Buy It Now. With radiator, Digirig & cables, manpack housing. Shipping $13.34.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2026-09-12",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/117406599308",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted). New open box with mic, cables, manual. Shipping $6.40.",
+      "flags": []
+    },
+    {
+      "price": 434.99,
+      "sold_date": "2026-09-05",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227504913190",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted). Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 380.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117382721482",
+      "source": "ebay",
+      "notes": "Auction, 16 bids. With CE-19 digital interface + extras. Shipping $15.15.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 345.0,
+      "sold_date": "2026-09-03",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/298638989013",
+      "source": "ebay",
+      "notes": "Buy It Now. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 420.0,
+      "sold_date": "2026-09-02",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/188843657987",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted). Shipping $10.42.",
+      "flags": []
+    },
+    {
+      "price": 378.98,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117372919414",
+      "source": "ebay",
+      "notes": "Buy It Now. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 324.88,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318801542703",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'tested, working.' Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 295.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227495604603",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted). Shipping $34.71.",
+      "flags": []
+    },
+    {
+      "price": 460.0,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128030215291",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted). In waterproof case with extras. Shipping $40.85.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 389.0,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267765573600",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $9.85.",
+      "flags": []
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2026-08-21",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/137647675746",
+      "source": "ebay",
+      "notes": "Buy It Now. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 445.0,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278270050153",
+      "source": "ebay",
+      "notes": "Auction, 11 bids. Shipping $6.33.",
+      "flags": []
+    },
+    {
+      "price": 333.0,
+      "sold_date": "2026-08-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278270700767",
+      "source": "ebay",
+      "notes": "Buy It Now. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 539.0,
+      "sold_date": "2026-08-09",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/406152782995",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $4.99.",
+      "flags": []
+    },
+    {
+      "price": 420.0,
+      "sold_date": "2026-08-04",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/397380956914",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $15.00.",
+      "flags": []
+    },
+    {
+      "price": 420.0,
+      "sold_date": "2026-07-31",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/157922842203",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $18.00.",
+      "flags": []
+    },
+    {
+      "price": 373.0,
+      "sold_date": "2026-07-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278212528007",
+      "source": "ebay",
+      "notes": "Auction, 16 bids. With CE-19 and G90-H1 fan. Identical title to 278176478743 (sold Jul 19, $401) — possibly the same unit relisted. Shipping $10.12.",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 410.0,
+      "sold_date": "2026-07-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287388883059",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $24.25.",
+      "flags": []
+    },
+    {
+      "price": 355.0,
+      "sold_date": "2026-07-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206417207653",
+      "source": "ebay",
+      "notes": "Auction, 16 bids. Shipping $7.77.",
+      "flags": []
+    },
+    {
+      "price": 401.0,
+      "sold_date": "2026-07-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278176478743",
+      "source": "ebay",
+      "notes": "Auction, 30 bids. With CE-19 and G90-H1 fan. Identical title to 278212528007 (sold Jul 30, $373) — possibly the same unit relisted. Shipping $10.79.",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 261.0,
+      "sold_date": "2026-07-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278172973991",
+      "source": "ebay",
+      "notes": "Auction, 46 bids. Shipping $20.15.",
+      "flags": []
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2026-07-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178233321170",
+      "source": "ebay",
+      "notes": "Buy It Now. With CE-19 and more. Shipping $20.85.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 420.0,
+      "sold_date": "2026-07-17",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/307068825251",
+      "source": "ebay",
+      "notes": "Buy It Now. 'W/EXTRAS!!!'. Free shipping.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 330.0,
+      "sold_date": "2026-07-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227419682677",
+      "source": "ebay",
+      "notes": "Auction, 33 bids. Shipping $8.08.",
+      "flags": []
+    },
+    {
+      "price": 322.0,
+      "sold_date": "2026-07-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227419685887",
+      "source": "ebay",
+      "notes": "Auction, 33 bids. Shipping $8.08.",
+      "flags": []
+    }
+  ]
+}
