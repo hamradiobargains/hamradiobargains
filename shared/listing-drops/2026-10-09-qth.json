@@ -1,0 +1,53 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-09",
+  "ran_at": "2026-10-09T14:57:00-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-08T15:03:39-04:00 (prior qth drop). Scanned QTH all-ads pages 1-6 (60 newest incl. renewed; new IDs ~1781698-1781763). Not picked: Icom '5200a' NIB $1000 (model identity unclear), Pyramid SVR-200V, Retevis Matetalk L2, Motorola XPR5550 / NX-700 commercial radios, accessories, cables, books, wanted ads. Ledger: IC-705 HIT (count 12, 2026-09-29); FT-891 HIT (count 11, 2026-09-28); FT-897D miss (not in ledger; only 'YAESU FT-897' count 1); IC-703 Plus miss (not in ledger). eBay: signed in as Leo, 2 sequential sold searches, no challenge. IC-703 Plus sold search returned zero unit comps on page 1.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781751",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu FT-897D and FC-30 $725 Shipped",
+      "price": 725.0,
+      "shipping": 0,
+      "found_at": "2026-10-09",
+      "condition_notes": "Seller (N0KMR): both very nice condition; LCD bright, no lines. FC-30 tuner with all mounting hardware and cables; includes power cord, manual, mic. $725 shipped CONUS. Bundle: radio + FC-30 tuner. Submitted 10/09.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781745",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE:IC 705 station",
+      "price": 1000.0,
+      "shipping": 0,
+      "found_at": "2026-10-09",
+      "condition_notes": "Seller (K4HPP): complete IC-705 station incl. Elecraft T1 tuner, XTenna Speed tune, extra BP-307 battery, 32 GB SD card, 12 VDC power supply, unused speaker/mic. $1000 includes FedEx shipping CONUS. Condition not stated. Bundle — extras add value beyond the radio. Submitted 10/09.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781576",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE: ICOM IC-703+ & CW FILTER $475",
+      "price": 475.0,
+      "shipping": 0,
+      "found_at": "2026-10-09",
+      "condition_notes": "Seller (W5APL): IC-703 Plus with FL-52A CW filter and DSP unit installed; very nice shape, no marks. Power cord, mic, box, manual. $475 plus shipping (amount not stated). 'Sold as is no return.' Submitted 10/07, modified/price lowered 10/09.",
+      "work_flag": "Sold as is no return",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781058",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu FT-891 : ATAS-120 : MAT-30",
+      "price": 1100.0,
+      "shipping": 0,
+      "found_at": "2026-10-09",
+      "condition_notes": "Seller (N5RAH): FT-891 + ATAS-120 antenna + MAT-30 tuner, all LNIB, bought for a project that didn't happen. $1100 plus s/i (amount not stated). Bundle price covers three items. Submitted 10/01, renewed 10/09.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
