@@ -1,0 +1,34 @@
+{
+  "model": "Kenwood TS-790",
+  "slug": "kenwood-ts-790",
+  "searched_at": "2026-10-09T17:58:26-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 2 kept comps from eBay sold page 1 (exact model TS-790, no suffix). Dropped 1 best-offer-accepted (296904562432 TS-790 10W $180, also Parts Only / 'As Is'). Dropped 0 other parts-only. Excluded as different models: TS-790S (137647465017 $453, 255627336020 $1,132.16 from 2023), TS-790A (198634694653 BOA $600, 800573713379 $306 'Not fully working', 800463085299 $150 no audio/as-is, 358831397861 parts-only $150). Also excluded UT-10 1200MHz units, TSU-5 tone unit, SP-950 speaker, fan, cables, hardware. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/860026659915",
+    "site": "ebay",
+    "ask": 529.98,
+    "shipping": 155.0
+  },
+  "comps": [
+    {
+      "price": 509.99,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128006528256",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted). Title: 'Tested Working' (same title wording as the trigger listing). Shipping $175.00.",
+      "flags": []
+    },
+    {
+      "price": 556.63,
+      "sold_date": "2026-08-02",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/398189945450",
+      "source": "ebay",
+      "notes": "Buy It Now. 10W version, title says Serviced. Free shipping.",
+      "flags": []
+    }
+  ]
+}
