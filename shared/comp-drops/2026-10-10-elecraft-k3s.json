@@ -1,0 +1,51 @@
+{
+  "model": "Elecraft K3S",
+  "slug": "elecraft-k3s",
+  "searched_at": "2026-10-10T05:56:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin. eBay sold, page 1 (68 results, mostly K3/K3S accessories, filters, option boards, speakers, cables — excluded). Only 3 K3S radio sales, all bundled with a P3 panadapter (extras_included), and 2 of them (147462635091, 147447358430) look like the same unit (possible_duplicate) — effectively 2 independent sales. Option loadouts not shown in titles. Dropped 0 best-offer-accepted, 0 parts-only among K3S units. K3/100 and K3/0 sales excluded (different model). No outliers. Trigger is a heavily loaded K3S/100 incl. K144XV 2m, KRX3A sub RX, KAT3A.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629133",
+    "site": "eham",
+    "ask": 3999.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 3595.0,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137585247662",
+      "source": "ebay",
+      "notes": "Auction, 3 bids. Title: K3S/100-F + P3 Panadapter package, loaded, gently used. +$29.47 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 3150.0,
+      "sold_date": "2026-07-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147462635091",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted). Title: K3S/100 with P3 panadapter. Same title/price/date as auction 147447358430 — likely same unit. +$63.40 delivery.",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 3150.0,
+      "sold_date": "2026-07-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147447358430",
+      "source": "ebay",
+      "notes": "Auction, 22 bids. Title: K3S/100 with P3 panadapter. Same title/price/date as 147462635091 — likely same unit. +$63.40 delivery.",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    }
+  ]
+}
