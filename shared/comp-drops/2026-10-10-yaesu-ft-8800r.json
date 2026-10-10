@@ -1,0 +1,79 @@
+{
+  "model": "Yaesu FT-8800R",
+  "slug": "yaesu-ft-8800r",
+  "searched_at": "2026-10-10T15:01:08-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1: 7 kept. Dropped 4 best-offer-accepted (one also Parts Only). Dropped 3 parts-only (no head unit/untested, parts/repair, not powering on). Excluded accessories (mics, cables, speakers, pots) and partial units (head unit only $25, box only $34.99). OUTLIER: 336692000287 $135 vs ~$282 for the rest.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781831",
+    "site": "qth",
+    "ask": 275.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 375.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287270715303",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); free delivery",
+      "flags": []
+    },
+    {
+      "price": 280.0,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820101532106",
+      "source": "ebay",
+      "notes": "Buy It Now; title '1pcs Yaesu FT-8800R vehicle-mounted radio'; +$100.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 259.0,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168686307340",
+      "source": "ebay",
+      "notes": "auction, 10 bids; +$6.85 delivery",
+      "flags": []
+    },
+    {
+      "price": 285.0,
+      "sold_date": "2026-08-17",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/336735684629",
+      "source": "ebay",
+      "notes": "auction, 3 bids; +$25.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 233.0,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168595867560",
+      "source": "ebay",
+      "notes": "Buy It Now; +$9.56 delivery",
+      "flags": []
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307068440928",
+      "source": "ebay",
+      "notes": "Buy It Now; +$20.20 delivery",
+      "flags": []
+    },
+    {
+      "price": 135.0,
+      "sold_date": "2026-07-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336692000287",
+      "source": "ebay",
+      "notes": "OUTLIER: $135 vs ~$282 median of the rest. Fixed price (or Best Offer, not accepted-offer); title says 'NEW (F40047888)' but eBay condition is Pre-Owned; +$10.00 delivery",
+      "flags": []
+    }
+  ]
+}
