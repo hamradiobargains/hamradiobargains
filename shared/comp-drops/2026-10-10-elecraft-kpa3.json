@@ -1,0 +1,10 @@
+{
+  "model": "Elecraft KPA3",
+  "slug": "elecraft-kpa3",
+  "searched_at": "2026-10-10T13:52:44-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "One-off QTH catch-up comp sweep requested by Leo for 2026-10-10 — comps only, no trigger listing (trigger_listing is null). thin — Zero qualifying comps. Only one board sale on page 1: 128101413462 'Elecraft KPA3 100Watt amplifier module for K3 Transceiver' $315.96 (Oct 5), labeled Parts Only — dropped as parts-only (1). Excluded 4 complete Elecraft K3/100 transceivers listing KPA3 in the title (327342065547, 327327910301, 327276580198, 327276556623; $1,139.99–$1,215.99) — the board is a minor part of a whole radio. Dropped 0 best-offer-accepted. No outliers.",
+  "trigger_listing": null,
+  "comps": []
+}
