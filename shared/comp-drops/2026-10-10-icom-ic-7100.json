@@ -1,0 +1,72 @@
+{
+  "model": "Icom IC-7100",
+  "slug": "icom-ic-7100",
+  "searched_at": "2026-10-10T14:59:33-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1: 6 kept. Dropped 2 best-offer-accepted. Dropped 0 parts-only. Accessories (mounts, GPS modules, remote-head bracket) excluded. One kept comp is a Brand New unit ($1,049.95); one includes IC-SM6 mic + equalizer. No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781807",
+    "site": "qth",
+    "ask": 600.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1049.95,
+      "sold_date": "2026-10-01",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/116164183723",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery; new unit",
+      "flags": []
+    },
+    {
+      "price": 770.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117442020559",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); +$34.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 725.0,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407230305429",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); +$19.86 delivery",
+      "flags": []
+    },
+    {
+      "price": 780.95,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820117002019",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); title: 'Box Cords Works'; +$23.95 delivery",
+      "flags": []
+    },
+    {
+      "price": 795.0,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307169405258",
+      "source": "ebay",
+      "notes": "auction, 1 bid; includes IC-SM6 mic and UR6QW equalizer; +$15.60 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 890.0,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128080051859",
+      "source": "ebay",
+      "notes": "Buy It Now; title says Working; +$225.00 delivery",
+      "flags": []
+    }
+  ]
+}
