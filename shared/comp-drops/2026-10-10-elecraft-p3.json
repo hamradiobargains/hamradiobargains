@@ -1,0 +1,72 @@
+{
+  "model": "Elecraft P3",
+  "slug": "elecraft-p3",
+  "searched_at": "2026-10-10T05:56:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold, page 1. 6 kept. Dropped 0 best-offer-accepted, 0 parts-only P3 units. Excluded: P3 VGA option modules (2, $294.49/$309.99), TX monitor modules (2), W2/P3 couplers (incl. one Parts Only $99 coupler, 327395293370), cables, dust cover, SP3 speaker, and K3/K3S + P3 bundles where the P3 is the minor part. No comp title states the VGA/SVGA option installed; trigger listing (#3285) has VGA. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629135",
+    "site": "eham",
+    "ask": 809.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 541.49,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327363664423",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted), marked down from $569.99. Works great w/ cables, SN 2175. +$32.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 521.55,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327327860882",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted), marked down from $549.00. SN 1371. +$32.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336726281279",
+      "source": "ebay",
+      "notes": "Buy It Now. SN 3544. +$23.10 delivery.",
+      "flags": []
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2026-08-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188773987045",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted). Title: P3 HF Panadapter for K3, RS-232, External Display. +$6.34 delivery.",
+      "flags": []
+    },
+    {
+      "price": 549.99,
+      "sold_date": "2026-07-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137569406080",
+      "source": "ebay",
+      "notes": "Buy It Now. SN 38, w/ cables, manuals & embroidered cover, 'Works Good'. +$14.24 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 577.0,
+      "sold_date": "2026-07-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307058916222",
+      "source": "ebay",
+      "notes": "Buy It Now. 'Works great + money back guarantee'. Free delivery.",
+      "flags": []
+    }
+  ]
+}
