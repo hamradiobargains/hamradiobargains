@@ -1,0 +1,10 @@
+{
+  "model": "Murch UT-2000B",
+  "slug": "murch-ut-2000b",
+  "searched_at": "2026-10-10T13:52:44-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "One-off QTH catch-up comp sweep requested by Leo for 2026-10-10 — comps only, no trigger listing (trigger_listing is null). thin — Zero qualifying comps. eBay sold page 1 for 'Murch UT-2000B' returned no UT-2000B units — only UT-2000A (127960442771 $154.99, 206544943602 $140, 236807979522 $110, 178420988868 $119; parts-only 327293622328 $150; best-offer-accepted parts 298648796825 $150), plain UT-2000 (168552404207 $95, 168596378928 $96), 'Murch 2000' 147510564259 $117, and an unrelated sports card. All excluded as different/unclear models. No outliers.",
+  "trigger_listing": null,
+  "comps": []
+}
