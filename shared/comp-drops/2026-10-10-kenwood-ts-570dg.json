@@ -1,0 +1,38 @@
+{
+  "model": "Kenwood TS-570DG",
+  "slug": "kenwood-ts-570dg",
+  "searched_at": "2026-10-10T15:01:27-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - eBay sold page 1 had only 2 unit sales before 'Results matching fewer words', both $550 from what looks like the same seller listing (possible duplicate). Dropped 0 best-offer-accepted, 0 parts-only. Excluded 1 YK-88C-1 filter accessory.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781812",
+    "site": "qth",
+    "ask": 550.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 550.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237069446903",
+      "source": "ebay",
+      "notes": "Buy It Now; includes mic and power cord; +$3.85 delivery; same title/price/shipping as 237025472138 (sold 2026-09-01) - may be the same unit relisted",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237025472138",
+      "source": "ebay",
+      "notes": "Buy It Now; includes mic and power cord; +$3.85 delivery; same title/price/shipping as 237069446903 (sold 2026-09-15) - may be the same unit relisted",
+      "flags": [
+        "possible_duplicate"
+      ]
+    }
+  ]
+}
