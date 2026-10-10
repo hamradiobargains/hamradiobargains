@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ham Radio Bargains</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTYwIDE2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTYwIiBoZWlnaHQ9IjE2MCIgcng9IjI4IiBmaWxsPSIjMGYxNDE3Ii8+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAsMjApIj4KICAgIDxwYXRoIGQ9Ik0yNCw1MCBRMTYsNjAgMjQsNzAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2U4ZWRmMCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9IjEiLz4KICAgIDxwYXRoIGQ9Ik0yMCw0MiBROCw2MCAyMCw3OCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZThlZGYwIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgb3BhY2l0eT0iMC43Ii8+CiAgICA8cGF0aCBkPSJNMTYsMzQgUTIsNjAgMTYsODYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2U4ZWRmMCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9IjAuNDUiLz4KICAgIDxwYXRoIGQ9Ik0zNCw2MCBMNjAsMjggTDEyMiwyOCBMMTIyLDkyIEw2MCw5MiBaIE01MCw2MCBBOCw4IDAgMSwwIDY2LDYwIEA4LDggMCAxLDAgNTAsNjAgWiIgZmlsbD0iI2ZmOGMzYiIgZmlsbC1ydWxlPSJldmVub2RkIi8+CiAgPC9nPgo8L3N2Zz4K">
+<style>
+:root {
+--bg: #0f1417;
+--card-bg: #171e23;
+--border: #2a343a;
+--text: #e8edf0;
+--muted: #8fa1a8;
+--accent: #ff8c3b;
+--accent-dim: #3a2a1a;
+}
+* { box-sizing: border-box; }
+body {
+margin: 0;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+background: var(--bg);
+color: var(--text);
+line-height: 1.5;
+}
+header {
+padding: 48px 24px 32px;
+text-align: center;
+border-bottom: 1px solid var(--border);
+}
+header h1 { margin: 0 0 8px; font-size: 2rem; letter-spacing: -0.02em; }
+header p {
+margin: 0;
+color: var(--muted);
+font-size: 0.95rem;
+max-width: 560px;
+margin-left: auto;
+margin-right: auto;
+}
+main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+#status { text-align: center; color: var(--muted); padding: 24px; }
+#error { text-align: center; color: #ff6b6b; padding: 24px; display: none; }
+.signup-card {
+background: var(--card-bg);
+border: 1px solid var(--border);
+border-radius: 10px;
+padding: 20px 24px;
+margin: 24px auto 8px;
+max-width: 680px;
+}
+.signup-card h2 { margin: 0 0 6px; font-size: 1.05rem; }
+.signup-card p { margin: 0 0 14px; color: var(--muted); font-size: 0.88rem; }
+.signup-form { display: flex; gap: 8px; flex-wrap: wrap; }
+.signup-form input[type="email"] {
+flex: 1;
+min-width: 220px;
+padding: 10px 12px;
+border-radius: 8px;
+border: 1px solid var(--border);
+background: var(--bg);
+color: var(--text);
+font-size: 0.95rem;
+}
+.signup-form button {
+background: var(--accent);
+color: #1a1206;
+font-weight: 600;
+border: none;
+padding: 10px 18px;
+border-radius: 8px;
+cursor: pointer;
+font-size: 0.95rem;
+white-space: nowrap;
+}
+.signup-form button:hover { opacity: 0.85; }
+.signup-note { margin-top: 10px; font-size: 0.78rem; color: var(--muted); }
+.premium-card { border-color: var(--accent); }
+.premium-card .premium-btn {
+display: inline-block;
+background: var(--accent);
+color: #1a1206;
+font-weight: 600;
+padding: 10px 18px;
+border-radius: 8px;
+text-decoration: none;
+font-size: 0.95rem;
+}
+.premium-card .premium-btn:hover { opacity: 0.85; }
+.section-title { font-size: 1.15rem; margin: 0 0 4px; }
+.section-sub { color: var(--muted); font-size: 0.82rem; margin: 0 0 16px; }
+.top-deals-grid, #deals {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10px;
+margin-bottom: 32px;
+}
+.top-deals-grid .deal, #deals .deal {
+margin-bottom: 0;
+flex-direction: column;
+align-items: stretch;
+padding: 14px 16px;
+gap: 10px;
+}
+.top-deals-grid .deal-info, #deals .deal-info { min-width: 0; }
+.top-deals-grid .deal-meta, #deals .deal-meta { flex-wrap: wrap; }
+.top-deals-grid .price, #deals .price { font-size: 0.88rem; }
+.top-deals-grid .listing-wrap, #deals .listing-wrap { width: 100%; }
+.top-deals-grid .listing-btn, #deals .listing-btn { width: 100%; text-align: center; padding: 9px 10px; font-size: 0.82rem; }
+@media (max-width: 400px) {
+.top-deals-grid, #deals { gap: 8px; }
+.top-deals-grid .deal, #deals .deal { padding: 10px 12px; }
+.top-deals-grid .deal-meta, #deals .deal-meta { font-size: 0.7rem; gap: 6px; }
+.top-deals-grid .badge, #deals .badge { font-size: 0.66rem; padding: 2px 6px; }
+.top-deals-grid .price, #deals .price { font-size: 0.78rem; }
+.top-deals-grid .listing-btn, #deals .listing-btn { font-size: 0.74rem; padding: 7px 8px; }
+}
+.deal {
+position: relative;
+background: var(--card-bg);
+border: 1px solid var(--border);
+border-radius: 10px;
+padding: 18px 20px;
+margin-bottom: 14px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 16px;
+flex-wrap: wrap;
+overflow: hidden;
+}
+.deal.sold { opacity: 0.88; }
+.deal-info { flex: 1; min-width: 240px; }
+.deal-meta {
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+align-items: center;
+margin-bottom: 4px;
+font-size: 0.82rem;
+color: var(--muted);
+}
+.badge {
+background: var(--accent-dim);
+color: var(--accent);
+padding: 2px 8px;
+border-radius: 999px;
+font-weight: 600;
+font-size: 0.78rem;
+}
+.price { font-weight: 600; color: var(--text); }
+.listing-wrap {
+position: relative;
+display: inline-flex;
+flex-shrink: 0;
+}
+.new-burst {
+position: absolute;
+top: -14px;
+right: -16px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+width: 40px;
+height: 40px;
+transform: rotate(-10deg);
+filter: drop-shadow(0 2px 3px rgba(0,0,0,0.45));
+animation: new-burst-pop 0.35s ease-out;
+pointer-events: none;
+z-index: 3;
+}
+.new-burst svg { width: 100%; height: 100%; display: block; }
+@keyframes new-burst-pop {
+0% { transform: rotate(-10deg) scale(0.4); opacity: 0; }
+70% { transform: rotate(-10deg) scale(1.08); opacity: 1; }
+100% { transform: rotate(-10deg) scale(1); opacity: 1; }
+}
+.listing-btn {
+display: inline-block;
+background: var(--accent);
+color: #1a1206;
+font-weight: 600;
+text-decoration: none;
+padding: 10px 18px;
+border-radius: 8px;
+white-space: nowrap;
+transition: opacity 0.15s ease;
+}
+.listing-btn:hover { opacity: 0.85; }
+.sold-stamp {
+position: absolute;
+inset: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+pointer-events: none;
+z-index: 2;
+}
+.sold-stamp svg {
+width: 150px;
+filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4));
+}
+footer {
+text-align: center;
+color: var(--muted);
+font-size: 0.8rem;
+padding: 24px;
+border-top: 1px solid var(--border);
+}
+
+/* Sticky deal-alert bar */
+#alertbar{position:fixed;left:0;right:0;bottom:0;z-index:1000;display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:center;background:#171e23;border-top:2px solid #ff8c3b;padding:10px 52px 10px 16px;box-shadow:0 -4px 16px rgba(0,0,0,0.45);}
+#alertbar[hidden]{display:none;}
+.alertbar-text{font-size:0.88rem;color:#e8edf0;}
+.alertbar-text strong{color:#ff8c3b;}
+.alertbar-form{display:flex;gap:8px;flex-wrap:wrap;}
+.alertbar-form input[type=email]{padding:8px 12px;border-radius:8px;border:1px solid #2a343a;background:#0f1417;color:#e8edf0;font-size:0.88rem;min-width:200px;}
+.alertbar-form button{background:#ff8c3b;color:#1a1206;font-weight:600;border:none;padding:8px 16px;border-radius:8px;cursor:pointer;font-size:0.88rem;white-space:nowrap;}
+.alertbar-form button:hover{opacity:0.85;}
+#alertbar-close{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:none;color:#8fa1a8;font-size:1.4rem;cursor:pointer;line-height:1;padding:4px 8px;}
+#alertbar-close:hover{color:#e8edf0;}
+body.alertbar-visible{padding-bottom:78px;}
+@media (max-width:560px){.alertbar-text{width:100%;text-align:center;}body.alertbar-visible{padding-bottom:122px;}}
+</style>
+<script data-goatcounter="https://hrb.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+
+<header>
+<svg viewBox="0 0 680 160" style="width:440px;max-width:90%;height:auto;margin:0 auto 8px;display:block" role="img" aria-label="Ham Radio Bargains">
+<g transform="translate(20,20)">
+<path d="M24,50 Q16,60 24,70" fill="none" stroke="#e8edf0" stroke-width="4" stroke-linecap="round" opacity="1"/>
+<path d="M20,42 Q8,60 20,78" fill="none" stroke="#e8edf0" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+<path d="M16,34 Q2,60 16,86" fill="none" stroke="#e8edf0" stroke-width="4" stroke-linecap="round" opacity="0.45"/>
+<path d="M34,60 L60,28 L122,28 L122,92 L60,92 Z M50,60 A8,8 0 1,0 66,60 A8,8 0 1,0 50,60 Z" fill="#ff8c3b" fill-rule="evenodd"/>
+</g>
+<text x="190" y="93" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#e8edf0">Ham Radio</text>
+<text x="420" y="93" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#ff8c3b">Bargains</text>
+</svg>
+<p>Below-market used ham radio gear, found with a little help from technology and a lot of judgment from a 40-year ham. Updated numerous times per day — click a listing to go straight to the original ad.</p>
+<p style="margin-top:12px;"><a href="/archive.html" style="color:#ff8c3b; text-decoration:none; font-size:0.9rem;">Is this a good price? &rarr;</a> <span style="color:#5a6b7a;">&middot;</span> <a href="/market-report/" style="color:#ff8c3b; text-decoration:none; font-size:0.9rem;">Market report &rarr;</a> <span style="color:#5a6b7a;">&middot;</span> <a href="/models/" style="color:#ff8c3b; text-decoration:none; font-size:0.9rem;">Browse by model &rarr;</a> <span style="color:#5a6b7a;">&middot;</span> <a href="/tech-specials/" style="color:#ff8c3b; text-decoration:none; font-size:0.9rem;">Tech Specials &rarr;</a> <span style="color:#5a6b7a;">&middot;</span> <a href="/on-the-air/" style="color:#ff8c3b; text-decoration:none; font-size:0.9rem;">On the Air &rarr;</a></p>
+</header>
+
+<main>
+<div id="new-deals-section">
+<h2 class="section-title">New deals</h2>
+<p class="section-sub">Posted in the last 24 hours</p>
+<div id="new-deals" class="top-deals-grid"></div>
+</div>
+
+<div id="top-deals-section">
+<h2 class="section-title">Biggest deals right now</h2>
+<p class="section-sub">Sorted by percent below market</p>
+<div id="top-deals" class="top-deals-grid"></div>
+</div>
+
+<div class="signup-card">
+<h2>Get the deals in your inbox</h2>
+<p>Deals at 25%+ below market, in your inbox every evening around 8. Free.</p>
+<form action="https://aol.us10.list-manage.com/subscribe/post?u=441753dd20abb2aaec7030997&amp;id=e37bef4cda&amp;f_id=001851e4f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup-form" target="_blank" novalidate>
+<input type="email" name="EMAIL" required placeholder="you@example.com" id="mce-EMAIL">
+<div hidden><input type="hidden" name="tags" value="14572049"></div>
+<div aria-hidden="true" style="position:absolute; left:-5000px;">
+<input type="text" name="b_441753dd20abb2aaec7030997_e37bef4cda" tabindex="-1" value="">
+</div>
+<button type="submit" name="subscribe" id="mc-embedded-subscribe">Sign me up</button>
+</form>
+<p class="signup-note">One email a night with the day&apos;s deals. No spam, unsubscribe anytime.</p>
+</div>
+
+
+<style>
+.ota-teaser{max-width:1100px;margin:0 auto 32px;padding:0 16px;}
+.ota-teaser-head{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:4px;}
+.ota-teaser-head h2{font-size:1.4rem;font-weight:700;}
+.ota-teaser-head h2 .accent{color:#ff8c3b;}
+.ota-teaser-dates{color:#8fa1a8;font-size:0.9rem;}
+.ota-teaser-sub{color:#8fa1a8;font-size:0.95rem;margin-bottom:16px;max-width:640px;}
+.ota-teaser-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;}
+.ota-teaser-card{background:#171e23;border:1px solid #2a343a;border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:8px;}
+.ota-teaser-tag{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:#ff8c3b;font-weight:600;}
+.ota-teaser-card h3{font-size:1.05rem;font-weight:700;}
+.ota-teaser-card p{color:#8fa1a8;font-size:0.85rem;}
+.ota-teaser-deal{margin-top:auto;background:#0f1417;border:1px solid #2a343a;border-radius:8px;padding:10px 12px;}
+.ota-teaser-deal .t-label{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:#8fa1a8;margin-bottom:2px;}
+.ota-teaser-deal .t-item{font-weight:600;font-size:0.92rem;}
+.ota-teaser-deal .t-nums{display:flex;align-items:center;gap:8px;margin-top:4px;flex-wrap:wrap;}
+.ota-teaser-deal .t-price{font-size:1.15rem;font-weight:700;color:#ff8c3b;}
+.ota-teaser-deal .t-pct{background:#1d3a24;color:#7ddf9a;font-size:12px;font-weight:700;padding:2px 10px;border-radius:20px;}
+.ota-teaser-deal a{color:#ff8c3b;font-size:0.85rem;font-weight:600;text-decoration:none;display:inline-block;margin-top:6px;}
+.ota-teaser-more{display:block;text-align:center;margin-top:14px;color:#ff8c3b;font-weight:600;text-decoration:none;}
+</style>
+<div class="ota-teaser">
+<div class="ota-teaser-head"><h2>On the Air <span class="accent">This Weekend</span></h2><span class="ota-teaser-dates">October 10&ndash;11</span></div>
+<p class="ota-teaser-sub">What&apos;s happening on the bands &mdash; and the below-market gear that gets you into it.</p>
+<div class="ota-teaser-grid">
+<div class="ota-teaser-card"><div class="ota-teaser-tag">State QSO Party</div><h3>Pennsylvania QSO Party</h3><p>One of the biggest state parties of the year &mdash; two sessions across the weekend.</p><div class="ota-teaser-deal"><div class="t-label">Get into it with</div><div class="t-item">Yaesu FT-817 &mdash; $399</div><div class="t-nums"><span class="t-price">$399</span><span class="t-pct">38% below market</span></div><a href="/deal.html?link=https%3A%2F%2Fswap.qth.com%2Fview_ad.php%3Fcounter%3D1779668">View the deal &rarr;</a></div></div>
+<div class="ota-teaser-card"><div class="ota-teaser-tag">DX &middot; CW</div><h3>Oceania DX Contest</h3><p>Work Australia, New Zealand, and the Pacific on CW, 160&ndash;10m.</p><div class="ota-teaser-deal"><div class="t-label">Get into it with</div><div class="t-item">Kenwood TS-850S w/ mic</div><div class="t-nums"><span class="t-price">$375</span><span class="t-pct">31% below market</span></div><a href="/deal.html?link=https%3A%2F%2Fswap.qth.com%2Fview_ad.php%3Fcounter%3D1778694">View the deal &rarr;</a></div></div>
+<div class="ota-teaser-card"><div class="ota-teaser-tag">Digital</div><h3>Makrothen RTTY Contest</h3><p>A weekend RTTY sprint &mdash; your grid square is the exchange.</p><div class="ota-teaser-deal"><div class="t-label">Get into it with</div><div class="t-item">Timewave Navigator interface</div><div class="t-nums"><span class="t-price">$175</span><span class="t-pct">31% below market</span></div><a href="/deal.html?link=https%3A%2F%2Fswap.qth.com%2Fview_ad.php%3Fcounter%3D1780588">View the deal &rarr;</a></div></div>
+<div class="ota-teaser-card"><div class="ota-teaser-tag">10 Meters</div><h3>10-10 Day Sprint</h3><p>24 hours, 10 meters only, all modes. Saturday on the radio, simplified.</p></div>
+</div>
+<a class="ota-teaser-more" href="/on-the-air/">See the full October calendar &rarr;</a>
+</div>
+
+<div id="status">Loading latest deals&hellip;</div>
+<div id="error"></div>
+<div id="deals"></div>
+</main>
+<div id="alertbar" hidden>
+<span class="alertbar-text">Deals at <strong>25%+ below market</strong>, in your inbox every evening.</span>
+<form action="https://aol.us10.list-manage.com/subscribe/post?u=441753dd20abb2aaec7030997&amp;id=e37bef4cda&amp;f_id=001851e4f0" method="post" id="mc-embedded-subscribe-form-bar" name="mc-embedded-subscribe-form-bar" class="validate alertbar-form" target="_blank" novalidate>
+<input type="email" name="EMAIL" required placeholder="you@example.com" aria-label="Email address">
+<div hidden><input type="hidden" name="tags" value="14572049"></div>
+<div aria-hidden="true" style="position:absolute; left:-5000px;"><input type="text" name="b_441753dd20abb2aaec7030997_e37bef4cda" tabindex="-1" value=""></div>
+<button type="submit" name="subscribe">Sign me up</button>
+</form>
+<button id="alertbar-close" aria-label="Dismiss">&times;</button>
+</div>
+
+
+<footer>
+Deals are spotted and tracked for the ham radio community. Prices and availability may change — always verify with the seller.
+<br><br>
+"% below market" is an estimate based on recent comparable sale prices — condition, included accessories, and current prices can vary. Always compare before buying.
+<br><br>
+Found a great deal here? Consider <a href="https://buymeacoffee.com/hamradiobargains" target="_blank" rel="noopener noreferrer" style="color: var(--accent);">buying me a coffee</a> to help keep this site running.
+</footer>
+
+<script>
+// ---- CONFIGURE THIS: your public Google Sheet ----
+// Points at a stripped-down "public feed" sheet (date/item/link/price/pct
+// below only) that is itself kept in sync via a live IMPORTRANGE/QUERY
+// formula from the private master margin-calculator sheet. The master
+// sheet (with seller callsigns and profit/margin figures) is NOT shared
+// publicly — only this feed sheet is, and it never contains those columns.
+const SHEET_ID = '1o8Ir0xy8ckXil7QI0oV2ReQ59vCLgE7foqjxxppqkCY';
+const GID = '0';
+const SOLD_MAX_AGE_DAYS = 7;
+
+const SOLD_STAMP_SVG = `<div class="sold-stamp"><svg viewBox="0 0 200 100">
+<g transform="rotate(-12 100 50)">
+<ellipse cx="100" cy="50" rx="90" ry="42" fill="none" stroke="#c0392b" stroke-width="6"/>
+<ellipse cx="100" cy="50" rx="78" ry="32" fill="none" stroke="#c0392b" stroke-width="3"/>
+<text x="100" y="60" font-family="Arial Black, Arial, sans-serif" font-size="30" font-weight="900" fill="#c0392b" text-anchor="middle" letter-spacing="2">SOLD</text>
+</g>
+</svg></div>`;
+
+// Comic-book "POW!"-style starburst badge shown next to the listing button
+// for any deal posted within the last 24 hours.
+const NEW_BURST_SVG = `<span class="new-burst"><svg viewBox="0 0 200 200" role="img" aria-label="New">
+<polygon points="100.0,4.0 112.2,46.4 138.6,19.8 138.7,51.5 169.6,44.5 149.6,76.1 193.6,78.6 155.0,100.0 186.8,119.8 155.9,126.9 169.6,155.5 134.3,143.0 141.7,186.5 112.2,153.6 100.0,189.0 86.2,160.4 61.4,180.2 65.7,143.0 24.9,159.9 50.4,123.9 13.2,119.8 38.0,100.0 13.2,80.2 50.4,76.1 24.9,40.1 65.7,57.0 61.4,19.8 86.2,39.6" fill="#ffffff" stroke="#14181b" stroke-width="5" stroke-linejoin="round"/>
+<text x="100" y="114" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="46" font-weight="900" font-style="italic" fill="#14181b" letter-spacing="1">NEW</text>
+</svg></span>`;
+
+// Fetches the sheet as CSV via a plain cross-origin fetch() (Google's gviz
+// endpoint sends permissive CORS headers for the CSV output format, unlike
+// the JSON output). This replaced an earlier <script src> JSONP approach:
+// on at least one mobile browser (Samsung Internet on Android) the JSONP
+// script tag was being silently blocked by built-in tracking/ad protection,
+// since its URL pattern (a docs.google.com request with a "responseHandler"
+// callback parameter) looks like a common JSONP-tracking signature to some
+// content blockers. A plain fetch() to a plain CSV URL avoids that pattern
+// and is also simpler to reason about/debug than JSONP.
+function parseCsv(text) {
+const rows = [];
+let row = [];
+let field = '';
+let inQuotes = false;
+for (let i = 0; i < text.length; i++) {
+const c = text[i];
+if (inQuotes) {
+if (c === '"') {
+if (text[i + 1] === '"') { field += '"'; i++; }
+else { inQuotes = false; }
+} else {
+field += c;
+}
+} else {
+if (c === '"') { inQuotes = true; }
+else if (c === ',') { row.push(field); field = ''; }
+else if (c === '\r') { /* skip, \n handles line end */ }
+else if (c === '\n') { row.push(field); rows.push(row); row = []; field = ''; }
+else { field += c; }
+}
+}
+if (field.length || row.length) { row.push(field); rows.push(row); }
+return rows;
+}
+
+// Fixed column positions rather than looking up by header name: Google's
+// endpoint infers one data type per column from all its values, and
+// silently blanks header-cell text that doesn't match the inferred type
+// (e.g. a date-typed column blanks its own "Date" header text). Data rows
+// are unaffected, so reading by position is reliable. The header row is
+// located via the Item column since item names are always text and never
+// trigger this. (This feed sheet has 10 columns: Date, Item, Link, Price,
+// Extra Cost, Pct Below, Median Comp Price, Comp Count, Comp Price Low,
+// Comp Price High — no seller callsign or dollar-profit data. The last
+// four columns are only populated for deals flagged after the deal-detail
+// page shipped; older rows just have them blank.)
+const COL_DATE = 0, COL_ITEM = 1, COL_LINK = 2, COL_PRICE = 3, COL_EXTRA = 4,
+COL_PCT = 5, COL_MEDIAN = 6, COL_COMPCOUNT = 7, COL_COMPLOW = 8, COL_COMPHIGH = 9;
+
+function parseDeals(rows) {
+const headerIdx = rows.findIndex(r => (r[COL_ITEM] || '').trim() === 'Item');
+if (headerIdx === -1) return [];
+
+const deals = [];
+for (let i = headerIdx + 1; i < rows.length; i++) {
+const r = rows[i];
+const item = (r[COL_ITEM] || '').trim();
+if (!item) continue;
+deals.push({
+date: (r[COL_DATE] || '').trim(),
+item,
+link: (r[COL_LINK] || '').trim(),
+price: (r[COL_PRICE] || '').trim(),
+pctBelow: (r[COL_PCT] || '').trim(),
+compCount: (r[COL_COMPCOUNT] || '').trim(),
+});
+}
+return deals;
+}
+
+// Preview build: deals load from the local deals.json data file instead of the
+// Google Sheet. adaptDeal maps each JSON record to exactly the object shape
+// parseDeals() produced from the sheet CSV. pctBelow is formatted exactly as
+// the sheet displayed it (e.g. "33.9%"), using the same half-up rounding to
+// one decimal place the sheet's ROUND() used.
+function formatPctDisplay(frac) {
+if (frac == null || isNaN(Number(frac))) return '';
+return (Math.round(Number(frac) * 1000) / 10).toFixed(1) + '%';
+}
+function adaptDeal(d) {
+return {
+date: d.date || '',
+item: d.item || '',
+link: d.link || '',
+price: d.price == null ? '' : String(d.price),
+pctBelow: formatPctDisplay(d.pctBelow),
+compCount: d.compCount == null ? '' : String(d.compCount),
+};
+}
+function loadSheetData() {
+return fetch('deals.json')
+.then(r => {
+if (!r.ok) throw new Error('Could not load deal data right now.');
+return r.json();
+})
+.then(json => json.map(adaptDeal));
+}
+
+// sold.json lives alongside this page in the same repo. It's a plain
+// object keyed by listing link: { "<link>": { "soldDate": "YYYY-MM-DD" } }
+// Kept up to date by a scheduled check; missing/unreachable just means
+// nothing is marked sold yet.
+function loadSoldMap() {
+return fetch('./sold.json', { cache: 'no-store' })
+.then(r => (r.ok ? r.json() : {}))
+.catch(() => ({}));
+}
+
+// A deal counts as "new" for the POW! burst badge if it was posted within
+// the last 24 hours. Dates in the sheet are day-granularity only (no time
+// of day), so this is measured from local midnight of the deal's date.
+function isRecentDeal(dateStr) {
+if (!dateStr) return false;
+const posted = new Date(dateStr + 'T00:00:00');
+const postedTime = posted.getTime();
+if (isNaN(postedTime)) return false;
+return (Date.now() - postedTime) < (24 * 60 * 60 * 1000);
+}
+
+function render(deals, soldMap) {
+soldMap = soldMap || {};
+const now = Date.now();
+const maxAgeMs = SOLD_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
+
+const visible = deals.filter(d => {
+const sold = soldMap[d.link];
+if (!sold) return true;
+const soldTime = new Date(sold.soldDate).getTime();
+if (isNaN(soldTime)) return true;
+return (now - soldTime) < maxAgeMs;
+});
+
+const container = document.getElementById('deals');
+const status = document.getElementById('status');
+if (!visible.length) {
+status.textContent = 'No deals found right now. Check back soon.';
+return;
+}
+status.style.display = 'none';
+container.innerHTML = visible.map(d => {
+const sold = soldMap[d.link];
+const isNew = !sold && isRecentDeal(d.date);
+return `
+<div class="deal${sold ? ' sold' : ''}">
+${sold ? SOLD_STAMP_SVG : ''}
+<div class="deal-info">
+<div class="deal-meta">
+${d.pctBelow ? `<span class="badge">${d.pctBelow} below market</span>` : ''}
+${d.date ? `<span>${d.date}</span>` : ''}
+</div>
+<div class="price">${d.item}${d.price ? ' — ' + d.price : ''}</div>
+</div>
+<div class="listing-wrap">
+${d.link ? `<a class="listing-btn" href="${d.compCount ? 'deal.html?link=' + encodeURIComponent(d.link) : d.link}"${d.compCount ? '' : ' target="_blank" rel="noopener noreferrer"'}>View Listing →</a>` : ''}
+${isNew ? NEW_BURST_SVG : ''}
+</div>
+</div>
+`;
+}).join('');
+}
+
+function showError(msg) {
+document.getElementById('status').style.display = 'none';
+const err = document.getElementById('error');
+err.style.display = 'block';
+err.textContent = msg;
+}
+
+function getTopDeals(deals, soldMap) {
+const parsePct = s => parseFloat((s || '').replace('%', '')) || 0;
+const visible = deals.filter(d => !soldMap[d.link]);
+return visible.slice().sort((a, b) => parsePct(b.pctBelow) - parsePct(a.pctBelow)).slice(0, 6);
+}
+
+function getNewDeals(deals, soldMap) {
+return deals.filter(d => !soldMap[d.link] && isRecentDeal(d.date));
+}
+
+function renderDealGrid(sectionId, containerId, deals) {
+const section = document.getElementById(sectionId);
+const container = document.getElementById(containerId);
+if (!container || !section) return;
+if (!deals.length) {
+section.style.display = 'none';
+return;
+}
+container.innerHTML = deals.map(d => {
+const isNew = isRecentDeal(d.date);
+return `
+<div class="deal">
+<div class="deal-info">
+<div class="deal-meta">
+${d.pctBelow ? `<span class="badge">${d.pctBelow} below market</span>` : ''}
+${d.date ? `<span>${d.date}</span>` : ''}
+</div>
+<div class="price">${d.item}${d.price ? ' — ' + d.price : ''}</div>
+</div>
+<div class="listing-wrap">
+${d.link ? `<a class="listing-btn" href="${d.compCount ? 'deal.html?link=' + encodeURIComponent(d.link) : d.link}"${d.compCount ? '' : ' target="_blank" rel="noopener noreferrer"'}>View Listing →</a>` : ''}
+${isNew ? NEW_BURST_SVG : ''}
+</div>
+</div>
+`;
+}).join('');
+}
+
+Promise.all([loadSheetData(), loadSoldMap()])
+.then(([deals, soldMap]) => {
+const newDeals = getNewDeals(deals, soldMap);
+const newLinks = new Set(newDeals.map(d => d.link));
+const topDeals = getTopDeals(deals.filter(d => !newLinks.has(d.link)), soldMap);
+const topLinks = new Set(topDeals.map(d => d.link));
+const rest = deals.filter(d => !newLinks.has(d.link) && !topLinks.has(d.link));
+render(rest.slice().reverse(), soldMap);
+renderDealGrid('top-deals-section', 'top-deals', topDeals);
+renderDealGrid('new-deals-section', 'new-deals', newDeals);
+})
+.catch(e => showError(e.message || 'Something went wrong loading deals.'));
+</script>
+
+<script type="text/javascript"
+src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+data-name="bmc-button"
+data-slug="hamradiobargains"
+data-color="#FF813F"
+data-emoji=""
+data-font="Cookie"
+data-text="Buy me a coffee"
+data-outline-color="#000000"
+data-font-color="#ffffff"
+data-coffee-color="#FFDD00">
+</script>
+
+
+<script>
+(function(){
+  var bar = document.getElementById('alertbar');
+  var card = document.querySelector('.signup-card');
+  if(!bar) return;
+  var dismissed = false;
+  try { dismissed = localStorage.getItem('hrb_alertbar_dismissed') === '1'; } catch(e){}
+  if(dismissed) return;
+  function show(){ bar.hidden = false; document.body.classList.add('alertbar-visible'); }
+  function hide(){ bar.hidden = true; document.body.classList.remove('alertbar-visible'); }
+  document.getElementById('alertbar-close').addEventListener('click', function(){
+    try { localStorage.setItem('hrb_alertbar_dismissed', '1'); } catch(e){}
+    if(window._alertbarIO) window._alertbarIO.disconnect();
+    hide();
+  });
+  show();
+  if(card && 'IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      var d = false;
+      try { d = localStorage.getItem('hrb_alertbar_dismissed') === '1'; } catch(e){}
+      if(d) return;
+      if(entries[0].isIntersecting) hide(); else show();
+    }, {threshold: 0.2});
+    io.observe(card);
+    window._alertbarIO = io;
+  }
+})();
+</script>
+
+</body>
+</html>
