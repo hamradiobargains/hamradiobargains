@@ -1,0 +1,82 @@
+{
+  "model": "Kenwood TS-590SG",
+  "slug": "kenwood-ts-590sg",
+  "searched_at": "2026-10-10T05:56:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold, page 1 (17 results, no fewer-words section reached). 7 kept. Dropped 2 best-offer-accepted (860007218628 $500 Open Box; 137498961819 $800), 0 parts-only. Excluded manuals (4), cooling fan, amp cables (2). No outliers. Trigger listing has VGS-1 + SO-3 options installed; only one comp (287595147150) mentions SO-3.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629147",
+    "site": "eham",
+    "ask": 1200.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1275.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128086799583",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted). Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 1545.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287595147150",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: bundle w/ MC-60A mic, SO-3 TCXO, boxed. Free delivery.",
+      "flags": [
+        "extras_included",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 661.0,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800548808535",
+      "source": "ebay",
+      "notes": "Auction, 6 bids. +$25.93 delivery.",
+      "flags": []
+    },
+    {
+      "price": 899.99,
+      "sold_date": "2026-07-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178333870546",
+      "source": "ebay",
+      "notes": "Buy It Now. +$49.98 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1499.95,
+      "sold_date": "2026-07-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257575651112",
+      "source": "ebay",
+      "notes": "Buy It Now. W/ manual & mic. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 1199.99,
+      "sold_date": "2026-07-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137389167098",
+      "source": "ebay",
+      "notes": "Buy It Now. +$125.30 delivery.",
+      "flags": []
+    },
+    {
+      "price": 677.83,
+      "sold_date": "2026-07-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117292503955",
+      "source": "ebay",
+      "notes": "Auction, 34 bids. W/ manual & original box. +$139.86 delivery.",
+      "flags": []
+    }
+  ]
+}
