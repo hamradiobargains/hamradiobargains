@@ -1,0 +1,20 @@
+{
+  "model": "Icom ID-51A",
+  "slug": "icom-id-51a",
+  "searched_at": "2026-10-10T13:52:44-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "One-off QTH catch-up comp sweep requested by Leo for 2026-10-10 — comps only, no trigger listing (trigger_listing is null). thin — 1 kept comp from eBay sold page 1 (exact ID-51A, no Plus/Plus2 in title). Dropped 1 best-offer-accepted exact ID-51A (267637907985 $324.23). Excluded as different models: ID-51A Plus / Plus2 (178462317981 $165, 227496806601 $260, 366611731795 BOA, 327293712272 $285, 236953862910 $298, 398103469430 BOA). Also excluded titles saying only 'ID-51' (identity unclear; both were best-offer-accepted anyway: 267762548869, 206395686988), plus chargers, batteries, cables, clips, manuals. Dropped 0 parts-only. No outliers.",
+  "trigger_listing": null,
+  "comps": [
+    {
+      "price": 324.99,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178546091937",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'Icom ID-51A Digital D-STAR GPS Dual Band Handheld HT'. Shipping $13.50.",
+      "flags": []
+    }
+  ]
+}
