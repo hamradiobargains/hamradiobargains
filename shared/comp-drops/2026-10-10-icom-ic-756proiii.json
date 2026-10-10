@@ -1,0 +1,45 @@
+{
+  "model": "Icom IC-756PROIII",
+  "slug": "icom-ic-756proiii",
+  "searched_at": "2026-10-10T18:00:14-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1 (15 results, no fewer-words section used). Kept 3 units. dropped 3 best-offer-accepted (206553202982 $699 parts-only BOA, 307175521685 $775, 397777102311 $1,100); dropped 2 parts-only (168653701149 $450 AS IS, 198490573478 $430 AS IS auction). Excluded non-units: PA/main/filter boards, service manual, brochure. OUTLIER: 287529272937 $1,199.99 (bundle with power supply and dummy load) vs ~$702 for the other two. No IC-756PROIII entry in comps.json ledger.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/960049271770",
+    "site": "ebay",
+    "ask": 650.0,
+    "shipping": 65.0
+  },
+  "comps": [
+    {
+      "price": 1199.99,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287529272937",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,199.99 vs ~$702 median for the rest. Buy It Now; shipping +$35.00. Bundle: radio + SEC-1235M power supply + MFJ-264 dummy load.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 699.0,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178430954883",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping +$24.45. Title says \"See Desc\" (details not visible from results page).",
+      "flags": []
+    },
+    {
+      "price": 705.0,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147500171709",
+      "source": "ebay",
+      "notes": "Auction, 9 bids; shipping +$75.00. Includes HM-36 mic and manual.",
+      "flags": []
+    }
+  ]
+}
