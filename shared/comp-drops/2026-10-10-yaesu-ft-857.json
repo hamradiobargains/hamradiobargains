@@ -1,0 +1,159 @@
+{
+  "model": "Yaesu FT-857",
+  "slug": "yaesu-ft-857",
+  "searched_at": "2026-10-10T18:00:14-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1 for \"Yaesu FT-857\" (95 results). Kept only titles naming FT-857 without the D; all FT-857D titles excluded (ledger has YAESU FT-857D separately — median 775). Caution: some non-D titles may be mislabeled D units; not verifiable from results. Kept 15. dropped 8 best-offer-accepted (407264825691 $989.99, 820208010078 $600, 147603575180 $955, 327325904165 $895, 236969361683 $800, plus parts-only BOA 327365676287 $650, 137623350826 $359, 198554458826 $499.99); dropped 1 parts-only (287542124988 $795 package with extras). Excluded non-units: front control panel, tuners, DSP/TCXO modules, LCD parts, meters, etc. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/377560000883",
+    "site": "ebay",
+    "ask": 849.99,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 650.0,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237092305747",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not best-offer-accepted); shipping +$18.07. Title: w/manual, cables, microphone - works - please read!",
+      "flags": []
+    },
+    {
+      "price": 1026.78,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/313963191354",
+      "source": "ebay",
+      "notes": "or Best Offer listing; free shipping, includes import fees. Title: Tested Working.",
+      "flags": []
+    },
+    {
+      "price": 705.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168711596600",
+      "source": "ebay",
+      "notes": "Auction, 34 bids; shipping +$88.58. w/ MH-31 mic.",
+      "flags": []
+    },
+    {
+      "price": 699.0,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336786734276",
+      "source": "ebay",
+      "notes": "or Best Offer listing; shipping +$17.48. Title: FT-857 + DSP-2.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137744838827",
+      "source": "ebay",
+      "notes": "or Best Offer listing; shipping +$15.00. Title: *UNIT ONLY*.",
+      "flags": []
+    },
+    {
+      "price": 599.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298621058358",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping +$9.85. Title: (See description).",
+      "flags": []
+    },
+    {
+      "price": 549.69,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267771531601",
+      "source": "ebay",
+      "notes": "or Best Offer listing; shipping +$16.95. w/ mic & power cord, excellent working condition.",
+      "flags": []
+    },
+    {
+      "price": 1200.0,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227463704234",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping +$36.25. w/DSP, in the box.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 910.0,
+      "sold_date": "2026-08-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287492886744",
+      "source": "ebay",
+      "notes": "Auction, 34 bids; shipping +$30.00. with YSK-857 remote kit.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 899.99,
+      "sold_date": "2026-07-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318642088332",
+      "source": "ebay",
+      "notes": "Free shipping. Title: Japan.",
+      "flags": []
+    },
+    {
+      "price": 890.0,
+      "sold_date": "2026-07-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287470476211",
+      "source": "ebay",
+      "notes": "or Best Offer listing; shipping +$65.76. Title: Japan ver. #3 USED.",
+      "flags": []
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-07-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178318960733",
+      "source": "ebay",
+      "notes": "or Best Offer listing; free shipping.",
+      "flags": []
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2026-07-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278185150312",
+      "source": "ebay",
+      "notes": "or Best Offer listing; shipping +$50.00. Same title/price/shipping as 278175819757 — could be same seller's separate units; not flagged.",
+      "flags": []
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2026-07-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278175819757",
+      "source": "ebay",
+      "notes": "or Best Offer listing; shipping +$50.00. Same title/price/shipping as 278185150312.",
+      "flags": []
+    },
+    {
+      "price": 899.0,
+      "sold_date": "2026-07-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137495008923",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping +$32.00. Title: Works Faulty Display.",
+      "flags": [
+        "faulty"
+      ]
+    }
+  ]
+}
