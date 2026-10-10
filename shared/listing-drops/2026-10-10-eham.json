@@ -1,0 +1,75 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-10",
+  "ran_at": "2026-10-10T05:52:35-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-09T05:53:09-04:00 (prior eham run, last ad covered 629125). Browsed signed OUT ('Welcome Guest'). Classifieds index pages 1-2 (2 eHam page loads, >25s apart) covered all new ads 629126-629151 (629134, 629136, 629141, 629142, 629144, 629145 not shown - likely deleted). First load showed a Cloudflare 'Performing security verification' interstitial that cleared on its own after ~10s wait (nothing solved/clicked); no 1015. No search form, no sold searches, no seller/callsign pages, no individual ad pages opened. Comps: IC-7300, IC-705, FT-891 ledger hits; eBay sold searches (signed in as Leo) for TS-590SG, K3S, P3, spaced 15s+, no challenge. Seen but not dropped: 629127 'Shack Cleaning' multi-item ad (IC-7200 $610, IC-7300 $710, Xiegu G90 $399, Kenwood TH-D75 $599, Array Solutions Powermaster II $425, Icom SP-23 $149, LDG MC7610 $179; seller pays CONUS shipping; IC-7200 'used a bit more') - one URL with many prices, left for Leo; 629148 Uniden SDS200 scanner $575 (not ham gear); 629139 Elecraft W2 wattmeter $239 delivered; 629140 P3 TX monitor/W2 coupler $99 ('previous owner says it doesn't work', untested); 629138 KPA3 board $449; 629132 RS-928 amp $245 local; 629131 Xiegu GSOC $275 or BO; 629129 IC-705 go-bag $339.99; 629128 Comet CAA-500 MkII $425 shipped; cables 629146/629143/629137/629130; 629126 wanted ad.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629151",
+      "site": "eham",
+      "title": "Yaesu FT-891 with ATAS-120A",
+      "price": 850.0,
+      "shipping": 0,
+      "found_at": "2026-10-10",
+      "condition_notes": "Seller: great condition, FT-891 and ATAS-120A work great together, no problems. $850 for the pair (sold together). Prefers person-to-person sale; can meet at Sedalia Hamfest Sat 10/10. Shipping not stated (recorded 0).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629150",
+      "site": "eham",
+      "title": "ICOM 7300 $750 SHIPPED",
+      "price": 750.0,
+      "shipping": 0,
+      "found_at": "2026-10-10",
+      "condition_notes": "Seller: very clean, very good cosmetic condition, operates normally, excellent display. Includes original Icom hand mic, DC power cable, original box/packaging. $750 shipped.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629149",
+      "site": "eham",
+      "title": "ICOM IC-705",
+      "price": 1050.0,
+      "shipping": 0,
+      "found_at": "2026-10-10",
+      "condition_notes": "Seller: like new, no scratches/scuffs. Includes box, mic, unused power cord, fuses, battery, mic clip, manuals. EXTRAS: Micro PA50 GEN3 amplifier, MFJ-818 SWR/wattmeter, protective front cover. $1,050 shipped lower 48 (+$20 west of the Mississippi). No returns. USPS MO or PayPal +3%.",
+      "work_flag": "No returns.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629147",
+      "site": "eham",
+      "title": "Kenwood TS-590SG + VGS-1/SO-3",
+      "price": 1200.0,
+      "shipping": 0,
+      "found_at": "2026-10-10",
+      "condition_notes": "Seller's backup radio, very little use, non-smoking; excellent cosmetic and working condition, bright display, all controls work. NOT MARS modified. Includes original manual, Kenwood hand mic, PowerPole power cord; VGS-1 voice module and SO-3 TCXO installed. $1,200 shipped and insured, PayPal G&S, CONUS only.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629135",
+      "site": "eham",
+      "title": "ELECRAFT P3 PANADAPTER #3285 VGA",
+      "price": 809.0,
+      "shipping": 0,
+      "found_at": "2026-10-10",
+      "condition_notes": "P3 SN 3285 with VGA (SVGA) option; seller: super nice, very good condition, works great. Standard K3 hookup cables and manual. $809 delivered. Seller K6RO (multiple Elecraft listings).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629133",
+      "site": "eham",
+      "title": "Elecraft K3S/100 Transceiver # 10193 Loaded",
+      "price": 3999.0,
+      "shipping": 0,
+      "found_at": "2026-10-10",
+      "condition_notes": "K3S/100 SN 10193, loaded: KPA3A, KAT3A tuner, KRX3A sub RX, 6 main filters + 2 sub filters, KBPF3A, KDVR3, K144XV 2m module, 2x KSYN3A, KIO3B, KXV3B. Seller: feels like a new radio. Comes with power cord. $3,999 delivered ($3,699 without 2m). Seller K6RO.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
