@@ -1,0 +1,10 @@
+{
+  "model": "FlexRadio FLEX-6400",
+  "slug": "flexradio-flex-6400",
+  "searched_at": "2026-10-10T13:52:44-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "One-off QTH catch-up comp sweep requested by Leo for 2026-10-10 — comps only, no trigger listing (trigger_listing is null). thin — Zero qualifying comps. eBay sold page 1 for 'FlexRadio FLEX-6400' had 1 exact-search result: 206500829240, a FLEX-6400M ($2,400, Aug 25) — different model, excluded. Everything else was under 'Results matching fewer words' and ignored. Dropped 0 best-offer-accepted, 0 parts-only. No outliers.",
+  "trigger_listing": null,
+  "comps": []
+}
