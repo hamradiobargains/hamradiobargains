@@ -1,0 +1,75 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-10",
+  "ran_at": "2026-10-10T14:52:55-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-09T14:57:00-04:00 (prior qth drop ran_at). Scanned QTH all-ads pages 1-16 (all.php through ?page=16). Counter-ID range of new ads submitted since window start reviewed: 1781764-1781833 (plus renewed/modified older ads in the window, e.g. 1769869, 1775969, 1778863, 1779794, 1780200, 1780392, 1781512, 1781555, 1781561). End of window: page 14 starts with 1781763, which the prior qth run already covered (pre-14:57 on 10/09); list is sorted by latest activity, so everything below it predates the window. Pages 14-16 (all 10/09 or older activity) checked to confirm. Ads dated 10/09 on pages 10-13 could not be time-checked (QTH shows dates only) and were all reviewed. No unreviewed remainder. Candidates (6, cap): IC-7100 1781807, ALS-600 1781787, FT-8800R 1781831, IC-705 1781777, TS-570DG 1781812, ETO Alpha 78 1781801. Plausible extras not comp-searched (cap): 1781808 Icom IC-7300 with MARS $769; 1781555 Icom IC-7100 $695 (renewed); 1781804 Kenwood TS-590SG with extras $1199; 1781800 Icom IC-9700 $1599; 1781782 Yaesu FT-891 with ATAS-120A $850; 1781817 Alpha 78 'Excellent' $1500; 1781795 Icom IC-730 $185; 1781779 Kenwood TS-870 w/ accessories $1100; 1781732 Kenwood TM-D710GA $699; 1781793 Heathkit SB-221 $650; 1781811 QRO 2500DX $2100; 1781829 Flex 8400 $2000; 1781828 Acom 1200S $3100; 1781821 Alpha 77D $3500; 1781561 Yaesu FT-1000D $1,050 (renewed); 1781637 SGC SG-500 $1500 (renewed); 1781729 Palstar AT4K $700 (renewed); 1780392 Icom IC-7300 $699 (renewed 10/09). Not picked: wanted ads, accessories/parts, commercial Motorola gear, books, non-ham items. Ledger: IC-705 HIT (count 12, 2026-09-29); IC-7100 miss (ledger date 2026-09-04 > 30 days); ALS-600 miss (ledger date 2026-09-08 > 30 days); FT-8800R miss (2026-08-26); TS-570DG and Alpha 78 not in ledger. eBay: signed in as Leo, 5 sequential sold searches at human pace, no challenge. Alpha 78 sold search returned zero unit comps (parts only). Shipping set 0 where the ad says shipped, or where shipping is extra but no amount is stated (ALS-600, FT-8800R); Alpha 78 is local pickup only.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781807",
+      "site": "qth",
+      "title": "RADIOHF - Icom IC-7100",
+      "price": 600.0,
+      "shipping": 0,
+      "found_at": "2026-10-10",
+      "condition_notes": "'Lightly used Icom IC-7100. Works as it should.' $600 shipped priority mail. PayPal or Zelle. Submitted 10/10/26 by WB1AFK.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781787",
+      "site": "qth",
+      "title": "AMPHF - For SALE: Ameritron ALS600.",
+      "price": 1100.0,
+      "shipping": 0,
+      "found_at": "2026-10-10",
+      "condition_notes": "Newer model with remote control capability; power supply included; 'Everything works as it should.' Asking $1,100 plus shipping (amount not stated) from Rock Hill, SC; local sale much preferred. Submitted 10/09/26 by W3PAL.",
+      "work_flag": "no returns will be accepted",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781831",
+      "site": "qth",
+      "title": "RADIOVHF - FOR SALE: YAESU FT-8800R DUAL BAND",
+      "price": 275.0,
+      "shipping": 0,
+      "found_at": "2026-10-10",
+      "condition_notes": "'Nice looking and working', smoke free; includes everything in photos plus YSK-8900 separation kit. $275 plus split shipping (amount not stated); local pickup welcome. Submitted 10/10/26 by K2GLR.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781777",
+      "site": "qth",
+      "title": "RADIOHF - ICOM IC-705",
+      "price": 1050.0,
+      "shipping": 0,
+      "found_at": "2026-10-10",
+      "condition_notes": "Like new, no scratches/scuffs; box, mic, power cord, fuses, battery, mic clip, manuals. Extras: Micro PA50 GEN3 amplifier, MFJ-818 SWR/wattmeter, protective front cover. $1,050 shipped lower 48 (add $20 west of the Mississippi). Submitted 10/09/26 by K2HAE.",
+      "work_flag": "No returns.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781812",
+      "site": "qth",
+      "title": "RADIOHF - Excellent Kenwood 570DG",
+      "price": 550.0,
+      "shipping": 0,
+      "found_at": "2026-10-10",
+      "condition_notes": "'Very nice clean condition and working as it should'; comes with power cord and Kenwood microphone. $550 shipped/insured US. Submitted 10/10/26 by KL7AM.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781801",
+      "site": "qth",
+      "title": "AMPHF - ETO Alpha 78",
+      "price": 1300.0,
+      "shipping": 0,
+      "found_at": "2026-10-10",
+      "condition_notes": "Legal-limit HF amp, pair of Eimac 3CX800A7, Peter Dahl transformer; meter lighting upgraded to LED (original bulbs included); RCA input jack replaced with SO-239; cosmetically exceptional. LOCAL PICKUP ONLY ('I won't ship this for any reason'), ~30 mi south of Carson City NV. $1300. Submitted 10/10/26 by KY7X.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
