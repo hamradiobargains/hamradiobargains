@@ -1,0 +1,15 @@
+{
+  "model": "ETO Alpha 78",
+  "slug": "eto-alpha-78",
+  "searched_at": "2026-10-10T15:02:30-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - zero qualifying comps. eBay sold search 'alpha 78 amplifier' page 1 showed only 2 parts (HV crowbar switch $50, RJ1A vacuum relay $150) before 'Results matching fewer words'; no complete Alpha 78 units sold. Dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781801",
+    "site": "qth",
+    "ask": 1300.0,
+    "shipping": 0
+  },
+  "comps": []
+}
