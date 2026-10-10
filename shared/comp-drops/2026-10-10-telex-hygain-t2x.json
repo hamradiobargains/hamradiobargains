@@ -1,0 +1,10 @@
+{
+  "model": "Telex/Hygain Tailtwister T2X control box",
+  "slug": "telex-hygain-t2x",
+  "searched_at": "2026-10-10T13:52:44-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "One-off QTH catch-up comp sweep requested by Leo for 2026-10-10 — comps only, no trigger listing (trigger_listing is null). thin — Zero qualifying comps. eBay sold page 1 for 'Hygain T2X control box' had 1 result: 318647700565 'Hy-Gain Tailtwister T2X Rotator Control Box - Fully Bench Test...' $179.99 (Oct 7) — best-offer-accepted, dropped (1). Dropped 0 parts-only. Everything else was under 'Results matching fewer words' and ignored. No outliers.",
+  "trigger_listing": null,
+  "comps": []
+}
