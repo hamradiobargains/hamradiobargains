@@ -1,0 +1,75 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-10",
+  "ran_at": "2026-10-10T18:00:14-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now, sorted Time: newly listed (search URL redirects to the category browse page; signed in as Leo). Window since previous ebay run 2026-10-09T17:58:26-04:00: page 1 (110 items, all NEW LISTING) and page 2 up to where yesterday's dropped items appear. 6 candidates, all passed seller rule. Ledger hits: ICOM IC-7000, KENWOOD TS-520S. eBay sold searches: Icom IC-756PROIII, Yaesu FT-857, Elecraft KPA500, Xiegu X6100 — no challenges. Skipped: Ameritron ALS-500M (auction with Buy It Now, not fixed-price). Not picked: Palstar LA1K ($2,600), Ten-Tec Delta 580 station, Icom IC-730, IC-251A, IC-2100H, Yaesu FT-8100R, FTM-150R, RM Italy KL 703, Drake R8, Kenwood TK-8180, parts-only items (Heathkit SB-101, Yaesu FT-101ZD, HW-20, Azden PCS-3000), accessories and general electronics.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/377560393798",
+      "site": "ebay",
+      "title": "IC-7000 (search card: IC-7000 USA Versión , FCC Approved .NO JP VERSION)",
+      "price": 890.0,
+      "shipping": 10.0,
+      "found_at": "2026-10-10",
+      "condition_notes": "Used. Seller: no scratches, no dents, good condition, display clear; base-station use only. Includes original manual, power cable, mic; not original box. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns; \"Testing on 144 MHz was performed using a different instrument because the specific plug-in element for this unit is currently missing from my shack\"",
+      "seller_feedback": "100% (2069 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/237118082796",
+      "site": "ebay",
+      "title": "Kenwood TS-520S SSB Transceiver w/ MC 50 mic",
+      "price": 550.0,
+      "shipping": 91.46,
+      "found_at": "2026-10-10",
+      "condition_notes": "Used. Includes MC-50 mic. 30-day returns, buyer pays return shipping.",
+      "work_flag": "Completely untested including mic function. As is.",
+      "seller_feedback": "99.7% (2207 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/960049271770",
+      "site": "ebay",
+      "title": "Icom IC-756PROIII HF/50MHz.. Fully tested.. Clean!",
+      "price": 650.0,
+      "shipping": 65.0,
+      "found_at": "2026-10-10",
+      "condition_notes": "eBay condition: For parts or not working. Seller says exceptional cosmetics, light scuffs on bottom, full factory output all bands, MARS cap done, transmits and receives. Seller does not accept returns.",
+      "work_flag": "For parts or not working — \"the screen has a slight twitch\" (small fast horizontal flicker every couple to 15 seconds); no returns",
+      "seller_feedback": "100% (698 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/377560000883",
+      "site": "ebay",
+      "title": "Yaesu FT-857 2-Way Radio Black",
+      "price": 849.99,
+      "shipping": 0,
+      "found_at": "2026-10-10",
+      "condition_notes": "Used. Item specifics say model FT-857 (not D). Bundle: radio, power cable, MH-59 DTMF mic, MFJ 25 A power supply, LDG YT-100 tuner, audio cables; no box. Reseller (PayMore) with 30-day returns/warranty. Free shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (19 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/327398375499",
+      "site": "ebay",
+      "title": "ELECRAFT KPA500 Linear Amplifier - New in box !",
+      "price": 4199.0,
+      "shipping": 134.65,
+      "found_at": "2026-10-10",
+      "condition_notes": "eBay condition: New (new in box). Or Best Offer. Seller does not accept returns.",
+      "work_flag": "",
+      "seller_feedback": "100% (2094 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/198704536117",
+      "site": "ebay",
+      "title": "Xiegu X6100 SDR Transceiver",
+      "price": 450.0,
+      "shipping": 0,
+      "found_at": "2026-10-10",
+      "condition_notes": "Used; seller notes \"Unit is like brand new\", in original box with all accessories. Or Best Offer. Free shipping.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (544 ratings)"
+    }
+  ]
+}
