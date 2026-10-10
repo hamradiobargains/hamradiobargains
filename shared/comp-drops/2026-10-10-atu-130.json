@@ -1,0 +1,47 @@
+{
+  "model": "ATU-130",
+  "slug": "atu-130",
+  "searched_at": "2026-10-10T13:52:44-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "One-off QTH catch-up comp sweep requested by Leo for 2026-10-10 — comps only, no trigger listing (trigger_listing is null). 4 kept comps from eBay sold page 1 (search 'ATU-130 antenna tuner' — no brand given). All kept units are generic/unbranded ATU-130 tuners; titles show 150W and 200W ratings. Dropped 1 best-offer-accepted (267771488007 $70). Dropped 0 parts-only. Excluded as different models: HamGeek ATU-130C 250W (365707761490 $95.58, 286835481907 $95, 206493506736 $90.25) and ATU-130 MAX (358843230677, best-offer-accepted). No outliers.",
+  "trigger_listing": null,
+  "comps": [
+    {
+      "price": 89.0,
+      "sold_date": "2026-09-07",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/257710333877",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted). Title: 'ATU-130 1.8-50MHz 150W Automatic Antenna Tuner OLED Display'. Shipping $9.85.",
+      "flags": []
+    },
+    {
+      "price": 74.99,
+      "sold_date": "2026-08-27",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/287538383025",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted). Title: 200W version. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 81.99,
+      "sold_date": "2026-08-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/358296951037",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 200W version. Shipping $2.00.",
+      "flags": []
+    },
+    {
+      "price": 79.99,
+      "sold_date": "2026-07-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227278844097",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 200W version. Free shipping.",
+      "flags": []
+    }
+  ]
+}
