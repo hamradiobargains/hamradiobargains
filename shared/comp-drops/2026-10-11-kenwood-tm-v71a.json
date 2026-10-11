@@ -1,0 +1,247 @@
+{
+  "model": "Kenwood TM-V71A",
+  "slug": "kenwood-tm-v71a",
+  "searched_at": "2026-10-11T17:59:50-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no KENWOOD TM-V71A entry). Page 1 sold search; mounts, cables, mics and manuals excluded. Kept 25 comps; dropped 6 best-offer-accepted, dropped 1 parts-only. OUTLIERS flagged: $675.00 (307107053600), $175.00 (307127076740), $709.89 (257448745085).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/137835125653",
+    "site": "ebay",
+    "ask": 399.9,
+    "shipping": 13.99
+  },
+  "comps": [
+    {
+      "price": 379.99,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178551131296",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$14.27 shipping",
+      "flags": []
+    },
+    {
+      "price": 430.0,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137783574453",
+      "source": "ebay",
+      "notes": "auction, 12 bids; +$11.99 shipping",
+      "flags": []
+    },
+    {
+      "price": 379.99,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178482474674",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$12.97 shipping",
+      "flags": []
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237073929149",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping; title: with mount, excellent",
+      "flags": []
+    },
+    {
+      "price": 207.5,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820151020137",
+      "source": "ebay",
+      "notes": "auction, 2 bids; +$8.03 shipping",
+      "flags": []
+    },
+    {
+      "price": 379.0,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336793674997",
+      "source": "ebay",
+      "notes": "auction, 4 bids; +$25.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 499.99,
+      "sold_date": "2026-09-17",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/366636966467",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$5.68 shipping",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188901027446",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$40.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 445.0,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128062727082",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$10.12 shipping",
+      "flags": []
+    },
+    {
+      "price": 405.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267770189925",
+      "source": "ebay",
+      "notes": "auction, 19 bids; +$20.00 shipping; includes KPS-15 power supply",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 399.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327339817771",
+      "source": "ebay",
+      "notes": "Buy It Now; +$23.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 365.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318748325994",
+      "source": "ebay",
+      "notes": "auction, 28 bids; +$15.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 428.0,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366611709582",
+      "source": "ebay",
+      "notes": "auction, 6 bids; +$6.69 shipping",
+      "flags": []
+    },
+    {
+      "price": 405.0,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198573490575",
+      "source": "ebay",
+      "notes": "auction, 18 bids; +$22.30 shipping; title: excellent condition, never installed or used",
+      "flags": []
+    },
+    {
+      "price": 675.0,
+      "sold_date": "2026-08-21",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/307107053600",
+      "source": "ebay",
+      "notes": "OUTLIER: $675.00 vs ~$405 median for the rest; fixed price (or Best Offer, not accepted); +$29.95 shipping; title: NEW",
+      "flags": []
+    },
+    {
+      "price": 175.0,
+      "sold_date": "2026-08-14",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/307127076740",
+      "source": "ebay",
+      "notes": "OUTLIER: $175.00 vs ~$415 median for the rest; fixed price (or Best Offer, not accepted); +$8.17 shipping; title: Brand New",
+      "flags": []
+    },
+    {
+      "price": 709.89,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257448745085",
+      "source": "ebay",
+      "notes": "OUTLIER: $709.89 vs ~$405 median for the rest; Buy It Now; free shipping; includes RT Systems cable and software",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 524.95,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206460502900",
+      "source": "ebay",
+      "notes": "Buy It Now; +$13.77 shipping; title: little use",
+      "flags": []
+    },
+    {
+      "price": 379.95,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336726308239",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$7.77 shipping; includes power supply, mic, antenna",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 330.0,
+      "sold_date": "2026-08-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366583980181",
+      "source": "ebay",
+      "notes": "auction, 7 bids; +$11.03 shipping",
+      "flags": []
+    },
+    {
+      "price": 540.0,
+      "sold_date": "2026-07-24",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/358785541457",
+      "source": "ebay",
+      "notes": "Buy It Now (was $600); +$12.92 shipping; title: no box",
+      "flags": []
+    },
+    {
+      "price": 524.99,
+      "sold_date": "2026-07-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127989382738",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping; with mic",
+      "flags": []
+    },
+    {
+      "price": 499.95,
+      "sold_date": "2026-07-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358811422977",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$16.60 shipping",
+      "flags": []
+    },
+    {
+      "price": 372.0,
+      "sold_date": "2026-07-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278163165967",
+      "source": "ebay",
+      "notes": "auction, 15 bids; +$8.18 shipping",
+      "flags": []
+    },
+    {
+      "price": 380.0,
+      "sold_date": "2026-07-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287368951635",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping; with mic",
+      "flags": []
+    }
+  ]
+}
