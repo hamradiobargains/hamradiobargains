@@ -1,0 +1,83 @@
+{
+  "model": "Kenwood TS-520",
+  "slug": "kenwood-ts-520",
+  "searched_at": "2026-10-11T17:59:50-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (ledger has KENWOOD TS-520S only — different model). TS-520S/SE/X sales excluded as different models; accessories and display units excluded. Two of the parts-only drops were also possible duplicate relists (407179017590/407177090628; 236964516958/336572551123). Kept 7 comps; dropped 4 best-offer-accepted, dropped 7 parts-only. OUTLIERS flagged: $320.00 (178168027498).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/128129159494",
+    "site": "ebay",
+    "ask": 300.0,
+    "shipping": 116.22
+  },
+  "comps": [
+    {
+      "price": 229.99,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307194591928",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$34.99 shipping",
+      "flags": []
+    },
+    {
+      "price": 269.95,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287558500835",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$30.93 shipping; title: with manual, accessories, working",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 209.0,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318665233957",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$156.88 shipping; title: with original box, manual, service manual",
+      "flags": []
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178417431840",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$24.82 shipping",
+      "flags": []
+    },
+    {
+      "price": 320.0,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178168027498",
+      "source": "ebay",
+      "notes": "OUTLIER: $320.00 vs ~$206 median for the rest; Buy It Now; +$65.00 shipping; title: + Filters (good TX/RX)",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 197.0,
+      "sold_date": "2026-07-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287485733747",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$57.05 shipping; title: works transmit receive",
+      "flags": []
+    },
+    {
+      "price": 204.0,
+      "sold_date": "2026-07-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366209718457",
+      "source": "ebay",
+      "notes": "Buy It Now (was $240); free shipping",
+      "flags": []
+    }
+  ]
+}
