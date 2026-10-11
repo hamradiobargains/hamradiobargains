@@ -1,0 +1,65 @@
+{
+  "model": "Icom IC-7200",
+  "slug": "icom-ic-7200",
+  "searched_at": "2026-10-11T17:59:50-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (ICOM IC-7200 count 1, dated 2025-08-04). Page 1 sold search; accessories, manuals and brochures excluded. Kept 5 comps; dropped 0 best-offer-accepted, dropped 1 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/900006446201",
+    "site": "ebay",
+    "ask": 850.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 449.99,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189058975379",
+      "source": "ebay",
+      "notes": "Buy It Now; +$39.98 shipping",
+      "flags": []
+    },
+    {
+      "price": 835.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189021716571",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$38.95 shipping; title: tested, with mic, box",
+      "flags": []
+    },
+    {
+      "price": 799.95,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327342143840",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping; title: with MB-116 and original box",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 759.0,
+      "sold_date": "2026-07-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298541983004",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$27.69 shipping; title: complete package, RT Systems, Nifty Guide",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 746.0,
+      "sold_date": "2026-07-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127968407271",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$68.00 shipping; title: barely used",
+      "flags": []
+    }
+  ]
+}
