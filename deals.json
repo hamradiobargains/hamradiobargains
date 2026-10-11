@@ -241,18 +241,6 @@
   },
   {
     "date": "2026-10-05",
-    "item": "Elecraft K3/100 Transceiver",
-    "link": "https://www.eham.net/classifieds/629024",
-    "price": 929.0,
-    "extraCost": 0.0,
-    "pctBelow": 0.3062,
-    "median": 1339.0,
-    "compCount": 8,
-    "compLow": 949.0,
-    "compHigh": 2599.0
-  },
-  {
-    "date": "2026-10-05",
     "item": "Icom IC-9100 HF/VHF/UHF Transceiver",
     "link": "https://swap.qth.com/view_ad.php?counter=1781431",
     "price": 950.0,
@@ -361,5 +349,18 @@
     "compLow": 725.0,
     "compHigh": 1099.95,
     "notes": "$550 shipped. Includes MH-59 mic and LDG meter; no accessory filters."
+  },
+  {
+    "date": "2026-10-11",
+    "item": "Elecraft K3/100",
+    "link": "https://swap.qth.com/view_ad.php?counter=1781926",
+    "price": 919.0,
+    "extraCost": 0.0,
+    "pctBelow": 0.3137,
+    "median": 1339.0,
+    "compCount": 8,
+    "compLow": 949.0,
+    "compHigh": 2599.0,
+    "notes": "$919 delivered. Serial #3501, K6RO. Replaces eHam listing of same radio at $929."
   }
 ]
