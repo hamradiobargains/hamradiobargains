@@ -1,0 +1,25 @@
+{
+  "model": "Icom IC-275H",
+  "slug": "icom-ic-275h",
+  "searched_at": "2026-10-11T17:59:50-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no ICOM IC-275H entry). thin — only 1 IC-275H sale on page 1. Kept 1 comps; dropped 0 best-offer-accepted, dropped 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/198707198170",
+    "site": "ebay",
+    "ask": 550.0,
+    "shipping": 25.0
+  },
+  "comps": [
+    {
+      "price": 450.0,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267764589460",
+      "source": "ebay",
+      "notes": "Buy It Now; +$28.39 shipping",
+      "flags": []
+    }
+  ]
+}
