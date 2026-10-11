@@ -348,5 +348,18 @@
     "compLow": 725.0,
     "compHigh": 1049.95,
     "notes": "$600 shipped. Clean listing, no flags."
+  },
+  {
+    "date": "2026-10-11",
+    "item": "Yaesu FT-897D",
+    "link": "https://swap.qth.com/view_ad.php?counter=1781902",
+    "price": 550.0,
+    "extraCost": 0.0,
+    "pctBelow": 0.413,
+    "median": 937.0,
+    "compCount": 8,
+    "compLow": 725.0,
+    "compHigh": 1099.95,
+    "notes": "$550 shipped. Includes MH-59 mic and LDG meter; no accessory filters."
   }
 ]
