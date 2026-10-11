@@ -1,101 +1,5 @@
 [
   {
-    "date": "2026-09-04",
-    "item": "Flex-1500 SDR Transceiver",
-    "link": "https://www.eham.net/classifieds/628539",
-    "price": 375.0,
-    "extraCost": 0.0,
-    "pctBelow": 0.2618,
-    "median": 508.0,
-    "compCount": 4,
-    "compLow": 294.14,
-    "compHigh": 575.0
-  },
-  {
-    "date": "2026-09-04",
-    "item": "Kenwood AT-230 Antenna Tuner",
-    "link": "https://www.eham.net/classifieds/628537",
-    "price": 95.0,
-    "extraCost": 20.0,
-    "pctBelow": 0.3931,
-    "median": 189.5,
-    "compCount": 10,
-    "compLow": 149.0,
-    "compHigh": 259.99
-  },
-  {
-    "date": "2026-09-04",
-    "item": "Ameritron RCS-10/12L 8-Port Antenna Switch",
-    "link": "https://www.eham.net/classifieds/628524",
-    "price": 150.0,
-    "extraCost": 0.0,
-    "pctBelow": 0.3182,
-    "median": 219.99,
-    "compCount": 1,
-    "compLow": 219.99,
-    "compHigh": 219.99
-  },
-  {
-    "date": "2026-09-05",
-    "item": "Yaesu FT-101E HF Transceiver",
-    "link": "https://www.facebook.com/marketplace/item/1543571830386013/",
-    "price": 250.0,
-    "extraCost": 0.0,
-    "pctBelow": 0.4898,
-    "median": 489.99,
-    "compCount": 5,
-    "compLow": 304.57,
-    "compHigh": 580.0
-  },
-  {
-    "date": "2026-09-06",
-    "item": "Yaesu FT-1500M FM Transceiver (2m Mobile)",
-    "link": "https://www.facebook.com/marketplace/item/2163511100909131/",
-    "price": 100.0,
-    "extraCost": 13.88,
-    "pctBelow": 0.2405,
-    "median": 149.95,
-    "compCount": 6,
-    "compLow": 149.0,
-    "compHigh": 185.0
-  },
-  {
-    "date": "2026-09-07",
-    "item": "Yaesu FT-101B Ham Radio Transceiver",
-    "link": "https://www.facebook.com/marketplace/item/2019857465378646/",
-    "price": 150.0,
-    "extraCost": 0.0,
-    "pctBelow": 0.5082,
-    "median": 305.0,
-    "compCount": 4,
-    "compLow": 179.9,
-    "compHigh": 580.0
-  },
-  {
-    "date": "2026-09-08",
-    "item": "Ten-Tec Argosy 525 Transceiver w/ PS",
-    "link": "https://www.eham.net/classifieds/628587",
-    "price": 60.0,
-    "extraCost": 0.0,
-    "pctBelow": 0.7878,
-    "median": 282.72,
-    "compCount": 3,
-    "compLow": 219.99,
-    "compHigh": 299.99
-  },
-  {
-    "date": "2026-09-11",
-    "item": "Yaesu FT-101B Ham Radio Transceiver",
-    "link": "https://www.facebook.com/marketplace/item/1620846252831112/",
-    "price": 250.0,
-    "extraCost": 0.0,
-    "pctBelow": 0.3056,
-    "median": 360.0,
-    "compCount": 3,
-    "compLow": 250.0,
-    "compHigh": 580.0
-  },
-  {
     "date": "2026-09-11",
     "item": "Kenwood TS-990S w/ SP990 Speaker & MC990 Display",
     "link": "https://swap.qth.com/view_ad.php?counter=1778980",
@@ -118,30 +22,6 @@
     "compCount": 7,
     "compLow": 595.0,
     "compHigh": 1500.0
-  },
-  {
-    "date": "2026-09-16",
-    "item": "Heathkit SB-630 Station Console (modified)",
-    "link": "https://www.facebook.com/marketplace/item/1433537535541924/",
-    "price": 55.0,
-    "extraCost": 0.0,
-    "pctBelow": 0.3714,
-    "median": 87.5,
-    "compCount": 2,
-    "compLow": 45.0,
-    "compHigh": 129.99
-  },
-  {
-    "date": "2026-09-17",
-    "item": "Kenwood PS-430 Power Supply",
-    "link": "https://www.eham.net/classifieds/628703",
-    "price": 95.0,
-    "extraCost": 0.0,
-    "pctBelow": 0.3448,
-    "median": 145.0,
-    "compCount": 7,
-    "compLow": 89.04,
-    "compHigh": 160.0
   },
   {
     "date": "2026-09-17",
@@ -204,30 +84,6 @@
     "pctBelow": 0.3416
   },
   {
-    "date": "2026-09-20",
-    "item": "DVMEGA Cast",
-    "link": "https://www.eham.net/classifieds/628759",
-    "price": 275.0,
-    "extraCost": 12.0,
-    "pctBelow": 0.3412,
-    "median": 435.65,
-    "compCount": 1,
-    "compLow": 435.65,
-    "compHigh": 435.65
-  },
-  {
-    "date": "2026-09-20",
-    "item": "Kenwood TS-520 Ham Radio Transceiver",
-    "link": "https://www.facebook.com/marketplace/item/1741707766944496/",
-    "price": 75.0,
-    "extraCost": 56.0,
-    "pctBelow": 0.3732,
-    "median": 209.0,
-    "compCount": 5,
-    "compLow": 175.0,
-    "compHigh": 269.95
-  },
-  {
     "date": "2026-09-21",
     "item": "Audio-Technica AT2040 Microphone",
     "link": "https://swap.qth.com/view_ad.php?counter=1780084",
@@ -238,18 +94,6 @@
     "compCount": 3,
     "compLow": 50.05,
     "compHigh": 93.02
-  },
-  {
-    "date": "2026-09-22",
-    "item": "Yaesu FT-101B HF Transceiver (non-working)",
-    "link": "https://www.facebook.com/marketplace/item/2019857465378646/",
-    "price": 75.0,
-    "extraCost": 44.0,
-    "pctBelow": 0.3566,
-    "median": 184.95,
-    "compCount": 2,
-    "compLow": 179.9,
-    "compHigh": 189.99
   },
   {
     "date": "2026-09-24",
@@ -274,18 +118,6 @@
     "compCount": 8,
     "compLow": 37.5,
     "compHigh": 199.99
-  },
-  {
-    "date": "2026-09-25",
-    "item": "Kenwood TM-D700 Dual Band Mobile Ham Radio",
-    "link": "https://www.facebook.com/marketplace/item/2074338233186902/",
-    "price": 120.0,
-    "extraCost": 72.0,
-    "pctBelow": 0.4226,
-    "median": 332.5,
-    "compCount": 4,
-    "compLow": 290.0,
-    "compHigh": 350.0
   },
   {
     "date": "2026-09-25",
@@ -325,18 +157,6 @@
   },
   {
     "date": "2026-09-27",
-    "item": "Icom IC-703+ HF/6m QRP Transceiver w/ ATU, FL-52A CW Filter (UT-106 DSP not working)",
-    "link": "https://www.eham.net/classifieds/628889",
-    "price": 400.0,
-    "extraCost": 0.0,
-    "pctBelow": 0.2844,
-    "median": 559.0,
-    "compCount": 7,
-    "compLow": 425.0,
-    "compHigh": 600.0
-  },
-  {
-    "date": "2026-09-27",
     "item": "FlexRadio Flex-6600 SDR HF/6M Transceiver w/ ATU",
     "link": "https://swap.qth.com/view_ad.php?counter=1780666",
     "price": 1850.0,
@@ -372,18 +192,6 @@
     "compHigh": 2750.0
   },
   {
-    "date": "2026-09-29",
-    "item": "Icom IC-738",
-    "link": "https://swap.qth.com/view_ad.php?counter=1780874",
-    "price": 325.0,
-    "extraCost": 25.0,
-    "pctBelow": 0.4118,
-    "median": 595.0,
-    "compCount": 5,
-    "compLow": 385.0,
-    "compHigh": 700.0
-  },
-  {
     "date": "2026-10-01",
     "item": "Yaesu FT-736R",
     "link": "https://www.ebay.com/itm/168748954541",
@@ -406,31 +214,6 @@
     "compCount": 2,
     "compLow": 200.0,
     "compHigh": 224.0
-  },
-  {
-    "date": "2026-10-03",
-    "item": "Heil HM-IC",
-    "link": "https://www.eham.net/classifieds/628994",
-    "price": 44.99,
-    "extraCost": 0.0,
-    "pctBelow": 0.4232,
-    "median": 78.0,
-    "compCount": 35,
-    "compLow": 50.0,
-    "compHigh": 150.0
-  },
-  {
-    "date": "2026-10-03",
-    "item": "LDG Z-100Plus",
-    "link": "https://swap.qth.com/view_ad.php?counter=1781223",
-    "price": 100.0,
-    "extraCost": 0.0,
-    "pctBelow": 0.3548,
-    "median": 155.0,
-    "compCount": 2,
-    "compLow": 150.0,
-    "compHigh": 160.0,
-    "notes": "Very nice/excellent; includes 12V cord and AA tray. $100 shipped CONUS. Thin comp set (2)."
   },
   {
     "date": "2026-10-04",
