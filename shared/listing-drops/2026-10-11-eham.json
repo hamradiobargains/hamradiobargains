@@ -1,0 +1,20 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-11",
+  "ran_at": "2026-10-11T05:53:13-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-10T05:52:35-04:00 (prior eham run, last ad covered 629151). Browsed signed OUT ('Welcome Guest'). Classifieds index page 1 only (1 eHam page load) covered the whole window: only one new ad, 629153 (629152 not shown - likely deleted). First load showed a Cloudflare 'Performing security verification' interstitial that cleared on its own after ~10s wait (nothing solved/clicked); no 1015. No search form, no sold searches, no seller/callsign pages, no individual ad pages opened. Comps: ledger miss for Green Heron Everyware; one eBay sold search (signed in as Leo, no challenge) returned 0 exact results. Note: Claude in Chrome could not read eBay page text (permission denied for the domain); the result was read from a screenshot.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629153",
+      "site": "eham",
+      "title": "Green Heron GH Everyware - 2 Bases, 4 Remotes",
+      "price": 995.0,
+      "shipping": 0,
+      "found_at": "2026-10-11",
+      "condition_notes": "Complete wireless antenna-switch control system: 2 Wireless Bases (8-relay boards, one with XBee PRO/external-antenna upgrade), 4 Wireless Remotes (16-NPN output boards, prewired HamPlus cables), 2 Mean Well 12V supplies. Seller says all 6 units tested October 2026, RF-path tests passed. $995 plus shipping (shipping amount not stated). Posted 2026-10-10.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
