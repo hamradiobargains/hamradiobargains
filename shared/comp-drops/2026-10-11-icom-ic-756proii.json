@@ -1,0 +1,34 @@
+{
+  "model": "Icom IC-756PROII",
+  "slug": "icom-ic-756proii",
+  "searched_at": "2026-10-11T17:59:50-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no ICOM IC-756PROII entry; IC-756PROIII is a different model). thin — 2 unit sales. Trigger listing is a bundle with HM-36 mic and PS-125 power supply. Boards/knobs/speaker/brochure sales excluded. Kept 2 comps; dropped 1 best-offer-accepted, dropped 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/960052992944",
+    "site": "ebay",
+    "ask": 895.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 650.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158339640411",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping",
+      "flags": []
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227467242685",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$50.00 shipping; title: tested",
+      "flags": []
+    }
+  ]
+}
