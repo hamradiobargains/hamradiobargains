@@ -1,0 +1,75 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-11",
+  "ran_at": "2026-10-11T14:52:57-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-10T14:52:55-04:00 (prior qth drop ran_at). Scanned QTH all-ads pages 1-21 (all.php through ?page=21); pages 1-7 were first read with a parser that mis-paired titles and IDs, so pages 1-6 were re-read with a corrected parser (titles precede the Listing # line). The list shifted by ~2 ads while scanning (new ads 1781966-1781967 posted); overlap between pages covered the shift. Counter-ID range of new ads submitted since window start reviewed: 1781834-1781967 (IDs 1781946 and 1781932 never appeared, presumably deleted). Also reviewed renewed/modified older ads in the window, e.g. 1761348, 1771700, 1775435, 1776338, 1776870, 1778531, 1778990, 1779330, 1780023, 1780025, 1780721, 1781208, 1781218, 1781272, 1781290, 1781482, 1781483, 1781510, 1781547, 1781576, 1781585, 1781676, 1781732, 1781800, 1781801, 1781808, 1781864. End of window: page 20 reaches 1781831/1781829 (covered by the prior qth run); page 21 is all 10/10 activity below 1781833, confirming the end. QTH shows dates only, so 10/10 ads near the boundary were reviewed regardless. No unreviewed remainder. Candidates (6, cap): IC-7600 1781936, Elecraft K3/100 1781926, FTdx10 1781913, FT-991A 1781935, FT-897D 1781902, IC-718 1781958. Plausible extras not comp-searched (cap): 1781864 Alinco DX-SR8 $350 shipped (same ad: Radioddity QT-80 10m $230); 1781917 Icom IC-703+ $475; 1781576 Icom IC-703+ w/ CW filter $450 (renewed); 1781916 Xiegu G90 w/ fan $365; 1781860 Elecraft K3/100 #6681 $979; 1781845 Yaesu FTdx10 w/ external tuner $1100; 1781956 ANAN 8000DLE $2500 firm + shipping; 1781927 ANAN G2 or 7000DLE $3500/$1900; 1781585 Yaesu FT-450D + M-70 $499 + shipping (ad says 'sold as is no returns'); 1778531 Icom IC-756PRO $385 shipped (renewed); 1781875 Icom 756PRO II + PS125 + HM36 $795; 1781483 Icom IC-7600 $1100 (renewed); 1781879 Ameritron ALS-600 Tech Special $800; 1781846 ACOM 1000 $2100; 1781853 Elecraft KPA500 $3499; 1781854 Elecraft KH1 Edgewood $1180; 1781834 FT-891 + ATAS-120A + MAT-30 $1100; 1781803 Sun SDR2 Pro $800; 1781882 Drake C-Line $650; 1781876 Collins 75S-3B $695; 1781939 Heath SB-1400 & SBA-1400-4 $370; 1781957 IC-7300 + ALS-600 + PS bundle $1800 firm (bundle); 1781934 IC-9100 + IC-7410 $1975 (pair); 1781966 Kenwood TS-940S w/ accessories (no price seen in list view); 1781208 FTDX5000MP $2400 (renewed); 1781808 IC-7300 MARS $769 (renewed, listed as extra in prior drop). Not picked: wanted ads, accessories/parts, commercial Motorola gear, books, test gear, non-ham items. Ledger: IC-7600 HIT (count 5, 2026-09-29); K3/100 HIT (count 8, 2026-09-15); FTDX10 HIT (count 10, 2026-09-29); FT-991A HIT (count 15, 2026-09-22); FT-897D HIT (count 8, 2026-10-01); IC-718 not in ledger -> eBay. eBay: signed in as Leo, 1 sold search (IC-718), no challenge. Shipping 0 where ad says shipped/delivered/included or seller pays shipping.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781936",
+      "site": "qth",
+      "title": "RADIOHF - For Sale: Nice IC-7600, Dual In-Band Rcv",
+      "price": 1075.0,
+      "shipping": 0,
+      "found_at": "2026-10-11",
+      "condition_notes": "Seller: nice working and physical condition; includes box, mic, power cord, manual. Seller notes dual in-band receive usable spread ~4 MHz. $1075 includes shipping to U.S.; discount for local; PayPal +3%.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781926",
+      "site": "qth",
+      "title": "RADIOHF - Elecraft K3/100 Transceiver # 3501",
+      "price": 919.0,
+      "shipping": 0,
+      "found_at": "2026-10-11",
+      "condition_notes": "$919 delivered. Serial 3501, 100W, 2.7 kHz SSB filter, TCXO, KIO3, K3S VFO rubber band, gold front panel pins, 'lots of mods done', firmware 5.67, 'works as it should', good condition, power cord. Seller (K6RO) has other K3s listed (e.g. 1781860).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781913",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu FTdx10",
+      "price": 1000.0,
+      "shipping": 0,
+      "found_at": "2026-10-11",
+      "condition_notes": "Excellent condition per seller; hand mic, power cable, cover included. Seller pays CONUS shipping. Also open to trade for IC-7610 + cash. PayPal buyer pays fee or F&F.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781935",
+      "site": "qth",
+      "title": "RADIOHF - Sell or Trade: FT-991A for FTX-1",
+      "price": 925.0,
+      "shipping": 0,
+      "found_at": "2026-10-11",
+      "condition_notes": "Nice working and physical condition per seller; U.S. version; includes box, mic, power cord, manual (notes written on manual cover). $925 includes shipping to U.S.; may trade toward FTX-1/Optima.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781902",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu FT897D",
+      "price": 550.0,
+      "shipping": 0,
+      "found_at": "2026-10-11",
+      "condition_notes": "'As pictured' $550 shipped. Includes MH-59 mic and LDG meter; no accessory filters. Two 12V lithium internal battery packs and chargers available separately (no price stated).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781958",
+      "site": "qth",
+      "title": "RADIOHF - FS - Icom IC-718 with DSP",
+      "price": 375.0,
+      "shipping": 0,
+      "found_at": "2026-10-11",
+      "condition_notes": "Great condition, 100% operational, fully aligned, tested and guaranteed per seller. Radio only: no mic, power cord, or manual. With DSP. $375 shipped to U.S.; card/PayPal/Venmo +3%.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
