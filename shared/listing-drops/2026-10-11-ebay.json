@@ -1,0 +1,75 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-11",
+  "ran_at": "2026-10-11T17:59:50-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now, sorted newly listed (search URL redirects to category browse page; signed in as Leo). Window since previous ebay run 2026-10-10T18:00:14-04:00; scanned page 1 only (110 items, all NEW LISTING). 7 picked, 6 passed seller rule. Skipped: Ameritron ALS-500M (407283412217) — seller has only 2 ratings. Ledger hit: HEATHKIT SB-220. eBay sold searches: IC-7200, TM-V71A, IC-275H, IC-756PROII, TS-520 — no challenges. Item descriptions (iframe) not read; condition notes from title/condition/returns only. Not picked: Drake R7A ($1,999), Kenwood R-2000, MFJ-989C, Kenwood AT-50, Ten-Tec Scout 555, parts-only items (Kenwood TS-940S, Collins KWM-380, Yaesu FL-101, Mirage B-1030-G), accessories, CB and general electronics.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/900006446201",
+      "site": "ebay",
+      "title": "ICOM IC-7200 HF/50MHz All Mode Transceiver Ham Radio Tested B",
+      "price": 850.0,
+      "shipping": 0,
+      "found_at": "2026-10-11",
+      "condition_notes": "Used; title says tested; free shipping; 30-day returns (seller pays return shipping); description not read",
+      "work_flag": "",
+      "seller_feedback": "100% (4653 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/137835125653",
+      "site": "ebay",
+      "title": "Kenwood TM-V71A VHF/UHF Dual Band Mobile Transceiver With Mount POWER TESTED",
+      "price": 399.9,
+      "shipping": 13.99,
+      "found_at": "2026-10-11",
+      "condition_notes": "Used; with mount; title says POWER TESTED only; 30-day returns",
+      "work_flag": "POWER TESTED",
+      "seller_feedback": "99.9% (3773 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/198707198170",
+      "site": "ebay",
+      "title": "Icom IC-275H 100W 2 Meter All Mode 100W FM/USB/SSB/CW VHF Transceiver",
+      "price": 550.0,
+      "shipping": 25.0,
+      "found_at": "2026-10-11",
+      "condition_notes": "Used; or Best Offer; seller does not accept returns",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "100% (1764 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/960052992944",
+      "site": "ebay",
+      "title": "ICOM IC-756PROII Transceiver + HM-36 Mic + PS-125 Power Supply",
+      "price": 895.0,
+      "shipping": 0,
+      "found_at": "2026-10-11",
+      "condition_notes": "Used; bundle with HM-36 mic and PS-125 power supply; or Best Offer; free shipping; seller does not accept returns",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "100% (460 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/117461311495",
+      "site": "ebay",
+      "title": "Heathkit SB220 Tube Linear Amplifier for Ham Radio",
+      "price": 1200.0,
+      "shipping": 115.0,
+      "found_at": "2026-10-11",
+      "condition_notes": "Used; or Best Offer; seller does not accept returns; no test status in title",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "100% (1492 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/128129159494",
+      "site": "ebay",
+      "title": "KENWOOD SSB Transceiver TS-520",
+      "price": 300.0,
+      "shipping": 116.22,
+      "found_at": "2026-10-11",
+      "condition_notes": "Used; or Best Offer; 30-day returns; item specifics say Kenwood TS-520 (not S/SE); no test status in title",
+      "work_flag": "",
+      "seller_feedback": "100% (164 ratings)"
+    }
+  ]
+}
