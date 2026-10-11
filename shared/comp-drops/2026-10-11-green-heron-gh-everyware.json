@@ -1,0 +1,15 @@
+{
+  "model": "Green Heron GH Everyware",
+  "slug": "green-heron-gh-everyware",
+  "searched_at": "2026-10-11T05:54:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no entry). eBay sold search 'green heron everyware' returned 0 exact results ('No exact matches found'); 'Results matching fewer words' ignored (unrelated items). No comps. dropped 0 best-offer-accepted, dropped 0 parts-only. Thin - zero comps. Also note the listing is a 6-unit package (2 bases + 4 remotes + supplies + cables), so single-unit sales would not be a direct comparable anyway.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629153",
+    "site": "eham",
+    "ask": 995.0,
+    "shipping": 0
+  },
+  "comps": []
+}
