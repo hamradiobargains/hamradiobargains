@@ -1,0 +1,114 @@
+{
+  "model": "Icom IC-735",
+  "slug": "icom-ic-735",
+  "searched_at": "2026-10-12T17:57:30-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-735', page 1. Kept 10. Dropped 6 best-offer-accepted (336840048507, 206570361519, 366667010077, 206450806160, 206454033883, 168568004712). Dropped 6 parts-only (137821090360, 278434335872, 168761356915, 236658935528, 137742365805, 358831326034). Excluded boards, knobs, buttons, battery.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/227564324399",
+    "site": "ebay",
+    "ask": 300.0,
+    "shipping": 11.03
+  },
+  "comps": [
+    {
+      "price": 285.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298732752423",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: Tested Working. Shipping shown +$14.50.",
+      "flags": []
+    },
+    {
+      "price": 267.0,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336792240409",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: working, with Microphone and DC power cable. Shipping shown +$95.50.",
+      "flags": []
+    },
+    {
+      "price": 301.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257757701974",
+      "source": "ebay",
+      "notes": "Auction, 13 bids. Title: IC55 Power Supply, SM8 Mic. Shipping shown +$114.30.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 285.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117412934504",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: With Original Box, HM-12 Mic & Manual Works A+. Shipping shown +$22.90. Same title as 128072878078 (Sep 13).",
+      "flags": []
+    },
+    {
+      "price": 315.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128072878078",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: With Original Box, HM-12 Mic & Manual Works A+. Shipping shown +$22.90. Same title as 117412934504 (Sep 15).",
+      "flags": []
+    },
+    {
+      "price": 355.5,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168531352380",
+      "source": "ebay",
+      "notes": "Buy It Now (shown $355.50, struck-through $395.00). Title: with Sm-20 Mic Works great. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-08-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188682638100",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not accepted). Title: w/PS 55 Power Supply - Tested RX and TX. Shipping shown +$20.00.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 163.5,
+      "sold_date": "2026-07-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127984063255",
+      "source": "ebay",
+      "notes": "Auction, 23 bids. Title: UNIT ONLY UNTESTED NO POWER CABLE. Shipping shown +$27.00.",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2026-07-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267729610430",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping shown +$25.64.",
+      "flags": []
+    },
+    {
+      "price": 379.59,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168642936646",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: (WIDE-BANDED). Located in UK; shipping estimate +$128.17, import fees at checkout.",
+      "flags": [
+        "modified"
+      ]
+    }
+  ]
+}
