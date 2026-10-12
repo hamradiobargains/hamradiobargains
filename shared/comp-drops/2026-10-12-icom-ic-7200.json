@@ -1,0 +1,22 @@
+{
+  "model": "Icom IC-7200",
+  "slug": "icom-ic-7200",
+  "searched_at": "2026-10-12T17:57:30-04:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 752.5, count 6, ledger date 2026-10-08 — ledger hit — individual sales behind the median are not auditable from this file.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/336841542226",
+    "site": "ebay",
+    "ask": 650.0,
+    "shipping": 24.45
+  },
+  "comps": [],
+  "ledger": {
+    "median": 752.5,
+    "low": 449.99,
+    "high": 835.0,
+    "count": 6,
+    "date": "2026-10-08"
+  }
+}
