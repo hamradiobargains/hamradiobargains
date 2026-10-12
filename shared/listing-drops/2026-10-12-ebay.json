@@ -1,0 +1,75 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-12",
+  "ran_at": "2026-10-12T17:57:30-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now, sorted newly listed (signed in as Leo). Window since previous ebay run 2026-10-11T17:59:50-04:00; scanned page 1 only. 7 picked, 6 passed seller rule. Skipped: Yaesu FT-2000 (840014646591, $850) — seller card shows 31 ratings but no positive-% figure, could not verify. Ledger hit: ICOM IC-7200. eBay sold searches: IC-9100 (covers both IC-9100 listings), TS-440S, FT-450D, IC-735 — no challenges. Item descriptions (iframe) not read; condition notes from title/condition/returns only. Not picked: Kenwood TS-850S untested ($1,136.92 + $120, Japan), ICOM IC-746S, Kenwood TS-2000SX modified, IC-821D, Yaesu FT-911, Drake TR-4C/R-4C/R-4B/T-4XB, Collins 51J-4, Ameritron AL-1200, auction-format and parts-only items, accessories, CB and general electronics.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/327401891358",
+      "site": "ebay",
+      "title": "Icom IC-9100 HF VHF UHF Ham Radio UT-121 D-STAR Installed Working w/ Mic Box",
+      "price": 1499.99,
+      "shipping": 0,
+      "found_at": "2026-10-12",
+      "condition_notes": "Used; title says working, UT-121 D-STAR installed, with mic and box; or Best Offer; free shipping; 30-day returns (seller pays return shipping)",
+      "work_flag": "",
+      "seller_feedback": "99.6% (2234 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/840014942509",
+      "site": "ebay",
+      "title": "ICOM IC-9100 HF-6 METER, 2 METER, 440MHZ ALL MODE+ D-STAR + FL-431 FILTER OPTION",
+      "price": 1747.0,
+      "shipping": 0,
+      "found_at": "2026-10-12",
+      "condition_notes": "Used; D-STAR and FL-431 filter option per title; free shipping; returns accepted",
+      "work_flag": "",
+      "seller_feedback": "100% (1653 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/840015023672",
+      "site": "ebay",
+      "title": "Kenwood TS-440s HF Transceiver, PS-50, SP-430 Speaker SB Filter & CW Filter",
+      "price": 699.99,
+      "shipping": 49.99,
+      "found_at": "2026-10-12",
+      "condition_notes": "Used; bundle with PS-50 power supply, SP-430 speaker, SSB and CW filters; or Best Offer; 30-day returns (seller pays return shipping); working status not stated in title",
+      "work_flag": "",
+      "seller_feedback": "99.3% (15667 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/336841542226",
+      "site": "ebay",
+      "title": "ICOM IC-7200 HF 50 Mhtz Transceiver & Mic Excellent Condition",
+      "price": 650.0,
+      "shipping": 24.45,
+      "found_at": "2026-10-12",
+      "condition_notes": "Used; with mic; title says excellent condition; seller does not accept returns",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "99.3% (3388 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/336841540488",
+      "site": "ebay",
+      "title": "Yaesu FT-450D HF/50MHz 100W Transceiver Amateur Ham Radio Good Working",
+      "price": 450.0,
+      "shipping": 23.0,
+      "found_at": "2026-10-12",
+      "condition_notes": "Used; title says good working; seller does not accept returns",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "99.3% (3388 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227564324399",
+      "site": "ebay",
+      "title": "Icom IC-735 HF Ham Radio Transceiver 100W SSB/CW/AM/FM LCD Black",
+      "price": 300.0,
+      "shipping": 11.03,
+      "found_at": "2026-10-12",
+      "condition_notes": "Used; or Best Offer; seller does not accept returns; working status not stated in title",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "100% (23 ratings)"
+    }
+  ]
+}
