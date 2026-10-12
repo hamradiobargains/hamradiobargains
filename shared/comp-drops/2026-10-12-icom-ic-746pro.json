@@ -1,0 +1,45 @@
+{
+  "model": "Icom IC-746PRO",
+  "slug": "icom-ic-746pro",
+  "searched_at": "2026-10-12T14:57:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (24 exact results; \"fewer words\" section ignored). 3 comps kept. Dropped 5 best-offer-accepted (327335031806 $625, 327329612576 $575, 236965239739 $579.95, plus 117397267394 $800 and 397926714113 $700 which were also labeled Parts Only). Dropped 2 parts-only (227456994689 $359 and 327268373074 $359, both titled PARTS OR REPAIR). Excluded boards, knobs, manuals, backlight kits, encoders, TCXO, voice board and other accessories, and IC-756PRO III. No outliers. Comp 287628569438 is a station bundle (radio + PS-125 + SP-20).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781991",
+    "site": "qth",
+    "ask": 550.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 760.0,
+      "sold_date": "2026-10-10",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/287628569438",
+      "source": "ebay",
+      "notes": "Auction, 6 bids. Title: Icom HF/VHF Station Package – IC-746PRO, PS-125, SP-20 No Reserve. Includes PS-125 power supply and SP-20 speaker. +$267.99 delivery shown.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 426.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298722157365",
+      "source": "ebay",
+      "notes": "Auction, 4 bids. Title: Icom IC-746 Pro HF/VHF Transceiver. +$41.69 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 645.0,
+      "sold_date": "2026-08-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158150354881",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked best offer accepted). Title: Icom ic 746 pro ham radio transceiver Super Low Use Mint Condition. +$66.76 delivery shown.",
+      "flags": []
+    }
+  ]
+}
