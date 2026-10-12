@@ -1,0 +1,119 @@
+{
+  "model": "Yaesu FT-450D",
+  "slug": "yaesu-ft-450d",
+  "searched_at": "2026-10-12T17:57:30-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ft-450d', page 1. Kept 11. Dropped 5 best-offer-accepted (117443879888, 178516612102, 237053737255 [also parts-only], 237009870980, 257659618120). Dropped 2 parts-only (278375724556, 158222073635). Excluded FT-450 non-D (407126030930), an unidentified 'ham radio station' bundle (178511075737), an ambiguous 'FT-450D Antenna Tuner' Brand New $999.99 (168578562056 — unclear if the radio), and mics/cables/manuals/handles.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/336841540488",
+    "site": "ebay",
+    "ask": 450.0,
+    "shipping": 23.0
+  },
+  "comps": [
+    {
+      "price": 535.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298717472486",
+      "source": "ebay",
+      "notes": "Auction, 21 bids. Title: with case and interface. Shipping shown +$19.95.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 538.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/397860936804",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not accepted). Title: Tested. Located in Japan; shipping shown +$82.50 incl. import fees.",
+      "flags": []
+    },
+    {
+      "price": 412.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168700811582",
+      "source": "ebay",
+      "notes": "Auction, 12 bids. Shipping shown +$41.88.",
+      "flags": []
+    },
+    {
+      "price": 415.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336805861975",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: Clean and Tested - Last Version. Shipping shown +$24.95. Same title as 336766775862 (Aug 30).",
+      "flags": []
+    },
+    {
+      "price": 435.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168685420342",
+      "source": "ebay",
+      "notes": "Auction, 21 bids. Shipping shown +$20.00.",
+      "flags": []
+    },
+    {
+      "price": 499.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336766775862",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: Clean and Tested - Last Version. Shipping shown +$70.70. Same title as 336805861975 (Sep 25).",
+      "flags": []
+    },
+    {
+      "price": 605.0,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168616217425",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not accepted). Title: W/ Microphone & Manual, Tested, Works Great. Shipping shown +$22.84.",
+      "flags": []
+    },
+    {
+      "price": 364.0,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237010457850",
+      "source": "ebay",
+      "notes": "Auction, 13 bids. Title: w/ Mic CAT Control. Shipping shown +$75.33.",
+      "flags": []
+    },
+    {
+      "price": 499.21,
+      "sold_date": "2026-07-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267733457962",
+      "source": "ebay",
+      "notes": "Auction, 40 bids. Title: with SignaLink digital interface. Shipping shown +$152.52.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 699.0,
+      "sold_date": "2026-07-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/395592870716",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not accepted). Title: Tested W/ Box Manual Excellent. Located in Japan; shipping shown +$110.00 incl. import fees.",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-07-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298505646168",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not accepted). Shipping shown +$20.00.",
+      "flags": []
+    }
+  ]
+}
