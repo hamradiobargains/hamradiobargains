@@ -1,0 +1,74 @@
+{
+  "model": "Icom IC-92AD",
+  "slug": "icom-ic-92ad",
+  "searched_at": "2026-10-12T05:55:10-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-92ad', page 1 only; 'Results matching fewer words' section ignored. 6 unit comps kept. Dropped 0 best-offer-accepted and 0 parts-only. Excluded 11 accessories, batteries, antennas, cables, a brochure and a BC-177 charger. OUTLIER: $269.95 (Sep 12, with charger and extra batteries) vs ~$175 median for the rest. The Oct 9 and Oct 1 sales have identical titles but different sellers, so they are not flagged as duplicates. Trigger listing title says 'ID-92AD'; the ad body says IC-92AD, which is Icom's model name. The listing includes HM-175GPS mic, BC-177 charger and 2 extra batteries.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629167",
+    "site": "eham",
+    "ask": 395.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 175.0,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/860023917297",
+      "source": "ebay",
+      "notes": "Title: 'IC-92AD Radio In Working Condition'. Fixed price 'or Best Offer' (not best-offer-accepted). Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 175.33,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298027493273",
+      "source": "ebay",
+      "notes": "Title: 'IC-92AD Radio In Working Condition'. Buy It Now. +$35.05 delivery; located in Canada. Same title as the Oct 9 sale but a different seller.",
+      "flags": []
+    },
+    {
+      "price": 269.95,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307137757293",
+      "source": "ebay",
+      "notes": "OUTLIER: $269.95 vs ~$175 median for the rest (>1.5x). Title: 'Icom IC-92AD Transceiver Submersible D-Star Ham Radio Charger & Extra Batteries'. Buy It Now. +$16.95 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 175.0,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188733498816",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-92AD VHF/UHF Dual-Band Transceiver D-Star Ham Radio w/Accessories'. Auction, 3 bids. +$20.00 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 145.0,
+      "sold_date": "2026-07-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278217130696",
+      "source": "ebay",
+      "notes": "Title: 'IC-92AD Radio In Working Condition Dstar With Wall Plug Charger.' Fixed price 'or Best Offer' (not best-offer-accepted). +$7.52 delivery.",
+      "flags": []
+    },
+    {
+      "price": 197.99,
+      "sold_date": "2026-07-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206429592704",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-92AD VHF/UHF Dual-Band Transceiver D-Star Ham Radio'. Buy It Now, shown $197.99 (struck-through $219.99). +$6.40 delivery.",
+      "flags": []
+    }
+  ]
+}
