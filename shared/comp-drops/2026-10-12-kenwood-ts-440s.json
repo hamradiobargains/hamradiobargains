@@ -1,0 +1,113 @@
+{
+  "model": "Kenwood TS-440S",
+  "slug": "kenwood-ts-440s",
+  "searched_at": "2026-10-12T17:57:30-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood ts-440s', page 1. Kept 9. Dropped 5 best-offer-accepted (336835975947, 317898345311, 158234604541, 227460678765, 137579356241). Dropped 14 parts-only (eBay 'Parts Only' or title as-is/for parts/repair: 800766443595, 206591234902, 158351000996, 398386336061, 128002773437, 318787693035, 178460783567, 206531955949, 406906648305, 147502746646, 267752167075, 237000257051, 137576625777, 206451278484). Excluded boards, displays, filters, mics, cables, manuals. TS-440S/AT (factory auto-tuner) units kept with option_installed; trigger listing title does not say whether the AT option is fitted. Outliers flagged: https://www.ebay.com/itm/206421839617.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/840015023672",
+    "site": "ebay",
+    "ask": 699.99,
+    "shipping": 49.99
+  },
+  "comps": [
+    {
+      "price": 211.5,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318943324587",
+      "source": "ebay",
+      "notes": "Auction, 31 bids. Title: w/ PS-30 Power Supply + MC-60 Mic + Manual. Shipping shown +$111.55.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206543764898",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not accepted). Title: W/ Mic & power cord, built in tuner. Shipping shown +$50.00.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 399.95,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327347483511",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: Antenna Tuner w/mic and manual. Free shipping.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 449.99,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128006525995",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not accepted). Title: Working. Shipping shown but amount not captured.",
+      "flags": []
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206527741219",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: TS-440S SAT + Mic + Cable (works well). Shipping not captured.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 268.0,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237004343096",
+      "source": "ebay",
+      "notes": "Auction, 21 bids. Title: TS-440S TUNER ... USED. Shipping shown +$21.52.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287485617724",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not accepted). Title: TS-440SAT w/ Auto Antenna Tuner & Mic. Shipping not captured.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 450.5,
+      "sold_date": "2026-07-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287472091662",
+      "source": "ebay",
+      "notes": "Auction, 42 bids. Title: w/ Auto Antenna Tuner, Mic, Box, Cord. Shipping shown +$28.73.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-07-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206421839617",
+      "source": "ebay",
+      "notes": "OUTLIER: $150.00 vs ~$400 median for the rest. Auction, 1 bid. Title: RX good TX needs work. Shipping shown +$21.60.",
+      "flags": [
+        "faulty"
+      ]
+    }
+  ]
+}
