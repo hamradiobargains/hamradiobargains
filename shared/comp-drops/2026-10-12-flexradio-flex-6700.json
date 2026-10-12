@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-6700",
+  "slug": "flexradio-flex-6700",
+  "searched_at": "2026-10-12T14:58:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — eBay sold search for \"flexradio flex-6700\" returned 0 exact results; page showed only fewer-words matches (FLEX-6600/6600M/6400/6400M/1500/SDR-1000 and accessories), all ignored as different models. Only 6700 mentions were PTT hand/foot switch accessories. No comps.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781974",
+    "site": "qth",
+    "ask": 2995.0,
+    "shipping": 0
+  },
+  "comps": []
+}
