@@ -362,5 +362,18 @@
     "compLow": 949.0,
     "compHigh": 2599.0,
     "notes": "$919 delivered. Serial #3501, K6RO. Replaces eHam listing of same radio at $929."
+  },
+  {
+    "date": "2026-10-12",
+    "item": "Elecraft K3/100 Transceiver",
+    "link": "https://www.eham.net/classifieds/629172",
+    "price": 979,
+    "extraCost": 0,
+    "pctBelow": 0.2689,
+    "median": 1339,
+    "compCount": 8,
+    "compLow": 949,
+    "compHigh": 2599,
+    "notes": "$979 delivered. Serial #6681, K6RO. Late-serial unit with KPA3, 2.7 kHz SSB filter, KIO3, KXV3."
   }
 ]
