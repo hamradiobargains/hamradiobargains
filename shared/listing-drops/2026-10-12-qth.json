@@ -1,0 +1,75 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-12",
+  "ran_at": "2026-10-12T14:52:45-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-11T14:52:57-04:00 (prior qth drop ran_at). Scanned QTH all-ads pages 1-16 (all.php through ?page=16), one page at a time. Counter-ID range of new ads submitted since window start reviewed: 1781968-1782054 (IDs 1781976, 1781997, 1782000, 1782001, 1782012, 1782020, 1782025, 1782036 never appeared in the list; 1781976 and 1782020 checked directly and the ad pages show no listing, presumably deleted). Also reviewed renewed/modified older ads in the window, e.g. 1781977, 1781762, 1781978, 1781852, 1781851, 1781850, 1781896, 1781898, 1781899, 1781746, 1781046, 1781089, 1781428, 1781750, 1781749, 1781748, 1781840, 1781667, 1781916, 1781290, 1781766, 1781765, 1781740, 1781959, 1781961, 1781890, 1781864, 1773357, 1781751, 1781891, 1781892, 1781893, 1781846, 1781889, 1781066, 1781798, 1781797, 1781800, 1781732, 1781808, 1781524, 1781043, 1781913, 1780216, 1781844, 1781169, 1781830, 1781559, 1780213, 1780525, 1781437-1781455 (Hy-Gain/Bird/Mosley parts), 1780207, 1780719, 1781340, 1780962, 1780019, 1781253, 1781282, 1780722, 1781344, 1780025, 1781345. End of window: page 15 reaches 1781967/1781966 (covered by the prior qth run); page 16 is all IDs <=1781965 with latest activity 10/11 and already listed as reviewed in the prior qth drop, confirming the end. QTH shows dates only, so 10/11 activity near the boundary was reviewed regardless. No unreviewed remainder. Candidates (6, cap): IC-7100 1782041, IC-718 1782046, FT-891 1782028, FTDX10 1782030, IC-746PRO 1781991, FLEX-6700 1781974. Plausible extras not comp-searched (cap): 1782004 Icom IC-7800 + SM-20 $3500 (seller in Ukraine, ships Nova Poshta, shipping not stated); 1781999 Kenwood TS-480HX for restore or parts $400 + shipping (ad: water spill, won't power up, 'No guarantees'); 1782047 Icom IC-703+ $440 and 1781978 Icom IC-703+ w/ CW filter $440 (possibly the same radio; 1781576 IC-703+ seen in prior run); 1781970 Elecraft K4D setup $5500/$5350; 1781979 Icom IC-7760 $5900; 1782017 Yaesu FTM-400XDR $400; 1782016 Yaesu FT5DR $400; 1782048 Yaesu FT-310D w/ RTS software $345; 1782051 Drake SW-8 receiver $249; 1782008 two Atlas 350XL stations $350; 1782037 RF2K 1500W SS amp w/ tuner $4150; 1782031 ACOM 1200S $3200; 1781973 SPE Expert 1.3K-FA $3295; 1782052 Henry 2K2 console $500; 1782050 Henry 3K power deck $325; 1782049 Henry 2K Classic power deck $325; 1782015 pair SB-200 $875 shipped; 1781977 Alpha 78 $1100; 1782053 Palstar BT1500A $475 + shipping; 1782019 Palstar AT4K $700; 1782042 Icom IC-AT500 $225; 1781972 Elecraft KAT/100 $400; 1781980 Yaesu G-5500AC rotator $700; 1781968 microHAM ARCO $880; 1782029 Btech 30A PS $100. Renewed ads seen (prior extras or already dropped): 1781916 Xiegu G90 w/ fan now $350; 1781800 IC-9700 $1599; 1781732 TM-D710GA $679; 1781808 IC-7300 MARS $749; 1781913 FTdx10 now $925 (already dropped in prior run at $1000, not re-dropped); 1781751 FT-897D + FC-30 $700 shipped (already in dropped-urls); 1781524 IC-7610 (already in dropped-urls); 1780962 TS-480SAT $750/$650; 1780207 Yaesu DX10 $1000. 1782002 TS-950SDX and 1782003 FT-920 had no price in list view. Not picked: wanted ads, accessories/parts/cords, Motorola commercial gear, books, test gear, scanners, non-ham items. Ledger (comps.json updated 2026-10-12T12:53:06Z): ICOM IC-7100 HIT (count 29, 2026-10-10); ICOM IC-718 HIT (count 18, 2026-10-09); YAESU FT-891 HIT (count 11, 2026-09-28); YAESU FTDX10 HIT (count 10, 2026-09-29); IC-746PRO not in ledger -> eBay; FLEX-6700 not in ledger -> eBay. eBay: signed in as Leo, 2 sold searches (IC-746PRO, FLEX-6700), no challenge. FLEX-6700 search returned 0 exact results. Shipping 0 where ad says shipped or where shipping is extra but amount not stated (noted per listing).",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782041",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE: Icom IC-7100 with HM 151 Mic.",
+      "price": 750.0,
+      "shipping": 0,
+      "found_at": "2026-10-12",
+      "condition_notes": "Seller: works fine and looks great; includes remote cable, two power cables, possible tuner cable, like-new boxed HM-151 mic; no original radio box. $750 shipped CONUS, seller pays shipping and PayPal fees. No shipping outside US.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782046",
+      "site": "qth",
+      "title": "RADIOHF - Icom IC-718 HF 100w Transceiver",
+      "price": 395.0,
+      "shipping": 0,
+      "found_at": "2026-10-12",
+      "condition_notes": "Seller: super clean, working, boxed with mic and DC cable; late model with 4-pin Molex; DSP board included; no paperwork. $395 plus shipping (amount not stated; shipping recorded as 0 = unknown).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782028",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu FT-891 with side rails, POTA-ready",
+      "price": 535.0,
+      "shipping": 0,
+      "found_at": "2026-10-12",
+      "condition_notes": "Seller: includes mic, Powerpole power cable, side rails; recently bought used from local HRO, checked out and works FB. $535 shipped, PayPal OK.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782030",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu FTDX10 w / accessories",
+      "price": 1050.0,
+      "shipping": 0,
+      "found_at": "2026-10-12",
+      "condition_notes": "Seller: bought new Jan 2025 from R&L Electronics, works as it should; includes hand mic, power cable, manual, original box. LOCAL PICKUP ONLY (no shipping). Try before you buy. No returns. No checks or cards.",
+      "work_flag": "no returns",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781991",
+      "site": "qth",
+      "title": "RADIOHF - Icom IC-746pro / LDG AT-1000pro2",
+      "price": 550.0,
+      "shipping": 0,
+      "found_at": "2026-10-12",
+      "condition_notes": "Seller: all work perfectly and very clean. IC-746PRO with mic and power cord $550 (LDG AT-1000PRO2 tuner offered separately at $300, not included in price). Ships UPS/FedEx at buyer expense (amount not stated; shipping recorded as 0 = unknown). Submitted 10/11.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781974",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE: FlexRadio FLEX-6700 100W SDR Transceiver",
+      "price": 2995.0,
+      "shipping": 0,
+      "found_at": "2026-10-12",
+      "condition_notes": "Seller: single owner, non-smoking, pristine cosmetic and operational condition; firmware v14.2.20; SmartSDR+ license valid to Nov 25, 2026; original double box, OEM DC cable, Quick Start guide. $2,995 + actual shipping/insurance CONUS (amount not stated; recorded 0 = unknown) or local pickup Houston/Conroe TX. PayPal G&S +3%. Submitted 10/11.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
