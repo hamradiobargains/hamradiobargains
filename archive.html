@@ -214,6 +214,7 @@ const SHEET_ID = "1o8Ir0xy8ckXil7QI0oV2ReQ59vCLgE7foqjxxppqkCY";
 const ARCHIVE_GID = "230246201";
 
 let allDeals = [];
+let compModels = null;
 
 function parseCsv(text) {
 const rows = [];
@@ -253,6 +254,25 @@ function median(arr) {
 const sorted = [...arr].sort((a, b) => a - b);
 const mid = Math.floor(sorted.length / 2);
 return sorted.length % 2 !== 0 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
+}
+
+async function loadComps() {
+try {
+const res = await fetch('comps.json', { cache: 'no-store' });
+if (!res.ok) throw new Error('fetch failed: ' + res.status);
+const data = await res.json();
+compModels = [];
+const models = (data && data.models) || {};
+Object.keys(models).forEach(k => {
+const m = models[k];
+if (m && m.latest && m.latest.median !== null && m.latest.median !== undefined) {
+compModels.push({ key: k, latest: m.latest });
+}
+});
+} catch (e) {
+compModels = [];
+console.error(e);
+}
 }
 
 async function loadArchive() {
@@ -366,6 +386,18 @@ resultCard.style.display = 'block';
 disambigEl.style.display = 'none';
 }
 
+    // Render one comp-file model through the same result card the archive
+    // path uses, so the numbers read identically either way.
+    function showCompResult(m) {
+const pseudo = [{
+compMedian: m.latest.median,
+compCount: m.latest.count,
+compLow: m.latest.low,
+compHigh: m.latest.high
+}];
+showResult(pseudo, m.key);
+}
+
     function runSearch() {
 const kw = document.getElementById('f-keyword').value.trim().toLowerCase();
 const promptEl = document.getElementById('prompt');
@@ -384,6 +416,34 @@ return;
 const matches = allDeals.filter(d => matchesKeyword(d.item, kw));
 
 if (matches.length === 0) {
+      // The archive only holds models that were once published as deals.
+      // Fall back to the comp file (logged sold comps) before giving up.
+      const compMatches = (compModels || []).filter(m => matchesKeyword(m.key, kw));
+      if (compMatches.length === 1) {
+      showCompResult(compMatches[0]);
+      return;
+      }
+      if (compMatches.length > 1) {
+      const names = compMatches.map(m => m.key).sort();
+      document.getElementById('disambig-text').textContent =
+      '\u201C' + document.getElementById('f-keyword').value.trim() + '\u201D matches ' + names.length + ' models \u2014 which one did you mean?';
+      const btns = document.getElementById('disambig-buttons');
+      btns.innerHTML = '';
+      names.forEach(name => {
+      const m = compMatches.find(x => x.key === name);
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'disambig-btn';
+      b.textContent = name + ' (' + m.latest.count + ' sales)';
+      b.addEventListener('click', () => { showCompResult(m); });
+      btns.appendChild(b);
+      });
+      promptEl.style.display = 'none';
+      noResultsEl.style.display = 'none';
+      resultCard.style.display = 'none';
+      disambigEl.style.display = 'block';
+      return;
+      }
       promptEl.style.display = 'none';
       noResultsEl.style.display = 'block';
       resultCard.style.display = 'none';
@@ -445,6 +505,7 @@ document.getElementById('result-card').style.display = 'none';
 });
 
 loadArchive();
+loadComps();
 </script>
 
 </body>
