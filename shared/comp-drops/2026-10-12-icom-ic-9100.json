@@ -1,0 +1,38 @@
+{
+  "model": "Icom IC-9100",
+  "slug": "icom-ic-9100",
+  "searched_at": "2026-10-12T17:57:30-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-9100', page 1, above 'fewer words' section only. Kept 2. Dropped 1 best-offer-accepted ($1,440, 128088680339). Excluded accessories/options (UX-9100 module, FL-430/431 filters, carry handle). Also covers second IC-9100 listing 840014942509 ($1,747, FL-431 option). thin.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/327401891358",
+    "site": "ebay",
+    "ask": 1499.99,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1700.0,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267803207692",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not accepted). Title: W/ D-STAR MODULE. Shipping shown +$110.00.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1299.0,
+      "sold_date": "2026-07-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/306831388795",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: Mars Mod. Shipping shown +$67.55.",
+      "flags": [
+        "modified"
+      ]
+    }
+  ]
+}
