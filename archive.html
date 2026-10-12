@@ -336,6 +336,36 @@ function logMissedSearch(term) {
       } catch (e) {}
     }
 
+    // Render the aggregated fair-value result for one model's deals. Split out
+    // so a disambiguation button shows its model directly: re-running the
+    // fuzzy keyword search from a button just redisplays the same question
+    // (the base model name still prefix-matches its variants).
+    function showResult(deals, label) {
+const promptEl = document.getElementById('prompt');
+const noResultsEl = document.getElementById('no-results');
+const resultCard = document.getElementById('result-card');
+const disambigEl = document.getElementById('disambig');
+let count = 0, low = Infinity, high = -Infinity, weightedSum = 0;
+deals.forEach(d => {
+const w = (d.compCount && d.compCount > 0) ? d.compCount : 1;
+const lo = d.compLow !== null ? d.compLow : d.compMedian;
+const hi = d.compHigh !== null ? d.compHigh : d.compMedian;
+count += w;
+low = Math.min(low, lo);
+high = Math.max(high, hi);
+weightedSum += d.compMedian * w;
+});
+const med = weightedSum / count;
+document.getElementById('result-name').textContent = label;
+document.getElementById('result-count').textContent = count.toLocaleString();
+document.getElementById('result-range').textContent = low === high ? fmtMoney(low) : (fmtMoney(low) + ' \u2013 ' + fmtMoney(high));
+document.getElementById('result-median').textContent = fmtMoney(med);
+promptEl.style.display = 'none';
+noResultsEl.style.display = 'none';
+resultCard.style.display = 'block';
+disambigEl.style.display = 'none';
+}
+
     function runSearch() {
 const kw = document.getElementById('f-keyword').value.trim().toLowerCase();
 const promptEl = document.getElementById('prompt');
@@ -385,8 +415,7 @@ b.type = 'button';
 b.className = 'disambig-btn';
 b.textContent = name + ' (' + byModel.get(name).length + ')';
 b.addEventListener('click', () => {
-document.getElementById('f-keyword').value = name;
-runSearch();
+showResult(byModel.get(name), name);
 });
 btns.appendChild(b);
 });
@@ -397,31 +426,7 @@ disambigEl.style.display = 'block';
 return;
 }
 
-// Aggregate the comp-check stats across every matching archived deal.
-// Rows that logged a full comp breakdown (count/low/high) are weighted by
-// their real comp count; older rows that only have a median are weighted
-// as 1 so they still contribute without skewing the total.
-let count = 0, low = Infinity, high = -Infinity, weightedSum = 0;
-matches.forEach(d => {
-const w = (d.compCount && d.compCount > 0) ? d.compCount : 1;
-const lo = d.compLow !== null ? d.compLow : d.compMedian;
-const hi = d.compHigh !== null ? d.compHigh : d.compMedian;
-count += w;
-low = Math.min(low, lo);
-high = Math.max(high, hi);
-weightedSum += d.compMedian * w;
-});
-const med = weightedSum / count;
-
-document.getElementById('result-name').textContent = document.getElementById('f-keyword').value.trim();
-document.getElementById('result-count').textContent = count.toLocaleString();
-document.getElementById('result-range').textContent = low === high ? fmtMoney(low) : (fmtMoney(low) + ' – ' + fmtMoney(high));
-document.getElementById('result-median').textContent = fmtMoney(med);
-
-promptEl.style.display = 'none';
-noResultsEl.style.display = 'none';
-resultCard.style.display = 'block';
-disambigEl.style.display = 'none';
+showResult(matches, document.getElementById('f-keyword').value.trim());
 }
 
 document.getElementById('f-keyword').addEventListener('keydown', (e) => {
