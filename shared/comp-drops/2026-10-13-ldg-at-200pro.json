@@ -1,0 +1,70 @@
+{
+  "model": "LDG AT-200Pro",
+  "slug": "ldg-at-200pro",
+  "searched_at": "2026-10-13T18:00:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "6 kept. Exact model only: AT-200Pro (excluded AT-200ProII / AT-200Pro2 sales and power adapters). Dropped 2 best-offer-accepted ($150 Sep 28, $239 new Sep 15). Dropped 1 parts-only ($137.69 Oct 2, 'for parts or repair'). No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/267812940507",
+    "site": "ebay",
+    "ask": 175.0,
+    "shipping": 15.0
+  },
+  "comps": [
+    {
+      "price": 174.95,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227504133843",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery; title 'AT-200 Pro 200W'",
+      "flags": []
+    },
+    {
+      "price": 107.5,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287583043231",
+      "source": "ebay",
+      "notes": "auction, 9 bids; +$12.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 165.0,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147564838297",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery",
+      "flags": []
+    },
+    {
+      "price": 165.1,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800582471993",
+      "source": "ebay",
+      "notes": "auction, 1 bid; located in United Kingdom; +$120.54 shipping estimate",
+      "flags": []
+    },
+    {
+      "price": 209.95,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137393492527",
+      "source": "ebay",
+      "notes": "Buy It Now; +$9.75 shipping; title says No Adapter",
+      "flags": []
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2026-08-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327260132273",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery",
+      "flags": []
+    }
+  ]
+}
