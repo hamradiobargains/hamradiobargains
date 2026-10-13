@@ -1,0 +1,75 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-13",
+  "ran_at": "2026-10-13T14:52:59-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-12T14:52:45-04:00 (prior qth drop ran_at). Scanned QTH all-ads pages 1-21 (all.php through ?page=21), one page at a time. Counter-ID range of new ads submitted since window start reviewed: 1782055-1782138 (IDs 1782055, 1782056, 1782059, 1782073, 1782074, 1782085, 1782090, 1782092, 1782118, 1782127, 1782131 never appeared in the list - presumably deleted; not checked individually). Pages 14-20 were mostly ads submitted/modified 10/12 that the prior qth run already reviewed (IDs <=1782054 and renewals); QTH shows dates only so all 10/12 activity was re-read. Page 20 is the first page with 10/11-only activity at its bottom; page 21 is entirely 10/11 activity (1781992-1781983, 1781169), confirming the end of the window. No unreviewed remainder. Also reviewed renewed/modified older ads in the window, e.g. 1781716, 1781337, 1780700, 1781202, 1780523, 1781959, 1781961, 1781701, 1781738, 1781767, 1779002, 1781297, 1781902, 1781991, 1781903, 1781168, 1781166, 1781927, 1781875, 1781844, 1781979, 1781173, 1781508, 1781533, 1781899, 1781898, 1781896, 1781850-1781852, 1781798, 1781797, 1777624, 1780188, 1781916, 1782043, 1780071, 1774334, 1779352, 1766616, 1780907, 1781546, 1781195, 1782031, 1776491, 1781342, 1780018, 1781545, 1780720, 1781253, 1780594, 1781841, 1781838, 1781654, 1781939, 1781999, 1781255, 1781046, 1781089, 1781428, 1781750, 1781749, 1781748, 1781840, 1781667, 1781290, 1781766, 1781765, 1781740, 1781890, 1781864, 1773357, 1781891, 1781892, 1781893, 1781846, 1781889, 1781066, 1781800, 1781732, 1781808, 1781524. Candidates (6, cap): IC-7300 1782125, FTdx10 1782116, FT-891 1782106, IC-703+ 1782091, FT-710 Field 1782075, IC-820H 1782137. Plausible extras not comp-searched (cap): 1782096 Icom IC-703+ w/ FL-52A CW filter + DSP $425 + $25 ship (near-identical ad text to 1782091, different serial); 1782071 Icom IC-7300 $800; 1782077 Icom IC-7300 station w/ SM-30, SP-38 $845 + shipping; 1782070 Icom IC-7300 with amp and accessories $1000; 1782095 Yaesu FTDX-10 $1000 (local pickup preferred, ship at shared cost); 1782109 Icom IC-718 $500 or offer, pickup only; 1782089 Alinco DX-SR8 $400 + $50 shipping; 1782130 Alpha 8410 $2950 (pickup or deliver); 1782126 Ameritron AL-80B $2000 shipped (wired 240V); 1782122 Henry 2K Classic $875 or best offer, local pickup only; 1782120 FLEX PGXL SO2R amp $5200 shipped (LPF just replaced by N7HQ); 1782087 Alpha 78 $1350; 1782076 Tokyo HL-450B $875; 1782112 Dentron AT-3K $300; 1782133 Icom AH-4 $195 + shipping; 1782129 Kenwood PS-30 $90; 1782128 Astron SS-25 $105; 1782098 Kenwood PS-430 $65; 1782097 Yaesu FTM-150 $260; 1782114 Wouxun KG-Q $125; 1782072 Collins 75S-3B $695; 1782060 Yaesu FR-101S $175; 1782124 Johnson Viking Valiant (no price); 1782121 Drake TR7/PS7/RV7/MS7 + R4B/MN4 (no price); 1782103 L7 deck 'needs help' $450 shipped; 1782107 Kenwood TS-50 parts radio $150 + shipping ('Lights up, Has NO Receive _ NO Transmit. Good for parts.'). Renewed older ads seen: 1780523 Alpha 87A w/ AlphaMax $2500 pickup only; 1781297 Heathkit SB-220 $600; 1781902 Yaesu FT-897D $500 w/ MH-59 + LDG meter; 1781875 Icom 756 PRO II + PS125 + HM36 $750; 1774334 Kenwood TS-930S + SP-930 $600 pickup; 1781991 IC-746PRO $550 (already in dropped-urls). Not picked: wanted ads, accessories/parts/cords, Motorola commercial gear, scanners, books, test gear, non-ham items. Ledger (comps.json): ICOM IC-7300 HIT (count 8, 2026-09-29); YAESU FTDX10 HIT (count 10, 2026-09-29); YAESU FT-891 HIT (count 11, 2026-09-28); IC-703+, FT-710, IC-820H not in ledger -> eBay. eBay: signed in as Leo, 3 sold searches (icom ic-703, yaesu ft-710, icom ic-820h), one at a time, no challenge. eHam not touched.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782125",
+      "site": "qth",
+      "title": "RADIOHF - Icom 7300",
+      "price": 650.0,
+      "shipping": 0,
+      "found_at": "2026-10-13",
+      "condition_notes": "Ad: 'Just not needed anymore. Works as it should.' Shipping not stated (set 0).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782116",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu FTdx10: For Sale",
+      "price": 975.0,
+      "shipping": 0,
+      "found_at": "2026-10-13",
+      "condition_notes": "Comes with original box, manual, mic, power cord and vinyl cover; 'Works and looks great.' Can ship or meet within 100 miles of 28395; shipping cost not stated (set 0).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782106",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu FT-891",
+      "price": 525.0,
+      "shipping": 0,
+      "found_at": "2026-10-13",
+      "condition_notes": "'Like New condition. Boxed.' Very low hours, non-smoker. $525 plus shipping (amount not stated, set 0). PayPal CONUS only.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782091",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE: ICOM IC-703+ NICE RADIO $425",
+      "price": 425.0,
+      "shipping": 25.0,
+      "found_at": "2026-10-13",
+      "condition_notes": "'Very Nice Shape. No marks at all that i can see.' DSP unit installed; power cord, mic, carrying case, manual. Serial 1503121. A near-identical ad (likely same seller) lists a second IC-703+ (counter 1782096, serial 1501118, with FL-52A CW filter, box) at $425 + $25.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782075",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE: Yaesu FT-710 Field w/AESS spkr",
+      "price": 820.0,
+      "shipping": 0,
+      "found_at": "2026-10-13",
+      "condition_notes": "FT-710 Field plus AESS speaker added after purchase; 'No issues', smoke-free. All original accessories, full-length power cord, original boxes. $820 OBO shipped/insured/fees paid. No trades.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782137",
+      "site": "qth",
+      "title": "RADIOVHF - Icom IC-820H",
+      "price": 325.0,
+      "shipping": 0,
+      "found_at": "2026-10-13",
+      "condition_notes": "'Works as it should.' Minor amount of paint overspray; otherwise looks great. Power cord, hand mic, desk mic, manual; no original box. $325 obo plus shipping (amount not stated, set 0). Seller only responds via QTH messages.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
