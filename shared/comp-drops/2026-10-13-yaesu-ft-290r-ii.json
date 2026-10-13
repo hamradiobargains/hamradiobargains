@@ -1,0 +1,34 @@
+{
+  "model": "Yaesu FT-290R II",
+  "slug": "yaesu-ft-290r-ii",
+  "searched_at": "2026-10-13T18:00:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Thin — 2 kept. Searched 'yaesu ft-290r ii' (trigger titled 'FT-290 II'). Excluded original FT-290R sales ($66.04 untested Aug 8; $92.44 untested parts-only best-offer-accepted Jul 17) as a different model, plus FT-2900R/FT-2980R results and a brochure. Dropped 1 parts-only (FT-290RII 'Untested And For Parts' $200 Jul 24). Dropped 0 best-offer-accepted of the exact model. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/227565658913",
+    "site": "ebay",
+    "ask": 405.0,
+    "shipping": 9.06
+  },
+  "comps": [
+    {
+      "price": 399.99,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206412813303",
+      "source": "ebay",
+      "notes": "Buy It Now; +$19.99 shipping; with MH-15C8 mic, manual and original box",
+      "flags": []
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-08-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227462142869",
+      "source": "ebay",
+      "notes": "Buy It Now (was $375); free delivery; with mic and extendable antenna",
+      "flags": []
+    }
+  ]
+}
