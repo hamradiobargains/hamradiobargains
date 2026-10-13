@@ -1,0 +1,15 @@
+{
+  "model": "Ranger RCI-69 Plus",
+  "slug": "ranger-rci-69-plus",
+  "searched_at": "2026-10-13T06:00:50-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "No ledger entry. eBay sold search 'Ranger RCI-69 plus', page 1: 5 results above 'fewer words'. All left out for model-identity doubt — the eHam ad says only 'RCI-69 PLUS MODEL' and does not say V1/V2; eBay sales were 4x 'RCI-69 Base Plus V2' Brand New (226982871454 $675, 156081978485 $769.99, 353695519693 $749, 127948435713 $699.99) and 1x 'RCI 69 Base plus ++' Pre-Owned (117383419575 $550, +$35.50 ship). Zero kept comps — thin/none.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629190",
+    "site": "eham",
+    "ask": 599.0,
+    "shipping": 0
+  },
+  "comps": []
+}
