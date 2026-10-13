@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FTDX3000D",
+  "slug": "yaesu-ftdx3000d",
+  "searched_at": "2026-10-13T18:00:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "No comps kept — thin (zero). eBay rewrote the search to 'yaesu ft dx3000d'; all 5 main results are titled FTDX3000 / FT DX 3000 with no 'D' (US-located sales), while the trigger is a Japan-market FTDX3000D. Not certain these are the same model (the D vs non-D designation may mark a different variant), so left out per strict identity. For reference only (not comps): FTDX3000 sales on page 1 were $725 (Sep 12), $794.99 (Aug 26), $785 (Aug 23), $950 or Best Offer (Sep 25), plus $999 best-offer-accepted (Oct 2). 'Fewer words' section ignored.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366731955427",
+    "site": "ebay",
+    "ask": 1817.8,
+    "shipping": 120.0
+  },
+  "comps": []
+}
