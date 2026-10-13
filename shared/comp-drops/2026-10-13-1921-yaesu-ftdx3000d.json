@@ -1,0 +1,52 @@
+{
+  "model": "Yaesu FTDX3000D",
+  "slug": "yaesu-ftdx3000d",
+  "searched_at": "2026-10-13T18:00:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Supplement to 2026-10-13-yaesu-ftdx3000d.json (left unchanged), written after Leo ruled FTDX3000 and FTDX3000D are the same radio. Comps are from the same eBay sold search run during the 6 PM run (searched_at above); no new search made. 4 kept from the main results (titles say FTDX3000 / FT DX 3000). Dropped 1 best-offer-accepted ($999 Oct 2). 0 parts-only. No outliers. FTDX3000 sales in the 'fewer words' section ignored per rule.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366731955427",
+    "site": "ebay",
+    "ask": 1817.8,
+    "shipping": 120.0
+  },
+  "comps": [
+    {
+      "price": 950.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158227520015",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); +$37.65 shipping; title says with Mic and Manual",
+      "flags": []
+    },
+    {
+      "price": 725.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117401055027",
+      "source": "ebay",
+      "notes": "Buy It Now; +$29.95 shipping; title says 'Read Description!' (description not read)",
+      "flags": []
+    },
+    {
+      "price": 794.99,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398323511570",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); free delivery; title says Built-In Tuner, Manual",
+      "flags": []
+    },
+    {
+      "price": 785.0,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318483388847",
+      "source": "ebay",
+      "notes": "Buy It Now; +$90.65 shipping; title says with Manual Tested",
+      "flags": []
+    }
+  ]
+}
