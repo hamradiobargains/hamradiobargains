@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T12:53:06+00:00",
+ "updated": "2026-10-13T12:53:11+00:00",
  "source": "HamRadioBargains sold-comp ledger \u2014 genuine sold listings from eHam, QTH, eBay and site deals, plus the eHam comp archive. Prices are asking prices at sale; best offers may differ.",
  "models": {
   "ACOM 1000": {
@@ -798,6 +798,24 @@
     }
    ]
   },
+  "ICOM IC-735": {
+   "latest": {
+    "date": "2026-10-12",
+    "median": 308.0,
+    "low": 163.5,
+    "high": 450.0,
+    "count": 10
+   },
+   "history": [
+    {
+     "date": "2026-10-12",
+     "median": 308.0,
+     "low": 163.5,
+     "high": 450.0,
+     "count": 10
+    }
+   ]
+  },
   "ICOM IC-738": {
    "latest": {
     "date": "2026-09-29",
@@ -813,6 +831,24 @@
      "low": 385,
      "high": 700,
      "count": 5
+    }
+   ]
+  },
+  "ICOM IC-746PRO": {
+   "latest": {
+    "date": "2026-10-10",
+    "median": 645.0,
+    "low": 426.0,
+    "high": 760.0,
+    "count": 3
+   },
+   "history": [
+    {
+     "date": "2026-10-10",
+     "median": 645.0,
+     "low": 426.0,
+     "high": 760.0,
+     "count": 3
     }
    ]
   },
@@ -933,11 +969,11 @@
   },
   "ICOM IC-9100": {
    "latest": {
-    "date": "2026-04-17",
-    "median": 1000.0,
+    "date": "2026-10-08",
+    "median": 1299.0,
     "low": 1000.0,
-    "high": 1000.0,
-    "count": 1
+    "high": 1700.0,
+    "count": 3
    },
    "history": [
     {
@@ -946,6 +982,13 @@
      "low": 1000.0,
      "high": 1000.0,
      "count": 1
+    },
+    {
+     "date": "2026-10-08",
+     "median": 1299.0,
+     "low": 1000.0,
+     "high": 1700.0,
+     "count": 3
     }
    ]
   },
@@ -1489,6 +1532,24 @@
      "low": 350.0,
      "high": 350.0,
      "count": 1
+    }
+   ]
+  },
+  "KENWOOD TS-440S": {
+   "latest": {
+    "date": "2026-10-08",
+    "median": 400.0,
+    "low": 211.5,
+    "high": 450.5,
+    "count": 8
+   },
+   "history": [
+    {
+     "date": "2026-10-08",
+     "median": 400.0,
+     "low": 211.5,
+     "high": 450.5,
+     "count": 8
     }
    ]
   },
@@ -2244,6 +2305,24 @@
      "low": 149.95,
      "high": 149.95,
      "count": 1
+    }
+   ]
+  },
+  "YAESU FT-450D": {
+   "latest": {
+    "date": "2026-10-06",
+    "median": 499.0,
+    "low": 364.0,
+    "high": 699.0,
+    "count": 11
+   },
+   "history": [
+    {
+     "date": "2026-10-06",
+     "median": 499.0,
+     "low": 364.0,
+     "high": 699.0,
+     "count": 11
     }
    ]
   },
