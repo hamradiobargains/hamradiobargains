@@ -1,0 +1,53 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-13",
+  "ran_at": "2026-10-13T05:53:20-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-12T05:53:18-04:00 (prior eham run; last ad covered 629183). Browsed signed OUT ('Welcome Guest'). A Cloudflare 'Performing security verification' interstitial showed on the first classifieds load and cleared on its own after a short wait, with no interaction; no 1015, no further challenges. Loaded classifieds home, summary view page 1 (newest first: ads 629184-629191, all of the new window) and 4 individual ads, about 25-30 s apart. No search form, sold searches, seller/callsign pages. Skipped as non-candidates: HyEndFed Mini antenna (629191), WANTED 220 MHz filter (629187), iambic paddle (629184). Comps: 1 ledger hit (IC-7300) and 3 eBay sold searches (Ameritron ALS-600, Heathkit SB-200, Ranger RCI-69 Plus), signed in as Leo, no challenge.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629188",
+      "site": "eham",
+      "title": "IC 7300",
+      "price": 700.0,
+      "shipping": 0,
+      "found_at": "2026-10-13",
+      "condition_notes": "Seller: bought used, everything works FB; includes everything it came with (mic etc.) except the printed manual. $700 shipped CONUS. No PayPal; Zelle (after phone call) or check.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629186",
+      "site": "eham",
+      "title": "Ameritron ALS-600 SOLID STATE AMP, SPS & 10M",
+      "price": 1000.0,
+      "shipping": 0,
+      "found_at": "2026-10-13",
+      "condition_notes": "Seller: excellent cosmetic and operational condition, smoke-free. Includes ALS-600 amp, ALS-600SPS switching power supply, AC cord, interface cable. 10/12-meter modification installed. Asking $1000; located Boynton Beach FL for demo/pickup; shipping not stated (0 = unknown).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629185",
+      "site": "eham",
+      "title": "Heathkit SB200 - working and updated",
+      "price": 400.0,
+      "shipping": 0,
+      "found_at": "2026-10-13",
+      "condition_notes": "Seller: power supply board replaced with a modern kit; whole amp checked by a competent tech; puts out as it should. $400; located Boynton Beach FL, demo offered; shipping not stated (0 = unknown).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629190",
+      "site": "eham",
+      "title": "100 WATT 10-to 12 METER BASE RCI-69 PLUS MODEL",
+      "price": 599.0,
+      "shipping": 0,
+      "found_at": "2026-10-13",
+      "condition_notes": "Seller: works great; in original double shipping cartons. $599 shipped to lower 48. Ad does not say whether it is the V2.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
