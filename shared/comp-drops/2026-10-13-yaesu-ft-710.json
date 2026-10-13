@@ -1,0 +1,235 @@
+{
+  "model": "Yaesu FT-710",
+  "slug": "yaesu-ft-710",
+  "searched_at": "2026-10-13T15:01:16-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ft-710', page 1 only, 'fewer words' section ignored. 23 comps kept. Field (no speaker) and AESS (ships with SP-40 speaker) variants both included as the same FT-710 transceiver; variant noted per comp. Trigger is a Field with an added AESS speaker. Dropped 8 best-offer-accepted (128128764840 $850, 178522636254 $899.95, 820095677192 $1100, 336788551111 $995, 820066184473 $896, 257685062291 $650, 267746302149 $850, 128048357796 $775). Dropped 0 parts-only. OUTLIER: 135406267266 $1,498.42 (Japan-market near-mint AESS w/ all accessories, +$225 ship) vs ~$875 median for the rest. Several Japan-located units (136758521637, 135406267266, 397702815260) included with large shipping noted. Possible duplicates flagged: 168731036314/168686397798 and 398316724476/147432459835.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782075",
+    "site": "qth",
+    "ask": 820.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 750.0,
+      "sold_date": "2026-10-10",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/880004606948",
+      "source": "ebay",
+      "notes": "FT-710 Field w/ box & manual. Buy It Now. +$25.52 delivery.",
+      "flags": []
+    },
+    {
+      "price": 936.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168731036314",
+      "source": "ebay",
+      "notes": "FT-710 AESS, 'Lightly Used'. Auction, 22 bids. +$20.80 delivery.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-09-30",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/318931026370",
+      "source": "ebay",
+      "notes": "FT-710 Field, USA model. Buy It Now. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 915.0,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168686397798",
+      "source": "ebay",
+      "notes": "FT-710 AESS, 'Lightly Used'. Auction, 36 bids. +$20.80 delivery. Same title/shipping as 168731036314 - could be same seller relisting or a second unit.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 760.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307171025828",
+      "source": "ebay",
+      "notes": "FT-710 Field, 'EX+'. Auction, 2 bids. +$13.88 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1207.24,
+      "sold_date": "2026-09-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/136758521637",
+      "source": "ebay",
+      "notes": "FT-710 AESS w/SP-40, Japanese 100V model, includes NTI-200 step-up/down unit. Located in Japan. Buy It Now. +$150.00 delivery, includes import fees.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 850.02,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257671330696",
+      "source": "ebay",
+      "notes": "FT-710 AESS. Buy It Now. +$96.39 delivery.",
+      "flags": []
+    },
+    {
+      "price": 720.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398316724476",
+      "source": "ebay",
+      "notes": "FT-710 Field, 'Light Indoor Use Only. Great condition.' Auction, 10 bids. +$54.04 delivery.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 860.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298604487281",
+      "source": "ebay",
+      "notes": "FT-710 Field. Auction, 10 bids. +$45.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 932.78,
+      "sold_date": "2026-08-29",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/206348169079",
+      "source": "ebay",
+      "notes": "FT-710 AESS. Fixed price 'or Best Offer' (not marked accepted). +$100.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 949.99,
+      "sold_date": "2026-08-22",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/407111746049",
+      "source": "ebay",
+      "notes": "FT-710 AESS w/SP-40, 'New'. Fixed price 'or Best Offer' (not marked accepted). +$190.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1498.42,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/135406267266",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,498 vs ~$875 median for the rest. '[Near Mint]' FT-710 AESS w/SP-40, all accessories, JP (Japan-market unit). Buy It Now. +$225.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 890.0,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117358019850",
+      "source": "ebay",
+      "notes": "FT-710 AESS with external speaker. Fixed price 'or Best Offer' (not marked accepted). +$41.90 delivery.",
+      "flags": []
+    },
+    {
+      "price": 860.0,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267750293338",
+      "source": "ebay",
+      "notes": "FT-710 AESS, includes external speaker. Auction, 29 bids. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 777.0,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287515277076",
+      "source": "ebay",
+      "notes": "FT-710 AESS. Buy It Now. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 911.55,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236966876531",
+      "source": "ebay",
+      "notes": "FT-710 AESS, includes external speaker. Auction, 46 bids. +$13.77 delivery.",
+      "flags": []
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2026-07-31",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/298546355208",
+      "source": "ebay",
+      "notes": "FT-710 AESS '**Open Box**'. Buy It Now. +$30.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 849.0,
+      "sold_date": "2026-07-28",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/178346764152",
+      "source": "ebay",
+      "notes": "FT-710 Field, USA, 'Mint, Extras'. Buy It Now. +$13.77 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 894.0,
+      "sold_date": "2026-07-28",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/397702815260",
+      "source": "ebay",
+      "notes": "FT-710 Field, 'Brand New In Stock', located in Japan. Buy It Now. +$132.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2026-07-26",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/206436182523",
+      "source": "ebay",
+      "notes": "'yaesu ft 710 transceiver' (variant not stated). Buy It Now. +$35.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 775.0,
+      "sold_date": "2026-07-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336706745649",
+      "source": "ebay",
+      "notes": "FT-710 AESS, 'nice'. Fixed price 'or Best Offer' (not marked accepted). Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 1080.0,
+      "sold_date": "2026-07-22",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/397825885776",
+      "source": "ebay",
+      "notes": "FT-710 AESS. Fixed price 'or Best Offer' (not marked accepted). +$60.02 delivery.",
+      "flags": []
+    },
+    {
+      "price": 710.0,
+      "sold_date": "2026-07-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147432459835",
+      "source": "ebay",
+      "notes": "FT-710 Field, 'Light Indoor Use Only'. Auction, 21 bids. +$58.55 delivery. Same title wording as 398316724476 - possibly same unit relisted.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    }
+  ]
+}
