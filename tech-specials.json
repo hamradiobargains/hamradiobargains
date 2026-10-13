@@ -10,7 +10,7 @@
    "median": 500.0,
    "comp_count": 3,
    "source": "QTH",
-   "work_flag": "no audio — seller suspects dead audio output tube; no power cable"
+   "work_flag": "no audio \u2014 seller suspects dead audio output tube; no power cable"
   },
   {
    "date": "2026-09-26",
@@ -35,6 +35,18 @@
    "comp_count": 3,
    "source": "Facebook",
    "work_flag": "Restoration project"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "Kenwood TS-480HX (for restore or parts)",
+   "url": "https://swap.qth.com/view_ad.php?counter=1781999",
+   "price": 400.0,
+   "extra": 0.0,
+   "pct_below": 60,
+   "median": 1000.0,
+   "comp_count": 3,
+   "source": "QTH",
+   "work_flag": "water spill \u2014 won't power up; seller: 'No guarantees'. Plus shipping."
   }
  ]
 }
