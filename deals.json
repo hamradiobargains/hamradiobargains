@@ -363,5 +363,18 @@
     "compLow": 949,
     "compHigh": 2599,
     "notes": "$979 delivered. Serial #6681, K6RO. Late-serial unit with KPA3, 2.7 kHz SSB filter, KIO3, KXV3."
+  },
+  {
+    "date": "2026-10-13",
+    "item": "Ameritron ALS-600 Amplifier",
+    "link": "https://www.eham.net/classifieds/629186",
+    "price": 1000,
+    "extraCost": 0,
+    "pctBelow": 0.3329,
+    "median": 1499.0,
+    "compCount": 7,
+    "compLow": 1050.0,
+    "compHigh": 1599.95,
+    "notes": "$1,000, shipping not stated. With ALS-600SPS switching supply, AC cord, interface cable. Excellent, smoke-free per seller. 10/12m mod installed."
   }
 ]
