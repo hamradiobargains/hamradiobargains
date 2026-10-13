@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-09-12",
-    "item": "Kenwood TS-2000 HF/VHF/UHF Transceiver (w/ ARCP-2000 bonus)",
-    "link": "https://swap.qth.com/view_ad.php?counter=1778946",
-    "price": 650.0,
-    "extraCost": 0.0,
-    "pctBelow": 0.2778,
-    "median": 900.0,
-    "compCount": 7,
-    "compLow": 595.0,
-    "compHigh": 1500.0
-  },
-  {
     "date": "2026-09-17",
     "item": "Yaesu FT-817 (base, w/mic, PS cable, new battery)",
     "link": "https://swap.qth.com/view_ad.php?counter=1779668",
@@ -144,18 +132,6 @@
     "compHigh": 225.0
   },
   {
-    "date": "2026-09-27",
-    "item": "FlexRadio Flex-6600 SDR HF/6M Transceiver w/ ATU",
-    "link": "https://swap.qth.com/view_ad.php?counter=1780666",
-    "price": 1850.0,
-    "extraCost": 0.0,
-    "pctBelow": 0.2885,
-    "median": 2600.0,
-    "compCount": 7,
-    "compLow": 2100.0,
-    "compHigh": 3200.0
-  },
-  {
     "date": "2026-09-29",
     "item": "Ten-Tec 1320 20 Meter CW QRP Transceiver",
     "link": "https://www.eham.net/classifieds/628900",
@@ -166,18 +142,6 @@
     "compCount": 2,
     "compLow": 80.0,
     "compHigh": 120.0
-  },
-  {
-    "date": "2026-09-29",
-    "item": "Icom IC-7600",
-    "link": "https://swap.qth.com/view_ad.php?counter=1780853",
-    "price": 900.0,
-    "extraCost": 0.0,
-    "pctBelow": 0.3455,
-    "median": 1375.0,
-    "compCount": 5,
-    "compLow": 1150.0,
-    "compHigh": 2750.0
   },
   {
     "date": "2026-10-01",
@@ -202,18 +166,6 @@
     "compCount": 2,
     "compLow": 200.0,
     "compHigh": 224.0
-  },
-  {
-    "date": "2026-10-04",
-    "item": "Heil PR40",
-    "link": "https://www.eham.net/classifieds/629033",
-    "price": 165.0,
-    "extraCost": 0.0,
-    "pctBelow": 0.25,
-    "median": 220.0,
-    "compCount": 15,
-    "compLow": 160.0,
-    "compHigh": 500.0
   },
   {
     "date": "2026-10-05",
