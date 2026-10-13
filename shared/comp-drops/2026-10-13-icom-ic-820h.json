@@ -1,0 +1,25 @@
+{
+  "model": "Icom IC-820H",
+  "slug": "icom-ic-820h",
+  "searched_at": "2026-10-13T15:01:16-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-820h', page 1 only. Thin: 1 comp. Dropped 1 parts-only (128060763539 $300, labeled Parts Only, also best offer accepted - counted once). Dropped 0 other best-offer-accepted. Manuals, crystals/GPSDO, and IC-208H results left out.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782137",
+    "site": "qth",
+    "ask": 325.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 272.0,
+      "sold_date": "2026-07-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227444805460",
+      "source": "ebay",
+      "notes": "Icom IC-820H amateur radio transceiver. Auction, 28 bids. +$25.00 delivery.",
+      "flags": []
+    }
+  ]
+}
