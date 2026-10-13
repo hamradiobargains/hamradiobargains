@@ -1,0 +1,75 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-13",
+  "ran_at": "2026-10-13T18:00:00-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now, sorted newly listed (signed in as Leo). Window since previous ebay run 2026-10-12T17:57:30-04:00; scanned page 1 only (empty-keyword search URL redirects to the category browse page, used that with LH_BIN=1&_sop=10). 6 picked, all 6 passed seller rule. Ledger hits: ICOM IC-7200, ICOM IC-705. eBay sold searches: FTDX3000D, LDG AT-200Pro, FT-2900R, FT-290R II — no challenges. Item descriptions (iframe) not read; condition notes from title/condition/returns only. Not picked: Yaesu FT-891 w/ ATAS-120 (new, $1,124), lab599 TX-500MP (open box, $2,000), Icom IP730D (new), Icom IC-7300 ($980, auction-format 0 bids), TE Systems 1452G, Tokyo Hy-Power HL-728D, Kenwood TM-231A, Icom IC-27H, MFJ-259, Kenwood R-1000 (two), Collins R-390A, parts-only items, CB gear, accessories and general electronics.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/237121874052",
+      "site": "ebay",
+      "title": "Icom IC-7200 HF 50MHz 100W All Mode Transceiver Ham Radio DSP Base Station Mint",
+      "price": 757.0,
+      "shipping": 120.0,
+      "found_at": "2026-10-13",
+      "condition_notes": "Used; seller condition note says IC-7200 compliant with new spurious emission standard; title says Mint; ships from Yokohama, Japan (SpeedPAK Expedited); 60-day returns, seller pays return shipping",
+      "work_flag": "",
+      "seller_feedback": "99.5% (615 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/128133630611",
+      "site": "ebay",
+      "title": "Icom IC-705 HF/VHF/UHF All Mode Portable QRP 5W/10W Transceiver",
+      "price": 999.0,
+      "shipping": 14.31,
+      "found_at": "2026-10-13",
+      "condition_notes": "Used; seller says excellent condition, includes BP-272 battery, desk stand and Windcamp RC-1 antenna adapter; or Best Offer; ships from Henderson, NV; 30-day returns, buyer pays return shipping",
+      "work_flag": "",
+      "seller_feedback": "100% (15 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366731955427",
+      "site": "ebay",
+      "title": "Yaesu FTDX3000D HF 50MHz 100W All Mode Transceiver General Coverage Modified",
+      "price": 1817.8,
+      "shipping": 120.0,
+      "found_at": "2026-10-13",
+      "condition_notes": "Used; title says general coverage modified; ships from Japan (SpeedPAK Expedited); 30-day returns, buyer pays return shipping",
+      "work_flag": "Modified",
+      "seller_feedback": "100% (226 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/267812940507",
+      "site": "ebay",
+      "title": "LDG AT-200Pro Automatic Antenna Tuner NOT ProII with Icom interface cable",
+      "price": 175.0,
+      "shipping": 15.0,
+      "found_at": "2026-10-13",
+      "condition_notes": "Used; original AT-200Pro (not ProII); includes Icom interface cable; seller does not accept returns",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (1244 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/206625030516",
+      "site": "ebay",
+      "title": "YAESU FT-2900R 2 METER FM MOBILE TRANSCEIVER - 75 WATTS - WORKS PERFECTLY",
+      "price": 149.0,
+      "shipping": 15.65,
+      "found_at": "2026-10-13",
+      "condition_notes": "Used; title says works perfectly; seller does not accept returns. An identically titled listing sold Oct 10 and Sep 27 on eBay (see FT-2900R comp notes)",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (1143 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227565658913",
+      "site": "ebay",
+      "title": "Yaesu FT-290 II - Vintage Amateur Ham Radio Transceiver",
+      "price": 405.0,
+      "shipping": 9.06,
+      "found_at": "2026-10-13",
+      "condition_notes": "Used; vintage; or Best Offer; no condition details in title; seller does not accept returns",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (25 ratings)"
+    }
+  ]
+}
