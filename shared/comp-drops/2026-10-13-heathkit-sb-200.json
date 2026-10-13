@@ -1,0 +1,121 @@
+{
+  "model": "Heathkit SB-200",
+  "slug": "heathkit-sb-200",
+  "searched_at": "2026-10-13T06:00:50-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (SB-200 count 1). eBay sold page 1 (no 'fewer words' section); most results were parts/accessories (PS boards, knobs, manuals, switches, meter) and were left out. Kept 11 complete amps. Dropped 5 best-offer-accepted (137822884073, 188940274095, 137756337590 — these three also Parts Only — plus 327263382163, 227453963897). Dropped 3 parts-only (137756028462 Parts Only; 257692974293 Parts Only AS/IS untested; 117304082111 title 'for Repair Parts or Restoration'). Sellers checked on similar titles — no duplicates found. OUTLIER: 327318336513 $750 is just over 1.5x the ~$500 median of the other kept comps (modded unit, 'working'); kept and flagged.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629185",
+    "site": "eham",
+    "ask": 400.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 499.99,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168761928203",
+      "source": "ebay",
+      "notes": "Buy It Now or Best Offer (not accepted-offer); +$61.36 shipping. Title: tested good.",
+      "flags": []
+    },
+    {
+      "price": 410.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318761096471",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery. Title says '(READ)' — details not visible in results.",
+      "flags": []
+    },
+    {
+      "price": 599.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287593006801",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery. Title: rebuilt, tested and working.",
+      "flags": []
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117395958106",
+      "source": "ebay",
+      "notes": "Buy It Now or Best Offer (not accepted-offer); +$31.48 shipping.",
+      "flags": []
+    },
+    {
+      "price": 682.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168539066731",
+      "source": "ebay",
+      "notes": "Buy It Now or Best Offer (not accepted-offer); +$200.00 shipping. Title: working, original 572B tubes.",
+      "flags": []
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128042693214",
+      "source": "ebay",
+      "notes": "Auction; +$38.48 shipping.",
+      "flags": []
+    },
+    {
+      "price": 305.0,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137662018996",
+      "source": "ebay",
+      "notes": "Auction; +$28.55 shipping. Title: Untested.",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327318336513",
+      "source": "ebay",
+      "notes": "OUTLIER: $750 vs ~$500 median of the rest (just over 1.5x). Buy It Now; +$170.66 shipping. Title: working with key buffer, soft start, relay mods.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 549.95,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298580278234",
+      "source": "ebay",
+      "notes": "Buy It Now; +$38.69 shipping. Title: Harbach and power supply upgrades.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-08-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128007673842",
+      "source": "ebay",
+      "notes": "Auction; +$42.23 shipping.",
+      "flags": []
+    },
+    {
+      "price": 420.0,
+      "sold_date": "2026-07-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117320923049",
+      "source": "ebay",
+      "notes": "Auction; +$97.83 shipping. Title: tested good, new tubes.",
+      "flags": []
+    }
+  ]
+}
