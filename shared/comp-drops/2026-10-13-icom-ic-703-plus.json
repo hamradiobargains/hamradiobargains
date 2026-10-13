@@ -1,0 +1,40 @@
+{
+  "model": "Icom IC-703 Plus",
+  "slug": "icom-ic-703-plus",
+  "searched_at": "2026-10-13T15:01:16-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-703', page 1 only, 'fewer words' section ignored. Thin: only 2 comps, both IC-703+ with CW filter, identical titles - possibly the same unit relisted (flagged possible_duplicate). Plain IC-703 (no '+', no 6m) sales left out as a different model: 327358460766 $435, 278405423622 $439 (w/ FL-52A, DSP), 278253756141 $449, 236946675272 $400. Accessories/latches/tuners/brochures left out. Dropped 0 best-offer-accepted radios and 0 parts-only (one best-offer-accepted IC-703 Plus advertising banner, not a radio, also excluded).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782091",
+    "site": "qth",
+    "ask": 425.0,
+    "shipping": 25.0
+  },
+  "comps": [
+    {
+      "price": 550.0,
+      "sold_date": "2026-07-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398218020903",
+      "source": "ebay",
+      "notes": "Icom IC-703+ HF/50MHz, with CW filter, USA seller. Buy It Now. +$25.00 delivery. Same title as 398196031976.",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2026-07-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398196031976",
+      "source": "ebay",
+      "notes": "Icom IC-703+ HF/50MHz, with CW filter, USA seller. Buy It Now. +$25.00 delivery. Same title as 398218020903.",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    }
+  ]
+}
