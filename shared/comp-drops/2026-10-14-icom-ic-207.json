@@ -1,0 +1,25 @@
+{
+  "model": "Icom IC-207",
+  "slug": "icom-ic-207",
+  "searched_at": "2026-10-14T17:58:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - 1 comp. eBay sold search page 1, exact model IC-207 only (IC-207H US version excluded for identity). Dropped 1 best-offer-accepted (307204353744). Dropped 1 parts-only (168399914351, spares/repairs). Accessories (mics, cables, brackets) excluded.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366734334597",
+    "site": "ebay",
+    "ask": 347.67,
+    "shipping": 85.0
+  },
+  "comps": [
+    {
+      "price": 164.99,
+      "sold_date": "2026-03-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/167599186537",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: Tested, Japan. Shipping +$20.00.",
+      "flags": []
+    }
+  ]
+}
