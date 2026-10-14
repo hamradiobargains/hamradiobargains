@@ -1,0 +1,25 @@
+{
+  "model": "Ten-Tec 538 Jupiter",
+  "slug": "ten-tec-538-jupiter",
+  "searched_at": "2026-10-14T05:58:40-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 1 comp kept. dropped 2 best-offer-accepted (317760341388 $799 'Back From Factory'; 389775542765 $485 with 963 power supply). dropped 2 parts-only (137629093014 $175; 198556683726 $199.99 — both also best-offer-accepted). Excluded 1 user manual. No outlier test possible with 1 comp.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629194",
+    "site": "eham",
+    "ask": 400.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 600.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178462714705",
+      "source": "ebay",
+      "notes": "Buy It Now; +$48.50 delivery shown. Title: '(very nice)'. Mic not mentioned in title.",
+      "flags": []
+    }
+  ]
+}
