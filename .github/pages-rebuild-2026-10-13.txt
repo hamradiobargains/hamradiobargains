@@ -1,0 +1,1 @@
+Triggers a fresh GitHub Pages build for the market report Top 10 fix (commit 8aa51a7) after the queued deployment attempt stalled.
