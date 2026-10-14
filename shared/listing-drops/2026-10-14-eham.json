@@ -1,0 +1,75 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-14",
+  "ran_at": "2026-10-14T05:52:39-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-13T05:53:20-04:00 (prior eham run; last ad covered 629191). Browsed signed OUT ('Welcome Guest'). A Cloudflare 'Performing security verification' interstitial showed on the classifieds home and again on the summary view; both cleared on their own after a short wait with no interaction; no 1015, no further challenges. Loaded classifieds home, summary view page 1 (newest ads 629192-629200 are the new window; 629197/629198 not shown) and 5 individual ads, about 25-30 s apart. No search form, sold searches, seller/callsign pages. Skipped as non-candidate: Mirage BD 35 (629196, WANTED ad). Comps: 0 ledger hits (no comps.json entry for any model); 5 eBay sold searches (Kenwood MC-90, Dentron AT-3K, Ten-Tec 538 Jupiter, Yaesu FT-710 Field, CFT-1), signed in as Leo, no challenge. No comp search for the FT-710 station bundle (629199).",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629200",
+      "site": "eham",
+      "title": "Kenwood MC-90 Microphone",
+      "price": 169.0,
+      "shipping": 24.5,
+      "found_at": "2026-10-14",
+      "condition_notes": "Seller: 'looks and works great - non-smoking home'. $169 plus $24.50 shipping. Posted 2026-10-13.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629199",
+      "site": "eham",
+      "title": "Complete, Turnkey Yaesu FT-710 Station",
+      "price": 1400.0,
+      "shipping": 0,
+      "found_at": "2026-10-14",
+      "condition_notes": "BUNDLE, local pickup only (within 100 mi of Gainesville FL), seller will not ship or split. FT-710 AESS 'Mint condition... Used only a few hours' with box/mic/manual, plus Palstar AT2K tuner, Audio-Technica AT2040 mic + adapter, Heil PTT button, mic boom, 30A 12V switching supply, MFJ-815D SWR/watt meter. $1,400 cash. Posted 2026-10-13. No comp search: bundle has no single-model comparable.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629195",
+      "site": "eham",
+      "title": "Dentron AT-3K Tuner",
+      "price": 300.0,
+      "shipping": 0,
+      "found_at": "2026-10-14",
+      "condition_notes": "Ad describes features only; no condition or working-status statement. '$300 shipped and insured CONUS only'. Posted 2026-10-13.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629194",
+      "site": "eham",
+      "title": "TEN TEC 538 JUPITER w/Desk Mic",
+      "price": 400.0,
+      "shipping": 0,
+      "found_at": "2026-10-14",
+      "condition_notes": "Includes 705 desk microphone and original manual. '$400.00 (o.m.o.) + shipping (or arrange meet)'; shipping amount not stated. No condition or working-status statement. Posted 2026-10-13.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629193",
+      "site": "eham",
+      "title": "For Sale: Yaesu FT-710Field w/AESS speaker",
+      "price": 820.0,
+      "shipping": 0,
+      "found_at": "2026-10-14",
+      "condition_notes": "FT-710 Field with AESS speaker added after purchase. 'No issues', smoke free, all original accessories, full-length power cord, original boxes. '$820 OBO - Shipped/Insured/Fees paid'. Posted 2026-10-12 (not in prior run's window).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629192",
+      "site": "eham",
+      "title": "CFT-1 QRP 5-Band Tranceiver",
+      "price": 295.0,
+      "shipping": 0,
+      "found_at": "2026-10-14",
+      "condition_notes": "Factory-built CFT-1 SN 392, firmware V1.10.7, 'As-New' cosmetically and functionally. Bands 40, 30/20, 17/15; RIT/XIT, CW memories; includes 3-D printed front cover. $295 includes USA shipping. Posted 2026-10-12 (not in prior run's window).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
