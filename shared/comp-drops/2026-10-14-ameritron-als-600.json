@@ -1,0 +1,111 @@
+{
+  "model": "Ameritron ALS-600",
+  "slug": "ameritron-als-600",
+  "searched_at": "2026-10-14T15:01:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (AMERITRON ALS-600 latest date 2026-09-08, older than 30 days). eBay sold search 'ameritron als-600', page 1 main results only (fewer-words section ignored). 9 kept comps. dropped 4 best-offer-accepted (278422905842, 237000446817, 178356983060, 127822473873 - the last also labeled Parts Only). Excluded: 2 power-supply-only sales (158310556449, 198597473566) and 1 ALS-606 (different model, Parts Only, 137558560180). Mixed set: 2 kept comps are amp only without PS while the trigger includes the ALS-600PS. OUTLIERS: $705.0, $620.0 (flagged in comp notes, kept). Both outliers are the 'Amp Only' (no PS) sales.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782213",
+    "site": "qth",
+    "ask": 1250.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1599.95,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327361017630",
+      "source": "ebay",
+      "notes": "Buy It Now, free delivery. Title says '10m mod'. Same title and price as 227401473869.",
+      "flags": [
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 705.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147560067478",
+      "source": "ebay",
+      "notes": "OUTLIER: $705.0 vs median $1489.5 of the other kept comps. Auction, 7 bids, +$15.58 delivery. Title 'Amp Only' (no power supply). Same title/shipping as 137649822604.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1599.95,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227401473869",
+      "source": "ebay",
+      "notes": "Buy It Now, free delivery. Title says '10m mod'. Same title and price as 327361017630.",
+      "flags": [
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 620.0,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137649822604",
+      "source": "ebay",
+      "notes": "OUTLIER: $620.0 vs median $1489.5 of the other kept comps. Auction, 3 bids, +$15.58 delivery. Title 'Amp Only' (no power supply). Same title/shipping as 147560067478.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1250.0,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198585403384",
+      "source": "ebay",
+      "notes": "Buy It Now, +$98.50 delivery. Title: amplifier + switching PS + manual (nice).",
+      "flags": []
+    },
+    {
+      "price": 1050.0,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236996453801",
+      "source": "ebay",
+      "notes": "Auction, 3 bids, +$75.00 delivery. Title says '10m mod'.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 1499.0,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128015972568",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked best offer accepted), free delivery.",
+      "flags": []
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2026-07-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137534045323",
+      "source": "ebay",
+      "notes": "'or Best Offer' (not marked accepted), +$74.85 delivery. Title: w/ ALS-600PS & ARI-500.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1480.0,
+      "sold_date": "2026-07-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206422206574",
+      "source": "ebay",
+      "notes": "Buy It Now, +$89.50 delivery. Title: '(works great)'.",
+      "flags": []
+    }
+  ]
+}
