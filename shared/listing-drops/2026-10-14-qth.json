@@ -1,0 +1,75 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-14",
+  "ran_at": "2026-10-14T14:53:03-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-13T14:52:59-04:00 (prior qth drop ran_at). Scanned QTH all-ads pages 1-20 (all.php through ?page=20), one page at a time. Counter-ID range of new ads submitted since window start reviewed: 1782139-1782223 (IDs 1782140, 1782149, 1782165, 1782172, 1782219 never appeared in the list - presumably deleted; not checked individually). End of window: 1782137 (submitted 10/13, reviewed by the prior qth run before its ran_at) sits on page 17; everything below it is older activity. Pages 18-20 were confirmed to be 10/13 activity already reviewed by the prior run (QTH shows dates only). No unreviewed remainder. Renewed/modified older ads reviewed in the window include 1781467, 1776189, 1780546, 1781934, 1781935, 1781936, 1781561, 1781560, 1781811, 1781812, 1781814, 1780621, 1780573, 1779794, 1781793, 1778224, 1781224, 1778868, 1782063, 1782035, 1782026, 1781961, 1781959, 1777077-1777079, 1780190, 1781524, 1781737, 1781903, 1782117, 1781979, 1777396, 1778590, 1779988, 1778591, 1779921, 1782087, 1781694, 1782019, 1781892, 1782018, 1781796, 1781519, 1782126, 1781731, 1781864, 1782044, 1781896, 1781898, 1781899, 1782099, 1782135, 1781832, 1782075, 1782125, 1782097, 1781340, 1781253, 1774222, 1781800, 1782146, 1782042, 1779764, 1781778, 1780592, 1781893, 1781891, 1766488-1766491, 1781044, 1781535-1781537, 1780595. Candidates (6, cap): FLEX-6500 1782160, IC-7100 1782182, IC-7600 1782181, Ameritron ALS-600 1782213, Alinco DR-735T 1782187, Ameritron ALS-500M 1782202. Plausible extras not comp-searched (cap): 1782161 Kenwood TM-D710GA (ad title says 'TS-D710GA', text says TM-710GA; mint, VGS-1, C-series) $650 + $29 shipped; 1782207 Kenwood TM-710A V2 'like new' $600 shipped; 1782158 Icom IC-706MKIIG w/ separation kit, DSP, 'I think cw filter' $675 plus (Dallas TX); 1782155 Yaesu FT-1000D + SP-102, all filters, $1500 or offer, buyer ships or pickup near Gettysburg PA; 1782159 Ameritron ALS-500M new in box $1400 + shipping; 1782188 Ameritron AL-800H $1500, local pickup preferred; 1782214 Heathkit SB-220 'loaded' $1100 pickup AZ; 1782209 Henry 4K Ultra $3500; 1782222 Q5 Signal 2m transverter 25W $425 shipped; 1782145 Kenwood TS-870 'excellent, low hours, includes extras' '670 poss trade' (no $ sign, price unclear); 1782208 Heathkit SB-101 station $775 pickup; 1782220 Elecraft P3 $400 shipped; 1782211 Swan-270 Cygnet $150 + shipping; 1782205 Mirage D-3010-N $175 shipped. Renewed older ads of note: 1782126 Ameritron AL-80B now $1500 shipped (was $2000); 1782087 Alpha 78 now $1200 (was $1350); 1782125 IC-7300 now $625 (was $650, already dropped); 1781936 IC-7600 $1050 shipped (renewed); 1781934 IC-9100 + IC-7410 $1850 pair; 1781935 FT-991A sell/trade $915 incl shipping; 1781561 FT-1000D $1050 shipped; 1781811 QRO 2500DX $2100 shipped; 1781864 Alinco DX-SR8 $350 shipped; 1781224 Ameritron AL-82 $1800; 1781979 IC-7760 $5500; 1781800 IC-9700 $1599 + $45. Not picked: wanted ads, books/manuals/flyers, accessories/parts/cables, Motorola commercial gear, scanners, towers, test gear, non-ham items. Ledger (comps.json): ICOM IC-7100 HIT (count 28, 2026-10-10); ICOM IC-7600 HIT (count 5, 2026-09-29); AMERITRON ALS-600 MISS (latest 2026-09-08, older than 30 days); FLEX-6500, DR-735T, ALS-500M not in ledger -> eBay. eBay: signed in as Leo, 4 sold searches (flex 6500, ameritron als-600, alinco dr-735t, ameritron als-500m), one at a time, no challenge. eHam not touched.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782160",
+      "site": "qth",
+      "title": "RADIOHF - FS/FT: Flex-6500",
+      "price": 1525.0,
+      "shipping": 0,
+      "found_at": "2026-10-14",
+      "condition_notes": "Seller: 'really nice Flex-6500'. $1525 shipped UPS/insured. Also open to trade for SunSDR2 DX.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782182",
+      "site": "qth",
+      "title": "RADIOHF - FS - ICOM IC-7100 as new",
+      "price": 735.0,
+      "shipping": 0,
+      "found_at": "2026-10-14",
+      "condition_notes": "'New condition', bought May 2025; MARS mod; includes unused mic, box, manual, power cord, control cable, USB cable. $735 shipped CONUS; $700 pickup.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782181",
+      "site": "qth",
+      "title": "RADIOHF - Icom IC-7600",
+      "price": 1050.0,
+      "shipping": 0,
+      "found_at": "2026-10-14",
+      "condition_notes": "Spare radio; 'receiver and transmit works 100%'; with power cable, hand mic, box. Seller: 'looks like it had a IF- tap installed also. I never used it so can't verify.' Price $1050 for the radio; shipping not stated.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782213",
+      "site": "qth",
+      "title": "AMPHF - Ameritron ALS-600 & ALS-600PS",
+      "price": 1250.0,
+      "shipping": 0,
+      "found_at": "2026-10-14",
+      "condition_notes": "ALS-600 with ALS-600PS heavy duty supply; 'very good shape', usual scrapes/scratches; 10/12m add-on board installed; 'No known issues'. $1250 shipped CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782187",
+      "site": "qth",
+      "title": "RADIOVHF - Alinco DR-735T",
+      "price": 250.0,
+      "shipping": 0,
+      "found_at": "2026-10-14",
+      "condition_notes": "'Brand new. In original box with accessories.' $250 shipped US-Canada.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782202",
+      "site": "qth",
+      "title": "AMPHF - Ameritron ALS-500M",
+      "price": 900.0,
+      "shipping": 0,
+      "found_at": "2026-10-14",
+      "condition_notes": "'like new condition and works as it should'; optional 10 meter board installed; with heavy duty cable and manual; power supply available separately. $900; shipping not stated (seller in Alaska).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
