@@ -1,0 +1,75 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-14",
+  "ran_at": "2026-10-14T17:58:00-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now, sorted newly listed (signed in as Leo). Window since previous ebay run 2026-10-13T18:00:00-04:00; scanned page 1 only. 6 picked, all 6 passed seller rule. Ledger hits: ICOM IC-7300 (two listings), YAESU FT-857D. eBay sold searches: FT-8900R, TS-711, IC-207 - no challenges. Item descriptions (iframe) not read; condition notes from title/condition/returns only. Not picked: Kenwood AT-940 tuner, Yaesu FRG-8800, AOR AR8200 MKIII, Yaesu VX-5R pair, Kenwood MC-90/MC-43S mics, Icom ID-80, MICOM RM125 HF radio, Heathkit SB-303 (parts only), parts-only items, filters, accessories, commercial/LMR and general electronics.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/227567623066",
+      "site": "ebay",
+      "title": "Icom IC-7300 HF/50MHz Direct Sampling Transceiver US Version 100 Watt",
+      "price": 775.0,
+      "shipping": 35.0,
+      "found_at": "2026-10-14",
+      "condition_notes": "eBay condition: Used. Buy It Now or Best Offer. Seller does not accept returns. Located Clovis, CA. Item description not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (292 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/940014489293",
+      "site": "ebay",
+      "title": "Icom IC-7300 Ham Radio Transceiver HF/50MHz LCD Screen Black LSB",
+      "price": 800.0,
+      "shipping": 14.08,
+      "found_at": "2026-10-14",
+      "condition_notes": "eBay condition: New. Buy It Now or Best Offer. Seller does not accept returns. Seller has exactly 10 ratings (minimum). Located Joplin, MO. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "100% (10 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366734334541",
+      "site": "ebay",
+      "title": "Yaesu FT-857D 100W HF/VHF/UHF All Mode Transceiver Tested Working",
+      "price": 963.98,
+      "shipping": 110.0,
+      "found_at": "2026-10-14",
+      "condition_notes": "eBay condition: Used. Title says Tested Working. Ships from Japan (SpeedPAK Expedited); 30-day returns, buyer pays return shipping. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "100% (226 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227567634881",
+      "site": "ebay",
+      "title": "Yaesu FT-8900R Quad -Band FM Transceiver",
+      "price": 429.99,
+      "shipping": 0,
+      "found_at": "2026-10-14",
+      "condition_notes": "eBay condition: Used. Buy It Now or Best Offer. Free shipping; 30-day returns, seller pays return shipping. Located Painesville, OH. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "99.9% (7596 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366734334668",
+      "site": "ebay",
+      "title": "KENWOOD TS-711 144MHz All Mode Transceiver Amateur Radio VHF Tested Working",
+      "price": 309.74,
+      "shipping": 85.0,
+      "found_at": "2026-10-14",
+      "condition_notes": "eBay condition: Used. Title says Tested Working. Model is TS-711 (no A suffix), ships from Japan (SpeedPAK Expedited); 30-day returns, buyer pays return shipping. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "100% (226 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366734334597",
+      "site": "ebay",
+      "title": "ICOM IC-207 20W Dual Band 144/430 MHz Mobile Transceiver Wide Receive",
+      "price": 347.67,
+      "shipping": 85.0,
+      "found_at": "2026-10-14",
+      "condition_notes": "eBay condition: Used. Model is IC-207 (20W, not the US IC-207H), ships from Japan (SpeedPAK Expedited); 30-day returns, buyer pays return shipping. Title does not state tested/working. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "100% (226 ratings)"
+    }
+  ]
+}
