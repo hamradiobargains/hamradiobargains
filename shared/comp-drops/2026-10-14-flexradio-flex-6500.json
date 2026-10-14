@@ -1,0 +1,25 @@
+{
+  "model": "FlexRadio FLEX-6500",
+  "slug": "flexradio-flex-6500",
+  "searched_at": "2026-10-14T15:00:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no FLEX-6500 entry in comps.json). eBay sold search 'flex 6500', page 1 only. thin: 1 kept comp. dropped 1 best-offer-accepted (item 117398375353, Flex 6500 + Remote bundle, also labeled Parts Only, $1,600 BOA). Page 1 otherwise dominated by unrelated LED strip lights (6500K); 1 PTT accessory excluded.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782160",
+    "site": "qth",
+    "ask": 1525.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 960.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198646397366",
+      "source": "ebay",
+      "notes": "Auction, 42 bids. +$50.00 delivery shown. Title: Flex-6500 Signature Series.",
+      "flags": []
+    }
+  ]
+}
