@@ -1,0 +1,90 @@
+{
+  "model": "Yaesu FT-710 Field",
+  "slug": "yaesu-ft-710-field",
+  "searched_at": "2026-10-14T05:59:30-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "8 comps kept, only titles explicitly saying 'Field'. dropped 3 best-offer-accepted Field sales (178522636254 $899.95; 257685062291 $650; 267746302149 $850 '1 bid Best offer accepted'). dropped 0 parts-only. Excluded as different model/variant: FT-710 AESS sales, two titles not naming the variant (128128764840 'YEASU FT 710', BOA anyway; 206436182523 'yaesu ft 710 transceiver'), FT-711RH, FT-757GX, carry handles. No outliers ($1,000 is under 1.5x the ~$760 median of the rest). Trigger listing includes an added AESS speaker; comps are radio only.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629193",
+    "site": "eham",
+    "ask": 820.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 750.0,
+      "sold_date": "2026-10-10",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/880004606948",
+      "source": "ebay",
+      "notes": "Buy It Now; +$25.52 delivery shown. Title: w/ Box & Manual",
+      "flags": []
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-09-30",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/318931026370",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery. Title: USA Model",
+      "flags": []
+    },
+    {
+      "price": 760.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307171025828",
+      "source": "ebay",
+      "notes": "Auction, 2 bids; +$13.88 delivery shown. Title: EX+",
+      "flags": []
+    },
+    {
+      "price": 720.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398316724476",
+      "source": "ebay",
+      "notes": "Auction, 10 bids; +$54.04 delivery shown. Title: Light Indoor Use Only",
+      "flags": []
+    },
+    {
+      "price": 860.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298604487281",
+      "source": "ebay",
+      "notes": "Auction, 10 bids; +$45.00 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 849.0,
+      "sold_date": "2026-07-28",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/178346764152",
+      "source": "ebay",
+      "notes": "Buy It Now; +$13.77 delivery shown. Title: 'Mint, Extras'",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 894.0,
+      "sold_date": "2026-07-28",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/397702815260",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'Brand New In Stock'",
+      "flags": []
+    },
+    {
+      "price": 710.0,
+      "sold_date": "2026-07-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147432459835",
+      "source": "ebay",
+      "notes": "Auction, 21 bids; +$58.55 delivery shown. Title: Light Indoor Use Only",
+      "flags": []
+    }
+  ]
+}
