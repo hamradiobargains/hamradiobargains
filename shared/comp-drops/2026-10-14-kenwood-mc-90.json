@@ -1,0 +1,54 @@
+{
+  "model": "Kenwood MC-90",
+  "slug": "kenwood-mc-90",
+  "searched_at": "2026-10-14T05:57:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "4 comps kept. dropped 1 best-offer-accepted (168667236597, $300, Sep 13). dropped 0 parts-only. Excluded non-unit results: MC-60/MC-90 holders, MC-90 manual copy, 8-pin cables/adapters, and a Kenwood MC-50 (different model). No outliers. 1 comp (127859897090) is from May 2026; 2 comps shipped from Japan, 1 from Greece.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629200",
+    "site": "eham",
+    "ask": 169.0,
+    "shipping": 24.5
+  },
+  "comps": [
+    {
+      "price": 250.0,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237080697429",
+      "source": "ebay",
+      "notes": "Buy It Now; +$25.00 delivery shown. Title: KENWOOD MC 90 DESK MIC FOR TS 870 850 590 AND MORE",
+      "flags": []
+    },
+    {
+      "price": 299.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206449768386",
+      "source": "ebay",
+      "notes": "Buy It Now; +$35.00 delivery shown; located in Greece. Title: 'with 2 heads'",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 212.6,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398176482524",
+      "source": "ebay",
+      "notes": "Buy It Now; +$26.00 delivery shown (includes import fees); located in Japan. Title says Working",
+      "flags": []
+    },
+    {
+      "price": 211.5,
+      "sold_date": "2026-05-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127859897090",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not best-offer-accepted), shown $211.50 (marked down from $235.00); +$75.00 delivery shown, located in Japan. Title says Working",
+      "flags": []
+    }
+  ]
+}
