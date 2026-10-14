@@ -1,0 +1,15 @@
+{
+  "model": "Dentron AT-3K",
+  "slug": "dentron-at-3k",
+  "searched_at": "2026-10-14T05:58:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 0 comps kept. Page 1 had a single exact-model sale: dropped 1 best-offer-accepted (227487033127, Aug 31, listed $325). dropped 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629195",
+    "site": "eham",
+    "ask": 300.0,
+    "shipping": 0
+  },
+  "comps": []
+}
