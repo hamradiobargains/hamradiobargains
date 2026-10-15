@@ -1,0 +1,1 @@
+Forces a GitHub Pages rebuild so the price-checker update (archive.html, 2026-10-15) goes live.
