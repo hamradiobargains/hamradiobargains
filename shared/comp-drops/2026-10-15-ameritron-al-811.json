@@ -1,0 +1,88 @@
+{
+  "model": "AMERITRON AL-811",
+  "slug": "ameritron-al-811",
+  "searched_at": "2026-10-15T15:03:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ameritron al-811', page 1 only (fewer-words section ignored). 8 AL-811 unit comps kept (AL-811H excluded as a different model; parts kits, resistors, switches, suppressors, meters, screw kits excluded as accessories). Dropped 1 best-offer-accepted (188970889576, $800 shown). Dropped 2 parts-only (257710658567 $300, 287556631404 $499.99). OUTLIER: 366718041629 $349 auction (160-15/17M version) vs ~$750 median for the rest. Trigger listing price is plus insured UPS shipping (amount not stated, recorded 0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782318",
+    "site": "qth",
+    "ask": 875,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 349.0,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366718041629",
+      "source": "ebay",
+      "notes": "OUTLIER: $349 vs ~$750 median for the rest. Title: 'Ameritron AL-811 Tube Linear Amplifier 160-15/17M CW/SSB 120/240V'; auction, 7 bids; +$184.85 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 1050.0,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327261557502",
+      "source": "ebay",
+      "notes": "Title: 'Ameritron Al-811 600w HF Amplifier with 3 new matched tubes'; Buy It Now; free delivery.",
+      "flags": []
+    },
+    {
+      "price": 669.99,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327348788660",
+      "source": "ebay",
+      "notes": "Title: 'Ameritron AL-811 PEP HF Linear Power Amplifier Ham Radio - WORKS'; Buy It Now; +$99.99 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 755.99,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168627905691",
+      "source": "ebay",
+      "notes": "Title: 'Ameritron Model AL-811 Amateur Radio Linear Amplifier Ham Radio'; Buy It Now; price shown $755.99 with $960.99 struck through (not marked best offer accepted); free delivery.",
+      "flags": []
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287414435028",
+      "source": "ebay",
+      "notes": "Title: 'Ameritron Al-811 600w HF Amplifier - 3 X 811a Tubes 120v'; fixed price 'or Best Offer' (not marked best offer accepted); +$150.00 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 715.0,
+      "sold_date": "2026-08-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336742415142",
+      "source": "ebay",
+      "notes": "Title: 'Ameritron AL-811 Amateur Radio Amplifier'; auction, 1 bid; +$92.91 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 725.0,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227463995581",
+      "source": "ebay",
+      "notes": "Title: 'Ameritron AL-811 Amateur Radio Amplifier'; fixed price 'or Best Offer' (not marked best offer accepted); +$63.83 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 749.99,
+      "sold_date": "2026-08-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407053958792",
+      "source": "ebay",
+      "notes": "Title: 'AMERITRON AL-811 AMPLIFIER!!'; Buy It Now; +$57.87 delivery shown.",
+      "flags": []
+    }
+  ]
+}
