@@ -1,0 +1,119 @@
+{
+  "model": "Kenwood TS-830S",
+  "slug": "kenwood-ts-830s",
+  "searched_at": "2026-10-15T17:58:05-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1 (59 results, all on page 1). Kept 11 working/unspecified units. Dropped 8 parts-only (298696658015, 298559645964, 236614098106, 188798599596, 188728875444, 307096230133, 227459530322 full-station parts-only bundle, 147426774170). Dropped 7 best-offer-accepted: 3 working-unit sales (128103928782, 158030614076, 358781852803) and 4 that were also parts-only (820016518393, 307176182627, 267755528438, 188754505688). Excluded boards, filters, covers, knobs, manuals, cables, kits and AT-230 tuners. Note: trigger listing is itself eBay 'For parts or not working' ('Powers On Clean Untested As-Is'); comps are working/unspecified units per the parts-only drop rule. Outliers flagged in comps: 206608138806 $750.00 vs ~$340; 287601890103 $525.00 vs ~$340; 298523000956 $625.00 vs ~$340.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/128137487323",
+    "site": "ebay",
+    "ask": 399.99,
+    "shipping": 48.18
+  },
+  "comps": [
+    {
+      "price": 750.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206608138806",
+      "source": "ebay",
+      "notes": "OUTLIER: $750.00 vs ~$340 median for the rest; title: '+ Filters + Box (one owner, excellent)'; Buy It Now; shipping $97.72",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278409931573",
+      "source": "ebay",
+      "notes": "title: 'Powers ON' (no test claim); Buy It Now; shipping $65.00",
+      "flags": []
+    },
+    {
+      "price": 525.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287601890103",
+      "source": "ebay",
+      "notes": "OUTLIER: $525.00 vs ~$340 median for the rest; title: 'Original Box Tested'; or Best Offer (not shown as accepted); shipping $27.87",
+      "flags": []
+    },
+    {
+      "price": 237.06,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398267331398",
+      "source": "ebay",
+      "notes": "auction, 18 bids; title: 'TESTED'; shipping $41.69",
+      "flags": []
+    },
+    {
+      "price": 390.0,
+      "sold_date": "2026-08-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206454139814",
+      "source": "ebay",
+      "notes": "or Best Offer (not shown as accepted); shipping $40.00",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-08-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267752106340",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping $23.44",
+      "flags": []
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-08-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168230300817",
+      "source": "ebay",
+      "notes": "or Best Offer (not shown as accepted); shipping $50.00",
+      "flags": []
+    },
+    {
+      "price": 349.99,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366591205341",
+      "source": "ebay",
+      "notes": "or Best Offer (not shown as accepted); shipping $59.99",
+      "flags": []
+    },
+    {
+      "price": 329.99,
+      "sold_date": "2026-07-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398170573819",
+      "source": "ebay",
+      "notes": "title: 'From A Working Environment!' (no test claim); Buy It Now; shipping $75.33",
+      "flags": []
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2026-07-27",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/298538010460",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping $75.33",
+      "flags": []
+    },
+    {
+      "price": 625.0,
+      "sold_date": "2026-07-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298523000956",
+      "source": "ebay",
+      "notes": "OUTLIER: $625.00 vs ~$340 median for the rest; title: 'Matching Mike Incl.'; or Best Offer (not shown as accepted); shipping $125.00",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
