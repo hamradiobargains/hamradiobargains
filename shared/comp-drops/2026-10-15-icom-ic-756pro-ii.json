@@ -1,0 +1,61 @@
+{
+  "model": "ICOM IC-756PRO II",
+  "slug": "icom-ic-756pro-ii",
+  "searched_at": "2026-10-15T15:03:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger MISS (ICOM IC-756PROII latest count 2). eBay sold search 'icom ic-756pro ii', page 1 only (fewer-words section ignored). 5 exact IC-756PRO II unit comps kept. Excluded many IC-756PRO / PRO III / IC-746PRO results (different models), 1 PRO II manual and 1 LED backlight kit (accessories). Dropped 0 best-offer-accepted, 0 parts-only among PRO II units (best-offer-accepted sales on the page were all other models). No outliers. Trigger listing is a bundle with PS-125 power supply and HM-36 mic.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781875",
+    "site": "qth",
+    "ask": 650,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 800.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327352157836",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-756 Pro II Amateur HF Transceiver'; Buy It Now; +$75.00 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158339640411",
+      "source": "ebay",
+      "notes": "Title: 'ICOM IC-756PROII HF Transceiver'; Buy It Now; free delivery.",
+      "flags": []
+    },
+    {
+      "price": 725.21,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188871030322",
+      "source": "ebay",
+      "notes": "Title: 'Icom Ic-756 Pro II'; Buy It Now; +$35.13 delivery shown; located in Germany.",
+      "flags": []
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227467242685",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-756 ProII HF Transceiver Tested'; fixed price 'or Best Offer' (not marked best offer accepted); +$50.00 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 685.0,
+      "sold_date": "2026-07-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158073984459",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC 756PRO II Radio Transceiver'; auction, 34 bids; +$20.55 delivery shown.",
+      "flags": []
+    }
+  ]
+}
