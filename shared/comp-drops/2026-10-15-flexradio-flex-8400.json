@@ -1,0 +1,27 @@
+{
+  "model": "FlexRadio FLEX-8400",
+  "slug": "flexradio-flex-8400",
+  "searched_at": "2026-10-15T15:03:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'flexradio flex-8400', page 1 only (fewer-words section ignored). Only 1 exact FLEX-8400 unit sale on page 1 - thin. Excluded 1 FLEX-1500 (different model). Dropped 0 best-offer-accepted, 0 parts-only. No outliers (single comp). Comp title does not say ATU; trigger listing is a FLEX-8400 with ATU.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782252",
+    "site": "qth",
+    "ask": 2200,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 2049.0,
+      "sold_date": "2026-07-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267730706901",
+      "source": "ebay",
+      "notes": "Title: 'FlexRadio FLEX-8400 HF/6m SDR Transceiver SmartSDR v4.2.20'; subtitle '$480 EXTENDED WARRANTY INCLUDED'; fixed price 'or Best Offer' (not marked best offer accepted); +$20.31 delivery shown.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
