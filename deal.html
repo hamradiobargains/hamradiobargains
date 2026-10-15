@@ -180,6 +180,11 @@ async src="//gc.zgo.at/count.js"></script>
 <div id="comp-body"></div>
 </div>
 
+<div class="card" id="notes-card" style="display:none;">
+<div class="section-title">Notes on this deal</div>
+<p id="deal-notes" style="margin:0;line-height:1.55;"></p>
+</div>
+
 <a class="listing-btn" id="go-to-listing" href="#" target="_blank" rel="noopener noreferrer">Go to Listing &rarr;</a>
 
 <p class="disclaimer">"% below market" and the comparison figures above are estimates based on recent comparable sale prices — condition, included accessories, and current prices can vary. Always compare before buying.</p>
@@ -270,7 +275,8 @@ median: d.median == null ? '' : String(d.median),
 compCount: d.compCount == null ? '' : String(d.compCount),
 compLow: d.compLow == null ? '' : String(d.compLow),
 compHigh: d.compHigh == null ? '' : String(d.compHigh),
-workFlag: ''
+workFlag: '',
+notes: d.notes || ''
 };
 }
 function adaptTech(d) {
@@ -285,7 +291,8 @@ median: d.median == null ? '' : String(d.median),
 compCount: d.comp_count == null ? '' : String(d.comp_count),
 compLow: '',
 compHigh: '',
-workFlag: d.work_flag || ''
+workFlag: d.work_flag || '',
+notes: ''
 };
 }
 function loadDeals() {
@@ -380,6 +387,14 @@ compBody.innerHTML = `
 `;
 } else {
 compCard.style.display = 'none';
+}
+
+const notesCard = document.getElementById('notes-card');
+if (deal.notes) {
+document.getElementById('deal-notes').textContent = deal.notes;
+notesCard.style.display = 'block';
+} else {
+notesCard.style.display = 'none';
 }
 
 const link = document.getElementById('go-to-listing');
