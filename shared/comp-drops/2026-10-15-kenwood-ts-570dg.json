@@ -1,0 +1,38 @@
+{
+  "model": "KENWOOD TS-570DG",
+  "slug": "kenwood-ts-570dg",
+  "searched_at": "2026-10-15T15:03:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood ts-570dg', page 1 only (fewer-words section ignored). Only 2 comps whose titles say TS-570DG - thin. Excluded 15 results titled TS-570D without the G and TS-570S results (identity not certain / different model), and 1 YK-88C-1 filter (accessory). Dropped 0 best-offer-accepted, 0 parts-only among TS-570DG titles (best-offer-accepted sales seen on the page were TS-570D non-G titles, already excluded for identity). The two kept comps have near-identical titles, same price and same shipping, flagged possible_duplicate. No outliers. Trigger ad says 'Kenwood 570D(G)', 'The D(G) is on the rear serial# tag'.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782248",
+    "site": "qth",
+    "ask": 550,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 550.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237069446903",
+      "source": "ebay",
+      "notes": "Title: 'Kenwood TS 570DG HF Transceiver + MIC+ POWER CORD S.N.50100065'; Buy It Now; +$3.85 delivery shown. Possible duplicate of 237025472138 (same title/price/shipping).",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237025472138",
+      "source": "ebay",
+      "notes": "Title: 'Kenwood TS 570DG HF Transceiver + MIC+ POWER CORD'; Buy It Now; +$3.85 delivery shown. Possible duplicate of 237069446903.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    }
+  ]
+}
