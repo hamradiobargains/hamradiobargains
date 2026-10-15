@@ -203,6 +203,7 @@ border-top: 1px solid var(--border);
 <div class="label">Median price</div>
 </div>
 </div>
+<p id="result-note" style="margin-top:14px;font-size:13px;color:var(--muted);line-height:1.5;"></p>
 </div>
 </main>
 
@@ -305,6 +306,7 @@ const compMedian = money(r[6]);
 if (compMedian === null) return;
 allDeals.push({
 item: r[1] || '',
+date: r[0] || '',
 compMedian,
 compCount: money(r[7]),
 compLow: money(r[8]),
@@ -349,6 +351,54 @@ if (kwToks.every(kt => rt.some(t => t === kt || t.startsWith(kt)))) return run.t
 return null;
 }
 
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+function fmtMonth(dstr) {
+const p = String(dstr || '').split('-');
+if (p.length < 2) return dstr;
+const mi = parseInt(p[1], 10) - 1;
+return (MONTHS[mi] || p[1]) + ' ' + p[0];
+}
+function fmtDate(dstr) {
+const p = String(dstr || '').split('-');
+if (p.length < 3) return dstr;
+const mi = parseInt(p[1], 10) - 1;
+return (MONTHS[mi] || p[1]) + ' ' + parseInt(p[2], 10) + ', ' + p[0];
+}
+
+// Archive deals belonging to one comp-file model: the model's code is the
+// comp key minus its brand word ("ICOM IC-7100" -> "IC-7100"); an archive
+// row belongs to it when the model extracted from its title equals that code.
+function archiveDealsForModel(m, archiveMatches, kwToks) {
+const code = (m.key.split(/\s+/).slice(1).join(' ') || m.key).toUpperCase();
+return (archiveMatches || []).filter(d => {
+const g = extractModel(d.item, kwToks);
+return g && g.toUpperCase() === code;
+});
+}
+
+// "Which model did you mean?" buttons over comp-file models; shared by the
+// strong-comp and thin-comp paths in runSearch.
+function showCompDisambig(list, archiveMatches, kwToks) {
+const names = list.map(m => m.key).sort();
+document.getElementById('disambig-text').textContent =
+'\u201C' + document.getElementById('f-keyword').value.trim() + '\u201D matches ' + names.length + ' models \u2014 which one did you mean?';
+const btns = document.getElementById('disambig-buttons');
+btns.innerHTML = '';
+names.forEach(name => {
+const m = list.find(x => x.key === name);
+const b = document.createElement('button');
+b.type = 'button';
+b.className = 'disambig-btn';
+b.textContent = name + ' (' + m.latest.count + ' sales)';
+b.addEventListener('click', () => { showCompResult(m, archiveDealsForModel(m, archiveMatches, kwToks)); });
+btns.appendChild(b);
+});
+document.getElementById('prompt').style.display = 'none';
+document.getElementById('no-results').style.display = 'none';
+document.getElementById('result-card').style.display = 'none';
+document.getElementById('disambig').style.display = 'block';
+}
+
 function logMissedSearch(term) {
       try {
         const url = 'https://formspree.io/f/xvkgylvb';
@@ -381,6 +431,13 @@ document.getElementById('result-name').textContent = label;
 document.getElementById('result-count').textContent = count.toLocaleString();
 document.getElementById('result-range').textContent = low === high ? fmtMoney(low) : (fmtMoney(low) + ' \u2013 ' + fmtMoney(high));
 document.getElementById('result-median').textContent = fmtMoney(med);
+const noteEl = document.getElementById('result-note');
+const dealDates = deals.map(d => d.date).filter(Boolean).sort();
+if (dealDates.length) {
+noteEl.textContent = 'From our Deal Archive \u2014 the fair values recorded on the day each of these deals was published (' + fmtMonth(dealDates[0]) + ' \u2013 ' + fmtMonth(dealDates[dealDates.length - 1]) + '). Markets move: where we have enough newer recorded sales for a model, this checker leads with the current figure instead.';
+} else {
+noteEl.textContent = '';
+}
 promptEl.style.display = 'none';
 noResultsEl.style.display = 'none';
 resultCard.style.display = 'block';
@@ -389,7 +446,7 @@ disambigEl.style.display = 'none';
 
     // Render one comp-file model through the same result card the archive
     // path uses, so the numbers read identically either way.
-    function showCompResult(m) {
+    function showCompResult(m, archiveDeals) {
 const pseudo = [{
 compMedian: m.latest.median,
 compCount: m.latest.count,
@@ -397,6 +454,17 @@ compLow: m.latest.low,
 compHigh: m.latest.high
 }];
 showResult(pseudo, m.key);
+let note = 'Current fair value from our recorded sales, refreshed daily';
+if (m.latest.date) note += ' (sales recorded through ' + fmtDate(m.latest.date) + ')';
+note += '.';
+if (archiveDeals && archiveDeals.length) {
+const meds = archiveDeals.map(d => d.compMedian);
+const ds = archiveDeals.map(d => d.date).filter(Boolean).sort();
+note += ' We have also published ' + archiveDeals.length + ' deal' + (archiveDeals.length > 1 ? 's' : '') + ' for this model; the fair values recorded then ran ' + fmtMoney(Math.min(...meds)) + ' \u2013 ' + fmtMoney(Math.max(...meds));
+if (ds.length) note += ' (' + fmtMonth(ds[0]) + ' \u2013 ' + fmtMonth(ds[ds.length - 1]) + ')';
+note += ' \u2014 markets move, so judge by the current figure above.';
+}
+document.getElementById('result-note').textContent = note;
 }
 
     function runSearch() {
@@ -415,49 +483,45 @@ return;
 }
 
 const matches = allDeals.filter(d => matchesKeyword(d.item, kw));
+const compMatches = (compModels || []).filter(m => matchesKeyword(m.key, kw));
+const kwToks = tok(kw);
+
+// Current recorded sales lead \u2014 but only a comp entry built on 3+
+// sales is solid enough to headline. The archive's numbers are the fair
+// values recorded on the day each deal was published, which can be
+// months stale on a moving market; a 1\u20132-sale comp entry is thinner
+// than the archive, so it only answers when nothing else does.
+const strongComps = compMatches.filter(m => m.latest && m.latest.count >= 3);
+if (strongComps.length === 1) {
+showCompResult(strongComps[0], archiveDealsForModel(strongComps[0], matches, kwToks));
+return;
+}
+if (strongComps.length > 1) {
+showCompDisambig(strongComps, matches, kwToks);
+return;
+}
 
 if (matches.length === 0) {
-      // The archive only holds models that were once published as deals.
-      // Fall back to the comp file (logged sold comps) before giving up.
-      const compMatches = (compModels || []).filter(m => matchesKeyword(m.key, kw));
-      if (compMatches.length === 1) {
-      showCompResult(compMatches[0]);
-      return;
-      }
-      if (compMatches.length > 1) {
-      const names = compMatches.map(m => m.key).sort();
-      document.getElementById('disambig-text').textContent =
-      '\u201C' + document.getElementById('f-keyword').value.trim() + '\u201D matches ' + names.length + ' models \u2014 which one did you mean?';
-      const btns = document.getElementById('disambig-buttons');
-      btns.innerHTML = '';
-      names.forEach(name => {
-      const m = compMatches.find(x => x.key === name);
-      const b = document.createElement('button');
-      b.type = 'button';
-      b.className = 'disambig-btn';
-      b.textContent = name + ' (' + m.latest.count + ' sales)';
-      b.addEventListener('click', () => { showCompResult(m); });
-      btns.appendChild(b);
-      });
-      promptEl.style.display = 'none';
-      noResultsEl.style.display = 'none';
-      resultCard.style.display = 'none';
-      disambigEl.style.display = 'block';
-      return;
-      }
-      promptEl.style.display = 'none';
-      noResultsEl.style.display = 'block';
-      resultCard.style.display = 'none';
-      disambigEl.style.display = 'none';
-      logMissedSearch(kw);
-      return;
-    }
+if (compMatches.length === 1) {
+showCompResult(compMatches[0], []);
+return;
+}
+if (compMatches.length > 1) {
+showCompDisambig(compMatches, matches, kwToks);
+return;
+}
+promptEl.style.display = 'none';
+noResultsEl.style.display = 'block';
+resultCard.style.display = 'none';
+disambigEl.style.display = 'none';
+logMissedSearch(kw);
+return;
+}
 
 // Group matches by model. A bare base number like "ts-480" is not a real
-// model — it can match several true variants (TS-480SAT vs TS-480HX).
+// model \u2014 it can match several true variants (TS-480SAT vs TS-480HX).
 // Blending their medians would mislead, so ask the visitor which one
 // they meant instead of showing a mixed number.
-const kwToks = tok(kw);
 const byModel = new Map();
 for (const d of matches) {
 const m = extractModel(d.item, kwToks) || d.item;
