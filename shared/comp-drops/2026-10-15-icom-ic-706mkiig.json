@@ -1,0 +1,186 @@
+{
+  "model": "Icom IC-706MKIIG",
+  "slug": "icom-ic-706mkiig",
+  "searched_at": "2026-10-15T05:55:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (ICOM IC-706MKIIG latest 2026-02-17, older than 30 days). eBay sold page 1 (signed in as Leo, no challenge). 18 kept unit comps. Dropped 5 best-offer-accepted unit sales, dropped 2 parts-only (incl. one 'Tech special'). Excluded IC-706 / IC-706MKII (non-G) units, accessories, subassemblies (main/PA/PLL units, front panel), manuals, brochures. OUTLIER: 198676372150 at $190.62 vs ~$600 for the rest (auction, 18 bids). 356221810417 and 237050253885 share a seller title style; not flagged duplicate.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629202",
+    "site": "eham",
+    "ask": 675.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 650.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820088774871",
+      "source": "ebay",
+      "notes": "Title: w/ Mic UT-102 FL-101 FL-272. +$51.49 shipping.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 457.0,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336814089332",
+      "source": "ebay",
+      "notes": "With microphone & power cable. +$60.10 shipping.",
+      "flags": []
+    },
+    {
+      "price": 590.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178533844524",
+      "source": "ebay",
+      "notes": "+$71.39 shipping.",
+      "flags": []
+    },
+    {
+      "price": 190.62,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198676372150",
+      "source": "ebay",
+      "notes": "OUTLIER: $190.62 vs ~$600 median for the rest. Auction, 18 bids. Title gives no condition detail. +$13.65 shipping.",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257752944143",
+      "source": "ebay",
+      "notes": "Title: used and working fine. +$50.00 shipping.",
+      "flags": []
+    },
+    {
+      "price": 618.99,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/356221810417",
+      "source": "ebay",
+      "notes": "Title: [VG] ... Tested. +$141.00 shipping.",
+      "flags": []
+    },
+    {
+      "price": 640.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278368938679",
+      "source": "ebay",
+      "notes": "Title: with mt brk (mounting bracket) and all wiring. +$46.08 shipping.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 651.0,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237050253885",
+      "source": "ebay",
+      "notes": "Title: [VG] ... Tested Official. Same title style as 356221810417 (different price/date; not flagged as duplicate). +$105.00 shipping.",
+      "flags": []
+    },
+    {
+      "price": 811.51,
+      "sold_date": "2026-09-20",
+      "condition": "New",
+      "url": "https://www.ebay.com/itm/206554750611",
+      "source": "ebay",
+      "notes": "Title: New in Box. Auction, 12 bids. +$20.98 shipping.",
+      "flags": []
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820125340846",
+      "source": "ebay",
+      "notes": "Title: Japan Tested Unit (Japanese-market unit). Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800590527488",
+      "source": "ebay",
+      "notes": "Title: (Untested). Free shipping.",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 458.17,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137714649653",
+      "source": "ebay",
+      "notes": "Auction, 2 bids. +$35.00 shipping.",
+      "flags": []
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257716410955",
+      "source": "ebay",
+      "notes": "Title mentions LCD USB. +$17.12 shipping.",
+      "flags": []
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307163038961",
+      "source": "ebay",
+      "notes": "Title: IC-706MKII G with Mic. +$17.12 shipping.",
+      "flags": []
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267743465258",
+      "source": "ebay",
+      "notes": "Title: FL-232 & FL-223 filters, HM-154t mic. +$30.00 shipping.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 599.99,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178419143458",
+      "source": "ebay",
+      "notes": "+$39.98 shipping.",
+      "flags": []
+    },
+    {
+      "price": 595.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137620930258",
+      "source": "ebay",
+      "notes": "Auction, 9 bids. +$20.00 shipping.",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407149532459",
+      "source": "ebay",
+      "notes": "+$28.39 shipping.",
+      "flags": []
+    }
+  ]
+}
