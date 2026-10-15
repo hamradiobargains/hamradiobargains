@@ -1,0 +1,75 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-15",
+  "ran_at": "2026-10-15T15:03:00-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-14T14:53:03-04:00 (prior qth drop ran_at). Scanned QTH all-ads pages 1-17 (all.php through ?page=17), one page at a time. Counter-ID range of new ads submitted since window start reviewed: 1782224-1782325 (IDs 1782227, 1782228, 1782237, 1782241, 1782253, 1782254, 1782258, 1782263, 1782269, 1782271, 1782272 never appeared in the list - presumably deleted; not checked individually). End of window: page 15 ends with 1782214 (reviewed by the prior qth run); pages 16-17 were confirmed to be 10/14 activity already reviewed by the prior run (1782213, 1782202, 1781934-1781936, 1781561, 1781811, etc.). QTH shows dates only. No unreviewed remainder. Renewed/modified older ads reviewed in the window include 1782075, 1781803, 1782027, 1781656, 1782196, 1782063, 1782035, 1782206, 1782203, 1782200, 1782199, 1782198, 1782197, 1781484, 1782126, 1782212, 1782096, 1780348, 1782161, 1782240, 1781875, 1779292, 1782164, 1782098, 1782173, 1782175, 1782117, 1781903, 1782091, 1781415, 1778827, 1778444, 1782099, 1782044, 1782167-1782170, 1782244, 1780674, 1782195, 1782105, 1781547, 1781756, 1782180, 1782139, 1781007, 1778169, 1778023, 1781636, 1782066, 1782067, 1781999, 1777624, 1770617, 1768459. Candidates (6, cap): IC-7300 1782321, FLEX-8400 1782252, FLEX-6600M 1782290, IC-756PRO II bundle 1781875 (renewed), TS-570D(G) 1782248, AL-811 1782318. Plausible extras not comp-searched (cap): 1782313 Yaesu FTM-400DR $450 shipped; 1782300 Flex Aurora AU-520 $7,600 shipped; 1782299 FTDX-9000D and FTDX-5000MP SK sale ($4700 seen in ad); 1782279 and 1782278 Icom IC-7760 $5,450 incl shipping (two near-identical ads); 1782286 Yaesu FT-510DR $419 + $25 shipped; 1782316 Icom IC-R75 $500; 1782275 Ten-Tec Scout 555 $325 shipped; 1782270 Palstar AT5K $765 + shipping; 1782273 Palstar AT4K $700 OBO + shipping; 1782302 Icom IC-AT500 $225 + shipping; 1782265 Ameritron AL-80B $1,100 pickup central Ohio; 1782266 Yaesu FL-2100B $750 pickup; 1782268 Yaesu FT-101EE $600 pickup; 1782267 Heathkit amp $800 pickup; 1782236 Hardrock 50+ w/tuner $550/$525; 1782232 Collins 75S-3B $595 shipped; 1782320 Elecraft P3 $489 delivered; 1782324 Astron RS-35M $149.50 + shipping; 1782310 W6PO-style 2m 8877 amp kit $400. No price seen in list text: 1782325 Palstar AT2K, 1782282 Palstar AT-2KD, 1782259 ACOM 600S, 1782297 Yaesu FT90, 1782280 Ameritron RCS-4. Needs-work extras: 1781999 Kenwood TS-480HX 'for Restore or Parts' $400 + shipping; 1781803 Sun SDR2 Pro $700 shipped 'as is'. Renewed older ads of note: 1782126 Ameritron AL-80B now $1,400 shipped (was $1500); 1781656 Elecraft KX3 loaded $1750 shipped; 1781484 Lab599 TX-500 $850 pickup; 1782096 Icom IC-703+ & CW filter $425 shipped (1782091 IC-703+ $435 already dropped); 1781636 Flex 6700 w/GPSDO $2,900 shipped; 1782075 FT-710 Field (already dropped). Not picked: wanted ads, books/manuals, accessories/parts/mics/headsets, Motorola commercial gear, test gear, towers, tubes, non-ham items. Ledger (comps.json): ICOM IC-7300 HIT (count 8, 2026-09-29); FLEXRADIO 6600M MISS (count 1); ICOM IC-756PROII MISS (count 2); FLEX-8400, TS-570DG, AL-811 not in ledger -> eBay. eBay: signed in as Leo, 5 sold searches (flexradio flex-8400, flexradio 6600M, icom ic-756pro ii, kenwood ts-570dg, ameritron al-811), one at a time, no challenge. eHam not touched.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782321",
+      "site": "qth",
+      "title": "RADIOHF - For Sale: Icom IC-7300",
+      "price": 755.0,
+      "shipping": 0,
+      "found_at": "2026-10-15",
+      "condition_notes": "Lightly used, mainly for listening; case never opened, no modifications; looks like new, non-smoking home; shipped in original box. $755 shipping included.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782252",
+      "site": "qth",
+      "title": "RADIOHF - Flex8400 W/ATU and SmartSDR+",
+      "price": 2200.0,
+      "shipping": 0,
+      "found_at": "2026-10-15",
+      "condition_notes": "Purchased December 2024, non-smoking; SmartSDR+ through 11/21/2026, firmware 4.3.16; includes FHM-3 mic, DC power cable (modified, per ad), network cable, GPS antenna, factory double box. $2200 includes shipping and insurance CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782290",
+      "site": "qth",
+      "title": "RADIOHF - Flex 6600M with ATU",
+      "price": 2899.0,
+      "shipping": 0,
+      "found_at": "2026-10-15",
+      "condition_notes": "Seller says mint/immaculate, works flawlessly; V.4.4.20 software, TCXO, built-in ATU; smoke-free shack. $2899 shipped CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781875",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE: Icom 756 PRO II + PS125 + HM36",
+      "price": 650.0,
+      "shipping": 0,
+      "found_at": "2026-10-15",
+      "condition_notes": "Bundle: IC-756PRO II + PS-125 power supply + HM-36 mic + manuals/schematics; good condition, tested, works great. $650 shipped CONUS. Renewed ad (submitted 10/10, edited 10/15).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782248",
+      "site": "qth",
+      "title": "RADIOHF - Excellent Kenwood 570D(G)",
+      "price": 550.0,
+      "shipping": 0,
+      "found_at": "2026-10-15",
+      "condition_notes": "Very nice clean condition, working as it should; D(G) on rear serial tag; includes power cord and Kenwood mic, original box available. $550 shipped/insured US.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782318",
+      "site": "qth",
+      "title": "AMPHF - For Sale: Ameritron AL-811",
+      "price": 875.0,
+      "shipping": 0,
+      "found_at": "2026-10-15",
+      "condition_notes": "Mint, well taken care of, no smoking; 160-10 m including 10 meter mod; all new Taylor 811 tubes; manual included. $875 plus insured UPS shipping (amount not stated).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
