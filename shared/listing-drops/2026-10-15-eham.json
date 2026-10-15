@@ -1,0 +1,42 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-15",
+  "ran_at": "2026-10-15T05:53:20-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-14T05:52:39-04:00 (prior eham run; last ad covered 629200). Browsed signed OUT ('Welcome Guest'). Loaded classifieds home only (full ad text shown there; newest ads 629201-629204 are the new window); no individual ads, search form, sold searches or seller/callsign pages; no Cloudflare challenge. Skipped as non-candidate: Rohn 25GSSB tower base (629204, tower hardware, not radio gear). Comps: 1 ledger hit (Icom IC-7100); 2 eBay sold searches (Icom IC-706MKIIG, Hallicrafters HT-9), signed in as Leo, no challenge.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629203",
+      "site": "eham",
+      "title": "Hallicrafters HT--9  From original owner",
+      "price": 50.0,
+      "shipping": 0,
+      "found_at": "2026-10-15",
+      "condition_notes": "Boat-anchor AM transmitter. Seller: 'hasnt been turned on in at least 30 years so im sure it will need caps'. Pick up only, NE Texas; buyer brings help (heavy). $50. Posted 2026-10-14.",
+      "work_flag": "hasnt been turned on in at least 30 years so im sure it will need caps; pick up only",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629202",
+      "site": "eham",
+      "title": "Icom 706 Mk2G with Sep kit",
+      "price": 675.0,
+      "shipping": 0,
+      "found_at": "2026-10-15",
+      "condition_notes": "Seller: 'Works as should.' Includes mic, power cord, mounting brackets, remote separation kit (head extension and speaker extension cables). 'Has DSP and I think cw filter installed.' '$ 675 plus', Dallas TX; shipping amount not stated. Posted 2026-10-14.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629201",
+      "site": "eham",
+      "title": "Icom 7100 As New - Sell or Trade",
+      "price": 700.0,
+      "shipping": 0,
+      "found_at": "2026-10-15",
+      "condition_notes": "Seller: 'perfect condition... Open box... Works perfect.' $700.00 in the CONUS (shipping not separately stated). Seller also open to trade for TS-590S/IC-7300. Posted 2026-10-14.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
