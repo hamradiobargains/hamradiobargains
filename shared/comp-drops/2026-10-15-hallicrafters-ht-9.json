@@ -1,0 +1,15 @@
+{
+  "model": "Hallicrafters HT-9",
+  "slug": "hallicrafters-ht-9",
+  "searched_at": "2026-10-15T05:56:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no comps.json entry). eBay sold page 1 (signed in as Leo, no challenge): 9 results before 'Results matching fewer words', none an HT-9 (HT-40, HT-46, HT-37, HT-18, HT-44 only). 0 kept comps — thin/none. Nothing dropped as best-offer-accepted or parts-only from HT-9 results because there were none.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629203",
+    "site": "eham",
+    "ask": 50.0,
+    "shipping": 0
+  },
+  "comps": []
+}
