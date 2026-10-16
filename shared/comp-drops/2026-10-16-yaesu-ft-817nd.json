@@ -1,0 +1,239 @@
+{
+  "model": "Yaesu FT-817ND",
+  "slug": "yaesu-ft-817nd",
+  "searched_at": "2026-10-16T18:03:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, exact model 'Yaesu FT-817ND'. Ledger miss. kept 23 comps. dropped 6 best-offer-accepted; dropped 1 parts-only. OUTLIERS flagged (kept): 206513482931 $1,300.00 vs ~$747.00; 278287849599 $1,125.00 vs ~$747.00. Excluded FT-817 (non-ND) and FT-818 sales (different models) and accessories (cables, knobs, batteries, stands, tuners). Three auctions from the same seller with identical titles and shipping (278311963742, 278287849599, 278262770891) are kept unflagged — nothing confirms the same unit.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/237127554246",
+    "site": "ebay",
+    "ask": 556.0,
+    "shipping": 90.0
+  },
+  "comps": [
+    {
+      "price": 735.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237108197694",
+      "source": "ebay",
+      "notes": "Auction, 8 bids. Title: 'with BHL-DSP'. Shipping +$25.00 shown.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 820.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336840020029",
+      "source": "ebay",
+      "notes": "Title: '*EXCELLENT CONDITION* *USA MODEL*'. Shipping +$38.48 shown.",
+      "flags": []
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227548012933",
+      "source": "ebay",
+      "notes": "Auction, 2 bids. Title: 'Complete Station, voice, digital, tuners, rechargable bat...'. Shipping +$84.44 shown.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 629.3,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/397702552193",
+      "source": "ebay",
+      "notes": "Title: 'Working'. Shipping +$132.00 shown.",
+      "flags": []
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137702526006",
+      "source": "ebay",
+      "notes": "Title: 'USA VERSION'. Shipping +$40.00 shown.",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168752978976",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Title: 'Complete Station many extras'. Same title/price as 168751371614 sold a day earlier — possibly same unit relisted. Free shipping shown.",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168751371614",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Title: 'Complete Station many extras'. Same title/price as 168752978976. Free shipping shown.",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128093158281",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Shipping +$15.65 shown.",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178488884497",
+      "source": "ebay",
+      "notes": "Shipping +$54.04 shown.",
+      "flags": []
+    },
+    {
+      "price": 899.95,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237039970332",
+      "source": "ebay",
+      "notes": "Title: 'With LDG Z100 Tuner 10Ah Battery Go Bag & More'. Shipping +$24.78 shown.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 759.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137664701741",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Title: 'USA VERSION'. Shipping +$40.00 shown.",
+      "flags": []
+    },
+    {
+      "price": 1300.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206513482931",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,300.00 vs ~$747.00 median for the rest. Title: '+ Extras (US version, excellent)'. Shipping +$32.00 shown.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 847.01,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278311963742",
+      "source": "ebay",
+      "notes": "Auction, 20 bids. Shipping +$31.70 shown.",
+      "flags": []
+    },
+    {
+      "price": 1125.0,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278287849599",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,125.00 vs ~$747.00 median for the rest. Auction, 20 bids. Shipping +$31.70 shown.",
+      "flags": []
+    },
+    {
+      "price": 999.99,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227484836203",
+      "source": "ebay",
+      "notes": "Title: 'w/Accssy's #1 of 2'. Free shipping shown.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1075.0,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278262770891",
+      "source": "ebay",
+      "notes": "Auction, 18 bids. Shipping +$31.70 shown.",
+      "flags": []
+    },
+    {
+      "price": 553.68,
+      "sold_date": "2026-08-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298508897660",
+      "source": "ebay",
+      "notes": "Shipping +$83.05 shown.",
+      "flags": []
+    },
+    {
+      "price": 645.0,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327293823811",
+      "source": "ebay",
+      "notes": "Title: 'portable QRP'. Shipping +$15.00 shown.",
+      "flags": []
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2026-07-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366561694060",
+      "source": "ebay",
+      "notes": "Title: 'w/ Box'. Shipping +$17.90 shown.",
+      "flags": []
+    },
+    {
+      "price": 520.0,
+      "sold_date": "2026-07-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227432699187",
+      "source": "ebay",
+      "notes": "Auction, 30 bids. Shipping +$18.04 shown.",
+      "flags": []
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2026-07-21",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/137536887821",
+      "source": "ebay",
+      "notes": "Title: 'ALL MODE - NEW'. Free shipping shown.",
+      "flags": []
+    },
+    {
+      "price": 639.99,
+      "sold_date": "2026-07-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127986051357",
+      "source": "ebay",
+      "notes": "Shipping +$26.49 shown.",
+      "flags": []
+    },
+    {
+      "price": 552.99,
+      "sold_date": "2026-03-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/386745952102",
+      "source": "ebay",
+      "notes": "Title: 'Good Tested Condition'. Shipping +$68.99 shown.",
+      "flags": []
+    }
+  ]
+}
