@@ -1,0 +1,69 @@
+{
+  "model": "Icom IC-2AT",
+  "slug": "icom-ic-2at",
+  "searched_at": "2026-10-16T05:58:49-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1. 5 kept. Dropped 3 best-offer-accepted (389453730419 [also Parts Only], 168770534410, 407274009024). Dropped 9 parts-only/as-is (168699476281, 137644986315, 407198119954, 137640115509, 178349674884, 257693847454, 336744283016, 287436087848, 377209855275). Excluded IC-02AT and IC-4AT sales (different models) and 1 IC-4AT + IC-2AT-for-parts bundle (198667008509). OUTLIERS flagged: $59.99 (with box/accessories) and $79.95 (APRS GPS + accessories) vs ~$28 for bare units.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629216",
+    "site": "eham",
+    "ask": 65.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 59.99,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/920002332007",
+      "source": "ebay",
+      "notes": "OUTLIER: $59.99 vs ~$27.88 median of the rest. Buy It Now, +$13.85 delivery. Title: 'w/Box and Accessories'.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 27.75,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137776846366",
+      "source": "ebay",
+      "notes": "Buy It Now, +$9.75 delivery.",
+      "flags": []
+    },
+    {
+      "price": 26.0,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188868637706",
+      "source": "ebay",
+      "notes": "Auction, 6 bids, +$16.95 delivery. Title: 'with Battery plus 2 extra antennas'.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 79.95,
+      "sold_date": "2026-07-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267741395721",
+      "source": "ebay",
+      "notes": "OUTLIER: $79.95 vs ~$27.88 median of the rest. Fixed price 'or Best Offer' (not marked accepted), +$12.97 delivery. Title: 'APRS GPS with Accessories - Complete, Tested'.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 28.0,
+      "sold_date": "2026-07-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307079780137",
+      "source": "ebay",
+      "notes": "Buy It Now, +$10.15 delivery. Title: 'Untested'.",
+      "flags": [
+        "as_is"
+      ]
+    }
+  ]
+}
