@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T12:53:12+00:00",
+ "updated": "2026-10-16T12:53:09+00:00",
  "source": "HamRadioBargains sold-comp ledger \u2014 genuine sold listings from eHam, QTH, eBay and site deals, plus the eHam comp archive. Prices are asking prices at sale; best offers may differ.",
  "models": {
   "ACOM 1000": {
@@ -53,6 +53,24 @@
      "low": 1000.0,
      "high": 1000.0,
      "count": 1
+    }
+   ]
+  },
+  "AMERITRON AL-811": {
+   "latest": {
+    "date": "2026-09-14",
+    "median": 749.99,
+    "low": 669.99,
+    "high": 1050.0,
+    "count": 7
+   },
+   "history": [
+    {
+     "date": "2026-09-14",
+     "median": 749.99,
+     "low": 669.99,
+     "high": 1050.0,
+     "count": 7
     }
    ]
   },
@@ -489,6 +507,42 @@
     }
    ]
   },
+  "FLEXRADIO FLEX-6600M": {
+   "latest": {
+    "date": "2026-09-13",
+    "median": 3250.0,
+    "low": 3000.0,
+    "high": 3500.0,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-09-13",
+     "median": 3250.0,
+     "low": 3000.0,
+     "high": 3500.0,
+     "count": 2
+    }
+   ]
+  },
+  "FLEXRADIO FLEX-8400": {
+   "latest": {
+    "date": "2026-07-19",
+    "median": 2049.0,
+    "low": 2049.0,
+    "high": 2049.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-07-19",
+     "median": 2049.0,
+     "low": 2049.0,
+     "high": 2049.0,
+     "count": 1
+    }
+   ]
+  },
   "FLEXRADIO MAESTRO": {
    "latest": {
     "date": "2026-09-15",
@@ -730,6 +784,24 @@
     }
    ]
   },
+  "ICOM IC-2AT": {
+   "latest": {
+    "date": "2026-09-27",
+    "median": 27.75,
+    "low": 26.0,
+    "high": 28.0,
+    "count": 3
+   },
+   "history": [
+    {
+     "date": "2026-09-27",
+     "median": 27.75,
+     "low": 26.0,
+     "high": 28.0,
+     "count": 3
+    }
+   ]
+  },
   "ICOM IC-7000": {
    "latest": {
     "date": "2026-09-30",
@@ -942,6 +1014,24 @@
      "low": 426.0,
      "high": 760.0,
      "count": 3
+    }
+   ]
+  },
+  "ICOM IC-756PRO II": {
+   "latest": {
+    "date": "2026-10-15",
+    "median": 667.5,
+    "low": 600.0,
+    "high": 800.0,
+    "count": 6
+   },
+   "history": [
+    {
+     "date": "2026-10-15",
+     "median": 667.5,
+     "low": 600.0,
+     "high": 800.0,
+     "count": 6
     }
    ]
   },
@@ -1193,6 +1283,24 @@
     }
    ]
   },
+  "ICOM IC-R7000": {
+   "latest": {
+    "date": "2026-10-09",
+    "median": 320.0,
+    "low": 195.0,
+    "high": 557.85,
+    "count": 7
+   },
+   "history": [
+    {
+     "date": "2026-10-09",
+     "median": 320.0,
+     "low": 195.0,
+     "high": 557.85,
+     "count": 7
+    }
+   ]
+  },
   "ICOM IC-R75": {
    "latest": {
     "date": "2026-02-19",
@@ -1377,6 +1485,24 @@
      "low": 100.0,
      "high": 100.0,
      "count": 1
+    }
+   ]
+  },
+  "KENWOOD MC-43S": {
+   "latest": {
+    "date": "2026-09-29",
+    "median": 49.99,
+    "low": 39.99,
+    "high": 65.0,
+    "count": 3
+   },
+   "history": [
+    {
+     "date": "2026-09-29",
+     "median": 49.99,
+     "low": 39.99,
+     "high": 65.0,
+     "count": 3
     }
    ]
   },
@@ -1843,18 +1969,18 @@
   "KENWOOD TS-830S": {
    "latest": {
     "date": "2026-09-29",
-    "median": 425,
-    "low": 325,
-    "high": 425,
-    "count": 2
+    "median": 339.99,
+    "low": 200.0,
+    "high": 625.0,
+    "count": 10
    },
    "history": [
     {
      "date": "2026-09-29",
-     "median": 425,
-     "low": 325,
-     "high": 425,
-     "count": 2
+     "median": 339.99,
+     "low": 200.0,
+     "high": 625.0,
+     "count": 10
     }
    ]
   },
@@ -2053,6 +2179,24 @@
      "low": 295.0,
      "high": 350.0,
      "count": 2
+    }
+   ]
+  },
+  "MIRAGE B108": {
+   "latest": {
+    "date": "2026-10-07",
+    "median": 125.0,
+    "low": 107.77,
+    "high": 130.0,
+    "count": 3
+   },
+   "history": [
+    {
+     "date": "2026-10-07",
+     "median": 125.0,
+     "low": 107.77,
+     "high": 130.0,
+     "count": 3
     }
    ]
   },
@@ -2287,6 +2431,24 @@
      "low": 220.0,
      "high": 220.0,
      "count": 1
+    }
+   ]
+  },
+  "WEST MOUNTAIN RADIO PWRGATE PG40S": {
+   "latest": {
+    "date": "2026-09-07",
+    "median": 65.0,
+    "low": 51.01,
+    "high": 78.99,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-09-07",
+     "median": 65.0,
+     "low": 51.01,
+     "high": 78.99,
+     "count": 2
     }
    ]
   },
@@ -3025,11 +3187,11 @@
   },
   "YAESU FTM-300D": {
    "latest": {
-    "date": "2026-04-05",
-    "median": 370.0,
-    "low": 340.0,
+    "date": "2026-10-03",
+    "median": 340.0,
+    "low": 299.0,
     "high": 400.0,
-    "count": 2
+    "count": 5
    },
    "history": [
     {
@@ -3038,6 +3200,13 @@
      "low": 340.0,
      "high": 400.0,
      "count": 2
+    },
+    {
+     "date": "2026-10-03",
+     "median": 340.0,
+     "low": 299.0,
+     "high": 400.0,
+     "count": 5
     }
    ]
   },
