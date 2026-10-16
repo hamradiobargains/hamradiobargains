@@ -1,0 +1,74 @@
+{
+  "model": "Kenwood TS-940S",
+  "slug": "kenwood-ts-940s",
+  "searched_at": "2026-10-16T18:03:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, exact model 'Kenwood TS-940S'. Ledger miss. kept 6 comps. dropped 3 best-offer-accepted; dropped 8 parts-only. OUTLIERS flagged (kept): 128008695202 $1,290.00 vs ~$599.99; 178546441890 $1,100.00 vs ~$599.99. 3 best-offer-accepted sales were also parts-only units (counted once, as best-offer-accepted). Excluded accessories/boards/filters/manuals. Two TS-940S AT (built-in tuner) sales from the same seller title template (198614962422, 198515253309) — not flagged as duplicates since nothing confirms the same unit.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/168797639469",
+    "site": "ebay",
+    "ask": 650.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1290.0,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128008695202",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,290.00 vs ~$599.99 median for the rest. Title: 'Working'. Shipping +$610.00 shown.",
+      "flags": []
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178546441890",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,100.00 vs ~$599.99 median for the rest. Title: '+ Box (A+ cosmetics, one owner)'. Shipping +$215.10 shown.",
+      "flags": []
+    },
+    {
+      "price": 649.99,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198614962422",
+      "source": "ebay",
+      "notes": "TS-940S AT (built-in antenna tuner version). Shipping +$89.76 shown.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 440.11,
+      "sold_date": "2026-07-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318621630335",
+      "source": "ebay",
+      "notes": "Sold as fixed price or best offer (not best-offer-accepted). Shipping +$139.86 shown.",
+      "flags": []
+    },
+    {
+      "price": 574.99,
+      "sold_date": "2026-08-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198515253309",
+      "source": "ebay",
+      "notes": "TS-940S AT (built-in antenna tuner version). Shipping +$89.76 shown.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 599.99,
+      "sold_date": "2026-07-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168513548025",
+      "source": "ebay",
+      "notes": "Title: 'Working'. Free delivery shown.",
+      "flags": []
+    }
+  ]
+}
