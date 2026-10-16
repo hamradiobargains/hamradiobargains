@@ -1,0 +1,15 @@
+{
+  "model": "Acom 2000A",
+  "slug": "acom-2000a",
+  "searched_at": "2026-10-16T15:02:24-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'acom 2000a', page 1: 1 result, a dust cover (accessory) - left out. 0 qualifying sold comps. Thin - no data. Dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782399",
+    "site": "qth",
+    "ask": 3750.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
