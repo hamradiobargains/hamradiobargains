@@ -1,0 +1,88 @@
+{
+  "model": "Icom IC-7610",
+  "slug": "icom-ic-7610",
+  "searched_at": "2026-10-16T15:02:24-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-7610', page 1. 8 kept. Dropped 1 best-offer-accepted (147523014556, $3,095). Dropped 1 parts-only (158100006327, $1,128 auction, 'Parts Only'). Left out manuals/heatsink clip accessories, IC-7600/IC-703 units (different models), and 136762151186 ($2,598.38, 'IC-7610 Series Monitoring Equipment JP 100V w/NTI-200 Step-Up/Down Unit' - Japanese-market unit bundled with a transformer; identity/bundle in doubt). OUTLIER: 188824185236 at $768 vs ~$2,400 median of the rest.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782351",
+    "site": "qth",
+    "ask": 2300.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 3200.0,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178255106938",
+      "source": "ebay",
+      "notes": "+$24.82 delivery.",
+      "flags": []
+    },
+    {
+      "price": 2750.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398388172460",
+      "source": "ebay",
+      "notes": "Fixed price, 'or Best Offer' listing (not best-offer-accepted). Title: w/ Mic. +$25.12 delivery.",
+      "flags": []
+    },
+    {
+      "price": 2300.0,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137735732253",
+      "source": "ebay",
+      "notes": "Fixed price, 'or Best Offer' listing (not best-offer-accepted). +$75.33 delivery.",
+      "flags": []
+    },
+    {
+      "price": 2600.0,
+      "sold_date": "2026-08-23",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/127210125969",
+      "source": "ebay",
+      "notes": "Fixed price, 'or Best Offer' listing (not best-offer-accepted). Title: 'NEW'. +$93.09 delivery.",
+      "flags": []
+    },
+    {
+      "price": 768.0,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188824185236",
+      "source": "ebay",
+      "notes": "OUTLIER: $768 vs ~$2,400 median for the rest. Fixed price, 'or Best Offer' listing (not best-offer-accepted). +$139.86 delivery.",
+      "flags": []
+    },
+    {
+      "price": 2025.0,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117333049144",
+      "source": "ebay",
+      "notes": "Auction, 11 bids. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 2000.0,
+      "sold_date": "2026-07-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298527531242",
+      "source": "ebay",
+      "notes": "Fixed price, 'or Best Offer' listing (not best-offer-accepted). Title: w/ Box. +$139.86 delivery.",
+      "flags": []
+    },
+    {
+      "price": 2400.0,
+      "sold_date": "2026-07-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307073230979",
+      "source": "ebay",
+      "notes": "Fixed price, 'or Best Offer' listing (not best-offer-accepted). Free delivery.",
+      "flags": []
+    }
+  ]
+}
