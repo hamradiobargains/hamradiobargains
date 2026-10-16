@@ -1,0 +1,86 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-16",
+  "ran_at": "2026-10-16T05:52:51-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-15T05:53:20-04:00 (prior eham run; last ad covered 629204). Browsed signed OUT ('Welcome Guest'). Classifieds home showed a Cloudflare 'Performing security verification' interstitial on first load that cleared on its own after ~10s with no interaction; no 1015 and no CAPTCHA. Loaded classifieds home (ads 629206-629216; 629213 not shown) plus individual ad 629205; page-2 click did not navigate and was not retried. No search form, sold searches, or seller/callsign pages. Skipped as non-candidates: Kenwood SP-930 speaker (629205, accessory), Hy-Gain rotator QC connector kit (629214, accessory), CDE/Hy-Gain H4 rotator (629209, $335+ship) and T2X rotator (629208, $435+ship) (rotators, not in radio/amp/tuner/mic/PSU scope). Comps: 1 ledger hit (Heathkit SB-220); 5 eBay sold searches (Ameritron ALS-600, Hallicrafters SR-160, Icom IC-2AT, Kenwood MC-43S, West Mountain Radio PG40S), signed in as Leo, no challenge. Yaesu M90 mic listed without comps (M-90D vs M-90MS not certain).",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629216",
+      "site": "eham",
+      "title": "Icom 2at for sale",
+      "price": 65.0,
+      "shipping": 0,
+      "found_at": "2026-10-16",
+      "condition_notes": "Icom IC-2AT 2m FM HT. Seller: good working condition, nice clean condition, not turned on much, tested with IC-DM1 DC regulator case on a home power supply; cosmetics very good, may have small scratches. Includes DC battery regulator & battery, charger. 'no guarantee on the battery because of the age'. $65 shipped to lower 48. Posted 2026-10-14.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629215",
+      "site": "eham",
+      "title": "Yaesu M90 Mic For Sale",
+      "price": 155.0,
+      "shipping": 0,
+      "found_at": "2026-10-16",
+      "condition_notes": "Yaesu M-90-series desk mic; ad does not say whether M-90D or M-90MS. Used 3x, 'Works as if you just pulled it out of the box', original box. $155 including shipping to lower 48. No trades. Posted 2026-10-14. No comp search run: exact model (M-90D vs M-90MS) not certain from the ad.",
+      "work_flag": "No returns",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629212",
+      "site": "eham",
+      "title": "FS: Kenwood MC-43S Microphone",
+      "price": 40.0,
+      "shipping": 0,
+      "found_at": "2026-10-16",
+      "condition_notes": "Kenwood MC-43S hand mic (body text says 'MC-43'). Brand new, never used, instruction manual included. 'List $79, sell $40 ship FREE'. Posted 2026-10-14.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629211",
+      "site": "eham",
+      "title": "WMR PWRGate PG40S",
+      "price": 80.0,
+      "shipping": 0,
+      "found_at": "2026-10-16",
+      "condition_notes": "West Mountain Radio PWRgate PG40S 40A backup power system / charger. 'in great condition'. '$120+ new, I'll ship this for $80 CONUS'. Posted 2026-10-14.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629210",
+      "site": "eham",
+      "title": "Hallicrafters SR-160 Full output",
+      "price": 100.0,
+      "shipping": 0,
+      "found_at": "2026-10-16",
+      "condition_notes": "Hallicrafters SR-160 tri-band transceiver. Full output, used on CW on 40m. Seller: 'It does have a problem on ssb... it has carrier in the ssb posistion.' No power supply included. $100, free shipping CONUS. Downsizing, no returns. Posted 2026-10-14.",
+      "work_flag": "It does have a problem on ssb - carrier in the ssb position; no power supply; no returns",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629207",
+      "site": "eham",
+      "title": "Ameritron ALS-600 and ALS-600PS",
+      "price": 1250.0,
+      "shipping": 0,
+      "found_at": "2026-10-16",
+      "condition_notes": "Ameritron ALS-600 amp with heavy-duty ALS-600PS supply. 10/12m add-on board installed. 'work very well and are in very good shape', usual scrapes and scratches, 'No known issues whatsoever'. Output photos 321W (RTTY mode) / 560W (normal). $1250 shipped CONUS. Posted 2026-10-14.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629206",
+      "site": "eham",
+      "title": "Heathkit SB-220 loaded",
+      "price": 1100.0,
+      "shipping": 0,
+      "found_at": "2026-10-16",
+      "condition_notes": "Refurbished Heathkit SB-220: Eimac tubes, new fan, parasitic mod, new rectifier board, new filter cap bank, new meters and knobs, low-voltage keying mod, new T/R relay. Full output, very nice inside and out, manual and vinyl cover. $1100 PICKUP ONLY in Scenic AZ (will meet along I-15 Las Vegas-St George), no shipping. Posted 2026-10-14.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
