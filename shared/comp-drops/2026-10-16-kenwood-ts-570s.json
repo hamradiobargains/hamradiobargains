@@ -1,0 +1,54 @@
+{
+  "model": "Kenwood TS-570S",
+  "slug": "kenwood-ts-570s",
+  "searched_at": "2026-10-16T15:02:24-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood ts-570s', page 1. 4 kept (TS-570S only; TS-570D/TS-570DG/TS-570SG left out as different models). Dropped 2 parts-only (227492850782 $375 'Parts Only'; 298552191549 $349.99 'UNTESTED AS IS', Parts Only) - both were also best-offer-accepted. Left out knob, manual and filter accessories. No outliers. Thin-ish but usable.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782348",
+    "site": "qth",
+    "ask": 525.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 580.0,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267803536259",
+      "source": "ebay",
+      "notes": "Fixed price, 'or Best Offer' listing (not best-offer-accepted). Title: with MIC and Power Cable, Very Nice. +$38.65 delivery.",
+      "flags": []
+    },
+    {
+      "price": 495.5,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128096532214",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Title: With Heil Mic And SP-23 Speaker. +$49.00 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318782595379",
+      "source": "ebay",
+      "notes": "Fixed price, 'or Best Offer' listing (not best-offer-accepted). Title: + MIC + Power Cable. +$3.85 delivery.",
+      "flags": []
+    },
+    {
+      "price": 780.94,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/315690759397",
+      "source": "ebay",
+      "notes": "Fixed price, 'or Best Offer' listing (not best-offer-accepted). Title: 'Fully Working'. Free delivery.",
+      "flags": []
+    }
+  ]
+}
