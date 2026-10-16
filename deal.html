@@ -160,6 +160,7 @@ async src="//gc.zgo.at/count.js"></script>
 <div class="item-date" id="item-date"></div>
 <div class="badge" id="item-badge"></div>
 <div id="work-flag" style="display:none;margin:8px 0 0;padding:10px 12px;background:#3a2b12;border:1px solid #8a6a2f;border-radius:8px;color:#f5c86e;font-size:14px;"></div>
+<div id="second-look" style="display:none;margin:8px 0 0;padding:10px 12px;background:#12312a;border:1px solid #2f8a6a;border-radius:8px;color:#7ee2b8;font-size:14px;"></div>
 
 <div class="price-row">
 <span class="label">Asking price</span>
@@ -276,6 +277,7 @@ compCount: d.compCount == null ? '' : String(d.compCount),
 compLow: d.compLow == null ? '' : String(d.compLow),
 compHigh: d.compHigh == null ? '' : String(d.compHigh),
 workFlag: '',
+secondLook: '',
 notes: d.notes || ''
 };
 }
@@ -292,6 +294,30 @@ compCount: d.comp_count == null ? '' : String(d.comp_count),
 compLow: '',
 compHigh: '',
 workFlag: d.work_flag || '',
+secondLook: '',
+notes: ''
+};
+}
+function adaptSecond(d) {
+const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+let sinceTxt = '';
+const iso = d.listed_since || d.date || '';
+const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso);
+if (m) sinceTxt = months[Number(m[2]) - 1] + ' ' + Number(m[3]) + ', ' + m[1];
+const pctTxt = formatPctDisplay(d.pct_below == null ? null : Number(d.pct_below) / 100);
+return {
+date: d.date || '',
+item: d.title || '',
+link: d.url || '',
+price: d.price == null ? '' : String(d.price),
+extra: d.extra == null ? '' : String(d.extra),
+pctBelow: formatPctDisplay(d.pct_below == null ? null : Number(d.pct_below) / 100),
+median: d.median == null ? '' : String(d.median),
+compCount: d.comp_count == null ? '' : String(d.comp_count),
+compLow: d.comp_low == null ? '' : String(d.comp_low),
+compHigh: d.comp_high == null ? '' : String(d.comp_high),
+workFlag: '',
+secondLook: 'This listing first appeared on our board' + (sinceTxt ? ' on ' + sinceTxt : '') + ' and is still available at ' + (pctTxt || 'a discount') + ' below the median of ' + (d.comp_count || '') + ' recorded sales. A seller who has waited this long may listen to a fair offer.',
 notes: ''
 };
 }
@@ -306,9 +332,13 @@ return r.json();
 fetch('tech-specials.json')
 .then(r => r.ok ? r.json() : { listings: [] })
 .then(json => (json.listings || []).map(adaptTech))
+.catch(() => []),
+fetch('second-look.json')
+.then(r => r.ok ? r.json() : { listings: [] })
+.then(json => (json.listings || []).map(adaptSecond))
 .catch(() => [])
 ])
-.then(parts => parts[0].concat(parts[1]));
+.then(parts => parts[0].concat(parts[1]).concat(parts[2]));
 }
 
 function moneyToNumber(s) {
@@ -343,6 +373,14 @@ wf.style.display = 'block';
 wf.textContent = '\u26A0 Needs work: ' + deal.workFlag;
 } else {
 wf.style.display = 'none';
+}
+
+const sl = document.getElementById('second-look');
+if (deal.secondLook) {
+sl.style.display = 'block';
+sl.textContent = '\uD83D\uDD01 Second Look: ' + deal.secondLook;
+} else {
+sl.style.display = 'none';
 }
 
 const asking = moneyToNumber(deal.price);
