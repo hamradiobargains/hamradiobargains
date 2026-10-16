@@ -1,0 +1,15 @@
+{
+  "model": "OM Power 4000HF",
+  "slug": "om-power-4000hf",
+  "searched_at": "2026-10-16T15:02:24-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'om power 4000hf', page 1: 0 results. 0 qualifying sold comps. Thin - no data.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782400",
+    "site": "qth",
+    "ask": 4900.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
