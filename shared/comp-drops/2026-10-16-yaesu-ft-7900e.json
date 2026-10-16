@@ -1,0 +1,25 @@
+{
+  "model": "Yaesu FT-7900E",
+  "slug": "yaesu-ft-7900e",
+  "searched_at": "2026-10-16T18:03:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, exact model 'Yaesu FT-7900E'. Ledger miss. kept 1 comp — thin. dropped 0 best-offer-accepted; dropped 0 parts-only. No outliers. thin — only 1 FT-7900E sale on page 1. Excluded FT-7900R and plain 'FT-7900' sales (US version / unspecified — not certain to be the same model as the European FT-7900E); 1 FT-7900R sale was best-offer-accepted. Excluded a rotary-encoder part.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/117467986389",
+    "site": "ebay",
+    "ask": 249.95,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 111.54,
+      "sold_date": "2026-08-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198546514486",
+      "source": "ebay",
+      "notes": "Auction, 15 bids. Title: 'Yaesu Ft 7900E 50W Dual Band FM VHF/UHF Transceiver'. Shipping +$39.04 shown.",
+      "flags": []
+    }
+  ]
+}
