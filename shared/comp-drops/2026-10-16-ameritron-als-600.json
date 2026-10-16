@@ -1,0 +1,107 @@
+{
+  "model": "Ameritron ALS-600",
+  "slug": "ameritron-als-600",
+  "searched_at": "2026-10-16T05:58:49-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1. 9 kept. Dropped 3 best-offer-accepted (278422905842, 237000446817, 178356983060). Dropped 1 parts-only (127822473873). Excluded 2 power-supply-only sales (158310556449, 198597473566) and 1 ALS-606 (137558560180, different model, also Parts Only). OUTLIERS flagged: 2 'Amp Only' sales without power supply ($705, $620). Two $1,599.95 '10m mod' BIN sales (327361017630, 227401473869) share title and price — possible same unit relisted.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629207",
+    "site": "eham",
+    "ask": 1250.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1599.95,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327361017630",
+      "source": "ebay",
+      "notes": "Buy It Now, free delivery. Title: '10m mod'. Same title and price as 227401473869.",
+      "flags": [
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 705.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147560067478",
+      "source": "ebay",
+      "notes": "OUTLIER: $705.00 vs ~$1,489.50 median of the rest. Auction, 7 bids, +$15.58 delivery. Title: 'Amp Only' (no power supply).",
+      "flags": []
+    },
+    {
+      "price": 1599.95,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227401473869",
+      "source": "ebay",
+      "notes": "Buy It Now, free delivery. Title: '10m mod'. Same title and price as 327361017630.",
+      "flags": [
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 620.0,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137649822604",
+      "source": "ebay",
+      "notes": "OUTLIER: $620.00 vs ~$1,489.50 median of the rest. Auction, 3 bids, +$15.58 delivery. Title: 'Amp Only' (no power supply).",
+      "flags": []
+    },
+    {
+      "price": 1250.0,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198585403384",
+      "source": "ebay",
+      "notes": "Buy It Now, +$98.50 delivery. Title: '+ Switching PS + Manual (nice)'.",
+      "flags": []
+    },
+    {
+      "price": 1050.0,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236996453801",
+      "source": "ebay",
+      "notes": "Auction, 3 bids, +$75.00 delivery. Title: '10m mod'.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 1499.0,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128015972568",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted), free delivery.",
+      "flags": []
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2026-07-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137534045323",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted), +$74.85 delivery. Title: 'w/ ALS-600PS & ARI-500'.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1480.0,
+      "sold_date": "2026-07-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206422206574",
+      "source": "ebay",
+      "notes": "Buy It Now, +$89.50 delivery. Title: '(works great)'.",
+      "flags": []
+    }
+  ]
+}
