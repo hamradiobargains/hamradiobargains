@@ -1,0 +1,124 @@
+{
+  "model": "Yaesu M-90D",
+  "slug": "yaesu-m-90d",
+  "searched_at": "2026-10-16T07:07:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Leo confirmed 2026-10-16 that eHam ad 629215 is the M-90D (listing drop said M-90D vs M-90MS was uncertain). eBay sold page 1. 12 kept: 7 Brand New (several titled Japan/JP version) at $178.76-$204.90, 1 Open Box $144, 4 Pre-Owned $83-$130. Dropped 0 best-offer-accepted, 0 parts-only among M-90D sales. Excluded 7 Yaesu FT-90/FT-90R transceiver sales (different model; includes 2 best-offer-accepted and 1 Parts Only). OUTLIERS: $83.00.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629215",
+    "site": "eham",
+    "ask": 155.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 83.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117449579288",
+      "source": "ebay",
+      "notes": "OUTLIER: $83.00 vs ~$183.38 median of the rest. Auction, 7 bids, +$25.80 delivery.",
+      "flags": []
+    },
+    {
+      "price": 184.0,
+      "sold_date": "2026-10-05",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/267124528871",
+      "source": "ebay",
+      "notes": "Buy It Now, free delivery. Title: 'JAPAN'.",
+      "flags": []
+    },
+    {
+      "price": 183.38,
+      "sold_date": "2026-09-25",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/137106384108",
+      "source": "ebay",
+      "notes": "Buy It Now, free delivery. Title: 'JP Version New'.",
+      "flags": []
+    },
+    {
+      "price": 115.0,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267787652245",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted), free delivery.",
+      "flags": []
+    },
+    {
+      "price": 178.76,
+      "sold_date": "2026-09-11",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/167612266016",
+      "source": "ebay",
+      "notes": "Buy It Now, +$40.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 99.0,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267764589154",
+      "source": "ebay",
+      "notes": "Buy It Now, +$10.15 delivery. Title: 'Yaesu M-90D'.",
+      "flags": []
+    },
+    {
+      "price": 183.45,
+      "sold_date": "2026-08-20",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/135392985780",
+      "source": "ebay",
+      "notes": "Buy It Now, free delivery. Title: 'from Japan new'.",
+      "flags": []
+    },
+    {
+      "price": 183.5,
+      "sold_date": "2026-08-18",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/387362221382",
+      "source": "ebay",
+      "notes": "Buy It Now, +$30.00 delivery (shown as $183.50, struck-through $193.16). Title: 'jp'.",
+      "flags": []
+    },
+    {
+      "price": 204.9,
+      "sold_date": "2026-08-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/406119088385",
+      "source": "ebay",
+      "notes": "Buy It Now, free delivery.",
+      "flags": []
+    },
+    {
+      "price": 144.0,
+      "sold_date": "2026-08-16",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/206491133550",
+      "source": "ebay",
+      "notes": "Buy It Now, +$6.40 delivery.",
+      "flags": []
+    },
+    {
+      "price": 130.0,
+      "sold_date": "2026-07-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158124849342",
+      "source": "ebay",
+      "notes": "Buy It Now, +$6.03 delivery.",
+      "flags": []
+    },
+    {
+      "price": 187.65,
+      "sold_date": "2026-07-24",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/356342368986",
+      "source": "ebay",
+      "notes": "Buy It Now, +$46.00 delivery.",
+      "flags": []
+    }
+  ]
+}
