@@ -1,0 +1,142 @@
+{
+  "model": "Astron RS-35A",
+  "slug": "astron-rs-35a",
+  "searched_at": "2026-10-16T18:03:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, exact model 'Astron RS-35A'. Ledger miss. kept 14 comps. dropped 8 best-offer-accepted; dropped 1 parts-only. OUTLIERS flagged (kept): 366263889486 $169.99 vs ~$100.00; 206478187648 $49.00 vs ~$110.00; 318710802665 $179.99 vs ~$100.00. Excluded RS-35M and other Astron models, a schematic, and a Kenwood TS-570D + RS-35A bundle (radio is the main item; it was best-offer-accepted anyway, not counted above). Several sales come from one multi-unit seller with the same title template (267760185942, 267760261827, 267760266546) — kept unflagged since multiple units appear to be sold.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/336847615472",
+    "site": "ebay",
+    "ask": 110.0,
+    "shipping": 42.75
+  },
+  "comps": [
+    {
+      "price": 139.95,
+      "sold_date": "2026-10-15",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/237113823519",
+      "source": "ebay",
+      "notes": "Fixed price or best offer (not best-offer-accepted). Shipping +$33.66 shown.",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820142772865",
+      "source": "ebay",
+      "notes": "Title: 'Working Good Condition'. Shipping +$21.16 shown.",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398424294638",
+      "source": "ebay",
+      "notes": "Shipping +$23.64 shown.",
+      "flags": []
+    },
+    {
+      "price": 169.99,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366263889486",
+      "source": "ebay",
+      "notes": "OUTLIER: $169.99 vs ~$100.00 median for the rest. Title: 'Very good Condition and W...'. Shipping +$55.95 shown.",
+      "flags": []
+    },
+    {
+      "price": 110.0,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178454300848",
+      "source": "ebay",
+      "notes": "Shipping +$54.04 shown.",
+      "flags": []
+    },
+    {
+      "price": 99.95,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267760185942",
+      "source": "ebay",
+      "notes": "Shipping +$53.54 shown.",
+      "flags": []
+    },
+    {
+      "price": 99.95,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267760261827",
+      "source": "ebay",
+      "notes": "Shipping +$51.40 shown.",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327206095170",
+      "source": "ebay",
+      "notes": "Shipping +$29.99 shown.",
+      "flags": []
+    },
+    {
+      "price": 99.95,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267760266546",
+      "source": "ebay",
+      "notes": "Shipping +$51.40 shown.",
+      "flags": []
+    },
+    {
+      "price": 49.0,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206478187648",
+      "source": "ebay",
+      "notes": "OUTLIER: $49.00 vs ~$110.00 median for the rest. Auction, 7 bids. Shipping +$33.66 shown.",
+      "flags": []
+    },
+    {
+      "price": 179.99,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318710802665",
+      "source": "ebay",
+      "notes": "OUTLIER: $179.99 vs ~$100.00 median for the rest. Free shipping shown.",
+      "flags": []
+    },
+    {
+      "price": 144.0,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358732335070",
+      "source": "ebay",
+      "notes": "Shipping +$36.53 shown.",
+      "flags": []
+    },
+    {
+      "price": 110.0,
+      "sold_date": "2026-08-04",
+      "condition": "Not shown",
+      "url": "https://www.ebay.com/itm/147435080757",
+      "source": "ebay",
+      "notes": "Condition not shown on the result card. Shipping +$31.20 shown.",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2026-07-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206431062432",
+      "source": "ebay",
+      "notes": "Shipping +$19.99 shown.",
+      "flags": []
+    }
+  ]
+}
