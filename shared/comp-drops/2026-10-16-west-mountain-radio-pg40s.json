@@ -1,0 +1,34 @@
+{
+  "model": "West Mountain Radio PWRgate PG40S",
+  "slug": "west-mountain-radio-pg40s",
+  "searched_at": "2026-10-16T05:58:49-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1. 2 kept — thin. Dropped 2 best-offer-accepted (327287524833, 318631494437). OUTLIER flagged mechanically: $78.99 vs $51.01 (only one other comp).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629211",
+    "site": "eham",
+    "ask": 80.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 78.99,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158249210837",
+      "source": "ebay",
+      "notes": "OUTLIER: $78.99 vs ~$51.01 median of the rest. Buy It Now, free delivery (shown as $78.99, struck-through $99.99).",
+      "flags": []
+    },
+    {
+      "price": 51.01,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227470058554",
+      "source": "ebay",
+      "notes": "Auction, 2 bids, +$7.09 delivery. Title: 'Super PWRgate PG40S'.",
+      "flags": []
+    }
+  ]
+}
