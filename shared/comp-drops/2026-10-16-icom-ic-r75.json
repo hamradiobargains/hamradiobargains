@@ -1,0 +1,128 @@
+{
+  "model": "Icom IC-R75",
+  "slug": "icom-ic-r75",
+  "searched_at": "2026-10-16T18:03:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, exact model 'Icom IC-R75'. Ledger miss. kept 11 comps. dropped 6 best-offer-accepted; dropped 0 parts-only. No outliers. One of the 6 best-offer-accepted sales was also a parts-only unit (counted as best-offer-accepted). Excluded AC adapters, manuals, brochure, software, filters.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/860052047172",
+    "site": "ebay",
+    "ask": 399.99,
+    "shipping": 48.69
+  },
+  "comps": [
+    {
+      "price": 599.95,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407245423901",
+      "source": "ebay",
+      "notes": "Title: 'w/ Sync Detector & UT-106 DSP Unit'. Same title and price as 398046046639; similar to 398090188869 — possibly the same unit relisted. Shipping +$29.45 shown.",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 430.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128117120264",
+      "source": "ebay",
+      "notes": "Auction, 17 bids. Title: 'Tested Working'. Shipping +$25.00 shown.",
+      "flags": []
+    },
+    {
+      "price": 599.95,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398046046639",
+      "source": "ebay",
+      "notes": "Title: 'w/ Sync Detector & UT-106 DSP Unit'. Same title as 407245423901 and 398090188869. Shipping +$29.45 shown.",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 439.99,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377518362075",
+      "source": "ebay",
+      "notes": "Title: 'W/POWER SU...' (power supply included). Shipping +$22.84 shown.",
+      "flags": []
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318707236810",
+      "source": "ebay",
+      "notes": "Fixed price or best offer (not best-offer-accepted). Shipping +$25.12 shown.",
+      "flags": []
+    },
+    {
+      "price": 449.99,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327356244339",
+      "source": "ebay",
+      "notes": "Title: 'Tested Working'. Same title/price/shipping as 327261088914 (sold 2026-08-30) — possibly same unit relisted. Shipping +$38.48 shown.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 649.95,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398090188869",
+      "source": "ebay",
+      "notes": "Title: 'w/ Sync Detector & UT-106 DSP Unit'. Same title as 407245423901 and 398046046639. Shipping +$32.45 shown.",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 449.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267754988915",
+      "source": "ebay",
+      "notes": "Title: 'Tested Working'. Shipping +$15.95 shown.",
+      "flags": []
+    },
+    {
+      "price": 449.99,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327261088914",
+      "source": "ebay",
+      "notes": "Title: 'Tested Working'. Same title/price/shipping as 327356244339. Shipping +$38.48 shown.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 660.0,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237033092748",
+      "source": "ebay",
+      "notes": "Title: 'w/ AC Adapter'. Shipping +$118.00 shown.",
+      "flags": []
+    },
+    {
+      "price": 619.99,
+      "sold_date": "2026-07-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178278054815",
+      "source": "ebay",
+      "notes": "Title: 'w/ AC Adapter'. Shipping +$112.00 shown.",
+      "flags": []
+    }
+  ]
+}
