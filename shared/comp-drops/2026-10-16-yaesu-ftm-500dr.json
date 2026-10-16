@@ -1,0 +1,99 @@
+{
+  "model": "Yaesu FTM-500DR",
+  "slug": "yaesu-ftm-500dr",
+  "searched_at": "2026-10-16T15:02:24-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ftm-500', page 1. Listing title says 'Yaesu FTM 500' (US seller); comps restricted to titles saying FTM-500DR (the US model). 9 kept. Left out for identity doubt: 4 sales titled 'FTM-500D' (257748677698 $425 MARS/CAP mod, 278344456822 $310, 307116984083 $521, 377287308794 $699 'New Unused Japan') since FTM-500D may be the Japan-market variant. Dropped 2 best-offer-accepted (158313930161 $475, 128062540592 $470). Dropped 0 parts-only. Left out a radio box accessory and a two-radio bundle (318797653636). Ledger entry YAESU FTM-500DR is stale (latest 2026-09-01). No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782344",
+    "site": "qth",
+    "ask": 490.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 450.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128097449147",
+      "source": "ebay",
+      "notes": "Fixed price, 'or Best Offer' listing (not best-offer-accepted). +$17.48 delivery.",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366676997490",
+      "source": "ebay",
+      "notes": "Fixed price, 'or Best Offer' listing (not best-offer-accepted). Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 525.0,
+      "sold_date": "2026-09-12",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/327342254613",
+      "source": "ebay",
+      "notes": "+$20.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 479.0,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137704131310",
+      "source": "ebay",
+      "notes": "Title: 'Excellent Condition'. +$20.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 365.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287557302062",
+      "source": "ebay",
+      "notes": "Auction, 26 bids. Title: '*Missing head Bracket* See Description'. +$17.12 delivery.",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-08-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227463637413",
+      "source": "ebay",
+      "notes": "Fixed price, 'or Best Offer' listing (not best-offer-accepted). +$17.12 delivery.",
+      "flags": []
+    },
+    {
+      "price": 470.0,
+      "sold_date": "2026-08-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236977175934",
+      "source": "ebay",
+      "notes": "Title: 'Great Radio!'. +$14.62 delivery.",
+      "flags": []
+    },
+    {
+      "price": 495.0,
+      "sold_date": "2026-07-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206443657821",
+      "source": "ebay",
+      "notes": "Title: '(Mint) Low Hours with FVS-2 Voice card and extras'. +$10.12 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 404.0,
+      "sold_date": "2026-07-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257635134063",
+      "source": "ebay",
+      "notes": "Auction, 14 bids. +$8.23 delivery.",
+      "flags": []
+    }
+  ]
+}
