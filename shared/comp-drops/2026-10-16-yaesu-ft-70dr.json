@@ -1,0 +1,170 @@
+{
+  "model": "Yaesu FT-70DR",
+  "slug": "yaesu-ft-70dr",
+  "searched_at": "2026-10-16T18:03:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, exact model 'Yaesu FT-70DR'. Ledger miss. kept 16 comps. dropped 4 best-offer-accepted; dropped 0 parts-only. OUTLIERS flagged (kept): 236987423340 $295.00 vs ~$175.00. Excluded FT-70D / FT-70DE titles (export versions; identity vs FT-70DR not certain — 4 of the FT-70D sales were best-offer-accepted anyway) and one 'FT-70DR/DE' listing (127983775185) as ambiguous. Bundles kept and flagged extras_included.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/227570544904",
+    "site": "ebay",
+    "ask": 160.0,
+    "shipping": 11.3
+  },
+  "comps": [
+    {
+      "price": 105.0,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206624903146",
+      "source": "ebay",
+      "notes": "Title: 'Extras Included'. Fixed price or best offer (not best-offer-accepted). Shipping +$12.00 shown.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 129.4,
+      "sold_date": "2026-10-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327381340501",
+      "source": "ebay",
+      "notes": "Auction, 18 bids. Title: 'with MARS MOD'. Shipping +$28.10 shown.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 229.95,
+      "sold_date": "2026-10-09",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/189013196099",
+      "source": "ebay",
+      "notes": "Shipping +$7.52 shown.",
+      "flags": []
+    },
+    {
+      "price": 254.95,
+      "sold_date": "2026-10-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/398146777638",
+      "source": "ebay",
+      "notes": "Free shipping shown.",
+      "flags": []
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318931016577",
+      "source": "ebay",
+      "notes": "Free shipping shown.",
+      "flags": []
+    },
+    {
+      "price": 172.9,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137726784294",
+      "source": "ebay",
+      "notes": "Shipping +$11.10 shown.",
+      "flags": []
+    },
+    {
+      "price": 184.99,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188882442792",
+      "source": "ebay",
+      "notes": "Free shipping shown.",
+      "flags": []
+    },
+    {
+      "price": 254.95,
+      "sold_date": "2026-09-20",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/397249029125",
+      "source": "ebay",
+      "notes": "Free shipping shown.",
+      "flags": []
+    },
+    {
+      "price": 255.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198524348288",
+      "source": "ebay",
+      "notes": "Title: 'BUNDLE'. Free shipping shown.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 110.5,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287540493078",
+      "source": "ebay",
+      "notes": "Auction, 19 bids. Shipping +$11.30 shown.",
+      "flags": []
+    },
+    {
+      "price": 150.5,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377449491224",
+      "source": "ebay",
+      "notes": "Fixed price or best offer (not best-offer-accepted). Shipping +$10.00 shown.",
+      "flags": []
+    },
+    {
+      "price": 295.0,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236987423340",
+      "source": "ebay",
+      "notes": "OUTLIER: $295.00 vs ~$175.00 median for the rest. Title: 'BUNDLE DEAL!'. Shipping +$11.82 shown.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 175.0,
+      "sold_date": "2026-08-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137618911791",
+      "source": "ebay",
+      "notes": "Shipping +$10.15 shown.",
+      "flags": []
+    },
+    {
+      "price": 198.99,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800411142669",
+      "source": "ebay",
+      "notes": "Title: '& Hotspot Bundle'. Shipping +$21.99 shown.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 179.0,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158149709716",
+      "source": "ebay",
+      "notes": "Fixed price or best offer (not best-offer-accepted). Shipping +$15.00 shown.",
+      "flags": []
+    },
+    {
+      "price": 159.99,
+      "sold_date": "2026-08-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327295386143",
+      "source": "ebay",
+      "notes": "Shipping +$8.02 shown.",
+      "flags": []
+    }
+  ]
+}
