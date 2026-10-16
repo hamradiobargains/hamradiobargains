@@ -1,0 +1,15 @@
+{
+  "model": "Hallicrafters SR-160",
+  "slug": "hallicrafters-sr-160",
+  "searched_at": "2026-10-16T05:58:49-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1: only 1 exact SR-160 sale (336728649733, $99.00, 1 bid, 'Untested, no power cord'), labeled Parts Only — dropped 1 parts-only. All other results were other Hallicrafters models (S-120, S-16, SR-150). 0 kept — thin, no usable comps.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629210",
+    "site": "eham",
+    "ask": 100.0,
+    "shipping": 0
+  },
+  "comps": []
+}
