@@ -1,0 +1,97 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-16",
+  "ran_at": "2026-10-16T15:02:24-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-15T15:03:00-04:00 (prior qth drop ran_at). Scanned QTH all-ads pages 1-13 (all.php through ?page=13), one at a time; 130 ads reviewed (title + price). Counter-ID range of new ads submitted since window start reviewed: 1782326-1782400 (IDs 1782337, 1782350, 1782354, 1782362, 1782385 never appeared in the list - presumably deleted; not checked individually). End of window: pages 12-13 reach ads already covered by the prior qth run (1782323 and below, plus renewed 1782075, 1781803, 1782027, 1781656); page 13 is entirely prior-run territory. QTH shows dates only, so 10/15-dated renewed ads were reviewed again. No unreviewed remainder. Note: on the all-ads page each ad's title/description sits ABOVE its 'Listing #' header line. 8 candidates picked (cap 8). Extra plausible candidates not comped: 1782353 (Yaesu M-1 mic $500), 1782335 (Kenwood TM-D700 $275), 1782334 (TenTec Omni VI+ $475), 1782345 (Yaesu FT5DR $350), 1782359 (Acom 2100), 1782031 (Acom 1200S, renewed), 1782340 (Kenwood TH-F6A $225), 1782364 (Icom PS-126 $150), 1782342/1782368 (Drake MN-2000 $265/$300), 1782371 (Ten Tec 238B $330), 1782341/1782325 (Palstar AT-2KD/AT2K), 1782384 (Ten-Tec Triton IV $300), 1782363 (Kenwood SM-220 $250), 1782275 (Ten-Tec Scout 555 $325, renewed), 1782158 (Icom 706MK2G w/separation kit $675, renewed), 1781393 (Yaesu FT-980 $530, renewed), 1781936 (IC-7600 $1050, renewed), 1781935 (FT-991A $925, renewed), 1782349 (IC-706MKIIG repair/parts), 1782324 (Astron RS-35M $135). 1782328 is a duplicate TS-570S ad from the same seller as 1782348; only 1782348 dropped. Comps: 1 ledger hit (Kenwood TM-V71A), 7 eBay sold searches; eBay signed in, no challenges.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782389",
+      "site": "qth",
+      "title": "RADIOHF - IC-7300MK2 for sale",
+      "price": 995.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-16",
+      "condition_notes": "Seller: perfect working condition, used as backup radio, everything that came with radio, original boxes. 'Shipped to your QTH. $995.00' (shipping appears included). PayPal F&F. Submitted 10/16/26.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782351",
+      "site": "qth",
+      "title": "RADIOHF - Icom 7610 and SP-41 clean radio w/extra",
+      "price": 2300.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-16",
+      "condition_notes": "Very clean; serviced at Icom with new display screen, clock battery, full functionality check, firmware 1.45. Includes SP-41 speaker, HM-219 mic, power cord, manuals, Icom receipt. 'Looking for local sale at this time' - no shipping offered. Submitted 10/15/26.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782348",
+      "site": "qth",
+      "title": "RADIOHF - Kenwood TS-570S Tested",
+      "price": 525.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-16",
+      "condition_notes": "Fully functional, recently tested, power readings listed per band. Includes Heil mic, power cable. Stock, no added filters. Modified to open TX across HF. Some scratches top of case. '$525 plus shipping from 29209'. Same seller (K9ZY) posted an identical ad as 1782328 on 10/15/26 - likely the same unit. Submitted 10/15/26.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782399",
+      "site": "qth",
+      "title": "AMPHF - Acom 2000A HF Amplifier - $3750",
+      "price": 3750.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-16",
+      "condition_notes": "Original owner, great shape, full 1500W all bands, older style control head, wired for 220V, brand new matched tubes and memory battery installed by K0GX (Electronix Servicing). Prefers pickup/meet in southern Minnesota; will ship at buyer's cost. Submitted 10/16/26.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1778229",
+      "site": "qth",
+      "title": "AMPHF - For Sale: ACOM 1500 Amplifier",
+      "price": 2100.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-16",
+      "condition_notes": "Excellent condition electrically and physically, wired for 240V, recently tested all bands into dummy load, original owner, smoke free. 'New low price $2,100 OBO Cash. Pickup in Mountain Lakes, NJ' - pickup only. Renewed older ad (submitted 09/02/26, modified 10/16/26).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782400",
+      "site": "qth",
+      "title": "AMPHF - OM Power 4000HF",
+      "price": 4900.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-16",
+      "condition_notes": "Lightly used, near perfect condition, no working issues, all original packaging including skid. 'asking $4,900, plus shipping' (located in Iowa). Submitted 10/16/26.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782344",
+      "site": "qth",
+      "title": "RADIOVHF - For Sale: Yaesu FTM 500",
+      "price": 490.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-16",
+      "condition_notes": "Excellent condition, works as it should, never mobile used, only used 4-5 times in shack, all original equipment. '$490 includes shipping to lower 48 states'. Submitted 10/15/26.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782346",
+      "site": "qth",
+      "title": "RADIOVHF - Kenwood TM-V71A Dual Band Mobile",
+      "price": 350.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-16",
+      "condition_notes": "'As pictured.' Set up for remote head; includes mounting bracket, mic, separation cable, power cord with Anderson connectors. Smoke-free shack. '$350 shipped to the lower 48'. May trade. Submitted 10/15/26.",
+      "work_flag": "As pictured",
+      "seller_feedback": ""
+    }
+  ]
+}
