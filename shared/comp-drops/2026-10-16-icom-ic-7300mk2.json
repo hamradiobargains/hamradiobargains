@@ -1,0 +1,61 @@
+{
+  "model": "Icom IC-7300MK2",
+  "slug": "icom-ic-7300mk2",
+  "searched_at": "2026-10-16T15:02:24-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-7300mk2', page 1. 5 kept. Dropped 1 best-offer-accepted (278418382669, $1,195 Brand New). Dropped 0 parts-only. Left out accessories (2 dust covers, 2 desktop stands) and original IC-7300 (non-MK2) units, which are a different model. No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782389",
+    "site": "qth",
+    "ask": 995.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 1250.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227549419422",
+      "source": "ebay",
+      "notes": "Fixed price, 'or Best Offer' listing (not best-offer-accepted). +$21.85 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1150.0,
+      "sold_date": "2026-09-11",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/178483224373",
+      "source": "ebay",
+      "notes": "Title: 'Open Box'. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 1200.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366646806514",
+      "source": "ebay",
+      "notes": "Fixed price, 'or Best Offer' listing (not best-offer-accepted). +$28.39 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1300.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267758728809",
+      "source": "ebay",
+      "notes": "+$30.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1121.01,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377386939839",
+      "source": "ebay",
+      "notes": "Auction, 9 bids. Title: 'US Model Great Condition'. +$48.49 delivery.",
+      "flags": []
+    }
+  ]
+}
