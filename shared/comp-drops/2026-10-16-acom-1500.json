@@ -1,0 +1,15 @@
+{
+  "model": "Acom 1500",
+  "slug": "acom-1500",
+  "searched_at": "2026-10-16T15:02:24-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'acom 1500', page 1: 3 results, none an ACOM 1500 (an ACOM A2100 amplifier - different model and best-offer-accepted anyway; an ACOM 04AT tuner; an unrelated washer part). 0 qualifying sold comps. Thin - no data. Dropped 1 best-offer-accepted (the A2100, which was off-model regardless).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1778229",
+    "site": "qth",
+    "ask": 2100.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
