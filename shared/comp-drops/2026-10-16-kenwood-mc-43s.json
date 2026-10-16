@@ -1,0 +1,43 @@
+{
+  "model": "Kenwood MC-43S",
+  "slug": "kenwood-mc-43s",
+  "searched_at": "2026-10-16T05:58:49-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1. 3 kept, genuine Kenwood only. Dropped 1 best-offer-accepted (287284590457). Excluded ~30 aftermarket/clone 'MC-43S for Kenwood' mics ($17-$36, Brand New) incl. 385166555135 and 314791583336 whose titles lead with 'Kenwood' but match the clone listing pattern — not certain genuine. Excluded 3 transceiver bundles where the mic is a minor part (117403308350, 117402683413, 227453589702). No outliers.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629212",
+    "site": "eham",
+    "ask": 40.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 49.99,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168637098661",
+      "source": "ebay",
+      "notes": "Buy It Now, +$11.99 delivery. Title: 'GENUINE OEM KENWOOD MC-43S ... (Elecraft) MADE IN JAPAN'. Similar title to 198443000418.",
+      "flags": []
+    },
+    {
+      "price": 39.99,
+      "sold_date": "2026-09-01",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/147481288205",
+      "source": "ebay",
+      "notes": "Buy It Now, +$12.10 delivery. Title: 'Kenwood Original MC-43S ... NEW / Open Box'.",
+      "flags": []
+    },
+    {
+      "price": 65.0,
+      "sold_date": "2026-07-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198443000418",
+      "source": "ebay",
+      "notes": "Buy It Now, free delivery. Title: 'GENUINE OEM KENWOOD MC-43S ... (Elecraft) MADE IN JAPAN'.",
+      "flags": []
+    }
+  ]
+}
