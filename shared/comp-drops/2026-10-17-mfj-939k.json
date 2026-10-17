@@ -1,0 +1,25 @@
+{
+  "model": "MFJ-939K",
+  "slug": "mfj-939k",
+  "searched_at": "2026-10-17T17:59:05-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'mfj-939k', page 1 only (2 results before 'fewer words'). Thin: 1 comp. Excluded 1 non-matching result (MFJ-1699S). No best-offer-accepted or parts-only drops.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/880025807810",
+    "site": "ebay",
+    "ask": 100.0,
+    "shipping": 15.0
+  },
+  "comps": [
+    {
+      "price": 77.0,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227549780877",
+      "source": "ebay",
+      "notes": "Auction, 11 bids. Title: \"MFJ-939K IntelliTuner Automatic Antenna Tuner for Kenwood\". Shipping $10.43.",
+      "flags": []
+    }
+  ]
+}
