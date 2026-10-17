@@ -1,0 +1,36 @@
+{
+  "model": "Icom IC-730",
+  "slug": "icom-ic-730",
+  "searched_at": "2026-10-17T17:59:05-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-730', page 1 only (37 results before 'fewer words'). Thin: only 2 comps kept. Dropped 6 best-offer-accepted (198548326703 $349, 366585620553 $150, 267743545087 $360, 318678468963 $319.95, 398045646882 $250 parts/as-is, 168691333274 $399.99 IC-730S — also a different model). Dropped 6 parts-only (800757398081, 800766460365, 257710318790 tech special, 318797592290, 298554043409, 137746341389 stuck tuning knob). Excluded manuals, FL-30 filter, lamp bulbs. OUTLIERS: with only 2 comps, each is outside half/1.5x of the other, so both are flagged OUTLIER ($159 bundle vs $360).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/840031528390",
+    "site": "ebay",
+    "ask": 200.0,
+    "shipping": 68.33
+  },
+  "comps": [
+    {
+      "price": 159.0,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398281592729",
+      "source": "ebay",
+      "notes": "OUTLIER: $159 vs $360 for the other comp. Listed \"or Best Offer\" (not marked accepted), sold at shown price. Title: radio plus watt meter, field tester, antenna rotator \"ALL INCLUDED\". Shipping $14.50.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 360.0,
+      "sold_date": "2026-07-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188577775067",
+      "source": "ebay",
+      "notes": "OUTLIER: $360 vs $159 for the other comp. Listed \"or Best Offer\" (not marked accepted), sold at shown price. Title: \"works fine\". Shipping $50.00.",
+      "flags": []
+    }
+  ]
+}
