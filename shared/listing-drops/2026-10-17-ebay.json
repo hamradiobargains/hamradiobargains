@@ -1,0 +1,75 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-17",
+  "ran_at": "2026-10-17T17:53:17-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now, sorted Time: newly listed (signed in as Leo). Window since previous ebay run 2026-10-16T17:53:37-04:00; scanned page 1 only (60 items). 7 picked; 6 passed the seller rule, 1 failed: Ten-Tec Corsair II 561 w/PS (147640092952, C$900 / ~US$636.45, seller 100% but only 5 ratings) - skipped. Ledger: 2 hits (Yaesu FT-950 count 5, 2026-09-28; Xiegu G90 count 42, 2026-10-06); 4 misses (FT-101EE no entry - ledger has FT-101E only, a different model; IC-730, MFJ-949D, MFJ-939K no entries). eBay sold searches: FT-101EE, IC-730, MFJ-949D, MFJ-939K - no challenges. Seller rating counts are the feedback score shown on the seller card. Item descriptions (iframe) not read; condition notes from title/condition/seller notes/returns only. Not picked: Icom ID-5100A (new), Kenwood TM-281A, Kenwood TM-241A (these three link to eBay product pages, item numbers not captured), parts-only units (Ten-Tec Orion 565AT 'as-is Untested', Hallicrafters S-38B/SX-17, Kenwood T-599D, D&A MDX-200, Yaesu FT-23R), Yaesu FTM-150R (auction-style, 0 bids), uSDX QRP (auction), Heathkit/Hallicrafters/EICO/Knight/Drake/Lafayette/Realistic vintage receivers & transmitters, Dynascan airband HT, ICOM IC-4310B, ADI AT-600, Alinco DR-112, Ramsey FM transmitter, test gear, mics/adapters, crystals, boards, knobs, books.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/287654630199",
+      "site": "ebay",
+      "title": "YAESU FT-950 HF/50MHz 100W Transceiver Radio Tested Working",
+      "price": 700.0,
+      "shipping": 98.0,
+      "found_at": "2026-10-17",
+      "condition_notes": "eBay condition: Used. Title says tested working. Fixed price $700, $98 expedited shipping from Moka, Japan (import fees included). Seller does not accept returns. Item description (iframe) not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (51 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227571841829",
+      "site": "ebay",
+      "title": "Yaesu Ft-101EE HF Transceiver - Nice Condition - Recapped and works great.",
+      "price": 500.0,
+      "shipping": 82.74,
+      "found_at": "2026-10-17",
+      "condition_notes": "eBay condition: Used. Seller notes: \"The radio is in good condition. It works great.\" Title says recapped. $500 or Best Offer, USPS Ground $82.74 from Brookfield, CT. Seller does not accept returns. Item description (iframe) not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (82 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/206634151709",
+      "site": "ebay",
+      "title": "Xiegu G90 HF SDR Transceiver 20W 160m-10m SSB CW AM FM Black With Stands",
+      "price": 350.0,
+      "shipping": 30.0,
+      "found_at": "2026-10-17",
+      "condition_notes": "eBay condition: Used. $350 or Best Offer, UPS Ground $30 from San Ramon, CA. Seller does not accept returns. Item description (iframe) not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (23 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/840031528390",
+      "site": "ebay",
+      "title": "Icom IC-730 HF Transceiver Ham Radio Base Station",
+      "price": 200.0,
+      "shipping": 68.33,
+      "found_at": "2026-10-17",
+      "condition_notes": "eBay condition: Used. Fixed price $200, USPS Ground $68.33 from Pampa, TX (local pickup offered). Title/condition give no working status. Seller does not accept returns. Item description (iframe) not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (101 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/336849620192",
+      "site": "ebay",
+      "title": "MFJ Deluxe Versa Tuner II Model MFJ-949D Ham Radio Antenna Tuner",
+      "price": 100.0,
+      "shipping": 8.86,
+      "found_at": "2026-10-17",
+      "condition_notes": "eBay condition: Used. Seller notes: \"Cosmetically 8/10\". $100 or Best Offer, USPS Ground $8.86 from Westford, MA. Seller does not accept returns. Item description (iframe) not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (1370 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/880025807810",
+      "site": "ebay",
+      "title": "MFJ 939K Plug & Play Intellituner",
+      "price": 100.0,
+      "shipping": 15.0,
+      "found_at": "2026-10-17",
+      "condition_notes": "eBay condition: Used. $100 or Best Offer, $15 shipping. Seller does not accept returns. Item description (iframe) not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (201 ratings)"
+    }
+  ]
+}
