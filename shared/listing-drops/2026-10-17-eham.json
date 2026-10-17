@@ -1,0 +1,64 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-17",
+  "ran_at": "2026-10-17T05:59:14-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-16T05:52:51-04:00 (prior eham run; last ad covered 629216). Browsed signed OUT ('Welcome Guest'). Classifieds home page 1 loaded fine (ads 629229-629241). Page 2 (index?page=2) showed a Cloudflare 'Performing security verification' page with a 'Verify you are human' checkbox that did not clear after one ~20s wait - per rules, STOPPED all eHam work (not solved/clicked). As a result ads 629217-629228 were not reviewed, and FT-991A + mAT-30 (629229) was not dropped because its summary showed no price and the ad could not be opened. No search form, sold searches, or seller/callsign pages. Skipped as non-candidates: Remoterig RRC-1258 MKII pair (629240, remote-control interface, $500+ship), Green Heron RT-21 rotator controller (629239, rotator), TGIF Spot 3.5 Nextion (629233) and DVMEGA Cast (629232) digital hotspots. Comps: 0 ledger hits (K3/100 ledger entry dated 2026-09-15 is >30 days old); 4 eBay sold searches (ACOM 600S, Ameritron AL-800H, Elecraft K3/100, Xiegu XPA125B), signed in as Leo, no challenge. Both K3/100 listings share one eBay search.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629241",
+      "site": "eham",
+      "title": "ACOM 600S with mars mod",
+      "price": 2000.0,
+      "shipping": 0,
+      "found_at": "2026-10-17",
+      "condition_notes": "ACOM 600S solid-state HF amp, MARS mod done, 'looks near new' plus original box from HRO. Seller says stores offered $2200. 'I will ask for 2000 or best offer' - also open to trades for older radios. Shipping not stated. Posted 2026-10-17.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629238",
+      "site": "eham",
+      "title": "Ameritron AL800H Amplifier",
+      "price": 1500.0,
+      "shipping": 0,
+      "found_at": "2026-10-17",
+      "condition_notes": "Ameritron AL-800H. 'Fully operational was used very sparingly.' Local pickup preferred, will ship FedEx, shipping cost separate (amount not stated). $1500, will consider reasonable offers. Posted 2026-10-16.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629237",
+      "site": "eham",
+      "title": "Elecraft K3/100 TRANSCEIVER # 3064",
+      "price": 1389.0,
+      "shipping": 0,
+      "found_at": "2026-10-17",
+      "condition_notes": "Elecraft K3/100 #3064 with KAT3 tuner, 2.7 SSB filter, KIO3, KXV3, firmware 5.67. 'Works as it should', good condition, used today on CW/SSB. $1389 delivered with tuner; $949 without tuner. Power cord. Seller (K6RO) has several K3s listed. Posted 2026-10-16.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629236",
+      "site": "eham",
+      "title": "Elecraft K3/100 TRANSCEIVER # 2756",
+      "price": 924.0,
+      "shipping": 0,
+      "found_at": "2026-10-17",
+      "condition_notes": "Elecraft K3/100 #2756, 2.7 SSB filter, KIO3, 'Lots of mods done on 5/2023', firmware 5.67, super clean / great condition, 'Works as it should', used today on CW/SSB. Power cord and manual. Ad does not list KAT3 tuner. $924 delivered. Posted 2026-10-16.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629234",
+      "site": "eham",
+      "title": "XIEGU XPA125B HF AMPLIFIER",
+      "price": 425.0,
+      "shipping": 0,
+      "found_at": "2026-10-17",
+      "condition_notes": "Xiegu XPA125B 100W amp, New In Box, with connection, communication and power cables. Ad opens 'I have a G90 w/ XPA125B amplifier' but the item list and title are the XPA125B only - unclear whether the G90 is included. $425 + shipping to lower 48 (amount not stated). 'All sales final.' Posted 2026-10-16.",
+      "work_flag": "All sales final.",
+      "seller_feedback": ""
+    }
+  ]
+}
