@@ -1,0 +1,97 @@
+{
+  "model": "MFJ-949D",
+  "slug": "mfj-949d",
+  "searched_at": "2026-10-17T17:59:05-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'mfj-949d', page 1 only (18 results before 'fewer words', 15 were MFJ-949D). 9 comps kept — solid set. Dropped 4 best-offer-accepted (278311559279, 820027209818, 168570592391, 358822639540). Dropped 1 parts-only (800407091246, $25 auction). No outliers. Two kept comps are from the same seller (steelerman16: 206453881001 and 206453883318) with different titles; not flagged as duplicates.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/336849620192",
+    "site": "ebay",
+    "ask": 100.0,
+    "shipping": 8.86
+  },
+  "comps": [
+    {
+      "price": 140.0,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236980159515",
+      "source": "ebay",
+      "notes": "Fixed price. Shipping $17.15.",
+      "flags": []
+    },
+    {
+      "price": 120.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206533540775",
+      "source": "ebay",
+      "notes": "Fixed price. Shipping $15.65.",
+      "flags": []
+    },
+    {
+      "price": 140.0,
+      "sold_date": "2026-08-30",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/327332825476",
+      "source": "ebay",
+      "notes": "Title says \"New !! Open Box\"; eBay condition Brand New. Listed \"or Best Offer\" (not marked accepted). Shipping $7.51.",
+      "flags": []
+    },
+    {
+      "price": 130.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377435579303",
+      "source": "ebay",
+      "notes": "Listed \"or Best Offer\" (not marked accepted). Shipping $13.07.",
+      "flags": []
+    },
+    {
+      "price": 140.0,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206453881001",
+      "source": "ebay",
+      "notes": "Listed \"or Best Offer\" (not marked accepted). Shipping $10.99.",
+      "flags": []
+    },
+    {
+      "price": 115.0,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206453883318",
+      "source": "ebay",
+      "notes": "Title: \"EXELLENT\". Listed \"or Best Offer\" (not marked accepted). Shipping $10.99.",
+      "flags": []
+    },
+    {
+      "price": 115.0,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257657261042",
+      "source": "ebay",
+      "notes": "Fixed price. Shipping $9.99.",
+      "flags": []
+    },
+    {
+      "price": 130.0,
+      "sold_date": "2026-07-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117313563844",
+      "source": "ebay",
+      "notes": "Fixed price. Shipping $12.95.",
+      "flags": []
+    },
+    {
+      "price": 109.99,
+      "sold_date": "2026-07-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257632453659",
+      "source": "ebay",
+      "notes": "Listed \"or Best Offer\" (not marked accepted). Free shipping.",
+      "flags": []
+    }
+  ]
+}
