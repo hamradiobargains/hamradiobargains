@@ -1,0 +1,128 @@
+{
+  "model": "Xiegu XPA125B",
+  "slug": "xiegu-xpa125b",
+  "searched_at": "2026-10-17T05:59:14-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "12 comps kept (median ~$400). dropped 7 best-offer-accepted (237037763280, 327293344228, 327255514030, 198538068385, 137692960119, 117370339436, 237023418526). dropped 4 parts-only (128135378133, 128087012199, 117392381057, and 318862481304 which was also best-offer-accepted). Excluded bundle: 236997918793 (Xiegu G90 + XPA125B, also best-offer-accepted). Excluded cables/adapters (CN-20, keying/power/interface cables). OUTLIERS: 137836277725 at $185 (low), 184374841824 at $616.25 (high). possible_duplicate: 366719303754 and 137836277725 share an identical 'Mint' title 3 days apart.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629234",
+    "site": "eham",
+    "ask": 425.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 355.0,
+      "sold_date": "2026-10-14",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/366719303754",
+      "source": "ebay",
+      "notes": "Auction, 19 bids. Title: '100W HF/6m with Built-in Auto Tuner - Mint'. Shipping +$7.52. Same title as 137836277725 sold 2026-10-11 - possibly same unit relisted.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 185.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137836277725",
+      "source": "ebay",
+      "notes": "OUTLIER: $185 vs ~$400 for the rest. Fixed price 'or Best Offer' (not accepted). Title: '100W HF/6m with Built-in Auto Tuner - Mint'. Shipping +$25.65. Same title as 366719303754 sold 2026-10-14 - possibly same unit relisted.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 381.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117420437323",
+      "source": "ebay",
+      "notes": "Auction, 3 bids. Title: 'HF/6m 100W Solid-State Linear ... Black RX HF works great'. Shipping +$49.05.",
+      "flags": []
+    },
+    {
+      "price": 449.89,
+      "sold_date": "2026-09-16",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/820095531237",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'HF/6m 100W Linear ... w/ Built-in ATU Black'. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 430.0,
+      "sold_date": "2026-09-12",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/237056664872",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted). Shipping +$13.99.",
+      "flags": []
+    },
+    {
+      "price": 399.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178430926257",
+      "source": "ebay",
+      "notes": "Buy It Now. Title ends 'See Des'. Shipping +$8.56.",
+      "flags": []
+    },
+    {
+      "price": 368.89,
+      "sold_date": "2026-08-25",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/128042539132",
+      "source": "ebay",
+      "notes": "Buy It Now. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 458.0,
+      "sold_date": "2026-08-24",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/318520511549",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping +$16.87.",
+      "flags": []
+    },
+    {
+      "price": 398.89,
+      "sold_date": "2026-08-23",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/117373177695",
+      "source": "ebay",
+      "notes": "Buy It Now. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2026-08-19",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/318749275825",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted). Shipping +$7.73.",
+      "flags": []
+    },
+    {
+      "price": 616.25,
+      "sold_date": "2026-08-08",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/184374841824",
+      "source": "ebay",
+      "notes": "OUTLIER: $616.25 vs ~$399 for the rest. Fixed price 'or Best Offer' (not accepted); shown $616.25 with $725.00 struck through. Shipping +$4.99.",
+      "flags": []
+    },
+    {
+      "price": 439.0,
+      "sold_date": "2026-07-21",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/188660061288",
+      "source": "ebay",
+      "notes": "Buy It Now. Free delivery.",
+      "flags": []
+    }
+  ]
+}
