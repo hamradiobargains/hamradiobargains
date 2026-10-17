@@ -1,0 +1,56 @@
+{
+  "model": "Yaesu FT-101EE",
+  "slug": "yaesu-ft-101ee",
+  "searched_at": "2026-10-17T17:59:05-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ft-101ee', page 1 only (49 results before 'fewer words'); most were FT-101EE parts/boards/accessories (excluded as non-units), plus one FT-101B (different model, excluded). Exact FT-101EE units: 4 kept. Dropped 1 best-offer-accepted (128100721026, $139.99, untested). Dropped 2 parts-only (147546198554 $160.50 Parts Only; 237063547203 $89 chassis, Parts Only). OUTLIERS: the kept set is bimodal (~$150-180 for a 1-bid auction and a 'Technician Special' vs ~$400 for two tested/working units), so under the half/1.5x-of-median-of-others rule all 4 comps get flagged OUTLIER. Only 4 comps — on the thin side.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/227571841829",
+    "site": "ebay",
+    "ask": 500.0,
+    "shipping": 82.74
+  },
+  "comps": [
+    {
+      "price": 150.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307202410464",
+      "source": "ebay",
+      "notes": "OUTLIER: $150 vs ~$400 median of the other three. Auction, 1 bid. Shipping $121.64.",
+      "flags": []
+    },
+    {
+      "price": 399.96,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198438638571",
+      "source": "ebay",
+      "notes": "OUTLIER: $399.96 vs ~$180 median of the other three (bimodal set). Fixed price. Title: \"Tested Works Nice - (NO JUMPER PLUG)\". Shipping $64.93.",
+      "flags": []
+    },
+    {
+      "price": 399.99,
+      "sold_date": "2026-07-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178310680808",
+      "source": "ebay",
+      "notes": "OUTLIER: $399.99 vs ~$180 median of the other three (bimodal set). Auction, 2 bids. Title: \"Nice Condition - Tested & Working - AM Filter\". Shipping $54.57.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 179.95,
+      "sold_date": "2026-07-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298526229491",
+      "source": "ebay",
+      "notes": "OUTLIER: $179.95 vs ~$400 median of the other three. Listed \"or Best Offer\" (not marked best offer accepted), sold at shown price. Title: \"Technician Special\". Shipping $43.45.",
+      "flags": [
+        "as_is"
+      ]
+    }
+  ]
+}
