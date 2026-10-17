@@ -1,0 +1,40 @@
+{
+  "model": "Icom IC-703 Plus",
+  "slug": "icom-ic-703-plus",
+  "searched_at": "2026-10-17T15:01:47-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "THIN: only 2 kept comps, and they may be the same unit relisted (identical titles, same price, 5 days apart). eBay sold search page 1 (signed in, no challenge). Dropped 0 best-offer-accepted, dropped 0 parts-only. Left out 4 sales titled plain 'IC-703' (not Plus - different model, no 6m): 327358460766 $435, 278405423622 $439, 278253756141 $449, 236946675272 $400. Also excluded IC-706 family results and accessories (brackets, power cables). No outliers. Trigger ad says SALE PENDING.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782401",
+    "site": "qth",
+    "ask": 420.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 550.0,
+      "sold_date": "2026-07-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398218020903",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: IC-703+ HF/50MHz, with CW filter. Shipping +$25.00. Identical title to 398196031976 - may be the same unit relisted.",
+      "flags": [
+        "possible_duplicate",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2026-07-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398196031976",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: IC-703+ HF/50MHz, with CW filter. Shipping +$25.00. Identical title to 398218020903 - may be the same unit relisted.",
+      "flags": [
+        "possible_duplicate",
+        "option_installed"
+      ]
+    }
+  ]
+}
