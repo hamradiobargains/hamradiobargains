@@ -1,0 +1,15 @@
+{
+  "model": "ACOM 600S",
+  "slug": "acom-600s",
+  "searched_at": "2026-10-17T15:02:51-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "THIN: zero comps. eBay sold search page 1 (signed in, no challenge) returned no ACOM 600S unit sales above the 'fewer words' section - only 1 unrelated accessory (ACOM 1200S dust cover), excluded. Dropped 0 best-offer-accepted, dropped 0 parts-only. No ledger entry for ACOM 600S. Trigger ad: $2000 or best offer, or trade; MARS mod done.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782259",
+    "site": "qth",
+    "ask": 2000.0,
+    "shipping": 0
+  },
+  "comps": []
+}
