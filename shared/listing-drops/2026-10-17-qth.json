@@ -1,0 +1,97 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-17",
+  "ran_at": "2026-10-17T15:04:19-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-16T15:02:24-04:00 (prior qth drop ran_at). Scanned QTH all-ads pages 1-15 (all.php through ?page=15), one at a time; 150 ads reviewed (title + price). Counter-ID range of new ads submitted since window start reviewed: 1782401-1782464 (IDs 1782409, 1782422, 1782426, 1782427, 1782440, 1782458 never appeared in the list - presumably deleted; not checked individually). End of window: page 14 reaches prior-run territory (1782403-1782402 then 1782324 and renewed ads modified 10/16); page 15 is entirely prior-run territory (1782399, 1778229, 1782388-1782397 - already covered/dropped by the prior qth run). QTH shows dates only, so renewed ads modified 10/16 that may predate the window start were reviewed anyway. No unreviewed remainder. 8 candidates picked (cap 8). Extra plausible candidates not comped: 1782415 (IC-7300 MARS $775 shipped), 1782453 (IC-7300 MARS $725), 1782437 (IC-7300 + power supply $650 + half shipping), 1782417 (IC-7300 unused $795 shipped), 1782461 (Ameritron AL-811H $900), 1782435 (Kenwood TS-570S + SP-430 $575, pickup only), 1782431 (Yaesu FT-600 $325), 1782430 (Yaesu FRG-100B $400), 1782464 (Drake T-4XC $285, untested, pickup only), 1782414 (Collins 75S-3B $595), 1782442 (Flex Maestro C $1350), 1782384 (Ten-Tec Triton IV $225, renewed - seller unsure if it works, power switch does not turn it off), 1776833 (Elecraft K3/100 #3064 $1389 delivered, renewed), 1781079 (Yaesu FTDX101D $2950, renewed), 1781779 (Kenwood TS-870 $700, renewed), 1777865 (Kenwood TS-440SAT $475 shipped, renewed), 1781385 (IC-7600 + Astron $850, pickup only, renewed), 1782286 (Yaesu FT-510DR MARS $419+$25, renewed), 1782161 (Kenwood TM-D710GA $650, renewed), 1782273 (Palstar AT4K $700, renewed), 1782031 (Acom 1200S $4750, renewed). Not picked because already in dropped-urls: 1782075 (FT-710 Field $800), 1782290 (Flex 6600M $2899), 1782202 (ALS-500M $900). No asking price: 1782459 (IC-7300 MKII), 1782452 (HTX-10). Comps: 3 ledger hits (Icom IC-7300, Icom IC-7610, Elecraft K3/100), 5 eBay sold searches (Ameritron AL-811H, Icom IC-703 Plus, Ameritron AL-800H, ACOM 600S, FlexRadio FLEX-6400); eBay signed in, no challenges. FLEX-6400 treated as a ledger miss because the ledger name 'FLEXRADIO 6400' is not an exact display-name match.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782410",
+      "site": "qth",
+      "title": "RADIOHF - For sale: Icom 7300",
+      "price": 550.0,
+      "shipping": 0,
+      "found_at": "2026-10-17",
+      "condition_notes": "Backup radio, 'very little use', works excellent; full-length power cord, hand mic, manual. $550 shipped ($500 picked up near Pensacola), price firm. New ad 10/16 (edited 10/17).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782412",
+      "site": "qth",
+      "title": "RADIOHF - FS: Flex-6400 with ATU",
+      "price": 1300.0,
+      "shipping": 0,
+      "found_at": "2026-10-17",
+      "condition_notes": "'Really nice' Flex-6400 with ATU, mic and power cord; seller says perfect condition. $1300 shipped/insured. Zelle, personal check or USPS MO. New ad 10/16 (edited 10/17).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782411",
+      "site": "qth",
+      "title": "RADIOHF - For sale: Icom IC -7610",
+      "price": 1700.0,
+      "shipping": 0,
+      "found_at": "2026-10-17",
+      "condition_notes": "Includes advanced manual, full-size power cord, hand mic, original shipping container. Repaired at Icom West including a brand-new touch screen (paperwork available). $1700 plus shipping (shipping amount not stated) or pickup near Pensacola. New ad 10/16 (edited 10/17).",
+      "work_flag": "works perfect except for USB 2 Port",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782401",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE: ICOM IC-703+ NICE RADIO $420",
+      "price": 420.0,
+      "shipping": 0,
+      "found_at": "2026-10-17",
+      "condition_notes": "Ad text begins 'SALE PENDING'. Very nice shape, no marks; DSP unit installed; power cord, mic, carrying case, manual. $420 shipped, USA only. New ad 10/16 (edited 10/17).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781195",
+      "site": "qth",
+      "title": "RADIOHF - Elecraft K3/100 Transceiver # 2756",
+      "price": 924.0,
+      "shipping": 0,
+      "found_at": "2026-10-17",
+      "condition_notes": "K3/100 S/N 2756, KPA3, 2.7 SSB filter, KIO3; 'lots of mods done on 5/2023'; latest firmware 5.67; super clean, works as it should, used on CW and SSB; power cord and manual. $924 delivered. Renewed ad (submitted 10/03, modified 10/16).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782429",
+      "site": "qth",
+      "title": "AMPHF - Ameritron 811h 800$",
+      "price": 800.0,
+      "shipping": 0,
+      "found_at": "2026-10-17",
+      "condition_notes": "Says '572b tubes just retubed', not many hours, bought new, has box. Asking $800; shipping not stated. Note: AL-811H normally uses 811A tubes, so the tube mention conflicts with the model in the title. New ad 10/17.",
+      "work_flag": "572b tubes just retubed",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782188",
+      "site": "qth",
+      "title": "AMPHF - Ameritron AL 800H Amplifier",
+      "price": 1500.0,
+      "shipping": 0,
+      "found_at": "2026-10-17",
+      "condition_notes": "From a working non-smoking shack. Prefers local pickup; will meet within 50 miles or ship via FedEx (cost not stated). Asking $1500, will consider offers. Renewed ad (submitted 10/14, edited 10/16).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782259",
+      "site": "qth",
+      "title": "AMPHF - ACOM 600S",
+      "price": 2000.0,
+      "shipping": 0,
+      "found_at": "2026-10-17",
+      "condition_notes": "MARS mod done, looks near new, with original box. $2000 or best offer, or trade for older radios. Shipping not stated. Renewed ad (submitted 10/14, modified 10/16).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
