@@ -1,0 +1,15 @@
+{
+  "model": "ACOM 600S",
+  "slug": "acom-600s",
+  "searched_at": "2026-10-17T05:59:14-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "No comps: eBay sold search 'ACOM 600S' page 1 had no ACOM 600S units sold (only an ACOM 1200S dust cover, excluded as accessory/different model). Rest of page was 'Results matching fewer words' (ignored). Thin - zero comps.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629241",
+    "site": "eham",
+    "ask": 2000.0,
+    "shipping": 0
+  },
+  "comps": []
+}
