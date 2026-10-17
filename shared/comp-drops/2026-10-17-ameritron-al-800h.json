@@ -1,0 +1,25 @@
+{
+  "model": "Ameritron AL-800H",
+  "slug": "ameritron-al-800h",
+  "searched_at": "2026-10-17T05:59:14-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Thin - 1 comp. Excluded: AL-800/AL-800H upgrade kit and DIP connector cable (accessories); Ameritron AL-811H (different model, also best-offer-accepted). dropped 0 best-offer-accepted (AL-800H), 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629238",
+    "site": "eham",
+    "ask": 1500.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1550.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287516399450",
+      "source": "ebay",
+      "notes": "Auction, 8 bids. Title: 'LEGAL LIMIT ... TESTED SEE VIDEO'. Shipping +$107.36.",
+      "flags": []
+    }
+  ]
+}
