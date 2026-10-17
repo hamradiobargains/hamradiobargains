@@ -1,0 +1,127 @@
+{
+  "model": "Ameritron AL-811H",
+  "slug": "ameritron-al-811h",
+  "searched_at": "2026-10-17T15:01:13-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in, no challenge). 11 kept comps. Dropped 5 best-offer-accepted, dropped 4 parts-only. Excluded accessories/kits/tubes (screw kits, arc kit, swamping resistor kit, meters, plate cap suppressor, matched 811A tube quad). AL-811 (non-H) is a different model and is not included. No outliers (all kept prices within 0.5x-1.5x of the median of the others). Three identical-title listings from one seller (407190444313, 407172106811, 407151887315) flagged possible_duplicate. Trigger ad (1782429) says '572b tubes just retubed' - the AL-811H's stock tubes are 811A (572B is the AL-572's tube), so the unit may be modified or the model mis-stated; model identity of the trigger unit should be verified.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782429",
+    "site": "qth",
+    "ask": 800.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 899.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278420227895",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: tested and working with box, S#22199. Shipping +$104.28.",
+      "flags": []
+    },
+    {
+      "price": 899.0,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287592917770",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: tested and working, S#28290. Shipping +$32.86.",
+      "flags": []
+    },
+    {
+      "price": 1149.95,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327323090497",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: with manual. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 899.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298609752960",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: with 10m mod. Shipping +$84.52.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 899.99,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407190444313",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: tested - fully functional. Free shipping. Identical title to 407172106811 and 407151887315 (same item-number series) - may be the same unit relisted.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 899.99,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407172106811",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: tested - fully functional. Free shipping. Identical title to 407190444313 and 407151887315 - may be the same unit relisted.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 899.99,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407151887315",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: tested - fully functional. Free shipping. Identical title to 407190444313 and 407172106811 - may be the same unit relisted.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800531139575",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not shown as best offer accepted). Title: with ARB-704 (amp interface) included. Shipping +$80.00.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 849.95,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267741615286",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: tested working. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188714561270",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping +$28.51.",
+      "flags": []
+    },
+    {
+      "price": 1149.95,
+      "sold_date": "2026-07-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227431627866",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: with 10m mod. Free shipping.",
+      "flags": [
+        "modified"
+      ]
+    }
+  ]
+}
