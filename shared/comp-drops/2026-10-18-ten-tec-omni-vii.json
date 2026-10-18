@@ -1,0 +1,15 @@
+{
+  "model": "Ten-Tec Omni VII",
+  "slug": "ten-tec-omni-vii",
+  "searched_at": "2026-10-18T15:04:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - 0 kept comps. Query 'ten-tec omni vii', page 1 only (52 results). Only one Omni VII (588) unit on page 1 and it was dropped: dropped 1 best-offer-accepted (117335512416 $950, 2026-08-04). dropped 0 parts-only. Left out Omni VI/Omni D/Corsair/Pegasus and Omni VII accessories (cords, speaker, keypad, fan, encoders).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782510",
+    "site": "qth",
+    "ask": 675.0,
+    "shipping": 0
+  },
+  "comps": []
+}
