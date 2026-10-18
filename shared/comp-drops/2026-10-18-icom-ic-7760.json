@@ -1,0 +1,15 @@
+{
+  "model": "Icom IC-7760",
+  "slug": "icom-ic-7760",
+  "searched_at": "2026-10-18T15:01:30-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - 0 comps. Query 'icom ic-7760' returned 12 results, none of them an IC-7760 (eBay loose matches: IC-761, IC-746 Pro, IC-703, IC-7610, IC-756 Pro III etc.) - all left out as different models. dropped 0 best-offer-accepted, dropped 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782519",
+    "site": "qth",
+    "ask": 5100.0,
+    "shipping": 0
+  },
+  "comps": []
+}
