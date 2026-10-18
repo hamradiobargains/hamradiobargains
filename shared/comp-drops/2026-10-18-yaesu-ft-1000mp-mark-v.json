@@ -1,0 +1,56 @@
+{
+  "model": "Yaesu FT-1000MP Mark-V",
+  "slug": "yaesu-ft-1000mp-mark-v",
+  "searched_at": "2026-10-18T15:01:45-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "4 kept comps (solid set, but wide spread). Query 'yaesu ft-1000mp mark-v', page 1 only (45 results), 'fewer words' section ignored. Mark-V Field units left out as a different model (227482763811 parts, 198595099835 parts/as-is, 158064118153 best-offer-accepted). Left out plain FT-1000 / FT-1000MP (non-Mark-V), FT-950, manuals and Field parts. dropped 2 parts-only (128097687377 $806 auction; 327244807201 $1,500 BIN). dropped 0 best-offer-accepted among Mark-V units. OUTLIERS: $450 (800677669533) vs ~$1,156 median of the rest; $1,980 (128045553701, Japan seller, incl. FP-29, +$500 delivery incl. import fees) vs ~$1,100 median of the rest. Trigger listing also includes the FP-29 power supply.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782559",
+    "site": "qth",
+    "ask": 1500.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1980.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128045553701",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,980 vs ~$1,100 for the rest. Title: 200W FP-29 Working. or Best Offer (not accepted-offer). +$500.00 delivery, includes import fees. Located in Japan.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158213724218",
+      "source": "ebay",
+      "notes": "Buy It Now. +$100.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800677669533",
+      "source": "ebay",
+      "notes": "OUTLIER: $450 vs ~$1,156 for the rest. Title: w/ LCD Screen Black. or Best Offer (not accepted-offer). +$26.86 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1156.0,
+      "sold_date": "2026-08-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117084362621",
+      "source": "ebay",
+      "notes": "Title: 200W FP-29, SP-8 - Working. Buy It Now; sold price $1,156.00 shown with $1,445.00 struck through. +$50.38 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
