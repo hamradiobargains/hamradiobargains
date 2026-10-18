@@ -1,0 +1,25 @@
+{
+  "model": "Yaesu FTX-1 Optima",
+  "slug": "yaesu-ftx-1-optima",
+  "searched_at": "2026-10-18T15:02:15-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - 1 kept comp. Query 'yaesu ftx-1 optima', page 1 only (6 results). Left out accessories (stand, relay cable, bracket, carry handle). dropped 1 best-offer-accepted (168588345831 $1,625 Brand New). dropped 0 parts-only. Trigger listing also includes SPG-1, SCF-1, Bluetooth and carrying handle.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782491",
+    "site": "qth",
+    "ask": 1555.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1699.88,
+      "sold_date": "2026-10-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/327117679108",
+      "source": "ebay",
+      "notes": "Title: HF/V/U AllMode 100W A/D Digital XCVR w/6W Portable Faceplate. Buy It Now. +$9.99 delivery.",
+      "flags": []
+    }
+  ]
+}
