@@ -1,0 +1,97 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-18",
+  "ran_at": "2026-10-18T14:53:11-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-17T15:04:19-04:00 (prior qth drop ran_at). Scanned QTH all-ads pages 1-18 (all.php through ?page=18), one at a time; 180 ads reviewed (title + price). Counter-ID range of new ads submitted since window start reviewed: 1782465-1782577 (95 new ads; IDs 1782477, 1782478, 1782481, 1782483, 1782486, 1782488, 1782490, 1782492, 1782496, 1782554-1782558, 1782561, 1782563, 1782567, 1782568 never appeared in the list - presumably deleted; not checked individually). End of window: page 17 reaches prior-run territory after 1782465 (1782461 and below, plus renewed ads already covered by the prior run); page 18 is entirely prior-run territory (1782411, 1781385, 1777865, 1782456/7 etc.). QTH shows dates only, so renewed ads modified 10/17 were reviewed anyway. No unreviewed remainder. 8 candidates picked (cap 8). Extra plausible candidates not comped: 1782542 (Henry 2K Classic X $1200, pickup only WI), 1782487 (Alpha 76A $900), 1782484 (Xiegu G90 + XPA125B bundle $800), 1782573 (JRC NRD-535D $725), 1782575 (Icom IC-2800H LNIB $600), 1782543 (Juma tiny HF amp $700 shipped), 1782570 (Yaesu FT-450 new open box $375), 1782501 (National NCL-2000 $500), 1782466 (Yaesu FT-690 MkII $350), 1782275 (Ten-Tec Scout 555 $325, renewed), 1780727 (Icom IC-7000 $700, renewed), 1779930 (Icom IC-9700 $1800, renewed), 1781936 (IC-7600 $1050, renewed), 1781935 (FT-991A $925 sell/trade, renewed), 1781934 (IC-9100 + IC-7410 $1800, renewed), 1782400 (OM Power 4000HF $4850, renewed), 1775453 (OM 2000+ renewed), 1782489 (Icom IC-R75 $500), 1782467 (RM Italy HLA-300 $275), 1782273 (Palstar AT4K $700, renewed). CAUTION: 1782525 (Icom IC-7100 $730 shipped, posted by K1WAT) not picked - ad 1782560 by W2PP warns that another callsign (N3RTC) copied his IC-7100 ad text and photo; 1782525's wording ('purchased new just two months ago', PayPal or Zelle) could not be verified as original. Not picked because already in dropped-urls: 1782202 (ALS-500M $900). No asking price shown: 1782569 (Kenwood TS-520), 1782566 (Xiegu G90), 1782469 (Flex 5000A), 1782468 (Heathkit SB-201), 1782473 (RM Italy HLA 150+), 1782521 ('very nice great rig' $500, model not identified in title). Comps: 1 ledger hit (Kenwood TS-830S), 7 eBay sold searches (Kenwood TS-890, Icom IC-7760, Yaesu FT-1000MP Mark-V, Yaesu FTX-1 Optima, Ameritron ALS-606S, Ameritron AL-80B, Ten-Tec Omni VII); eBay signed in as Leo, no challenges.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782574",
+      "site": "qth",
+      "title": "RADIOHF - Kenwood TS-890",
+      "price": 3100.0,
+      "shipping": 0,
+      "found_at": "2026-10-18",
+      "condition_notes": "Very nice, low use time; no issues per seller. Includes uninstalled NIB 270Hz CW filter, both manuals, power cord, Kenwood MC-43S hand mic. $3100 shipped/insured US.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782519",
+      "site": "qth",
+      "title": "RADIOHF - For Sale Icom IC-7760 HF/6m Transceiver",
+      "price": 5100.0,
+      "shipping": 0,
+      "found_at": "2026-10-18",
+      "condition_notes": "Mint, works 100%, low hours per seller. Original double boxes, manual, mic, control head and cables. Price includes free insured shipping to lower 48.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782559",
+      "site": "qth",
+      "title": "RADIOHF - YAESU FT1000-MP MARK-V & FP-29 P.S.",
+      "price": 1500.0,
+      "shipping": 0,
+      "found_at": "2026-10-18",
+      "condition_notes": "Includes FP-29 power supply. Seller: mint and barely used, has all shipping boxes. Shipping terms not stated.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782491",
+      "site": "qth",
+      "title": "RADIOHF - yaesu FTX1 /Optima with accessories'",
+      "price": 1555.0,
+      "shipping": 0,
+      "found_at": "2026-10-18",
+      "condition_notes": "New per seller, in original boxes; FTX-1 Optima plus SPG-1, SCF-1, Bluetooth and carrying handle. Price firm, no swaps. Located Tampa FL; shipping terms not stated.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782465",
+      "site": "qth",
+      "title": "AMPHF - FS: Ameritron ALS-606S",
+      "price": 1550.0,
+      "shipping": 0,
+      "found_at": "2026-10-18",
+      "condition_notes": "Excellent condition, works to spec on all bands, set up for 115V. Original owner, boxes and manual. $1550 plus shipping (amount not stated; ~37 lb shipping weight). CONUS only.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782126",
+      "site": "qth",
+      "title": "AMPHF - Ameritron AL-80B Amplifier",
+      "price": 1350.0,
+      "shipping": 0,
+      "found_at": "2026-10-18",
+      "condition_notes": "Bought used a few years ago, has worked fine. Wired for 240V (120V mod easy). $1,350 shipped to 48 states; seller prefers local sale (Houston). Tube shipped in separate box. Renewed ad (submitted 10/13, modified 10/18).",
+      "work_flag": "AMPLIFIER IS SOLD AS IS WITH NO RETURNS OR REFUNDS",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782510",
+      "site": "qth",
+      "title": "RADIOHF - FS: Ten Tec Omni VII",
+      "price": 675.0,
+      "shipping": 0,
+      "found_at": "2026-10-18",
+      "condition_notes": "Very nice shape, works good per seller. Two Collins CW filters, power cable. $675 shipped lower 48.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782529",
+      "site": "qth",
+      "title": "RADIOHF - TS830S w/TS930S SSB filters $595 shipped",
+      "price": 595.0,
+      "shipping": 0,
+      "found_at": "2026-10-18",
+      "condition_notes": "Serial 6 mil. Stock SSB filters replaced with TS-930S 2.7kHz SSB filters; dual 500Hz CW filters; KB-1 knob. Seller: beautiful, phenomenal performer. NO MIC included. $595 shipped UPS ground.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
