@@ -1,0 +1,34 @@
+{
+  "model": "Drake R8B",
+  "slug": "drake-r8b",
+  "searched_at": "2026-10-18T17:56:16-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'drake r8b', page 1 (25 results before 'fewer words'). Thin: 2 kept comps. Dropped 1 best-offer-accepted ($1,400, 2026-09-06). Dropped 0 parts-only R8B units. Excluded 2 R8B manual/schematic sets and all Drake R8 (non-B) sales - R8 is a different model.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/920052056440",
+    "site": "ebay",
+    "ask": 1299.0,
+    "shipping": 56.95
+  },
+  "comps": [
+    {
+      "price": 1279.99,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377481860152",
+      "source": "ebay",
+      "notes": "Title: 'Tested and works great!'; fixed price or Best Offer (not best-offer-accepted); +$22.56 shipping",
+      "flags": []
+    },
+    {
+      "price": 1199.0,
+      "sold_date": "2026-07-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398065201459",
+      "source": "ebay",
+      "notes": "Buy It Now; +$56.95 shipping; same title and shipping as the trigger listing (likely the same seller), sold earlier",
+      "flags": []
+    }
+  ]
+}
