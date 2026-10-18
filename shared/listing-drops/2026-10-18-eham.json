@@ -1,0 +1,20 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-18",
+  "ran_at": "2026-10-18T05:54:53-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-17T05:59:14-04:00 (prior eham run). Browsed signed OUT ('Welcome Guest'). Classifieds home loaded after Cloudflare 'Performing security verification' auto-cleared on its own within ~20s (no click, no CAPTCHA). No new ads posted since the prior run: newest ad is still 629241 (ACOM 600S, already dropped). Gap-fill: IC-705 (629228, posted 2026-10-16) was in the range the prior run could not review because of its page-2 block; it is on page 1 now, not in dropped-urls, so it is dropped here. FT-991A + mAT-30 (629229) still shows no asking price - not a candidate. Page 2 not loaded (prior run was challenged there); ads 629217-629227 remain unreviewed. No search form, sold searches, or seller/callsign pages. Comps: 1 ledger hit (ICOM IC-705), 0 eBay sold searches.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629228",
+      "site": "eham",
+      "title": "IC-705",
+      "price": 970.0,
+      "shipping": 0,
+      "found_at": "2026-10-18",
+      "condition_notes": "Icom IC-705, kept indoors, very little use, excellent condition, non-smoking household. Includes original box, all original accessories, USB cable, SD card. $970 shipped within CONUS. Cash/Zelle/PayPal; local pickup available. 'Sold as-is, with no returns. Sorry, no trades.' Posted 2026-10-16.",
+      "work_flag": "Sold as-is, with no returns.",
+      "seller_feedback": ""
+    }
+  ]
+}
