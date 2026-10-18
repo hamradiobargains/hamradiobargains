@@ -1,0 +1,47 @@
+{
+  "model": "Kenwood TM-D710GA",
+  "slug": "kenwood-tm-d710ga",
+  "searched_at": "2026-10-18T17:59:50-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood tm-d710ga', page 1 (32 results before 'fewer words'). 3 kept comps, two of them auctions with extras. Dropped 2 best-offer-accepted ($900 2026-09-03, $950 2026-08-17). Dropped 0 parts-only. Excluded a programming cable and all TM-D710A / TM-D700A / TM-D700 sales (different models).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/128143017458",
+    "site": "ebay",
+    "ask": 695.0,
+    "shipping": 12.11
+  },
+  "comps": [
+    {
+      "price": 535.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307225043174",
+      "source": "ebay",
+      "notes": "Buy It Now; +$25.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 476.0,
+      "sold_date": "2026-08-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147492087437",
+      "source": "ebay",
+      "notes": "Auction, final bid after 25 bids; title includes bracket & programming cable; +$8.43 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 510.0,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188762127292",
+      "source": "ebay",
+      "notes": "Auction, final bid after 3 bids; title includes speaker and RAM mount; free shipping",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
