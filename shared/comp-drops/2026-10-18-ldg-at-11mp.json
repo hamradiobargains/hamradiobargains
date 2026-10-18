@@ -1,0 +1,45 @@
+{
+  "model": "LDG AT-11MP",
+  "slug": "ldg-at-11mp",
+  "searched_at": "2026-10-18T17:57:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ldg at-11mp', page 1 (7 results before 'fewer words'). 3 kept comps. Dropped 1 best-offer-accepted ($145, 2026-08-19). Dropped 1 parts-only ($30.65 auction, 'FAULTY SPARES OR REPAIR', UK). Excluded 2 AC-DC power adapters. OUTLIERS: $31 auction (800591861968) is under half the others; $150 (298573292965, includes ICOM control cable) trips the 1.5x rule only because the $31 sale pulls the median of the other two down to $78.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/327411612245",
+    "site": "ebay",
+    "ask": 119.99,
+    "shipping": 24.99
+  },
+  "comps": [
+    {
+      "price": 125.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336794914275",
+      "source": "ebay",
+      "notes": "Buy It Now; +$17.80 shipping",
+      "flags": []
+    },
+    {
+      "price": 31.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800591861968",
+      "source": "ebay",
+      "notes": "OUTLIER: $31 vs $125-$150 for the other kept comps. Auction, final bid after 2 bids; +$10.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298573292965",
+      "source": "ebay",
+      "notes": "OUTLIER: $150 is more than 1.5x the $78 median of the other two kept comps ($31 and $125); triggered mechanically by the $31 low outlier, it is 1.2x the $125 sale. Title includes ICOM control cable; fixed price or Best Offer (not best-offer-accepted); +$11.50 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
