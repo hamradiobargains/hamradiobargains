@@ -1,0 +1,186 @@
+{
+  "model": "MFJ-989C",
+  "slug": "mfj-989c",
+  "searched_at": "2026-10-18T17:59:11-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'mfj-989c', page 1 (25 results before 'fewer words'). 18 kept comps. Dropped 3 best-offer-accepted ($299.95 2026-10-14, $225 2026-10-13, $200 2026-08-30). Dropped 2 parts-only ($159.99 2026-08-26 and $135 2026-07-24, both also best-offer-accepted). Excluded a drive belt and a manual/schematic. No outliers. Two pairs flagged possible_duplicate (188925966649/188861666129; 128017150063/128013017772). Ledger has 'MFJ 989C' (count 7, 2026-09-29) but the display name is not an exact match, so it was treated as a miss.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/287656879538",
+    "site": "ebay",
+    "ask": 249.0,
+    "shipping": 31.15
+  },
+  "comps": [
+    {
+      "price": 240.0,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/920018321692",
+      "source": "ebay",
+      "notes": "fixed price or Best Offer (not best-offer-accepted); +$105.71 shipping",
+      "flags": []
+    },
+    {
+      "price": 224.99,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960025694510",
+      "source": "ebay",
+      "notes": "Buy It Now; +$25.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 249.99,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327391603862",
+      "source": "ebay",
+      "notes": "Title says WORKS; Buy It Now; +$24.99 shipping",
+      "flags": []
+    },
+    {
+      "price": 299.95,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227464864239",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping",
+      "flags": []
+    },
+    {
+      "price": 299.99,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188925966649",
+      "source": "ebay",
+      "notes": "Title '(Great Shape)'; fixed price or Best Offer (not best-offer-accepted); +$37.10 shipping; same title, price and shipping as 188861666129 (sold 2026-08-31) - possibly the same unit relisted",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 190.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147550682187",
+      "source": "ebay",
+      "notes": "Auction, final bid after 1 bid; +$13.97 shipping",
+      "flags": []
+    },
+    {
+      "price": 229.99,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227502986926",
+      "source": "ebay",
+      "notes": "Title says WORKS; Buy It Now; +$23.99 shipping",
+      "flags": []
+    },
+    {
+      "price": 299.99,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188861666129",
+      "source": "ebay",
+      "notes": "Title '(Great Shape)'; fixed price or Best Offer (not best-offer-accepted); +$37.10 shipping; same title, price and shipping as 188925966649 (sold 2026-09-17) - possibly the same unit relisted",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227477428564",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping",
+      "flags": []
+    },
+    {
+      "price": 249.0,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278244069930",
+      "source": "ebay",
+      "notes": "Title says TESTED and WORKING; Buy It Now; +$24.39 shipping",
+      "flags": []
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287525876871",
+      "source": "ebay",
+      "notes": "Buy It Now; +$32.78 shipping",
+      "flags": []
+    },
+    {
+      "price": 190.0,
+      "sold_date": "2026-08-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128017150063",
+      "source": "ebay",
+      "notes": "Title: 'Includes Manual Tested Working'; Buy It Now; +$18.27 shipping; same title and shipping as 128013017772 (sold 2026-08-08 at $230) - possibly the same unit relisted",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 230.0,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128013017772",
+      "source": "ebay",
+      "notes": "Title: 'Includes Manual Tested Working'; Buy It Now; +$18.27 shipping; same title and shipping as 128017150063 (sold 2026-08-09 at $190) - possibly the same unit relisted",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 249.95,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800434527022",
+      "source": "ebay",
+      "notes": "fixed price or Best Offer (not best-offer-accepted); +$20.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 269.95,
+      "sold_date": "2026-07-31",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/298543877790",
+      "source": "ebay",
+      "notes": "fixed price or Best Offer (not best-offer-accepted); +$27.82 shipping",
+      "flags": []
+    },
+    {
+      "price": 269.99,
+      "sold_date": "2026-07-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257632577999",
+      "source": "ebay",
+      "notes": "fixed price or Best Offer (not best-offer-accepted); free shipping",
+      "flags": []
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-07-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358804440085",
+      "source": "ebay",
+      "notes": "Auction, final bid after 1 bid; +$7.78 shipping",
+      "flags": []
+    },
+    {
+      "price": 160.5,
+      "sold_date": "2026-07-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137529871046",
+      "source": "ebay",
+      "notes": "Auction, final bid after 6 bids; +$35.00 shipping",
+      "flags": []
+    }
+  ]
+}
