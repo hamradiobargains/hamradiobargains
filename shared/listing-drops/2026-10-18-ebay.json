@@ -1,0 +1,86 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-18",
+  "ran_at": "2026-10-18T17:52:48-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now, sorted Time: newly listed (signed in as Leo). Window since previous ebay run 2026-10-17T17:53:17-04:00; scanned page 1 only (60 items). 8 picked; 7 recorded, all passed the seller rule. Not recorded: Yaesu FT-991A 'HF/VHF/UHF 100W All-Mode SSB CW AM FM LCD w/ Mic' ($1,200 or Best Offer, $51.49 shipping) - search result linked to an eBay product page and the item number could not be captured, so seller feedback was not verified. Ledger: 1 hit (Icom IC-R75 count 8, 2026-10-12); 6 misses (Drake R8B, Icom IC-2100H, Azden PCS-2800 no entries; LDG AT-11MP count 1; Kenwood TM-D710GA latest 2026-09-11, older than 30 days; MFJ-989C - ledger key is 'MFJ 989C', not an exact display-name match, treated as a miss). eBay sold searches: Drake R8B, LDG AT-11MP, Icom IC-2100H, MFJ-989C, Kenwood TM-D710GA, Azden PCS-2800 - no challenges. Seller rating counts are the feedback score shown on the seller card. Item descriptions (iframe) not read; condition notes from title/condition/seller notes/returns only. Not picked: Texas Star DX 350 / DX 250 (CB amps), Titan RoadPro, Silver Streak 150A, Palomar 300A (parts), Kenwood VFO-120 (parts), Ten-Tec Orion 565AT (parts only), Icom IC-R75 parts unit, Hallicrafters S-38A, Drake SPR-4, Clegg 99er, Swan 117XC (parts only), ham go-box bundle (local pickup), Kenwood TK-730H/TK-830 (commercial), Vertex duplexer, Heathkit phone patches/speaker, Kantronics KPC-2, boards/panels/cables/filters, dummy loads, coax switch, MFJ-931/MFJ-1025, Emtech ZM-2 (new), SignaLink, Raddy RF919, Realistic DX-120, ANZAC RF amps, misc.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/920052056440",
+      "site": "ebay",
+      "title": "Drake R8B AM SW Ham Radio Shortwave Receiver ***A TOP TIER DX MACHINE***",
+      "price": 1299.0,
+      "shipping": 56.95,
+      "found_at": "2026-10-18",
+      "condition_notes": "eBay condition: Used. Seller notes: \"Cosmetically this unit is used and has minor marks from previous ownership...\" (truncated). Fixed price $1,299, $56.95 shipping from Mill Hall, PA. Seller does not accept returns. Item description (iframe) not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (22072 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/840035189809",
+      "site": "ebay",
+      "title": "Icom IC-R75 Shortwave Amateur Radio Receiver w/ Sync Detector & UT-106 DSP Unit",
+      "price": 599.95,
+      "shipping": 29.45,
+      "found_at": "2026-10-18",
+      "condition_notes": "eBay condition: Used. Seller notes: \"Unit is used and there are some minor marks from age and previous ownership...\" (truncated). Title: with sync detector and UT-106 DSP unit. Fixed price $599.95, $29.45 shipping. Seller does not accept returns. Item description (iframe) not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (22072 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/327411612245",
+      "site": "ebay",
+      "title": "LDG Electronics AT-11MP Automatic Antenna Tuner Ham Radio Autotuner WORKS",
+      "price": 119.99,
+      "shipping": 24.99,
+      "found_at": "2026-10-18",
+      "condition_notes": "eBay condition: Used. Seller notes: \"WORKS\". $119.99 or Best Offer, $24.99 economy shipping. Seller does not accept returns. Item description (iframe) not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "99.7% (21893 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/257805207324",
+      "site": "ebay",
+      "title": "Icom IC-2100H 2m VHF FM Mobile Ham Radio Transceiver 55W 200CH w/ Mic",
+      "price": 99.95,
+      "shipping": 16.95,
+      "found_at": "2026-10-18",
+      "condition_notes": "eBay condition: Used. Title: with mic. $99.95 or Best Offer, $16.95 USPS Ground Advantage. 30-day returns, buyer pays return shipping. Item description (iframe) not read.",
+      "work_flag": "",
+      "seller_feedback": "99.9% (8322 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/287656879538",
+      "site": "ebay",
+      "title": "MFJ Model MFJ-989C Versa Tuner V 3KW Roller Inductor Antenna Tuner",
+      "price": 249.0,
+      "shipping": 31.15,
+      "found_at": "2026-10-18",
+      "condition_notes": "eBay condition: Used. Seller notes: \"good condition, has several scratches on cover.\" Fixed price $249, $31.15 FedEx Ground; free local pickup offered. Seller does not accept returns. Item description (iframe) not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (2144 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/128143017458",
+      "site": "ebay",
+      "title": "Kenwood TM-D710GA open box Dual Band APRS Wx TNC GPS Cross Band Repeat 70cm/2m",
+      "price": 695.0,
+      "shipping": 12.11,
+      "found_at": "2026-10-18",
+      "condition_notes": "eBay condition: Open box. Seller notes: \"Excellent\". $695 or Best Offer, $12.11 USPS Ground Advantage. Seller does not accept returns. Item description (iframe) not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (234 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366743322682",
+      "site": "ebay",
+      "title": "Azden PCS2800, 2M VHF Ham Radio Transceiver + manual.",
+      "price": 99.99,
+      "shipping": 19.99,
+      "found_at": "2026-10-18",
+      "condition_notes": "eBay condition: Used. Title: with manual; title says 2M VHF (the one sold comp found describes the PCS-2800 as a 10M FM transceiver). No seller notes on condition or testing shown. $99.99 or Best Offer, $19.99 USPS Ground Advantage. Seller does not accept returns. Item description (iframe) not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "99.3% (19402 ratings)"
+    }
+  ]
+}
