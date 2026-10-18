@@ -1,0 +1,111 @@
+{
+  "model": "Ameritron AL-80B",
+  "slug": "ameritron-al-80b",
+  "searched_at": "2026-10-18T15:03:13-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "9 kept comps (solid set). Query 'ameritron al-80b', page 1 only (42 results), 'fewer words' section ignored. Left out non-AL-80B items (accessories, Texas Star DX350). dropped 1 best-offer-accepted (336840483446 $1,899.95). dropped 0 parts-only. Possible duplicates: 800683007785 / 117396529120 (identical titles, 2014 model, Taylor tube); 206501874720 / 178329281259 (identical 'ugly, but it works' titles); 227504092711 / 227433135015 (same-style titles, 10M mod, same price). No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782126",
+    "site": "qth",
+    "ask": 1350.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1450.0,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800683007785",
+      "source": "ebay",
+      "notes": "Title: 1kW, 2014 Model, Taylor 3-500Z Tube, 120V. Buy It Now. +$38.82 delivery. Possibly same unit as 117396529120.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 999.99,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267781606466",
+      "source": "ebay",
+      "notes": "Title: Excellent working, new 3-500 tube. Buy It Now. +$75.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1300.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117396529120",
+      "source": "ebay",
+      "notes": "Title: 1kW, 2014 Model, Taylor 3-500Z Tube, 120V. or Best Offer (not accepted-offer). +$71.86 delivery. Possibly same unit as 800683007785.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1599.95,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227504092711",
+      "source": "ebay",
+      "notes": "Title: RECAPPED, new tube, & 10M mod. Buy It Now. Free delivery. Possibly same unit as 227433135015.",
+      "flags": [
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1599.95,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227433135015",
+      "source": "ebay",
+      "notes": "Title: w/ 10m mod. Buy It Now. Free delivery. Possibly same unit as 227504092711.",
+      "flags": [
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206501874720",
+      "source": "ebay",
+      "notes": "Title: (ugly, but it works). Buy It Now. +$105.00 delivery. Possibly same unit as 178329281259.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178329281259",
+      "source": "ebay",
+      "notes": "Title: (ugly, but it works). Buy It Now. +$105.00 delivery. Possibly same unit as 206501874720.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1150.0,
+      "sold_date": "2026-08-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158141780413",
+      "source": "ebay",
+      "notes": "Title: S/N AL80B18470. Buy It Now. +$196.30 delivery.",
+      "flags": []
+    },
+    {
+      "price": 949.99,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198536680389",
+      "source": "ebay",
+      "notes": "Buy It Now. +$124.97 delivery.",
+      "flags": []
+    }
+  ]
+}
