@@ -1,0 +1,27 @@
+{
+  "model": "Azden PCS-2800",
+  "slug": "azden-pcs-2800",
+  "searched_at": "2026-10-18T18:00:56-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'azden pcs-2800', page 1 (1 result before 'fewer words'). Thin: 1 kept comp. Dropped 0 best-offer-accepted, 0 parts-only. The comp title describes the PCS-2800 as a 10M FM transceiver; the trigger listing title says 2M VHF.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366743322682",
+    "site": "ebay",
+    "ask": 99.99,
+    "shipping": 19.99
+  },
+  "comps": [
+    {
+      "price": 33.32,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327362292239",
+      "source": "ebay",
+      "notes": "Title: 'VINTAGE 10M FM TRANSCEIVER AZDEN PCS-2800 - POWERS UP BUT OTHERWISE UNTESTED'; fixed price or Best Offer (not best-offer-accepted); +$117.02 shipping",
+      "flags": [
+        "as_is"
+      ]
+    }
+  ]
+}
