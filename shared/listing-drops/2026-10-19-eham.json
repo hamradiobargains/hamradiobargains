@@ -1,0 +1,64 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-19",
+  "ran_at": "2026-10-19T05:52:52-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-18T05:54:53-04:00 (prior eham run). Browsed signed OUT ('Welcome Guest'). Classifieds home page 1 loaded directly, no Cloudflare challenge. Only one eHam page load this run (page 1 now reaches back to 629194, so the previously-unreviewed 629217-629227 gap was covered without page 2). New since prior run: 629254 ICOM IC-7100 trade-only for FT-991A (no asking price, not a candidate), 629251 Flex 6600M (dropped), 629246 'Wanted' Drake TR-4CW (want ad). Gap-fill (posted 10-15/10-16, never reviewed because of the 10-17 page-2 block): dropped 629225 Yaesu M-1, 629223 IC-706MKIIG (repair/parts), 629218 TS-570S, 629217 Elecraft P3. Skipped: 629220 Ameritron ARI-500 (ad marked SOLD), 629221 SDRplay RSP1 + MFJ-1708 bundle ($140 shipped; SDR receiver + T/R switch bundle, not comp-able as one model). 629198/629197 are repeat postings of the FT-710 station already dropped as 629199 - not re-dropped. No search form, sold searches, or seller/callsign pages. Comps: 2 ledger hits (ICOM IC-706MKIIG, KENWOOD TS-570S); 3 eBay sold searches (FlexRadio FLEX-6600M, Yaesu M-1, Elecraft P3), signed in as Leo, no challenge. ELECRAFT P3 ledger date 2026-09-19 is exactly 30 days old - treated as a miss.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629251",
+      "site": "eham",
+      "title": "Flex 6600M with ATU",
+      "price": 2999.0,
+      "shipping": 68.0,
+      "found_at": "2026-10-19",
+      "condition_notes": "FlexRadio 6600M with ATU, 'completely pristine ... immaculate condition'. Includes cover, power cable, mic, original boxes, Ethernet cable. 'Fully tested, works perfectly.' $2999 + $68 insured shipping. Posted 2026-10-18.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629225",
+      "site": "eham",
+      "title": "Yaesu M-1 Reference Microphone",
+      "price": 500.0,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "Yaesu M-1 reference mic, excellent condition. Comes with two mic cords, instruction sheets, plastic directional cover. No original box and missing the small tool that came with it. $500 shipped to CONUS. Posted 2026-10-16 (gap-fill: in the 629217-629227 range not reviewed by prior runs).",
+      "work_flag": "I do not have the box or the little tool like a Phillips head screwdriver that came with it",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629223",
+      "site": "eham",
+      "title": "ICOM IC-706MKIIG - Repair or Parts",
+      "price": 225.0,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "Icom IC-706MKIIG, does NOT power up (slight click, no power-up) after seller pulled/cleaned an internal ribbon; before that SWR meter not registering above 1:1. Fuse OK, no visible damage. Cosmetically very good. Price shown is 'Rig Only' with box and ACC blank plug (no DSP/filter/mic) $225. Other options: rig+box+OEM mic+UT-106 DSP+FL-223 filter $420; take it all $515. Parts also sold separately. Shipping paid by buyer (amount not stated). Posted 2026-10-16 (gap-fill).",
+      "work_flag": "no power up - letting it go for parts or repair",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629218",
+      "site": "eham",
+      "title": "Kenwood TS-570S",
+      "price": 525.0,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "Kenwood TS-570S, 'fully functional', recently tested; seller posts measured power output per band (~90-114W). Auto tuner, DSP. Comes with Heil handheld mic, 3 ft power cable. Stock, no added filters. Modified to open TX across HF. Some scratches on top of case. $525; buyer pays actual shipping from 29209 (amount not stated). Posted 2026-10-15 (gap-fill).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629217",
+      "site": "eham",
+      "title": "ELECRAFT P3 PANADAPTER # 558",
+      "price": 489.0,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "Elecraft P3 panadapter s/n 558, 'Nice', 'very nice P3'. Comes with cables for a K3. No VGA option mentioned. $489 delivered. Posted 2026-10-15 (gap-fill).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
