@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-8400",
+  "slug": "flexradio-flex-8400",
+  "searched_at": "2026-10-19T18:04:31-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'flexradio 8400', page 1: only 1 result above 'Results matching fewer words' (a FHM-3 hand mic accessory, also best-offer-accepted) - 0 qualifying FLEX-8400 radio sales. No comps; thin (zero). Dropped 1 best-offer-accepted (accessory), 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/840038147815",
+    "site": "ebay",
+    "ask": 2450.0,
+    "shipping": 478.38
+  },
+  "comps": []
+}
