@@ -1,0 +1,15 @@
+{
+  "model": "Elecraft K3",
+  "slug": "elecraft-k3",
+  "searched_at": "2026-10-19T18:04:31-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'elecraft k3', page 1 (76 results; no 'fewer words' section shown). No comps kept: the only radio sales on page 1 were 5 Elecraft K3/100 units (960050274640, 327342065547, 327327910301, 327276580198, 327276556623) and a K3/0 mini remote head; the trigger listing does not state K3/10 vs K3/100, so per the exact-model rule they were left out. Dropped 0 best-offer-accepted, 0 parts-only. Rest of page was options/filters/manuals/accessories and K3S items. Trigger listing is itself untested/for parts.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/920054896047",
+    "site": "ebay",
+    "ask": 799.45,
+    "shipping": 34.55
+  },
+  "comps": []
+}
