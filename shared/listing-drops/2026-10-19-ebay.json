@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-19",
+  "ran_at": "2026-10-19T17:53:15-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670) browse page, Buy It Now filter, sorted Time: newly listed (signed in as Leo). The /sch/ URL redirected to the /b/ browse page; that page still showed 3 auction items (excluded). Window since previous ebay run 2026-10-18T17:52:48-04:00; scanned pages 1-2 (43 + 51 items). Browse cards show no listing times, so 'new' = newest-first order on those two pages; none of the picked items were in dropped-urls.json. 8 picked, all passed the seller rule (rating counts are the feedback score on the seller card). Ledger: 1 hit (Icom ID-52A count 4, 2026-09-29); misses: FlexRadio FLEX-8400 (count 1), Kenwood TH-D74A (count 2), Icom IC-730 (count 2), Icom IC-38A / Kenwood R-300 (no entries), Elecraft K3 (ledger key is ELECRAFT K3/100; listing variant unknown, treated as miss). MFJ-259B: no ledger entry and no comp search - title/MPN model conflict (259B vs 269). eBay sold searches (6): flexradio 8400, kenwood th-d74, icom ic-38a, icom ic-730, kenwood r-300, elecraft k3 - no challenges. Item descriptions (iframe) not read. Not picked: Viking Valiant II ($575, freight shipping not stated, needs external VFO), Globe Chief 90A, Harvey Wells Bandmaster Senior, Hallicrafters S-53, National NC-88, Kenwood TM-401A / TM-201A, Icom IC-DRC1MKII (non-ham community radio), Xiegu X5105 and XPA125B (parts only), Elecraft KXPA100 (untested/parts), Realistic DX-300 (auction), Power Plus HL-35V (auction), Kenwood TK-8302HU / TCM-D244 (commercial), Ranger RCI69 / Palomar Skipper / Blue Streak (CB), Datron Spectre V (military), many parts boards, filters, sockets, cables, hotspots, SDR receivers.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/840038147815",
+      "site": "ebay",
+      "title": "FlexRadio 8400 with ATU, includes FHM-3 hand mic, GPS Antenna and more.",
+      "price": 2450.0,
+      "shipping": 478.38,
+      "found_at": "2026-10-19",
+      "condition_notes": "eBay condition: Used. Item specifics Model: FlexRadio 8400 (title says 'with ATU'; ATU is the factory tuner option). $2,450 or Best Offer; shipping shown $478.38 FedEx Ground from Shingletown, CA (as displayed to Leo's ZIP). Seller does not accept returns. Item description (iframe) not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (24 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/336852603603",
+      "site": "ebay",
+      "title": "Kenwood TH-D74 Tri-Band HT VHF UHF FM & DSTAR Ham Radio Near Mint Fast Ship",
+      "price": 550.0,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "eBay condition: Used. Item specifics Model: Kenwood TH-D74A (MPN TH-D74). Seller notes: \"Radio is like new, Origonal box not included, Comer with data cable and rtSystems CD for programming\". $550 or Best Offer, free USPS Ground Advantage shipping. 30-day returns, buyer pays return shipping. Item description (iframe) not read.",
+      "work_flag": "",
+      "seller_feedback": "100% (123 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/198728613133",
+      "site": "ebay",
+      "title": "ICOM ID-52A D-STAR VHF/UHF MHT + BP-307 3050mAh Battery + MFJ-1717S HT Antenna",
+      "price": 349.95,
+      "shipping": 10.35,
+      "found_at": "2026-10-19",
+      "condition_notes": "eBay condition: Used. MPN ID-52A (title does not say 'Plus'). Includes BP-307 battery and MFJ-1717S antenna per title. Fixed price $349.95, $10.35 shipping from Portland, OR. Seller does not accept returns. Item description (iframe) not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (30 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/147643137644",
+      "site": "ebay",
+      "title": "MFJ HF/VHF/UHF SWR Antenna Analyzer MFJ-259B Ham Radio w/ Case + AA Batteries",
+      "price": 179.0,
+      "shipping": 10.99,
+      "found_at": "2026-10-19",
+      "condition_notes": "eBay condition: Used. MODEL CONFLICT: title and Model specific say MFJ-259B, but title says HF/VHF/UHF and MPN specific says MFJ-269 (the 259B has no UHF; the 269 does). Includes case and AA batteries per title. Fixed price $179, $10.99 shipping. Seller does not accept returns. No comp search run because the model identity is uncertain.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (2101 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/287659299942",
+      "site": "ebay",
+      "title": "Icom IC-38a FM Transceiver - 220Mhz",
+      "price": 125.0,
+      "shipping": 29.75,
+      "found_at": "2026-10-19",
+      "condition_notes": "eBay condition: Used. Seller notes: \"Nice- working well\". Fixed price $125, $29.75 shipping from Bothell, WA. 30-day returns, buyer pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (491 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/940025862472",
+      "site": "ebay",
+      "title": "ICOM IC-730 Transceiver , Tech Special, no SSB Transmit, Full Power Out on CW",
+      "price": 150.0,
+      "shipping": 22.62,
+      "found_at": "2026-10-19",
+      "condition_notes": "eBay condition: For parts or not working. Seller notes: \"Tech Special, no SSB Transmit, Full Power Out on CW\". Fixed price $150, $22.62 shipping from Shelton, WA. Seller does not accept returns.",
+      "work_flag": "Tech Special, no SSB Transmit, Full Power Out on CW (eBay condition: For parts or not working)",
+      "seller_feedback": "100% (2145 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/860063068904",
+      "site": "ebay",
+      "title": "Kenwood R-300 Communication Receiver",
+      "price": 279.99,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "eBay condition: Used. Model R-300 (general-coverage communications receiver). Fixed price $279.99, free USPS Ground Advantage shipping from Redmond, WA. 14-day returns, buyer pays return shipping. Item description (iframe) not read.",
+      "work_flag": "",
+      "seller_feedback": "99.5% (27708 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/920054896047",
+      "site": "ebay",
+      "title": "Elecraft K3 HF/50MHz Amateur Radio Transceiver – Untested For Parts or Repair",
+      "price": 799.45,
+      "shipping": 34.55,
+      "found_at": "2026-10-19",
+      "condition_notes": "eBay condition: For parts or not working. Title: 'Untested For Parts or Repair'. Power variant (K3/10 vs K3/100) not stated in title or item specifics shown. $799.45 or Best Offer, $34.55 shipping from Berkeley, CA. Seller does not accept returns.",
+      "work_flag": "Untested For Parts or Repair",
+      "seller_feedback": "100% (806 ratings)"
+    }
+  ]
+}
