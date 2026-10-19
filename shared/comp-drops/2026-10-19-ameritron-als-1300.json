@@ -1,0 +1,45 @@
+{
+  "model": "Ameritron ALS-1300",
+  "slug": "ameritron-als-1300",
+  "searched_at": "2026-10-19T15:00:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1 ('ameritron als-1300'), 3 kept comps. Dropped 0 best-offer-accepted, 0 parts-only. Excluded 2 filter boards (FL-10 / LP filter). Wide spread: OUTLIER $700 (vs ~$1,825 median of the other two) and OUTLIER $2,200 (vs ~$1,075 median of the other two) - with only 3 comps each extreme is flagged against the other two.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782604",
+    "site": "qth",
+    "ask": 1500.0,
+    "shipping": 150.0
+  },
+  "comps": [
+    {
+      "price": 1450.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287616980572",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked best offer accepted); shipping not shown",
+      "flags": []
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287551851726",
+      "source": "ebay",
+      "notes": "OUTLIER: $700 vs ~$1,825 for the rest. Auction, 1 bid; includes ARI-500 remote interface; free shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 2200.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278265128005",
+      "source": "ebay",
+      "notes": "OUTLIER: $2,200 vs ~$1,075 for the rest. Auction, 11 bids; title: 'tested & working see video'; +$32.86 shipping",
+      "flags": []
+    }
+  ]
+}
