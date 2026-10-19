@@ -1,0 +1,130 @@
+{
+  "model": "Kenwood TH-D74A",
+  "slug": "kenwood-th-d74a",
+  "searched_at": "2026-10-19T18:04:31-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood th-d74', page 1 (45 results before 'fewer words'). 12 kept comps. Titles saying 'TH-D74' without suffix kept as the US TH-D74A (trigger listing's own item specifics say Model TH-D74A, MPN TH-D74). Dropped 2 best-offer-accepted (398379311924 $475; 158168231303 $399.99). Dropped 2 parts-only (377553754068 $175; 198623793858 $305). Excluded: TH-D74E 128022978247 (EU model), TH-D75A, a TH-D74A TX-RX board, 198662500665 titled 'TH-74A' (identity not certain), and many accessories (mics, batteries, chargers, clips, cases). No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/336852603603",
+    "site": "ebay",
+    "ask": 550.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 500.0,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158377407272",
+      "source": "ebay",
+      "notes": "Kenwood TH-D74A Handheld Transceiver Radio, Tri-Band; or Best Offer listing, not accepted; +$5.98 shipping",
+      "flags": []
+    },
+    {
+      "price": 475.0,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128113909184",
+      "source": "ebay",
+      "notes": "TH-D74A with extra battery, SRH320A antenna, charging dock; or Best Offer listing, not accepted; +$6.86 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137812561134",
+      "source": "ebay",
+      "notes": "TH-D74A w/ KSC-25LS charger; +$6.63 shipping",
+      "flags": []
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318880351293",
+      "source": "ebay",
+      "notes": "auction, 7 bids; title 'excellent condition'; title says TH-D74 (no suffix); +$12.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158031770034",
+      "source": "ebay",
+      "notes": "title 'Kenwood TH-D74' (no suffix); +$6.86 shipping",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398242518403",
+      "source": "ebay",
+      "notes": "TH-D74A 'Tested Complete w/ Box'; +$35.80 shipping",
+      "flags": []
+    },
+    {
+      "price": 385.0,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188898879835",
+      "source": "ebay",
+      "notes": "TH-D74A 'with MARS / Extended Transmit Mod'; auction, 1 bid; +$8.64 shipping",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 439.95,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237043764286",
+      "source": "ebay",
+      "notes": "TH-D74A; +$21.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198524331474",
+      "source": "ebay",
+      "notes": "TH-D74A '- BUNDLE' (contents not listed in title); Buy It Now; free shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 399.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128021497269",
+      "source": "ebay",
+      "notes": "TH-D74A 'W Original box'; Buy It Now; +$17.88 shipping",
+      "flags": []
+    },
+    {
+      "price": 399.0,
+      "sold_date": "2026-07-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327273193202",
+      "source": "ebay",
+      "notes": "TH-D74A; +$14.85 shipping",
+      "flags": []
+    },
+    {
+      "price": 403.74,
+      "sold_date": "2026-07-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147416111202",
+      "source": "ebay",
+      "notes": "title 'Kenwood TH-D74 144/440 MHZ FM dual Bander' (no suffix); +$14.85 shipping",
+      "flags": []
+    }
+  ]
+}
