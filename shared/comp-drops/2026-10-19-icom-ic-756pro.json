@@ -1,0 +1,63 @@
+{
+  "model": "Icom IC-756PRO",
+  "slug": "icom-ic-756pro",
+  "searched_at": "2026-10-19T14:59:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1 ('icom ic-756pro'), 5 kept comps of the original IC-756PRO only (PRO II / PRO III / IC-746PRO excluded as different models). Dropped 3 best-offer-accepted ($699.89 336756569984, $579.95 298591044245, $725.00 358715312439). Dropped 2 parts-only ($280 'Parts Only' 336817543948, $345 'for parts/repair' 287485739374). Excluded manuals, RF/PLL boards and a carry handle. No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782656",
+    "site": "qth",
+    "ask": 575.0,
+    "shipping": 48.5
+  },
+  "comps": [
+    {
+      "price": 725.0,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137759314544",
+      "source": "ebay",
+      "notes": "Buy It Now; +$27.11 shipping",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820212068442",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked best offer accepted); title: 'Excellent Condition, Working!'; +$31.20 shipping",
+      "flags": []
+    },
+    {
+      "price": 739.0,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820102916463",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked best offer accepted); includes Icom SM-8 desk mic; title says fully tested; +$9.89 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 530.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188979696985",
+      "source": "ebay",
+      "notes": "Auction, 5 bids; free shipping",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-08-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336719009780",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping",
+      "flags": []
+    }
+  ]
+}
