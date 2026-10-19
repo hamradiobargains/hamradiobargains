@@ -1,0 +1,97 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-19",
+  "ran_at": "2026-10-19T14:53:28-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-18T14:53:11-04:00 (prior qth drop ran_at). Scanned QTH all-ads pages 1-15 (all.php through ?page=15), one at a time; 150 ads reviewed (title + price). Counter-ID range of new ads submitted since window start reviewed: 1782578-1782659 (76 new ads; IDs 1782592, 1782593, 1782595, 1782600, 1782601, 1782612 never appeared in the list - presumably deleted; not checked individually). Renewed/modified older ads interleaved with the new ones were also reviewed. End of window: page 14 reaches prior-run territory after 1782578 (1782577 and below, which the 10/18 run covered); page 15 is entirely prior-run territory (1782574, 1782573, 1782570, 1782569, 1782489 etc.). QTH shows dates only, so ordering vs. the prior run's top ID (1782577) set the boundary. No unreviewed remainder. 8 candidates picked (cap 8). Extra plausible candidates not comped: 1782609 (Yaesu FT-991A w/ speaker, $1099 + $45 ship), 1782646 (Alpha 78 $1400, local pickup only), 1782617 (FlexRadio Flex-1500 $395), 1782608 (Anan G2 $2800), 1782602 (Icom IC-7300 + SP-38 $825), 1782610 (IC-7300 + PTRX-7300 + RSP-1A bundle $875), 1782618 (FX-4CR3 + ATU-100 $500), 1782613 (Kenwood R-2000 w/ VHF converter $295), 1782644 (Hermes Lite 2 $350), 1782583 (Icom 5100 mint $375), 1782640 (Palstar AT4K $700), 1782628 (Heathkit SA-2550 $300), 1782657 (Icom IC-9100 + IC-7410 pair $1800 - same pair/price as renewed 1781934 noted in the 10/18 run, possible repost), 1782334 (Ten-Tec Omni VI+ $450, renewed), 1780196 (Yaesu FT-897 $570, renewed), 1781414 (Kenwood R-1000 $270, renewed), 1782335 (Kenwood TM-D700 $245, renewed), 1782636 (Hallicrafters PS-150-12 $145), 1782626 (Astron 35A $80). Not picked because already in dropped-urls: 1782529 (TS-830S, renewed, now $575 shipped). No asking price shown: 1782648 (Kenwood TS-830S), 1782621 (TS-830), 1782585 (ALS-1300), 1782639 (Palstar AT2K), 1782566 (Xiegu G90), 1782469 (Flex 5000A), 1782468 (SB-201), 1782623 (complete station). Comps: 5 ledger hits (Icom IC-7300, Yaesu FTDX10, Yaesu FT-950, Ameritron AL-811H, Icom IC-706MKIIG), 3 eBay sold searches (Icom IC-756PRO, Ameritron ALS-1300, Ameritron AL-1200); eBay signed in as Leo, no challenges.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782627",
+      "site": "qth",
+      "title": "RADIOHF - Icom 7300",
+      "price": 625.0,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "Works as it should. Has MARS mod. $625 split shipping (amount not stated). Zelle, Venmo or local pickup. Seller N8ZBA.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782656",
+      "site": "qth",
+      "title": "RADIOHF - Icom 756 PRO Transceiver",
+      "price": 575.0,
+      "shipping": 48.5,
+      "found_at": "2026-10-19",
+      "condition_notes": "Great condition, non-smoking environment. $575 plus $48.50 shipping. Seller WQ5J.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782605",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu FTDX10",
+      "price": 1350.0,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "Roofing filter installed; comes with SP-30 speaker and M-70 desk mic. Shipping not stated. Seller K9RRY.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782604",
+      "site": "qth",
+      "title": "AMPHF - Ameritron ALS-1300",
+      "price": 1500.0,
+      "shipping": 150.0,
+      "found_at": "2026-10-19",
+      "condition_notes": "Very nice, wired for 110V, tested at 1000 watts, very clean. Comes with untested ARI-500 Radio Interface. UPS shipping $150 from Ocala FL. ATR-30 tuner package deal $1800 + shipping also offered. Seller AB4WP.",
+      "work_flag": "comes with untested ARI-500 Radio Interface (amp itself tested at 1000 watts)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782597",
+      "site": "qth",
+      "title": "AMPHF - Ameritron AL1200",
+      "price": 1850.0,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "Good condition and works as it should. Shipping to be discussed (not stated). Seller N0ARX.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782590",
+      "site": "qth",
+      "title": "RADIOHF - Yeasu FT-950 100w Mint!",
+      "price": 650.0,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "100W radio in excellent condition, no microphone. Shipping not stated. Seller KB1HYU.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782651",
+      "site": "qth",
+      "title": "AMPHF - Ameritron Al-811H",
+      "price": 475.0,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "Working; tested briefly, had power out but not fully rated output (seller recalls ~400W PEP). Tubes may be tired. A previous owner replaced one PS capacitor (seller says very sloppily). $475 plus shipping (amount not stated, seller warns it will be high). Seller W7TSM.",
+      "work_flag": "not fully rated output, around 400w pep; tubes may be tired; PS capacitor replaced very sloppily",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782622",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE: Icom IC-706-MKIIG with issue.",
+      "price": 300.0,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "HF/VHF/UHF, open transmit mod. Issue with excessive power draw while turned off; otherwise functions as it should. $300 includes priority mail shipping in USA. Seller AH6L.",
+      "work_flag": "issue with excessive power draw while turned \"off\"",
+      "seller_feedback": ""
+    }
+  ]
+}
