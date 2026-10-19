@@ -1,0 +1,43 @@
+{
+  "model": "Kenwood R-300",
+  "slug": "kenwood-r-300",
+  "searched_at": "2026-10-19T18:04:31-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood r-300', page 1 (6 results before 'fewer words'). 3 kept comps. Dropped 1 best-offer-accepted (128068508877 $223.66, also 'NOT TESTED' / Parts Only). Dropped 1 parts-only (227489577006 $150 'As Is, Sold For Parts'). Excluded 1 unrelated JVC camera. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/860063068904",
+    "site": "ebay",
+    "ask": 279.99,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 250.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407271852687",
+      "source": "ebay",
+      "notes": "title 'Kenwood R-300 COMMUNICATIONS RECEIVER WORKING'; Buy It Now; +$139.86 shipping",
+      "flags": []
+    },
+    {
+      "price": 291.09,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236821959204",
+      "source": "ebay",
+      "notes": "or Best Offer listing, not accepted; +$50.58 shipping plus import fees shown (international listing)",
+      "flags": []
+    },
+    {
+      "price": 255.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198616452840",
+      "source": "ebay",
+      "notes": "auction, 6 bids; title 'Tested & Working - Great Condi(tion)'; +$48.69 shipping",
+      "flags": []
+    }
+  ]
+}
