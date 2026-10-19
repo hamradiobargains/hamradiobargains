@@ -1,0 +1,15 @@
+{
+  "model": "Ameritron AL-1200",
+  "slug": "ameritron-al-1200",
+  "searched_at": "2026-10-19T15:01:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - no comps. eBay sold page 1 ('ameritron al-1200') returned 16 sold results, all parts/accessories (screw kit, contactor, filter/rectifier boards, top cover, Peter Dahl transformer, LED kit, knob set, relay, step-start, band switch, chimney, overlay) or manuals; no complete AL-1200 amplifier sold on page 1. Dropped 1 best-offer-accepted (a manual, excluded anyway). Dropped 0 parts-only units.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782597",
+    "site": "qth",
+    "ask": 1850.0,
+    "shipping": 0
+  },
+  "comps": []
+}
