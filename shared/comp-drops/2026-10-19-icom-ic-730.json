@@ -1,0 +1,36 @@
+{
+  "model": "Icom IC-730",
+  "slug": "icom-ic-730",
+  "searched_at": "2026-10-19T18:04:31-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-730', page 1 (38 results before 'fewer words'). Thin: 2 kept comps, both flagged OUTLIER against each other ($159 vs $360). Dropped 6 best-offer-accepted (840005132019 $319.99; 398045646882 $250 also parts-only; 318678468963 $319.95; 198548326703 $349; 366585620553 $150; 267743545087 $360). Dropped 6 parts-only (800757398081 $46; 800766460365 $150 'as found'; 137746341389 $134.48 stuck tuning knob; 257710318790 $134.01 tech special; 318797592290 $129.69; 298554043409 $250). Excluded IC-730S 168691333274 (variant, also best-offer-accepted), IC-735/740/7600, manuals, FL-30 filter, lamps. Note: trigger listing is itself a parts/tech-special unit.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/940025862472",
+    "site": "ebay",
+    "ask": 150.0,
+    "shipping": 22.62
+  },
+  "comps": [
+    {
+      "price": 159.0,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398281592729",
+      "source": "ebay",
+      "notes": "OUTLIER: $159 vs $360 for the only other kept comp (2-comp set, each flags the other); title 'ICOM IC 730 HF TRANSCEIVER & WATT METER FIELDTESTER ANTENA ROTATOR ALL INCLUDED!'; or Best Offer listing, not accepted; +$14.50 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 360.0,
+      "sold_date": "2026-07-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188577775067",
+      "source": "ebay",
+      "notes": "OUTLIER: $360 vs $159 for the only other kept comp (2-comp set, each flags the other); title 'ICOM IC 730 HF TRANSCEIVER-works fine'; or Best Offer listing, not accepted; +$50.00 shipping",
+      "flags": []
+    }
+  ]
+}
