@@ -1,0 +1,22 @@
+{
+  "model": "Icom IC-706MKIIG",
+  "slug": "icom-ic-706mkiig",
+  "searched_at": "2026-10-19T05:57:18-04:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 599.99, count 19, ledger date 2026-10-11 — ledger hit — individual sales behind the median are not auditable from this file.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629223",
+    "site": "eham",
+    "ask": 225.0,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 599.99,
+    "low": 425.0,
+    "high": 750.0,
+    "count": 19,
+    "date": "2026-10-11"
+  }
+}
