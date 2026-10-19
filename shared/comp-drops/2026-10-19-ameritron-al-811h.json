@@ -1,0 +1,22 @@
+{
+  "model": "Ameritron AL-811H",
+  "slug": "ameritron-al-811h",
+  "searched_at": "2026-10-19T14:57:00-04:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 899.0, count 8, ledger date 2026-10-01 — ledger hit — individual sales behind the median are not auditable from this file",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782651",
+    "site": "qth",
+    "ask": 475.0,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 899.0,
+    "low": 750.0,
+    "high": 1149.95,
+    "count": 8,
+    "date": "2026-10-01"
+  }
+}
