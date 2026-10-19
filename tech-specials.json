@@ -47,6 +47,18 @@
    "comp_count": 3,
    "source": "QTH",
    "work_flag": "water spill \u2014 won't power up; seller: 'No guarantees'. Plus shipping."
+  },
+  {
+   "date": "2026-10-19",
+   "title": "Icom IC-706MKIIG (repair or parts)",
+   "url": "https://www.eham.net/classifieds/629223",
+   "price": 225.0,
+   "extra": 0.0,
+   "pct_below": 62,
+   "median": 599.99,
+   "comp_count": 19,
+   "source": "eHam",
+   "work_flag": "Does NOT power up (slight click only) after the seller pulled and cleaned an internal ribbon cable \u2014 sold for parts or repair. The $225 is rig only: box and ACC blank plug, no mic, DSP, or filter. Plus shipping."
   }
  ]
 }
