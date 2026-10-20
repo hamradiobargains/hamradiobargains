@@ -1,0 +1,92 @@
+{
+  "model": "Kenwood R-2000",
+  "slug": "kenwood-r-2000",
+  "searched_at": "2026-10-20T19:03:32-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-10-20. eBay sold search page 1, signed in as Leo, no challenge. 8 kept, median 205, low 119, high 339.99. Trigger ad price includes shipping (continental US); trigger unit includes a VHF converter. Ledger KENWOOD R-2000 had count 2 (miss). Two pairs of kept comps from the same sellers: 137763419107/137730041409 (fuzzyb6811, identical title and price - possibly the same unit relisted, flagged possible_duplicate) and 137744646392/137744705623 (roberts8052, different titles). One OUTLIER kept: 206490569275 $339.99. 7 'Best offer accepted' sales dropped: 137715098139 $225.00 (Pre-Owned, Untested, Sep 25); 237065538127 $349.99 (Pre-Owned, Excellent Tested, Sep 21); 358906108448 $219.00 (Pre-Owned, Untested As Is, Aug 13); 307096668259 $350.00 (Pre-Owned, Aug 9); 800480173159 $99.00 (Parts Only, Untested, Sep 16); 257712591048 $160.00 (Parts Only, Sep 8); 188623246243 $274.96 (Parts Only, Untested Parts Or Repair, Jul 31). 7 parts-only / as-is sales dropped: 206611245663 $69.00 (Parts Only, Oct 8); 298732951606 $280.00 (Parts Only (title says Tested), Oct 5); 398402506638 $256.00 (Parts Only, Partially Tested / AS IS, 13 bids, Sep 26); 178497384141 $130.00 (Parts Only, Sep 14); 257710916769 $155.00 (Parts Only, w/ Installed/Optional VHF Converter, Aug 29); 298541570074 $145.77 (Parts Only, Jul 29); 127990866069 $140.00 (Parts Only, Strictly as-is, Jul 24). 1 'Read Description' sale dropped: 198679257437 $219.99 (READ Description, Parts Only, Oct 6). Outliers kept and marked: 206490569275. Prices are hammer/sold prices as shown, shipping excluded (shipping in each comp note).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782613",
+    "site": "qth",
+    "ask": 295,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 250.0,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257793984993",
+      "source": "ebay",
+      "notes": "Title: Used ... Tested. or Best Offer not marked accepted. Shipping +$82.90.",
+      "flags": []
+    },
+    {
+      "price": 205.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137763419107",
+      "source": "ebay",
+      "notes": "Title: Base Station Communications Receiver AM FM VHF Analog Gray. or Best Offer not marked accepted. Shipping +$96.39. Same seller and identical title/price as 137730041409 (sold Sep 20) - possibly a relist of the same unit.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 279.95,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267784668268",
+      "source": "ebay",
+      "notes": "Title: Tested Japan. or Best Offer not marked accepted. Shipping +$16.55.",
+      "flags": []
+    },
+    {
+      "price": 205.0,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137730041409",
+      "source": "ebay",
+      "notes": "Same seller and identical title/price as 137763419107 (sold Oct 4) - possibly a relist of the same unit. or Best Offer not marked accepted. Shipping +$96.39.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 119.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137744646392",
+      "source": "ebay",
+      "notes": "Title: works Great. Buy It Now. Shipping +$35.00.",
+      "flags": []
+    },
+    {
+      "price": 169.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137744705623",
+      "source": "ebay",
+      "notes": "Title: Base Station Communications Receiver, works Great. Buy It Now. Shipping +$35.00. Same seller as 137744646392, separate item.",
+      "flags": []
+    },
+    {
+      "price": 339.99,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206490569275",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x the median (205) of the other kept comps. Title: Nice ... Tested and Working. Buy It Now. Shipping +$30.00.",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-07-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800407124628",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Shipping +$25.00.",
+      "flags": []
+    }
+  ]
+}
