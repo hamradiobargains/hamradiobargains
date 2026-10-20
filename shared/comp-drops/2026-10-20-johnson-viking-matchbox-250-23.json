@@ -1,0 +1,34 @@
+{
+  "model": "Johnson Viking Matchbox 275W (250-23)",
+  "slug": "johnson-viking-matchbox-250-23",
+  "searched_at": "2026-10-20T05:56:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 2 kept comps. Ledger miss (no entry). Dropped 1 parts-only ($20, 2026-08-02, itm 127910942314). Dropped 0 best-offer-accepted. Excluded 1 for model doubt: Matchbox 250-23-3 ($91 auction, 2026-07-24, itm 298518035876) — the -3 variant differs from the plain 250-23 and the eHam ad does not say which version it is. OUTLIER: $125 (itm 227491689017) is >1.5x the only other kept comp ($80) — with just 2 comps this mainly reflects how thin the set is. Search: 'johnson viking matchbox 275'.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629243",
+    "site": "eham",
+    "ask": 100.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 80.0,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198691332855",
+      "source": "ebay",
+      "notes": "Title: 'Johnson Viking Match Box Manual HF Antenna Tuner 275 Watts CAT 250-23'. Auction, 1 bid. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227491689017",
+      "source": "ebay",
+      "notes": "OUTLIER: $125 vs $80 for the only other kept comp. Title: 'Johnson Viking 250-23 Matchbox Antenna Tuner - 275 watt with manual'. Buy It Now. +$37.50 delivery.",
+      "flags": []
+    }
+  ]
+}
