@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-19T12:53:08+00:00",
+ "updated": "2026-10-20T12:53:08+00:00",
  "source": "HamRadioBargains sold-comp ledger \u2014 genuine sold listings from eHam, QTH, eBay and site deals, plus the eHam comp archive. Prices are asking prices at sale; best offers may differ.",
  "models": {
   "ACOM 1000": {
    "latest": {
-    "date": "2025-05-22",
-    "median": 1700.0,
+    "date": "2026-08-28",
+    "median": 2125.0,
     "low": 1700.0,
-    "high": 1700.0,
-    "count": 1
+    "high": 2550.0,
+    "count": 2
    },
    "history": [
     {
@@ -17,6 +17,13 @@
      "low": 1700.0,
      "high": 1700.0,
      "count": 1
+    },
+    {
+     "date": "2026-08-28",
+     "median": 2125.0,
+     "low": 1700.0,
+     "high": 2550.0,
+     "count": 2
     }
    ]
   },
@@ -143,6 +150,24 @@
      "low": 1700.0,
      "high": 1700.0,
      "count": 1
+    }
+   ]
+  },
+  "AMERITRON ALS-1300": {
+   "latest": {
+    "date": "2026-10-01",
+    "median": 1825.0,
+    "low": 1450.0,
+    "high": 2200.0,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-10-01",
+     "median": 1825.0,
+     "low": 1450.0,
+     "high": 2200.0,
+     "count": 2
     }
    ]
   },
@@ -978,6 +1003,24 @@
     }
    ]
   },
+  "ICOM IC-38A": {
+   "latest": {
+    "date": "2026-09-21",
+    "median": 199.99,
+    "low": 100.0,
+    "high": 229.99,
+    "count": 3
+   },
+   "history": [
+    {
+     "date": "2026-09-21",
+     "median": 199.99,
+     "low": 100.0,
+     "high": 229.99,
+     "count": 3
+    }
+   ]
+  },
   "ICOM IC-7000": {
    "latest": {
     "date": "2026-09-30",
@@ -1226,6 +1269,24 @@
      "low": 426.0,
      "high": 760.0,
      "count": 3
+    }
+   ]
+  },
+  "ICOM IC-756PRO": {
+   "latest": {
+    "date": "2026-10-17",
+    "median": 530.0,
+    "low": 450.0,
+    "high": 739.0,
+    "count": 5
+   },
+   "history": [
+    {
+     "date": "2026-10-17",
+     "median": 530.0,
+     "low": 450.0,
+     "high": 739.0,
+     "count": 5
     }
    ]
   },
@@ -1678,6 +1739,24 @@
     }
    ]
   },
+  "JOHNSON VIKING MATCHBOX 275W (250-23)": {
+   "latest": {
+    "date": "2026-10-09",
+    "median": 102.5,
+    "low": 80.0,
+    "high": 125.0,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-10-09",
+     "median": 102.5,
+     "low": 80.0,
+     "high": 125.0,
+     "count": 2
+    }
+   ]
+  },
   "JRC NRD 535D": {
    "latest": {
     "date": "2026-09-29",
@@ -1822,13 +1901,31 @@
     }
    ]
   },
+  "KENWOOD R-300": {
+   "latest": {
+    "date": "2026-10-07",
+    "median": 255.0,
+    "low": 250.0,
+    "high": 291.09,
+    "count": 3
+   },
+   "history": [
+    {
+     "date": "2026-10-07",
+     "median": 255.0,
+     "low": 250.0,
+     "high": 291.09,
+     "count": 3
+    }
+   ]
+  },
   "KENWOOD TH-D74A": {
    "latest": {
-    "date": "2026-09-12",
-    "median": 400.0,
-    "low": 375.0,
-    "high": 425.0,
-    "count": 2
+    "date": "2026-10-16",
+    "median": 403.74,
+    "low": 325.0,
+    "high": 550.0,
+    "count": 13
    },
    "history": [
     {
@@ -1844,6 +1941,13 @@
      "low": 375.0,
      "high": 425.0,
      "count": 2
+    },
+    {
+     "date": "2026-10-16",
+     "median": 403.74,
+     "low": 325.0,
+     "high": 550.0,
+     "count": 13
     }
    ]
   },
