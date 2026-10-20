@@ -1,0 +1,45 @@
+{
+  "model": "Yaesu FT-450",
+  "slug": "yaesu-ft-450",
+  "searched_at": "2026-10-20T18:01:38-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "3 kept comps (one is an OUTLIER). eBay sold search 'yaesu ft-450', page 1 (36 results); 27 FT-450D results left out (different model). dropped 0 best-offer-accepted. dropped 1 parts-only (407126030930). Left out 137557842992 'FT-450 AT ... + Panadapter Mod' ($549) — titled FT-450 AT, identity vs trigger listing not certain. Left out DC power socket. OUTLIER: 137568145780 $260 'Ft-450 package' vs ~$543 for the other two.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/960093020186",
+    "site": "ebay",
+    "ask": 515.0,
+    "shipping": 33.5
+  },
+  "comps": [
+    {
+      "price": 485.95,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137498736313",
+      "source": "ebay",
+      "notes": "Fixed price. Shipping +$20.75. Title: with microphone & manual, tested, works.",
+      "flags": []
+    },
+    {
+      "price": 260.0,
+      "sold_date": "2026-07-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137568145780",
+      "source": "ebay",
+      "notes": "OUTLIER: $260 vs ~$543 for the other two kept comps. Fixed price, free delivery. Title only says 'Yaesu Ft-450 package' — contents not stated in title.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2026-07-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327259945782",
+      "source": "ebay",
+      "notes": "Fixed price, 'or Best Offer' (not accepted). Shipping +$11.84. Title: 'with Auto Tuner Built in'.",
+      "flags": []
+    }
+  ]
+}
