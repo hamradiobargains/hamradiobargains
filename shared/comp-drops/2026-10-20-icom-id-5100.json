@@ -1,0 +1,22 @@
+{
+  "model": "Icom ID-5100",
+  "slug": "icom-id-5100",
+  "searched_at": "2026-10-20T19:08:19-04:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 350, count 4, ledger date 2026-09-29 — ledger hit — individual sales behind the median are not auditable from this file. Ledger key ICOM ID-5100. Trigger ad title is 'Icom 5100 mint' (QTH category RADIOVHF, includes 'the Blue tooth adapter'); treated as the ID-5100, Icom's only '5100' mobile - the ad does not print 'ID-5100' itself. $375 delivered lower 48.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782583",
+    "site": "qth",
+    "ask": 375,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 350.0,
+    "low": 295.0,
+    "high": 399.0,
+    "count": 4,
+    "date": "2026-09-29"
+  }
+}
