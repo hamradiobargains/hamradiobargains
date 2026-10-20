@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-20",
+  "ran_at": "2026-10-20T18:01:38-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670) browse page, Buy It Now filter, sorted Time: newly listed (signed in as Leo). /sch/ URL redirected to the /b/ browse page and dropped the filters; re-applied LH_BIN=1&_sop=10 on the /b/ URL. Window since previous ebay run 2026-10-19T17:53:15-04:00; scanned page 1 only (about 60 items, all marked NEW LISTING) - enough candidates there. Browse cards show no listing times, so 'new' = newest-first order. None of the picked items were in dropped-urls.json. Seller rule: rating count = seller feedback score on the item page. Skipped for seller rule: Yaesu FT-857D bundle 137860609812 (item page shows 'No feedback yet', % positive not shown), Icom IC-706MK2G 920058475951 (feedback 0); other items from that same 9200584xxxxx listing batch (FTM-400XDR, FTM-3200D, IC-2100H, FT-7100M) not picked. Ledger: 3 hits (Icom IC-7600, Yaesu FT-991A, Yaesu FT-736R); 5 misses -> eBay sold searches: kenwood ts-930s (ledger has KENWOOD TS-930SAT only - treated as different), collins 75a-4, yaesu ft-450 (ledger has FT-450D only), yaesu ft-100d, icom ic-490a. The collins 75a-4 sold page was loaded twice (re-load to read the last card). No challenges. Item descriptions (iframe) not read. Not picked: Yaesu FTDX10 for parts ($1,800.15), Kenwood TR-7400A parts, Galaxy-4 amp parts, Yaesu FL-5225 parts, MFJ-945E (auction), West Mountain CLRdsp (auction), Stryker SR440-HP (CB), Retevis RA86 (GMRS), zBitx, IC-R6 receiver, small VHF mobiles (FT-2800M, FT-2700RH, TM-241A), VX-6R MARS mod, tubes, filters, boards, MiniCircuits amps, test gear.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/960093280131",
+      "site": "ebay",
+      "title": "Icom IC-7600 HF/50MHz Transceiver Amateur Radio + Original Box and Papers MINT!",
+      "price": 1395.0,
+      "shipping": 36.0,
+      "found_at": "2026-10-20",
+      "condition_notes": "eBay condition: Used. Title: with original box and papers, 'MINT!'.",
+      "work_flag": "",
+      "seller_feedback": "99.5% (8210 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/237134643061",
+      "site": "ebay",
+      "title": "Yaesu FT-991A HF/50/140/430MHz All-Mode Transceiver US Version",
+      "price": 1100.0,
+      "shipping": 29.0,
+      "found_at": "2026-10-20",
+      "condition_notes": "eBay condition: Used. Title: US version.",
+      "work_flag": "",
+      "seller_feedback": "100% (1383 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/307241236999",
+      "site": "ebay",
+      "title": "KENWOOD TS-930S HF TRANSCEIVER with ANTENNA TUNDER & GEN. COVERAGE REC. 1-30MHz",
+      "price": 900.0,
+      "shipping": 184.85,
+      "found_at": "2026-10-20",
+      "condition_notes": "eBay condition: Used. Title: with antenna tuner and general coverage receiver.",
+      "work_flag": "",
+      "seller_feedback": "100% (402 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/377585614911",
+      "site": "ebay",
+      "title": "COLLINS 75A-4 Receiver Amateur Radio w/3 Filters Nice Condition Untested /CE",
+      "price": 699.95,
+      "shipping": 74.95,
+      "found_at": "2026-10-20",
+      "condition_notes": "eBay condition: For parts or not working. Title: w/3 filters, nice condition, untested.",
+      "work_flag": "Untested; eBay condition For parts or not working",
+      "seller_feedback": "99.8% (39449 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/257808716746",
+      "site": "ebay",
+      "title": "Yaesu FT-736R VHF UHF All Mode Ham Radio Transceiver 2M 70CM Satellite RX Tested",
+      "price": 525.0,
+      "shipping": 53.61,
+      "found_at": "2026-10-20",
+      "condition_notes": "eBay condition: Used. Title says 'RX Tested' (transmit not stated as tested).",
+      "work_flag": "RX Tested",
+      "seller_feedback": "99.8% (24013 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/960093020186",
+      "site": "ebay",
+      "title": "Yaesu FT-450 with Tuner and DSP. In the Box..",
+      "price": 515.0,
+      "shipping": 33.5,
+      "found_at": "2026-10-20",
+      "condition_notes": "eBay condition: Used. Title: with tuner and DSP, in the box. Title says FT-450 (not FT-450D); no model item specific shown.",
+      "work_flag": "",
+      "seller_feedback": "100% (702 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/960093277406",
+      "site": "ebay",
+      "title": "Used Working Yaesu FT-100D HF-6M, 144,440MHz Transceiver",
+      "price": 395.0,
+      "shipping": 12.0,
+      "found_at": "2026-10-20",
+      "condition_notes": "eBay condition: Used. Title: 'Used Working'.",
+      "work_flag": "",
+      "seller_feedback": "99.5% (8210 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/860066086882",
+      "site": "ebay",
+      "title": "Icom IC-490A 430MHz UHF All Mode Mono Band Ham Radio Transceiver w/ Mic",
+      "price": 355.0,
+      "shipping": 7.78,
+      "found_at": "2026-10-20",
+      "condition_notes": "eBay condition: Used. Title: with mic.",
+      "work_flag": "",
+      "seller_feedback": "100% (116 ratings)"
+    }
+  ]
+}
