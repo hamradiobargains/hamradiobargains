@@ -1,0 +1,64 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-20",
+  "ran_at": "2026-10-20T05:53:05-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-19T05:52:52-04:00 (prior eham run). Browsed signed OUT ('Welcome Guest'). Classifieds home showed Cloudflare 'Performing security verification' on first load; it auto-cleared on its own within ~10s (no click, no CAPTCHA). Pages 1 and 2 loaded (10 ads/page now), ~30s apart; no individual ads opened (summaries carried full text). New since prior run: 629255 (Acom 1000). Also new to us: 629243-629250 and 629253, dated 2026-10-17/18 but not visible to the prior run (likely late-approved) and not in dropped-urls. Skipped: 629254 IC-7100 trade-only (no price, seen before), 629253 WANTED ad, 629245 capacitor lot (not ham gear), 629247 Bird 43 + 4 slugs $300 (wattmeter; value depends on slug bundle, at candidate cap), 629242 Super Antenna MP1 kit $375 shipped (antenna bundle), 629226 MyAntenna EFHW (antenna). 629251 Flex 6600M already dropped. No search form, sold searches, or seller/callsign pages. Comps: 2 ledger hits (YAESU FT-991A, YAESU FT-8800R); 3 eBay sold searches (ACOM 1000, Yaesu FT-690R II, Johnson Viking Matchbox 275W), signed in as Leo, no challenge.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629255",
+      "site": "eham",
+      "title": "Acom 1000 HF+ 6 Linear Amp",
+      "price": 1400.0,
+      "shipping": 0,
+      "found_at": "2026-10-20",
+      "condition_notes": "ACOM 1000 HF+6m linear amp plus spare GU74B tube. 'Used in good overall condition has a number of scratches but this doesn't affect operation. Works flawlessly on all bands', >1000W out. Wired for 240V, convertible to 110V. Double-wall Acom box for shipping. $1,400; shipping paid by buyer (amount not stated, recorded 0). Posted 2026-10-18.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629250",
+      "site": "eham",
+      "title": "Yaesu FT-991a with SP-8 speaker",
+      "price": 1099.0,
+      "shipping": 45.0,
+      "found_at": "2026-10-20",
+      "condition_notes": "Yaesu FT-991A with speaker (title says SP-8, body says SP10), manual, box, power cable, mic, original packaging. 'Fully tested and works as it should.' $1099 + $45 insured shipping CONUS. Posted 2026-10-18 (listed under HF Antennas category).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629249",
+      "site": "eham",
+      "title": "Yaesu Ft-8800R For Sale",
+      "price": 275.0,
+      "shipping": 0,
+      "found_at": "2026-10-20",
+      "condition_notes": "Yaesu FT-8800R, excellent condition, one owner, non-smoking. Original box, manual, mic, mounting bracket, extra fuses, control head bracket, but no separation cable. Power harness Yaesu connector to Anderson Powerpoles. $275, seller pays shipping to lower 48. USPS money order or personal check. Posted 2026-10-17.",
+      "work_flag": "no separation cable",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629248",
+      "site": "eham",
+      "title": "Yaesu FT-690 mk2 Multi mode 6 meter radio",
+      "price": 350.0,
+      "shipping": 0,
+      "found_at": "2026-10-20",
+      "condition_notes": "Yaesu FT-690 Mk II (FT-690R II), 'very good condition both physical and electrical'. Includes manual and MH15cb DTMF mic, plus buyer's choice of FL-6020 snap-on amp OR FBA-8 battery pack. $350 shipped; $400 for radio with both FL-6020 and FBA-8. Posted 2026-10-17.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629243",
+      "site": "eham",
+      "title": "Johnson 275 watt matchbox $100",
+      "price": 100.0,
+      "shipping": 0,
+      "found_at": "2026-10-20",
+      "condition_notes": "Johnson (Viking) 275 watt Matchbox antenna tuner, 'exellent condition' with book and Johnson low pass filter. Prefers local pickup, will ship at buyer expense (amount not stated, recorded 0). Model sub-number (250-23 vs 250-23-3) not stated. Posted 2026-10-17.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
