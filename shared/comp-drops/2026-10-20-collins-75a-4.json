@@ -1,0 +1,43 @@
+{
+  "model": "Collins 75A-4",
+  "slug": "collins-75a-4",
+  "searched_at": "2026-10-20T18:01:38-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "3 kept comps — solid set. eBay sold search 'collins 75a-4', page 1 (23 results). dropped 1 best-offer-accepted (168436784102). dropped 2 parts-only (820056718885, 267764580129). Left out filters, knobs, tube kit, bezels, dial parts, noise blanker, manual, and other models (75A-2, 75A-3). Note: the trigger listing itself is eBay condition 'For parts or not working' / untested, while all kept comps are Pre-Owned working-described units.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/377585614911",
+    "site": "ebay",
+    "ask": 699.95,
+    "shipping": 74.95
+  },
+  "comps": [
+    {
+      "price": 750.0,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257653300331",
+      "source": "ebay",
+      "notes": "Fixed price. Shipping not shown. Title: 'with Original Manual, Works'.",
+      "flags": []
+    },
+    {
+      "price": 799.99,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147498467323",
+      "source": "ebay",
+      "notes": "Fixed price. Shipping +$75.00. Title: 'Tested and Working – For Restoration - Very Nice'.",
+      "flags": []
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2026-08-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327278146181",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Shipping +$295.96. Title: 'Very Clean'.",
+      "flags": []
+    }
+  ]
+}
