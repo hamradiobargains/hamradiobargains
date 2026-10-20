@@ -1,0 +1,43 @@
+{
+  "model": "Yaesu FT-100D",
+  "slug": "yaesu-ft-100d",
+  "searched_at": "2026-10-20T18:01:38-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "3 kept comps — solid set. eBay sold search 'yaesu ft-100d', page 1 (28 results). dropped 2 best-offer-accepted (178528402142, 267778784791). dropped 4 parts-only (287541933713, 398246409467 [also best offer accepted], 236965252169, 278215945951). Left out TCXO modules, cradles, knobs, cables, tuner, sub panel, control board, parts set, and other models (FT-100, FT-101ZD, FT-450D). Note: dropped best-offer sale 267778784791 (Sep 10) has the identical title to the trigger listing ('Used Working Yaesu FT-100D HF-6M, 144,440MHz Transceiver') — possibly the same seller relisting.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/960093277406",
+    "site": "ebay",
+    "ask": 395.0,
+    "shipping": 12.0
+  },
+  "comps": [
+    {
+      "price": 550.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188829891440",
+      "source": "ebay",
+      "notes": "Fixed price. Shipping +$40.00.",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-08-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198528991117",
+      "source": "ebay",
+      "notes": "Fixed price. Shipping +$39.50. Title: '+ Box (US version, nice)'.",
+      "flags": []
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2026-07-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267739646883",
+      "source": "ebay",
+      "notes": "Fixed price. Shipping +$15.00.",
+      "flags": []
+    }
+  ]
+}
