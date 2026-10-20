@@ -1,0 +1,25 @@
+{
+  "model": "Hermes Lite 2",
+  "slug": "hermes-lite-2",
+  "searched_at": "2026-10-20T19:04:25-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-10-20. eBay sold search page 1, signed in as Leo, no challenge. 1 kept, median 429.99, low 429.99, high 429.99 - thin. Trigger ad (with N2ADR board) was $350 in the 10/19 QTH drop note; the ad now reads $300 plus shipping. Thin: 1 comp (a kit with N2ADR board and enclosure, sold Brand New). 0 'Best offer accepted' sales dropped. 0 parts-only sales dropped. Non-unit results left out: 158270358253 book $40.44, 158270807371 book $51.97, 325675250240 keying cable $94.95, 145412580924 buffer interface $119.95, 325884022818 keying cables $29.95. No outliers. Prices are hammer/sold prices as shown, shipping excluded (shipping in each comp note).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782644",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 429.99,
+      "sold_date": "2026-09-21",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/206557088881",
+      "source": "ebay",
+      "notes": "Title: Hermes Lite 2 SDR Amateur Radio Transceiver KIT w N2ADR Board and Enclosure. Auction, 2 bids. Free shipping. Sold as a kit, condition Brand New.",
+      "flags": []
+    }
+  ]
+}
