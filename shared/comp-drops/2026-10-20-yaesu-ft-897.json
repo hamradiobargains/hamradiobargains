@@ -1,0 +1,96 @@
+{
+  "model": "Yaesu FT-897",
+  "slug": "yaesu-ft-897",
+  "searched_at": "2026-10-20T19:07:11-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-10-20. eBay sold search page 1, signed in as Leo, no challenge. 8 kept, median 575, low 525, high 820.79. FT-897 kept separate from FT-897D (FT-897D sales excluded; ledger YAESU FT-897 had count 1, miss). Several kept comps include extras (tuner, Rigblaster, power supply) - flagged extras_included. 3 'Best offer accepted' sales dropped: 189019508199 $625.00 (FT-897 + LDG AT-897 Plus tuner & mic, Oct 1); 188900973793 $850.00 (FT-897 Black, Sep 19); 336703455453 $579.99 (FT-897 w/ LDG AT897 Plus tuner, Jul 23). 2 parts-only / as-is sales dropped: 117432890029 $245.00 (Parts Only, Sep 26); 128064076322 $395.00 (Parts Only, title: No Transmit LCD lines + Optional TCXO-9 RX OK, Sep 14). Non-unit results left out: FT-897D sales excluded as a different model (e.g. 206565943277 $849.99), 158271751148 final PA unit, 327358127187 front panel, tuners, covers, cords, manuals, chassis, CAT adapters. No outliers. Prices are hammer/sold prices as shown, shipping excluded (shipping in each comp note).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1780196",
+    "site": "qth",
+    "ask": 570,
+    "shipping": 30
+  },
+  "comps": [
+    {
+      "price": 530.0,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117436607226",
+      "source": "ebay",
+      "notes": "Title: Yaesu FT-897 HF/VHF/UHF All Mode FM Ham Radio Transceiver LCD Black. Auction, 3 bids. Shipping +$50.00.",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147605358639",
+      "source": "ebay",
+      "notes": "Title: ... Black + extras!. or Best Offer not marked accepted. Shipping +$22.24.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 820.79,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128033860103",
+      "source": "ebay",
+      "notes": "Title: Yaesu FT-897 Amateur Ham Radio Transceiver Tested Working. or Best Offer not marked accepted. Shipping +$225.00.",
+      "flags": []
+    },
+    {
+      "price": 575.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257733246069",
+      "source": "ebay",
+      "notes": "Title: Yaesu FT-897 FCC App Transceiver 100W Tested w/ Mic DC Cable Manual Power Supply. Auction, 1 bid. Shipping +$29.47.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 575.0,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117399074112",
+      "source": "ebay",
+      "notes": "Title: ... Transceiver 100W w/ Rigblaster. Buy It Now. Shipping +$21.70.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 525.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298637284612",
+      "source": "ebay",
+      "notes": "Title: ... 100 W Orig Box Pwr Cord. or Best Offer not marked accepted. Shipping +$24.25.",
+      "flags": []
+    },
+    {
+      "price": 629.95,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267741702752",
+      "source": "ebay",
+      "notes": "Title: YAESU FT-897 100W All Mode HF/50/144/430MHz Transceiver Tested Works. Buy It Now. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 545.0,
+      "sold_date": "2026-07-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227433015637",
+      "source": "ebay",
+      "notes": "Title: ... w/ AT-897 Plus. Auction, 10 bids. Shipping +$45.21.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
