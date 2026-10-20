@@ -1,0 +1,15 @@
+{
+  "model": "Apache Labs ANAN G2",
+  "slug": "anan-g2",
+  "searched_at": "2026-10-20T19:02:05-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-10-20. eBay sold search page 1, signed in as Leo, no challenge. 0 kept - thin. Trigger ad price includes shipping. Search 'anan g2': page 1 had no ANAN/Apache Labs results at all (only unrelated 'G2' items such as smart glasses). Thin: 0 comps. 0 'Best offer accepted' sales dropped. 0 parts-only sales dropped. No outliers. Prices are hammer/sold prices as shown, shipping excluded (shipping in each comp note).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782608",
+    "site": "qth",
+    "ask": 2800,
+    "shipping": 0
+  },
+  "comps": []
+}
