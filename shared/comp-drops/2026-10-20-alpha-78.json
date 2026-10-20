@@ -1,0 +1,15 @@
+{
+  "model": "Alpha 78",
+  "slug": "alpha-78",
+  "searched_at": "2026-10-20T19:01:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-10-20. eBay sold search page 1, signed in as Leo, no challenge. 0 kept - thin. Trigger ad is local pickup only. Page 1 had no Alpha 78 amplifier unit sales; only Alpha 78 parts (listed below). Thin: 0 comps. 0 'Best offer accepted' sales dropped. 0 parts-only sales dropped. Non-unit results left out: 206453651250 Alpha 78 ALC WM control board $120.00 (Sep 29), 178358128822 Alpha 78 tube socket assembly $90.00 (Sep 24), 267452543125 HV crowbar safety switch for Alpha 76CA/78 $50.00 (Aug 31), unrelated non-radio items. No outliers. Prices are hammer/sold prices as shown, shipping excluded (shipping in each comp note).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782646",
+    "site": "qth",
+    "ask": 1400,
+    "shipping": 0
+  },
+  "comps": []
+}
