@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-690R II",
+  "slug": "yaesu-ft-690rii",
+  "searched_at": "2026-10-20T05:55:30-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 0 kept comps. Ledger miss (no entry). eHam ad says 'FT-690 mk2' = FT-690R II. Page 1 had 4 results: dropped 1 best-offer-accepted (FT-690R II + FL-6020 + bracket, shown $450, 2026-08-10, itm 336702908317), dropped 2 parts-only ($150 2026-09-14 itm 318865825068; $150 auction 2026-07-22 itm 127976565253), excluded 1 different model (Yaesu FT-817, itm 147641553826, also best-offer-accepted). Search: 'yaesu ft-690 mkii'.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629248",
+    "site": "eham",
+    "ask": 350.0,
+    "shipping": 0
+  },
+  "comps": []
+}
