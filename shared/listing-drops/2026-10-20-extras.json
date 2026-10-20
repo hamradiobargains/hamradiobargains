@@ -1,0 +1,174 @@
+{
+  "run": "extras",
+  "run_date": "2026-10-20",
+  "ran_at": "2026-10-20T19:09:38-04:00",
+  "ran_by": "claude",
+  "notes": "First extras sweep (no earlier YYYY-MM-DD-extras.json drop exists), so covered the eham/qth/ebay listing drops with ran_at in the prior 48 hours (after 2026-10-18T18:57-04:00): 2026-10-19-eham.json, 2026-10-19-qth.json, 2026-10-19-ebay.json, 2026-10-20-eham.json, 2026-10-20-qth.json, 2026-10-20-ebay.json. Only the two QTH drops carry an 'Extra plausible candidates not comped' list; the eHam and eBay drops name none (their skipped/not-picked items were not queued). Queued 39 extras (19 from 2026-10-19-qth, 20 from 2026-10-20-qth); none were already in dropped-urls.json. Worked 15 (all from 2026-10-19-qth, in listed order): 1 no longer live (1782609), 14 live. Ledger hits 4 (FLEXRADIO FLEX-1500, ICOM IC-7300 x2 ads, ICOM ID-5100, ICOM IC-9100). eBay sold searches used 10 of 10 (alpha 78, anan g2, fx-4cr, kenwood r-2000, hermes lite 2, palstar at4k, heathkit sa-2550, icom ic-7410, ten-tec omni vi, yaesu ft-897); signed in as Leo, no challenges. Skipped 0. Price changes vs the 10/19 drop note: 1782618 now $600 (was $500) and adds a PA-1299T antenna; 1782644 now $300 (was $350). Cross-posts: none confirmed. 1782608 and 1782610 are the same seller (N0DF) but different radios. 1782657 possible repost of 1781934 (that ad is now gone). Kenwood R-2000 comps include a likely relist pair (137763419107/137730041409). Model-identity notes: 1782618 'FX-4CR3' compared against FX-4CR / FX4CR-2024 sales - UNCERTAIN; 1782583 'Icom 5100' treated as ID-5100; 1782626 'Astron 35A' not yet worked (carried) - ledger key is ASTRON RS-35A, identity unconfirmed. Outliers: 1 (Kenwood R-2000 comp 206490569275 $339.99, high). CARRIED OVER (cap reached, not opened this run, in queue order): 1781414, 1782335, 1782636, 1782626, 1782702, 1782676, 1782722, 1782681, 1782690, 1782741, 1782740, 1782739, 1782731, 1782668, 1782673, 1782721, 1782718, 1782732, 1782691, 1782666, 1782431, 1776188, 1782417, 1780882.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782609",
+      "site": "qth",
+      "title": "Yaesu FT-991A w/ speaker",
+      "price": 1099,
+      "shipping": 45,
+      "found_at": "2026-10-19",
+      "condition_notes": "no longer live — QTH: 'The ad number you specified, 1782609, is no longer in our system.' Price/shipping as recorded in the 10/19 QTH drop note. not comped: ad gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782646",
+      "site": "qth",
+      "title": "AMPHF - Alpha 78",
+      "price": 1400,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "live — 'Legal limit Alpha 78 (2) Eimac 3CX800A7 tubes. Very nice condition. Local pickup or meet. No shipping. $1400' — comps: alpha-78, 0 kept (thin, no unit sales on eBay sold page 1)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782617",
+      "site": "qth",
+      "title": "RADIOHF - FlexRadio Flex-1500 HF/6m SDR",
+      "price": 395,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "live — 'Super clean condition with box and paperwork'; includes radio, USB cable, DC cable, box and paperwork; '$395 plus shipping' (shipping not stated) — ledger hit (flexradio-flex-1500: median 375, count 3, 2026-09-29)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782608",
+      "site": "qth",
+      "title": "RADIOHF - FS: Anan G2 Black Face",
+      "price": 2800,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "live — 'I have an Anan G2 in great shape and everything I've done with the radio works as it should'; 'This is the black face version without the built in display'; 'The radio is about 3 yrs old, I'm the second owner.'; 'Price is $2800 and includes shipping in the original box.' PayPal +3% — comps: anan-g2, 0 kept (thin, no ANAN results on eBay sold page 1)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782602",
+      "site": "qth",
+      "title": "ICOM IC-7300, SP-38 speaker, factory mic and cover",
+      "price": 825,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "live — 'THE SP-38 SPEAKER IS BRAND NEW'; 'THE ICOM 7300 IS A FEW YEARS OLD BUT ONY USED A FEW TIMES TO TEST OUT'; 'THE BOX FOR THE RADIO WAS TOSSED'; '*EVERYTHING IS IN FLAWLESS CONDITION*'; '$825 Local pickup or will split shipping' (shipping not fixed, recorded 0). Ad last edited 10/20/26 — ledger hit (icom-ic-7300: median 737.5, count 8, 2026-09-29; radio only)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782610",
+      "site": "qth",
+      "title": "RADIOHF - Icom 7300, PTRX-7300, RSP-1A",
+      "price": 875,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "live — 'an Icom 7300 (original, not MKII) with a RadioSpectral PTRX-7300 wideband panadapter board installed and am including a SDRPlay RSP-1A receiver'; 'The Icom is 7 yrs old and the Internal clock battery no longer holds a charge so when the radio is not plugged into 12vdc, you have to reset the internal clock.'; 'All items include the original packaging'; 'Price for everything including shipping is $875.' Same seller (N0DF) as 1782608, different radio — ledger hit (icom-ic-7300: median 737.5, count 8, 2026-09-29; covers the IC-7300 only, not the PTRX-7300 or RSP-1A)",
+      "work_flag": "Icom 7300 (original, not MKII) with a RadioSpectral PTRX-7300 wideband panadapter board installed | The Icom is 7 yrs old and the Internal clock battery no longer holds a charge so when the radio is not plugged into 12vdc, you have to reset the internal clock.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782618",
+      "site": "qth",
+      "title": "RADIOHF - FX-4CR3 + ATU-100 + PA-1299T",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "live — 'NEW/open box FX-4CR3 + NEW/open box ATU-100 Tuner by N7DDC + NEW PA-1299T 2-80M antenna. Bench tested on all bands/modes and run through ALL the paces for 2 hours....THAT IS ALL.'; '$600 plus shipping' (the 10/19 QTH drop note recorded $500 and did not mention the antenna; ad last edited 10/19/26) — comps: fx-4cr, 9 kept, median 612.75 (model identity FX-4CR3 vs FX-4CR / FX4CR-2024 UNCERTAIN)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782613",
+      "site": "qth",
+      "title": "RADIOHF - Kenwood R-2000 w/VHF converter",
+      "price": 295,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "live — 'a Kenwood R2000 with a vhf converter in great working condition. It has an anderson plug for dc, it comes with manual and an ac cord if you don't want to use the dc plug.'; 'Asking price is $295 shipping included (continental US)' — comps: kenwood-r-2000, 8 kept, median 205",
+      "work_flag": "It has an anderson plug for dc",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782644",
+      "site": "qth",
+      "title": "RADIOHF - Hermes Lite 2 w/ N2ADR",
+      "price": 300,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "live — 'Hermes lite 2 with N2adr board. Works perfectly'; includes power cord and Ethernet cable; '$300 plus shipping.' (the 10/19 QTH drop note recorded $350; ad last edited 10/19/26) — comps: hermes-lite-2, 1 kept, median 429.99 (thin)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782583",
+      "site": "qth",
+      "title": "RADIOVHF - Icom 5100 mint",
+      "price": 375,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "live — 'In mint cosmetically and electrically. Never mobile just used in the shack and not much at that. Has the Blue tooth adapter.'; 'Price is $375 delivered lower 48 states. Ships in original box' — ledger hit (icom-id-5100: median 350, count 4, 2026-09-29; ad says 'Icom 5100', treated as ID-5100)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782640",
+      "site": "qth",
+      "title": "ANTETUNE - PALSTAR AT4K TUNER",
+      "price": 700,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "live — 'AS NEW'; 'NO BOX'; '$700 OBO + SHIPPING DUE TO ITS SIZE, SHIPPING WILL PROBABLY BE IN THE $80 RANGE' (shipping recorded 0, not fixed); 'PICK UP IN TAMPA' — comps: palstar-at4k, 2 kept, median 739.97 (thin)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782628",
+      "site": "qth",
+      "title": "ANTETUNE - Heathkit SA-2550 Antenna Matcher",
+      "price": 300,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "live — 'Both the controller and capacitor are in working condition. There is scattered age-related oxidation/ rust spotting on the interior and exterior of chassis. $300 shipped.' Ad last edited 10/20/26 — comps: heathkit-sa-2550, 1 kept, median 274.99 (thin; that sale included an HD-1420 VLF converter)",
+      "work_flag": "There is scattered age-related oxidation/ rust spotting on the interior and exterior of chassis.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782657",
+      "site": "qth",
+      "title": "RADIOHF - For Sale: Icom Twins IC-9100 & IC-7410",
+      "price": 1800,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "live — 'These two radios are in very nice condition and operate as they should.' IC-9100 'Includes optional roofing filters and D-Star digital module'; IC-7410 'with roofing filters'; 'Both radios include original boxes, mics, power cords and manuals.'; 'Selling locally as a pair for now. May consider splitting for the right offer. Asking $1800 for the pair.' Possible repost: the 10/19 QTH drop note linked it to 1781934 (same pair/price), which is now no longer in QTH's system — ledger hit for the IC-9100 (icom-ic-9100: median 1299, count 3, 2026-10-08) + comps: icom-ic-7410, 1 kept, median 500 (thin)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782334",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE: TenTec OMNI VI+ Transceiver",
+      "price": 450,
+      "shipping": 0,
+      "found_at": "2026-10-19",
+      "condition_notes": "live — 'I have an excellent condition Omni VI+ for sale. It has extra filters and full original factory documentation.'; 'Works great in daily operation. It is model 563 fatory upgraded to model 564.'; 'I'm asking $450'; 'I pay 1/2 of shipping cost.' (shipping recorded 0). Optional 705 mic, 301 remote knob, TT power supply $50 each with radio — comps: ten-tec-omni-vi-plus, 1 kept, median 609.99 (thin)",
+      "work_flag": "It is model 563 fatory upgraded to model 564.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1780196",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu.FT-897",
+      "price": 570,
+      "shipping": 30,
+      "found_at": "2026-10-19",
+      "condition_notes": "live — 'The screen has no lines. The case is in good used conditon without scratches. The radio has been tested out and works as designed.' Includes power cable and MH-31 mic; '$570 plus buyer pays $30.00 ground shipping'. Ad submitted 09/22/26, last edited 10/18/26 — comps: yaesu-ft-897, 8 kept, median 575",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
