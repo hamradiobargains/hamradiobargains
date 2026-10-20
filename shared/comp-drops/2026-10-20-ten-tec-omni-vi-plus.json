@@ -1,0 +1,25 @@
+{
+  "model": "Ten-Tec Omni VI Plus (564)",
+  "slug": "ten-tec-omni-vi-plus",
+  "searched_at": "2026-10-20T19:06:23-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-10-20. eBay sold search page 1, signed in as Leo, no challenge. 1 kept, median 609.99, low 609.99, high 609.99 - thin. Search 'ten-tec omni vi'. Omni VI (563) and Omni VI Plus (564) treated as different radios; only Omni VI Plus / 564 unit sales considered. Trigger unit is a 563 'fatory upgraded to model 564'. Several 563-with-OPT3/VI-Plus and 564 units sold as Parts Only and were dropped (listed below). Seller of trigger ad pays 1/2 of shipping. Thin: 1 comp. 0 'Best offer accepted' sales dropped. 4 parts-only / as-is sales dropped: 237113549667 $430.00 (Parts Only, OMNI 6 MODEL 563 OPT3 FACTORY INSTALLED OMNI VI PLUS, Oct 10); 237056476549 $460.00 (Parts Only, OMNI 6 MODEL 563 OPT3 FACTORY INSTALLED OMNI VI PLUS, Sep 8); 168653654514 $669.00 (Parts Only, OMNI 6+ MODEL 564, auction 25 bids, Sep 7); 168556267320 $671.00 (Parts Only condition (title: OMNI 6+, BEAUTIFUL & WORKING!), auction 19 bids, Jul 29). Excluded as a different model: 920040572280 $290.00 (Omni VI 563, Best offer accepted, Oct 14); 287575835174 $200.00 (Omni VI 563, Parts Only, Best offer accepted, Sep 9); 358731218635 $900.00 (Omni VI 563, Pre-Owned, Jul 27); 127954562143 $479.99 (Omni VI, Pre-Owned, Jul 23). Non-unit results left out: boards, manuals, cables, covers, filters, power supplies. No outliers. Prices are hammer/sold prices as shown, shipping excluded (shipping in each comp note).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782334",
+    "site": "qth",
+    "ask": 450,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 609.99,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128017150740",
+      "source": "ebay",
+      "notes": "Title: TEN TEC OMNI VI PLUS HF TRANSCEIVER. Buy It Now. Shipping +$30.93.",
+      "flags": []
+    }
+  ]
+}
