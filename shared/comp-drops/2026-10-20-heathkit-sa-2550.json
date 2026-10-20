@@ -1,0 +1,27 @@
+{
+  "model": "Heathkit SA-2550",
+  "slug": "heathkit-sa-2550",
+  "searched_at": "2026-10-20T19:05:25-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-10-20. eBay sold search page 1, signed in as Leo, no challenge. 1 kept, median 274.99, low 274.99, high 274.99 - thin. Trigger ad price includes shipping. Thin: 1 comp, and that sale bundled an HD-1420 VLF converter. 0 'Best offer accepted' sales dropped. 0 parts-only sales dropped. No outliers. Prices are hammer/sold prices as shown, shipping excluded (shipping in each comp note).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782628",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 274.99,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366696734623",
+      "source": "ebay",
+      "notes": "Title: Vintage Heathkit SA-2550 Antenna Matcher & VLF Converter HD-1420 - sold together with an HD-1420 VLF converter. or Best Offer not marked accepted. Shipping +$19.99.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
