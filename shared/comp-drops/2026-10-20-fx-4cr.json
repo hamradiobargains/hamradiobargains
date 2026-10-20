@@ -1,0 +1,97 @@
+{
+  "model": "FX-4CR",
+  "slug": "fx-4cr",
+  "searched_at": "2026-10-20T19:02:37-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-10-20. eBay sold search page 1, signed in as Leo, no challenge. 9 kept, median 612.75, low 470, high 772.26. MODEL IDENTITY UNCERTAIN: the trigger ad says 'FX-4CR3' (sold with ATU-100 tuner and PA-1299T antenna). eBay titles say 'FX-4CR' or 'FX4CR-2024' / 'FX4CR-2024 Final Edition'; whether these are the same hardware as an 'FX-4CR3' is not verified - Archie should judge. 7 kept comps are Brand New (several show 'Includes import fees'; one located in China), 2 are Pre-Owned. Trigger ad ask was $500 in the 10/19 QTH drop note; the ad now reads $600 plus shipping. 1 'Best offer accepted' sales dropped: 298609238293 $399.95 (FX-4CR w/ case, Pre-Owned, Aug 24). 0 parts-only sales dropped. Non-unit results left out: 377235235304 carrier wedge, 377101153632 carrier wedge, 325591516932 cable, 325591514663 cable. No outliers. Prices are hammer/sold prices as shown, shipping excluded (shipping in each comp note).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782618",
+    "site": "qth",
+    "ask": 600,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 628.0,
+      "sold_date": "2026-10-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/398280615564",
+      "source": "ebay",
+      "notes": "FX4CR-2024 (title). Fixed price, or Best Offer not marked accepted. Shipping +$37.00, includes import fees, located China.",
+      "flags": []
+    },
+    {
+      "price": 470.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147603359100",
+      "source": "ebay",
+      "notes": "FX4CR-2024 (title, Used). Auction, 8 bids. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 645.0,
+      "sold_date": "2026-09-03",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/358794090519",
+      "source": "ebay",
+      "notes": "FX4CR-2024 (title). Fixed price, or Best Offer not marked accepted. Shipping +$38.00.",
+      "flags": []
+    },
+    {
+      "price": 612.75,
+      "sold_date": "2026-08-31",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/404739635265",
+      "source": "ebay",
+      "notes": "FX4CR-2024 Final Edition (title). Shown $612.75 with $645.00 struck through. Shipping +$32.00.",
+      "flags": []
+    },
+    {
+      "price": 485.0,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188836292648",
+      "source": "ebay",
+      "notes": "FX-4CR Green (title). Fixed price, or Best Offer not marked accepted. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 600.05,
+      "sold_date": "2026-08-22",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/397812025196",
+      "source": "ebay",
+      "notes": "FX4CR-2024 Final Edition (title). or Best Offer not marked accepted. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 772.26,
+      "sold_date": "2026-08-07",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/406727386320",
+      "source": "ebay",
+      "notes": "FX4CR-2024 Final Edition (title). or Best Offer not marked accepted. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 612.75,
+      "sold_date": "2026-08-03",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/364712101408",
+      "source": "ebay",
+      "notes": "FX4CR-2024 (title). Shown $612.75 with $645.00 struck through. Shipping +$37.00, includes import fees.",
+      "flags": []
+    },
+    {
+      "price": 645.0,
+      "sold_date": "2026-07-27",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/386734014297",
+      "source": "ebay",
+      "notes": "FX4CR-2024 (title). or Best Offer not marked accepted. Shipping +$40.00, includes import fees.",
+      "flags": []
+    }
+  ]
+}
