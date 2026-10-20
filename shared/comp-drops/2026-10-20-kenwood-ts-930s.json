@@ -1,0 +1,25 @@
+{
+  "model": "Kenwood TS-930S",
+  "slug": "kenwood-ts-930s",
+  "searched_at": "2026-10-20T18:01:38-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 1 kept comp. eBay sold search 'kenwood ts-930s', page 1 (18 results). dropped 1 best-offer-accepted (137737508994, $699.99 shown). dropped 7 parts-only (147497919632, 377404536263, 178320084106 [also best offer accepted], 327303777644 [also best offer accepted], 366544635055, 398045641774, 940001021693). Left out non-unit items (LPF unit, PA stage, parts lots, speaker, filter, power transistor) and other models (TS-830S, TS-520S). Ledger has KENWOOD TS-930SAT only; the trigger listing says TS-930S 'with antenna tuner' — Leo to decide whether SAT ledger data applies.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/307241236999",
+    "site": "ebay",
+    "ask": 900.0,
+    "shipping": 184.85
+  },
+  "comps": [
+    {
+      "price": 589.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287615110103",
+      "source": "ebay",
+      "notes": "Fixed price, 'or Best Offer' (not accepted). Shipping +$32.99. Title: 'Kenwood TS-930S HF Transceiver Ham Radio' (no tuner mentioned).",
+      "flags": []
+    }
+  ]
+}
