@@ -1,0 +1,97 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-20",
+  "ran_at": "2026-10-20T14:53:19-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-19T14:53:28-04:00 (prior qth drop ran_at). Scanned QTH all-ads pages 1-15 (all.php through ?page=15), one at a time at human pace; 129 unique ads on pages 1-13 reviewed (title + price), pages 14-15 also checked. Counter-ID range of new ads submitted since window start reviewed: 1782660-1782743 (73 new ads seen; IDs 1782661, 1782665, 1782677, 1782680, 1782683, 1782684, 1782685, 1782686, 1782693, 1782711, 1782717 never appeared in the list - presumably deleted; not checked individually). Renewed/modified older ads interleaved with new ones were also reviewed. End of window: page 13 reaches prior-run territory after 1782660 (1782659 and below, covered by the 10/19 run); pages 14-15 are entirely prior-run IDs (<=1782656) or older renewed ads. QTH shows dates only, so ordering vs. the prior run's top ID (1782659) set the boundary. No unreviewed remainder. 8 candidates picked (cap 8). Extra plausible candidates not comped: 1782702 (Icom IC-7800 + SM-20 $3500, seller in Ukraine, shipping not stated), 1782676 (Yaesu FT-2000D w/ power supply $1075 firm, pickup preferred So Cal), 1782722 (Flex 3000 $495 + shipping), 1782681 (Yaesu FTM-500 w/ SCU-62 $450 shipped), 1782690 (RM Italy BLA 350 Plus $775 shipped), 1782741 (Icom IC-RP4020 UHF repeater $579 shipped), 1782740 (Drake T-4XB & R-4B $300), 1782739 (EF Johnson Ranger 1 $375), 1782731 (Collins 75A-2 $280), 1782668 (Collins, $600), 1782673 (Drake MN-2700 $215), 1782721 (Yaesu FTM-150 $224), 1782718 (truSDX $90), 1782732 (LDG YT-100 $89), 1782691 (ATU-130 $120), 1782666 (VGC VR-N76 $150), 1782431 (Yaesu FT-600 $325, renewed), 1776188 (Elecraft K3/100 #443 $939, renewed), 1782417 (Icom IC-7300 $750, renewed), 1780882 (Yaesu FTDX-9000D $5000, renewed). Not picked because already in dropped-urls: 1781926 (K3/100 #3501 $915, renewed), 1782559 (FT1000MP MKV + FP-29 $1500). No clear asking price: 1782704 (Kenwood TS950SDX, 'about 1600$' with a stated transmit defect, offers invited, Ukraine), 1782703 (Yaesu FT-920 'about 950$', offers invited, Ukraine), 1782678 (Kenwood TS-590SG), 1782672 (Kenwood TS-450SAT), 1782737 (Drake gear), 1782726 (classic radio). Comps: 3 ledger hits (Yaesu FT-710 Field, Yaesu FT-857D, Elecraft K3/100), 5 eBay sold searches (FlexRadio FLEX-6600, FLEX-6600M, FLEX-6400M, Yaesu FT-2000, Yaesu FTDX101D); eBay signed in as Leo, no challenges.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782697",
+      "site": "qth",
+      "title": "RADIOHF - Flex 6600 100W HF SDR Transceiver",
+      "price": 2199.0,
+      "shipping": 36.0,
+      "found_at": "2026-10-20",
+      "condition_notes": "Seller: excellent condition, smoke free; original mic, quick start guide, v4.4.20 software, TCXO and built-in ATU, original inner/outer boxes. $2199 + $36 shipped CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782698",
+      "site": "qth",
+      "title": "RADIOHF - Flex 6600-M 100W SDR HF Transceiver",
+      "price": 2899.0,
+      "shipping": 68.0,
+      "found_at": "2026-10-20",
+      "condition_notes": "Seller: completely pristine 6600M with ATU, immaculate; cover, power cable, mic, original boxes, Ethernet cable; fully tested, works perfectly. $2899 + $68 insured shipping.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782729",
+      "site": "qth",
+      "title": "RADIOHF - FS: Flex 6400M with Internal Tuner",
+      "price": 1295.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-20",
+      "condition_notes": "Seller: nice 6400M with internal tuner, 100 W, great shape, software v3.9.19; includes FHM2 mic, Flex Control, Radiosport PTT, original box, power cord, manual. $1,295 plus shipping (amount not stated) or pickup Deland, FL.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782734",
+      "site": "qth",
+      "title": "RADIOHF - FORSALE YAESU FT2000 TRANSCEIVER",
+      "price": 1000.0,
+      "shipping": 60.0,
+      "found_at": "2026-10-20",
+      "condition_notes": "Seller: FT2000 with MH-31B8 mic, works great. $1000 plus $60 shipping CONUS; add 3% for PayPal.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782707",
+      "site": "qth",
+      "title": "RADIOHF - YAESU FT-710 FIELD",
+      "price": 725.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-20",
+      "condition_notes": "Seller: less than a year old, looks and works like new, complete with box, mic, DC power cable. $725.00 shipped CONUS ($700 pickup). Sale final, no return.",
+      "work_flag": "sale final no return",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782695",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu FT-857D",
+      "price": 750.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-20",
+      "condition_notes": "Seller: good overall condition, fully functional, no operational issues, LCD clear, never modified; 3D-printed side rails, MH-31 and MH-59 mics, fused DC cable. $750 shipping included CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782689",
+      "site": "qth",
+      "title": "RADIOHF - Elecraft K3/100 Transceiver # 1292",
+      "price": 1649.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-20",
+      "condition_notes": "Seller: K3/100 #1292 with KAT3 tuner, 2.7 SSB filter, KRX3 sub receiver, KIO3, KXV3A; latest firmware 5.67, good condition, used today on CW/SSB. $1649 delivered ($1349 without tuner).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782664",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu FTdx-101D",
+      "price": 2700.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-20",
+      "condition_notes": "Seller: used about a month, just fully bench tested, works 100%; original double boxes, SSM-75G mic, DC cord, manual, ZL3DW guide. $2,700.00 shipped and insured CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
