@@ -1,0 +1,25 @@
+{
+  "model": "Icom IC-7410",
+  "slug": "icom-ic-7410",
+  "searched_at": "2026-10-20T19:05:55-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-10-20. eBay sold search page 1, signed in as Leo, no challenge. 1 kept, median 500, low 500, high 500 - thin. Trigger ad 1782657 is a PAIR: IC-9100 + IC-7410 together for $1800 ('Selling locally as a pair for now. May consider splitting for the right offer.'). The IC-9100 half is covered by ledger drop 2026-10-20-icom-ic-9100. Thin: 1 comp. 0 'Best offer accepted' sales dropped. 0 parts-only sales dropped. Non-unit results left out: 800333455451 carry handle, 147391058915 FL-430/FL-431 roofing filter $229.98. No outliers. Prices are hammer/sold prices as shown, shipping excluded (shipping in each comp note).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782657",
+    "site": "qth",
+    "ask": 1800,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 500.0,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198554128861",
+      "source": "ebay",
+      "notes": "Title: icom ic 7410 transceiver. or Best Offer not marked accepted. Shipping +$83.65.",
+      "flags": []
+    }
+  ]
+}
