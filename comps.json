@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T12:53:08+00:00",
+ "updated": "2026-10-21T12:53:06+00:00",
  "source": "HamRadioBargains sold-comp ledger \u2014 genuine sold listings from eHam, QTH, eBay and site deals, plus the eHam comp archive. Prices are asking prices at sale; best offers may differ.",
  "models": {
   "ACOM 1000": {
@@ -317,6 +317,24 @@
     }
    ]
   },
+  "COLLINS 75A-4": {
+   "latest": {
+    "date": "2026-10-09",
+    "median": 750.0,
+    "low": 600.0,
+    "high": 799.99,
+    "count": 3
+   },
+   "history": [
+    {
+     "date": "2026-10-09",
+     "median": 750.0,
+     "low": 600.0,
+     "high": 799.99,
+     "count": 3
+    }
+   ]
+  },
   "COLLINS 75S-3": {
    "latest": {
     "date": "2026-09-29",
@@ -350,6 +368,24 @@
      "low": 200.0,
      "high": 224.0,
      "count": 2
+    }
+   ]
+  },
+  "DIAMOND SX-600": {
+   "latest": {
+    "date": "2026-10-13",
+    "median": 141.36,
+    "low": 130.0,
+    "high": 150.0,
+    "count": 4
+   },
+   "history": [
+    {
+     "date": "2026-10-13",
+     "median": 141.36,
+     "low": 130.0,
+     "high": 150.0,
+     "count": 4
     }
    ]
   },
@@ -672,6 +708,24 @@
     }
    ]
   },
+  "FLEXRADIO FLEX-6400M": {
+   "latest": {
+    "date": "2026-08-25",
+    "median": 2400.0,
+    "low": 2400.0,
+    "high": 2400.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "median": 2400.0,
+     "low": 2400.0,
+     "high": 2400.0,
+     "count": 1
+    }
+   ]
+  },
   "FLEXRADIO FLEX-6500": {
    "latest": {
     "date": "2026-09-23",
@@ -741,6 +795,24 @@
      "low": 614.95,
      "high": 674.95,
      "count": 2
+    }
+   ]
+  },
+  "FX-4CR": {
+   "latest": {
+    "date": "2026-10-06",
+    "median": 612.75,
+    "low": 470.0,
+    "high": 772.26,
+    "count": 9
+   },
+   "history": [
+    {
+     "date": "2026-10-06",
+     "median": 612.75,
+     "low": 470.0,
+     "high": 772.26,
+     "count": 9
     }
    ]
   },
@@ -816,6 +888,24 @@
     }
    ]
   },
+  "HEATHKIT SA-2550": {
+   "latest": {
+    "date": "2026-09-29",
+    "median": 274.99,
+    "low": 274.99,
+    "high": 274.99,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-09-29",
+     "median": 274.99,
+     "low": 274.99,
+     "high": 274.99,
+     "count": 1
+    }
+   ]
+  },
   "HEATHKIT SB-200": {
    "latest": {
     "date": "2026-10-11",
@@ -873,6 +963,24 @@
      "median": 89.99,
      "low": 89.99,
      "high": 89.99,
+     "count": 1
+    }
+   ]
+  },
+  "HERMES LITE 2": {
+   "latest": {
+    "date": "2026-09-21",
+    "median": 429.99,
+    "low": 429.99,
+    "high": 429.99,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-09-21",
+     "median": 429.99,
+     "low": 429.99,
+     "high": 429.99,
      "count": 1
     }
    ]
@@ -1018,6 +1126,24 @@
      "low": 100.0,
      "high": 229.99,
      "count": 3
+    }
+   ]
+  },
+  "ICOM IC-490A": {
+   "latest": {
+    "date": "2026-08-16",
+    "median": 150.0,
+    "low": 150.0,
+    "high": 150.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-08-16",
+     "median": 150.0,
+     "low": 150.0,
+     "high": 150.0,
+     "count": 1
     }
    ]
   },
@@ -1251,6 +1377,24 @@
      "low": 385,
      "high": 700,
      "count": 5
+    }
+   ]
+  },
+  "ICOM IC-7410": {
+   "latest": {
+    "date": "2026-08-08",
+    "median": 500.0,
+    "low": 500.0,
+    "high": 500.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-08-08",
+     "median": 500.0,
+     "low": 500.0,
+     "high": 500.0,
+     "count": 1
     }
    ]
   },
@@ -1885,11 +2029,11 @@
   },
   "KENWOOD R-2000": {
    "latest": {
-    "date": "2026-09-16",
-    "median": 325.0,
-    "low": 275.0,
+    "date": "2026-10-18",
+    "median": 275.0,
+    "low": 150.0,
     "high": 375.0,
-    "count": 2
+    "count": 7
    },
    "history": [
     {
@@ -1898,6 +2042,13 @@
      "low": 275.0,
      "high": 375.0,
      "count": 2
+    },
+    {
+     "date": "2026-10-18",
+     "median": 275.0,
+     "low": 150.0,
+     "high": 375.0,
+     "count": 7
     }
    ]
   },
@@ -2393,6 +2544,24 @@
     }
    ]
   },
+  "KENWOOD TS-930S": {
+   "latest": {
+    "date": "2026-10-01",
+    "median": 589.0,
+    "low": 589.0,
+    "high": 589.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-10-01",
+     "median": 589.0,
+     "low": 589.0,
+     "high": 589.0,
+     "count": 1
+    }
+   ]
+  },
   "KENWOOD TS-930SAT": {
    "latest": {
     "date": "2026-09-14",
@@ -2868,6 +3037,24 @@
     }
    ]
   },
+  "TEN-TEC OMNI VI PLUS (564)": {
+   "latest": {
+    "date": "2026-08-28",
+    "median": 609.99,
+    "low": 609.99,
+    "high": 609.99,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-08-28",
+     "median": 609.99,
+     "low": 609.99,
+     "high": 609.99,
+     "count": 1
+    }
+   ]
+  },
   "VECTRONICS HFT-1500": {
    "latest": {
     "date": "2026-09-11",
@@ -2901,6 +3088,24 @@
      "low": 51.01,
      "high": 78.99,
      "count": 2
+    }
+   ]
+  },
+  "XIEGU G106": {
+   "latest": {
+    "date": "2026-10-14",
+    "median": 199.95,
+    "low": 149.99,
+    "high": 319.0,
+    "count": 13
+   },
+   "history": [
+    {
+     "date": "2026-10-14",
+     "median": 199.95,
+     "low": 149.99,
+     "high": 319.0,
+     "count": 13
     }
    ]
   },
@@ -3026,6 +3231,24 @@
     }
    ]
   },
+  "YAESU FT-100D": {
+   "latest": {
+    "date": "2026-08-25",
+    "median": 600.0,
+    "low": 550.0,
+    "high": 650.0,
+    "count": 3
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "median": 600.0,
+     "low": 550.0,
+     "high": 650.0,
+     "count": 3
+    }
+   ]
+  },
   "YAESU FT-101E": {
    "latest": {
     "date": "2026-09-27",
@@ -3102,6 +3325,24 @@
      "low": 90,
      "high": 125,
      "count": 5
+    }
+   ]
+  },
+  "YAESU FT-2000": {
+   "latest": {
+    "date": "2026-10-14",
+    "median": 975.0,
+    "low": 850.0,
+    "high": 1100.0,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-10-14",
+     "median": 975.0,
+     "low": 850.0,
+     "high": 1100.0,
+     "count": 2
     }
    ]
   },
@@ -3192,6 +3433,24 @@
      "low": 149.95,
      "high": 149.95,
      "count": 1
+    }
+   ]
+  },
+  "YAESU FT-450": {
+   "latest": {
+    "date": "2026-08-17",
+    "median": 485.95,
+    "low": 260.0,
+    "high": 600.0,
+    "count": 3
+   },
+   "history": [
+    {
+     "date": "2026-08-17",
+     "median": 485.95,
+     "low": 260.0,
+     "high": 600.0,
+     "count": 3
     }
    ]
   },
@@ -3585,11 +3844,11 @@
   },
   "YAESU FT-897": {
    "latest": {
-    "date": "2026-09-05",
-    "median": 450.0,
-    "low": 450.0,
-    "high": 450.0,
-    "count": 1
+    "date": "2026-10-05",
+    "median": 575.0,
+    "low": 525.0,
+    "high": 820.79,
+    "count": 8
    },
    "history": [
     {
@@ -3598,6 +3857,13 @@
      "low": 450.0,
      "high": 450.0,
      "count": 1
+    },
+    {
+     "date": "2026-10-05",
+     "median": 575.0,
+     "low": 525.0,
+     "high": 820.79,
+     "count": 8
     }
    ]
   },
@@ -3711,11 +3977,11 @@
   },
   "YAESU FTDX101D": {
    "latest": {
-    "date": "2026-05-12",
-    "median": 2400.0,
-    "low": 2150.0,
+    "date": "2026-09-17",
+    "median": 2375.0,
+    "low": 1300.0,
     "high": 2700.0,
-    "count": 9
+    "count": 12
    },
    "history": [
     {
@@ -3731,6 +3997,13 @@
      "low": 2150.0,
      "high": 2700.0,
      "count": 9
+    },
+    {
+     "date": "2026-09-17",
+     "median": 2375.0,
+     "low": 1300.0,
+     "high": 2700.0,
+     "count": 12
     }
    ]
   },
