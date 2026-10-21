@@ -1,0 +1,79 @@
+{
+  "model": "Drake MN-2700",
+  "slug": "drake-mn-2700",
+  "searched_at": "2026-10-21T19:19:16-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "7 kept comps, median 269, low 120, high 399.96. 8 results on page 1. No Best offer accepted, parts-only or Read Description sales. Left out: 206438846276 instruction manual $20. Outliers: 198621263290 $120, 178291558644 $399.96. searched_at is when this drop was assembled; the eBay sold search itself ran during this sweep between about 18:55 and 19:15 ET, signed in as Leo, no challenge.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782673",
+    "site": "qth",
+    "ask": 215,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 269.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158205381486",
+      "source": "ebay",
+      "notes": "ship 28.00",
+      "flags": []
+    },
+    {
+      "price": 249.95,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287592976440",
+      "source": "ebay",
+      "notes": "'WORKS GOOD'; ship 22.79",
+      "flags": []
+    },
+    {
+      "price": 120.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198621263290",
+      "source": "ebay",
+      "notes": "OUTLIER: 120 is below 0.5x the median of the other kept comps (284); auction 3 bids; shipping not shown",
+      "flags": []
+    },
+    {
+      "price": 152.5,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287552909496",
+      "source": "ebay",
+      "notes": "auction 9 bids; ship 20.27",
+      "flags": []
+    },
+    {
+      "price": 299.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287549882308",
+      "source": "ebay",
+      "notes": "'Beautiful'; ship 23.01",
+      "flags": []
+    },
+    {
+      "price": 399.96,
+      "sold_date": "2026-08-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178291558644",
+      "source": "ebay",
+      "notes": "OUTLIER: 399.96 is above 1.5x the median of the other kept comps (259.475); free shipping",
+      "flags": []
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-07-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236940312426",
+      "source": "ebay",
+      "notes": "'WORKS GOOD!'; ship 28.00",
+      "flags": []
+    }
+  ]
+}
