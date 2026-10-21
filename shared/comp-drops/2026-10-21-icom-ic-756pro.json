@@ -1,0 +1,22 @@
+{
+  "model": "Icom IC-756PRO",
+  "slug": "icom-ic-756pro",
+  "searched_at": "2026-10-21T05:55:40-04:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 530.0, count 5, ledger date 2026-10-17 — ledger hit — individual sales behind the median are not auditable from this file.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629259",
+    "site": "eham",
+    "ask": 575.0,
+    "shipping": 48.5
+  },
+  "comps": [],
+  "ledger": {
+    "median": 530.0,
+    "low": 450.0,
+    "high": 739.0,
+    "count": 5,
+    "date": "2026-10-17"
+  }
+}
