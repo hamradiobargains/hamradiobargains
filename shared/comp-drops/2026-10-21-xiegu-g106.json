@@ -1,0 +1,139 @@
+{
+  "model": "Xiegu G106",
+  "slug": "xiegu-g106",
+  "searched_at": "2026-10-21T05:57:50-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "13 kept comps from eBay sold page 1 (median 199.95). Dropped 4 best-offer-accepted (467695, 999557, 280480, 247607 item-number tails). Dropped 2 parts-only (eBay 'Parts Only', $136.49 and $70.00). Excluded 1 Xiegu G106C (different model, $225 NIB). Excluded accessories (cables, covers, mics, adapters, DE-19 interfaces, stands, CW paddle). Trigger listing bundles a Z-Match tuner, 9:1 UNUN and coax; mic is modified. OUTLIERS flagged: $319 (185559618528).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629260",
+    "site": "eham",
+    "ask": 275.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 200.0,
+      "sold_date": "2026-10-14",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/366718789663",
+      "source": "ebay",
+      "notes": "Auction, 22 bids. Title says '- New'. +$7.78 delivery.",
+      "flags": []
+    },
+    {
+      "price": 260.0,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117453261040",
+      "source": "ebay",
+      "notes": "Auction, 17 bids. Includes ATU-10 tuner, mic, CW key per title. +$17.15 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 259.0,
+      "sold_date": "2026-10-08",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/275441317985",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted-offer). Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 164.49,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336817461299",
+      "source": "ebay",
+      "notes": "Auction, 7 bids. +$10.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 149.99,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206588275653",
+      "source": "ebay",
+      "notes": "Buy It Now. +$6.86 delivery.",
+      "flags": []
+    },
+    {
+      "price": 199.95,
+      "sold_date": "2026-09-29",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/237070121763",
+      "source": "ebay",
+      "notes": "Buy It Now. Title 'Open BX'. +$13.50 delivery.",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-09-16",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/318879884854",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted-offer). Title 'Open BX'. +$6.39 delivery.",
+      "flags": []
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237055850514",
+      "source": "ebay",
+      "notes": "Buy It Now. Includes power supply per title. +$7.78 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 164.26,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117382775041",
+      "source": "ebay",
+      "notes": "Auction, 16 bids. Includes DE-19 digital interface per title. +$9.61 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188797331342",
+      "source": "ebay",
+      "notes": "Buy It Now. +$6.86 delivery.",
+      "flags": []
+    },
+    {
+      "price": 190.0,
+      "sold_date": "2026-08-13",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/188788186530",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted-offer). Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 190.0,
+      "sold_date": "2026-08-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267755553608",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. +$9.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 319.0,
+      "sold_date": "2026-08-03",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/185559618528",
+      "source": "ebay",
+      "notes": "OUTLIER: $319 vs median ~$194.975 for the rest. Fixed price or Best Offer (not accepted-offer). Free delivery.",
+      "flags": []
+    }
+  ]
+}
