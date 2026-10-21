@@ -1,0 +1,52 @@
+{
+  "model": "ATU-130",
+  "slug": "atu-130",
+  "searched_at": "2026-10-21T19:19:16-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "4 kept comps, median 85.495, low 74.99, high 90.68. 17 results on page 1. All kept comps are new/open-box units (no used plain ATU-130 sales on page 1); the listing is a used unit. ATU-130 sold under 150 W and 200 W ratings by different sellers; the listing does not state which - identity UNCERTAIN, kept together. ATU-130C (250 W, HamGeek) treated as a different model and left out: 357396093991 $95, 357373863893 $95, 365707761490 $95.58, 286835481907 $95, 206493506736 $90.25. Dropped Best offer accepted (2 ATU-130 family): 267771488007 $70 (ATU-130, open box), 358843230677 $65 (ATU-130 MAX). Left out ATU-100 variants (different model). Ledger ATU-130 latest is 2026-09-07 (more than 30 days old) - not a ledger hit. No outliers. searched_at is when this drop was assembled; the eBay sold search itself ran during this sweep between about 18:55 and 19:15 ET, signed in as Leo, no challenge.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782691",
+    "site": "qth",
+    "ask": 120,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 89.0,
+      "sold_date": "2026-09-07",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/257710333877",
+      "source": "ebay",
+      "notes": "'ATU-130 1.8-50MHz 150W ... OLED Display'; ship 9.85",
+      "flags": []
+    },
+    {
+      "price": 74.99,
+      "sold_date": "2026-08-27",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/287538383025",
+      "source": "ebay",
+      "notes": "'ATU-130 1.8-50MHz 200W'; free shipping",
+      "flags": []
+    },
+    {
+      "price": 81.99,
+      "sold_date": "2026-08-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/358296951037",
+      "source": "ebay",
+      "notes": "'ATU-130 1.8-50MHz 200W'; ship 2.00",
+      "flags": []
+    },
+    {
+      "price": 90.68,
+      "sold_date": "2026-08-03",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227415402190",
+      "source": "ebay",
+      "notes": "'3.5-54MHz HamGeek ATU-130 150W'; ship 15.90",
+      "flags": []
+    }
+  ]
+}
