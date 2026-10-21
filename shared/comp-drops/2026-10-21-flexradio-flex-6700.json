@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-6700",
+  "slug": "flexradio-flex-6700",
+  "searched_at": "2026-10-21T14:59:10-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"flexradio flex-6700\", page 1: eBay reported 3 results, all FlexRadio 6600M (different model) — no FLEX-6700 sold comps on page 1. \"Results matching fewer words\" ignored. Dropped 0 best-offer-accepted, 0 parts-only. No comps — thin (zero). Same model also listed on QTH as 1782749 ($2,300 shipped); one search covers both listings.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782815",
+    "site": "qth",
+    "ask": 2100.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
