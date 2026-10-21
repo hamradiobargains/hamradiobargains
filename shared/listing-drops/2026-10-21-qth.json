@@ -1,0 +1,97 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-21",
+  "ran_at": "2026-10-21T14:53:10-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-20T14:53:19-04:00 (prior qth drop ran_at). Scanned QTH all-ads pages 1-14 (all.php through ?page=14), one at a time; 130 unique ads on pages 1-13 reviewed (title + price); page 14 checked to confirm the end of the window. Counter-ID range of new ads submitted since window start reviewed: 1782745-1782829 (68 new ads seen). IDs in that range never appearing in the list: 1782744, 1782747, 1782750, 1782752, 1782755, 1782758-1782767, 1782770, 1782794, 1782825 — presumably deleted; spot-checked 1782760 (\"no longer in our system\"), others not checked individually. 62 renewed/modified older ads interleaved on pages 1-13 also reviewed. End of window: page 13 reaches prior-run IDs (1782742, 1782741, 1782739 covered by the 10/20 run); page 14 is entirely prior-run IDs (<=1782738) or older renewed ads. QTH shows dates only, so ordering vs. the prior run's top ID (1782743) set the boundary. No unreviewed remainder. 8 candidates picked (cap 8). Extra plausible candidates not comped: 1779509 (Ameritron ALS-600/S w/ PS $950 shipped, renewed), 1781860 (Elecraft K3/100 #6681 $959, renewed), 1782828 (OM2000+ HF amp $2850), 1782771 (Alpha 9500 $4499), 1782783 (Icom PW2 amp $4600), 1782826 (Palstar AT-Auto $925), 1782803 (Alpha 76A $950), 1782801 (Alpha 374A $1200), 1782802 (Collins 30L1 $1000), 1782774 (Heathkit SB-200 $500), 1782740 (Drake T-4XB & R-4B, now $600, renewed), 1782772/1782690 (RM Italy BLA 350 Plus $725, same item two ads), 1780529 (Icom IC-7000 $759 shipped, \"Payment Pending\"), 1782466 (Yaesu FT-690 mk2), 1782681 (Yaesu FTM-500 $450), 1782813 (Connect Systems CS-800D $350), 1782809 (Ameritron ATR-30 $350), 1782829 (Icom AH-705 new), 1782819 (LDG tuner $325), 1782804 (Astron VS-35M $250), 1782818 (Drake SW-4A $175), 1782812 (Icom IC-R3 $165). Not picked because already in dropped-urls: 1782610, 1782608, 1782657, 1782646, 1782613, 1782640, 1782590, 1782602, 1782605, 1782698, 1782697, 1782707, 1782734, 1782559. No clear asking price: 1782435 (Kenwood TS-570S + SP-430), 1782769 (Expert 2K-FA), 1782737 (Drake gear). Duplicate ad: 1782792 is the same TS-2000 as 1782791 (dropped once). Comps: 2 ledger hits (Icom IC-746PRO, Yaesu FT-450D), 5 eBay sold searches (FlexRadio FLEX-6700, Kenwood TS-2000, FlexRadio FLEX-6300, Lab599 TX-500, FlexRadio FLEX-6400M); FLEX-6700 and FLEX-6300 searches returned zero exact-model comps. FLEX-6700 has two listings (1782815, 1782749) covered by one comp search. eBay signed in as Leo, no challenges.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782815",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE: FlexRadio FLEX-6700 Transceive",
+      "price": 2100.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-21",
+      "condition_notes": "Single owner, non-smoking; seller says pristine cosmetic and operational condition. Firmware v14.2.20, SmartSDR+ license valid to Nov 25 2026. Original inner/outer boxes, DC cable, Quick Start guide. $2,100 includes insured shipping CONUS (or local pickup Houston/Conroe TX).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782749",
+      "site": "qth",
+      "title": "RADIOHF - FlexRadio / FLEX-6700 HF Transceiver",
+      "price": 2300.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-21",
+      "condition_notes": "Seller says very good physical condition and fully operational. Includes optional handles, mic, power and Ethernet cables, Quick Start guide copy, both original boxes. $2,300 shipped CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782791",
+      "site": "qth",
+      "title": "RADIOHF - For sale Kenwood TS-2000 (low hours}",
+      "price": 750.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-21",
+      "condition_notes": "Low hours; small scratch on top left lid. Upgraded LED display lighting, Powerpole power connection, new ceramic filters, fresh alignment, Noctua fan, MARS/CAP mod. Power cord and hand mic, \"works 100%\". No factory box or manual. Buyer pays shipping (amount not stated). New-in-box SP-23 available for +$100. Same ad also posted as 1782792 (RADIOVHF).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782785",
+      "site": "qth",
+      "title": "RADIOHF - FS: Flex-6300 with ATU",
+      "price": 1025.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-21",
+      "condition_notes": "Flex-6300 with ATU; seller says works and looks perfect, well taken care of. Includes Flex mic. $1025 shipped/insured UPS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782793",
+      "site": "qth",
+      "title": "RADIOHF - Lab599 TX-500 Discovery $800",
+      "price": 800.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-21",
+      "condition_notes": "Like new; original box and all original accessories; latest firmware, reset to factory defaults. $800 is pickup price (zip 44077 or 14437); can ship but buyer pays shipping (amount not stated) plus 3% PayPal G&S fee. Extra accessories and LDG Z-817 available for added fee.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782768",
+      "site": "qth",
+      "title": "RADIOHF - yaesu 450d",
+      "price": 450.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-21",
+      "condition_notes": "Yaesu FT-450D with microphone and power cord, $450 shipped. Ad states no condition details.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781390",
+      "site": "qth",
+      "title": "RADIOHF - Flex 6400M with ATU Excellent condition",
+      "price": 1795.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-21",
+      "condition_notes": "Seller says looks and works like new with one exception: of three rear-panel amp keying outputs, only TX2 and TX3 key his FL7000; TX1 does not. Includes hand mic, power cable, factory ATU, boxes. $1795 shipped CONUS. Renewed ad (submitted 10/04, modified 10/21).",
+      "work_flag": "only TX2 and TX3 will key my FL7000 amplifier. The TX1 one does not",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1780744",
+      "site": "qth",
+      "title": "RADIOHF - FS: Icom IC-746PRO w/UT-102 $550",
+      "price": 550.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-21",
+      "condition_notes": "Seller says excellent condition electrically and cosmetically. Repairs/upgrades: amp keying relay replaced with solid-state optocoupler, IC-151 replaced, LCD backlight transistor replaced. Original box, manual, mic, UT-102 voice module. $550 plus shipping (amount not stated) or pickup (zip 01775). Renewed ad (submitted 09/27, modified 10/21).",
+      "work_flag": "All annoying problems fixed with high reliability upgrades",
+      "seller_feedback": ""
+    }
+  ]
+}
