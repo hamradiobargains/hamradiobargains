@@ -1,0 +1,97 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-21",
+  "ran_at": "2026-10-21T05:53:28-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-20T05:53:05-04:00 (prior eham run). Browsed signed OUT ('Welcome Guest'). Classifieds home showed Cloudflare 'Performing security verification' on first load; it auto-cleared within ~10s with no click and no CAPTCHA. Pages 1 and 2 loaded (10 ads/page), >30s apart; no individual ads opened (summaries carried full text). New since prior run: 629256-629270, 629274, 629275 (629271-629273 not shown). Skipped: 629275 Philips/Magnavox D2935 shortwave/broadcast receiver $75 + shipping (general consumer SW radio, not ham gear); 629274 Apple Mac Mini (not ham gear); 629270 and 629269 BUYING ads; 629258 WANTED ad; 629257 Bird 43 slugs (accessories); 629256 Alex Loop HamPack (antenna); 629265 Elecraft K3/0 Mini remote head $969 delivered (title says K3/0 Mini, body says K3S/0 Mini, model identity uncertain; at candidate cap); 629261 Ten-Tec 1230 220 MHz FM kit, unbuilt, $200 shipped (at candidate cap). No search form, sold searches, or seller/callsign pages. Comps: 2 ledger hits (ELECRAFT K3/100 for 3 listings, ICOM IC-756PRO); 3 eBay sold searches (Elecraft P3, Xiegu G106, Diamond SX-600), signed in as Leo, no challenge.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629263",
+      "site": "eham",
+      "title": "Elecraft K3/100 TRANSCEIVER # 443",
+      "price": 939.0,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "Elecraft K3/100 serial #443, 100 W, KPA3, 2.7 kHz SSB filter, 500 Hz CW filter, KIO3, KXV3. Firmware 5.67. 'Works as it should.' 'Good condition.' Power cord included. $939 delivered (check, Zelle, PP FF). Local pickup OK. Posted 2026-10-20.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629266",
+      "site": "eham",
+      "title": "Elecraft K3/100 TRANSCEIVER # 3501",
+      "price": 915.0,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "Elecraft K3/100 serial #3501, 100 W, KPA3, 2.7 kHz SSB filter, TCXO, KIO3, K3S VFO rubber band, gold front panel pins. 'Lots of mods done on this one' (mods not itemized). Firmware 5.67. 'Works as it should.' 'Good condition.' Power cord. $915 delivered. Posted 2026-10-20.",
+      "work_flag": "Lots of mods done on this one",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629262",
+      "site": "eham",
+      "title": "Elecraft K3/100 TRANSCEIVER # 1292 sub",
+      "price": 1649.0,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "Elecraft K3/100 serial #1292 with KAT3 tuner, KRX3 sub receiver (2.7 kHz SSB filter), 2.7 kHz SSB filter, KIO3, KXV3A. Firmware 5.67. 'Very nice radio', 'Good condition.' $1649 delivered; $1349 without tuner. Posted 2026-10-19.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629259",
+      "site": "eham",
+      "title": "Icom 756 PRO",
+      "price": 575.0,
+      "shipping": 48.5,
+      "found_at": "2026-10-21",
+      "condition_notes": "Icom IC-756PRO (original PRO per title). 'In great condition', non-smoking environment. No accessories listed. $575 plus $48.50 shipping. Zelle, M.O. or personal check. Posted 2026-10-19.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629267",
+      "site": "eham",
+      "title": "ELECRAFT P3 PANADAPTER # 262",
+      "price": 479.0,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "Elecraft P3 panadapter serial #262 with cables for standard K3. 'Works great.' No VGA option mentioned. $479 delivered. Local pickup OK. Posted 2026-10-20.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629264",
+      "site": "eham",
+      "title": "ELECRAFT P3 PANADAPTER # 2626",
+      "price": 479.0,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "Elecraft P3 panadapter serial #2626 with standard K3 hookup cables. 'Works great', 'Very Good condition.' No VGA option mentioned. $479 delivered. Posted 2026-10-20.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629260",
+      "site": "eham",
+      "title": "Xiegu G-106 QRP Transceiver and Z Match Tuner",
+      "price": 275.0,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "Xiegu G106 (G-106) 5 W HF SDR, firmware 1.4, with power cable (Powerpoles), stock hand mic with mic hole enlarged (mod), USB programming cable, Z-Match QRP tuner + BNC jumper, 9:1 UNUN, 25 ft RG-174. No box or manual (cheat sheet included). 'Very good condition and works as designed.' $275 shipped USA. M.O. or personal check, no PayPal. Posted 2026-10-19.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629268",
+      "site": "eham",
+      "title": "Diamond Antenna SX600 SWR Power Meter new",
+      "price": 229.0,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "Diamond SX-600 SWR/power meter, 1.8-525 MHz, 200 W, dual sensor. 'New in box.' $229 delivered (check, Zelle, PP FF). Posted 2026-10-20.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
