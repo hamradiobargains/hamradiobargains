@@ -1,0 +1,15 @@
+{
+  "model": "Collins 75A-2",
+  "slug": "collins-75a-2",
+  "searched_at": "2026-10-21T19:19:16-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "THIN - 0 kept comps. 8 results on page 1. 75A-2 unit sales all dropped: Best offer accepted (2): 267622283417 $375 (Aug 31), 366544636787 $334.99 (Aug 9); as-is / parts (2): 168614550420 $275 (Sep 1, Pre-Owned but titled 'Powers On Untested As Is'), 188457753001 $275 (Jul 26, 'For Parts/repair. Estate Sale', also BOA). Left out other models: 267764580129 75A-4 $495 (parts, 'PLEASE READ'), 267699326840 75A-3 $545. Accessories left out: meter lamp kit $24.50, front panel plate $12.50 (BOA). Listing says 'Radio could use some work' and 'Sold as-is', pickup only Cupertino CA, $280/OBO. No outliers. searched_at is when this drop was assembled; the eBay sold search itself ran during this sweep between about 18:55 and 19:15 ET, signed in as Leo, no challenge.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782731",
+    "site": "qth",
+    "ask": 280,
+    "shipping": 0
+  },
+  "comps": []
+}
