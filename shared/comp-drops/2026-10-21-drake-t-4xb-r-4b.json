@@ -1,0 +1,15 @@
+{
+  "model": "Drake T-4XB + R-4B pair",
+  "slug": "drake-t-4xb-r-4b",
+  "searched_at": "2026-10-21T19:19:16-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "THIN - 0 kept comps. Comp unit is the T-4XB + R-4B pair. 12 results on page 1. Every pair sale on the page was listed Parts Only and is dropped (4): 198717930506 $200 (Oct 20, auction 1 bid, 'R4B, T4-XB twins'), 206621551691 $350 (Oct 15, with MS-4 speaker, 'Untested', also Best offer accepted), 237040017881 $325 (Sep 9, with MS-4 speaker), 236990053999 $400 (Aug 7). Single T-4XB transmitter sales (not the pair, left out): 327370943646 $150 (Pre-Owned, auction 2 bids, 'Needs restored seems to be in working condition'), 227505692479 $179.99 (Pre-Owned, 'WORKS'), 820011551507 $150 (Parts Only, 17 bids), 198465246421 $164.99 (Parts Only, 'NO POWER SUPPLY'). No single R-4B sales on page 1. Accessories left out: knob set, PTO/injection cables, 160 m crystal. Best offer accepted: 1 (206621551691, also parts). Listing is the pair plus power supply, estate sale, $600, Bainbridge Island WA, shipping not stated (10/20 QTH note had it at $300; 10/21 note at $600 renewed). No outliers. searched_at is when this drop was assembled; the eBay sold search itself ran during this sweep between about 18:55 and 19:15 ET, signed in as Leo, no challenge.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782740",
+    "site": "qth",
+    "ask": 600,
+    "shipping": 0
+  },
+  "comps": []
+}
