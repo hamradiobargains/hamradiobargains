@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-21",
+  "ran_at": "2026-10-21T18:02:34-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670) browse page, Buy It Now filter, sorted Time: newly listed (signed in as Leo). /sch/ URL redirected to the /b/ browse page and dropped the filters; re-applied LH_BIN=1&_sop=10 on the /b/ URL. Window since previous ebay run 2026-10-20T18:01:38-04:00; scanned page 1 only (~60 items, all NEW LISTING). Browse cards show no listing times, so 'new' = newest-first order. Auction cards that still appeared (0 bids) were skipped. None of the picked items were in dropped-urls.json. Seller rule: rating count = seller feedback score on the item page. Skipped for seller rule: Yaesu FTDX101D brand new $4,800 (128149040632, seller feedback 0). Ledger: 3 hits (Icom IC-7300, Kenwood TH-D74A, Kenwood TM-V71A); 5 misses -> eBay sold searches: yaesu frg-8800, mirage bd-35, ldg z100plus, kenwood tm-271a, icom ic-r3. No challenges. Item descriptions (iframe) not read. Not picked: Drake L-4B (parts only, $1,595), Drake MN-2000/AC-4 parts, Swan Cygnet 270B parts, Varmint XL350 parts, TS-850S boards/parts, IC-PCR1000, Timewave DSP-599ZX, Toptek PA-85V, RF Concepts RFC 2-417, MFJ QRPocket, KW tuner box, accessories, test gear, CB/broadcast items.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/960097737628",
+      "site": "ebay",
+      "title": "Icom IC-7300 HF/50MHz Transceiver SDR Base Station Ham Radio with Mic",
+      "price": 799.95,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "eBay condition: Used. Title says 'with Mic'. Or Best Offer. Free shipping. 30-day returns, seller pays return shipping. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "99.2% (3020 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/960097367551",
+      "site": "ebay",
+      "title": "Kenwood TH-D74A Tri-Band Handheld Ham Radio With Extra Battery, Charging Dock",
+      "price": 459.99,
+      "shipping": 17.99,
+      "found_at": "2026-10-21",
+      "condition_notes": "eBay condition: Used. Includes extra battery and charging dock per title. Seller does not accept returns. Item description not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (2001 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/960097252889",
+      "site": "ebay",
+      "title": "Kenwood TM-V71A VHF/UHF Dual Band Mobile Ham Radio Transceiver",
+      "price": 419.99,
+      "shipping": 18.99,
+      "found_at": "2026-10-21",
+      "condition_notes": "eBay condition: Used. Seller does not accept returns. Item description not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (2001 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/117479257565",
+      "site": "ebay",
+      "title": "Yaesu FRG-8800 Communications Shortwave Receiver AM SSB CW FM Powers On Japan",
+      "price": 499.99,
+      "shipping": 135.0,
+      "found_at": "2026-10-21",
+      "condition_notes": "eBay condition: Used. Title says 'Powers On' (no claim of tested/working) and 'Japan' (may be a Japanese-market/100V unit - not verified). Located in Etobicoke, Ontario, Canada; $135 FedEx shipping. Or Best Offer. Seller does not accept returns. Item description not read.",
+      "work_flag": "Powers On (no tested/working claim); seller does not accept returns",
+      "seller_feedback": "100% (113 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/198734602958",
+      "site": "ebay",
+      "title": "Mirage BD-35 Dual Band Linear Amplifier 35W 144/440 MHz VHF/UHF FM",
+      "price": 220.0,
+      "shipping": 10.2,
+      "found_at": "2026-10-21",
+      "condition_notes": "eBay condition: Used. Or Best Offer. 14-day returns, buyer pays return shipping. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "100% (910 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/198734526677",
+      "site": "ebay",
+      "title": "LDG Z100 Plus Autotuner",
+      "price": 130.0,
+      "shipping": 9.61,
+      "found_at": "2026-10-21",
+      "condition_notes": "eBay condition: Used. Or Best Offer. 14-day returns, buyer pays return shipping. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "100% (910 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/237136470933",
+      "site": "ebay",
+      "title": "Kenwood TM-271A 2m VHF FM Mobile Ham Radio Transceiver 65W 200CH CTCSS",
+      "price": 90.0,
+      "shipping": 6.19,
+      "found_at": "2026-10-21",
+      "condition_notes": "eBay condition: Used. Or Best Offer. Seller does not accept returns. Item description not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (47 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/940031424784",
+      "site": "ebay",
+      "title": "ICOM IC-R3 COMMUNICATIONS RECEIVER IN BOX EXCELLENT",
+      "price": 199.95,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "eBay condition: Used. Title says in box, excellent. Free shipping. Seller does not accept returns. Item description not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "99.2% (4214 ratings)"
+    }
+  ]
+}
