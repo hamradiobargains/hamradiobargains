@@ -1,0 +1,25 @@
+{
+  "model": "Hallicrafters PS-150-12",
+  "slug": "hallicrafters-ps-150-12",
+  "searched_at": "2026-10-21T19:19:16-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "THIN - 1 kept comps, median 74.95, low 74.95, high 74.95. 4 results on page 1. Dropped parts-only (2): 257524827875 $150, 257586545619 $85. Left out: 377527096642 $374.95 SR-150 transceiver w/ PS-150 supply (bundle where the supply is a minor part; also listed under Parts Only). No Best offer accepted sales. Listing is a restored (recapped) unit; comps' restoration state not shown in titles. No outliers. searched_at is when this drop was assembled; the eBay sold search itself ran during this sweep between about 18:55 and 19:15 ET, signed in as Leo, no challenge.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782636",
+    "site": "qth",
+    "ask": 145,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 74.95,
+      "sold_date": "2026-07-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147455836391",
+      "source": "ebay",
+      "notes": "ship 15.65",
+      "flags": []
+    }
+  ]
+}
