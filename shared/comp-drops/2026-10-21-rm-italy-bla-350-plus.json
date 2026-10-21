@@ -1,0 +1,34 @@
+{
+  "model": "RM Italy BLA 350 Plus",
+  "slug": "rm-italy-bla-350-plus",
+  "searched_at": "2026-10-21T19:19:16-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "THIN - 2 kept comps, median 472.5, low 460, high 485. 2 results on page 1 for 'rm italy bla 350', both BLA350 Plus auctions. No Best offer accepted, parts-only or Read Description sales. Same unit is posted twice by the same seller (KK2L): https://swap.qth.com/view_ad.php?counter=1782690 and https://swap.qth.com/view_ad.php?counter=1782772, identical text, both now $725 shipped CONUS (1782690 was $775 in the 10/20 QTH drop note); no serials shown. No outliers. searched_at is when this drop was assembled; the eBay sold search itself ran during this sweep between about 18:55 and 19:15 ET, signed in as Leo, no challenge. Also covers https://swap.qth.com/view_ad.php?counter=1782772 (same seller, same text and price - possible cross-post).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782690",
+    "site": "qth",
+    "ask": 725,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 460.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206521652956",
+      "source": "ebay",
+      "notes": "BLA350 Plus 120V; auction 16 bids; free shipping",
+      "flags": []
+    },
+    {
+      "price": 485.0,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198537684766",
+      "source": "ebay",
+      "notes": "BLA350 Plus; auction 35 bids; free shipping",
+      "flags": []
+    }
+  ]
+}
