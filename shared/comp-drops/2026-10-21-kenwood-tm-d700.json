@@ -1,0 +1,97 @@
+{
+  "model": "Kenwood TM-D700",
+  "slug": "kenwood-tm-d700",
+  "searched_at": "2026-10-21T19:19:16-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "9 kept comps, median 250, low 107.5, high 499. 26 results on page 1. TM-D700 and TM-D700A treated as the same radio (A = US version); no TM-D700E sales on page. Dropped Best offer accepted (1 unit sale): 128045874770 $325 (plus accessory 188277272178). Dropped parts-only (3): 206608148714 $138.50 (28 bids), 188908784511 $265 (title 'Read description.'), 128007917928 $125 (also BOA). Left out as not the complete unit: 128042524648 display/control head only $295; 820033597366 $380 titled 'Dual Band Control Head w/ Mic' (unclear whether the main unit was included, left out - UNCERTAIN); separation kits, cables, mounts, VS-3 module, resistor, filter kit. Outliers: 327390340877 $107.5, 236946084311 $499. searched_at is when this drop was assembled; the eBay sold search itself ran during this sweep between about 18:55 and 19:15 ET, signed in as Leo, no challenge.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782335",
+    "site": "qth",
+    "ask": 245,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 249.99,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168797157497",
+      "source": "ebay",
+      "notes": "TM-D700A; with box; ship 17.99",
+      "flags": []
+    },
+    {
+      "price": 107.5,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327390340877",
+      "source": "ebay",
+      "notes": "OUTLIER: 107.5 is below 0.5x the median of the other kept comps (262.5); TM-D700; auction 13 bids; ship 9.74",
+      "flags": []
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327381896786",
+      "source": "ebay",
+      "notes": "TM-D700; with box; auction 1 bid; ship 8.18",
+      "flags": []
+    },
+    {
+      "price": 205.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237102916262",
+      "source": "ebay",
+      "notes": "TM-D700A; ship 15.44",
+      "flags": []
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168676540698",
+      "source": "ebay",
+      "notes": "TM-D700A 'Used and Tested'; auction 5 bids; ship 10.69",
+      "flags": []
+    },
+    {
+      "price": 340.0,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198585403387",
+      "source": "ebay",
+      "notes": "TM-D700A + Mic '(very nice)'; ship 19.50",
+      "flags": []
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188812536498",
+      "source": "ebay",
+      "notes": "TM-D700; ship 9.95",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377437073965",
+      "source": "ebay",
+      "notes": "TM-D700A; ship 8.43",
+      "flags": []
+    },
+    {
+      "price": 499.0,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236946084311",
+      "source": "ebay",
+      "notes": "OUTLIER: 499 is above 1.5x the median of the other kept comps (249.995); TM-D700 'Tested Working'; ship 15.00",
+      "flags": []
+    }
+  ]
+}
