@@ -1,0 +1,88 @@
+{
+  "model": "Icom IC-R3",
+  "slug": "icom-ic-r3",
+  "searched_at": "2026-10-21T18:02:34-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, 'Results matching fewer words' ignored. Ledger miss (no IC-R3 entry). 8 kept comps, wide spread ($49.99-$250). dropped 3 best-offer-accepted (206216440642 $55.99 - title also says untested parts/repair, 407122828409 $69.99, 880000314371 $227.46). dropped 2 parts-only (277926074949 $129.99, 178387250638 $60). OUTLIERS flagged: 336754883783 $49.99, 128011929780 $80.28, 117410604970 $250, 147100722220 $224.74 (each vs median of the other kept comps). Several kept comps are from sellers in Japan, UK, Netherlands, Turkey. Left out: IC-R2, IC-R20, IC-R30, IC-R6, spacers, cables, chargers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/940031424784",
+    "site": "ebay",
+    "ask": 199.95,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 49.99,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336754883783",
+      "source": "ebay",
+      "notes": "OUTLIER: $49.99 vs ~$167 median for the rest. Buy It Now. Title says 'Japan'; seller in Turkey. Shipping $35.00.",
+      "flags": []
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117410604970",
+      "source": "ebay",
+      "notes": "OUTLIER: $250 vs ~$125 median for the rest. Or Best Offer (not shown as accepted). Title: 'IN BOX EXCELLENT' (same title wording as the trigger listing, different seller). Shipping $31.20.",
+      "flags": []
+    },
+    {
+      "price": 175.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137519014767",
+      "source": "ebay",
+      "notes": "Or Best Offer (not shown as accepted). Title: 'IN BOX EXCELLENT'. Shipping $18.45.",
+      "flags": []
+    },
+    {
+      "price": 119.95,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298433680123",
+      "source": "ebay",
+      "notes": "Or Best Offer (not shown as accepted). Shipping $19.70.",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-08-14",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/307112822906",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Title: 'NEW IN BOX'. Shipping $18.95.",
+      "flags": []
+    },
+    {
+      "price": 167.0,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/397868119346",
+      "source": "ebay",
+      "notes": "Or Best Offer (not shown as accepted). Seller in Japan. Shipping $31.00.",
+      "flags": []
+    },
+    {
+      "price": 224.74,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147100722220",
+      "source": "ebay",
+      "notes": "OUTLIER: $224.74 vs ~$125 median for the rest. Buy It Now. Seller in Netherlands. Shipping $22.47.",
+      "flags": []
+    },
+    {
+      "price": 80.28,
+      "sold_date": "2026-08-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128011929780",
+      "source": "ebay",
+      "notes": "OUTLIER: $80.28 vs ~$167 median for the rest. Buy It Now. Title: 'works with Power attached'. Seller in UK. Shipping estimate $35.15.",
+      "flags": []
+    }
+  ]
+}
