@@ -1,0 +1,25 @@
+{
+  "model": "Yaesu FRG-8800",
+  "slug": "yaesu-frg-8800",
+  "searched_at": "2026-10-21T18:02:34-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only. Ledger miss (no FRG-8800 entry). thin — 1 kept comp. dropped 4 best-offer-accepted (398103915000 $380, 398005417407 $400, 257631198527 $395, 307080585358 $420). dropped 2 parts-only (336741987498 $249.99, 227470223484 $129.99). Excluded non-units: service manual, sales brochure, telescopic antennas, FRA-7700 antenna. Most page-1 results were other Yaesu models (FRG-7, FRG-7700, FRG-9600, FRG-100, etc.) and were left out.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/117479257565",
+    "site": "ebay",
+    "ask": 499.99,
+    "shipping": 135.0
+  },
+  "comps": [
+    {
+      "price": 394.5,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227557224608",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'Exc Cond!'. Shipping $24.73.",
+      "flags": []
+    }
+  ]
+}
