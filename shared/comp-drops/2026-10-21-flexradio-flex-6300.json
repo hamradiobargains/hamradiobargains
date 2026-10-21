@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-6300",
+  "slug": "flexradio-flex-6300",
+  "searched_at": "2026-10-21T15:01:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"flexradio flex-6300\", page 1: eBay reported 6 results — FlexRadio 6400, 6600M and FLEX-1500 only; no FLEX-6300 sold comps on page 1. Dropped 0 best-offer-accepted, 0 parts-only. No comps — thin (zero).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782785",
+    "site": "qth",
+    "ask": 1025.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
