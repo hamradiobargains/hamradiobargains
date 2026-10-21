@@ -1,0 +1,15 @@
+{
+  "model": "(tr)uSDX",
+  "slug": "trusdx",
+  "searched_at": "2026-10-21T19:19:16-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "THIN - 0 kept comps. Searched 'trusdx': 2 results on page 1, both microphones (198530835600 $15; 227204168125 $30.77) - accessories, left out. No transceiver sales found under this spelling; other spellings ('(tr)uSDX', 'tr uSDX') not searched (one search per model). No outliers. searched_at is when this drop was assembled; the eBay sold search itself ran during this sweep between about 18:55 and 19:15 ET, signed in as Leo, no challenge.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782718",
+    "site": "qth",
+    "ask": 90,
+    "shipping": 0
+  },
+  "comps": []
+}
