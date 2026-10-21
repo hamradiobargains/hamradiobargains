@@ -1,0 +1,133 @@
+{
+  "model": "Kenwood R-1000",
+  "slug": "kenwood-r-1000",
+  "searched_at": "2026-10-21T19:19:16-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "13 kept comps, median 250, low 149.99, high 449.95. 29 results on page 1. Dropped Best offer accepted (6): 198731786960 $150, 287622477680 $285, 278162733154 $275, 358797487361 $259.99, 158087234145 $200, 236965885770 $309.02. Dropped parts-only (5): 128139543870 $116, 267794951308 $135 (also BOA), 298634088121 $80, 128018444319 $179.99 (also BOA; title ends 'Read'), 306813002457 $320.25. Not the unit, left out: 397087816294 RX board $149.95, 144101803766 capacitor kit $40.95, 394008812499 mode button $7.95, 188695480096 Kenwood R-600 $215, 227569974658 Kenwood R-5000 $602.10 (parts, BOA). Outliers: 407251574155 $399.95, 257442794819 $360, 398282523687 $449.95. searched_at is when this drop was assembled; the eBay sold search itself ran during this sweep between about 18:55 and 19:15 ET, signed in as Leo, no challenge.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781414",
+    "site": "qth",
+    "ask": 270,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 399.95,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407251574155",
+      "source": "ebay",
+      "notes": "OUTLIER: 399.95 is above 1.5x the median of the other kept comps (230); ship 35.65; title '***AMAZING QUALITY***'",
+      "flags": []
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168766374448",
+      "source": "ebay",
+      "notes": "ship 10.62",
+      "flags": []
+    },
+    {
+      "price": 157.5,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188857669454",
+      "source": "ebay",
+      "notes": "auction 3 bids; ship 30.00; 'Fully tested and working'",
+      "flags": []
+    },
+    {
+      "price": 195.99,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287563903794",
+      "source": "ebay",
+      "notes": "ship 37.08",
+      "flags": []
+    },
+    {
+      "price": 186.69,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820091029656",
+      "source": "ebay",
+      "notes": "ship 13.27; 'WORKS'",
+      "flags": []
+    },
+    {
+      "price": 149.99,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168647052218",
+      "source": "ebay",
+      "notes": "ship 29.53; title says 'WORKS *READ*' (not 'Read Description'; kept)",
+      "flags": []
+    },
+    {
+      "price": 259.99,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227345668997",
+      "source": "ebay",
+      "notes": "ship 39.99",
+      "flags": []
+    },
+    {
+      "price": 360.0,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257442794819",
+      "source": "ebay",
+      "notes": "OUTLIER: 360 is above 1.5x the median of the other kept comps (230); free shipping; 'Tested'",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287532725226",
+      "source": "ebay",
+      "notes": "auction 1 bid; ship 75.33",
+      "flags": []
+    },
+    {
+      "price": 449.95,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398282523687",
+      "source": "ebay",
+      "notes": "OUTLIER: 449.95 is above 1.5x the median of the other kept comps (230); ship 35.65",
+      "flags": []
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398278024310",
+      "source": "ebay",
+      "notes": "ship 26.32; 'SUPER CLEAN-Works Great,Tested'",
+      "flags": []
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278257059587",
+      "source": "ebay",
+      "notes": "free shipping",
+      "flags": []
+    },
+    {
+      "price": 210.0,
+      "sold_date": "2026-07-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327279961072",
+      "source": "ebay",
+      "notes": "ship 24.45",
+      "flags": []
+    }
+  ]
+}
