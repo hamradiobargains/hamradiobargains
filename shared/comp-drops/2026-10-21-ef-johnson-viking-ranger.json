@@ -1,0 +1,52 @@
+{
+  "model": "EF Johnson Viking Ranger (Ranger I)",
+  "slug": "ef-johnson-viking-ranger",
+  "searched_at": "2026-10-21T19:19:16-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "4 kept comps, median 312.495, low 239.99, high 449.99. 32 results on page 1 for 'johnson viking ranger'. Only original Ranger (Ranger I) sales kept. Ranger II treated as a different transmitter and left out: 158298614938 $550, 158219316110 $550 (BOA). Dropped 'READ DESCRIPTION' (1): 327377145997 $199.99. Dropped parts-only Ranger sales (3): 188813685700 $195 ('Sold As Is For parts'), 236975635505 $125, 236968462392 $95. Dropped Best offer accepted: 1 Ranger-related (158219316110 Ranger II) plus other models. Left out other models: Challenger, Valiant, Navigator, Adventurer, Viking II, Model 122 VFO, VP600/VP900/XR LMR radios; and manuals, rebuild kits, antenna relay, VFO coupler kit. Listing has replaced capacitors/electrolytics, 3-prong plug and fuse installed, repainted cabinet; comps' restoration state mostly not shown. Outliers: 117313534406 $449.99. searched_at is when this drop was assembled; the eBay sold search itself ran during this sweep between about 18:55 and 19:15 ET, signed in as Leo, no challenge.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782739",
+    "site": "qth",
+    "ask": 375,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 349.99,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960008879033",
+      "source": "ebay",
+      "notes": "'Johnson Viking Ranger Tube Transmitter Meter'; ship 50.00",
+      "flags": []
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257742531573",
+      "source": "ebay",
+      "notes": "'Working Vintage'; auction 1 bid; ship 49.36",
+      "flags": []
+    },
+    {
+      "price": 239.99,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178380884569",
+      "source": "ebay",
+      "notes": "title says 'UNTESTED' (listed Pre-Owned, not parts); ship 45.58",
+      "flags": []
+    },
+    {
+      "price": 449.99,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117313534406",
+      "source": "ebay",
+      "notes": "OUTLIER: 449.99 is above 1.5x the median of the other kept comps (275); 'Powers On Tubes Light Meter'; ship 68.95",
+      "flags": []
+    }
+  ]
+}
