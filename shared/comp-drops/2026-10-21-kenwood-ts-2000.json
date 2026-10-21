@@ -1,0 +1,187 @@
+{
+  "model": "Kenwood TS-2000",
+  "slug": "kenwood-ts-2000",
+  "searched_at": "2026-10-21T15:00:20-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"kenwood ts-2000\", page 1 (43 results; \"Results matching fewer words\" ignored). Kept 17. Dropped 8 best-offer-accepted (257773213691, 377544209031, 178506319116, 178420811709, 178378394107, 117340993235, 336720231455, 168568171762). Dropped 2 parts-only (227555987274 PARTS/REPAIR $299.99; 407098032677 Parts Only $400). Excluded for model identity: 128123681004 \"TS-2000S\" $1,480 (not certain it is the same model) and 366671117376 \"TS-2000SX\" $2,468.75 (different variant). Excluded accessories/manuals/modules/cables (UT-20 modules, DRU-3, final units, TM-D700 display, cables, manuals, kits, book). Several same-seller pairs flagged possible_duplicate. Outliers flagged (kept): 227522840230 $1,500.00 vs ~$925; 227494212175 $1,500.00 vs ~$925; 318783426345 $1,500.00 vs ~$925; 178289510962 $1,400.00 vs ~$925.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782791",
+    "site": "qth",
+    "ask": 750.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 950.0,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278409511459",
+      "source": "ebay",
+      "notes": "Title: Kenwood TS-2000 HF/VHF/UHF All Mode Multi Band Ham Radio. Auction, 10 bids. Shipping shown: Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 830.0,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257757146037",
+      "source": "ebay",
+      "notes": "Title: Kenwood TS-2000 All-Mode HF/VHF/UHF Transceiver – Satellite Ready Package. Auction, 25 bids. Shipping shown: +$24.39. Title says \"Satellite Ready Package\".",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2026-09-15",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/227522840230",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,500.00 vs ~$925 median for the rest. Title: Kenwood TS-2000 HF/VHF/UHF All Mode Multi Bander Ham Radio transceiver. Shipping shown: +$80.00. Same seller and title as 227494212175 (Sep 8, $1,500) — possibly the same unit relisted.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1299.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278071577453",
+      "source": "ebay",
+      "notes": "Title: Kenwood TS-2000 all mode multi band Transceiver ham Radio w Mic and Power Cord. Shipping shown: +$139.86. Title mentions mic and power cord.",
+      "flags": []
+    },
+    {
+      "price": 649.89,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117395769249",
+      "source": "ebay",
+      "notes": "Title: Kenwood TS-2000 all mode multi band Transceiver ham Radio w Mic Manual Schematic. Auction, 2 bids. Shipping shown: +$58.80. Title mentions mic, manual, schematic.",
+      "flags": []
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2026-09-08",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/227494212175",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,500.00 vs ~$925 median for the rest. Title: Kenwood TS-2000 HF/VHF/UHF All Mode Multi Bander Ham Radio transceiver. Shipping shown: +$80.00. Same seller and title as 227522840230 (Sep 15, $1,500) — possibly the same unit relisted.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137699138587",
+      "source": "ebay",
+      "notes": "Title: Kenwood TS-2000 HF/VHF/UHF. Shipping shown: +$106.60.",
+      "flags": []
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318783426345",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,500.00 vs ~$925 median for the rest. Title: Kenwood TS-2000 HF/VHF/UHF All Mode trcv + NEW mic + NEW power cord + NEW manual. Shipping shown: +$3.85. Title lists new mic, power cord and manual.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1400.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178289510962",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,400.00 vs ~$925 median for the rest. Title: Kenwood TS-2000 HF VHF UHF 1200MHz Transceiver. Shipping shown: +$88.13. Title says 1200MHz — implies UT-20 1.2 GHz option installed.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 990.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128040817071",
+      "source": "ebay",
+      "notes": "Title: Kenwood TS-2000 Multi-Band HF/VHF/UHF Ham Radio AM FM USB SSB CW TNC w/ NEW LCD. Shipping shown: +$48.00. Title says \"w/ NEW LCD\".",
+      "flags": []
+    },
+    {
+      "price": 899.99,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178416903284",
+      "source": "ebay",
+      "notes": "Title: kenwood ts 2000 transceiver HF/VHF/UHF w/power cord hand mic.. Shipping shown: +$33.64. Title mentions power cord and hand mic.",
+      "flags": []
+    },
+    {
+      "price": 1200.0,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236991705519",
+      "source": "ebay",
+      "notes": "Title: Kenwood TS 2000 With Power Supply, Speaker,microphone. Shipping shown: Free delivery. Includes power supply, speaker, microphone per title.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 510.0,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800459918589",
+      "source": "ebay",
+      "notes": "Title: Kenwood TS-2000. Auction, 7 bids. Shipping shown: +$40.00. Same seller as 800450818115 (Aug 2 auction, $650, title \"kenwood ts 2000 transceiver\") — possibly the same unit relisted.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 849.99,
+      "sold_date": "2026-08-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117338803808",
+      "source": "ebay",
+      "notes": "Title: kenwood ts 2000 transceiver HF/VHF/UHF w/power cord hand mic Tested Ships Fast. Shipping shown: +$59.99. Same seller and title as 117340993235 (Aug 12, best-offer-accepted, dropped) — possibly the same unit relisted.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-08-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800450818115",
+      "source": "ebay",
+      "notes": "Title: kenwood ts 2000 transceiver. Auction, 1 bid. Shipping shown: +$40.00. Same seller as 800459918589 (Aug 7 auction, $510) — possibly the same unit relisted.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-07-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188686595974",
+      "source": "ebay",
+      "notes": "Title: Kenwood TS-2000 HF/VHF/UHF Multi-Band All-Mode Ham Transceiver DSP Mic. Shipping shown: +$139.86.",
+      "flags": []
+    },
+    {
+      "price": 999.99,
+      "sold_date": "2026-07-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198378391318",
+      "source": "ebay",
+      "notes": "Title: Kenwood TS-2000 Ham HF VHF UHF All-Mode Transceiver MY OTHER HAM RADIO Yaesu 2. Shipping shown: +$59.76.",
+      "flags": []
+    }
+  ]
+}
