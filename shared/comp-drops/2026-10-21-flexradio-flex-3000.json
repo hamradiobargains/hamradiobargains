@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-3000",
+  "slug": "flexradio-flex-3000",
+  "searched_at": "2026-10-21T19:19:16-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "THIN - 0 kept comps. 4 results on page 1 for 'flexradio flex-3000', none a FLEX-3000 unit: 3 FLEX-1500 sales (168711784786 $400 auction 1 bid; 800578722810 $445.99 BOA; 147474651629 $575 'with Extras') - different radio, left out; 193981776983 $49.95 RFI kit for Flex 3000 - accessory, left out. No parts-only or Read Description sales. No outliers. searched_at is when this drop was assembled; the eBay sold search itself ran during this sweep between about 18:55 and 19:15 ET, signed in as Leo, no challenge.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782722",
+    "site": "qth",
+    "ask": 495,
+    "shipping": 0
+  },
+  "comps": []
+}
