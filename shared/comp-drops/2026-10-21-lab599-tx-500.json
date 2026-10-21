@@ -1,0 +1,67 @@
+{
+  "model": "Lab599 TX-500",
+  "slug": "lab599-tx-500",
+  "searched_at": "2026-10-21T15:01:30-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"lab599 tx-500\", page 1 (23 results; \"Results matching fewer words\" ignored). Kept 5 radios. Dropped 2 best-offer-accepted (188940026662, 158165263714). Dropped 0 parts-only. Excluded accessories (cables, connector kits, bags, splitter).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782793",
+    "site": "qth",
+    "ask": 800.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 700.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147618767498",
+      "source": "ebay",
+      "notes": "Title: Lab599 Discovery TX-500 HF/50MHz Ham Radio Transceiver. Auction, 5 bids. Shipping shown: +$28.10.",
+      "flags": []
+    },
+    {
+      "price": 735.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227529529442",
+      "source": "ebay",
+      "notes": "Title: The Lab599 Discovery TX-500 HF Radio - 160−6 Meters - Waterproof Case - See Vid. Auction, 7 bids. Shipping shown: +$7.74. Title mentions waterproof case.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 949.99,
+      "sold_date": "2026-09-25",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/188943965976",
+      "source": "ebay",
+      "notes": "Title: (New) LAB599 Discovery TX-500 HF/50MHz QRP Ham Radio Portable Transceiver. Shipping shown: +$20.00. Same seller and title as 188940026662 (Sep 16, best-offer-accepted, dropped) — possibly the same unit relisted. Title says \"(New)\".",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 835.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188914125889",
+      "source": "ebay",
+      "notes": "Title: The Lab599 Discovery TX-500 covers 160−6 meters. Auction, 25 bids. Shipping shown: +$12.03.",
+      "flags": []
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366641776152",
+      "source": "ebay",
+      "notes": "Title: Lab599 TX500 Discovery HF Radio & Lab599 BP-550 Smart Battery Pack. Shipping shown: +$20.00. Includes Lab599 BP-550 smart battery pack per title.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
