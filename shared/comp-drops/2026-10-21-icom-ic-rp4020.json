@@ -1,0 +1,15 @@
+{
+  "model": "Icom IC-RP4020",
+  "slug": "icom-ic-rp4020",
+  "searched_at": "2026-10-21T19:19:16-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "THIN - 0 kept comps. eBay showed '0 results for icom ic-rp4020'; the only items on the page were fewer-words matches (CS-F3020 programming software $38.80; IC-RP1210 1200 MHz repeater $1,616.45 - different model), both ignored. No outliers. searched_at is when this drop was assembled; the eBay sold search itself ran during this sweep between about 18:55 and 19:15 ET, signed in as Leo, no challenge.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782741",
+    "site": "qth",
+    "ask": 579,
+    "shipping": 0
+  },
+  "comps": []
+}
