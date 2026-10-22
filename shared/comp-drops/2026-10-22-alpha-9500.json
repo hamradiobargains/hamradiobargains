@@ -1,0 +1,15 @@
+{
+  "model": "Alpha 9500",
+  "slug": "alpha-9500",
+  "searched_at": "2026-10-22T05:56:50-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 0 kept comps. eBay sold page 1 (search 'alpha 9500') had 4 results above 'fewer words', none an Alpha 9500 amplifier: 2 Zodiac Polaris pool-cleaner cables (both 'Best offer accepted', unrelated items, not counted as model drops), 1 Adidas apparel item, 1 aftermarket logic power supply for the Alpha 9500 ($99, accessory). Dropped 0 best-offer-accepted and 0 parts-only for this model. Ledger has no Alpha 9500 entry.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629285",
+    "site": "eham",
+    "ask": 4499.0,
+    "shipping": 135.0
+  },
+  "comps": []
+}
