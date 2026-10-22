@@ -1,0 +1,15 @@
+{
+  "model": "Alpha 76A",
+  "slug": "alpha-76a",
+  "searched_at": "2026-10-22T19:05:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (results above 'Results matching fewer words' only). 0 kept - thin. Zero kept. Parts-only Alpha 76A sales (dropped): 267766734378 $400 + $97.85 (also Best offer accepted) and 267745853360 $450 + $97.85 (auction, 1 bid) - both titled 'ALPHA 76A PA 3 Tube AMPLIFIER without the tubes but all else is there.' Also excluded: 128089757732 Alpha 76PA $750 parts only (different model), a manual set ($15), and unrelated Alpha Wire / wheels / tactical items. Trigger shipping not stated, recorded as 0. searched_at is the comp-file build time; this run's eBay sold searches ran one at a time between about 18:55 and 19:03 ET, signed in as Leo, no challenges.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782803",
+    "site": "qth",
+    "ask": 950,
+    "shipping": 0
+  },
+  "comps": []
+}
