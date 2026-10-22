@@ -1,0 +1,97 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-22",
+  "ran_at": "2026-10-22T15:01:40-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-21T14:53:10-04:00 (prior qth drop ran_at). Scanned QTH all-ads pages 1-16 (all.php through ?page=16), one at a time; 160 unique ads reviewed (title + price). Counter-ID range of new ads submitted since window start reviewed: 1782831-1782922 (74 new ads seen). IDs in 1782830-1782922 never appearing in the list: 1782830, 1782835, 1782838, 1782841, 1782864, 1782870, 1782881, 1782885-1782888, 1782890-1782895, 1782897, 1782907 - presumably deleted; spot-checked 1782830 ('no longer in our system'), others not checked individually. 76 renewed/modified older ads interleaved on pages 1-15 also reviewed. End of window: page 16 is entirely prior-run IDs (<=1782829, e.g. 1782828, 1782826, 1782824) or older ads renewed before the prior run; page 15 holds the lowest new IDs (1782831-1782833). QTH shows dates only, so ordering vs. the prior run's top ID (1782829) set the boundary. No unreviewed remainder. 8 candidates picked (cap 8). Extra plausible candidates not comped: 1782852 (Icom IC-7300MKII brand new $1349), 1775480 (Icom IC-735 + PS-55 + AT-150 $400 + ship, renewed), 1782905 (QRO 2500DX amp $2100 shipped), 1782904 (Yaesu FT1DR $175 shipped), 1782889 (Ameritron AL-80B $850 pickup only), 1782880 (Heathkit SB-221 $650 pickup only, no 10m), 1782860 (Yaesu FTDX101D + speaker $2900), 1782299 (Yaesu FTDX-9000D $4700 / FTDX-5000MP $2250 'scope unit will not turn on', SK estate), 1780595 (Yaesu FT-707 $300 + ship, renewed), 1782846 (Collins KWM-2A $420, needs work - dial cable off pulleys, TX untested), 1782845 (Yaesu FTM-400XDR $390 shipped), 1782842 (Yaesu FT5DR, same seller K4PC), 1782843 (Ameritron AL-1500 $2700 OBO local), 1782832 (Alpha 8100 $2900 + $130), 1782831 (Elecraft KPA-500F $2350), 1782862 (OM Power OM2000+ $2699 + $120), 1782898 (Icom IC-720A + IC-PS20 + MFJ-945C $200, sold as is), 1782855 (LDG AT-1000ProII $350 shipped, 'PENDING FUNDS'), 1782207 (Kenwood TM-710A V2 $600 shipped - exact model unclear), 1782501 (National NCL-2000 $350 pickup), 1782844 (Yaesu FT-726R $350 + ship), 1782706 (Drake T-4XC/R-4C/MS-4 set $500). Not picked because already in dropped-urls: 1782248 (TS-570D(G)), 1782574 (TS-890), 1782202 (ALS-500M), 1781224 (AL-82), 1782617 (Flex-1500), 1782734 (FT-2000). No clear asking price: 1782919 (Icom IC-745 + PS-15), 1782859 (Icom IC-718), 1782374/1782376 (sale pending). Duplicate ads: 1782901 = 1782903 (TS-2000, WD8TIM); 1782858 = 1782857 (TS-850S, K5DAD). Possible relist: the TS-2000 'low hours' ad 1782791 ($750) dropped 10/21 may be the same unit now at $950 - not verified. Comps: 5 ledger hits (Icom IC-7600, Icom IC-7300MK2, Icom IC-9700, Kenwood TH-D75A, Kenwood TS-2000), 3 eBay sold searches (Kenwood TS-850S, Icom IC-706MKII, Kenwood TS-440SAT). eBay signed in as Leo, no challenges. eHam not touched.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781385",
+      "site": "qth",
+      "title": "RADIOHF - ICOM IC-7600 w Astron Power Supply",
+      "price": 850.0,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "Seller: radio near mint, serial 0204393; Astron power supply has scratches but works fine. Includes hand mic, original manual, manual on CD, Nifty programming CD, power cable. $850 for both. Pickup only in Coshocton, OH - NO SHIPPING. Renewed ad (submitted 10/04/26, modified 10/22/26). Price includes the Astron supply.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782913",
+      "site": "qth",
+      "title": "RADIOHF - Icom 7300 mk2",
+      "price": 1300.0,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "Seller: like new, very little use; includes box, manuals etc. $1300 shipped, $1250 picked up (Ashland, KY).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782867",
+      "site": "qth",
+      "title": "RADIOVHF - ICOM IC-9700 VHF/UHF/SHF",
+      "price": 1600.0,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "Seller: 100% complete, absolutely new, purchased recently from DX (will provide receipt copy). $1600 PayPal, shipped with tracking + insurance, CONUS only.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782853",
+      "site": "qth",
+      "title": "RADIOVHF - Kenwood TH-D75a",
+      "price": 625.0,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "Seller: works as it should, looks as new, not used much. Includes radio, manual, antenna, box, plug-in charger, plus extras: unused aftermarket battery, PG-3J 12v adapter, KSC-25LS drop-in charger, SMC-33 speaker mic, Smiley triple-band antenna with BNC adapter. 625.00 shipped CONUS. 'Sold as is no returns.'",
+      "work_flag": "Sold as is no returns",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782903",
+      "site": "qth",
+      "title": "RADIOVHF - Kenwood TS-2000 (Low Hours)",
+      "price": 950.0,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "Seller WD8TIM: very low hours; asking $950, open to offers. Includes hand mic, MC-90 desk mic, new-in-box SP-23 external speaker, original packing, manual, power cord. Has MARS/CAP mod, upgraded LED display lighting, quiet Noctua fan. Shipping not stated (0 = unknown). Same seller posted an identical ad as #1782901 (RADIOHF category) - one radio, dropped once.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782857",
+      "site": "qth",
+      "title": "RADIOHF - For sale kenwood TS 850s",
+      "price": 400.0,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "Seller K5DAD: looks and works great. Only 400.00 plus shipping (shipping amount not stated; 0 = unknown). Comes with hand mic, power cord and manual. Identical duplicate ad #1782858 - one radio, dropped once.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782918",
+      "site": "qth",
+      "title": "RADIOHF - Icom 706mk2",
+      "price": 415.0,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "Seller: works as it should HF and VHF, no issues. Has MARS mod. Comes with instruction manual, service manual, mic, and power cord. $415 shipped. Ad title says '706mk2' (IC-706MKII, not MKIIG).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782851",
+      "site": "qth",
+      "title": "RADIOHF - KENWOOD TS-440SAT MIC/DC POWER CORD",
+      "price": 450.0,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "Seller: glue/wax has been removed from this transceiver and it operates well; antenna tuner works; everything works; good audio reports. Includes DC power cord and a light gray hand mic. Ad is inconsistent on price: says 'asking $450 shipped to you' and later 'Can pickup or I can ship. $400 either way.' Recorded the higher $450 shipped; $400 may be the actual ask.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
