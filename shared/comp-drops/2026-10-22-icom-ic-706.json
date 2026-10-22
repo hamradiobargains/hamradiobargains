@@ -1,0 +1,81 @@
+{
+  "model": "Icom IC-706",
+  "slug": "icom-ic-706",
+  "searched_at": "2026-10-22T18:03:27-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1. Original IC-706 only (MKII/MKIIG excluded). 7 kept (2 from 2024). dropped 0 best-offer-accepted. dropped 3 parts-only (318905600798, 327332884622, 117359416496). Left out MKII/MKIIG units, mounts, cables, filters, crystal, manual. Note: comp 366683576903 sold Oct 20 from a Japan seller with the same title as the trigger listing — trigger may be the same seller's next unit or a relist; not verifiable from the results page. OUTLIER flagged: https://www.ebay.com/itm/256116537954.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366752996059",
+    "site": "ebay",
+    "ask": 633.19,
+    "shipping": 100.0
+  },
+  "comps": [
+    {
+      "price": 628.55,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366683576903",
+      "source": "ebay",
+      "notes": "Buy It Now. Located in Japan; same title as the trigger listing. Shipping $100.00.",
+      "flags": []
+    },
+    {
+      "price": 478.95,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128123221809",
+      "source": "ebay",
+      "notes": "Or Best Offer listing, not marked accepted. Shipping $21.49.",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366615746640",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'RADIO ONLY!'. Shipping $19.72.",
+      "flags": []
+    },
+    {
+      "price": 379.99,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168721061492",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'Orginal'. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 455.0,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267784588512",
+      "source": "ebay",
+      "notes": "Auction, 21 bids. Title: 'Tested Working NEW LCD DigiRig'. Shipping $8.36.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 707.58,
+      "sold_date": "2024-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/256116537954",
+      "source": "ebay",
+      "notes": "OUTLIER: $707.58 vs ~$466.98 median for the rest; Buy It Now. Located in Japan. Shipping $25.99.",
+      "flags": []
+    },
+    {
+      "price": 660.38,
+      "sold_date": "2024-06-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/403918678699",
+      "source": "ebay",
+      "notes": "Buy It Now. Located in Japan. Shipping $30.99.",
+      "flags": []
+    }
+  ]
+}
