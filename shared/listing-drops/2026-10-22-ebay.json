@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-22",
+  "ran_at": "2026-10-22T17:53:08-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now, sorted Time: newly listed, signed in as Leo. /sch/ URL redirected to /b/ browse page and first load showed 'Something went wrong'; reloaded the /b/ URL with LH_BIN=1&_sop=10 and it worked. Window since previous ebay run 2026-10-21T18:02:34-04:00; scanned page 1 only (~60 items, all NEW LISTING). Browse cards show no listing times, so 'new' = newest-first order. None of the picked items were in dropped-urls.json. Seller rule: skipped Icom IC-7000 $775 OBO (940033925440, seller superlift93, score 157) - eBay shows no positive % (0 ratings in last 12 months), so feedback % could not be verified. Ledger: 2 hits (LDG Z-100PLUS, Icom IC-718); 6 misses -> eBay sold searches: kenwood tm-741a, yaesu frg-7700, yaesu ft-102, yaesu fc-102, rm italy kl-703, icom ic-706. No challenges. Item descriptions not read. Not picked: Yaesu FT-8900H $705.55 (Japan seller, 366752995715), Alinco DM-330MV PSU, Xiegu X6200 open box, Alinco DJ-VX50T, Realistic DX-150A/DX-160 (parts), Kenwood UT-430 band unit, Yaesu BU-2, Standard C501, telegraph keys (mostly auctions), coax switches, manuals, aviation/commercial items.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/198737357698",
+      "site": "ebay",
+      "title": "Kenwood TM-741A Tri-Band Mobile Radio, 10M/2M/440 MHz, With Mic, VIDEO",
+      "price": 285.0,
+      "shipping": 6.86,
+      "found_at": "2026-10-22",
+      "condition_notes": "eBay condition: Used. Title says with mic and 'VIDEO'. 30-day returns, buyer pays return shipping. Located in Starkville, MS. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "99.9% (2439 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227579041638",
+      "site": "ebay",
+      "title": "YAESU FRG-7700 ShortWave & Ham Receiver",
+      "price": 295.0,
+      "shipping": 56.14,
+      "found_at": "2026-10-22",
+      "condition_notes": "eBay condition: Used. Or Best Offer. 30-day returns, buyer pays return shipping. Located in Palmetto, FL. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "99.5% (418 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/920065072911",
+      "site": "ebay",
+      "title": "LDG Z100 Plus Autotuner",
+      "price": 120.0,
+      "shipping": 13.5,
+      "found_at": "2026-10-22",
+      "condition_notes": "eBay condition: New. 30-day returns, buyer pays return shipping. Located in Harrisburg, PA. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "100% (111 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/940033795786",
+      "site": "ebay",
+      "title": "Vintage Yaesu FT-102 HF All Mode Transceiver - Powers On & Lit Digital Display",
+      "price": 500.0,
+      "shipping": 100.0,
+      "found_at": "2026-10-22",
+      "condition_notes": "eBay condition: Used. Title says 'Powers On & Lit Digital Display' (no tested/working claim). Seller does not accept returns. Located in Grapevine, TX. Item description not read.",
+      "work_flag": "Powers On (no tested/working claim); seller does not accept returns",
+      "seller_feedback": "100% (264 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/940033766247",
+      "site": "ebay",
+      "title": "Vintage Yaesu FC-102 High-Power HF Antenna Tuner (Powers On)",
+      "price": 300.0,
+      "shipping": 40.0,
+      "found_at": "2026-10-22",
+      "condition_notes": "eBay condition: Used. Title says '(Powers On)' (no tested/working claim). Seller does not accept returns. Same seller as the FT-102. Located in Grapevine, TX. Item description not read.",
+      "work_flag": "Powers On (no tested/working claim); seller does not accept returns",
+      "seller_feedback": "100% (264 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/840049425879",
+      "site": "ebay",
+      "title": "RM Italy KL-703 HF Linear Amplifier with Preamp AM/FM/SSB",
+      "price": 447.0,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "eBay condition: Used. Free shipping. 14-day returns, buyer pays return shipping. Located in Ashdown, AR. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "100% (1658 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227578991305",
+      "site": "ebay",
+      "title": "Icom IC-718 HF Transceiver Radio & Astron RS-35A Power Supply: Free Shipping",
+      "price": 652.79,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "eBay condition: Used. Bundle: IC-718 plus Astron RS-35A power supply. Free UPS shipping. 30-day returns, seller pays return shipping. Located in Madison, WI. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "100% (948 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366752996059",
+      "site": "ebay",
+      "title": "ICOM IC-706 HF 50MHz 144MHz 100W All Mode Transceiver Amateur Radio Mobile",
+      "price": 633.19,
+      "shipping": 100.0,
+      "found_at": "2026-10-22",
+      "condition_notes": "eBay condition: Used. Original IC-706 (not MKII/MKIIG). Located in Japan (seller says ships to US with customs duties); $100 SpeedPAK shipping. 30-day returns, buyer pays return shipping. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "100% (232 ratings)"
+    }
+  ]
+}
