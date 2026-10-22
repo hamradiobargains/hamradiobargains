@@ -1,0 +1,99 @@
+{
+  "model": "Collins 30L-1",
+  "slug": "collins-30l1",
+  "searched_at": "2026-10-22T19:05:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (results above 'Results matching fewer words' only). 9 kept, median 599.99. Outliers: 237063900080 $950.0, 227177378668 $921.02, 278195065227 $322.0, 198441935859 $899.99. No 'fewer words' section on this page; 52 cards, 28 parts/accessory listings excluded (power supply boards/modules, meters, knobs, chassis feet, caps, transformer, bandswitch, coils, fan, cables, manual, reproduction cabinet, load/tune panel, fuse caps). Best offer accepted dropped: 4 (840030898298 $285, 840030914174 $275, 188891030768 $575, 117245164131 $500 parts only). Parts-only / as-is dropped: 407245657607 $535.50 ('Untested-As Is'), 278369277625 $142.50, 398045650107 $550, 117245164131 $500 (also BOA), 318679122787 $395 ('Powers Up'), 206446639513 $235.83. 'Read Description' dropped: 2 (267771810410 $585, 267764846735 $585). 298551655937 Collins 312B-4 ($300, BOA) is a different item. Trigger: $1000, pickup only near Wilmington DE (no shipping); ad says 'Amp has had all upgrades' and new power supply board. searched_at is the comp-file build time; this run's eBay sold searches ran one at a time between about 18:55 and 19:03 ET, signed in as Leo, no challenges.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782802",
+    "site": "qth",
+    "ask": 1000,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 550.0,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188888016035",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted). No shipping shown.",
+      "flags": []
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237063900080",
+      "source": "ebay",
+      "notes": "OUTLIER: 950.0 is above 1.5x the 599.99 median of the other kept comps. Auction, 1 bid. +$100.00 delivery. Title: 'RE S-Line Linear With Matching CC-2 Suitcase EXCELLENT Condition'.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 921.02,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227177378668",
+      "source": "ebay",
+      "notes": "OUTLIER: 921.02 is above 1.5x the 599.99 median of the other kept comps. Fixed price 'or Best Offer' (not marked accepted). +$89.86 delivery.",
+      "flags": []
+    },
+    {
+      "price": 467.0,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800445093850",
+      "source": "ebay",
+      "notes": "Auction, 30 bids. +$13.17 delivery.",
+      "flags": []
+    },
+    {
+      "price": 599.99,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366593163416",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted). +$64.99 delivery. Title: 'Meatball Emblem ... VERY NICE CONDITION'.",
+      "flags": []
+    },
+    {
+      "price": 599.99,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366593163255",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted). +$64.99 delivery. Title: 'Winged Emblem ... VERY NICE CONDITION #2'.",
+      "flags": []
+    },
+    {
+      "price": 849.0,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278226561924",
+      "source": "ebay",
+      "notes": "+$97.87 delivery. Title: 'LATE VERSION S#30139'.",
+      "flags": []
+    },
+    {
+      "price": 322.0,
+      "sold_date": "2026-07-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278195065227",
+      "source": "ebay",
+      "notes": "OUTLIER: 322.0 is below 0.5x the 724.495 median of the other kept comps. Auction, 40 bids. +$158.98 delivery. Title: 'in excellent condition'.",
+      "flags": []
+    },
+    {
+      "price": 899.99,
+      "sold_date": "2026-07-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198441935859",
+      "source": "ebay",
+      "notes": "OUTLIER: 899.99 is above 1.5x the 599.99 median of the other kept comps. +$89.99 delivery. Title: 'TESTED Working - Nice Condition'.",
+      "flags": []
+    }
+  ]
+}
