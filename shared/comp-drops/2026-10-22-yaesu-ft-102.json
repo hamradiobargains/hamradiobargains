@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-102",
+  "slug": "yaesu-ft-102",
+  "searched_at": "2026-10-22T18:03:27-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1: no qualifying sold comps — thin (0). dropped 2 best-offer-accepted (377243114508 $1,299.99 Aug 2; 178354339477 $700.00 Aug 1). dropped 3 parts-only (327343595854 'NOT WORKING' $334.84; 168173116730 Parts Only $399.99; 188869603176 FT-102DM parts $249.99). Everything else was relays, boards, manuals, SP-102 speakers, filters, mic, front panel, or other models (FT-101 series, FT-100).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/940033795786",
+    "site": "ebay",
+    "ask": 500.0,
+    "shipping": 100.0
+  },
+  "comps": []
+}
