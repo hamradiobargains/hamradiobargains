@@ -1,0 +1,15 @@
+{
+  "model": "OM Power OM2000+",
+  "slug": "om-power-om2000-plus",
+  "searched_at": "2026-10-22T19:05:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (results above 'Results matching fewer words' only). 0 kept - thin. Search 'om power om2000+' returned zero sold results above the fewer-words section. Also covers https://swap.qth.com/view_ad.php?counter=1782862 (OM Power 2000+, $2699 + $120 shipping, K1FIE). Trigger 1782828: $2,850 shipped insured / $2,700 local pickup. searched_at is the comp-file build time; this run's eBay sold searches ran one at a time between about 18:55 and 19:03 ET, signed in as Leo, no challenges.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782828",
+    "site": "qth",
+    "ask": 2850,
+    "shipping": 0
+  },
+  "comps": []
+}
