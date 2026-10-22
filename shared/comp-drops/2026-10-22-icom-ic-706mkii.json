@@ -1,0 +1,119 @@
+{
+  "model": "Icom IC-706MKII",
+  "slug": "icom-ic-706mkii",
+  "searched_at": "2026-10-22T15:01:40-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-706mkii', page 1 (67 results, no fewer-words section). Exact model only: IC-706MKIIG and plain IC-706 sales excluded. 11 units kept. Dropped 3 best-offer-accepted (358778411547, 257710487175, 237030468350). Dropped 2 parts-only (327377109926 'WON'T TURN ON', 227350412802 not working). Left out accessories (CR-502 crystal, manual, UT-106 DSP, covers). No outliers (kept median $510).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782918",
+    "site": "qth",
+    "ask": 415.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 385.0,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206627811089",
+      "source": "ebay",
+      "notes": "Auction, 11 bids. +$25.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 510.0,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206610744133",
+      "source": "ebay",
+      "notes": "Auction, 11 bids. +$25.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 490.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/860021052175",
+      "source": "ebay",
+      "notes": "Auction, 52 bids. +$20.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 575.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267779210266",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted). Title 'w/ Mic'. +$12.22 delivery.",
+      "flags": []
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307204362594",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted). Title 'Ic-706mkii'. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 549.99,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257704386992",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Title 'Icom IC-706 MKII'. +$14.67 delivery.",
+      "flags": []
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198585403393",
+      "source": "ebay",
+      "notes": "Buy It Now. Title '+ Mic + Box (US version'. +$34.50 delivery.",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178428063027",
+      "source": "ebay",
+      "notes": "Buy It Now. Title '+ Mic (US version'. +$28.50 delivery.",
+      "flags": []
+    },
+    {
+      "price": 340.0,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147494364755",
+      "source": "ebay",
+      "notes": "Auction, 9 bids. Title says 'Untested'. +$41.90 delivery.",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 549.97,
+      "sold_date": "2026-08-01",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/178361428672",
+      "source": "ebay",
+      "notes": "Buy It Now. Title says '\"it is new\"'. +$37.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 740.0,
+      "sold_date": "2026-08-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206446492598",
+      "source": "ebay",
+      "notes": "Buy It Now. Title '+ Box + UT-106 (US version' - includes UT-106 DSP add-on. +$44.50 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
