@@ -1,0 +1,61 @@
+{
+  "model": "Connect Systems CS-800D",
+  "slug": "connect-systems-cs-800d",
+  "searched_at": "2026-10-22T19:05:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (results above 'Results matching fewer words' only). 5 kept, median 200.0. Excluded: 327345599315 'CS800D PLUS' $329 (different model, kept separate). No BOA, parts-only or Read Description sales. Trigger: $350 incl. shipping, with cables, manuals and external Motorola speaker. searched_at is the comp-file build time; this run's eBay sold searches ran one at a time between about 18:55 and 19:03 ET, signed in as Leo, no challenges.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782813",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 150.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158371482904",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. +$20.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 229.0,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327345584876",
+      "source": "ebay",
+      "notes": "+$35.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117386573682",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted). No shipping shown. Title: 'No Charger'.",
+      "flags": []
+    },
+    {
+      "price": 175.0,
+      "sold_date": "2026-08-07",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/117333562854",
+      "source": "ebay",
+      "notes": "Auction, 2 bids. +$22.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 224.0,
+      "sold_date": "2026-08-04",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/117338609774",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. +$22.00 delivery.",
+      "flags": []
+    }
+  ]
+}
