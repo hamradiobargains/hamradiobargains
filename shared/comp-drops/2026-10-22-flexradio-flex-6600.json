@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-6600",
+  "slug": "flexradio-flex-6600",
+  "searched_at": "2026-10-22T05:55:50-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 0 kept comps. eBay sold page 1 (search 'flexradio flex-6600') had 4 results above 'fewer words'. Dropped 0 best-offer-accepted. Dropped 1 parts-only: 336821623446, 'Flex Radio 6600 Flex-6600 ... w/ Original Box Untested As Is', labeled Parts Only, $1,499.95 Buy It Now +$29.92 delivery, sold 2026-10-01. Excluded 3 as a different model (FLEX-6600M): 128093372447 $2,100 (2026-09-23), 198630580035 $3,000 (2026-09-13), 178229280602 $3,500 (2026-08-14). Ledger has no FLEXRADIO FLEX-6600 entry (only 6600M entries).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629278",
+    "site": "eham",
+    "ask": 2199.0,
+    "shipping": 36.0
+  },
+  "comps": []
+}
