@@ -1,0 +1,15 @@
+{
+  "model": "Alpha 9500",
+  "slug": "alpha-9500",
+  "searched_at": "2026-10-22T19:05:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (results above 'Results matching fewer words' only). 0 kept - thin. Zero qualifying comps. Page 1 held 4 cards: two pool-cleaner cables (BOA), clothing, and one replacement logic power supply part (156289040608 $99). Today's eHam run comp drop 2026-10-22-alpha-9500.json also found zero qualifying comps. File name uses HHMM because 2026-10-22-alpha-9500.json already exists. searched_at is the comp-file build time; this run's eBay sold searches ran one at a time between about 18:55 and 19:03 ET, signed in as Leo, no challenges.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782771",
+    "site": "qth",
+    "ask": 4499,
+    "shipping": 135
+  },
+  "comps": []
+}
