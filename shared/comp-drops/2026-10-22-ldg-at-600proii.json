@@ -1,0 +1,97 @@
+{
+  "model": "LDG AT-600ProII",
+  "slug": "ldg-at-600proii",
+  "searched_at": "2026-10-22T19:05:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (results above 'Results matching fewer words' only). 9 kept, median 299.0. Outliers: 117056871656 $469.95. Parts-only dropped: 2 (178568220938 $75 'Black G2U', 327338394793 $75 auction 1 bid). No BOA or Read Description sales. Two new dealer sales (469.95, 419.95) are in the set; the trigger is used. Trigger: $325 incl. shipping and power cable. searched_at is the comp-file build time; this run's eBay sold searches ran one at a time between about 18:55 and 19:03 ET, signed in as Leo, no challenges.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782819",
+    "site": "qth",
+    "ask": 325,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 299.0,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327391724926",
+      "source": "ebay",
+      "notes": "+$6.86 delivery.",
+      "flags": []
+    },
+    {
+      "price": 290.0,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880012006605",
+      "source": "ebay",
+      "notes": "+$37.85 delivery. Title: '+ Box (excellent)'.",
+      "flags": []
+    },
+    {
+      "price": 469.95,
+      "sold_date": "2026-09-24",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/117056871656",
+      "source": "ebay",
+      "notes": "OUTLIER: 469.95 is above 1.5x the 294.5 median of the other kept comps. Free delivery. Dealer listing ('Authorized USA LDG Dealer').",
+      "flags": []
+    },
+    {
+      "price": 170.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800677663480",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted). +$9.66 delivery.",
+      "flags": []
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178428063029",
+      "source": "ebay",
+      "notes": "+$20.50 delivery. Title: '+ Box (nice)'.",
+      "flags": []
+    },
+    {
+      "price": 419.95,
+      "sold_date": "2026-08-31",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/155261024368",
+      "source": "ebay",
+      "notes": "Free delivery. Dealer listing ('Authorized LDG dealer').",
+      "flags": []
+    },
+    {
+      "price": 270.0,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178428063037",
+      "source": "ebay",
+      "notes": "+$19.60 delivery. Title: '(nice)'.",
+      "flags": []
+    },
+    {
+      "price": 218.5,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198577480998",
+      "source": "ebay",
+      "notes": "Auction, 16 bids. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 310.0,
+      "sold_date": "2026-07-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188680266851",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted). Free delivery.",
+      "flags": []
+    }
+  ]
+}
