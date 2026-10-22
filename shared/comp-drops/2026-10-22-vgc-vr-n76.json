@@ -1,0 +1,25 @@
+{
+  "model": "VGC VR-N76",
+  "slug": "vgc-vr-n76",
+  "searched_at": "2026-10-22T19:05:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (results above 'Results matching fewer words' only). 1 kept, median 145.0 - thin. Excluded: 2 microphone accessories (266939235527 $74.52, 358528459223 $42.00). No Best-offer-accepted, parts-only or Read Description sales. The one kept comp is a new unit; the trigger ad is used. Trigger shipping not stated ('plus shipping'), recorded as 0. searched_at is the comp-file build time; this run's eBay sold searches ran one at a time between about 18:55 and 19:03 ET, signed in as Leo, no challenges.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782666",
+    "site": "qth",
+    "ask": 150,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 145.0,
+      "sold_date": "2026-10-11",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/267564534640",
+      "source": "ebay",
+      "notes": "Shown +$15.00 delivery, includes import fees, located in China. Title has no brand name but VR-N76 is the VGC model.",
+      "flags": []
+    }
+  ]
+}
