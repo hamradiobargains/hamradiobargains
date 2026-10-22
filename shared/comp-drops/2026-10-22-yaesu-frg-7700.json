@@ -1,0 +1,94 @@
+{
+  "model": "Yaesu FRG-7700",
+  "slug": "yaesu-frg-7700",
+  "searched_at": "2026-10-22T18:03:27-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1. 8 kept. dropped 7 best-offer-accepted (178347506777, 287567527492, 267773698156, 257735098867, 820135804214, 158225710675, 206222509874 - last one also Parts Only). dropped 5 parts-only (900014275980, 307210430976, 287404559940 'JUNK', 227456168644, 287471660988). Left out FRG-7000 (different model), FRA-7700 antennas, MU7700 memory module, boards, knobs, manuals, display kit. Two kept comps are the same bundle title and price (possible duplicate). OUTLIER flagged: https://www.ebay.com/itm/366705258366, https://www.ebay.com/itm/366605483027, https://www.ebay.com/itm/147570038903, https://www.ebay.com/itm/188678293361.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/227579041638",
+    "site": "ebay",
+    "ask": 295.0,
+    "shipping": 56.14
+  },
+  "comps": [
+    {
+      "price": 642.91,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366705258366",
+      "source": "ebay",
+      "notes": "OUTLIER: $642.91 vs ~$225.76 median for the rest; Or Best Offer listing, not marked accepted. Bundle: FRA-7700, FF-5, Azden AS-006, YH-77 per title. Same title/price as 366605483027. Shipping $20.09.",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 642.91,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366605483027",
+      "source": "ebay",
+      "notes": "OUTLIER: $642.91 vs ~$225.76 median for the rest; Or Best Offer listing, not marked accepted. Bundle: FRA-7700, FF-5, Azden AS-006, YH-77 per title. Same title/price as 366705258366. Shipping $20.09.",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267763773050",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $15.12.",
+      "flags": []
+    },
+    {
+      "price": 130.04,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147570038903",
+      "source": "ebay",
+      "notes": "OUTLIER: $130.04 vs ~$299.99 median for the rest; Auction, 2 bids. Shipping $115.19.",
+      "flags": []
+    },
+    {
+      "price": 225.76,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278266037551",
+      "source": "ebay",
+      "notes": "Auction, 28 bids. Title: 'KW Receiver Yaesu FRG-7700'. Shipping $20.22.",
+      "flags": []
+    },
+    {
+      "price": 159.39,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147476186395",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Title says 'Tested and Working'. Shipping $121.97.",
+      "flags": []
+    },
+    {
+      "price": 299.99,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336693134762",
+      "source": "ebay",
+      "notes": "Or Best Offer listing, not marked accepted. Title: 'W/POWER CORD'. Shipping $69.99.",
+      "flags": []
+    },
+    {
+      "price": 399.95,
+      "sold_date": "2026-07-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188678293361",
+      "source": "ebay",
+      "notes": "OUTLIER: $399.95 vs ~$225.76 median for the rest; Buy It Now. Shipping $46.30.",
+      "flags": []
+    }
+  ]
+}
