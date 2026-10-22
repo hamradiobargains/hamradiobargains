@@ -1,0 +1,25 @@
+{
+  "model": "Yaesu FC-102",
+  "slug": "yaesu-fc-102",
+  "searched_at": "2026-10-22T18:03:27-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1. 1 kept — thin. dropped 0 best-offer-accepted, 0 parts-only. The other page-1 results were other models (FT-101 series, FT-100).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/940033766247",
+    "site": "ebay",
+    "ask": 300.0,
+    "shipping": 40.0
+  },
+  "comps": [
+    {
+      "price": 200.0,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278409891517",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'Powers On'. Shipping $40.00.",
+      "flags": []
+    }
+  ]
+}
