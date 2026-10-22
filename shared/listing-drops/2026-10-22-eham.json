@@ -1,0 +1,75 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-22",
+  "ran_at": "2026-10-22T05:53:25-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-21T05:53:28-04:00 (prior eham run). Browsed signed OUT ('Welcome Guest'). Page 1 loaded cleanly; page 2 (loaded ~45s later) showed Cloudflare 'Performing security verification', which auto-cleared within ~10s with no click and no CAPTCHA. Only pages 1-2 viewed (10 ads/page); no individual ads opened (summaries carried full text). New since prior run: 629277-629283, 629285-629294 (629276 and 629284 not shown). Skipped: 629294 GRE PSR-800 scanners x2 $175 shipped (scanners, not ham gear); 629293 'AL80' linear amp $800 obo (model identity uncertain: AL-80 vs AL-80A/AL-80B not stated; 'works flawlessly', 3 tubes included); 629292 Alpha 8100 HF amp $2999 + $130 shipped (at candidate cap); 629291 Kenwood TH-22AT x3 $100 shipped (3-unit lot, not sold separately); 629290 Icom IC-R3 receiver $165 shipped (at candidate cap; original battery dead); 629289 Siltronix 1011D x2 $275 each shipped ('Sold as parts due to age'; at candidate cap); 629288 Hy-Gain ROTOR-EZ rotor control $165 + ship (accessory); 629287 WANTED ad; 629283 Elecraft KAT100 tuner $375 + $25 ship (at candidate cap); 629282 M2 HF Yagis x3 $2495 obo pickup only (antennas, 'sold as-is'); 629279 Vibroplex key collection (no price). No search form, sold searches, or seller/callsign pages. Comps: 3 ledger hits (ELECRAFT K3/100, YAESU FT-857D, AMERITRON ALS-500M); 3 eBay sold searches (FlexRadio FLEX-6600, Elecraft P3, Alpha 9500), signed in as Leo, no challenge. FLEX-6600 and Alpha 9500 searches returned zero qualifying comps.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629281",
+      "site": "eham",
+      "title": "Elecraft K3/100 TRANSCEIVER # 6681 Nice",
+      "price": 959.0,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "Elecraft K3/100 serial #6681, 100 W, KPA3, 2.7 kHz SSB filter, KIO3, KXV3, gold pins, 'late serial number with lots of updates'. Firmware 5.67. Power cord and manual. 'Used it today on CW and SSB.' $959 delivered (check, Zelle, PP FF). Local pickup OK. Posted 2026-10-20.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629280",
+      "site": "eham",
+      "title": "ELECRAFT P3 PANADAPTER # 4142 VGA",
+      "price": 799.0,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "Elecraft P3 panadapter serial #4142 WITH VGA/SVGA option. Standard K3 hookup cables and manual. 'Works great', 'SUPER nice', 'Very Good condition.' $799 delivered (check, Zelle, PP FF). Local pickup OK. Posted 2026-10-20.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629278",
+      "site": "eham",
+      "title": "Flex 6600 w/ ATU 100W SDR Transceiver",
+      "price": 2199.0,
+      "shipping": 36.0,
+      "found_at": "2026-10-22",
+      "condition_notes": "FlexRadio FLEX-6600 (not 6600M per title/body) with TCXO and built-in ATU, original mic, quick start guide, SmartSDR v4.4.20, original inner and outer boxes. 'Excellent condition', 'works flawlessly', smoke-free shack. $2199 + $36 shipped CONUS. Posted 2026-10-20.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629277",
+      "site": "eham",
+      "title": "Yaesu FT-857D – HF / 6m / 2m / 70cm Transceiver",
+      "price": 750.0,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "Yaesu FT-857D, 'good overall condition', 'fully functional with no operational issues', LCD clear with no zebra lines/missing pixels, never modified. Includes 3D-printed side rails, MH-31 and MH-59 mics, DC cable with fuses and Powerpoles. No original box. $750 shipped CONUS (Venmo, Zelle, PayPal + fees). Local pickup Lakeland FL. Posted 2026-10-20.",
+      "work_flag": "Sold AS-IS, with no returns due to parts-swapping concerns",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629286",
+      "site": "eham",
+      "title": "Als-500M Amplifier Plus....",
+      "price": 900.0,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "Ameritron ALS-500M bundled with ARB-704 amp relay control, AL-500RC remote control (both with cables) and manuals; amp power cable with 120 A/600 V plug. Used portable only, 'well cared for', bought new from Ameritron. Seller posted full-power test results today into dummy load (~300-400 W out on 10-40 m). $900 plus shipping (shipping amount not stated). Posted 2026-10-21.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629285",
+      "site": "eham",
+      "title": "Alpha 9500 1500W HF Amp",
+      "price": 4499.0,
+      "shipping": 135.0,
+      "found_at": "2026-10-22",
+      "condition_notes": "Alpha 9500 1500 W HF amp, late model made in Colorado, 3 antenna ports (dust covers never removed), cover and manual. Seller: 'looks beautiful inside and out', 'performs like new', legal limit with 40 W drive, internal tuner smooth. Seller's spare. $4499 + $135 shipped CONUS. Posted 2026-10-21.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
