@@ -13,31 +13,6 @@
     "notes": "$950 plus $85 shipping. About the 29.1%: it's figured on the asking price against the recorded sale prices behind the fair value - and those recorded prices don't include shipping either, so it's price against price, before freight on both sides."
   },
   {
-    "date": "2026-09-19",
-    "item": "Kenwood TS-2000X HF/VHF/UHF Transceiver",
-    "link": "https://www.facebook.com/marketplace/item/2231617870740163/",
-    "price": 950.0,
-    "extraCost": 11.0,
-    "median": 1459.65,
-    "compCount": 8,
-    "compLow": 708.69,
-    "compHigh": 1580.0,
-    "pctBelow": 0.3416,
-    "notes": "$950 plus $11 shipping. About the 34.2%: it's figured on the asking price against the recorded sale prices behind the fair value - and those recorded prices don't include shipping either, so it's price against price, before freight on both sides."
-  },
-  {
-    "date": "2026-09-21",
-    "item": "Audio-Technica AT2040 Microphone",
-    "link": "https://swap.qth.com/view_ad.php?counter=1780084",
-    "price": 65.0,
-    "extraCost": 0.0,
-    "pctBelow": 0.2984,
-    "median": 92.65,
-    "compCount": 3,
-    "compLow": 50.05,
-    "compHigh": 93.02
-  },
-  {
     "date": "2026-09-24",
     "item": "MFJ-986 3KW Differential-T Roller Inductor Antenna Tuner",
     "link": "https://www.eham.net/classifieds/628829",
@@ -49,19 +24,6 @@
     "compLow": 128.5,
     "compHigh": 376.32,
     "notes": "$150 plus $25 shipping. About the 35.3%: it's figured on the asking price against the recorded sale prices behind the fair value - and those recorded prices don't include shipping either, so it's price against price, before freight on both sides."
-  },
-  {
-    "date": "2026-09-24",
-    "item": "Icom IC-M402S Marine DSC VHF Transceiver w/ Mic",
-    "link": "https://www.ebay.com/itm/227530917971",
-    "price": 32.99,
-    "extraCost": 9.99,
-    "pctBelow": 0.4603,
-    "median": 79.63,
-    "compCount": 8,
-    "compLow": 37.5,
-    "compHigh": 199.99,
-    "notes": "$32.99 plus $9.99 shipping. About the 46.0%: it's figured on the asking price against the recorded sale prices behind the fair value - and those recorded prices don't include shipping either, so it's price against price, before freight on both sides."
   },
   {
     "date": "2026-09-25",
@@ -150,18 +112,6 @@
     "notes": "$279.99 plus $19.8 shipping. About the 37.8%: it's figured on the asking price against the recorded sale prices behind the fair value - and those recorded prices don't include shipping either, so it's price against price, before freight on both sides."
   },
   {
-    "date": "2026-10-06",
-    "item": "Apache Labs ANAN-10E 160-6m SDR Transceiver",
-    "link": "https://swap.qth.com/view_ad.php?counter=1781517",
-    "price": 475.0,
-    "extraCost": 0.0,
-    "pctBelow": 0.4062,
-    "median": 800.0,
-    "compCount": 3,
-    "compLow": 725.0,
-    "compHigh": 850.0
-  },
-  {
     "date": "2026-10-09",
     "item": "Elecraft K3/100",
     "link": "https://www.eham.net/classifieds/629120",
@@ -185,19 +135,6 @@
     "compLow": 620.0,
     "compHigh": 1599.95,
     "notes": "Includes power supply; plus shipping from 29730 (amount unstated). Local sale preferred."
-  },
-  {
-    "date": "2026-10-11",
-    "item": "Yaesu FT-897D",
-    "link": "https://swap.qth.com/view_ad.php?counter=1781902",
-    "price": 550.0,
-    "extraCost": 0.0,
-    "pctBelow": 0.413,
-    "median": 937.0,
-    "compCount": 8,
-    "compLow": 725.0,
-    "compHigh": 1099.95,
-    "notes": "$550 shipped. Includes MH-59 mic and LDG meter; no accessory filters."
   },
   {
     "date": "2026-10-11",
@@ -250,19 +187,6 @@
     "compLow": 211.5,
     "compHigh": 299.0,
     "notes": "$169 plus $24.50 shipping. Looks and works great, non-smoking home, per seller."
-  },
-  {
-    "date": "2026-10-15",
-    "item": "Icom IC-756PRO II Bundle (PS-125 Supply + HM-36 Mic)",
-    "link": "https://swap.qth.com/view_ad.php?counter=1781875",
-    "price": 650,
-    "extraCost": 0,
-    "pctBelow": 0.2496,
-    "median": 685,
-    "compCount": 5,
-    "compLow": 600,
-    "compHigh": 800,
-    "notes": "$650 shipped for the bundle. Judged on the radio alone: net of the PS-125 supply (~$100) and freight, the radio-only cost works out to roughly $475-$514 against a $685 radio-only median from 5 recorded sales - about 25-31% below market. Good condition, tested, works great, per seller."
   },
   {
     "date": "2026-10-16",
