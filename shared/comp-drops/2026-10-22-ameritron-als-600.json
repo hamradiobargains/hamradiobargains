@@ -1,0 +1,99 @@
+{
+  "model": "Ameritron ALS-600",
+  "slug": "ameritron-als-600",
+  "searched_at": "2026-10-22T19:05:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (results above 'Results matching fewer words' only). 8 kept, median 1374.5. Outliers: 147560067478 $705.0, 137649822604 $620.0. Model identity note: the QTH ad title says 'ALS-600' and the body says 'ALS-600/S ... with matching power supply'; ALS-600S (switching-supply version) and ALS-600 are kept as one search here but the ad's exact variant is UNCERTAIN. Comps with the linear ALS-600PS, the switching PS, and amp-only are all included and noted per comp. Excluded: power-supply-only sales 158310556449 ($620) and 198597473566 ($385). Best offer accepted dropped: 4 (278422905842 $500 'READ EXPLANATION', 237000446817 $1,399.95, 178356983060 $2,000, 127822473873 $1,650 parts only). Parts-only: 127822473873 $1,650 (also BOA). The two 'Amp Only' sales (620, 705) have no power supply, unlike the trigger ad. Trigger: $950 shipped CONUS, $50 less for pickup; ad says it has the 10 meter option and is wired for 230V. Ledger AMERITRON ALS-600 (2026-09-08, median 1480, count 5) is older than 30 days. searched_at is the comp-file build time; this run's eBay sold searches ran one at a time between about 18:55 and 19:03 ET, signed in as Leo, no challenges.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1779509",
+    "site": "qth",
+    "ask": 950,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1599.95,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327361017630",
+      "source": "ebay",
+      "notes": "Free delivery. Title: '120V - 10m mod'.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 705.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147560067478",
+      "source": "ebay",
+      "notes": "OUTLIER: 705.0 is below 0.5x the 1499.0 median of the other kept comps. Auction, 7 bids. +$15.58 delivery. Title 'Amp Only' - no power supply.",
+      "flags": []
+    },
+    {
+      "price": 1599.95,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227401473869",
+      "source": "ebay",
+      "notes": "Free delivery. Title identical to 327361017630 ('120V - 10m mod'), same price - may be the same unit relisted.",
+      "flags": [
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 620.0,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137649822604",
+      "source": "ebay",
+      "notes": "OUTLIER: 620.0 is below 0.5x the 1499.0 median of the other kept comps. Auction, 3 bids. +$15.58 delivery. Title 'Amp Only' - no power supply.",
+      "flags": []
+    },
+    {
+      "price": 1250.0,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198585403384",
+      "source": "ebay",
+      "notes": "+$98.50 delivery. Title: '+ Switching PS + Manual (nice)'.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1050.0,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236996453801",
+      "source": "ebay",
+      "notes": "Auction, 3 bids. +$75.00 delivery. Title: '120V - 10m mod'.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 1499.0,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128015972568",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted). Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2026-07-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137534045323",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted). +$74.85 delivery. Title: 'w/ ALS-600PS & ARI-500'.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
