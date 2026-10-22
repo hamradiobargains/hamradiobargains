@@ -1,0 +1,251 @@
+{
+  "run": "extras",
+  "run_date": "2026-10-22",
+  "ran_at": "2026-10-22T19:05:00-04:00",
+  "ran_by": "claude",
+  "notes": "Window: after the previous extras drop 2026-10-21-extras.json (ran_at 2026-10-21T19:19:16-04:00). Source drops covered: 2026-10-22-eham.json, 2026-10-22-qth.json, 2026-10-22-ebay.json. Only 2026-10-22-qth.json has an 'Extra plausible candidates not comped' list (22 IDs); the eHam and eBay drops name none (the eHam drop lists 629292 Alpha 8100, 629290 IC-R3, 629289 Siltronix 1011D and 629283 KAT100 as skipped 'at candidate cap' in its skipped list, not as extras, so they were not queued; eHam was not opened). Queue: 24 CARRIED OVER IDs from 2026-10-21-extras.json at the front, then 22 fresh QTH extras from 2026-10-22-qth.json, then 34 BACKLOG CARRY IDs at the back. 1782501 (National NCL-2000) is both a fresh extra and a backlog ID - it was moved up to its fresh-extra position, so the backlog now holds 33. None of the queued IDs were already in dropped-urls.json. No eHam or eBay extras, so no eHam pages and no eBay seller checks. Worked 22 ads: the first 21 carry-overs in queue order (1782666 through 1782819) plus fresh extra 1782862 (OM Power 2000+), worked alongside carry-over 1782828 because one OM2000+ search covers both. Live 21, no longer live 1 (1782431 Yaesu FT-600, 'no longer in our system'). Ledger hits: 4 models covering 5 ads (ELECRAFT K3/100 for 1776188 and 1781860; ICOM IC-7300 for 1782417; HEATHKIT SB-200 for 1782774; ICOM IC-7000 for 1780529). eBay sold searches used: 15 of 15 (vgc vr-n76, yaesu ftdx-9000d, ameritron als-600, om power om2000+, alpha 9500, icom pw2, palstar at-auto, alpha 76a, alpha 374a, collins 30l1, yaesu ft-690 mkii, connect systems cs-800d, ameritron atr-30, icom ah-705, ldg at-600proii); signed in as Leo ('Hi Leo!'), at least 15 s between searches, no challenges. Zero/thin results: FTDX-9000D 0, OM2000+ 0, Alpha 9500 0, Palstar AT-Auto 0 (only sale BOA), Alpha 76A 0 (parts-only only), Alpha 374A 0, FT-690R II 0, VR-N76 1, IC-PW2 1. Skipped: none. Model-identity notes: 1779509 says 'ALS-600' in title and 'ALS-600/S' in body - exact variant UNCERTAIN, comped against ALS-600 sales; FTDX-9000 Contest kept separate from FTDX-9000D; CS800D PLUS kept separate from CS-800D; FT-690 Mk2 treated as FT-690R II. Cross-posts: none found (1776188 and 1781860 are two different K3/100s from the same seller, serials 443 and 6681). Status wording: 1782826 title 'Pending payment', 1780529 'Payment Pending' - both still live. Outliers: ALS-600 (147560067478 $705 and 137649822604 $620 low - both 'Amp Only'), Collins 30L-1 (237063900080 $950, 227177378668 $921.02 and 198441935859 $899.99 high; 278195065227 $322 low), AT-600ProII (117056871656 $469.95 high, new dealer sale). Work-flag wording carried verbatim: 1782828 'No Warranty, No Return!'; 1782829 'no returns or refunds due to parts swappers.'; 1782802 'Amp has had all upgrades.' (UNCERTAIN as a modification); 1779509 'Has the 10 meter option.' (UNCERTAIN - 10 m enable is a transmit-coverage change); 1782826 couplers replaced (UNCERTAIN); 1782809 'No dents, dings are \"Arced\" Caps.' (UNCERTAIN wording). 1782804 (Astron VS-35M, $250 OBO, buyer pays shipping, 'in good working condition') was opened and is live, but the search cap was reached before it could be comped, so it is carried over, not triaged. 1782299 (FTDX-9000D $4700 / FTDX-5000MP $2250) was not opened; this run's FTDX-9000D search (0 kept) applies to it, but its FTDX-5000MP still needs comps, so it is carried over. Previous comp file exists for IC-R3 from 2026-10-21 (2026-10-21-icom-ic-r3.json) - noted for 1782812 next run. CARRIED OVER (cap reached, in queue order): 1782804, 1782818, 1782812, 1782852, 1775480, 1782905, 1782904, 1782889, 1782880, 1782860, 1782299, 1780595, 1782846, 1782845, 1782842, 1782843, 1782832, 1782831, 1782898, 1782855, 1782207, 1782501, 1782844, 1782706. BACKLOG CARRY (still at the back, source-drop order): 1782353, 1782345, 1782359, 1782031, 1782342, 1782368, 1782384, 1782363, 1782275, 1782158, 1781393, 1782349, 1782453, 1782461, 1782435, 1782430, 1782464, 1782442, 1776833, 1781779, 1777865, 1781385, 1782542, 1782487, 1782484, 1782573, 1782575, 1782543, 1782570, 1780727, 1779930, 1782489, 1782467.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782666",
+      "site": "qth",
+      "title": "VGC VR-N76",
+      "price": 150,
+      "shipping": 0,
+      "found_at": "2026-10-20",
+      "condition_notes": "live. KF0LZM. '$150 plus shipping' (shipping amount not stated). 'Cool little vhf uhf handheld. Aprs, gps, Bluetooth, and app functionalities, all in a rugged waterproof radio.' comps: vgc-vr-n76, 1 kept, median 145 (thin; the comp is a new unit)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782431",
+      "site": "qth",
+      "title": "Yaesu FT-600",
+      "price": 325,
+      "shipping": 0,
+      "found_at": "2026-10-20",
+      "condition_notes": "no longer live ('The ad number you specified is no longer in our system'). not comped: ad gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1776188",
+      "site": "qth",
+      "title": "Elecraft K3/100 #443",
+      "price": 939,
+      "shipping": 0,
+      "found_at": "2026-10-20",
+      "condition_notes": "live. K6RO. '$939 delivered'. 'Very nice radio', 'Latest firmware installed. 5.67', 'Works as it should.', 'Good condition.' 2.7 SSB filter, 500 Hz CW filter, KIO3, KXV3, power cord. Local pickup also fine. ledger hit (ELECRAFT K3/100 median 1199.99, count 15, 2026-10-13; file 2026-10-22-1905-elecraft-k3-100)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782417",
+      "site": "qth",
+      "title": "Icom IC-7300",
+      "price": 750,
+      "shipping": 0,
+      "found_at": "2026-10-20",
+      "condition_notes": "live. K6HT. 'lowered Price $750 shipped.' 'I opened the box about a couple of months ago but did not use it. The radio was never plugged in and its basically a new radio. Everything that came with it new.' ledger hit (ICOM IC-7300 median 737.5, count 8, 2026-09-29)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1780882",
+      "site": "qth",
+      "title": "Yaesu FTDX-9000D",
+      "price": 5000,
+      "shipping": 0,
+      "found_at": "2026-10-20",
+      "condition_notes": "live. N1QNG, CT. '$5000 shipped'. 'in new condition with no isues it comes with a new MD-200. This radio is in great condition.' Prefers pickup: 'If someone picked this up I will make a good deal'. Has manual. 'I had it sold but party had trouble with coming up with the money so it is still up for grabs'. comps: yaesu-ftdx-9000d, 0 kept (no exact FTDX-9000D sales on page 1)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1779509",
+      "site": "qth",
+      "title": "Ameritron ALS-600 (body: ALS-600/S) with matching power supply",
+      "price": 950,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "live. W4QD. '$950 Price includes shipping in the continental U. S. Will meet with pickup ($50 reduction)'. 'Currently wired for 230volts. (can be changed to 120 volts)' 'In very good operating condition. Has the 10 meter option.' comps: ameritron-als-600, 8 kept, median 1374.5 (exact variant ALS-600 vs ALS-600S UNCERTAIN)",
+      "work_flag": "Has the 10 meter option. Currently wired for 230volts. (can be changed to 120 volts)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781860",
+      "site": "qth",
+      "title": "Elecraft K3/100 #6681 Gold",
+      "price": 959,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "live. K6RO. '$959 Delivered'. 'Late serial number with lots of updates.' 'Gold pins !' 2.7 SSB filter, KIO3, KXV3, firmware 5.67, power cord, manual. 'Used it today on CW and SSB.' ledger hit (ELECRAFT K3/100 median 1199.99, count 15, 2026-10-13; file 2026-10-22-1905-elecraft-k3-100)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782828",
+      "site": "qth",
+      "title": "OM Power OM2000+ HF/6m amp",
+      "price": 2850,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "live (opened twice: the first read was blocked by the browser tool's output filter). NC6R. 'Sell $2,850 shipped / insured / $2,700 local pickup (highly prefered)'. 'Very clean OM2000+ / HF plus 6 meters! / Low operating time.' 240 VAC. Continental USA shipping only. 'No Warranty, No Return!' comps: om-power-om2000-plus, 0 kept (no sold results)",
+      "work_flag": "No Warranty, No Return!",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782771",
+      "site": "qth",
+      "title": "Alpha 9500 1500W HF Amp",
+      "price": 4499,
+      "shipping": 135,
+      "found_at": "2026-10-21",
+      "condition_notes": "live. K1FIE. 'Just $4499 + $135 shipped CONUS.' 'late model Alpha 9500 looks beautiful inside and out', 'it performs like new.' Cover and manual included. comps: 2026-10-22-1905-alpha-9500, 0 kept",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782783",
+      "site": "qth",
+      "title": "Icom IC-PW2 amplifier",
+      "price": 4600,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "live. AA0U. '$4600 shipped. Zelle, Venmo, PayPal (add 3%), Check.' 'excellent condition', 'Original box and all accessories as new. Wired for 240v but can be changed to 120v for 500 watts output.' comps: icom-pw2, 1 kept, median 3649.99 (thin)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782826",
+      "site": "qth",
+      "title": "Palstar AT-Auto tuner",
+      "price": 925,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "live (ad title begins 'Pending payment'). N0DF. '$925 shipped', PayPal if buyer covers 3% fee. 'it has had the isolating couplers replaced with new ones and this unit has the amplifier key line safety feature in it.' 'This tuner is in great shape and works as it should.' comps: palstar-at-auto, 0 kept (only sale was Best offer accepted)",
+      "work_flag": "it has had the isolating couplers replaced with new ones",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782803",
+      "site": "qth",
+      "title": "Alpha 76A linear amplifier",
+      "price": 950,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "live. W1DAJ. '$950' (shipping not stated). Ad text is a specification description only; no condition wording. comps: alpha-76a, 0 kept (only parts-only sales)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782801",
+      "site": "qth",
+      "title": "Alpha 374A HF amplifier",
+      "price": 1200,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "live. W1DAJ. '$1200....' (shipping not stated). Specification text only; no condition wording. comps: alpha-374a, 0 kept (no sold results)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782802",
+      "site": "qth",
+      "title": "Collins 30L-1",
+      "price": 1000,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "live. K3USS. '$1000', 'pickup only from my address near Wilmington, DE. I will drive to help deliver.' 'late model Collins 30-L1. Pristine condition with new power supply board and 4 brand new 572B tubes. Amp has had all upgrades. Wired for 120volts'. comps: collins-30l1, 9 kept, median 599.99",
+      "work_flag": "Amp has had all upgrades. new power supply board",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782774",
+      "site": "qth",
+      "title": "Heathkit SB-200",
+      "price": 500,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "live. KF0LZM. '$500 obo negotiable, split shipping.' 'Fully functional sb200, all stock components, good tubes, new capacitors. I have never ran it above 400w pep. It is in good shape, no major damage.' ledger hit (HEATHKIT SB-200 median 500, count 11, 2026-10-11)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1780529",
+      "site": "qth",
+      "title": "Icom IC-7000 w/ HM-151 and handle",
+      "price": 759,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "live (ad text begins 'Payment Pending.'). W4AWI. '$759 shipped', Zelle or check. HM-151 mic, side carry handle, original book and box. 'Low hours, not even any dust on the fan.' 'sitting in the box for years as a backup.' ledger hit (ICOM IC-7000 median 719, count 3, 2026-09-30)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782466",
+      "site": "qth",
+      "title": "Yaesu FT-690 Mk2 (FT-690R II)",
+      "price": 350,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "live. KA2ING. s/n 340488. '$350.00 shipped' with choice of FL-6020 amp or FBA-8 battery pack; '$400.00 shipped' with both. 'very good condition both physical and electrical.' Manual, MH15 DTMF mic. comps: yaesu-ft-690-mkii, 0 kept",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782813",
+      "site": "qth",
+      "title": "Connect Systems CS-800D",
+      "price": 350,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "live. K4SDL. 'Asking $350.00, this includes shipping.' PayPal. 'gently used CS-800D ... with all cables, manuals and external Motorola speaker.' comps: connect-systems-cs-800d, 5 kept, median 200",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782809",
+      "site": "qth",
+      "title": "Ameritron ATR-30",
+      "price": 350,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "live. K7HK. 'Asking $350 shipped CONUS'. 'It is in excellent condition and works as it should. It should. No dents, dings are \"Arced\" Caps.' comps: ameritron-atr-30, 7 kept, median 400",
+      "work_flag": "No dents, dings are \"Arced\" Caps.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782829",
+      "site": "qth",
+      "title": "Icom AH-705 tuner (new)",
+      "price": 300,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "live. N6TOC. '$300 save on taxes and including shipping.' PayPal F&F, or G&S plus 3.25%. 'the tuner is brand new never used.' 'no returns or refunds due to parts swappers.' comps: icom-ah-705, 10 kept, median 254.495",
+      "work_flag": "no returns or refunds due to parts swappers.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782819",
+      "site": "qth",
+      "title": "LDG AT-600ProII autotuner",
+      "price": 325,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "live. KG0XV. 'used ldg AT-600proii Autotuner', 'I have not used it for some time.' '$325. And that includes shipping and I will include the power cable too.' comps: ldg-at-600proii, 9 kept, median 299",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782862",
+      "site": "qth",
+      "title": "OM Power 2000+ HF/6 amp",
+      "price": 2699,
+      "shipping": 120,
+      "found_at": "2026-10-22",
+      "condition_notes": "live. K1FIE. 'Priced to sell at $2699 + $120 shipped CONUS.' 'It's in excellent cosmetic condition'. Worked with this run's OM2000+ search (same model as carry-over 1782828). comps: om-power-om2000-plus, 0 kept (no sold results)",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
