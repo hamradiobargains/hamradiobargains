@@ -1,0 +1,45 @@
+{
+  "model": "Kenwood TM-741A",
+  "slug": "kenwood-tm-741a",
+  "searched_at": "2026-10-22T18:03:27-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1. 3 kept. dropped 0 best-offer-accepted, 0 parts-only. Left out 128132983627 ($525, Oct 15, titled 'kenwood TM-741 tri band radio' - TM-741 without the A, model identity not certain). Left out accessories (buttons, backup battery, box, covers, hardware kit, fan, PG-4K cable, manual) and other models (TM-733A).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/198737357698",
+    "site": "ebay",
+    "ask": 285.0,
+    "shipping": 6.86
+  },
+  "comps": [
+    {
+      "price": 400.0,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188913621854",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'Great Condition!'. Shipping $12.58.",
+      "flags": []
+    },
+    {
+      "price": 357.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117407596587",
+      "source": "ebay",
+      "notes": "Buy It Now. Title adds '& TRC-465'. Shipping $27.00.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 289.0,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318749942011",
+      "source": "ebay",
+      "notes": "Buy It Now. Title says 'tested'. Shipping $32.00.",
+      "flags": []
+    }
+  ]
+}
