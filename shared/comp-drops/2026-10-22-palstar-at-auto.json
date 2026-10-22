@@ -1,0 +1,15 @@
+{
+  "model": "Palstar AT-Auto",
+  "slug": "palstar-at-auto",
+  "searched_at": "2026-10-22T19:05:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (results above 'Results matching fewer words' only). 0 kept - thin. Only sale on page 1 was 198685396505 $825 + $65.50 delivery, Best offer accepted - dropped (1 BOA). Trigger: $925 shipped incl. power cable and manuals; ad title says 'Pending payment'. searched_at is the comp-file build time; this run's eBay sold searches ran one at a time between about 18:55 and 19:03 ET, signed in as Leo, no challenges.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782826",
+    "site": "qth",
+    "ask": 925,
+    "shipping": 0
+  },
+  "comps": []
+}
