@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-690R II (FT-690 Mk2)",
+  "slug": "yaesu-ft-690-mkii",
+  "searched_at": "2026-10-22T19:05:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (results above 'Results matching fewer words' only). 0 kept - thin. Zero kept. 336702908317 FT-690R II + FL-6020 + bracket $450 was Best offer accepted (dropped); 318865825068 FT-690r II $150 was Parts Only and titled 'Read Description' (dropped); 147641553826 FT-817 (BOA) is another model. Trigger: $350 shipped with a choice of FL-6020 amp or FBA-8 battery pack; $400 shipped with both. searched_at is the comp-file build time; this run's eBay sold searches ran one at a time between about 18:55 and 19:03 ET, signed in as Leo, no challenges.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782466",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": []
+}
