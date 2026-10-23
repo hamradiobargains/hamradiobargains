@@ -1,0 +1,535 @@
+{
+  "model": "Icom IC-7300",
+  "slug": "icom-ic-7300",
+  "searched_at": "2026-10-23T05:57:12-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-7300', page 1 (120 results; no 'fewer words' section shown). Run as eBay search rather than ledger: ledger key ICOM IC-7300 (count 8, 2026-09-29) qualifies on count/date, but the eHam ad says only 'Icom 7300' without stating original vs MK2, so treated as identity doubt; comps here exclude all IC-7300MK2 sales. 54 kept. Dropped 17 best-offer-accepted (working units). Dropped 6 parts-only/not-working (398444463102, 237084806108, 117397479308, 198627830346, 358895076236, and 318899727035 'NOT WORKING'; the last four were also best-offer-accepted). Left out: 5 IC-7300MK2 sales (different model), 1 Kenwood SM-220 (different item), and accessories/manuals/transverters/mics. OUTLIERS flagged (kept): 178546500297 $1,500 Pre-Owned 'IC-7300 - Radio Transceiver'; 397214552229 $1,250.99 Brand New; 407247848682 $385 'NIB' Brand New — vs ~$780 median of the rest. Several possible relists flagged possible_duplicate (identical titles). Trigger is a bundle: radio plus hand mic, Icom SM-20 desk mic, power supply and digital-mode equipment.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629297",
+    "site": "eham",
+    "ask": 850.0,
+    "shipping": 25.0
+  },
+  "comps": [
+    {
+      "price": 779.0,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/900015110575",
+      "source": "ebay",
+      "notes": "auction 14 bids; title says Mint; +$35.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147646494668",
+      "source": "ebay",
+      "notes": "title: w/ Mars Mod, Mic, Manuals, Box; +$38.94 delivery",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178546500297",
+      "source": "ebay",
+      "notes": "OUTLIER: $1500 vs median ~$780 for the rest; title: Icom IC-7300 - Radio Transceiver; +$19.86 delivery",
+      "flags": []
+    },
+    {
+      "price": 780.0,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257797200080",
+      "source": "ebay",
+      "notes": "auction 6 bids; +$22.88 delivery",
+      "flags": []
+    },
+    {
+      "price": 943.99,
+      "sold_date": "2026-10-16",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/236870519336",
+      "source": "ebay",
+      "notes": "+$142.40 delivery",
+      "flags": []
+    },
+    {
+      "price": 943.98,
+      "sold_date": "2026-04-18",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227286574554",
+      "source": "ebay",
+      "notes": "+$186.70 delivery",
+      "flags": []
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-10-14",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/940014489293",
+      "source": "ebay",
+      "notes": "+$15.21 delivery",
+      "flags": []
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880011269733",
+      "source": "ebay",
+      "notes": "title: Excellent working and cosmetic condition; +$99.10 delivery",
+      "flags": []
+    },
+    {
+      "price": 860.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800766460603",
+      "source": "ebay",
+      "notes": "auction 10 bids; +$25.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 729.95,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/920013860925",
+      "source": "ebay",
+      "notes": "title: Ex Cond Orig Box & Accessories; +$34.95 delivery",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336835400701",
+      "source": "ebay",
+      "notes": "+$12.91 delivery",
+      "flags": []
+    },
+    {
+      "price": 707.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189033914843",
+      "source": "ebay",
+      "notes": "auction 9 bids; +$16.42 delivery",
+      "flags": []
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336828005688",
+      "source": "ebay",
+      "notes": "+$57.19 delivery",
+      "flags": []
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2026-10-05",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/307212494282",
+      "source": "ebay",
+      "notes": "+$25.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 586.0,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318930539203",
+      "source": "ebay",
+      "notes": "auction 8 bids; title: GOOD CONDITION; free delivery",
+      "flags": []
+    },
+    {
+      "price": 1250.99,
+      "sold_date": "2026-10-01",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/397214552229",
+      "source": "ebay",
+      "notes": "OUTLIER: $1250.99 vs median ~$780 for the rest; free delivery",
+      "flags": []
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117440690735",
+      "source": "ebay",
+      "notes": "+$9.54 delivery",
+      "flags": []
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307096264004",
+      "source": "ebay",
+      "notes": "+$7.78 delivery",
+      "flags": []
+    },
+    {
+      "price": 686.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128091548808",
+      "source": "ebay",
+      "notes": "auction 33 bids; +$139.86 delivery",
+      "flags": []
+    },
+    {
+      "price": 795.0,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158352058165",
+      "source": "ebay",
+      "notes": "title: Heil Hdset, Hand Mic, MARS, Mt Brkt, Owner Guide; free delivery",
+      "flags": [
+        "modified",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278406272993",
+      "source": "ebay",
+      "notes": "title: Hand Mic, Manual, Box; +$75.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 825.0,
+      "sold_date": "2026-09-26",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/267778026773",
+      "source": "ebay",
+      "notes": "free delivery",
+      "flags": []
+    },
+    {
+      "price": 385.0,
+      "sold_date": "2026-09-26",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/407247848682",
+      "source": "ebay",
+      "notes": "OUTLIER: $385 vs median ~$795 for the rest; title: NIB IC-7300 w/ Manual Cables Box; +$75.33 delivery",
+      "flags": []
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178517033488",
+      "source": "ebay",
+      "notes": "title: + Mic + Manual (US version, nice); +$60.26 delivery; same title as 206507112728",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 890.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117422164852",
+      "source": "ebay",
+      "notes": "auction 19 bids; title: With Extras!; free delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 809.99,
+      "sold_date": "2026-09-25",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/178496482308",
+      "source": "ebay",
+      "notes": "title: HM-219 Mic, Box, Manual, Tested; +$69.49 delivery",
+      "flags": []
+    },
+    {
+      "price": 640.0,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188962333403",
+      "source": "ebay",
+      "notes": "title: Barely Used; +$24.12 delivery",
+      "flags": []
+    },
+    {
+      "price": 727.01,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298671629451",
+      "source": "ebay",
+      "notes": "auction 30 bids; w/Power Cable, Manuals & Box; +$14.70 delivery",
+      "flags": []
+    },
+    {
+      "price": 749.99,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188939621763",
+      "source": "ebay",
+      "notes": "title: MARS Mod + PTRX-7300 Panadapter Box; +$18.18 delivery",
+      "flags": [
+        "modified",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206561929086",
+      "source": "ebay",
+      "notes": "auction 1 bid; +$50.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307177694775",
+      "source": "ebay",
+      "notes": "auction 2 bids; +$100.00 delivery; same title as 117398287182, 267758390247",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 806.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117398287182",
+      "source": "ebay",
+      "notes": "auction 28 bids; +$37.38 delivery; same title as 267758390247, 307177694775",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 729.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318833927527",
+      "source": "ebay",
+      "notes": "auction 1 bid; free delivery",
+      "flags": []
+    },
+    {
+      "price": 840.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158266946466",
+      "source": "ebay",
+      "notes": "+$29.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 799.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327342001491",
+      "source": "ebay",
+      "notes": "free delivery",
+      "flags": []
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178462444357",
+      "source": "ebay",
+      "notes": "auction 26 bids; +$35.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 670.0,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336785288453",
+      "source": "ebay",
+      "notes": "+$22.62 delivery",
+      "flags": []
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298616403622",
+      "source": "ebay",
+      "notes": "title: w/ MARS mod & SM-50 Desk Mic; +$55.00 delivery",
+      "flags": [
+        "modified",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227493971661",
+      "source": "ebay",
+      "notes": "auction 1 bid; +$12.12 delivery",
+      "flags": []
+    },
+    {
+      "price": 949.0,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128052613851",
+      "source": "ebay",
+      "notes": "+$23.67 delivery; same title and price as 298541099718",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 729.95,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298607846785",
+      "source": "ebay",
+      "notes": "title: includes original box; free delivery",
+      "flags": []
+    },
+    {
+      "price": 735.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267758390247",
+      "source": "ebay",
+      "notes": "auction 13 bids; +$37.50 delivery; same title as 117398287182, 307177694775",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206507112728",
+      "source": "ebay",
+      "notes": "+$48.50 delivery; same title as 178517033488",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 839.0,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327315047466",
+      "source": "ebay",
+      "notes": "+$25.78 delivery",
+      "flags": []
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398293305941",
+      "source": "ebay",
+      "notes": "+$54.04 delivery",
+      "flags": []
+    },
+    {
+      "price": 749.95,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407132173902",
+      "source": "ebay",
+      "notes": "free delivery",
+      "flags": []
+    },
+    {
+      "price": 795.0,
+      "sold_date": "2026-08-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206483144050",
+      "source": "ebay",
+      "notes": "+$25.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800497260370",
+      "source": "ebay",
+      "notes": "+$30.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 724.99,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178398807320",
+      "source": "ebay",
+      "notes": "+$38.98 delivery; similar title to 198558082626",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-08-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398250250653",
+      "source": "ebay",
+      "notes": "auction 1 bid; +$180.09 delivery",
+      "flags": []
+    },
+    {
+      "price": 920.0,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128009178457",
+      "source": "ebay",
+      "notes": "auction 16 bids; title: Full Station Accessories; +$35.00 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 599.99,
+      "sold_date": "2026-08-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198558082626",
+      "source": "ebay",
+      "notes": "+$34.98 delivery; similar title to 178398807320",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1049.99,
+      "sold_date": "2026-08-05",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/306463371048",
+      "source": "ebay",
+      "notes": "free delivery",
+      "flags": []
+    },
+    {
+      "price": 949.0,
+      "sold_date": "2026-08-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298541099718",
+      "source": "ebay",
+      "notes": "+$28.59 delivery; same title and price as 128052613851",
+      "flags": [
+        "possible_duplicate"
+      ]
+    }
+  ]
+}
