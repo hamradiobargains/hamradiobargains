@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-101F",
+  "slug": "yaesu-ft-101f",
+  "searched_at": "2026-10-23T18:00:43-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 0 kept comps. Page 1 had 120 results; only one was an FT-101F, and it was dropped as parts-only (336515296059, $179.99, 2026-04-03, eBay 'Parts Only', title 'IN ROUGH SHAPE, but does power on'). All others were other FT-101 variants (FT-101E, FT-101EE, FT-101B, FT-101ZD, FT-101EX, FT-101Z, unspecified FT-101) and were left out as different models. Dropped 0 best-offer-accepted, 1 parts-only. Kept 0 comps.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/206648901459",
+    "site": "ebay",
+    "ask": 384.99,
+    "shipping": 0.0
+  },
+  "comps": []
+}
