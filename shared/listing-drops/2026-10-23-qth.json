@@ -1,0 +1,97 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-23",
+  "ran_at": "2026-10-23T15:01:29-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-22T15:01:40-04:00 (prior qth drop ran_at). Scanned QTH all-ads pages 1-14 (all.php through ?page=14), one at a time; 139 unique ads reviewed (title + price). Counter-ID range of new ads submitted since window start reviewed: 1782923-1783011 (82 new ads seen). IDs in that range never appearing in the list: 1782931, 1782946, 1782949, 1782964, 1782992, 1782994, 1783005 - presumably deleted; spot-checked 1782964 ('no longer in our system'), others not checked individually. Renewed/modified older ads interleaved on pages 1-13 also reviewed. End of window: page 14 is entirely prior-window ads (IDs <=1782922, e.g. 1782922, 1782921, 1782920, 1782919, or older ads renewed before the prior run such as 1775480 and 1781385, both covered by the 10/22 run). No unreviewed remainder. 8 candidates picked (cap 8). Extra plausible candidates not comped: 1783002 (Alpha 87A $2500), 1782989 (Ten-Tec Pegasus $450 shipped, estate/club sale), 1782991 (Ten-Tec Scout $250 shipped), 1782988 (Palstar AT4K $700 OBO + ship), 1782934 (Elecraft P3 w/ VGA $799 shipped), 1782987 (Alinco DX-77 'mint' $325 + ship), 1782979 (Icom ID-880H $200 + ship), 1782968 (Kenwood 'TM-71VA' $450 shipped - exact model unclear), 1782982 (Drake MN-2700 $215 shipped), 1782874 (Atlas 210x Limited Edition $550 shipped), 1782962 (Icom IC-471A $160 + $30), 1782960 (Apache ANAN-7000DLE MKII $2500), 1782956 (JRC NRD-535D $600), 1782950 (Yaesu FT-102 'Malcomized' $1500), 1782937 (Kenwood TS-850S/AT w/extras $750), 1782930 (Kenwood TS-790A $800), 1781465 (Command 1200 6m amp $1200, renewed), 1782995 (Drake SSR-1 $275 + ship), 1783008 (Astron RS-20M $168), 1782929 (Ten-Tec 255 PS/speaker $125 shipped), 1782967 (Kenwood MC-85 $115), 1782983 (Kenwood MC-60 $135 shipped), 1782942 (Icom IC-7760 'For Parts', price range unclear), 1782832 (Alpha 8100, renewed, listed as extra 10/22), 1782862 (OM Power OM2000+, renewed, listed as extra 10/22). Not picked because already in dropped-urls: 1782697 (Flex 6600), 1782698 (Flex 6600M), 1782695 (FT-857D), 1782597 (AL-1200), 1782602 (IC-7300), 1782559 (FT-1000MP Mark V), 1782657 (IC-9100 + IC-7410), 1781414 (Kenwood R-1000), 1782903/1782901 (TS-2000, now $900). No clear asking price: 1782993 (Anytone AT-778UV), 1782938 (Icom IC-718), 1778980 (Kenwood TS-990), 1782965 (Kenwood TH-D75A). Sale pending: 1782940 (FT-891). Duplicate ads: 1782954 = 1782955 (FT-847). Possible relist: 1782959 IC-706MKII may be the same unit as 1782918 dropped 10/22 - not verified. Comps: 3 ledger hits (Xiegu G90, Kenwood TS-440S, Icom IC-706MKII), 5 eBay sold searches (Yaesu FT-710 AESS, Kenwood TS-950SD, Elecraft K3/100, Yaesu FT-847, FlexRadio FLEX-6700). eBay signed in as Leo, no challenges. eHam not touched.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783007",
+      "site": "qth",
+      "title": "RADIOHF - XIEGU G90 HF TRANSCEIVER",
+      "price": 350.0,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "Seller: like new, no dings/dents/scratches, everything works as designed, factory carton. Includes USB programming cable, separation cable, manual, hand mic, installed fold/tilt stand, oversize tuning knob (original knob included), plus a Signalink USB with G90 cable and installed jumper module (extras). $350 shipped CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782970",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE Kenwood TS-440S",
+      "price": 300.0,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "Club-donated radio sold for a radio club. Seller: really nice condition, 'Everything appears to work', excellent reports when tested. Includes mic, power cord, original owner's manual. $300; pickup Charlotte County FL or buyer pays actual shipping (amount not stated; 0 = unknown).",
+      "work_flag": "Everything appears to work",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782959",
+      "site": "qth",
+      "title": "RADIOHF - Icom 706mk2",
+      "price": 420.0,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "Seller (sign-off N4DIG): good working, no issues. Includes mic, power cord, instruction manual and service manual. $420 shipped. Title '706mk2' (IC-706MKII, not MKIIG). Possible relist of #1782918 (Icom 706mk2, $415 shipped, same accessories, dropped 2026-10-22) - not verified.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782969",
+      "site": "qth",
+      "title": "RADIOHF - YAESU FT-710 AESS",
+      "price": 775.0,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "Seller: very nice condition, with manual, hand mic, power cord and box. $775 shipped lower 48.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782953",
+      "site": "qth",
+      "title": "RADIOHF - Kenwood TS-950s Digital",
+      "price": 800.0,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "Silent Key estate. Factory TS-950S Digital (TS-950SD) dual receiver, very good cosmetics, all knobs present; DSP module, mic, manuals, multiple 8.83 MHz and 455 kHz filters. Seller: powers up normally, transmits and receives, good audio reports, 150W out. Sold as-is, no warranty, no returns. $800 or best offer; meet-up only in NW LA / East Texas (no shipping offered).",
+      "work_flag": "Due to age, equipment is sold as-is with no warranty. No returns, no refund.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782932",
+      "site": "qth",
+      "title": "RADIOHF - Elecraft K3",
+      "price": 999.0,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "Seller: excellent cosmetic and working condition, s/n 01148, latest firmware. Options: KAT3 ATU, KPA3 100W PA (i.e. K3/100), KXV3; filters 2.7, 1.0, 0.45, 0.35. Radio and power cord only. $999; pickup Mount Airy MD / NW DC or shipping at cost (amount not stated; 0 = unknown).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782955",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu FT-847",
+      "price": 600.0,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "From a Silent Key. Original box, manual, power cord, Heil headset/foot switch dongle included; 'sorry no hand mic'. $600, shipping extra (amount not stated; 0 = unknown), pickup free. Identical duplicate ad #1782954 (posted under RADIOVHF) - one radio, dropped once.",
+      "work_flag": "sorry no hand mic",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781636",
+      "site": "qth",
+      "title": "RADIOHF - For Sale: Flexradio 6700 w/ GPSDO Unit",
+      "price": 2500.0,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "Renewed ad (submitted 10/08, modified 10/22). Seller N6ERP: no issues, looks great, works perfect, quiet fans, non-smoking. GPS reference option built in (ad also says 'Has tuner'). SmartSDR v4 subscription good until 11/13/2026. Includes power cord, ethernet cable, stock mic, quick start guide. $2,500 shipped CONUS or trade for IC-7610.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
