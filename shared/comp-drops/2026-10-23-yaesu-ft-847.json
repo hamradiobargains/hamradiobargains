@@ -1,0 +1,117 @@
+{
+  "model": "Yaesu FT-847",
+  "slug": "yaesu-ft-847",
+  "searched_at": "2026-10-23T15:01:29-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "searched_at is the file-build time; the search ran between 14:55 and 15:01 ET. eBay sold search 'yaesu ft-847', page 1 only. Ledger miss (no FT-847 entry). Kept 11 FT-847 unit sales. Dropped 8 best-offer-accepted FT-847 sales. Dropped 1 parts-only (FT-847 listed Parts Only at $349.99). Left out: FT-897 units (different model), box-only, display/face/board/encoder/switch/filter parts. No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782955",
+    "site": "qth",
+    "ask": 600.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 700.0,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236959181320",
+      "source": "ebay",
+      "notes": "Title: YAESU FT 847 ALL MODE TRANSCEIVER. Fixed price. +$65.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 518.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318914124525",
+      "source": "ebay",
+      "notes": "Title: ... w/ MH-36 Mic. Auction, 41 bids. +$31.20 delivery.",
+      "flags": []
+    },
+    {
+      "price": 798.8,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206421721302",
+      "source": "ebay",
+      "notes": "Title: Yaesu FT-847 Earth Station, Dynamic Black Desk Microphone, SP-8 Speaker. Sold at $798.80 (list $998.50 shown struck). Includes desk mic and SP-8 speaker. +$139.86 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 556.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188871892103",
+      "source": "ebay",
+      "notes": "Title: YAESU All Mode Transceiver FT-847. Auction, 14 bids. +$31.55 delivery.",
+      "flags": []
+    },
+    {
+      "price": 699.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307157511847",
+      "source": "ebay",
+      "notes": "Fixed price. +$55.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158227899423",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not best-offer-accepted). +$75.33 delivery.",
+      "flags": []
+    },
+    {
+      "price": 720.0,
+      "sold_date": "2026-08-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318677902647",
+      "source": "ebay",
+      "notes": "Title says Tested. Fixed price. +$34.13 delivery.",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-08-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168550440848",
+      "source": "ebay",
+      "notes": "Title: ... With manual. Fixed price 'or Best Offer' (not best-offer-accepted). +$75.33 delivery.",
+      "flags": []
+    },
+    {
+      "price": 849.99,
+      "sold_date": "2026-07-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/385501648406",
+      "source": "ebay",
+      "notes": "Title: ... Working Confirmed. Fixed price 'or Best Offer' (not best-offer-accepted). +$162.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 863.5,
+      "sold_date": "2026-07-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127818191858",
+      "source": "ebay",
+      "notes": "Title: ... 8K140079 Working In Stock. Fixed price 'or Best Offer' (not best-offer-accepted). +$93.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 632.61,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800645011727",
+      "source": "ebay",
+      "notes": "Title: ... EXCELLENT CONDITION. Auction, 7 bids. +$138.35 shipping.",
+      "flags": []
+    }
+  ]
+}
