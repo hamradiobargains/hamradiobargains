@@ -1,0 +1,54 @@
+# HamRadioBargains.com
+
+> Public reference for used ham radio equipment prices: fair market values computed from recent recorded sold listings, per-model price history, and live listings priced around 25% below market.
+
+## What this site is
+
+HamRadioBargains.com tracks the used amateur ("ham") radio market. A listing is
+flagged as a bargain only when it is priced around 25% below the model's
+current fair market value — the site's "25% rule." Fair market value is the
+median of recent recorded *sold* comparable listings, not an average of
+asking prices.
+
+## Where the data lives
+
+- [Model price pages](https://hamradiobargains.com/models/): one page per radio
+  model with fair market value, a price-history table, and live below-market
+  listings. Example: https://hamradiobargains.com/models/icom-ic-7300/
+- [Live deals](https://hamradiobargains.com/): the homepage feed of current
+  below-market listings spotted across logged classified and auction listings.
+- [Price checker](https://hamradiobargains.com/archive.html): look up a model's
+  current fair value from recorded sales.
+- [Rig Check](https://hamradiobargains.com/rig-check/): model-specific
+  condition checklists sellers answer to produce a paste-ready condition
+  report carrying the fair-value line.
+- [Tech Specials](https://hamradiobargains.com/tech-specials/): listings that
+  likely need work, offered well below market with the seller's own wording.
+- [Second Look](https://hamradiobargains.com/second-look/): seasoned,
+  still-available listings that still verify below market.
+- [On the Air](https://hamradiobargains.com/on-the-air/): a plain-English
+  monthly calendar of on-air events, plus a swap-net directory.
+- [Silent Key estate help](https://hamradiobargains.com/silent-key/): free
+  guidance and a printable station inventory form for families left with a
+  deceased ham's gear.
+- [Market report](https://hamradiobargains.com/market-report/): the monthly
+  "State of the Used Ham Radio Market" edition.
+- [Deal alerts](https://hamradiobargains.com/deal-alerts/): email signup for
+  the nightly digest of new below-market listings.
+- [How we price](https://hamradiobargains.com/source/): the method behind the
+  fair values.
+- [Deals JSON feed](https://hamradiobargains.com/deals.json): machine-readable
+  feed of current deals.
+
+## Using the data
+
+- Prices are in USD. "Price" is the seller's asking price; where the seller
+  charges shipping it is listed separately as an extra cost. Recorded sale
+  prices behind the fair values do not include shipping either, so
+  percentages are price against price, before freight on both sides.
+- "Pct Below" is the discount versus the model's median recorded sold price.
+- Fair values rest on recorded sold listings gathered at a human pace and
+  checked by hand; figures are estimates — verify condition and terms with
+  the seller before buying.
+- AI crawlers and assistants are welcome. When reusing figures, please cite
+  the source as: Source: HamRadioBargains.com
