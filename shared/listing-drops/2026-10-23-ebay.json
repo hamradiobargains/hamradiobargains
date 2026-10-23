@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-23",
+  "ran_at": "2026-10-23T17:53:51-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now, sorted Time: newly listed, signed in as Leo; /sch/ URL redirected to the /b/ browse page, loaded fine. Window since previous ebay run 2026-10-22T17:53:08-04:00; scanned page 1 only (60 items, all NEW LISTING). Browse cards show no listing times, so 'new' = newest-first order. None of the picked items were in dropped-urls.json. Seller rule: skipped Icom ID-52A $400 OBO (407312025129) and Yaesu FT5DR $295 OBO (407312041925) - same seller thresholdvector with only 1 rating (100%), below the 10-rating minimum. Ledger: 2 hits (ICOM IC-7300, ICOM IC-2100H); 6 misses -> eBay sold searches: icom ic-r20, aor ar5000+3, ldg it-100, mfj-962b, yaesu ft-101f, dentron mt-3000a. No challenges. Item descriptions not read. Not picked (cap 8 / not a unit): Kenwood TS-50 + AT-50 bundle $1,250 OBO (800830536156), Mirage B-1030-G 2m amp parts-only $599.99 OBO, RM Italy KL-500 $250 and KL-503 $180 (CB-type amps), Hammarlund SP-600 (parts-only auction), Realistic HTX-100 parts-only $139.99, Icom IC-FR5000 repeater, AOR AR5007D $3,599, Icom IC-R6 receiver, Mirage B108, Yaesu FT-720RVH $29, Radioddity DB-25D, 10m/CB radios, Kenwood TS-530 boards, meters, coax switches, cables, brackets, oscillators, non-ham items.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/377593005239",
+      "site": "ebay",
+      "title": "Icom IC-7300 HF/50MHz Transceiver with MARS Mod, Mic, Power Cord, Original Box",
+      "price": 695.0,
+      "shipping": 100.0,
+      "found_at": "2026-10-23",
+      "condition_notes": "eBay condition: Used. Title says MARS Mod, with mic, power cord and original box. $100.00 UPS Ground shipping. Buy It Now. Seller does not accept returns. Located in Green Bay, WI. Item description not read.",
+      "work_flag": "seller does not accept returns",
+      "seller_feedback": "100% (433 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/840052778123",
+      "site": "ebay",
+      "title": "ICOM IC-R20 Communication Receiver w/ Box Antenna Power Pack Tested Japan",
+      "price": 673.99,
+      "shipping": 0.0,
+      "found_at": "2026-10-23",
+      "condition_notes": "eBay condition: Used. Title says 'Tested', with box, antenna, power pack. Or Best Offer. Free expedited shipping from Japan (import fees not checked). 30-day returns, seller pays return shipping. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "100% (17 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/377593104468",
+      "site": "ebay",
+      "title": "AOR AR5000+3 Radio Receiver 10 KHz - 2600 MHz Silent Key Estate",
+      "price": 799.99,
+      "shipping": 14.58,
+      "found_at": "2026-10-23",
+      "condition_notes": "eBay condition: Used. Title says 'Silent Key Estate' (no tested/working claim in title). FedEx Ground Economy $14.58. Seller does not accept returns. Located in Kirkville, NY. Item description not read.",
+      "work_flag": "Silent Key Estate (no tested/working claim); seller does not accept returns",
+      "seller_feedback": "99.8% (2524 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/940036398975",
+      "site": "ebay",
+      "title": "LDG Electronics IT-100 Automatic Antenna Tuner 1.8-54 MHz, .1-125 Watts No Box.",
+      "price": 170.0,
+      "shipping": 9.98,
+      "found_at": "2026-10-23",
+      "condition_notes": "eBay condition: Used. Title says 'No Box'. Seller does not accept returns. Located in Sahuarita, AZ. Item description not read.",
+      "work_flag": "seller does not accept returns",
+      "seller_feedback": "100% (372 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227580600739",
+      "site": "ebay",
+      "title": "MFJ Versa Tuner III 1.5KW MFJ-962B Ham Radio Antenna Tuner SWR Meter HF WORKS",
+      "price": 149.99,
+      "shipping": 29.99,
+      "found_at": "2026-10-23",
+      "condition_notes": "eBay condition: Used. Title says 'HF WORKS'. $29.99 economy shipping. Seller does not accept returns. Located in La Crosse, WI. Item description not read.",
+      "work_flag": "seller does not accept returns",
+      "seller_feedback": "99.7% (21929 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/206648901459",
+      "site": "ebay",
+      "title": "Vintage Yaesu FT-101F HF Transceiver Ham Radio Japan - Untested",
+      "price": 384.99,
+      "shipping": 0.0,
+      "found_at": "2026-10-23",
+      "condition_notes": "eBay condition: For parts or not working. Title says 'Untested'. Or Best Offer. Free FedEx Ground shipping. Returns accepted (terms not read). Located in Marquette, MI. Item description not read.",
+      "work_flag": "Untested; for parts or not working",
+      "seller_feedback": "99.9% (4762 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227580713793",
+      "site": "ebay",
+      "title": "w/Test Video: Dentron MT-3000A Antenna Tuner Works OK, with a Meter Issue.",
+      "price": 295.0,
+      "shipping": 36.16,
+      "found_at": "2026-10-23",
+      "condition_notes": "eBay condition: For parts or not working. Title says 'Works OK, with a Meter Issue' and 'w/Test Video'. UPS Ground $36.16. Seller does not accept returns. Located in Spring Hill, FL. Item description not read.",
+      "work_flag": "Works OK, with a Meter Issue; for parts or not working; seller does not accept returns",
+      "seller_feedback": "99.7% (9185 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227580701909",
+      "site": "ebay",
+      "title": "Icom IC-2100H 2m VHF FM Mobile Ham Radio Transceiver 55W 200CH w/ Mic",
+      "price": 99.99,
+      "shipping": 0.0,
+      "found_at": "2026-10-23",
+      "condition_notes": "eBay condition: Used. With mic. Or Best Offer. Free USPS Ground Advantage shipping. 30-day returns, seller pays return shipping. Located in Auburn, WA. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "99.2% (81251 ratings)"
+    }
+  ]
+}
