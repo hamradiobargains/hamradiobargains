@@ -1,0 +1,25 @@
+{
+  "model": "MFJ-962B",
+  "slug": "mfj-962b",
+  "searched_at": "2026-10-23T18:00:43-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 1 kept comp. Search 'mfj mfj-962b' returned only 4 results on page 1 (before 'Results matching fewer words'); the other 3 were different models (MFJ-949C, MFJ-969, MFJ-934) and were left out. Dropped 0 best-offer-accepted and 0 parts-only MFJ-962B sales (the one best-offer-accepted and two parts-only results were other models). Kept 1 comps.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/227580600739",
+    "site": "ebay",
+    "ask": 149.99,
+    "shipping": 29.99
+  },
+  "comps": [
+    {
+      "price": 99.99,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336847600807",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted); +$14.70 delivery. Title: 'MFJ 962B VERSA TUNER III ... Lot 7'.",
+      "flags": []
+    }
+  ]
+}
