@@ -1,0 +1,38 @@
+{
+  "model": "Dentron MT-3000A",
+  "slug": "dentron-mt-3000a",
+  "searched_at": "2026-10-23T18:00:43-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 2 kept comps, and they are likely the same unit relisted (identical title, price, shipping and seller-style listing; sold 2026-08-30 and 2026-09-06). Page 1 had only 2 results before 'Results matching fewer words'. Dropped 0 best-offer-accepted, 0 parts-only. Kept 2 comps.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/227580713793",
+    "site": "ebay",
+    "ask": 295.0,
+    "shipping": 36.16
+  },
+  "comps": [
+    {
+      "price": 175.5,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820080951921",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted); +$114.00 delivery. Title: 'Works Fine Rare'. Possible duplicate of 820044409745 (identical title/price/shipping).",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 175.5,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820044409745",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted); +$114.00 delivery. Title: 'Works Fine Rare'. Possible duplicate of 820080951921 (identical title/price/shipping).",
+      "flags": [
+        "possible_duplicate"
+      ]
+    }
+  ]
+}
