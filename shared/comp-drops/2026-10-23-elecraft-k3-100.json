@@ -1,0 +1,63 @@
+{
+  "model": "Elecraft K3/100",
+  "slug": "elecraft-k3-100",
+  "searched_at": "2026-10-23T15:01:29-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "searched_at is the file-build time; the search ran between 14:55 and 15:01 ET. eBay sold search 'elecraft k3', page 1 only. Ledger miss: comps.json has 'ELECRAFT K3/100' but listing title is 'Elecraft K3' (ad lists KPA3 100W PA, so a K3/100) - display name not an exact match, so searched. Kept 5 K3/100 unit sales. Dropped 0 best-offer-accepted K3 units, 0 parts-only. Left out: K3S, KX3/PX3/P3 panadapters, filters, sub-receiver kits, DVR, cables and other accessories (most of page 1). No outliers. Note 4 of 5 comps look like the same dealer-style seller listing format.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782932",
+    "site": "qth",
+    "ask": 999.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1650.0,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960050274640",
+      "source": "ebay",
+      "notes": "Title: Elecraft K3/100 ... # 3924 100 Watt - LOADED. Fixed price 'or Best Offer' (not best-offer-accepted). +$80.00 delivery.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1199.99,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327342065547",
+      "source": "ebay",
+      "notes": "Title: Elecraft K3/100 ... KPA3 2.7 # 7025 100 Watts. Fixed price 'or Best Offer' (not best-offer-accepted). +$53.75 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1215.99,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327327910301",
+      "source": "ebay",
+      "notes": "Title: Elecraft K3/100 ... KPA3 2.7 # 7304 100 Watts. Sold at $1,215.99 (list $1,279.99 shown struck). 'or Best Offer' (not best-offer-accepted). +$53.75 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1139.99,
+      "sold_date": "2026-08-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327276580198",
+      "source": "ebay",
+      "notes": "Title: Elecraft K3/100 ... KPA3 2.7 # 2347 100 Watt CA. Sold at $1,139.99 (list $1,199.99 shown struck). 'or Best Offer' (not best-offer-accepted). +$49.25 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1158.89,
+      "sold_date": "2026-08-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327276556623",
+      "source": "ebay",
+      "notes": "Title: Elecraft K3/100 ... KPA3 2.7 # 5285 100 Watt CA. Sold at $1,158.89 (list $1,219.88 shown struck). 'or Best Offer' (not best-offer-accepted). +$49.25 delivery.",
+      "flags": []
+    }
+  ]
+}
