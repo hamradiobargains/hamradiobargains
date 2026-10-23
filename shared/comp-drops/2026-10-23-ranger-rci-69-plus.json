@@ -1,0 +1,15 @@
+{
+  "model": "Ranger RCI-69 Plus",
+  "slug": "ranger-rci-69-plus",
+  "searched_at": "2026-10-23T05:58:09-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "No ledger entry. eBay sold search 'rci-69 plus', page 1 above 'Results matching fewer words': 4 results. All left out for model-identity doubt (same call as the 2026-10-13 drop) — the eHam ad says only '100 WATT 10-12 METER BASE RADIO RCI-69 PLUS' and does not say V1/V2: 3x 'RCI-69 Base Plus V2' Brand New (226982871454 $676 Oct 19, 156081978485 $769.99 Aug 12, 353695519693 $749 Jul 27) and 1x 'RCI 69 Base plus ++' Pre-Owned (117383419575 $550 Sep 7, +$35.50 delivery). 0 kept — thin/none. Dropped 0 best-offer-accepted, 0 parts-only. Note: this is a 10-meter radio sold as a 10-12 meter base radio.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629301",
+    "site": "eham",
+    "ask": 575.0,
+    "shipping": 0
+  },
+  "comps": []
+}
