@@ -1,0 +1,15 @@
+{
+  "model": "Oak Hills Research OHR 100A",
+  "slug": "oak-hills-research-ohr-100a",
+  "searched_at": "2026-10-23T05:58:09-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "No ledger entry. eBay sold search 'oak hills research 100a': '0 results'; only 'Results matching fewer words' shown (WM-2 wattmeters, a 40/20 QRP transceiver of unstated model, unrelated items), all ignored. 0 kept — thin/none. Dropped 0 best-offer-accepted, 0 parts-only. Trigger is an unbuilt 20M kit, bags unopened, includes optional ten-turn pot, $400 shipped.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629304",
+    "site": "eham",
+    "ask": 400.0,
+    "shipping": 0
+  },
+  "comps": []
+}
