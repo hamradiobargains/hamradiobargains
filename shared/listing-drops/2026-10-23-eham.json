@@ -1,0 +1,64 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-23",
+  "ran_at": "2026-10-23T05:53:00-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-22T05:53:25-04:00 (prior eham run). Browsed signed OUT ('Welcome Guest'). Only classifieds page 1 loaded (one eHam page load; no Cloudflare challenge); page 1 reached back to 629294 (covered last run), so page 2 not needed. No individual ads opened (summaries carried full text). New since prior run: 629297, 629299-629305, 629307 (629295, 629296, 629298, 629306 not shown). Skipped: 629307 MFJ-557 code practice oscillator $55 + $14.95 (key/practice accessory); 629305 WANTED ad (AFEDRI LAN-IQ); 629303 WANTED ad (Radio Shack speaker); 629302 N3ZN-SL paddle $360 shipped (key, not radio/amp/tuner). No search form, sold searches, or seller/callsign pages. Comps: 0 ledger hits; 5 eBay sold searches (signed in as Leo, one at a time, no challenges): Icom IC-7300, Elecraft KAT3, OM Power OM2000+, Ranger RCI-69 Plus, Oak Hills Research OHR 100A.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629297",
+      "site": "eham",
+      "title": "Icom 7300 radio, power supply, and peripherals",
+      "price": 850.0,
+      "shipping": 25.0,
+      "found_at": "2026-10-23",
+      "condition_notes": "Seller: 'fully functioning'. Bundle: IC-7300 with standard hand mic, Icom SM-20 desk mic, power supply, and digital-mode equipment. Ships Continental US for $25. Ad does not say original vs MK2.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629299",
+      "site": "eham",
+      "title": "Elecraft KAT3 Antenna Tuner K3 K3S",
+      "price": 359.0,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "$359 delivered. 'Pulled from a working K3.' K3/K3S internal auto-tuner option. $30 less if buyer sends their KANT3 board.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629300",
+      "site": "eham",
+      "title": "OM 2000+ HF and 6m Legal Limit Amp",
+      "price": 2699.0,
+      "shipping": 120.0,
+      "found_at": "2026-10-23",
+      "condition_notes": "'Excellent cosmetic condition'; meter and LCD lit; seller says it exceeds legal limit with modest drive. $120 shipped CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629301",
+      "site": "eham",
+      "title": "100 WATT 10-12 METER BASE RADIO RCI-69 PLUS",
+      "price": 575.0,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "$575 shipped lower 48. 'Excellent unit, super performer'; both original cartons, mic, cord. Version (V1/V2) not stated. Check or money order only.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629304",
+      "site": "eham",
+      "title": "Oak Hills Research 100A - unbuilt 20M kit",
+      "price": 400.0,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "$400 shipped CONUS Priority. Unbuilt kit, still in original bags, never opened; includes optional ten-turn pot. Must be assembled.",
+      "work_flag": "unbuilt kit",
+      "seller_feedback": ""
+    }
+  ]
+}
