@@ -1,0 +1,97 @@
+{
+  "model": "LDG IT-100",
+  "slug": "ldg-it-100",
+  "searched_at": "2026-10-23T18:00:43-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Page 1 had 22 results before 'Results matching fewer words'. Dropped 2 best-offer-accepted (168769894003 listed $81.00; 398409235733 listed $115.00). Dropped 0 parts-only. Left out 2 DC/control cables sold for the IT-100, 1 Icom IC-7100 + IT-100 bundle (147551914765, $760, tuner is a minor part), and 8 unrelated IC-7100 radios. Kept 9 comps.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/940036398975",
+    "site": "ebay",
+    "ask": 170.0,
+    "shipping": 9.98
+  },
+  "comps": [
+    {
+      "price": 129.99,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189059039371",
+      "source": "ebay",
+      "notes": "Buy It Now; +$18.98 delivery.",
+      "flags": []
+    },
+    {
+      "price": 87.91,
+      "sold_date": "2026-10-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327381363243",
+      "source": "ebay",
+      "notes": "Auction, 9 bids, final bid; +$26.90 delivery; located in United Kingdom. Title: '+ Cable'.",
+      "flags": []
+    },
+    {
+      "price": 120.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267789395150",
+      "source": "ebay",
+      "notes": "Buy It Now; +$10.00 delivery. Title: '+ Cable'.",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178522360005",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery.",
+      "flags": []
+    },
+    {
+      "price": 135.0,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336785324683",
+      "source": "ebay",
+      "notes": "Buy It Now; +$10.35 delivery.",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117373130207",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted); +$11.58 delivery.",
+      "flags": []
+    },
+    {
+      "price": 85.0,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117373631809",
+      "source": "ebay",
+      "notes": "Auction, 1 bid, final bid; +$20.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 174.99,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358838743689",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted); +$14.20 delivery.",
+      "flags": []
+    },
+    {
+      "price": 134.99,
+      "sold_date": "2026-07-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236961042453",
+      "source": "ebay",
+      "notes": "Buy It Now; +$14.99 delivery. Title: 'No Cables'.",
+      "flags": []
+    }
+  ]
+}
