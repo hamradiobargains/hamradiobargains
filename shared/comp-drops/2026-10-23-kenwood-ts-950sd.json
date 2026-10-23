@@ -1,0 +1,15 @@
+{
+  "model": "Kenwood TS-950SD",
+  "slug": "kenwood-ts-950sd",
+  "searched_at": "2026-10-23T15:01:29-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "searched_at is the file-build time; the search ran between 14:55 and 15:01 ET. eBay sold search 'kenwood ts-950sd', page 1 only. Ledger miss (no TS-950SD entry). Page 1 had only 2 results, neither a radio: an antenna tuner ATU part (Parts Only, best offer accepted) and a transistor. Zero qualifying comps - thin (none).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782953",
+    "site": "qth",
+    "ask": 800.0,
+    "shipping": 0
+  },
+  "comps": []
+}
