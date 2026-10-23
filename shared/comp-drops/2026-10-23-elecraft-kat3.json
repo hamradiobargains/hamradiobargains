@@ -1,0 +1,34 @@
+{
+  "model": "Elecraft KAT3",
+  "slug": "elecraft-kat3",
+  "searched_at": "2026-10-23T05:57:12-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "No ledger entry. eBay sold search 'elecraft kat3', page 1 above 'Results matching fewer words': 4 results. 2 kept — thin. Dropped 1 best-offer-accepted (188855359262 'KAT3 PCB Assm Antenna Input Module' $45, also a board not the tuner). Left out 1 Elecraft K3/100 transceiver with KAT3 (366316468331 $999.95 — the radio, not the tuner). Dropped 0 parts-only. No outliers. Trigger: $359 delivered, pulled from a working K3; seller offers $30 less in exchange for buyer's KANT3 board.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629299",
+    "site": "eham",
+    "ask": 359.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 389.99,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327292306377",
+      "source": "ebay",
+      "notes": "title: ELECRAFT K3 and K3S - KAT3 Tuner - easy install !; fixed price or Best Offer (not accepted); +$14.65 delivery",
+      "flags": []
+    },
+    {
+      "price": 370.49,
+      "sold_date": "2026-08-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327245860843",
+      "source": "ebay",
+      "notes": "same title as 327292306377 (same seller, separate sale); sold at $370.49 with $389.99 struck through; +$14.65 delivery",
+      "flags": []
+    }
+  ]
+}
