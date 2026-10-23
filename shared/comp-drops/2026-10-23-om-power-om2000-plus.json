@@ -1,0 +1,15 @@
+{
+  "model": "OM Power OM2000+",
+  "slug": "om-power-om2000-plus",
+  "searched_at": "2026-10-23T05:57:12-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "No ledger entry. eBay sold search 'om power om2000': '0 results'; only 'Results matching fewer words' shown (cameras etc.), all ignored. 0 kept — thin/none. Dropped 0 best-offer-accepted, 0 parts-only. Trigger: $2699 + $120 shipped CONUS, 'excellent cosmetic condition'. Same price as qth ad https://swap.qth.com/view_ad.php?counter=1782862 (already dropped) — possibly the same amp cross-listed.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629300",
+    "site": "eham",
+    "ask": 2699.0,
+    "shipping": 120.0
+  },
+  "comps": []
+}
