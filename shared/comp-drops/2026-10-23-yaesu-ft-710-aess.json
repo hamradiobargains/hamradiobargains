@@ -1,0 +1,152 @@
+{
+  "model": "Yaesu FT-710 AESS",
+  "slug": "yaesu-ft-710-aess",
+  "searched_at": "2026-10-23T15:01:29-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "searched_at is the file-build time; the search ran between 14:55 and 15:01 ET. eBay sold search 'yaesu ft-710 aess', page 1 only. Ledger miss: comps.json has 'YAESU FT-710' and 'YAESU FT-710 FIELD' but no exact 'YAESU FT-710 AESS' entry. Kept 14 FT-710 AESS unit sales. Dropped 4 best-offer-accepted FT-710 AESS sales. Dropped 0 parts-only. Left out as different/unclear model: FT-710 Field units (several, incl. best-offer-accepted ones), 2 listings titled only 'FT 710' with no AESS/Field (one best-offer-accepted), and accessories (carry handles, dust cover). OUTLIER: $1,498.42 'Near Mint ... w/SP-40 All accessories JP' (2026-08-18) vs ~$912 for the rest. Two Japan-market sales included (one with NTI-200 step-up unit, flagged extras_included). Possible duplicate pairs flagged: 168731036314/168686397798 and 267750293338/236966876531.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782969",
+    "site": "qth",
+    "ask": 775.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 894.79,
+      "sold_date": "2026-10-18",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/407274782416",
+      "source": "ebay",
+      "notes": "Title: NEW FT-710 AESS w/SP-40 ... from JAPAN. Fixed price 'or Best Offer' (not best-offer-accepted). +$111.00 delivery, includes import fees, located in Japan.",
+      "flags": []
+    },
+    {
+      "price": 936.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168731036314",
+      "source": "ebay",
+      "notes": "Title: Yaesu FT-710 AESS ... Lightly Used. Auction, 22 bids. +$23.03 delivery. Same title/shipping as item 168686397798 (sold 2026-09-20) - possibly same unit relisted.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 915.0,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168686397798",
+      "source": "ebay",
+      "notes": "Title: Yaesu FT-710 AESS ... Lightly Used. Auction, 36 bids. +$23.03 delivery. Same title/shipping as item 168731036314 (sold 2026-10-04) - possibly same unit relisted.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1207.24,
+      "sold_date": "2026-09-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/136758521637",
+      "source": "ebay",
+      "notes": "Title: FT-710 AESS w/SP-40 100W HF Ham Monitoring JP 100V w/NTI-200 Step-Unit (Japan-market, includes NTI-200 step-up unit). +$150.00 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 850.02,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257671330696",
+      "source": "ebay",
+      "notes": "Fixed price. +$96.39 delivery.",
+      "flags": []
+    },
+    {
+      "price": 932.78,
+      "sold_date": "2026-08-29",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/206348169079",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not best-offer-accepted). +$100.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 949.98,
+      "sold_date": "2026-08-22",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/407111746049",
+      "source": "ebay",
+      "notes": "Title: FT-710 AESS w/SP-40 ... New. Fixed price 'or Best Offer' (not best-offer-accepted). +$190.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1498.42,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/135406267266",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,498.42 vs ~$912 median for the rest. Title: [Near Mint] FT-710 AESS ... w/SP-40 All accessories JP. +$225.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 890.0,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117358019850",
+      "source": "ebay",
+      "notes": "Title: ... with External Speaker. Fixed price 'or Best Offer' (not best-offer-accepted). +$41.90 delivery.",
+      "flags": []
+    },
+    {
+      "price": 860.0,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267750293338",
+      "source": "ebay",
+      "notes": "Title: ... Includes External Speaker. Auction, 29 bids. Free delivery. Same title as item 236966876531 (sold 2026-08-03) - possibly same seller/unit.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 777.0,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287515277076",
+      "source": "ebay",
+      "notes": "Fixed price. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 911.55,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236966876531",
+      "source": "ebay",
+      "notes": "Title: ... Includes External Speaker. Auction, 46 bids. +$13.97 delivery. Same title as item 267750293338 (sold 2026-08-14) - possibly same seller/unit.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2026-07-31",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/298546355208",
+      "source": "ebay",
+      "notes": "Title: ... **Open Box**. Fixed price. +$30.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 775.0,
+      "sold_date": "2026-07-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336706745649",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not best-offer-accepted). Free delivery.",
+      "flags": []
+    }
+  ]
+}
