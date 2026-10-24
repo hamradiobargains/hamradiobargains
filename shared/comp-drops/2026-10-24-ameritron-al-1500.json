@@ -1,0 +1,34 @@
+{
+  "model": "AMERITRON AL-1500",
+  "slug": "ameritron-al-1500",
+  "searched_at": "2026-10-24T18:49:10-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (LH_Sold=1, LH_Complete=1, sorted by end date recent first, page 1 only, \"results matching fewer words\" section ignored), signed in as Leo, no challenge. 2 kept, median 3749.97, low 3499.99, high 3999.95. Thin (2 comps). Best-offer-accepted sales dropped: 1 (198699312216 $2399.00). Parts-only/for-parts/as-is/untested sales dropped: 1 (128044868745 $3000.00). \"Read Description\" titles: none seen in the extract. Only two qualifying sales; both well above the earlier ledger entry (count 1, $1000, 2026-09-03) - noted, not judged.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782843",
+    "site": "qth",
+    "ask": 2700,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 3999.95,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227488769340",
+      "source": "ebay",
+      "notes": "fixed price; free shipping.",
+      "flags": []
+    },
+    {
+      "price": 3499.99,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820116097872",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not marked accepted); free shipping.",
+      "flags": []
+    }
+  ]
+}
