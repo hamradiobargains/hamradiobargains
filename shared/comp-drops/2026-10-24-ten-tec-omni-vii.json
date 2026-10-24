@@ -1,0 +1,27 @@
+{
+  "model": "Ten-Tec Omni VII",
+  "slug": "ten-tec-omni-vii",
+  "searched_at": "2026-10-24T15:03:09-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "searched_at is the file-build time; eBay searches ran ~14:57-15:02 ET. eBay sold search 'ten tec omni vii', page 1 only. Ledger miss (no Omni VII entry). Kept 1 Omni VII (588) unit sale. Dropped 1 best-offer-accepted (Aug 4 2026, Ten-Tec 588 Omni VII, shown $950). Dropped 0 parts-only. Left out: mics, power cords, encoders, keypad, fan, speaker, manuals, 238B tuner, and other Omni models (Omni V/VI/VI+/D). No outliers. Thin (1 comp).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783060",
+    "site": "qth",
+    "ask": 550.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 795.0,
+      "sold_date": "2026-09-29",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/117424811793",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'Ten Tec TenTec Omni VII 588AT HF Transceiver + Manual & Extras Works 100%'. Shipping +$24.52.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
