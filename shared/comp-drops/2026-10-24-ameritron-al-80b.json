@@ -1,0 +1,34 @@
+{
+  "model": "AMERITRON AL-80B",
+  "slug": "ameritron-al-80b",
+  "searched_at": "2026-10-24T18:49:10-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (LH_Sold=1, LH_Complete=1, sorted by end date recent first, page 1 only, \"results matching fewer words\" section ignored), signed in as Leo, no challenge. 2 kept, median 974.99, low 949.99, high 999.99. Thin (2 comps). Best-offer-accepted sales dropped: 0. Parts-only/for-parts/as-is/untested sales dropped: 0. \"Read Description\" titles: none seen in the extract. Rows from the loose-match portion of the page (other amps, tubes, parts) left out; only exact AL-80B units kept. Note comps.json ledger entry (count 3, 2026-09-10) is older than 30 days so not used.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782889",
+    "site": "qth",
+    "ask": 850,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 999.99,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267781606466",
+      "source": "ebay",
+      "notes": "fixed price; shipping 75.00.",
+      "flags": []
+    },
+    {
+      "price": 949.99,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198536680389",
+      "source": "ebay",
+      "notes": "fixed price; shipping 124.97.",
+      "flags": []
+    }
+  ]
+}
