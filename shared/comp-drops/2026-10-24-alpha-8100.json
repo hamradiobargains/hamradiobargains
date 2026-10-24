@@ -1,0 +1,15 @@
+{
+  "model": "ALPHA 8100",
+  "slug": "alpha-8100",
+  "searched_at": "2026-10-24T18:49:10-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (LH_Sold=1, LH_Complete=1, sorted by end date recent first, page 1 only, \"results matching fewer words\" section ignored), signed in as Leo, no challenge. 0 kept, median n/a. Zero qualifying comps. Best-offer-accepted sales dropped: 0. Parts-only/for-parts/as-is/untested sales dropped: 0. \"Read Description\" titles: none seen in the extract. Search \"alpha 8100\": 4 results, none were the Alpha 8100 amplifier (LattePanda Alpha boards, car starters).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782832",
+    "site": "qth",
+    "ask": 2799,
+    "shipping": 130
+  },
+  "comps": []
+}
