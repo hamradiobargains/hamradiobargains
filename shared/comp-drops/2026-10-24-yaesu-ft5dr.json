@@ -1,0 +1,256 @@
+{
+  "model": "YAESU FT5DR",
+  "slug": "yaesu-ft5dr",
+  "searched_at": "2026-10-24T18:49:10-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (LH_Sold=1, LH_Complete=1, sorted by end date recent first, page 1 only, \"results matching fewer words\" section ignored), signed in as Leo, no challenge. 26 kept, median 315.98, low 202.50, high 598.00. Solid (3+ comps). Best-offer-accepted sales dropped: 10 (137815590385 $324.99, 137786736343 $289.00, 128059748406 $315.00, 366637154883 $300.00, 407113585298 $345.67, 257684902622 $320.00, 178410948167 $350.00, 800472640214 $399.00, 236961507222 $325.75, 278197793458 $359.00). Parts-only/for-parts/as-is/untested sales dropped: 0. \"Read Description\" titles: none seen in the extract. OUTLIER(S): 317482667826 $598.00 (kept, marked in comp notes). Many titles read \"FT5D/FT5DR\" (kept; search term was ft5dr). Batteries/chargers/cables/cases/antennas left out. 158326240203 and 158311292082 look like duplicate listings (same price/shipping/day).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782842",
+    "site": "qth",
+    "ask": 390,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 202.5,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117470374779",
+      "source": "ebay",
+      "notes": "auction final bid; free shipping.",
+      "flags": []
+    },
+    {
+      "price": 280.0,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880009152124",
+      "source": "ebay",
+      "notes": "auction final bid; shipping 6.70.",
+      "flags": []
+    },
+    {
+      "price": 434.95,
+      "sold_date": "2026-10-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/394762091838",
+      "source": "ebay",
+      "notes": "fixed price; free shipping. Listed Brand New.",
+      "flags": []
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-10-16",
+      "condition": "not shown in search extract",
+      "url": "https://www.ebay.com/itm/227569203068",
+      "source": "ebay",
+      "notes": "fixed price; shipping 4.80.",
+      "flags": []
+    },
+    {
+      "price": 303.0,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227550889362",
+      "source": "ebay",
+      "notes": "auction final bid; shipping 21.95.",
+      "flags": []
+    },
+    {
+      "price": 439.95,
+      "sold_date": "2026-09-25",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/116013892569",
+      "source": "ebay",
+      "notes": "fixed price; free shipping. Listed Brand New.",
+      "flags": []
+    },
+    {
+      "price": 449.95,
+      "sold_date": "2026-09-23",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/398146665461",
+      "source": "ebay",
+      "notes": "fixed price; free shipping. Listed Brand New.",
+      "flags": []
+    },
+    {
+      "price": 305.0,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158326240203",
+      "source": "ebay",
+      "notes": "auction final bid; shipping 7.74. Same price/shipping/day as another listing in this set (158326240203 / 158311292082) - possible duplicate listing, both kept.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 305.0,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158311292082",
+      "source": "ebay",
+      "notes": "auction final bid; shipping 7.74. Same price/shipping/day as another listing in this set (158326240203 / 158311292082) - possible duplicate listing, both kept.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 598.0,
+      "sold_date": "2026-09-14",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/317482667826",
+      "source": "ebay",
+      "notes": "OUTLIER: high - over 1.5x the median ($311.95) of the other kept comps. fixed price; free shipping. Listed Brand New.",
+      "flags": []
+    },
+    {
+      "price": 305.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178483751021",
+      "source": "ebay",
+      "notes": "fixed price; free shipping.",
+      "flags": []
+    },
+    {
+      "price": 349.95,
+      "sold_date": "2026-09-10",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/267779619260",
+      "source": "ebay",
+      "notes": "fixed price; shipping 11.58. Listed Brand New.",
+      "flags": []
+    },
+    {
+      "price": 299.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327343303534",
+      "source": "ebay",
+      "notes": "fixed price; shipping 26.88.",
+      "flags": []
+    },
+    {
+      "price": 305.0,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178434059256",
+      "source": "ebay",
+      "notes": "fixed price; free shipping.",
+      "flags": []
+    },
+    {
+      "price": 330.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117366796876",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not marked accepted); shipping 13.26.",
+      "flags": []
+    },
+    {
+      "price": 349.95,
+      "sold_date": "2026-09-03",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/267774183664",
+      "source": "ebay",
+      "notes": "fixed price; shipping 11.58. Listed Brand New.",
+      "flags": []
+    },
+    {
+      "price": 209.99,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257715120476",
+      "source": "ebay",
+      "notes": "fixed price; shipping 10.00.",
+      "flags": []
+    },
+    {
+      "price": 320.0,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257688439164",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not marked accepted); shipping 10.00.",
+      "flags": []
+    },
+    {
+      "price": 311.95,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137621994967",
+      "source": "ebay",
+      "notes": "fixed price; free shipping. Title mentions a manual.",
+      "flags": []
+    },
+    {
+      "price": 289.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327330779777",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not marked accepted); shipping 20.43. Title mentions a manual.",
+      "flags": []
+    },
+    {
+      "price": 329.99,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287528483010",
+      "source": "ebay",
+      "notes": "fixed price; shipping 7.78.",
+      "flags": []
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2026-08-20",
+      "condition": "not shown in search extract",
+      "url": "https://www.ebay.com/itm/168616671102",
+      "source": "ebay",
+      "notes": "fixed price; free shipping.",
+      "flags": []
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2026-08-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158187919987",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not marked accepted); free shipping. Title says \"with EXTRAS\".",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 305.99,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206468803102",
+      "source": "ebay",
+      "notes": "fixed price; shipping 6.86.",
+      "flags": []
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2026-08-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117322283664",
+      "source": "ebay",
+      "notes": "fixed price; shipping 13.17.",
+      "flags": []
+    },
+    {
+      "price": 320.0,
+      "sold_date": "2026-07-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178346710866",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not marked accepted); shipping 13.70.",
+      "flags": []
+    }
+  ]
+}
