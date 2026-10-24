@@ -1,0 +1,25 @@
+{
+  "model": "Icom IC-7000M",
+  "slug": "icom-ic-7000m",
+  "searched_at": "2026-10-24T18:01:31-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - 1 kept comp. dropped 1 best-offer-accepted (188683812334 Aug 31 $775 listed). dropped 0 parts-only. Search page also returned many US IC-7000 (non-M) sales; those were left out as a different model (IC-7000M is the Japanese-market 50W version). No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/407313892290",
+    "site": "ebay",
+    "ask": 1500.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 990.36,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366516196867",
+      "source": "ebay",
+      "notes": "Fixed price (Buy It Now). Title 'ICOM IC-7000M HF/50/144/430MHz 50W All Mode'. Shipping $100.00.",
+      "flags": []
+    }
+  ]
+}
