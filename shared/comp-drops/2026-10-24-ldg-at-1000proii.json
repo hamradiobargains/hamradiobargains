@@ -1,0 +1,61 @@
+{
+  "model": "LDG AT-1000PROII",
+  "slug": "ldg-at-1000proii",
+  "searched_at": "2026-10-24T18:49:10-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (LH_Sold=1, LH_Complete=1, sorted by end date recent first, page 1 only, \"results matching fewer words\" section ignored), signed in as Leo, no challenge. 5 kept, median 400.00, low 275.00, high 499.00. Solid (3+ comps). Best-offer-accepted sales dropped: 1 (336806523687 $499.99). Parts-only/for-parts/as-is/untested sales dropped: 1 (327294640833 $120.00). \"Read Description\" titles: none seen in the extract. Page had 10 results; only AT-1000ProII tuner sales counted.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782855",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 419.99,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327391665765",
+      "source": "ebay",
+      "notes": "fixed price; shipping 8.55.",
+      "flags": []
+    },
+    {
+      "price": 499.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287482306623",
+      "source": "ebay",
+      "notes": "fixed price; shipping 13.97.",
+      "flags": []
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117375371440",
+      "source": "ebay",
+      "notes": "auction final bid; shipping 7.30.",
+      "flags": []
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278304764660",
+      "source": "ebay",
+      "notes": "auction final bid; shipping 7.03.",
+      "flags": []
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198585403391",
+      "source": "ebay",
+      "notes": "fixed price; shipping 22.50.",
+      "flags": []
+    }
+  ]
+}
