@@ -1,0 +1,25 @@
+{
+  "model": "Yaesu VL-1000",
+  "slug": "yaesu-vl-1000",
+  "searched_at": "2026-10-24T18:01:31-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - 1 kept comp. dropped 0 best-offer-accepted (one best-offer-accepted sale on page was a cable set, not a unit). dropped 1 parts-only (198583903199 Aug 21 $1,499.99, Parts Only). Cables excluded. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/880047360275",
+    "site": "ebay",
+    "ask": 2600.0,
+    "shipping": 103.81
+  },
+  "comps": [
+    {
+      "price": 2800.0,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168618698720",
+      "source": "ebay",
+      "notes": "Fixed price (Buy It Now). Title 'VL-1000/VP-1000 QUADRA SYSTEM ... + Boxes' - includes VP-1000 power supply, same as the trigger. Shipping $400.00.",
+      "flags": []
+    }
+  ]
+}
