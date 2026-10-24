@@ -1,0 +1,25 @@
+{
+  "model": "HEATHKIT SB-221",
+  "slug": "heathkit-sb-221",
+  "searched_at": "2026-10-24T18:49:10-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (LH_Sold=1, LH_Complete=1, sorted by end date recent first, page 1 only, \"results matching fewer words\" section ignored), signed in as Leo, no challenge. 1 kept, median 1000.00, low 1000.00, high 1000.00. Thin (1 comp). Best-offer-accepted sales dropped: 0. Parts-only/for-parts/as-is/untested sales dropped: 0. \"Read Description\" titles: none seen in the extract. Only one SB-221 amplifier sale on page 1 (others are SB-200/SB-201/SB-220 amps or SB-220/221 parts). Kept sale was fixed price with Best Offer available, not marked accepted.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782880",
+    "site": "qth",
+    "ask": 650,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1000.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198655895981",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not marked accepted); shipping 66.74.",
+      "flags": []
+    }
+  ]
+}
