@@ -1,0 +1,31 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-24",
+  "ran_at": "2026-10-24T05:52:58-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-23T05:53:00-04:00 (prior eham run). Browsed signed OUT ('Welcome Guest'). One eHam page load (classifieds page 1); a Cloudflare 'Performing security verification' interstitial appeared and cleared on its own after ~10s wait, no interaction. Page 1 reached back to 629303 (covered last run), so page 2 not needed. No individual ads opened (summaries carried full text). New since prior run: 629310-629315 (629308, 629309 not shown). Skipped: 629315 'entire collection' (no asking price, call for prices); 629313 Rohde & Schwarz FS300 spectrum analyzer $599 shipped (test equipment); 629311 GeoChron Atlas 2B $265 shipped (computer/clock); 629310 Kenwood VGS-1 voice unit $225 shipped (option board/accessory). No search form, sold searches, or seller/callsign pages. Comps: 0 ledger hits; 2 eBay sold searches (signed in as Leo, one at a time, no challenges): Yaesu FT-1000MP Mark V, Apache Labs ANAN-7000DLE MKII. Ledger note: comps.json has two entries for this Yaesu model, 'YAESU FT-1000MP MARK V' (count 1, 2026-09-20) and 'YAESU FT-1000MP MARK-V' (count 3, 2026-10-06); listing title matched neither display name exactly, so treated as a miss.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629314",
+      "site": "eham",
+      "title": "Yaesu FT 1000MP Mark V",
+      "price": 975.0,
+      "shipping": 0,
+      "found_at": "2026-10-24",
+      "condition_notes": "Seller: 'working fine in every respect', 'excellent cosmetic condition (not mint)'. Options: Collins filter, TCXO, Inrad roofing filter. Includes DC and AC power cords and OEM manual. $975 local pickup Denver CO or plus actual shipping; seller estimates ~$85-100 coast-to-coast with insurance (shipping set to 0 as not fixed). PayPal or USPS money order.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629312",
+      "site": "eham",
+      "title": "Apache Labs ANAN-7000DLE MKII SDR w/ i7 PC",
+      "price": 2500.0,
+      "shipping": 0,
+      "found_at": "2026-10-24",
+      "condition_notes": "Seller: 'Mint, 100% fully operational', non-smoking shack; always run at low power behind an amp. Built-in Intel NUC i7 / 16GB RAM, Windows 11 license. Includes DC cable, Ethernet link, original box. Local meet-up preferred; shipping at buyer's expense (amount not stated, set to 0). Cash, PayPal, Venmo, Zelle.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
