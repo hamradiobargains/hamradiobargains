@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T12:53:06+00:00",
+ "updated": "2026-10-24T12:53:06+00:00",
  "source": "HamRadioBargains sold-comp ledger \u2014 genuine sold listings from eHam, QTH, eBay and site deals, plus the eHam comp archive. Prices are asking prices at sale; best offers may differ.",
  "models": {
   "ACOM 1000": {
@@ -1919,6 +1919,24 @@
     }
    ]
   },
+  "ICOM IC-R20": {
+   "latest": {
+    "date": "2026-10-14",
+    "median": 402.5,
+    "low": 275.0,
+    "high": 748.0,
+    "count": 12
+   },
+   "history": [
+    {
+     "date": "2026-10-14",
+     "median": 402.5,
+     "low": 275.0,
+     "high": 748.0,
+     "count": 12
+    }
+   ]
+  },
   "ICOM IC-R3": {
    "latest": {
     "date": "2026-09-13",
@@ -3047,6 +3065,24 @@
     }
    ]
   },
+  "LDG IT-100": {
+   "latest": {
+    "date": "2026-10-11",
+    "median": 125.0,
+    "low": 85.0,
+    "high": 174.99,
+    "count": 9
+   },
+   "history": [
+    {
+     "date": "2026-10-11",
+     "median": 125.0,
+     "low": 85.0,
+     "high": 174.99,
+     "count": 9
+    }
+   ]
+  },
   "LDG YT-100": {
    "latest": {
     "date": "2026-09-11",
@@ -3159,6 +3195,24 @@
      "low": 109.99,
      "high": 140.0,
      "count": 9
+    }
+   ]
+  },
+  "MFJ-962B": {
+   "latest": {
+    "date": "2026-10-16",
+    "median": 99.99,
+    "low": 99.99,
+    "high": 99.99,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-10-16",
+     "median": 99.99,
+     "low": 99.99,
+     "high": 99.99,
+     "count": 1
     }
    ]
   },
@@ -3718,11 +3772,11 @@
   },
   "YAESU FT-1000MP MARK V": {
    "latest": {
-    "date": "2026-09-20",
-    "median": 1000.0,
-    "low": 1000.0,
-    "high": 1000.0,
-    "count": 1
+    "date": "2026-10-06",
+    "median": 1156.0,
+    "low": 1100.0,
+    "high": 1980.0,
+    "count": 3
    },
    "history": [
     {
@@ -3731,6 +3785,13 @@
      "low": 1000.0,
      "high": 1000.0,
      "count": 1
+    },
+    {
+     "date": "2026-10-06",
+     "median": 1156.0,
+     "low": 1100.0,
+     "high": 1980.0,
+     "count": 3
     }
    ]
   },
@@ -4101,6 +4162,24 @@
     }
    ]
   },
+  "YAESU FT-710 AESS": {
+   "latest": {
+    "date": "2026-10-18",
+    "median": 913.78,
+    "low": 775.0,
+    "high": 1498.42,
+    "count": 10
+   },
+   "history": [
+    {
+     "date": "2026-10-18",
+     "median": 913.78,
+     "low": 775.0,
+     "high": 1498.42,
+     "count": 10
+    }
+   ]
+  },
   "YAESU FT-710 FIELD": {
    "latest": {
     "date": "2026-10-10",
@@ -4267,6 +4346,24 @@
      "low": 270,
      "high": 550,
      "count": 37
+    }
+   ]
+  },
+  "YAESU FT-847": {
+   "latest": {
+    "date": "2026-10-05",
+    "median": 700.0,
+    "low": 500.0,
+    "high": 950.0,
+    "count": 11
+   },
+   "history": [
+    {
+     "date": "2026-10-05",
+     "median": 700.0,
+     "low": 500.0,
+     "high": 950.0,
+     "count": 11
     }
    ]
   },
