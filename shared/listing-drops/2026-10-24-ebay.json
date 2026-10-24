@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-24",
+  "ran_at": "2026-10-24T18:01:31-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now, sorted Time: newly listed, signed in as Leo; /sch/ URL redirected to the /b/ browse page, loaded fine. Window since previous ebay run 2026-10-23T17:53:51-04:00; scanned page 1 only (60 items, all NEW LISTING). Browse cards show no listing times, so 'new' = newest-first order. None of the picked items were in dropped-urls.json. Seller rule: skipped Icom IC-718 $405 OBO (860080270754) - seller cacro5933 has 1 rating, no feedback yet, below the 10-rating minimum. Ledger: 2 hits (YAESU FT-840, KENWOOD R-1000); 6 misses -> eBay sold searches: yaesu ftm-150r, yaesu ft-7800r, icom ic-7000m, yaesu vl-1000, icom ic-r70, kenwood tm-733gvl. No challenges. Item descriptions not read. Not picked (cap 8 / not a unit / auction): Kenwood TS-690S, Icom IC-7300 $800, Icom IC-R75, Yaesu VX-8R, Icom IC-2350, Icom IC-R8600 (auction-format cards with bids/time left), Yaesu VL-1000 RF deck only UNTESTED $999.99 (227582059959), Yaesu FT-65R $125 OBO, Collins 75S-3C/32S-3/516F-2 set $2,358 OBO, Collins 312B-5, Yaesu FT-736R operating manual $475 OBO (title reads as manual), AOR AR3000A, Kenwood TS-440S parts-only, Swan SW-240 parts-only, X Force XT400 parts-only, Stryker/10m radios, Tucker/Eagle amps, Kenwood TS-930S parts, mics, accessories, non-ham items.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/307247719366",
+      "site": "ebay",
+      "title": "Yaesu FTM-150R FM Dual Band Mobile Transceiver 55W-VHF 50W-UHF",
+      "price": 300.0,
+      "shipping": 0,
+      "found_at": "2026-10-24",
+      "condition_notes": "eBay condition: Used. Free USPS Ground Advantage shipping. Seller does not accept returns. Located in Cheyenne, WY. Item description not read.",
+      "work_flag": "seller does not accept returns",
+      "seller_feedback": "100% (424 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/237142299166",
+      "site": "ebay",
+      "title": "Yaesu FT-7800R VHF/UHF Dual Band FM Mobile Transceiver + power/separation cable",
+      "price": 230.0,
+      "shipping": 14.73,
+      "found_at": "2026-10-24",
+      "condition_notes": "eBay condition: Used. Title says includes power/separation cable. Or Best Offer. Seller does not accept returns. Item description not read.",
+      "work_flag": "seller does not accept returns",
+      "seller_feedback": "100% (123 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/407313892290",
+      "site": "ebay",
+      "title": "ICOM IC-7000M Amateur Ham Radio HF/VHF/UHF VERY CLEAN, WITH DC PLUG 517C3B",
+      "price": 1500.0,
+      "shipping": 0,
+      "found_at": "2026-10-24",
+      "condition_notes": "eBay condition: Used. Seller notes: 'MAIN RADIO, VERY CLEAN, WITH ITS POWER CABLE ONLY'. Item specifics say Frequency Band Plan Japan (JDM) - IC-7000M is the Japanese-market 50W version, not the US IC-7000. Or Best Offer. Free shipping. 30-day returns, buyer pays return shipping. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "100% (27021 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/880047360275",
+      "site": "ebay",
+      "title": "Yaesu VL-1000 1100W HF/50MHz Linear Amplifier w/ VP-1000 Power Supply",
+      "price": 2600.0,
+      "shipping": 103.81,
+      "found_at": "2026-10-24",
+      "condition_notes": "eBay condition: Used. Includes VP-1000 power supply per title. Or Best Offer. UPS Ground shipping. Seller does not accept returns. Item description not read.",
+      "work_flag": "seller does not accept returns",
+      "seller_feedback": "100% (278 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227581891366",
+      "site": "ebay",
+      "title": "Icom IC-R70 Communications Receiver Ham Radio Shortwave HF AM FM WORKS",
+      "price": 339.99,
+      "shipping": 39.99,
+      "found_at": "2026-10-24",
+      "condition_notes": "eBay condition: Used. Seller notes: 'Tested-WORKS GOOD. Meter works but light in meter does not work.' Economy shipping. Seller does not accept returns. Item description not read.",
+      "work_flag": "Meter works but light in meter does not work; seller does not accept returns",
+      "seller_feedback": "99.7% (21938 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/257815586401",
+      "site": "ebay",
+      "title": "Yaesu FT-840 HF Ham Radio Transceiver LCD SSB CW FM AM Mic Manual Power Leads",
+      "price": 450.0,
+      "shipping": 6.86,
+      "found_at": "2026-10-24",
+      "condition_notes": "eBay condition: Used. Title says includes mic, manual, power leads. Or Best Offer. Seller does not accept returns. Item description not read.",
+      "work_flag": "seller does not accept returns",
+      "seller_feedback": "100% (105 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366758981860",
+      "site": "ebay",
+      "title": "KENWOOD TM-733GVL 145/430MHz Dual Band Mobile Transceiver FM Amateur Radio",
+      "price": 442.79,
+      "shipping": 85.0,
+      "found_at": "2026-10-24",
+      "condition_notes": "eBay condition: Used. 145/430MHz per title (TM-733GVL, likely Japanese-market version; not the US TM-733A). eBay SpeedPAK Expedited shipping $85. 30-day returns, buyer pays return shipping. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "100% (233 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/840056024889",
+      "site": "ebay",
+      "title": "Kenwood R-1000 Shortwave Receiver AM SSB CW Radio",
+      "price": 199.0,
+      "shipping": 12.91,
+      "found_at": "2026-10-24",
+      "condition_notes": "eBay condition: Used. 30-day returns, buyer pays return shipping. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "100% (1336 ratings)"
+    }
+  ]
+}
