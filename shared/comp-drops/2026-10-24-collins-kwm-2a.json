@@ -1,0 +1,52 @@
+{
+  "model": "COLLINS KWM-2A",
+  "slug": "collins-kwm-2a",
+  "searched_at": "2026-10-24T18:49:10-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (LH_Sold=1, LH_Complete=1, sorted by end date recent first, page 1 only, \"results matching fewer words\" section ignored), signed in as Leo, no challenge. 4 kept, median 774.50, low 359.00, high 915.00. Solid (3+ comps). Best-offer-accepted sales dropped: 2 (117222256105 $250.00, 377548673687 $1499.95). Parts-only/for-parts/as-is/untested sales dropped: 5 (880023119858 $450.00, 206600558636 $380.32, 198691294606 $500.00, 117279626102 $764.99, 278189556871 $395.00). \"Read Description\" titles: none seen in the extract. Excluded as a different variant/non-unit: 178559002629 $200.00 (Collins S-Line KWM-2A 75S-3C 32S-3), 178420991519 $1299.00 (Collins Round Emblem Full Station). OUTLIER(S): 206478154276 $359.00 (kept, marked in comp notes). Excluded as non-unit/unclear: 178559002629 ($200, \"KWM-2A 75S-3C 32S-3\" title, item unclear) and 178420991519 ($1299 \"Round Emblem Full Station\", bundle). Accessory sales (516F-2 supplies, CP-1 crystal packs, tuning knobs) left out. 117279626102 ($764.99) title mentions \"parts only\" so treated as parts-only and dropped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782846",
+    "site": "qth",
+    "ask": 420,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 849.0,
+      "sold_date": "2026-09-18",
+      "condition": "not shown in search extract",
+      "url": "https://www.ebay.com/itm/287593018121",
+      "source": "ebay",
+      "notes": "fixed price; shipping 26.74.",
+      "flags": []
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-09-12",
+      "condition": "not shown in search extract",
+      "url": "https://www.ebay.com/itm/407163161193",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not marked accepted); shipping 171.21.",
+      "flags": []
+    },
+    {
+      "price": 359.0,
+      "sold_date": "2026-08-16",
+      "condition": "not shown in search extract",
+      "url": "https://www.ebay.com/itm/206478154276",
+      "source": "ebay",
+      "notes": "OUTLIER: low - under 0.5x the median ($849.00) of the other kept comps. auction final bid; shipping 36.95.",
+      "flags": []
+    },
+    {
+      "price": 915.0,
+      "sold_date": "2026-08-02",
+      "condition": "not shown in search extract",
+      "url": "https://www.ebay.com/itm/257643640208",
+      "source": "ebay",
+      "notes": "auction final bid; shipping 32.85.",
+      "flags": []
+    }
+  ]
+}
