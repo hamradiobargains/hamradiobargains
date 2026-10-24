@@ -1,0 +1,97 @@
+{
+  "run": "qth",
+  "run_date": "2026-10-24",
+  "ran_at": "2026-10-24T15:03:09-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-23T15:01:29-04:00 (prior qth drop ran_at). Scanned QTH all-ads pages 1-15 (all.php through ?page=15), one at a time; 150 ads reviewed (title + price): 140 on pages 1-14 plus 10 prior-window ads on page 15. Counter-ID range of new ads submitted since window start reviewed: 1783012-1783103 (80 new ads seen). IDs in that range not appearing in the list: 1783013, 1783018, 1783020, 1783026, 1783027, 1783028, 1783030, 1783031, 1783035, 1783043, 1783052, 1783091 - presumably deleted/expired, not checked individually. Pages 1-2 were read twice (first parse mis-paired ad bodies with IDs; corrected). Renewed/modified older ads interleaved on pages 1-14 also reviewed; ads marked Modified 10/23 could be from before the 15:01 window start (QTH shows dates only) and were reviewed anyway. End of window: page 15 is entirely prior-window ads (IDs 1782998-1783010, no modified dates). No unreviewed remainder. 8 candidates picked (cap 8). Extra plausible candidates not comped: 1783055 (Flex 6500 w/ ATU $1200 shipped, one scratch on top cover), 1782351 (Icom IC-7610 $2200 shipped, renewed - already in dropped-urls, not re-dropped), 1783103 (Icom IC-R75 receiver w/ UT-106 DSP, sync detector $500), 1783081 (Ameritron ALS-606 $1500 shipped / $1400 pickup), 1783088 (Collins 30L-1 $750 + ship), 1783014 (Kenwood TL-922A $1350 or BRO, 220V only, Harbach mods), 1783093 (Mercury LUX $3800 + ship), 1783094 (Yaesu FRG-100B $400), 1783092 (Kenwood TS-440SAT $450 shipped / TS-570D $600 shipped / TS-520S $300 shipped, all sales final no returns), 1783032 (Kenwood TS-50S + AT-50 Jahnke loaded $1200), 1783089 (Heath SB-1400 $285), 1783077 (EF Johnson 500 $2250), 1783085 (Collins 20V-3 BC transmitter $1800), 1783082 (Hallicrafters SX-101 $225), 1783059 (Flex Maestro B $700), 1783057 (Flex PGXL $4850), 1783033 (Elecraft P3 w/ VGA $799 - possibly relist of 1782934 seen 10/23), 1783075 ((tr)uSDX $90), renewed: 1780144 (IC-706MKIIG MARS mod $560), 1780147 (TS-450SAT w/ tuner $425), 1780148 (TS-2000 w/ box $650, driver transistors replaced with MOSFETs), 1782158 (IC-706MkIIG w/ separation kit $650 + ship), 1782435 (TS-570S + SP-430 $550). Possible relists of already-dropped ads (not picked): 1783061 Flex 6600M w/ATU $2899+$68 has the same ad text as 1782698 (already dropped); 1783016 Flex 6600 w/ATU $2199+$36 likely the same seller as 1782697 (already dropped) - not verified; 1783096 Xiegu G90 $350 matches 1783007 (already dropped, still listed). No clear asking price: 1783064 (Yaesu FTDX5000MP + SM-5000), 1783065/1783063 (Yaesu Quadra VL-1000 + VP-1000). Sale pending: 1782672 (TS-450SAT), 1782678 (TS-590SG), 1783066 (TH-D75A), 1783095 (Kohjinsha KP-1), 1782988 (Palstar AT4K). Comps: 3 ledger hits (Icom IC-7300MK2, Yaesu FT-857D, Icom IC-705); 5 eBay sold searches (FlexRadio FLEX-6700, FlexRadio FLEX-6500, Ten-Tec Omni VII, Alpha 87A, Elecraft K3/100). Elecraft K3 treated as ledger miss because the listing says 'Elecraft K3' and the ledger name is 'ELECRAFT K3/100' (same handling as 10/23). eBay signed in as Leo, no challenges. eHam not touched.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783097",
+      "site": "qth",
+      "title": "RADIOHF - Icom 7300Mk2",
+      "price": 1250.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-24",
+      "condition_notes": "Seller says new, bought new at HRO 9/28/2026, no TX time, MARS mod; comes with everything it came with. $1250 shipped UPS Ground. Postal money order or bank check only, no trades.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783068",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE: Yaesu FT-857D $650 shipped",
+      "price": 650.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-24",
+      "condition_notes": "Very nice used; seller not original owner; full power output HF/VHF/UHF; screen has no vertical lines; great cosmetic shape; original box, power cord, separation kit, mobile bracket. $650 shipped CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783060",
+      "site": "qth",
+      "title": "RADIOHF - For Sale: TEN TEC OMNI VII",
+      "price": 550.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-24",
+      "condition_notes": "Like new condition per seller, with 2 Collins CW filters; works and looks great. $550 shipped lower 48.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783058",
+      "site": "qth",
+      "title": "RADIOHF - FS: Flex-6700",
+      "price": 2300.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-24",
+      "condition_notes": "Very nice, works perfectly per seller; ships in original box by UPS. $2300 shipped.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783056",
+      "site": "qth",
+      "title": "RADIOHF - FS: Flex-6500",
+      "price": 1150.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-24",
+      "condition_notes": "Very nice, works perfectly per seller. $1150 shipped. Personal check on major bank or USPS money order.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783062",
+      "site": "qth",
+      "title": "RADIOHF - Icom IC-705 with Extras",
+      "price": 999.0,
+      "shipping": 36.0,
+      "found_at": "2026-10-24",
+      "condition_notes": "Excellent condition per seller, everything works; all original accessories, manuals and packaging; extras incl. new spare BP-307 battery, power brick with powerpoles, 2 BNC cables (seller values extras at $175). $999 + $36 shipped CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783017",
+      "site": "qth",
+      "title": "AMPHF - Alpha 87A With Alpha-Max",
+      "price": 1800.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-24",
+      "condition_notes": "Excellent condition, no issues per seller; with Alpha-Max; 1500 W out; embroidered dust cover. Seller would rather not ship (30 mi east of Cincinnati; can deliver along I-75 / possibly I-71). Shipping 0 = not offered/unknown. PayPal OK, buyer pays fees.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783034",
+      "site": "qth",
+      "title": "RADIOHF - Elecraft K3 very nice!",
+      "price": 899.0,
+      "shipping": 0.0,
+      "found_at": "2026-10-24",
+      "condition_notes": "Excellent cosmetic and working condition per seller; radio only with power cord; S/N 01148; latest firmware; KAT3 ATU, KPA3 100W PA, KXV3; filters 2.70/1.00/0.45/0.35. Pickup Mount Airy MD or NW DC; shipping at cost (unknown, recorded 0).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
