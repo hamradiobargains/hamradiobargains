@@ -1,0 +1,15 @@
+{
+  "model": "YAESU FT1DR",
+  "slug": "yaesu-ft1dr",
+  "searched_at": "2026-10-24T18:49:10-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (LH_Sold=1, LH_Complete=1, sorted by end date recent first, page 1 only, \"results matching fewer words\" section ignored), signed in as Leo, no challenge. 0 kept, median n/a. Zero qualifying comps. Best-offer-accepted sales dropped: 1 (236992011129 $200.00). Parts-only/for-parts/as-is/untested sales dropped: 0. \"Read Description\" titles: none seen in the extract. Search \"yaesu ft1dr\": 61 results, nearly all batteries/chargers/cables/cases (accessories left out); only one radio sale on page 1 (236992011129, $200, Best offer accepted, dropped), so zero qualifying comps.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782904",
+    "site": "qth",
+    "ask": 175,
+    "shipping": 0
+  },
+  "comps": []
+}
