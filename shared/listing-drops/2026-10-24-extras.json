@@ -1,0 +1,240 @@
+{
+  "run": "extras",
+  "run_date": "2026-10-24",
+  "ran_at": "2026-10-24T18:49:10-04:00",
+  "ran_by": "claude",
+  "notes": "Window: after the previous extras drop 2026-10-22-extras.json (ran_at 2026-10-22T19:05:00-04:00). Source drops covered: 2026-10-23-qth.json, 2026-10-23-eham.json, 2026-10-23-ebay.json, 2026-10-24-eham.json, 2026-10-24-qth.json, 2026-10-24-ebay.json. Only the two QTH drops list 'Extra plausible candidates not comped' (24 + 24 IDs); the eHam and eBay drops name none, so no eHam pages were opened (eHam not touched) and no eBay seller checks were needed. Queue: 24 CARRIED OVER IDs from the 10-22 extras drop at the front, then 46 fresh QTH extras (1782862 and 1782351 skipped - already in dropped-urls; 1782832 was both carry-over and fresh), then 30 BACKLOG CARRY IDs at the back (1782158 and 1782435 were moved up to their fresh-extra positions because the 10-24 QTH drop re-listed them; 1782501 is a carry-over; 1781385 already in dropped-urls) = 99 queued, 3 skipped as already dropped. Worked 20 ads (1782299 carries two radios, so 21 listing rows): the 24 carry-overs in queue order through 1782855, with 1782207, 1782501, 1782844 and 1782706 left over when the search cap hit. Live 18, no longer live 2 (1782818 Drake SW-4A, 1782812 Icom IC-R3 - both 'no longer in our system'). Ledger hits: 3 models covering 3 ads (ICOM IC-735 for 1775480; ICOM IC-7300MK2 for 1782852; ELECRAFT KPA500 for 1782831 - listing is KPA-500F, factory-built version, treated as the same ledger model). eBay sold searches used: 15 of 15 (astron vs-35m, qro 2500dx, yaesu ft1dr, ameritron al-80b, heathkit sb-221, yaesu ftdx101d, yaesu ftdx5000mp, yaesu ft-707, collins kwm-2a, yaesu ftm-400xdr, yaesu ft5dr, ameritron al-1500, alpha 8100, icom ic-720a, ldg at-1000proii); signed in as Leo, search pages 9+ s after load with well over 15 s between page loads, no challenges. Zero/thin results: QRO 2500DX 0 (eBay '0 results'), Yaesu FT1DR 0 (only one radio sale, Best offer accepted), Alpha 8100 0, Heathkit SB-221 1, Ameritron AL-80B 2, FTDX101D 2, FT-707 2, AL-1500 2. FTDX-9000D half of 1782299 not re-searched: 2026-10-22-yaesu-ftdx-9000d.json (0 kept) applies. Skipped: none. Cross-posts: none found; 1782845 and 1782842 are two different radios from the same seller (K4PC). Serial dedupe: no serials shown in any queued ad. Outliers: Collins KWM-2A 206478154276 $359 (auction, low vs $849/$700/$915); Yaesu FT5DR 317482667826 $598 (Brand New, high vs median ~$316). Model-identity notes: Astron VS-35M - three auction titles read 'VS-35M/RS-35' (kept, ambiguous); FTDX-5000MP 'Limited' sales kept separate and excluded; FT5DR titles often read 'FT5D/FT5DR' (kept); FTM-400XDR/DE titles kept, FTM-400DR and FTM-400XD excluded; IC-720 (no A) sale excluded from the IC-720A set; Elecraft KPA-500F treated as KPA500. Work-flag wording carried verbatim: 1782889 '10m mod done and setup for 240v.' (UNCERTAIN - 10 m modification, receive/transmit coverage not stated); 1782846 'It does need work... I have not tested the transmitter... plug in relay modification' (needs work; modification UNCERTAIN); 1782299 FTDX-5000MP 'the scope unit will not turn on'; 1782843 'Power supply upgraded with CTR Engineering 10 capacitor and diode board' (UNCERTAIN as a modification); 1782831 'Sold \"As is\"'; 1782898 'Sold as is. No returns, please.'; 1782880 'I will not offer any warranty'; 1782855 'PENDING FUNDS'. Ask changes: 1782832 Alpha 8100 now $2799 + $130 (was $2899 + $130). Opened and found live but NOT triaged (cap reached): 1782207 (Kenwood TM-710A V2, $600 shipped, 'Like new in original box', edited 10/22), 1782501 (National NCL-2000, $350 pickup only, 'In good working order', edited 10/21), 1782844 (Yaesu FT-726R, $350 + shipping, 'No warranty no returns', Piexx tone module installed), 1782706 (Drake T-4XC/R-4C/MS-4 + 2 AC-4, $495 cash and carry, NO RETURNS, edited 10/24). The 45 fresh QTH extras from 10-23/10-24 (after the carry-overs) were not opened this run. CARRIED OVER (cap reached, queue order): 1782207, 1782501, 1782844, 1782706, 1783002, 1782989, 1782991, 1782988, 1782934, 1782987, 1782979, 1782968, 1782982, 1782874, 1782962, 1782960, 1782956, 1782950, 1782937, 1782930, 1781465, 1782995, 1783008, 1782929, 1782967, 1782983, 1782942, 1783055, 1783103, 1783081, 1783088, 1783014, 1783093, 1783094, 1783092, 1783032, 1783089, 1783077, 1783085, 1783082, 1783059, 1783057, 1783033, 1783075, 1780144, 1780147, 1780148, 1782158, 1782435. BACKLOG CARRY (still at the back, source-drop order): 1782353, 1782345, 1782359, 1782031, 1782342, 1782368, 1782384, 1782363, 1782275, 1781393, 1782349, 1782453, 1782461, 1782430, 1782464, 1782442, 1776833, 1781779, 1777865, 1782542, 1782487, 1782484, 1782573, 1782575, 1782543, 1782570, 1780727, 1779930, 1782489, 1782467.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782804",
+      "site": "qth",
+      "title": "Astron VS-35M power supply",
+      "price": 250,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "live. Seller wording: \"This power supply is in good working condition with adjustable voltage and current controls and meters.\" $250 OBO; buyer to pay shipping (amount not stated) or delivery within 80 miles of 45612. comps: astron-vs-35m, 9 kept, median 128.50",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782818",
+      "site": "qth",
+      "title": "Drake SW-4A",
+      "price": 175,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "no longer live (\"no longer in our system\"). Ask recorded in the 10-21 QTH drop: $175. not comped: ad gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782812",
+      "site": "qth",
+      "title": "Icom IC-R3 receiver",
+      "price": 165,
+      "shipping": 0,
+      "found_at": "2026-10-21",
+      "condition_notes": "no longer live (\"no longer in our system\"). Ask recorded in the 10-21 QTH drop: $165. not comped: ad gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782852",
+      "site": "qth",
+      "title": "Icom IC-7300MKII HF/6M transceiver (brand new)",
+      "price": 1349,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live. Seller wording: \"brand new Icom IC-7300MKII\", \"has not been turned on. I just took it out of the box for pictures.\" Price $1349, payment via Zelle, money order; shipping not stated. ledger hit (2026-10-24-1849-icom-ic-7300mk2, ledger median/count in comp file)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1775480",
+      "site": "qth",
+      "title": "Icom IC-735 + PS-55 supply + AT-150 tuner",
+      "price": 400,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live (edited 10/22/26, renewed). Seller wording: \"Tested - good condition\", \"All three pieces\", \"Does not include shipping\" (amount not stated), \"Price dropped from $650 to $400\", \"Silent key estate sale\"; local pickup Philadelphia area suggested. ledger hit (2026-10-24-icom-ic-735, ledger median/count in comp file)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782905",
+      "site": "qth",
+      "title": "QRO 2500DX HF amplifier",
+      "price": 2100,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live. Seller wording: \"Great condition with a pair of GU/74b /4cx800 tubes\", \"Does 2k out and more but my dummy load is limited\", $2100 shipped/insured US; two-tube version. not comped: eBay sold search returned 0 qualifying comps (file 2026-10-24-qro-2500dx.json)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782904",
+      "site": "qth",
+      "title": "Yaesu FT1DR dual-band HT",
+      "price": 175,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live. Seller wording: \"Like new condition\", \"Original Box, Manual, Charger and Antenna\"; $175 shipped/insured US. not comped: eBay sold search returned 0 qualifying comps (file 2026-10-24-yaesu-ft1dr.json)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782889",
+      "site": "qth",
+      "title": "Ameritron AL-80B amplifier",
+      "price": 850,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live. Seller wording: \"Great condition\", \"No dings or dents. All lights operate as they should\", \"10m mod done and setup for 240v\"; $850, PICKUP OR MEET ONLY (South Jersey/Philly), \"Won't ship\". comps: ameritron-al-80b, 2 kept, median 974.99",
+      "work_flag": "10m mod done and setup for 240v.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782880",
+      "site": "qth",
+      "title": "Heathkit SB-221 amplifier",
+      "price": 650,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live. Seller wording: \"Heathkit SB-221 NO 10 meters\", \"tried it on 40m with 40 watts input 300 out into a Palstar 2K dummy load\", \"wired for 240 volts\"; $650 cash and carry, will not ship. comps: heathkit-sb-221, 1 kept, median 1000.00",
+      "work_flag": "I will not offer any warranty as it is 50 years old or so. (seller recommends Harbach-type upgrade, new capacitors)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782860",
+      "site": "qth",
+      "title": "Yaesu FTDX101D + external matching speaker",
+      "price": 2900,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live. Seller wording: \"USED ONLY FOR HF QSO ACTIVITY GROUP SSB AND RAGCHEW\", \"EXCELLLENT CONDITION, NO PETS, NO SMOKER\", hand mic, original box; $2900, \"I SHIP UPS - NO PAY PAL SHIPS WHEN CHECK CLEARS\" (shipping cost not stated). comps: yaesu-ftdx101d, 2 kept, median 1499.50",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782299",
+      "site": "qth",
+      "title": "Yaesu FTDX-9000D (SK estate; ad also lists an FTDX-5000MP)",
+      "price": 4700,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live. Seller wording: \"FTDX-9000D with the box and manual, $4700\", \"I did some brief testing of the transceivers and found no problems\", \"Local pickup is preferred ( cash and carry ) but shipping can be arranged at your cost\". comps: not comped this run - FTDX-9000D search on 2026-10-22 returned 0 kept (see 2026-10-22-yaesu-ftdx-9000d.json). Companion entry for the FTDX-5000MP is the next listing.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782299",
+      "site": "qth",
+      "title": "Yaesu FTDX-5000MP with optional spectrum scope (SK estate; same ad as FTDX-9000D)",
+      "price": 2250,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live. Seller wording: \"FTDX-5000MP with manual copy, no box, includes the optional spectrum scope, $2250\", \"Note the scope unit will not turn on\", \"I did some brief testing of the transceivers and found no problems\"; shipping at buyer cost. comps: yaesu-ftdx-5000mp, 4 kept, median 3150.00",
+      "work_flag": "Note the scope unit will not turn on",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1780595",
+      "site": "qth",
+      "title": "Yaesu FT-707 HF transceiver",
+      "price": 300,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live (renewed). Seller wording: \"Very. Nice Classic Yaesu FT-707 SSB HF transceiver\", \"Nice condition 10-80 meters including 12,17,30, meters\", \"working well\", MH-1 mic, DC cable, manual copy; $300 plus shipping USA only (amount not stated). comps: yaesu-ft-707, 2 kept, median 349.69",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782846",
+      "site": "qth",
+      "title": "Collins KWM-2A transceiver",
+      "price": 420,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live. Seller wording: \"complete and in good condition. It does need work. The steel cable between the band switch and the amplifier compartment has come off of the pulleys. The receiver works on 80 meters. I have not tested the transmitter. It has the plug in relay modification which is a big plus. I also replaced some of the electrolytic capacitors.\" $420 plus shipping (amount not stated); \"Offered as is.\" comps: collins-kwm-2a, 4 kept, median 774.50 (one low outlier, see comp file)",
+      "work_flag": "It does need work. The steel cable between the band switch and the amplifier compartment has come off of the pulleys. The receiver works on 80 meters. I have not tested the transmitter. It has the plug in relay modification. I also replaced some of the electrolytic capacitors. Offered as is.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782845",
+      "site": "qth",
+      "title": "Yaesu FTM-400XDR dual-band mobile",
+      "price": 390,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live. Seller wording: \"excellent condition, factory reset, non smoke, non-pet environment\", GPS, original DTMF mic, mounting hardware, control cable, power cord, box, no manual, RT Systems programming cable included; $390 shipped CONUS. Same seller (K4PC) as 1782842. comps: yaesu-ftm-400xdr, 15 kept, median 430.93",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782842",
+      "site": "qth",
+      "title": "Yaesu FT5DR dual-band HT with extras",
+      "price": 390,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live. Seller wording: \"excellent condition, factory reset, non smoke, non-pet environment, original box, manual, antenna, battery\", plus CD-41 charger, SDD-13 car charger, SSM-17 speaker/mic; \"bought only used a few times\"; $390 shipped CONUS. Same seller (K4PC) as 1782845. comps: yaesu-ft5dr, 26 kept, median 315.98 (one high outlier, see comp file)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782843",
+      "site": "qth",
+      "title": "Ameritron AL-1500 amplifier",
+      "price": 2700,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live. Seller wording: \"Clean example with strong 8877 tube, 1500 watts with 30-40 watts of drive and low grid current\", \"Power supply upgraded with CTR Engineering 10 capacitor and diode board. Added silicone tube chimney to vent heat out top of cabinet. Ham supply front panel overlay.\" $2700 OBO, \"no trades\", local sale (demo at seller QTH, delivery possible for Front Range of Colorado). comps: ameritron-al-1500, 2 kept, median 3749.97",
+      "work_flag": "Power supply upgraded with CTR Engineering 10 capacitor and diode board. Added silicone tube chimney to vent heat out top of cabinet.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782832",
+      "site": "qth",
+      "title": "Alpha 8100 HF amplifier",
+      "price": 2799,
+      "shipping": 130,
+      "found_at": "2026-10-22",
+      "condition_notes": "live (edited 10/24/26; ask now $2799, was $2899 in the 10/22 drop). Seller wording: \"beautiful Alpha 8100 HF amplifier\", \"exceeds the legal limit with around 40W input\", \"wonderful clean physical condition\", \"carefully double boxed with the transformer removed for shipping\"; $2799 + $130 shipped and insured CONUS. not comped: eBay sold search returned 0 qualifying comps (file 2026-10-24-alpha-8100.json)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782831",
+      "site": "qth",
+      "title": "Elecraft KPA-500F amplifier",
+      "price": 2350,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live. Seller wording: \"Excellent little factory built, 240V\", \"Not a mark on it and in original box\", non-smoke/non-pet; $2350 shipped CONUS; Sold \"As is\" No trades. Seller bought a PGXL. ledger hit (2026-10-24-elecraft-kpa500, ledger median/count in comp file)",
+      "work_flag": "Sold \"As is\" No trades",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782898",
+      "site": "qth",
+      "title": "Icom IC-720A + IC-PS20 supply + MFJ-945C tuner",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live. Seller wording: \"fully functional ICOM IC-720A Transceiver with an ICOM IC-PS20 Power Supply and MFJ Versa Tuner II Model MFJ-945C\"; $200 with local pickup or shipping to be determined; \"Sold as is. No returns, please.\" comps: icom-ic-720a, 6 kept, median 269.50 - comps are radio-only sales; ask is a three-piece bundle",
+      "work_flag": "Sold as is. No returns, please.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782855",
+      "site": "qth",
+      "title": "LDG AT-1000ProII autotuner",
+      "price": 350,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live (status wording \"PENDING FUNDS\"). Seller wording: \"Tuner is in perfect operating and working condition. Comes with power cord.\" $350 shipped, free to lower 48; \"PENDING FUNDS\". comps: ldg-at-1000proii, 5 kept, median 400.00",
+      "work_flag": "PENDING FUNDS (seller wording in ad)",
+      "seller_feedback": ""
+    }
+  ]
+}
