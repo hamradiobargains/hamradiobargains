@@ -1,0 +1,54 @@
+{
+  "model": "Yaesu FT-1000MP Mark V",
+  "slug": "yaesu-ft-1000mp-mark-v",
+  "searched_at": "2026-10-24T05:54:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in), 'Results matching fewer words' ignored. 4 kept comps (200W Mark V units). Dropped 0 best-offer-accepted, dropped 2 parts-only (128097687377 $806 auction Oct 5; 327244807201 $1,500 Oct 1). Excluded as different model: Mark V Field units (227482763811 parts-only, 198595099835 as-is parts, 158064118153 best-offer-accepted) and plain FT-1000MP / FT-1000D / FT-1000 units. Excluded accessories/parts (manuals, FP-29 PSU and cables, PA/tuner/LPF/CNTL boards, filters, panels, LED kit). OUTLIERS: $1,980 (Oct 6, +$500 int'l delivery) vs ~$1,100 for the rest; $450 (Sep 17) vs ~$1,156 for the rest. Spread is wide; the two middle comps are $1,100 and $1,156.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629314",
+    "site": "eham",
+    "ask": 975.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1980.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128045553701",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,980 vs ~$1,100 median of the rest. Title 'YAESU FT-1000MP MARK-V 200W FP-29 Working'. Card also showed '$1,683.00 with coupon or Best Offer' (not marked best offer accepted); +$500.00 delivery, includes import.",
+      "flags": []
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158213724218",
+      "source": "ebay",
+      "notes": "Buy It Now; +$100.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800677669533",
+      "source": "ebay",
+      "notes": "OUTLIER: $450 vs ~$1,156 median of the rest. Title 'Yaesu FT-1000MP MARK-V HF Ham Radio Transceiver w/ LCD Screen Black'; 'or Best Offer' listing not marked accepted; +$26.86 delivery. Title does not say 200W or Field.",
+      "flags": []
+    },
+    {
+      "price": 1156.0,
+      "sold_date": "2026-08-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117084362621",
+      "source": "ebay",
+      "notes": "Title 'YAESU FT-1000MP MARK-V 200W FP-29, SP-8 - Working'; Buy It Now (struck-through $1,445); +$50.38 delivery. Includes SP-8 speaker.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
