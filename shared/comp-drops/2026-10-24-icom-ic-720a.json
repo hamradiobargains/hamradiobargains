@@ -1,0 +1,70 @@
+{
+  "model": "ICOM IC-720A",
+  "slug": "icom-ic-720a",
+  "searched_at": "2026-10-24T18:49:10-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (LH_Sold=1, LH_Complete=1, sorted by end date recent first, page 1 only, \"results matching fewer words\" section ignored), signed in as Leo, no challenge. 6 kept, median 269.50, low 146.50, high 349.00. Solid (3+ comps). Best-offer-accepted sales dropped: 3 (307003750662 $289.00, 178476128717 $75.00, 198528547314 $200.00). Parts-only/for-parts/as-is/untested sales dropped: 2 (178380056023 $395.00, 398312149389 $119.95). \"Read Description\" titles: none seen in the extract. Excluded as a different variant/non-unit: 307204102759 $336.28 (Icom IC-720 HF Transceiver / HF ge (IC-7). IC-720 (no A) sale 307204102759 ($336.28 auction) excluded as a different model. Service manual, board, sensor unit and IC-PS15 supply sales left out. Ask is a bundle (IC-720A + IC-PS20 + MFJ-945C); comps are radio-only sales.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782898",
+    "site": "qth",
+    "ask": 200,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 295.0,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168761570842",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not marked accepted); shipping 25.00.",
+      "flags": []
+    },
+    {
+      "price": 349.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318744606371",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not marked accepted); shipping 38.48.",
+      "flags": []
+    },
+    {
+      "price": 199.0,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800643056411",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not marked accepted); shipping 50.00.",
+      "flags": []
+    },
+    {
+      "price": 146.5,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318766639902",
+      "source": "ebay",
+      "notes": "auction final bid; shipping 38.49.",
+      "flags": []
+    },
+    {
+      "price": 289.0,
+      "sold_date": "2026-08-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257665798077",
+      "source": "ebay",
+      "notes": "fixed price; shipping 47.00.",
+      "flags": []
+    },
+    {
+      "price": 249.99,
+      "sold_date": "2026-07-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358396142746",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not marked accepted); shipping 18.99.",
+      "flags": []
+    }
+  ]
+}
