@@ -1,0 +1,34 @@
+{
+  "model": "YAESU FT-707",
+  "slug": "yaesu-ft-707",
+  "searched_at": "2026-10-24T18:49:10-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (LH_Sold=1, LH_Complete=1, sorted by end date recent first, page 1 only, \"results matching fewer words\" section ignored), signed in as Leo, no challenge. 2 kept, median 349.69, low 220.00, high 479.39. Thin (2 comps). Best-offer-accepted sales dropped: 0. Parts-only/for-parts/as-is/untested sales dropped: 0. \"Read Description\" titles: none seen in the extract. Page 1 had only two FT-707 radio sales (other rows were accessories/other models).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1780595",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 220.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227508243659",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not marked accepted); shipping 29.55.",
+      "flags": []
+    },
+    {
+      "price": 479.39,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398345258931",
+      "source": "ebay",
+      "notes": "fixed price; free shipping.",
+      "flags": []
+    }
+  ]
+}
