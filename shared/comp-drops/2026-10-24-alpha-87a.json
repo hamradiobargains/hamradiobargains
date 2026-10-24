@@ -1,0 +1,25 @@
+{
+  "model": "Alpha 87A",
+  "slug": "alpha-87a",
+  "searched_at": "2026-10-24T15:03:09-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "searched_at is the file-build time; eBay searches ran ~14:57-15:02 ET. eBay sold search 'alpha 87a', page 1 only (2 results, plus a 'fewer words' section that was ignored). Ledger miss (no Alpha 87A entry). Kept 1 unit sale, titled 'Alpha PA-87A' - taken as the Alpha 87A; title says 'roughly 1KW out' (87A is rated 1500 W) - noted, not flagged. Left out: top-cover screw set. Dropped 0 best-offer-accepted, 0 parts-only. No outliers. Thin (1 comp).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783017",
+    "site": "qth",
+    "ask": 1800.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 2000.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198696594815",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'Alpha PA-87A Vintage Ham Radio Amplifier (A+ cosmetics, roughly 1KW out)'. Shipping +$180.00.",
+      "flags": []
+    }
+  ]
+}
