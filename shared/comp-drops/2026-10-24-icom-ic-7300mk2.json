@@ -1,0 +1,22 @@
+{
+  "model": "Icom IC-7300MK2",
+  "slug": "icom-ic-7300mk2",
+  "searched_at": "2026-10-24T15:03:09-04:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 1200.0, count 5, ledger date 2026-10-02 — ledger hit — individual sales behind the median are not auditable from this file",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783097",
+    "site": "qth",
+    "ask": 1250.0,
+    "shipping": 0.0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 1200.0,
+    "low": 1121.01,
+    "high": 1300.0,
+    "count": 5,
+    "date": "2026-10-02"
+  }
+}
