@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-6700",
+  "slug": "flexradio-flex-6700",
+  "searched_at": "2026-10-24T15:03:09-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "searched_at is the file-build time; eBay searches ran ~14:57-15:02 ET. eBay sold search 'flexradio flex-6700', page 1 only. Ledger miss (no FLEX-6700 entry). Page 1 returned 3 results, all FlexRadio 6600M (different model) - left out. Dropped 0 best-offer-accepted, 0 parts-only. Zero qualifying comps - thin (none).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783058",
+    "site": "qth",
+    "ask": 2300.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
