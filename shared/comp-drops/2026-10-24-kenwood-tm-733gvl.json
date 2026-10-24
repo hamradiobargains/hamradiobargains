@@ -1,0 +1,15 @@
+{
+  "model": "Kenwood TM-733GVL",
+  "slug": "kenwood-tm-733gvl",
+  "searched_at": "2026-10-24T18:01:31-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "no comps - 0 kept. Page 1 of the TM-733GVL sold search returned only TM-733A sales (US version), left out as not certain to be the same model as the TM-733GVL trigger: 206623323486 Oct 13 $104.99 BIN; 206534326363 Sep 3 $91.00 auction 1 bid; 257677332085 Aug 18 $269.00 (with remote head kit); plus 1 best-offer-accepted (257677334752, $189 listed) and 1 parts-only (168644198341, $160). Leo may decide whether TM-733A is comparable.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366758981860",
+    "site": "ebay",
+    "ask": 442.79,
+    "shipping": 85.0
+  },
+  "comps": []
+}
