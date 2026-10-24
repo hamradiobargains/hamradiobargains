@@ -1,0 +1,45 @@
+{
+  "model": "Yaesu FT-7800R",
+  "slug": "yaesu-ft-7800r",
+  "searched_at": "2026-10-24T18:01:31-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "3 kept comps. dropped 1 best-offer-accepted (137825844530 Oct 8 'Lot, Untested', Parts Only, $175 listed). dropped 1 parts-only (800566730270 Sep 7 'Lot, Untested', Parts Only, $158). Accessories (power cord, stands, adaptor, service manual) excluded. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/237142299166",
+    "site": "ebay",
+    "ask": 230.0,
+    "shipping": 14.73
+  },
+  "comps": [
+    {
+      "price": 229.99,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287616701033",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer listing, not best-offer-accepted). Title says 'Good working condition'. Shipping $7.78.",
+      "flags": []
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257727769229",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer listing, not best-offer-accepted). Title says 'Working'. Shipping $18.30.",
+      "flags": []
+    },
+    {
+      "price": 242.5,
+      "sold_date": "2026-08-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227449244423",
+      "source": "ebay",
+      "notes": "Auction, 50 bids. Title says 'BUNDLE' (contents not listed in title). Shipping $15.00.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
