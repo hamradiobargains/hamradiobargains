@@ -1,0 +1,52 @@
+{
+  "model": "YAESU FTDX-5000MP",
+  "slug": "yaesu-ftdx-5000mp",
+  "searched_at": "2026-10-24T18:49:10-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (LH_Sold=1, LH_Complete=1, sorted by end date recent first, page 1 only, \"results matching fewer words\" section ignored), signed in as Leo, no challenge. 4 kept, median 3150.00, low 1935.00, high 3400.00. Solid (3+ comps). Best-offer-accepted sales dropped: 2 (336828041694 $2025.00, 287491714354 $3099.95). Parts-only/for-parts/as-is/untested sales dropped: 1 (237082048003 $1700.00). \"Read Description\" titles: none seen in the extract. Excluded as a different variant/non-unit: 206481360086 $3105.00 (Yaesu FTdx5000MP Limited Ham Radio), 336749595298 $4250.00 (Rare 2021 Yaesu FTdx5000MP Limited). FTDX-5000MP \"Limited\" edition sales kept separate from the standard MP (identity follows hardware) and excluded. Filter-set accessory sale ($500, 237009741360) left out. FTDX-9000D for the same Estate listing: see 2026-10-22-yaesu-ftdx-9000d.json (0 kept). Ad says the optional spectrum scope unit will not turn on; no scope-option comp flags shown in titles.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782299",
+    "site": "qth",
+    "ask": 2250,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1935.0,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960075702840",
+      "source": "ebay",
+      "notes": "auction final bid; shipping 222.77.",
+      "flags": []
+    },
+    {
+      "price": 3000.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206564199819",
+      "source": "ebay",
+      "notes": "fixed price; shipping 206.20.",
+      "flags": []
+    },
+    {
+      "price": 3400.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/389087440544",
+      "source": "ebay",
+      "notes": "fixed price; shipping 235.85.",
+      "flags": []
+    },
+    {
+      "price": 3300.0,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127876026400",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not marked accepted); shipping 310.00.",
+      "flags": []
+    }
+  ]
+}
