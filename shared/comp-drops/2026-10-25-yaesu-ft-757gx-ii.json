@@ -1,0 +1,45 @@
+{
+  "model": "Yaesu FT-757GX II",
+  "slug": "yaesu-ft-757gx-ii",
+  "searched_at": "2026-10-25T17:57:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (above \"fewer words\" section). 3 kept. Dropped 2 best-offer-accepted (287472101928 $400, 800444707775 $600 w/ tuner + PSU). Dropped 4 parts-only (206509747341 and 206498455031 both \"UNTESTED\" $249.99, likely the same unit relisted; 158144199874 $185; 117325919374 $175) — 3 of those 4 were also best-offer-accepted. Excluded non-unit items (manuals, tech supplement, bottom cover, front fascia panel) and other models (FT-757GX, FT-767GX). No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/287679379026",
+    "site": "ebay",
+    "ask": 445.95,
+    "shipping": 58.0
+  },
+  "comps": [
+    {
+      "price": 425.0,
+      "sold_date": "2026-08-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398275083647",
+      "source": "ebay",
+      "notes": "Includes FC-757AT tuner; free shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147468283982",
+      "source": "ebay",
+      "notes": "Buy It Now; title says \"Working Confirmed\"; +$35.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 299.99,
+      "sold_date": "2026-08-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267745792776",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; title \"FT-757GX2\"; +$30.00 shipping",
+      "flags": []
+    }
+  ]
+}
