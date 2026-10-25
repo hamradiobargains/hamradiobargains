@@ -1,0 +1,76 @@
+{
+  "model": "Icom IC-720A",
+  "slug": "icom-ic-720a",
+  "searched_at": "2026-10-25T05:55:52-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "6 kept comps. Dropped 2 best-offer-accepted (198528547314 $200; 307003750662 $289, which was also parts-only). Dropped 3 parts-only (178380056023 $395 'Parts Only' w/ PS15; 398312149389 $119.95 'for PARTS REPAIR ONLY'; 307003750662 'NEEDS WORK', counted in both). Excluded IC-720 (non-A) units 178476128717 and the UK IC-720 sale (different model), plus a B413 board, a service manual, a PS15 PSU and a sensor unit (accessories). No outliers. Three kept comps include the IC-PS15 power supply and/or mic (flagged extras_included).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629318",
+    "site": "eham",
+    "ask": 249.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 295.0,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168761570842",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not 'accepted'); +$25.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 349.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318744606371",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not 'accepted'); +$38.48 delivery",
+      "flags": []
+    },
+    {
+      "price": 199.0,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800643056411",
+      "source": "ebay",
+      "notes": "includes ICOM IC-PS15 power supply, no mic; or Best Offer listing (not 'accepted'); +$50.00 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 146.5,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318766639902",
+      "source": "ebay",
+      "notes": "auction, 43 bids; includes ICOM IC-PS15 power supply and microphone; +$38.99 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 289.0,
+      "sold_date": "2026-08-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257665798077",
+      "source": "ebay",
+      "notes": "Buy It Now; includes mic and power cord; +$47.00 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 249.99,
+      "sold_date": "2026-07-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358396142746",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not 'accepted'); +$18.99 delivery",
+      "flags": []
+    }
+  ]
+}
