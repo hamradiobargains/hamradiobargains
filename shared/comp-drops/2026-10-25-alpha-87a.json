@@ -1,0 +1,25 @@
+{
+  "model": "Alpha 87A",
+  "slug": "alpha-87a",
+  "searched_at": "2026-10-25T19:05:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"alpha 87a\": 1 kept (thin). Excluded: 388825469796 (top cover parts, $5.95). Ledger had count 1 (2026-10-11 $2000), so searched; result matches ledger single sale.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783002",
+    "site": "qth",
+    "ask": 2500,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 2000.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198696594815",
+      "source": "ebay",
+      "notes": "Buy It Now; titled \"Alpha PA-87A ... (A+ cosmetic ...)\"; shipping +$180.00; same sale as ledger count 1",
+      "flags": []
+    }
+  ]
+}
