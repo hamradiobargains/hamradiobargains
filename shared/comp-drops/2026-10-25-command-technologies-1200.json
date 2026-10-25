@@ -1,0 +1,15 @@
+{
+  "model": "Command Technologies Command 1200 6m amplifier",
+  "slug": "command-technologies-1200",
+  "searched_at": "2026-10-25T19:12:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"command 1200 6 meter amplifier\": 0 results on page 1 (eBay returned no sold listings). Not comped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781465",
+    "site": "qth",
+    "ask": 1200,
+    "shipping": 0
+  },
+  "comps": []
+}
