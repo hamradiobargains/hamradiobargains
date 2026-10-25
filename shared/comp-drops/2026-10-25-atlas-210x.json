@@ -1,0 +1,36 @@
+{
+  "model": "Atlas 210x",
+  "slug": "atlas-210x",
+  "searched_at": "2026-10-25T19:09:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"atlas 210x\": 2 kept (thin). Dropped: parts-only 3 (237075888996 Sep 23 $84, 9 bids; 287565574878 Sep 5 $250 also best offer accepted; 227453764563 Jul 31 $150 untested); as-is 1 (227540678652 Sep 27 $149.99, title \"Powers On As Is\"); best offer accepted 1 (287565574878, counted above). Excluded: circuit board set, AR-117 power supply, mic plug, rug. Model identity: the trigger listing is the Atlas 210x LIMITED EDITION (1000 made, higher power per ad); no Limited Edition sales appeared, so these are standard 210x comps and may not apply to the LE.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782874",
+    "site": "qth",
+    "ask": 550,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 300.0,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206527741221",
+      "source": "ebay",
+      "notes": "Buy It Now; Atlas 210X + Power Supply per title; shipping +$64.50",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257689722093",
+      "source": "ebay",
+      "notes": "Buy It Now; title says Working; shipping +$20.00",
+      "flags": []
+    }
+  ]
+}
