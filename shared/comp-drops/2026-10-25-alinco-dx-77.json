@@ -1,0 +1,15 @@
+{
+  "model": "Alinco DX-77",
+  "slug": "alinco-dx-77",
+  "searched_at": "2026-10-25T19:08:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"alinco dx-77\": 0 kept. Dropped: 327366924524 (Oct 1 2026, $475, \"Alinco DX-77T\" Open Box, Best offer accepted, +$14.80) - best offer accepted (also DX-77T vs DX-77 listing wording, kept separate). Excluded: 376358387776 (DX-77 digimode interface, $59.99 - accessory). Not comped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782987",
+    "site": "qth",
+    "ask": 325,
+    "shipping": 0
+  },
+  "comps": []
+}
