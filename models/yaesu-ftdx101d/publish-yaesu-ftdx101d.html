@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ============================================================
+  MODEL PAGE TEMPLATE — Ham Radio Bargains
+  Working template for build_model_pages.py — do not hand-edit
+  per-model values; every dynamic value is a named token from the
+  TOKENS list below, written in double braces.
+
+  URL pattern: /models/yaesu-ftdx101d/   e.g. /models/icom-ic-7300/
+
+  TOKENS (replaced at build time):
+    Yaesu FTDX101D yaesu-ftdx101d YAESU FTDX101D 2026 2,375 1,300
+    2,700 12 September 17, 2026 What&#x27;s a Yaesu FTDX101D worth? Based on 12 recent sold listings, fair market value is ~$2,375 (range $1,300–$2,700). See price history, sold comps, and live below-market deals.
+    The FTDX101D is Yaesu&#x27;s 100-watt HF + 6-meter flagship-class base transceiver — 160 through 6 meters, SSB / CW / AM / FM / RTTY and digital modes, running from a user-supplied 13.8 V DC supply. It first appeared at the 2018 Hamvention and was reviewed in the November 2019 QST, so used examples are now old enough to show up at a real discount to new. Its party trick is a hybrid SDR design: a down-conversion narrow-band SDR receiver with crystal roofing filters does the actual listening, while a direct-sampling SDR drives the real-time spectrum scope. That is the combination Yaesu built its reputation for this radio on — pulling a weak signal out from next to a strong one in contests and pileups.
+
+What makes it good is the receiver numbers, and they are not just brochure copy. Yaesu quotes 123 dB+ reciprocal-mixing dynamic range, 150 dB+ blocking dynamic range, and 110 dB+ third-order IMD dynamic range at 2 kHz spacing, with -150 dBc/Hz phase noise at 2 kHz. Sherwood Engineering&#x27;s independent test of a production unit (serial 9F010008, test starting 10 May 2019) measured 110 dB dynamic range at 2 kHz spacing and 124 dB RMDR at 2.5 kHz, and Yaesu has long promoted the model as Sherwood&#x27;s &quot;#1 Highest Performing Receiver&quot; — treat that as a period ranking from its launch era, not a claim about today&#x27;s table. You also get two completely independent receivers, VC Tune on the main receiver — a motor-driven variable-capacitor RF preselector Yaesu rates at up to -70 dB attenuation of strong off-frequency signals — and a 7-inch colour touch display with Yaesu&#x27;s 3DSS (3-Dimensional Spectrum Stream) view alongside a conventional waterfall.
+
+For a bargain hunter, the exact build of the individual radio matters more than the model name. Standard on the D are 12 kHz, 3 kHz and 600 Hz roofing filters in both main and sub receivers, and VC Tune in the main receiver only. The 300 Hz CW and 1.2 kHz SSB roofing filters (main and/or sub) and a second VC Tune unit for the sub receiver were factory / Yaesu-only options — DX Engineering&#x27;s listing is explicit that a standard stock radio &quot;cannot be internally upgraded by the user,&quot; so a used radio either left Yaesu with those options or it does not have them. Ask the seller, in writing, exactly which optional filters and whether a sub-receiver VC Tune are fitted, whether the stock hand microphone is included, and whether an SP-101 speaker is part of the deal — our own comp ledger shows those items are what move the value on this model, up and down. A bare radio with no mic is not the same buy as a loaded one with the extra CW filter and speaker, even at the same asking price.
+
+Watch-outs from owners and testers, all sourced below: early test and reflector reports documented transmit power overshoot at the start of a transmission — Sherwood flagged it as a risk when driving a linear amplifier, and a later groups.io thread reported a residual ~20% slow overshoot even after Yaesu addressed the earlier sharp spike — so if you run an amp, ask how the radio behaves on the first syllable / first dit and test carefully at low drive first. Ergonomics are the other recurring complaint: there is no dedicated RF power knob (power is set through a menu / multifunction control, assignable to the C.S. key), the menu system and small fonts are criticised in eHam reviews summarised online, and some long-term owners say they rarely used the second receiver or found VC Tune fiddly to operate. None of that undoes the receiver — but it is why you should hands-on one if you can, and why a clean, fully-optioned, fully-accessorised example is the one worth paying up for. <svg viewBox="0 0 620 280" width="100%" role="img" aria-label="Trailing 10-month median sold price trend">
+      <line x1="40" y1="230" x2="40" y2="40" stroke="#2c2c2e"/>
+      <line x1="40" y1="230" x2="600" y2="230" stroke="#2c2c2e"/>
+      <g font-size="11" fill="#9a9aa0" stroke="none">
+        <line x1="40" y1="230" x2="600" y2="230"/><text x="8" y="234">$895</text><line x1="40" y1="182" x2="600" y2="182"/><text x="8" y="186">$1,435</text><line x1="40" y1="135" x2="600" y2="135"/><text x="8" y="139">$1,975</text><line x1="40" y1="88" x2="600" y2="88"/><text x="8" y="92">$2,515</text><line x1="40" y1="40" x2="600" y2="40"/><text x="8" y="44">$3,055</text>
+      </g>
+      <g stroke="#2c2c2e" stroke-dasharray="3,4" fill="none">
+        <line x1="40" y1="230" x2="600" y2="230"/><line x1="40" y1="182" x2="600" y2="182"/><line x1="40" y1="135" x2="600" y2="135"/><line x1="40" y1="88" x2="600" y2="88"/><line x1="40" y1="40" x2="600" y2="40"/>
+      </g>
+      <polyline fill="none" stroke="#ff8c1a" stroke-width="3" points="40,76 102,111 164,89 227,80 289,98 351,98 413,102 476,194 538,194 600,159"/>
+      <g fill="#ff8c1a">
+        <circle cx="40" cy="76" r="4"/>
+        <circle cx="102" cy="111" r="4"/>
+        <circle cx="164" cy="89" r="4"/>
+        <circle cx="227" cy="80" r="4"/>
+        <circle cx="289" cy="98" r="4"/>
+        <circle cx="351" cy="98" r="4"/>
+        <circle cx="413" cy="102" r="4"/>
+        <circle cx="476" cy="194" r="4"/>
+        <circle cx="538" cy="194" r="4"/>
+        <circle cx="600" cy="159" r="4"/>
+      </g>
+      <g font-size="11" fill="#9a9aa0">
+        <text x="32" y="250">Nov &#x27;24</text>
+        <text x="570" y="250">Sep &#x27;26</text>
+        <text x="540" y="147" fill="#ff8c1a" font-weight="700">$1,699</text>
+      </g>
+    </svg> Median sold price per month from 12 sold listings (Nov &#x27;24–Sep &#x27;26). Down ~36% over the period. <tr><td>Sep 2026</td><td>Yaesu FTDX101D</td><td>$1,699</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>Aug 2026</td><td>Yaesu FTDX101D</td><td>$1,300</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>Jul 2026</td><td>Yaesu FTDX101D</td><td>$1,300</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>May 2026</td><td>Yaesu FTDX101D</td><td>$2,350</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>Mar 2026</td><td>Yaesu FTDX101D</td><td>$2,400</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>Dec 2025</td><td>Yaesu FTDX101D</td><td>$2,400</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>Aug 2025</td><td>Yaesu FTDX101D</td><td>$2,600</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>Aug 2025</td><td>Yaesu FTDX101D</td><td>$2,700</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>Aug 2025</td><td>Yaesu FTDX101D</td><td>$2,150</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>May 2025</td><td>Yaesu FTDX101D</td><td>$2,500</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>Jan 2025</td><td>Yaesu FTDX101D</td><td>$2,250</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>Nov 2024</td><td>Yaesu FTDX101D</td><td>$2,650</td><td><span class="sold-tag">SOLD</span></td></tr>
+    <p class="fine">No live below-market deals on this model right now &mdash; the good ones sell fast. <a href="#deal-alerts">Get the daily digest</a> and you&rsquo;ll see the next one before anyone else.</p> <details open>
+      <summary>What is the difference between the FTDX101D and the FTDX101MP — which one is this?</summary>
+      <p>The front panels and receivers are essentially the same; the differences are power, power supply, and standard-fit options. The D is 100 W (US manual: 5–100 W, 5–25 W AM carrier), runs on 13.8 V DC from your own supply, has VC Tune standard on the main receiver only (sub is an option), and the 300 Hz CW roofing filter is an option for both receivers. The MP is 200 W, runs from the supplied FPS-101 AC external power supply (which has a speaker built in) and cannot run directly from a 13.8 V battery supply, has VC Tune standard on both receivers, and has the 300 Hz CW filter standard on the main receiver. An MP listing is not a D listing — check the badge, the power supply in the photos, and the rated output before comparing prices.</p>
+    </details>
+    <details>
+      <summary>Do I need the optional 300 Hz / 1.2 kHz roofing filters and the second VC Tune — are they worth it?</summary>
+      <p>For most operators, the consensus in that thread was no. The stock radio already has 12 kHz / 3 kHz / 600 Hz roofing filters in both receivers and VC Tune on the main receiver, and experienced contest owners there called that combination &quot;excellent&quot; on its own, noting the DSP bandwidth control does much of the narrow-CW work (one contester keeps DSP at ~350 Hz, where a 300 Hz roofing filter adds little) and saw little use for the 1.2 kHz SSB filter. That matters for used buying in both directions: do not overpay a big premium just because a listing says &quot;fully loaded,&quot; but do confirm what is fitted — because the optional filters and sub VC Tune were Yaesu-only installs, you generally cannot add them yourself later to a stock radio.</p>
+    </details>
+    <details>
+      <summary>Does the FTDX101D overshoot on transmit — is it safe to drive my amplifier with it?</summary>
+      <p>Early radios, yes — this is documented, not rumour. Sherwood&#x27;s 2019 test reported output power overshoot on CW and &quot;even more so on SSB,&quot; with peaks well above a 30 W setting when set up for typical low-drive amplifier use, and noted reflector reports of amplifiers faulting on SSB because of it. The 2021 groups.io thread said Yaesu appeared to have fixed the earlier sharp leading-edge spike, but the poster measured a slower ~20% overshoot decaying over about 100 ms at the start of a transmission on five FTDX101s (D and MP), and warned that could fault amplifiers with sensitive grids/screens. This draft does not establish the status on later-production or firmware / hardware-updated units — flagged as uncertain, see below. Practical buying advice: ask the seller about overshoot / amplifier use, and if you run an amp, start at low drive with a peak-reading meter before trusting it.</p>
+    </details> [
+    {
+      "@type": "Question",
+      "name": "What is the difference between the FTDX101D and the FTDX101MP — which one is this?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The front panels and receivers are essentially the same; the differences are power, power supply, and standard-fit options. The D is 100 W (US manual: 5–100 W, 5–25 W AM carrier), runs on 13.8 V DC from your own supply, has VC Tune standard on the main receiver only (sub is an option), and the 300 Hz CW roofing filter is an option for both receivers. The MP is 200 W, runs from the supplied FPS-101 AC external power supply (which has a speaker built in) and cannot run directly from a 13.8 V battery supply, has VC Tune standard on both receivers, and has the 300 Hz CW filter standard on the main receiver. An MP listing is not a D listing — check the badge, the power supply in the photos, and the rated output before comparing prices."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need the optional 300 Hz / 1.2 kHz roofing filters and the second VC Tune — are they worth it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most operators, the consensus in that thread was no. The stock radio already has 12 kHz / 3 kHz / 600 Hz roofing filters in both receivers and VC Tune on the main receiver, and experienced contest owners there called that combination \"excellent\" on its own, noting the DSP bandwidth control does much of the narrow-CW work (one contester keeps DSP at ~350 Hz, where a 300 Hz roofing filter adds little) and saw little use for the 1.2 kHz SSB filter. That matters for used buying in both directions: do not overpay a big premium just because a listing says \"fully loaded,\" but do confirm what is fitted — because the optional filters and sub VC Tune were Yaesu-only installs, you generally cannot add them yourself later to a stock radio."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the FTDX101D overshoot on transmit — is it safe to drive my amplifier with it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Early radios, yes — this is documented, not rumour. Sherwood's 2019 test reported output power overshoot on CW and \"even more so on SSB,\" with peaks well above a 30 W setting when set up for typical low-drive amplifier use, and noted reflector reports of amplifiers faulting on SSB because of it. The 2021 groups.io thread said Yaesu appeared to have fixed the earlier sharp leading-edge spike, but the poster measured a slower ~20% overshoot decaying over about 100 ms at the start of a transmission on five FTDX101s (D and MP), and warned that could fault amplifiers with sensitive grids/screens. This draft does not establish the status on later-production or firmware / hardware-updated units — flagged as uncertain, see below. Practical buying advice: ask the seller about overshoot / amplifier use, and if you run an amp, start at low drive with a peak-reading meter before trusting it."
+      }
+    }
+  ] <a href="/models/yaesu-ft-2980r/">Yaesu FT-2980R</a>
+    <a href="/models/yaesu-ft-8500/">Yaesu FT-8500</a>
+    <a href="/models/yaesu-g-2800dxa/">Yaesu G-2800DXA</a>
+    <a href="/models/yaesu-ft-101e/">Yaesu FT-101E</a>
+
+  Preview: python3 build_model_pages.py --demo   (renders IC-7300 sample)
+============================================================ -->
+
+<title>Yaesu FTDX101D Used Price (2026): Fair Value &amp; Live Deals | Ham Radio Bargains</title>
+<meta name="description" content="What&#x27;s a Yaesu FTDX101D worth? Based on 12 recent sold listings, fair market value is ~$2,375 (range $1,300–$2,700). See price history, sold comps, and live below-market deals.">
+<link rel="canonical" href="https://hamradiobargains.com/models/yaesu-ftdx101d/">
+<meta property="og:title" content="Yaesu FTDX101D Used Price & Fair Market Value (2026)">
+<meta property="og:description" content="What&#x27;s a Yaesu FTDX101D worth? Based on 12 recent sold listings, fair market value is ~$2,375 (range $1,300–$2,700). See price history, sold comps, and live below-market deals.">
+<meta property="og:type" content="article">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Yaesu FTDX101D",
+  "brand": { "@type": "Brand", "name": "Yaesu" },
+  "model": "FTDX101D",
+  "category": "Amateur Radio Transceiver",
+  "description": "What&#x27;s a Yaesu FTDX101D worth? Based on 12 recent sold listings, fair market value is ~$2,375 (range $1,300–$2,700). See price history, sold comps, and live below-market deals.",
+  "offers": {
+    "@type": "AggregateOffer",
+    "lowPrice": "1,300",
+    "highPrice": "2,700",
+    "priceCurrency": "USD",
+    "offerCount": "12"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between the FTDX101D and the FTDX101MP — which one is this?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The front panels and receivers are essentially the same; the differences are power, power supply, and standard-fit options. The D is 100 W (US manual: 5–100 W, 5–25 W AM carrier), runs on 13.8 V DC from your own supply, has VC Tune standard on the main receiver only (sub is an option), and the 300 Hz CW roofing filter is an option for both receivers. The MP is 200 W, runs from the supplied FPS-101 AC external power supply (which has a speaker built in) and cannot run directly from a 13.8 V battery supply, has VC Tune standard on both receivers, and has the 300 Hz CW filter standard on the main receiver. An MP listing is not a D listing — check the badge, the power supply in the photos, and the rated output before comparing prices."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need the optional 300 Hz / 1.2 kHz roofing filters and the second VC Tune — are they worth it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most operators, the consensus in that thread was no. The stock radio already has 12 kHz / 3 kHz / 600 Hz roofing filters in both receivers and VC Tune on the main receiver, and experienced contest owners there called that combination \"excellent\" on its own, noting the DSP bandwidth control does much of the narrow-CW work (one contester keeps DSP at ~350 Hz, where a 300 Hz roofing filter adds little) and saw little use for the 1.2 kHz SSB filter. That matters for used buying in both directions: do not overpay a big premium just because a listing says \"fully loaded,\" but do confirm what is fitted — because the optional filters and sub VC Tune were Yaesu-only installs, you generally cannot add them yourself later to a stock radio."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the FTDX101D overshoot on transmit — is it safe to drive my amplifier with it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Early radios, yes — this is documented, not rumour. Sherwood's 2019 test reported output power overshoot on CW and \"even more so on SSB,\" with peaks well above a 30 W setting when set up for typical low-drive amplifier use, and noted reflector reports of amplifiers faulting on SSB because of it. The 2021 groups.io thread said Yaesu appeared to have fixed the earlier sharp leading-edge spike, but the poster measured a slower ~20% overshoot decaying over about 100 ms at the start of a transmission on five FTDX101s (D and MP), and warned that could fault amplifiers with sensitive grids/screens. This draft does not establish the status on later-production or firmware / hardware-updated units — flagged as uncertain, see below. Practical buying advice: ask the seller about overshoot / amplifier use, and if you run an amp, start at low drive with a peak-reading meter before trusting it."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+  :root {
+    --bg: #121212; --card: #1c1c1e; --text: #f2f2f2; --muted: #9a9aa0;
+    --accent: #ff8c1a; --accent-dim: rgba(255,140,26,.14);
+    --border: #2c2c2e; --green: #3ddc84;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text);
+         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         line-height: 1.6; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 20px 60px; }
+  header.site { display: flex; align-items: center; gap: 10px;
+                padding: 18px 20px; border-bottom: 1px solid var(--border);
+                max-width: 900px; margin: 0 auto; }
+  header.site .logo { font-weight: 800; font-size: 1.15rem; }
+  header.site .logo span { color: var(--accent); }
+  nav.crumb { font-size: .85rem; color: var(--muted); margin: 22px 0 6px; }
+  nav.crumb a { color: var(--muted); text-decoration: none; }
+  nav.crumb a:hover { color: var(--accent); }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin-bottom: 18px; }
+
+  /* Quick-answer box — the featured-snippet target */
+  .answer-box { background: var(--card); border: 1px solid var(--border);
+                border-left: 4px solid var(--accent); border-radius: 10px;
+                padding: 20px 22px; margin-bottom: 30px; }
+  .answer-box .fmv { font-size: 2rem; font-weight: 800; color: var(--accent); }
+  .answer-box dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px;
+                   margin-top: 10px; font-size: .95rem; }
+  .answer-box dt { color: var(--muted); }
+  .answer-box .fine { font-size: .8rem; color: var(--muted); margin-top: 10px; }
+
+  h2 { font-size: 1.3rem; margin: 38px 0 14px;
+       padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  .chart-card, .table-card { background: var(--card); border: 1px solid var(--border);
+                             border-radius: 10px; padding: 18px; overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; font-size: .8rem; text-transform: uppercase; }
+  tr:last-child td { border-bottom: none; }
+  .sold-tag { display: inline-block; background: var(--accent-dim); color: var(--accent);
+              font-size: .75rem; font-weight: 700; padding: 2px 8px; border-radius: 20px; }
+  .live-badge { display: inline-block; background: var(--accent); color: #fff;
+                font-size: .7rem; font-weight: 700; padding: 2px 8px; border-radius: 20px;
+                vertical-align: middle; }
+
+  .deals { display: grid; gap: 14px; }
+  .deals .fine { color: var(--muted); font-size: .95rem; }
+  .deal { background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+          padding: 18px; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  .deal .pct { background: var(--green); color: #06281a; font-weight: 800;
+               font-size: .85rem; padding: 4px 10px; border-radius: 20px; white-space: nowrap; }
+  .deal .name { font-weight: 700; }
+  .deal .price { font-size: 1.3rem; font-weight: 800; color: var(--accent); }
+  .deal a.btn { background: var(--accent); color: #1a1005; font-weight: 700;
+                padding: 10px 16px; border-radius: 8px; text-decoration: none; white-space: nowrap; }
+
+  .faq details { background: var(--card); border: 1px solid var(--border);
+                 border-radius: 10px; padding: 14px 18px; margin-bottom: 10px; }
+  .faq summary { font-weight: 700; cursor: pointer; }
+  .faq p { margin-top: 8px; color: #d8d8dc; font-size: .95rem; }
+
+  .alert-box { background: var(--accent-dim); border: 1px solid var(--accent);
+               border-radius: 10px; padding: 22px; margin-top: 38px; text-align: center; }
+  .alert-box h2 { border: none; margin: 0 0 8px; padding: 0; }
+  .alert-box p { color: #d8d8dc; font-size: .95rem; margin-bottom: 14px; }
+  .alert-box form { display: flex; gap: 10px; max-width: 440px; margin: 0 auto; }
+  .alert-box input { flex: 1; padding: 11px 14px; border-radius: 8px; border: 1px solid var(--border);
+                     background: var(--bg); color: var(--text); font-size: .95rem; }
+  .alert-box button { background: var(--accent); color: #1a1005; border: none;
+                      font-weight: 700; padding: 11px 20px; border-radius: 8px; cursor: pointer; }
+
+  .related { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+  .related a { background: var(--card); border: 1px solid var(--border); color: var(--text);
+               padding: 8px 14px; border-radius: 20px; text-decoration: none; font-size: .9rem; }
+  .related a:hover { border-color: var(--accent); color: var(--accent); }
+
+  footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid var(--border);
+           color: var(--muted); font-size: .8rem; }
+  @media (max-width: 560px) {
+    .deal { flex-direction: column; align-items: flex-start; }
+    .alert-box form { flex-direction: column; }
+  }
+</style>
+<script data-goatcounter="https://hrb.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+
+<header class="site">
+  <div class="logo">📻 Ham Radio <span>Bargains</span></div>
+</header>
+
+<div class="wrap">
+
+  <nav class="crumb" aria-label="Breadcrumb">
+    <a href="/">Home</a> &nbsp;›&nbsp; <a href="/models/">Price Check</a> &nbsp;›&nbsp; Yaesu FTDX101D
+  </nav>
+
+  <h1>Yaesu FTDX101D Used Price &amp; Fair Market Value</h1>
+
+  <!-- 1. QUICK-ANSWER BOX -->
+  <section class="answer-box" aria-label="Fair market value summary">
+    <div class="fmv">~$2,375</div>
+    <dl>
+      <dt>Fair market value</dt><dd><strong>$2,375</strong> (median of recent sales)</dd>
+      <dt>Typical range</dt><dd>$1,300 – $2,700</dd>
+      <dt>Based on</dt><dd>12 sold listings</dd>
+      <dt>Last updated</dt><dd>September 17, 2026</dd>
+    </dl>
+    <p class="fine">Values are estimates from recent comparable sales — condition, accessories, and included extras vary. Always compare before buying.</p>
+  </section>
+
+  <!-- 1b. RIG CHECK (added 2026-10-12; rides the weekly rebuild) -->
+  <p style="border:1px solid var(--border);border-radius:10px;padding:12px 14px;margin:18px 0;">Selling your Yaesu FTDX101D? <a href="/rig-check/#yaesu-ftdx101d" style="color:var(--accent);">Run its Rig Check &rarr;</a> Answer the questions a sharp buyer will ask and get a condition report for your listing — a fully answered report lets a truly nice radio demand a good price.</p>
+
+  <!-- 2. PRICE HISTORY -->
+  <h2>FTDX101D price history</h2>
+  <div class="chart-card">
+    <svg viewBox="0 0 620 280" width="100%" role="img" aria-label="Trailing 10-month median sold price trend">
+      <line x1="40" y1="230" x2="40" y2="40" stroke="#2c2c2e"/>
+      <line x1="40" y1="230" x2="600" y2="230" stroke="#2c2c2e"/>
+      <g font-size="11" fill="#9a9aa0" stroke="none">
+        <line x1="40" y1="230" x2="600" y2="230"/><text x="8" y="234">$895</text><line x1="40" y1="182" x2="600" y2="182"/><text x="8" y="186">$1,435</text><line x1="40" y1="135" x2="600" y2="135"/><text x="8" y="139">$1,975</text><line x1="40" y1="88" x2="600" y2="88"/><text x="8" y="92">$2,515</text><line x1="40" y1="40" x2="600" y2="40"/><text x="8" y="44">$3,055</text>
+      </g>
+      <g stroke="#2c2c2e" stroke-dasharray="3,4" fill="none">
+        <line x1="40" y1="230" x2="600" y2="230"/><line x1="40" y1="182" x2="600" y2="182"/><line x1="40" y1="135" x2="600" y2="135"/><line x1="40" y1="88" x2="600" y2="88"/><line x1="40" y1="40" x2="600" y2="40"/>
+      </g>
+      <polyline fill="none" stroke="#ff8c1a" stroke-width="3" points="40,76 102,111 164,89 227,80 289,98 351,98 413,102 476,194 538,194 600,159"/>
+      <g fill="#ff8c1a">
+        <circle cx="40" cy="76" r="4"/>
+        <circle cx="102" cy="111" r="4"/>
+        <circle cx="164" cy="89" r="4"/>
+        <circle cx="227" cy="80" r="4"/>
+        <circle cx="289" cy="98" r="4"/>
+        <circle cx="351" cy="98" r="4"/>
+        <circle cx="413" cy="102" r="4"/>
+        <circle cx="476" cy="194" r="4"/>
+        <circle cx="538" cy="194" r="4"/>
+        <circle cx="600" cy="159" r="4"/>
+      </g>
+      <g font-size="11" fill="#9a9aa0">
+        <text x="32" y="250">Nov &#x27;24</text>
+        <text x="570" y="250">Sep &#x27;26</text>
+        <text x="540" y="147" fill="#ff8c1a" font-weight="700">$1,699</text>
+      </g>
+    </svg>
+    <p style="color:var(--muted);font-size:.85rem;margin-top:8px;">Median sold price per month from 12 sold listings (Nov &#x27;24–Sep &#x27;26). Down ~36% over the period.</p>
+  </div>
+
+  <!-- 2b. LIVE MARKET TREND (auto-updated daily from /comps.json; hidden when no data) -->
+  <section class="chart-card" id="market-trend" data-comp-key="YAESU FTDX101D" hidden
+           aria-label="Live market trend" style="margin-top:18px;">
+    <h2 style="margin:0 0 10px;border:0;padding:0;">FTDX101D market trend <span class="live-badge">live</span></h2>
+    <p id="mt-summary" style="margin:0 0 10px;"></p>
+    <svg id="mt-chart" viewBox="0 0 320 90" width="100%" role="img"
+         aria-label="Sold-price median trend"></svg>
+    <p class="fine" style="margin-top:8px;">Based on classifieds listings marked SOLD — asking prices sellers marked as sold, not confirmed sale prices. Refreshed daily from our deal-scan comp checks.</p>
+  </section>
+
+  <!-- 3. SOLD COMPS -->
+  <h2>Recent sold listings</h2>
+  <div class="table-card">
+    <table>
+      <thead><tr><th>Date sold</th><th>Item</th><th>Price</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>Sep 2026</td><td>Yaesu FTDX101D</td><td>$1,699</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>Aug 2026</td><td>Yaesu FTDX101D</td><td>$1,300</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>Jul 2026</td><td>Yaesu FTDX101D</td><td>$1,300</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>May 2026</td><td>Yaesu FTDX101D</td><td>$2,350</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>Mar 2026</td><td>Yaesu FTDX101D</td><td>$2,400</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>Dec 2025</td><td>Yaesu FTDX101D</td><td>$2,400</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>Aug 2025</td><td>Yaesu FTDX101D</td><td>$2,600</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>Aug 2025</td><td>Yaesu FTDX101D</td><td>$2,700</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>Aug 2025</td><td>Yaesu FTDX101D</td><td>$2,150</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>May 2025</td><td>Yaesu FTDX101D</td><td>$2,500</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>Jan 2025</td><td>Yaesu FTDX101D</td><td>$2,250</td><td><span class="sold-tag">SOLD</span></td></tr>
+        <tr><td>Nov 2024</td><td>Yaesu FTDX101D</td><td>$2,650</td><td><span class="sold-tag">SOLD</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 4. LIVE DEALS -->
+  <h2>Live FTDX101D deals</h2>
+  <div class="deals">
+    <p class="fine">No live below-market deals on this model right now &mdash; the good ones sell fast. <a href="#deal-alerts">Get the daily digest</a> and you&rsquo;ll see the next one before anyone else.</p>
+  </div>
+
+  <!-- 5. MODEL OVERVIEW (hand-written per model in overviews.csv — never auto-generated) -->
+  <h2>About the Yaesu FTDX101D</h2>
+  <p>The FTDX101D is Yaesu&#x27;s 100-watt HF + 6-meter flagship-class base transceiver — 160 through 6 meters, SSB / CW / AM / FM / RTTY and digital modes, running from a user-supplied 13.8 V DC supply. It first appeared at the 2018 Hamvention and was reviewed in the November 2019 QST, so used examples are now old enough to show up at a real discount to new. Its party trick is a hybrid SDR design: a down-conversion narrow-band SDR receiver with crystal roofing filters does the actual listening, while a direct-sampling SDR drives the real-time spectrum scope. That is the combination Yaesu built its reputation for this radio on — pulling a weak signal out from next to a strong one in contests and pileups.
+
+What makes it good is the receiver numbers, and they are not just brochure copy. Yaesu quotes 123 dB+ reciprocal-mixing dynamic range, 150 dB+ blocking dynamic range, and 110 dB+ third-order IMD dynamic range at 2 kHz spacing, with -150 dBc/Hz phase noise at 2 kHz. Sherwood Engineering&#x27;s independent test of a production unit (serial 9F010008, test starting 10 May 2019) measured 110 dB dynamic range at 2 kHz spacing and 124 dB RMDR at 2.5 kHz, and Yaesu has long promoted the model as Sherwood&#x27;s &quot;#1 Highest Performing Receiver&quot; — treat that as a period ranking from its launch era, not a claim about today&#x27;s table. You also get two completely independent receivers, VC Tune on the main receiver — a motor-driven variable-capacitor RF preselector Yaesu rates at up to -70 dB attenuation of strong off-frequency signals — and a 7-inch colour touch display with Yaesu&#x27;s 3DSS (3-Dimensional Spectrum Stream) view alongside a conventional waterfall.
+
+For a bargain hunter, the exact build of the individual radio matters more than the model name. Standard on the D are 12 kHz, 3 kHz and 600 Hz roofing filters in both main and sub receivers, and VC Tune in the main receiver only. The 300 Hz CW and 1.2 kHz SSB roofing filters (main and/or sub) and a second VC Tune unit for the sub receiver were factory / Yaesu-only options — DX Engineering&#x27;s listing is explicit that a standard stock radio &quot;cannot be internally upgraded by the user,&quot; so a used radio either left Yaesu with those options or it does not have them. Ask the seller, in writing, exactly which optional filters and whether a sub-receiver VC Tune are fitted, whether the stock hand microphone is included, and whether an SP-101 speaker is part of the deal — our own comp ledger shows those items are what move the value on this model, up and down. A bare radio with no mic is not the same buy as a loaded one with the extra CW filter and speaker, even at the same asking price.
+
+Watch-outs from owners and testers, all sourced below: early test and reflector reports documented transmit power overshoot at the start of a transmission — Sherwood flagged it as a risk when driving a linear amplifier, and a later groups.io thread reported a residual ~20% slow overshoot even after Yaesu addressed the earlier sharp spike — so if you run an amp, ask how the radio behaves on the first syllable / first dit and test carefully at low drive first. Ergonomics are the other recurring complaint: there is no dedicated RF power knob (power is set through a menu / multifunction control, assignable to the C.S. key), the menu system and small fonts are criticised in eHam reviews summarised online, and some long-term owners say they rarely used the second receiver or found VC Tune fiddly to operate. None of that undoes the receiver — but it is why you should hands-on one if you can, and why a clean, fully-optioned, fully-accessorised example is the one worth paying up for.</p>
+
+  <!-- 6. FAQ -->
+  <h2>Common questions</h2>
+  <div class="faq">
+    <details open>
+      <summary>What is the difference between the FTDX101D and the FTDX101MP — which one is this?</summary>
+      <p>The front panels and receivers are essentially the same; the differences are power, power supply, and standard-fit options. The D is 100 W (US manual: 5–100 W, 5–25 W AM carrier), runs on 13.8 V DC from your own supply, has VC Tune standard on the main receiver only (sub is an option), and the 300 Hz CW roofing filter is an option for both receivers. The MP is 200 W, runs from the supplied FPS-101 AC external power supply (which has a speaker built in) and cannot run directly from a 13.8 V battery supply, has VC Tune standard on both receivers, and has the 300 Hz CW filter standard on the main receiver. An MP listing is not a D listing — check the badge, the power supply in the photos, and the rated output before comparing prices.</p>
+    </details>
+    <details>
+      <summary>Do I need the optional 300 Hz / 1.2 kHz roofing filters and the second VC Tune — are they worth it?</summary>
+      <p>For most operators, the consensus in that thread was no. The stock radio already has 12 kHz / 3 kHz / 600 Hz roofing filters in both receivers and VC Tune on the main receiver, and experienced contest owners there called that combination &quot;excellent&quot; on its own, noting the DSP bandwidth control does much of the narrow-CW work (one contester keeps DSP at ~350 Hz, where a 300 Hz roofing filter adds little) and saw little use for the 1.2 kHz SSB filter. That matters for used buying in both directions: do not overpay a big premium just because a listing says &quot;fully loaded,&quot; but do confirm what is fitted — because the optional filters and sub VC Tune were Yaesu-only installs, you generally cannot add them yourself later to a stock radio.</p>
+    </details>
+    <details>
+      <summary>Does the FTDX101D overshoot on transmit — is it safe to drive my amplifier with it?</summary>
+      <p>Early radios, yes — this is documented, not rumour. Sherwood&#x27;s 2019 test reported output power overshoot on CW and &quot;even more so on SSB,&quot; with peaks well above a 30 W setting when set up for typical low-drive amplifier use, and noted reflector reports of amplifiers faulting on SSB because of it. The 2021 groups.io thread said Yaesu appeared to have fixed the earlier sharp leading-edge spike, but the poster measured a slower ~20% overshoot decaying over about 100 ms at the start of a transmission on five FTDX101s (D and MP), and warned that could fault amplifiers with sensitive grids/screens. This draft does not establish the status on later-production or firmware / hardware-updated units — flagged as uncertain, see below. Practical buying advice: ask the seller about overshoot / amplifier use, and if you run an amp, start at low drive with a peak-reading meter before trusting it.</p>
+    </details>
+  </div>
+
+  <!-- 7. MODEL-SPECIFIC ALERT -->
+  <!-- Wired to the site's Mailchimp list (same signup as the homepage). Submitting
+       opens Mailchimp's confirmation in a new tab. Note: this joins the general
+       daily digest — per-model-only emails would need extra Mailchimp setup. -->
+  <div class="alert-box" id="deal-alerts">
+    <h2>Get FTDX101D deal alerts</h2>
+    <p>Join the daily digest — one email a day when new below-market bargains are posted, including the Yaesu FTDX101D. No spam, unsubscribe anytime.</p>
+    <form action="https://aol.us10.list-manage.com/subscribe/post?u=441753dd20abb2aaec7030997&amp;id=e37bef4cda&amp;f_id=001851e4f0" method="post" target="_blank" novalidate>
+      <input type="email" name="EMAIL" placeholder="you@example.com" required aria-label="Email address">
+      <div hidden><input type="hidden" name="tags" value="14572049"></div>
+      <div aria-hidden="true" style="position:absolute; left:-5000px;">
+        <input type="text" name="b_441753dd20abb2aaec7030997_e37bef4cda" tabindex="-1" value="">
+      </div>
+      <button type="submit">Notify Me</button>
+    </form>
+  </div>
+
+  <!-- 8. RELATED MODELS -->
+  <h2>Compare similar rigs</h2>
+  <div class="related">
+    <a href="/models/yaesu-ft-2980r/">Yaesu FT-2980R</a>
+    <a href="/models/yaesu-ft-8500/">Yaesu FT-8500</a>
+    <a href="/models/yaesu-g-2800dxa/">Yaesu G-2800DXA</a>
+    <a href="/models/yaesu-ft-101e/">Yaesu FT-101E</a>
+  </div>
+
+  <footer>
+    <p>"% below market" is an estimate based on recent comparable sale prices — condition, included accessories, and current prices can vary. Always compare before buying. Deals are spotted and tracked for the ham radio community.</p>
+    <p style="margin-top:8px;">© 2026 Ham Radio Bargains</p>
+  </footer>
+
+</div>
+<script>
+(function () {
+  var box = document.getElementById('market-trend');
+  if (!box) return;
+  var key = box.getAttribute('data-comp-key');
+  if (!key) return;
+  fetch('/comps.json', { cache: 'no-store' }).then(function (r) {
+    return r.ok ? r.json() : null;
+  }).then(function (d) {
+    if (!d || !d.models || !d.models[key]) return;
+    var m = d.models[key], h = m.history || [];
+    if (!h.length) return;
+    var L = m.latest;
+    var fmt = function (n) { return '$' + Number(n).toLocaleString('en-US'); };
+    document.getElementById('mt-summary').innerHTML =
+      'Median of <strong>' + L.count + '</strong> logged sold listings: <strong>' + fmt(L.median) +
+      '</strong> <span style="color:var(--muted)">(range ' + fmt(L.low) + ' &ndash; ' + fmt(L.high) +
+      ' &middot; as of ' + L.date + ')</span>';
+    var W = 320, H = 90, P = 10;
+    var vals = h.map(function (p) { return p.median; });
+    var mn = Math.min.apply(null, vals), mx = Math.max.apply(null, vals);
+    if (mx === mn) { mx = mn + 1; }
+    var X = function (i) { return P + (W - 2 * P) * (h.length === 1 ? 0.5 : i / (h.length - 1)); };
+    var Y = function (v) { return H - P - (H - 2 * P) * (v - mn) / (mx - mn); };
+    var pts = h.map(function (p, i) {
+      return X(i).toFixed(1) + ',' + Y(p.median).toFixed(1);
+    }).join(' ');
+    var dots = h.map(function (p, i) {
+      return '<circle cx="' + X(i).toFixed(1) + '" cy="' + Y(p.median).toFixed(1) +
+             '" r="3.5" style="fill:var(--accent)"><title>' + p.date + ': ' + fmt(p.median) +
+             ' (n=' + p.count + ')</title></circle>';
+    }).join('');
+    document.getElementById('mt-chart').innerHTML =
+      '<polyline points="' + pts + '" fill="none" stroke-width="2.5" style="stroke:var(--accent)"/>' + dots;
+    box.hidden = false;
+  }).catch(function () { /* offline or missing file: leave the section hidden */ });
+})();
+</script>
+</body>
+</html>
