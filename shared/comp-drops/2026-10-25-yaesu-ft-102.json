@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-102",
+  "slug": "yaesu-ft-102",
+  "searched_at": "2026-10-25T19:11:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"yaesu ft-102\": 0 kept. Dropped: best offer accepted 2 (377243114508 Aug 2 $1,299.99; 178354339477 Aug 1 $700.00, both \"Rare Vintage ... Tube Final\"); parts-only 3 (327343595854 Sep 11 $334.34 NOT WORKING; 168173116730 Aug 4 $399.99; 188869603176 Sep 2 $249.99 FT-102DM). Excluded: relay sets, speakers, boards, manuals, mics, bulbs. Trigger listing is a \"Malcomized\" FT-102; no Malcomized sales seen. Not comped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782950",
+    "site": "qth",
+    "ask": 1500,
+    "shipping": 0
+  },
+  "comps": []
+}
