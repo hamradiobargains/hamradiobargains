@@ -1,0 +1,103 @@
+{
+  "model": "Drake T-4XC",
+  "slug": "drake-t-4xc",
+  "searched_at": "2026-10-25T19:04:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"drake t-4xc\": 9 kept. Dropped: Best offer accepted 2 (267793564374 Sep 28 $350; 168516713163 Aug 1 $135.55 which is also parts/untested); parts-only 4 (178184916037 Sep 8 $70; 206384148021 Sep 8 $125; 395417931396 Aug 1 $227.99; 168516713163 Aug 1 $135.55 - counted above too). Read Description: 0. Excluded as different models/accessories: T-4XB, T-4X, knob sets, cables, rebuild kit, and the \"fewer words\" section. OUTLIER: 128147662418 $90 (see comp notes). The trigger listing is a station: T-4XC + R-4C + MS-4 + two AC-4 at one price - the R-4C was not separately comped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782706",
+    "site": "qth",
+    "ask": 495,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 299.95,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/900031332929",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); Tested; shipping +$30.37",
+      "flags": []
+    },
+    {
+      "price": 240.0,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198609083051",
+      "source": "ebay",
+      "notes": "Buy It Now; SN 27475 roughly 130W out; shipping +$44.50",
+      "flags": []
+    },
+    {
+      "price": 90.0,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128147662418",
+      "source": "ebay",
+      "notes": "OUTLIER: low vs median of others (~$270); $90.00 or Best Offer (not marked accepted); shipping +$116.05; title says Multi Band SSB AM CW VOX",
+      "flags": []
+    },
+    {
+      "price": 295.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307227781301",
+      "source": "ebay",
+      "notes": "Buy It Now; with power supply per title; shipping +$60.21",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198662595634",
+      "source": "ebay",
+      "notes": "auction 1 bid; sold as T-4XC + FS-4 Synthesizer combo; shipping +$70.00",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 290.0,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318858259461",
+      "source": "ebay",
+      "notes": "auction 27 bids; with Shure 444 mic and cable per title; shipping +$51.74",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-08-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158155138446",
+      "source": "ebay",
+      "notes": "auction 1 bid, No Reserve; shipping +$25.00",
+      "flags": []
+    },
+    {
+      "price": 308.74,
+      "sold_date": "2026-08-07",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/206301260114",
+      "source": "ebay",
+      "notes": "shown $308.74 (strikethrough $324.99), or Best Offer not marked accepted; No Power Cord; shipping +$44.75",
+      "flags": []
+    },
+    {
+      "price": 192.5,
+      "sold_date": "2026-08-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137567952992",
+      "source": "ebay",
+      "notes": "auction 3 bids; shipping +$40.00",
+      "flags": []
+    }
+  ]
+}
