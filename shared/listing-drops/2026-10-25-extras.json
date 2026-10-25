@@ -1,0 +1,251 @@
+{
+  "run": "extras",
+  "run_date": "2026-10-25",
+  "ran_at": "2026-10-25T19:14:15-04:00",
+  "ran_by": "claude",
+  "notes": "Window: after the previous extras drop 2026-10-24-extras.json (ran_at 2026-10-24T18:49:10-04:00). Source drops covered: 2026-10-25-eham.json, 2026-10-25-qth.json, 2026-10-25-ebay.json. Only the 10-25 QTH drop lists 'Extra plausible candidates not comped' (24 IDs); the eHam and eBay drops name none, so no eHam pages were opened (eHam not touched) and no eBay seller checks were needed. Queue: 49 CARRIED OVER IDs from the 10-24 extras drop at the front, then 17 fresh QTH extras from the 10-25 drop (1782664 and 1782889 skipped - already in dropped-urls; 1782988, 1782874, 1782968, 1783057 were already carry-overs), then 30 BACKLOG CARRY IDs at the back = 96 queued, 2 skipped as already dropped. Worked 19 ads in queue order through 1782995 (22 listing rows incl. gone). Live 19, no longer live 3 (1782844 Yaesu FT-726R, 1782991, 1782934 - all 'no longer in our system'; items for 1782991 and 1782934 not recorded because the page was gone when opened). Ledger hits: 4 (KENWOOD TM-V71A for 1782968 - UNCERTAIN: ad reads 'TM-71VA'; DRAKE MN-2700 for 1782982; KENWOOD TS-850S for 1782937 - listing is TS-850S/AT; JRC NRD 535D for 1782956 - UNCERTAIN: ad reads 'Japan Radio Co HRD 535D'). eBay sold searches used: 15 of 15 (kenwood tm-710a, national ncl-2000, drake t-4xc, alpha 87a, tentec pegasus, palstar at4k, alinco dx-77, icom id-880h, atlas 210x, icom ic-471a, apache labs anan-7000dle mkii, yaesu ft-102, kenwood ts-790a, command 1200 6 meter amplifier, drake ssr-1); signed in as Leo, one page at a time with 18+ s between page loads, no challenges. Zero/thin results: TM-710A 0 exact (seller name probably TM-D710A; kept separate), NCL-2000 0 kept, ANAN-7000DLE MKII 0, IC-471A 0 (IC-471H excluded), FT-102 0 kept (all parts/best-offer-accepted), DX-77 0 kept, Command 1200 0 results, Alpha 87A 1, Pegasus 1, TS-790A 1 (not fully working), SSR-1 1, AT4K 2, Atlas 210x 2. Skipped: none. Cross-posts: none found; serial dedupe: no serials shown in any queued ad. Outliers: Drake T-4XC 128147662418 $90 (low vs median of others ~$270; shipping +$116.05). Model-identity notes: Atlas 210x trigger is the Limited Edition, comps are standard 210x; TS-790A comps kept strict (TS-790/TS-790S excluded); DX-77T sale treated separately; IC-471H not IC-471A. Work-flag wording carried verbatim: 1782962 IC-471A 'For Parts or Repair' (needs work); 1782950 FT-102 'Malcomized' (modification wording, UNCERTAIN what it covers); 1782937 TS-850S/AT 'I have Recapped the Power supply in the Signal Processor' (UNCERTAIN as a modification); 1782706 Drake station 'SALE PENDING' in ad title, 'NO RETURNS', pickup only; 1783002 Alpha 87A 'Once you accept amplifier there are no returns'. Ask/shipping notes: 1782988 AT4K shipping 'probably in the $80 range' (ask $700 OBO); 1782987, 1782979, 1782995 shipping extra but amount not stated (recorded as 0); 1782962 shipping $30. Price changes vs earlier drops: 1782706 Drake station now carries 'SALE PENDING' (was $495 cash and carry, no pending noted last run). Opened and found live but NOT triaged (cap reached): 1783008 (Astron RS-20M, $168 shipped, 'Works as it should. Cosmetics = 9 Needs equipment boots', no returns) and 1782929 (Ten-Tec Model 255 power supply & speaker, $125 shipped and insured, 'In good condition, electrically and mechanically'). The 17 fresh 10-25 QTH extras were not opened this run. CARRIED OVER (cap reached, queue order): 1783008, 1782929, 1782967, 1782983, 1782942, 1783055, 1783103, 1783081, 1783088, 1783014, 1783093, 1783094, 1783092, 1783032, 1783089, 1783077, 1783085, 1783082, 1783059, 1783057, 1783033, 1783075, 1780144, 1780147, 1780148, 1782158, 1782435, 1781208, 1783066, 1783141, 1783187, 1783127, 1783126, 1783192, 1783189, 1783161, 1783146, 1783168, 1783183, 1783166, 1781834, 1783171, 1783131, 1783025. BACKLOG CARRY (still at the back, source-drop order): 1782353, 1782345, 1782359, 1782031, 1782342, 1782368, 1782384, 1782363, 1782275, 1781393, 1782349, 1782453, 1782461, 1782430, 1782464, 1782442, 1776833, 1781779, 1777865, 1782542, 1782487, 1782484, 1782573, 1782575, 1782543, 1782570, 1780727, 1779930, 1782489, 1782467.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782207",
+      "site": "qth",
+      "title": "Kenwood TM-710A V2",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live. Like new in original box and packing. Has everything it came with new. Looks un-used. $600 Shipped/Insured US. comps: kenwood-tm-710a, 0 kept - not comped: no usable sold comps (see comp drop notes)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782501",
+      "site": "qth",
+      "title": "National NCL-2000 HF amp",
+      "price": 350,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live. Price reduced. In good working order. Comes with manual. Currently configured for 220 volts, but may be setup for 120 volt too. Pick up only in southern New Jersey. comps: national-ncl-2000, 0 kept - not comped: no usable sold comps (see comp drop notes)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782844",
+      "site": "qth",
+      "title": "Yaesu FT-726R",
+      "price": 350,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "no longer live - QTH: \"The ad number you specified, 1782844, is no longer in our system.\" comps: not comped (ad gone).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782706",
+      "site": "qth",
+      "title": "Drake T-4XC / R-4C / MS-4 + two AC-4",
+      "price": 495,
+      "shipping": 0,
+      "found_at": "2026-10-22",
+      "condition_notes": "live. SALE PENDING: OUTSTANDING COSMETIC CONDITION. ... ALMOST NEW. These units have been in storage for an unknown length of time. $495 CASH & CARRY. NO RETURNS. I WILL NOT SHIP under any circumstances. Pickup only Hornell, NY. comps: drake-t-4xc, 9 kept, median 250",
+      "work_flag": "NO RETURNS; SALE PENDING (as in ad title)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783002",
+      "site": "qth",
+      "title": "Alpha 87A with AlphaMax",
+      "price": 2500,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "live. Amplifier is in great condition with some paint imperfections. Prefer pickup. Price $2500 certified funds only or cash if picked up. Once you accept amplifier there are no returns but it is working 100% as shown. Brand new spare blower included. comps: alpha-87a, 1 kept, median 2000",
+      "work_flag": "no returns after acceptance",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782989",
+      "site": "qth",
+      "title": "Ten-Tec Pegasus",
+      "price": 450,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "live. Very clean Pegasus with desk mic, N4PY software on disc, remote controller, power cord, misc cables. Doesn't appear to have the manual. Tested on the air and works fine. Asking $450 shipped. comps: ten-tec-pegasus, 1 kept, median 400",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782991",
+      "site": "qth",
+      "title": "Ad 1782991 (gone; item not recorded this run)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "no longer live - QTH: \"The ad number you specified, 1782991, is no longer in our system.\" comps: not comped (ad gone).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782988",
+      "site": "qth",
+      "title": "Palstar AT4K tuner",
+      "price": 700,
+      "shipping": 80,
+      "found_at": "2026-10-23",
+      "condition_notes": "live. AS NEW NO BOX $700 OBO + SHIPPING (probably ~$80 range). Pick up in Tampa, will meet halfway up to 50 miles. Ad will delete when sold. comps: palstar-at4k, 2 kept, median 739.97",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782934",
+      "site": "qth",
+      "title": "Ad 1782934 (gone; item not recorded this run)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "no longer live - QTH: \"The ad number you specified, 1782934, is no longer in our system.\" comps: not comped (ad gone).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782987",
+      "site": "qth",
+      "title": "Alinco DX-77",
+      "price": 325,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "live. Mint. Works and looks perfect. Just took it out of line. Comes with power cord, will need a power supply and mic. $325.00 plus shipping (amount not stated). comps: alinco-dx-77, 0 kept - not comped: no usable sold comps (see comp drop notes)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782979",
+      "site": "qth",
+      "title": "Icom ID-880H",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "live. Good condition, works fine with mic, power cord, mounting bracket. NO ORIGINAL BOX. $200 plus shipping (amount not stated). comps: icom-id-880h, 8 kept, median 277.25",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782968",
+      "site": "qth",
+      "title": "Kenwood TM-71VA (listing wording; dual band VHF/UHF)",
+      "price": 400,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "live. Nice condition with manuals, power cord, mic, mobile mount and box. Asking $400.00 shipped. ledger hit (kenwood-tm-v71a, median 415.0, count 24, ledger date 2026-10-08) UNCERTAIN identity",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782982",
+      "site": "qth",
+      "title": "Drake MN-2700 tuner",
+      "price": 215,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "live. Workhorse full power Drake antenna tuner. It works well and looks okay. New metal inserts for the capacitor and inductor knobs will be included. $215 shipped. ledger hit (drake-mn-2700, median 284.0, count 6, ledger date 2026-10-12)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782874",
+      "site": "qth",
+      "title": "Atlas 210x Limited Edition w/ Shure mic + console PS",
+      "price": 550,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "live. Exceptionally nice Atlas 210x Limited Edition with matching Atlas branded Shure Brothers microphone and console speaker power supply. 1000 units produced. $550 shipped FedEx. comps: atlas-210x, 2 kept, median 275",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782962",
+      "site": "qth",
+      "title": "Icom IC-471A",
+      "price": 125,
+      "shipping": 30,
+      "found_at": "2026-10-23",
+      "condition_notes": "live. For Parts or Repair - $125 + $30 Shipping to lower 48. Rig turns on. Includes working internal power supply. Case and face in excellent shape. comps: icom-ic-471a, 0 kept - not comped: no usable sold comps (see comp drop notes)",
+      "work_flag": "For Parts or Repair",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782960",
+      "site": "qth",
+      "title": "Apache Labs ANAN-7000DLE MKII w/ Intel NUC i7",
+      "price": 2500,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "live. Price $2,500 (Local Meet Up Preferred). Shipping at buyers expense, packed in original box (amount not stated). Non-smoking shack; DC power cable, Ethernet, Windows license key, original box. comps: apache-labs-anan-7000dle-mkii, 0 kept - not comped: no usable sold comps (see comp drop notes)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782956",
+      "site": "qth",
+      "title": "Japan Radio Co HRD 535D (listing wording; likely NRD-535D)",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "live. Like new in box, from the estate of an SK. Asking $600. Pics later if needed. ledger hit (jrc-nrd-535d, median 850, count 3, ledger date 2026-09-29) UNCERTAIN identity",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782950",
+      "site": "qth",
+      "title": "Yaesu FT-102 \"Malcomized\"",
+      "price": 1500,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "live. Malcomized Mint! Super nice exterior and interior. Original box shipped separately from radio in special box built by Mal. $1500 plus discount shipping. Zelle preferred. comps: yaesu-ft-102, 0 kept - not comped: no usable sold comps (see comp drop notes)",
+      "work_flag": "Malcomized (seller's word, in ad title)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782937",
+      "site": "qth",
+      "title": "Kenwood TS-850S/AT w/ extras (DSP-100, MC-60 mic)",
+      "price": 750,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "live. Classic TS-850S/AT, very nice condition. Comes with On-Board ... (text cut off in this read) and Kenwood DSP-100. I have recapped the power supply in the Signal Processor. Kenwood MC-60 desk mic. $750. Pickup in the Houston area, will not ship. ledger hit (kenwood-ts-850s, median 567.5, count 4, ledger date 2026-10-10)",
+      "work_flag": "Power supply in the Signal Processor recapped (seller wording)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782930",
+      "site": "qth",
+      "title": "Kenwood TS-790A",
+      "price": 800,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "live. Selling for a friend. VHF/UHF only. Preferably pick up only. Comes with hand mic and power cable only. $800.00. Jurupa Valley CA. comps: kenwood-ts-790a, 1 kept, median 306",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781465",
+      "site": "qth",
+      "title": "Command 1200 VHF 6m amplifier (3CX800A7)",
+      "price": 1200,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "live. Price drop to $1200. Excellent working from a non smoking environment. 75 pounds, cannot ship, willing to travel to meet. PayPal accepted. comps: command-technologies-1200, 0 kept - not comped: no usable sold comps (see comp drop notes)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782995",
+      "site": "qth",
+      "title": "Drake SSR-1",
+      "price": 275,
+      "shipping": 0,
+      "found_at": "2026-10-23",
+      "condition_notes": "live. Mint, just beautiful and working perfectly. $275.00 and shipping (amount not stated). comps: drake-ssr-1, 1 kept, median 325",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
