@@ -1,0 +1,94 @@
+{
+  "model": "Icom ID-880H",
+  "slug": "icom-id-880h",
+  "searched_at": "2026-10-25T19:08:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"icom id-880h\": 8 kept. Dropped: Best offer accepted 2 (188969122133 Sep 30 $275; 407131711439 Aug 9 $215.25). Parts-only: 0. Read Description: 0. Excluded accessories (mics, brackets, programming cables). Outliers: none (399.95 open-box is within 1.5x of the median of the others, $275). 327302552243 is titled MARS/CAP MOD - kept, flagged modified.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782979",
+    "site": "qth",
+    "ask": 200,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 240.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137715725536",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping +$32.00",
+      "flags": []
+    },
+    {
+      "price": 269.95,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318897311494",
+      "source": "ebay",
+      "notes": "Buy It Now; shown $269.95 (strikethrough $299.95); free shipping",
+      "flags": []
+    },
+    {
+      "price": 237.14,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206515140686",
+      "source": "ebay",
+      "notes": "Buy It Now; shown $237.14 (strikethrough $254.99); free shipping",
+      "flags": []
+    },
+    {
+      "price": 279.5,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117417215892",
+      "source": "ebay",
+      "notes": "Buy It Now; \"+ D-STAR Mint in Box\"; shipping +$15.00; same seller/title as 117380147109 (Aug 27)",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 399.95,
+      "sold_date": "2026-09-08",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/327263150724",
+      "source": "ebay",
+      "notes": "Buy It Now; \"NEW OPEN BOX\"; free shipping",
+      "flags": []
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227498100217",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping",
+      "flags": []
+    },
+    {
+      "price": 279.5,
+      "sold_date": "2026-08-27",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/117380147109",
+      "source": "ebay",
+      "notes": "Buy It Now; same seller/title as 117417215892 (Sep 17), possible relist of the same unit; shipping +$15.00",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 315.0,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327302552243",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); title says MARS/CAP MOD; free shipping",
+      "flags": [
+        "modified"
+      ]
+    }
+  ]
+}
