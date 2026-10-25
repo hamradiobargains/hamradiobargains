@@ -1,0 +1,34 @@
+{
+  "model": "Drake R8A",
+  "slug": "drake-r8a",
+  "searched_at": "2026-10-25T18:00:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 2 kept. eBay sold search page 1 (above \"fewer words\" section). 0 best-offer-accepted dropped, 0 parts-only dropped. Excluded a \"R8A/B display\" part (326764936168). OUTLIER: $549.95 is more than 1.5x the only other kept comp ($285 auction) — with just 2 comps the outlier test is weak.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/940041144110",
+    "site": "ebay",
+    "ask": 700.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 549.95,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820144672742",
+      "source": "ebay",
+      "notes": "OUTLIER: $549.95 vs $285 for the only other kept comp. Title says \"Excellent Working Condition!\"; +$17.08 shipping",
+      "flags": []
+    },
+    {
+      "price": 285.0,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168663430358",
+      "source": "ebay",
+      "notes": "Auction, 11 bids; +$19.65 shipping",
+      "flags": []
+    }
+  ]
+}
