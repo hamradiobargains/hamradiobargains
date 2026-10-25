@@ -1,0 +1,25 @@
+{
+  "model": "Drake SSR-1",
+  "slug": "drake-ssr-1",
+  "searched_at": "2026-10-25T19:13:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"drake ssr-1\": 1 kept (thin). Dropped: best offer accepted 1 (117350533830 Aug 17 $290). Ignored: one SSR-1 sale in the \"Results matching fewer words\" section (880010044056, Oct 14, $200.61, located in United Kingdom, +$150 shipping estimate).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782995",
+    "site": "qth",
+    "ask": 275,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 325.0,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227433947405",
+      "source": "ebay",
+      "notes": "Buy It Now; title says Working; shipping +$44.95",
+      "flags": []
+    }
+  ]
+}
