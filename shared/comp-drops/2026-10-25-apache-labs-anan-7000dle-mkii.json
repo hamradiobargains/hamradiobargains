@@ -1,0 +1,15 @@
+{
+  "model": "Apache Labs ANAN-7000DLE MKII",
+  "slug": "apache-labs-anan-7000dle-mkii",
+  "searched_at": "2026-10-25T19:10:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"apache labs anan-7000dle mkii\": 0 ANAN-7000DLE sales on page 1 (the only results containing \"7000\" were unrelated Icom IC-7000 / IC-7000M listings with no sold date, excluded). Not comped; a broader \"anan 7000dle\" search was not run.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782960",
+    "site": "qth",
+    "ask": 2500,
+    "shipping": 0
+  },
+  "comps": []
+}
