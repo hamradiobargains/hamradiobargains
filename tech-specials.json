@@ -1,52 +1,64 @@
 {
-  "listings": [
-    {
-      "date": "2026-09-29",
-      "title": "Collins 75S-3 Receiver",
-      "url": "https://swap.qth.com/view_ad.php?counter=1780791",
-      "price": 295.0,
-      "extra": 0.0,
-      "pct_below": 41,
-      "median": 500.0,
-      "comp_count": 3,
-      "source": "QTH",
-      "work_flag": "no audio \u2014 seller suspects dead audio output tube; no power cable"
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Icom IC-706MKIIG (repair or parts)",
-      "url": "https://www.eham.net/classifieds/629223",
-      "price": 225.0,
-      "extra": 0.0,
-      "pct_below": 62,
-      "median": 599.99,
-      "comp_count": 19,
-      "source": "eHam",
-      "work_flag": "Does NOT power up (slight click only) after the seller pulled and cleaned an internal ribbon cable \u2014 sold for parts or repair. The $225 is rig only: box and ACC blank plug, no mic, DSP, or filter. Plus shipping."
-    },
-    {
-      "date": "2026-10-19",
-      "title": "Ameritron AL-811H (needs work)",
-      "url": "https://swap.qth.com/view_ad.php?counter=1782651",
-      "price": 475.0,
-      "extra": 0.0,
-      "pct_below": 47,
-      "median": 899.0,
-      "comp_count": 8,
-      "source": "QTH",
-      "work_flag": "Not putting out full rated power \u2014 around 400W PEP on a brief test; tubes may be tired; a previous owner replaced a power-supply capacitor and the seller says the work was done very sloppily. Plus shipping (amount not stated; seller warns it will be high)."
-    },
-    {
-      "date": "2026-10-24",
-      "title": "Collins KWM-2A transceiver",
-      "url": "https://swap.qth.com/view_ad.php?counter=1782846",
-      "price": 420,
-      "extra": 0,
-      "pct_below": 46,
-      "median": 774.5,
-      "comp_count": 4,
-      "source": "QTH",
-      "work_flag": "needs work \u2014 band-switch steel cable off its pulleys; receiver works on 80 meters; transmitter untested; offered as is. Seller replaced some electrolytic capacitors; plug-in relay modification fitted"
-    }
-  ]
+ "listings": [
+  {
+   "date": "2026-09-29",
+   "title": "Collins 75S-3 Receiver",
+   "url": "https://swap.qth.com/view_ad.php?counter=1780791",
+   "price": 295.0,
+   "extra": 0.0,
+   "pct_below": 41,
+   "median": 500.0,
+   "comp_count": 3,
+   "source": "QTH",
+   "work_flag": "no audio \u2014 seller suspects dead audio output tube; no power cable"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "Icom IC-706MKIIG (repair or parts)",
+   "url": "https://www.eham.net/classifieds/629223",
+   "price": 225.0,
+   "extra": 0.0,
+   "pct_below": 62,
+   "median": 599.99,
+   "comp_count": 19,
+   "source": "eHam",
+   "work_flag": "Does NOT power up (slight click only) after the seller pulled and cleaned an internal ribbon cable \u2014 sold for parts or repair. The $225 is rig only: box and ACC blank plug, no mic, DSP, or filter. Plus shipping."
+  },
+  {
+   "date": "2026-10-19",
+   "title": "Ameritron AL-811H (needs work)",
+   "url": "https://swap.qth.com/view_ad.php?counter=1782651",
+   "price": 475.0,
+   "extra": 0.0,
+   "pct_below": 47,
+   "median": 899.0,
+   "comp_count": 8,
+   "source": "QTH",
+   "work_flag": "Not putting out full rated power \u2014 around 400W PEP on a brief test; tubes may be tired; a previous owner replaced a power-supply capacitor and the seller says the work was done very sloppily. Plus shipping (amount not stated; seller warns it will be high)."
+  },
+  {
+   "date": "2026-10-24",
+   "title": "Collins KWM-2A transceiver",
+   "url": "https://swap.qth.com/view_ad.php?counter=1782846",
+   "price": 420,
+   "extra": 0,
+   "pct_below": 46,
+   "median": 774.5,
+   "comp_count": 4,
+   "source": "QTH",
+   "work_flag": "needs work \u2014 band-switch steel cable off its pulleys; receiver works on 80 meters; transmitter untested; offered as is. Seller replaced some electrolytic capacitors; plug-in relay modification fitted"
+  },
+  {
+   "title": "Kenwood TS-2000",
+   "url": "https://swap.qth.com/view_ad.php?counter=1783128",
+   "price": 550,
+   "extra": 0,
+   "pct_below": 43,
+   "median": 970,
+   "comp_count": 12,
+   "work_flag": "PLL unlock \u2014 the synthesizer loses lock and the transmitter shuts down (seller's words: 'unlocked PLL'). No mic included; manual and DC cord are.",
+   "source": "QTH",
+   "date": "2026-10-25"
+  }
+ ]
 }
