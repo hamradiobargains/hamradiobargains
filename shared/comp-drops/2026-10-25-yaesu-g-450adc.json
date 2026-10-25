@@ -1,0 +1,144 @@
+{
+  "model": "Yaesu G-450ADC",
+  "slug": "yaesu-g-450adc",
+  "searched_at": "2026-10-25T15:00:54-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu g-450adc' page 1 (19 results). Excluded G-5500 and rotator cables (other items). Dropped 1 best-offer-accepted (287582601575 $150.77, 'G450 ADC Antenna Rotator Controller w/ DX Engineering cable'). Dropped 0 parts-only. 14 comps kept. Most 'Brand New' sales ship from Japan (Japanese domestic units; several titles say 100V) and the listing is a used US unit with ~190 ft cable. No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783121",
+    "site": "qth",
+    "ask": 400.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 380.0,
+      "sold_date": "2026-10-22",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/147180770013",
+      "source": "ebay",
+      "notes": "Ships from Japan; Buy It Now. +$80.00 delivery (includes import fees).",
+      "flags": []
+    },
+    {
+      "price": 341.83,
+      "sold_date": "2026-10-10",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/157858484351",
+      "source": "ebay",
+      "notes": "Ships from Japan; Buy It Now. +$49.99 delivery (includes import fees).",
+      "flags": []
+    },
+    {
+      "price": 379.0,
+      "sold_date": "2026-10-03",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/267099372217",
+      "source": "ebay",
+      "notes": "Ships from Japan; Buy It Now. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 379.99,
+      "sold_date": "2026-09-30",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/188176203119",
+      "source": "ebay",
+      "notes": "Title: Japanese Domestic Model 100V. Ships from Japan. +$80.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 459.0,
+      "sold_date": "2026-09-27",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/267697671378",
+      "source": "ebay",
+      "notes": "Title: 'Yaesu G450ADC Ham Radio Transceiver - Excellent Condition!' (eBay label Brand New). 'or Best Offer' listing, not marked accepted. Ships from Japan. +$87.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 329.0,
+      "sold_date": "2026-09-25",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/407229269714",
+      "source": "ebay",
+      "notes": "Rotator & controller. 'or Best Offer' listing, not marked accepted. Ships from Japan. +$72.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 415.14,
+      "sold_date": "2026-09-14",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/126147861906",
+      "source": "ebay",
+      "notes": "Shown $415.14 ($352.87 with coupon), 'or Best Offer' not marked accepted. Ships from Japan. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 280.0,
+      "sold_date": "2026-09-09",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/267713261928",
+      "source": "ebay",
+      "notes": "Ships from Japan; Buy It Now. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 330.25,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/406305711133",
+      "source": "ebay",
+      "notes": "Includes GC-038B mast clamp and 14m cable; AC100V. Ships from Japan. +$96.75 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 260.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198577465296",
+      "source": "ebay",
+      "notes": "Auction, 24 bids. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 350.48,
+      "sold_date": "2026-08-30",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227348807810",
+      "source": "ebay",
+      "notes": "Rotator & controller set. Ships from Japan. +$63.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 400.78,
+      "sold_date": "2026-08-11",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/206204953737",
+      "source": "ebay",
+      "notes": "'or Best Offer' not marked accepted. Ships from Japan. +$67.50 delivery.",
+      "flags": []
+    },
+    {
+      "price": 335.8,
+      "sold_date": "2026-08-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/365390825612",
+      "source": "ebay",
+      "notes": "Title: 100V Simple Type. Ships from Japan. +$70.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 306.0,
+      "sold_date": "2026-08-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206428863809",
+      "source": "ebay",
+      "notes": "Auction, 44 bids. Free delivery.",
+      "flags": []
+    }
+  ]
+}
