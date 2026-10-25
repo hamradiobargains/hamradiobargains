@@ -1,0 +1,53 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-25",
+  "ran_at": "2026-10-25T05:53:33-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-24T05:52:58-04:00 (prior eham run). Browsed signed OUT ('Welcome Guest'). One eHam page load (classifieds page 1); a Cloudflare 'Performing security verification' interstitial appeared and cleared on its own after ~10s wait, no interaction. Page 1 reached back to 629315 (covered last run), so page 2 not needed. No individual ads opened (summaries carried full text). New since prior run: 629316-629324 (629317, 629319 not shown). Skipped: 629324 WANTED Bird slugs (wanted ad); 629323 J-38 hand key $145 (key, not in candidate categories); 629320 GRE PSR-800 scanner $199 (scanner, not ham gear). No search form, sold searches, or seller/callsign pages. Comps: 1 ledger hit (ICOM IC-718); 4 eBay sold searches (signed in as Leo, one at a time, no challenges): Icom IC-720A, Green Heron RT-21, Acom 1200S, Acom 06AT. 629316 is a 1200S + 06AT bundle at one price, so both models were comped separately.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629322",
+      "site": "eham",
+      "title": "ICOM IC-718 DSP",
+      "price": 525.0,
+      "shipping": 40.0,
+      "found_at": "2026-10-25",
+      "condition_notes": "Seller: 'LOOKS AS NEW'. Includes new HM-36 hand mic and new DC lead; no box. $525 OBO local pickup; seller prefers buyer test and pick up but will ship, 'SHIP /48 $40'. Video link in ad.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629321",
+      "site": "eham",
+      "title": "Green Heron RT21 V4 Rotator",
+      "price": 475.0,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "Rotator controller, version V4. Seller: 'just back from a checkup at Green Heron Engineering', removed from box only to photograph. $475 plus shipping (amount not stated, set to 0).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629318",
+      "site": "eham",
+      "title": "ICOM IC-720A HF Transceiver",
+      "price": 249.0,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "Seller: 'Nice shape for its age'. Includes copy of manual and power cord. $249 shipped. Ad does not state working/tested status either way.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629316",
+      "site": "eham",
+      "title": "Acom 1200s and O6At",
+      "price": 4700.0,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "BUNDLE: Acom 1200S amplifier plus matching Acom 06AT tuner/antenna switch at one price. Seller: 'As new', 'Works flawlessly'. $4700, shipping available (amount not stated, set to 0).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
