@@ -1,0 +1,34 @@
+{
+  "model": "Acom 1200S",
+  "slug": "acom-1200s",
+  "searched_at": "2026-10-25T05:55:52-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 2 kept comps. Dropped 1 best-offer-accepted (358798971086 $3,899.95). Excluded a 1200S dust cover (accessory). No parts-only sales, no outliers. Trigger listing is a BUNDLE (1200S + 06AT tuner) at $4,700 — see also acom-06at comp drop.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629316",
+    "site": "eham",
+    "ask": 4700.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 2850.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198608449723",
+      "source": "ebay",
+      "notes": "auction, 42 bids; free delivery",
+      "flags": []
+    },
+    {
+      "price": 3400.0,
+      "sold_date": "2026-08-19",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/198519579990",
+      "source": "ebay",
+      "notes": "Buy It Now; title says 'new in open box'; +$145.50 delivery",
+      "flags": []
+    }
+  ]
+}
