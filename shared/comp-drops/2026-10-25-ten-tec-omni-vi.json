@@ -1,0 +1,25 @@
+{
+  "model": "Ten-Tec OMNI VI",
+  "slug": "ten-tec-omni-vi",
+  "searched_at": "2026-10-25T15:00:54-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ten-tec omni vi' page 1 (53 results). Exact model only: OMNI VI (563); OMNI VI Plus (564) units excluded as a different model (e.g. 128017150740 $609.99, 168653654514, 168556267320), plus parts/boards/cables/manuals excluded. Dropped 2 best-offer-accepted (920040572280 $290; 287575835174 $200, also parts-only). Dropped 2 parts-only (237113549667 $430 and 237056476549 $460, both 'Omni 6 Model 563 Opt3 factory installed'). 1 comp kept - thin.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783150",
+    "site": "qth",
+    "ask": 450.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 900.0,
+      "sold_date": "2026-07-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358731218635",
+      "source": "ebay",
+      "notes": "Title: Tested/Working, No Power Supply. Buy It Now; shown $900.00 with $1,000.00 struck through. +$35.07 delivery.",
+      "flags": []
+    }
+  ]
+}
