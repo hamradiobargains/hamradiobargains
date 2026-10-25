@@ -1,0 +1,27 @@
+{
+  "model": "Kenwood TS-790A",
+  "slug": "kenwood-ts-790a",
+  "searched_at": "2026-10-25T19:11:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"kenwood ts-790a\": 1 kept (very thin, and it is a disclosed not-fully-working unit). Dropped: best offer accepted 1 (198634694653 Sep 12 $600); as-is 1 (800463085299 Aug 4 $150, \"No audio, sold as is no returns\"). Kept separate as different models/wording (TS-790 without A, TS-790S): 137647465017 Aug 29 $453 (TS-790S), 128006528256 Sep 20 $509.99 (TS-790), 398189945450 Aug 2 $556.63 (TS-790), and a 2023 sale. Excluded: TSU-5 tone unit. Ledger has KENWOOD TS-790 (2 sales, 2026-09-20) - not used because the listing is a TS-790A.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782930",
+    "site": "qth",
+    "ask": 800,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 306.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800573713379",
+      "source": "ebay",
+      "notes": "auction 6 bids; title says \"Not fully working\"; shipping +$23.47",
+      "flags": [
+        "non_working"
+      ]
+    }
+  ]
+}
