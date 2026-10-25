@@ -1,0 +1,15 @@
+{
+  "model": "Icom IC-471A",
+  "slug": "icom-ic-471a",
+  "searched_at": "2026-10-25T19:10:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"icom ic-471a\": 0 IC-471A radio sales on page 1. Seen but not the same model: IC-471H 336784029766 (Sep 7, $70, Parts Only) and 318825651106 (Sep 5, $280, or Best Offer) - IC-471H is a different model, excluded. Also excluded: manual, power switch, power cord, IC-EX309 interface. Trigger listing is sold \"For Parts or Repair\". Not comped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782962",
+    "site": "qth",
+    "ask": 125,
+    "shipping": 30
+  },
+  "comps": []
+}
