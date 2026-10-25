@@ -1,0 +1,15 @@
+{
+  "model": "National NCL-2000",
+  "slug": "national-ncl-2000",
+  "searched_at": "2026-10-25T19:03:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"national ncl-2000\": 2 NCL-2000 results on page 1, 0 kept. Dropped: 920001826454 (Oct 6 2026, $500, Parts Only / untested, Best offer accepted, +$150 delivery) - both parts-only and best-offer-accepted. Excluded: 192687649119 (manual only, $13.99). Not comped (0 kept).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782501",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": []
+}
