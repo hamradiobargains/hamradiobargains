@@ -1,0 +1,15 @@
+{
+  "model": "Kenwood TM-710A",
+  "slug": "kenwood-tm-710a",
+  "searched_at": "2026-10-25T19:02:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"kenwood tm-710a\": 0 exact-model sales on page 1 (all results were other Kenwood models: TM-D700/D710/V71A/TM-7xx etc.). Seller wrote \"TM-710A V2\"; the described APRS/EchoLink sysop/SmartBeaconing features match the TM-D710A, but model identity not certain, so models kept separate and nothing counted as a comp. Not comped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782207",
+    "site": "qth",
+    "ask": 600,
+    "shipping": 0
+  },
+  "comps": []
+}
