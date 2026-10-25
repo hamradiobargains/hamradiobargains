@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-25",
+  "ran_at": "2026-10-25T17:56:00-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now, sorted Time: newly listed, signed in as Leo; /b/ browse page loaded fine. Window since previous ebay run 2026-10-24T18:01:31-04:00; scanned page 1 only (60 items, all NEW LISTING; browse cards show no listing times, so 'new' = newest-first order). None of the picked items were in dropped-urls.json. Seller rule: skipped Icom IC-746 $475 OBO (820276933664) - seller walkingonair has only 3 ratings, below the 10-rating minimum. Ledger: 4 hits (ICOM IC-706MKIIG, YAESU FT-8900R, ICOM IC-7300, ICOM IC-7300MK2); 4 misses -> eBay sold searches: yaesu ft-757gx-ii (ledger latest 2026-08-24, stale), kenwood tm-733, icom ic-728, drake r8a. No challenges. Item descriptions not read (FT-8900R title says 'Read DESC'). Not picked (cap 8 / not a unit / format): Yaesu FT-991A brand new $1,600 OBO (dealer, w/ warranty), Yaesu FT-207R w/ circuit mods, Yaesu FT-212RH, Icom IC-1200 untested, Icom IC-2AT, KD1JV Survivor (auction card), Xiegu X6200 new, AnyTone AT-D890UV, B&W VS300A tuner, JRC NFG-505 preselector, Heil GM-4 mic, Hallicrafters SX-101A parts-only, Kenwood TS-820 parts-only, MFJ-826B parts-only, Emtech ZM-2 parts-only, vintage receivers (National HRO-50T1, Hammarlund HQ-160/HQ-140-X, Eddystone EC10/830/7, Heathkit GR-54), WJ 8711A, Texas Star 667v/Browning amps, Stryker 10m, TNCs/interfaces, filters, non-ham items.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/287679379026",
+      "site": "ebay",
+      "title": "Yaesu FT-757GX II HF Transceiver w/ FP-700 Power Supply, MH-1 Mic & Accessories",
+      "price": 445.95,
+      "shipping": 58.0,
+      "found_at": "2026-10-25",
+      "condition_notes": "Used; seller: \"Good working and cosmetic condition\"; includes FP-700 power supply, MH-1 mic, accessories",
+      "work_flag": "",
+      "seller_feedback": "100% (4128 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/287679304751",
+      "site": "ebay",
+      "title": "Icom IC 706 MKIIG with LDG Z- Quad Band HF/50/144/430 Ham Transceiver 100W LCD",
+      "price": 850.0,
+      "shipping": 11.95,
+      "found_at": "2026-10-25",
+      "condition_notes": "Used, or Best Offer; bundled with an LDG Z-series tuner; seller: \"The radio and tuner are both in good working order. Testing was limited but no issues were noted.\"",
+      "work_flag": "Testing was limited",
+      "seller_feedback": "100% (996 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/920074205210",
+      "site": "ebay",
+      "title": "Yaesu FT-8900R Quad Band Ham Radio w/ Mic, Separation Kit & Mount Read DESC",
+      "price": 350.0,
+      "shipping": 9.99,
+      "found_at": "2026-10-25",
+      "condition_notes": "Used, or Best Offer; includes mic, separation kit, mount; title says \"Read DESC\" (description not read)",
+      "work_flag": "Read DESC",
+      "seller_feedback": "100% (111 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/920074176108",
+      "site": "ebay",
+      "title": "Kenwood TM-733 Dual Band FM Ham Radio Transceiver w/ Mic & Power Cable",
+      "price": 200.0,
+      "shipping": 8.52,
+      "found_at": "2026-10-25",
+      "condition_notes": "Used, or Best Offer; item specifics Model \"Kenwood TM-733\"; includes mic and power cable",
+      "work_flag": "",
+      "seller_feedback": "100% (111 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/267823754006",
+      "site": "ebay",
+      "title": "Icom IC-7300 HF/6m Mars Modded US Version 100 Watt SDR Transceiver Very Nice!!",
+      "price": 805.0,
+      "shipping": 15.1,
+      "found_at": "2026-10-25",
+      "condition_notes": "Used; MARS modded; title says \"Very Nice!!\"",
+      "work_flag": "",
+      "seller_feedback": "100% (489 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/168816056664",
+      "site": "ebay",
+      "title": "Icom IC-728 HF Ham Radio Transceiver AT-160 Auto Tuner HM-12 Mic Tested Manuals",
+      "price": 502.88,
+      "shipping": 139.86,
+      "found_at": "2026-10-25",
+      "condition_notes": "Used, or Best Offer; title says Tested; includes AT-160 auto tuner, HM-12 mic, manuals",
+      "work_flag": "",
+      "seller_feedback": "100% (801 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/940041144110",
+      "site": "ebay",
+      "title": "DRAKE R8A SHORTWAVE RECEIVER",
+      "price": 700.0,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "Used, or Best Offer; subtitle \"Beautiful Fully Functional R8A -- A Classic\"; shipping shown as Freight - check description/contact seller (shipping unknown, recorded 0)",
+      "work_flag": "",
+      "seller_feedback": "100% (1920 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/117487022042",
+      "site": "ebay",
+      "title": "Icom 7300 MK2 Mint Opened Tested and put back in box Perfect Ships Instantly",
+      "price": 1250.0,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "Open box; title: mint, opened, tested, put back in box; free shipping",
+      "work_flag": "",
+      "seller_feedback": "100% (2651 ratings)"
+    }
+  ]
+}
