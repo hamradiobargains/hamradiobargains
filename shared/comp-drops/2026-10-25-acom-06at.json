@@ -1,0 +1,25 @@
+{
+  "model": "Acom 06AT",
+  "slug": "acom-06at",
+  "searched_at": "2026-10-25T05:55:52-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 1 kept comp. No best-offer-accepted or parts-only sales on page 1. Trigger listing is a BUNDLE (Acom 1200S + 06AT) at $4,700 — see also acom-1200s comp drop.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629316",
+    "site": "eham",
+    "ask": 4700.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 877.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206527197505",
+      "source": "ebay",
+      "notes": "auction, 33 bids; free delivery",
+      "flags": []
+    }
+  ]
+}
