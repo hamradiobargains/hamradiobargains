@@ -1,0 +1,15 @@
+{
+  "model": "Radioddity VB70-B",
+  "slug": "radioddity-vb70-b",
+  "searched_at": "2026-10-26T05:56:01-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no entry). eBay sold search returned 1 exact result, a PC005 programming cable ($24.99) — excluded (accessory). Radioddity VB70 units appeared only under 'Results matching fewer words' (ignored; VB70 vs VB70-B identity also not certain). 0 comps — no data. dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629327",
+    "site": "eham",
+    "ask": 120.0,
+    "shipping": 0
+  },
+  "comps": []
+}
