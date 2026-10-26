@@ -1,0 +1,75 @@
+{
+  "model": "Kenwood TS-480SAT",
+  "slug": "kenwood-ts-480sat",
+  "searched_at": "2026-10-26T15:00:50-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "6 comps kept. Dropped 4 best-offer-accepted TS-480SAT sales (800754330516 — also parts-only/untested control head; 407247766860; 116918432115; 318365528973) and 3 parts-only (227510739052 $355; 198600019556 $600 w/SignaLink; 287559663102 $399.99). Excluded for model identity: listings titled only 'TS-480' with no SAT/HX (287649393045 $899; 307093947245 and 318746756807, both also best-offer-accepted), TS-480HX units, and accessories/manuals/boards. No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783266",
+    "site": "qth",
+    "ask": 675.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 675.0,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287659437184",
+      "source": "ebay",
+      "notes": "Title: 'Kenwood TS-480 SAT - HF/50 MHZ All Mode Transceiver'. +$35.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 725.0,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147575723917",
+      "source": "ebay",
+      "notes": "Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 725.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188845135732",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Title: 'Works Great! Includes Box, Manual, 2 Antennas'. +$17.62 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307149706067",
+      "source": "ebay",
+      "notes": "Title says LNIB; free shipping.",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236866807698",
+      "source": "ebay",
+      "notes": "+$40.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-08-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127733710995",
+      "source": "ebay",
+      "notes": "Title: 'Includes Voice Module Signalink Mic CAT'. +$106.60 delivery.",
+      "flags": [
+        "extras_included",
+        "option_installed"
+      ]
+    }
+  ]
+}
