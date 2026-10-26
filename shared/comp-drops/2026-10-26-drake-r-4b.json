@@ -1,0 +1,74 @@
+{
+  "model": "Drake R-4B",
+  "slug": "drake-r-4b",
+  "searched_at": "2026-10-26T18:01:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1, signed in. Kept 6 comps. dropped 6 best-offer-accepted (147640164359, 206621551691, 237089306729, 178435120354, 366687916818, 366656823216 — the first three were also Parts Only); dropped 5 parts-only (198717930506 R4B+T-4XB twins, 237040017881 B-line set, 198547908274 for restoration, 236990053999 R-4B+T-4XB, 287529379441); excluded crystals, manuals, knobs, cables, S-meter, and other models (R-4, R-4A, R-4C, R8, TR-4, T-4XB).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/820280763404",
+    "site": "ebay",
+    "ask": 185.0,
+    "shipping": 45.0
+  },
+  "comps": [
+    {
+      "price": 215.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206587012211",
+      "source": "ebay",
+      "notes": "With manual; or Best Offer (not accepted); +$34.29 shipping",
+      "flags": []
+    },
+    {
+      "price": 219.99,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327338883583",
+      "source": "ebay",
+      "notes": "Title says WORKS; Buy It Now; +$39.99 shipping",
+      "flags": []
+    },
+    {
+      "price": 349.99,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158217490645",
+      "source": "ebay",
+      "notes": "Title: TESTED WORKING, LOADED WITH OPTIONAL XTALS; or Best Offer (not accepted); +$26.74 shipping",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147516881576",
+      "source": "ebay",
+      "notes": "Includes MS-4 speaker and AC-4 power supply; or Best Offer (not accepted); +$38.75 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 259.99,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407103908308",
+      "source": "ebay",
+      "notes": "Buy It Now; +$26.90 shipping",
+      "flags": []
+    },
+    {
+      "price": 329.0,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178392260313",
+      "source": "ebay",
+      "notes": "Buy It Now; +$75.33 shipping",
+      "flags": []
+    }
+  ]
+}
