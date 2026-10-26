@@ -1,1 +1,94 @@
-{"listings":[]}
+{
+  "listings": [
+    {
+      "title": "Yaesu FT-8900R",
+      "url": "https://www.ebay.com/itm/920074205210",
+      "price": 350,
+      "extra": 9.99,
+      "median": 384.5,
+      "comp_count": 12,
+      "comp_low": 200,
+      "comp_high": 699.99,
+      "offer_low": 282,
+      "offer_high": 288,
+      "source": "eBay",
+      "date": "2026-10-26",
+      "listed_since": "2026-10-25"
+    },
+    {
+      "title": "LDG Z-100Plus Autotuner",
+      "url": "https://www.ebay.com/itm/198734526677",
+      "price": 130,
+      "extra": 9.61,
+      "median": 129.09,
+      "comp_count": 9,
+      "comp_low": 84.28,
+      "comp_high": 168.56,
+      "offer_low": 94,
+      "offer_high": 96,
+      "source": "eBay",
+      "date": "2026-10-26",
+      "listed_since": "2026-10-21"
+    },
+    {
+      "title": "Icom IC-2100H",
+      "url": "https://www.ebay.com/itm/257805207324",
+      "price": 99.95,
+      "extra": 16.95,
+      "median": 145,
+      "comp_count": 5,
+      "comp_low": 90,
+      "comp_high": 159.99,
+      "offer_low": 97,
+      "offer_high": 99,
+      "source": "eBay",
+      "date": "2026-10-26",
+      "listed_since": "2026-10-18"
+    },
+    {
+      "title": "Yaesu FT-70DR",
+      "url": "https://www.ebay.com/itm/227570544904",
+      "price": 156.85,
+      "extra": 11.3,
+      "median": 172.9,
+      "comp_count": 13,
+      "comp_low": 105,
+      "comp_high": 254.95,
+      "offer_low": 127,
+      "offer_high": 129,
+      "source": "eBay",
+      "date": "2026-10-26",
+      "listed_since": "2026-10-16"
+    },
+    {
+      "title": "Astron RS-35A Power Supply",
+      "url": "https://www.ebay.com/itm/336847615472",
+      "price": 110,
+      "extra": 42.75,
+      "median": 110,
+      "comp_count": 13,
+      "comp_low": 99.95,
+      "comp_high": 179.99,
+      "offer_low": 80,
+      "offer_high": 82,
+      "source": "eBay",
+      "date": "2026-10-26",
+      "listed_since": "2026-10-16"
+    },
+    {
+      "title": "Icom IC-735",
+      "url": "https://www.ebay.com/itm/227564324399",
+      "price": 300,
+      "extra": 11.03,
+      "median": 308,
+      "comp_count": 10,
+      "comp_low": 163.5,
+      "comp_high": 450,
+      "offer_low": 226,
+      "offer_high": 231,
+      "source": "eBay",
+      "date": "2026-10-26",
+      "listed_since": "2026-10-12"
+    }
+  ]
+}
