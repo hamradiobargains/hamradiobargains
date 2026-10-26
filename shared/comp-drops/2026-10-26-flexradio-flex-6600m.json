@@ -1,0 +1,47 @@
+{
+  "model": "FlexRadio FLEX-6600M",
+  "slug": "flexradio-flex-6600m",
+  "searched_at": "2026-10-26T14:59:50-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "3 comps kept. Dropped 0 best-offer-accepted, 1 parts-only (336821623446, Flex-6600 non-M, $1,499.95 — also a different model). The Sep 13 and Aug 14 sales have identical titles — possibly the same unit relisted. No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783275",
+    "site": "qth",
+    "ask": 2575.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 2100.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128093372447",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'FlexRadio 6600M Mint!'. +$21.73 delivery.",
+      "flags": []
+    },
+    {
+      "price": 3000.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198630580035",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked best offer accepted). Title: 'Excellent Condition – Ready for the Air'. Free delivery. Same title as 178229280602.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 3500.0,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178229280602",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'Excellent Condition – Ready for the Air'. +$18.65 delivery. Same title as 198630580035.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    }
+  ]
+}
