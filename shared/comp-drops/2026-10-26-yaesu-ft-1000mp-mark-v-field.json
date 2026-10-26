@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-1000MP Mark-V Field",
+  "slug": "yaesu-ft-1000mp-mark-v-field",
+  "searched_at": "2026-10-26T14:58:45-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 0 qualifying comps. Only 3 Field transceivers on page 1, all dropped: 1 best-offer-accepted (158064118153, Aug 3, shown $895), 2 parts-only (227482763811 Sep 12 $549.95; 198595099835 Aug 26 $395 'AS IS'). Non-Field FT-1000MP Mark-V units (e.g. $1,980 Oct 6, $1,100 Sep 29) excluded as a different model (Field has internal PS, 100W); remaining results were parts/boards/manuals/filters.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783225",
+    "site": "qth",
+    "ask": 995.0,
+    "shipping": 0
+  },
+  "comps": []
+}
