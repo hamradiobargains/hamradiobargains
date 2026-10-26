@@ -1,0 +1,15 @@
+{
+  "model": "Kenwood TS-870SAT",
+  "slug": "kenwood-ts-870sat",
+  "searched_at": "2026-10-26T05:56:01-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no 'KENWOOD TS-870SAT' entry; ledger has only 'KENWOOD TS-870S', count 1, 2026-09-15 — different model name, not used). eBay sold search returned 0 exact results; everything shown was under 'Results matching fewer words' and was ignored per rules (that section did include several TS-870S units, not used). 0 comps — no data. dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629333",
+    "site": "eham",
+    "ask": 900.0,
+    "shipping": 0
+  },
+  "comps": []
+}
