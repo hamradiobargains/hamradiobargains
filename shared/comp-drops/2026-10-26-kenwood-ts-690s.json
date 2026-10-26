@@ -1,0 +1,73 @@
+{
+  "model": "Kenwood TS-690S",
+  "slug": "kenwood-ts-690s",
+  "searched_at": "2026-10-26T18:01:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1, signed in. Kept 6 comps. dropped 1 best-offer-accepted (227453955365 $525); dropped 0 parts-only; excluded TS-690V (different model) and accessories/parts/manuals. Outliers flagged: 403963419749 $745.97 (others' median $470.00); 403897852618 $789.38 (others' median $470.00).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366763066155",
+    "site": "ebay",
+    "ask": 1060.37,
+    "shipping": 120.0
+  },
+  "comps": [
+    {
+      "price": 301.5,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940016337604",
+      "source": "ebay",
+      "notes": "Untested; includes mic; shown $301.50 with $335.00 struck through (markdown, not marked best offer accepted); +$39.95 shipping",
+      "flags": [
+        "as_is",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 470.0,
+      "sold_date": "2026-01-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/136802118736",
+      "source": "ebay",
+      "notes": "Title says Working; or Best Offer (not accepted); +$94.00 shipping, ships from Japan",
+      "flags": []
+    },
+    {
+      "price": 745.97,
+      "sold_date": "2022-11-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/403963419749",
+      "source": "ebay",
+      "notes": "OUTLIER: $745.97 vs median $470.00 for the rest. Buy It Now; +$30.99 shipping, ships from Japan",
+      "flags": []
+    },
+    {
+      "price": 789.38,
+      "sold_date": "2023-07-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/403897852618",
+      "source": "ebay",
+      "notes": "OUTLIER: $789.38 vs median $470.00 for the rest. Buy It Now; +$40.99 shipping, ships from Japan",
+      "flags": []
+    },
+    {
+      "price": 510.0,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128008692960",
+      "source": "ebay",
+      "notes": "Title says Working; shown $510.00 ($433.50 with coupon); +$175.00 shipping, ships from Japan",
+      "flags": []
+    },
+    {
+      "price": 449.99,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127989157712",
+      "source": "ebay",
+      "notes": "Buy It Now; +$28.25 shipping",
+      "flags": []
+    }
+  ]
+}
