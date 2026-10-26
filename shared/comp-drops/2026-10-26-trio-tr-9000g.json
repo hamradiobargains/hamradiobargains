@@ -1,0 +1,72 @@
+{
+  "model": "Trio TR-9000G",
+  "slug": "trio-tr-9000g",
+  "searched_at": "2026-10-26T18:01:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1, signed in. Kept 6 comps. dropped 0 best-offer-accepted (units); dropped 0 parts-only; excluded SP-430 speakers (accessory, one was best-offer-accepted) and a Parts Only 'Kenwood Trio TR-9000' (not the G model). Identity note: every sold TR-9000G comp is described as 144MHz/2m all-mode, but the trigger listing title says '430MHz FM' — Archie/Leo should confirm the trigger unit is the same model. Outliers flagged: 327389135799 $80.24 (others' median $170.00).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366763066000",
+    "site": "ebay",
+    "ask": 413.31,
+    "shipping": 85.0
+  },
+  "comps": [
+    {
+      "price": 90.0,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960102816652",
+      "source": "ebay",
+      "notes": "Title: '(No Cords tested)'; or Best Offer (not accepted); +$8.99 shipping",
+      "flags": []
+    },
+    {
+      "price": 159.99,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168041563079",
+      "source": "ebay",
+      "notes": "Title says Untested; or Best Offer (not accepted); +$40.00 shipping, ships from Japan",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 210.0,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128065617905",
+      "source": "ebay",
+      "notes": "Title says working; or Best Offer (not accepted); +$75.00 shipping, ships from Japan",
+      "flags": []
+    },
+    {
+      "price": 170.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298503637528",
+      "source": "ebay",
+      "notes": "Title says Tested Working, 144MHz FM; or Best Offer (not accepted); +$55.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 189.99,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/197798925934",
+      "source": "ebay",
+      "notes": "Buy It Now; +$37.50 shipping, ships from Japan",
+      "flags": []
+    },
+    {
+      "price": 80.24,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327389135799",
+      "source": "ebay",
+      "notes": "OUTLIER: $80.24 vs median $170.00 for the rest. Auction, 1 bid; title 'good used working condition', 2m multimode; +$119.06 shipping estimate (international)",
+      "flags": []
+    }
+  ]
+}
