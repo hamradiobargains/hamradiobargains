@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T12:53:07+00:00",
+ "updated": "2026-10-26T12:53:08+00:00",
  "source": "HamRadioBargains sold-comp ledger \u2014 genuine sold listings from eHam, QTH, eBay and site deals, plus the eHam comp archive. Prices are asking prices at sale; best offers may differ.",
  "models": {
   "ACOM 06AT": {
@@ -378,6 +378,24 @@
     }
    ]
   },
+  "ATLAS 210X": {
+   "latest": {
+    "date": "2026-09-09",
+    "median": 275.0,
+    "low": 250.0,
+    "high": 300.0,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-09-09",
+     "median": 275.0,
+     "low": 250.0,
+     "high": 300.0,
+     "count": 2
+    }
+   ]
+  },
   "ATU-130": {
    "latest": {
     "date": "2026-09-07",
@@ -583,6 +601,24 @@
     }
    ]
   },
+  "DRAKE R8A": {
+   "latest": {
+    "date": "2026-09-25",
+    "median": 417.48,
+    "low": 285.0,
+    "high": 549.95,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-09-25",
+     "median": 417.48,
+     "low": 285.0,
+     "high": 549.95,
+     "count": 2
+    }
+   ]
+  },
   "DRAKE R8B": {
    "latest": {
     "date": "2026-09-08",
@@ -598,6 +634,42 @@
      "low": 1199.0,
      "high": 1279.99,
      "count": 2
+    }
+   ]
+  },
+  "DRAKE SSR-1": {
+   "latest": {
+    "date": "2026-08-03",
+    "median": 325.0,
+    "low": 325.0,
+    "high": 325.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-08-03",
+     "median": 325.0,
+     "low": 325.0,
+     "high": 325.0,
+     "count": 1
+    }
+   ]
+  },
+  "DRAKE T-4XC": {
+   "latest": {
+    "date": "2026-10-24",
+    "median": 270.0,
+    "low": 150.0,
+    "high": 308.74,
+    "count": 8
+   },
+   "history": [
+    {
+     "date": "2026-10-24",
+     "median": 270.0,
+     "low": 150.0,
+     "high": 308.74,
+     "count": 8
     }
    ]
   },
@@ -1646,6 +1718,24 @@
     }
    ]
   },
+  "ICOM IC-728": {
+   "latest": {
+    "date": "2026-09-05",
+    "median": 450.0,
+    "low": 450.0,
+    "high": 450.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-09-05",
+     "median": 450.0,
+     "low": 450.0,
+     "high": 450.0,
+     "count": 1
+    }
+   ]
+  },
   "ICOM IC-730": {
    "latest": {
     "date": "2026-08-19",
@@ -1740,6 +1830,24 @@
      "low": 385,
      "high": 700,
      "count": 5
+    }
+   ]
+  },
+  "ICOM IC-740": {
+   "latest": {
+    "date": "2026-09-09",
+    "median": 450.0,
+    "low": 450.0,
+    "high": 450.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-09-09",
+     "median": 450.0,
+     "low": 450.0,
+     "high": 450.0,
+     "count": 1
     }
    ]
   },
@@ -2315,6 +2423,24 @@
      "low": 375,
      "high": 450,
      "count": 4
+    }
+   ]
+  },
+  "ICOM ID-880H": {
+   "latest": {
+    "date": "2026-10-02",
+    "median": 272.48,
+    "low": 237.14,
+    "high": 399.95,
+    "count": 6
+   },
+   "history": [
+    {
+     "date": "2026-10-02",
+     "median": 272.48,
+     "low": 237.14,
+     "high": 399.95,
+     "count": 6
     }
    ]
   },
@@ -3745,6 +3871,24 @@
     }
    ]
   },
+  "TEN-TEC OMNI VI": {
+   "latest": {
+    "date": "2026-07-27",
+    "median": 900.0,
+    "low": 900.0,
+    "high": 900.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-07-27",
+     "median": 900.0,
+     "low": 900.0,
+     "high": 900.0,
+     "count": 1
+    }
+   ]
+  },
   "TEN-TEC OMNI VI PLUS (564)": {
    "latest": {
     "date": "2026-08-28",
@@ -3777,6 +3921,24 @@
      "median": 795.0,
      "low": 795.0,
      "high": 795.0,
+     "count": 1
+    }
+   ]
+  },
+  "TEN-TEC PEGASUS": {
+   "latest": {
+    "date": "2026-10-02",
+    "median": 400.0,
+    "low": 400.0,
+    "high": 400.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-10-02",
+     "median": 400.0,
+     "low": 400.0,
+     "high": 400.0,
      "count": 1
     }
    ]
@@ -5085,6 +5247,24 @@
      "low": 500.0,
      "high": 500.0,
      "count": 1
+    }
+   ]
+  },
+  "YAESU G-450ADC": {
+   "latest": {
+    "date": "2026-10-22",
+    "median": 346.15,
+    "low": 260.0,
+    "high": 459.0,
+    "count": 14
+   },
+   "history": [
+    {
+     "date": "2026-10-22",
+     "median": 346.15,
+     "low": 260.0,
+     "high": 459.0,
+     "count": 14
     }
    ]
   },
