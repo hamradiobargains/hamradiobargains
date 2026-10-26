@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-26",
+  "ran_at": "2026-10-26T18:01:00-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now, sorted newly listed, signed in as Leo; browse page loaded fine. Window since previous ebay run 2026-10-25T17:56:00-04:00; scanned page 1 only (46 items; browse cards show no listing times, so 'new' = newest-first order). None of the picked items were in dropped-urls.json. All 8 sellers passed the feedback rule. Ledger: 1 hit (ICOM IC-R75); 7 misses -> eBay sold searches: kenwood ts-690s (ledger count 1), trio tr-9000g, yaesu ft-900, ameritron al-811 (ledger latest 2026-09-14, stale), kenwood ts-50s, heathkit sa-2060a (ledger count 1), drake r-4b. No challenges. Item descriptions not read. Not picked (cap 8 / not a unit / format): Yaesu FT-890AT and Atlas 210X (auction cards), MFJ-269 analyzer, Bird TS-118A wattmeter, Daiwa CN-720B, MFJ-812B/MFJ-893 meters, Yaesu FTV-250/FTV-650B/FT-101 landliner (accessory units), Icom IC-21A, Sony ICB-U700, Brewer Labs SSL-100, Ten-Tec Titan RF deck parts-only, Palomar Skipper 300 parts-only, vintage receivers/transmitters listed Parts Only (Hammarlund HQ-129-X/HQ-140-X/SP-600, National NC300/HRO-50T1, Knight T-150A, Johnson Viking Ranger, BC-348-R), SDRs, filters, broadcast/military gear.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/366763066155",
+      "site": "ebay",
+      "title": "KENWOOD TS-690S HF 50MHz Amateur Radio Transceiver MC-43S Tested Working",
+      "price": 1060.37,
+      "shipping": 120.0,
+      "found_at": "2026-10-26",
+      "condition_notes": "Used; title says Tested Working; includes MC-43S mic; ships from Japan (eBay SpeedPAK)",
+      "work_flag": "",
+      "seller_feedback": "100% (234 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366763066000",
+      "site": "ebay",
+      "title": "TRIO TR-9000G 430MHz FM Transceiver Amateur Radio with Microphone Tested Working",
+      "price": 413.31,
+      "shipping": 85.0,
+      "found_at": "2026-10-26",
+      "condition_notes": "Used; title says Tested Working; includes microphone; ships from Japan. Title says 430MHz FM, while TR-9000G sold comps describe a 144MHz/2m all-mode radio",
+      "work_flag": "",
+      "seller_feedback": "100% (234 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/920077097765",
+      "site": "ebay",
+      "title": "Yaesu HF Transceiver Model Number Ft900",
+      "price": 410.0,
+      "shipping": 96.39,
+      "found_at": "2026-10-26",
+      "condition_notes": "Used; or Best Offer; no seller notes or working status stated in title",
+      "work_flag": "",
+      "seller_feedback": "100% (46 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/920077067424",
+      "site": "ebay",
+      "title": "Ameritron AL-811 HF Linear Amplifier – Powers On – Includes Instruction Manual",
+      "price": 485.0,
+      "shipping": 144.17,
+      "found_at": "2026-10-26",
+      "condition_notes": "Used; or Best Offer; title says Powers On; includes instruction manual",
+      "work_flag": "Powers On",
+      "seller_feedback": "100% (46 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/237145620811",
+      "site": "ebay",
+      "title": "Kenwood TS-50s HF Transceiver IN BOX",
+      "price": 580.0,
+      "shipping": 57.19,
+      "found_at": "2026-10-26",
+      "condition_notes": "Open box (eBay condition); or Best Offer; title says IN BOX",
+      "work_flag": "",
+      "seller_feedback": "100% (48 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/820280601575",
+      "site": "ebay",
+      "title": "ICOM IC-R75 HF Communications Receiver w/ UT-106 DSP FL-222 FL-223 Box Japan",
+      "price": 1318.0,
+      "shipping": 210.0,
+      "found_at": "2026-10-26",
+      "condition_notes": "Used; seller notes: operation confirmed with a simple antenna; installed options UT-106 DSP, FL-222, FL-223; with box; ships from Japan",
+      "work_flag": "",
+      "seller_feedback": "100% (53 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/920077064265",
+      "site": "ebay",
+      "title": "Heathkit SA-2060A High Power Roller Inductor Antenna Tuner",
+      "price": 200.0,
+      "shipping": 96.39,
+      "found_at": "2026-10-26",
+      "condition_notes": "Used; or Best Offer; no working status stated in title",
+      "work_flag": "",
+      "seller_feedback": "100% (46 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/820280763404",
+      "site": "ebay",
+      "title": "Vintage 1960s DRAKE R-4B HF Analog Ham Radio Receiver AM SSB CW RCA Audio Output",
+      "price": 185.0,
+      "shipping": 45.0,
+      "found_at": "2026-10-26",
+      "condition_notes": "Used; seller notes: 'working order'",
+      "work_flag": "",
+      "seller_feedback": "99.8% (4251 ratings)"
+    }
+  ]
+}
