@@ -1,0 +1,110 @@
+{
+  "model": "Heathkit SA-2060A",
+  "slug": "heathkit-sa-2060a",
+  "searched_at": "2026-10-26T18:01:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1, signed in. Kept 10 comps. dropped 2 best-offer-accepted (137652633632 $130.00; 366538221045 $382.50, whose title also says Parts Repair); dropped 0 other parts-only. Outliers flagged: 198394288926 $399.99 (others' median $224.99).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/920077064265",
+    "site": "ebay",
+    "ask": 200.0,
+    "shipping": 96.39
+  },
+  "comps": [
+    {
+      "price": 224.99,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198665875567",
+      "source": "ebay",
+      "notes": "Buy It Now; +$49.87 shipping; same title as 198394288926 (sold 2026-09-16)",
+      "flags": []
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318861456344",
+      "source": "ebay",
+      "notes": "Buy It Now; +$89.70 shipping",
+      "flags": []
+    },
+    {
+      "price": 285.0,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198609083042",
+      "source": "ebay",
+      "notes": "Buy It Now; title says works well; +$54.50 shipping; same title as 178428063026 (sold 2026-09-11)",
+      "flags": []
+    },
+    {
+      "price": 399.99,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198394288926",
+      "source": "ebay",
+      "notes": "OUTLIER: $399.99 vs median $224.99 for the rest. Buy It Now; +$49.87 shipping",
+      "flags": []
+    },
+    {
+      "price": 199.2,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128007727065",
+      "source": "ebay",
+      "notes": "Buy It Now; shown $199.20 with $249.00 struck through (markdown, not marked best offer accepted); title: with dual watt meters, manual, works well; +$23.16 shipping",
+      "flags": []
+    },
+    {
+      "price": 330.0,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178428063026",
+      "source": "ebay",
+      "notes": "Buy It Now; title says works well; +$54.50 shipping",
+      "flags": []
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298644213208",
+      "source": "ebay",
+      "notes": "Buy It Now; +$25.22 shipping",
+      "flags": []
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-08-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800479670293",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; +$104.10 shipping; identical title to 800445129042 sold the previous day",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 203.01,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800445129042",
+      "source": "ebay",
+      "notes": "Auction, 22 bids; +$11.64 shipping; identical title to 800479670293 sold the next day",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 220.0,
+      "sold_date": "2026-08-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188714368662",
+      "source": "ebay",
+      "notes": "Buy It Now; +$45.00 shipping",
+      "flags": []
+    }
+  ]
+}
