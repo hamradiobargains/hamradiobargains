@@ -1,0 +1,52 @@
+{
+  "model": "Yaesu FT-900",
+  "slug": "yaesu-ft-900",
+  "searched_at": "2026-10-26T18:01:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1, signed in. Kept 4 comps. dropped 1 best-offer-accepted (128010918608 'bundle', $538); dropped 3 parts-only (287521198154 $152.50, 287497644746 $255.00, and 820229135753 $361.99 which was also an FT-900 AT); excluded accessories (YSK-900 kits, mics, TCXO, cables, handle) and other models (FT-7900, FT-8900, FT-891).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/920077097765",
+    "site": "ebay",
+    "ask": 410.0,
+    "shipping": 96.39
+  },
+  "comps": [
+    {
+      "price": 399.99,
+      "sold_date": "2026-10-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287608308221",
+      "source": "ebay",
+      "notes": "Title: with mounting bracket & 2 manuals - Works!; Buy It Now; +$15.95 shipping",
+      "flags": []
+    },
+    {
+      "price": 529.0,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/397895641108",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); +$76.50 shipping",
+      "flags": []
+    },
+    {
+      "price": 399.99,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377452434031",
+      "source": "ebay",
+      "notes": "Title: TESTED Powers On; or Best Offer (not accepted); +$24.75 shipping",
+      "flags": []
+    },
+    {
+      "price": 420.0,
+      "sold_date": "2026-07-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168550438321",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); +$7.53 shipping",
+      "flags": []
+    }
+  ]
+}
