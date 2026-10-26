@@ -1,0 +1,64 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-26",
+  "ran_at": "2026-10-26T05:53:29-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-25T05:53:33-04:00 (prior eham run). Browsed signed OUT ('Welcome Guest'). One eHam page load (classifieds page 1); a Cloudflare interstitial appeared and cleared on its own after a ~10s wait, no interaction. Page 1 reached back to 629322 (covered last run), so page 2 not needed. No individual ads opened (summaries carried full text). New since prior run: 629327-629335 (629325, 629326, 629332, 629334 not shown). Skipped: 629335 wanted ad (QST magazines); 629331 Eero WiFi router (not ham gear). No search form, sold searches, or seller/callsign pages. Comps: 1 ledger hit (YAESU FT-857D); 4 eBay sold searches (signed in as Leo, one at a time, no challenges): Kenwood TS-870SAT (0 exact results), Icom IC-740 (1 kept), Swan 700S (0 units), Radioddity VB70-B (0 units).",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629333",
+      "site": "eham",
+      "title": "Kenwood TS-870SAT",
+      "price": 900.0,
+      "shipping": 0,
+      "found_at": "2026-10-26",
+      "condition_notes": "Pristine, non-smoker, 20 mil serial (newer version). Works and looks great. Radio and power cord. $900 shipped CONUS (shipping included in price).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629330",
+      "site": "eham",
+      "title": "Selling Icom 740 HT Transceiver",
+      "price": 300.0,
+      "shipping": 0,
+      "found_at": "2026-10-26",
+      "condition_notes": "Icom IC-740 HF transceiver (ad title says 'HT' but body describes the IC-740 base HF rig). Seller: working and in good condition. Shipping not stated.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629329",
+      "site": "eham",
+      "title": "FOR SALE: Yaesu FT-857D $650 shipped",
+      "price": 650.0,
+      "shipping": 0,
+      "found_at": "2026-10-26",
+      "condition_notes": "Not original owner; full power on VHF, UHF and HF; screen has no vertical lines; great cosmetic shape. Original box, power cord, separation kit, mobile bracket. $650 shipped CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629328",
+      "site": "eham",
+      "title": "Swan 700S",
+      "price": 225.0,
+      "shipping": 0,
+      "found_at": "2026-10-26",
+      "condition_notes": "From an SK estate. Checked OK for RX; no response when transmitting, TX section unknown. Includes manual and Swan handheld mic. Local pickup in Oklahoma or buyer pays shipping (amount not stated).",
+      "work_flag": "Unit checked OK for RX. Tried transmitting but got no response so not sure about TX section",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629327",
+      "site": "eham",
+      "title": "Radioddity VB70-B 2M Xcvr",
+      "price": 120.0,
+      "shipping": 0,
+      "found_at": "2026-10-26",
+      "condition_notes": "70W 2m mobile with BT PTT. 'Just out of the box' condition, shelf-only use; seller confirmed it works and programmed a couple repeaters. All original items incl. box, mic, bracket, DC cable, BT PTT, programming cable. $120 shipped CONUS.",
+      "work_flag": "No returns",
+      "seller_feedback": ""
+    }
+  ]
+}
