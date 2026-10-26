@@ -1,0 +1,88 @@
+{
+  "model": "Ameritron AL-811",
+  "slug": "ameritron-al-811",
+  "searched_at": "2026-10-26T18:01:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1, signed in. Kept 8 comps. dropped 6 best-offer-accepted (960083621756, 188970889576, 336847579245, 227572180614, 298593162860, 298534942238 — the last two were also Parts Only); dropped 2 parts-only (257710658567 $300.00, 287556631404 $499.99); excluded all AL-811H sales (different model) and accessories/kits/manuals. Trigger listing title says 'Powers On'. Outliers flagged: 366718041629 $349.00 (others' median $749.99).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/920077067424",
+    "site": "ebay",
+    "ask": 485.0,
+    "shipping": 144.17
+  },
+  "comps": [
+    {
+      "price": 349.0,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366718041629",
+      "source": "ebay",
+      "notes": "OUTLIER: $349.00 vs median $749.99 for the rest. Auction, 7 bids; 160-15/17M, 120/240V; +$184.85 shipping",
+      "flags": []
+    },
+    {
+      "price": 1050.0,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327261557502",
+      "source": "ebay",
+      "notes": "Buy It Now; title: 600w, with 3 new matched tubes; free shipping",
+      "flags": []
+    },
+    {
+      "price": 669.99,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327348788660",
+      "source": "ebay",
+      "notes": "Buy It Now; title says WORKS; +$99.99 shipping",
+      "flags": []
+    },
+    {
+      "price": 755.99,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168627905691",
+      "source": "ebay",
+      "notes": "Buy It Now; shown $755.99 with $960.99 struck through (markdown, not marked best offer accepted); free shipping",
+      "flags": []
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287414435028",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); 3 x 811A tubes, 120v; +$150.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 715.0,
+      "sold_date": "2026-08-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336742415142",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; +$92.91 shipping",
+      "flags": []
+    },
+    {
+      "price": 725.0,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227463995581",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); +$64.33 shipping",
+      "flags": []
+    },
+    {
+      "price": 749.99,
+      "sold_date": "2026-08-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407053958792",
+      "source": "ebay",
+      "notes": "Buy It Now; +$57.87 shipping",
+      "flags": []
+    }
+  ]
+}
