@@ -1,0 +1,27 @@
+{
+  "model": "Icom IC-740",
+  "slug": "icom-ic-740",
+  "searched_at": "2026-10-26T05:56:01-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 1 kept comp. Ledger miss (no entry). eBay sold page 1 (36 results) had 4 IC-740 units; the rest were other models (IC-730/735/738/761 etc.) or accessories (filters, keyer, parts) and were excluded. dropped 2 best-offer-accepted (298733297427 $249.99 Oct 4; 178359862244 $150 auction+BOA Jul 31), dropped 1 parts-only (307217785294 $340.14 UK auction w/ PS-55, Parts Only). Kept comp includes the internal power supply option.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629330",
+    "site": "eham",
+    "ask": 300.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 450.0,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278337246325",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Title: 'PRISTINE w/Internal PS!'. Shipping +$26.45.",
+      "flags": [
+        "option_installed"
+      ]
+    }
+  ]
+}
