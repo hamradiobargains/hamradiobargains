@@ -1,0 +1,25 @@
+{
+  "model": "Icom IC-7410",
+  "slug": "icom-ic-7410",
+  "searched_at": "2026-10-27T14:59:35-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "1 comps kept from eBay sold page 1 (signed in as Leo). Dropped 0 best-offer-accepted that were IC-7410s, 0 parts-only IC-7410s. eBay returned 21 sold results for 'icom ic-7410'; only 1 was an IC-7410 unit - the rest were other models (IC-746 Pro, IC-7610, IC-761, IC-756 Pro III, IC-7300, IC-746) or a carry handle, all left out. Ledger miss: ICOM IC-7410 count 1 (2026-08-08), which appears to be this same sale. thin.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783375",
+    "site": "qth",
+    "ask": 695.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 500.0,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198554128861",
+      "source": "ebay",
+      "notes": "or Best Offer (not shown as accepted); title: icom ic 7410 transceiver; shipping $83.65",
+      "flags": []
+    }
+  ]
+}
