@@ -1,0 +1,27 @@
+{
+  "model": "Yaesu VR-500",
+  "slug": "yaesu-vr-500",
+  "searched_at": "2026-10-27T18:03:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — only 1 working VR-500 unit sold on page 1. Kept 1. Dropped 1 best-offer-accepted (800520193039, also Parts Only) and 1 parts-only (178493772409, 'Bad Display No Back Cover'). Left out 6 parts/accessories (knobs, LCD, cables, quick-reference card). No outlier test possible with one comp. Ledger miss: no VR-500 entry in comps.json.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/960123942130",
+    "site": "ebay",
+    "ask": 224.95,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 229.95,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298662913763",
+      "source": "ebay",
+      "notes": "Buy It Now; title '+ Case + 3 Antennas'; +$14.95 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
