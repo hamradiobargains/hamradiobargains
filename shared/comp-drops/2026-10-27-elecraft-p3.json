@@ -1,0 +1,65 @@
+{
+  "model": "Elecraft P3",
+  "slug": "elecraft-p3",
+  "searched_at": "2026-10-27T17:59:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1. Kept 5 P3 panadapter units. Left out as not the unit: 4 W2 wattmeter/coupler sales titled 'P3 Panadapter Transmit Monitor or W2' (one of them Parts Only), 1 CBLP3Y cable, 1 dust cover, 2 bundles where the P3 is part of a K3/K3S package. Dropped 0 best-offer-accepted, 0 parts-only P3 units. Prices shown with a strikethrough recorded at the actual sold price. No outliers. Ledger miss: ELECRAFT P3 ledger latest 2026-09-20 (older than 30 days).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/327426574028",
+    "site": "ebay",
+    "ask": 899.0,
+    "shipping": 32.0
+  },
+  "comps": [
+    {
+      "price": 541.49,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327363664423",
+      "source": "ebay",
+      "notes": "title: 'Works great w/ cables # 2175'; +$32.00 delivery; shown $541.49 with $569.99 struck through",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 521.55,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327327860882",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted offer); +$32.00 delivery; shown $521.55 with $549.00 struck through",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336726281279",
+      "source": "ebay",
+      "notes": "Buy It Now; +$23.10 delivery",
+      "flags": []
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2026-08-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188773987045",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted offer); +$7.02 delivery",
+      "flags": []
+    },
+    {
+      "price": 549.99,
+      "sold_date": "2026-07-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137569406080",
+      "source": "ebay",
+      "notes": "title: 'W/ Cables, Manuals & Embroidered Cover - Works Good'; Buy It Now; +$14.24 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
