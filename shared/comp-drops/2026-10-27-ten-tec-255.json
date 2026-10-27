@@ -1,0 +1,15 @@
+{
+  "model": "Ten-Tec 255 power supply/speaker",
+  "slug": "ten-tec-255",
+  "searched_at": "2026-10-27T19:19:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ten-tec 255', page 1: 0 exact Model 255 power supply/speaker sales (page showed only other Ten-Tec models, e.g. 516, 238/238B tuners, Scout 555, 1320; ignored 'fewer words' results). Not comped: no exact-model sold data. Ledger has no Ten-Tec 255 entry. Trigger QTH 1782929 ask $125 shipped and insured (power supply + speaker combo, 13.8V 18A).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782929",
+    "site": "qth",
+    "ask": 125.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
