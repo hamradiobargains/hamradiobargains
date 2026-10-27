@@ -1,0 +1,22 @@
+{
+  "model": "ICOM IC-R75",
+  "slug": "icom-ic-r75",
+  "searched_at": "2026-10-27T19:19:00-04:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 444.5, count 8, ledger date 2026-10-12 — ledger hit — individual sales behind the median are not auditable from this file. Ad: early installed Motorola AM Sync Detector chip, UT-106 DSP, FL-272 SSB filter.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783103",
+    "site": "qth",
+    "ask": 500,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 444.5,
+    "low": 395.0,
+    "high": 660.0,
+    "count": 8,
+    "date": "2026-10-12"
+  }
+}
