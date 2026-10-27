@@ -1,0 +1,74 @@
+{
+  "model": "KENWOOD TS-570D",
+  "slug": "kenwood-ts-570d",
+  "searched_at": "2026-10-27T19:19:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold, page 1, TS-570D only (TS-570S kept out: different model; manuals, TCXOs, cables ignored). Dropped Best-offer-accepted: 298667013333 $439.95, 237032582315 $489.95, 407098623193 $405.00. Dropped Parts Only: 327406559212 $367.00 (+$31.54), 298619888377 $239.95 (+$30.37). Trigger is a multi-radio QTH ad: TS-570D with DC cord and MC-60 $600 shipped; same ad also lists TS-440SAT $450 shipped and a TS-520S (ledger hits, own files). Ledger has TS-570S only. Kept 6, median 500.00, low 400.00, high 600.00.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783092",
+    "site": "qth",
+    "ask": 600.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 400.0,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198700168899",
+      "source": "ebay",
+      "notes": "shipping 0; includes power cord and MC-60 per title",
+      "flags": []
+    },
+    {
+      "price": 405.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198671323460",
+      "source": "ebay",
+      "notes": "shipping 22.61; includes power cord and MC-60 per title",
+      "flags": []
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227491381614",
+      "source": "ebay",
+      "notes": "shipping 0; includes Kenwood DC PS-30 power supply per title",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 499.99,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188983705251",
+      "source": "ebay",
+      "notes": "shipping 75.60; includes DRU-3A digital voice recorder and mic per title",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 585.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407122489473",
+      "source": "ebay",
+      "notes": "shipping 0; title says NO POWER PLUG",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318665172349",
+      "source": "ebay",
+      "notes": "shipping 0",
+      "flags": []
+    }
+  ]
+}
