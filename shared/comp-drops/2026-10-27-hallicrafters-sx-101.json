@@ -1,0 +1,15 @@
+{
+  "model": "HALLICRAFTERS SX-101",
+  "slug": "hallicrafters-sx-101",
+  "searched_at": "2026-10-27T19:19:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'hallicrafters sx-101', page 1: 0 usable comps. Only unit sales were 326170566747 $195.00 (+$100.00 shipping, Parts Only condition - dropped), 366485914253 $264.99 (+$109.99, SX-101A, Best offer accepted - dropped; SX-101A is also a different variant), plus a recap kit (377458568814 $50.00, not a unit). Not comped. Not in ledger. Trigger ad: 'Good condition Hallicrafters SX-101 160-10 meter ham band receiver', $225, shipping noted in ad (amount not stated, 0 recorded).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783082",
+    "site": "qth",
+    "ask": 225.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
