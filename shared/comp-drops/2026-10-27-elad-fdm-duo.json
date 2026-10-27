@@ -1,0 +1,34 @@
+{
+  "model": "ELAD FDM-DUO",
+  "slug": "elad-fdm-duo",
+  "searched_at": "2026-10-27T15:00:20-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "2 comps kept from eBay sold page 1 (signed in as Leo). Dropped 0 best-offer-accepted, 0 parts-only. Left out 1 accessory (ELAD TM-2 controller). Only 3 sold results on page 1. Ledger: no ELAD entry. thin.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783289",
+    "site": "qth",
+    "ask": 750.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 499.0,
+      "sold_date": "2026-10-24",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/287672580612",
+      "source": "ebay",
+      "notes": "Buy It Now; title: MULTI USE SDR TRANSCEIVER TESTED @ WORKING; shipping $7.53",
+      "flags": []
+    },
+    {
+      "price": 682.92,
+      "sold_date": "2026-08-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198511891051",
+      "source": "ebay",
+      "notes": "auction, 14 bids; free shipping",
+      "flags": []
+    }
+  ]
+}
