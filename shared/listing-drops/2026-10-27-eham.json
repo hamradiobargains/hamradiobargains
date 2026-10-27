@@ -1,0 +1,8 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-27",
+  "ran_at": "2026-10-27T05:54:10-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-26T05:53:29-04:00 (prior eham run). Browsed signed OUT ('Welcome Guest'). One eHam page load (classifieds page 1); a Cloudflare interstitial appeared and cleared on its own after a ~10s wait, no interaction. Newest ad on page 1 is still 629335 (covered last run); no ads posted since the prior run were shown, so page 2 not needed and no individual ads opened. (629329 Yaesu FT-857D no longer appears on page 1.) No search form, sold searches, or seller/callsign pages. Zero candidates, so no ledger lookups or eBay sold searches.",
+  "listings": []
+}
