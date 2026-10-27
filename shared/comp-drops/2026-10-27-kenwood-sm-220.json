@@ -1,0 +1,166 @@
+{
+  "model": "Kenwood SM-220",
+  "slug": "kenwood-sm-220",
+  "searched_at": "2026-10-27T18:02:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1. Kept 15. Dropped 5 best-offer-accepted (incl. one SM220 with BS-5), 3 parts-only. Left out as not the unit: 3 manuals, 3 standalone BS-5/BS-8 pan adapters, 1 SM-230 (different model), 2 Icom IC-7300 results. BS-8 panadapter matters: 7 kept comps have BS-8 per title (flag option_installed); the trigger listing also has BS-8. 198705801981 and 198614680671 are same seller with identical titles, sold Oct 15 and Sep 8 — could be two units or one relisted, not flagged. 267801814877 (sold Oct 21, 'w/ BS-8 Panadapter Option & Manual!') has nearly the same title as the trigger listing — possibly the same unit relisted; flagged possible_duplicate. Ledger miss: no SM-220 entry in comps.json. OUTLIERS flagged (kept): 920032632673 $103.51 vs ~$312.50; 278442908039 $100.00 vs ~$312.50; 298702283172 $139.95 vs ~$312.50; 198522116896 $465.00 vs ~$300.00.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/237147371119",
+    "site": "ebay",
+    "ask": 249.99,
+    "shipping": 25.0
+  },
+  "comps": [
+    {
+      "price": 299.99,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267801814877",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted offer); title 'w/ BS-8 Panadapter Option & Manual!'; +$25.00 delivery; title nearly identical to trigger listing 237147371119",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 103.51,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/920032632673",
+      "source": "ebay",
+      "notes": "OUTLIER: $103.51 vs ~$312.50 median for the rest; auction, 6 bids (final bid); 'With Manual Instruction & Box'; +$14.99 delivery",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278442908039",
+      "source": "ebay",
+      "notes": "OUTLIER: $100.00 vs ~$312.50 median for the rest; auction (final bid); +$60.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 324.99,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198705801981",
+      "source": "ebay",
+      "notes": "Buy It Now; 'w/BS-8 Pan Adapter'; +$39.87 delivery; same seller/title as 198614680671",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287612438820",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted offer); free delivery",
+      "flags": []
+    },
+    {
+      "price": 389.0,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206449657235",
+      "source": "ebay",
+      "notes": "Buy It Now; 'w/ BS-8 Panadapter Option'; located in Greece; +$89.00 delivery, import fees due",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 329.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407139734966",
+      "source": "ebay",
+      "notes": "Buy It Now; 'w/BS-8 Pan Adapter, Manual'; +$22.70 delivery",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 139.95,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298702283172",
+      "source": "ebay",
+      "notes": "OUTLIER: $139.95 vs ~$312.50 median for the rest; or Best Offer (not accepted offer); +$24.13 delivery",
+      "flags": []
+    },
+    {
+      "price": 220.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198616473464",
+      "source": "ebay",
+      "notes": "Buy It Now; '(bright trace)'; +$39.50 delivery",
+      "flags": []
+    },
+    {
+      "price": 199.95,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117399468621",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted offer); 'w/ Rare Internal BS-8 Panadapter'; +$27.23 delivery",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 349.99,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198614680671",
+      "source": "ebay",
+      "notes": "Buy It Now; 'w/BS-8 Pan Adapter'; +$39.77 delivery; same seller/title as 198705801981",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237000495026",
+      "source": "ebay",
+      "notes": "Buy It Now; +$50.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 269.95,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287517525329",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted offer); +$16.95 delivery",
+      "flags": []
+    },
+    {
+      "price": 465.0,
+      "sold_date": "2026-07-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198522116896",
+      "source": "ebay",
+      "notes": "OUTLIER: $465.00 vs ~$300.00 median for the rest; auction (final bid); 'with BS-8'; +$5.00 delivery",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2026-07-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287492934506",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted offer); +$40.00 delivery",
+      "flags": []
+    }
+  ]
+}
