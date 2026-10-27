@@ -1,0 +1,88 @@
+{
+  "model": "COLLINS 30L-1",
+  "slug": "collins-30l-1",
+  "searched_at": "2026-10-27T19:19:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold, page 1, Collins 30L-1 amplifiers at $250+ only (the page is cluttered with tubes, manuals and hardware under $250, ignored as non-unit). Ledger entry dated 2026-09-22 is older than 30 days so a fresh search was run. Dropped 5 Best-offer-accepted sales (840030898298 $285.00, 840030914174 $275.00, 188891030768 $575.00, 117245164131 $500.00, 298551655937 $300.00). Dropped parts/repair-condition sales: 407245657607 $535.50, 398045650107 $550.00, 318679122787 $395.00. Dropped 'Read Description' sales: 267771810410 $585.00, 267764846735 $585.00. Trigger QTH ad: buyer pays shipping, amount not stated (recorded 0). Kept 8, median 724.50, low 467.00, high 960.00. Outliers: 198381920754 $960.0, 237063900080 $950.0, 227177378668 $916.27. OUTLIER flags below are mechanical (>1.5x median of the other kept comps); the kept set is bimodal (467-850 vs 916-960).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783088",
+    "site": "qth",
+    "ask": 750.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 960.0,
+      "sold_date": "2026-10-22",
+      "condition": "Used (as shown)",
+      "url": "https://www.ebay.com/itm/198381920754",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x median of other kept comps (599.99); shipping 89.99",
+      "flags": []
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2026-09-22",
+      "condition": "Used (as shown)",
+      "url": "https://www.ebay.com/itm/188888016035",
+      "source": "ebay",
+      "notes": "shipping not shown",
+      "flags": []
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2026-09-21",
+      "condition": "Used (as shown)",
+      "url": "https://www.ebay.com/itm/237063900080",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x median of other kept comps (599.99); shipping 100.00",
+      "flags": []
+    },
+    {
+      "price": 916.27,
+      "sold_date": "2026-09-09",
+      "condition": "Used (as shown)",
+      "url": "https://www.ebay.com/itm/227177378668",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x median of other kept comps (599.99); shipping 89.39",
+      "flags": []
+    },
+    {
+      "price": 599.99,
+      "sold_date": "2026-08-13",
+      "condition": "Used (as shown)",
+      "url": "https://www.ebay.com/itm/366593163416",
+      "source": "ebay",
+      "notes": "shipping 64.99",
+      "flags": []
+    },
+    {
+      "price": 599.99,
+      "sold_date": "2026-08-10",
+      "condition": "Used (as shown)",
+      "url": "https://www.ebay.com/itm/366593163255",
+      "source": "ebay",
+      "notes": "shipping 64.99",
+      "flags": []
+    },
+    {
+      "price": 467.0,
+      "sold_date": "2026-08-08",
+      "condition": "Used (as shown)",
+      "url": "https://www.ebay.com/itm/800445093850",
+      "source": "ebay",
+      "notes": "shipping 13.53",
+      "flags": []
+    },
+    {
+      "price": 849.0,
+      "sold_date": "2026-08-03",
+      "condition": "Used (as shown)",
+      "url": "https://www.ebay.com/itm/278226561924",
+      "source": "ebay",
+      "notes": "shipping 97.87",
+      "flags": []
+    }
+  ]
+}
