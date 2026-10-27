@@ -1,0 +1,15 @@
+{
+  "model": "ICOM IC-7760",
+  "slug": "icom-ic-7760",
+  "searched_at": "2026-10-27T19:19:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-7760', page 1: 0 IC-7760 sales. Not comped. Not in ledger. Trigger ad is a FOR PARTS unit: 'Selling a IC-7760 for parts, ICOM says the transmit side is unrepairable, all other functions seem to be working. Control head works perfect and is in great shape'; $3500.00 plus shipping (amount not stated, 0 recorded); payment by Zelle.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782942",
+    "site": "qth",
+    "ask": 3500.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
