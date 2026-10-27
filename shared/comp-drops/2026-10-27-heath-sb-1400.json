@@ -1,0 +1,27 @@
+{
+  "model": "HEATH SB-1400",
+  "slug": "heath-sb-1400",
+  "searched_at": "2026-10-27T19:19:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold, page 1: only 1 SB-1400 transceiver sale - THIN. Ledger has no SB-1400 entry. Trigger ad: 'Nice working Heath SB-1400', $285 shipped (shipped per ad). Kept 1, median 300.00, low 300.00, high 300.00.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783089",
+    "site": "qth",
+    "ask": 285.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 300.0,
+      "sold_date": "2026-08-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236984398739",
+      "source": "ebay",
+      "notes": "shipping 17.05; title includes box and SBA1400-4 power supply",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
