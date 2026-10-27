@@ -1,0 +1,268 @@
+{
+  "model": "KENWOOD MC-60",
+  "slug": "kenwood-mc-60",
+  "searched_at": "2026-10-27T19:19:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold, page 1, MC-60 only (MC-60A, MC-90, cables, mic holders and lots excluded). Dropped 5 Best-offer-accepted sales (287654614589 $75.00, 278426660446 $74.99, 267796917559 $50.00, 377524898705 $70.00, 366624167553 $75.00; the middle two also carry Parts Only condition). Dropped 4 additional Parts Only (non-BOA) sales: 198518904211 $60.00, 327388419346 $8.94, 128051543705 $49.95, 318787693039 $102.50. Excluded non-mic: 267714016984 mic holder $43.34, 287613220151/800726047167/178446474325/287492064726 MC-60/MC-60A/MC-90 mic hardware $14.99 each, 255514723279 cable $15.99. 235644451947 is the TRIO-badged MC-60, Japan, import fees included, free delivery. Ledger had count 1 so a sold search was run. Solid sample. Kept 28, median 112.00, low 41.00, high 207.65. Outliers: 307214152324 $41.0, 237088569602 $50.0, 235644451947 $207.65, 800588713652 $50.0.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782983",
+    "site": "qth",
+    "ask": 118.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 79.99,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/237145877765",
+      "source": "ebay",
+      "notes": "shipping 12.00",
+      "flags": []
+    },
+    {
+      "price": 65.0,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/940036751467",
+      "source": "ebay",
+      "notes": "shipping 8.95",
+      "flags": []
+    },
+    {
+      "price": 129.99,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/187305221279",
+      "source": "ebay",
+      "notes": "shipping 40.00",
+      "flags": []
+    },
+    {
+      "price": 67.5,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/287672924785",
+      "source": "ebay",
+      "notes": "shipping 8.95",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/327413558910",
+      "source": "ebay",
+      "notes": "shipping 0",
+      "flags": []
+    },
+    {
+      "price": 132.99,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/136797455692",
+      "source": "ebay",
+      "notes": "shipping 0",
+      "flags": []
+    },
+    {
+      "price": 95.0,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/940016307501",
+      "source": "ebay",
+      "notes": "shipping 8.95",
+      "flags": []
+    },
+    {
+      "price": 115.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/278445601561",
+      "source": "ebay",
+      "notes": "shipping 8.95",
+      "flags": []
+    },
+    {
+      "price": 41.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/307214152324",
+      "source": "ebay",
+      "notes": "OUTLIER: below 0.5x median of other kept comps (114.00); shipping 7.57",
+      "flags": []
+    },
+    {
+      "price": 110.0,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/206596054539",
+      "source": "ebay",
+      "notes": "shipping 16.78",
+      "flags": []
+    },
+    {
+      "price": 159.95,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/237100921682",
+      "source": "ebay",
+      "notes": "shipping 0",
+      "flags": []
+    },
+    {
+      "price": 128.0,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/397215816809",
+      "source": "ebay",
+      "notes": "shipping 0",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/287615273709",
+      "source": "ebay",
+      "notes": "shipping 0",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/307186076263",
+      "source": "ebay",
+      "notes": "shipping 7.29",
+      "flags": []
+    },
+    {
+      "price": 72.0,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/407232909046",
+      "source": "ebay",
+      "notes": "shipping 14.64",
+      "flags": []
+    },
+    {
+      "price": 50.0,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/237088569602",
+      "source": "ebay",
+      "notes": "OUTLIER: below 0.5x median of other kept comps (114.00); shipping 15.00",
+      "flags": []
+    },
+    {
+      "price": 114.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/128023855377",
+      "source": "ebay",
+      "notes": "shipping 40.00",
+      "flags": []
+    },
+    {
+      "price": 207.65,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/235644451947",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x median of other kept comps (110.00); shipping 0",
+      "flags": []
+    },
+    {
+      "price": 116.99,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/398251290863",
+      "source": "ebay",
+      "notes": "shipping 40.00",
+      "flags": []
+    },
+    {
+      "price": 99.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/357254294627",
+      "source": "ebay",
+      "notes": "shipping 29.99",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/298607480406",
+      "source": "ebay",
+      "notes": "shipping 8.52",
+      "flags": []
+    },
+    {
+      "price": 139.99,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/188168686958",
+      "source": "ebay",
+      "notes": "shipping 20.00",
+      "flags": []
+    },
+    {
+      "price": 50.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/800588713652",
+      "source": "ebay",
+      "notes": "OUTLIER: below 0.5x median of other kept comps (114.00); shipping 10.00",
+      "flags": []
+    },
+    {
+      "price": 59.95,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/117383721559",
+      "source": "ebay",
+      "notes": "shipping 7.75",
+      "flags": []
+    },
+    {
+      "price": 78.0,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/327313295468",
+      "source": "ebay",
+      "notes": "shipping 14.99",
+      "flags": []
+    },
+    {
+      "price": 119.99,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/188016649224",
+      "source": "ebay",
+      "notes": "shipping 20.00",
+      "flags": []
+    },
+    {
+      "price": 139.95,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/278287668224",
+      "source": "ebay",
+      "notes": "shipping 7.57",
+      "flags": []
+    },
+    {
+      "price": 130.0,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned (as shown; a few Brand New/Open Box not separated)",
+      "url": "https://www.ebay.com/itm/198512155190",
+      "source": "ebay",
+      "notes": "shipping 18.50",
+      "flags": []
+    }
+  ]
+}
