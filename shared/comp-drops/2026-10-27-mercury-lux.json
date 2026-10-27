@@ -1,0 +1,15 @@
+{
+  "model": "Mercury Lux (HF amplifier)",
+  "slug": "mercury-lux",
+  "searched_at": "2026-10-27T19:19:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'mercury lux amplifier', page 1: 0 exact Mercury Lux sales (only a Mercury IIIS HF/50 amplifier, $2495, Sep 18 - a different model, kept out - and unrelated PI Mercury servo controllers / guitar amp). Not comped. Not in ledger. Trigger ad: 'mint condition ... Looks NEW and works perfectly', sells with manual, line cord, accessory handles and factory shipping box; $3800 plus shipping (amount not stated, 0 recorded).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783093",
+    "site": "qth",
+    "ask": 3800.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
