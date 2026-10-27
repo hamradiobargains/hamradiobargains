@@ -1,0 +1,229 @@
+{
+  "run": "extras",
+  "run_date": "2026-10-27",
+  "ran_at": "2026-10-27T19:22:00-04:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered: 2026-10-25-extras.json carry-over/backlog queue plus fresh extras named in 2026-10-26-qth.json and 2026-10-27-qth.json (eHam and eBay drops named no extras). Window: after 2026-10-25-extras ran_at 2026-10-25T19:14:15-04:00. Queue 127 after skipping 7 already in dropped-urls (1783055, 1782988, 1783252, 1782968, 1783262, 1783225, 1783002); order: previous carry-overs, fresh 10-26 QTH extras, fresh 10-27 QTH extras, then backlog. Worked 20 ads in queue order through 1783057 (1783008 ... 1783057 incl. 3 gone). Live 17, no longer live 3 (1783081, 1783059, 1783033 - items not recorded, page already gone). Ledger hits 4: IC-R75 (1783103), TS-440SAT and TS-520S (both from multi-radio ad 1783092), TS-50S (1783032; ad is a loaded TS-50S+AT-50 set). eBay sold searches used 15 of 15 (astron rs-20m, ten-tec 255, kenwood mc-85, kenwood mc-60, icom ic-7760, collins 30l-1, kenwood tl-922a, mercury lux amplifier, yaesu frg-100b, kenwood ts-570d, heathkit sb-1400, johnson 500 transmitter, collins 20v-3, hallicrafters sx-101, flexradio power genius pgxl); signed in as Leo, one page at a time, no challenges. Zero exact results (not comped): Ten-Tec 255, IC-7760, Mercury Lux, FRG-100B (only non-B FRG-100 sales, listed in file notes as reference), EF Johnson 500, Collins 20V-3, SX-101, PGXL. Thin: TL-922A 2 comps, SB-1400 1 comp. Outliers: RS-20M 128105335714 $26.00; MC-60 307214152324 $41.00, 237088569602 $50.00, 800588713652 $50.00, 235644451947 $207.65; Collins 30L-1 198381920754 $960.00, 237063900080 $950.00, 227177378668 $916.27 (mechanical flags on a bimodal set). Skipped: none. Cross-posts: none found; no serials shown in any ad. Work-flag wording carried verbatim: 1782942 IC-7760 'for parts ... transmit side is unrepairable' (needs work); 1783014 TL-922A 'self bias mod done', Harbach soft key/step start (UNCERTAIN); 1783032 serviced/recapped (UNCERTAIN); 1783008 'Needs equipment boots', no returns; 1783092 no returns. Multi-radio ad 1783092 (TS-440SAT $450 / TS-570D $600 / TS-520S $300, all shipped) recorded as one listing row priced at the TS-440SAT. found_at is set to 2026-10-25 for all (date of the extras drop that named them; original source drop dates not re-derived). eHam not touched. CARRIED OVER (cap reached, queue order): 1783075, 1780144, 1780147, 1780148, 1782158, 1782435, 1781208, 1783066, 1783141, 1783187, 1783127, 1783126, 1783192, 1783189, 1783161, 1783146, 1783168, 1783183, 1783166, 1781834, 1783171, 1783131, 1783025, 1783236, 1783231, 1783279, 1783277, 1783274, 1783272, 1783263, 1780623, 1783280, 1783260, 1783249, 1783250, 1783256, 1783213, 1783254, 1783258, 1783235, 1783251, 1779330, 1776870, 1782214, 1783046, 1783047, 1782098, 1783365, 1783382, 1783292, 1783332, 1783351, 1783314, 1783293, 1783318, 1783301, 1783324, 1783321, 1783369, 1783378, 1783377, 1783356, 1783308, 1783304, 1783306, 1783322, 1783358, 1783385, 1783386, 1783352, 1783341, 1783362, 1775843, 1781651, 1781650, 1783291, 1783309. BACKLOG CARRY (unworked, still at the back, source-drop order): 1782353, 1782345, 1782359, 1782031, 1782342, 1782368, 1782384, 1782363, 1782275, 1781393, 1782349, 1782453, 1782461, 1782430, 1782464, 1782442, 1776833, 1781779, 1777865, 1782542, 1782487, 1782484, 1782573, 1782575, 1782543, 1782570, 1780727, 1779930, 1782489, 1782467.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783008",
+      "site": "qth",
+      "title": "POWERSUP - Astron RS-20M Linear supply",
+      "price": 168,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "live. $168 shipped to cont. U.S. via USPS Ground (postal money orders only). 'Works as it should. Cosmetics = 9. Needs equipment boots on the bottom of the unit. No returns, or trades.' comps: astron-rs-20m, 8 kept, median 87.5 (one OUTLIER $26.00)",
+      "work_flag": "Needs equipment boots on the bottom of the unit; No returns, or trades",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782929",
+      "site": "qth",
+      "title": "POWERSUP - FOR SALE: Ten-Tec Model 255 PS & SPEAKER",
+      "price": 125,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "live. '$125 shipped and insured to lower 48'. 'In good condition, electrically and mechanically ... Two scratches on top do not affect operation.' comps: ten-tec-255, 0 kept (no exact sold results)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782967",
+      "site": "qth",
+      "title": "MISC - Kenwood MC-85 Desk Mic",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "live. 'Looks very nice. Pictures available via text. Asking for $100.00 plus and ins....' (shipping amount not stated, recorded 0). comps: kenwood-mc-85, 5 kept, median 89",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782983",
+      "site": "qth",
+      "title": "MISC - Kenwood MC-60 microphone",
+      "price": 118,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "live. 'a nice kenwood mc60 no original box $118 dollars shipped'. comps: kenwood-mc-60, 28 kept, median 112 (4 OUTLIERs)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782942",
+      "site": "qth",
+      "title": "RADIOHF - IC-7760 For Parts",
+      "price": 3500,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "live. 'Selling a IC-7760 for parts, ICOM says the transmit side is unrepairable, all other functions seem to be working. Control head works perfect and is in great shape.' $3500.00 plus shipping (amount not stated, recorded 0). comps: icom-ic-7760, 0 kept (no IC-7760 sold results)",
+      "work_flag": "for parts; ICOM says the transmit side is unrepairable",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783103",
+      "site": "qth",
+      "title": "RADIOHF - Icom IC-R75 receiver",
+      "price": 500,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "live. 'Excellent physical operating condition' with early installed Motorola AM Sync Detector chip, UT-106 DSP option, standard FL-272 SSB filter, fused 12vdc power cord. $500 (shipping not stated, recorded 0). ledger hit (icom-ic-r75, median 444.5, count 8)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783081",
+      "site": "qth",
+      "title": "(item not recorded - ad gone when opened)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "no longer live. QTH: 'The ad number you specified is no longer in our system'. not comped: gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783088",
+      "site": "qth",
+      "title": "AMPHF - Collins 30L-1 HF Amplifier",
+      "price": 750,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "live. 'Excellent condition ... R/E HF amplifier. S/N 27xxx. Manual copy included. Has new RCA 811A's and power supply board installed.' $750. 'Buyer responsible for shipping' (amount not stated, recorded 0). comps: collins-30l-1, 8 kept, median 724.5 (3 mechanical OUTLIERs, bimodal set)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783014",
+      "site": "qth",
+      "title": "AMPHF - Kenwood TL-922A",
+      "price": 1350,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "live. 'completely gone through and is in perfect working order'. Harbach soft key circuit and step start board installed; wired 220-240VAC only; shorted 10 Watt zener bias diode replaced with 50W zener; self bias mod done; series glitch resistor in B+ line; clamping diode B- to ground; diodes across meters; grids grounded/strap installed; LEDs for meter and indicator lamps. $1350 or BRO for amp, $300 spare Eimac 3-500Z pair, $1500 combo (shipping not stated, recorded 0). comps: kenwood-tl-922a, 2 kept (THIN), median 1272",
+      "work_flag": "Modifications per ad (seller's words): 'self bias mod done', Harbach soft key circuit, Harbach step start board, zener bias diode replaced, series glitch resistor in B+ line - UNCERTAIN whether Leo's rulings treat these as modifications",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783093",
+      "site": "qth",
+      "title": "AMPHF - MERCURY LUX",
+      "price": 3800,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "live. 'Mercury Lux in mint condition from a tobacco free environment. Amplifier has no issues electrically or cosmetically. Looks NEW and works perfectly.' Sells with manual, AC line cord, accessory handles, factory shipping box. $3800 plus shipping (amount not stated, recorded 0). comps: mercury-lux, 0 kept (no exact sold results)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783094",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu FRG-100B HF Receiver",
+      "price": 400,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "live. 'Radio is clean ... Works 100%, as it should. Freq memory clock keep time when powered off.' 12 vdc power cord. 'Shipped to lower 48 only, $400'. comps: yaesu-frg-100b, 0 kept (only non-B FRG-100 sales; see file notes)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783092",
+      "site": "qth",
+      "title": "RADIOHF - KENWOOD TS-440SAT/570D BOTH W MICS (3 radios in one ad)",
+      "price": 450,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "live. Multi-radio ad: TS-440SAT with lighter green hand mic and DC cord $450 shipped; TS-570D with DC cord and MC-60 $600 shipped; TS-520S with electric cord and Shure 444D desk mic $300 shipped. 'All sales final no returns.' price column = TS-440SAT. comps: kenwood-ts-440sat ledger hit (median 400, count 6); kenwood-ts-520s ledger hit (median 262.5, count 8); kenwood-ts-570d, 6 kept, median 499.995",
+      "work_flag": "All sales final no returns",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783032",
+      "site": "qth",
+      "title": "RADIOHF - Jahnke Kenwood TS-50S + AT-50 loaded",
+      "price": 1200,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "live. 'This Radio Tuner Set looks and works well'; boxes, manuals, MC-47 mic + 1 extra mic, carrying handle, bracket, 3D printed desk mount, 5 tuner cables; optional TCXO and CW filter; 'serviced - Recapped Aligned by Jahnke electronics in February of 2026' (receipt included). 'First $1200.00 Takes it, Continental US shipping Included.' ledger hit (kenwood-ts-50s, median 350, count 3; ledger is radio alone, ad is a loaded set)",
+      "work_flag": "Seller says serviced/recapped/aligned by Jahnke Feb 2026 - UNCERTAIN whether that counts as needs-work",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783089",
+      "site": "qth",
+      "title": "RADIOHF - Heath SB-1400",
+      "price": 285,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "live. 'Nice working Heath SB-1400. Marketed by Heathkit, manufactured by Yaesu. Includes Mic, Manual, Pwr Cord $285 shipped conus.' comps: heath-sb-1400, 1 kept (THIN), median 300",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783077",
+      "site": "qth",
+      "title": "RADIOHF - E.F. Johnson 500 AM/CW/SSB Transmitter",
+      "price": 2250,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "live. 'Very good condition' 80 to 10 meter transmitter with Johnson power supply, cables, manual with repair and mod. information included; 'All tubes including 4-400 are good. Power supply has been recapped. Has been regularly used on 75 and 40 meter AM.' $2,250. 'Shipping is buyers responsibility' (amount not stated, recorded 0). comps: ef-johnson-500, 0 kept (no unit sales)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783085",
+      "site": "qth",
+      "title": "RADIOHF - Collins 20V-3 AM 1 KW BC Transmitter",
+      "price": 1800,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "live. 'Excellent condition ... 1KW AM broadcast transmitter. Currently on 160 ... Can be easily converted to 75, 40 or 20 meters.' $1,800. 'Due to size and weight buyer must pick up' (NW South Carolina). comps: collins-20v-3, 0 kept (no sold results)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783082",
+      "site": "qth",
+      "title": "RADIOHF - Hallicrafters SX-101 Ham band receiver",
+      "price": 225,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "live. 'Good condition ... Currently in use on 75 meter AM. Functions well on all bands. Manual copy included.' $225. 'Shipping is buyers responsibility' (amount not stated, recorded 0). comps: hallicrafters-sx-101, 0 kept (only parts-only/BOA SX-101 and SX-101A sales)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783059",
+      "site": "qth",
+      "title": "(item not recorded - ad gone when opened)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "no longer live. QTH: no longer in our system. not comped: gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783033",
+      "site": "qth",
+      "title": "(item not recorded - ad gone when opened)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-10-25",
+      "condition_notes": "no longer live. QTH: no longer in our system. not comped: gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783057",
+      "site": "qth",
+      "title": "AMPHF - Flex Power Genius PGXL SO2R Amplifier",
+      "price": 4750,
+      "shipping": 75,
+      "found_at": "2026-10-25",
+      "condition_notes": "live. 'in excellent condition and 100% operational. Works 160-6 meters and is a Legal Limit Amplifier.' Price $4750.00 plus $75.00 shipping by UPS Ground. Seller 'getting out of the hobby'. comps: flexradio-power-genius-pgxl, 0 kept (no exact sold results)",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
