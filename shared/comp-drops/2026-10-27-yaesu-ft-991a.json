@@ -1,0 +1,284 @@
+{
+  "model": "Yaesu FT-991A",
+  "slug": "yaesu-ft-991a",
+  "searched_at": "2026-10-27T14:58:40-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "28 comps kept from eBay sold page 1 (signed in as Leo). Dropped 10 best-offer-accepted (117455605147, 407268322314, 398418317827, 237058446429, 227509399606, 178456840062 [title 'Yaesu FT-991' also not exact model], 158250511662, 327303616751, 307135585249, 820003158735); dropped 2 parts-only, one of which is also counted above as best-offer-accepted (287642122772 'Parts Only' $485; 398418317827 'Untested. Broken/missing knob.' Parts Only, also BOA). Left out 8 non-units/other models (covers, GPS set, SCU-17, manual, accessory, M-90D mic, FT-4800, FT-711RH). Two JP-version units and three Brand New/Open Box units kept and labeled. One comp is dated 2025-10-26 (kept, never discarded for age). Ledger miss: YAESU FT-991A latest 2026-09-22 is older than 30 days. Outliers flagged: $1,700.00 (137785883452), $1,599.95 (116007497851).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783288",
+    "site": "qth",
+    "ask": 900.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1200.0,
+      "sold_date": "2026-10-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206622851059",
+      "source": "ebay",
+      "notes": "Buy It Now; title: + Box (US version, excellent); shipping $60.26",
+      "flags": []
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237134643061",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted offer); US Version; shipping $29.00",
+      "flags": []
+    },
+    {
+      "price": 849.99,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/920051502284",
+      "source": "ebay",
+      "notes": "or Best Offer; title: w/ Accessories, Astron +; free shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1224.99,
+      "sold_date": "2025-10-26",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/365468692900",
+      "source": "ebay",
+      "notes": "JP Version (MH-31A8J); shipping $800.00",
+      "flags": []
+    },
+    {
+      "price": 999.0,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307003959176",
+      "source": "ebay",
+      "notes": "JP MODEL w/mic, DC power cable; shipping $120.00",
+      "flags": []
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198697654057",
+      "source": "ebay",
+      "notes": "free shipping",
+      "flags": []
+    },
+    {
+      "price": 970.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189052877826",
+      "source": "ebay",
+      "notes": "or Best Offer; title: +extras; shipping $30.00",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 999.99,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198624994097",
+      "source": "ebay",
+      "notes": "or Best Offer; shipping $22.62",
+      "flags": []
+    },
+    {
+      "price": 765.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206581703508",
+      "source": "ebay",
+      "notes": "auction, 25 bids; title: Power Sply, Manual, Mics; free shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 999.99,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298709297897",
+      "source": "ebay",
+      "notes": "or Best Offer; cables, manual, mic; shipping $25.00",
+      "flags": []
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287611293575",
+      "source": "ebay",
+      "notes": "or Best Offer; w/ Mic & Cable; shipping $51.49",
+      "flags": []
+    },
+    {
+      "price": 725.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287612772864",
+      "source": "ebay",
+      "notes": "or Best Offer; title: Tested - See Description; shipping $48.00",
+      "flags": []
+    },
+    {
+      "price": 1700.0,
+      "sold_date": "2026-09-27",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/137785883452",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,700.00 vs ~$1,000 median for the rest; title: Radio, Antenna, Dipole; shipping $116.56",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1150.0,
+      "sold_date": "2026-09-24",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/307195809392",
+      "source": "ebay",
+      "notes": "Field Gear; free shipping",
+      "flags": []
+    },
+    {
+      "price": 980.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227524909505",
+      "source": "ebay",
+      "notes": "auction, 5 bids; shipping $26.95",
+      "flags": []
+    },
+    {
+      "price": 1149.48,
+      "sold_date": "2026-09-10",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/205084941842",
+      "source": "ebay",
+      "notes": "or Best Offer; title: New; shipping $243.34",
+      "flags": []
+    },
+    {
+      "price": 860.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287558750422",
+      "source": "ebay",
+      "notes": "auction, 20 bids; title: Excellent, 1 Owner, Shack in Box; shipping $25.00",
+      "flags": []
+    },
+    {
+      "price": 680.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237052322753",
+      "source": "ebay",
+      "notes": "free shipping",
+      "flags": []
+    },
+    {
+      "price": 1150.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117386640491",
+      "source": "ebay",
+      "notes": "or Best Offer; title: Complete Station Setup (bundle, contents not shown in title); shipping $48.49",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1111.0,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188835230024",
+      "source": "ebay",
+      "notes": "auction, 19 bids; title: w/ Hand Mic, Manuals, Box, Mars mod; shipping $50.00",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 975.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137679051005",
+      "source": "ebay",
+      "notes": "or Best Offer; shipping $19.86",
+      "flags": []
+    },
+    {
+      "price": 1599.95,
+      "sold_date": "2026-08-23",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/116007497851",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,599.95 vs ~$1,000 median for the rest; Field Gear w/ 3 Yr Warranty; free shipping",
+      "flags": []
+    },
+    {
+      "price": 1300.0,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128013369235",
+      "source": "ebay",
+      "notes": "or Best Offer; title: & Matching SP-10 speaker; free shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1200.0,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178352224299",
+      "source": "ebay",
+      "notes": "auction, 2 bids; Field Gear; shipping $75.00",
+      "flags": []
+    },
+    {
+      "price": 1156.0,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398235813680",
+      "source": "ebay",
+      "notes": "auction, 11 bids; title: with armoloq pack frame; free shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 899.0,
+      "sold_date": "2026-08-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278244239091",
+      "source": "ebay",
+      "notes": "title: Excellent condition; shipping $22.20",
+      "flags": []
+    },
+    {
+      "price": 1099.0,
+      "sold_date": "2026-07-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188714132023",
+      "source": "ebay",
+      "notes": "w/mic, DC power cable; shipping $40.00",
+      "flags": []
+    },
+    {
+      "price": 1099.0,
+      "sold_date": "2026-07-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198440345880",
+      "source": "ebay",
+      "notes": "or Best Offer; title mentions 4 pin power (cable); shipping $7.49",
+      "flags": []
+    }
+  ]
+}
