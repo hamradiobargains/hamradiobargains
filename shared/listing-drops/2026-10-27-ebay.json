@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-27",
+  "ran_at": "2026-10-27T17:53:49-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now, sorted newly listed, signed in as Leo; browse page loaded fine. Window since previous ebay run 2026-10-26T18:01:00-04:00; scanned page 1 only (browse cards show no listing times, so 'new' = newest-first order). None of the picked items were in dropped-urls.json. Seller rule: 8 picked passed; skipped Yaesu FTM-3200DR (227586073033, $189.99) — seller has only 4 ratings. Ledger: 0 hits (ELECRAFT P3 latest 2026-09-20 stale; MFJ-989D count 2, latest 2025-08-02; others not in ledger) -> 8 eBay sold searches. One eBay 'Something went wrong on our end' error page on the DM-330MV sold search (not a challenge); one ordinary reload worked. No challenges. Item descriptions not read. Not picked (cap 8 / not a unit / format / parts only): Kenwood TM-733GS, TM-833S, TM-V71 (Japan sellers), Standard C701, Kenwood R-600, Yaesu DTM-100RD/DE, Yaesu VX-1R, Icom IC-V86, AnyTone 878UVII, Kenwood SP-430, Kuhanishi NT-616, Yaesu G-800SA controller, Kenwood TS-2000 + IC-7000 + LDG bundle, Heathkit GC-1000 clock, Elecraft KPOD/cables/manual/preamp, RemoteRig, TPL amplifiers, CB radios, Parts Only items (Heathkit SB-610, Ranger AR-3300, WRL Duo Bander, Motorola amps), auction cards (Kenwood TS-430S, Icom IC-27H, tuner).",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/327426691686",
+      "site": "ebay",
+      "title": "MFJ-989D Antenna Tuner",
+      "price": 375.0,
+      "shipping": 44.0,
+      "found_at": "2026-10-27",
+      "condition_notes": "Used; seller notes 'Good working condition.'; Buy It Now; ships UPS Ground from Colgate, WI; no returns",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (4631 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/327426574028",
+      "site": "ebay",
+      "title": "Elecraft P3 Panadapter - Works great with cables # 5097 VGA NICE",
+      "price": 899.0,
+      "shipping": 32.0,
+      "found_at": "2026-10-27",
+      "condition_notes": "Used; seller notes 'Very nice !'; title says works great, with cables, VGA; Buy It Now or Best Offer; no returns",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (2111 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/327426578821",
+      "site": "ebay",
+      "title": "Elecraft K3/0 Mini Remote Head # 133 - Super nice - rare !",
+      "price": 939.99,
+      "shipping": 29.75,
+      "found_at": "2026-10-27",
+      "condition_notes": "Used; seller notes 'Very nice !'; Buy It Now or Best Offer; no returns",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (2111 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366765305691",
+      "site": "ebay",
+      "title": "ICOM IC-R72 All Mode Receiver 0.03-30MHz FM AM SSB CW Noise Tested Working",
+      "price": 599.4,
+      "shipping": 100.0,
+      "found_at": "2026-10-27",
+      "condition_notes": "Used; title says Tested Working; ships from Japan (eBay SpeedPAK Expedited); 30-day returns, buyer pays return shipping",
+      "work_flag": "Noise (title word, unclear whether a defect or a feature)",
+      "seller_feedback": "100% (234 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366765305942",
+      "site": "ebay",
+      "title": "Alinco DM-330MV Stabilized Power Supply DC5-15V 32A Variable Tested Working",
+      "price": 300.23,
+      "shipping": 85.0,
+      "found_at": "2026-10-27",
+      "condition_notes": "Used; title says Tested Working; ships from Japan (eBay SpeedPAK Expedited); 30-day returns, buyer pays return shipping",
+      "work_flag": "",
+      "seller_feedback": "100% (234 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/237147371119",
+      "site": "ebay",
+      "title": "Kenwood SM-220 Ham Radio Station Monitor w/ BS-8 Panadapter Option & Manual",
+      "price": 249.99,
+      "shipping": 25.0,
+      "found_at": "2026-10-27",
+      "condition_notes": "Used; seller notes 'Good condition'; includes BS-8 panadapter option and manual; 30-day returns, buyer pays return shipping",
+      "work_flag": "",
+      "seller_feedback": "100% (7796 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/960123942130",
+      "site": "ebay",
+      "title": "Yaesu VR-500 Wideband Handheld Receiver Scanner - Tested Working w/ Antenna",
+      "price": 224.95,
+      "shipping": 0,
+      "found_at": "2026-10-27",
+      "condition_notes": "Used; title says Tested Working, with antenna; free shipping; no returns",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "99.9% (1090 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/327426714277",
+      "site": "ebay",
+      "title": "Elecraft SP4 Speaker for K4 ..works with k3 and many others - super nice !",
+      "price": 359.99,
+      "shipping": 32.0,
+      "found_at": "2026-10-27",
+      "condition_notes": "Used; seller notes 'Very nice !'; Buy It Now or Best Offer; no returns",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (2111 ratings)"
+    }
+  ]
+}
