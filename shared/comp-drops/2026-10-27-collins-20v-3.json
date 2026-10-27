@@ -1,0 +1,15 @@
+{
+  "model": "COLLINS 20V-3",
+  "slug": "collins-20v-3",
+  "searched_at": "2026-10-27T19:19:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'collins 20v-3', page 1: 0 relevant results (only unrelated DeWalt ratchet / shoe hits). Not comped. Not in ledger. Trigger ad: 'Excellent condition ... 1KW AM broadcast transmitter. Currently on 160 ... Can be easily converted to 75, 40 or 20 meters'; $1,800; buyer must pick up in NW South Carolina (shipping 0 recorded; pickup only).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783085",
+    "site": "qth",
+    "ask": 1800.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
