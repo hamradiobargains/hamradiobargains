@@ -1,0 +1,22 @@
+{
+  "model": "KENWOOD TS-50S",
+  "slug": "kenwood-ts-50s",
+  "searched_at": "2026-10-27T19:19:00-04:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 350.0, count 3, ledger date 2026-10-25 — ledger hit — individual sales behind the median are not auditable from this file. Ad is a TS-50S + AT-50 tuner set with TCXO, CW filter and extras at $1200 shipping included; ledger median is for the radio alone.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783032",
+    "site": "qth",
+    "ask": 1200,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 350.0,
+    "low": 177.5,
+    "high": 400.0,
+    "count": 3,
+    "date": "2026-10-25"
+  }
+}
