@@ -1,0 +1,178 @@
+{
+  "model": "Alinco DM-330MV",
+  "slug": "alinco-dm-330mv",
+  "searched_at": "2026-10-27T18:01:30-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (first load returned an eBay 'Something went wrong on our end' error page, not a challenge; one ordinary reload after ~20s worked). Kept 18. Dropped 8 best-offer-accepted, 0 parts-only. Left out 3 as different/uncertain model: 2 DM-330MVT sales and 1 titled 'DM-330MV/DM-330MVT' (identity unclear). Ledger miss: no DM-330MV entry in comps.json. OUTLIERS flagged (kept): 387316846911 $251.99 vs ~$139.99.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366765305942",
+    "site": "ebay",
+    "ask": 300.23,
+    "shipping": 85.0
+  },
+  "comps": [
+    {
+      "price": 105.0,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327402137919",
+      "source": "ebay",
+      "notes": "auction, 2 bids (final bid); title says 'spotless'; +$12.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 99.0,
+      "sold_date": "2026-10-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237116695481",
+      "source": "ebay",
+      "notes": "auction, 1 bid (final bid); free delivery",
+      "flags": []
+    },
+    {
+      "price": 199.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287549686369",
+      "source": "ebay",
+      "notes": "Buy It Now; located in Japan; free delivery, includes import fees",
+      "flags": []
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267734953805",
+      "source": "ebay",
+      "notes": "Buy It Now; +$70.75 delivery",
+      "flags": []
+    },
+    {
+      "price": 169.99,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/187963808560",
+      "source": "ebay",
+      "notes": "Buy It Now; title says 'Tested'; +$40.00 delivery, includes import fees",
+      "flags": []
+    },
+    {
+      "price": 149.95,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287581012393",
+      "source": "ebay",
+      "notes": "Buy It Now; +$8.95 delivery",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128066090189",
+      "source": "ebay",
+      "notes": "auction (final bid); +$19.98 delivery",
+      "flags": []
+    },
+    {
+      "price": 115.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188904121318",
+      "source": "ebay",
+      "notes": "auction (final bid); +$19.85 delivery",
+      "flags": []
+    },
+    {
+      "price": 251.99,
+      "sold_date": "2026-09-09",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/387316846911",
+      "source": "ebay",
+      "notes": "OUTLIER: $251.99 vs ~$139.99 median for the rest; or Best Offer (not accepted offer); located in Japan; +$36.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 135.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188829743704",
+      "source": "ebay",
+      "notes": "auction (final bid); +$6.60 delivery",
+      "flags": []
+    },
+    {
+      "price": 179.0,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/376899249233",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted offer); title '+ Box Excellent Cond'; located in Japan; +$25.00 delivery, includes import fees",
+      "flags": []
+    },
+    {
+      "price": 180.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398099376461",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery",
+      "flags": []
+    },
+    {
+      "price": 139.99,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198587041147",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted offer); free delivery",
+      "flags": []
+    },
+    {
+      "price": 145.0,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298554070619",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted offer); +$12.02 delivery",
+      "flags": []
+    },
+    {
+      "price": 119.95,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800524726987",
+      "source": "ebay",
+      "notes": "Buy It Now; +$14.95 delivery",
+      "flags": []
+    },
+    {
+      "price": 149.99,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178319207597",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted offer); +$17.20 delivery",
+      "flags": []
+    },
+    {
+      "price": 135.0,
+      "sold_date": "2026-08-13",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/198564474164",
+      "source": "ebay",
+      "notes": "Buy It Now; +$11.99 delivery",
+      "flags": []
+    },
+    {
+      "price": 119.95,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267742338761",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery",
+      "flags": []
+    }
+  ]
+}
