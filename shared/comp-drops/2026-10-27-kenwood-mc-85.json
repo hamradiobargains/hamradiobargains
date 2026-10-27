@@ -1,0 +1,61 @@
+{
+  "model": "KENWOOD MC-85",
+  "slug": "kenwood-mc-85",
+  "searched_at": "2026-10-27T19:19:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold, page 1, 9 cards matching MC-85. Kept 5, median 89.00 (low 65.87, high 125.00). Dropped as Parts Only condition (eBay condition label): 188561000023 $139.99 (title says 'Power On Tested Used', Japan), 900006541376 $76.08, 900020435271 $69.66 (both UK). Excluded bundle: 188953377473 $299.00 (TS-850S/AT transceiver with MC-85, not the mic alone). No Best-offer-accepted sales seen. Shipping as shown. Kept comps include Aug dates only (no sales since Aug 27 other than the dropped parts-only ones) - decent count but dated. Trigger ask $100 plus shipping/insurance (amount not stated; recorded 0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782967",
+    "site": "qth",
+    "ask": 100.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 109.95,
+      "sold_date": "2026-08-27",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/267758224275",
+      "source": "ebay",
+      "notes": "shipping 7.41",
+      "flags": []
+    },
+    {
+      "price": 85.0,
+      "sold_date": "2026-08-19",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/137584853386",
+      "source": "ebay",
+      "notes": "shipping 20.00",
+      "flags": []
+    },
+    {
+      "price": 89.0,
+      "sold_date": "2026-08-05",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/128006984651",
+      "source": "ebay",
+      "notes": "shipping 35.00",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-08-03",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/267739132483",
+      "source": "ebay",
+      "notes": "shipping 13.85",
+      "flags": []
+    },
+    {
+      "price": 65.87,
+      "sold_date": "2026-08-10",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/266318676861",
+      "source": "ebay",
+      "notes": "shipping 30.11",
+      "flags": []
+    }
+  ]
+}
