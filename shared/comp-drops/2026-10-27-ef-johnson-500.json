@@ -1,0 +1,15 @@
+{
+  "model": "E.F. Johnson 500 (Viking 500) AM/CW/SSB transmitter",
+  "slug": "ef-johnson-500",
+  "searched_at": "2026-10-27T19:19:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'johnson 500 transmitter', page 1: 0 complete-unit sales. Only 'Johnson 500' hits were a front-face meter part (377413424822 $75.00) and a tuning capacitor (920021511182 $23.95), plus unrelated sports cards; other Johnson Viking models (Ranger, Valiant, Viking II, Navigator, Challenger) are different radios and kept out. Not comped. Not in ledger. Trigger ad: 'Very good condition ... with Johnson power supply, cables, manual with repair and mod. information included. All tubes including 4-400 are good. Power supply has been recapped'; $2,250; shipping is buyers responsibility (amount not stated, 0 recorded).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783077",
+    "site": "qth",
+    "ask": 2250.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
