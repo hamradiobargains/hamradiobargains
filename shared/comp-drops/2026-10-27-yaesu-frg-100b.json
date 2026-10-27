@@ -1,0 +1,15 @@
+{
+  "model": "YAESU FRG-100B",
+  "slug": "yaesu-frg-100b",
+  "searched_at": "2026-10-27T19:19:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu frg-100b', page 1: 0 sales titled FRG-100B. Not comped (no exact-model data); FRG-100 (no B) kept separate because the B has factory-upgraded filters/components. For reference only, not comps: FRG-100 sold 307195354828 $500.00 Oct 7 (+$15.51), 327250042347 $449.99 Aug 20 (free ship, Japan), 168611111784 $374.99 Sep 3 (+$21.99); Best-offer-accepted FRG-100 dropped: 307142269554 $489.00, 287586855180 $427.38. Ledger has no FRG-100 entry. Trigger ad: 'FRG-100B ... factory upgrades like newer ceramic filters', $400 shipped, clean.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783094",
+    "site": "qth",
+    "ask": 400.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
