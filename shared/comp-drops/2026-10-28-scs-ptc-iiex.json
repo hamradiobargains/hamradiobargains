@@ -1,0 +1,25 @@
+{
+  "model": "SCS PTC-IIEX",
+  "slug": "scs-ptc-iiex",
+  "searched_at": "2026-10-28T07:36:06-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in as Leo, scs ptc-iiex). 1 result, kept - thin. Ask $375 shipped USPS Priority with Pactor 3 license installed, USB adapter, pigtails. Comp may or may not include Pactor 3 license - unverified. Kept 1, median 799.00.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783189",
+    "site": "qth",
+    "ask": 375,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 799,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/306518127963",
+      "source": "ebay",
+      "notes": "shipping $0.00. Title: SCS PTC-IIex DSP Multimode PACTOR-Controll(er) (truncated); Pactor 3 license status not verified from the card.",
+      "flags": []
+    }
+  ]
+}
