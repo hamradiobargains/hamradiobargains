@@ -1,0 +1,15 @@
+{
+  "model": "Lowe HF-225 Europa",
+  "slug": "lowe-hf-225-europa",
+  "searched_at": "2026-10-28T05:56:57-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (signed in; 'Lowe HF-225 Europa', sold+completed, page 1) returned 0 exact results ('No exact matches found'); only 'Results matching fewer words' shown, ignored. Thin: 0 comps. Dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629361",
+    "site": "eham",
+    "ask": 625.0,
+    "shipping": 0
+  },
+  "comps": []
+}
