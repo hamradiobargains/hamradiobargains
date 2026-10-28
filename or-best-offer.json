@@ -1,49 +1,34 @@
 {
- "listings": [
-  {
-   "title": "Kenwood TS-480SAT",
-   "url": "https://swap.qth.com/view_ad.php?counter=1783266",
-   "price": 675,
-   "extra": 0,
-   "median": 725,
-   "comp_count": 6,
-   "comp_low": 650,
-   "comp_high": 1000,
-   "offer_low": 532,
-   "offer_high": 543,
-   "source": "QTH",
-   "date": "2026-10-26",
-   "listed_since": "2026-10-26"
-  },
-  {
-   "title": "Yaesu FT-900",
-   "url": "https://www.ebay.com/itm/920077097765",
-   "price": 410,
-   "extra": 96.39,
-   "median": 410,
-   "comp_count": 4,
-   "comp_low": 399.99,
-   "comp_high": 529,
-   "offer_low": 300,
-   "offer_high": 307,
-   "source": "eBay",
-   "date": "2026-10-26",
-   "listed_since": "2026-10-26"
-  },
-  {
-   "title": "Heathkit SA-2060A Antenna Tuner",
-   "url": "https://www.ebay.com/itm/920077064265",
-   "price": 200,
-   "extra": 96.39,
-   "median": 237.5,
-   "comp_count": 10,
-   "comp_low": 199.2,
-   "comp_high": 399.99,
-   "offer_low": 174,
-   "offer_high": 178,
-   "source": "eBay",
-   "date": "2026-10-26",
-   "listed_since": "2026-10-26"
-  }
- ]
+  "listings": [
+    {
+      "title": "Kenwood TS-480SAT",
+      "url": "https://swap.qth.com/view_ad.php?counter=1783266",
+      "price": 675,
+      "extra": 0,
+      "median": 725,
+      "comp_count": 6,
+      "comp_low": 650,
+      "comp_high": 1000,
+      "offer_low": 532,
+      "offer_high": 543,
+      "source": "QTH",
+      "date": "2026-10-26",
+      "listed_since": "2026-10-26"
+    },
+    {
+      "title": "Heathkit SA-2060A Antenna Tuner",
+      "url": "https://www.ebay.com/itm/920077064265",
+      "price": 200,
+      "extra": 96.39,
+      "median": 237.5,
+      "comp_count": 10,
+      "comp_low": 199.2,
+      "comp_high": 399.99,
+      "offer_low": 174,
+      "offer_high": 178,
+      "source": "eBay",
+      "date": "2026-10-26",
+      "listed_since": "2026-10-26"
+    }
+  ]
 }
