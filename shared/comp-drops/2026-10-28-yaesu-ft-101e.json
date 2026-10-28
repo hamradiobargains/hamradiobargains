@@ -1,0 +1,89 @@
+{
+  "model": "Yaesu FT-101E",
+  "slug": "yaesu-ft-101e",
+  "searched_at": "2026-10-28T17:56:30-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ft-101e', page 1, fewer-words section ignored. 7 kept. Dropped 4 best-offer-accepted (377404197301 $375, 158287709838 $292.73, plus 407237644934 and 158225805670 which were also Parts Only/untested). Dropped 2 more parts-only (377474285590 $155 auction; 257655966313 $650 'MINTY... 11M TX Mods' labelled Parts Only). Excluded FT-101EX (168560923065, different model), FTV-650B, and boards/knobs/crystals/tubes/manuals/speakers/VFO. Two possible relist pairs (yellowchoo 188899529649/188813559830; hamandhifi 206527065909/198594985600). No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/117492112744",
+    "site": "ebay",
+    "ask": 499.95,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 489.99,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188899529649",
+      "source": "ebay",
+      "notes": "Yaesu FT-101E HF Ham Radio Transceiver; or Best Offer (not accepted); +$20.00 shipping; seller yellowchoo - same title/seller/price as 188813559830",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 425.99,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800652505603",
+      "source": "ebay",
+      "notes": "Vintage Yaesu Model FT-101E SSB Ham Radio Transceiver; or Best Offer (not accepted); +$90.11 shipping",
+      "flags": []
+    },
+    {
+      "price": 489.99,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188813559830",
+      "source": "ebay",
+      "notes": "Yaesu FT-101E HF Ham Radio Transceiver; or Best Offer (not accepted); +$20.00 shipping; seller yellowchoo - same title/seller/price as 188899529649",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 580.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206527065909",
+      "source": "ebay",
+      "notes": "title: + Mic + AC Cord (recapped, works well); Buy It Now; +$68.50 shipping; seller hamandhifi - same title/price as 198594985600",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 299.77,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158215822829",
+      "source": "ebay",
+      "notes": "Yeasu FT101E vintage 1970s; auction 1 bid; UK seller, +$152.69 shipping estimate",
+      "flags": []
+    },
+    {
+      "price": 580.0,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198594985600",
+      "source": "ebay",
+      "notes": "title: + Mic + AC Cord (recapped, works well); Buy It Now; +$68.50 shipping; seller hamandhifi - same title/price as 206527065909",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 660.0,
+      "sold_date": "2026-08-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178386825338",
+      "source": "ebay",
+      "notes": "title: Nice Condition - Tested & Working; auction 24 bids; +$54.57 shipping",
+      "flags": []
+    }
+  ]
+}
