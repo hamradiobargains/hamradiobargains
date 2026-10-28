@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ham Radio Bargains — Fair Value in Your Pocket</title>
+<meta name="description" content="The HamRadioBargains price checker, model fair values, and today's bargains — as an installable app.">
+<link rel="manifest" href="/app/manifest.webmanifest">
+<meta name="theme-color" content="#0F1722">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="HR Bargains">
+<link rel="apple-touch-icon" href="/app/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/app/icon-192.png">
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+window.OneSignalDeferred = window.OneSignalDeferred || [];
+OneSignalDeferred.push(async function(OneSignal) {
+  try {
+  await OneSignal.init({
+    appId: "ccdc82af-8500-4a60-a4d4-79c39408f681",
+    serviceWorkerPath: "app/push/OneSignalSDKWorker.js",
+    serviceWorkerParam: { scope: "/app/push/" },
+    notifyButton: { enable: false },
+    welcomeNotification: { title: "Ham Radio Bargains", message: "Deal alerts are on — when a bargain lands, you'll hear about it here first." }
+  });
+  window.__osInitOk = true;
+  } catch (e) { window.__osInitError = String((e && e.message) || e); }
+});
+</script>
+<style>
+:root{--bg:#0F1722;--card:#1A2432;--card2:#222F42;--gold:#F5B742;--white:#F5F5F5;--gray:#AAB2BC;--line:#2A3648;--green:#4CC38A;--red:#F27059}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--white);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+body{padding-bottom:calc(76px + env(safe-area-inset-bottom))}
+header{position:sticky;top:0;z-index:20;background:rgba(15,23,34,.96);padding:calc(10px + env(safe-area-inset-top)) 16px 10px;border-bottom:2px solid var(--gold);display:flex;align-items:center;justify-content:space-between}
+header .brand{font-weight:800;letter-spacing:.06em;font-size:17px;color:var(--gold)}
+header .brand small{display:block;color:var(--gray);font-weight:500;letter-spacing:0;font-size:11px;margin-top:1px}
+#installBtn{background:var(--gold);color:#141414;border:0;border-radius:999px;font-weight:700;font-size:13px;padding:8px 14px}
+main{max-width:640px;margin:0 auto;padding:16px}
+.screen{display:none}.screen.active{display:block}
+h1{font-size:26px;line-height:1.2;margin:6px 0 4px}
+.sub{color:var(--gray);font-size:15px;line-height:1.45;margin:0 0 16px}
+.searchbox{position:relative;margin:10px 0 6px}
+.searchbox input{width:100%;background:var(--card);border:1px solid var(--line);border-radius:14px;color:var(--white);font-size:18px;padding:16px}
+.searchbox input::placeholder{color:#7C8794}
+.suggest{position:absolute;left:0;right:0;top:calc(100% + 4px);background:var(--card2);border:1px solid var(--line);border-radius:12px;overflow:hidden;z-index:30;display:none}
+.suggest button{display:flex;justify-content:space-between;width:100%;background:none;border:0;border-bottom:1px solid var(--line);color:var(--white);font-size:16px;padding:13px 14px;text-align:left}
+.suggest button:last-child{border-bottom:0}
+.suggest .fv{color:var(--gold);font-weight:700}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;margin:12px 0}
+.bigfv{font-size:52px;font-weight:800;color:var(--gold);line-height:1;margin:4px 0}
+.klabel{font-size:12px;letter-spacing:.08em;color:var(--gray);font-weight:700}
+.statrow{display:flex;gap:10px;margin-top:12px}
+.stat{flex:1;background:var(--card2);border-radius:12px;padding:10px 12px}
+.stat b{display:block;font-size:19px;margin-top:2px}
+.thin{background:#3A2E14;border:1px solid #6B5518;color:#F5D78A;border-radius:12px;padding:10px 12px;font-size:14px;margin-top:12px}
+.verdict{margin-top:14px;border-top:1px solid var(--line);padding-top:14px}
+.verdict input{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:12px;color:var(--white);font-size:18px;padding:13px}
+.vresult{margin-top:10px;font-size:16px;line-height:1.45;display:none}
+.vresult b{font-size:20px}
+.pass{color:var(--green)}.fail{color:var(--red)}.edge{color:var(--gold)}
+.btnrow{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}
+.btn{flex:1;min-width:130px;text-align:center;background:var(--gold);color:#141414;font-weight:700;border:0;border-radius:12px;padding:13px 10px;font-size:15px;text-decoration:none;display:inline-block}
+.btn.ghost{background:var(--card2);color:var(--white);border:1px solid var(--line)}
+.btn.on{background:#3A2E14;color:var(--gold);border:1px solid #6B5518}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 4px}
+.chip{background:var(--card);border:1px solid var(--line);color:var(--gray);border-radius:999px;padding:8px 13px;font-size:14px;font-weight:600}
+.chip.sel{background:var(--gold);color:#141414;border-color:var(--gold)}
+.deal{border-left:5px solid var(--gold)}
+.deal.tech{border-left-color:var(--red)}.deal.second{border-left-color:var(--green)}.deal.obo{border-left-color:#7FB3F5}
+.deal .top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.deal .name{font-size:18px;font-weight:700;line-height:1.25}
+.deal .pct{font-size:22px;font-weight:800;color:var(--gold);white-space:nowrap}
+.deal.tech .pct{color:var(--red)}.deal.second .pct{color:var(--green)}.deal.obo .pct{color:#7FB3F5}
+.deal .meta{color:var(--gray);font-size:14px;margin-top:5px;line-height:1.5}
+.deal .price{font-size:20px;font-weight:800;margin-top:6px}
+.deal.sold{opacity:.6}.tag.soldtag{background:#5A2320;color:#F2A49E;margin-left:6px}.deal.sold .pct{color:var(--gray)}
+.tag{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.05em;padding:3px 8px;border-radius:6px;background:var(--card2);color:var(--gray);margin-bottom:6px}
+.workflag{background:#3A1F1A;border:1px solid #6E3524;color:#F5B79A;border-radius:10px;padding:9px 11px;font-size:13.5px;margin-top:9px;line-height:1.45}
+.offerrange{background:#16283F;border:1px solid #274B73;color:#BFD9F8;border-radius:10px;padding:9px 11px;font-size:14px;margin-top:9px}
+.modelrow{display:flex;justify-content:space-between;align-items:center;width:100%;background:var(--card);border:1px solid var(--line);border-radius:14px;color:var(--white);padding:13px 14px;margin:8px 0;text-align:left;font-size:16px}
+.modelrow .r{text-align:right}
+.modelrow .r b{color:var(--gold);font-size:17px}
+.modelrow .r span{display:block;color:var(--gray);font-size:12px}
+.huntchip{display:inline-flex;align-items:center;gap:8px;background:var(--card2);border:1px solid var(--line);border-radius:999px;padding:8px 8px 8px 13px;margin:0 8px 8px 0;font-size:14.5px}
+.huntchip button{background:none;border:0;color:var(--red);font-size:17px;padding:2px 7px}
+nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:40;background:rgba(20,29,42,.98);border-top:1px solid var(--line);display:flex;padding:6px 4px calc(6px + env(safe-area-inset-bottom))}
+nav.tabs button{flex:1;background:none;border:0;color:var(--gray);font-size:11.5px;font-weight:600;padding:6px 2px 3px;position:relative}
+nav.tabs button .ic{display:block;font-size:21px;margin-bottom:2px}
+nav.tabs button.sel{color:var(--gold)}
+nav.tabs .badge{position:absolute;top:0;right:calc(50% - 21px);background:var(--gold);color:#141414;font-size:10.5px;font-weight:800;border-radius:999px;min-width:17px;height:17px;line-height:17px}
+.sheet{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:60;display:none}
+.sheet .panel{position:absolute;left:0;right:0;bottom:0;background:var(--card);border-radius:20px 20px 0 0;padding:20px 18px calc(20px + env(safe-area-inset-bottom));max-width:640px;margin:0 auto}
+.sheet h3{margin:0 0 8px;font-size:19px}
+.sheet p,.sheet li{color:var(--gray);font-size:15px;line-height:1.55}
+.sheet ol{padding-left:20px;margin:8px 0}
+.err{background:#3A1F1A;border:1px solid #6E3524;color:#F5B79A;border-radius:12px;padding:11px 13px;font-size:14.5px;display:none;margin:10px 0;line-height:1.45}
+.foot{color:#5F6B78;font-size:12.5px;text-align:center;margin:22px 0 6px;line-height:1.5}
+.sectionlabel{font-size:13px;font-weight:800;letter-spacing:.07em;color:var(--gray);margin:20px 0 4px}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">HAM RADIO BARGAINS<small>Fair value in your pocket</small></div>
+  <button id="installBtn" type="button">Install</button>
+</header>
+<main>
+  <div class="err" id="loadErr">Couldn't load the latest figures. Check your connection and pull to refresh — saved figures, if any, are shown.</div>
+
+  <section class="screen active" id="scr-home">
+    <h1>What's it worth?</h1>
+    <p class="sub">Standing at a hamfest table or reading an ad — check the fair value before you talk money.</p>
+    <div class="searchbox">
+      <input id="homeSearch" type="search" placeholder="Type a model — try IC-7300" autocomplete="off">
+      <div class="suggest" id="homeSuggest"></div>
+    </div>
+    <div class="sectionlabel">DEEPEST BARGAINS RIGHT NOW</div>
+    <div id="homeDeals"></div>
+    <div class="sectionlabel" id="pushLabel" style="display:none">DEAL ALERTS ON THIS PHONE</div>
+<div class="card" id="pushCard" style="display:none">
+<p id="pushText" style="color:var(--gray);line-height:1.55;font-size:15px;margin-top:0"></p>
+<button class="btn" id="pushBtn" type="button" style="width:100%">Turn on deal alerts</button>
+<button class="btn ghost" id="pushOffBtn" type="button" style="width:100%;margin-top:8px;display:none">Turn alerts off</button>
+</div>
+<div class="sectionlabel">MY HUNT LIST</div>
+    <div id="homeHunt"><p class="sub" style="margin:0">Nothing hunted yet. Look a model up in the Checker and tap “Add to hunt list” — its fair value will ride here.</p></div>
+    <div class="sectionlabel">THE FOUR WAYS TO BUY RIGHT</div>
+    <div id="homeCats"></div>
+    <div class="sectionlabel">PASS IT ON</div>
+    <div class="card">
+      <div class="name" style="font-size:17px;font-weight:800;margin-bottom:4px">Know a ham who overpays?</div>
+      <p style="color:var(--gray);line-height:1.55;font-size:15px;margin:0 0 12px">Send them the app. Fair values and live bargains in their pocket beats another story about the one that got away.</p>
+      <button class="btn shareBtn" type="button" style="width:100%">Send this app to a ham</button>
+    </div>
+  </section>
+
+  <section class="screen" id="scr-checker">
+    <h1>Price Checker</h1>
+    <p class="sub">Fair values come from recorded sales — the same figures behind the site's price checker. Three or more sales behind a number means it's solid; fewer and we say so.</p>
+    <div class="searchbox">
+      <input id="chkSearch" type="search" placeholder="Type a model — try IC-7100" autocomplete="off">
+      <div class="suggest" id="chkSuggest"></div>
+    </div>
+    <div id="chkResult"></div>
+  </section>
+
+  <section class="screen" id="scr-deals">
+    <h1>Deal Board</h1>
+    <p class="sub">Live from the site — listings priced around 25% or more below fair value, plus the other three ways to buy right.</p>
+    <div class="chips" id="dealChips">
+      <button class="chip sel" data-f="all" type="button">All</button>
+      <button class="chip" data-f="deal" type="button">Deals</button>
+      <button class="chip" data-f="tech" type="button">Tech Specials</button>
+      <button class="chip" data-f="second" type="button">Second Look</button>
+      <button class="chip" data-f="obo" type="button">Or Best Offer</button>
+    </div>
+    <div id="dealList"></div>
+  </section>
+
+  <section class="screen" id="scr-models">
+    <h1>Model Library</h1>
+    <p class="sub">Every model with a recorded fair value. Tap one to open it in the Checker.</p>
+    <div class="searchbox">
+      <input id="modSearch" type="search" placeholder="Filter models" autocomplete="off">
+    </div>
+    <div id="modList"></div>
+  </section>
+
+  <section class="screen" id="scr-rig">
+    <h1>Rig Check</h1>
+    <p class="sub">Buying used? Every radio has a handful of questions that decide what it's really worth — a known fault, a missing option, a modification. Rig Check asks them model by model.</p>
+    <div class="card">
+      <div class="klabel">HOW IT WORKS</div>
+      <p style="color:var(--gray);line-height:1.55;font-size:15px">Pick the model, answer its questions, and you get a plain condition report you can paste anywhere — plus the fair-value line, so the price conversation starts from facts. Sellers with nothing to hide answer everything; unanswered questions are exactly where the discount lives.</p>
+      <a class="btn" href="/rig-check/" style="width:100%">Open Rig Check</a>
+      <p style="color:var(--gray);font-size:13.5px;margin:12px 0 0">15 model question banks and counting.</p>
+    </div>
+    <div class="card">
+      <div class="klabel">AT A SELLER'S TABLE</div>
+      <p style="color:var(--gray);line-height:1.55;font-size:15px;margin-bottom:0">Check the fair value here first, then run the model's Rig Check questions while you're standing in front of the rig. Price plus questions — that's the whole play.</p>
+    </div>
+  </section>
+
+  <div style="text-align:center;margin:20px 0 2px"><button class="btn ghost shareBtn" type="button" style="padding:10px 20px">Send this app to a ham</button></div>
+  <p class="foot">Fair values from recorded sales, gathered and kept by HamRadioBargains.com.<br>Buy right. Sell straight.</p>
+  <p class="foot" style="margin-top:6px;font-size:12px;opacity:.75">App version 10 · Oct 28, 2026</p>
+</main>
+
+<nav class="tabs">
+  <button data-t="home" class="sel" type="button"><span class="ic">⌂</span>Home</button>
+  <button data-t="checker" type="button"><span class="ic">◎</span>Checker</button>
+  <button data-t="deals" type="button"><span class="ic">▤</span>Deals</button>
+  <button data-t="models" type="button"><span class="ic">☰</span>Models</button>
+  <button data-t="rig" type="button"><span class="ic">✓</span>Rig Check</button>
+</nav>
+
+<div class="sheet" id="installSheet">
+  <div class="panel">
+    <h3>Put it on your home screen</h3>
+    <div id="iosSteps">
+      <p>On an iPhone, in Safari:</p>
+      <ol>
+        <li>Tap the <b>Share</b> button (the square with an arrow pointing up).</li>
+        <li>Scroll down and tap <b>Add to Home Screen</b>.</li>
+        <li>Tap <b>Add</b>. The HR Bargains icon lands on your home screen and opens full-screen, like any app.</li>
+      </ol>
+    </div>
+    <div id="androidSteps">
+      <p>On Android, in Chrome:</p>
+      <ol>
+        <li>Tap the <b>⋮ menu</b> in the top corner.</li>
+        <li>Tap <b>Install app</b> (or “Add to Home screen”).</li>
+        <li>Confirm. The icon lands on your home screen.</li>
+      </ol>
+    </div>
+    <button class="btn ghost" id="sheetClose" type="button" style="width:100%;margin-top:8px">Close</button>
+  </div>
+</div>
+
+<script>
+"use strict";
+var comps = null, modelSlugs = {}, dealsCache = [], dealFilter = "all", soldMap = {}, drift = null;
+var hunt = [];
+try { hunt = JSON.parse(localStorage.getItem("hrb-hunt") || "[]"); } catch (e) { hunt = []; }
+
+function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+function money(n){ if (n == null || isNaN(n)) return "—"; var r = Math.round(n * 100) / 100; return "$" + (r % 1 === 0 ? r.toLocaleString("en-US") : r.toLocaleString("en-US", {minimumFractionDigits: 2, maximumFractionDigits: 2})); }
+function slugify(name){ return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, ""); }
+function buyRight(median){ return Math.round(median * 0.75); }
+
+function showTab(t){
+  document.querySelectorAll(".screen").forEach(function(s){ s.classList.remove("active"); });
+  document.getElementById("scr-" + t).classList.add("active");
+  document.querySelectorAll("nav.tabs button").forEach(function(b){ b.classList.toggle("sel", b.dataset.t === t); });
+  window.scrollTo(0, 0);
+}
+document.querySelectorAll("nav.tabs button").forEach(function(b){
+  b.addEventListener("click", function(){ showTab(b.dataset.t); });
+});
+
+function modelNames(){ return comps ? Object.keys(comps.models || {}) : []; }
+function matchModels(q){
+  q = q.trim().toUpperCase(); if (!comps || q.length < 2) return [];
+  var toks = q.split(/\s+/);
+  var hits = modelNames().filter(function(name){
+    return toks.every(function(t){ return name.indexOf(t) >= 0; });
+  });
+  hits.sort(function(a, b){
+    var ca = (comps.models[a].latest || {}).count || 0, cb = (comps.models[b].latest || {}).count || 0;
+    return cb - ca || a.localeCompare(b);
+  });
+  return hits.slice(0, 8);
+}
+function wireSearch(inputId, sugId, onPick){
+  var inp = document.getElementById(inputId), sug = document.getElementById(sugId);
+  inp.addEventListener("input", function(){
+    var hits = matchModels(inp.value);
+    if (!hits.length){ sug.style.display = "none"; sug.innerHTML = ""; return; }
+    sug.innerHTML = hits.map(function(name){
+      var L = comps.models[name].latest || {};
+      return '<button type="button" data-m="' + esc(name) + '"><span>' + esc(name) + '</span><span class="fv">' + money(L.median) + '</span></button>';
+    }).join("");
+    sug.style.display = "block";
+    sug.querySelectorAll("button").forEach(function(b){
+      b.addEventListener("click", function(){ sug.style.display = "none"; inp.value = b.dataset.m; onPick(b.dataset.m); });
+    });
+  });
+  inp.addEventListener("blur", function(){ setTimeout(function(){ sug.style.display = "none"; }, 200); });
+}
+
+function renderChecker(name){
+  var box = document.getElementById("chkResult");
+  var entry = comps && comps.models[name];
+  if (!entry){ box.innerHTML = ""; return; }
+  var L = entry.latest || {};
+  var inHunt = hunt.indexOf(name) >= 0;
+  var slug = slugify(name);
+  var hasPage = !!modelSlugs[slug];
+  var html = '<div class="card">';
+  html += '<div class="klabel">FAIR VALUE</div>';
+  html += '<div style="font-size:21px;font-weight:700;margin-top:6px">' + esc(name) + '</div>';
+  html += '<div class="bigfv">' + money(L.median) + '</div>';
+  html += '<div class="statrow">';
+  html += '<div class="stat"><span class="klabel">RECORDED SALES</span><b>' + (L.count != null ? L.count : "—") + '</b></div>';
+  html += '<div class="stat"><span class="klabel">SALE RANGE</span><b>' + money(L.low) + "–" + money(L.high) + '</b></div>';
+  html += '<div class="stat"><span class="klabel">BUY-RIGHT PRICE</span><b>' + money(buyRight(L.median)) + '</b></div>';
+  html += '</div>';
+  html += '<p style="color:var(--gray);font-size:13.5px;margin:12px 0 0">The buy-right price is 25% under fair value — pay that or less and you can sell the rig later and get your money back out of it.</p>';
+  if ((L.count || 0) < 3) html += '<div class="thin">Early read: only ' + (L.count || 0) + ' recorded sale' + ((L.count === 1) ? "" : "s") + ' behind this figure so far. Treat it as a starting point, not gospel.</div>';
+  var dr = drift && drift.models && drift.models[name];
+  if (dr){
+    var dmonths = dr.window === "6mo" ? "6 months" : "3 months";
+    var dmove = Math.abs(dr.pct) < 2 ? "Steady" : (dr.pct > 0 ? "▲ ~" + Math.round(dr.pct) + "%" : "▼ ~" + Math.round(Math.abs(dr.pct)) + "%");
+    html += '<p style="font-size:13.5px;margin:12px 0 0"><span class="klabel">PRICE TREND</span><br><b>' + dmove + '</b> — last ' + dmonths + ' median ' + money(dr.recent_median) + ' vs ' + money(dr.prior_median) + ' the ' + dmonths + ' before (' + dr.recent_count + ' vs ' + dr.prior_count + ' recorded sales)</p>';
+  }
+  html += '<div class="verdict"><div class="klabel">FOUND ONE? RUN THE ASKING PRICE</div>';
+  html += '<input id="askInp" type="number" inputmode="decimal" placeholder="Asking price, e.g. 550" style="margin-top:8px">';
+  html += '<div class="vresult" id="vRes"></div></div>';
+  html += '<div class="btnrow">';
+  html += '<button type="button" class="btn ghost' + (inHunt ? " on" : "") + '" id="huntBtn">' + (inHunt ? "★ On your hunt list" : "☆ Add to hunt list") + '</button>';
+  if (hasPage) html += '<a class="btn" href="/models/' + slug + '/">Full model page</a>';
+  html += '<a class="btn ghost" href="/rig-check/">Rig Check it</a>';
+  html += '</div></div>';
+  box.innerHTML = html;
+  var ask = document.getElementById("askInp"), vres = document.getElementById("vRes");
+  ask.addEventListener("input", function(){
+    var a = parseFloat(ask.value);
+    if (!a || !L.median){ vres.style.display = "none"; return; }
+    var pct = (L.median - a) / L.median * 100, cls, msg;
+    if (pct >= 25){ cls = "pass"; msg = "That clears the bar — buy right at that price."; }
+    else if (pct >= 23.5){ cls = "edge"; msg = "Right at the edge — around 25% counts when the rig is clean and the dollars are real."; }
+    else if (pct > 0){ cls = "fail"; msg = "Under fair value, but not enough margin to clear the rule. Negotiate or walk."; }
+    else { cls = "fail"; msg = "That's at or above fair value. Walk away — another one always lists."; }
+    vres.innerHTML = '<b class="' + cls + '">' + pct.toFixed(1) + '% below fair value.</b> <span class="' + cls + '">' + msg + '</span>';
+    vres.style.display = "block";
+  });
+  document.getElementById("huntBtn").addEventListener("click", function(){
+    var i = hunt.indexOf(name);
+    if (i >= 0) hunt.splice(i, 1); else hunt.push(name);
+    try { localStorage.setItem("hrb-hunt", JSON.stringify(hunt)); } catch (e) {}
+    if (window.__syncHuntTags) window.__syncHuntTags();
+    renderChecker(name); renderHunt();
+  });
+}
+
+function renderHunt(){
+  var box = document.getElementById("homeHunt");
+  if (!hunt.length){ box.innerHTML = '<p class="sub" style="margin:0">Nothing hunted yet. Look a model up in the Checker and tap “Add to hunt list” — its fair value will ride here.</p>'; return; }
+  box.innerHTML = hunt.map(function(name){
+    var L = comps && comps.models[name] ? (comps.models[name].latest || {}) : {};
+    return '<span class="huntchip"><span data-go="' + esc(name) + '">' + esc(name) + ' · <b style="color:var(--gold)">' + money(L.median) + '</b></span><button type="button" data-rm="' + esc(name) + '" aria-label="Remove">×</button></span>';
+  }).join("");
+  box.querySelectorAll("[data-go]").forEach(function(el){
+    el.addEventListener("click", function(){ document.getElementById("chkSearch").value = el.dataset.go; showTab("checker"); renderChecker(el.dataset.go); });
+  });
+  box.querySelectorAll("[data-rm]").forEach(function(b){
+    b.addEventListener("click", function(){
+      hunt = hunt.filter(function(x){ return x !== b.dataset.rm; });
+      try { localStorage.setItem("hrb-hunt", JSON.stringify(hunt)); } catch (e) {}
+      if (window.__syncHuntTags) window.__syncHuntTags();
+      renderHunt();
+    });
+  });
+}
+
+function dealCard(d){
+  var tagMap = {deal: "DEAL", tech: "TECH SPECIAL", second: "SECOND LOOK", obo: "OR BEST OFFER"};
+  var html = '<div class="card deal ' + d.cat + (d.soldDate ? ' sold' : '') + '">';
+  html += '<span class="tag">' + tagMap[d.cat] + '</span>';
+  if (d.soldDate) html += '<span class="tag soldtag">SOLD · ' + fmtSoldDate(d.soldDate) + '</span>';
+  html += '<div class="top"><div class="name">' + esc(d.title) + '</div><div class="pct">' + d.pct.toFixed(1) + '%</div></div>';
+  html += '<div class="price">' + money(d.price) + (d.extra > 0 ? ' <span style="font-size:13.5px;color:var(--gray);font-weight:600">+ ' + money(d.extra) + ' shipping</span>' : ' <span style="font-size:13.5px;color:var(--green);font-weight:600">shipped</span>') + '</div>';
+  html += '<div class="meta">Fair value ' + money(d.median) + ' · ' + d.count + ' recorded sales · you save ' + money(d.median - d.price) + '</div>';
+  if (d.cat === "tech" && d.work) html += '<div class="workflag">Needs work: ' + esc(d.work) + '</div>';
+  if (d.cat === "obo" && d.offerLow != null) html += '<div class="offerrange">The offer that buys right: <b>' + money(d.offerLow) + "–" + money(d.offerHigh) + '</b>. The site does the math — you make the offer.</div>';
+  var href = d.cat === "obo" ? d.url : "/deal.html?link=" + encodeURIComponent(d.url);
+  html += '<div class="btnrow"><a class="btn" href="' + esc(href) + '" target="_blank" rel="noopener">View listing</a></div>';
+  html += '</div>';
+  return html;
+}
+var MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+function fmtSoldDate(s){
+  var p = String(s).split("-");
+  if (p.length !== 3) return s;
+  return MONTHS[+p[1] - 1] + " " + (+p[2]);
+}
+function soldAgeDays(s){
+  var t = Date.parse(String(s) + "T12:00:00");
+  if (isNaN(t)) return 999;
+  return (Date.now() - t) / 86400000;
+}
+function renderDeals(){
+  var visible = dealsCache.filter(function(d){ return !d.soldDate || soldAgeDays(d.soldDate) <= 7; });
+  var list = visible.filter(function(d){ return dealFilter === "all" || d.cat === dealFilter; });
+  list.sort(function(a, b){ return (a.soldDate ? 1 : 0) - (b.soldDate ? 1 : 0) || b.pct - a.pct; });
+  document.getElementById("dealList").innerHTML = list.length ? list.map(dealCard).join("") : '<p class="sub">Nothing in this category right now.</p>';
+  var top = dealsCache.filter(function(d){ return !d.soldDate; }).sort(function(a, b){ return b.pct - a.pct; }).slice(0, 3);
+  document.getElementById("homeDeals").innerHTML = top.length ? top.map(dealCard).join("") : '<p class="sub">Loading today\'s board…</p>';
+  var counts = {deal: 0, tech: 0, second: 0, obo: 0};
+  dealsCache.forEach(function(d){ if (!d.soldDate) counts[d.cat]++; });
+  var catCopy = [
+    ["deal", "Straight deals", "Already around 25% under at the ask."],
+    ["tech", "Tech Specials", "Cheap because they need work — 40% under or better."],
+    ["second", "Second Look", "Seasoned listings, still under market. A waiting seller may listen."],
+    ["obo", "Or Best Offer", "Negotiable — we work out the offer that buys right."]
+  ];
+  document.getElementById("homeCats").innerHTML = catCopy.map(function(c){
+    return '<button type="button" class="modelrow" data-cat="' + c[0] + '"><span><b>' + c[1] + '</b><br><span style="color:var(--gray);font-size:13.5px">' + c[2] + '</span></span><span class="r"><b>' + counts[c[0]] + '</b><span>live</span></span></button>';
+  }).join("");
+  document.querySelectorAll("[data-cat]").forEach(function(b){
+    b.addEventListener("click", function(){
+      dealFilter = b.dataset.cat;
+      document.querySelectorAll("#dealChips .chip").forEach(function(ch){ ch.classList.toggle("sel", ch.dataset.f === dealFilter); });
+      renderDeals(); showTab("deals");
+    });
+  });
+}
+document.querySelectorAll("#dealChips .chip").forEach(function(ch){
+  ch.addEventListener("click", function(){
+    dealFilter = ch.dataset.f;
+    document.querySelectorAll("#dealChips .chip").forEach(function(c){ c.classList.toggle("sel", c === ch); });
+    renderDeals();
+  });
+});
+
+function renderModels(){
+  var q = document.getElementById("modSearch").value.trim().toUpperCase();
+  var names = modelNames().filter(function(n){ return !q || n.indexOf(q) >= 0; });
+  names.sort(function(a, b){
+    var ca = (comps.models[a].latest || {}).count || 0, cb = (comps.models[b].latest || {}).count || 0;
+    return cb - ca || a.localeCompare(b);
+  });
+  document.getElementById("modList").innerHTML = names.slice(0, 120).map(function(name){
+    var L = comps.models[name].latest || {};
+    return '<button type="button" class="modelrow" data-m="' + esc(name) + '"><span>' + esc(name) + '</span><span class="r"><b>' + money(L.median) + '</b><span>' + (L.count || 0) + ' sales</span></span></button>';
+  }).join("") || '<p class="sub">No models match.</p>';
+  document.querySelectorAll("#modList [data-m]").forEach(function(b){
+    b.addEventListener("click", function(){
+      document.getElementById("chkSearch").value = b.dataset.m;
+      showTab("checker"); renderChecker(b.dataset.m);
+    });
+  });
+}
+document.getElementById("modSearch").addEventListener("input", renderModels);
+
+function getJSON(path){
+  return fetch(path, {cache: "no-store"}).then(function(r){ if (!r.ok) throw new Error(r.status); return r.json(); });
+}
+function load(){
+  var failed = false;
+  getJSON("/comps.json").then(function(d){
+    comps = d; renderModels(); renderHunt();
+    wireSearch("homeSearch", "homeSuggest", function(name){ document.getElementById("chkSearch").value = name; showTab("checker"); renderChecker(name); });
+    wireSearch("chkSearch", "chkSuggest", function(name){ renderChecker(name); });
+  }).catch(function(){ failed = true; });
+  fetch("/sitemap.xml").then(function(r){ return r.text(); }).then(function(txt){
+    var re = /\/models\/([a-z0-9\-]+)\//g, m;
+    while ((m = re.exec(txt)) !== null) modelSlugs[m[1]] = true;
+  }).catch(function(){});
+  var merged = [];
+  var jobs = [
+    getJSON("/deals.json").then(function(d){
+      (d || []).forEach(function(x){ merged.push({cat: "deal", title: x.item, url: x.link, price: x.price, extra: x.extraCost || 0, pct: (x.pctBelow || 0) * 100, median: x.median, count: x.compCount, source: ""}); });
+    }),
+    getJSON("/tech-specials.json").then(function(d){
+      (d.listings || []).forEach(function(x){ merged.push({cat: "tech", title: x.title, url: x.url, price: x.price, extra: x.extra || 0, pct: x.pct_below || 0, median: x.median, count: x.comp_count, source: x.source, work: x.work_flag}); });
+    }),
+    getJSON("/second-look.json").then(function(d){
+      (d.listings || []).forEach(function(x){ merged.push({cat: "second", title: x.title, url: x.url, price: x.price, extra: x.extra || 0, pct: x.pct_below || 0, median: x.median, count: x.comp_count, source: x.source}); });
+    }),
+    getJSON("/or-best-offer.json").then(function(d){
+      (d.listings || []).forEach(function(x){
+        var pct = x.median ? (x.median - x.price) / x.median * 100 : 0;
+        merged.push({cat: "obo", title: x.title, url: x.url, price: x.price, extra: x.extra || 0, pct: pct, median: x.median, count: x.comp_count, source: x.source, offerLow: x.offer_low, offerHigh: x.offer_high});
+      });
+    })
+  ];
+  var soldJob = getJSON("/sold.json").then(function(d){ soldMap = d || {}; }).catch(function(){ soldMap = {}; });
+  getJSON("/drift.json").then(function(d){ drift = d || null; }).catch(function(){ drift = null; });
+  jobs.push(soldJob);
+  Promise.all(jobs.map(function(p){ return p.catch(function(){ failed = true; }); })).then(function(){
+    merged.forEach(function(d){ var e = soldMap[d.url]; d.soldDate = (e && e.soldDate) || null; });
+    dealsCache = merged; renderDeals();
+    if (failed) document.getElementById("loadErr").style.display = "block";
+  });
+}
+load();
+
+function hideInstallIfRunning(){
+  var standalone = (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches) || window.navigator.standalone === true;
+  if (standalone) document.getElementById("installBtn").style.display = "none";
+}
+hideInstallIfRunning();
+window.addEventListener("appinstalled", function(){ document.getElementById("installBtn").style.display = "none"; });
+var deferredPrompt = null;
+window.addEventListener("beforeinstallprompt", function(e){ e.preventDefault(); deferredPrompt = e; });
+var sheet = document.getElementById("installSheet");
+document.getElementById("installBtn").addEventListener("click", function(){
+  if (deferredPrompt){ deferredPrompt.prompt(); deferredPrompt = null; return; }
+  var isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  document.getElementById("iosSteps").style.display = isIOS ? "block" : "none";
+  document.getElementById("androidSteps").style.display = isIOS ? "none" : "block";
+  sheet.style.display = "block";
+});
+document.getElementById("sheetClose").addEventListener("click", function(){ sheet.style.display = "none"; });
+sheet.addEventListener("click", function(e){ if (e.target === sheet) sheet.style.display = "none"; });
+
+function huntTagKey(name){ return "hunt_" + name.toUpperCase().replace(/[^A-Z0-9]+/g, "_"); }
+(function(){
+  var label = document.getElementById("pushLabel"), card = document.getElementById("pushCard");
+  var txt = document.getElementById("pushText"), btn = document.getElementById("pushBtn"), off = document.getElementById("pushOffBtn");
+  if (!label || !card) return;
+  var standalone = (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches) || window.navigator.standalone === true;
+  var isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  var OS = null;
+  label.style.display = "block"; card.style.display = "block";
+  function setText(t){ txt.textContent = t; }
+  if (isIOS && !standalone){
+    setText("Apple only allows alerts on apps that live on your home screen. Install this app first (Share \u2192 Add to Home Screen), then come back and turn alerts on.");
+    btn.style.display = "none"; off.style.display = "none"; return;
+  }
+  setText("Loading the alert service\u2026 give it a second, then tap the button.");
+  function syncTags(){
+    if (!OS) return;
+    try {
+      var desired = hunt.map(huntTagKey);
+      var prev = [];
+      try { prev = JSON.parse(localStorage.getItem("hrb-hunt-tags") || "[]"); } catch (e) {}
+      var add = {}, changed = false;
+      desired.forEach(function(k){ if (prev.indexOf(k) < 0){ add[k] = "1"; changed = true; } });
+      var rem = prev.filter(function(k){ return desired.indexOf(k) < 0; });
+      if (changed) OS.User.addTags(add);
+      if (rem.length) OS.User.removeTags(rem);
+      localStorage.setItem("hrb-hunt-tags", JSON.stringify(desired));
+    } catch (e) {}
+  }
+  window.__syncHuntTags = syncTags;
+  function permNow(){
+    try { return (window.Notification && Notification.permission) || "default"; } catch (e) { return "default"; }
+  }
+  function stateLine(){
+    var opted = "unknown";
+    try { opted = String(!!OS.User.PushSubscription.optedIn); } catch (e) {}
+    return " (phone says: permission " + permNow() + ", alerts " + opted + ")";
+  }
+  function refresh(){
+    if (!OS) return;
+    var opted = false;
+    try { opted = !!OS.User.PushSubscription.optedIn; } catch (e) {}
+    if (opted){
+      setText("Alerts are ON for this phone. New bargains buzz you here \u2014 and anything on your hunt list gets flagged for you first.");
+      btn.style.display = "none"; off.style.display = "block";
+      syncTags();
+    } else if (permNow() === "denied"){
+      setText("This phone has alerts blocked for the app. Open iPhone Settings \u2192 Ham Radio Bargains \u2192 Notifications and switch Allow Notifications on, then reopen the app.");
+      btn.style.display = "none"; off.style.display = "none";
+    } else {
+      setText("Get a buzz the moment a new bargain posts \u2014 before the evening email. Tap the button and choose Allow.");
+      btn.style.display = "block"; off.style.display = "none";
+    }
+  }
+  btn.addEventListener("click", function(){
+    if (!OS){
+      setText("The alert service hasn't answered yet. Check your connection, give it a few seconds, and tap again. If this message stays, tell Archie exactly what it says.");
+      return;
+    }
+    setText("Asking the phone\u2026");
+    (async function(){
+      try { await OS.User.PushSubscription.optIn(); } catch (e) {}
+      try {
+        if (permNow() === "default") { await OS.Notifications.requestPermission(); }
+      } catch (e) { setText("The phone refused the request" + stateLine() + " \u2014 read this line to Archie."); return; }
+      setTimeout(function(){
+        refresh();
+        var opted = false;
+        try { opted = !!OS.User.PushSubscription.optedIn; } catch (e) {}
+        if (!opted) setText("Still off after the tap" + stateLine() + " \u2014 read this line to Archie and he'll take it from there.");
+      }, 1200);
+    })();
+  });
+  off.addEventListener("click", function(){
+    if (!OS) return;
+    try { OS.User.PushSubscription.optOut(); setTimeout(refresh, 600); } catch (e) {}
+  });
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(function(OneSignal){
+    OS = OneSignal; window.__OneSignal = OneSignal;
+    if (window.__osInitError){
+      setText("The alert service reported a problem: " + window.__osInitError + " \u2014 read this line to Archie.");
+      btn.style.display = "none";
+      return;
+    }
+    try { OneSignal.User.PushSubscription.addEventListener("change", refresh); } catch (e) {}
+    refresh();
+  });
+  setTimeout(function(){
+    if (!OS) setText("The alert service didn't answer. Reopen the app on a good connection and tap the button \u2014 if this message comes back, tell Archie.");
+  }, 9000);
+})();
+
+var SHARE_TEXT = "I check every used rig against recorded sale prices before I buy. This free app puts Ham Radio Bargains' fair values and live bargains in your pocket:";
+var SHARE_URL = "https://hamradiobargains.com/app/";
+function shareApp(btn){
+  function done(msg){
+    if (!btn) return;
+    var old = btn.textContent;
+    btn.textContent = msg;
+    setTimeout(function(){ btn.textContent = old; }, 2600);
+  }
+  if (navigator.share){
+    navigator.share({ title: "Ham Radio Bargains", text: SHARE_TEXT, url: SHARE_URL }).then(function(){}, function(){});
+    return;
+  }
+  if (navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(SHARE_TEXT + " " + SHARE_URL).then(function(){ done("Link copied — paste it to a ham"); }, function(){ window.location.href = "mailto:?subject=" + encodeURIComponent("Ham Radio Bargains app") + "&body=" + encodeURIComponent(SHARE_TEXT + " " + SHARE_URL); });
+    return;
+  }
+  window.location.href = "mailto:?subject=" + encodeURIComponent("Ham Radio Bargains app") + "&body=" + encodeURIComponent(SHARE_TEXT + " " + SHARE_URL);
+}
+document.querySelectorAll(".shareBtn").forEach(function(b){
+  b.addEventListener("click", function(){ shareApp(b); });
+});
+
+if (navigator.serviceWorker && navigator.serviceWorker.getRegistration) { navigator.serviceWorker.getRegistration().then(function(r){ if (r) r.update(); }).catch(function(){}); }
+if ("serviceWorker" in navigator && location.protocol === "https:") {
+  window.addEventListener("load", function(){ navigator.serviceWorker.register("/app/sw.js").catch(function(){}); });
+}
+</script>
+</body>
+</html>
