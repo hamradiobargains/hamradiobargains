@@ -1,0 +1,15 @@
+{
+  "model": "SHARK HAMSTICK",
+  "slug": "shark-hamstick",
+  "searched_at": "2026-10-28T07:36:06-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in as Leo, shark hamstick): 0 exact comps for a pair of Shark Hamsticks. Reference only, not comps: 221733125004 $42.99 (Sep 15) Shark FM-mini 20 Meter single antenna, Brand New, free ship; 168564383294 $47.99 (Aug 16) Shark FM-Mini 80 Meter single antenna, Brand New, free ship; 257728023029 $75 BOA (Sep 11) set of 5 generic Hamstick antennas. Ask $100 shipped lower 48 for a pair (band/model not named in ad).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783171",
+    "site": "qth",
+    "ask": 100,
+    "shipping": 0
+  },
+  "comps": []
+}
