@@ -1,0 +1,25 @@
+{
+  "model": "KENWOOD TS-450SAT",
+  "slug": "kenwood-ts-450sat",
+  "searched_at": "2026-10-28T07:36:06-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in as Leo, kenwood ts-450sat). 1 kept comp - thin. Dropped parts-only: 128017046268 $259.99 (Oct 5, condition Parts Only, title \"**TECH SPECIAL**\", +$26.79 delivery); 168763819474 $498.98 (Oct 8, Parts Only, or Best Offer, UK seller, +$132.91). Best-offer-accepted dropped: 0. Read Description: 0. Other page-1 results were different models (TS-450S, TS-480SAT) and excluded - TS-450SAT (built-in AT) kept separate from TS-450S. Ask is $425 with tuner, mic, power cord, Mars mod (shipping not stated in ad). Kept 1, median 380.00.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1780147",
+    "site": "qth",
+    "ask": 425,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 380,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318721082680",
+      "source": "ebay",
+      "notes": "shipping $70.61. Title: Kenwood TS-450SAT HF Ham Radio Transceiver AT w/ Box Mic Manual Morse Key (title truncated in read).",
+      "flags": []
+    }
+  ]
+}
