@@ -1,0 +1,34 @@
+{
+  "model": "RM ITALY BLA350 PLUS",
+  "slug": "rm-italy-bla350-plus",
+  "searched_at": "2026-10-28T07:36:06-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in as Leo, rm italy bla350). 2 results, both kept - thin. Best-offer-accepted: 0. Parts-only: 0. Ask is $750 (Reduced to $750), 120Vac BLA350P-120, like new ~9 months old (shipping not stated). Kept 2, median 472.50.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783187",
+    "site": "qth",
+    "ask": 750,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 460,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206521652956",
+      "source": "ebay",
+      "notes": "shipping $0.00. Title: RM ITALY BLA350 Plus 120V 300 W HF Linear.",
+      "flags": []
+    },
+    {
+      "price": 485,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198537684766",
+      "source": "ebay",
+      "notes": "shipping $0.00. Title: RM ITALY BLA350 Plus HF Linear Amplifier (voltage variant truncated in read).",
+      "flags": []
+    }
+  ]
+}
