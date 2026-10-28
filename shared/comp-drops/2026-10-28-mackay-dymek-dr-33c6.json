@@ -1,0 +1,15 @@
+{
+  "model": "MacKay Dymek DR-33C6",
+  "slug": "mackay-dymek-dr-33c6",
+  "searched_at": "2026-10-28T05:56:57-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (signed in; 'MacKay Dymek DR-33C6', sold+completed, page 1) returned 0 exact results ('No exact matches found'); only 'Results matching fewer words' shown, ignored. Thin: 0 comps. Dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629360",
+    "site": "eham",
+    "ask": 600.0,
+    "shipping": 0
+  },
+  "comps": []
+}
