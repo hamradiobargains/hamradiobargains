@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-6300",
+  "slug": "flexradio-flex-6300",
+  "searched_at": "2026-10-28T15:01:12-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'flexradio flex-6300' returned 'No exact matches found'; only 'Results matching fewer words' shown (ignored per rules). 0 comps kept; dropped 0 best-offer-accepted, 0 parts-only. Trigger listing is a 6300 with ATU option. thin — no comps.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783468",
+    "site": "qth",
+    "ask": 950.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
