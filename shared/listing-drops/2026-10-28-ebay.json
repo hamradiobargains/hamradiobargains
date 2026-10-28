@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-28",
+  "ran_at": "2026-10-28T17:53:54-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now, sorted newly listed, signed in as Leo; browse page loaded fine. Window since previous ebay run 2026-10-27T17:53:49-04:00; scanned page 1 only (browse cards show no listing times, so 'new' = newest-first order). None of the picked items were in dropped-urls.json. Seller rule: all 8 picked passed (Xiegu G90 seller has exactly 10 ratings). Skipped Kenwood TS-890S 900046879092 - auction with Buy It Now option (current bid $2,800), not fixed-price. Ledger: 5 hits (LAB599 TX-500, ICOM IC-7600, ICOM IC-9100, ICOM ID-880H, XIEGU G90); 3 misses -> 3 eBay sold searches (YAESU FT-101E count 1; ELECRAFT K3S count 1, latest 2026-08-14; YAESU FT5D not in ledger - only YAESU FT5DR, not treated as same name). No challenges or errors. Item descriptions not read. Not picked (cap 8 / not a unit / format / parts only): Tokyo Hy-Power HL-66V (9th, cap), Yaesu FT-2500M, Heil GM-5 and HS2, Alinco DJ-C5, AEA PK-232MBX (powers on), RF Concepts RFC 2-23, Varmint XL 250 / D&A Raider / Palomar 350z (CB amps), Kenwood TH-F6A / Xiegu X6200 / AnyTone AT-D578UVIII (auction cards), Kenwood TR-7730 (powers on), Icom IC-2720 head only, CDE CD-44 controller, Rigrunners, JRC NVA-319, vintage receivers (Hammarlund HQ-145A, National NC-140), E.F. Johnson Viking Navigator (needs caps), Parts Only items (Hallicrafters SX-28, S-38B, Yaesu FL-101, Multi-Elmac AF-67), generic SI4732/ATS receivers and modules.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/117492112744",
+      "site": "ebay",
+      "title": "Vintage Yaesu Model FT-101E SSB Ham Radio Transceiver",
+      "price": 499.95,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "eBay condition: Used. Vintage; title states no tested/working status. Free UPS Ground.",
+      "work_flag": "",
+      "seller_feedback": "99.3% (3920 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/840069553387",
+      "site": "ebay",
+      "title": "Lab599 Discovery TX-500 HF/50MHz Ham Radio Transceiver SSB/CW Plus Many Extras",
+      "price": 1000.0,
+      "shipping": 13.57,
+      "found_at": "2026-10-28",
+      "condition_notes": "eBay condition: Used. Title: \"Plus Many Extras\".",
+      "work_flag": "",
+      "seller_feedback": "100% (218 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/327427917725",
+      "site": "ebay",
+      "title": "Elecraft K3S/100 High Perf 160-6m Transceiver # 11722 100 Watt -",
+      "price": 3299.0,
+      "shipping": 62.65,
+      "found_at": "2026-10-28",
+      "condition_notes": "eBay condition: Used. 100 W version, serial #11722. Or Best Offer.",
+      "work_flag": "",
+      "seller_feedback": "100% (2111 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/168822640230",
+      "site": "ebay",
+      "title": "Icom IC-7600 HF/50MHz Ham Radio Transceiver, in original box with all documents",
+      "price": 1300.0,
+      "shipping": 85.0,
+      "found_at": "2026-10-28",
+      "condition_notes": "eBay condition: Open box. In original box with all documents. Or Best Offer.",
+      "work_flag": "",
+      "seller_feedback": "100% (288 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/840068864372",
+      "site": "ebay",
+      "title": "ICOM IC-9100 HF-6 METER, 2 METER, 440MHZ ALL MODE+ D-STAR + FL-431 FILTER + BOX",
+      "price": 1697.0,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "eBay condition: Used. Includes FL-431 filter and box. Free shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (1662 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366766839841",
+      "site": "ebay",
+      "title": "Yaesu FT5D Dual Band 5W Digital Transceiver W/ Rapid Charger/ Software & Cable",
+      "price": 300.0,
+      "shipping": 14.0,
+      "found_at": "2026-10-28",
+      "condition_notes": "eBay condition: Used. With rapid charger, software and cable. Or Best Offer.",
+      "work_flag": "",
+      "seller_feedback": "100% (8236 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/407322312089",
+      "site": "ebay",
+      "title": "ICOM ID-880H DUAL BAND FM TRANSCEIVER! WITH DSTAR",
+      "price": 279.99,
+      "shipping": 24.63,
+      "found_at": "2026-10-28",
+      "condition_notes": "eBay condition: Used.",
+      "work_flag": "",
+      "seller_feedback": "99.9% (13531 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/820288032157",
+      "site": "ebay",
+      "title": "Xiegu G90 HF 20W 0.5-30MHz SDR Amateur Radio Transceiver Armoloq Rails + Digirig",
+      "price": 690.0,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "eBay condition: Used. Includes Armoloq rails and Digirig. Or Best Offer. Free shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (10 ratings)"
+    }
+  ]
+}
