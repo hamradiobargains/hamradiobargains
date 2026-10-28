@@ -1,0 +1,61 @@
+{
+  "model": "YAESU FP-1023",
+  "slug": "yaesu-fp-1023",
+  "searched_at": "2026-10-28T07:36:06-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in as Leo, yaesu fp-1023). 5 kept comps. Best-offer-accepted dropped: 2 (226781414774 $55.24; 168568069492 $90). Parts-only: 0. Other page-1 results were FT-100 / FT-2900R radios, excluded. Ask $130 shipped US only. Kept 5, median 95.00. OUTLIERS: $43.00.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783166",
+    "site": "qth",
+    "ask": 130,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 75,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336841550825",
+      "source": "ebay",
+      "notes": "shipping $15.65.",
+      "flags": []
+    },
+    {
+      "price": 97,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/156942935948",
+      "source": "ebay",
+      "notes": "shipping $15.00.",
+      "flags": []
+    },
+    {
+      "price": 43,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267799080152",
+      "source": "ebay",
+      "notes": "OUTLIER: price outside 0.5x-1.5x of median of other kept comps ($96.00). shipping $8.00. Title: Vintage Yaesu FP-1023 DC Power Supply 13.8...",
+      "flags": []
+    },
+    {
+      "price": 105,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198616747447",
+      "source": "ebay",
+      "notes": "shipping $16.00. Title: Yaesu FP-1023 Ham Radio DC Power Supply (w...",
+      "flags": []
+    },
+    {
+      "price": 95,
+      "sold_date": "2026-08-27",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/257706177592",
+      "source": "ebay",
+      "notes": "shipping $16.60.",
+      "flags": []
+    }
+  ]
+}
