@@ -1,0 +1,52 @@
+{
+  "model": "KENWOOD TM-733A",
+  "slug": "kenwood-tm-733a",
+  "searched_at": "2026-10-28T07:36:06-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in as Leo, kenwood tm-733a). 4 kept comps - bimodal ($91-$105 vs $240-$269), so mechanical OUTLIER flags on all four. Best-offer-accepted dropped: 2 (327348546209 $144.94 \"Untested\", also Parts Only; 257677334752 $189). Parts-only dropped: 3 (189052294787 $269 multi-unit lot \"2 ... work perfect & 2 work...\", 168644198341 $160, 327348546209). Ask $175 firm including shipping; includes 12v lead, mic, 64GB SD card with manual. Kept 4, median 172.49. OUTLIERS: $104.99, $239.99, $91.00, $269.00.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783183",
+    "site": "qth",
+    "ask": 175,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 104.99,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206623323486",
+      "source": "ebay",
+      "notes": "OUTLIER: price outside 0.5x-1.5x of median of other kept comps ($239.99). shipping $8.14.",
+      "flags": []
+    },
+    {
+      "price": 239.99,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298667326208",
+      "source": "ebay",
+      "notes": "OUTLIER: price outside 0.5x-1.5x of median of other kept comps ($104.99). shipping $0.00.",
+      "flags": []
+    },
+    {
+      "price": 91,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206534326363",
+      "source": "ebay",
+      "notes": "OUTLIER: price outside 0.5x-1.5x of median of other kept comps ($239.99). shipping $7.53.",
+      "flags": []
+    },
+    {
+      "price": 269,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257677332085",
+      "source": "ebay",
+      "notes": "OUTLIER: price outside 0.5x-1.5x of median of other kept comps ($104.99). shipping $0.00. Title: KENWOOD TM-733A 2M/70cm FM DELUXE DUAL BAN(DER) (truncated).",
+      "flags": []
+    }
+  ]
+}
