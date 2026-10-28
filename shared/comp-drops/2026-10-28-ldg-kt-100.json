@@ -1,0 +1,43 @@
+{
+  "model": "LDG KT-100",
+  "slug": "ldg-kt-100",
+  "searched_at": "2026-10-28T07:36:06-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in as Leo, ldg kt-100). 3 kept comps. Best-offer-accepted dropped: 2 (318698744073 $50 Oct 5; 298670893209 $99.95 Sep 22). Parts-only: 0. Ad: $125 picked up or $140 shipped lower 48 (price field = $125, shipping = $15 difference). Kept 3, median 99.99.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783146",
+    "site": "qth",
+    "ask": 125,
+    "shipping": 15
+  },
+  "comps": [
+    {
+      "price": 125,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287636143194",
+      "source": "ebay",
+      "notes": "shipping $7.95.",
+      "flags": []
+    },
+    {
+      "price": 85,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188978588488",
+      "source": "ebay",
+      "notes": "shipping $15.85. With cable.",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287583847506",
+      "source": "ebay",
+      "notes": "shipping $7.72.",
+      "flags": []
+    }
+  ]
+}
