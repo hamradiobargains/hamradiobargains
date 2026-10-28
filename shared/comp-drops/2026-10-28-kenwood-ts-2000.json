@@ -1,0 +1,159 @@
+{
+  "model": "KENWOOD TS-2000",
+  "slug": "kenwood-ts-2000",
+  "searched_at": "2026-10-28T07:36:06-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in as Leo, kenwood ts-2000), 43 results, accessories/modules ignored. 15 kept comps. Best-offer-accepted dropped: 8 (257773213691 $1099.95, 377544209031 $950, 178506319116 $1150, 178420811709 $595, 178378394107 $720, 117340993235 $849.99, 336720231455 $775, 168568171762 $695). Parts-only dropped: 1 (227555987274 $299.99 PARTS/REPAIR, Oct 11). Read Description: 0. Excluded as different models: TS-2000S 128123681004 $1480 (Oct 13), TS-2000SX 366671117376 $2468.75 (Sep 22). Wide spread ($510-$1500) - several mechanical OUTLIER flags on a spread set; ledger (2026-09-27, 12 comps) median 970. Ask is $650 with mic, power cord, factory box, Mars mod, driver transistors replaced with mosfets (shipping not stated). Kept 15, median 950.00. OUTLIERS: $1500.00, $1500.00, $1500.00, $1400.00.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1780148",
+    "site": "qth",
+    "ask": 650,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 950,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278409511459",
+      "source": "ebay",
+      "notes": "shipping $0.00.",
+      "flags": []
+    },
+    {
+      "price": 830,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257757146037",
+      "source": "ebay",
+      "notes": "shipping $24.89. Title: ...All-Mode HF/VHF/UHF Transceiver - Satellite Ready Pack (title truncated in read; extras unverified).",
+      "flags": []
+    },
+    {
+      "price": 1500,
+      "sold_date": "2026-09-15",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/227522840230",
+      "source": "ebay",
+      "notes": "OUTLIER: price outside 0.5x-1.5x of median of other kept comps ($925.00). shipping $80.00.",
+      "flags": []
+    },
+    {
+      "price": 1299,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278071577453",
+      "source": "ebay",
+      "notes": "shipping $139.86.",
+      "flags": []
+    },
+    {
+      "price": 649.89,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117395769249",
+      "source": "ebay",
+      "notes": "shipping $59.30.",
+      "flags": []
+    },
+    {
+      "price": 1500,
+      "sold_date": "2026-09-08",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/227494212175",
+      "source": "ebay",
+      "notes": "OUTLIER: price outside 0.5x-1.5x of median of other kept comps ($925.00). shipping $80.00.",
+      "flags": []
+    },
+    {
+      "price": 900,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137699138587",
+      "source": "ebay",
+      "notes": "shipping $106.60.",
+      "flags": []
+    },
+    {
+      "price": 1500,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318783426345",
+      "source": "ebay",
+      "notes": "OUTLIER: price outside 0.5x-1.5x of median of other kept comps ($925.00). shipping $3.85. Title: ...All Mode trcv + NE... (truncated in read; extras unverified).",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1400,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178289510962",
+      "source": "ebay",
+      "notes": "OUTLIER: price outside 0.5x-1.5x of median of other kept comps ($925.00). shipping $88.63. Title says 1200MHz - 1.2 GHz unit/option (TS-2000X-style) per title.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 990,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128040817071",
+      "source": "ebay",
+      "notes": "shipping $48.00.",
+      "flags": []
+    },
+    {
+      "price": 899.99,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178416903284",
+      "source": "ebay",
+      "notes": "shipping $33.94. Title truncated in read.",
+      "flags": []
+    },
+    {
+      "price": 1200,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236991705519",
+      "source": "ebay",
+      "notes": "shipping $0.00. Title: Kenwood TS 2000 With Power Supply, Speaker, mi... (truncated).",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 510,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800459918589",
+      "source": "ebay",
+      "notes": "shipping $40.00.",
+      "flags": []
+    },
+    {
+      "price": 849.99,
+      "sold_date": "2026-08-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117338803808",
+      "source": "ebay",
+      "notes": "shipping $59.99. Title: kenwood ts 2000 transceiver HF/VHF/UHF w/powe... (likely with power supply, truncated).",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 650,
+      "sold_date": "2026-08-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800450818115",
+      "source": "ebay",
+      "notes": "shipping $40.00.",
+      "flags": []
+    }
+  ]
+}
