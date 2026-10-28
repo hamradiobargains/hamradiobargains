@@ -1,0 +1,15 @@
+{
+  "model": "(TR)USDX",
+  "slug": "trusdx",
+  "searched_at": "2026-10-28T07:36:06-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in as Leo, trusdx usdx): 0 exact unit comps. Only results were accessories/kits: G7UFO Mini Mio kit lot (Oct 14, $30.60) and a tr uSDX 18650 battery case kit (Sep 12, $21.00) - not comps. Ask $80, 80-20m QRP, beta firmware 2.0x, detachable battery holder.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783075",
+    "site": "qth",
+    "ask": 80,
+    "shipping": 0
+  },
+  "comps": []
+}
