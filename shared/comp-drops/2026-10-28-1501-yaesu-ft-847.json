@@ -1,0 +1,22 @@
+{
+  "model": "Yaesu FT-847",
+  "slug": "yaesu-ft-847",
+  "searched_at": "2026-10-28T15:01:12-04:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 700.0, count 11, ledger date 2026-10-05 — ledger hit — individual sales behind the median are not auditable from this file",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783479",
+    "site": "qth",
+    "ask": 600.0,
+    "shipping": 0.0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 700.0,
+    "low": 500.0,
+    "high": 950.0,
+    "count": 11,
+    "date": "2026-10-05"
+  }
+}
