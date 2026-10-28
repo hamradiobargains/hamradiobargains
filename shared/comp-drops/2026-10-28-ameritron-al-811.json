@@ -1,0 +1,97 @@
+{
+  "model": "AMERITRON AL-811",
+  "slug": "ameritron-al-811",
+  "searched_at": "2026-10-28T07:36:06-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in as Leo, ameritron al-811), 52 results; AL-811H sales (many) excluded as a different model, accessories/manuals/parts kits ignored. 9 kept comps. Best-offer-accepted dropped: 4 (336847579245 $799.99, 227572180614 $400, 188970889576 $800, 960083621756 $550 \"Untested\"). Parts-only dropped: 4 (298593162860 $629.99 also BOA, 257710658567 $300, 287556631404 $499.99, 298534942238 $629.99 also BOA). Read Description: 0. Multi-item ad: AL-811 $750, ALS-500M $800, MFJ 4275 75A PS $250; shipping extra. Condition cell labels read as Pre-Owned for kept rows. Kept 9, median 725.00. OUTLIERS: $349.00.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783141",
+    "site": "qth",
+    "ask": 750,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 485,
+      "sold_date": "2026-10-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/920077067424",
+      "source": "ebay",
+      "notes": "shipping $144.17.",
+      "flags": []
+    },
+    {
+      "price": 349,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366718041629",
+      "source": "ebay",
+      "notes": "OUTLIER: price outside 0.5x-1.5x of median of other kept comps ($737.50). shipping $184.85.",
+      "flags": []
+    },
+    {
+      "price": 1050,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327261557502",
+      "source": "ebay",
+      "notes": "shipping $0.00.",
+      "flags": []
+    },
+    {
+      "price": 669.99,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327348788660",
+      "source": "ebay",
+      "notes": "shipping $99.99.",
+      "flags": []
+    },
+    {
+      "price": 755.99,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168627905691",
+      "source": "ebay",
+      "notes": "shipping $0.00.",
+      "flags": []
+    },
+    {
+      "price": 800,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287414435028",
+      "source": "ebay",
+      "notes": "shipping $150.00.",
+      "flags": []
+    },
+    {
+      "price": 715,
+      "sold_date": "2026-08-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336742415142",
+      "source": "ebay",
+      "notes": "shipping $92.91.",
+      "flags": []
+    },
+    {
+      "price": 725,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227463995581",
+      "source": "ebay",
+      "notes": "shipping $64.33.",
+      "flags": []
+    },
+    {
+      "price": 749.99,
+      "sold_date": "2026-08-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407053958792",
+      "source": "ebay",
+      "notes": "shipping $57.87.",
+      "flags": []
+    }
+  ]
+}
