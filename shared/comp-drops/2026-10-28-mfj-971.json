@@ -1,0 +1,61 @@
+{
+  "model": "MFJ-971",
+  "slug": "mfj-971",
+  "searched_at": "2026-10-28T07:36:06-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in as Leo, mfj-971). 5 kept comps. Best-offer-accepted dropped: 1 (318879681742 $139.93 Sep 22). Parts-only dropped: 1 (407244471621 $86.49 Oct 13, QRP tuner listing, +$43.76). Read Description: 0. Ask $125 shipped (or $100 pickup Birmingham). Kept 5, median 119.00. OUTLIERS: $50.00.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783168",
+    "site": "qth",
+    "ask": 125,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 144.98,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307063559813",
+      "source": "ebay",
+      "notes": "shipping $9.99. Title: GUARANTEED MFJ PORTABLE TUNER MFJ-971 VTG...",
+      "flags": []
+    },
+    {
+      "price": 135,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800769949239",
+      "source": "ebay",
+      "notes": "shipping $8.52.",
+      "flags": []
+    },
+    {
+      "price": 50,
+      "sold_date": "2026-09-22",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/800687825435",
+      "source": "ebay",
+      "notes": "OUTLIER: price outside 0.5x-1.5x of median of other kept comps ($127.00). shipping $12.00. Title: MFJ 971 Tuner; listed Brand New at $50 (odd).",
+      "flags": []
+    },
+    {
+      "price": 90,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307167854419",
+      "source": "ebay",
+      "notes": "shipping $9.95.",
+      "flags": []
+    },
+    {
+      "price": 119,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407065626637",
+      "source": "ebay",
+      "notes": "shipping $8.14.",
+      "flags": []
+    }
+  ]
+}
