@@ -1,0 +1,52 @@
+{
+  "model": "ASTRON RS-35M-AP",
+  "slug": "astron-rs-35m-ap",
+  "searched_at": "2026-10-28T07:36:06-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in as Leo, astron rs-35m), 44 results. Ad is RS-35M-AP (-AP suffix kept as a separate variant): 4 kept AP comps; 1 AP sale dropped as best-offer-accepted (128018394359 $250 Aug 20). Plain RS-35M (no -AP) sales are on the same page, roughly $65-$216 pre-owned (most $110-$175), many ~$145 - NOT included as comps; if Archie treats -AP and plain as one model the AP ask of $300 shipped sits well above plain-RS-35M sales. Plain RS-35M best-offer-accepted and one parts-only (366724540350 $150) also seen and excluded. Ask $300 shipped CONUS, \"EXC COND\". Kept 4, median 267.50.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783192",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 299,
+      "sold_date": "2026-09-20",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/168679405882",
+      "source": "ebay",
+      "notes": "shipping $0.00. Title: Astron RS-35M-AP Desktop 13.8VDC Linear PS; listed Brand New.",
+      "flags": []
+    },
+    {
+      "price": 152.5,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307157389772",
+      "source": "ebay",
+      "notes": "shipping $31.20. Title: Astron RS-35M-AP 13.8VDC 35A Peak Linear D...",
+      "flags": []
+    },
+    {
+      "price": 250,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178430900512",
+      "source": "ebay",
+      "notes": "shipping $25.81. Title: Astron RS-35M-AP 13.8V 35A Linear Power Su...",
+      "flags": []
+    },
+    {
+      "price": 285,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158140698094",
+      "source": "ebay",
+      "notes": "shipping $27.00. Title: Astron RS-35M-AP Desktop 13.8VDC Linear PS",
+      "flags": []
+    }
+  ]
+}
