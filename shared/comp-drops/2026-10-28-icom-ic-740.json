@@ -1,0 +1,25 @@
+{
+  "model": "ICOM IC-740",
+  "slug": "icom-ic-740",
+  "searched_at": "2026-10-28T07:36:06-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in as Leo, icom ic-740). 1 kept comp - thin. Best-offer-accepted dropped: 2 (298733297427 $249.99 Oct 4; 178359862244 $150 Jul 31). Parts-only: 0. Accessories (FL-52A filter $179, EX-243 keyer $125) ignored. Ledger had 1 comp (2026-09-09, $450) - same sale. Kept 1, median 450.00.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783126",
+    "site": "qth",
+    "ask": 250,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 450,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278337246325",
+      "source": "ebay",
+      "notes": "shipping $26.45. Title: Icom IC-740 HF Transceiver Amateur Ham Rad(io).",
+      "flags": []
+    }
+  ]
+}
