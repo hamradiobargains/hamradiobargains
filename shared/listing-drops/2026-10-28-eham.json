@@ -1,0 +1,86 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-28",
+  "ran_at": "2026-10-28T05:53:24-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-27T05:54:10-04:00 (prior eham run). Browsed signed OUT ('Welcome Guest'). Classifieds page 1 showed a Cloudflare 'Performing security verification' interstitial that cleared on its own after ~10-18s wait, no interaction. Page 2 loaded >30s later without challenge; note the page-2 link from the home page goes to view-category/39 (HF Radios), so page 2 showed HF-category ads only. Pages now show 20 ads each. No individual ads opened (summaries carried full text). New since prior run: 629338-629372 seen = 629338, 629339, 629342, 629343, 629345-629347, 629350-629354, 629356-629366, 629368-629372 (629336, 629337, 629340, 629341, 629344, 629348, 629349, 629355, 629367 not shown - possibly non-HF categories not covered by page 2). Candidate cap (6 models) reached. Skipped: 629346 (duplicate post of IC-705 ad 629347); 629371 KPOD control panel, 629370 K3/0 octopus cable, 629369 PR6 preamp, 629368/629366 manuals, 629365 RemoteRig RRC-1258, 629364/629356 K3/0 Mini remote heads, 629363 P3 panadapter, 629354 KRX3, 629353 KXV3B, 629352 KFL3A-200, 629351 KSYN3A, 629350 KBPF3 (accessories/option boards/manuals, not in candidate categories); 629359 Ten-Tec Jupiter 538 new open box ('$600 minimum', offers - no firm ask; over cap); 629358 Drake R7A + RV-75 bundle $1500 (bundle); 629357 Barlow Wadley XCR-30 (no price); 629342 Yaesu FT-891 + ATAS-120A + MAT-30 bundle $1100 + s/i (bundle); 629339 wanted ad; 629338 Alpha Delta Delta-4 coax switch $115 shipped (not in candidate categories). No search form, sold searches, or seller/callsign pages. Comps: 3 ledger hits (ELECRAFT K3/100, ICOM IC-7610 x2 listings, ICOM IC-705); 3 eBay sold searches (signed in as Leo, one at a time, no challenges), all 0 exact results: Elecraft SP4, Lowe HF-225 Europa, MacKay Dymek DR-33C6.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629362",
+      "site": "eham",
+      "title": "Elecraft K3/100  TRANSCEIVER # 7850 - Nice",
+      "price": 1495.0,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "Elecraft K3/100 (not K3S), serial #7850, 100 W; listed options: TUNER, 2.7 SSB filter, KIO3, KXV3A, gold pins and other updates; latest firmware 5.67. Seller: works as it should, very good condition, used today on CW and SSB. Power cord and manual. $1495 delivered.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629345",
+      "site": "eham",
+      "title": "iCOM IC-7610 -- CLEAN & LIKE NEW",
+      "price": 2450.0,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "Very clean, carefully cared for, rarely used for digital modes. Includes original box, microphone, documents, plus an RC-28 and a Heil iCM microphone. $2450, FedEx Ground shipping included; PayPal.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629343",
+      "site": "eham",
+      "title": "For Sale:  As new ICOM IC-7610 latest Ver. 32.",
+      "price": 2275.0,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "Spare IC-7610, latest version 32, used only a few times on air, as-new condition. Original double-boxed packing, manuals, DC cable, hand mic, spare fuses. $2275 shipped and insured ($2200 cash for pickup near Richmond, VA). Zelle, USPS money order, or check.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629347",
+      "site": "eham",
+      "title": "IC-705 for sale",
+      "price": 875.0,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "Icom IC-705 in new condition, ~20 hours use, box and everything that came new; includes Icom MBF-705 desktop holder and Comet CST-30 antenna bracket. $875 'make me an offer', buyer pays shipping (amount not stated). Cleveland, OH. Same ad also posted as 629346.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629372",
+      "site": "eham",
+      "title": "Elecraft SP4 Speaker K4 and others - nice",
+      "price": 359.0,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "Elecraft SP4 speaker (for K4, works with K3 and others). Very good condition. $359 delivered.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629361",
+      "site": "eham",
+      "title": "FS:  Lowe HF-225 Europa with Mods",
+      "price": 625.0,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "Lowe HF-225 Europa receiver; cap work done by a specialist, has whip amp and LED mod (modified unit). $625; shipping not stated. Maryland, local pickup possible.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629360",
+      "site": "eham",
+      "title": "FS:  MacKay Dymek DR-33C6",
+      "price": 600.0,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "MacKay Dymek DR-33C6 communications receiver (50 kHz-29.7 MHz). Excellent cosmetics incl. side wood panels; ad does not state working/tested status. $600 via PayPal; shipping not stated (double boxed). MD/DC pickup available.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
