@@ -294,5 +294,18 @@
   "compLow": 260,
   "compHigh": 550,
   "notes": "Xiegu's 20W SDR HF rig at $300 shipped, with the DE19 data interface included. Backing a conservative $20 of freight out of the shipped price, and $30 for the DE19, puts the radio itself at about $250 \u2014 roughly 34% below the $377 median of 42 recorded sales. The recorded sale prices don't include shipping, so the freight comes out of the ask to compare price against price."
+ },
+ {
+  "date": "2026-10-28",
+  "item": "Ameritron ALS-500M Amplifier",
+  "link": "https://swap.qth.com/view_ad.php?counter=1783141",
+  "price": 800,
+  "extraCost": 0,
+  "pctBelow": 0.331,
+  "median": 1195,
+  "compCount": 4,
+  "compLow": 850,
+  "compHigh": 1199.99,
+  "notes": "Ameritron's 500W solid-state amp, offered at $800 as one item in a multi-item listing \u2014 the price is for the ALS-500M alone. Against a $1,195 fair value from 4 recorded sales, that's about 33% below. About the 33%: it's figured on the asking price against the recorded sale prices behind the fair value \u2014 and those recorded prices don't include shipping either, so it's price against price, before freight on both sides. Shipping is extra on this one."
  }
 ]
