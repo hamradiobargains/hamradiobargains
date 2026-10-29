@@ -1,0 +1,218 @@
+{
+  "run": "extras",
+  "run_date": "2026-10-29",
+  "ran_at": "2026-10-29T07:27:00-04:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered: 2026-10-29-eham.json (ran_at 2026-10-29T05:57:15-04:00; the only eHam/QTH/eBay drop newer than the previous extras drop 2026-10-28-2114-extras.json, ran_at 2026-10-28T21:14:00-04:00). It lists no 'Extra plausible candidates not comped' (its extras were comped in that run: Cushcraft A3S, Diamond A502HB, MFJ-1799, OptiBeam OB15-7, Heil iCM). Queue: 38 CARRIED OVER QTH IDs from the previous extras drop + 0 fresh extras + 30 BACKLOG CARRY IDs = 68. Worked 19 in queue order: 14 comped, 3 gone, 2 skipped (1783358 multi-item set, 1783341 no price). Opened ads by loading each QTH page at human pace, 4 s apart (eHam not touched). Ledger hits: 0 (every candidate ledger entry was either missing, a different variant, or older than 30 days: ALS-1306 2026-09-18, Drake 2B 2026-09-20, P3 2026-09-20, K3/0 Mini 2026-09-20, K3S 1 comp 2026-08-14, FT-2000D 1 comp 2026-08-05). eBay sold searches used 15 of 15 (atr-1000 antenna tuner, elecraft k3s, juma pa100, kenwood th-f6a, icom id-800h, kenwood sp-950, ameritron qsk-5, mat-125e tuner, powerwerx ss-30dv, lazer 1000 amplifier, heil pro 7 headset, flexradio power genius xl, pgxl, ldg at-1000 pro, yaesu ft-1000mp); signed in as Leo, one page at a time, 15+ s apart, no challenges. The PGXL took 2 of the 15. Zero results / no kept comps (not comped): JUMA PA100-D, Lazer 1000 (only Keyence sensors), PGXL. Thin: K3S 1 (bundle), ID-800H 1, QSK-5 2, mAT-125E 2, AT-1000 Pro 2. Gone: 1782098, 1783449, 1783466 (items not recorded, pages already gone when opened). Skipped: 1783358 Bird 43 + PEP kit + 2500H element set (multi-item, not comped), 1783341 Comet CST-30 (no asking price, offers invited). Cross-posts: none found. Outliers: SP-950 206551164978 (Brand New $279.00); SS-30DV 920058420228 ($31.50), 800619882798 ($40.00), 287507543054 ($36.45), 158151333699 ($43.45); mAT-125E and AT-1000 Pro (two comps each, both flagged against each other). Identity cautions: ad 1783321 says TH-F6, comps are TH-F6A; ATR-1000 comps are Brand New import units of unstated maker; 1775843 comps limited to plain FT-1000MP titles (Mark V and Field excluded); Heil Pro 7 cartridge type not verified per comp. Work-flag wording carried verbatim: 1783321 'MARS modified' + 'Selling as-is' (UNCERTAIN); 1783322 'SALE PENDING' in ad title. Opened but not comped because the cap was reached (carried over, will be re-opened): 1781651 (FT-2000D $1200, picked up cash or shipped), 1781650 (AL-1306 no-tune amp $1995, ledger ALS-1306 is 41 days old). found_at is 2026-10-28 (date of the extras drop that carried the IDs); original source-drop dates not re-derived. Seller feedback n/a (QTH). CARRIED OVER (cap reached, queue order): 1781651, 1781650, 1783291, 1783309, 1783455, 1783433, 1783451, 1783474, 1783401, 1783423, 1783409, 1783391, 1783390, 1783398, 1783410, 1783454, 1783463, 1783443, 1783458. BACKLOG CARRY (unworked, still at the back, source-drop order): 1782353, 1782345, 1782359, 1782031, 1782342, 1782368, 1782384, 1782363, 1782275, 1781393, 1782349, 1782453, 1782461, 1782430, 1782464, 1782442, 1776833, 1781779, 1777865, 1782542, 1782487, 1782484, 1782573, 1782575, 1782543, 1782570, 1780727, 1779930, 1782489, 1782467.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783047",
+      "site": "qth",
+      "title": "ATR-1000 Auto Tuner for HF (MISC)",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "live. Seller wording: \"handles 1000 watts ssb/cw and 300 watts FM and FT8. Works great. It's RF sensing and comes with power cable. Selling because I upgraded to a bigger tuner.\" $200 shipped. comps: atr-1000, 8 kept, median 292.03 (all eBay comps are Brand New import units; brand of the QTH ad unit not stated)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782098",
+      "site": "qth",
+      "title": "(not recorded)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "no longer live (\"The ad number you specified, 1782098, is no longer in our system\"). not comped: gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783365",
+      "site": "qth",
+      "title": "Elecraft K3S dual receivers",
+      "price": 2800,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "live. Seller wording: \"Very good condition. Owners Manual included.\" \"Back to Elecraft a while ago for check over.\" Main RX filters 1.8/2.4/2.8/6/13 kHz, second RX 1.8/2.4/2.8/13 kHz, internal tuner, internal sound card. \"$2800, shipped firm!\" comps: elecraft-k3s, 1 kept (K3S/100-F + P3 bundle auction $3595, extras_included), thin, median 3595.00",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783351",
+      "site": "qth",
+      "title": "JUMA PA100-D HF amplifier",
+      "price": 480,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "live. Specs listed (160-10m less 60m, up to 150W, 2-7W drive). \"I am asking $480 plus shipping.\" Shipping amount not stated (recorded 0). No condition wording. comps: juma-pa100-d, 0 kept (0 eBay sold results)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783321",
+      "site": "qth",
+      "title": "Kenwood TH-F6 handheld (VHF)",
+      "price": 275,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "live. Seller wording: \"This transceiver has been MARS modified.\" \"Overall condition is good. This is an old transceiver but operates well.\" \"Selling as-is.\" Comes with rubber duckie, AC adapter, manual; aftermarket PB-42LH 4000mAh battery, no boxes. \"$275 shipped to Continental USA.\" comps: kenwood-th-f6a, 22 kept, median 175.00 (6 BOA dropped, 1 parts dropped)",
+      "work_flag": "Seller wording: \"This transceiver has been MARS modified.\" \"Selling as-is.\" (UNCERTAIN: transmit-modification wording)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783369",
+      "site": "qth",
+      "title": "ICOM ID-800H D-STAR dual band mobile",
+      "price": 277,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "live. Seller wording: \"ICOM ID-800H D-STAR Digital Transceiver 50W Dual Band 144/440MHz Mobile Radio. Asking $277 + shipping\". Shipping amount not stated (recorded 0). No condition wording. comps: icom-id-800h, 1 kept (Brand New $479.99), thin",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783378",
+      "site": "qth",
+      "title": "Kenwood SP-950 speaker",
+      "price": 125,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "live. Seller wording: \"Sounds great! From smoke-free, pet-free home.\" $125 shipped CONUS. comps: kenwood-sp-950, 4 kept, median 168.94 (OUTLIER: 206551164978 Brand New $279.00)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783377",
+      "site": "qth",
+      "title": "Ameritron QSK-5",
+      "price": 225,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "live. Seller wording: \"from smoke-free, pet-free shack.\" $225 shipped CONUS. No condition detail. comps: ameritron-qsk-5, 2 kept, median 224.50 (1 parts-only dropped), thin",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783308",
+      "site": "qth",
+      "title": "mAT 125E automatic antenna tuner",
+      "price": 150,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "live. Seller wording: \"Fully functioning MAT 125E, hf automatic antenna tuner. Works well on all bands, has no issues tuning whatsoever.\" $150 shipped. comps: mat-125e, 2 kept, median 89.00, thin (both flagged OUTLIER vs each other)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783304",
+      "site": "qth",
+      "title": "Powerwerx SS30DV power supply",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "live. Seller wording: \"Fully functional ... No issues whatsoever.\" $100 shipped. comps: powerwerx-ss-30dv, 18 kept, median 89.99 (7 BOA dropped; OUTLIERs 920058420228 $31.50, 800619882798 $40.00, 287507543054 $36.45, 158151333699 $43.45)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783306",
+      "site": "qth",
+      "title": "Lazer 1000 HF Amplifier",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "live. Seller wording: \"Fully Functional 100W PEP HF amp Genuine Motorola 2 pill design, should be fed with a maximum of 5W.\" $100 shipped. comps: lazer-1000-hf-amplifier, 0 kept (search returned only Keyence laser sensors)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783322",
+      "site": "qth",
+      "title": "Heil Pro 7 headset, Blue, Dynamic cartridge",
+      "price": 230,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "live. Ad title carries \"SALE PENDING\". Seller wording: \"purchased new by me approximately 3-4 years ago. It has seen very little use and works as expected. There is a scuff on the bottom plastic on one side. The foam covering the microphone element also shows some wear from being stored in a closet.\" $230 including shipping and insurance, CONUS only. comps: heil-pro-7, 7 kept, median 199.00 (2 BOA dropped)",
+      "work_flag": "Ad title: \"SALE PENDING\"",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783358",
+      "site": "qth",
+      "title": "Bird 43 wattmeter with PEP kit + Bird 2500H element",
+      "price": 575,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "live. Seller wording: \"LN Bird 43 with factory PEP Kit along with a rare Bird 2500H 2-30 MHz 2.5 KW Element.\" $575 packed, shipped and insured in the US ($550 local cash). not comped: multi-item set (meter + PEP kit + element), no single-unit model comp",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783386",
+      "site": "qth",
+      "title": "Flex PGXL (Power Genius XL) HF amp",
+      "price": 4500,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "live. Seller wording: \"Mint ... Very little use and comes with a brand new, never installed Rack mount shelf.\" $4500 shipped, $4450 picked up, $4350 without the rack mount kit. comps: flexradio-pgxl, 0 kept (2 searches: 0 results; golf results)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783352",
+      "site": "qth",
+      "title": "LDG AT-1000 Pro autotuner",
+      "price": 325,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "live. Seller wording: \"LDG AT-1000 Pro Autotuner asking 325 + shipping\". Shipping amount not stated (recorded 0). No condition wording. comps: ldg-at-1000pro, 2 kept, median 199.98, thin (both flagged OUTLIER vs each other; AT-1000 Pro II excluded)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783341",
+      "site": "qth",
+      "title": "COMET CST-30 connector mount bracket for IC-705/FT-818ND",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "live. Seller wording: \"new (NEVER Out of the bag) COMET CST-30 ... Make a reasonable offer and pickup\" (zip areas 20705/20707/20904); shipping at buyer expense. not comped: no asking price (offers invited), accessory",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1775843",
+      "site": "qth",
+      "title": "Yaesu FT-1000MP (plain MP) with filters",
+      "price": 650,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "live. Seller wording: \"In Excellent Condition ... No Marks Or Scratches\". \"Aligned By Byron Campbell WA4GEG With Report\", Inrad 400 Hz CW filter, Yaesu 500 Hz CW filter in sub RX, 2.75 Collins mechanical filter; manual, MD-100ABX desk mic, hand mic, original boxes; built-in tuner and power supply. \"Pick Up Only In Daytona Beach.\" Ad posted 08/08/26, last edited 10/27/26. comps: yaesu-ft-1000mp, 9 kept, median 774.99 (2 BOA dropped, 1 parts dropped; Mark V excluded)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783449",
+      "site": "qth",
+      "title": "(not recorded)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "no longer live (\"The ad number you specified, 1783449, is no longer in our system\"). not comped: gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783466",
+      "site": "qth",
+      "title": "(not recorded)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-10-28",
+      "condition_notes": "no longer live (\"The ad number you specified, 1783466, is no longer in our system\"). not comped: gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
