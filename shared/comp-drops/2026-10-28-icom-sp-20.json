@@ -1,0 +1,162 @@
+{
+  "model": "ICOM SP-20",
+  "slug": "icom-sp-20",
+  "searched_at": "2026-10-28T21:15:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom sp-20 speaker' (search 9 of 15). 16 comps kept (page 1). Dropped: 1 parts-only (336734246599, 2026-10-02 $97.00 Buy It Now, Parts Only, +$70.75). Excluded as not the unit: tilting feet kit 264893726797, two Yaesu SP-20 speakers (117201849517, 197777159360), Icom station package 287628569438. No best-offer-accepted sales. Several 'or Best Offer' sales are NOT marked accepted and are kept at the shown price; the three $273-$280 sales are OUTLIERS vs the rest. Also serves listing 1783213 (two SP-20 speakers, $250 each shipped): https://swap.qth.com/view_ad.php?counter=1783213",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783256",
+    "site": "qth",
+    "ask": 110,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 273,
+      "sold_date": "2026-04-18",
+      "condition": "not recorded",
+      "url": "https://www.ebay.com/itm/287148816709",
+      "source": "ebay",
+      "notes": "OUTLIER: price 273.00 vs median 130.00 of the other kept comps; or Best Offer listing (not marked accepted); shipping shown: free",
+      "flags": []
+    },
+    {
+      "price": 280,
+      "sold_date": "2026-03-25",
+      "condition": "not recorded",
+      "url": "https://www.ebay.com/itm/206072780431",
+      "source": "ebay",
+      "notes": "OUTLIER: price 280.00 vs median 130.00 of the other kept comps; or Best Offer listing (not marked accepted); shipping shown: $35.73",
+      "flags": []
+    },
+    {
+      "price": 274,
+      "sold_date": "2026-10-07",
+      "condition": "not recorded",
+      "url": "https://www.ebay.com/itm/287147081213",
+      "source": "ebay",
+      "notes": "OUTLIER: price 274.00 vs median 130.00 of the other kept comps; or Best Offer listing (not marked accepted); shipping shown: free",
+      "flags": []
+    },
+    {
+      "price": 160,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227491580393",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not marked accepted); shipping shown: $10.48",
+      "flags": []
+    },
+    {
+      "price": 155,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398440410497",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not marked accepted); with audio filters, two inputs; shipping shown: $11.95",
+      "flags": []
+    },
+    {
+      "price": 120,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366661500594",
+      "source": "ebay",
+      "notes": "1 bid; with audio filters, two inputs; shipping shown: $18.88",
+      "flags": []
+    },
+    {
+      "price": 130,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206534319458",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping shown: $32.50",
+      "flags": []
+    },
+    {
+      "price": 149,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178462413773",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not marked accepted); shipping shown: $28.49",
+      "flags": []
+    },
+    {
+      "price": 127.5,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178445509151",
+      "source": "ebay",
+      "notes": "10 bids; shipping shown: $15.94",
+      "flags": []
+    },
+    {
+      "price": 99,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800448187580",
+      "source": "ebay",
+      "notes": "Buy It Now; title 'for IC-726, IC-756 Ser...'; shipping shown: $79.00",
+      "flags": []
+    },
+    {
+      "price": 129.99,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327324757821",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not marked accepted); with audio filter; shipping shown: $18.45",
+      "flags": []
+    },
+    {
+      "price": 64.99,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147495985357",
+      "source": "ebay",
+      "notes": "OUTLIER: price 64.99 vs median 135.00 of the other kept comps; Buy It Now; title says Untested (Japan); shipping shown: $25.50",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 179.99,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188490775572",
+      "source": "ebay",
+      "notes": "Buy It Now; tested working; shipping shown: $40.00",
+      "flags": []
+    },
+    {
+      "price": 135,
+      "sold_date": "2026-08-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198466235294",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping shown: $35.00",
+      "flags": []
+    },
+    {
+      "price": 58.55,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327370701831",
+      "source": "ebay",
+      "notes": "OUTLIER: price 58.55 vs median 135.00 of the other kept comps; 14 bids; title 'Second Hand Icom SP-20 Loudspeaker'; shipping not shown",
+      "flags": []
+    },
+    {
+      "price": 68.25,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278290161059",
+      "source": "ebay",
+      "notes": "13 bids; filtered; shipping not shown",
+      "flags": []
+    }
+  ]
+}
