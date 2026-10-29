@@ -1,0 +1,25 @@
+{
+  "model": "Icom ID-800H",
+  "slug": "icom-id-800h",
+  "searched_at": "2026-10-29T07:15:06-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1, signed in as Leo. 1 kept, median $479.99 (thin). Dropped Best offer accepted: 0. Dropped parts/repair: 0. Dropped Read Description: 0. Excluded as not the unit/other model: 0. Page 1 had 14 results: 1 ID-800H radio (kept, Brand New), the rest microphones/cables/manual and ID-880H radios (different model; not itemized). Thin. Ad asks $277 plus shipping (amount not stated).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783369",
+    "site": "qth",
+    "ask": 277,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 479.99,
+      "sold_date": "2026-10-03",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/307166683467",
+      "source": "ebay",
+      "notes": "shipping shown: +$8.83 delivery; title: Icom Transceiver ID-800H Digital D-STAR",
+      "flags": []
+    }
+  ]
+}
