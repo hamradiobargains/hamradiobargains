@@ -1,0 +1,15 @@
+{
+  "model": "YAESU FT-840D",
+  "slug": "yaesu-ft-840d",
+  "searched_at": "2026-10-29T19:05:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "0 kept comps - not comped. Dropped 0 best-offer-accepted. Dropped 0 parts/as-is/read-description sales. NOT COMPED: no sold title on page 1 says FT-840D. Sold FT-840 (no D) rows seen but not used because identity (840 vs 840D) is not certain: 237000473156 Sep 23 $450.00 fixed price +$45.00 \"YAESU FT 840 HF TRANSCEIVER\"; 257689444280 Aug 23 $200.00 best offer accepted \"used yaesu ft840 hf transceiver\". Ledger has YAESU FT-840 (median 399, count 37, date 2026-09-29, exactly 30 days old - treated as miss); Archie may decide whether FT-840 comps apply. searched_at is approximate: eBay sold searches for this sweep ran one at a time, 15+ s apart, about 19:00-19:12 ET.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783433",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": []
+}
