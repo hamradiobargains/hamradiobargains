@@ -1,0 +1,88 @@
+{
+  "model": "Kenwood TS-590S",
+  "slug": "kenwood-ts-590s",
+  "searched_at": "2026-10-29T18:06:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "8 kept comps; dropped 2 best-offer-accepted; excluded 5 non-unit results (cooling fan, 3 TCXO/crystal modules, manual); 860072729391 and 237081944386 are same seller (aa9iv) with identical titles, both shown sold - not flagged as duplicates. Kenwood TS-590SG is a different model and was not included. searched_at is approximate: the eBay sold searches for this run ran one at a time between about 17:57 and 18:05 ET.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/407325171510",
+    "site": "ebay",
+    "ask": 749.99,
+    "shipping": 25.0
+  },
+  "comps": [
+    {
+      "price": 850.0,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/860072729391",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted); +$3.85 shipping; same seller (aa9iv) and same title as 237081944386",
+      "flags": []
+    },
+    {
+      "price": 630.0,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137861785716",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping; title \"kenwood ts 590 s transceiver\"",
+      "flags": []
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237081944386",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted); +$3.85 shipping; same seller (aa9iv) and same title as 860072729391",
+      "flags": []
+    },
+    {
+      "price": 940.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206572852087",
+      "source": "ebay",
+      "notes": "Buy It Now; +$75.77 shipping; title \"+ Box + Mic + Manual (excellent)\"",
+      "flags": []
+    },
+    {
+      "price": 799.95,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137719717909",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted); +$31.20 shipping; title \"In Box\"",
+      "flags": []
+    },
+    {
+      "price": 812.3,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128033860033",
+      "source": "ebay",
+      "notes": "Buy It Now; +$225.00 shipping; title \"Tested Working\"",
+      "flags": []
+    },
+    {
+      "price": 749.99,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188748575910",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted); +$49.99 shipping; title \"w/ Mic\"",
+      "flags": []
+    },
+    {
+      "price": 749.99,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227453589702",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; +$45.00 shipping; title \"+ MC43S Mic\"",
+      "flags": []
+    }
+  ]
+}
