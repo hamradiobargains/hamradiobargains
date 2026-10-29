@@ -1,0 +1,34 @@
+{
+  "model": "mAT-125E (mAT-TUNER)",
+  "slug": "mat-125e",
+  "searched_at": "2026-10-29T07:16:06-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1, signed in as Leo. 2 kept, median $89.00 (thin). Dropped Best offer accepted: 0. Dropped parts/repair: 0. Dropped Read Description: 0. Excluded as not the unit/other model: 0. Ad calls it 'MAT 125E', fully functioning, $150 shipped. Thin; with only two comps the outlier test flags both.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783308",
+    "site": "qth",
+    "ask": 150,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 53,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278434968387",
+      "source": "ebay",
+      "notes": "OUTLIER: below 0.5x median of other kept comps ($125.00); shipping shown: +$7.36 delivery; auction final bid; title: MAT-125E MAT-TUNER AUTOMATIC ANTENNA T",
+      "flags": []
+    },
+    {
+      "price": 125,
+      "sold_date": "2026-08-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128002133999",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x median of other kept comps ($53.00); shipping shown: Free delivery; title: mAT125e Automatic HF Antenna Tuner",
+      "flags": []
+    }
+  ]
+}
