@@ -1,0 +1,90 @@
+{
+  "model": "MFJ-986",
+  "slug": "mfj-986",
+  "searched_at": "2026-10-29T18:06:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "8 kept comps; dropped 3 best-offer-accepted; excluded 1 accessory (drive belt). Trigger listing title says 'Untested'. OUTLIERS flagged: 128109901905 $95.00 (rest median ~$273). searched_at is approximate: the eBay sold searches for this run ran one at a time between about 17:57 and 18:05 ET.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/237151209230",
+    "site": "ebay",
+    "ask": 224.99,
+    "shipping": 25.0
+  },
+  "comps": [
+    {
+      "price": 360.99,
+      "sold_date": "2026-06-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206291241609",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted); +$46.07 shipping; title begins \"Untested -\"",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206605560754",
+      "source": "ebay",
+      "notes": "Buy It Now; +$57.48 shipping; title \"(excellent)\"",
+      "flags": []
+    },
+    {
+      "price": 95.0,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128109901905",
+      "source": "ebay",
+      "notes": "OUTLIER: $95.00 vs ~$273 median for the rest. Auction, 2 bids; +$7.36 shipping",
+      "flags": []
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298704897420",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted); +$52.05 shipping; title \"Tested\" and says \"1.5 KW\" (MFJ-986 title elsewhere says 3KW)",
+      "flags": []
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267785233514",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted); +$30.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 185.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147479254706",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted); +$17.43 shipping; title \"Nice ... Meter\"",
+      "flags": []
+    },
+    {
+      "price": 249.99,
+      "sold_date": "2026-08-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327233675132",
+      "source": "ebay",
+      "notes": "Buy It Now; +$39.99 shipping; title \"WORKS\"",
+      "flags": []
+    },
+    {
+      "price": 273.2,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206468003705",
+      "source": "ebay",
+      "notes": "Auction, 2 bids; no shipping shown",
+      "flags": []
+    }
+  ]
+}
