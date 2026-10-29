@@ -1,0 +1,34 @@
+{
+  "model": "FlexRadio FLEX-6400",
+  "slug": "flexradio-flex-6400",
+  "searched_at": "2026-10-29T14:59:48-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'flex 6400' page 1 (signed in as Leo), fewer-words section ignored. 2 kept comps — thin. Dropped 0 best-offer-accepted, 0 parts-only. Excluded 1 FLEX-6400M sale ($2,400, 206500829240 — different model) and accessories (foot/hand switches, W2ENY cables); remaining page-1 results were unrelated non-radio items. No outliers. Ledger miss reason: two ledger entries ('FLEXRADIO 6400' count 4 and 'FLEXRADIO FLEX-6400' count 3) with latest date 2026-09-29, exactly 30 days old — treated as a miss.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783567",
+    "site": "qth",
+    "ask": 1150.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 1200.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398334155262",
+      "source": "ebay",
+      "notes": "Title 'FlexRadio 6400'; Buy It Now; no shipping shown.",
+      "flags": []
+    },
+    {
+      "price": 1799.95,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327316076950",
+      "source": "ebay",
+      "notes": "Title 'FlexRadio 6400 (Mint)'; Buy It Now; free delivery.",
+      "flags": []
+    }
+  ]
+}
