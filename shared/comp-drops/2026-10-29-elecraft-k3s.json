@@ -1,0 +1,27 @@
+{
+  "model": "Elecraft K3S",
+  "slug": "elecraft-k3s",
+  "searched_at": "2026-10-29T07:13:12-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1, signed in as Leo. 1 kept, median $3595.00 (thin). Dropped Best offer accepted: 0. Dropped parts/repair: 0. Dropped Read Description: 0. Excluded as not the unit/other model: 0. Search 'elecraft k3s' returned 67 sold results page 1, nearly all accessories/filters/options or K3/100 (different radio, excluded from set, not itemized). Only K3S radio sale found is a K3S/100-F bundled with a P3 panadapter (auction final bid), kept with extras_included; thin.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783365",
+    "site": "qth",
+    "ask": 2800,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 3595,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137585247662",
+      "source": "ebay",
+      "notes": "shipping shown: +$29.47 delivery; auction final bid; title: Elecraft K3S/100-F + P3 Panadapter Package - Loaded, Gently",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
