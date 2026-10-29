@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio Power Genius XL (PGXL)",
+  "slug": "flexradio-pgxl",
+  "searched_at": "2026-10-29T07:18:02-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1, signed in as Leo. 0 kept (thin). Dropped Best offer accepted: 0. Dropped parts/repair: 0. Dropped Read Description: 0. Excluded as not the unit/other model: 0. Two eBay sold searches used (2 of the 15 cap): 'flexradio power genius xl' = 0 results; 'pgxl' = 120 results all PXG golf equipment. 0 qualifying comps. Ad: $4500 shipped, $4450 pickup, $4350 without new rack mount kit; Mint, very little use, comes with brand new never-installed rack mount shelf.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783386",
+    "site": "qth",
+    "ask": 4500,
+    "shipping": 0
+  },
+  "comps": []
+}
