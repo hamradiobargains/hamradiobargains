@@ -1,0 +1,43 @@
+{
+  "model": "TEN-TEC 555 SCOUT",
+  "slug": "ten-tec-scout-555",
+  "searched_at": "2026-10-28T21:15:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ten-tec scout 555' (search 4 of 15). 3 comps kept, median 300.00 — solid but note the first comp's title suggests fewer band modules than the ad's 5 modules. No best-offer-accepted, parts or Read Description sales on page 1.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783272",
+    "site": "qth",
+    "ask": 325,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 297.49,
+      "sold_date": "2026-10-11",
+      "condition": "not recorded",
+      "url": "https://www.ebay.com/itm/128129372675",
+      "source": "ebay",
+      "notes": "Buy It Now; title mentions '40 Meter w/ Power...' (possible single band module); shipping shown: $15.23",
+      "flags": []
+    },
+    {
+      "price": 310,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188930691714",
+      "source": "ebay",
+      "notes": "6 bids; shipping shown: $25.00",
+      "flags": []
+    },
+    {
+      "price": 300,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327330399937",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping shown: $25.00",
+      "flags": []
+    }
+  ]
+}
