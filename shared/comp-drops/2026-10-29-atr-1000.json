@@ -1,0 +1,88 @@
+{
+  "model": "ATR-1000 automatic antenna tuner",
+  "slug": "atr-1000",
+  "searched_at": "2026-10-29T07:12:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1, signed in as Leo. 8 kept, median $292.02. Dropped Best offer accepted: 0. Dropped parts/repair: 0. Dropped Read Description: 0. Excluded as not the unit/other model: 0. Eight comps all Brand New import ATR-1000 1000W 1.8-30MHz units (several located in China); seller's unit is described as used; brand/maker of the QTH ad's unit not stated, identity assumed by model number only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783047",
+    "site": "qth",
+    "ask": 200,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 299.2,
+      "sold_date": "2026-10-23",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/267642967619",
+      "source": "ebay",
+      "notes": "shipping shown: Free delivery; title: New ATR-1000 1000W Automatic Antenna Tuner 1.8-30MHz For YAESU",
+      "flags": []
+    },
+    {
+      "price": 278.49,
+      "sold_date": "2026-10-21",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/389437855655",
+      "source": "ebay",
+      "notes": "shipping shown: +$49.99 delivery; or Best Offer (not marked accepted); title: NEW ATR-1000 1000W 1.8-30MHz Automatic Antenna Tuner For YAESU",
+      "flags": []
+    },
+    {
+      "price": 299,
+      "sold_date": "2026-10-07",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/800294962497",
+      "source": "ebay",
+      "notes": "shipping shown: +$18.00 delivery; title: New ATR-1000 1000W Automatic Antenna Tuner 1.8-30MHz For YAESU",
+      "flags": []
+    },
+    {
+      "price": 278.44,
+      "sold_date": "2026-10-09",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/800109446952",
+      "source": "ebay",
+      "notes": "shipping shown: +$49.99 delivery; or Best Offer (not marked accepted); title: ATR-1000 1.8-30MHz 1000W Universal Auto HF Antenna Tuner for Y",
+      "flags": []
+    },
+    {
+      "price": 358.75,
+      "sold_date": "2026-08-19",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/358468747197",
+      "source": "ebay",
+      "notes": "shipping shown: Free delivery; title: ATR-1000 1000W 1.8-30MHz Automatic Antenna Tuner For YAESU ICO",
+      "flags": []
+    },
+    {
+      "price": 293.55,
+      "sold_date": "2026-09-18",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/358608813098",
+      "source": "ebay",
+      "notes": "shipping shown: +$38.00 delivery; or Best Offer (not marked accepted); title: ATR-1000 1.8-30MHz 1000W Auto HF Antenna Tuner for SW Radio St",
+      "flags": []
+    },
+    {
+      "price": 290.5,
+      "sold_date": "2026-08-24",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/157846547057",
+      "source": "ebay",
+      "notes": "shipping shown: Free delivery; title: ATR-1000 1000W 1.8-30MHz Automatic Antenna Tuner For YAESU ICO",
+      "flags": []
+    },
+    {
+      "price": 289,
+      "sold_date": "2026-07-31",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/157552863837",
+      "source": "ebay",
+      "notes": "shipping shown: +$18.00 delivery; title: ATR-1000 1000W 1.8-30MHz Automatic Antenna Tuner For YA",
+      "flags": []
+    }
+  ]
+}
