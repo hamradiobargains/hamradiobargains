@@ -1,0 +1,25 @@
+{
+  "model": "AMERITRON AL-800H",
+  "slug": "ameritron-al-800h",
+  "searched_at": "2026-10-28T21:15:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ameritron al-800h' (search 6 of 15). 1 comp kept — thin (same sale as the ledger's count-1 entry). Other results were upgrade kits, switches and relay systems (excluded).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1780623",
+    "site": "qth",
+    "ask": 1600,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1550,
+      "sold_date": "2026-08-17",
+      "condition": "not recorded",
+      "url": "https://www.ebay.com/itm/287516399450",
+      "source": "ebay",
+      "notes": "8 bids; shipping not shown",
+      "flags": []
+    }
+  ]
+}
