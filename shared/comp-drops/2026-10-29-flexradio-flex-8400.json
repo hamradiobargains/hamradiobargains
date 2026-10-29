@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-8400",
+  "slug": "flexradio-flex-8400",
+  "searched_at": "2026-10-29T14:59:48-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'flexradio 8400' page 1 (signed in as Leo), fewer-words section ignored. 0 kept comps — thin (no sold FLEX-8400 units on page 1). Only exact-match result was an accessory (Flex 8400 hand microphone, $30, best offer accepted) — excluded as accessory. Dropped 0 best-offer-accepted units, 0 parts-only. Ledger miss: FLEXRADIO FLEX-8400 count 1 (2026-07-19).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783561",
+    "site": "qth",
+    "ask": 2299.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
