@@ -1,0 +1,86 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-29",
+  "ran_at": "2026-10-29T17:53:20-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now filter, sorted newly listed, signed in as Leo; browse pages 1-2 loaded fine. Window since previous ebay run 2026-10-28T17:53:54-04:00 (browse cards show no listing times, so 'new' = newest-first order). None of the picked items were in dropped-urls.json. Seller rule: skipped Kenwood TS-830S + VFO-230 198755562945 (seller has 1 rating) and Yaesu FT-101E 920085521132 (seller has 0 ratings). Skipped Kenwood TM-D700A 117493111581 - auction with Buy It Now option, not fixed-price. Ledger: 0 hits; 7 misses -> 7 eBay sold searches (KENWOOD TS-590S not in ledger - only TS-590SG; YAESU FRG-7 not in ledger - only FRG-7700; FT-8100R, SCU-LAN10, mAT-30, MFJ-16010, MFJ-986 not in ledger). No challenges or blocks. Item descriptions not read (description frame not readable). Not picked (not a unit / parts only / auction / unbranded / format): telegraph key auctions, 2m/HF transverter, MaCo 300 amp, MFJ-624E phone patch, BlueSky masts, Icom IC-207H / IC-R7000 / Mirage B-1030-G / Kenwood TR-7400A / Texas Star 500 (Parts Only), Hustler mount, Icom HM184H mic, Retevis HD2 lot, air variable capacitors and tube sockets, Hammarlund speaker, CDE CD-44 controller, Yaesu fan kit / PA-6, LDG BA-4:1 / DWM-4, B&W 550 switch, Siltronix VFO-2, Drake R7A and McKay Dymek DR-33C6 (auctions), Pierson KE-93 supply, MFJ-259C analyzer, generic uSDX/ATS200/SDR modules, Icom IC-F3003/F4003 and Harris M7200 (commercial), TS-430S parts.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/407325171510",
+      "site": "ebay",
+      "title": "Kenwood TS-590S HF/50MHz Dual Band All Mode DSP USB Ham Transceiver Black WORKS",
+      "price": 749.99,
+      "shipping": 25.0,
+      "found_at": "2026-10-29",
+      "condition_notes": "Used; or Best Offer; 30-day returns (buyer pays return shipping); title says WORKS",
+      "work_flag": "",
+      "seller_feedback": "98.4% (302 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/880062366661",
+      "site": "ebay",
+      "title": "Yaesu Musen FRG-7 Analog Communications Receiver AM USB LSB CW *READ*",
+      "price": 245.0,
+      "shipping": 24.17,
+      "found_at": "2026-10-29",
+      "condition_notes": "Used; fixed price; seller does not accept returns; title says *READ* (item description could not be read this run)",
+      "work_flag": "*READ* / no returns on a used radio",
+      "seller_feedback": "100% (862 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/117493144560",
+      "site": "ebay",
+      "title": "YAESU FT-8100R DUAL BAND FM MOBILE TRANSCEIVER",
+      "price": 129.0,
+      "shipping": 22.73,
+      "found_at": "2026-10-29",
+      "condition_notes": "Used; or Best Offer; seller does not accept returns",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "100% (378 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/206662013009",
+      "site": "ebay",
+      "title": "SCU-LAN10 Network Remote Control System LAN Unit Yaesu Wireless New from Japan",
+      "price": 330.41,
+      "shipping": 6.0,
+      "found_at": "2026-10-29",
+      "condition_notes": "New; fixed price; ships from Japan, import fees included; 30-day returns (buyer pays return shipping)",
+      "work_flag": "",
+      "seller_feedback": "99.9% (31873 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/206661984269",
+      "site": "ebay",
+      "title": "MAT-30 Antenna Tuner HF-SSB. Used Working - Very Clean",
+      "price": 112.0,
+      "shipping": 7.12,
+      "found_at": "2026-10-29",
+      "condition_notes": "Used; seller notes 'Good Condition, Working'; or Best Offer; seller does not accept returns",
+      "work_flag": "",
+      "seller_feedback": "99.9% (9857 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/168825093273",
+      "site": "ebay",
+      "title": "MFJ-16010 ST SUPER ANTENNA TUNER",
+      "price": 89.99,
+      "shipping": 9.99,
+      "found_at": "2026-10-29",
+      "condition_notes": "Used; or Best Offer; 30-day returns (seller pays return shipping)",
+      "work_flag": "",
+      "seller_feedback": "100% (2124 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/237151209230",
+      "site": "ebay",
+      "title": "MFJ-986 HF Antenna Tuner 3KW Roller Inductor Tuner w/ Manual Untested",
+      "price": 224.99,
+      "shipping": 25.0,
+      "found_at": "2026-10-29",
+      "condition_notes": "Used; seller notes 'Good condition'; fixed price; 30-day returns (buyer pays return shipping); title says Untested",
+      "work_flag": "Untested",
+      "seller_feedback": "100% (7799 ratings)"
+    }
+  ]
+}
