@@ -1,0 +1,15 @@
+{
+  "model": "mAT-600A auto tuner",
+  "slug": "mat-600a",
+  "searched_at": "2026-10-28T21:15:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'mat-600a tuner' (search 15 of 15): eBay reported 0 results. Not comped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783046",
+    "site": "qth",
+    "ask": 275,
+    "shipping": 0
+  },
+  "comps": []
+}
