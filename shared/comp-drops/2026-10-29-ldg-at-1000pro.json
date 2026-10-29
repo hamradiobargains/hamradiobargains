@@ -1,0 +1,34 @@
+{
+  "model": "LDG AT-1000Pro (original, not Pro II)",
+  "slug": "ldg-at-1000pro",
+  "searched_at": "2026-10-29T07:18:20-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1, signed in as Leo. 2 kept, median $199.97 (thin). Dropped Best offer accepted: 0. Dropped parts/repair: 0. Dropped Read Description: 0. Excluded as not the unit/other model: 1 (154353094432 $569.95). 6 page-1 results: 2 AT-1000Pro tuners kept, 1 AT-1000 Pro II excluded (different model), 3 power adapters ignored. Ad: asking 325 plus shipping (amount not stated). Thin; with two comps the outlier test flags both.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783352",
+    "site": "qth",
+    "ask": 325,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 289.95,
+      "sold_date": "2026-08-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257647710890",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x median of other kept comps ($110.00); shipping shown: Free delivery; title: LDG AT-1000Pro HF Automatic Antenna Tuner",
+      "flags": []
+    },
+    {
+      "price": 110,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168781868481",
+      "source": "ebay",
+      "notes": "OUTLIER: below 0.5x median of other kept comps ($289.95); shipping shown: +$7.54 delivery; title: LDG Electronics AT-1000Pro Autotuner",
+      "flags": []
+    }
+  ]
+}
