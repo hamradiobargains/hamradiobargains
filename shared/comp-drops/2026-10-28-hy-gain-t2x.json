@@ -1,0 +1,25 @@
+{
+  "model": "HY-GAIN T2X TAILTWISTER",
+  "slug": "hy-gain-t2x",
+  "searched_at": "2026-10-28T21:15:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'hy-gain t2x rotator' (search 13 of 15). 1 complete rotator sale kept — thin. Excluded control-box/controller-only sales (not the unit): 920043622681 (2026-10-17 $109.98), 397781883927 ($139.99), 318647700565 ($179.99 best offer accepted), 298674273607 ($80.00), 168621596003 ($129.99 best offer accepted). Dropped as parts: 127929644358 ($80.99 or Best Offer, Parts Only), 336827523374 ($249.99 best offer accepted, For Parts Only). Plugs and mast support excluded. Ad is a refurbished rotator with control unit and manual.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1779330",
+    "site": "qth",
+    "ask": 425,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 519.99,
+      "sold_date": "2026-08-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127987778559",
+      "source": "ebay",
+      "notes": "Buy It Now; title 'HY-GAIN HAM T2X TAILTWISTER ROTOR ROTATOR' (rotator unit); shipping shown: $33.38",
+      "flags": []
+    }
+  ]
+}
