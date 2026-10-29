@@ -1,0 +1,52 @@
+{
+  "model": "Kenwood SP-950",
+  "slug": "kenwood-sp-950",
+  "searched_at": "2026-10-29T07:15:19-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1, signed in as Leo. 4 kept, median $168.94. Dropped Best offer accepted: 0. Dropped parts/repair: 0. Dropped Read Description: 0. Excluded as not the unit/other model: 0. Ad: shipped CONUS, price includes shipping.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783378",
+    "site": "qth",
+    "ask": 125,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 144.99,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188720599231",
+      "source": "ebay",
+      "notes": "shipping shown: +$24.97 delivery; title: Kenwood SP-950 External Speaker TS 950",
+      "flags": []
+    },
+    {
+      "price": 162.99,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358689370127",
+      "source": "ebay",
+      "notes": "shipping shown: +$55.00 delivery; title: [VG] KENWOOD SP-950 External Speaker H",
+      "flags": []
+    },
+    {
+      "price": 279,
+      "sold_date": "2026-09-18",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/206551164978",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x median of other kept comps ($162.99); shipping shown: +$30.00 delivery; title: Kenwood SP-950 Gray Wired Communicatio",
+      "flags": []
+    },
+    {
+      "price": 174.88,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407152494978",
+      "source": "ebay",
+      "notes": "shipping shown: Free delivery; title: Kenwood SP-950 External Speaker Ham Ra",
+      "flags": []
+    }
+  ]
+}
