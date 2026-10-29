@@ -200,6 +200,9 @@
  "https://swap.qth.com/view_ad.php?counter=1781223": {
   "soldDate": "2026-10-04"
  },
+ "https://swap.qth.com/view_ad.php?counter=1781431": {
+  "soldDate": "2026-10-28"
+ },
  "https://swap.qth.com/view_ad.php?counter=1781517": {
   "soldDate": "2026-10-15"
  },
@@ -223,6 +226,9 @@
  },
  "https://swap.qth.com/view_ad.php?counter=1783034": {
   "soldDate": "2026-10-26"
+ },
+ "https://swap.qth.com/view_ad.php?counter=1783266": {
+  "soldDate": "2026-10-28"
  },
  "https://www.ebay.com/itm/128093372447": {
   "soldDate": "2026-09-24"
@@ -248,8 +254,14 @@
  "https://www.ebay.com/itm/227531448773": {
   "soldDate": "2026-09-23"
  },
+ "https://www.ebay.com/itm/227580701909": {
+  "soldDate": "2026-10-27"
+ },
  "https://www.ebay.com/itm/237078695052": {
   "soldDate": "2026-09-27"
+ },
+ "https://www.ebay.com/itm/237127554246": {
+  "soldDate": "2026-10-27"
  },
  "https://www.ebay.com/itm/257727719296": {
   "soldDate": "2026-09-13"
@@ -292,6 +304,9 @@
  },
  "https://www.ebay.com/itm/800657066894": {
   "soldDate": "2026-09-15"
+ },
+ "https://www.ebay.com/itm/920077064265": {
+  "soldDate": "2026-10-28"
  },
  "https://www.ebay.com/itm/960093277406": {
   "soldDate": "2026-10-22"
@@ -337,6 +352,9 @@
  },
  "https://www.eham.net/classifieds/629112": {
   "soldDate": "2026-10-08"
+ },
+ "https://www.eham.net/classifieds/629347": {
+  "soldDate": "2026-10-28"
  },
  "https://www.facebook.com/marketplace/item/1047376441444127/": {
   "soldDate": "2026-09-02"
@@ -388,20 +406,5 @@
  },
  "https://www.facebook.com/marketplace/item/895638516601570/": {
   "soldDate": "2026-09-04"
- },
- "https://www.ebay.com/itm/237127554246": {
-  "soldDate": "2026-10-27"
- },
- "https://www.ebay.com/itm/227580701909": {
-  "soldDate": "2026-10-27"
- },
- "https://swap.qth.com/view_ad.php?counter=1783266": {
-  "soldDate": "2026-10-28"
- },
- "https://www.ebay.com/itm/920077064265": {
-  "soldDate": "2026-10-28"
- },
- "https://www.eham.net/classifieds/629347": {
-  "soldDate": "2026-10-28"
  }
 }
