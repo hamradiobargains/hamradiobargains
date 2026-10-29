@@ -1,0 +1,43 @@
+{
+  "model": "MFJ-269",
+  "slug": "mfj-269",
+  "searched_at": "2026-10-29T19:11:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "3 kept comp(s), median 215, low 155, high 250. Dropped 2 best-offer-accepted (117490791974 $229.00, 900021465437 $165.00). Dropped as parts/as-is/damaged: 236978283436 $159.99 (title says (Damaged)). Plain MFJ-269 only: MFJ-269C, 269D and 269Pro sales on the page were not used. Item 960092249905 (\"MFJ Professional Antenna Analyzer 530 KHz-230 MHz UHF+ Mod...\", $219.95) not used - model not clearly the 269. Ad 1783398 says \"$285 includes shipping\" and lists case, PSU, adapter, 10 NiMH batteries, MFJ-66 dip adapters, manuals and box. searched_at is approximate: eBay sold searches for this sweep ran one at a time, 15+ s apart, about 19:00-19:12 ET.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783398",
+    "site": "qth",
+    "ask": 285,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 250.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377440371398",
+      "source": "ebay",
+      "notes": "shipping +$12.00; \"or Best Offer\" not marked accepted",
+      "flags": []
+    },
+    {
+      "price": 155.0,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206563641506",
+      "source": "ebay",
+      "notes": "shipping +$7.72; \"or Best Offer\" not marked accepted",
+      "flags": []
+    },
+    {
+      "price": 215.0,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267764311991",
+      "source": "ebay",
+      "notes": "shipping +$17.15; title: WORKING; \"or Best Offer\" not marked accepted",
+      "flags": []
+    }
+  ]
+}
