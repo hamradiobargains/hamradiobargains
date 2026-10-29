@@ -1,0 +1,88 @@
+{
+  "model": "Yaesu SCU-LAN10",
+  "slug": "yaesu-scu-lan10",
+  "searched_at": "2026-10-29T18:06:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "8 kept comps; all kept comps are Brand New; trigger listing is also new (ships from Japan, import fees included). Excluded 9 Yaesu FTDX10 transceiver results (different item; 3 of them were best-offer-accepted). No SCU-LAN10 best-offer-accepted or parts-only sales on page 1. searched_at is approximate: the eBay sold searches for this run ran one at a time between about 17:57 and 18:05 ET.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/206662013009",
+    "site": "ebay",
+    "ask": 330.41,
+    "shipping": 6.0
+  },
+  "comps": [
+    {
+      "price": 239.8,
+      "sold_date": "2026-10-27",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/365613643367",
+      "source": "ebay",
+      "notes": "Buy It Now; +$60.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 242.95,
+      "sold_date": "2026-10-03",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/800003530462",
+      "source": "ebay",
+      "notes": "Buy It Now; +$52.50 shipping",
+      "flags": []
+    },
+    {
+      "price": 239.96,
+      "sold_date": "2026-09-24",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/205146719576",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted); +$52.66 shipping",
+      "flags": []
+    },
+    {
+      "price": 247.99,
+      "sold_date": "2026-09-18",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/204784681429",
+      "source": "ebay",
+      "notes": "Buy It Now; +$52.66 shipping",
+      "flags": []
+    },
+    {
+      "price": 279.44,
+      "sold_date": "2026-09-15",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/205164522693",
+      "source": "ebay",
+      "notes": "Buy It Now; +$48.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 242.9,
+      "sold_date": "2026-09-07",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/388833586861",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted); +$45.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 240.99,
+      "sold_date": "2026-08-31",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/236879868149",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted); +$37.40 shipping",
+      "flags": []
+    },
+    {
+      "price": 241.0,
+      "sold_date": "2026-08-21",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/398256960334",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted); +$45.00 shipping",
+      "flags": []
+    }
+  ]
+}
