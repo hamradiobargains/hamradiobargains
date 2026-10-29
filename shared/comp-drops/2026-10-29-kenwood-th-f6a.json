@@ -1,0 +1,214 @@
+{
+  "model": "Kenwood TH-F6A (ad lists TH-F6)",
+  "slug": "kenwood-th-f6a",
+  "searched_at": "2026-10-29T07:14:40-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1, signed in as Leo. 22 kept, median $175.00. Dropped Best offer accepted: 6 (137466075440 $147.00, 860023914911 $140.00, 158311045354 $142.19, 267777797533 $139.69, 198575716281 $169.99, 128059772544 $180.00). Dropped parts/repair: 1 (147498031990 $108.50). Dropped Read Description: 0. Excluded as not the unit/other model: 1 (277801603687 $79.99). Searched 'kenwood th-f6a' (ad says TH-F6, MARS modified, sold as-is, aftermarket PB-42LH battery). 61 page-1 results; 31 under $70 were batteries/manuals/accessories and not itemized. Two kept units are 'without antenna and battery' listings (298574764337, 366550387755; 137466075440 was BOA-dropped). Titles truncated in this file.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783321",
+    "site": "qth",
+    "ask": 275,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 130.01,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366750787583",
+      "source": "ebay",
+      "notes": "shipping shown: +$6.40 delivery; auction final bid; title: Kenwood TH-F6A Ham Radio Handheld Tribander Transceiver Estate Item",
+      "flags": []
+    },
+    {
+      "price": 189,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307233686348",
+      "source": "ebay",
+      "notes": "shipping shown: +$11.50 delivery; title: Kenwood TH-F6A FM Tri-band 144/220/440MHz AM/SSB/FM + Charger",
+      "flags": []
+    },
+    {
+      "price": 180,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960057304333",
+      "source": "ebay",
+      "notes": "shipping shown: Free delivery; or Best Offer (not marked accepted); title: Kenwood TH-F6A Tri Band Ham Radio Handheld with Box Manual",
+      "flags": []
+    },
+    {
+      "price": 215,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206515516146",
+      "source": "ebay",
+      "notes": "shipping shown: +$14.50 delivery; title: Kenwood TH-F6A Handheld Tri-Band Ham Radio Transceiver + Mic + Manual",
+      "flags": []
+    },
+    {
+      "price": 259,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237033999305",
+      "source": "ebay",
+      "notes": "shipping shown: Free delivery; title: Kenwood TH-F6A Amateur Radio Handheld 2m/1.25m/70cm Transceiver",
+      "flags": []
+    },
+    {
+      "price": 189.99,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117447361265",
+      "source": "ebay",
+      "notes": "shipping shown: +$12.02 delivery; auction final bid; title: Kenwood TH-F6A Triband Handheld Ham Radio Transc",
+      "flags": []
+    },
+    {
+      "price": 199.95,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298723801009",
+      "source": "ebay",
+      "notes": "shipping shown: +$19.95 delivery; title: KENWOOD TH-F6A TRI BAND HT 2M 220 440 + 2 MICROP",
+      "flags": []
+    },
+    {
+      "price": 125,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117451894176",
+      "source": "ebay",
+      "notes": "shipping shown: +$17.00 delivery; title: Kenwood TH-F6A FM Tri-band 144/220/440MHz Ham Ra",
+      "flags": []
+    },
+    {
+      "price": 125,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198680542783",
+      "source": "ebay",
+      "notes": "shipping shown: +$19.70 delivery; title: Kenwood TH-F6A Ham Radio Handheld Tribander Tran",
+      "flags": []
+    },
+    {
+      "price": 175,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178352362107",
+      "source": "ebay",
+      "notes": "shipping shown: +$11.50 delivery; title: Kenwood TH-F6A Ham Radio Handheld Tribander Tran",
+      "flags": []
+    },
+    {
+      "price": 144,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298574764337",
+      "source": "ebay",
+      "notes": "shipping shown: +$5.00 delivery; title: 1pcs Kenwood walkie-talkie TH-F6A, Without anten",
+      "flags": []
+    },
+    {
+      "price": 174.99,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227523214690",
+      "source": "ebay",
+      "notes": "shipping shown: +$10.00 delivery; or Best Offer (not marked accepted); title: Kenwood TH-F6A Ham Radio Handheld Tribander Tran",
+      "flags": []
+    },
+    {
+      "price": 150,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278352353789",
+      "source": "ebay",
+      "notes": "shipping shown: Free delivery; title: Kenwood TH-F6A Ham Radio Handheld Tribander Tran",
+      "flags": []
+    },
+    {
+      "price": 172,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178411028140",
+      "source": "ebay",
+      "notes": "shipping shown: Free delivery; title: Kenwood TH-F6A try Band Handheld Fm Amateur Ham",
+      "flags": []
+    },
+    {
+      "price": 122.5,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158247007311",
+      "source": "ebay",
+      "notes": "shipping shown: +$14.87 delivery; auction final bid; title: Kenwood TH-F6A Handheld Amateur 2m/1.25m",
+      "flags": []
+    },
+    {
+      "price": 162.5,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366638342825",
+      "source": "ebay",
+      "notes": "shipping shown: +$8.52 delivery; auction final bid; title: Kenwood TH-F6A Amateur Radio Handheld 2m",
+      "flags": []
+    },
+    {
+      "price": 195,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267764380205",
+      "source": "ebay",
+      "notes": "shipping shown: +$14.99 delivery; or Best Offer (not marked accepted); title: Kenwood TH-F6A Amateur Radio Handheld 14",
+      "flags": []
+    },
+    {
+      "price": 152.5,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366624213201",
+      "source": "ebay",
+      "notes": "shipping shown: +$8.52 delivery; auction final bid; title: Kenwood TH-F6A Amateur Radio Handheld 2m",
+      "flags": []
+    },
+    {
+      "price": 190,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158209614350",
+      "source": "ebay",
+      "notes": "shipping shown: Free delivery; or Best Offer (not marked accepted); title: Kenwood TH-F6A Amateur Radio Handheld 2m",
+      "flags": []
+    },
+    {
+      "price": 144,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366550387755",
+      "source": "ebay",
+      "notes": "shipping shown: +$20.00 delivery; title: 1pcs Kenwood walkie-talkie TH-F6A, Witho",
+      "flags": []
+    },
+    {
+      "price": 239,
+      "sold_date": "2026-08-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227457849919",
+      "source": "ebay",
+      "notes": "shipping shown: +$19.00 delivery; title: KENWOOD TH-F6A TRI BAND HAND HELD TRANSC",
+      "flags": []
+    },
+    {
+      "price": 180,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117336749643",
+      "source": "ebay",
+      "notes": "shipping shown: +$20.00 delivery; or Best Offer (not marked accepted); title: Kenwood TH-F6A Handheld Transceiver. Tes",
+      "flags": []
+    }
+  ]
+}
