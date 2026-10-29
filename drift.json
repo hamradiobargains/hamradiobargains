@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T11:21:16-04:00",
+ "updated": "2026-10-29T12:53:06+00:00",
  "models": {
   "ELECRAFT KPA500": {
    "display": "Elecraft KPA500",
@@ -30,12 +30,12 @@
   },
   "XIEGU G90": {
    "display": "Xiegu G90",
-   "pct": 4.0,
+   "pct": 1.2,
    "window": "3mo",
    "recent_median": 379.49,
    "recent_count": 24,
-   "prior_median": 365.0,
-   "prior_count": 10
+   "prior_median": 375.0,
+   "prior_count": 9
   },
   "XIEGU X6100": {
    "display": "Xiegu X6100",
