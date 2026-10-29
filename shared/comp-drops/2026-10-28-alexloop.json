@@ -1,0 +1,15 @@
+{
+  "model": "Alexloop (AlexLoop) portable magnetic loop",
+  "slug": "alexloop",
+  "searched_at": "2026-10-28T21:15:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'alexloop hf' (search 1 of 15): eBay reported 2 exact results: a 'VHF UHF HF EmComm MagLoop' (147083664516, sold 2026-10-18 $399.00 or Best Offer, not an AlexLoop) and an AlexLoop Walkham Premier (820145517025, sold 2026-10-13 $599.99 or Best Offer, Pre-Owned, +$22.44 delivery). Walkham Premier is a different variant from the ad's plain Alex Loop with added 6:1 vernier, so no comps kept. Plain AlexLoop/HamPack sales appeared only in the ignored 'fewer words' section. Not comped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783025",
+    "site": "qth",
+    "ask": 240,
+    "shipping": 0
+  },
+  "comps": []
+}
