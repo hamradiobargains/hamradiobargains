@@ -1,0 +1,25 @@
+{
+  "model": "YAESU FT-1000MP MARK V FIELD",
+  "slug": "yaesu-ft-1000mp-mark-v-field",
+  "searched_at": "2026-10-29T19:08:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "1 kept comp(s) - THIN (median 549.95). Dropped 1 best-offer-accepted (158064118153 $895.00). Dropped as parts/as-is/damaged: 198595099835 $395.00 (as-is (title: \"BIN $395 AS IS\")). Mark V Field (100 W) kept separate from the ledger FT-1000MP MARK V (200 W) and from plain FT-1000MP. Not used: 128097687377 Oct 5 Mark V (not Field) auction $806.00 +$139.86. Excluded parts/accessories (manuals, boards, filters, mic, harness, panels). THIN (1 comp). Ad 1783401 adds optional CW filters and an INRAD 70.455 MHz roofing filter at $895.00 shipped. searched_at is approximate: eBay sold searches for this sweep ran one at a time, 15+ s apart, about 19:00-19:12 ET.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783401",
+    "site": "qth",
+    "ask": 895,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 549.95,
+      "sold_date": "2026-09-12",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/227482763811",
+      "source": "ebay",
+      "notes": "shipping +$41.95; fixed price",
+      "flags": []
+    }
+  ]
+}
