@@ -1,0 +1,22 @@
+{
+  "model": "KENWOOD TS-440SAT",
+  "slug": "kenwood-ts-440sat",
+  "searched_at": "2026-10-29T19:14:00-04:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 400.0, count 6, ledger date 2026-10-18 — ledger hit — individual sales behind the median are not auditable from this file. Ad 1777865: \"Excellent\", \"Extra nice condition\", hand mic and power cord, $475 shipped and insured US.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1777865",
+    "site": "qth",
+    "ask": 475,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 400.0,
+    "low": 225.0,
+    "high": 450.5,
+    "count": 6,
+    "date": "2026-10-18"
+  }
+}
