@@ -1,0 +1,15 @@
+{
+  "model": "Cushcraft A3S",
+  "slug": "cushcraft-a3s",
+  "searched_at": "2026-10-29T05:57:15-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - 0 qualifying comps. eBay showed 1 exact-keyword sold result: 'Cushcraft A3S beam antenna TA traps' $20 (Sep 4, 2026) - traps only, not the antenna, excluded. Remaining results were under 'Results matching fewer words' (ignored). dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629378",
+    "site": "eham",
+    "ask": 400.0,
+    "shipping": 0
+  },
+  "comps": []
+}
