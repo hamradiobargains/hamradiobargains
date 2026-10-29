@@ -1,0 +1,34 @@
+{
+  "model": "Ameritron QSK-5",
+  "slug": "ameritron-qsk-5",
+  "searched_at": "2026-10-29T07:15:42-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1, signed in as Leo. 2 kept, median $224.50 (thin). Dropped Best offer accepted: 0. Dropped parts/repair: 1 (198590461713 $125.00). Dropped Read Description: 0. Excluded as not the unit/other model: 0. Ad: shipped CONUS, price includes shipping. Thin.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783377",
+    "site": "qth",
+    "ask": 225,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 200,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147589430530",
+      "source": "ebay",
+      "notes": "shipping shown: +$9.95 delivery; title: Ameritron QSK-5 2.5kW QSK T/R Switch",
+      "flags": []
+    },
+    {
+      "price": 249,
+      "sold_date": "2026-08-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278244072750",
+      "source": "ebay",
+      "notes": "shipping shown: +$20.90 delivery; title: AMERITRON QSK-5 2.5KW QSK T/R SWITCH",
+      "flags": []
+    }
+  ]
+}
