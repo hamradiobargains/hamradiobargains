@@ -1,0 +1,79 @@
+{
+  "model": "Heil Sound Pro 7 headset",
+  "slug": "heil-pro-7",
+  "searched_at": "2026-10-29T07:17:12-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1, signed in as Leo. 7 kept, median $199.00. Dropped Best offer accepted: 2 (398331615149 $269.99, 158200580144 $164.00). Dropped parts/repair: 0. Dropped Read Description: 0. Excluded as not the unit/other model: 0. Ad title shows SALE PENDING; $230 shipped, Blue Pro 7 with dynamic cartridge and adapter cable choice. 14 page-1 results, 9 Pro 7 headsets >= $60 reviewed; 5 under $60 were parts/cables/ear pads and not itemized. Cartridge type (HC-6/HC-7 dynamic vs electret) differs by listing and was not verified per comp.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783322",
+    "site": "qth",
+    "ask": 230,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 225,
+      "sold_date": "2026-10-13",
+      "condition": "not stated",
+      "url": "https://www.ebay.com/itm/237104355326",
+      "source": "ebay",
+      "notes": "no shipping shown; or Best Offer (not marked accepted); title: Heil sound pro 7 headset",
+      "flags": []
+    },
+    {
+      "price": 199,
+      "sold_date": "2026-04-07",
+      "condition": "not stated",
+      "url": "https://www.ebay.com/itm/127793561930",
+      "source": "ebay",
+      "notes": "no shipping shown; title: Heil Sound Pro 7 RED Aviation-Style Headset",
+      "flags": []
+    },
+    {
+      "price": 179.99,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128083234404",
+      "source": "ebay",
+      "notes": "no shipping shown; auction final bid; title: Heil Sound Blue PRO7 Communications Headset",
+      "flags": []
+    },
+    {
+      "price": 199.95,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278366156326",
+      "source": "ebay",
+      "notes": "no shipping shown; title: HEIL RED PRO 7 COMMUNICATIONS HEAD SET",
+      "flags": []
+    },
+    {
+      "price": 175,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158218817810",
+      "source": "ebay",
+      "notes": "shipping shown: Free delivery; title: Heil Pro 7 Black Headset with HC-7 Dyn",
+      "flags": []
+    },
+    {
+      "price": 175,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158218979288",
+      "source": "ebay",
+      "notes": "shipping shown: Free delivery; title: Heil Pro 7 Black Headset with IC Elect",
+      "flags": []
+    },
+    {
+      "price": 253.21,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178431748406",
+      "source": "ebay",
+      "notes": "no shipping shown; or Best Offer (not marked accepted); title: Heil Sound PRO-7 BK - Headset with ext",
+      "flags": []
+    }
+  ]
+}
