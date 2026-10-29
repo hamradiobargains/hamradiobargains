@@ -1,0 +1,186 @@
+{
+  "model": "Yaesu FRG-7",
+  "slug": "yaesu-frg-7",
+  "searched_at": "2026-10-29T18:06:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "18 kept comps; dropped 14 best-offer-accepted; dropped 1 parts-only; excluded 3 capacitor kits; FRG-7700 is a different model (none on page 1 kept). 3 comps from seller robandlynne with identical titles flagged possible_duplicate. Several 'TESTED - HAM Radio' sales appear to be one dealer selling multiple units - not flagged. OUTLIERS flagged: 128082467222 $620.00 (rest median ~$220); 860040702646 $45.00 (rest median ~$225); 287619181589 $56.00 (rest median ~$225); 128082847004 $91.00 (rest median ~$225). searched_at is approximate: the eBay sold searches for this run ran one at a time between about 17:57 and 18:05 ET.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/880062366661",
+    "site": "ebay",
+    "ask": 245.0,
+    "shipping": 24.17
+  },
+  "comps": [
+    {
+      "price": 250.0,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800826952916",
+      "source": "ebay",
+      "notes": "OBO listing, free shipping; title \"TESTED - HAM Radio\"",
+      "flags": []
+    },
+    {
+      "price": 620.0,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128082467222",
+      "source": "ebay",
+      "notes": "OUTLIER: $620.00 vs ~$220 median for the rest. Buy It Now; +$108.50 shipping; title \"Late Model ... Serviced Tested Working\"",
+      "flags": []
+    },
+    {
+      "price": 242.88,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178567294746",
+      "source": "ebay",
+      "notes": "Buy It Now (struck-through higher price shown); +$7.49 shipping; title \"...HAM R G2U\"",
+      "flags": []
+    },
+    {
+      "price": 45.0,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/860040702646",
+      "source": "ebay",
+      "notes": "OUTLIER: $45.00 vs ~$225 median for the rest. Auction, 12 bids; +$48.50 shipping; title \"Powers On\"",
+      "flags": []
+    },
+    {
+      "price": 56.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287619181589",
+      "source": "ebay",
+      "notes": "OUTLIER: $56.00 vs ~$225 median for the rest. Auction, 19 bids; +$48.50 shipping; title \"Powers On\"",
+      "flags": []
+    },
+    {
+      "price": 299.99,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318400237437",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted), free shipping; title \"TESTED - HAM Radio\"",
+      "flags": []
+    },
+    {
+      "price": 91.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128082847004",
+      "source": "ebay",
+      "notes": "OUTLIER: $91.00 vs ~$225 median for the rest. Auction, 11 bids; +$23.71 shipping; title \"(Powers On/Untested)\"",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 204.49,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327357182484",
+      "source": "ebay",
+      "notes": "Auction, 7 bids; +$51.49 shipping",
+      "flags": []
+    },
+    {
+      "price": 224.95,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168548848298",
+      "source": "ebay",
+      "notes": "OBO listing; +$36.15 shipping; title \"TESTED - Works Well.\"",
+      "flags": []
+    },
+    {
+      "price": 270.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188783726804",
+      "source": "ebay",
+      "notes": "OBO listing; +$52.05 shipping; title \"TESTED - HAM Radio\"",
+      "flags": []
+    },
+    {
+      "price": 269.99,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257687076157",
+      "source": "ebay",
+      "notes": "OBO listing; +$35.00 shipping; title \"Nice\"",
+      "flags": []
+    },
+    {
+      "price": 220.0,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287517283441",
+      "source": "ebay",
+      "notes": "Buy It Now; +$41.90 shipping; title \"TESTED - HAM Radio\"",
+      "flags": []
+    },
+    {
+      "price": 269.87,
+      "sold_date": "2026-08-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407104208065",
+      "source": "ebay",
+      "notes": "Buy It Now; +$25.12 shipping; title \"TESTED - HAM Radio\"",
+      "flags": []
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336722234603",
+      "source": "ebay",
+      "notes": "Buy It Now; +$35.00 shipping; title \"TESTED\"",
+      "flags": []
+    },
+    {
+      "price": 166.59,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128107791940",
+      "source": "ebay",
+      "notes": "Auction, 2 bids; no shipping shown; same seller (robandlynne) and identical title as 128067624286 and 128017637468, same price as 128067624286",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 197.73,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137764744257",
+      "source": "ebay",
+      "notes": "Buy It Now; no shipping shown; title \"in excellent condition\"",
+      "flags": []
+    },
+    {
+      "price": 166.59,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128067624286",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; no shipping shown; same seller and identical title as 128107791940 and 128017637468, same price as 128107791940",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 186.58,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128017637468",
+      "source": "ebay",
+      "notes": "Auction, 9 bids; no shipping shown; same seller and identical title as 128107791940 and 128067624286",
+      "flags": [
+        "possible_duplicate"
+      ]
+    }
+  ]
+}
