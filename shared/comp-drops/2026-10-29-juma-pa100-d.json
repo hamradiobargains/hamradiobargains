@@ -1,0 +1,15 @@
+{
+  "model": "JUMA PA100-D",
+  "slug": "juma-pa100-d",
+  "searched_at": "2026-10-29T07:13:36-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1, signed in as Leo. 0 kept (thin). Dropped Best offer accepted: 0. Dropped parts/repair: 0. Dropped Read Description: 0. Excluded as not the unit/other model: 0. Search 'juma pa100': 0 results (eBay showed only 'results matching fewer words', ignored). Ad asks $480 plus shipping (amount not stated), shipping recorded as 0.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783351",
+    "site": "qth",
+    "ask": 480,
+    "shipping": 0
+  },
+  "comps": []
+}
