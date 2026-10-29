@@ -1,0 +1,34 @@
+{
+  "model": "YAESU FL-7000",
+  "slug": "yaesu-fl-7000",
+  "searched_at": "2026-10-28T21:15:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu fl-7000' (search 5 of 15). 2 comps kept, thin; they differ by more than 2x so both are marked OUTLIER relative to each other (bimodal, cannot tell which is typical). Dropped as parts: 336786821598 (2026-09-16 $750.00, 15 bids, condition Parts Only, title says 'POWERS UP'), 287499124931 (2026-08-02 $595.00 Buy It Now, FOR PARTS, +$110.00). Excluded accessories: faceplate 287656412303 $99.00, power plugs.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783263",
+    "site": "qth",
+    "ask": 1400,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1500,
+      "sold_date": "2026-10-03",
+      "condition": "not recorded",
+      "url": "https://www.ebay.com/itm/800688941642",
+      "source": "ebay",
+      "notes": "OUTLIER: price 1500.00 vs median 700.00 of the other kept comps; Buy It Now; title mentions '4 Button RTTY'; shipping shown: $99.00",
+      "flags": []
+    },
+    {
+      "price": 700,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327333859360",
+      "source": "ebay",
+      "notes": "OUTLIER: price 700.00 vs median 1500.00 of the other kept comps; Buy It Now; shipping shown: $35.00",
+      "flags": []
+    }
+  ]
+}
