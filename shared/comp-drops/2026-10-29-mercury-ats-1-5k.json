@@ -1,0 +1,38 @@
+{
+  "model": "MERCURY ATS 1.5K (ad says \"Mercury AT Automatic Tuner\")",
+  "slug": "mercury-ats-1-5k",
+  "searched_at": "2026-10-29T19:02:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "2 kept comp(s) - THIN (median 699). Dropped 1 best-offer-accepted (278382234278 $1299.00). Dropped 0 parts/as-is/read-description sales. IDENTITY UNCERTAIN: the ad names only \"Mercury AT Automatic Tuner\" (no ATS / 1.5K), the only Mercury automatic tuner sold on page 1 is the MERCURY ATS 1.5K. Ad 1783291 says SALE PENDING. searched_at is approximate: eBay sold searches for this sweep ran one at a time, 15+ s apart, about 19:00-19:12 ET.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783291",
+    "site": "qth",
+    "ask": 700,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 699.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278418282850",
+      "source": "ebay",
+      "notes": "shipping +$23.25; identical title/price/shipping to 278385223244 (same seller, relist?); title says TESTED & WORKING",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 699.0,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278385223244",
+      "source": "ebay",
+      "notes": "shipping +$23.25; identical title/price/shipping to 278418282850; title says TESTED & WORKING",
+      "flags": [
+        "possible_duplicate"
+      ]
+    }
+  ]
+}
