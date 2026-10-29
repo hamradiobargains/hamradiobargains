@@ -1,0 +1,15 @@
+{
+  "model": "STEPPIR SDA-2000",
+  "slug": "steppir-sda-2000",
+  "searched_at": "2026-10-29T19:09:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "0 kept comps - not comped. Dropped 0 best-offer-accepted. Dropped 0 parts/as-is/read-description sales. NOT COMPED: zero sold SDA-2000 results. Only SDA-100 (a different controller) sold: 178526568640 Sep 25 $249.99, 178457051169 Sep 12 $300.00, 820020671074 Sep 4 $149.99 for parts - not used. Ad 1783409: \"mint spare SteppIR SDA-2000... No power supply included! $900 shipped\". searched_at is approximate: eBay sold searches for this sweep ran one at a time, 15+ s apart, about 19:00-19:12 ET.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783409",
+    "site": "qth",
+    "ask": 900,
+    "shipping": 0
+  },
+  "comps": []
+}
