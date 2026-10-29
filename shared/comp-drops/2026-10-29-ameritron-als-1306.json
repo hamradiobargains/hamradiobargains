@@ -1,0 +1,52 @@
+{
+  "model": "AMERITRON ALS-1306",
+  "slug": "ameritron-als-1306",
+  "searched_at": "2026-10-29T19:01:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "4 kept comp(s), median 2449.995, low 2199, high 3000. Dropped 3 best-offer-accepted (336832899162 $2499.95, 117375866993 $2500.00, 127934119575 $3100.00). Dropped 0 parts/as-is/read-description sales. Excluded (not the unit/identity): 206007537630 accessory (OEM antenna relay boards). Ad 1781650 says \"al1306 no tune amp\" (1200-1400 W, 160-6m); searched and kept comps as Ameritron ALS-1306 (no-tune solid-state amp) - ad does not name the maker, model match by the 1306 / no-tune description. searched_at is approximate: eBay sold searches for this sweep ran one at a time, 15+ s apart, about 19:00-19:12 ET.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781650",
+    "site": "qth",
+    "ask": 1995,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 2199.0,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287592896114",
+      "source": "ebay",
+      "notes": "shipping +$131.41; fixed price; title says TESTED WORKING",
+      "flags": []
+    },
+    {
+      "price": 3000.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178156592641",
+      "source": "ebay",
+      "notes": "shipping +$76.55; fixed price",
+      "flags": []
+    },
+    {
+      "price": 2400.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278265128012",
+      "source": "ebay",
+      "notes": "shipping +$110.30; auction final bid; auction final bid",
+      "flags": []
+    },
+    {
+      "price": 2499.99,
+      "sold_date": "2026-08-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188743659628",
+      "source": "ebay",
+      "notes": "shipping +$149.87; fixed price",
+      "flags": []
+    }
+  ]
+}
