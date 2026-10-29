@@ -1,0 +1,64 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-29",
+  "ran_at": "2026-10-29T05:57:15-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-28T05:53:24-04:00 (prior eham run). Browsed signed OUT ('Welcome Guest'); no Cloudflare challenge this run. get_page_text was denied on eham.net by the extension, so ad text was read from the public listing page DOM via javascript. Classifieds page 1 (10 ads/page now) held all new ads 629373-629385; page 2 started at 629372 (already covered). 629374, 629375, 629379 not shown on either page. No individual ads opened. Skipped: 629385 VE2DX CI-V hub $50, 629384 Rolls audio limiter $75, 629383 MFJ-1026 noise canceller $100 (whip missing), 629381 AREDN dish/APs, 629380 EA4TX/Hamation/Ameritron switch controllers (accessories/switching, not in candidate categories). No search form, sold searches, or seller/callsign pages. Comps: 0 ledger hits; 5 eBay sold searches (signed in as Leo, one at a time, no challenges). Cushcraft A3S, Diamond A502HB, MFJ-1799, OptiBeam OB15-7: 0 qualifying comps; Heil iCM: 7 kept.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629378",
+      "site": "eham",
+      "title": "Cushcraft A3S 10-15-20m Yagi",
+      "price": 400.0,
+      "shipping": 0,
+      "found_at": "2026-10-29",
+      "condition_notes": "3 years old, bought new 3 years ago; taken down, pickup only in Ewing, VA 24248 (no shipping offered). Seller notes new price $799 plus tax.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629377",
+      "site": "eham",
+      "title": "Diamond A502HB 6m 2 element antenna",
+      "price": 50.0,
+      "shipping": 0,
+      "found_at": "2026-10-29",
+      "condition_notes": "Seller: not in beautiful condition, had to re-build the element fasteners, but it does work. Pickup preferred; shipping not stated.",
+      "work_flag": "Not in beautiful condition, I had to re-build the \"element fasteners\", but it does work",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629376",
+      "site": "eham",
+      "title": "MFJ-1799 80-2m vertical antenna - good condition",
+      "price": 130.0,
+      "shipping": 0,
+      "found_at": "2026-10-29",
+      "condition_notes": "Very good condition, complete with manual and spare spokes. $130 + freight (amount not stated); pickup preferred.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629373",
+      "site": "eham",
+      "title": "OptiBeam OB15-7 Antenna",
+      "price": 4000.0,
+      "shipping": 0,
+      "found_at": "2026-10-29",
+      "condition_notes": "WiMo OptiBeam OB15-7 40-10m; mint, never installed on a tower, purchased 8 months ago; disassembled and crated (164 x 18.5 x 21 in). Buyer arranges and pays all shipping (amount unknown). Seller cites $5814 new.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629382",
+      "site": "eham",
+      "title": "Heil iCM Mic and boom mount",
+      "price": 90.0,
+      "shipping": 0,
+      "found_at": "2026-10-29",
+      "condition_notes": "Heil iCM mic with cable and adapters (AD-1-iC etc), $90. Heil desk boom (seller thinks PL2T) offered separately at $60 - not included in price. Ships from Canada or US mailbox, buyer pays shipping (amount not stated).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
