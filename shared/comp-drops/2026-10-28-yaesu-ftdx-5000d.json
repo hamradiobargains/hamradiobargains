@@ -1,0 +1,15 @@
+{
+  "model": "YAESU FTDX-5000D",
+  "slug": "yaesu-ftdx-5000d",
+  "searched_at": "2026-10-28T21:15:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ftdx5000d' (search 7 of 15). 0 exact FTDX-5000D unit sales on page 1: only FTdx5000MP units (e.g. 206481360086 sold 2026-09-27 $3,105.00; 336749595298 $4,250.00; 389087440544 $3,400.00; 287491714354 $3,099.95 best offer accepted; 237082048003 Parts Only $1,700.00) plus DMU-2000/FH-2/roofing filters/OLEDs. MP and D kept separate (not the same radio), so not comped. Ledger YAESU FTDX-5000MP median 3150.0 (count 4, 2026-10-23) is context only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783280",
+    "site": "qth",
+    "ask": 2600,
+    "shipping": 0
+  },
+  "comps": []
+}
