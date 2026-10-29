@@ -1,0 +1,22 @@
+{
+  "model": "MFJ-989C",
+  "slug": "mfj-989c",
+  "searched_at": "2026-10-28T21:15:00-04:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 244.5, count 14, ledger date 2026-10-14 — ledger hit — individual sales behind the median are not auditable from this file. Also serves possible cross-post/duplicate ads from the same seller W1DAJ with identical $150 plus shipping text: https://swap.qth.com/view_ad.php?counter=1783437 and https://swap.qth.com/view_ad.php?counter=1783439 (no serials shown, kept as separate ads)",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783258",
+    "site": "qth",
+    "ask": 150,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 244.5,
+    "low": 160.5,
+    "high": 299.95,
+    "count": 14,
+    "date": "2026-10-14"
+  }
+}
