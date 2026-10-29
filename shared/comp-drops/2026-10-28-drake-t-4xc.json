@@ -1,0 +1,22 @@
+{
+  "model": "DRAKE T-4XC",
+  "slug": "drake-t-4xc",
+  "searched_at": "2026-10-28T21:15:00-04:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 270.0, count 8, ledger date 2026-10-24 — ledger hit — individual sales behind the median are not auditable from this file. Ad says untested, local pickup only; includes a D-104 mic if bought at asking price",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783301",
+    "site": "qth",
+    "ask": 275,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 270,
+    "low": 150,
+    "high": 308.74,
+    "count": 8,
+    "date": "2026-10-24"
+  }
+}
