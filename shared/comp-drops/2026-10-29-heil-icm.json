@@ -1,0 +1,81 @@
+{
+  "model": "Heil iCM",
+  "slug": "heil-icm",
+  "searched_at": "2026-10-29T05:57:15-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "7 kept comps. dropped 2 best-offer-accepted (117471704313 $95 Oct 20; 267760122089 $85 Aug 30). dropped 0 parts-only. Excluded non-units: 3 AD-1-iCM headset adapters (314882626110, 206496155920, 800374638474) and 2 unrelated HVAC 'Heil' ignition modules. 'Results matching fewer words' ignored. No outliers (all kept within 0.5x-1.5x of the median of the others). Note ledger has a separate thin entry 'HEIL HM-IC' (count 1, 2025-09-27) - different model name, not used.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629382",
+    "site": "eham",
+    "ask": 90.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 115.0,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237100418940",
+      "source": "ebay",
+      "notes": "Buy It Now; +$15.00 delivery. Title: HEIL ICM STUDIO MIC FOR ICOM IC 756 746 737 736",
+      "flags": []
+    },
+    {
+      "price": 57.0,
+      "sold_date": "2026-10-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298730668709",
+      "source": "ebay",
+      "notes": "Auction, 3 bids; +$7.72 delivery",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-09-24",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227405337574",
+      "source": "ebay",
+      "notes": "Buy It Now; +$7.72 delivery. Title: Heil ICM Microphone [NEW]",
+      "flags": []
+    },
+    {
+      "price": 84.95,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287580928187",
+      "source": "ebay",
+      "notes": "Buy It Now; +$7.53 delivery. Title: with CB-1 STAND, TESTED WORKING",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 99.0,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327345647316",
+      "source": "ebay",
+      "notes": "Buy It Now; +$6.87 delivery. Gold/Black for Icom radios",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407122885131",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not marked best offer accepted); free delivery. Title: for older Icom radio",
+      "flags": []
+    },
+    {
+      "price": 79.0,
+      "sold_date": "2026-08-27",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/206495768705",
+      "source": "ebay",
+      "notes": "Buy It Now; +$6.87 delivery. Title: Heil iCM-BG (matte black/gold grill) - never used; iCM-BG is the iCM in black/gold finish",
+      "flags": []
+    }
+  ]
+}
