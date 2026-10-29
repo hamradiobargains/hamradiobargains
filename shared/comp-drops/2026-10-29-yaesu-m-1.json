@@ -1,0 +1,22 @@
+{
+  "model": "YAESU M-1",
+  "slug": "yaesu-m-1",
+  "searched_at": "2026-10-29T19:14:00-04:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 481.0, count 6, ledger date 2026-10-12 — ledger hit — individual sales behind the median are not auditable from this file. Ad 1782353 (Yaesu M-1 Reference Microphone, \"excellent condition\", two mic cords, instruction sheets, directional cover; no box) asks $500 shipped to CONUS.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782353",
+    "site": "qth",
+    "ask": 500,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 481.0,
+    "low": 349.0,
+    "high": 563.17,
+    "count": 6,
+    "date": "2026-10-12"
+  }
+}
