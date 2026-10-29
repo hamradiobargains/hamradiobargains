@@ -1,0 +1,15 @@
+{
+  "model": "OptiBeam OB15-7",
+  "slug": "optibeam-ob15-7",
+  "searched_at": "2026-10-29T05:57:15-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - 0 qualifying comps. eBay: 0 results for exact query; only unrelated 'fewer words' matches shown. dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629373",
+    "site": "eham",
+    "ask": 4000.0,
+    "shipping": 0
+  },
+  "comps": []
+}
