@@ -1,0 +1,15 @@
+{
+  "model": "HENRY 2K5D",
+  "slug": "henry-2k5d",
+  "searched_at": "2026-10-28T21:15:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'henry 2k5d' (search 11 of 15): eBay reported 0 results; the loose matches on page 1 were unrelated (a 2KD-5 plate voltage meter, games, clothing). Not comped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783251",
+    "site": "qth",
+    "ask": 400,
+    "shipping": 0
+  },
+  "comps": []
+}
