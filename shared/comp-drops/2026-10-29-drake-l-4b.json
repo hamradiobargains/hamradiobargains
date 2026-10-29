@@ -1,0 +1,85 @@
+{
+  "model": "DRAKE L-4B",
+  "slug": "drake-l-4b",
+  "searched_at": "2026-10-29T19:03:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "7 kept comp(s), median 1299, low 750, high 1595. Dropped 2 best-offer-accepted (407311109452 $958.13, 267778125288 $950.00). Dropped 0 parts/as-is/read-description sales. Excluded (not the unit/identity): 327339219245 RF deck only, no power supply (auction $410.50 + ship); 237049521723 RF deck only ($375 + ship). Excluded as accessories/parts (not listed individually): manual, face plate, power-supply boards, L-4PS power supply alone, vernier parts. Ad 1783309: pickup only in Durant, Oklahoma, no shipping, $1000 cash firm. searched_at is approximate: eBay sold searches for this sweep ran one at a time, 15+ s apart, about 19:00-19:12 ET.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783309",
+    "site": "qth",
+    "ask": 1000,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1595.0,
+      "sold_date": "2026-10-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227577533313",
+      "source": "ebay",
+      "notes": "shipping +$219.95; amp + L-4PS + 2 Eimac 3-500Z tubes, manual, original boxes",
+      "flags": []
+    },
+    {
+      "price": 958.13,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407245658832",
+      "source": "ebay",
+      "notes": "shipping +$489.66; same title/price/shipping as 407311109452 (best-offer-accepted, dropped) - likely the same unit relisted",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1399.95,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/900002249096",
+      "source": "ebay",
+      "notes": "shipping +$124.66; title says Tested",
+      "flags": []
+    },
+    {
+      "price": 1399.95,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298743702259",
+      "source": "ebay",
+      "notes": "shipping +$124.66; identical title/price/shipping to 900002249096 (relist of same unit?); title says Tested",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198649092707",
+      "source": "ebay",
+      "notes": "auction final bid; auction final bid",
+      "flags": []
+    },
+    {
+      "price": 1299.0,
+      "sold_date": "2026-09-20",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/178456580572",
+      "source": "ebay",
+      "notes": "shipping +$32.38; title: Updated! See Description Below",
+      "flags": []
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318401160780",
+      "source": "ebay",
+      "notes": "shipping +$68.64; title: 2 Taylor 3-500Z tubes with Soft Start, Used",
+      "flags": [
+        "modified"
+      ]
+    }
+  ]
+}
