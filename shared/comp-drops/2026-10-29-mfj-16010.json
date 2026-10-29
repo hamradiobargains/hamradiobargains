@@ -1,0 +1,135 @@
+{
+  "model": "MFJ-16010",
+  "slug": "mfj-16010",
+  "searched_at": "2026-10-29T18:06:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "13 kept comps; dropped 3 best-offer-accepted; dropped 2 parts-only; excluded 1 manual and 1 bundle (MFJ-1270 TNC + MFJ-16010). Trigger and two comps say 'MFJ-16010 ST' - treated as the same model. Several comps share the title 'MFJ Enterprises Antenna Tuner Model MFJ-16010 Made in USA' at different prices - not flagged as duplicates. searched_at is approximate: the eBay sold searches for this run ran one at a time between about 17:57 and 18:05 ET.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/168825093273",
+    "site": "ebay",
+    "ask": 89.99,
+    "shipping": 9.99
+  },
+  "comps": [
+    {
+      "price": 40.0,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147612654289",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted); +$9.92 shipping; title \"Untested\"",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 79.0,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327409704633",
+      "source": "ebay",
+      "notes": "Buy It Now; +$6.91 shipping",
+      "flags": []
+    },
+    {
+      "price": 40.0,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366727550544",
+      "source": "ebay",
+      "notes": "Auction, 2 bids; +$8.55 shipping",
+      "flags": []
+    },
+    {
+      "price": 41.0,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327398314548",
+      "source": "ebay",
+      "notes": "Auction, 2 bids; +$9.99 shipping",
+      "flags": []
+    },
+    {
+      "price": 65.99,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287617281836",
+      "source": "ebay",
+      "notes": "Buy It Now; +$6.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 74.99,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128076502115",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping",
+      "flags": []
+    },
+    {
+      "price": 49.99,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366647113651",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted); +$6.87 shipping; title \"VTG ... Manual\"",
+      "flags": []
+    },
+    {
+      "price": 79.99,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188934257395",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted); +$12.50 shipping; title \"MFJ-16010 ST\"",
+      "flags": []
+    },
+    {
+      "price": 71.0,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178441656901",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted); free shipping",
+      "flags": []
+    },
+    {
+      "price": 75.0,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366640450370",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted); +$7.72 shipping; title \"MFJ-16010 ST SUPER ANTENNA TUNER\"",
+      "flags": []
+    },
+    {
+      "price": 65.0,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307141084376",
+      "source": "ebay",
+      "notes": "OBO listing (not best-offer-accepted); +$6.60 shipping",
+      "flags": []
+    },
+    {
+      "price": 43.0,
+      "sold_date": "2026-08-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278218959759",
+      "source": "ebay",
+      "notes": "Auction, 6 bids; +$5.68 shipping",
+      "flags": []
+    },
+    {
+      "price": 39.98,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206512887488",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; no shipping shown",
+      "flags": []
+    }
+  ]
+}
