@@ -1,0 +1,15 @@
+{
+  "model": "Lazer 1000 HF amplifier (100W PEP, 2-pill)",
+  "slug": "lazer-1000-hf-amplifier",
+  "searched_at": "2026-10-29T07:16:54-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1, signed in as Leo. 0 kept (thin). Dropped Best offer accepted: 0. Dropped parts/repair: 0. Dropped Read Description: 0. Excluded as not the unit/other model: 0. Search 'lazer 1000 amplifier': 26 page-1 results, all Keyence industrial laser sensors (not the unit); 0 qualifying comps.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783306",
+    "site": "qth",
+    "ask": 100,
+    "shipping": 0
+  },
+  "comps": []
+}
