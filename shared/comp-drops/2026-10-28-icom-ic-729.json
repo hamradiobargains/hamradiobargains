@@ -1,0 +1,15 @@
+{
+  "model": "ICOM IC-729",
+  "slug": "icom-ic-729",
+  "searched_at": "2026-10-28T21:15:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-729' (search 2 of 15): eBay returned a loose 322-result list of mostly unrelated Icom sales; the only IC-729 sale on page 1 was 366723050533 (sold 2026-10-09, $150.00 or Best Offer, Parts Only) which is dropped as parts-only (1 dropped). 0 comps kept. Not comped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783279",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": []
+}
