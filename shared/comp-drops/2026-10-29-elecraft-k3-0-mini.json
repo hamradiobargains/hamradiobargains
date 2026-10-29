@@ -1,0 +1,27 @@
+{
+  "model": "ELECRAFT K3/0 MINI",
+  "slug": "elecraft-k3-0-mini",
+  "searched_at": "2026-10-29T19:10:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "1 kept comp(s) - THIN (median 575). Dropped 0 best-offer-accepted. Dropped 0 parts/as-is/read-description sales. THIN (1 comp). The ledger entry for ELECRAFT K3/0 MINI (count 1, 2026-09-20) shows median 375.0; the same-date sale on this search page reads $575.00 (item 137755760888) - discrepancy noted, ledger not edited. searched_at is approximate: eBay sold searches for this sweep ran one at a time, 15+ s apart, about 19:00-19:12 ET.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783391",
+    "site": "qth",
+    "ask": 879,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 575.0,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137755760888",
+      "source": "ebay",
+      "notes": "shipping +$25.00; auction final bid; auction final bid; remote head #0041 sold with microphone",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
