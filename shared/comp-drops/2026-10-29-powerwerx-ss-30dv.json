@@ -1,0 +1,178 @@
+{
+  "model": "Powerwerx SS-30DV",
+  "slug": "powerwerx-ss-30dv",
+  "searched_at": "2026-10-29T07:16:38-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1, signed in as Leo. 18 kept, median $89.99. Dropped Best offer accepted: 7 (820246005893 $80.00, 257552823524 $98.99, 267775710096 $99.95, 257684909518 $60.00, 198550027479 $69.00, 198550025733 $99.00, 198552638626 $75.00). Dropped parts/repair: 0. Dropped Read Description: 0. Excluded as not the unit/other model: 2 (352048057802 $163.99, 158054716990 $150.00). Excluded 352048057802 (title shows no SS-30DV model, 30A desktop supply) and 158054716990 (bundle with Kenwood TK-860HG, BOA). Low-end sales 31.50/36.45/40.00/43.45 are listed as kept but may be flawed units; condition detail not read.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783304",
+    "site": "qth",
+    "ask": 100,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 89.99,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327356647315",
+      "source": "ebay",
+      "notes": "shipping shown: +$7.53 delivery; title: Powerwerx SS-30DV Switching Power Supp",
+      "flags": []
+    },
+    {
+      "price": 99,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377573339397",
+      "source": "ebay",
+      "notes": "shipping shown: +$9.93 delivery; or Best Offer (not marked accepted); title: Powerwerx SS-30DV 30A Switching DC Pow",
+      "flags": []
+    },
+    {
+      "price": 31.5,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/920058420228",
+      "source": "ebay",
+      "notes": "OUTLIER: below 0.5x median of other kept comps ($89.99); shipping shown: +$8.37 delivery; or Best Offer (not marked accepted); title: Powerwerx SS-30DV Switching Power Supp",
+      "flags": []
+    },
+    {
+      "price": 85,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188774005883",
+      "source": "ebay",
+      "notes": "shipping shown: +$15.94 delivery; title: Powerwerx SS-30DV Switching Power Supp",
+      "flags": []
+    },
+    {
+      "price": 100,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287644496102",
+      "source": "ebay",
+      "notes": "shipping shown: +$12.00 delivery; or Best Offer (not marked accepted); title: Powerwerx SS-30DV Switching Power Supp",
+      "flags": []
+    },
+    {
+      "price": 79,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267777767616",
+      "source": "ebay",
+      "notes": "shipping shown: +$25.00 delivery; title: Powerwerx SS-30DV Switching Power Supp",
+      "flags": []
+    },
+    {
+      "price": 89.99,
+      "sold_date": "2026-10-07",
+      "condition": "Open box",
+      "url": "https://www.ebay.com/itm/407235164891",
+      "source": "ebay",
+      "notes": "shipping shown: +$24.49 delivery; title: Powerwerx SS-30DV 30 Amp DC Power Supp",
+      "flags": []
+    },
+    {
+      "price": 92,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358787073696",
+      "source": "ebay",
+      "notes": "shipping shown: +$11.78 delivery; or Best Offer (not marked accepted); title: Powerwerx SS-30DV Switching Power Supp",
+      "flags": []
+    },
+    {
+      "price": 99,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307204526638",
+      "source": "ebay",
+      "notes": "shipping shown: +$8.11 delivery; or Best Offer (not marked accepted); title: Powerwerx SS-30DV 30 Amp Desktop DC Po",
+      "flags": []
+    },
+    {
+      "price": 89.99,
+      "sold_date": "2026-09-21",
+      "condition": "Open box",
+      "url": "https://www.ebay.com/itm/406924861502",
+      "source": "ebay",
+      "notes": "shipping shown: +$24.49 delivery; title: Powerwerx SS-30DV 30 Amp DC Power Supp",
+      "flags": []
+    },
+    {
+      "price": 40,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800619882798",
+      "source": "ebay",
+      "notes": "OUTLIER: below 0.5x median of other kept comps ($89.99); shipping shown: +$29.75 delivery; title: Powerwerx SS-30DV Switching Power Sup",
+      "flags": []
+    },
+    {
+      "price": 74,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178473187289",
+      "source": "ebay",
+      "notes": "shipping shown: +$17.94 delivery; title: Powerwerx SS30-DV Power Supply",
+      "flags": []
+    },
+    {
+      "price": 89.99,
+      "sold_date": "2026-08-17",
+      "condition": "not stated",
+      "url": "https://www.ebay.com/itm/236960752629",
+      "source": "ebay",
+      "notes": "shipping shown: Free delivery; title: Powerwerx SS-30DV 30 Amp Desktop DC Po",
+      "flags": []
+    },
+    {
+      "price": 36.45,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287507543054",
+      "source": "ebay",
+      "notes": "OUTLIER: below 0.5x median of other kept comps ($89.99); shipping shown: +$16.60 delivery; auction final bid; title: Powerwerx SS-30DV Switching Power",
+      "flags": []
+    },
+    {
+      "price": 85,
+      "sold_date": "2026-08-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198555071737",
+      "source": "ebay",
+      "notes": "shipping shown: Free delivery; or Best Offer (not marked accepted); title: LN Powerwerx SS-30DV Switching Power S",
+      "flags": []
+    },
+    {
+      "price": 103.99,
+      "sold_date": "2026-08-12",
+      "condition": "not stated",
+      "url": "https://www.ebay.com/itm/236943009021",
+      "source": "ebay",
+      "notes": "shipping shown: +$10.50 delivery; or Best Offer (not marked accepted); title: Powerwerx SS-30DV Switching Pow",
+      "flags": []
+    },
+    {
+      "price": 89.99,
+      "sold_date": "2026-08-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137573066175",
+      "source": "ebay",
+      "notes": "shipping shown: +$15.65 delivery; title: Powerwerx 30 Amp Switching DC Power S",
+      "flags": []
+    },
+    {
+      "price": 43.45,
+      "sold_date": "2026-08-10",
+      "condition": "not stated",
+      "url": "https://www.ebay.com/itm/158151333699",
+      "source": "ebay",
+      "notes": "OUTLIER: below 0.5x median of other kept comps ($89.99); shipping shown: Free delivery; auction final bid; title: Powerwerx SS-30DV 30A Desktop Switchin",
+      "flags": []
+    }
+  ]
+}
