@@ -1,0 +1,97 @@
+{
+  "model": "Ameritron ALS-600",
+  "slug": "ameritron-als-600",
+  "searched_at": "2026-10-30T17:34:19-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ameritron als-600', page 1 only, signed in as Leo. Kept 8. Dropped 3 best-offer-accepted (278422905842, 237000446817, 178356983060). Dropped 0 parts-only. Left out 2 power-supply-only sales (158310556449, 198597473566). Two kept comps are 'Amp Only' without the power supply (147560067478, 137649822604 - same title and shipping, possibly the same seller/unit relisted; not flagged since not certain). Three '10m mod' comps share an identical title (327361017630, 227401473869, 236996453801) and are flagged possible_duplicate and modified. OUTLIER: $620 (137649822604, amp only) vs ~$1,250 median for the rest. Trigger listing includes the matching PS. Shipping noted per comp, not added.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783625",
+    "site": "qth",
+    "ask": 1200.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1149.0,
+      "sold_date": "2026-10-23",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/880044086982",
+      "source": "ebay",
+      "notes": "Buy It Now; +$89.00 delivery; title: ALS-600 amp & ALS-600 SPS (power supply included)",
+      "flags": []
+    },
+    {
+      "price": 1599.95,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327361017630",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery; title: ... 120V - 10m mod. Same title and price as 227401473869 (and same title as 236996453801)",
+      "flags": [
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 705.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147560067478",
+      "source": "ebay",
+      "notes": "Auction, 7 bids; +$16.08 delivery; title: Amp Only (no power supply). Same title and shipping as 137649822604",
+      "flags": []
+    },
+    {
+      "price": 1599.95,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227401473869",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery; title: ... 120V - 10m mod. Same title and price as 327361017630 (and same title as 236996453801)",
+      "flags": [
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 620.0,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137649822604",
+      "source": "ebay",
+      "notes": "OUTLIER: $620 vs ~$1,250 median for the rest (amp only, no power supply). Auction, 3 bids; +$16.08 delivery; title: Amp Only (no power supply). Same title and shipping as 147560067478",
+      "flags": []
+    },
+    {
+      "price": 1250.0,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198585403384",
+      "source": "ebay",
+      "notes": "Buy It Now; +$98.50 delivery; title: + Switching PS + Manual (nice)",
+      "flags": []
+    },
+    {
+      "price": 1050.0,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236996453801",
+      "source": "ebay",
+      "notes": "Auction, 3 bids; +$75.00 delivery; title: ... 120V - 10m mod. Same title as 327361017630 and 227401473869",
+      "flags": [
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1499.0,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128015972568",
+      "source": "ebay",
+      "notes": "or Best Offer (no best-offer-accepted shown); free delivery",
+      "flags": []
+    }
+  ]
+}
