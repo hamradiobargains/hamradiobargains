@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-30",
+  "ran_at": "2026-10-30T17:53:42-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now filter, sorted newly listed, page 1 (60 items) only; signed in as Leo, no challenges. Window since previous ebay run 2026-10-29T17:53:20-04:00 (browse cards show no listing times; newest-first order used). None of the picked items were in dropped-urls.json. Seller rule: skipped ICOM IC-2100H 880066195465 (seller 91.7% positive, 80 ratings). Skipped Alpha 76 HF Amplifier 366772076722 (local pickup only, and item specifics say Model 'Ameritron AL-80B' - model identity unclear). Ledger: 0 hits; 8 misses -> 8 eBay sold searches (ledger has 'ICOM ID-5100' but not 'ICOM ID-5100A' - treated as a different model; TS-811A, FT-107M, FT-7100M, FTM-10R, IC-T90A, SP-767, DJ-G5 not in ledger). The ID-5100A sold search page was loaded a second time (after 17s) because the first read missed sales shown with a discounted 'was' price. Item descriptions not read. Not picked: parts-only units (Collins R-390 PS, Killer Bee DX-250, Hallicrafters SX-28/S-120, Icom IC-706 MK2G, Yaesu FT-102 x2, Palomar TX-150, EICO 710), auctions (Kenwood TS2000X, TS-700A, TS-940S, Bunnell key), commercial/non-ham (Kenwood VHF commercial base, Celwave duplexer, Harris amp, Linear DXS-23, SC-50 sat receiver, Ramsey FM-100), accessories/knobs/boards/manuals, unbranded/generic Chinese radios and modules (Xiegu-clone FX9B, uSDX, TM-281A clone, MMDVM), Realistic DX-302 (general SW receiver), and lower-value HTs (Alinco DJ-190, Kenwood TH-22AT, Icom IC-2SRA, RadioShack HTX-242) once the 8-candidate cap was reached.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/327430940472",
+      "site": "ebay",
+      "title": "Kenwood TS-811A UHF All-Mode Base Transceiver Includes rare TU-5 CTCSS #5120007",
+      "price": 369.95,
+      "shipping": 0,
+      "found_at": "2026-10-30",
+      "condition_notes": "Used. Seller notes: \"Very clean and works as it should.\" Includes TU-5 CTCSS. Free UPS Ground. Seller does not accept returns.",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "100% (2419 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/880065930556",
+      "site": "ebay",
+      "title": "Icom ID-5100A Dual-Band Digital/Analog Ham Radio Transceiver - SHIPS FREE!",
+      "price": 439.0,
+      "shipping": 0,
+      "found_at": "2026-10-30",
+      "condition_notes": "Used, no seller notes in specifics. Buy It Now or Best Offer. Free shipping. Seller does not accept returns.",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "100% (351 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/800856509113",
+      "site": "ebay",
+      "title": "YAESU FT-107M Solid State HF Transceiver - Working all bands - READ",
+      "price": 445.0,
+      "shipping": 66.4,
+      "found_at": "2026-10-30",
+      "condition_notes": "Used. Seller notes: \"Working fine all bands.\" Title says READ (description not read). 30-day returns, buyer pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (811 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/287692825497",
+      "site": "ebay",
+      "title": "YAESU FT-7100M VHF UHF TRANSCEIVER",
+      "price": 299.0,
+      "shipping": 18.0,
+      "found_at": "2026-10-30",
+      "condition_notes": "Used, no seller notes in specifics. Buy It Now or Best Offer. Seller does not accept returns.",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "100% (280 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/377608662876",
+      "site": "ebay",
+      "title": "Yaesu FTM-10R VHF/UHF Dual Band Transceiver Small Footprint for Motorcycle, ATV",
+      "price": 424.95,
+      "shipping": 0,
+      "found_at": "2026-10-30",
+      "condition_notes": "Condition listed as New. Free UPS Ground Saver. Buy It Now or Best Offer. Seller does not accept returns.",
+      "work_flag": "",
+      "seller_feedback": "100% (11720 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227590506605",
+      "site": "ebay",
+      "title": "ICOM IC-T90A Multiband Transceiver w/ (2) Ant, Charger & Instruction Manual Box",
+      "price": 139.95,
+      "shipping": 7.61,
+      "found_at": "2026-10-30",
+      "condition_notes": "Used. Includes 2 antennas, charger, manual, box. Buy It Now or Best Offer. Seller does not accept returns.",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "99.7% (2286 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227590434661",
+      "site": "ebay",
+      "title": "Yaesu SP-767 External Speaker with Audio Filters and Two Inputs Working @read@",
+      "price": 199.99,
+      "shipping": 0,
+      "found_at": "2026-10-30",
+      "condition_notes": "Used; title says Working and @read@ (description not read). Item specifics list brand as Kenwood though title says Yaesu SP-767. Free shipping; 30-day returns, seller pays.",
+      "work_flag": "",
+      "seller_feedback": "99.9% (7677 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/820297370350",
+      "site": "ebay",
+      "title": "Alinco DJ-G5 VHF UHF FM Transceiver Ham Radio Battery Base UNTESTED - No Cord",
+      "price": 59.99,
+      "shipping": 8.95,
+      "found_at": "2026-10-30",
+      "condition_notes": "Used. Seller notes: \"Pre-Owned Very Good Cosmetic Condition UNTESTED\". Title says \"Battery Base\" and \"No Cord\"; item specifics list Model Alinco DJ-G5, type Ham Radio Transceiver. Seller does not accept returns.",
+      "work_flag": "UNTESTED - No Cord; no returns on a used radio",
+      "seller_feedback": "100% (4929 ratings)"
+    }
+  ]
+}
