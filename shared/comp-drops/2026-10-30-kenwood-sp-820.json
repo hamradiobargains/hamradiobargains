@@ -1,0 +1,70 @@
+{
+  "model": "Kenwood SP-820",
+  "slug": "kenwood-sp-820",
+  "searched_at": "2026-10-30T05:57:52-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "9 sold results; 6 kept. dropped 2 best-offer-accepted (298702291804 $79.95, 366345443845 $60), dropped 1 parts-only (327386255242 $45 untested as-is). No outliers.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629393",
+    "site": "eham",
+    "ask": 130.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 85.0,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158027107402",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); +$15.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 75.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377450348122",
+      "source": "ebay",
+      "notes": "Buy It Now; +$26.43 shipping",
+      "flags": []
+    },
+    {
+      "price": 64.99,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307187964156",
+      "source": "ebay",
+      "notes": "Kenwood Trio SP-820; or Best Offer (not accepted); +$16.99 shipping",
+      "flags": []
+    },
+    {
+      "price": 49.0,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117392336753",
+      "source": "ebay",
+      "notes": "Buy It Now; +$12.53 shipping",
+      "flags": []
+    },
+    {
+      "price": 55.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178433802849",
+      "source": "ebay",
+      "notes": "auction, 1 bid; +$24.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 65.0,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227470599595",
+      "source": "ebay",
+      "notes": "Vintage Kenwood TRIO SP-820; Buy It Now; +$17.00 shipping",
+      "flags": []
+    }
+  ]
+}
