@@ -43,9 +43,9 @@
   "extraCost": 0.0,
   "pctBelow": 0.2568,
   "median": 1480.0,
-  "compCount": 9,
-  "compLow": 620.0,
-  "compHigh": 1599.95,
+  "compCount": 5,
+  "compLow": 1050.0,
+  "compHigh": 1500.0,
   "notes": "Includes power supply; plus shipping from 29730 (amount unstated). Local sale preferred."
  },
  {
@@ -80,11 +80,11 @@
   "link": "https://www.eham.net/classifieds/629186",
   "price": 1000,
   "extraCost": 0,
-  "pctBelow": 0.3329,
-  "median": 1499.0,
-  "compCount": 7,
+  "pctBelow": 0.3243,
+  "median": 1480.0,
+  "compCount": 5,
   "compLow": 1050.0,
-  "compHigh": 1599.95,
+  "compHigh": 1500.0,
   "notes": "$1,000, shipping not stated. With ALS-600SPS switching supply, AC cord, interface cable. Excellent, smoke-free per seller. 10/12m mod installed."
  },
  {
@@ -145,12 +145,12 @@
   "link": "https://swap.qth.com/view_ad.php?counter=1779509",
   "price": 950,
   "extraCost": 0,
-  "pctBelow": 0.3088,
-  "median": 1374.5,
-  "compCount": 8,
-  "compLow": 620,
-  "compHigh": 1599.95,
-  "notes": "$950 shipped in the continental US ($50 less if you meet for pickup). In very good operating condition, with the 10 meter option installed, and currently wired for 230 volts (can be changed to 120 volts). One honesty note: the ad title says ALS-600 while the body says ALS-600/S, so the exact variant wording is the seller's own - the fair value here is the ALS-600's, from 8 recorded sales. About the percentage: it's figured on the full $950 delivered price against the recorded sale prices behind the fair value, and those recorded prices don't include shipping - so if anything the comparison understates the deal."
+  "pctBelow": 0.3581,
+  "median": 1480.0,
+  "compCount": 5,
+  "compLow": 1050.0,
+  "compHigh": 1500.0,
+  "notes": "$950 shipped in the continental US ($50 less if you meet for pickup). In very good operating condition, with the 10 meter option installed, and currently wired for 230 volts (can be changed to 120 volts). One honesty note: the ad title says ALS-600 while the body says ALS-600/S, so the exact variant wording is the seller's own - the fair value here is the ALS-600's, from 5 recorded sales. About the percentage: it's figured on the full $950 delivered price against the recorded sale prices behind the fair value, and those recorded prices don't include shipping - so if anything the comparison understates the deal."
  },
  {
   "date": "2026-10-23",
