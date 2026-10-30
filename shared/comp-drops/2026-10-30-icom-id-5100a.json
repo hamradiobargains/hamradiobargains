@@ -1,0 +1,140 @@
+{
+  "model": "Icom ID-5100A",
+  "slug": "icom-id-5100a",
+  "searched_at": "2026-10-30T18:01:53-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Dropped 9 best-offer-accepted (820247418692, 189005847784, 327347197208, 168646260756, 137714380828, 327337375638, 227522101768, 206446674103, 287499327896). Dropped 3 parts-only (327407623993 'No Display No Power', 158237594189 'AS IS', 168616946986 'Parts Only' 2-radio lot which was also best-offer-accepted). Excluded accessories (cables, mics, manuals, separation cable, replacement part). Deluxe-titled units kept as same model with option_installed. Search page loaded twice (second read caught 111792631305, shown with a discounted price). Ledger has ICOM ID-5100 (no A) - not used. eBay sold searches run between 17:57 and 18:01 ET.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/880065930556",
+    "site": "ebay",
+    "ask": 439.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 435.0,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257819280479",
+      "source": "ebay",
+      "notes": "BIN; shipping $25.12; with Box",
+      "flags": []
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327414499766",
+      "source": "ebay",
+      "notes": "BIN; shipping $33.50; w/ Control Head Mic Cables",
+      "flags": []
+    },
+    {
+      "price": 475.0,
+      "sold_date": "2026-10-16",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227520108514",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted-offer); new, D-STAR GPS",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198685761299",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted-offer); shipping $14.00; with optional Bluetooth module, windshield mount and case",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 405.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206597401191",
+      "source": "ebay",
+      "notes": "auction 9 bids; shipping $12.17; title lists Bluetooth among features (option not confirmed)",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267788163901",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted-offer)",
+      "flags": []
+    },
+    {
+      "price": 354.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158278728018",
+      "source": "ebay",
+      "notes": "auction 22 bids; DELUXE in title",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 415.0,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327356775499",
+      "source": "ebay",
+      "notes": "BIN; shipping $10.12",
+      "flags": []
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327345349893",
+      "source": "ebay",
+      "notes": "BIN; shipping $10.95",
+      "flags": []
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117387199756",
+      "source": "ebay",
+      "notes": "BIN; shipping $14.07",
+      "flags": []
+    },
+    {
+      "price": 410.0,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336718754420",
+      "source": "ebay",
+      "notes": "auction 21 bids; shipping $17.15; GPS & mic",
+      "flags": []
+    },
+    {
+      "price": 499.99,
+      "sold_date": "2026-08-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198528851080",
+      "source": "ebay",
+      "notes": "BIN; shipping $20.00; GPS with mic",
+      "flags": []
+    },
+    {
+      "price": 629.95,
+      "sold_date": "2026-09-02",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/111792631305",
+      "source": "ebay",
+      "notes": "BIN (dealer; was $650.00); Deluxe, new from Icom dealer",
+      "flags": [
+        "option_installed"
+      ]
+    }
+  ]
+}
