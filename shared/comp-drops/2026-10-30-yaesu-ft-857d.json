@@ -1,0 +1,207 @@
+{
+  "model": "Yaesu FT-857D",
+  "slug": "yaesu-ft-857d",
+  "searched_at": "2026-10-30T17:34:19-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ft-857d', page 1 only, signed in as Leo. Kept 19 FT-857D sales. Dropped 6 best-offer-accepted (147536173115, 178418201436, 318704421607, 800769475599, 336729765982, 336748041447). Dropped 0 parts-only radios. Left out 4 listings titled plain 'FT-857' without the D (307254295203, 137744838827, 327325904165, 298621058358 - two of them were also best-offer-accepted) as model identity is uncertain; also left out accessories/parts (side rails, EQ, capacitor kits, LCD parts, separation kits, final PA parts units, programming software). Several kept comps are bundles with tuners/SignaLink/mics (flagged extras_included). No outliers. Shipping noted per comp, not added.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783617",
+    "site": "qth",
+    "ask": 600.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1080.0,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137860609812",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery; title: FT-857D Ham Radio Antenna MH-59 Microphone Bundle",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1049.0,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307169637195",
+      "source": "ebay",
+      "notes": "Buy It Now; +$150.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 1199.0,
+      "sold_date": "2026-10-11",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/820228946118",
+      "source": "ebay",
+      "notes": "Buy It Now; +$17.05 delivery; title: NIB ... Open Box No Manual",
+      "flags": []
+    },
+    {
+      "price": 899.95,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137793028478",
+      "source": "ebay",
+      "notes": "Buy It Now; +$17.95 delivery; title: w/ Tunerite Tuner & accessories",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2026-10-07",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/287620862786",
+      "source": "ebay",
+      "notes": "or Best Offer (no best-offer-accepted shown); +$34.13 delivery; title: AMP-3 TEC Pack Tactical Emergency Comms Setup - Yaesu FT-857D, LDG Tuner, & more",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 825.0,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257778711498",
+      "source": "ebay",
+      "notes": "or Best Offer (no best-offer-accepted shown); +$8.03 delivery",
+      "flags": []
+    },
+    {
+      "price": 899.95,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327370290547",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery; title: w/ accessories",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 810.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267775264972",
+      "source": "ebay",
+      "notes": "Buy It Now; +$23.76 delivery",
+      "flags": []
+    },
+    {
+      "price": 1299.95,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168654616529",
+      "source": "ebay",
+      "notes": "Buy It Now; +$14.92 delivery; title: In Box with YSK-857 Kit - MINT",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1099.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178471389295",
+      "source": "ebay",
+      "notes": "Buy It Now; +$46.06 delivery; title: plus LDG YT-100 Tuner, SignaLink and extras",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1199.99,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327318404993",
+      "source": "ebay",
+      "notes": "Buy It Now; +$99.99 delivery; title: In Box - WORKS",
+      "flags": []
+    },
+    {
+      "price": 1349.0,
+      "sold_date": "2026-08-09",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/158146371985",
+      "source": "ebay",
+      "notes": "Buy It Now; +$39.95 delivery; title: IN BOX ... Open Box",
+      "flags": []
+    },
+    {
+      "price": 1200.0,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358871371429",
+      "source": "ebay",
+      "notes": "or Best Offer (no best-offer-accepted shown); +$45.00 delivery; title: W/ DTMF Mic, Signallink, + EXTRAS",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377370176217",
+      "source": "ebay",
+      "notes": "Buy It Now; +$35.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 1149.0,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327290997817",
+      "source": "ebay",
+      "notes": "Buy It Now; +$9.00 delivery; title: W/ Mic/Speaker/Dash Mount/Manual",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1050.0,
+      "sold_date": "2026-08-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227449801404",
+      "source": "ebay",
+      "notes": "Buy It Now; +$36.25 delivery; title: in Nice shape working as it should",
+      "flags": []
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2026-08-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336722147427",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery",
+      "flags": []
+    },
+    {
+      "price": 1150.0,
+      "sold_date": "2026-08-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287480733280",
+      "source": "ebay",
+      "notes": "Auction, 62 bids; +$26.43 delivery; title: IN BOX ... No Reserve w Bonus",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-08-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318668554296",
+      "source": "ebay",
+      "notes": "or Best Offer (no best-offer-accepted shown); +$8.15 delivery; title: W/ DTMF Mic, Signallink, + EXTRAS",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
