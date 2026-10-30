@@ -1,0 +1,75 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-30",
+  "ran_at": "2026-10-30T05:53:19-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-29T05:57:15-04:00 (prior eham run). Browsed signed OUT ('Welcome Guest'); no Cloudflare challenge. Read public classifieds pages 1-2 only (DOM text via javascript); no individual ads opened, no search form, sold searches, or seller/callsign pages. New ads 629386-629399 (629397, 629398 not shown). Skipped: 629399 Icom UT-106 DSP module $110 (accessory board), 629396 SharkRF openSPOT 4 Pro $250 (hotspot), 629395 B&K 606 tube tester (test equipment), 629389 wanted ad, 629386 25 ft carbon mast (not branded antenna), 629387 OHR100A pair $165 shipped (2-unit lot, one stated parts/repair - not comparable to a single unit; over candidate cap). Comps: 1 ledger hit (Icom IC-706MKIIG); 5 eBay sold searches signed in as Leo, one at a time, no challenges.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629394",
+      "site": "eham",
+      "title": "Drake SW1 rcvr",
+      "price": 100.0,
+      "shipping": 0,
+      "found_at": "2026-10-30",
+      "condition_notes": "Seller: AM receiver in nice shape and works fine; 12V power supply included. $100 plus shipping (amount not stated).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629393",
+      "site": "eham",
+      "title": "FOR SALE: KENWOOD SP-820 SPEAKER CONSOLE",
+      "price": 130.0,
+      "shipping": 0,
+      "found_at": "2026-10-30",
+      "condition_notes": "From an SK estate; like-new; two receiver inputs (Spkr A/B), 3 filters; RCA cable included. $130 shipped CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629392",
+      "site": "eham",
+      "title": "Ameritron 811",
+      "price": 550.0,
+      "shipping": 0,
+      "found_at": "2026-10-30",
+      "condition_notes": "Title says only \"Ameritron 811\" (assumed AL-811; could be AL-811H - model not stated). Seller: like new, never got it to transmit at first; repair shop found tuning screws not tightened, now \"100% working\"; includes a replacement board (new) and 2 tubes; wired 120V. $550, buyer pays shipping (amount not stated) or pickup Woodland WA.",
+      "work_flag": "never got it to transmit ... it is 100% working",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629391",
+      "site": "eham",
+      "title": "Elecraft K3S/100 TRANSCEIVER # 11722 WOW !",
+      "price": 2895.0,
+      "shipping": 0,
+      "found_at": "2026-10-30",
+      "condition_notes": "K3S/100 #11722, $2895 delivered. Options: KPA3A 100W, KAT3A internal tuner, 2.8 upgrade SSB filter, 500 CW filter, KSYN3A, KIO3B, KXV3B; power cord included. Condition not described.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629390",
+      "site": "eham",
+      "title": "Icom 706 mk2g",
+      "price": 500.0,
+      "shipping": 0,
+      "found_at": "2026-10-30",
+      "condition_notes": "IC-706MKIIG, DSP + CW filter, VGC, \"works as should\". $500 plus shipping (amount not stated), Dallas TX. Separation kit available (extra).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629388",
+      "site": "eham",
+      "title": "FOR SALE: DENTRON SUPER TUNER PLUS",
+      "price": 175.0,
+      "shipping": 25.0,
+      "found_at": "2026-10-30",
+      "condition_notes": "From an SK estate; 1KW tuner, tested; coax/balanced/single-wire; manual copy included. $175 plus $25 shipping.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
