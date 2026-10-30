@@ -1,0 +1,63 @@
+{
+  "model": "Yaesu SP-767",
+  "slug": "yaesu-sp-767",
+  "searched_at": "2026-10-30T18:01:53-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "No best-offer-accepted or parts-only sales dropped. Prices split into two groups: fixed-price 'Working/Tested' sales ($180-$200) vs low auctions ($33-$50). OUTLIERS flagged: $179.99, $199.99, $33.00, $50.00. eBay sold searches run between 17:57 and 18:01 ET.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/227590434661",
+    "site": "ebay",
+    "ask": 199.99,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 179.99,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128158907128",
+      "source": "ebay",
+      "notes": "OUTLIER: $179.99 vs median ~$75.00 for the rest; BIN; shipping $40.00; title says Working",
+      "flags": []
+    },
+    {
+      "price": 199.99,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/187917977696",
+      "source": "ebay",
+      "notes": "OUTLIER: $199.99 vs median ~$75.00 for the rest; BIN; shipping $40.00; title says Tested",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-04-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/187929174188",
+      "source": "ebay",
+      "notes": "BIN; shipping $30.00",
+      "flags": []
+    },
+    {
+      "price": 33.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227540807234",
+      "source": "ebay",
+      "notes": "OUTLIER: $33.00 vs median ~$139.99 for the rest; auction 4 bids; shipping $15.41; title says UNTESTED",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 50.0,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257695169160",
+      "source": "ebay",
+      "notes": "OUTLIER: $50.00 vs median ~$139.99 for the rest; auction 1 bid; shipping $25.16",
+      "flags": []
+    }
+  ]
+}
