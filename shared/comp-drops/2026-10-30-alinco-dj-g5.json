@@ -1,0 +1,15 @@
+{
+  "model": "Alinco DJ-G5",
+  "slug": "alinco-dj-g5",
+  "searched_at": "2026-10-30T18:01:53-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "No qualifying sold comps on page 1 - only 1 result, an antenna accessory (265175570768), excluded. Thin - zero comps. eBay sold searches run between 17:57 and 18:01 ET.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/820297370350",
+    "site": "ebay",
+    "ask": 59.99,
+    "shipping": 8.95
+  },
+  "comps": []
+}
