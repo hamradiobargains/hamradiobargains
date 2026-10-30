@@ -1,3 +1,19 @@
 {
- "listings": []
+ "listings": [
+  {
+   "title": "Kenwood TS-590S",
+   "price": 749.99,
+   "extra": 25,
+   "median": 799.95,
+   "comp_count": 8,
+   "comp_low": 630,
+   "comp_high": 940,
+   "offer_low": 588,
+   "offer_high": 600,
+   "date": "2026-10-30",
+   "source": "eBay",
+   "url": "https://www.ebay.com/itm/407325171510",
+   "listed_since": "2026-10-29"
+  }
+ ]
 }
