@@ -1,0 +1,52 @@
+{
+  "model": "Yaesu FTM-10R",
+  "slug": "yaesu-ftm-10r",
+  "searched_at": "2026-10-30T18:01:53-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Dropped 3 parts-only (407188819985, 407162984049, 117356339880). Dropped 1 best-offer-accepted (298580455911). Wide spread in kept prices; trigger listing is condition New while all kept comps are Pre-Owned. OUTLIERS flagged: $59.00, $295.00, $189.95. eBay sold searches run between 17:57 and 18:01 ET.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/377608662876",
+    "site": "ebay",
+    "ask": 424.95,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 59.0,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880023197061",
+      "source": "ebay",
+      "notes": "OUTLIER: $59.00 vs median ~$189.95 for the rest; BIN; free shipping; title says Unit Only",
+      "flags": []
+    },
+    {
+      "price": 295.0,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/406953383549",
+      "source": "ebay",
+      "notes": "OUTLIER: $295.00 vs median ~$114.99 for the rest; BIN; shipping $19.70",
+      "flags": []
+    },
+    {
+      "price": 114.99,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407219324441",
+      "source": "ebay",
+      "notes": "or Best Offer listing, not an accepted offer; free shipping",
+      "flags": []
+    },
+    {
+      "price": 189.95,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237004637571",
+      "source": "ebay",
+      "notes": "OUTLIER: $189.95 vs median ~$114.99 for the rest; or Best Offer listing, not an accepted offer; shipping $21.00",
+      "flags": []
+    }
+  ]
+}
