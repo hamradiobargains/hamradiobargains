@@ -1,0 +1,36 @@
+{
+  "model": "Yaesu FT-107M",
+  "slug": "yaesu-ft-107m",
+  "searched_at": "2026-10-30T18:01:53-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Dropped 1 parts-only/best-offer-accepted (366572019725 'For Parts or Repair', best offer accepted). Excluded 1 board (NB unit PB-2007C). Thin - 2 comps. OUTLIERS flagged: $501.60. eBay sold searches run between 17:57 and 18:01 ET.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/800856509113",
+    "site": "ebay",
+    "ask": 445.0,
+    "shipping": 66.4
+  },
+  "comps": [
+    {
+      "price": 299.99,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227484409006",
+      "source": "ebay",
+      "notes": "BIN; shipping $27.11; title: 1980, Powers on w/Manual/ACCs",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 501.6,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128011050538",
+      "source": "ebay",
+      "notes": "OUTLIER: $501.60 vs median ~$299.99 for the rest; BIN; shipping $133.61; UK sale (FREE UK Post in title), title says Superb",
+      "flags": []
+    }
+  ]
+}
