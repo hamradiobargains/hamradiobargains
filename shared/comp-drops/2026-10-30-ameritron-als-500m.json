@@ -1,0 +1,83 @@
+{
+  "model": "Ameritron ALS-500M",
+  "slug": "ameritron-als-500m",
+  "searched_at": "2026-10-30T17:34:19-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ameritron als-500m', page 1 only, signed in as Leo. Kept 7. Dropped 2 best-offer-accepted (128021660154, 257647783958). Dropped 3 parts-only (128044647213, 278375716691, 407188833273). Left out 1 accessory (ALS-500RC remote, 158280983631). OUTLIER: $499 (278362483275) vs ~$1,000 median for the rest. Shipping noted per comp, not added.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783630",
+    "site": "qth",
+    "ask": 900.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 723.26,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206627808373",
+      "source": "ebay",
+      "notes": "Auction, 6 bids; +$125.30 delivery; title: with 10 Meter board",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407283412217",
+      "source": "ebay",
+      "notes": "or Best Offer (no best-offer-accepted shown); +$10.09 delivery; title: with cable, very good condition",
+      "flags": []
+    },
+    {
+      "price": 1199.99,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189006638609",
+      "source": "ebay",
+      "notes": "or Best Offer (no best-offer-accepted shown); +$49.99 delivery; title: w/ Module",
+      "flags": []
+    },
+    {
+      "price": 499.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278362483275",
+      "source": "ebay",
+      "notes": "OUTLIER: $499 vs ~$1,000 median for the rest. Buy It Now; +$21.82 delivery; title: TESTED and WORKING",
+      "flags": []
+    },
+    {
+      "price": 1195.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336775170667",
+      "source": "ebay",
+      "notes": "Buy It Now; +$14.92 delivery; title: ... Mobile Amplifier & Remote",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198594879906",
+      "source": "ebay",
+      "notes": "or Best Offer (no best-offer-accepted shown); free delivery",
+      "flags": []
+    },
+    {
+      "price": 1150.0,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158195248881",
+      "source": "ebay",
+      "notes": "Buy It Now; +$62.65 delivery",
+      "flags": []
+    }
+  ]
+}
