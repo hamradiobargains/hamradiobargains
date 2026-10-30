@@ -1,0 +1,27 @@
+{
+  "model": "Elecraft K3S",
+  "slug": "elecraft-k3s",
+  "searched_at": "2026-10-30T05:57:52-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — only 1 K3S transceiver sale on page 1 (64 results, mostly K3/K3S accessories, filters, options, speakers, P3; several Elecraft K3/100 sales excluded as a different model). The one comp is a K3S/100-F bundled with a P3 panadapter (P3 adds substantial value). Ledger had ELECRAFT K3S count 1 (2026-08-14), so ledger miss. dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629391",
+    "site": "eham",
+    "ask": 2895.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 3595.0,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137585247662",
+      "source": "ebay",
+      "notes": "K3S/100-F + P3 Panadapter package, \"Loaded, Gently Used\"; auction 3 bids; +$29.47 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
