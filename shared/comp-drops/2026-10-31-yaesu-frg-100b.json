@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FRG-100B",
+  "slug": "yaesu-frg-100b",
+  "searched_at": "2026-10-31T06:02:09-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - zero kept comps; eBay sold search for 'yaesu frg-100b' returned 0 results. Did not substitute FRG-100 (different model designation). Ledger miss: no entry.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629404",
+    "site": "eham",
+    "ask": 400.0,
+    "shipping": 0
+  },
+  "comps": []
+}
