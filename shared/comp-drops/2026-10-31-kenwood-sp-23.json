@@ -1,0 +1,133 @@
+{
+  "model": "Kenwood SP-23",
+  "slug": "kenwood-sp-23",
+  "searched_at": "2026-10-31T16:56:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood sp-23' page 1 (121 cards), signed in as Leo. Best offer accepted dropped (3): 860051290075 Oct 20 $110.00, 158257826532 Sep 19 $85.00, 366565464091 Aug 18 $74.80. Excluded: 175321076289 speaker cable $26.95; bundles 128096532214 (TS-570S + Heil mic + SP-23) and 178506319116 (TS-2000 station bundle); ICOM SP-23 speakers (different product) 237065322113, 960080717123, 117451188278; 2 unrelated non-radio rows. OUTLIER: 326783313531 ($133.90, Sep 24, +$53.55) is over 1.5x the median of the other kept comps; and 206408966516 is a new-in-box unit. OUTLIER item(s) flagged in comps: 206408966516, 326783313531. Run: daily extras sweep; searched_at is the time the file was written (searches ran earlier in this run, which started 16:44 ET).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783565",
+    "site": "qth",
+    "ask": 70,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 114.99,
+      "sold_date": "2026-10-09",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/206408966516",
+      "source": "ebay",
+      "notes": "OUTLIER: price over 1.5x the median (60.00) of the other kept comps; NEW in the box; shipping shown $7.99",
+      "flags": []
+    },
+    {
+      "price": 39.99,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227556186741",
+      "source": "ebay",
+      "notes": "Kenwood SP-23 Communications TRANSCEIVER Speaker Nice; shipping shown $18.70",
+      "flags": []
+    },
+    {
+      "price": 60.0,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128039546205",
+      "source": "ebay",
+      "notes": "shipping shown $8.95",
+      "flags": []
+    },
+    {
+      "price": 48.0,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227517238544",
+      "source": "ebay",
+      "notes": "shipping shown $18.70",
+      "flags": []
+    },
+    {
+      "price": 59.99,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327343892266",
+      "source": "ebay",
+      "notes": "in the original box per title; shipping shown $12.99",
+      "flags": []
+    },
+    {
+      "price": 60.0,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158233279873",
+      "source": "ebay",
+      "notes": "in the original box per title; shipping shown $10.09",
+      "flags": []
+    },
+    {
+      "price": 69.99,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206409017959",
+      "source": "ebay",
+      "notes": "or Best Offer, not marked accepted; shipping shown $7.99",
+      "flags": []
+    },
+    {
+      "price": 78.0,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227460847558",
+      "source": "ebay",
+      "notes": "shipping shown $20.65",
+      "flags": []
+    },
+    {
+      "price": 50.0,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358820631197",
+      "source": "ebay",
+      "notes": "or Best Offer, not marked accepted; shipping shown $7.13",
+      "flags": []
+    },
+    {
+      "price": 61.0,
+      "sold_date": "2026-08-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227454353095",
+      "source": "ebay",
+      "notes": "shipping shown $20.65",
+      "flags": []
+    },
+    {
+      "price": 49.99,
+      "sold_date": "2026-08-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327281995395",
+      "source": "ebay",
+      "notes": "shipping shown $20.65",
+      "flags": []
+    },
+    {
+      "price": 47.05,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800429299981",
+      "source": "ebay",
+      "notes": "ESTATE ... speaker in the original box per title; shipping shown $18.99",
+      "flags": []
+    },
+    {
+      "price": 133.9,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/326783313531",
+      "source": "ebay",
+      "notes": "OUTLIER: over 1.5x median of other kept comps; shipping shown $53.55",
+      "flags": []
+    }
+  ]
+}
