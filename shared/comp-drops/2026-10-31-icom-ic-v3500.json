@@ -1,0 +1,25 @@
+{
+  "model": "Icom IC-V3500",
+  "slug": "icom-ic-v3500",
+  "searched_at": "2026-10-31T16:56:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-v3500' page 1 (120 cards, 3 matches), signed in as Leo. THIN: 1 kept (Brand New). Best offer accepted dropped (1): 318404609849 Aug 11 $249.99 (NEW, +$9.99). Parts-only dropped (1): 237101011185 Oct 8 $37.00 (+$12.02). Existing ledger entry is a single 2026-01-20 sale. Run: daily extras sweep; searched_at is the time the file was written (searches ran earlier in this run, which started 16:44 ET).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783555",
+    "site": "qth",
+    "ask": 200,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 229.0,
+      "sold_date": "2026-10-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/286433965415",
+      "source": "ebay",
+      "notes": "Icom IC-V3500 65W 144MHz FM Mobile Transceiver; shipping shown $36.77",
+      "flags": []
+    }
+  ]
+}
