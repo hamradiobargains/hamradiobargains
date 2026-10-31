@@ -1,0 +1,34 @@
+{
+  "model": "Yaesu FT-890",
+  "slug": "yaesu-ft-890",
+  "searched_at": "2026-10-31T16:56:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ft-890' page 1 (129 cards, 14 title matches), signed in as Leo. THIN: 2 comps of the plain FT-890. FT-890AT (internal tuner) kept separate, not counted: 128028601043 Aug 16 $450.00 obo free delivery; 168593940901 Aug 7 $500.00 obo free delivery. Parts/repair dropped (1): 227474210612 Aug 23 $210.01 +$16.66 'Parts or Repair - Yaesu FT-890 ... w Mic'. Excluded accessories/parts (panels, TCXO-3, cables, bale, tuner, front-panel lot): 306674691973, 236722106445, 173745208630, 236722098091, 236722342660, 168621076707, 168584913097, 191618781548. Best offer accepted dropped: 0. The 920080827448 FT-8900R row is a different radio, ignored. Queued ad 1783544 is FOR PARTS OR REPAIR (no transmit), so working-unit comps overstate it. Run: daily extras sweep; searched_at is the time the file was written (searches ran earlier in this run, which started 16:44 ET).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783544",
+    "site": "qth",
+    "ask": 175,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 425.0,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820014161297",
+      "source": "ebay",
+      "notes": "Yaesu FT-890 HF HAM/GEN Transceiver AM FM SSB CW w/ LCD Screen; shipping shown $60.58",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278152349770",
+      "source": "ebay",
+      "notes": "Yaesu FT-890 HF Amateur Ham Radio Transceiver w Mic DC Cable Tested Wo...; or Best Offer, not marked accepted; shipping shown $19.99",
+      "flags": []
+    }
+  ]
+}
