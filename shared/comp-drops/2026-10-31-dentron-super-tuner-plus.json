@@ -1,0 +1,25 @@
+{
+  "model": "Dentron Super Tuner Plus",
+  "slug": "dentron-super-tuner-plus",
+  "searched_at": "2026-10-31T16:56:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'dentron super tuner plus' page 1 (12 cards), signed in as Leo. Only 1 listing titled exactly 'Super Tuner Plus' qualifies - THIN. Not kept because variant unclear (titled Dentron Super Tuner / 160-10AT, not 'Plus'; kept separate): 168790191919 Oct 13 $150.00 obo +$23.75; 298686408117 Sep 22 $119.00 +$14.21; 137732831224 Sep 18 $146.00 +$13.50; 137561070546 Aug 7 $120.00 obo +$26.43; 278266934170 Aug 16 $99.00 obo +$20.15; 198492206852 Aug 5 $120.00 obo +$32.50. Best offer accepted dropped (1): 237006306843 (Super Tuner 160-10AT, Sep 17, $127.49). Parts-only dropped (2): 800519184874 Aug 18 $85.00 (title 'Dentron Super Tuner Plus ... Estate Item', condition Parts Only), 336768584403 Sep 5 $74.00 (160-10 AT, untested). Operating manual excluded: 117397568880 $5.00. One unrelated Technics amplifier row ignored. Run: daily extras sweep; searched_at is the time the file was written (searches ran earlier in this run, which started 16:44 ET).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783458",
+    "site": "qth",
+    "ask": 175,
+    "shipping": 25
+  },
+  "comps": [
+    {
+      "price": 139.95,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298718437542",
+      "source": "ebay",
+      "notes": "listed or Best Offer, not marked accepted; shipping shown $23.14",
+      "flags": []
+    }
+  ]
+}
