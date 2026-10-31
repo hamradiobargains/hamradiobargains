@@ -1,0 +1,86 @@
+{
+  "run": "eham",
+  "run_date": "2026-10-31",
+  "ran_at": "2026-10-31T05:53:27-04:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-30T05:53:19-04:00 (prior eham run). Browsed signed OUT ('Welcome Guest'); no Cloudflare challenge. Read the public Summary View page 1 (newest first) and opened 7 individual ads, 25-30s apart; no search form, sold searches, or seller/callsign pages. New ads 629400-629418 (629399 and below covered by prior run; 629409, 629415 not shown). Skipped: 629418 Motorola SL3500E (commercial DMR), 629414 Heathkit IM-11 VTVM (test equipment), 629412 Anytone DMR mobile (model not given), 629410 three microphones (lot), 629408 complete satellite station (bundle), 629407 Yaesu FT-60R and 629401 'Yaesu FT-3185R' (over candidate cap; FT-3185R model name unclear), 629403 RF Applications P-3000 watt meter, 629402 Motorola XPR5550E (marked SOLD), 629400 computer interface, 629397 Icom FL-223 filter (accessory). Comps: 1 ledger hit (Icom IC-7100); 6 eBay sold searches signed in as Leo, one at a time, no challenges. FLEX-6400, FLEX-8400, MLA-1200 and FRG-100B returned zero exact-model sold comps.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629417",
+      "site": "eham",
+      "title": "Icom IC-730 w/SM6 mic",
+      "price": 275.0,
+      "shipping": 0,
+      "found_at": "2026-10-31",
+      "condition_notes": "Seller: excellent condition, works great; includes Icom SM6 desk mic, power cord and manual. $275 plus shipping (shipping amount not stated).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629416",
+      "site": "eham",
+      "title": "Flex 6400 with ATU",
+      "price": 1499.0,
+      "shipping": 36.0,
+      "found_at": "2026-10-31",
+      "condition_notes": "Seller: pristine, works perfectly, excellent condition, tested full power 6-160m, never mobile; ATU installed; includes mic and power cable. $1499 + $36 shipped CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629413",
+      "site": "eham",
+      "title": "Yaesu G-800 DXA Package",
+      "price": 365.0,
+      "shipping": 0,
+      "found_at": "2026-10-31",
+      "condition_notes": "G-800DXA rotor, controller, hardware, mast clamps, manual, original box. Both cable ends are on short pieces of cable. Up about 2 years. $365 plus shipping (amount not stated); PayPal fees added.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629411",
+      "site": "eham",
+      "title": "FOR SALE: DENTRON MLA 1200",
+      "price": 375.0,
+      "shipping": 85.0,
+      "found_at": "2026-10-31",
+      "condition_notes": "SK estate. Seller: excellent, tested on the air with excellent reports, 500-600W key down CW with 25-30W drive. External power supply; manual copy included. $375 plus $85 shipping, local pickup preferred.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629406",
+      "site": "eham",
+      "title": "ICOM 7100 - HF plus 6M and VHF plus UHF",
+      "price": 649.0,
+      "shipping": 39.5,
+      "found_at": "2026-10-31",
+      "condition_notes": "Seller: like new. $649 plus $39.50 shipping.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629405",
+      "site": "eham",
+      "title": "Flex 8400 with ATU and GPS",
+      "price": 2299.0,
+      "shipping": 0,
+      "found_at": "2026-10-31",
+      "condition_notes": "Seller: mint, unused, purchased last year; ATU and GPS; includes power cable, box, manual, mic, GPS antenna, Ethernet cable. $2299 shipped CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629404",
+      "site": "eham",
+      "title": "Yaesu FRG-100B HF Receiver",
+      "price": 400.0,
+      "shipping": 0,
+      "found_at": "2026-10-31",
+      "condition_notes": "Seller: clean, can't see a scratch, works 100%; memory and clock retained; includes 12 VDC power cord. Ad says 'Shipped to lower 48 only, $400' - unclear whether shipping is included.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
