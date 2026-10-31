@@ -1,0 +1,34 @@
+{
+  "model": "Palstar HF-AUTO",
+  "slug": "palstar-hf-auto",
+  "searched_at": "2026-10-31T16:56:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'palstar hf-auto' page 1 (120 cards, 5 Palstar HF-AUTO rows), signed in as Leo. THIN: 2 kept (1800W/1500W variants not distinguished in titles; kept as plain HF-AUTO). Best offer accepted dropped (2): 158236470003 Aug 31 $1,050.00 (+$69.49), 158197464873 Aug 30 $1,400.00. Excluded: HF-AUTO-R remote control 198577792082 ($349.99). LDG/MFJ tuners in results ignored. Queued ad 1783641 mentions 'Late 40K serial number'. Run: daily extras sweep; searched_at is the time the file was written (searches ran earlier in this run, which started 16:44 ET).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783641",
+    "site": "qth",
+    "ask": 1275,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1350.0,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206622851061",
+      "source": "ebay",
+      "notes": "Palstar HF-AUTO 1800W Automatic Antenna Tuner + Manual (excellent); shipping shown $92.95",
+      "flags": []
+    },
+    {
+      "price": 1298.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407205685634",
+      "source": "ebay",
+      "notes": "PALSTAR HF AUTO 1800 Watts Automatic Antenna Tuner/Base; shipping shown $23.55",
+      "flags": []
+    }
+  ]
+}
