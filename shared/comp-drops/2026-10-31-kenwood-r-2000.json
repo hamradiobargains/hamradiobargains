@@ -1,0 +1,22 @@
+{
+  "model": "Kenwood R-2000",
+  "slug": "kenwood-r-2000",
+  "searched_at": "2026-10-31T16:56:00-04:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 275.0, count 7, ledger date 2026-10-18 — ledger hit — individual sales behind the median are not auditable from this file. Note: ad offers optional YG-455C 500 Hz CW filter installed for +$100 (not in the ask).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783634",
+    "site": "qth",
+    "ask": 250,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 275.0,
+    "low": 150.0,
+    "high": 375.0,
+    "count": 7,
+    "date": "2026-10-18"
+  }
+}
