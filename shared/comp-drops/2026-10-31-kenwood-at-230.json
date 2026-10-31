@@ -1,0 +1,88 @@
+{
+  "model": "Kenwood AT-230",
+  "slug": "kenwood-at-230",
+  "searched_at": "2026-10-31T16:56:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood at-230' page 1 (122 cards, 15 matches), signed in as Leo. Best offer accepted dropped (3): 257749559671 Oct 13 $170.00, 128024766754 Aug 28 $149.00, 188827769260 Aug 21 $150.00. Parts-only dropped (3): 366736447746 Oct 22 $99.00 (needs parts, broken knob), 298559648019 Aug 31 $249.99 (condition Parts Only), 407169070550 Oct 29 $167.40 (condition Parts Only). Bundle excluded: 800457072622 Aug 9 $369.95 (AT-230 with SP-230 speaker). OUTLIER: 178529148905 ($83.00, Oct 2) is under 0.5x the median of the other kept comps; title ends '!!!LOOK!!!', condition not otherwise shown. OUTLIER item(s) flagged in comps: 178529148905. Run: daily extras sweep; searched_at is the time the file was written (searches ran earlier in this run, which started 16:44 ET).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783547",
+    "site": "qth",
+    "ask": 175,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 219.95,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298702255527",
+      "source": "ebay",
+      "notes": "or Best Offer, not marked accepted; shipping shown $24.13",
+      "flags": []
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206605560758",
+      "source": "ebay",
+      "notes": "very nice; shipping shown $40.24",
+      "flags": []
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278428994344",
+      "source": "ebay",
+      "notes": "orig box, tested and works; or Best Offer, not marked accepted; shipping shown $53.03",
+      "flags": []
+    },
+    {
+      "price": 83.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178529148905",
+      "source": "ebay",
+      "notes": "OUTLIER: price under 0.5x median of other kept comps; title 'WITH SWR METER. !!!LOOK!!!'; shipping shown $41.95",
+      "flags": []
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287601903916",
+      "source": "ebay",
+      "notes": "TRIO KENWOOD AT-230 with original packaging per title; shipping shown $10.95",
+      "flags": []
+    },
+    {
+      "price": 185.72,
+      "sold_date": "2026-09-10",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/136930048493",
+      "source": "ebay",
+      "notes": "Used TRIO KENWOOD AT-230; shipping shown $34.17",
+      "flags": []
+    },
+    {
+      "price": 189.99,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206420276804",
+      "source": "ebay",
+      "notes": "Trio Kenwood AT-230 Manual Antenna Tuner; or Best Offer, not marked accepted; shipping shown $30.00",
+      "flags": []
+    },
+    {
+      "price": 189.99,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206496096427",
+      "source": "ebay",
+      "notes": "Trio Kenwood AT 230 HF Antenna Tuner with Manual; shipping shown $45.97",
+      "flags": []
+    }
+  ]
+}
