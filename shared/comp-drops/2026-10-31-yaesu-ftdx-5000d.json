@@ -1,0 +1,27 @@
+{
+  "model": "Yaesu FTDX-5000D",
+  "slug": "yaesu-ftdx-5000d",
+  "searched_at": "2026-10-31T16:56:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ftdx-5000d' page 1 (46 cards), signed in as Leo. THIN: 1 sale titled FTDX-5000D (includes SM-5000 monitor, original box and manual - extras included; shipping not shown). FTDX-5000MP is a different/ledger model and was NOT counted: 206481360086 Sep 27 $3,105.00; 206564199819 Sep 28 $3,000.00; 336749595298 Aug 20 $4,250.00; 389087440544 Sep 4 $3,400.00; 287491714354 Aug 23 $3,099.95 (Best offer accepted, dropped). Parts-only dropped: 237082048003 Sep 21 $1,700.00 (FTDX5000MP Limited, Parts Only). XF-126S roofing filters, DMU-2000, OLED modules and EQ boxes excluded as accessories. Run: daily extras sweep; searched_at is the time the file was written (searches ran earlier in this run, which started 16:44 ET).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783613",
+    "site": "qth",
+    "ask": 2600,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 2995.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336745983613",
+      "source": "ebay",
+      "notes": "Yaesu ftdx5000D HF/6 Transceiver w/SM 5000 Monitor, Original Box & Manual; or Best Offer, not marked accepted; shipping not shown; no shipping charge shown (free delivery or not shown)",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
