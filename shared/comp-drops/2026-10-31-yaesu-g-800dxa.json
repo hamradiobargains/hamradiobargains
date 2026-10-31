@@ -1,0 +1,97 @@
+{
+  "model": "Yaesu G-800DXA",
+  "slug": "yaesu-g-800dxa",
+  "searched_at": "2026-10-31T06:02:09-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "9 kept comps, no outliers. Nearly all are Brand New (mostly Japan-import sellers) or Open Box - none used; trigger listing is used (up ~2 years). Dropped 2 best-offer-accepted (144791525135, 358867256867) and 1 parts-only (358867256867, same listing, also best-offer-accepted). Excluded 178498593017 (used, controller only, $179.10), 4 G-450ADC sales (different model), 2 40M-WP rotator cables. Ledger miss: no entry.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629413",
+    "site": "eham",
+    "ask": 365.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 397.0,
+      "sold_date": "2026-10-30",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/358865806518",
+      "source": "ebay",
+      "notes": "Buy It Now. +$50.00 shipping, includes import fees.",
+      "flags": []
+    },
+    {
+      "price": 389.8,
+      "sold_date": "2026-10-23",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/168625761181",
+      "source": "ebay",
+      "notes": "Buy It Now. +$100.00 shipping, includes import fees.",
+      "flags": []
+    },
+    {
+      "price": 463.89,
+      "sold_date": "2026-10-08",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227277427828",
+      "source": "ebay",
+      "notes": "Buy It Now. Free shipping, includes import fees. Title: rotor set, manual included.",
+      "flags": []
+    },
+    {
+      "price": 463.48,
+      "sold_date": "2026-09-14",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227400863611",
+      "source": "ebay",
+      "notes": "Buy It Now. +$71.25 shipping, includes import fees.",
+      "flags": []
+    },
+    {
+      "price": 470.0,
+      "sold_date": "2026-09-08",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/137711000017",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not shown as accepted). +$15.73 shipping. Title: 117 volt USA model.",
+      "flags": []
+    },
+    {
+      "price": 475.0,
+      "sold_date": "2026-09-07",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/237040996144",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not shown as accepted). +$22.74 shipping.",
+      "flags": []
+    },
+    {
+      "price": 436.99,
+      "sold_date": "2026-08-24",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/126038869936",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not shown as accepted). +$96.39 shipping, includes import fees.",
+      "flags": []
+    },
+    {
+      "price": 430.0,
+      "sold_date": "2026-08-18",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/405213717275",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not shown as accepted). +$89.00 shipping, includes import fees.",
+      "flags": []
+    },
+    {
+      "price": 479.94,
+      "sold_date": "2026-04-04",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/404945539497",
+      "source": "ebay",
+      "notes": "Buy It Now. Free shipping. Title: from Japan, new.",
+      "flags": []
+    }
+  ]
+}
