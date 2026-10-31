@@ -1,0 +1,69 @@
+{
+  "model": "Elecraft KX3",
+  "slug": "elecraft-kx3",
+  "searched_at": "2026-10-31T14:57:10-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (ELECRAFT KX3 not in comps.json). eBay sold search page 1 (signed in as Leo), no 'fewer words' section. 5 kept comps — solid set. Dropped 2 best-offer-accepted (KX3 Plus Accessories $1,490 Sep 11; KX3 PX3 lot $2,199.99 Aug 22). Dropped 1 parts-only (KX3 parts or repair $795 Aug 6). Excluded accessories (PX3 panadapters, amps, paddles, cases, cables). OUTLIERS: $1,845 (item 206513482928, with KXAT3/KXFL3/KXBC3) and $1,899.99 (item 117320128894, open box with MH3/KXPD3/KXUSB), each >1.5x the ~$1,228 median of the other kept comps. Trigger listing is a KX3-F with KXAT3/KXFL3/KXBC3 options.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783689",
+    "site": "qth",
+    "ask": 1200,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1130,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377575186393",
+      "source": "ebay",
+      "notes": "Title: 'Elecraft KX3 160-6M HF 6m All Mode QRP Ham Radio Transceiver w/ Stand'. Fixed price (or Best Offer, not accepted-offer). Shipping +$11.28.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1325,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147618771684",
+      "source": "ebay",
+      "notes": "Title: 'Elecraft KX3 Ham Radio Transceiver (excellent)'; listing line 'With ATU, Roofing Filter, Charger, 2M Transverter'. Auction, 8 bids. Shipping +$33.95.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1845,
+      "sold_date": "2026-10-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206513482928",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,845 vs ~$1,228 median of the other kept comps (>1.5x). Title: 'Elecraft KX3 Ham Radio Transceiver + KXAT3 + KXFL3 + KXBC3 + Manuals (excellent)'. Buy It Now. Shipping +$32.50.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1899.99,
+      "sold_date": "2026-10-10",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/117320128894",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,899.99 vs ~$1,228 median of the other kept comps (>1.5x). Title: 'Elecraft KX3 HF 160-6M QRP Transceiver MH3 KXPD3 Keyer KXUSB Ham Radio high perf'. Fixed price (or Best Offer, not accepted-offer). Shipping +$17.15.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1126,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198651230603",
+      "source": "ebay",
+      "notes": "Title: 'Elecraft KX3 Ham Radio Transceiver 160-6m All-Mode. Works Great. SN 11148'. Auction, 3 bids. Shipping +$25.00.",
+      "flags": []
+    }
+  ]
+}
