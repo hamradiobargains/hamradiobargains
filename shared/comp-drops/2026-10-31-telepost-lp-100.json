@@ -1,0 +1,25 @@
+{
+  "model": "Telepost LP-100",
+  "slug": "telepost-lp-100",
+  "searched_at": "2026-10-31T16:56:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'telepost lp-100' page 1 (120 cards, 17 title matches incl. unrelated Epiphone/Pokemon/Blu-ray rows), signed in as Leo. THIN: only 1 sale titled plain LP-100; LP-100A (the later model) kept separate and NOT counted: 840056434652 Oct 24 $650.00 obo +$20.00 ('LP-100A 5kW'); 880017750633 Oct 15 $570.00 +$24.93; 117379619699 Aug 27 $650.00 obo +$25.00 (Open Box). Queued ad says only 'Lp100' (model letter A not stated) - identity UNCERTAIN. Best offer accepted dropped (LP-100A, 4): 278304650490 $700.00, 117379631167 $468.00, 128022046024 $459.00, 128020222788 $489.00; BOA sensor-only 940033915537 $99.00 excluded (accessory). Parts-only dropped: 278323455177 Aug 29 $250.00 (LP-100A w/ sensor, also BOA). Run: daily extras sweep; searched_at is the time the file was written (searches ran earlier in this run, which started 16:44 ET).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783519",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 455.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147554600505",
+      "source": "ebay",
+      "notes": "TELEPOST LP-100 DIGITAL VECTOR RF WATT METER 1.8 - 54 MHz; shipping shown $12.99",
+      "flags": []
+    }
+  ]
+}
