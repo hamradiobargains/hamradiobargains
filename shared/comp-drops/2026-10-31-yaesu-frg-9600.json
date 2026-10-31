@@ -1,0 +1,54 @@
+{
+  "model": "Yaesu FRG-9600",
+  "slug": "yaesu-frg-9600",
+  "searched_at": "2026-10-31T16:56:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu frg-9600' page 1 (102 cards, 11 title matches), signed in as Leo. 4 kept (solid-ish, 3+). Best offer accepted dropped (3): 206661450670 Oct 30 $149.00 (free delivery), 407080716904 Sep 30 $144.99 (+$15.60), 406924504258 Aug 6 $121.13 (Parts Only, also BOA). Parts-only dropped (2): 406924504258 $121.13, 336807418699 Sep 22 $87.04 (+$83.31, 'For ...' parts). Excluded: manuals 227357402512 ($16.95), 135015209564 ($3.99); Kuranishi WA-965 amplifier 157489445587 ($105.91). OUTLIER: 188435030813 ($369.00 incl. manual/adapter, +$120.11 delivery) is over 1.5x the median of the other kept comps. OUTLIER item(s) flagged in comps: 198534042191, 188435030813, 366567570605. Run: daily extras sweep; searched_at is the time the file was written (searches ran earlier in this run, which started 16:44 ET).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783485",
+    "site": "qth",
+    "ask": 198,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 199.95,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168596632165",
+      "source": "ebay",
+      "notes": "No Power Adapter per title; or Best Offer, not marked accepted; shipping shown $19.95",
+      "flags": []
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198534042191",
+      "source": "ebay",
+      "notes": "OUTLIER: price over 1.5x the median (199.95) of the other kept comps; w/ Box Manual - WORKS per title; free delivery; no shipping charge shown (free delivery or not shown)",
+      "flags": []
+    },
+    {
+      "price": 369.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188435030813",
+      "source": "ebay",
+      "notes": "OUTLIER: over 1.5x median of other kept comps; Inc. Manual/Adapter; or Best Offer, not marked accepted; shipping shown $120.11",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 149.99,
+      "sold_date": "2026-08-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366567570605",
+      "source": "ebay",
+      "notes": "OUTLIER: price under 0.5x the median (300.00) of the other kept comps; Vintage ... Wide Band Receiver Scanner; or Best Offer, not marked accepted; shipping shown $16.99",
+      "flags": []
+    }
+  ]
+}
