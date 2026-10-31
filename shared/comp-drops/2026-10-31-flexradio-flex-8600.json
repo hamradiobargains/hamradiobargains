@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-8600",
+  "slug": "flexradio-flex-8600",
+  "searched_at": "2026-10-31T16:56:00-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'flexradio flex-8600' page 1 (120 cards), signed in as Leo. ZERO exact FLEX-8600 sold comps. Only nearby: 198511878650 FLEX-8600M Signature Series, Aug 2, $3,728.24 free delivery, Pre-Owned - the 8600M is a different radio (kept out per identity rule; shown here for reference only). Other results were FLEX-6400/6600/1500/SDR-1000, accessories and unrelated items. Run: daily extras sweep; searched_at is the time the file was written (searches ran earlier in this run, which started 16:44 ET).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783491",
+    "site": "qth",
+    "ask": 4250,
+    "shipping": 0
+  },
+  "comps": []
+}
