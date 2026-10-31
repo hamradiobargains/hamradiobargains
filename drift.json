@@ -1,15 +1,6 @@
 {
- "updated": "2026-10-30T12:53:08+00:00",
+ "updated": "2026-10-31T12:53:06+00:00",
  "models": {
-  "ELECRAFT KPA500": {
-   "display": "Elecraft KPA500",
-   "pct": -6.7,
-   "window": "6mo",
-   "recent_median": 2375.0,
-   "recent_count": 5,
-   "prior_median": 2545.0,
-   "prior_count": 6
-  },
   "ICOM IC-7100": {
    "display": "Icom IC-7100",
    "pct": -5.4,
@@ -30,12 +21,12 @@
   },
   "XIEGU G90": {
    "display": "Xiegu G90",
-   "pct": 1.2,
+   "pct": -0.3,
    "window": "3mo",
-   "recent_median": 379.49,
-   "recent_count": 24,
-   "prior_median": 375.0,
-   "prior_count": 9
+   "recent_median": 378.98,
+   "recent_count": 23,
+   "prior_median": 380.0,
+   "prior_count": 10
   },
   "XIEGU X6100": {
    "display": "Xiegu X6100",
@@ -48,12 +39,12 @@
   },
   "YAESU FT-710": {
    "display": "Yaesu FT-710",
-   "pct": 6.0,
+   "pct": 2.1,
    "window": "3mo",
-   "recent_median": 900.77,
-   "recent_count": 14,
-   "prior_median": 850.0,
-   "prior_count": 5
+   "recent_median": 890.0,
+   "recent_count": 13,
+   "prior_median": 872.0,
+   "prior_count": 6
   },
   "YAESU FT-857": {
    "display": "Yaesu FT-857",
