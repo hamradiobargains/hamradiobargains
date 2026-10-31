@@ -1,0 +1,22 @@
+{
+  "model": "Yaesu G-800DXA",
+  "slug": "yaesu-g-800dxa",
+  "searched_at": "2026-10-31T16:56:00-04:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 463.48, count 9, ledger date 2026-10-30 — ledger hit — individual sales behind the median are not auditable from this file. Caution: queued ad is a bundle (G-800DXA rotor + GC-038 mast clamp + DXE YRC-100PE 100 ft cable, controller-side connector cut), brand new; ledger comp is for the rotor alone.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783658",
+    "site": "qth",
+    "ask": 475,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 463.48,
+    "low": 389.8,
+    "high": 479.94,
+    "count": 9,
+    "date": "2026-10-30"
+  }
+}
