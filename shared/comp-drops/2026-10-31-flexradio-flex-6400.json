@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-6400",
+  "slug": "flexradio-flex-6400",
+  "searched_at": "2026-10-31T06:02:09-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - zero kept comps. Only page-1 sold result was a FLEX-6400M (206500829240, $2,400, Aug 25) - different model, excluded. Ledger miss: 'FLEXRADIO 6400' latest count 4 but dated 2026-09-29 (older than 30 days); 'FLEXRADIO FLEX-6400' latest count 2.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629416",
+    "site": "eham",
+    "ask": 1499.0,
+    "shipping": 36.0
+  },
+  "comps": []
+}
