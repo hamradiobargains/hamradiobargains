@@ -1,0 +1,218 @@
+{
+  "model": "Icom IC-705",
+  "slug": "icom-ic-705",
+  "searched_at": "2026-10-31T14:58:21-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (ICOM IC-705 latest 2026-09-29, older than 30 days). eBay sold search page 1 (signed in as Leo), 'Results matching fewer words' section ignored. 20 kept comps — solid set. Dropped 10 best-offer-accepted. Dropped 1 parts-only (IC-705 USB C modded, not working, $500 Aug 6). Excluded accessories (cases, amps, etc.). No outliers by the 0.5x/1.5x rule. One kept comp is a brand-new Japanese-market 100V unit with LC-192 backpack ($1,098.88, $225 shipping) — same model number, noted. Trigger listing includes a MAT-705 autotuner.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783679",
+    "site": "qth",
+    "ask": 1050,
+    "shipping": 28
+  },
+  "comps": [
+    {
+      "price": 936.17,
+      "sold_date": "2026-10-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880034839834",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-705 HF/VHF/UHF All Mode Portable QRP 5W/10W Transceiver'. Auction, 9 bids. Shipping +$14.60.",
+      "flags": []
+    },
+    {
+      "price": 1029.99,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840014633450",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-705 All Mode HF/VHF/UHF Portable Transceiver Radio w/ HM-243 Mic'. Fixed price (or Best Offer, not accepted-offer). Shipping +$20.00.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 982,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168705434161",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-705 HF/VHF/UHF D-STAR Portable Transceiver + Peovi Carry Cage Box'. Auction, 15 bids. Shipping free.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 975,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257781360637",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-705 D-Star Digital HF/50/144/440 2M/70CM 5W QRP Portable Ham Radio'. Buy It Now. Shipping +$25.00.",
+      "flags": []
+    },
+    {
+      "price": 975,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206568052811",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-705 D-Star Digital HF/50/144/440 2M/70CM 10W QRP Portable Ham Radio'. Auction, 1 bid. Shipping +$8.53.",
+      "flags": []
+    },
+    {
+      "price": 1098.88,
+      "sold_date": "2026-09-14",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/136757720544",
+      "source": "ebay",
+      "notes": "Title: 'IC-705 HF/50/144/430MHz 10W 100V JP New w/LC-192 Backpack & NTI-200 Unit'. Fixed price (or Best Offer, not accepted-offer); Japanese-market unit. Shipping +$225.00. Japanese-market 100V version; shipped from overseas.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 960,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168646757110",
+      "source": "ebay",
+      "notes": "Title: 'ICOM IC-705 with PORTABLE OPERATING KIT no reserve'. Auction, 2 bids. Shipping +$23.50.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1100,
+      "sold_date": "2026-09-12",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/267778072806",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-705 D-Star Digital HF/50/144/440 2M/70CM 5W QRP Portable Ham Radio'. Fixed price (or Best Offer, not accepted-offer). Shipping free.",
+      "flags": []
+    },
+    {
+      "price": 1099,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158230093735",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-705 VHF/UHF FM Ham Transceiver GPS LCD microSD w BP-307 Box'. Fixed price (or Best Offer, not accepted-offer). Shipping +$7.72.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1100,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178437677395",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-705 Ham Radio HF VHF UHF All-Mode Transceiver + Extras (US version)'. Buy It Now. Shipping +$29.50.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 999.99,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137651099215",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-705 HF/VHF/UHF All Mode Transceiver Ham Radio w/HM-243 Speaker Mic'. Buy It Now. Shipping +$44.74.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 850,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287527390625",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-705 HF/VHF/UHF Tri-Band All-Mode Ham Transceiver w/ LCD, AM/FM'. Auction, 5 bids. Shipping +$14.64.",
+      "flags": []
+    },
+    {
+      "price": 1100,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278295835024",
+      "source": "ebay",
+      "notes": "Title: 'ICOM IC-705 HF/50/144/430 MHz All Mode Portable Transceiver'. Buy It Now. Shipping free.",
+      "flags": []
+    },
+    {
+      "price": 999,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206436129295",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-705 HF/VHF/UHF All Mode Portable QRP 5W/10W Transceiver'. Fixed price (or Best Offer, not accepted-offer). Shipping free.",
+      "flags": []
+    },
+    {
+      "price": 1000,
+      "sold_date": "2026-08-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267753944194",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-705 HF/VHF/UHF Ham Radio SSB/CW/RTTY/AM/FM/DV Transceiver'. Buy It Now. Shipping free.",
+      "flags": []
+    },
+    {
+      "price": 930,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336717449941",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-705 HF/VHF/UHF Ham Radio SSB/CW/RTTY/AM/FM/DV Transceiver'. Auction, 16 bids. Shipping +$8.60.",
+      "flags": []
+    },
+    {
+      "price": 750,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307114738339",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-705 HF/VHF/UHF Ham Radio SSB/CW/RTTY/AM/FM/DV Transceiver with Extras'. Auction, 1 bid. Shipping free.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 990,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117339322436",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-705 HF/VHF/UHF All Mode Portable QRP 5W/10W Transceiver With Cage'. Buy It Now. Shipping +$11.71.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1175,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236966877438",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-705 HF/VHF/UHF Ham Radio SSB/CW/RTTY/AM/FM/DV Transceiver/Lots of extras'. Auction, 52 bids. Shipping +$7.86.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1473,
+      "sold_date": "2026-08-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117320047851",
+      "source": "ebay",
+      "notes": "Title: 'Icom IC-705 HF/VHF/UHF Ham Radio SSB/CW/RTTY/DV Transceiver + Elecraft AX1 + Bag'. Auction, 4 bids. Shipping +$23.75.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
