@@ -41,9 +41,9 @@
   "link": "https://swap.qth.com/view_ad.php?counter=1781787",
   "price": 1100.0,
   "extraCost": 0.0,
-  "pctBelow": 0.2568,
-  "median": 1480.0,
-  "compCount": 5,
+  "pctBelow": 0.12,
+  "median": 1250.0,
+  "compCount": 6,
   "compLow": 1050.0,
   "compHigh": 1500.0,
   "notes": "Includes power supply; plus shipping from 29730 (amount unstated). Local sale preferred."
@@ -80,9 +80,9 @@
   "link": "https://www.eham.net/classifieds/629186",
   "price": 800,
   "extraCost": 0,
-  "pctBelow": 0.4595,
-  "median": 1480.0,
-  "compCount": 5,
+  "pctBelow": 0.36,
+  "median": 1250.0,
+  "compCount": 6,
   "compLow": 1050.0,
   "compHigh": 1500.0,
   "notes": "$800, shipping not stated. With ALS-600SPS switching supply, AC cord, interface cable. Excellent, smoke-free per seller. 10/12m mod installed."
@@ -145,12 +145,12 @@
   "link": "https://swap.qth.com/view_ad.php?counter=1779509",
   "price": 950,
   "extraCost": 0,
-  "pctBelow": 0.3581,
-  "median": 1480.0,
-  "compCount": 5,
+  "pctBelow": 0.24,
+  "median": 1250.0,
+  "compCount": 6,
   "compLow": 1050.0,
   "compHigh": 1500.0,
-  "notes": "$950 shipped in the continental US ($50 less if you meet for pickup). In very good operating condition, with the 10 meter option installed, and currently wired for 230 volts (can be changed to 120 volts). One honesty note: the ad title says ALS-600 while the body says ALS-600/S, so the exact variant wording is the seller's own - the fair value here is the ALS-600's, from 5 recorded sales. About the percentage: it's figured on the full $950 delivered price against the recorded sale prices behind the fair value, and those recorded prices don't include shipping - so if anything the comparison understates the deal."
+  "notes": "$950 shipped in the continental US ($50 less if you meet for pickup). In very good operating condition, with the 10 meter option installed, and currently wired for 230 volts (can be changed to 120 volts). One honesty note: the ad title says ALS-600 while the body says ALS-600/S, so the exact variant wording is the seller's own - the fair value here is the ALS-600's, from 6 recorded sales. About the percentage: it's figured on the full $950 delivered price against the recorded sale prices behind the fair value, and those recorded prices don't include shipping - so if anything the comparison understates the deal."
  },
  {
   "date": "2026-10-23",
@@ -385,19 +385,6 @@
   "compLow": 750.0,
   "compHigh": 820.0,
   "notes": "Excellent condition from a silent key lot - seller says it seems barely used and has been checked. $600 shipped CONUS. About the 25.8%: the recorded sale prices behind the $775 fair value don't include shipping, so we back out about $25 freight from the $600 shipped price to compare price against price - $575 against $775. (On the full $600 it's 22.6%.) Optional YT-100 tuner available from the seller for +$80 with the radio - not figured into this price."
- },
- {
-  "date": "2026-10-30",
-  "item": "Ameritron ALS-500M Amplifier",
-  "link": "https://swap.qth.com/view_ad.php?counter=1783630",
-  "price": 900,
-  "extraCost": 0,
-  "pctBelow": 0.2887,
-  "median": 1195.0,
-  "compCount": 4,
-  "compLow": 850.0,
-  "compHigh": 1200.0,
-  "notes": "Like new, works as it should, with the factory 10 meter board installed, heavy duty cable and manual. $900 shipped and insured. About the 28.9%: the recorded sale prices behind the $1,195 fair value don't include shipping, so we back out about $50 freight from the $900 shipped price to compare price against price - $850 against $1,195. (On the full $900 it's 24.7%.) A power supply is available from the seller separately - not included and not figured into this price."
  },
  {
   "date": "2026-10-30",
