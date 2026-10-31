@@ -1,0 +1,25 @@
+{
+  "model": "Icom IC-751A",
+  "slug": "icom-ic-751a",
+  "searched_at": "2026-10-31T18:01:17-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - 1 kept comp. Dropped 6 best-offer-accepted unit sales (880026460397, 198691410867, 198676149974, 137616897877, 198561722138, 198559396994), dropped 0 parts-only units. Excluded parts/accessory sales (display unit, S-meter, RF transistors, PS-35 power supplies, covers, filter, knobs, cables, etc.). No outlier check possible with one comp.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/128166775682",
+    "site": "ebay",
+    "ask": 400.0,
+    "shipping": 9.96
+  },
+  "comps": [
+    {
+      "price": 556.88,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307239523731",
+      "source": "ebay",
+      "notes": "Shipping not specified on results page; title: Amateur Radio Transceiver Radio Stationary (10077)",
+      "flags": []
+    }
+  ]
+}
