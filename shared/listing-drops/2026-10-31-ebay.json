@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-10-31",
+  "ran_at": "2026-10-31T17:53:02-04:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now filter, sorted newly listed, page 1 (60 items) only; signed in as Leo, no challenges. Window since previous ebay run 2026-10-30T17:53:42-04:00 (browse cards show no listing times; newest-first order used). None of the picked items were in dropped-urls.json. All 8 picked sellers passed the feedback rule (3 of the 8 listings are from the same Japan-based seller, J's Market). Ledger: 1 hit (ICOM IC-7300, count 44, ledger date 2026-10-22); 7 misses -> 7 eBay sold searches (FTM-6000R, IC-751A, FT-101ZD, TM-941S, TM-732, Standard VX-8D, FT-2800M not in ledger). Item descriptions not read. Not picked: parts-only units (Yaesu FT-857 Parts Only $850, MFJ-949C, Uniden Washington CB, Icom IC-706 control head, Kenwood TM-231A), auctions mixed into the BIN filter (Yaesu FT-70DR, D&A Raider amp, Palomar 225), local-pickup unbranded Elkin amp, CB gear, accessories/parts/elements/filters, and lower-value or untested HTs/other gear (Yaesu FT-207R, FT-203R, FTC-1143 as-is, Alinco DJ-160T, AEA PK-232, RF Concepts RFC 2-23 amp, Drake T-4XB, Daiwa CNW-727, Standard VX-8, MFJ-872) once the 8-candidate cap was reached.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/237154650214",
+      "site": "ebay",
+      "title": "Icom IC-7300 HF/50MHz SDR Ham Radio Transceiver 100W – Tested & Working",
+      "price": 949.99,
+      "shipping": 32.84,
+      "found_at": "2026-10-31",
+      "condition_notes": "Used; title says Tested & Working; or Best Offer; ships from Union City, CA; no returns",
+      "work_flag": "seller does not accept returns",
+      "seller_feedback": "99% (1157 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/900054790757",
+      "site": "ebay",
+      "title": "Yaesu FTM-6000R 50W VHF/UHF mobile ham radio",
+      "price": 300.0,
+      "shipping": 16.75,
+      "found_at": "2026-10-31",
+      "condition_notes": "Used; or Best Offer; no returns",
+      "work_flag": "seller does not accept returns",
+      "seller_feedback": "100% (12 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/128166775682",
+      "site": "ebay",
+      "title": "Icom IC-751A HF Ham Transceiver VOX Split RIT AM/FM/CW/SSB/RTTY Mic Manuals",
+      "price": 400.0,
+      "shipping": 9.96,
+      "found_at": "2026-10-31",
+      "condition_notes": "Used; includes mic and manuals per title; or Best Offer; ships from Galt, CA; no returns",
+      "work_flag": "seller does not accept returns",
+      "seller_feedback": "100% (612 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/128166777036",
+      "site": "ebay",
+      "title": "Yaesu FT-101ZD HF Ham Radio Transceiver SSB/CW/AM 1.9-28MHz LCD",
+      "price": 400.0,
+      "shipping": 51.49,
+      "found_at": "2026-10-31",
+      "condition_notes": "Used; or Best Offer; ships from Galt, CA; no returns",
+      "work_flag": "seller does not accept returns",
+      "seller_feedback": "100% (612 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366774320438",
+      "site": "ebay",
+      "title": "KENWOOD TM-941S Triband Mobile Transceiver 50W 144/430/1200MHz White LED",
+      "price": 801.98,
+      "shipping": 110.0,
+      "found_at": "2026-10-31",
+      "condition_notes": "Used; Japanese-market TM-941S; title says White LED (likely backlight modification); ships from Japan; 30-day returns, buyer pays return shipping",
+      "work_flag": "",
+      "seller_feedback": "100% (236 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366774320672",
+      "site": "ebay",
+      "title": "KENWOOD TM-732 Dual Band Mobile Transceiver 145/430MHz 10W Amateur Radio FM",
+      "price": 385.59,
+      "shipping": 85.0,
+      "found_at": "2026-10-31",
+      "condition_notes": "Used; Japanese-market 10W TM-732 (not the US TM-732A); ships from Japan; 30-day returns, buyer pays return shipping",
+      "work_flag": "",
+      "seller_feedback": "100% (236 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366774300882",
+      "site": "ebay",
+      "title": "Standard VX-8D Tri-Band 50/144/430MHz Amateur Radio Handheld Transceiver",
+      "price": 589.53,
+      "shipping": 100.0,
+      "found_at": "2026-10-31",
+      "condition_notes": "Used; Japanese-market Standard-branded VX-8D; ships from Japan; 30-day returns, buyer pays return shipping",
+      "work_flag": "",
+      "seller_feedback": "100% (236 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/287694896349",
+      "site": "ebay",
+      "title": "Yaesu FT-2800M 144MHz VHF FM Ham Radio Transceiver 65W Tested Power Receive",
+      "price": 135.0,
+      "shipping": 8.09,
+      "found_at": "2026-10-31",
+      "condition_notes": "Used; title says tested power and receive only (transmit not stated); or Best Offer; ships from Winchester, TN; no returns",
+      "work_flag": "Tested Power Receive (transmit not stated); seller does not accept returns",
+      "seller_feedback": "100% (117 ratings)"
+    }
+  ]
+}
