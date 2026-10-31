@@ -1,0 +1,179 @@
+{
+  "model": "Yaesu FT-2800M",
+  "slug": "yaesu-ft-2800m",
+  "searched_at": "2026-10-31T18:01:17-04:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "17 kept comps (solid set). Dropped 5 best-offer-accepted unit sales and 5 parts-only unit sales (3 of the parts-only were also best-offer-accepted). OUTLIER flagged: $189 (MARS/CAP modded, 75W) vs ~$120 for the rest. Two kept comps with identical 'With mic Tested Lot 1' titles flagged possible_duplicate (336847535980, 267819016793). Excluded an FT-857 parts bundle that included an FT-2800M, and many mics/cables/accessories. Note: a parts-only sale on 2026-10-03 (800730996417, $45 best offer accepted) used the same title as the trigger listing ('...65W Tested Power Receive') - not confirmed to be the same seller or unit.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/287694896349",
+    "site": "ebay",
+    "ask": 135.0,
+    "shipping": 8.09
+  },
+  "comps": [
+    {
+      "price": 189.0,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206548832404",
+      "source": "ebay",
+      "notes": "OUTLIER: $189 vs ~$120 median for the rest (title says 75W MARS/CAP modded). Buy It Now; +$27.86 delivery; title: 75W - MARS/CAP Modded - Excellent Condition",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 129.0,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206625104990",
+      "source": "ebay",
+      "notes": "Buy It Now; +$16.43 delivery; title: w/Mic & Bracket",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206578558364",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted-offer); +$12.75 delivery; title: FT-2800 m FM Transceiver & Microphone",
+      "flags": []
+    },
+    {
+      "price": 99.0,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336847535980",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer); +$14.70 delivery; title: With mic Tested Lot 1 - same title as 267819016793",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 99.0,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267819016793",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery; title: With mic Tested Lot 1 - same title as 336847535980",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 99.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137744885319",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer); +$15.00 delivery; title: *UNIT ONLY*",
+      "flags": []
+    },
+    {
+      "price": 127.0,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168706182864",
+      "source": "ebay",
+      "notes": "Buy It Now; +$13.97 delivery; title: w/Mic & Bracket",
+      "flags": []
+    },
+    {
+      "price": 90.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800683086633",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer); +$20.15 delivery",
+      "flags": []
+    },
+    {
+      "price": 120.0,
+      "sold_date": "2026-09-16",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/278378710567",
+      "source": "ebay",
+      "notes": "Buy It Now; +$10.00 delivery; title: w/ Mic Bracket Box",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407217081966",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer); +$16.43 delivery",
+      "flags": []
+    },
+    {
+      "price": 135.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820098948464",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer); +$20.00 delivery; title: w/Mic",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206535579253",
+      "source": "ebay",
+      "notes": "Auction final bid (24 bids); +$25.00 delivery; title: Works very Well",
+      "flags": []
+    },
+    {
+      "price": 139.95,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237043697458",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer); +$8.08 delivery",
+      "flags": []
+    },
+    {
+      "price": 119.9,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128056623404",
+      "source": "ebay",
+      "notes": "Buy It Now; +$14.90 delivery; title: Tested & working w/ Accessories",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 117.5,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128040590863",
+      "source": "ebay",
+      "notes": "Auction final bid (8 bids); +$12.99 delivery; title: w/ Box Mic Manual",
+      "flags": []
+    },
+    {
+      "price": 120.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287550103584",
+      "source": "ebay",
+      "notes": "Buy It Now; +$13.85 delivery; title: Mic And Power Supply Works",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 135.0,
+      "sold_date": "2026-08-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168615627548",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer); +$13.21 delivery",
+      "flags": []
+    }
+  ]
+}
