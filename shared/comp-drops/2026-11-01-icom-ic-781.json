@@ -1,0 +1,15 @@
+{
+  "model": "Icom IC-781",
+  "slug": "icom-ic-781",
+  "searched_at": "2026-11-01T15:02:07-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "no usable comps — the only IC-781 transceiver sale on page 1 (item 206539778234, $1,100, Sep 10 2026, titled 'READ') is labeled Parts Only and was dropped. dropped 1 parts-only, dropped 0 best-offer-accepted. Other results were cables, boards, LCD kits, covers, speakers and batteries (excluded). Ledger miss (model not in comps.json).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783751",
+    "site": "qth",
+    "ask": 1100.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
