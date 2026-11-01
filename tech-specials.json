@@ -47,18 +47,6 @@
    "work_flag": "PLL unlock \u2014 the synthesizer loses lock and the transmitter shuts down (seller's words: 'unlocked PLL'). No mic included; manual and DC cord are.",
    "source": "QTH",
    "date": "2026-10-25"
-  },
-  {
-   "date": "2026-10-30",
-   "title": "Icom IC-706MKIIG (repair or parts)",
-   "url": "https://swap.qth.com/view_ad.php?counter=1782349",
-   "price": 230,
-   "extra": 0,
-   "pct_below": 62,
-   "median": 599.99,
-   "comp_count": 19,
-   "source": "QTH",
-   "work_flag": "Does NOT power up (seller: 'Got a slight click but no power up') \u2014 sold for parts or repair, without the DSP module or the SSB narrow filter. The $230 is shipped."
   }
  ]
 }
