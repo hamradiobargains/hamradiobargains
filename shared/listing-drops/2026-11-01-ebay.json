@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-01",
+  "ran_at": "2026-11-01T17:58:00-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now filter, sorted newly listed, page 1 (60 items) only; signed in as Leo, no challenges. Window since previous ebay run 2026-10-31T17:53:02-04:00 (browse cards show no listing times; newest-first order used, all page-1 items marked NEW LISTING). None of the picked items were in dropped-urls.json. All 8 picked sellers passed the feedback rule (2 of the 8 are from Japan-based seller J's Market). Ledger: 4 hits (ICOM IC-756PRO II, YAESU FTM-400XDR, ICOM IC-706MKII, KENWOOD TM-733A); 4 misses -> 4 eBay sold searches (IC-821D, MFJ-949E, IC-Z1A, FT-857DM not in ledger). Item descriptions not read (item-specifics/seller notes only). Not picked: parts-only lots (FT-102S meter, FT-101 boards/parts, FT-767GX board, Hallicrafters SX-111 parts, Luiton, Eimac tube, Hy-Gain 3806 board), CB/other gear (Lafayette Telsat SSB-140, President Washington, Gonset G-28, Realistic TRC-482C, Motorola Radius pair, Motorola repeater, Telewave duplexer, Decibel cavity, airband Icom IC-A120 / Yaesu FTA-850L, LoRa node, Standard SR730), accessories (Standard CTN115, Kenwood mic cable, Drake T-4XC cover/crystal, RIGblaster M8, Racal filter, EF Johnson LPF, MFJ-1270B/C TNCs, Heath HN-31 dummy load, MFJ-1704 switch), auctions mixed into the BIN filter (Kenwood R-1000, Yaesu FT-991), local-pickup Icom IC-7200 go box, and once the 8-candidate cap was reached: Yaesu VX-7R ($210, item link not readable from card), ICOM IC-1201 (modified), Standard C601, Untested ICOM IC-DPR100, Hammarlund SP-400-X / SP-200X / HQ-150, Gonset GSB-100, Heathkit GC-1A, AnyTone AT-D890UV, Wouxun KG-UV8D, Alinco DJ-F1T (untested/parts), Icom IC-R5.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/117498878695",
+      "site": "ebay",
+      "title": "Icom IC-756-PRO II Transceiver",
+      "price": 679.0,
+      "shipping": 30.91,
+      "found_at": "2026-11-01",
+      "condition_notes": "Used (eBay). Buy It Now or Best Offer. Item specifics model: ICOM IC756Pro II.",
+      "work_flag": "",
+      "seller_feedback": "100% (379 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366777015150",
+      "site": "ebay",
+      "title": "ICOM IC-821D Dual Band All Mode 50W 40W 144/430MHz Transceiver Tested Working",
+      "price": 764.8,
+      "shipping": 110.0,
+      "found_at": "2026-11-01",
+      "condition_notes": "Used (eBay); title says tested working. Japan-based seller (J's Market), SpeedPAK expedited shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (236 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/900057380309",
+      "site": "ebay",
+      "title": "Yaesu FTM-400XDR Ham Radio Dual-Band Mobile 144/430MHz Transceiver",
+      "price": 450.0,
+      "shipping": 12.02,
+      "found_at": "2026-11-01",
+      "condition_notes": "Used (eBay). Buy It Now or Best Offer.",
+      "work_flag": "",
+      "seller_feedback": "100% (943 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/237156344494",
+      "site": "ebay",
+      "title": "ICOM IC-706MKii comes with Mic and Power Cord",
+      "price": 575.0,
+      "shipping": 18.75,
+      "found_at": "2026-11-01",
+      "condition_notes": "Used (eBay). Includes mic and power cord. Seller notes: 'Unit is used in Good Working order But is Being sold \"As Parts not Working.\"' Buy It Now or Best Offer.",
+      "work_flag": "sold \"As Parts not Working\" (seller notes; also says used in good working order)",
+      "seller_feedback": "100% (735 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/237156347730",
+      "site": "ebay",
+      "title": "MFJ Deluxe Versa Tuner II Model MFJ-949E Ham Radio Antenna Tuner",
+      "price": 150.0,
+      "shipping": 17.15,
+      "found_at": "2026-11-01",
+      "condition_notes": "Used (eBay).",
+      "work_flag": "",
+      "seller_feedback": "100% (5520 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/940052532392",
+      "site": "ebay",
+      "title": "Kenwood TM-733A Dual Band 2M/440MHz FM Transceiver – Blue LED Upgrade very nice",
+      "price": 195.0,
+      "shipping": 21.0,
+      "found_at": "2026-11-01",
+      "condition_notes": "Used (eBay). Title: Blue LED upgrade (modified display lighting), 'very nice'.",
+      "work_flag": "",
+      "seller_feedback": "100% (4130 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/257829004663",
+      "site": "ebay",
+      "title": "Icom IC-Z1A Handheld Transceiver Ham Radio Transceiver",
+      "price": 240.0,
+      "shipping": 7.09,
+      "found_at": "2026-11-01",
+      "condition_notes": "Used (eBay). Buy It Now or Best Offer.",
+      "work_flag": "",
+      "seller_feedback": "100% (3530 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366777015167",
+      "site": "ebay",
+      "title": "Yaesu FT-857DM All Mode Transceiver HF 430MHz 50W Mobile Radio Latest Rod Model",
+      "price": 1014.42,
+      "shipping": 120.0,
+      "found_at": "2026-11-01",
+      "condition_notes": "Used (eBay). FT-857DM (50W Japanese-market variant, not the US FT-857D). Japan-based seller (J's Market), SpeedPAK expedited shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (236 ratings)"
+    }
+  ]
+}
