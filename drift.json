@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-31T12:53:06+00:00",
+ "updated": "2026-11-01T13:53:10+00:00",
  "models": {
   "ICOM IC-7100": {
    "display": "Icom IC-7100",
-   "pct": -5.4,
+   "pct": -4.5,
    "window": "6mo",
    "recent_median": 750.0,
    "recent_count": 11,
-   "prior_median": 792.5,
-   "prior_count": 6
+   "prior_median": 785.0,
+   "prior_count": 5
   },
   "KENWOOD TM-V71A": {
    "display": "Kenwood TM-V71A",
