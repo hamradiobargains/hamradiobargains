@@ -1,0 +1,25 @@
+{
+  "model": "Kenwood TS-480HX",
+  "slug": "kenwood-ts-480hx",
+  "searched_at": "2026-11-01T05:59:15-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - 1 kept comp. Dropped 0 best-offer-accepted, 0 parts-only among TS-480HX sales. Excluded as different/uncertain model: TS-480SAT sales and plain 'TS-480' titles that don't say HX (e.g. 800825930448 $660, Oct 29), plus cables/adapters. No outlier test possible with one comp. Two eHam TS-480HX listings with similar ad text (629425 and 629424, both $850 shipped); trigger is 629425. Ledger miss: 'KENWOOD TS-480HX' latest count 3 dated 2026-09-27 (older than 30 days).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629425",
+    "site": "eham",
+    "ask": 850.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 900.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237090391152",
+      "source": "ebay",
+      "notes": "Title: '160-6 METERS 100 OR 200 WATTS OUTPUT USED IN GOOD WORKING SHAPE'. Auction, 1 bid; +$14.57 delivery shown.",
+      "flags": []
+    }
+  ]
+}
