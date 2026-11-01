@@ -197,7 +197,7 @@ nav.tabs .badge{position:absolute;top:0;right:calc(50% - 21px);background:var(--
 
   <div style="text-align:center;margin:20px 0 2px"><button class="btn ghost shareBtn" type="button" style="padding:10px 20px">Send this app to a ham</button></div>
   <p class="foot">Fair values from recorded sales, gathered and kept by HamRadioBargains.com.<br>Buy right. Sell straight.</p>
-  <p class="foot" style="margin-top:6px;font-size:12px;opacity:.75">App version 12 · Oct 28, 2026</p>
+  <p class="foot" style="margin-top:6px;font-size:12px;opacity:.75">App version 13 · Nov 1, 2026</p>
 </main>
 
 <nav class="tabs">
@@ -388,7 +388,7 @@ function renderDeals(){
   var list = visible.filter(function(d){ return dealFilter === "all" || d.cat === dealFilter; });
   list.sort(function(a, b){ return (a.soldDate ? 1 : 0) - (b.soldDate ? 1 : 0) || b.pct - a.pct; });
   document.getElementById("dealList").innerHTML = list.length ? list.map(dealCard).join("") : '<p class="sub">Nothing in this category right now.</p>';
-  var top = dealsCache.filter(function(d){ return !d.soldDate; }).sort(function(a, b){ return b.pct - a.pct; }).slice(0, 3);
+  var top = dealsCache.filter(function(d){ return !d.soldDate && d.cat !== "tech"; }).sort(function(a, b){ return b.pct - a.pct; }).slice(0, 3);
   document.getElementById("homeDeals").innerHTML = top.length ? top.map(dealCard).join("") : '<p class="sub">Loading today\'s board…</p>';
   var counts = {deal: 0, tech: 0, second: 0, obo: 0};
   dealsCache.forEach(function(d){ if (!d.soldDate) counts[d.cat]++; });
