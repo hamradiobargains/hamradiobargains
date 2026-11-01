@@ -1,0 +1,335 @@
+{
+  "model": "MFJ MFJ-949E",
+  "slug": "mfj-949e",
+  "searched_at": "2026-11-01T17:56:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1, signed in as Leo, no challenge; no 'fewer words' section reached before the comps below. 35 kept comps. Dropped 5 best-offer-accepted (407318956673, 377285325898, 278329448586, 298629347742, plus 318904715981 which was also parts-only), dropped 2 parts-only (318904715981 'Untested Parts Repair Only', 366601399335 'Parts Only'). Left out: 2 MFJ-949D sales (different model; one was also best-offer-accepted), 3 accessories (DC power connectors/supply). Auction and fixed-price sales mixed. Outliers: MFJ-949E $169.99 (https://www.ebay.com/itm/206641498151) vs ~$110.75; MFJ-949E $48.51 (https://www.ebay.com/itm/800618737633) vs ~$115.75; MFJ-949E $169.00 (https://www.ebay.com/itm/128058261918) vs ~$110.75; MFJ-949E $179.95 (https://www.ebay.com/itm/327259658424) vs ~$110.75.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/237156347730",
+    "site": "ebay",
+    "ask": 150.0,
+    "shipping": 17.15
+  },
+  "comps": [
+    {
+      "price": 110.0,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307252836252",
+      "source": "ebay",
+      "notes": "auction 1 bid; shipping $10.00",
+      "flags": []
+    },
+    {
+      "price": 111.5,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287657303886",
+      "source": "ebay",
+      "notes": "auction 16 bids; shipping $14.24",
+      "flags": []
+    },
+    {
+      "price": 149.99,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880047825071",
+      "source": "ebay",
+      "notes": "title: TESTED, w/ SWR meter & dummy load; shipping $8.20",
+      "flags": []
+    },
+    {
+      "price": 149.99,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117481898018",
+      "source": "ebay",
+      "notes": "shipping $7.86",
+      "flags": []
+    },
+    {
+      "price": 169.99,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206641498151",
+      "source": "ebay",
+      "notes": "OUTLIER: $169.99 vs median ~$110.75 for the rest; title: with manual; shipping $21.01",
+      "flags": []
+    },
+    {
+      "price": 110.0,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267821938066",
+      "source": "ebay",
+      "notes": "shipping $13.00",
+      "flags": []
+    },
+    {
+      "price": 96.0,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327401770868",
+      "source": "ebay",
+      "notes": "auction 13 bids; shipping $11.13",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880019477594",
+      "source": "ebay",
+      "notes": "free shipping",
+      "flags": []
+    },
+    {
+      "price": 120.5,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287637747604",
+      "source": "ebay",
+      "notes": "auction 14 bids; shipping $17.75",
+      "flags": []
+    },
+    {
+      "price": 164.95,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227543812377",
+      "source": "ebay",
+      "notes": "free shipping",
+      "flags": []
+    },
+    {
+      "price": 149.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117430968521",
+      "source": "ebay",
+      "notes": "shipping $16.70",
+      "flags": []
+    },
+    {
+      "price": 91.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287625006082",
+      "source": "ebay",
+      "notes": "auction 5 bids; shipping $14.57",
+      "flags": []
+    },
+    {
+      "price": 90.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128098637507",
+      "source": "ebay",
+      "notes": "auction 3 bids; shipping $15.00",
+      "flags": []
+    },
+    {
+      "price": 149.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128084511360",
+      "source": "ebay",
+      "notes": "shipping $16.70",
+      "flags": []
+    },
+    {
+      "price": 120.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237086097971",
+      "source": "ebay",
+      "notes": "shipping $10.31",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198649070715",
+      "source": "ebay",
+      "notes": "shipping $37.40",
+      "flags": []
+    },
+    {
+      "price": 90.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327356755651",
+      "source": "ebay",
+      "notes": "shipping $12.00",
+      "flags": []
+    },
+    {
+      "price": 99.95,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298660142510",
+      "source": "ebay",
+      "notes": "shipping $18.85",
+      "flags": []
+    },
+    {
+      "price": 48.51,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800618737633",
+      "source": "ebay",
+      "notes": "OUTLIER: $48.51 vs median ~$115.75 for the rest; auction 4 bids; shipping $12.00",
+      "flags": []
+    },
+    {
+      "price": 169.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128058261918",
+      "source": "ebay",
+      "notes": "OUTLIER: $169.00 vs median ~$110.75 for the rest; title: + AC adapter; shipping $16.70",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 75.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257712601530",
+      "source": "ebay",
+      "notes": "shipping $22.05",
+      "flags": []
+    },
+    {
+      "price": 145.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267764499609",
+      "source": "ebay",
+      "notes": "title: excellent condition; shipping $19.00",
+      "flags": []
+    },
+    {
+      "price": 135.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227463674750",
+      "source": "ebay",
+      "notes": "title: tested; shipping $15.14",
+      "flags": []
+    },
+    {
+      "price": 140.0,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198587484458",
+      "source": "ebay",
+      "notes": "shipping $20.00",
+      "flags": []
+    },
+    {
+      "price": 110.0,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117359759828",
+      "source": "ebay",
+      "notes": "auction 1 bid; shipping $21.20",
+      "flags": []
+    },
+    {
+      "price": 135.0,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137644657874",
+      "source": "ebay",
+      "notes": "title: w/ box & AC adapter; shipping $28.96",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 179.95,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327259658424",
+      "source": "ebay",
+      "notes": "OUTLIER: $179.95 vs median ~$110.75 for the rest; free shipping",
+      "flags": []
+    },
+    {
+      "price": 74.99,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147502787856",
+      "source": "ebay",
+      "notes": "auction 2 bids; shipping $14.20",
+      "flags": []
+    },
+    {
+      "price": 109.99,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237010250546",
+      "source": "ebay",
+      "notes": "title: excellent working condition; free shipping",
+      "flags": []
+    },
+    {
+      "price": 149.99,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206412488189",
+      "source": "ebay",
+      "notes": "shipping $21.01",
+      "flags": []
+    },
+    {
+      "price": 80.0,
+      "sold_date": "2026-08-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117361087549",
+      "source": "ebay",
+      "notes": "shipping $16.60",
+      "flags": []
+    },
+    {
+      "price": 75.0,
+      "sold_date": "2026-08-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236992783896",
+      "source": "ebay",
+      "notes": "title: excellent working condition; shipping $13.15",
+      "flags": []
+    },
+    {
+      "price": 110.0,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128017059296",
+      "source": "ebay",
+      "notes": "auction 1 bid; shipping $7.80",
+      "flags": []
+    },
+    {
+      "price": 75.0,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236987276930",
+      "source": "ebay",
+      "notes": "title: excellent working condition; shipping $13.15",
+      "flags": []
+    },
+    {
+      "price": 61.0,
+      "sold_date": "2026-08-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206453279251",
+      "source": "ebay",
+      "notes": "auction 10 bids; shipping $7.51",
+      "flags": []
+    }
+  ]
+}
