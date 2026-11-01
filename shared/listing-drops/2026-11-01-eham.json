@@ -1,0 +1,86 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-01",
+  "ran_at": "2026-11-01T05:53:26-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-10-31T05:53:27-04:00 (prior eham run). Browsed signed OUT ('Welcome Guest'); no Cloudflare challenge. Read public classifieds page 1 (newest first, ads 629424-629437); clicking pagination/Summary View did not change the page, so instead opened the 5 uncovered individual ads 629419-629423 directly, 25-30s apart. No search form, sold searches, or seller/callsign pages. Removed ads skipped: 629423 Kenwood 480HX, 629421 Drake MN4 tuner. Not candidates / over cap: 629437 Icom RC-28 encoder (accessory), 629426 Icom RS-BA1 software, 629420 SharkRF M1KE hotspot, 629433 IC-705 with MAT-705 tuner (bundle), 629432 Yaesu FT-690 Mk2 (choice of amp/battery bundle, over cap), 629428 Hy-Gain EXP-14 + 40m kit (pickup only, $500 OBO, over cap). 629429-629431 and 629436 not shown on page 1. Comps: 2 ledger hits (Ameritron ALS-600, Icom IC-7300MK2); 4 eBay sold searches signed in as Leo, one at a time, no challenges. FLEX-6600M returned zero sold results.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629422",
+      "site": "eham",
+      "title": "Yaesu FTDX-101D- Perfect Condition",
+      "price": 2600.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-01",
+      "condition_notes": "Posted 2026-10-30. Seller: everything works perfectly, including external monitor DVI port. Includes mic, manual, power cord, Yaesu map and accessory bag. $2600 shipped; $2500 pickup/delivery within 200 mi of Council Bluffs, IA; PayPal add 3%.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629419",
+      "site": "eham",
+      "title": "Ameritron ALS 600 HF Amp",
+      "price": 1200.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-01",
+      "condition_notes": "Posted 2026-10-30. ALS-600 solid-state amp with matching power supply. Seller: working very well in every respect, cosmetics fair - a number of scratches and some dents on both cases. Manual copy included. $1150 local cash-n-carry (Denver CO) or $1200 plus actual shipping (amount not stated).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629435",
+      "site": "eham",
+      "title": "Flex 6400M w/ATU",
+      "price": 2049.0,
+      "shipping": 36.0,
+      "found_at": "2026-11-01",
+      "condition_notes": "Posted 2026-10-31. Seller: immaculate condition, fully tested; ATU; includes mic, power cable and powerpoles, CD and original cartons. $2049 + $36 shipped CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629434",
+      "site": "eham",
+      "title": "Flex 6600M w/ATU",
+      "price": 2799.0,
+      "shipping": 45.0,
+      "found_at": "2026-11-01",
+      "condition_notes": "Posted 2026-10-31. Seller: pristine, fully tested and works as it should; ATU; includes mic, power cable, Flex dust cover, Ethernet cable, paperwork, original box and shipping crate. Sold on behalf of the owner. $2799 + $45 shipped CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629427",
+      "site": "eham",
+      "title": "ICOM IC-7300MK2",
+      "price": 1250.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-01",
+      "condition_notes": "Posted 2026-10-30. Seller: mint, with everything from the original shipping box. Will consider trade for a Flex Maestro C. $1250 shipped CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629425",
+      "site": "eham",
+      "title": "KENWOOD 480HX",
+      "price": 850.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-01",
+      "condition_notes": "Posted 2026-10-30. 200W TS-480HX, was seller's base at a campground; includes IF tap for SDR panadapter, all paperwork, Heil Traveler headset. $850 including shipping to lower 48. Similar ad text to 629424 and removed ad 629423 (possibly same seller; seller hidden when logged out).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629424",
+      "site": "eham",
+      "title": "KENWOOD 480HX",
+      "price": 850.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-01",
+      "condition_notes": "Posted 2026-10-30. 200W TS-480HX, was seller's mobile; original box and included items, Heil headset adaptor and SignaLink, manuals. $850 including shipping to lower 48. Similar ad text to 629425 (possibly same seller, separate unit per the ad).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
