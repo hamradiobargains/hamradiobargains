@@ -1,0 +1,25 @@
+{
+  "model": "Elecraft K4D",
+  "slug": "elecraft-k4d",
+  "searched_at": "2026-11-01T15:02:07-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 1 qualifying sold comp on page 1. Excluded 1 accessory (K4D/SP4 dust cover). dropped 0 best-offer-accepted, dropped 0 parts-only. Ledger miss (model not in comps.json).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783769",
+    "site": "qth",
+    "ask": 6100.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 6900.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227506121621",
+      "source": "ebay",
+      "notes": "ELECRAFT K4D HF/50 MHz TRANSCEIVER; Buy It Now; +$59.00 delivery",
+      "flags": []
+    }
+  ]
+}
