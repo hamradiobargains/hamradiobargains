@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-6600M",
+  "slug": "flexradio-flex-6600m",
+  "searched_at": "2026-11-01T05:58:20-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - zero kept comps. eBay sold search 'flexradio flex-6600m' returned 0 exact results (only 'Results matching fewer words', ignored). Ledger miss: 'FLEXRADIO FLEX-6600M' latest count 2 dated 2026-09-13; 'FLEXRADIO 6600M' count 1 dated 2026-09-24.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629434",
+    "site": "eham",
+    "ask": 2799.0,
+    "shipping": 45.0
+  },
+  "comps": []
+}
