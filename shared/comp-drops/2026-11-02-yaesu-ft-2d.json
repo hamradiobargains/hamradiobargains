@@ -1,0 +1,25 @@
+{
+  "model": "Yaesu FT-2D",
+  "slug": "yaesu-ft-2d",
+  "searched_at": "2026-11-02T17:59:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 1 kept comp. Search 'Yaesu FT-2D' returned 9 sold results. Kept only titles naming FT-2D/FT2D without the R/E regional suffix. Excluded 5 FT2DR/FT-2DR sales as a different regional variant (US model) — model identity not certain equal: 117473584364 $155.50 auction, 117399335776 $179.99 auction, 178450606166 $155.07 auction, 257685150846 $225.00 'lot', 117388926261 'FT2DR FT2D' $180.00 (listed as both; excluded); 158168049030 FT-2DR was also best-offer-accepted. Dropped 2 best-offer-accepted FT-2D/FT2D sales (298668473890, 318720865961). Dropped 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366779629326",
+    "site": "ebay",
+    "ask": 406.6,
+    "shipping": 85.0
+  },
+  "comps": [
+    {
+      "price": 177.5,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117392155625",
+      "source": "ebay",
+      "notes": "Auction, 15 bids. +$20.44 shipping. Title: 'Yaesu FT-2D Digital C4FM/FM Handheld Transceiver Used'.",
+      "flags": []
+    }
+  ]
+}
