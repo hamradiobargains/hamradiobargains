@@ -1,0 +1,180 @@
+{
+  "model": "Kenwood TM-281A",
+  "slug": "kenwood-tm-281a",
+  "searched_at": "2026-11-01T19:14:11-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood tm-281a' (signed in as Leo), page 1: 36 sold rows above the fewer-words section; 18 kept, median 105.0, solid. Dropped: 4 best-offer-accepted (227476246671 $130 Aug 21, 800677955962 $110.99 Sep 17, 318625330631 $200 Aug 7, 366584038605 $80 Aug 5); 1 parts-only (880016859222 $95 Oct 22 'MISSING TRANSISTOR/FOR PARTS'); 1 bundle (880011397197 $229 Oct 13 'Complete Two Meter Base Station Kenwood TM-281A'); 12 import-style 'TM-281A FM Transceiver Mobile Radio Car Radio Station 136-174MHz 10-50KM' listings excluded because the item identity is not clearly the Kenwood-branded US unit (e.g. 227518040438 $174.96, 406322341157 $155, 406093427353 $155, 387093491406 $190.99, 186179057641 Feb 2024) - separate-model caution. OUTLIERS kept: 920067697832 ($20.00) and 237089296474 ($169.95). 0 Read Description. Ad wording (verbatim, mixed): '++ PENDING BILL ++ FOR SALE - Brand New Kenwood TS-281A [sic] 2 Meter FM Transceiver - Never hooked up ... has factory box - Mic - DC Power Cable - Instruction Manual - Did not come with the mounting bracket - will ship in ContUS for $145.00' (ad last edited 11/01/26). searched_at is the file-write time; the eBay searches ran earlier in the same sweep (2026-11-01 evening).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783662",
+    "site": "qth",
+    "ask": 145,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 20,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/920067697832",
+      "source": "ebay",
+      "notes": "shipping $29.09; OUTLIER: far below the other kept comps (< 0.5x median); auction, 1 bid; title 'w/ DTMF Mic Manual'; reason for low price not shown",
+      "flags": []
+    },
+    {
+      "price": 130,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880017750635",
+      "source": "ebay",
+      "notes": "shipping $18.23; fixed price; title: + bracket + mic (nice)",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 100,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237129457960",
+      "source": "ebay",
+      "notes": "shipping $10.24; fixed price",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257803138664",
+      "source": "ebay",
+      "notes": "shipping $0; fixed price; free shipping shown",
+      "flags": []
+    },
+    {
+      "price": 130,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128093491347",
+      "source": "ebay",
+      "notes": "shipping $8.18; no format shown on card",
+      "flags": []
+    },
+    {
+      "price": 100,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307209180549",
+      "source": "ebay",
+      "notes": "shipping $12.5; fixed price",
+      "flags": []
+    },
+    {
+      "price": 80,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189034912784",
+      "source": "ebay",
+      "notes": "shipping $11.31; fixed price",
+      "flags": []
+    },
+    {
+      "price": 169.95,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237089296474",
+      "source": "ebay",
+      "notes": "shipping $19.7; OUTLIER: > 1.5x median of the other kept comps; no format shown on card",
+      "flags": []
+    },
+    {
+      "price": 69.99,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198608045970",
+      "source": "ebay",
+      "notes": "shipping $11.35; fixed price",
+      "flags": []
+    },
+    {
+      "price": 139.95,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307198705410",
+      "source": "ebay",
+      "notes": "shipping $12.36; fixed price; title: w/ box",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398409256354",
+      "source": "ebay",
+      "notes": "shipping $12.99; title: TESTED",
+      "flags": []
+    },
+    {
+      "price": 135.9,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137726924315",
+      "source": "ebay",
+      "notes": "shipping $14.2; fixed price",
+      "flags": []
+    },
+    {
+      "price": 120,
+      "sold_date": "2026-09-02",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/206530245977",
+      "source": "ebay",
+      "notes": "shipping $11.99; condition shown as new; no format shown on card",
+      "flags": []
+    },
+    {
+      "price": 125,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128030025497",
+      "source": "ebay",
+      "notes": "shipping $10.09; no format shown on card",
+      "flags": []
+    },
+    {
+      "price": 91,
+      "sold_date": "2026-08-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227459441583",
+      "source": "ebay",
+      "notes": "shipping $11.28; auction, 8 bids, final bid",
+      "flags": []
+    },
+    {
+      "price": 110,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178357532914",
+      "source": "ebay",
+      "notes": "shipping $8.17; fixed price",
+      "flags": []
+    },
+    {
+      "price": 85,
+      "sold_date": "2026-08-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206470707689",
+      "source": "ebay",
+      "notes": "shipping $7.86; auction, 1 bid, final bid",
+      "flags": []
+    },
+    {
+      "price": 110,
+      "sold_date": "2026-08-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206441485327",
+      "source": "ebay",
+      "notes": "shipping $17.8; fixed price",
+      "flags": []
+    }
+  ]
+}
