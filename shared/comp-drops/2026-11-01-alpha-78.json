@@ -1,0 +1,15 @@
+{
+  "model": "Alpha 78",
+  "slug": "alpha-78",
+  "searched_at": "2026-11-01T19:14:11-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'alpha 78 amplifier' (signed in as Leo): ZERO qualifying comps. Only 2 sold rows, both parts: crowbar safety switch 267452543125 ($50.00 Aug 31) and ITT Jennings RJ1A vacuum relay 267465161621 ($150.00 Aug 24). Ad: 'Alpha 78 w/Eimac 3CX800A7s, Alpha 78 legal limit HF' - $1200 Ad wording verbatim: 'Works great. Looks beautiful. No scratches or dings. Very nice amp. No shipping. Includes spare bulbs for the meters. Can meet surrounding area.' (local pickup only; shipping 0 = not offered). searched_at is the file-write time; the eBay searches ran earlier in the same sweep (2026-11-01 evening).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783620",
+    "site": "qth",
+    "ask": 1200,
+    "shipping": 0
+  },
+  "comps": []
+}
