@@ -1,0 +1,34 @@
+{
+  "model": "Mirage D-3010",
+  "slug": "mirage-d-3010",
+  "searched_at": "2026-11-02T17:59:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 2 kept comps (search returned 2 sold results, titled 'D3010'). Dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/860106672233",
+    "site": "ebay",
+    "ask": 249.0,
+    "shipping": 29.44
+  },
+  "comps": [
+    {
+      "price": 179.95,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267804917427",
+      "source": "ebay",
+      "notes": "Fixed price. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298602996757",
+      "source": "ebay",
+      "notes": "Fixed price. Free shipping.",
+      "flags": []
+    }
+  ]
+}
