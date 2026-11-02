@@ -1,0 +1,116 @@
+{
+  "model": "Ameritron AL-811H",
+  "slug": "ameritron-al-811h",
+  "searched_at": "2026-11-02T14:59:18-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ameritron al-811h', page 1. Dropped 5 best-offer-accepted (960092170745, 128131719625, 188113211965, 227536091666, 307114722141), dropped 3 parts-only (377555818613, 278420260838, 158167458341). Three identical 'TESTED - FULLY FUNCTIONAL' $899.99 sales flagged possible_duplicate. Ledger miss: latest date 2026-10-01 older than 30 days. 10 kept comps, median $899.50.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783908",
+    "site": "qth",
+    "ask": 750.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 899.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278420227895",
+      "source": "ebay",
+      "notes": "Buy It Now. 'TESTED and WORKING with BOX S#22199'. +$99.23 delivery.",
+      "flags": []
+    },
+    {
+      "price": 899.0,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287592917770",
+      "source": "ebay",
+      "notes": "Buy It Now. 'TESTED and WORKING S#28290'. +$33.33 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1149.95,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327323090497",
+      "source": "ebay",
+      "notes": "Buy It Now. With manual. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 899.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298609752960",
+      "source": "ebay",
+      "notes": "Buy It Now. 'with 10m mod'. +$79.18 delivery.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 899.99,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407190444313",
+      "source": "ebay",
+      "notes": "Buy It Now. 'TESTED - FULLY FUNCTIONAL'. Free delivery. Identical title/price to items 407172106811 and 407151887315 (could be a relisted unit or a dealer with several).",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 899.99,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407172106811",
+      "source": "ebay",
+      "notes": "Buy It Now. 'TESTED - FULLY FUNCTIONAL'. Free delivery. Identical title/price to items 407190444313 and 407151887315.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 899.99,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407151887315",
+      "source": "ebay",
+      "notes": "Buy It Now. 'TESTED - FULLY FUNCTIONAL'. Free delivery. Identical title/price to items 407190444313 and 407172106811.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800531139575",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted). Includes ARB-704 interface. +$80.00 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 849.95,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267741615286",
+      "source": "ebay",
+      "notes": "Buy It Now. 'Tested Working'. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188714561270",
+      "source": "ebay",
+      "notes": "Buy It Now. +$28.92 delivery.",
+      "flags": []
+    }
+  ]
+}
