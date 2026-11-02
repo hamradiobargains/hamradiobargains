@@ -1,0 +1,15 @@
+{
+  "model": "DEMI 432-28 Transverter",
+  "slug": "demi-432-28-transverter",
+  "searched_at": "2026-11-01T19:14:11-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'demi 432-28 transverter' (signed in as Leo): ZERO sold rows above the fewer-words section; no comps. Ad wording verbatim: 'DEMI 432-28 Transverter 25 watts, with internal DIGILO synthesizer and built in Sequencer ... Unit was utilized at N4SVC club station. $350 sipped CON USA [sic]. Pay-Pal, check, or money order.' (shipped CONUS, included in $350) searched_at is the file-write time; the eBay searches ran earlier in the same sweep (2026-11-01 evening).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783626",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": []
+}
