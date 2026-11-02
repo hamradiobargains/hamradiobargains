@@ -1,0 +1,34 @@
+{
+  "model": "RM Italy BLA350 Plus",
+  "slug": "rm-italy-bla350-plus",
+  "searched_at": "2026-11-01T19:14:11-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'rm italy bla350 plus' (signed in as Leo), page 1: 2 sold rows, both kept, median 472.5 - THIN (2 comps). 0 best-offer-accepted, 0 parts, 0 Read Description, no outliers. Ad: 'RM Italy BLA350 Plus ... used with a Hermes Lite 2 Plus ... 120VAC version ... $740 shipped CONUS. I accept PayPal only with 3% fees.' Ledger had the same two sales (count 2, 2026-09-13). searched_at is the file-write time; the eBay searches ran earlier in the same sweep (2026-11-01 evening).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783592",
+    "site": "qth",
+    "ask": 740,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 460,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206521652956",
+      "source": "ebay",
+      "notes": "shipping $0; auction, 16 bids, final bid; 120V 300W; free shipping shown",
+      "flags": []
+    },
+    {
+      "price": 485,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198537684766",
+      "source": "ebay",
+      "notes": "shipping $0; auction, 35 bids, final bid; free shipping shown",
+      "flags": []
+    }
+  ]
+}
