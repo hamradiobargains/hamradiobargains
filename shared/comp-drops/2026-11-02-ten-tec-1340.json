@@ -1,0 +1,52 @@
+{
+  "model": "TEN-TEC 1340",
+  "slug": "ten-tec-1340",
+  "searched_at": "2026-11-02T17:59:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "4 kept comps (solid). Dropped 1 best-offer-accepted (287611950547, $94.95). Dropped 0 parts-only. 'T-Kit 1340' titles are the same model (1340 was sold as a T-Kit). No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/800868711760",
+    "site": "ebay",
+    "ask": 125.0,
+    "shipping": 14.67
+  },
+  "comps": [
+    {
+      "price": 134.96,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137357274485",
+      "source": "ebay",
+      "notes": "Fixed price, sold at $134.96 (eBay showed struck-through $149.95). +$14.88 shipping.",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960101208871",
+      "source": "ebay",
+      "notes": "Fixed price. +$15.00 shipping.",
+      "flags": []
+    },
+    {
+      "price": 109.5,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117449333179",
+      "source": "ebay",
+      "notes": "Auction, 14 bids. +$15.00 shipping.",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236984851328",
+      "source": "ebay",
+      "notes": "Fixed price. +$15.00 shipping.",
+      "flags": []
+    }
+  ]
+}
