@@ -1,0 +1,25 @@
+{
+  "model": "FlexRadio FLEX-6500",
+  "slug": "flexradio-flex-6500",
+  "searched_at": "2026-11-02T14:59:18-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'flexradio flex-6500', page 1, exact-match section only. Thin: only 1 exact-match sold result (rest were 'fewer words' matches: FLEX-1500, 6600M etc., ignored). Dropped 0 best-offer-accepted, 0 parts-only. Ledger miss: count 2. 1 kept comps, median $2,223.04.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783850",
+    "site": "qth",
+    "ask": 1000.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 2223.04,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147612986909",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Title: FlexRadio FLEX-6500 HF/6m SDR Transceiver - Boxed - SmartSDR v4.2.2. Located in United Kingdom; +$189.44 shipping estimate; import fees at checkout.",
+      "flags": []
+    }
+  ]
+}
