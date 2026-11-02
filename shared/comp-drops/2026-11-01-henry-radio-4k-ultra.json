@@ -1,0 +1,15 @@
+{
+  "model": "Henry Radio 4K Ultra",
+  "slug": "henry-radio-4k-ultra",
+  "searched_at": "2026-11-01T19:14:11-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold searches (2 used: 'henry 4k ultra' returned only 4K Ultra HD Blu-ray movies; re-run as 'henry radio 4k ultra amplifier', signed in as Leo): ZERO qualifying comps. Only related sold row: 168118532975 'Henry Radio 4 K Ultra Amplifier Parts Doorknob HV Capacitors Lot' $45.00 Oct 13 (parts lot, excluded). Ad wording: 'Henry 4K Ultra Amplifier Easy legal limit on the low tap, 3KW on the high. You make shipping arrangements. I can deliver in the Anchorage area. Alaska airlines freight is pretty reasonable anywhere they fly...' $3,500 (shipping buyer-arranged, recorded as 0 in trigger_listing = unknown). searched_at is the file-write time; the eBay searches ran earlier in the same sweep (2026-11-01 evening).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783638",
+    "site": "qth",
+    "ask": 3500,
+    "shipping": 0
+  },
+  "comps": []
+}
