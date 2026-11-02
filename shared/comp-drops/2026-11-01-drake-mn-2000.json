@@ -1,0 +1,135 @@
+{
+  "model": "Drake MN-2000",
+  "slug": "drake-mn-2000",
+  "searched_at": "2026-11-01T19:14:11-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'drake mn-2000' (signed in as Leo), page 1: 20 sold rows above the fewer-words section; 13 kept, median 200.0, solid. Dropped: 1 best-offer-accepted (377515705749 $300.00 Sep 22); 0 parts-only units; 0 Read Description; non-unit sales excluded: bandswitch knob 267448394519 ($45), MN-4 tuner 227527522662 ($189.99, different model), shipping-only 188876825252 ($86), manual 136843414584 ($5.99), manual 287418921773 ($25), front panel 266719594140 ($60). No outliers. Second queued MN-2000 ad: https://swap.qth.com/view_ad.php?counter=1783690 ($300 shipped stateside, 'Sold as-is no returns due to parts swapper' - verbatim) - different seller, no serials shown, possible cross-post not determinable; both use these comps. Trigger ask is 1783633 ($325 shipped/insured, 'Super Condition, Original Box'). searched_at is the file-write time; the eBay searches ran earlier in the same sweep (2026-11-01 evening).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783633",
+    "site": "qth",
+    "ask": 325,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 200,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227581884402",
+      "source": "ebay",
+      "notes": "shipping $16.0; auction, 1 bid, final bid; 'super clean in working condition'",
+      "flags": []
+    },
+    {
+      "price": 175,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257802986291",
+      "source": "ebay",
+      "notes": "shipping $25.12; fixed price (listing shows 'or Best Offer', not marked accepted)",
+      "flags": []
+    },
+    {
+      "price": 255,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307204490099",
+      "source": "ebay",
+      "notes": "shipping $22.0; fixed price; 'Extra Nice'",
+      "flags": []
+    },
+    {
+      "price": 150,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158314582499",
+      "source": "ebay",
+      "notes": "shipping $35.0; auction, 2 bids, final bid",
+      "flags": []
+    },
+    {
+      "price": 125,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267448393553",
+      "source": "ebay",
+      "notes": "shipping $12.0; fixed price; title 'DRAKE MN-2000 METER - RF POWER VSWR ANTENNA TUNER' - could be meter-only, kept because title reads as the tuner",
+      "flags": []
+    },
+    {
+      "price": 199.95,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237055795466",
+      "source": "ebay",
+      "notes": "shipping $24.13; no format shown on card",
+      "flags": []
+    },
+    {
+      "price": 179.99,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147536713691",
+      "source": "ebay",
+      "notes": "shipping $24.45; fixed price; title says 'Untested'",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 155.5,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178445923693",
+      "source": "ebay",
+      "notes": "shipping $54.04; auction, 17 bids, final bid; 'Great condition'",
+      "flags": []
+    },
+    {
+      "price": 280,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198609083041",
+      "source": "ebay",
+      "notes": "shipping $45.5; fixed price; '(very nice)'",
+      "flags": []
+    },
+    {
+      "price": 249.99,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188743268304",
+      "source": "ebay",
+      "notes": "shipping $20.0; no format shown on card",
+      "flags": []
+    },
+    {
+      "price": 235,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267762992044",
+      "source": "ebay",
+      "notes": "shipping $24.65; title: Tested Works; 2KW PEP 80-10M",
+      "flags": []
+    },
+    {
+      "price": 269.99,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128023456863",
+      "source": "ebay",
+      "notes": "shipping $28.45; fixed price",
+      "flags": []
+    },
+    {
+      "price": 239.99,
+      "sold_date": "2026-08-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407102089848",
+      "source": "ebay",
+      "notes": "shipping $29.93; fixed price",
+      "flags": []
+    }
+  ]
+}
