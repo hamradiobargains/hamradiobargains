@@ -1,0 +1,27 @@
+{
+  "model": "Ten-Tec Omni VII",
+  "slug": "ten-tec-omni-vii",
+  "searched_at": "2026-11-01T19:14:11-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ten-tec omni vii' (signed in as Leo), page 1: 18 sold rows, mostly accessories (keypads, speakers, tuner, cables, fan, manual); 1 transceiver sale kept, median 795.0 - THIN (1 comp). Dropped: 1 best-offer-accepted (117335512416 $950.00 Aug 4, 588 Omni VII transceiver). 0 parts, 0 Read Description. Accessories/non-unit excluded (e.g. 302 keypads $275/$285, 238B tuner $275, 940 speaker/PSU $175, 307B speaker $119). Ad price $745 (shipping not read; ask looks like the unit with two Collins mechanical filters). Ad wording verbatim fragments: 'excellent cosmetic and operational shape, and has been realigned and had encoders replaced by Jim Warner, WA9Z ... printed manual, power cord, but no mic. No original box'. searched_at is the file-write time; the eBay searches ran earlier in the same sweep (2026-11-01 evening).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783600",
+    "site": "qth",
+    "ask": 745,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 795,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117424811793",
+      "source": "ebay",
+      "notes": "shipping $25.02; fixed price; title: 588AT HF transceiver + manual & extras, 'Works 100%'",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
