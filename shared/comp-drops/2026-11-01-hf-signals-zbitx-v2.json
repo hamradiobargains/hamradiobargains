@@ -1,0 +1,15 @@
+{
+  "model": "HF Signals zBITx V2",
+  "slug": "hf-signals-zbitx-v2",
+  "searched_at": "2026-11-01T19:14:11-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'zbitx' (signed in as Leo), page 1: no qualifying comps (ZERO). Page was mostly Micro Machines Z-Bots toys. zBITx-related sold rows, all excluded: 237134650614 zBitx v1.0 portable QRP transceiver $165.00 Oct 22 (best offer accepted AND v1.0, not V2); 178239640401 protective cover for V2 $18.50 Oct 31 (accessory, no radio); 147432697066 KM4CFT mini microphone $37.95 Oct 14 (accessory). Ad wording (verbatim fragments): 'zBITx V2 SDR Transceiver ... just as received from HF Signals this month (10/26) Firmware has not been updated and no modifications have been made to the radio.' Ask now $240 shipped to the 48 states (earlier drop said $250); verbatim: 'Firmware has not been updated and no modifications have been made to the radio ... Price is $240 shipped 48 USA states. No exceptions, Zelle or PayPal'. searched_at is the file-write time; the eBay searches ran earlier in the same sweep (2026-11-01 evening).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783666",
+    "site": "qth",
+    "ask": 240,
+    "shipping": 0
+  },
+  "comps": []
+}
