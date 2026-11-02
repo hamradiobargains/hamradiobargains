@@ -1,0 +1,134 @@
+{
+  "model": "Kenwood TS-2000",
+  "slug": "kenwood-ts-2000",
+  "searched_at": "2026-11-02T14:59:18-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood ts-2000', page 1. Excluded as different/uncertain models: TS-2000X (168808084867 $999), TS-2000SX (366671117376 $2468.75), TS-2000S from Japan (128123681004 $1480, variant identity uncertain). Excluded accessories/modules/manuals/TM-D700 display. Dropped 4 best-offer-accepted (257773213691, 178506319116, 178420811709, 178378394107), dropped 1 parts-only (227555987274). Ledger miss: latest date 2026-09-27 older than 30 days. OUTLIERS flagged: $1,500.00, $1,500.00, $1,500.00. 12 kept comps, median $995.00.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783878",
+    "site": "qth",
+    "ask": 635.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 510.0,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800823131142",
+      "source": "ebay",
+      "notes": "Auction, 15 bids. Title says 'See Notes Please' (notes not visible in search results). +$60.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278409511459",
+      "source": "ebay",
+      "notes": "Auction, 10 bids. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 830.0,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257757146037",
+      "source": "ebay",
+      "notes": "Auction, 25 bids. Title: 'Satellite Ready Package'. +$24.89 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2026-09-15",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/227522840230",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,500.00 vs median $990.00 of the other kept comps. Buy It Now. +$80.00 delivery. Same title/price/condition as item 227494212175 (sold 2026-09-08).",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1299.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278071577453",
+      "source": "ebay",
+      "notes": "Buy It Now. w/ Mic and Power Cord. +$139.86 delivery.",
+      "flags": []
+    },
+    {
+      "price": 649.89,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117395769249",
+      "source": "ebay",
+      "notes": "Auction, 2 bids. w/ Mic, Manual, Schematic. +$59.30 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2026-09-08",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/227494212175",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,500.00 vs median $990.00 of the other kept comps. Buy It Now. +$80.00 delivery. Same title/price/condition as item 227522840230 (sold 2026-09-15).",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137699138587",
+      "source": "ebay",
+      "notes": "Buy It Now. +$106.60 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318783426345",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,500.00 vs median $990.00 of the other kept comps. Fixed price 'or Best Offer' (not marked best offer accepted). Includes NEW mic, NEW power cord, NEW manual. +$3.85 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1400.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178289510962",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'HF VHF UHF 1200MHz' (1.2 GHz band present, presumably UT-20 option). +$88.63 delivery.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 990.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128040817071",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted). Title: 'TNC w/ NEW LCD'. +$48.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 510.0,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800459918589",
+      "source": "ebay",
+      "notes": "Auction, 7 bids. +$40.00 delivery.",
+      "flags": []
+    }
+  ]
+}
