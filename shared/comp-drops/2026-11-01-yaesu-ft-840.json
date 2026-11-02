@@ -1,0 +1,103 @@
+{
+  "model": "Yaesu FT-840",
+  "slug": "yaesu-ft-840",
+  "searched_at": "2026-11-01T19:14:11-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ft-840' sold+completed, page 1, sorted ended recently (2026-11-01 evening, signed in as Leo). 16 sold rows above the fewer-words section; 9 kept, median 450.0, solid. Dropped: 1 best-offer-accepted (257689444280 $200.00 'used yaesu ft840 hf transceiver', Aug 23); 2 parts-only/for-parts (800757456125 $44.99 Oct 4 'For Parts Scrap Not Working'; 128016953275 $117.50 Aug 15 'Powers On - Missing Outer Cover PARTS'); 1 likely parts/part-only (198667661154 $90.75 Oct 2 2 bids, title 'LCD Screen Black FRONT PLATE' - ambiguous, treated as parts); non-unit: 2 operating manuals (158279617647, 201445455371), 1 FP-800 power supply (237001594822). 0 Read Description. No outliers. FT-840AT/other variants not seen. Listing ask in trigger_listing is the ad's current $400 shipped (earlier drop said $430). searched_at is the file-write time; the eBay searches ran earlier in the same sweep (2026-11-01 evening).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783621",
+    "site": "qth",
+    "ask": 400,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 450,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336792502708",
+      "source": "ebay",
+      "notes": "shipping $30.55; title: FT-840 + MH-1 mic + box + DC cable (very nice); fixed price",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 449.99,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128100772645",
+      "source": "ebay",
+      "notes": "shipping $26.09; fixed price; 'EXTRA NICE'",
+      "flags": []
+    },
+    {
+      "price": 450,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237000473156",
+      "source": "ebay",
+      "notes": "shipping $45.0; fixed price",
+      "flags": []
+    },
+    {
+      "price": 580,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178457051170",
+      "source": "ebay",
+      "notes": "shipping $42.5; title: FT-840 + MH-1 mic + box + DC cable (very nice); fixed price",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 492.29,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307143231744",
+      "source": "ebay",
+      "notes": "shipping $70.0; title: 'Zenecava Custom Working' (custom/modified per title); fixed price",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 325,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298586280493",
+      "source": "ebay",
+      "notes": "shipping $40.0; fixed price",
+      "flags": []
+    },
+    {
+      "price": 365,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267759254196",
+      "source": "ebay",
+      "notes": "shipping $30.0; auction, 3 bids, final bid",
+      "flags": []
+    },
+    {
+      "price": 485,
+      "sold_date": "2026-08-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236890623169",
+      "source": "ebay",
+      "notes": "shipping $29.15; title: TESTED WORKING; fixed price",
+      "flags": []
+    },
+    {
+      "price": 480,
+      "sold_date": "2026-08-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336679140170",
+      "source": "ebay",
+      "notes": "shipping $7.01; fixed price",
+      "flags": []
+    }
+  ]
+}
