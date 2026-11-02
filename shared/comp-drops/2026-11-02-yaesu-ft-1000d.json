@@ -1,0 +1,37 @@
+{
+  "model": "Yaesu FT-1000D",
+  "slug": "yaesu-ft-1000d",
+  "searched_at": "2026-11-02T14:59:18-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ft-1000d', page 1. Thin: 2 kept comps, and they are far apart, so both trip the outlier test against each other. Dropped 0 best-offer-accepted, dropped 1 parts-only (198726095233 $510). Excluded a display board ($150). Not in ledger. OUTLIERS flagged: $375.00, $1,450.00. 2 kept comps, median $912.50.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783912",
+    "site": "qth",
+    "ask": 980.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 375.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358920989688",
+      "source": "ebay",
+      "notes": "OUTLIER: $375.00 vs median $1,450.00 of the other kept comps. Buy It Now. +$125.68 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1450.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206513482934",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,450.00 vs median $375.00 of the other kept comps. Buy It Now. Title: '200W ... + Box + Mic (fully loaded)'. +$118.50 delivery.",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    }
+  ]
+}
