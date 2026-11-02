@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-02",
+  "ran_at": "2026-11-02T17:59:30-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now filter, sorted newly listed, page 1 (60 items) only; signed in as Leo, no challenges. Window since previous ebay run 2026-11-01T17:58:00-05:00 (browse cards show no listing times; newest-first order used, all page-1 items marked NEW LISTING). None of the picked items were in dropped-urls.json. All 8 picked sellers passed the feedback rule (3 of 8 from Japan-based seller J's Market). Ledger: 1 hit (ICOM IC-706MKII); 7 misses -> 7 eBay sold searches. Item descriptions not read (item-specifics/seller notes only). Not picked: Icom ID-5100A Deluxe w/ MARS/polarizer/fan mods ($850), Alinco DJ-G7 ($812.14) and Yaesu FT-857D (Parts Only, $750) - cards linked only to eBay product pages, item numbers not readable; auctions mixed into BIN filter (UTC S-34 choke, Heathkit HM-2141, Daiwa CN-101L, CDE rotator controller, Hammarlund knob); parts-only (Heathkit HW-101 low output, Kenwood TH-215A/TH-225A, Icom IC-A20 airband, Hallicrafters S-120, Bud Codemaster, Heathkit HD19); accessories/other (Heathkit HG-10B VFO, Heil FS-3, Kenwood DFK-3B cable, Standard FTH-314L earphone mic, Digirig DR-891, MFJ-260B dummy load, Heathkit HM-10-A/AM-2, Micronta/Comet and Yaesu YS-500 meters, Stromberg/DuKane mics, Ritron duplexer, knob guards, laptops); CB/GMRS/non-ham (Midland, General Lee, Retevis RA87, TM-281A commercial VHF, Toshiba TS-2G, National RJ-360, BaseWish FM, Colby receiver, ADS-B filter).",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/366779629410",
+      "site": "ebay",
+      "title": "ICOM IC-706MKII 100W HF 50MHz 144MHz All Mode Transceiver Mobile Radio",
+      "price": 652.89,
+      "shipping": 100.0,
+      "found_at": "2026-11-02",
+      "condition_notes": "Used. Ships from Japan (eBay SpeedPAK, import fees included). Item specifics model IC-706MKII.",
+      "work_flag": "",
+      "seller_feedback": "100% (236 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366779629326",
+      "site": "ebay",
+      "title": "Yaesu FT-2D C4FM Digital 144/430MHz Dual Band Handheld Tested Working",
+      "price": 406.6,
+      "shipping": 85.0,
+      "found_at": "2026-11-02",
+      "condition_notes": "Used, title says tested working. Ships from Japan (SpeedPAK, import fees included). Japanese-market FT-2D (model/MPN FT-2D), not the US FT2DR.",
+      "work_flag": "",
+      "seller_feedback": "100% (236 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366779629277",
+      "site": "ebay",
+      "title": "Untested ICOM IC-03N Amateur Radio Transceiver Vintage Showa Era Discontinued",
+      "price": 216.44,
+      "shipping": 85.0,
+      "found_at": "2026-11-02",
+      "condition_notes": "Used, untested per title. Vintage Japanese-market handheld. Ships from Japan (SpeedPAK, import fees included).",
+      "work_flag": "Untested",
+      "seller_feedback": "100% (236 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/840085941136",
+      "site": "ebay",
+      "title": "Yaesu VX-8R Tri-Band Ham Radio Transceiver 50/144/430 MHz w/ Charger",
+      "price": 300.0,
+      "shipping": 15.0,
+      "found_at": "2026-11-02",
+      "condition_notes": "Used. Includes MH-74A7A, NC-86B, CD-41, CT-136 per MPN field; with charger.",
+      "work_flag": "",
+      "seller_feedback": "100% (623 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/860106672233",
+      "site": "ebay",
+      "title": "Mirage D 3010 TESTED UHF Power Amplifier 70cm 430-450MHz 30W In/100W Out SSB FM",
+      "price": 249.0,
+      "shipping": 29.44,
+      "found_at": "2026-11-02",
+      "condition_notes": "Used, seller notes 'Clean Tested Working'. Or Best Offer.",
+      "work_flag": "",
+      "seller_feedback": "98.7% (196 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/267831492559",
+      "site": "ebay",
+      "title": "Heathkit DX-60A HF AM/CW Transmitter see it work",
+      "price": 133.0,
+      "shipping": 49.77,
+      "found_at": "2026-11-02",
+      "condition_notes": "Used, vintage tube transmitter; seller links a video of it working. Or Best Offer.",
+      "work_flag": "",
+      "seller_feedback": "97.4% (462 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/800868711760",
+      "site": "ebay",
+      "title": "Vintage TEN-TEC 1340 QRP CW Transceiver 6.988-7.056 MHz 3.3 Watts USED",
+      "price": 125.0,
+      "shipping": 14.67,
+      "found_at": "2026-11-02",
+      "condition_notes": "Used, seller notes 'Test good. Transceiver only. No key.' Or Best Offer.",
+      "work_flag": "",
+      "seller_feedback": "100% (30 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/237158543768",
+      "site": "ebay",
+      "title": "JPS NIR-12 Dual DSP Noise Reduction Audio Filter Ham Radio Tested",
+      "price": 169.95,
+      "shipping": 14.98,
+      "found_at": "2026-11-02",
+      "condition_notes": "Used, seller notes excellent cosmetics, fully tested. Or Best Offer.",
+      "work_flag": "",
+      "seller_feedback": "100% (720 ratings)"
+    }
+  ]
+}
