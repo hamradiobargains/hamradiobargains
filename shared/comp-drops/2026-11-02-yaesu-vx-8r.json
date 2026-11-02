@@ -1,0 +1,85 @@
+{
+  "model": "Yaesu VX-8R",
+  "slug": "yaesu-vx-8r",
+  "searched_at": "2026-11-02T17:59:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "7 kept comps (solid). Accessories/parts (chargers, batteries, knobs, caps, MH-74/FGPS-2 GPS mic units, manual, antennas) excluded. Dropped 1 best-offer-accepted (336827913972). Dropped 2 parts-only (407193415728, 158250439204; both were also best-offer-accepted). 3 kept comps include extras (flagged extras_included). No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/840085941136",
+    "site": "ebay",
+    "ask": 300.0,
+    "shipping": 15.0
+  },
+  "comps": [
+    {
+      "price": 229.99,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/900040798845",
+      "source": "ebay",
+      "notes": "Fixed price. Radio only. +$14.00 shipping.",
+      "flags": []
+    },
+    {
+      "price": 279.99,
+      "sold_date": "2026-10-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117485362802",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. +$10.30 shipping.",
+      "flags": []
+    },
+    {
+      "price": 357.0,
+      "sold_date": "2026-10-18",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/117455457211",
+      "source": "ebay",
+      "notes": "Auction, 15 bids. +$12.72 shipping.",
+      "flags": []
+    },
+    {
+      "price": 309.99,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377557379877",
+      "source": "ebay",
+      "notes": "Fixed price. +$9.99 shipping.",
+      "flags": []
+    },
+    {
+      "price": 399.99,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287604629935",
+      "source": "ebay",
+      "notes": "Fixed price. Includes MH-74 GPS mic, box, cable, manuals, extras. Free shipping.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 320.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298624221112",
+      "source": "ebay",
+      "notes": "Auction, 4 bids. 'with lots of extras'. +$25.00 shipping.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 255.0,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278317710623",
+      "source": "ebay",
+      "notes": "Auction, 2 bids. Includes extra CD-41 charger. +$14.45 shipping.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
