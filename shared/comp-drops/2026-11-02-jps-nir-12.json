@@ -1,0 +1,43 @@
+{
+  "model": "JPS NIR-12",
+  "slug": "jps-nir-12",
+  "searched_at": "2026-11-02T17:59:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "3 kept comps (solid, but 1 is an outlier). eBay header read 'results for gps nir-12' but all 3 titles are JPS Communications NIR-12. OUTLIER: $46.00 auction vs ~$99 for the other two. Dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/237158543768",
+    "site": "ebay",
+    "ask": 169.95,
+    "shipping": 14.98
+  },
+  "comps": [
+    {
+      "price": 46.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327343890530",
+      "source": "ebay",
+      "notes": "OUTLIER: $46.00 vs ~$99 for the other two. Auction, 3 bids. +$12.99 shipping.",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198592719481",
+      "source": "ebay",
+      "notes": "Fixed price. +$17.25 shipping.",
+      "flags": []
+    },
+    {
+      "price": 99.0,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117356730364",
+      "source": "ebay",
+      "notes": "Fixed price. +$7.86 shipping.",
+      "flags": []
+    }
+  ]
+}
