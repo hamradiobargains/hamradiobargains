@@ -1,0 +1,54 @@
+{
+  "model": "LDG Z-11ProII",
+  "slug": "ldg-z-11proii",
+  "searched_at": "2026-11-01T19:14:11-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ldg z-11pro ii' (signed in as Leo), page 1: 7 sold rows; 4 kept, median 125.0 - thin-to-solid (4 comps, one new-in-box outlier). Excluded for identity: Z-11 Pro (original, not II) 336819101616 ($149.99 Oct 20) and 366719295130 ($96.00 Oct 14, 2 bids, open box, with cables); accessory excluded: DC power splitter cable 178165434225 ($17.50). 0 best-offer-accepted, 0 parts, 0 Read Description. OUTLIER: 111802127015 $279.95 (new, dealer). Ad wording: 'LDG Z-IIProII Zero Power Tuner. This unit is brand new. Used it once with a WSPR node and found it gets squirrelly down around 3-4 watts' - $160 shipped to the lower 48 (verbatim). searched_at is the file-write time; the eBay searches ran earlier in the same sweep (2026-11-01 evening).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783652",
+    "site": "qth",
+    "ask": 160,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 120,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137694357158",
+      "source": "ebay",
+      "notes": "shipping $7.35; fixed price; title includes cable for FT-991A/FT-710",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 279.95,
+      "sold_date": "2026-09-03",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/111802127015",
+      "source": "ebay",
+      "notes": "shipping $0; OUTLIER: new unit from an authorized LDG dealer, free shipping, >1.5x median of the other kept comps ($125)",
+      "flags": []
+    },
+    {
+      "price": 125,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206515321065",
+      "source": "ebay",
+      "notes": "shipping $7.72; fixed price",
+      "flags": []
+    },
+    {
+      "price": 125,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158151659469",
+      "source": "ebay",
+      "notes": "shipping $0; free shipping shown",
+      "flags": []
+    }
+  ]
+}
