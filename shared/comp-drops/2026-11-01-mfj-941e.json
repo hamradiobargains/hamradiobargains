@@ -1,0 +1,117 @@
+{
+  "model": "MFJ-941E",
+  "slug": "mfj-941e",
+  "searched_at": "2026-11-01T19:14:11-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'mfj-941e' (signed in as Leo), page 1: 22 sold rows above the fewer-words section; 11 kept, median 125.0, solid. Dropped: 8 best-offer-accepted (128140983969 $110 Oct 30, 398448834812 $120 Oct 2, 198653443219 $109.99 Sep 26, 158314389104 $100 Sep 21, 237035629805 $119.95 Aug 29, 158206786663 $120 Aug 27, 137557166132 $99 Aug 13, 137805614696 $24 Oct 3 [1 bid/BOA]); 3 parts-only/repair (327345060471 $99 Sep 14, 336774410888 $58 Sep 9 11 bids, 398286041481 $37 Aug 24 'Parts/Repair'). 0 Read Description. No outliers. Ad wording: 'MFJ-941E Antenna Tuner. Super Condition and works' - $150 shipped/insured US (verbatim fragments). searched_at is the file-write time; the eBay searches ran earlier in the same sweep (2026-11-01 evening).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783640",
+    "site": "qth",
+    "ask": 150,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 145,
+      "sold_date": "2026-10-23",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/287649319500",
+      "source": "ebay",
+      "notes": "shipping $15.0; title: NEW, original box, instructions; format not shown on card",
+      "flags": []
+    },
+    {
+      "price": 81,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287621069016",
+      "source": "ebay",
+      "notes": "shipping $10.35; auction, 17 bids, final bid",
+      "flags": []
+    },
+    {
+      "price": 95,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278418314296",
+      "source": "ebay",
+      "notes": "shipping $28.74; fixed price",
+      "flags": []
+    },
+    {
+      "price": 149.95,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227469895938",
+      "source": "ebay",
+      "notes": "shipping $0; fixed price; free shipping shown",
+      "flags": []
+    },
+    {
+      "price": 125,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128081724081",
+      "source": "ebay",
+      "notes": "shipping $8.09; title: Super Nice, original box, instructions; format not shown on card",
+      "flags": []
+    },
+    {
+      "price": 90,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287585022916",
+      "source": "ebay",
+      "notes": "shipping $11.71; fixed price; title: tested, working, includes power module",
+      "flags": []
+    },
+    {
+      "price": 115,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336788372336",
+      "source": "ebay",
+      "notes": "shipping $17.0; fixed price; title: tested",
+      "flags": []
+    },
+    {
+      "price": 139.99,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298627624619",
+      "source": "ebay",
+      "notes": "shipping $0; fixed price; free shipping shown",
+      "flags": []
+    },
+    {
+      "price": 85,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227477483783",
+      "source": "ebay",
+      "notes": "shipping $0; fixed price; free shipping shown; Deluxe Versa Tuner II 300W",
+      "flags": []
+    },
+    {
+      "price": 145,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358897991864",
+      "source": "ebay",
+      "notes": "shipping $25.0; title: with power supply; format not shown on card",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 145,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227430226508",
+      "source": "ebay",
+      "notes": "shipping $0; fixed price; free shipping shown",
+      "flags": []
+    }
+  ]
+}
