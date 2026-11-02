@@ -1,0 +1,8 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-02",
+  "ran_at": "2026-11-02T05:54:47-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-01T05:53:26-05:00 (prior eham run). Browsed signed OUT ('Welcome Guest'); no Cloudflare challenge. Public classifieds page 1 (newest first) showed no ads newer than the prior run: newest visible was 629437 (posted 2026-10-31), all page-1 ads already covered by the 2026-11-01 run. Opened ads 629438 and 629439 directly, 25-30s apart: 629438 Yaesu G-5500 rotor (posted 2026-10-31) is marked SOLD; 629439 TennaTronix TurboTuner-2 controller is still pending eHam admin approval (not yet public; page showed poster approve/cancel controls - nothing was clicked) so it was not dropped, and probing of further unpublished ad IDs was stopped there. No search form, sold searches, or seller/callsign pages. Zero candidates; no comp searches run.",
+  "listings": []
+}
