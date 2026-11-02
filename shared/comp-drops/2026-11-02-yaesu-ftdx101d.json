@@ -1,0 +1,34 @@
+{
+  "model": "Yaesu FTDX101D",
+  "slug": "yaesu-ftdx101d",
+  "searched_at": "2026-11-02T14:59:18-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ftdx101d', page 1. Thin: 2 kept comps. Dropped 1 best-offer-accepted that was also parts-only 'Not Working' (168643492407 $660). Ledger miss: latest date 2026-09-17 older than 30 days. 2 kept comps, median $1,499.50.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783822",
+    "site": "qth",
+    "ask": 3200.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1699.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278384904419",
+      "source": "ebay",
+      "notes": "Buy It Now. 'TESTED and WORKING EXCELLENT COND.' +$28.78 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1300.0,
+      "sold_date": "2026-08-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178378392303",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted). +$19.17 delivery.",
+      "flags": []
+    }
+  ]
+}
