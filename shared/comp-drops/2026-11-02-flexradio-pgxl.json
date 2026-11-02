@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio PGXL",
+  "slug": "flexradio-pgxl",
+  "searched_at": "2026-11-02T14:59:18-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'flexradio pgxl', page 1: eBay reported 0 results for the exact query; everything shown was 'Results matching fewer words' (FLEX-1500, SDR-1000, 6400 etc.) and was ignored. No comps. Not in ledger.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783875",
+    "site": "qth",
+    "ask": 4500.0,
+    "shipping": 0
+  },
+  "comps": []
+}
