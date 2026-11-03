@@ -1,0 +1,148 @@
+{
+  "model": "Yaesu FTdx10",
+  "slug": "yaesu-ftdx10",
+  "searched_at": "2026-11-03T18:00:09-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Search 'yaesu ftdx10', page 1, above 'Results matching fewer words'. 14 kept. Dropped 9 best-offer-accepted, dropped 1 parts-only (AS IS FOR PARTS). Excluded accessories (SCU-LAN10, EQ, cables, handles, encoder/VR boards, M-90D mic). 3 kept comps include extras (amp+tuner; JP 100V unit with SP-30 speaker and step-up transformer; SCU-LAN10 + M-70D mic), flagged extras_included. OUTLIER: 134998597724 at $1,698.88 vs ~$1,035 median of the rest (brand-new Japan 100V unit with extras).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/336877847278",
+    "site": "ebay",
+    "ask": 1298.0,
+    "shipping": 26.98
+  },
+  "comps": [
+    {
+      "price": 790.0,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800833666580",
+      "source": "ebay",
+      "notes": "auction, 15 bids; +$60.00 shipping; title: Very Nice, Works Great",
+      "flags": []
+    },
+    {
+      "price": 1356.92,
+      "sold_date": "2026-10-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/135208970660",
+      "source": "ebay",
+      "notes": "fixed price; +$252.00 shipping; title: [Near Mint] ... Working All accessories",
+      "flags": []
+    },
+    {
+      "price": 1302.0,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307230074564",
+      "source": "ebay",
+      "notes": "auction, 3 bids; +$20.14 shipping; title: With 250 Watt Amp And Ant Tuner",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 960.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336827694402",
+      "source": "ebay",
+      "notes": "auction, 4 bids; +$30.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 992.09,
+      "sold_date": "2026-10-06",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/287616491228",
+      "source": "ebay",
+      "notes": "auction, 3 bids; +$17.59 shipping; title: LCD Screen-no issues",
+      "flags": []
+    },
+    {
+      "price": 1698.88,
+      "sold_date": "2026-10-02",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/134998597724",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,698.88 vs ~$1,035 median for the rest — brand-new Japan 100V unit with extras. fixed price; +$306.00 shipping; title: 100V JP w/SP-30 NTI-200 Step-Up (Japan 100V unit with speaker and step-up transformer)",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1049.99,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800721982620",
+      "source": "ebay",
+      "notes": "fixed price; +$207.00 shipping; title: w/Screen Protector Excellent",
+      "flags": []
+    },
+    {
+      "price": 1050.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278418242311",
+      "source": "ebay",
+      "notes": "fixed price; +$50.00 shipping; title: Excellent, Fully Tested",
+      "flags": []
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307179157602",
+      "source": "ebay",
+      "notes": "auction, 26 bids; +$35.00 shipping; title: w/ Mic USB LCD",
+      "flags": []
+    },
+    {
+      "price": 1085.0,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278346728771",
+      "source": "ebay",
+      "notes": "fixed price; +$48.00 shipping; title: EXCELLENT CONDITION",
+      "flags": []
+    },
+    {
+      "price": 1200.0,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198585403388",
+      "source": "ebay",
+      "notes": "fixed price; +$52.50 shipping; title: + Mic + Manual (US version)",
+      "flags": []
+    },
+    {
+      "price": 1035.0,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206455398211",
+      "source": "ebay",
+      "notes": "auction, 43 bids; free shipping",
+      "flags": []
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-08-13",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227473250650",
+      "source": "ebay",
+      "notes": "fixed price; +$26.30 shipping; title: LCD w/ Box Manual Mic Cable",
+      "flags": []
+    },
+    {
+      "price": 890.0,
+      "sold_date": "2026-08-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178377114043",
+      "source": "ebay",
+      "notes": "auction, 18 bids; +$139.70 shipping; title: with SCU-LAN10 and M-70D Microphone",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
