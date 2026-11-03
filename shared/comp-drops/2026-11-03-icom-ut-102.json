@@ -1,0 +1,70 @@
+{
+  "model": "Icom UT-102",
+  "slug": "icom-ut-102",
+  "searched_at": "2026-11-03T05:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ut-102', page 1 (12 results). Kept standalone UT-102 modules only; excluded radios that include a UT-102 (820088774871 IC-706MKIIG; 236965239739 IC-746Pro, also best-offer-accepted) and a Nagoya UT-102UV antenna. Dropped 2 best-offer-accepted modules (800716132275 $135; 366676836554 $89). Dropped 0 parts-only. No outliers. 6 kept comps.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629463",
+    "site": "eham",
+    "ask": 115.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 120.0,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206660412989",
+      "source": "ebay",
+      "notes": "Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 149.95,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188984245959",
+      "source": "ebay",
+      "notes": "+$6.99 shipping.",
+      "flags": []
+    },
+    {
+      "price": 130.0,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128086018254",
+      "source": "ebay",
+      "notes": "Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 117.5,
+      "sold_date": "2026-09-12",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/147553240338",
+      "source": "ebay",
+      "notes": "Auction, 10 bids. Free shipping. Title: 'Never Installed or Used!'.",
+      "flags": []
+    },
+    {
+      "price": 85.0,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137714636899",
+      "source": "ebay",
+      "notes": "Free shipping. Title: 'never used'.",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327315229447",
+      "source": "ebay",
+      "notes": "+$8.00 shipping.",
+      "flags": []
+    }
+  ]
+}
