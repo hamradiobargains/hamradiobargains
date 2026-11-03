@@ -1,0 +1,15 @@
+{
+  "model": "KM3KM Mercury III",
+  "slug": "km3km-mercury-iii",
+  "searched_at": "2026-11-03T05:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'km3km mercury iii amplifier': 0 exact results; everything shown was 'fewer words' matches and was ignored. A 'MERCURY IIIS HF/50 AMPLIFIER' (278385193506, $2,495, 2026-09-18) appeared only among fewer-words results and is not the stated model ('III' vs 'IIIS'), so it is left out. No comps — thin/none.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629468",
+    "site": "eham",
+    "ask": 2900.0,
+    "shipping": 0
+  },
+  "comps": []
+}
