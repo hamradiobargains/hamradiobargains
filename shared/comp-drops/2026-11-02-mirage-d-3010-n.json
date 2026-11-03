@@ -1,0 +1,15 @@
+{
+  "model": "Mirage D-3010-N",
+  "slug": "mirage-d-3010-n",
+  "searched_at": "2026-11-02T19:32:21-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'mirage d-3010-n' returned 0 exact results; re-run as 'mirage d3010n' also 0 results (2 of the 15 searches). Zero qualifying comps. Note: a separate 2026-11-02-mirage-d-3010 comp drop exists for titles reading 'D3010' (model not merged here, N-connector variant kept separate).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783635",
+    "site": "qth",
+    "ask": 175,
+    "shipping": 0
+  },
+  "comps": []
+}
