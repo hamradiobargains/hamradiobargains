@@ -1,0 +1,146 @@
+{
+  "model": "Yaesu MD-1",
+  "slug": "yaesu-md-1",
+  "searched_at": "2026-11-02T19:32:21-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "14 kept comp(s), median 99.99 - solid. Dropped 4 best-offer-accepted, 5 parts-only (940045576882 $49.99 Parts Only, Oct 27; 267802595389 $20.0 Parts Only, Oct 3, 1 bid; 117283098083 $69.99 Parts Only, Sep 16; 236809663696 $69.99 Parts Only, Aug 17; 327248117199 $59.99 Parts Only, Untested, Aug 9), 0 read-description. B8 and C8 variants both included (listing does not state B8/C8). Excluded: mic holder, dust cover (accessories). 168700358042/168676624875 same title/price/seller pattern (possible repeat listings).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783623",
+    "site": "qth",
+    "ask": 100,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 74.99,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198708664761",
+      "source": "ebay",
+      "notes": "MD-1 C8; shipping +16.76",
+      "flags": []
+    },
+    {
+      "price": 99.0,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366707352609",
+      "source": "ebay",
+      "notes": "with stand base; shipping +13.69",
+      "flags": []
+    },
+    {
+      "price": 86.99,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366680934687",
+      "source": "ebay",
+      "notes": "MD-1 C8; auction 4 bids; shipping +8.00",
+      "flags": []
+    },
+    {
+      "price": 95.0,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117430236306",
+      "source": "ebay",
+      "notes": "MD-1 C8; shipping +17.00",
+      "flags": []
+    },
+    {
+      "price": 126.57,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168700358042",
+      "source": "ebay",
+      "notes": "MD-1 b8; shipping +39.87",
+      "flags": []
+    },
+    {
+      "price": 188.01,
+      "sold_date": "2026-09-16",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/336786844621",
+      "source": "ebay",
+      "notes": "OUTLIER: Brand New unit, auction 16 bids, more than 1.5x median of other kept comps; MD-1 C8; shipping +9.92",
+      "flags": []
+    },
+    {
+      "price": 126.57,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168676624875",
+      "source": "ebay",
+      "notes": "MD-1 b8; shipping +39.87",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307162680799",
+      "source": "ebay",
+      "notes": "8 pin; shipping +6.88",
+      "flags": []
+    },
+    {
+      "price": 83.7,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198525929311",
+      "source": "ebay",
+      "notes": "shipping +13.39",
+      "flags": []
+    },
+    {
+      "price": 121.42,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168630876671",
+      "source": "ebay",
+      "notes": "MD-1 c8 with accessory; shipping +39.69",
+      "flags": []
+    },
+    {
+      "price": 110.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318720173135",
+      "source": "ebay",
+      "notes": "title says Untested; shipping +15.00",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 95.0,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128018345678",
+      "source": "ebay",
+      "notes": "with stand base; shipping +12.39",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398275502411",
+      "source": "ebay",
+      "notes": "MD-1 B8; shipping +14.99",
+      "flags": []
+    },
+    {
+      "price": 139.95,
+      "sold_date": "2026-04-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327123033200",
+      "source": "ebay",
+      "notes": "MD-1 B8; free shipping; old sale",
+      "flags": []
+    }
+  ]
+}
