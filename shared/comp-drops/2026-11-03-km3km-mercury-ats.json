@@ -1,0 +1,38 @@
+{
+  "model": "KM3KM Mercury ATS",
+  "slug": "km3km-mercury-ats",
+  "searched_at": "2026-11-03T05:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'mercury ats tuner km3km', page 1: 2 results, both kept. Both are titled 'MERCURY ATS 1.5K' — assumed to be the same KM3KM Mercury ATS legal-limit tuner as the ad (ad does not say '1.5K'). The two sales have identical titles, price, and shipping a week apart — may be the same unit relisted; flagged possible_duplicate. Dropped 0 best-offer-accepted, 0 parts-only. Thin (2 comps, possibly 1 unit).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629469",
+    "site": "eham",
+    "ask": 900.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 699.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278418282850",
+      "source": "ebay",
+      "notes": "Title: 'MERCURY ATS 1.5K AUTO ANTENNA TUNER by KM3KM TESTED & WORKING'. +$23.59 shipping. Possible relist of 278385223244.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 699.0,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278385223244",
+      "source": "ebay",
+      "notes": "Same title as 278418282850. +$23.59 shipping. Possible relist of 278418282850.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    }
+  ]
+}
