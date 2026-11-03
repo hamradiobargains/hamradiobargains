@@ -1,0 +1,15 @@
+{
+  "model": "Drake RV-4",
+  "slug": "drake-rv-4",
+  "searched_at": "2026-11-03T18:00:09-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Search 'drake rv-4', page 1, above 'Results matching fewer words'. 0 kept — thin, no qualifying comps. Dropped 2 parts-only (RV-4 'FOR PARTS OR REPAIR, NON WORKING' $45; RV-4 'Untested / Parts Repair' $44.99 auction). Dropped 2 best-offer-accepted (both TR-4 bundles where the RV-4 is a minor part). Excluded 2 RV-4C sales (different model: $175 on 2026-10-18, $225 with AC4 on 2026-08-14).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/377619231170",
+    "site": "ebay",
+    "ask": 185.0,
+    "shipping": 32.53
+  },
+  "comps": []
+}
