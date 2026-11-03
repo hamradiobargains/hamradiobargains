@@ -1,0 +1,61 @@
+{
+  "model": "Icom SP-21",
+  "slug": "icom-sp-21",
+  "searched_at": "2026-11-03T18:00:09-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Search 'icom sp-21', page 1, above 'Results matching fewer words'. 5 kept. Dropped 1 best-offer-accepted, dropped 0 parts-only. Excluded other Icom speakers (SP-30, SP-33, SP-23, IC-SP3), an IC-746PRO bundle where the SP-21 is a minor part (also BOA/parts-only), and a dust-cover sale. Two kept sales from the same Ireland-tagged seller (226775468017, 227080136754) have the same title; not flagged as duplicates since the listings don't show it. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/117502641911",
+    "site": "ebay",
+    "ask": 99.0,
+    "shipping": 12.35
+  },
+  "comps": [
+    {
+      "price": 79.99,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366713716845",
+      "source": "ebay",
+      "notes": "fixed price; +$19.99 shipping",
+      "flags": []
+    },
+    {
+      "price": 129.99,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188850444073",
+      "source": "ebay",
+      "notes": "fixed price; +$20.00 shipping; title: Tested Working",
+      "flags": []
+    },
+    {
+      "price": 130.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/397876980632",
+      "source": "ebay",
+      "notes": "fixed price; +$28.80 shipping; title: Tested",
+      "flags": []
+    },
+    {
+      "price": 134.05,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/226775468017",
+      "source": "ebay",
+      "notes": "fixed price; +$46.91 shipping; seller tag in title RADIO_TRADER_IRELAND",
+      "flags": []
+    },
+    {
+      "price": 167.56,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227080136754",
+      "source": "ebay",
+      "notes": "fixed price; +$46.91 shipping; seller tag in title RADIO_TRADER_IRELAND",
+      "flags": []
+    }
+  ]
+}
