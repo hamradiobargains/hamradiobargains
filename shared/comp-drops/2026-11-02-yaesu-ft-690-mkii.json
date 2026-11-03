@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-690 MkII",
+  "slug": "yaesu-ft-690-mkii",
+  "searched_at": "2026-11-02T19:32:21-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ft-690 mk2' returned 0 results. Zero qualifying comps. Ad: $350 shipped, or $400 with FL-6020 amp + FBA-8 battery pack.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783711",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": []
+}
