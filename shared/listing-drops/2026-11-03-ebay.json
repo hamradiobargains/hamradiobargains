@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-03",
+  "ran_at": "2026-11-03T17:53:10-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now filter, sorted newly listed, page 1 (60 items) only; signed in as Leo, no challenges. Window since previous ebay run 2026-11-02T17:59:30-05:00 (browse cards show no listing times; newest-first order used, page-1 items marked NEW LISTING). Item numbers for product-page-linked cards read from the card link's iid parameter and confirmed by opening each item page. None of the picked items were in dropped-urls.json. All 8 picked sellers passed the feedback rule. Ledger: 3 hits (ICOM IC-9100, KENWOOD TS-590S, ICOM IC-92AD); 5 misses -> 5 eBay sold searches (YAESU FTDX10 and KENWOOD TH-D75A ledger entries older than 30 days; IC-208H, Drake RV-4, Icom SP-21 not in ledger). Item descriptions not read (item-specifics/condition notes/return policy only). Not picked: parts-only/repair (Hallicrafters S-38, SX-73, Broken Kenwood TM-261A, Hammarlund HQ-110 tech special, HQ-150 + Viking 2, Kenwood VFO-820, Penetrater HB-125, B&W 5100, Ameco converters, Maldol mount, 6-pill and TX75 CB amps), auctions mixed into BIN filter (Yaesu FT-60R, RM KL 203 amps, Heathkit HD1410, Watkins Johnson 8737), commercial/CB/non-ham (ADRF repeaters, Motorola MTR2000, Galaxy DX 2547, Superstar/Stryker, Leixen UV-25D, Baofeng BF-F8HP, Thales whips, capture card, unbranded amp), accessories/test gear (Daiwa CN-410M, MFJ-202B, MFJ-890, Omega-T noise bridge, Heathkit HD-1250/VTVM, SteppIR controller, Tokyo Hy-Power cable, TS-32 tone board, Radio Shack HTA-20, Yaesu FT-727R housing), unclear model (Icom Ic-604 per title), and Yaesu FRG-8800 + VHF converter (receiver bundle) once the 8-candidate cap was reached.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/840089934315",
+      "site": "ebay",
+      "title": "ICOM IC-9100 HF-6 METER, 2 METER, 440MHZ ALL MODE+ D-STAR + FL-431 FILTER + BOX",
+      "price": 1747.0,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "Used. Seller condition note: \"Nice clean condition. Never exposed to any smoking environment. Includes everything plus D-Star...\" Includes FL-431 filter and box per title. Free shipping. Return policy not readable on page.",
+      "work_flag": "",
+      "seller_feedback": "100% (1665 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/147664993361",
+      "site": "ebay",
+      "title": "Kenwood TS-590S HF/50MHz Ham Radio Transceiver 100W",
+      "price": 850.0,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "Used. Seller condition note: \"Very nice used condition\". Free shipping. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (165 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/336877847278",
+      "site": "ebay",
+      "title": "Yaesu FTdx 10 Immaculate Everything Included Plus Cover and Quick Guide Book",
+      "price": 1298.0,
+      "shipping": 26.98,
+      "found_at": "2026-11-03",
+      "condition_notes": "Used. Title says immaculate, everything included plus cover and quick guide book. Buy It Now or Best Offer. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (1078 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/407337406783",
+      "site": "ebay",
+      "title": "Kenwood TH-D75A 144/220/430 MHz Tribander Talkie w/KSC-25LS Charger 2 Batteries",
+      "price": 595.0,
+      "shipping": 21.7,
+      "found_at": "2026-11-03",
+      "condition_notes": "Used. Includes KSC-25LS charger and 2 batteries per title. 14-day returns, buyer pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (5983 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/128173495420",
+      "site": "ebay",
+      "title": "ICOM IC-208H 2M/440MHZ DUAL BAND FM TRANSCEIVER",
+      "price": 249.99,
+      "shipping": 24.52,
+      "found_at": "2026-11-03",
+      "condition_notes": "Used. Seller condition note: \"Good working radio! Includes everything shown.\" Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "99.9% (13542 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/960150595609",
+      "site": "ebay",
+      "title": "Icom IC-92AD Dual Band D-STAR Handheld Radio HM-175GPS Mic & Charger",
+      "price": 349.95,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "Used. Includes HM-175GPS mic and charger per title. Consignment seller. Buy It Now or Best Offer. Free shipping. 30-day returns, seller pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "99.2% (3132 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/377619231170",
+      "site": "ebay",
+      "title": "Vintage R.L. Drake RV-4 Remote VFO Speaker",
+      "price": 185.0,
+      "shipping": 32.53,
+      "found_at": "2026-11-03",
+      "condition_notes": "Used. Remote VFO speaker per title. Buy It Now or Best Offer. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "99.6% (257 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/117502641911",
+      "site": "ebay",
+      "title": "ICOM SP-21 External Desktop Speaker Ham Radio",
+      "price": 99.0,
+      "shipping": 12.35,
+      "found_at": "2026-11-03",
+      "condition_notes": "Used. Buy It Now or Best Offer. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (381 ratings)"
+    }
+  ]
+}
