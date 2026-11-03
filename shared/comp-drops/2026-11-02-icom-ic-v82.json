@@ -1,0 +1,36 @@
+{
+  "model": "Icom IC-V82",
+  "slug": "icom-ic-v82",
+  "searched_at": "2026-11-02T19:32:21-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "2 kept comp(s), median 67.5 - thin. Dropped 0 best-offer-accepted, 1 parts-only (800535924428 $70.0 Untested AS IS, Parts Only, Nov 2), 0 read-description. Accessories (batteries, chargers, mics, UT-118 board) excluded.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783605",
+    "site": "qth",
+    "ask": 55,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 75.0,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327402060179",
+      "source": "ebay",
+      "notes": "shipping +7.49; sold with BC-146 charger and BP-222N battery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 60.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327375631293",
+      "source": "ebay",
+      "notes": "shipping +6.39",
+      "flags": []
+    }
+  ]
+}
