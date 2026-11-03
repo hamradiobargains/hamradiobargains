@@ -1,0 +1,15 @@
+{
+  "model": "Icom ID-1",
+  "slug": "icom-id-1",
+  "searched_at": "2026-11-02T19:32:21-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom id-1' returned 2 sold results, both HM-118TN hand microphones (accessories, excluded). Zero qualifying comps.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783680",
+    "site": "qth",
+    "ask": 799,
+    "shipping": 0
+  },
+  "comps": []
+}
