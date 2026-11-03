@@ -1,0 +1,15 @@
+{
+  "model": "CFT-1",
+  "slug": "cft-1",
+  "searched_at": "2026-11-02T19:32:21-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'cft-1 transceiver' returned 0 results. Zero qualifying comps. Ad is a bundle (CFT-1, Four States QRP 4S tuner, QRP Guys Multi-tuner, 12v trigger cable, N6ARA mini-SWR indicator) at $350 shipped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783609",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": []
+}
