@@ -1,0 +1,70 @@
+{
+  "model": "Icom IC-208H",
+  "slug": "icom-ic-208h",
+  "searched_at": "2026-11-03T18:00:09-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Search 'icom ic-208h', page 1, above 'Results matching fewer words'. 6 kept. Dropped 4 best-offer-accepted, dropped 0 parts-only. Excluded accessories (cables, brackets, mics, RMK-3 kit, separation cable, manual). Two kept sales (117419469532, 117388954066) share near-identical titles, price and shipping; could be the same seller with multiple units, not flagged as duplicates since the listings don't show it. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/128173495420",
+    "site": "ebay",
+    "ask": 249.99,
+    "shipping": 24.52
+  },
+  "comps": [
+    {
+      "price": 249.0,
+      "sold_date": "2026-10-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407102577005",
+      "source": "ebay",
+      "notes": "fixed price; +$19.70 shipping; title: w/Mic, New DC Cable, Bracket",
+      "flags": []
+    },
+    {
+      "price": 251.5,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327386393690",
+      "source": "ebay",
+      "notes": "fixed price; +$22.50 shipping; title: + Manual & Accessories",
+      "flags": []
+    },
+    {
+      "price": 234.5,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117419469532",
+      "source": "ebay",
+      "notes": "fixed price; +$15.00 shipping; title: + Manual & Accessories",
+      "flags": []
+    },
+    {
+      "price": 285.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158257224213",
+      "source": "ebay",
+      "notes": "fixed price; +$17.15 shipping; title: w/ Mic, W Bracket",
+      "flags": []
+    },
+    {
+      "price": 234.5,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117388954066",
+      "source": "ebay",
+      "notes": "fixed price; +$15.00 shipping; title: + Deluxe Manual & Accessories",
+      "flags": []
+    },
+    {
+      "price": 299.98,
+      "sold_date": "2026-08-11",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/336725697236",
+      "source": "ebay",
+      "notes": "fixed price; free shipping; title: NEW Icom IC-208H",
+      "flags": []
+    }
+  ]
+}
