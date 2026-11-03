@@ -1,0 +1,54 @@
+{
+  "model": "MFJ-998",
+  "slug": "mfj-998",
+  "searched_at": "2026-11-02T19:32:21-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "4 kept comp(s), median 474.99 - solid. Dropped 1 best-offer-accepted, 0 parts-only, 0 read-description. Excluded: MFJ-998RT remote tuner 178458083977 ($699.99, different model), instruction manuals, interface cables. Zero-result variants not applicable.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783720",
+    "site": "qth",
+    "ask": 400,
+    "shipping": 35
+  },
+  "comps": [
+    {
+      "price": 499.99,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840016600535",
+      "source": "ebay",
+      "notes": "shipping +44.87",
+      "flags": []
+    },
+    {
+      "price": 499.99,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198689188409",
+      "source": "ebay",
+      "notes": "shipping +39.87; same seller and title as 840016600535 and 188842923023",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 449.99,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188842923023",
+      "source": "ebay",
+      "notes": "shipping +39.87",
+      "flags": []
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2026-08-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178337274160",
+      "source": "ebay",
+      "notes": "MFJ-998 IntelliTuner; shipping +29.14",
+      "flags": []
+    }
+  ]
+}
