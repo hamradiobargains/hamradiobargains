@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio Maestro B",
+  "slug": "flexradio-maestro-b",
+  "searched_at": "2026-11-02T19:32:21-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'flexradio maestro b' returned 0 exact results (the only matches were the 'fewer words' section, ignored). Zero qualifying comps. Ledger has 'FLEXRADIO MAESTRO' (count 2, 2026-09-15, median 644.95) - not used: count under 3, stale, and Maestro vs Maestro B identity not certain.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783738",
+    "site": "qth",
+    "ask": 700,
+    "shipping": 0
+  },
+  "comps": []
+}
