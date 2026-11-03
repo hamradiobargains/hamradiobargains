@@ -1,0 +1,15 @@
+{
+  "model": "Dentron Classic 3KW",
+  "slug": "dentron-classic-3kw",
+  "searched_at": "2026-11-02T19:32:21-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'dentron classic 3kw' returned 0 results. Zero qualifying comps. Ad calls it a Dentron Super Super Tuner / Classic 3KW, 10-160 m, $300 shipped stateside. Ledger has 'DENTRON SUPER TUNER PLUS' (count 1) - a different model, not used.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783693",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": []
+}
