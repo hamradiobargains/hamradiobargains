@@ -1,0 +1,81 @@
+{
+  "model": "Kenwood TH-D75A",
+  "slug": "kenwood-th-d75a",
+  "searched_at": "2026-11-03T18:00:09-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Search 'kenwood th-d75a', page 1, above 'Results matching fewer words'. 7 kept. Dropped 2 best-offer-accepted, dropped 0 parts-only. Excluded TH-D74A sales (different model), one 'TH-D75' (no A suffix; identity uncertain, $435, 257746792752), and accessories (batteries, mount, stand, manuals). No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/407337406783",
+    "site": "ebay",
+    "ask": 595.0,
+    "shipping": 21.7
+  },
+  "comps": [
+    {
+      "price": 460.99,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307242662921",
+      "source": "ebay",
+      "notes": "auction, 17 bids; +$24.95 shipping",
+      "flags": []
+    },
+    {
+      "price": 560.0,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336851368425",
+      "source": "ebay",
+      "notes": "auction, 16 bids; +$7.95 shipping",
+      "flags": []
+    },
+    {
+      "price": 575.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267801956483",
+      "source": "ebay",
+      "notes": "fixed price; +$7.72 shipping",
+      "flags": []
+    },
+    {
+      "price": 567.0,
+      "sold_date": "2026-10-02",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/198675903456",
+      "source": "ebay",
+      "notes": "auction, 23 bids; free shipping",
+      "flags": []
+    },
+    {
+      "price": 580.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366644898602",
+      "source": "ebay",
+      "notes": "fixed price; +$15.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 580.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377447928880",
+      "source": "ebay",
+      "notes": "fixed price; free shipping",
+      "flags": []
+    },
+    {
+      "price": 399.99,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407172744039",
+      "source": "ebay",
+      "notes": "fixed price; free shipping; title: with Power Dongle",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
