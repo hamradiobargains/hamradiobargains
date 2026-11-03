@@ -1,0 +1,22 @@
+{
+  "model": "Xiegu G90",
+  "slug": "xiegu-g90",
+  "searched_at": "2026-11-02T19:32:21-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 375.0, count 41, ledger date 2026-10-06 — ledger hit — individual sales behind the median are not auditable from this file (ad is a G90 with accessories; ad states 15 and 17 meter bands inoperable)",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783814",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 375.0,
+    "low": 260.0,
+    "high": 539.0,
+    "count": 41,
+    "date": "2026-10-06"
+  }
+}
