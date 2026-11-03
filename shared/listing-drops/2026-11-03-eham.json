@@ -1,0 +1,75 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-03",
+  "ran_at": "2026-11-03T05:52:59-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-02T05:54:47-05:00 (prior eham run). Browsed signed OUT ('Welcome Guest'). Cloudflare 'performing security verification' interstitial on first load cleared on its own after a ~10s wait (no interaction). Public classifieds page 1 (newest first) scanned: ads 629463-629478 (posted 2026-11-01/02), none previously dropped. Clicking pagination '2' did not change the page (still page 1), so page 2 was not scanned; ad IDs 629440-629462 (if public) were not seen this run. Not dropped: 629473 swap coax and 629470 WANTED Yaesu mic (no asking price), 629466 drone line-drop rig (not ham gear), 629465 satellite interfaces (mixed 4-item SSB lot, $650+ship, no single model to comp). No individual ad pages, search form, sold searches, or seller/callsign pages opened. Ledger: all 6 candidates missed (IC-7300MK2 ledger latest 2026-10-02 is >30 days; YAESU FTM-500DR latest 2026-09-26 is >30 days and ad says only 'FTM 500'; no entries for Mercury ATS, Mercury III, Commander HF-2500E, UT-102). 6 eBay sold searches run, signed in, no challenges.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629478",
+      "site": "eham",
+      "title": "Yaesu FTM 500 For Sale",
+      "price": 475.0,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "Seller: excellent condition, works as it should; never mobile used, used 4-5 times in shack; all original equipment plus SCU-62 separation cables; power cable has Powerpoles. $475 includes shipping to lower 48. Check/MO/cash, ships after check clears.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629469",
+      "site": "eham",
+      "title": "MERCURY ATS AUTO TUNER",
+      "price": 900.0,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "KM3KM Mercury ATS automatic tuner, original owner, 1 year old, 160-6m. Seller notes 'front on/off switch mod'. $900 plus shipping (shipping amount not stated; 0 = unknown).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629468",
+      "site": "eham",
+      "title": "MERCURY III 1200 WATT AMP",
+      "price": 2900.0,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "KM3KM Mercury III LDMOS amp, 160-6m, 1200W; seller says like new, rarely used. $2900 plus shipping (amount not stated; 0 = unknown); prefers not to ship, US only.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629467",
+      "site": "eham",
+      "title": "Command Technologies Commander HF 2500E",
+      "price": 2500.0,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "3x 3CX800A7, 160-10m, 220VAC only. Seller: fully checked, full output, good cosmetic condition. $2500 firm, PICKUP ONLY (Denver CO area) for now.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629464",
+      "site": "eham",
+      "title": "ICOM IC-7300MK2",
+      "price": 1250.0,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "IC-7300MK2 with everything from the original shipping box. $1250 shipped CONUS. Would consider trade for Flex Maestro C.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629463",
+      "site": "eham",
+      "title": "Icom UT-102 Voice Synthesizer",
+      "price": 115.0,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "Icom UT-102 voice synthesizer option unit. $115 shipped. No condition stated in ad.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
