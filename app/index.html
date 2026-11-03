@@ -197,7 +197,7 @@ nav.tabs .badge{position:absolute;top:0;right:calc(50% - 21px);background:var(--
 
   <div style="text-align:center;margin:20px 0 2px"><button class="btn ghost shareBtn" type="button" style="padding:10px 20px">Send this app to a ham</button></div>
   <p class="foot">Fair values from recorded sales, gathered and kept by HamRadioBargains.com.<br>Buy right. Sell straight.</p>
-  <p class="foot" style="margin-top:6px;font-size:12px;opacity:.75">App version 13 · Nov 1, 2026</p>
+  <p class="foot" style="margin-top:6px;font-size:12px;opacity:.75">App version 14 · Nov 3, 2026</p>
 </main>
 
 <nav class="tabs">
@@ -627,6 +627,38 @@ if (navigator.serviceWorker && navigator.serviceWorker.getRegistration) { naviga
 if ("serviceWorker" in navigator && location.protocol === "https:") {
   window.addEventListener("load", function(){ navigator.serviceWorker.register("/app/sw.js").catch(function(){}); });
 }
+</script>
+
+<script>
+  // Install counting (Leo approved 2026-11-03). Two GoatCounter events, nothing else:
+  // "app-installed" fires on the browser's confirmed install event (Android/desktop
+  // Chrome and Edge). "app-first-open" fires once per device on the first launch from
+  // the home-screen icon (standalone mode) - the only install signal iPhone offers.
+  // App pageviews stay uncounted (no_onload). Counting must never break the app.
+  window.goatcounter = { no_onload: true };
+</script>
+<script data-goatcounter="https://hrb.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script>
+  (function () {
+    function fire(path) {
+      var tries = 0;
+      (function attempt() {
+        try {
+          if (window.goatcounter && window.goatcounter.count) {
+            window.goatcounter.count({ path: path, event: true });
+          } else if (tries++ < 10) { setTimeout(attempt, 300); }
+        } catch (e) {}
+      })();
+    }
+    try {
+      window.addEventListener("appinstalled", function () { fire("app-installed"); });
+      var standalone = (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches) || window.navigator.standalone === true;
+      if (standalone && !localStorage.getItem("hrb-install-counted")) {
+        localStorage.setItem("hrb-install-counted", "1");
+        fire("app-first-open");
+      }
+    } catch (e) {}
+  })();
 </script>
 </body>
 </html>
