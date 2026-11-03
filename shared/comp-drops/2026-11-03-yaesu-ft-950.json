@@ -1,0 +1,110 @@
+{
+  "model": "Yaesu FT-950",
+  "slug": "yaesu-ft-950",
+  "searched_at": "2026-11-03T15:01:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ft-950', page 1 only. 10 kept. dropped 5 best-offer-accepted (206626946793, 336856013472, 128093283731, 137664897921, 137647687639); dropped 0 parts-only. Excluded a manual. 1 OUTLIER flagged: 327381515515 at $1,339.26 (bundled with DMU-2000) vs ~$600 median for the rest. 336868741760 has same title/price/shipping as the dropped BOA sale 336856013472 (possible relist).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783963",
+    "site": "qth",
+    "ask": 575.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 600.0,
+      "sold_date": "2026-11-03",
+      "condition": "Pre-Owned; title: w/ original mic & manual. Works Great.",
+      "url": "https://www.ebay.com/itm/257817196805",
+      "source": "ebay",
+      "notes": "shipping +$60.00 shown",
+      "flags": []
+    },
+    {
+      "price": 451.0,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned; title: MH-31 Manual And MIC",
+      "url": "https://www.ebay.com/itm/117489006787",
+      "source": "ebay",
+      "notes": "auction, 9 bids; shipping +$60.00 shown",
+      "flags": []
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-11-01",
+      "condition": "Pre-Owned; title: Tested Working",
+      "url": "https://www.ebay.com/itm/287654630199",
+      "source": "ebay",
+      "notes": "shipping +$98.00 shown",
+      "flags": []
+    },
+    {
+      "price": 599.99,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198748915874",
+      "source": "ebay",
+      "notes": "shipping +$49.87 shown",
+      "flags": []
+    },
+    {
+      "price": 624.0,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned; title: Manual & Power Cable - Tested",
+      "url": "https://www.ebay.com/itm/336868741760",
+      "source": "ebay",
+      "notes": "same title, price and shipping as 336856013472 (sold 2026-10-23 as best-offer-accepted, dropped) - may be the same unit relisted; shipping +$42.75 shown",
+      "flags": []
+    },
+    {
+      "price": 445.0,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned; title: Works Good.",
+      "url": "https://www.ebay.com/itm/800823208737",
+      "source": "ebay",
+      "notes": "auction, 16 bids; shipping +$70.00 shown",
+      "flags": []
+    },
+    {
+      "price": 1339.26,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned; title: + DMU 2000 Data Management unit",
+      "url": "https://www.ebay.com/itm/327381515515",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,339.26 vs ~$600 median for the rest; price includes DMU-2000 data management unit",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned; title: w/ IF-2000 and LP-PAN",
+      "url": "https://www.ebay.com/itm/117433725002",
+      "source": "ebay",
+      "notes": "includes IF-2000 and LP-PAN per title; shipping +$75.33 shown",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 390.0,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned; title: Tested Working",
+      "url": "https://www.ebay.com/itm/227473319094",
+      "source": "ebay",
+      "notes": "identical title to 317902022406; shipping +$139.86 shown",
+      "flags": []
+    },
+    {
+      "price": 799.99,
+      "sold_date": "2026-04-17",
+      "condition": "Pre-Owned; title: Tested Working",
+      "url": "https://www.ebay.com/itm/317902022406",
+      "source": "ebay",
+      "notes": "identical title to 227473319094; shipping +$159.99 shown",
+      "flags": []
+    }
+  ]
+}
