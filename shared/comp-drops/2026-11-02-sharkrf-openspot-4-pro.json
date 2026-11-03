@@ -1,0 +1,43 @@
+{
+  "model": "SharkRF OpenSpot 4 Pro",
+  "slug": "sharkrf-openspot-4-pro",
+  "searched_at": "2026-11-02T19:32:21-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "3 kept comp(s), median 246.5 - solid. Dropped 2 best-offer-accepted, 0 parts-only, 0 read-description. Dropped Best offer accepted: 298642851513 ($175, Open Box) and 358913313985 ($950, bundle with Kenwood TH-D75A). Cases/antennas/cables excluded. Ledger had count 1 (2026-09-30).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783681",
+    "site": "qth",
+    "ask": 249,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 250.0,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307230121645",
+      "source": "ebay",
+      "notes": "1 bid (final); shipping +6.88",
+      "flags": []
+    },
+    {
+      "price": 246.5,
+      "sold_date": "2026-09-20",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/336792746048",
+      "source": "ebay",
+      "notes": "auction 22 bids; title says barely used; shipping +8.56",
+      "flags": []
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336751409464",
+      "source": "ebay",
+      "notes": "free shipping",
+      "flags": []
+    }
+  ]
+}
