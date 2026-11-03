@@ -1,0 +1,15 @@
+{
+  "model": "Command Technologies Commander HF-2500E",
+  "slug": "command-technologies-hf-2500e",
+  "searched_at": "2026-11-03T05:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'command technologies hf-2500e': 0 exact results; fewer-words matches ignored (included a Commander HF-1250 and a QRO Technologies HF-2500 — different models). No comps — thin/none. Listing is pickup only.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629467",
+    "site": "eham",
+    "ask": 2500.0,
+    "shipping": 0
+  },
+  "comps": []
+}
