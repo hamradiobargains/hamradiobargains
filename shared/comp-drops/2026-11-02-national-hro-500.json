@@ -1,0 +1,15 @@
+{
+  "model": "National HRO-500",
+  "slug": "national-hro-500",
+  "searched_at": "2026-11-02T19:32:21-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "0 kept comp(s) - thin. Dropped 1 best-offer-accepted, 0 parts-only, 0 read-description. Only one sold result on page 1 (377487055208, HRO-500 + LF-10 preselector, $1,199.90, Sep 11 2026, Best offer accepted, shipping +59.99): dropped as Best offer accepted. Zero qualifying comps.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783718",
+    "site": "qth",
+    "ask": 1200,
+    "shipping": 0
+  },
+  "comps": []
+}
