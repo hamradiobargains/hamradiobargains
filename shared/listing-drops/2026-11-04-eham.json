@@ -1,0 +1,64 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-04",
+  "ran_at": "2026-11-04T05:53:02-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-03T05:52:59-05:00 (prior eham run). Browsed signed OUT ('Welcome Guest'). A Cloudflare interstitial on first load cleared on its own after a ~10s wait (no interaction). Read public classifieds page 1 only (newest first, ads 629469-629481); no individual ad pages, search form, sold searches, or seller/callsign pages opened; no ad IDs probed. New since prior run: 629481 (posted 2026-11-03) and 629480, 629477, 629475, 629474, 629471 (dated 2026-11-02 but not seen on the prior run's page 1). Not dropped: 629477 Navy keys (keys, no make/model; not in candidate categories). 629473, 629470, 629469, 629478 already covered by the prior run. Ad numbers 629472, 629476, 629479 did not appear on the public page (not opened). Comps: 1 ledger hit (ICOM IC-705); 4 eBay sold searches signed in as Leo, one at a time, no challenges.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629481",
+      "site": "eham",
+      "title": "ICOM SM-50 Desk Microphone",
+      "price": 195.0,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "Posted 2026-11-03. 'very good condition. Fully tests, works great!' Includes original box with inserts. $195 (OBO) shipped anywhere in CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629480",
+      "site": "eham",
+      "title": "FS: ICOM IC-705 HF-50mhz 2/440 Meters",
+      "price": 975.0,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "Posted 2026-11-02 (not visible on the 2026-11-03 run's page 1). 'Excellent Condition. Full Output, No Scratches or Dings', never used portable, works great. Includes USB-C mod board (not installed), all original accessories (hand mic, cables), manual and box. $975 shipping included UPS, CONUS only, PayPal.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629475",
+      "site": "eham",
+      "title": "Icom IC-9700 144/440/1.2 GHz Transceiver",
+      "price": 1500.0,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "Posted 2026-11-02 (not visible on the 2026-11-03 run's page 1). Includes mic, power cord, manuals, factory box with inserts, plus Leo Bodnar MiniGPS USB reference clock and antenna (unused, no manual). $1500 shipped to CONUS; PayPal add $25. Ad does not describe working condition.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629474",
+      "site": "eham",
+      "title": "Yaesu FT-897 HF/VHF/UHF Transceiver, Tuner, Ant",
+      "price": 850.0,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "Posted 2026-11-02 (not visible on the 2026-11-03 run's page 1). Bundle: Yaesu FT-897 + LDG AT-897 auto tuner + Blue Star P1 portable vertical with tripod. 'Condition: Used. Please review all photos carefully for exact cosmetic condition.' Ad does not say tested/working. $850 + shipping (amount not stated).",
+      "work_flag": "Condition: Used. Please review all photos carefully for exact cosmetic condition. (no working/tested statement in ad)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629471",
+      "site": "eham",
+      "title": "FS: Nice CDE/Hy-Gain T2X rotator",
+      "price": 425.0,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "Posted 2026-11-02 (not visible on the 2026-11-03 run's page 1). 'recent service & refurbished', 'excellent condition like NEW', new G25 ball bearings, fresh low-temp lube; includes control unit, all hardware and manual. $425 + ship (amount not stated).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
