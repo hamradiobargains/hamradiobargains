@@ -1,0 +1,25 @@
+{
+  "model": "AnyTone AT-5555N",
+  "slug": "anytone-at-5555n",
+  "searched_at": "2026-11-04T17:59:46-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1: 1 kept — thin. Dropped 2 best-offer-accepted for exact AT-5555N (158282745072; 278267105019 which was also parts-only). Excluded 9 AnyTone AT-5555N II sales (different model) and accessories (data cable, power supply). No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/840093926306",
+    "site": "ebay",
+    "ask": 100.0,
+    "shipping": 10.35
+  },
+  "comps": [
+    {
+      "price": 169.85,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278276840357",
+      "source": "ebay",
+      "notes": "Fixed price. Title: (K) AnyTone AT-5555N 10 Meter Radio AM FM SSB w/ Mic, Power Cord. Shipping $5.00.",
+      "flags": []
+    }
+  ]
+}
