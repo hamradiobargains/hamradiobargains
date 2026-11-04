@@ -1,0 +1,15 @@
+{
+  "model": "Array Solutions Six Pak",
+  "slug": "array-solutions-six-pak",
+  "searched_at": "2026-11-03T19:12:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold + Completed, page 1 only, signed in as Leo). 0 kept comps. Best-offer-accepted sales dropped: 0. Parts/for-repair/untested sales dropped: 0. Read Description sales dropped: 0. eBay returned 0 results for the exact search. Trigger ad 1783794: Array Solutions Six Pak virtually new, $250, buyer ships from 32949.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783794",
+    "site": "qth",
+    "ask": 250,
+    "shipping": 0
+  },
+  "comps": []
+}
