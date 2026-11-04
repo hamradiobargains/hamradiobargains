@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-6600",
+  "slug": "flexradio-flex-6600",
+  "searched_at": "2026-11-04T14:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'FlexRadio FLEX-6600', page 1: 1 exact result, dropped 1 parts-only (item 336821623446, Sold Oct 1 2026, 'Untested As Is', labeled Parts Only, $1,499.95 BIN + $30.35 delivery). 0 comps kept — thin (none). Ledger had count 1 (2026-08-11). 'Results matching fewer words' ignored. dropped 0 best-offer-accepted.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784029",
+    "site": "qth",
+    "ask": 2100.0,
+    "shipping": 0
+  },
+  "comps": []
+}
