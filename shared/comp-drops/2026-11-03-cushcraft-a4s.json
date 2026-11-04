@@ -1,0 +1,15 @@
+{
+  "model": "Cushcraft A4S",
+  "slug": "cushcraft-a4s",
+  "searched_at": "2026-11-03T19:12:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold + Completed, page 1 only, signed in as Leo). 0 kept comps. Best-offer-accepted sales dropped: 0. Parts/for-repair/untested sales dropped: 0. Read Description sales dropped: 0. Only result was an assembly/installation manual listing (excluded as not the unit). Trigger ad 1783754: Cushcraft A4S with 40m add-on, $400 firm, meet or pickup.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783754",
+    "site": "qth",
+    "ask": 400,
+    "shipping": 0
+  },
+  "comps": []
+}
