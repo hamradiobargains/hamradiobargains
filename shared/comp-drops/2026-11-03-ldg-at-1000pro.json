@@ -1,0 +1,25 @@
+{
+  "model": "LDG AT-1000Pro",
+  "slug": "ldg-at-1000pro",
+  "searched_at": "2026-11-03T19:12:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold + Completed, page 1 only, signed in as Leo). 1 kept, median 110.00, low 110.00, high 110.00 - thin (fewer than 3). Best-offer-accepted sales dropped: 0. Parts/for-repair/untested sales dropped: 0. Read Description sales dropped: 0. Thin: 1 kept. AT-1000 Pro II (original is not the Pro II) and power adapters excluded. Trigger ad 1783807 is the original AT-1000Pro (used, buyer pays shipping and insurance; recorded 0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783807",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 110.0,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168781868481",
+      "source": "ebay",
+      "notes": "title \"LDG Electronics AT-1000Pro Autotuner Automatic...\"; shipping 7.07",
+      "flags": []
+    }
+  ]
+}
