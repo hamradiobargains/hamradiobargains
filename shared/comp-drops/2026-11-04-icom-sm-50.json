@@ -1,0 +1,259 @@
+{
+  "model": "Icom SM-50",
+  "slug": "icom-sm-50",
+  "searched_at": "2026-11-04T05:57:13-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom sm-50', page 1 only, 36 results above 'Results matching fewer words'. Ledger miss: no ICOM SM-50 entry. Kept 27. Dropped 6 best-offer-accepted. Dropped 0 parts-only. Excluded 3 non-unit listings: an IC-705 adapter cable, an SM-50 dust cover, and an IC-7300 transceiver bundle where the SM-50 is a minor part. OUTLIERS (kept): $87.68 (18-bid auction, used), $73.16 (7-bid auction, Canada) and $749.60 (sold Jan 2024, Japan BIN) vs ~$182 median of the others. Many 'Brand New' comps are Japan-located imports with import fees included; shipping noted per comp.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629481",
+    "site": "eham",
+    "ask": 195.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 87.68,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800822253916",
+      "source": "ebay",
+      "notes": "OUTLIER: $87.68 vs ~$182.69 median of the other kept comps. Auction, 18 bids; +$20.00 delivery; title 'Desk Top Microphone With Cord, Very Nice'",
+      "flags": []
+    },
+    {
+      "price": 258.66,
+      "sold_date": "2026-07-23",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/158089385259",
+      "source": "ebay",
+      "notes": "Buy It Now; +$8.00 delivery; includes import fees; located in Japan (JP version)",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206627676148",
+      "source": "ebay",
+      "notes": "Buy It Now; +$25.43 delivery; title '(very nice)'",
+      "flags": []
+    },
+    {
+      "price": 749.6,
+      "sold_date": "2024-01-28",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/384445441752",
+      "source": "ebay",
+      "notes": "OUTLIER: $749.60 vs ~$176.93 median of the other kept comps. Buy It Now; +$44.15 delivery; located in Japan; sold 2024",
+      "flags": []
+    },
+    {
+      "price": 189.98,
+      "sold_date": "2026-08-09",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/156917032271",
+      "source": "ebay",
+      "notes": "Buy It Now; +$49.99 delivery; includes import fees; located in Japan; new in box",
+      "flags": []
+    },
+    {
+      "price": 171.48,
+      "sold_date": "2026-10-10",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/406869997706",
+      "source": "ebay",
+      "notes": "Buy It Now; +$31.50 delivery; includes import fees; located in Japan (JDM)",
+      "flags": []
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2026-10-08",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/398424881437",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); +$5.00 delivery; title 'Tested PTT UP DOWN VOX Working'",
+      "flags": []
+    },
+    {
+      "price": 202.0,
+      "sold_date": "2026-10-05",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/395229333605",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery; includes import fees; located in Japan",
+      "flags": []
+    },
+    {
+      "price": 201.99,
+      "sold_date": "2026-10-02",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/226807132801",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery; includes import fees; located in Japan",
+      "flags": []
+    },
+    {
+      "price": 149.99,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198674704727",
+      "source": "ebay",
+      "notes": "Buy It Now; +$21.98 delivery",
+      "flags": []
+    },
+    {
+      "price": 199.99,
+      "sold_date": "2026-09-28",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/318166160274",
+      "source": "ebay",
+      "notes": "Buy It Now; +$40.00 delivery; includes import fees; located in Japan",
+      "flags": []
+    },
+    {
+      "price": 224.98,
+      "sold_date": "2026-09-22",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/326759833275",
+      "source": "ebay",
+      "notes": "Buy It Now; +$50.00 delivery; includes import fees; located in Japan",
+      "flags": []
+    },
+    {
+      "price": 255.0,
+      "sold_date": "2026-09-20",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/335208962785",
+      "source": "ebay",
+      "notes": "Buy It Now; +$70.00 delivery; includes import fees; located in Japan",
+      "flags": []
+    },
+    {
+      "price": 265.0,
+      "sold_date": "2026-09-15",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/389938364713",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery; includes import fees; located in Japan",
+      "flags": []
+    },
+    {
+      "price": 182.37,
+      "sold_date": "2026-09-11",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/358681965557",
+      "source": "ebay",
+      "notes": "Buy It Now; +$39.00 delivery; includes import fees; located in Japan (Japan version)",
+      "flags": []
+    },
+    {
+      "price": 183.0,
+      "sold_date": "2026-09-09",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/158258421531",
+      "source": "ebay",
+      "notes": "Buy It Now; +$8.98 delivery",
+      "flags": []
+    },
+    {
+      "price": 155.85,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377455358902",
+      "source": "ebay",
+      "notes": "Buy It Now; +$31.50 delivery; located in Japan; title 'Used'",
+      "flags": []
+    },
+    {
+      "price": 73.16,
+      "sold_date": "2026-08-31",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/377444587926",
+      "source": "ebay",
+      "notes": "OUTLIER: $73.16 vs ~$182.69 median of the other kept comps. Auction, 7 bids; +$32.12 delivery; import fees due; located in Canada",
+      "flags": []
+    },
+    {
+      "price": 228.87,
+      "sold_date": "2026-08-31",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/358658359968",
+      "source": "ebay",
+      "notes": "Buy It Now; +$46.88 delivery; includes import fees; located in Japan; with box",
+      "flags": []
+    },
+    {
+      "price": 170.68,
+      "sold_date": "2026-08-26",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/236986549209",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery; includes import fees; located in Japan",
+      "flags": []
+    },
+    {
+      "price": 128.99,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298608551166",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); +$13.50 delivery; title 'Clean ... WORKS'",
+      "flags": []
+    },
+    {
+      "price": 128.0,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377388231873",
+      "source": "ebay",
+      "notes": "Buy It Now; +$15.00 delivery; located in Japan; title 'Tested Working'",
+      "flags": []
+    },
+    {
+      "price": 196.97,
+      "sold_date": "2026-08-10",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/126361949545",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); +$17.99 delivery; includes import fees; located in Japan",
+      "flags": []
+    },
+    {
+      "price": 139.99,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147481638245",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; +$5.99 delivery",
+      "flags": []
+    },
+    {
+      "price": 193.0,
+      "sold_date": "2026-08-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/177954914930",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery; includes import fees; located in Japan",
+      "flags": []
+    },
+    {
+      "price": 110.0,
+      "sold_date": "2026-08-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168593814603",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; +$6.65 delivery",
+      "flags": []
+    },
+    {
+      "price": 152.7,
+      "sold_date": "2026-08-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117340863235",
+      "source": "ebay",
+      "notes": "Auction, 16 bids; +$29.16 shipping estimate; located in United Kingdom",
+      "flags": []
+    }
+  ]
+}
