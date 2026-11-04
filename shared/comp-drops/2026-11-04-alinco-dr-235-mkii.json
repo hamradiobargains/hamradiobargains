@@ -1,0 +1,15 @@
+{
+  "model": "Alinco DR-235 MkII",
+  "slug": "alinco-dr-235-mkii",
+  "searched_at": "2026-11-04T17:59:46-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1: 0 exact-model comps — thin. Results were DR-235T MKIII (2), DR-235T with no version stated (1), DR-135 MKII (2), DR-138 MKII (1, best-offer-accepted) and a rack mount — all excluded as different/uncertain models. Also note the trigger listing title says DR-235 MkII but 144-148MHz, so its own model identity is uncertain.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/840093896706",
+    "site": "ebay",
+    "ask": 90.0,
+    "shipping": 10.35
+  },
+  "comps": []
+}
