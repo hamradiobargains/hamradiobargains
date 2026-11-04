@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-04",
+  "ran_at": "2026-11-04T17:59:46-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now filter, sorted Time: newly listed, page 1 only (60 NEW LISTING cards); signed in as Leo, no challenges. Window since previous ebay run 2026-11-03T17:53:10-05:00 (browse cards show no listing times; newest-first order used). None of the picked items were in dropped-urls.json. Seller rule failures (skipped): Swan 250C (seller 0 ratings) and Swan Cygnet 260 (listed alongside the 0-rating Swan 250C; seller feedback not verified — skipped), DVMEGA Cast + DVStick 30 (seller 93.8%). Ledger: 3 hits (YAESU FT-710 FIELD, KENWOOD TM-D700A, COLLINS 30L-1); 5 misses -> 5 eBay sold searches (Yaesu VX-7R, Alinco DR-235 MkII, AnyTone AT-5555N, Radioddity QT-60, Geloso G-209 — none in ledger). Not picked: parts-only (Kenwood TM-431A, Hy-Gain 421B meter, Varmint XL-250, Palomar TX-75, Hallicrafters S-85, BUD wavemeter), accessories/parts (Kenwood PB-2, CDE AR-33 and Big Talk rotator controls, Ameritron RCS-4, Diamond MX-72H/Comet CF-416 duplexers, MFJ-752C, DX Doubler, band-pass filter array, knobs, Bird slug, FT-140-43 toroid, FRG-7 dial, SX-28 knobs, Diamond C110 cable), commercial/non-ham (Decibel/Celwave repeater duplexers, satellite BUC kits, capture card, FM transmitter, weather/SW receivers, Sinclair isolator), AlfaSpid RAK-2/RAU-1/RAS-1 (new retail rotators), '60W TM-281A FM Transceiver KENWOOD' listing, Hallicrafters S-38B and Lafayette HE-45B, RCA AVT-112A, R-27/ARC-5 (vintage receivers/military) once the 8-candidate cap was reached.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/168839172114",
+      "site": "ebay",
+      "title": "Yaesu FT-710 Field 100W HF/50MHz SDR Transceiver MARS Mod + QJE 30A Power Supply",
+      "price": 950.0,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "Open box per eBay. Title says MARS mod and includes QJE 30A power supply. Buy It Now or Best Offer. Free shipping. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (132 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227598373631",
+      "site": "ebay",
+      "title": "Yaesu VX-7R Tri-Band Ham Radio – Orig Box, Charger, Antennas, Programming Kit",
+      "price": 275.0,
+      "shipping": 13.7,
+      "found_at": "2026-11-04",
+      "condition_notes": "Used. Includes original box, charger, antennas and programming kit per title. Buy It Now or Best Offer. 30-day returns, buyer pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (1366 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/840093863544",
+      "site": "ebay",
+      "title": "Kenwood TM-D700A Dual Band VHF/UHF Transceiver w/APRS Cables Mic",
+      "price": 239.0,
+      "shipping": 18.7,
+      "found_at": "2026-11-04",
+      "condition_notes": "Used. Includes APRS cables and mic per title. 14-day returns, buyer pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (5983 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/117504936479",
+      "site": "ebay",
+      "title": "Collins 30L-1 HF Linear Amplifier - New Diode/Capacitor board. All caps replaced",
+      "price": 949.0,
+      "shipping": 89.0,
+      "found_at": "2026-11-04",
+      "condition_notes": "Used. Title says new diode/capacitor board, all caps replaced. Seller condition note: \"No issues at all. Just don't abuse it and it will be good to you.\" Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (1226 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/840093896706",
+      "site": "ebay",
+      "title": "Alinco DR-235 MkII VHF FM Mobile Transceiver 144-148MHz LCD DTMF EMS-57 works",
+      "price": 90.0,
+      "shipping": 10.35,
+      "found_at": "2026-11-04",
+      "condition_notes": "Used. Title says works, includes EMS-57 (DTMF mic). Note: title says DR-235 MkII but also 144-148MHz; DR-235 is normally a 220MHz model and DR-135 the 2m model — model identity unclear from the title. Buy It Now or Best Offer. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (10 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/840093926306",
+      "site": "ebay",
+      "title": "AnyTone AT-5555N 10M Ham Radio Transceiver AM/SSB Echo Black tested powers on",
+      "price": 100.0,
+      "shipping": 10.35,
+      "found_at": "2026-11-04",
+      "condition_notes": "Used. Title says tested, powers on. Buy It Now or Best Offer. Seller does not accept returns.",
+      "work_flag": "tested powers on; Seller does not accept returns",
+      "seller_feedback": "100% (10 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/327439962216",
+      "site": "ebay",
+      "title": "Radioddity QT-60 10M 60W SSB PEP/50W FM Mobile Transceiver #24QT60A0255",
+      "price": 179.95,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "Used. Seller condition note: \"Very clean and doesn't look used. See photos.\" Free shipping. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (2423 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/128175522310",
+      "site": "ebay",
+      "title": "Vintage Geloso G-209 Ham Radio Receiver Milano Italia. Aligned Calibrated Clean!",
+      "price": 599.0,
+      "shipping": 49.0,
+      "found_at": "2026-11-04",
+      "condition_notes": "Used. Seller condition note: \"Calibrated and aligned. Capacitors OK. Used weekly and very dependable. Good for AM listening.\" Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (1226 ratings)"
+    }
+  ]
+}
