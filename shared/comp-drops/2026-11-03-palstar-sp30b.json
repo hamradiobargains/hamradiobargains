@@ -1,0 +1,34 @@
+{
+  "model": "Palstar SP30B",
+  "slug": "palstar-sp30b",
+  "searched_at": "2026-11-03T19:12:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold + Completed, page 1 only, signed in as Leo). 2 kept, median 71.50, low 53.00, high 90.00 - thin (fewer than 3). Best-offer-accepted sales dropped: 0. Parts/for-repair/untested sales dropped: 0. Read Description sales dropped: 0. Thin: 2 kept. OUTLIER kept: 188773916609 at 90.00 (above 1.5x the other kept comp). SP30H (a different model) is a separate ledger entry and is not mixed in. Trigger ad 1783805 ad says 'asis where is', buyer pays shipping and insurance (recorded 0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783805",
+    "site": "qth",
+    "ask": 100,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 90.0,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188773916609",
+      "source": "ebay",
+      "notes": "OUTLIER: 90.00 is above 1.5x the other kept comp (53.00); or Best Offer (not marked accepted); title \"Palstar Inc. SP30B Communication Speaker 5W W...\"; shipping 11.71",
+      "flags": []
+    },
+    {
+      "price": 53.0,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137617891639",
+      "source": "ebay",
+      "notes": "3 bids; title \"Palstar SP-30B Communications Radio Speaker -...\"; shipping 20.00",
+      "flags": []
+    }
+  ]
+}
