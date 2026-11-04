@@ -1,0 +1,112 @@
+{
+  "model": "Yaesu VX-7R",
+  "slug": "yaesu-vx-7r",
+  "searched_at": "2026-11-04T17:59:46-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (sorted recently ended). 10 kept. Dropped 6 best-offer-accepted (117498924947, 227560068732, 267760975595, 278412035006, 206476807269, and 227523213246 which was also parts-only/untested). Dropped 0 other parts-only. Excluded accessories (chargers, batteries, cables, case, MH-73A4B mic, manual). Left out 267820361619 (Yaesu VX-7RB VX-7R, $225, Oct 31) — VX-7RB variant, identity not certain. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/227598373631",
+    "site": "ebay",
+    "ask": 275.0,
+    "shipping": 13.7
+  },
+  "comps": [
+    {
+      "price": 215.0,
+      "sold_date": "2026-11-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/205932715304",
+      "source": "ebay",
+      "notes": "Fixed price. Title: 1pcs Yaesu VX-7R walkie-talkie with battery, antenna and charging cable. Shipping $20.00. Same title as 358725796792 (different item number).",
+      "flags": []
+    },
+    {
+      "price": 210.7,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358725796792",
+      "source": "ebay",
+      "notes": "Fixed price. Title: 1pcs Yaesu VX-7R walkie-talkie with battery, antenna and charging cable. Shipping $20.00. Same title as 205932715304 (different item number).",
+      "flags": []
+    },
+    {
+      "price": 219.99,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117471883859",
+      "source": "ebay",
+      "notes": "Auction final bid. Title: Used excellent condition. Shipping $10.30.",
+      "flags": []
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-10-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189026224943",
+      "source": "ebay",
+      "notes": "Auction final bid. Title: with Extras, MH-73A4B speaker mic. Shipping $9.53.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227546378233",
+      "source": "ebay",
+      "notes": "Auction final bid. Title: Submersible Tri-Band Transceiver With Extras. Shipping $8.53.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189026211246",
+      "source": "ebay",
+      "notes": "Auction final bid. Title: with Box and Extras, MH-73A4B speaker mic. Shipping $8.98.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 152.5,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168711619345",
+      "source": "ebay",
+      "notes": "Auction final bid. Title: 5W LCD 999CH w/ NC-72 (charger). Shipping $28.27.",
+      "flags": []
+    },
+    {
+      "price": 219.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/306881456680",
+      "source": "ebay",
+      "notes": "Fixed price. Title: 1pcs Yaesu VX-7R radio&ic. Shipping $50.00.",
+      "flags": []
+    },
+    {
+      "price": 152.5,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336792359848",
+      "source": "ebay",
+      "notes": "Auction final bid. Shipping $15.00.",
+      "flags": []
+    },
+    {
+      "price": 199.99,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158277664750",
+      "source": "ebay",
+      "notes": "Fixed price. Title says tested.",
+      "flags": []
+    }
+  ]
+}
