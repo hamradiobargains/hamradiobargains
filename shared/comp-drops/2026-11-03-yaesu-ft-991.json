@@ -1,0 +1,47 @@
+{
+  "model": "Yaesu FT-991",
+  "slug": "yaesu-ft-991",
+  "searched_at": "2026-11-03T19:12:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold + Completed, page 1 only, signed in as Leo). 3 kept, median 720.00, low 650.00, high 776.66. Best-offer-accepted sales dropped: 5 (items 800647647024 $650.00, 117399359206 $1000.00, 178471016735 $799.99, 178456840062 $845.00, 800568396331 $750.00). Parts/for-repair/untested sales dropped: 1 (items 267760073694 $275.00). Read Description sales dropped: 0. Original FT-991 ONLY per Leo's ruling; FT-991A sales excluded entirely (FT-991A is a different radio and is not mixed in). The 'Results matching fewer words' section was ignored (one FT-991 sale there, 227509624770 at 782.13 on 2026-09-19, was therefore not used). Best-offer-accepted drops include sellers' relists (800647647024 and 800686253602 share seller and title; the 09-21 sale was kept but flagged possible_duplicate). Sale 800588791875 includes an SP-10 speaker (extras_included). Manuals/covers/accessories excluded. Trigger ad 1783910: Yaesu '991' (model suffix not stated in ad, treated as original FT-991 per Leo's ruling), $600 firm, shipping at buyer's expense (amount not stated, recorded 0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+    "site": "qth",
+    "ask": 600,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 776.66,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128111155293",
+      "source": "ebay",
+      "notes": "25 bids; title \"Whith Manuals\"; shipping 139.86",
+      "flags": []
+    },
+    {
+      "price": 720.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800588791875",
+      "source": "ebay",
+      "notes": "11 bids; title \"yaesu FT 991 +SP10\" (SP-10 speaker included); shipping 45.00",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800686253602",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); same seller/title as 800647647024 sold 2026-09-15 (Best offer accepted) - likely relist of same unit; shipping 20.27",
+      "flags": [
+        "possible_duplicate"
+      ]
+    }
+  ]
+}
