@@ -1,0 +1,34 @@
+{
+  "model": "Hammarlund S-100",
+  "slug": "hammarlund-s-100",
+  "searched_at": "2026-11-03T19:12:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold + Completed, page 1 only, signed in as Leo). 2 kept, median 39.97, low 19.99, high 59.95 - thin (fewer than 3). Best-offer-accepted sales dropped: 0. Parts/for-repair/untested sales dropped: 0. Read Description sales dropped: 0. Thin: 2 kept, and they differ by more than 2x so both are marked OUTLIER relative to each other (19.99 vs 59.95). Trigger ad 1783809: S-100 speaker, VGC, $65 plus shipping (recorded 0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783809",
+    "site": "qth",
+    "ask": 65,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 19.99,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128119055259",
+      "source": "ebay",
+      "notes": "OUTLIER: 19.99 is below 0.5x the other kept comp (59.95); 1 bid; delivery 2-4 days; shipping 21.80",
+      "flags": []
+    },
+    {
+      "price": 59.95,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158223822892",
+      "source": "ebay",
+      "notes": "OUTLIER: 59.95 is above 1.5x the other kept comp (19.99); title \"Rare and Nice HAMMARLUND S-100 SPEAKER BIN ...\"; shipping 20.00",
+      "flags": []
+    }
+  ]
+}
