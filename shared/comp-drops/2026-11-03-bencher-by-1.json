@@ -1,0 +1,277 @@
+{
+  "model": "Bencher BY-1",
+  "slug": "bencher-by-1",
+  "searched_at": "2026-11-03T19:12:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold + Completed, page 1 only, signed in as Leo). 29 kept, median 75.00, low 45.00, high 149.99. Best-offer-accepted sales dropped: 11 (items 366767322514 $50.00, 237097363668 $70.00, 198666787609 $70.00, 800627477539 $74.95, 198648369825 $69.99, 206384631082 $49.00, 188834044784 $109.99, 168630452193 $70.00, 137498948696 $85.00, 366591250232 $59.99, 168676730101 $60.33). Parts/for-repair/untested sales dropped: 2 (items 278254974134 $48.29, 366644238785 $32.00). Read Description sales dropped: 0. BY-2, ST-1, RJ-1, dust covers, cables, filters, baluns, and bundles (MFJ-422C keyer, K42 keyboard) excluded; one title mentions 'BY-1 or BY-2 untested' and is counted under parts. Trigger ad 1783710 is $130 shipped east of the Mississippi (shipping recorded 0). Seller robtram sold multiple numbered units (#3, #4, #5); each is a separate sale. Sale 307142819080 title says single lever (kept, noted). Sale 820178252347 is from a UK seller with import fees. OUTLIER kept: 257767569215 at 149.99 (above 1.5x the median of the others).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783710",
+    "site": "qth",
+    "ask": 130,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 149.99,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257767569215",
+      "source": "ebay",
+      "notes": "OUTLIER: 149.99 is above 1.5x the median of the other kept comps (about 75); with DCBY clear cover; shipping 7.61",
+      "flags": []
+    },
+    {
+      "price": 75.0,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237106238192",
+      "source": "ebay",
+      "notes": "shipping 15.65",
+      "flags": []
+    },
+    {
+      "price": 62.0,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128131448584",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); shipping 13.50",
+      "flags": []
+    },
+    {
+      "price": 62.0,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327401797062",
+      "source": "ebay",
+      "notes": "6 bids; shipping 10.88",
+      "flags": []
+    },
+    {
+      "price": 59.99,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257800065354",
+      "source": "ebay",
+      "notes": "shipping 14.99",
+      "flags": []
+    },
+    {
+      "price": 45.0,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298615717140",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); title \"BY1 Deluxe Black\"; shipping 22.30",
+      "flags": []
+    },
+    {
+      "price": 90.0,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188953602997",
+      "source": "ebay",
+      "notes": "shipping 9.96",
+      "flags": []
+    },
+    {
+      "price": 78.44,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178437163290",
+      "source": "ebay",
+      "notes": "listed 106.00 shown 78.44 (20 percent off); title \"Vintage Bencher Iambic Paddle ... BY1\"; free delivery or shipping not shown",
+      "flags": []
+    },
+    {
+      "price": 80.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960026452459",
+      "source": "ebay",
+      "notes": "shipping 8.50",
+      "flags": []
+    },
+    {
+      "price": 70.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940003805683",
+      "source": "ebay",
+      "notes": "shipping 7.01",
+      "flags": []
+    },
+    {
+      "price": 79.95,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318880852414",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); shipping 13.50",
+      "flags": []
+    },
+    {
+      "price": 59.95,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278420497989",
+      "source": "ebay",
+      "notes": "seller robtram lot unit #5; shipping 7.13",
+      "flags": []
+    },
+    {
+      "price": 74.95,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278420496034",
+      "source": "ebay",
+      "notes": "seller robtram lot unit #3; shipping 7.13",
+      "flags": []
+    },
+    {
+      "price": 59.95,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287616531934",
+      "source": "ebay",
+      "notes": "seller robtram lot unit #4; shipping 7.13",
+      "flags": []
+    },
+    {
+      "price": 89.1,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178461508512",
+      "source": "ebay",
+      "notes": "listed 99.00 shown 89.10; free delivery or shipping not shown",
+      "flags": []
+    },
+    {
+      "price": 85.0,
+      "sold_date": "2026-09-23",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/358820662713",
+      "source": "ebay",
+      "notes": "shipping 6.88",
+      "flags": []
+    },
+    {
+      "price": 75.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800652265419",
+      "source": "ebay",
+      "notes": "shipping 7.61",
+      "flags": []
+    },
+    {
+      "price": 75.0,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407188127453",
+      "source": "ebay",
+      "notes": "shipping 9.96",
+      "flags": []
+    },
+    {
+      "price": 69.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267768255146",
+      "source": "ebay",
+      "notes": "shipping 15.00",
+      "flags": []
+    },
+    {
+      "price": 75.0,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168611645949",
+      "source": "ebay",
+      "notes": "shipping 8.50",
+      "flags": []
+    },
+    {
+      "price": 109.49,
+      "sold_date": "2026-08-30",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/307142819080",
+      "source": "ebay",
+      "notes": "2 bids; title says \"Single Lever\" Brand New; shipping 15.95",
+      "flags": []
+    },
+    {
+      "price": 74.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278305041763",
+      "source": "ebay",
+      "notes": "21 bids; shipping 13.00",
+      "flags": []
+    },
+    {
+      "price": 75.0,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206488671006",
+      "source": "ebay",
+      "notes": "shipping 7.73",
+      "flags": []
+    },
+    {
+      "price": 109.99,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158149980110",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); clear oval paddle; shipping 16.15",
+      "flags": []
+    },
+    {
+      "price": 99.0,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800492115808",
+      "source": "ebay",
+      "notes": "1 bid; free delivery or shipping not shown",
+      "flags": []
+    },
+    {
+      "price": 65.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236987269242",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); no wrench; shipping 12.70",
+      "flags": []
+    },
+    {
+      "price": 69.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287526042492",
+      "source": "ebay",
+      "notes": "shipping 8.91",
+      "flags": []
+    },
+    {
+      "price": 74.99,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366597211879",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); shipping 13.99",
+      "flags": []
+    },
+    {
+      "price": 67.03,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820178252347",
+      "source": "ebay",
+      "notes": "1 bid; seller in United Kingdom, import fees paid at checkout; shipping 37.85",
+      "flags": []
+    }
+  ]
+}
