@@ -1,0 +1,15 @@
+{
+  "model": "Henry 2K Classic X",
+  "slug": "henry-2k-classic-x",
+  "searched_at": "2026-11-04T14:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Henry 2K Classic X', page 1: 1 result, a HV filter capacitor part (item 168828969396, $125) — not the unit, left out. 0 comps kept — thin (none). No ledger entry. dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784022",
+    "site": "qth",
+    "ask": 1500.0,
+    "shipping": 0
+  },
+  "comps": []
+}
