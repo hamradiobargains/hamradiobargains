@@ -1,0 +1,94 @@
+{
+  "model": "Yaesu FT-897",
+  "slug": "yaesu-ft-897",
+  "searched_at": "2026-11-04T05:57:13-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ft-897', page 1 only, 69 results (no 'fewer words' section shown). Ledger miss: YAESU FT-897 latest date 2026-10-05 is at/over the 30-day edge, and the eHam ad says only 'FT-897' (its body mentions 'FT-897 / FT-897D' for the tuner), so identity treated as not certain. Kept 8 — only listings titled plain 'FT-897'; excluded 22 listings titled FT-897D / FT-897R (different models). Dropped 3 best-offer-accepted. Dropped 3 parts-only (Parts Only label, incl. one 'No Transmit'). Excluded accessories, tuners, power supplies, filters and boards (PA unit, main board, front panel). Trigger listing is a bundle with LDG AT-897 tuner + Blue Star P1 antenna. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629474",
+    "site": "eham",
+    "ask": 850.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 550.0,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880045791812",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; +$15.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 530.0,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117436607226",
+      "source": "ebay",
+      "notes": "Auction, 3 bids; +$50.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147605358639",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); +$22.74 delivery; title says '+ extras!'",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 820.79,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128033860103",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); +$225.00 delivery; title says 'Tested Working'",
+      "flags": []
+    },
+    {
+      "price": 575.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257733246069",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; +$29.90 delivery; title says 'Tested w/ Mic DC Cable Manual Power Supply'",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 575.0,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117399074112",
+      "source": "ebay",
+      "notes": "Buy It Now; +$21.70 delivery; title says 'w/ Rigblaster'",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 525.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298637284612",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); +$24.25 delivery; title says 'Orig Box Pwr Cord'",
+      "flags": []
+    },
+    {
+      "price": 629.95,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267741702752",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery; title says 'Tested Works'",
+      "flags": []
+    }
+  ]
+}
