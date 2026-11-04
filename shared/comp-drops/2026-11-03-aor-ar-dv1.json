@@ -1,0 +1,52 @@
+{
+  "model": "AOR AR-DV1",
+  "slug": "aor-ar-dv1",
+  "searched_at": "2026-11-03T19:12:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold + Completed, page 1 only, signed in as Leo). 4 kept, median 1349.50, low 989.99, high 1686.78. Best-offer-accepted sales dropped: 0. Parts/for-repair/untested sales dropped: 1 (items 168624934109 $504.53). Read Description sales dropped: 0. Programming cable and product leaflet listings excluded as accessories. AR-DV10 handhelds excluded (different radio). Sale 394927734273 is old (2025-01-13), from a Japan seller with import fees, listed Brand New. Trigger ad 1783731 is 'AOR DV1 receiver', free shipping to CONUS, 1-2 hours of use claimed.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783731",
+    "site": "qth",
+    "ask": 1400,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1686.78,
+      "sold_date": "2025-01-13",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/394927734273",
+      "source": "ebay",
+      "notes": "title \"AOR AR-DV1 SDR Digital Voice Receiver 100k...\"; seller located in Japan, import fees; sale is from January 2025 (old); shipping 498.00",
+      "flags": []
+    },
+    {
+      "price": 1400.0,
+      "sold_date": "2026-09-20",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/206557525818",
+      "source": "ebay",
+      "notes": "shipping 39.10",
+      "flags": []
+    },
+    {
+      "price": 989.99,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206489506156",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); seller in Japan; title mentions firmware; shipping 126.35",
+      "flags": []
+    },
+    {
+      "price": 1299.0,
+      "sold_date": "2026-08-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/406998292283",
+      "source": "ebay",
+      "notes": "title \"**NEW** AOR AR-DV1 Analog / Digital\"; shipping 27.20",
+      "flags": []
+    }
+  ]
+}
