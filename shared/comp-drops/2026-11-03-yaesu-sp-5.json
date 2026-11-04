@@ -1,0 +1,43 @@
+{
+  "model": "Yaesu SP-5",
+  "slug": "yaesu-sp-5",
+  "searched_at": "2026-11-03T19:12:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold + Completed, page 1 only, signed in as Leo). 3 kept, median 99.99, low 99.95, high 125.00. Best-offer-accepted sales dropped: 1 (items 257804984931 $109.95). Parts/for-repair/untested sales dropped: 0. Read Description sales dropped: 0. Trigger ad 1783708 is $130 picked up or plus shipping (amount not stated, recorded 0). 3 kept is a solid count.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783708",
+    "site": "qth",
+    "ask": 130,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 99.99,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407291191056",
+      "source": "ebay",
+      "notes": "delivery 2-4 days; shipping 24.81",
+      "flags": []
+    },
+    {
+      "price": 99.95,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198712463499",
+      "source": "ebay",
+      "notes": "title \"Very Nice YAESU SP-5 Speaker BIN $99.95\"; shipping 20.00",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158338269506",
+      "source": "ebay",
+      "notes": "4 bids; shipping 18.68",
+      "flags": []
+    }
+  ]
+}
