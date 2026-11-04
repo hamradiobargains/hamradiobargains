@@ -1,0 +1,52 @@
+{
+  "model": "Hallicrafters R-46B",
+  "slug": "hallicrafters-r-46b",
+  "searched_at": "2026-11-03T19:12:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold + Completed, page 1 only, signed in as Leo). 4 kept, median 65.00, low 49.95, high 89.99. Best-offer-accepted sales dropped: 0. Parts/for-repair/untested sales dropped: 1 (items 318151542636 $149.50). Read Description sales dropped: 0. Sale 318151542636 (149.50, condition Parts Only, or Best Offer) counted under parts. Trigger ad 1783808: Hallicrafters R-46B speaker #2, $65 plus shipping (recorded 0). Another R-46B ad, 1783806, was marked gone by the previous extras run.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783808",
+    "site": "qth",
+    "ask": 65,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 69.99,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127851594382",
+      "source": "ebay",
+      "notes": "shipping 25.59",
+      "flags": []
+    },
+    {
+      "price": 89.99,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127903560111",
+      "source": "ebay",
+      "notes": "title \"Vintage Hallicrafters R-46B Speaker\"; shipping 13.49",
+      "flags": []
+    },
+    {
+      "price": 49.95,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198592667312",
+      "source": "ebay",
+      "notes": "1 bid; title \"RARE Vintage Hallicrafters R-46B Speaker No R...\"; shipping 20.00",
+      "flags": []
+    },
+    {
+      "price": 60.0,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137610349332",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); title \"Vintage Hallicrafters R-46B Speaker Works...\"; shipping 11.02",
+      "flags": []
+    }
+  ]
+}
