@@ -1,0 +1,25 @@
+{
+  "model": "Radioddity QT-60",
+  "slug": "radioddity-qt-60",
+  "searched_at": "2026-11-04T17:59:46-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1: 1 kept — thin. Excluded 8 Radioddity QT60 Pro / QT60PRO sales (Pro not certain to be the same model as the plain QT-60 in the trigger title) and 1 data cable; one of the excluded Pro sales was best-offer-accepted (158151939506). Kept comp's title says only 'Radioditty QT60' — identity per title. Ignored 'Results matching fewer words' section.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/327439962216",
+    "site": "ebay",
+    "ask": 179.95,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 190.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188910297279",
+      "source": "ebay",
+      "notes": "Fixed price. Title: Radioditty QT60. Shipping $20.00.",
+      "flags": []
+    }
+  ]
+}
