@@ -1,0 +1,43 @@
+{
+  "model": "FlexRadio FLEX-6600M",
+  "slug": "flexradio-flex-6600m",
+  "searched_at": "2026-11-03T19:12:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold + Completed, page 1 only, signed in as Leo). 3 kept, median 3000.00, low 2100.00, high 3500.00. Best-offer-accepted sales dropped: 0. Parts/for-repair/untested sales dropped: 0. Read Description sales dropped: 0. Two searches were needed: the first query (flexradio flex-6600m) returned 0 exact results with the sales appearing only under 'Results matching fewer words'; a second query (flexradio 6600m) returned the 3 sales above on the main list. Both searches count toward the cap. FLEX-6600 (non-M) and 6600M kept separate from ledger entries. Trigger ad 1783061: Flex 6600M with ATU, $2799 + $35 insured shipping.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783061",
+    "site": "qth",
+    "ask": 2799,
+    "shipping": 35
+  },
+  "comps": [
+    {
+      "price": 2100.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128093372447",
+      "source": "ebay",
+      "notes": "title \"FlexRadio 6600M Mint!\"; shipping 22.04",
+      "flags": []
+    },
+    {
+      "price": 3000.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198630580035",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); title \"FlexRadio 6600M - Excellent Condition - Ready for th...\"; free delivery or shipping not shown",
+      "flags": []
+    },
+    {
+      "price": 3500.0,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178229280602",
+      "source": "ebay",
+      "notes": "title \"FlexRadio 6600M - Excellent Condition - Ready for th...\"; shipping 18.65",
+      "flags": []
+    }
+  ]
+}
