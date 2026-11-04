@@ -1,0 +1,15 @@
+{
+  "model": "KM3KM Mercury III",
+  "slug": "km3km-mercury-iii",
+  "searched_at": "2026-11-04T14:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'KM3KM Mercury III', page 1: 0 results. 0 comps kept — thin (none). No ledger entry. dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784060",
+    "site": "qth",
+    "ask": 3100.0,
+    "shipping": 0
+  },
+  "comps": []
+}
