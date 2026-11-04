@@ -1,0 +1,15 @@
+{
+  "model": "Ten-Tec 715",
+  "slug": "ten-tec-715",
+  "searched_at": "2026-11-03T19:12:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold + Completed, page 1 only, signed in as Leo). 0 kept comps. Best-offer-accepted sales dropped: 0. Parts/for-repair/untested sales dropped: 1 (items 237084706995 $49.99). Read Description sales dropped: 0. Only result was an untested/parts sale; no qualifying comps. Trigger ad 1783672 is a Ten-Tec 715 speech processor, ask 195 plus 24 shipping and insurance (MSRP 249 mentioned in ad body).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783672",
+    "site": "qth",
+    "ask": 195,
+    "shipping": 24
+  },
+  "comps": []
+}
