@@ -1,0 +1,15 @@
+{
+  "model": "Geloso G-209",
+  "slug": "geloso-g-209",
+  "searched_at": "2026-11-04T17:59:46-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1: 0 comps — thin. Only Geloso results were G257/G256 tape recorders, a service manual and an unidentified 'Geloso Vintage Italian Radio'; the rest were unrelated G-209 items (shackles, etc.).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/128175522310",
+    "site": "ebay",
+    "ask": 599.0,
+    "shipping": 49.0
+  },
+  "comps": []
+}
