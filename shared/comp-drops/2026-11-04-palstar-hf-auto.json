@@ -1,0 +1,34 @@
+{
+  "model": "Palstar HF-AUTO",
+  "slug": "palstar-hf-auto",
+  "searched_at": "2026-11-04T14:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Palstar HF-AUTO', page 1: 6 results. Kept 2 — thin. dropped 2 best-offer-accepted (158236470003 $1,050; 158197464873 $1,400). dropped 0 parts-only. Left out 2 accessories: HF-AUTO-R remote control (198577792082) and dust cover (323409696932). No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784069",
+    "site": "qth",
+    "ask": 1000.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1350.0,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206622851061",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: '1800W Automatic Antenna Tuner + Manual (excellent)'. +$93.59 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 1298.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407205685634",
+      "source": "ebay",
+      "notes": "Auction, 14 bids. +$23.89 delivery shown.",
+      "flags": []
+    }
+  ]
+}
