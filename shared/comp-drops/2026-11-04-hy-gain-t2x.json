@@ -1,0 +1,34 @@
+{
+  "model": "Hy-Gain T2X",
+  "slug": "hy-gain-t2x",
+  "searched_at": "2026-11-04T05:57:13-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin. eBay sold search 'hy-gain t2x', page 1 only, 15 results above 'Results matching fewer words'. Ledger miss: HY-GAIN T2X TAILTWISTER count 1. Kept 2 rotor comps (one explicitly 'Rotor Only', no control box). Dropped 3 best-offer-accepted rotor sales (2 of them also labeled Parts Only). Dropped 0 other parts-only. Excluded 6 control-box-only listings (2 of them best-offer-accepted, 1 Parts Only) and 4 small parts (plugs, bearings, motor cap, mast support). Trigger listing includes rotor + control unit. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629471",
+    "site": "eham",
+    "ask": 425.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 425.0,
+      "sold_date": "2026-10-22",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/287639817105",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); +$49.95 delivery; title says 'NOS ... T2X Rotor Only' (no control box)",
+      "flags": []
+    },
+    {
+      "price": 519.99,
+      "sold_date": "2026-08-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127987778559",
+      "source": "ebay",
+      "notes": "Buy It Now; +$33.78 delivery; title 'HY-GAIN HAM T2X TAILTWISTER ROTOR ROTATOR' (does not say whether control box included)",
+      "flags": []
+    }
+  ]
+}
