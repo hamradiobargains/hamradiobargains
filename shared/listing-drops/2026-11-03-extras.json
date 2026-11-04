@@ -1,0 +1,229 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-03",
+  "ran_at": "2026-11-03T19:35:00-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered (all newer than the previous extras drop 2026-11-02-extras.json, ran_at 2026-11-02T19:33:10-05:00): 2026-11-03-eham.json (2026-11-03T05:52:59-05:00; no extras list), 2026-11-03-qth.json (2026-11-03T15:01:30-05:00; extras list of 30 IDs), 2026-11-03-ebay.json (2026-11-03T17:53:10-05:00; no extras list). Queue: 46 CARRIED OVER from the 11-02 extras drop at the front (Leo's named extra 1783910, ruled the ORIGINAL Yaesu FT-991, was already in that carry-over at position 21; it was worked first), then 28 fresh extras from the 11-03 QTH drop (2 of its 30 IDs, 1783623 and 1783666, were already in dropped-urls.json and skipped), then 19 BACKLOG CARRY. Worked/triaged 20 (all live): 15 comped by eBay sold search, 5 ledger hits. 1783765 was triaged but not comped (SALE PENDING and described as sold for parts; cap spent elsewhere). eBay sold searches used 15 of 15: yaesu ft-991, bencher by-1, yaesu sp-5, ten-tec 715 [0 qualifying], aor dv1, flexradio flex-6600m [0 exact results], flexradio 6600m (re-run, 3 kept), kenwood tl-922a, ldg at-1000pro, cushcraft a4s [0 qualifying], array solutions six pak [0 results], palstar sp30b, hammarlund s-100 speaker, hallicrafters r-46b, w2ihy equalizer noise gate. Signed in as Leo, one page at a time, no challenges or CAPTCHAs. QTH ads opened one at a time in Leo's Chrome; eHam not touched. Ledger hits (free, 5, worked ahead of position because they cost no search): 1783892 Kenwood TS-850S (count 4, 2026-10-10), 1783994 Kenwood R-2000 (count 7, 2026-10-18), 1783922 Yaesu FTM-400XDR (count 16, 2026-10-22), 1783917 Yaesu FT5DR (count 29, 2026-10-23), 1783999 Heathkit SB-200 (count 11, 2026-10-11). 1776831 (Kenwood TS-2000X + TH-D7A bundle, live at fetch, $900 plus shipping) was opened but NOT ledger-hit because the ledger entry is KENWOOD TS-2000 and the X variant identity is not certain; it stays in CARRIED OVER. Gone: none of the ads opened was gone. Skipped (non-comp): none; 1783623 and 1783666 skipped as already in dropped-urls.json (1783623 MD-1 $100 shipped was opened before that was noticed; no data used). Cross-posts: none seen. Zero qualifying comps: Ten-Tec 715 (only an untested/parts sale), Cushcraft A4S (only an assembly manual), Array Solutions Six Pak (0 results). Thin (<3 kept): Kenwood TL-922A 2, LDG AT-1000Pro 1, Palstar SP30B 2, Hammarlund S-100 2. Outliers kept and flagged: Bencher BY-1 257767569215 ($149.99 vs ~$75 median), Palstar SP30B 188773916609 ($90.00 vs $53.00), Hammarlund S-100 128119055259 ($19.99) and 158223822892 ($59.95) against each other, W2IHY 298575530177 ($71.49 vs ~$181 median of others). Identity cautions: FT-991 comps are original FT-991 only (FT-991A excluded; one FT-991 sale found only under 'Results matching fewer words' was not used per rule); the 6600M comps are 6600M only; AT-1000Pro excludes Pro II; W2IHY ad does not state the band count. Work-flag wording carried verbatim: 1783780 'Added 10m.'; 1783754 '40m banjo string popped' (seller says replaced); 1783765 'sold for parts, not working'; 1783807, 1783805 and 1783804 as-is wording (UNCERTAIN); 1783999 10m input tuning slug removed; 1783922 and 1783917 'No returns due to parts swappers'; 1783910 'One minor scratch on the top.' ran_at/searched_at are file-write times. Timestamps use -05:00 (EST). Seller feedback n/a (QTH). CARRIED OVER (queue order, unworked, go first next run): 1783797, 1783799, 1783747, 1780948, 1780946, 1781725, 1783877, 1783838, 1783839, 1783841, 1783894, 1783817, 1783903, 1783885, 1783876, 1783906, 1783907, 1783874, 1783834, 1783880, 1783823, 1783868, 1783851, 1783901, 1783844, 1783869, 1783815, 1783909, 1783882, 1776831, 1784018, 1783925, 1784017, 1783983, 1783966, 1784001, 1783928, 1783986, 1783993, 1783959, 1783954, 1783941, 1783970, 1783984, 1783932, 1783933, 1783927, 1783948, 1783934, 1783916, 1783991, 1783992, 1783942, 1783945. BACKLOG CARRY (unworked, still at the back, source-drop order): 1782345, 1782359, 1782031, 1782342, 1782368, 1782384, 1782275, 1781393, 1782442, 1776833, 1781779, 1782542, 1782487, 1782484, 1782573, 1782575, 1782543, 1782570, 1779930.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "Yaesu \"991\" HF/50/144/430 transceiver (RADIOHF)",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-11-02",
+      "condition_notes": "live. \"Nice radio with original mic and bound copy of owners manual... One minor scratch on the top. Power pole connectors. I do not have the original box but if buyer wishes to have unit shipped, it would be properly packaged and shipped at buyers expense. $600.00 firm. I will consider driving a reasonable distance with pre-payment.\" Ad says only \"Yaesu 991\" (no suffix); treated as the ORIGINAL FT-991 per Leo's ruling. Shipping at buyer expense, amount not stated (recorded 0). comps: yaesu-ft-991, 3 kept, median 720.00 (original FT-991 only; FT-991A not used)",
+      "work_flag": "One minor scratch on the top.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783710",
+      "site": "qth",
+      "title": "Bencher BY-1 iambic paddle w/ cable",
+      "price": 130,
+      "shipping": 0,
+      "found_at": "2026-10-31",
+      "condition_notes": "live. \"Bencher BY-1 Iambic Paddle with adjustment tool stored under base. In exc condition. Comes with 1/4 inch jack & cable.\" $130 shipped east of Mississippi. comps: bencher-by-1, 29 kept, median 75.00 (OUTLIER 257767569215 at 149.99 kept and flagged)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783708",
+      "site": "qth",
+      "title": "Yaesu SP-5 filtered desk speaker",
+      "price": 130,
+      "shipping": 0,
+      "found_at": "2026-10-31",
+      "condition_notes": "live. \"Exc condition, no scratches.\" $130 picked up or plus shipping (amount not stated, recorded 0). comps: yaesu-sp-5, 3 kept, median 99.99",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783672",
+      "site": "qth",
+      "title": "Ten-Tec 715 speech processor",
+      "price": 195,
+      "shipping": 24,
+      "found_at": "2026-10-31",
+      "condition_notes": "live. \"in excellent working condition... Includes the Processor, original box and manual, the AC WallWart and connection cable.\" Asking $195 plus $24 shipping and insurance (MSRP $249 quoted in ad body is not the ask). not comped: eBay sold search for Ten-Tec 715 returned only one untested/parts sale (0 kept); comp drop ten-tec-715 records the search",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783731",
+      "site": "qth",
+      "title": "AOR DV1 receiver",
+      "price": 1400,
+      "shipping": 0,
+      "found_at": "2026-10-31",
+      "condition_notes": "live. \"might have 1 or 2 hours on it. Just don't use it anymore.\" $1400, free shipping to CONUS. comps: aor-ar-dv1, 4 kept, median 1349.50 (includes one old 2025 Japan sale)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783061",
+      "site": "qth",
+      "title": "FlexRadio Flex 6600M with ATU",
+      "price": 2799,
+      "shipping": 35,
+      "found_at": "2026-10-31",
+      "condition_notes": "live. \"completely pristine Flex 6600M with ATU in immaculate condition. It comes with cover, power cable, mic, original boxes and Ethernet cable... Fully tested, works perfectly.\" $2799 + $35 insured shipping. comps: flexradio-flex-6600m, 3 kept, median 3000.00",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783780",
+      "site": "qth",
+      "title": "Kenwood TL-922A linear amplifier",
+      "price": 1200,
+      "shipping": 0,
+      "found_at": "2026-11-01",
+      "condition_notes": "live. \"Kenwood TL-922A, recapped, new band switch, new 3-500Z tubes. Like new condition. Serviced by local PA guru, Added 10m. $1200 pick up. I can meet buyer 50 miles from Hartford, CT. Shipping available, tubes separate, shipping les than $100 on buyer expense.\" Shipping amount not fixed (recorded 0). comps: kenwood-tl-922a, 2 kept (thin), median 1272.00",
+      "work_flag": "Added 10m. (ad wording: modification; shipped without tubes)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783807",
+      "site": "qth",
+      "title": "LDG AT-1000Pro autotuner (original Pro)",
+      "price": 300,
+      "shipping": 0,
+      "found_at": "2026-11-01",
+      "condition_notes": "live. \"LDG electronics AT-1000Pro Autotuner for sale is used want $300... used to be in my shack until replacement for a full gallon one in working order Asia where is you pay for shipping and insurance non smoking.\" Buyer pays shipping and insurance (amount not stated, recorded 0). comps: ldg-at-1000pro, 1 kept (thin), median 110.00",
+      "work_flag": "Asia where is (sic, as-is wording): UNCERTAIN whether needs-work",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783754",
+      "site": "qth",
+      "title": "Cushcraft A4S with 40m add-on",
+      "price": 400,
+      "shipping": 0,
+      "found_at": "2026-11-01",
+      "condition_notes": "live. \"Just took this off the tower 10/31/26 40m banjo string popped. I put a new one on when it got it on the ground... Antenna is pretty straight and 100% functional. I'm not sure of the age but I do have all the documentation for it. $400 Firm.\" Meet or pickup, no shipping stated. not comped: eBay sold search for Cushcraft A4S returned 0 qualifying sales (only an assembly manual); comp drop cushcraft-a4s records the search",
+      "work_flag": "40m banjo string popped (replaced by seller per ad)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783794",
+      "site": "qth",
+      "title": "Array Solutions Six Pak",
+      "price": 250,
+      "shipping": 0,
+      "found_at": "2026-11-01",
+      "condition_notes": "live. \"Virtually new Array Solutions Six Pak. Last used inside to switch some antennas as part of limited SO2R. $250 and you ship from 32949.\" Buyer arranges shipping (recorded 0). not comped: eBay sold search for Array Solutions Six Pak returned 0 results; comp drop array-solutions-six-pak records the search",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783805",
+      "site": "qth",
+      "title": "Palstar SP30B communication speaker",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-11-01",
+      "condition_notes": "live. \"was in use in my shack for a couple years replaced for a icom speaker to have the set complete asis where is and you pay for shipping and insurance from Texas I want $100\". Buyer pays shipping (recorded 0). comps: palstar-sp30b, 2 kept (thin), median 71.50",
+      "work_flag": "asis where is (ad wording): UNCERTAIN whether needs-work",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783765",
+      "site": "qth",
+      "title": "Kenwood TS-450S (SALE PENDING)",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-11-01",
+      "condition_notes": "live (title shows \"SALE PENDING\"). \"This transceiver works until the display reverts to a line of dots... It also has a dent in the top cover... The antenna tuner works great! Even so, it is being sold for parts, not working. Price is $100 plus shipping and it weighs about 17LBs... 48 USA states only.\" Shipping amount not stated (recorded 0). not comped: ad is SALE PENDING and described by the seller as sold for parts, not working; the 15-search cap was spent on other live extras (ledger KENWOOD TS-450S count 3, 2026-09-30, is older than 30 days)",
+      "work_flag": "Seller: \"sold for parts, not working\"; display reverts to a line of dots; dent in top cover",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783809",
+      "site": "qth",
+      "title": "Hammarlund S-100 speaker",
+      "price": 65,
+      "shipping": 0,
+      "found_at": "2026-11-01",
+      "condition_notes": "live. \"Hammarlund S-100 speaker in VGC. Sounds good, this is the matching speaker for the HQ-100 or HQ-110. $65 plus shipping.\" Shipping amount not stated (recorded 0). comps: hammarlund-s-100, 2 kept (thin; both flagged OUTLIER vs each other), median 39.97",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783808",
+      "site": "qth",
+      "title": "Hallicrafters R-46B speaker #2",
+      "price": 65,
+      "shipping": 0,
+      "found_at": "2026-11-01",
+      "condition_notes": "live. \"R-46B speaker in good condition. Sounds good just excessive to my needs. I have 2 of these listed. $65 plus shipping.\" Shipping amount not stated (recorded 0). Sister ad 1783806 was found gone by the previous extras run. comps: hallicrafters-r-46b, 4 kept, median 65.00",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783804",
+      "site": "qth",
+      "title": "W2IHY audio equalizer and noise gate",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-11-01",
+      "condition_notes": "live. \"I have fix the problem with a solid state. Amplifier and remove it because I don't need the noise gate no more come with the power wall adapter and the cable for icon rigs. As is. Where is You pay shipping and insurance I want $100.\" Shipping amount not stated (recorded 0). comps: w2ihy-audio-equalizer-noise-gate, 5 kept, median 175.00 (OUTLIER 298575530177 at 71.49 kept and flagged; ad does not state band count)",
+      "work_flag": "As is. Where is. (ad wording): UNCERTAIN whether needs-work",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783892",
+      "site": "qth",
+      "title": "Kenwood TS-850S/AT w/ SP-31, MC-60, DSP-100 (Houston pickup)",
+      "price": 750,
+      "shipping": 0,
+      "found_at": "2026-11-02",
+      "condition_notes": "live. \"KENWOOD TS-850S/AT Nice condition and All filter positions are Filled. KENWOOD SP-31 External Speaker w/Filters KENWOOD MC-60 Desk Mic Like new KENWOOD DSP-100 Digital Signal Processor Original Box All manuals are included... This is my Main operating station and is working perfectly.\" Pickup in Houston area $750; no shipping offered. comps: ledger hit (kenwood-ts-850s), median 567.50, count 4, ledger date 2026-10-10 (radio alone; bundle extras not priced)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783994",
+      "site": "qth",
+      "title": "Kenwood R-2000 communications receiver",
+      "price": 225,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "live. \"Super clean cosmetics and working nicely. Radio, AC cord and original double box with inserts. $225 plus shipping. Will ship in original double box.\" Shipping amount not stated (recorded 0). comps: ledger hit (1913-kenwood-r-2000), median 275.00, count 7, ledger date 2026-10-18",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783922",
+      "site": "qth",
+      "title": "Yaesu FTM-400XDR 2M/440 C4FM mobile",
+      "price": 370,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "live. \"excellent condition, large color display, factory reset, non smoke, non-pet environment, has GPS, original DTMF mic, mounting hardware, control cable, power cord, box, no manual, will include RT Systems programming cable... Will ship CONUS to you for $370... No returns due to parts swappers.\" $370 shipped. comps: ledger hit (yaesu-ftm-400xdr), median 437.97, count 16, ledger date 2026-10-22",
+      "work_flag": "No returns due to parts swappers (seller wording)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783917",
+      "site": "qth",
+      "title": "Yaesu FT5DR 2M/440 C4FM HT with extras",
+      "price": 360,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "live. \"excellent condition, factory reset, non smoke, non-pet environment, original box, manual, antenna, battery. Original Yaesu extras INCLUDED: CD-41 rapid battery charger, SDD-13 DC car charger, SSM-17 speaker/microphone... Will ship CONUS to you for $360... No returns due to parts swappers.\" $360 shipped. comps: ledger hit (yaesu-ft5dr), median 325.00, count 29, ledger date 2026-10-23 (radio alone; extras not priced)",
+      "work_flag": "No returns due to parts swappers (seller wording)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783999",
+      "site": "qth",
+      "title": "Heathkit SB-200 linear amplifier (updated)",
+      "price": 700,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "live. \"Fully Updated Heathkit SB200 amplifier in amazing condition. I just replaced the power supply board, Harbach Soft Key, LED Meter Lamp, New Matched Set of Penta Tubes, Includes Original Fully Functional Centron Tubes and amp cover... The only issue that needs attention is for some reason the previous owner removed the input tuning slug for the 10m band so it will need to be installed for 10m to function. Due to its weight, I prefer to sell this item locally in Western Oregon... Price is $700 OBO.\" Shipping not quoted (\"will likely be expensive\"), recorded 0. comps: ledger hit (heathkit-sb-200), median 500.00, count 11, ledger date 2026-10-11",
+      "work_flag": "Input tuning slug for 10m band removed by previous owner; needs to be installed for 10m to function (seller wording)",
+      "seller_feedback": ""
+    }
+  ]
+}
