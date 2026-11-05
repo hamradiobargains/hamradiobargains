@@ -1,0 +1,15 @@
+{
+  "model": "Ten-Tec Triton IV",
+  "slug": "ten-tec-triton-iv",
+  "searched_at": "2026-11-05T11:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Ten-Tec Triton IV', page 1, 6 results; 0 kept. Dropped 3 parts-only transceivers: 940020957100 $200.00 (2026-10-22, +$21.65), 820055815949 $150.00 (2026-09-25, +$32.84), 158234825635 $79.00 (2026-09-04, 14 bids, +$24.80). Excluded non-unit items: 157750757005 power supply $49.95 (parts only), 227566044266 crystals $25.00, 237041842078 manual $24.99.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782384",
+    "site": "qth",
+    "ask": 225,
+    "shipping": 0
+  },
+  "comps": []
+}
