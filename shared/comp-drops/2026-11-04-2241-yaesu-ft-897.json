@@ -1,0 +1,22 @@
+{
+  "model": "Yaesu FT-897",
+  "slug": "yaesu-ft-897",
+  "searched_at": "2026-11-04T22:45:00-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 575.0, count 9, ledger date 2026-10-26 — ledger hit — individual sales behind the median are not auditable from this file | trigger ad 1783916: FT-897 with MH-59 mic and FC-30 tuner, brackets and cables, $850 shipped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783916",
+    "site": "qth",
+    "ask": 850,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 575,
+    "low": 525,
+    "high": 820.79,
+    "count": 9,
+    "date": "2026-10-26"
+  }
+}
