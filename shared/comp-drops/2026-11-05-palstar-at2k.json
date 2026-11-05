@@ -1,0 +1,79 @@
+{
+  "model": "Palstar AT2K",
+  "slug": "palstar-at2k",
+  "searched_at": "2026-11-05T10:12:55-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Kept 7 sold comps, median 499.00, low 350.00, high 899.95. Query 'palstar at2k'. Dropped 1 Best-offer-accepted (198658279140 $400.00). AT2KD (dummy-load version) not present in results. Ad: W4MZ $450, buyer pays shipping from 32952. Prices are eBay sold prices as shown (hammer/fixed price, no shipping); shown shipping is in each comp's notes. Best-offer-accepted, parts-only and Read Description sales dropped and listed above.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784036",
+    "site": "qth",
+    "ask": 450,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 499,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128142741713",
+      "source": "ebay",
+      "notes": "shown shipping $63.22",
+      "flags": []
+    },
+    {
+      "price": 595,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227488575020",
+      "source": "ebay",
+      "notes": "listing includes manual; shown shipping: free or none shown",
+      "flags": []
+    },
+    {
+      "price": 350,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189057666345",
+      "source": "ebay",
+      "notes": "shown shipping $65.76",
+      "flags": []
+    },
+    {
+      "price": 489.99,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128106973823",
+      "source": "ebay",
+      "notes": "shown shipping $27.89",
+      "flags": []
+    },
+    {
+      "price": 585,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178404727145",
+      "source": "ebay",
+      "notes": "shown shipping $38.50",
+      "flags": []
+    },
+    {
+      "price": 350,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137660269606",
+      "source": "ebay",
+      "notes": "shown shipping $65.00",
+      "flags": []
+    },
+    {
+      "price": 899.95,
+      "sold_date": "2026-09-01",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/111802127195",
+      "source": "ebay",
+      "notes": "OUTLIER: listed Brand New, >1.5x median of other kept comps; shown shipping: free or none shown",
+      "flags": []
+    }
+  ]
+}
