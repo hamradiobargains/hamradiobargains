@@ -1,0 +1,34 @@
+{
+  "model": "Hy-Gain T2X control box",
+  "slug": "hy-gain-t2x-control-box",
+  "searched_at": "2026-11-04T19:25:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold+Completed, newest-ended first, page 1 only, signed in as Leo, no challenges) for \"Hy-Gain T2X control box\". 2 kept (thin), median 124.99. Dropped/excluded: BOA dropped 2 control boxes: 318647700565 $179.99 (Oct 7), 168621596003 $129.99 (Sep 18); parts-only controllers: 127929644358 $80.99, 336827523374 $249.99(BOA), 257689660796 $275(BOA); ambiguous HAM IV/T2X controller 298674273607 $80 (Sep 23) not used; complete rotors excluded.  Ad is control box only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781725",
+    "site": "qth",
+    "ask": 115,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 139.99,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/397781883927",
+      "source": "ebay",
+      "notes": "shipping shown: $16.65. Title: Hy-Gain Tailtwister T2X Direction Control Box.",
+      "flags": []
+    },
+    {
+      "price": 109.98,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/920043622681",
+      "source": "ebay",
+      "notes": "shipping shown: free/none shown. Title: Hy-Gain T2X Tailtwister Direction Control 120VAC.",
+      "flags": []
+    }
+  ]
+}
