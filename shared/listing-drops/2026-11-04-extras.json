@@ -1,0 +1,251 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-04",
+  "ran_at": "2026-11-04T19:40:00-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered (all newer than the previous extras drop 2026-11-03-extras.json, ran_at 2026-11-03T19:35:00-05:00): 2026-11-04-eham.json (2026-11-04T05:53:02-05:00; no extras list), 2026-11-04-qth.json (2026-11-04T14:58:00-05:00; extras list of 29 IDs), 2026-11-04-ebay.json (2026-11-04T17:59:46-05:00; no extras list). Queue: 54 CARRIED OVER IDs from the 11-03 extras drop at the front, then 27 fresh extras from the 11-04 QTH drop (2 of its 29, 1784065 and 1783279, were already in dropped-urls.json and skipped; 1783817 was both a carry-over and a fresh renewal and was worked once; 1782573 is also named fresh but is already at the back as BACKLOG CARRY and stays there), then 19 BACKLOG CARRY. Leo's named extra 1783910 (Yaesu '991', $600 firm, ruled the ORIGINAL FT-991) was already worked on 2026-11-03 (comped under 'Yaesu FT-991', FT-991A excluded) and its URL is in dropped-urls.json, so it was NOT re-queued or re-worked today. Worked/triaged 22 in queue order (carry-overs 1783797 through 1783851, skipping none): 19 live, 3 gone. Ledger hits: 0 (every needed model's ledger entry was either absent, count <3, or older than 30 days). eBay searches used 15 of 15: kenwood mc-85, ameritron al-80b, ten-tec titan 425, hy-gain t2x control box, palstar at4k, km3km mercury iii [0 qualifying], km3km mercury ats tuner, command technologies commander hf 2500 [0 exact-model], flexradio flex-1500, icom id-51a, radioddity db50, heil goldline gm-5, yaesu m-100 microphone, drake ms7 speaker, mosley classic 33 [0 qualifying]. Signed in as Leo (page showed 'Hi Leo!'), one page at a time, ~16 s apart, no challenges or CAPTCHAs. QTH ads opened one at a time at human pace in Leo's Chrome; eHam not touched. Chrome briefly went unreachable mid-run and came back; no data was lost. Gone: 1783817 (Icom IC-730 $230), 1783876 and 1783874 (items not recorded in the earlier drop notes). Skipped (non-comp): 1783747 TYT quad band (no model number in ad), 1783906 Collins 30S1 amps (ad says SOLD PENDING PAYMENT), 1783834 Buddipole (live, not comped, cap spent). Not opened/triaged: 1783799 OptiBeam package ad was opened but the package price line was cut off in my read, so it goes back to CARRIED OVER rather than being triaged. Cross-posts: 1783797 and 1783868 (Kenwood MC-85, same seller KK5RT, $75 plus shipping vs $75 shipped; no serials shown) = possible cross-post, both kept and both listed; they share one comp file. Zero qualifying comps: KM3KM Mercury III (query returned only Mercury marine parts), Command Technologies Commander HF-2500E (only HF-1250, QRO HF-2500 and a loose tube; none used), Mosley Classic 33. Thin (<3 kept): Ten-Tec Titan 425 1, Hy-Gain T2X control box 2, Palstar AT4K 1, KM3KM Mercury ATS 2, Icom ID-51A 2, Radioddity DB50 1, Heil GM-5 2. Outliers kept and flagged: Flex-1500 147474651629 ($575 'with Extras' vs ~$342 median of the other two), Yaesu M-100 800803505116 ($145.50 used auction vs ~$345 median of the six new-condition sales), Drake MS-7 407305155007 ($89.99) and 168731045456 ($99.95) against a ~$59 median of the other kept sales. Identity cautions: ID-51A comps exclude ID-51A Plus/Plus2 and ID-5100; DB50 excludes DB50-B; GM-5 excludes GM-4; Titan 425 sales of separate RF decks and power supplies were excluded as non-complete units; T2X comps are control-box-only titles, complete rotors excluded and the ambiguous 'HAM IV T2X controller' sale not used. Mercury ATS comps are 'ATS 1.5K' titles; the ad does not name the ATS version. Work-flag wording carried verbatim: 1781725 'Clockwise light will need replaced' and 'sold as is due to part swappers' (UNCERTAIN); 1783885 'sold as is but is new' (UNCERTAIN); 1783834 'smallest diameter section of the mast ... has a 3/4\" split in the aluminum ... does not appear to affect its functionality'; 1783906 'SOLD PENDING PAYMENT'; 1780948 and 1780946 'All sales are final'. ran_at/searched_at are file-write times. Timestamps use -05:00 (EST). Seller feedback n/a (QTH). CARRIED OVER (queue order, unworked, go first next run): 1783799, 1783901, 1783844, 1783869, 1783815, 1783909, 1783882, 1776831, 1784018, 1783925, 1784017, 1783983, 1783966, 1784001, 1783928, 1783986, 1783993, 1783959, 1783954, 1783941, 1783970, 1783984, 1783932, 1783933, 1783927, 1783948, 1783934, 1783916, 1783991, 1783992, 1783942, 1783945, 1784036, 1784071, 1784049, 1784057, 1784019, 1784028, 1784033, 1776196, 1784073, 1784075, 1784070, 1784064, 1784068, 1784056, 1784034, 1784024, 1784021, 1784035, 1784020, 1784072, 1784079, 1784074, 1784076, 1783996, 1783523. BACKLOG CARRY (unworked, still at the back, source-drop order): 1782345, 1782359, 1782031, 1782342, 1782368, 1782384, 1782275, 1781393, 1782442, 1776833, 1781779, 1782542, 1782487, 1782484, 1782573, 1782575, 1782543, 1782570, 1779930.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783797",
+      "site": "qth",
+      "title": "Kenwood MC-85 mic",
+      "price": 75,
+      "shipping": 0,
+      "found_at": "2026-11-01",
+      "condition_notes": "live. Seller words: \"Very nice looking and works as it should. Asking for $75.00 plus shipping.\" Possible cross-post of 1783868 (same seller KK5RT, same item; no serials shown). comps: kenwood-mc-85, 4 kept, median 95.5; also covers 1783868",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783747",
+      "site": "qth",
+      "title": "TYT quad band 10-6-2-70 (model number not stated)",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-10-31",
+      "condition_notes": "live. Seller words: \"From a silent key estate new in box ,trying to get some money for the family . Asking $200 please contact me for details about shipping and payment\". Shipping not stated. not comped: ad gives no model number, so no exact-model comp is possible",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1780948",
+      "site": "qth",
+      "title": "Ameritron AL-80B HF amplifier",
+      "price": 800,
+      "shipping": 0,
+      "found_at": "2026-09-30",
+      "condition_notes": "live. Seller words: \"nice working AMERITRON amplifier with fairly new 3-500Z tube ... I prefer to arrange pick up but can ship at your expense ... All sales are final. Only selling to a verified Ham and verified address.\" Shipping at buyer expense, amount not stated. comps: ameritron-al-80b, 7 kept, median 1300.0",
+      "work_flag": "All sales are final",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1780946",
+      "site": "qth",
+      "title": "Ten-Tec Titan 425 amplifier with power supply",
+      "price": 1600,
+      "shipping": 0,
+      "found_at": "2026-09-30",
+      "condition_notes": "live. Seller words: \"really nice, great working Ten Tec Titan 425 amplifier with power supply ... I prefer to arrange pick up but I can ship at your expense. It will need to be packed in 3 boxes ... Selling for $1600.00 not counting shipping. All sales are final.\" Shipping amount not stated. comps: ten-tec-titan-425, 1 kept, median 700.0 (thin)",
+      "work_flag": "All sales are final",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781725",
+      "site": "qth",
+      "title": "Hy-Gain T2X Tailtwister control box only",
+      "price": 115,
+      "shipping": 0,
+      "found_at": "2026-10-08",
+      "condition_notes": "live. Seller words: \"tested and in good working condition. Clockwise light will need replaced. Includes 8 wire plug for control box. Asking $115 price includes shipping insurance & tracking number anywhere in the U.S. sold as is due to part swappers\". Price includes shipping. comps: hy-gain-t2x-control-box, 2 kept, median 124.99 (thin)",
+      "work_flag": "\"Clockwise light will need replaced\"; \"sold as is due to part swappers\" (UNCERTAIN whether needs-work)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783877",
+      "site": "qth",
+      "title": "Palstar AT4K tuner",
+      "price": 675,
+      "shipping": 80,
+      "found_at": "2026-11-02",
+      "condition_notes": "live. Seller words: \"2500 Watts single tone continuous 160m to 10m ... AS NEW NO BOX $675 OBO + SHIPPING DUE TO ITS SIZE, SHIPPING WILL PROBABLY BE IN THE $80 RANGE ... PICK UP IN TAMPA\". Shipping 80 is the seller's \"probably in the $80 range\" estimate. comps: palstar-at4k, 1 kept, median 629.99 (thin)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783838",
+      "site": "qth",
+      "title": "Mercury III 1200 watt amp (KM3KM)",
+      "price": 2900,
+      "shipping": 0,
+      "found_at": "2026-11-01",
+      "condition_notes": "live. Seller words: \"Amplifier is amazing and still like new as it was not used that often. Mostly sat idle ... Just downsizing\". Shipping not stated in the part read. comps: km3km-mercury-iii, 0 kept (no qualifying sold comps) (query returned only marine parts)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783839",
+      "site": "qth",
+      "title": "Mercury ATS auto tuner (KM3KM)",
+      "price": 900,
+      "shipping": 0,
+      "found_at": "2026-11-01",
+      "condition_notes": "live. Seller words: \"Original owner. 1 year old.\" Shipping not stated in the part read. comps: km3km-mercury-ats, 2 kept, median 699.0 (thin; version of ATS not stated in the ad)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783841",
+      "site": "qth",
+      "title": "Command Technologies Commander HF-2500E amplifier",
+      "price": 2500,
+      "shipping": 0,
+      "found_at": "2026-11-01",
+      "condition_notes": "live. Seller words: \"RARE! ... uses 3 (not a typo) 3CX800A7 Ceramic tubes. Fully checked and has full output and it's in good cosmetic condition ... will ONLY run on 220VAC ... $2500 Firm, Pick up ONLY (for now) in or around the Denver CO area.\" comps: command-technologies-commander-hf-2500e, 0 kept (no qualifying sold comps) (eBay shows no exact-model sales)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783894",
+      "site": "qth",
+      "title": "Flex-1500 + LDG Z11 tuner (also open to trade for IC-703/+)",
+      "price": 525,
+      "shipping": 0,
+      "found_at": "2026-11-02",
+      "condition_notes": "live. Seller words: \"The equipment is in excellent condition with no problems ever noted. Just works great. Radio comes with pwr cord, mic, USB cable ... asking $525 for both shipped CONUS.\" Bundle price covers radio plus tuner; the comp is Flex-1500 alone. comps: flexradio-flex-1500, 3 kept, median 400.0",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783817",
+      "site": "qth",
+      "title": "Icom IC-730",
+      "price": 230,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "no longer live. QTH: \"The ad number you specified, 1783817, is no longer in our system.\" Price from the source drop. not comped: ad gone. ",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783903",
+      "site": "qth",
+      "title": "Icom ID-51A + D-STAR",
+      "price": 175,
+      "shipping": 0,
+      "found_at": "2026-11-02",
+      "condition_notes": "live. Seller words: \"excellent cosmetic condition, works as it should. Sale includes radio, battery, charge cradle, wall wart for charge cradle, after market comet dual band antenna. $175 includes shipping to lower 48 only. (No box or manual ...\". Price includes shipping. comps: icom-id-51a, 2 kept, median 310.0 (thin)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783885",
+      "site": "qth",
+      "title": "Radioddity DB50 dual band VHF/UHF NIB",
+      "price": 165,
+      "shipping": 20,
+      "found_at": "2026-11-02",
+      "condition_notes": "live. Seller words: \"NIB, verified working condition but sold as is but is new, price $165 local pick up and if shipped $185\". Shipping 20 = $185 shipped minus $165. comps: radioddity-db50, 1 kept, median 150.0 (thin)",
+      "work_flag": "\"sold as is but is new\" (UNCERTAIN whether needs-work)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783876",
+      "site": "qth",
+      "title": "(unknown; ad gone before it was read)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "no longer live. QTH: \"The ad number you specified, 1783876, is no longer in our system.\" Item and ask were not recorded in the 11-03 drop notes. not comped: ad gone. ",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783906",
+      "site": "qth",
+      "title": "Collins 30S1 amplifiers (2)",
+      "price": 750,
+      "shipping": 0,
+      "found_at": "2026-11-02",
+      "condition_notes": "live. Seller words: \"SOLD PENDING PAYMENT ******** Have 2 Collins 30S1 Amplifiers - part of an Estate Sale in which we are told the owner had both redone ...\" Ad is marked sold pending payment. not comped: ad marked SOLD PENDING PAYMENT; no search spent",
+      "work_flag": "SOLD PENDING PAYMENT (seller's words)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783907",
+      "site": "qth",
+      "title": "Mosley Classic 33 beam + 11-el 2m Cushcraft beam",
+      "price": 225,
+      "shipping": 0,
+      "found_at": "2026-11-02",
+      "condition_notes": "live. Seller words: \"Mosley Classic 33 Beam. 2 Meter 11 Element Cushcraft Beam. All in good condition. Down and on ground. $225.00 For all.\" Shipping not stated. comps: mosley-classic-33, 0 kept (no qualifying sold comps) (eBay page 1 had no qualifying sold Mosley Classic 33)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783874",
+      "site": "qth",
+      "title": "(unknown; ad gone before it was read)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "no longer live. QTH: \"The ad number you specified, 1783874, is no longer in our system.\" Item and ask were not recorded in the 11-03 drop notes. not comped: ad gone. ",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783834",
+      "site": "qth",
+      "title": "Buddipole Deluxe (W3FF) from a club",
+      "price": 255,
+      "shipping": 0,
+      "found_at": "2026-11-01",
+      "condition_notes": "live. Seller words: \"Our club got this from a ham who left the hobby ... sells for $459, minus the tripod ... Only thing I can find wrong with it is the smallest diameter section of the mast (black with the red cap) has a 3/4\" split in the aluminum just above the knurled coupling nut, which does not appear to affect its functionality. $255 shipped CONUS.\" not comped: eBay search cap (15 of 15) spent on earlier queue items",
+      "work_flag": "3/4\" split in the smallest-diameter mast section \"does not appear to affect its functionality\" (seller's words)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783880",
+      "site": "qth",
+      "title": "Heil Goldline GM-5 element + Kenwood CC-1-K adapter cable",
+      "price": 110,
+      "shipping": 0,
+      "found_at": "2026-11-02",
+      "condition_notes": "live. Seller words: \"The microphone is fully functional and in very good shape; works great. Asking $110.00. This includes shipping in CONUS.\" Ad says GM-5 element only with the Kenwood Heil Sound CC-1-K adapter cable. comps: heil-goldline-gm-5, 2 kept, median 74.97 (thin)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783823",
+      "site": "qth",
+      "title": "Yaesu M-100 microphone",
+      "price": 400,
+      "shipping": 0,
+      "found_at": "2026-11-01",
+      "condition_notes": "live. Seller words: \"One owner microphone and works fantastic. Just downsizing the shack. One owner and 1 year old. Comes with original box. Will be like new ... $400.00 plus actual shipping to us address only.\" comps: yaesu-m-100, 7 kept, median 341.74",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783868",
+      "site": "qth",
+      "title": "Kenwood MC-85 desk mic",
+      "price": 75,
+      "shipping": 0,
+      "found_at": "2026-11-02",
+      "condition_notes": "live. Seller words: \"Very nice condition desk mic Tested and works as it should. Asking for $75.00 shipped lower 48\". Possible cross-post of 1783797 (same seller KK5RT; no serials shown). Last edited 11/04/26. comps: kenwood-mc-85, 4 kept, median 95.5",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783851",
+      "site": "qth",
+      "title": "Drake MS-7 speaker",
+      "price": 85,
+      "shipping": 0,
+      "found_at": "2026-11-02",
+      "condition_notes": "live. Seller words: \"Drake MS7 speaker for the 7 line of Drake gear in good shape and working as it should priced at $85.00. Buyer to pay shipping\". Shipping amount not stated. comps: drake-ms-7, 5 kept, median 69.95",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
