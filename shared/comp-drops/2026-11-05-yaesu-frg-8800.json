@@ -1,0 +1,36 @@
+{
+  "model": "Yaesu FRG-8800",
+  "slug": "yaesu-frg-8800",
+  "searched_at": "2026-11-05T10:12:55-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Kept 2 sold comps, median 347.25, low 299.99, high 394.50 (THIN, fewer than 3). Query 'yaesu frg-8800'. THIN (2 kept). Dropped 1 Best-offer-accepted (398103915000 $380.00); 2 Parts Only (336741987498 $249.99 listed 'Power On!', 227470223484 $129.99). Excluded non-unit: 900004344323 antenna, 201488083691 and 128083727066 manuals, 147022648826 sales brochure. Ad: KB9BOJ $349 free shipping lower 48; missing one plastic rear panel, one side foot missing, strap broken. Prices are eBay sold prices as shown (hammer/fixed price, no shipping); shown shipping is in each comp's notes. Best-offer-accepted, parts-only and Read Description sales dropped and listed above.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784019",
+    "site": "qth",
+    "ask": 349,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 299.99,
+      "sold_date": "2026-11-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128173260250",
+      "source": "ebay",
+      "notes": "title: + VHF CONVERTER (FRV-8800 presumed); shown shipping $26.13",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 394.5,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227557224608",
+      "source": "ebay",
+      "notes": "title: Exc Cond; shown shipping $24.73",
+      "flags": []
+    }
+  ]
+}
