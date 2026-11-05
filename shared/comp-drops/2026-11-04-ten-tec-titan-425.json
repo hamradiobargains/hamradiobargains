@@ -1,0 +1,25 @@
+{
+  "model": "Ten-Tec Titan 425",
+  "slug": "ten-tec-titan-425",
+  "searched_at": "2026-11-04T19:25:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold+Completed, newest-ended first, page 1 only, signed in as Leo, no challenges) for \"Ten-Tec Titan 425\". 1 kept (thin), median 700.0. Dropped/excluded: parts-only 1: 900011054993 $320.00 (9 bids, Oct 23); component sales excluded (not a complete amp+supply): 237039398481 PS 425S $475 PARTS, 237036359694 PS $450 PARTS, 237008833659 RF deck $400 PARTS, 237038315362 Gold RF deck $500 PARTS.  The kept $700 sale title does not say whether a power supply was included.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1780946",
+    "site": "qth",
+    "ask": 1600,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 700,
+      "sold_date": "2026-09-02",
+      "condition": "not recorded",
+      "url": "https://www.ebay.com/itm/398344578065",
+      "source": "ebay",
+      "notes": "shipping shown: $100.0. Title: Tentec Titan 425 HF Amplifier.",
+      "flags": []
+    }
+  ]
+}
