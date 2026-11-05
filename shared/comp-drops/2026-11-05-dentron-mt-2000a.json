@@ -1,0 +1,25 @@
+{
+  "model": "Dentron MT-2000A",
+  "slug": "dentron-mt-2000a",
+  "searched_at": "2026-11-05T18:00:31-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Dentron MT-2000A', page 1 (2 results). 1 kept comp — thin. Dropped 0 best-offer-accepted. Dropped 1 parts-only ($61 auction). Not in ledger.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/227600119519",
+    "site": "ebay",
+    "ask": 239.99,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 175.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257755316095",
+      "source": "ebay",
+      "notes": "Title: Dentron antenna tuner MT-2000A. Shipping +$25.00",
+      "flags": []
+    }
+  ]
+}
