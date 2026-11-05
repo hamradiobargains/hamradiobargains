@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T13:53:14+00:00",
+ "updated": "2026-11-05T13:53:14+00:00",
  "models": {
   "ICOM IC-7100": {
    "display": "Icom IC-7100",
@@ -72,6 +72,24 @@
    "recent_count": 10,
    "prior_median": 1050.0,
    "prior_count": 7
+  },
+  "YAESU FT-991A": {
+   "display": "Yaesu FT-991A",
+   "pct": 2.1,
+   "window": "3mo",
+   "recent_median": 999.99,
+   "recent_count": 24,
+   "prior_median": 979.0,
+   "prior_count": 5
+  },
+  "YAESU FTM-500DR": {
+   "display": "Yaesu FTM-500DR",
+   "pct": -4.3,
+   "window": "3mo",
+   "recent_median": 450.0,
+   "recent_count": 9,
+   "prior_median": 470.0,
+   "prior_count": 5
   }
  }
 }
