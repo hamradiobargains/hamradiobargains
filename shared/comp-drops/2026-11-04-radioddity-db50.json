@@ -1,0 +1,25 @@
+{
+  "model": "Radioddity DB50",
+  "slug": "radioddity-db50",
+  "searched_at": "2026-11-04T19:25:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold+Completed, newest-ended first, page 1 only, signed in as Leo, no challenges) for \"Radioddity DB50\". 1 kept (thin), median 150.0. Dropped/excluded: BOA dropped 3: 178500039254 $150 (Sep 20), 178496026626 $150 (Sep 15), 178477750859 $150 (Sep 12); DB50-B (188398030023 $349.99 Brand New Sep 21) excluded as different model.  Trigger listing detail: local pickup $165, shipped $185.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783885",
+    "site": "qth",
+    "ask": 165,
+    "shipping": 20
+  },
+  "comps": [
+    {
+      "price": 150,
+      "sold_date": "2026-10-26",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/287679478427",
+      "source": "ebay",
+      "notes": "shipping shown: $14.99. Title: Radioddity DB50 Dual Band Mobile Radio 50W Large LCD.",
+      "flags": []
+    }
+  ]
+}
