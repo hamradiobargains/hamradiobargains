@@ -1,0 +1,25 @@
+{
+  "model": "Kenwood TS-2000X",
+  "slug": "kenwood-ts-2000x",
+  "searched_at": "2026-11-04T22:45:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood ts-2000x' (sold+completed, newest first, page 1, signed in as Leo): 1 comp kept — THIN. Page was mostly plain TS-2000/TS-2000S sales (not used here; see the ledger entry for Kenwood TS-2000, median $950, 13 sales as of 2026-10-28). Excluded TS-2000X-titled accessories: 158279288869 final unit $89.95, 158302200361 UT-20 1.2 GHz module $450.00. Parts: 227555987274 TS-2000 PARTS/REPAIR $299.99 (plain TS-2000, not counted). Ad 1776831 is a TS-2000X (1.2 GHz) with optional matching TH-D7A, both $900 + shipping.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1776831",
+    "site": "qth",
+    "ask": 900,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 999,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168808084867",
+      "source": "ebay",
+      "notes": "Auction, 36 bids. Shipping $60.16. Title 'KENWOOD TS-2000X HF-1200MHz 100W All Mode Transceiver 144MHz. Read condition!!!' — seller-disclosed condition wording (not the literal 'Read Description').",
+      "flags": []
+    }
+  ]
+}
