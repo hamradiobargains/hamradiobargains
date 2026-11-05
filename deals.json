@@ -399,5 +399,31 @@
   "compLow": 165,
   "compHigh": 190,
   "notes": "$100 plus shipping and insurance. Sold as-is, where-is; comes with the power wall adapter and a cable for Icom rigs. One caution: the ad doesn't state the band count, and the $181.50 fair value comes from recorded sales of the 8-band model. About the 44.9%: it's figured on the asking price against the recorded sale prices behind the fair value \u2014 and those recorded prices don't include shipping either, so it's price against price, before freight on both sides."
+ },
+ {
+  "date": "2026-11-03",
+  "item": "Palstar AT1500CV",
+  "link": "https://swap.qth.com/view_ad.php?counter=1783986",
+  "price": 200,
+  "extraCost": 0,
+  "pctBelow": 0.375,
+  "median": 320,
+  "compCount": 3,
+  "compLow": 299.99,
+  "compHigh": 369.99,
+  "notes": "$200 shipped (lower 48). Excellent condition, works exactly as it should; the wall-wart power supply for the meter light is included. Even at the full $200 it's 37.5% below the $320 fair value from three recorded sales; back out roughly $25 of freight and the tuner itself is $175, which is 45.3% below. One heads-up: the seller takes USPS postal money order only."
+ },
+ {
+  "date": "2026-11-04",
+  "item": "Yaesu FT-1000MP (original, not Mark V)",
+  "link": "https://swap.qth.com/view_ad.php?counter=1784033",
+  "price": 575,
+  "extraCost": 0,
+  "pctBelow": 0.258,
+  "median": 774.99,
+  "compCount": 9,
+  "compLow": 520,
+  "compHigh": 800,
+  "notes": "$575. Near mint, with DC cable, manual and hand mic \u2014 the original FT-1000MP, not the Mark V. That's 25.8% below the $774.99 fair value from nine recorded sales. The same ad also offers a VL-1000 Quadra amplifier at $1,975; that's a separate item and not part of this price. The seller gives a local sale first shot, so it may not wait around."
  }
 ]
