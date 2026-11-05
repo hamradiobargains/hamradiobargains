@@ -1,0 +1,15 @@
+{
+  "model": "OptiBeam OB6-3M",
+  "slug": "optibeam-ob6-3m",
+  "searched_at": "2026-11-04T22:45:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'optibeam ob6-3m' (sold+completed, newest first, page 1, signed in as Leo): 0 qualifying sales; page showed only unrelated 3M products. Ad 1783799 offers a USED OB6-3M tribander at $725 (package with new OB1-40 40m dipole $1500; pickup only, Long Valley NJ, cash). No comps found — not thin, none.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783799",
+    "site": "qth",
+    "ask": 725,
+    "shipping": 0
+  },
+  "comps": []
+}
