@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-05",
+  "ran_at": "2026-11-05T18:00:31-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now filter, sorted newly listed, page 1 only (50 cards); signed in as Leo, no challenges. Window since previous ebay run 2026-11-04T17:59:46-05:00 (browse cards show no listing times; newest-first order used). None of the picked items were in dropped-urls.json. Seller rule failure (skipped): Kenwood SM-220 Station Monitor 336882282256 (seller 1 rating). Ledger: 1 hit (KENWOOD TS-690S); 7 misses -> 7 eBay sold searches (TS-830S ledger date 2026-09-29 stale; Atlas 210X ledger count 2; TH-F6A ledger entry name 'KENWOOD TH-F6A (AD LISTS TH-F6)' not an exact match; Dentron MT-2000A, Amp Supply AT-3000, Palomar 300A, SCS P4dragon DR-7400 not in ledger). Not picked: parts/accessories (FT-101 preselector, variable capacitors, TS-430S face, IC-746PRO front panel, Heathkit controls, Kenwood knobs, MFJ-1126, Comet CFX-431 triplexer, RT Systems cable, transverter board, coax switch, manuals), telegraph keys (auctions), parts-only Viking Adventurer, commercial/broadcast (Harris, Nautel, Motorola exciter, GI positioner PS), receivers (Drake SSR-1, Yaesu FRG-8800), non-ham (Radio Shack kit, component lot, Knight box, RF-AM monitor, SS3 handhelds), and further HTs (Kenwood TH-G71, TH-K2AT, Alinco DJ-MD5/DJ-MD40/DJ-596T/DJ-296/DJ-V57T) once the 8-candidate cap was reached.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/168841786386",
+      "site": "ebay",
+      "title": "KENWOOD TS-690S HF All Mode Transceiver Amateur Ham Radio Working",
+      "price": 499.99,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "eBay condition: Used. Title says Working. Free shipping and returns.",
+      "work_flag": "",
+      "seller_feedback": "100% (2140 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/206678213802",
+      "site": "ebay",
+      "title": "Atlas 210x Limited Edition with Console 10-80 Meters Ham Radio Transceiver",
+      "price": 750.0,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "eBay condition: Used. Seller notes: 'Shown works as it should'. Includes console (Limited Edition). Free shipping per search card.",
+      "work_flag": "",
+      "seller_feedback": "100% (1084 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/128177507740",
+      "site": "ebay",
+      "title": "Kenwood TS-830S HF Transceiver Made In Japan Vintage 1970s Ham Radio *Powers On",
+      "price": 439.97,
+      "shipping": 55.35,
+      "found_at": "2026-11-05",
+      "condition_notes": "eBay condition: Used. Title only claims '*Powers On' (no tested/working claim).",
+      "work_flag": "Powers On",
+      "seller_feedback": "99.8% (1146 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227600119519",
+      "site": "ebay",
+      "title": "Dentron antenna tuner MT-2000A Working",
+      "price": 239.99,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "eBay condition: Used. Title says Working. Free shipping and returns.",
+      "work_flag": "",
+      "seller_feedback": "99.9% (7710 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/237166057045",
+      "site": "ebay",
+      "title": "Kenwood TH-F6A Tri-band HT",
+      "price": 165.0,
+      "shipping": 20.91,
+      "found_at": "2026-11-05",
+      "condition_notes": "eBay condition: Used. No condition details in title.",
+      "work_flag": "",
+      "seller_feedback": "100% (168 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227600031770",
+      "site": "ebay",
+      "title": "Amp Supply Company AT-3000",
+      "price": 145.0,
+      "shipping": 27.24,
+      "found_at": "2026-11-05",
+      "condition_notes": "eBay condition: Used. No condition details in title.",
+      "work_flag": "",
+      "seller_feedback": "100% (59 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/198775507237",
+      "site": "ebay",
+      "title": "Palomar 300A Ham Radio Amplilier with Power Supply",
+      "price": 400.0,
+      "shipping": 65.0,
+      "found_at": "2026-11-05",
+      "condition_notes": "eBay condition: Used. Seller notes: 'Very clean inside and out, chrome cover flawless with very minor scratch.' Includes power supply.",
+      "work_flag": "",
+      "seller_feedback": "100% (632 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/327441762662",
+      "site": "ebay",
+      "title": "SCS P4 DRAGON DR-7400 Pactor Modem",
+      "price": 995.0,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "eBay condition: Used. Seller notes: 'Used, Powered up, local testing. Excellent condition.' No returns. Free shipping per search card.",
+      "work_flag": "no returns; 'Powered up, local testing'",
+      "seller_feedback": "100% (1590 ratings)"
+    }
+  ]
+}
