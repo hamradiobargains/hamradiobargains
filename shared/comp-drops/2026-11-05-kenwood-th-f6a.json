@@ -1,0 +1,246 @@
+{
+  "model": "Kenwood TH-F6A",
+  "slug": "kenwood-th-f6a",
+  "searched_at": "2026-11-05T18:00:31-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Kenwood TH-F6A', page 1 (60 results). 23 kept unit comps. Dropped 6 best-offer-accepted. Dropped 1 parts-only. Excluded batteries, chargers, cables, manuals, mounts, clips, battery+mic accessory bundle. 1 OUTLIER: $259 vs ~$167 median for the rest. Several identical-title sales flagged possible_duplicate (see comp notes); 3 'without antenna and battery' body-only sales kept with notes. Ledger miss: only entry is 'KENWOOD TH-F6A (AD LISTS TH-F6)', not an exact name match.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/237166057045",
+    "site": "ebay",
+    "ask": 165.0,
+    "shipping": 20.91
+  },
+  "comps": [
+    {
+      "price": 179.95,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880046966811",
+      "source": "ebay",
+      "notes": "Title: Tested/Working. Shipping +$10.70",
+      "flags": []
+    },
+    {
+      "price": 147.0,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137857447899",
+      "source": "ebay",
+      "notes": "Title: without antenna and battery (radio body only). Same title pattern as 298574764337 and 366550387755 (likely a multi-unit seller). Shipping +$35.00",
+      "flags": []
+    },
+    {
+      "price": 129.49,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307250432272",
+      "source": "ebay",
+      "notes": "Auction, 20 bids. Title: with Smiley Tri-Band Antenna. Shipping +$9.99",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 130.01,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366750787583",
+      "source": "ebay",
+      "notes": "Auction, 18 bids. Title: Estate Item. Shipping +$6.39",
+      "flags": []
+    },
+    {
+      "price": 189.0,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307233686348",
+      "source": "ebay",
+      "notes": "Title: + Charger ***EXTRAS***. Shipping +$11.50",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 180.0,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960057304333",
+      "source": "ebay",
+      "notes": "Title: with Box & Manual. Free shipping",
+      "flags": []
+    },
+    {
+      "price": 215.0,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206515516146",
+      "source": "ebay",
+      "notes": "Title: + Mic + Manual (nice). Shipping +$14.50",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 259.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237033999305",
+      "source": "ebay",
+      "notes": "OUTLIER: $259 vs ~$167 median for the rest. Free shipping",
+      "flags": []
+    },
+    {
+      "price": 189.99,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117447361265",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Title: Excellent working condition. Shipping +$12.39",
+      "flags": []
+    },
+    {
+      "price": 199.95,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298723801009",
+      "source": "ebay",
+      "notes": "Title: + 2 microphones + Diamond SRH320CA antenna. Shipping +$19.95",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117451894176",
+      "source": "ebay",
+      "notes": "Shipping +$17.00",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198680542783",
+      "source": "ebay",
+      "notes": "Shipping +$19.70",
+      "flags": []
+    },
+    {
+      "price": 175.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178352362107",
+      "source": "ebay",
+      "notes": "Title: (US version, works well) - identical title to 227523214690. Shipping +$11.50",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 144.0,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298574764337",
+      "source": "ebay",
+      "notes": "Title: without antenna and battery (radio body only). Same title pattern as 137857447899 and 366550387755. Shipping +$5.00",
+      "flags": []
+    },
+    {
+      "price": 174.99,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227523214690",
+      "source": "ebay",
+      "notes": "Title: (US version, works well) - identical title to 178352362107. Shipping +$10.00",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278352353789",
+      "source": "ebay",
+      "notes": "Free shipping",
+      "flags": []
+    },
+    {
+      "price": 172.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178411028140",
+      "source": "ebay",
+      "notes": "Title: Modified GMRS. Free shipping",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 122.5,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158247007311",
+      "source": "ebay",
+      "notes": "Auction, 22 bids. Title: w/ wide TX/RX & extras. Shipping +$15.14",
+      "flags": [
+        "modified",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 162.5,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366638342825",
+      "source": "ebay",
+      "notes": "Auction, 5 bids. Title: Excellent, XYL - identical title to 366624213201 and 158209614350. Shipping +$8.98",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 195.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267764380205",
+      "source": "ebay",
+      "notes": "Shipping +$14.99",
+      "flags": []
+    },
+    {
+      "price": 152.5,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366624213201",
+      "source": "ebay",
+      "notes": "Auction, 3 bids. Title: Excellent, XYL - identical title to 366638342825 and 158209614350. Shipping +$8.98",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 190.0,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158209614350",
+      "source": "ebay",
+      "notes": "Title: Excellent, XYL - identical title to 366638342825 and 366624213201. Free shipping",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 144.0,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366550387755",
+      "source": "ebay",
+      "notes": "Title: without antenna and battery (radio body only). Same title pattern as 137857447899 and 298574764337. Shipping +$20.00",
+      "flags": []
+    }
+  ]
+}
