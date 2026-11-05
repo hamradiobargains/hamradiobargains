@@ -1,0 +1,34 @@
+{
+  "model": "KM3KM Mercury ATS",
+  "slug": "km3km-mercury-ats",
+  "searched_at": "2026-11-04T19:25:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold+Completed, newest-ended first, page 1 only, signed in as Leo, no challenges) for \"KM3KM Mercury ATS\". 2 kept (thin), median 699.0. Dropped/excluded: BOA dropped 1: 278382234278 $1299.00 (Sep 24, Mercury ATS 1500 Watts).  Both kept sales are listed as MERCURY ATS 1.5K; the ad does not state the ATS version.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783839",
+    "site": "qth",
+    "ask": 900,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 699,
+      "sold_date": "2026-09-29",
+      "condition": "not recorded",
+      "url": "https://www.ebay.com/itm/278418282850",
+      "source": "ebay",
+      "notes": "shipping shown: $23.59. Title: MERCURY ATS 1.5K AUTO ANTENNA TUNER by KM3KM TESTED WORKING.",
+      "flags": []
+    },
+    {
+      "price": 699,
+      "sold_date": "2026-09-22",
+      "condition": "not recorded",
+      "url": "https://www.ebay.com/itm/278385223244",
+      "source": "ebay",
+      "notes": "shipping shown: $23.59. Title: MERCURY ATS 1.5K AUTO ANTENNA TUNER by KM3KM TESTED WORKING.",
+      "flags": []
+    }
+  ]
+}
