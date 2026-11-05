@@ -1,0 +1,25 @@
+{
+  "model": "Ameritron AL-82",
+  "slug": "ameritron-al-82",
+  "searched_at": "2026-11-04T22:45:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ameritron al-82' (sold+completed, newest first, page 1, signed in as Leo): 1 amplifier comp kept — THIN. About 10 other matches were accessories/parts (meter light kit, relay, screw kit, HV contactor/soft-start bundles, rectifier board, manual, overlay, dust cover) and were excluded. 0 Best offer accepted, 0 parts-only. Ad 1783983 asks $3200 OBO, pickup only (48635), 'mint condition', Taylor tubes.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783983",
+    "site": "qth",
+    "ask": 3200,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1899.99,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198595633365",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $199.87. Title 'Ameritron AL-82 Legal Limit HF Linear Amplifier'.",
+      "flags": []
+    }
+  ]
+}
