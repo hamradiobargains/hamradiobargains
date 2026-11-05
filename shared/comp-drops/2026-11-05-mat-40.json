@@ -1,0 +1,15 @@
+{
+  "model": "MAT-40",
+  "slug": "mat-40",
+  "searched_at": "2026-11-05T11:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'MAT-40 tuner', page 1, 2 exact results; 0 kept. Dropped 1 Best offer accepted: 176858993517 $279.99 Open Box sold 2026-09-18 (+$8.07). Not kept: 178292744219 Brand New sold 2026-10-27, variation listing shown as a price range $283.58 to $320.39 (+$25.00 delivery, includes import fees), no single sold price shown. MAT-30 and other mAT models in the fewer-words section ignored.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784035",
+    "site": "qth",
+    "ask": 200,
+    "shipping": 0
+  },
+  "comps": []
+}
