@@ -1,0 +1,102 @@
+{
+  "model": "Kenwood TS-830S",
+  "slug": "kenwood-ts-830s",
+  "searched_at": "2026-11-05T18:00:31-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Kenwood TS-830S', page 1 (53 results). 9 kept unit comps. Dropped 6 best-offer-accepted (radio units). Dropped 11 parts-only (eBay 'Parts Only' and/or title untested/as-is/for parts). Excluded accessories/parts/boards/manuals/filters/cabinets/VFO/tuner. 1 OUTLIER: $750 (with filters + box) vs ~$370 median for the rest. Ledger miss: KENWOOD TS-830S latest date 2026-09-29 older than 30 days.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/128177507740",
+    "site": "ebay",
+    "ask": 439.97,
+    "shipping": 55.35
+  },
+  "comps": [
+    {
+      "price": 389.0,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940018319622",
+      "source": "ebay",
+      "notes": "Title: very nice cond, tested and working! Manual and mic. Shipping +$24.43",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206608138806",
+      "source": "ebay",
+      "notes": "OUTLIER: $750 vs ~$370 median for the rest. Title: + Filters + Box (one owner, excellent). Shipping +$98.44",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278409931573",
+      "source": "ebay",
+      "notes": "Title: Powers ON (no other test claim). Shipping +$65.00",
+      "flags": []
+    },
+    {
+      "price": 525.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287601890103",
+      "source": "ebay",
+      "notes": "Title: Original Box, Tested. Shipping +$28.27",
+      "flags": []
+    },
+    {
+      "price": 237.06,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398267331398",
+      "source": "ebay",
+      "notes": "Auction, 18 bids. Title: TESTED. Shipping +$41.69",
+      "flags": []
+    },
+    {
+      "price": 390.0,
+      "sold_date": "2026-08-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206454139814",
+      "source": "ebay",
+      "notes": "Shipping +$40.00",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-08-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267752106340",
+      "source": "ebay",
+      "notes": "Shipping +$23.44",
+      "flags": []
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-08-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168230300817",
+      "source": "ebay",
+      "notes": "Shipping +$50.00",
+      "flags": []
+    },
+    {
+      "price": 349.99,
+      "sold_date": "2026-08-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366591205341",
+      "source": "ebay",
+      "notes": "Shipping +$59.99",
+      "flags": []
+    }
+  ]
+}
