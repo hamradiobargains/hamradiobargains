@@ -1,0 +1,119 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-05",
+  "ran_at": "2026-11-05T05:52:50-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-04T05:53:02-05:00 (prior eham run). Browsed signed OUT ('Welcome Guest'). Read public classifieds pages 1-2 only (newest first, ads 629476-629501), ~30s+ apart, no challenges. No individual ad pages, search form, sold searches, or seller/callsign pages opened; no ad IDs probed. Not dropped (not candidate categories): 629501 Icom 706 separation kit, 629496 WANTED ad, 629493 and 629492 Elecraft P3 panadapters, 629486 Motorola RDU-2020 (commercial HT), 629483 RemoteRig RRC-1258 pair. Ad numbers 629484, 629485, 629489, 629490, 629494 did not appear on the public pages (not opened). Comps: 5 ledger hits (Elecraft K3/100 covering 629497+629495, Icom IC-7300, Kenwood TS-590S, Yaesu FT-857D, Icom IC-718); 1 eBay sold search (Ameritron AL-80B) signed in as Leo, no challenge. Candidate cap reached: 629500 Hy-Gain T2X, 629482 Elecraft K3S, 629476 Astron RS-20A are ledger misses with no comp search this run.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629500",
+      "site": "eham",
+      "title": "T2X TailTwister",
+      "price": 475.0,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "Posted 2026-11-05. 'Hygain T2X TailTwister'. $475 plus shipping/fees, Dallas TX. No condition stated. No comp search this run (ledger miss; comp cap reached).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629499",
+      "site": "eham",
+      "title": "KENWOOD TS-590S",
+      "price": 900.0,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "Posted 2026-11-04. Second owner, serial mfg Nov 2010. 'CLEAN. NON SMOKER OR PETS', casual use since 2022. Includes manual, power cable, stock hand mic. 100W. $900 shipped UPS insured CONUS, PayPal only.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629498",
+      "site": "eham",
+      "title": "AMERITRON AL-80B HF AMP",
+      "price": 1100.0,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "Posted 2026-11-04. 2018 model, 'EXCELLENT CONDITION'. 'A REAR CABINET DIMPLE AROUND GROUND STUD' (seller says no operating factor). Sealed manual, set up on 120V. $1100 shipped UPS insured CONUS, PayPal only.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629497",
+      "site": "eham",
+      "title": "Elecraft K3/100 TRANSCEIVER # 433",
+      "price": 909.0,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "Posted 2026-11-04. K3/100, KPA3, 2.7 SSB + 500 Hz CW filters, KIO3, KXV3, firmware 5.67. 'Works as it should. Good condition.' Power cord. Title says #433, body says serial #443. $909 delivered.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629495",
+      "site": "eham",
+      "title": "Elecraft K3/100 TRANSCEIVER # 755",
+      "price": 929.0,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "Posted 2026-11-04. K3/100, 2.7 SSB filter, KIO3, KXV3A, firmware 5.67. Power cord, manual. 'Used it today on CW and SSB.' No CW filter listed. $929 delivered. Same seller as 629497.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629491",
+      "site": "eham",
+      "title": "FS: ICOM 7300 100W HF/50MHz",
+      "price": 750.0,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "Posted 2026-11-04. 'Excellent Condition. Full Output, No Scratches or Dings. Works Great.' All original accessories, manuals, box; includes RS-BA1 software. $750 shipping included UPS, CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629488",
+      "site": "eham",
+      "title": "ICOM 718",
+      "price": 400.0,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "Posted 2026-11-03. 'still working great with no problems' after 30 years of use. Includes hand mic, manual, XGGCOMMS digital cable. 'AS IS, no returns.' $400 plus shipping.",
+      "work_flag": "AS IS, no returns",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629487",
+      "site": "eham",
+      "title": "Yaesu FT-857D for sale",
+      "price": 800.0,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "Posted 2026-11-03. 'Very good working condition.' 'Stopped tuning with LDG YT-100. Unknown if ATAS tuning works.' Includes hand mic, manual, XGGCOMMS cable. 'AS IS. no returns'. $800 plus shipping.",
+      "work_flag": "Stopped tuning with LDG YT-100. Unknown if ATAS tuning works. AS IS, no returns",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629482",
+      "site": "eham",
+      "title": "Elecraft K3S/100 TRANSCEIVER # 10659 WOW !",
+      "price": 2799.0,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "Posted 2026-11-03. K3S/100 with KAT3A tuner, 2.7 SSB + 400 CW filters, KSYN3A, KIO3B, KXV3B. Power cord. No condition statement. $2799 delivered. No comp search this run (ledger miss; comp cap reached).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629476",
+      "site": "eham",
+      "title": "Astron RS-20A Power Supply",
+      "price": 100.0,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "Posted 2026-11-02 (first seen on public page this run). 'as new. Used 15-20 minutes then put back in the box.' $100 plus shipping. No comp search this run (ledger miss; comp cap reached).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
