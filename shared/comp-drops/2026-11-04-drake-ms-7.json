@@ -1,0 +1,63 @@
+{
+  "model": "Drake MS-7",
+  "slug": "drake-ms-7",
+  "searched_at": "2026-11-04T19:25:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold+Completed, newest-ended first, page 1 only, signed in as Leo, no challenges) for \"Drake MS-7\". 5 kept (solid), median 69.95. Dropped/excluded: BOA 0; excluded bundles: 187355696753 Drake R7 receiver w/ MS7 speaker $900 (Aug 14), 147653444592 Drake TR-7 station group $900 (Oct 26); 405643016132 AIWA SX-MS7 speakers not Drake. Outliers: 407305155007, 168731045456.  Trigger listing detail: buyer pays shipping, amount not stated.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783851",
+    "site": "qth",
+    "ask": 85,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 89.99,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407305155007",
+      "source": "ebay",
+      "notes": "OUTLIER: 89.99 is 1.53x the median (58.98) of the other kept comps. shipping shown: $15.65. Title: DRAKE MS-7 SPEAKER.",
+      "flags": []
+    },
+    {
+      "price": 99.95,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168731045456",
+      "source": "ebay",
+      "notes": "OUTLIER: 99.95 is 1.69x the median (58.98) of the other kept comps. shipping shown: $8.20. Title: Drake MS-7 External Speaker Vintage Ham Radio Tested Working.",
+      "flags": []
+    },
+    {
+      "price": 41.99,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327383825369",
+      "source": "ebay",
+      "notes": "shipping shown: $9.99. Title: Drake MS-7 MS7 External Desk Ham Radio Speaker Untested (auction, 1 bid).",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 69.95,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198571675731",
+      "source": "ebay",
+      "notes": "shipping shown: $15.00. Title: RARE Drake MS7 MS-7 External Speaker for Drake TR-7.",
+      "flags": []
+    },
+    {
+      "price": 48,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960045165130",
+      "source": "ebay",
+      "notes": "shipping shown: $25.65. Title: Drake MS7 Specker.",
+      "flags": []
+    }
+  ]
+}
