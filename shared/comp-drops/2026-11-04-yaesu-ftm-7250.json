@@ -1,0 +1,72 @@
+{
+  "model": "Yaesu FTM-7250D",
+  "slug": "yaesu-ftm-7250",
+  "searched_at": "2026-11-04T22:45:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ftm-7250' (sold+completed, newest first, page 1, signed in as Leo): 6 comps kept, median $250.00 (solid). FTM-7250D and FTM-7250DR treated as the same radio (same pattern as FTM-300D/300DR). Dropped: Best offer accepted 2 (940038468832 $250.00 Oct 24, 1 bid; 800568271997 $328.00 Aug 27 Open Box). 0 parts-only, 0 Read Description. Ad 1783970 asks $240 + shipping (with manual, mic, program cable, bracket, original packaging).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783970",
+    "site": "qth",
+    "ask": 240,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 299.95,
+      "sold_date": "2026-09-10",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/227506247865",
+      "source": "ebay",
+      "notes": "Buy It Now. Free delivery. Title 'Yaesu FTM7250DR ... OPEN BOX'.",
+      "flags": []
+    },
+    {
+      "price": 222.5,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137707510936",
+      "source": "ebay",
+      "notes": "Auction, 7 bids. Shipping $20.00. Title 'Yaesu FTM-7250DR Mobile Amateur Radio With Mfj Mobile Speaker.'",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 250,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327324514090",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $22.45. Title 'Yaesu FTM-7250D'.",
+      "flags": []
+    },
+    {
+      "price": 249.99,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137609558273",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $11.82. Title 'Yaesu FTM7250DR'.",
+      "flags": []
+    },
+    {
+      "price": 240,
+      "sold_date": "2026-08-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267735782382",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $18.85. Title 'Yaesu FTM-7250D'.",
+      "flags": []
+    },
+    {
+      "price": 250,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198571708747",
+      "source": "ebay",
+      "notes": "Listed '$250.00 or Best Offer', not marked accepted. Shipping $20.00. Title 'YEASU FTM 7250D'.",
+      "flags": []
+    }
+  ]
+}
