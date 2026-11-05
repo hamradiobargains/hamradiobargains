@@ -1,0 +1,106 @@
+{
+  "model": "TYT TH-9800",
+  "slug": "tyt-th-9800",
+  "searched_at": "2026-11-04T22:45:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'tyt th-9800' (sold+completed, newest first, page 1, signed in as Leo): 10 comps kept, median $155.50 (solid). Kept only titles reading plain 'TH-9800' (the ad says TH-9800). EXCLUDED as different titles/revisions (identity unsure): ~16 sales titled TH-9800 PLUS, TH-9800D, TH-9800D PLUS or 'PLUS/PRO' (e.g. 336863951324 D Plus Open Box $219.99, 181730372490 Plus Brand New $243.99 or BO, 407311960049 D Plus Open Box $140.00 or BO, 117419801088 Plus $179.98, 287498040043 Plus $120.00). Dropped: Best offer accepted 1 (188906477037 $159.95 Sep 16); non-working 1 (137650732189 title 'TH-9800 Quad Band DEAD!!!!', $70.95 or BO, Aug 28, +$16.00 — not counted); accessories (cables, mics, speakers, brackets, faceplates, extension, antennas) excluded. 0 Read Description. OUTLIERS: 820176375637 ($277.89 high) and 407271029813 ($60.00 low) kept and flagged. Ad 1783984 asks $176 including insured shipping.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783984",
+    "site": "qth",
+    "ask": 176,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 277.89,
+      "sold_date": "2026-10-29",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/820176375637",
+      "source": "ebay",
+      "notes": "OUTLIER: $277.89 is 1.75x the ~$159 median of the other kept comps (Brand New, listed $277.89 was $347.36, Buy It Now; shipping not read from the results page). Title 'TYT TH-9800 Quad Band 50W Mobile Car Ham Radio Cross-Band Remote Faceplate 800CH'.",
+      "flags": []
+    },
+    {
+      "price": 150,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267810819807",
+      "source": "ebay",
+      "notes": "Listed '$150.00 or Best Offer', not marked accepted. Shipping $8.53. Title 'TYT TH-9800 Quad Band Two-Way Radio 50W Black mobile Unit'.",
+      "flags": []
+    },
+    {
+      "price": 200,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178562920625",
+      "source": "ebay",
+      "notes": "Listed '$200.00 or Best Offer', not marked accepted. Shipping $10.43.",
+      "flags": []
+    },
+    {
+      "price": 60,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407271029813",
+      "source": "ebay",
+      "notes": "OUTLIER: $60.00 is 0.38x the ~$159 median of the other kept comps (title does not say why; not marked parts/non-working). Buy It Now. Shipping $7.72. Title 'TYT TH-9800 Quad Band VHF/UHF 50W Ham Radio Transceiver Bl...'.",
+      "flags": []
+    },
+    {
+      "price": 188,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/226844185478",
+      "source": "ebay",
+      "notes": "Listed '$188.00 or Best Offer', not marked accepted. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 151.99,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237092453629",
+      "source": "ebay",
+      "notes": "Listed $151.99 (was $159.99) or Best Offer, not marked accepted. Shipping $10.50.",
+      "flags": []
+    },
+    {
+      "price": 159,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188948848441",
+      "source": "ebay",
+      "notes": "Listed '$159.00 or Best Offer', not marked accepted. Shipping $19.98.",
+      "flags": []
+    },
+    {
+      "price": 160,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398378012810",
+      "source": "ebay",
+      "notes": "Listed '$160.00 or Best Offer', not marked accepted. Shipping $7.35.",
+      "flags": []
+    },
+    {
+      "price": 138.98,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128039597018",
+      "source": "ebay",
+      "notes": "Buy It Now. Free delivery. Title 'TYT TH9800- 50W Quad Band Mobile Ham Radio Transceiver'.",
+      "flags": []
+    },
+    {
+      "price": 147.5,
+      "sold_date": "2026-08-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298553757636",
+      "source": "ebay",
+      "notes": "Auction, 6 bids. Shipping $8.28. Title 'TYT TH-9800 Quad Band (10M, 6M, 2M & 70cm) 50W'.",
+      "flags": []
+    }
+  ]
+}
