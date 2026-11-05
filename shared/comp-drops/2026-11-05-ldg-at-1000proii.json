@@ -1,0 +1,22 @@
+{
+  "model": "LDG AT-1000PROII",
+  "slug": "ldg-at-1000proii",
+  "searched_at": "2026-11-05T14:58:38-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 400.0, count 5, ledger date 2026-10-06 — ledger hit — individual sales behind the median are not auditable from this file",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784148",
+    "site": "qth",
+    "ask": 330.0,
+    "shipping": 0.0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 400.0,
+    "low": 275.0,
+    "high": 499.0,
+    "count": 5,
+    "date": "2026-10-06"
+  }
+}
