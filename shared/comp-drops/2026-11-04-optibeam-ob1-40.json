@@ -1,0 +1,15 @@
+{
+  "model": "OptiBeam OB1-40",
+  "slug": "optibeam-ob1-40",
+  "searched_at": "2026-11-04T22:45:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'optibeam ob1-40' (sold+completed, newest first, page 1, signed in as Leo): 0 qualifying sales. Ad 1783799 offers a NEW IN BOX OB1-40 40m 1-element at $875 (package with used OB6-3M $1500; pickup only, Long Valley NJ, cash). No comps found.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783799",
+    "site": "qth",
+    "ask": 875,
+    "shipping": 0
+  },
+  "comps": []
+}
