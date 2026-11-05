@@ -1,0 +1,79 @@
+{
+  "model": "Yaesu M-100",
+  "slug": "yaesu-m-100",
+  "searched_at": "2026-11-04T19:25:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold+Completed, newest-ended first, page 1 only, signed in as Leo, no challenges) for \"Yaesu M-100\". 7 kept (solid), median 341.74. Dropped/excluded: BOA dropped 1: 377387243544 $349.99 Open Box (Sep 16); FTDX9000 transceiver + SP-9000 + M-100 bundle 128009856960 excluded (minor part). Outliers: 800803505116.  Trigger listing detail: $400 plus actual shipping (amount not stated). 6 of 7 kept comps are Brand New; the ad is a used 1-year-old unit with original box.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783823",
+    "site": "qth",
+    "ask": 400,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 286.36,
+      "sold_date": "2026-10-26",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/306997733204",
+      "source": "ebay",
+      "notes": "shipping shown: $97.00. Title: Yaesu M-100 High-End Dual-Element Microphone Black New.",
+      "flags": []
+    },
+    {
+      "price": 316.39,
+      "sold_date": "2026-10-24",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/126047247044",
+      "source": "ebay",
+      "notes": "shipping shown: $56.46. Title: Yaesu M-100 Dual Element Desk Microphone.",
+      "flags": []
+    },
+    {
+      "price": 145.5,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800803505116",
+      "source": "ebay",
+      "notes": "OUTLIER: 145.5 is 0.42x the median (345.37) of the other kept comps. shipping shown: $22.00. Title: Yaesu M-100 Desktop Microphone - Black In Very Nice Condition (auction, 17 bids).",
+      "flags": []
+    },
+    {
+      "price": 372.86,
+      "sold_date": "2026-10-15",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/135548541308",
+      "source": "ebay",
+      "notes": "shipping shown: free/none shown. Title: Yaesu Dual-Element M-100 Condenser Dynamic Microphone.",
+      "flags": []
+    },
+    {
+      "price": 349,
+      "sold_date": "2026-09-27",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/800675976826",
+      "source": "ebay",
+      "notes": "shipping shown: $79.00. Title: YAESU M-100 High-End Desktop Microphone Dual Element.",
+      "flags": []
+    },
+    {
+      "price": 349,
+      "sold_date": "2026-09-16",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/267737383292",
+      "source": "ebay",
+      "notes": "shipping shown: free/none shown. Title: Yaesu M-100 High-End Dual-Element Microphone Black New.",
+      "flags": []
+    },
+    {
+      "price": 341.74,
+      "sold_date": "2026-09-11",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/356278021490",
+      "source": "ebay",
+      "notes": "shipping shown: $80.50. Title: YAESU M-100 High-end dual element microphone.",
+      "flags": []
+    }
+  ]
+}
