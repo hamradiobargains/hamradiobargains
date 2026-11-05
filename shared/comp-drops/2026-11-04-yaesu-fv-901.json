@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FV-901",
+  "slug": "yaesu-fv-901",
+  "searched_at": "2026-11-04T22:45:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu fv-901' (sold+completed, newest first, page 1, signed in as Leo): 0 qualifying sales for an FV-901. IDENTITY WARNING: the ad calls it a 'Yaesu FV-901 antenna tuner' but the FV-901DM is the synthesized VFO; the Yaesu tuner for that radio is the FC-901. Seen but NOT used: 357870629413 FV-901DM VFO, Parts Only $115.00 (Aug 26); 188489836588 FC-901 Antenna Tuner, Pre-Owned $299.99 Buy It Now, +$80.00 shipping, Tested Working (Aug 8). Leo/Archie to decide if the ad's unit is an FC-901. Ad 1783882 asks $200 + shipping.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783882",
+    "site": "qth",
+    "ask": 200,
+    "shipping": 0
+  },
+  "comps": []
+}
