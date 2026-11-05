@@ -1,0 +1,61 @@
+{
+  "model": "E.F. Johnson Viking Ranger",
+  "slug": "ef-johnson-viking-ranger",
+  "searched_at": "2026-11-04T22:45:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'johnson viking ranger' (sold+completed, newest first, page 1, signed in as Leo): 5 comps kept, median $279.99 (5 = solid). Identity: Ranger (I) only; Viking Ranger II sales excluded (158298614938 $550 'or Best Offer', 158219316110 $550 Best offer accepted). Titles do not always say Ranger I vs II — kept only those not labelled II. Dropped: Read Description 1 (327377145997 $199.99, Oct 6, +$59.99); parts-only/for-parts 2 (920077159497 $250.00 Oct 30 'Powers On - As Is' Parts Only; 188813685700 $195.00 Oct 18 'For parts'); Best offer accepted on the radio 0 (relay 267778934925 and the Ranger II sale excluded as other items). Manuals/kits/recap kits/VFO coupler/relay and unrelated 'Lone Ranger' items excluded. OUTLIER: 117313534406. Ad 1783815 asks $350 + shipping, 'Ranger with all new capacitors. $250 of new tubes. Just a few small marks.'",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783815",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 349.99,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960008879033",
+      "source": "ebay",
+      "notes": "Shipping $50.00. Listed '$349.99 or Best Offer', not marked accepted. Title 'Johnson Viking Ranger Tube Transmitter Meter'.",
+      "flags": []
+    },
+    {
+      "price": 275,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257742531573",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Shipping $49.36. Title 'Working Vintage Johnson Viking Ranger Transmitter'.",
+      "flags": []
+    },
+    {
+      "price": 239.99,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178380884569",
+      "source": "ebay",
+      "notes": "Shipping $46.08. Listed $239.99 (was $299.99), Buy It Now. Title includes 'UNTESTED'.",
+      "flags": []
+    },
+    {
+      "price": 449.99,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117313534406",
+      "source": "ebay",
+      "notes": "OUTLIER: $449.99 is 1.62x the ~$277.50 median of the other four kept comps (this one 'Powers On Tubes Light Meter'). Shipping $68.95. Listed $449.99 (was $499.99) or Best Offer, not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 279.99,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407068267380",
+      "source": "ebay",
+      "notes": "Shipping $36.62. Buy It Now. Title 'JOHNSON RANGER HF TRANSMITTER - RESTORED'.",
+      "flags": []
+    }
+  ]
+}
