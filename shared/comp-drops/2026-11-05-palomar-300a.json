@@ -1,0 +1,76 @@
+{
+  "model": "Palomar 300A",
+  "slug": "palomar-300a",
+  "searched_at": "2026-11-05T18:00:31-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Palomar 300A', page 1 (24 results). 6 kept unit comps. Dropped 4 best-offer-accepted. Dropped 5 parts-only (amplifier units). Excluded relay board, cap kit, cable, transformer, plate choke, manual, cover, relays. 1 OUTLIER: $200 vs ~$425 median for the rest (title does not mention power supply). Three kept sales share the exact title 'Amplifier Base With Power Supply' (flagged possible_duplicate). Ledger miss: no PALOMAR 300A entry.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/198775507237",
+    "site": "ebay",
+    "ask": 400.0,
+    "shipping": 65.0
+  },
+  "comps": [
+    {
+      "price": 200.0,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/900045021807",
+      "source": "ebay",
+      "notes": "OUTLIER: $200 vs ~$425 median for the rest. Title: AM Linear Amplifier w/ Tune Band Load (no power supply mentioned in title). Shipping +$31.84",
+      "flags": []
+    },
+    {
+      "price": 455.0,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178421358388",
+      "source": "ebay",
+      "notes": "Title: Amplifier Base With Power Supply - identical title to 820239508168, 307166422955 (and BOA/parts sales 117424605358, 237046887323, 117289462191). Shipping +$30.17",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 323.0,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820239508168",
+      "source": "ebay",
+      "notes": "Auction, 22 bids. Title: Amplifier Base With Power Supply *READ* (details not in title) - identical title to 178421358388, 307166422955. Shipping +$24.74",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 435.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307166422955",
+      "source": "ebay",
+      "notes": "Title: Amplifier Base With Power Supply - identical title to 178421358388, 820239508168. Shipping +$95.00",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 322.0,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188935435811",
+      "source": "ebay",
+      "notes": "Auction, 26 bids. Title: 1970's vintage tube linear amplifier (no power supply mentioned in title). Shipping +$86.72",
+      "flags": []
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198557598502",
+      "source": "ebay",
+      "notes": "Title: Ham Radio Equipment Nice. Shipping +$98.00",
+      "flags": []
+    }
+  ]
+}
