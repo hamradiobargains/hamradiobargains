@@ -1,0 +1,25 @@
+{
+  "model": "FlexRadio FLEX-6500",
+  "slug": "flexradio-flex-6500",
+  "searched_at": "2026-11-05T14:58:38-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'flexradio flex-6500': 1 exact result on page 1, kept 1. Dropped 0 best-offer-accepted, 0 parts-only. Thin - single comp (UK seller, auction with 1 bid; price as shown in USD).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784124",
+    "site": "qth",
+    "ask": 1250.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 2236.32,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147612986909",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Title: Boxed, SmartSDR v4.2.2. Located in United Kingdom; +$190.57 shipping estimate; import fees paid at checkout.",
+      "flags": []
+    }
+  ]
+}
