@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-8400",
+  "slug": "flexradio-flex-8400",
+  "searched_at": "2026-11-05T14:58:38-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'flexradio flex-8400' returned 0 exact results on page 1 (only 'Results matching fewer words' - other Flex models - ignored). No comps. Thin - zero comps.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784115",
+    "site": "qth",
+    "ask": 2300.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
