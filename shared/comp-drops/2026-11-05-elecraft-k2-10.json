@@ -1,0 +1,36 @@
+{
+  "model": "Elecraft K2/10",
+  "slug": "elecraft-k2-10",
+  "searched_at": "2026-11-05T14:58:38-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'elecraft k2': 16 results on page 1, kept 2 (K2 10W units only). Dropped 1 best-offer-accepted K2 10W (137358780945 $1,700). Dropped 2 parts-only/as-is (336778193241 'FOR PARTS NOT WORKING' $375; 267810929344 body w/ some boards, as-is untested $482). Excluded for model identity: K2/100 (100W) units 178298300245 $1,080, 137359885946 and 137359886420 (both also best-offer-accepted); 318734941922 'K2 HF Mono Band ... Kit' $964.50 (power version unclear). Remaining results were boards, accessories, amps and brochures. OUTLIER: 267805888306 $1,550 is an unbuilt brand-new kit, more than 1.5x the other kept comp ($999.99). Thin - 2 comps.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784159",
+    "site": "qth",
+    "ask": 600.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 1550.0,
+      "sold_date": "2026-10-13",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/267805888306",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,550 vs $999.99 for the other kept comp - UNBUILT KIT, brand new. Auction, 65 bids. +$8.53 delivery.",
+      "flags": []
+    },
+    {
+      "price": 999.99,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147547185035",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: K2 10W 160-10 Meter + Manual (many options). Free delivery.",
+      "flags": [
+        "option_installed"
+      ]
+    }
+  ]
+}
