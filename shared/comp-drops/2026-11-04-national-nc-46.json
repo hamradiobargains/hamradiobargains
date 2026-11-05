@@ -1,0 +1,15 @@
+{
+  "model": "National NC-46",
+  "slug": "national-nc-46",
+  "searched_at": "2026-11-04T22:45:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'national nc-46' (sold+completed, newest first, page 1, signed in as Leo): 0 qualifying sales. Only a manual (202467900384, $14.99, Oct 16) matched the radio; the rest were MAC NC46 cosmetics and toys (noise). Ad 1783869 asks $245 + shipping. No comps found.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783869",
+    "site": "qth",
+    "ask": 245,
+    "shipping": 0
+  },
+  "comps": []
+}
