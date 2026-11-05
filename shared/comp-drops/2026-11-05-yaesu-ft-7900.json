@@ -1,0 +1,154 @@
+{
+  "model": "Yaesu FT-7900R",
+  "slug": "yaesu-ft-7900",
+  "searched_at": "2026-11-05T10:12:55-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Kept 14 sold comps, median 200.00, low 160.00, high 232.50. Query 'yaesu ft-7900'. The ad says 'FT 7900' (US seller; treated as FT-7900R; ledger's FT-7900E entry NOT used). Dropped 1 Best-offer-accepted (298739382808 $110.00). Excluded: 198546514486 (FT-7900E, $113.18, different model), 377180743572 (new import, variation price range $200.66-$232.85) and 316784347903 (new 'For YAESU FT-7900R' import listing, $190.18 +$50.53) as uncertain identity; accessory rows (mounts, mic holders, cables) excluded. 318518967352 kept as a Brand New import listing (shipping +$80). 377433474840 title states out-of-band transmit mod (flag modified). Ad: KB4QNR $175 shipped lower 48, remote head mounting kit, mic, new power harness, no mounting bracket for main body. Prices are eBay sold prices as shown (hammer/fixed price, no shipping); shown shipping is in each comp's notes. Best-offer-accepted, parts-only and Read Description sales dropped and listed above.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784068",
+    "site": "qth",
+    "ask": 175,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 209.95,
+      "sold_date": "2026-10-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198709678589",
+      "source": "ebay",
+      "notes": "shown shipping $10.12",
+      "flags": []
+    },
+    {
+      "price": 180,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880042650507",
+      "source": "ebay",
+      "notes": "title: w/ YSK-7800 Separation Kit; shown shipping $15.00",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 200,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377433474840",
+      "source": "ebay",
+      "notes": "title: 'Multi-Band Ham Radio With Out of Band Transmit Mod'; shown shipping $10.56",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 160,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178448097077",
+      "source": "ebay",
+      "notes": "shown shipping $21.67",
+      "flags": []
+    },
+    {
+      "price": 175,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117386687249",
+      "source": "ebay",
+      "notes": "title: Used; shown shipping $14.07",
+      "flags": []
+    },
+    {
+      "price": 200,
+      "sold_date": "2026-09-02",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/198585474527",
+      "source": "ebay",
+      "notes": "shown shipping $29.75",
+      "flags": []
+    },
+    {
+      "price": 175,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117373728090",
+      "source": "ebay",
+      "notes": "title: Used; shown shipping $14.07",
+      "flags": []
+    },
+    {
+      "price": 219.99,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257702550481",
+      "source": "ebay",
+      "notes": "shown shipping: free or none shown",
+      "flags": []
+    },
+    {
+      "price": 198,
+      "sold_date": "2026-08-24",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/318518967352",
+      "source": "ebay",
+      "notes": "title: 1PCS ... import listing; shown shipping $80.00",
+      "flags": []
+    },
+    {
+      "price": 232.5,
+      "sold_date": "2026-08-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307102447532",
+      "source": "ebay",
+      "notes": "shown shipping $8.53",
+      "flags": []
+    },
+    {
+      "price": 205,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267776935296",
+      "source": "ebay",
+      "notes": "title: w/ Mic, LCD Screen; shown shipping $25.00",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 220,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168668686481",
+      "source": "ebay",
+      "notes": "title: w/ YSK-7800 Separation Kit; shown shipping: free or none shown",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 200,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168616592254",
+      "source": "ebay",
+      "notes": "title: w/ YSK-7800 Separation Kit; shown shipping: free or none shown",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 225,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168601846012",
+      "source": "ebay",
+      "notes": "title: w/ YSK-7800 Separation Kit; shown shipping: free or none shown",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
