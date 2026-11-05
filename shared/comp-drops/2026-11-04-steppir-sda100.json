@@ -1,0 +1,25 @@
+{
+  "model": "SteppIR SDA100",
+  "slug": "steppir-sda100",
+  "searched_at": "2026-11-04T22:45:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'steppir sda100' (sold+completed, newest first, page 1, signed in as Leo): 1 comp kept — THIN. Dropped parts-only 2: 178526568640 ($249.99, Sep 25, +$23.87) and 820020671074 ($149.99, Sep 4, 'For Parts Powers On READ'). Other SDA-100-text matches were unrelated industrial items. Ad 1783959 asks $750 (all modules factory installed, pickup Euless TX).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783959",
+    "site": "qth",
+    "ask": 750,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 300,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178457051169",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $29.50. Title 'SteppIR SDA-100 Ham Radio Antenna Rotator Controller (nice condition)'.",
+      "flags": []
+    }
+  ]
+}
