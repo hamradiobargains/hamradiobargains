@@ -1,0 +1,76 @@
+{
+  "model": "Kenwood TS-870S",
+  "slug": "kenwood-ts-870s",
+  "searched_at": "2026-11-05T11:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Kenwood TS-870S', page 1, 15 results; 6 kept, median 750.00, low 511.90, high 849.99. Dropped 3 Best offer accepted: 198625447997 $600.00 (2026-09-14), 117395803258 $799.00 (2026-09-05), 257707265366 $685.00 (2026-08-29). Excluded 6 parts/accessory items (knobs, control unit boards, relay board, amp cable). 117403308350 and 117402683413 are identical titles/prices same day (possible duplicate listings), both kept. 278329775073 and 128060184224 show shipping estimates and import fees (international seller). Ad is TS-870 (S not stated) $700 OBO; its separate P52 power supply $175 and SP-31 speaker $125 not included in ask.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781779",
+    "site": "qth",
+    "ask": 700,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 700,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298668466957",
+      "source": "ebay",
+      "notes": "1 bid; +$61.51 delivery; title 'Kenwood TS-870, TS-870S'",
+      "flags": []
+    },
+    {
+      "price": 849.99,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117403308350",
+      "source": "ebay",
+      "notes": "or Best Offer, not marked accepted; free delivery; boxed with MC-43S + extras",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 849.99,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117402683413",
+      "source": "ebay",
+      "notes": "or Best Offer, not marked accepted; free delivery; same title as 117403308350",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 800,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267769850644",
+      "source": "ebay",
+      "notes": "or Best Offer, not marked accepted; free delivery",
+      "flags": []
+    },
+    {
+      "price": 511.9,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278329775073",
+      "source": "ebay",
+      "notes": "1 bid; +$134.79 shipping estimate",
+      "flags": []
+    },
+    {
+      "price": 673.55,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128060184224",
+      "source": "ebay",
+      "notes": "Buy It Now; +$140.37 shipping estimate; import fees paid at checkout",
+      "flags": []
+    }
+  ]
+}
