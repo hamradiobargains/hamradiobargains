@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-690 MkII",
+  "slug": "yaesu-ft-690-mkii",
+  "searched_at": "2026-11-05T10:12:55-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Kept 0 qualifying sold comps. 0 QUALIFYING COMPS. Two eBay sold searches were spent: 'yaesu ft-690 mk2' returned 0 results; 'yaesu ft-690' returned 4 page-1 rows, none usable: 318865825068 (FT-690R II, Parts Only, titled 'Read Description', $150.00, dropped as parts-only and Read Description), 336702908317 (FT-690R II + FL-6020 linear amp, Best offer accepted, $450.00, dropped), 227489586320 (FT-690R lot with Kenwood, Parts Only, $264.88, dropped), 393959019456 (brochure, excluded). Ad: KA2ING FT-690 Mk2 s/n 340488, very good condition, MH15cb mic, choice of FL-6020 amp or FBA-8 battery pack, $350 shipped or $400 with FL-6020 and FBA-8. Prices are eBay sold prices as shown (hammer/fixed price, no shipping); shown shipping is in each comp's notes. Best-offer-accepted, parts-only and Read Description sales dropped and listed above.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784028",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": []
+}
