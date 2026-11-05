@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio Maestro",
+  "slug": "flexradio-maestro",
+  "searched_at": "2026-11-05T11:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'FlexRadio Maestro', page 1, 5 results; 0 kept. Dropped: 206508956367 $599.99 Parts Only, Best offer accepted (sold 2026-08-22, +$22.36); 398144436249 $1,099.99 Best offer accepted, titled 'READ DESC' (sold 2026-08-19, free delivery). Excluded 3 unrelated iDatalink Maestro car dash kits (226633088361, 294794424083, 407152099867). Ad title says 'Flex Radio Maestro C'; no variant distinction made. Ad: pristine, with AC power supply, battery, tilt feet, manual, original box.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782442",
+    "site": "qth",
+    "ask": 1350,
+    "shipping": 0
+  },
+  "comps": []
+}
