@@ -1,0 +1,185 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-05",
+  "ran_at": "2026-11-05T10:20:34-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered: 2026-11-05-eham.json (ran_at 2026-11-05T05:52:50-05:00), the only eham/qth/ebay drop newer than the previous extras drop 2026-11-04-2241-extras.json (ran_at 2026-11-04T22:45:00-05:00); its 'not comped' eHam ledger-miss candidates 629500, 629482 and 629476 are already in dropped-urls.json and were not re-queued, so 0 fresh extras. Named extra QTH 1783910 (Yaesu '991', $600 firm) was already worked 2026-11-03 under 'Yaesu FT-991' (FT-991A excluded) and its URL is in dropped-urls.json, so it was NOT re-queued (Leo's original-FT-991 ruling stands; no FT-991A figures used). Queue: 23 CARRIED OVER IDs from 2026-11-04-2241-extras.json (front) + 9 BACKLOG CARRY IDs (back) = 32 queued. Every queue ad was opened for liveness once at human pace in Leo's Chrome (eHam not touched): 31 live, 1 gone (1783942 sBitx V3 NIB). Triaged this file: 16 (15 live + 1 gone). Ledger hits: 0 (RS-20M, AT-200PRO, FT-817ND and FT-7900E ledger entries are different models; AT2KD, NRD-535D, FRG-8800 and TS-870S entries are count<3 or older than 30 days; XPA125B entry older than 30 days). eBay sold searches used 15 of 15 for 14 ads (Astron RS-20A, Ameritron AWM-30, RemoteRig RRC-1258, Palstar AT2K, Yaesu FT-817, Yaesu FRG-8800, Yaesu FT-690 Mk2 [0 results] then Yaesu FT-690 [0 usable], Kenwood TM-V7A, Icom IC-2340H, LDG AT-200ProII, Yaesu VX-3R, Yaesu FT-7900, Ten-Tec 4020 [0 results], Radioddity QT80 = 15). Signed in as Leo ('Hi Leo!'), one page at a time, 15+ s apart, no challenges or CAPTCHAs; Chrome briefly lost its extension connection mid-run and reconnected, no data lost. Zero qualifying comps: Yaesu FT-690 MkII (second search used a broader query), Icom IC-2340H, Ten-Tec 4020. Thin (<3 kept): Ameritron AWM-30 2, Yaesu FRG-8800 2, Radioddity QT80 2. Skipped: 1783933 (home-converted 6 m SB-1000, no exact-model sold market; no search spent; seller wording carried verbatim in work_flag, UNCERTAIN). Gone: 1783942. Outliers kept and flagged: Astron RS-20A 111802127146 ($274.95 Brand New), 189039007540 ($100.00) and 398327687980 ($89.99); RemoteRig 298724657388 ($157.50 single unit) and 880011919522 ($799.99 new); Palstar AT2K 111802127195 ($899.95 new); Yaesu FT-817 168711541759 ($195.00) and 237063438101 ($1,070.00); Kenwood TM-V7A 257693793825 ($365.00 open box); LDG AT-200ProII 111802127471 ($364.95 new). Identity cautions: RS-20M and RS-20A-BB (366273823301) not used for RS-20A; AWM-30B excluded from AWM-30; FT-817ND titles (28) excluded from FT-817; FT-7900E excluded (ad is a US FT-7900R); QT80 comps exclude AnyTone 6666 PRO 'same as QT80' (UNCERTAIN); LDG AT-200PRO (non-II) ledger entry not used; ad titled RRC-1278 vs body RRC-1258 for 1783991. Modification wording in comps: FT-7900 377433474840 'Out of Band Transmit Mod', QT80 800612606932 'Unlocked 10M 11M CB 12M 15M' (both flagged modified). Price changes seen vs earlier drop notes: 1783927 now $100 (was $125); 1784024 now $165 (was $185). Same-seller notes (not cross-posts): KB4QNR 1784049/1784068/1784056; WD8TIM 1784075/1784064. Work-flag wording carried verbatim: 1783948 'Sold as-is' (UNCERTAIN); 1784019 missing rear panel/foot/strap broken; 1784068 'no bracket to mount the main body of the radio'; 1783933 converted SB-1000 (UNCERTAIN). Backlog ads seen live this run (not comped): 1782384 Triton IV 'the power switch does not turn it off' / 'i have not transmitted with it' / mike adapter changed; 1781393 FT-980 'Open for trades' $530 or best offer. ran_at/searched_at are file-write times, -05:00 (EST). Seller feedback n/a (QTH). CARRIED OVER (live and unworked for comps, queue order, go first next run): 1784021, 1784035, 1784020, 1784072, 1784079, 1784074, 1784076. BACKLOG CARRY (live and unworked, stay at the back): 1782359, 1782384, 1781393, 1782442, 1781779, 1782487, 1782484, 1782573, 1782543.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783933",
+      "site": "qth",
+      "title": "AMPVHF - FS: 6 METER AMP, SB-1000 (converted Heathkit SB-1000)",
+      "price": 500,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "live. Seller: \"I HAVE A CONVERTED SB-1000 HEATHKIT AMP FOR 6 METERS. SETUP ON 220 VOLTS, HAS BEEN UPDATED AND HAS THE W7RY STEP-START. NO SHIPPING, HAPPY TO MEET SOMEONE WITHIN REASONABLE DISTANCE. I AM GOOD IN THE BOOK. S/W VA. COMES WITH THE MANUAL and MODIFICATION INSTRUCTIONS USED. I WILL INCLUDE ALL OF THE REMOVED PARTS EXCEPT THE BAND SWITCH, I GAVE IT TO A FRIEND.\" $500, local pickup only (no shipping). not comped: home-converted/modified amp, no exact-model sold market; no eBay search spent.",
+      "work_flag": "CONVERTED SB-1000 HEATHKIT AMP FOR 6 METERS (home-converted, band switch removed and given away: \"I WILL INCLUDE ALL OF THE REMOVED PARTS EXCEPT THE BAND SWITCH\") - UNCERTAIN",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783927",
+      "site": "qth",
+      "title": "POWERSUP - Astron RS-20A power supply",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "live. \"as new. Used 15-20 minutes and put back in the box.\" $100 and split shipping conus (11-03 drop recorded $125; ask now $100, edited 11/04). comps: 2026-11-05-astron-rs-20a, 22 kept, median 59.47.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783948",
+      "site": "qth",
+      "title": "TEST - Ameritron AWM-30 SWR / Watt Meter",
+      "price": 125,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "live. \"Out of an SK Estate... Has a power cord with power poles installed. Tested it on my Icom 7300 and it appears to be functioning in my limited test. Sold as-is.\" $125 shipped. comps: 2026-11-05-ameritron-awm-30, 2 kept, median 139.50, THIN.",
+      "work_flag": "Sold as-is; \"appears to be functioning in my limited test\" - UNCERTAIN",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783991",
+      "site": "qth",
+      "title": "RADIOHF - RemoteRig RRC-1258 MKII pair (ad title says RRC-1278 Pair)",
+      "price": 649,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "live. \"RemoteRig RRC-1258 MKIIs V7 for Elecraft K3 K3S, Icom IC-7100 / IC-706, etc. MICROBIT $649 delivered - check, Zelle, PP FF ok. You are looking at a pair of boxes that go on both sides of your remote setup.\" comps: 2026-11-05-remoterig-rrc-1258-mkii, 3 kept, median 649.99.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783942",
+      "site": "qth",
+      "title": "sBitx V3 NIB (ad no longer in the QTH system)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-03",
+      "condition_notes": "no longer live (QTH: ad number no longer in our system). Title/price not recorded in the 11-03 drop notes beyond 'sBitx V3 NIB'; an earlier extras drop noted 'SALE PENDING'. not comped: gone.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784036",
+      "site": "qth",
+      "title": "ANTETUNE - Palstar AT2K 2 kW tuner",
+      "price": 450,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "live. \"Clean, no scratches, works great. $450. Buyer pays shipping from 32952. Postal MO or personal check. No trades.\" (shipping unknown, buyer pays) comps: 2026-11-05-palstar-at2k, 7 kept, median 499.00.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784049",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu FT817 with LDG 817 tuner and EFHW antenna field kit (bundle)",
+      "price": 650,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "live. \"Complete field kit. Yaesu FT817 with LDG 817 auto tuner. Also there is a EFHW antenna that uses a 49:1 unun and is good for 40 thru 10 meters... Asking $650 for everything with free shiping to lower 48 states.\" Bundle ask; comps are radio-only. comps: 2026-11-05-yaesu-ft-817, 12 kept, median 748.50.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784019",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu FRG-8800 shortwave receiver",
+      "price": 349,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "live. \"This radio works perfectly. All functions work as they should. It is missing one of the plastic rear panels. One side foot is missing, and the strap is broken. None of this effect performance.\" $349.00 free shipping to lower 48. comps: 2026-11-05-yaesu-frg-8800, 2 kept, median 347.25, THIN.",
+      "work_flag": "\"It is missing one of the plastic rear panels. One side foot is missing, and the strap is broken.\" (seller: none of this affects performance)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784028",
+      "site": "qth",
+      "title": "RADIOVHF - Yaesu FT-690 Mk2 six meter SSB portable (s/n 340488)",
+      "price": 350,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "live. \"in very good condition both physical and electrical. included is the user manual & MH15cb DTMF microphone. The radio comes with your choice of either the snap on amplifier FL-6020 or the '9-C' cell Battery pack FBA-8. $350.00 shipped or $400.00 for the radio with the FL-6020 & FBA-8 amp and battery pack.\" not comped: eBay sold search run, 0 qualifying comps (2026-11-05-yaesu-ft-690-mkii).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784073",
+      "site": "qth",
+      "title": "RADIOVHF - Kenwood TM-V7A dual bander",
+      "price": 125,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "live. \"very nice unit. Comes with it extension cable so you can separate the head from the unit remotely. Includes everything that came with it including the microphone. Its all in the original box.\" $125 plus postage (shipping amount not stated). comps: 2026-11-05-kenwood-tm-v7a, 5 kept, median 229.99.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784075",
+      "site": "qth",
+      "title": "RADIOVHF - Icom IC-2340H",
+      "price": 210,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "live. \"very nice condition no marks on the face or bezel, small scratches on the side where the mounting bracket goes, never been mobile, has the tone encode/decode unit, also voice board, comes with box, manual, mounting bracket, DTMF Mic, Power cord.\" $210 shipped CONUS, PayPal. not comped: eBay sold search run, 0 qualifying comps (2026-11-05-icom-ic-2340h).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784070",
+      "site": "qth",
+      "title": "ANTETUNE - LDG AT200ProII tuner",
+      "price": 240,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "live. \"VGC W/box\" $240 PICK UP ONLY in Yorkville Illinois. comps: 2026-11-05-ldg-at-200proii, 5 kept, median 219.00.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784064",
+      "site": "qth",
+      "title": "RADIOVHF - Yaesu VX-3R like new",
+      "price": 180,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "live. \"works 100% no problems, comes with 4 battery's, manual and charger, no box, but its in mint condition\" $180 shipped CONUS, PayPal. comps: 2026-11-05-yaesu-vx-3r, 7 kept, median 170.00.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784068",
+      "site": "qth",
+      "title": "RADIOVHF - Yaesu FT-7900 dualband mobile",
+      "price": 175,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "live. \"very nice dualband mobile with the remote head mounting kit. The unit comes with the microphone and new uncut power harness. However there is no bracket to mount the main body of the radio.\" $175 shipped to the lower 48. comps: 2026-11-05-yaesu-ft-7900, 14 kept, median 200.00.",
+      "work_flag": "\"there is no bracket to mount the main body of the radio\"",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784056",
+      "site": "qth",
+      "title": "RADIOHF - Ten-Tec 4020 QRP transceiver",
+      "price": 140,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "live. \"very nice dual band CW rig. It puts about 3 to 5 watts... comes in a plastic pencil box with an American Morse straight key and power harness.\" $140 including shipping to the lower 48. not comped: eBay sold search run, 0 qualifying comps (2026-11-05-ten-tec-4020).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784024",
+      "site": "qth",
+      "title": "RADIOHF - Radioddity QT80 80w 10m mobile",
+      "price": 165,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "live. \"Super clean 100% working and boxed with all original accessories. Display does not photograph well.\" $165 plus shipping (amount not stated; 11-04 drop recorded $185, ask now $165). comps: 2026-11-05-radioddity-qt80, 2 kept, median 289.98, THIN.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
