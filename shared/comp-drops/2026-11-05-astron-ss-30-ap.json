@@ -1,0 +1,15 @@
+{
+  "model": "Astron SS-30-AP",
+  "slug": "astron-ss-30-ap",
+  "searched_at": "2026-11-05T11:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Two eBay sold searches used: 'Astron SS-30-AP' = 0 results; fallback 'Astron SS-30' = 15 results, none titled SS-30-AP. 0 kept. SS-30 and SS-30M sales (about $100-$180) were seen but NOT used because identity vs SS-30-AP is UNCERTAIN and models are kept separate; Archie may want to review them himself. Ad is pickup only (Yorkville, IL).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784072",
+    "site": "qth",
+    "ask": 120,
+    "shipping": 0
+  },
+  "comps": []
+}
