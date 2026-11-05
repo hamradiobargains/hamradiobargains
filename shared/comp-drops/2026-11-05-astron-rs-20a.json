@@ -1,0 +1,214 @@
+{
+  "model": "Astron RS-20A",
+  "slug": "astron-rs-20a",
+  "searched_at": "2026-11-05T10:12:55-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Kept 22 sold comps, median 59.47, low 33.00, high 274.95. Query 'astron rs-20a'. Dropped: 5 Best-offer-accepted (227577530724 $50.00, 168756885720 $125.00, 278402817055 $79.99, 335480283575 $60.00, 287545301654 $39.99); 3 parts-only/as-is (358566278029 $55.00, 287561961135 $40.00 'AS IS', 226667100422 $45.00); excluded non-unit/other: 137737746737 (Kenwood TS-140S bundle $289.97), 236746705530 (Motorola PM400 listing $200.00), 366273823301 (RS-20A-BB variant $75.00, identity uncertain, kept separate). Ad asks $100 plus split shipping (CONUS). RS-20M is a different (metered) model and not used. Prices are eBay sold prices as shown (hammer/fixed price, no shipping); shown shipping is in each comp's notes. Best-offer-accepted, parts-only and Read Description sales dropped and listed above.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783927",
+    "site": "qth",
+    "ask": 100,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 59.99,
+      "sold_date": "2026-11-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840082447586",
+      "source": "ebay",
+      "notes": "shown shipping $12.25",
+      "flags": []
+    },
+    {
+      "price": 59.99,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327421736485",
+      "source": "ebay",
+      "notes": "shown shipping $19.99",
+      "flags": []
+    },
+    {
+      "price": 49.99,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327423636028",
+      "source": "ebay",
+      "notes": "shown shipping $24.99",
+      "flags": []
+    },
+    {
+      "price": 79.99,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267811624401",
+      "source": "ebay",
+      "notes": "shown shipping: free or none shown",
+      "flags": []
+    },
+    {
+      "price": 55,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940009087412",
+      "source": "ebay",
+      "notes": "shown shipping $25.12",
+      "flags": []
+    },
+    {
+      "price": 40,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298739430795",
+      "source": "ebay",
+      "notes": "shown shipping $17.03",
+      "flags": []
+    },
+    {
+      "price": 100,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189039007540",
+      "source": "ebay",
+      "notes": "OUTLIER: >1.5x median of the other kept comps; shown shipping: free or none shown",
+      "flags": []
+    },
+    {
+      "price": 50,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307189588225",
+      "source": "ebay",
+      "notes": "shown shipping $25.12",
+      "flags": []
+    },
+    {
+      "price": 85,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117416307343",
+      "source": "ebay",
+      "notes": "shown shipping $26.00",
+      "flags": []
+    },
+    {
+      "price": 69,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147524499775",
+      "source": "ebay",
+      "notes": "shown shipping $46.95",
+      "flags": []
+    },
+    {
+      "price": 85,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267634233058",
+      "source": "ebay",
+      "notes": "shown shipping $28.65",
+      "flags": []
+    },
+    {
+      "price": 50,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377285291916",
+      "source": "ebay",
+      "notes": "shown shipping $21.89",
+      "flags": []
+    },
+    {
+      "price": 89.99,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398327687980",
+      "source": "ebay",
+      "notes": "OUTLIER: >1.5x median of the other kept comps; shown shipping: free or none shown",
+      "flags": []
+    },
+    {
+      "price": 58.99,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358829366342",
+      "source": "ebay",
+      "notes": "shown shipping $16.55",
+      "flags": []
+    },
+    {
+      "price": 274.95,
+      "sold_date": "2026-08-26",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/111802127146",
+      "source": "ebay",
+      "notes": "OUTLIER: listed Brand New, >1.5x median of other kept comps; shown shipping: free or none shown",
+      "flags": []
+    },
+    {
+      "price": 49.95,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117314749555",
+      "source": "ebay",
+      "notes": "shown shipping $23.84",
+      "flags": []
+    },
+    {
+      "price": 49.99,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227475926275",
+      "source": "ebay",
+      "notes": "shown shipping $24.99",
+      "flags": []
+    },
+    {
+      "price": 59.95,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407141935990",
+      "source": "ebay",
+      "notes": "shown shipping: free or none shown",
+      "flags": []
+    },
+    {
+      "price": 39.95,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278277316305",
+      "source": "ebay",
+      "notes": "shown shipping $21.95",
+      "flags": []
+    },
+    {
+      "price": 33,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307067696341",
+      "source": "ebay",
+      "notes": "shown shipping $21.98",
+      "flags": []
+    },
+    {
+      "price": 39,
+      "sold_date": "2026-08-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168568183304",
+      "source": "ebay",
+      "notes": "shown shipping $25.12",
+      "flags": []
+    },
+    {
+      "price": 59.99,
+      "sold_date": "2026-08-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318267403913",
+      "source": "ebay",
+      "notes": "shown shipping $27.20",
+      "flags": []
+    }
+  ]
+}
