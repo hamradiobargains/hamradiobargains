@@ -1,0 +1,25 @@
+{
+  "model": "Wolf River Coils Silver Bullet 1000",
+  "slug": "wolf-river-coils-silver-bullet-1000",
+  "searched_at": "2026-11-05T11:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Wolf River Coils Silver Bullet 1000', page 1, 1 result; 1 kept. THIN. Comp title is the coil only and does not mention tripod or radials; the ad includes tripod and ground radials. Price shown $130.49 with $149.99 struck through.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784020",
+    "site": "qth",
+    "ask": 200,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 130.49,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128034575584",
+      "source": "ebay",
+      "notes": "+$9.21 delivery; Buy It Now; strikethrough $149.99 shown",
+      "flags": []
+    }
+  ]
+}
