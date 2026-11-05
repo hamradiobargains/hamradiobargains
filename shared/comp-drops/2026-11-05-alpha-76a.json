@@ -1,0 +1,15 @@
+{
+  "model": "Alpha 76A",
+  "slug": "alpha-76a",
+  "searched_at": "2026-11-05T11:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Alpha 76A amplifier', page 1, 4 results; 0 kept. Dropped 3 parts-only: 128089757732 Alpha 76PA (different model) $750.00 (2026-09-21), 267766734378 76A without tubes $400.00 Best offer accepted (2026-09-07), 267745853360 76A without tubes $450.00 (2026-08-09, 1 bid). Excluded manuals 278101781590 $15.00. Ad: excellent, caps replaced, pickup only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782487",
+    "site": "qth",
+    "ask": 900,
+    "shipping": 0
+  },
+  "comps": []
+}
