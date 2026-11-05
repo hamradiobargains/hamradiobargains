@@ -1,0 +1,34 @@
+{
+  "model": "Ameritron AWM-30",
+  "slug": "ameritron-awm-30",
+  "searched_at": "2026-11-05T10:12:55-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Kept 2 sold comps, median 139.50, low 130.00, high 149.00 (THIN, fewer than 3). Query 'ameritron awm-30'. Only 3 results on page 1; THIN (2 kept). Excluded 358899191767 (AWM-30B, $75.50 +$14.99, identity kept separate). Ad: K9FRD $125 shipped, sold as-is, tested on IC-7300. Prices are eBay sold prices as shown (hammer/fixed price, no shipping); shown shipping is in each comp's notes. Best-offer-accepted, parts-only and Read Description sales dropped and listed above.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783948",
+    "site": "qth",
+    "ask": 125,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 130,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206627676143",
+      "source": "ebay",
+      "notes": "shown shipping $17.89",
+      "flags": []
+    },
+    {
+      "price": 149,
+      "sold_date": "2026-08-29",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/257676592171",
+      "source": "ebay",
+      "notes": "shown shipping: free or none shown",
+      "flags": []
+    }
+  ]
+}
