@@ -1,0 +1,15 @@
+{
+  "model": "MFJ-1786",
+  "slug": "mfj-1786",
+  "searched_at": "2026-11-05T11:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'MFJ-1786 controller', page 1, 2 results; 0 kept. Dropped 2 parts-only controller sales (no antenna, untested): 147637497880 $195.00 sold 2026-10-16 (title 'Untested model MFJ-1786/1788?', +$0 shown free delivery) and 336788047607 $89.99 sold 2026-09-10 (+$11.10 delivery). No intact-unit sold comps for this controller-only item. Ad is the remote control unit only, no antenna.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784021",
+    "site": "qth",
+    "ask": 265,
+    "shipping": 0
+  },
+  "comps": []
+}
