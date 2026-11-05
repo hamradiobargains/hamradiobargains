@@ -1,0 +1,15 @@
+{
+  "model": "Kenpro KR-400 / KR-500 az-el rotor pair",
+  "slug": "kenpro-kr-400-kr-500",
+  "searched_at": "2026-11-04T22:45:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenpro kr-400 kr-500' (sold+completed, newest first, page 1, signed in as Leo): 0 qualifying sales — no complete rotor sold. Seen but not usable: 277963311683 KR-500 elevation control box only, $92.39 (was $119.99), Best offer accepted, Aug 13; 147536216473 KR-400RC azimuth indicator/controller only, $40.25, 1 bid, Sep 1 (+$36.96 shipping est). Ad 1783932 is a KR-400 azimuth + KR-500 elevation rotor pair with manuals, $300 + shipping.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783932",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": []
+}
