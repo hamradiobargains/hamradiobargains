@@ -1,0 +1,34 @@
+{
+  "model": "Acom 1200S",
+  "slug": "acom-1200s",
+  "searched_at": "2026-11-04T22:45:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'acom 1200s' (sold+completed, newest first, page 1, signed in as Leo): 2 comps kept, median $3125 — THIN. Dropped: Best offer accepted 1 (358798971086, $3,899.95, Aug 29, +$80.40). Excluded: dust cover 176572366336 ($34.00). Ad 1783966 asks $3200 shipped OBO (earlier drop recorded $4750).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783966",
+    "site": "qth",
+    "ask": 3200,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 2850,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198608449723",
+      "source": "ebay",
+      "notes": "Auction, 42 bids. Free delivery. Title 'ACOM 1200S Solid State HF + 6 Meter 1KW Amplifier ... Ships Free'.",
+      "flags": []
+    },
+    {
+      "price": 3400,
+      "sold_date": "2026-08-19",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/198519579990",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $145.50. Title 'Acom 1200S ... (new in open box)'.",
+      "flags": []
+    }
+  ]
+}
