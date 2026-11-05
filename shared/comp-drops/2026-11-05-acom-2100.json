@@ -1,0 +1,15 @@
+{
+  "model": "Acom 2100",
+  "slug": "acom-2100",
+  "searched_at": "2026-11-05T11:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Acom 2100', page 1, 1 result; 0 kept. Dropped 1 Best offer accepted: 198578827343 ACOM A2100 Open Box never used $2,350.00 sold 2026-08-19 (free delivery). Ad: near mint, upgraded fan, $2,800 picked up or buyer pays shipping.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782359",
+    "site": "qth",
+    "ask": 2800,
+    "shipping": 0
+  },
+  "comps": []
+}
