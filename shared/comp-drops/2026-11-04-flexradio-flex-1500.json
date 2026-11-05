@@ -1,0 +1,45 @@
+{
+  "model": "FlexRadio FLEX-1500",
+  "slug": "flexradio-flex-1500",
+  "searched_at": "2026-11-04T19:25:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold+Completed, newest-ended first, page 1 only, signed in as Leo, no challenges) for \"FlexRadio FLEX-1500\". 3 kept (solid), median 400.0. Dropped/excluded: BOA dropped 1: 800578722810 $445.99 (Aug 28). Outliers: 147474651629.  Trigger listing detail: bundle: Flex-1500 + LDG Z11 tuner, shipped CONUS; seller also interested in trade for IC-703/+.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783894",
+    "site": "qth",
+    "ask": 525,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 400,
+      "sold_date": "2026-09-27",
+      "condition": "not recorded",
+      "url": "https://www.ebay.com/itm/168711784786",
+      "source": "ebay",
+      "notes": "shipping shown: $9.66. Title: Flexradio FLEX-1500 Transceiver Tested Working (auction, 1 bid).",
+      "flags": []
+    },
+    {
+      "price": 283.18,
+      "sold_date": "2026-08-20",
+      "condition": "not recorded",
+      "url": "https://www.ebay.com/itm/168603387046",
+      "source": "ebay",
+      "notes": "shipping shown: $39.18. Title: Flexradio System Flex-1500 SDR QRP 5W HF RTX (auction, 43 bids).",
+      "flags": []
+    },
+    {
+      "price": 575,
+      "sold_date": "2026-08-10",
+      "condition": "not recorded",
+      "url": "https://www.ebay.com/itm/147474651629",
+      "source": "ebay",
+      "notes": "OUTLIER: 575.0 is 1.68x the median (341.59) of the other kept comps. shipping shown: $23.75. Title: FlexRadio FLEX-1500 Transceiver with Extras.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
