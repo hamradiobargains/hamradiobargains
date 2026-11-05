@@ -1,0 +1,36 @@
+{
+  "model": "JRC NRD-535D",
+  "slug": "jrc-nrd-535d",
+  "searched_at": "2026-11-05T11:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'JRC NRD-535D', page 1, 5 results; 2 kept, median 874.995. THIN. Not used: 267811107144 'NRD-535 Upgraded to NRD-535D Specs' $699.99 or Best Offer, sold 2026-10-11 (+$30.00), identity vs true NRD-535D UNCERTAIN. Excluded 2 NVA-319 speakers (860100336758 $325.00, 366622377782 $325.00). Ad: SN 57775, 9/10, missing one rubber foot, $695 plus UPS.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782573",
+    "site": "qth",
+    "ask": 695,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 999,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178568507823",
+      "source": "ebay",
+      "notes": "Buy It Now; +$69.00 delivery; title says upgraded D version with all options",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 749.99,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358627479759",
+      "source": "ebay",
+      "notes": "or Best Offer, not marked accepted; +$175.00 delivery; title includes 'Japan'",
+      "flags": []
+    }
+  ]
+}
