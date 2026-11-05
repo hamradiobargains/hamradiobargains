@@ -1,0 +1,126 @@
+{
+  "model": "Yaesu FT-817",
+  "slug": "yaesu-ft-817",
+  "searched_at": "2026-11-05T10:12:55-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Kept 12 sold comps, median 748.50, low 195.00, high 1070.00. Query 'yaesu ft-817' (FT-817 titles only; 28 FT-817ND titles excluded as a different model). Dropped 6 Best-offer-accepted (820253608204 $750, 147641553826 $615, 318817252215 $615, 307166481393 $500, 117381714279 $500, 318707246927 $542.50). Excluded accessories/non-unit: 201445455362 manual, 178543634775 LDG Z-817 tuner, 324226076515 and 397698799525 linear kits, 186792820644 and 181711941348 TCXO modules, 397540225317 adapter. Ad is a BUNDLE (FT817 + LDG 817 tuner + EFHW antenna) $650 free shipping CONUS; the radio-only comps are not a bundle comp. Exact FT-817 only; the ad says FT817 (not ND). 147405615279 includes an LDG Z-817H tuner (flagged extras_included). Prices are eBay sold prices as shown (hammer/fixed price, no shipping); shown shipping is in each comp's notes. Best-offer-accepted, parts-only and Read Description sales dropped and listed above.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784049",
+    "site": "qth",
+    "ask": 650,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 950,
+      "sold_date": "2026-10-17",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/366741658407",
+      "source": "ebay",
+      "notes": "shown shipping $9.53",
+      "flags": []
+    },
+    {
+      "price": 800,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189046716226",
+      "source": "ebay",
+      "notes": "shown shipping $19.17",
+      "flags": []
+    },
+    {
+      "price": 855,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287620710108",
+      "source": "ebay",
+      "notes": "title: w/Mic; shown shipping $17.75",
+      "flags": []
+    },
+    {
+      "price": 195,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168711541759",
+      "source": "ebay",
+      "notes": "OUTLIER: <0.5x median of other kept comps; title shows w/ Mic, no fault wording in title; shown shipping $88.58",
+      "flags": []
+    },
+    {
+      "price": 593.88,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188964315664",
+      "source": "ebay",
+      "notes": "with box and mic; shown shipping $15.00",
+      "flags": []
+    },
+    {
+      "price": 610,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298668054161",
+      "source": "ebay",
+      "notes": "shown shipping $12.10",
+      "flags": []
+    },
+    {
+      "price": 1070,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237063438101",
+      "source": "ebay",
+      "notes": "OUTLIER: >1.5x median of the other kept comps; title: Perfect Condition; shown shipping $25.12",
+      "flags": []
+    },
+    {
+      "price": 700,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117399366781",
+      "source": "ebay",
+      "notes": "title: Mic Windcamp; shown shipping $8.17",
+      "flags": []
+    },
+    {
+      "price": 797,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147405615279",
+      "source": "ebay",
+      "notes": "includes LDG Z-817H tuner per title; shown shipping $20.85",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 643.86,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147521348637",
+      "source": "ebay",
+      "notes": "shown shipping $21.46",
+      "flags": []
+    },
+    {
+      "price": 542.5,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318730789507",
+      "source": "ebay",
+      "notes": "shown shipping $25.12",
+      "flags": []
+    },
+    {
+      "price": 820,
+      "sold_date": "2026-08-15",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/307114817166",
+      "source": "ebay",
+      "notes": "listed new in box; shown shipping $18.95",
+      "flags": []
+    }
+  ]
+}
