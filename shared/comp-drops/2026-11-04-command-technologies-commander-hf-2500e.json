@@ -1,0 +1,15 @@
+{
+  "model": "Command Technologies Commander HF-2500E",
+  "slug": "command-technologies-commander-hf-2500e",
+  "searched_at": "2026-11-04T19:25:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold+Completed, newest-ended first, page 1 only, signed in as Leo, no challenges) for \"Command Technologies Commander HF-2500E\". 0 kept (0 qualifying comps). Dropped/excluded: 0 exact-model sold results; not used (different models): 237049389934 Commander HF-1250 $1200 (Sep 14), 198681182873 QRO Technologies HF-2500 $2400 (Oct 12), 287591197880 loose Eimac 3CX800A7 tube $349 (Sep 20). ",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783841",
+    "site": "qth",
+    "ask": 2500,
+    "shipping": 0
+  },
+  "comps": []
+}
