@@ -1,0 +1,15 @@
+{
+  "model": "Amp Supply AT-3000",
+  "slug": "amp-supply-at-3000",
+  "searched_at": "2026-11-05T18:00:31-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Amp Supply AT-3000' returned 0 exact results; everything shown was 'fewer words' matches (other Amp Supply models, unrelated power supplies) — ignored. No comps — thin. Not in ledger.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/227600031770",
+    "site": "ebay",
+    "ask": 145.0,
+    "shipping": 27.24
+  },
+  "comps": []
+}
