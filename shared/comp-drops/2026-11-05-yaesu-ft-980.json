@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-980",
+  "slug": "yaesu-ft-980",
+  "searched_at": "2026-11-05T11:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Yaesu FT-980', page 1, 2 results; 0 kept. Dropped 2 parts-only: 257725490100 $199.96 (struck $249.95, Best offer accepted, sold 2026-09-21, +$101.49) and 267776278921 $249.95 (sold 2026-09-05, +$101.51); both titled 'Powers On Parts Repair Restoration'. Ad says shipping would be extra $65-80 (about 45 lb).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781393",
+    "site": "qth",
+    "ask": 530,
+    "shipping": 0
+  },
+  "comps": []
+}
