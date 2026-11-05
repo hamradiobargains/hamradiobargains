@@ -1,0 +1,25 @@
+{
+  "model": "Hammarlund HQ-170",
+  "slug": "hammarlund-hq-170",
+  "searched_at": "2026-11-04T22:45:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'hammarlund hq-170' (sold+completed, newest first, page 1, signed in as Leo): 1 comp kept — THIN. Excluded: rebuild/recap kits 126761542295 ($25.00, Oct 27) and 155357630270 ($95.00, Oct 14); parts-only 236860489271 ($100.00, Sep 11, 'HQ-ONE SEVENTY HQ-170 RECEIVER', Parts Only). 0 Best-offer-accepted, 1 parts-only, 0 Read Description. Ad 1783844 asks $350 shipped, 'for restoration, as is'.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783844",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 157.89,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366714256042",
+      "source": "ebay",
+      "notes": "Shipping $65.33. Listing showed $157.89 and '$142.10 with coupon or Best Offer' (not marked Best offer accepted); price recorded as shown. Title: 'Hammarlund HQ-170 General Coverage Ham Radio Receiver - WORKS'.",
+      "flags": []
+    }
+  ]
+}
