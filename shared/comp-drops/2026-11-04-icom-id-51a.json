@@ -1,0 +1,34 @@
+{
+  "model": "Icom ID-51A",
+  "slug": "icom-id-51a",
+  "searched_at": "2026-11-04T19:25:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold+Completed, newest-ended first, page 1 only, signed in as Leo, no challenges) for \"Icom ID-51A\". 2 kept (thin), median 310.0. Dropped/excluded: BOA dropped 5 (ID-51/ID-51A listings): 267762548869 $275 (ID-51 w/ Diamond antenna), 206395686988 $325 (ID-51 bundle w/ BC-202 dock), 267637907985 $328.67 (ID51a boxed), 117388940540 $175 (ID-51), 800643148211 $170.99 (ID-51); ID-51A PLUS / PLUS2 and ID-5100 sales excluded as different model/hardware (34 raw page-1 matches before filtering). ",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783903",
+    "site": "qth",
+    "ask": 175,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 295,
+      "sold_date": "2026-10-27",
+      "condition": "not recorded",
+      "url": "https://www.ebay.com/itm/327353809584",
+      "source": "ebay",
+      "notes": "shipping shown: $12.00. Title: ICOM ID-51A VHF UHF TRANSCEIVER RED EXCELLENT CONDITION.",
+      "flags": []
+    },
+    {
+      "price": 324.99,
+      "sold_date": "2026-10-07",
+      "condition": "not recorded",
+      "url": "https://www.ebay.com/itm/178546091937",
+      "source": "ebay",
+      "notes": "shipping shown: $13.50. Title: Icom ID-51A Digital D-STAR GPS Dual Band Handheld HT.",
+      "flags": []
+    }
+  ]
+}
