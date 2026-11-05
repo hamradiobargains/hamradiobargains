@@ -1,0 +1,15 @@
+{
+  "model": "Mosley Classic 33",
+  "slug": "mosley-classic-33",
+  "searched_at": "2026-11-04T19:25:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold+Completed, newest-ended first, page 1 only, signed in as Leo, no challenges) for \"Mosley Classic 33\". 0 kept (0 qualifying comps). Dropped/excluded: 0 qualifying sold results on page 1.  Trigger listing detail: Mosley Classic 33 + 11-el 2m Cushcraft beam for $225 total.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783907",
+    "site": "qth",
+    "ask": 225,
+    "shipping": 0
+  },
+  "comps": []
+}
