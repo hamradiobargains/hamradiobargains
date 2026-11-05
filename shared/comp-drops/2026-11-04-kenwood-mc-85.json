@@ -1,0 +1,52 @@
+{
+  "model": "Kenwood MC-85",
+  "slug": "kenwood-mc-85",
+  "searched_at": "2026-11-04T19:25:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold+Completed, newest-ended first, page 1 only, signed in as Leo, no challenges) for \"Kenwood MC-85\". 4 kept (solid), median 95.5. Dropped/excluded: parts-only 3: 188561000023 $139.99 (Japan, Aug 23), 900006541376 $76.49 (UK, Oct 19), 900020435271 $70.04 (UK, Oct 17); non-mic excluded: 188953377473 TS-850S/AT bundle $299 (Parts Only), 198007372071 windscreen $4.99; BOA 0.  Trigger listing detail: cross-post candidate 1783868 (same seller KK5RT, $75 shipped; no serials shown). Ledger KENWOOD MC-85 (count 5, 2026-08-27) was older than 30 days so not used.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783797",
+    "site": "qth",
+    "ask": 75,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 106,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128163440991",
+      "source": "ebay",
+      "notes": "shipping shown: $12.0. Title: Kenwood MC-85 Base Station Microphone + Manual.",
+      "flags": []
+    },
+    {
+      "price": 109.95,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267758224275",
+      "source": "ebay",
+      "notes": "shipping shown: $7.76. Title: KENWOOD MC-85 DESK MIC WORKS.",
+      "flags": []
+    },
+    {
+      "price": 85,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137584853386",
+      "source": "ebay",
+      "notes": "shipping shown: $20.0. Title: Kenwood MC-85 Desktop Microphone for Ham Radio.",
+      "flags": []
+    },
+    {
+      "price": 65.98,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/266318676861",
+      "source": "ebay",
+      "notes": "shipping shown: $30.17. Title: KENWOOD MC85 USED T91-0340-08 (Spain, or Best Offer, import fees due).",
+      "flags": []
+    }
+  ]
+}
