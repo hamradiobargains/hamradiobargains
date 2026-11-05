@@ -1,0 +1,43 @@
+{
+  "model": "Palstar AT1500CV",
+  "slug": "palstar-at1500cv",
+  "searched_at": "2026-11-04T22:45:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'palstar at1500cv' (sold+completed, newest first, page 1, signed in as Leo): 3 comps kept, median $320.00 (solid, just). Excluded different models: AT1500DT sales (198534673139 $274.99, 318858296511 $350.00 or BO, 307169358153 $390.00 15 bids) and AT-Auto 198685396505 ($825.00, Best offer accepted). 0 Best-offer-accepted among kept, 0 parts-only. Ad 1783986 asks $200 shipped (lower 48), excellent condition.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783986",
+    "site": "qth",
+    "ask": 200,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 369.99,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407257393715",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $26.41. Title 'PALSTAR AT-1500CV KW ANTENNA TUNER'.",
+      "flags": []
+    },
+    {
+      "price": 299.99,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840029846593",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $59.97. Title 'Palstar AT 1500CV High Power Antenna Tuner'.",
+      "flags": []
+    },
+    {
+      "price": 320,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227491432037",
+      "source": "ebay",
+      "notes": "Listed '$320.00 or Best Offer', not marked accepted. Free delivery. Title 'Palstar AT1500CV Antenna Tuner'.",
+      "flags": []
+    }
+  ]
+}
