@@ -1,0 +1,185 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-05",
+  "ran_at": "2026-11-05T11:05:00-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered: none new. The newest eham/qth/ebay drop is 2026-11-05-eham.json (ran_at 2026-11-05T05:52:50-05:00), already covered by the earlier 2026-11-05-extras.json (ran_at 2026-11-05T10:20:34-05:00); no qth/ebay drop for 11-05 exists yet, so 0 fresh extras. Named extra QTH 1783910 (Yaesu '991', $600 firm, ruled the ORIGINAL FT-991) was already worked 2026-11-03 under 'Yaesu FT-991' and its URL is in dropped-urls.json, so it was NOT re-queued (FT-991A figures not used). Queued 16: 7 CARRIED OVER IDs from 2026-11-05-extras.json (1784021, 1784035, 1784020, 1784072, 1784079, 1784074, 1784076) at the front + 9 BACKLOG CARRY IDs at the back (1782359, 1782384, 1781393, 1782442, 1781779, 1782487, 1782484, 1782573, 1782543). All 16 opened once for liveness in Leo's Chrome at human pace (QTH only; eHam not touched): 16 live, 0 gone. Worked/triaged 16. Ledger hits: 0 (RS-20M/RS-20A, XIEGU G90 (borderline 30 days, bundle ad), XPA125B older than 30 days, JRC NRD 535D 2026-09-29 count 3 older than 30 days, KENWOOD TS-870S count 1, FLEXRADIO MAESTRO count 2 and ACOM 1200S/1000 are different models or fail the rules). eBay sold searches used 15 of 15 for 14 models: MFJ-1786 controller, MAT-40, Wolf River Coils Silver Bullet 1000, Astron SS-30-AP (0 results) then Astron SS-30 fallback (same comp file), Comet CA-2x4SR, Comet GP-1, Ultimax DXtreme 124, Acom 2100, Ten-Tec Triton IV, Yaesu FT-980, FlexRadio Maestro, Kenwood TS-870S, Alpha 76A, JRC NRD-535D. Signed in as Leo ('Hi Leo!'), one page at a time, 10+ s apart plus page-read time, no challenges or CAPTCHAs. Skipped (not comped, with reasons): 1782484 (G90 + XPA125B package, no single-model comp), 1782543 (ad gives no model number). Zero qualifying comps: MFJ-1786, MAT-40, Astron SS-30-AP, Comet CA-2x4SR NMO, Ultimax DXtreme 124, Acom 2100, Ten-Tec Triton IV, Yaesu FT-980, FlexRadio Maestro, Alpha 76A. Thin (<3 kept): Wolf River Silver Bullet 1000 1, Comet GP-1 1, JRC NRD-535D 2. Solid: Kenwood TS-870S 6 kept, median 750. Outliers: none. Identity cautions: SS-30/SS-30M not used for SS-30-AP; non-NMO CA-2X4SR sales not used (UNCERTAIN); NRD-535 upgraded to D specs 267811107144 not used (UNCERTAIN); Alpha 76PA excluded from 76A; Maestro 'C' variant not distinguished. No cross-posts (same seller N9OGF: 1784072/1784079/1784074, different items). Price changes vs earlier notes: none seen. Work-flag wording carried verbatim: 1782384 Triton IV (UNCERTAIN, see listing); 1782573 missing one rubber foot. 1781393 FT-980 'Open for trades' $530 or best offer. found_at for the backlog IDs is the run date because their source-drop date is not recorded in the extras notes. ran_at/searched_at are file-write times, -05:00 (EST). Seller feedback n/a (QTH). CARRIED OVER: no carry-over. BACKLOG CARRY: none.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784021",
+      "site": "qth",
+      "title": "MFJ-1786 Superloop remote control unit only (no antenna)",
+      "price": 265,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "live. 'This is the \"REMOTE CONTROL UNIT\" ONLY...No Antenna!'; has built in SWR/PWR meter; includes DC wall wart; 'Lower Price/Open to an offer!'; 'Asking $265.00 Shipped OR MAKE OFFER!'. comps: mfj-1786, 0 kept (2 parts-only controller sales dropped)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784035",
+      "site": "qth",
+      "title": "MAT-40 Automatic Antenna Tuner",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "live. Purchased new from DX Engineering last month; comes with Yaesu cable accessory; '$200 + shipping', ships CONUS (shipping amount not stated). comps: mat-40, 0 kept",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784020",
+      "site": "qth",
+      "title": "Wolf River Coils Silver Bullet 1000",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "live. 'used Wolf River Silver bullet 1000 with a tripod and ground radials. I have used it 1 time'; '$200 shipped'; prefers PayPal. comps: wolf-river-coils-silver-bullet-1000, 1 kept (thin), median 130.49",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784072",
+      "site": "qth",
+      "title": "Astron SS-30-AP power supply",
+      "price": 120,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "live. 'VGC, little use, w/Orig box'; PICK UP only in Yorkville Illinois. comps: astron-ss-30-ap, 0 kept (0 exact results; SS-30/SS-30M not used, UNCERTAIN identity)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784079",
+      "site": "qth",
+      "title": "Comet CA-2x4SR NMO antenna",
+      "price": 50,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "live. 'NEVER USED'; PICK UP only in Yorkville, Illinois. comps: comet-ca-2x4sr-nmo, 0 kept (1 Best-offer-accepted dropped; other CA-2X4SR sales not used, UNCERTAIN identity)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784074",
+      "site": "qth",
+      "title": "Comet GP-1 base antenna",
+      "price": 60,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "live. 'Never installed, 4 month old'; PICK UP only in Yorkville Illinois. comps: comet-gp-1, 1 kept (thin), median 108.95",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784076",
+      "site": "qth",
+      "title": "Ultimax DXtreme 124-foot wire antenna",
+      "price": 150,
+      "shipping": 0,
+      "found_at": "2026-11-04",
+      "condition_notes": "live. 'used Ultimax ham radio wire antenna. It is the 124-foot long version'; includes matching box, hardware, wire, end insulator; Price: $150 (shipping not stated). comps: ultimax-dxtreme-124, 0 kept (1 Best-offer-accepted dropped)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782359",
+      "site": "qth",
+      "title": "Acom 2100 amplifier with upgraded fan",
+      "price": 2800,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. 'nice 2100 that's in near mint condition that I used a few times'; '2,800 picked up or you pay shipping'. comps: acom-2100, 0 kept (1 Best-offer-accepted dropped)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782384",
+      "site": "qth",
+      "title": "Ten-Tec Triton IV with extras (VFO, 160 adapter)",
+      "price": 225,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. 'Does it work i do not know i do know that the mike adapter was changed from the previous owner ... and the power switch does not turn it off. The radio comes on and receives but i have not transmitted with it.'; 'will ship at buyers expense. To continental US only'; 'I WILL SEPERATE IF WANTED GIVE ME AN OFFER'. comps: ten-tec-triton-iv, 0 kept (3 parts-only dropped)",
+      "work_flag": "'Does it work i do not know' / 'the power switch does not turn it off' / 'i have not transmitted with it' / mike adapter changed from previous owner (UNCERTAIN: seller does not say whether it works)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781393",
+      "site": "qth",
+      "title": "Yaesu FT-980 CAT with mic and relay box",
+      "price": 530,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. 'I prefer to sell with local pickup'; no original box; 'possible will ship for extra $65-80' (45 lb); 'Open for trades, newer (another) radio + cash'; 'Asking $530 or best offer'. comps: yaesu-ft-980, 0 kept (2 parts-only dropped)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782442",
+      "site": "qth",
+      "title": "FlexRadio Maestro C",
+      "price": 1350,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. 'In pristine condition. Comes with AC Power Supply, Battery, Tilt Feet Manual in Original box. $1350 Plus Shipping via Pirate Ship.' comps: flexradio-maestro, 0 kept (Best-offer-accepted / parts / 'READ DESC' sales dropped; 'C' variant not distinguished)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781779",
+      "site": "qth",
+      "title": "Kenwood TS-870",
+      "price": 700,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. 'FOR SALE: Kenwood TS-870 $700.00 obo'; 'Like new all in original boxes'; 'Will ship on your dime'; P52 power supply $175 and SP-31 speaker $125 listed separately. comps: kenwood-ts-870s, 6 kept, median 750",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782487",
+      "site": "qth",
+      "title": "Alpha 76A amplifier",
+      "price": 900,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. 'Excellent Alpha 76A amplifier. Caps replaced $900...pick up only.' comps: alpha-76a, 0 kept (parts-only sales dropped)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782484",
+      "site": "qth",
+      "title": "Xiegu G90 + XPA125B + kits package",
+      "price": 800,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. 'Selling my complete Xiegu HF setup'; G90, XPA125B, interface kit and cables, fan kit; '$800. Will consider trade for solid HF amp.'; local pickup only, Dexter/Ann Arbor MI. not comped: bundle of several items, no single-model comp. Ledger reference only (not a ledger hit): XIEGU G90 median 375, count 41, ledger date 2026-10-06; XIEGU XPA125B median 415, count 10, ledger date 2026-09-26 (older than 30 days)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782573",
+      "site": "qth",
+      "title": "JRC NRD-535D receiver",
+      "price": 695,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. 'D model ... 9/10 Condition with bright display, and all controls and functions work'; 'Only nit it is missing one rubber foot'; SN 57775; '$695 plus UPS' (shipping amount not stated); ad last edited 11/04/26. comps: jrc-nrd-535d, 2 kept (thin), median 874.995",
+      "work_flag": "'missing one rubber foot, but it sits up straight without it' (minor; not UNCERTAIN)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782543",
+      "site": "qth",
+      "title": "JUMA tiny HF amp (100 W)",
+      "price": 700,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. 'LQQK JUMA TINY HF AMP--SALE$700 SHIPPED'; 'Will TRADE FOR PENNTEK TR-45L with battery and tuner'. not comped: ad gives no model number (title says 'JUMA TINY HF AMP'), so no exact-model search was run",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
