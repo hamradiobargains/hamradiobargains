@@ -1,0 +1,15 @@
+{
+  "model": "Ten-Tec 4020",
+  "slug": "ten-tec-4020",
+  "searched_at": "2026-11-05T10:12:55-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Kept 0 qualifying sold comps. 0 QUALIFYING COMPS. Query 'ten-tec 4020' returned no exact-match page-1 sold rows (the only rows were from the 'fewer words' section, ignored). No re-query with an alternate spelling (e.g. 'tentec 4020') was run because the 15-search cap was reached on the next model. Ad: KB4QNR $140 including shipping to the lower 48, QRP CW rig with pencil box, American Morse straight key and power harness. Prices are eBay sold prices as shown (hammer/fixed price, no shipping); shown shipping is in each comp's notes. Best-offer-accepted, parts-only and Read Description sales dropped and listed above.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784056",
+    "site": "qth",
+    "ask": 140,
+    "shipping": 0
+  },
+  "comps": []
+}
