@@ -1,0 +1,63 @@
+{
+  "model": "Kenwood TM-V7A",
+  "slug": "kenwood-tm-v7a",
+  "searched_at": "2026-11-05T10:12:55-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Kept 5 sold comps, median 229.99, low 196.68, high 365.00. Query 'kenwood tm-v7a'. Dropped 4 Best-offer-accepted (840060042873 $149.99 untested, 287270684247 $235.00, 206517198911 $150.00 and 206512997552 $150.00 both untested/parts-or-repair); 5 parts-only/untested/for-repair (198421921252 $85.00, 327389202629 $120.00 untested, 117343164773 $180.49, 227483310069 $229.00 untested, 137645251494 $62.00 powers-on); excluded 220654458544 ('Not A Radio', $34.95). Ad: W7AX $125 plus postage, extension cable, mic, original box. Prices are eBay sold prices as shown (hammer/fixed price, no shipping); shown shipping is in each comp's notes. Best-offer-accepted, parts-only and Read Description sales dropped and listed above.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784073",
+    "site": "qth",
+    "ask": 125,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 365,
+      "sold_date": "2026-10-31",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/257693793825",
+      "source": "ebay",
+      "notes": "OUTLIER: >1.5x median of other kept comps (listed Open Box); shown shipping $12.95",
+      "flags": []
+    },
+    {
+      "price": 229.99,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377506465809",
+      "source": "ebay",
+      "notes": "title: Very CLEAN; shown shipping $13.50",
+      "flags": []
+    },
+    {
+      "price": 223,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178490291606",
+      "source": "ebay",
+      "notes": "title mentions remote-mount microphone; shown shipping: free or none shown",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 264.99,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377275585842",
+      "source": "ebay",
+      "notes": "title: Very NICE WORKS; shown shipping $13.50",
+      "flags": []
+    },
+    {
+      "price": 196.68,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278371648153",
+      "source": "ebay",
+      "notes": "shipping $123.92 as shown (unusually high); shown shipping $123.92",
+      "flags": []
+    }
+  ]
+}
