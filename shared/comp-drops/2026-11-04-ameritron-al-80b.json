@@ -1,0 +1,81 @@
+{
+  "model": "Ameritron AL-80B",
+  "slug": "ameritron-al-80b",
+  "searched_at": "2026-11-04T19:25:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold+Completed, newest-ended first, page 1 only, signed in as Leo, no challenges) for \"Ameritron AL-80B\". 7 kept (solid), median 1300.0. Dropped/excluded: BOA dropped 2: 336851614133 $1899.95 (Oct 25), 336840483446 $1899.95 (Oct 12); parts/accessory listings (relay boards, kits, screws) excluded. ",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1780948",
+    "site": "qth",
+    "ask": 800,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1450,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800683007785",
+      "source": "ebay",
+      "notes": "shipping shown: $38.82. Title: Ameritron AL-80B Linear Amplifier 1kW 2014 Model.",
+      "flags": []
+    },
+    {
+      "price": 999.99,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267781606466",
+      "source": "ebay",
+      "notes": "shipping shown: $75.0. Title: Excellent working Ameritron AL80B.",
+      "flags": []
+    },
+    {
+      "price": 1300,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117396529120",
+      "source": "ebay",
+      "notes": "shipping shown: $72.36. Title: Ameritron AL-80B Linear Amplifier 1kW 2014 Model.",
+      "flags": []
+    },
+    {
+      "price": 1599.95,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227504092711",
+      "source": "ebay",
+      "notes": "shipping shown: free/none shown. Title: Ameritron AL-80B 1KW HF Linear Amplifier - RECAPPED. Title says RECAPPED.",
+      "flags": []
+    },
+    {
+      "price": 1599.95,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227433135015",
+      "source": "ebay",
+      "notes": "shipping shown: free/none shown. Title: Ameritron AL-80B 1KW HF Linear Amplifier w/ 10m mod.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 1000,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206501874720",
+      "source": "ebay",
+      "notes": "shipping shown: $105.0. Title: Ameritron AL-80B Ham Radio 3-500Z Tube Amplifier.",
+      "flags": []
+    },
+    {
+      "price": 1000,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178329281259",
+      "source": "ebay",
+      "notes": "shipping shown: $105.0. Title: Ameritron AL-80B Ham Radio 3-500Z Tube Amplifier.",
+      "flags": []
+    }
+  ]
+}
