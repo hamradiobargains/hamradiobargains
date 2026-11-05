@@ -1,0 +1,93 @@
+{
+  "model": "Ameritron AL-80B",
+  "slug": "ameritron-al-80b",
+  "searched_at": "2026-11-05T05:54:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in as Leo), 'Results matching fewer words' ignored. 7 kept. Dropped 2 best-offer-accepted (336851614133 and 336840483446, both $1,899.95 asks). Dropped 0 parts-only. Excluded accessories/parts/manuals/dust covers (relay kits, screw kits, LED kits, manual 191963291093, cover 323676122202). No outliers. Three pairs look like relists of the same unit (flagged possible_duplicate). Ledger note: AL-80B ledger latest 2026-09-10, count 3 (stale).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629498",
+    "site": "eham",
+    "ask": 1100.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1450.0,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800683007785",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: '2014 Model | Taylor 3-500Z Tube | 120V'. +$38.82 delivery. Same title as 117396529120 (sold 2026-09-05, different seller) — possibly same unit.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 999.99,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267781606466",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'Excellent working ... with new 3-500 tube'. +$75.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1300.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117396529120",
+      "source": "ebay",
+      "notes": "or Best Offer (not shown as best offer accepted). Title: '2014 Model | Taylor 3-500Z Tube | 120V'. +$72.36 delivery. Same title as 800683007785.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1599.95,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227504092711",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'RECAPPED, new tube, & 10M mod'. Free delivery. Same seller/price as 227433135015 (sold 2026-08-24) — possibly same unit.",
+      "flags": [
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1599.95,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227433135015",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'w/ 10m mod'. Free delivery. See 227504092711.",
+      "flags": [
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206501874720",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: '(ugly, but it works)' — cosmetic. +$105.00 delivery. Same seller/title/price as 178329281259 (sold 2026-08-18).",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178329281259",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: '(ugly, but it works)' — cosmetic. +$105.00 delivery. See 206501874720.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    }
+  ]
+}
