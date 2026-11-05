@@ -1,0 +1,15 @@
+{
+  "model": "KM3KM Mercury III",
+  "slug": "km3km-mercury-iii",
+  "searched_at": "2026-11-04T19:25:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Sold+Completed, newest-ended first, page 1 only, signed in as Leo, no challenges) for \"KM3KM Mercury III\". 0 kept (0 qualifying comps). Dropped/excluded: 0 qualifying results: query returned only Mercury marine outdrive parts (MerCruiser Bravo III shafts/lower units) and two Mercury ATS tuner sales not used here.  Related: 1783838 ad is a used Mercury III 1200 W amp, $2900.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783838",
+    "site": "qth",
+    "ask": 2900,
+    "shipping": 0
+  },
+  "comps": []
+}
