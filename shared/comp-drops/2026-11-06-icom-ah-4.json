@@ -1,0 +1,90 @@
+{
+  "model": "Icom AH-4",
+  "slug": "icom-ah-4",
+  "searched_at": "2026-11-06T05:54:13-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ah-4', page 1 only, 'Results matching fewer words' ignored. 8 kept comps. Dropped 3 best-offer-accepted (117490861032 $260 Oct 30; 198462236466 $249 Sep 26, which was also Parts Only; 117411091686 $150 Sep 13). Dropped 1 parts-only (198462236466, same sale as above). Excluded non-unit items: control cables/interface cables, tuner controllers, O-ring seal, and Icom AH-730 (different model). No outliers (kept range $170.50-$365; median of kept ~$285).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629507",
+    "site": "eham",
+    "ask": 350.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 290.0,
+      "sold_date": "2026-11-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880033023123",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: '+ Cables + Box (used)'. Shipping +$41.25.",
+      "flags": []
+    },
+    {
+      "price": 280.0,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840028539300",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not shown as best offer accepted). Title: 'lightly used'. Shipping +$14.07.",
+      "flags": []
+    },
+    {
+      "price": 249.99,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398425752452",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'w/Box'. Shipping +$22.85.",
+      "flags": []
+    },
+    {
+      "price": 277.5,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/157982751834",
+      "source": "ebay",
+      "notes": "Buy It Now at $277.50 (original $370.00 shown struck through). Shipping +$30.00.",
+      "flags": []
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198658114846",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: '+ Box (very nice)'. Shipping +$43.20.",
+      "flags": []
+    },
+    {
+      "price": 365.0,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188812258129",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'Tested w/Cables, Mount'. Shipping +$31.99.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 170.5,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117349021447",
+      "source": "ebay",
+      "notes": "Auction, 6 bids, final bid. Shipping +$22.00.",
+      "flags": []
+    },
+    {
+      "price": 358.0,
+      "sold_date": "2026-08-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/397206171963",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'Workig Tested w/Box Japan'. Shipping +$40.00, includes import fees.",
+      "flags": []
+    }
+  ]
+}
