@@ -1,0 +1,61 @@
+{
+  "model": "MFJ-993B",
+  "slug": "mfj-993b",
+  "searched_at": "2026-11-05T19:16:59-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'MFJ-993B', page 1 (14 results), signed in as Leo, no challenge. 5 kept, median 200 (solid). Ledger has no MFJ-993B entry (MFJ-998 etc. are different models). Dropped 4 Best-offer-accepted: 198702810596 ($175.00, +$55.40), 267754005983 ($135.00, Parts Only), 137602945652 ($249.95, +$30.83), 236991838816 ($150.00, +$21.65). Parts-only sales (dropped, listed): 336853108717 $67.00 (Damaged, +$32.00), 336721663739 $107.00 (PD Fail, +$32.00), 267754005983 $135.00 (also BOA, +$26.20). Read Description: 0. Power-supply, manual and connector accessory sales excluded. Ad: 'good working condition', superficial cosmetic scratches on top cover, $200 shipped, includes ICOM radio interface cable; seller says it is selling excess tuners.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784084",
+    "site": "qth",
+    "ask": 200,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 149.99,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147615919701",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; +$7.86 delivery",
+      "flags": []
+    },
+    {
+      "price": 189.59,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198662641181",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked accepted); free delivery",
+      "flags": []
+    },
+    {
+      "price": 239.99,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188962495526",
+      "source": "ebay",
+      "notes": "Buy It Now; +$14.99 delivery",
+      "flags": []
+    },
+    {
+      "price": 200,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237025008153",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked accepted); +$35.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 275,
+      "sold_date": "2026-08-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257655900249",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked accepted); +$8.84 delivery",
+      "flags": []
+    }
+  ]
+}
