@@ -1,0 +1,43 @@
+{
+  "model": "RM Italy BLA 350 Plus",
+  "slug": "rm-italy-bla-350-plus",
+  "searched_at": "2026-11-05T19:16:59-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'RM Italy BLA 350 Plus', page 1 (20 results), signed in as Leo, no challenge. 3 kept, median 485 (solid, 3 comps). Ledger had count 2 (2026-09-13) so miss. Dropped: 0 Best-offer-accepted, 0 parts-only, 0 Read Description. Not used: RM Italy BLA600 (206498155358, $1,787.00, different model), unrelated steering wheel result. Comp 800868043950 is fixed price 'or Best Offer' not marked accepted, kept at shown price. Ad: $575 FREE shipping lower 48, sale final no returns, second owner, a few scratches top right corner.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784107",
+    "site": "qth",
+    "ask": 575,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 600,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800868043950",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked accepted); free delivery; seller 8cmtt32 100% (4)",
+      "flags": []
+    },
+    {
+      "price": 460,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206521652956",
+      "source": "ebay",
+      "notes": "Auction, 16 bids; free delivery; title BLA350 Plus 120V 300 W",
+      "flags": []
+    },
+    {
+      "price": 485,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198537684766",
+      "source": "ebay",
+      "notes": "Auction, 35 bids; free delivery",
+      "flags": []
+    }
+  ]
+}
