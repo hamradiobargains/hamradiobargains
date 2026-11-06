@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T13:53:14+00:00",
+ "updated": "2026-11-06T13:53:05+00:00",
  "models": {
   "ICOM IC-7100": {
    "display": "Icom IC-7100",
@@ -12,12 +12,12 @@
   },
   "KENWOOD TM-V71A": {
    "display": "Kenwood TM-V71A",
-   "pct": -19.0,
+   "pct": -5.7,
    "window": "3mo",
-   "recent_median": 405.0,
-   "recent_count": 19,
-   "prior_median": 499.95,
-   "prior_count": 5
+   "recent_median": 415.0,
+   "recent_count": 18,
+   "prior_median": 439.98,
+   "prior_count": 6
   },
   "XIEGU G90": {
    "display": "Xiegu G90",
@@ -30,12 +30,12 @@
   },
   "XIEGU X6100": {
    "display": "Xiegu X6100",
-   "pct": -8.2,
+   "pct": -13.7,
    "window": "3mo",
-   "recent_median": 390.0,
-   "recent_count": 17,
-   "prior_median": 424.97,
-   "prior_count": 6
+   "recent_median": 388.5,
+   "recent_count": 16,
+   "prior_median": 449.95,
+   "prior_count": 7
   },
   "YAESU FT-710": {
    "display": "Yaesu FT-710",
@@ -57,12 +57,12 @@
   },
   "YAESU FT-857": {
    "display": "Yaesu FT-857",
-   "pct": -21.5,
+   "pct": -24.6,
    "window": "3mo",
-   "recent_median": 699.0,
-   "recent_count": 9,
-   "prior_median": 890.0,
-   "prior_count": 5
+   "recent_median": 674.5,
+   "recent_count": 8,
+   "prior_median": 895.0,
+   "prior_count": 6
   },
   "YAESU FT-857D": {
    "display": "Yaesu FT-857D",
