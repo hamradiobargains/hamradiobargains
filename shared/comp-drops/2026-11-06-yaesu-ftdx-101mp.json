@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FTDX-101MP",
+  "slug": "yaesu-ftdx-101mp",
+  "searched_at": "2026-11-06T15:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ftdx101mp' returned 4 results, all accessories (amp relay cable, dust cover, DC power cables) - excluded. No radio sales on page 1. Thin - zero comps.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784254",
+    "site": "qth",
+    "ask": 3650.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
