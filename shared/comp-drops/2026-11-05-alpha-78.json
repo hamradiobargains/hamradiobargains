@@ -1,0 +1,15 @@
+{
+  "model": "Alpha 78",
+  "slug": "alpha-78",
+  "searched_at": "2026-11-05T19:16:59-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Alpha 78 amplifier', page 1 (22 results), signed in as Leo, no challenge. 0 qualifying comps: no sold Alpha 78 amplifier on page 1. Not used: HIGH VOLTAGE CROWBAR SAFETY SWITCH for Alpha 76CA/78 (267452543125, $50.00, accessory), ITT JENNINGS RJ1A relay for Alpha 76CA/78 (267465161621, $150.00, accessory); other Alpha models (91B, 8410, 86, 76PA) and Ameritron AL-82 are different radios. Ledger has no Alpha 78 entry (only ALPHA 87A, different model). 0 Best-offer-accepted, 0 parts-only sales dropped from the set. Ad: 'no shipping unless you arrange it yourself', ask $1100, shipping recorded 0 (pickup/travel). An earlier comp drop file for this model also exists in comp-drops (2026-11-01-alpha-78.json); not re-read in this sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784127",
+    "site": "qth",
+    "ask": 1100,
+    "shipping": 0
+  },
+  "comps": []
+}
