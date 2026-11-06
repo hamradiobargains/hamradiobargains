@@ -1,0 +1,15 @@
+{
+  "model": "Icom ID-51",
+  "slug": "icom-id-51",
+  "searched_at": "2026-11-05T19:16:59-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Icom ID-51', page 1, signed in as Leo, no challenge. 0 qualifying comps for plain ID-51 after drops. Ledger had ID-51A count 2 (median 310, 2026-10-27) and no plain ID-51 entry, and the ad just says 'icom ID 51 ... 2/440/dstar ht', so identity ID-51 vs ID-51A is UNCERTAIN and the ledger was not used. Dropped 3 Best-offer-accepted plain ID-51 sales: 267762548869 ($275.00, with Diamond antenna, +$23.15), 800643148211 ($170.99, +$8.65), 117388940540 ($175.00, +$6.88). Not used: 168603628413 ID-51 E Plus RTX (E variant, $112.28, 15 bids, +$33.68, 2026-08-20). For reference only, NOT used as comps (different model name, ID-51A): 178546091937 ID-51A $324.99 BIN +$13.50 (2026-10-07); 178462317981 ID-51A PLUS2 $165.00 auction 16 bids +$12.00 (2026-09-09); 227496806601 ID-51A Plus 'mars/cap mod' $260.00 auction 7 bids +$17.95 (2026-09-03, modified); 327293712272 ID-51A Plus $285.00 BIN or Best Offer +$8.32 (2026-08-14); 366611731795 ID-51A Plus $250.00 Best offer accepted (dropped). Accessory sales (chargers, stands, belt clips, manual) excluded. Ad: $300 shipped, 'works great', rapid and wall chargers, one extra battery, mic, no manual or original box.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784179",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": []
+}
