@@ -1,0 +1,15 @@
+{
+  "model": "Icom IC-730",
+  "slug": "icom-ic-730",
+  "searched_at": "2026-11-05T19:16:59-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Icom IC-730', page 1, signed in as Leo, no challenge. 0 qualifying comps: every sold working IC-730 on page 1 was a Best-offer-accepted sale (dropped 3 working units: 840005132019 $319.99, 318678468963 $319.95, 198548326703 $349.00 - listed ask shown, not what was paid; plus 398045646882 Parts Only $250.00 also BOA) and every other sold unit was parts-only. Parts-only sales (dropped, listed here): 940025862472 $150.00 (no SSB transmit, +$22.62), 800757398081 $46.00 (2 bids, +$34.99), 398045646882 $250.00 (BOA, +$100.00), 800766460365 $150.00 (as found, +$21.40), 137746341389 $134.48 (stuck tuning knob, +$30.00), 257710318790 $134.01 (19 bids, +$23.07), 318797592290 $129.69 (untested for parts, +$19.95), 298554043409 $250.00 (untested for parts, +$21.41). Manuals, brochure, filter and S-meter backlight sales are accessories, excluded. Ledger IC-730 entry (count 2, 2026-09-04) is older than 30 days and count<3, so ledger not used (total BOA dropped: 4). Ad: IC-730 'good condition', SM6 mic, power cord, manual, $225 shipped CONUS.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784146",
+    "site": "qth",
+    "ask": 225,
+    "shipping": 0
+  },
+  "comps": []
+}
