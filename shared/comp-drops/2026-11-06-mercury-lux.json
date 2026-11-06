@@ -1,0 +1,15 @@
+{
+  "model": "Mercury LUX",
+  "slug": "mercury-lux",
+  "searched_at": "2026-11-06T15:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'mercury lux amplifier' returned 0 results. No comps. Thin - zero comps.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784257",
+    "site": "qth",
+    "ask": 3500.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
