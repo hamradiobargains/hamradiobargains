@@ -1,0 +1,91 @@
+{
+  "model": "Yaesu FTM-510DR",
+  "slug": "yaesu-ftm-510dr",
+  "searched_at": "2026-11-05T19:16:59-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Yaesu FTM-510DR', page 1, signed in as Leo, no challenge. 7 kept, median 550 (solid). Ledger had no FTM-510DR entry. FTM-510DR and FTM-510DRASP titles pooled (ad is 'FTM 510 DR ASP w/ Bluetooth'); FTM-510D (no R) sales kept separate/not used (840043631748 $555, 178563283343 $539 Best offer accepted, 377606141199 $405 MARS/CAP mod, 366618605569 $150 parts). Dropped: 2 Best-offer-accepted in the DR/DRASP set: 168644173463 ($650.00, Parts Only, +$10.31 delivery) and 117361432690 ($600.00, 1 bid); parts-only: 168644173463 $650.00 (also BOA). Accessories (mounts, outdoor box) not used. Read Description: 0. Ad: $450 plus shipping (shipping unknown, recorded 0), radio like new, never mobile, radio/power cord/mic/original box, Bluetooth module installed.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784184",
+    "site": "qth",
+    "ask": 450,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 426,
+      "sold_date": "2026-11-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198739635299",
+      "source": "ebay",
+      "notes": "Auction, 27 bids; free delivery; seller qualityrf 100% (864)",
+      "flags": []
+    },
+    {
+      "price": 410,
+      "sold_date": "2026-10-24",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/307236823157",
+      "source": "ebay",
+      "notes": "Auction, 21 bids; +$25.00 delivery; with mic, BU-5 Bluetooth, FVS-2",
+      "flags": [
+        "extras_included",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 600,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188927361295",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked accepted); +$30.00 delivery; titled FTM-510DRASP",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 600,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188901034312",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked accepted); +$30.00 delivery; titled FTM-510DRASP; same seller as the 09-13 sale (puckettannm), possible duplicate listing",
+      "flags": [
+        "option_installed",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 550,
+      "sold_date": "2026-08-17",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/168618432599",
+      "source": "ebay",
+      "notes": "Buy It Now; +$10.12 delivery; with ASP",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 475,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168611818364",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked accepted); free delivery; 'less than a year old, perfect condition'",
+      "flags": []
+    },
+    {
+      "price": 550,
+      "sold_date": "2026-08-24",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/227479740770",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; free delivery; titled FTM-510DRASP",
+      "flags": [
+        "option_installed"
+      ]
+    }
+  ]
+}
