@@ -1,0 +1,43 @@
+{
+  "model": "Palstar AT2KD",
+  "slug": "palstar-at2kd",
+  "searched_at": "2026-11-06T15:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'palstar at2kd', page 1 (3 results). Kept 3. Dropped 0 best-offer-accepted, 0 parts-only. OUTLIER: $675 Brand New sale is >1.5x the median of the other two (~$437). 3 comps - minimal solid set.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784233",
+    "site": "qth",
+    "ask": 490.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 549.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267783514303",
+      "source": "ebay",
+      "notes": "Title: Palstar AT2KD 2000 Watt Antenna Tuner for 160-6m. Fixed price (or Best Offer listing, not marked accepted). +$14.80 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318643368653",
+      "source": "ebay",
+      "notes": "Title: Palstar AT2KD HF Manual Antenna Tuner Peak-Hold. Fixed price (or Best Offer listing, not marked accepted). +$25.12 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 675.0,
+      "sold_date": "2026-08-15",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/188703398496",
+      "source": "ebay",
+      "notes": "OUTLIER: $675 vs ~$437 median of the other two ($549, $325); listed as Brand New. Title: Palstar AT2KD Differential Antenna Tuner for 160-6m Handles 2KW PEP. Buy It Now. +$16.73 delivery shown.",
+      "flags": []
+    }
+  ]
+}
