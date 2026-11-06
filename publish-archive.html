@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Price Checker — Ham Radio Bargains</title>
+<meta name="description" content="Check whether a ham radio deal is actually a good price, based on every comparable deal we've flagged.">
+<style>
+:root {
+--bg: #0f1417;
+--card-bg: #171e23;
+--border: #2a343a;
+--text: #e8edf0;
+--muted: #8fa1a8;
+--accent: #ff8c3b;
+--accent-dim: #3a2a1a;
+}
+* { box-sizing: border-box; }
+body {
+margin: 0;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+background: var(--bg);
+color: var(--text);
+line-height: 1.5;
+}
+header {
+padding: 40px 24px 28px;
+text-align: center;
+border-bottom: 1px solid var(--border);
+}
+header a.logo { text-decoration: none; }
+header a.logo span.b { color: var(--text); }
+header a.logo span.o { color: var(--accent); }
+header h1 {
+margin: 16px 0 8px;
+font-size: 1.6rem;
+letter-spacing: -0.02em;
+}
+header p {
+margin: 0 auto;
+color: var(--muted);
+font-size: 0.95rem;
+max-width: 560px;
+}
+header .back-link {
+display: inline-block;
+margin-top: 14px;
+color: var(--accent);
+text-decoration: none;
+font-size: 0.9rem;
+}
+header .back-link:hover { text-decoration: underline; }
+main { max-width: 640px; margin: 0 auto; padding: 32px 20px 64px; }
+
+.search-box {
+background: var(--card-bg);
+border: 1px solid var(--border);
+border-radius: 10px;
+padding: 18px 20px;
+margin-bottom: 24px;
+}
+.search-box label {
+display: block;
+font-size: 0.78rem;
+color: var(--muted);
+margin-bottom: 6px;
+}
+.search-box input {
+width: 100%;
+background: var(--bg);
+border: 1px solid var(--border);
+color: var(--text);
+border-radius: 6px;
+padding: 10px 12px;
+font-size: 1rem;
+font-family: inherit;
+}
+.search-box input:focus {
+outline: none;
+border-color: var(--accent);
+}
+
+#status { text-align: center; color: var(--muted); padding: 24px; }
+#error { text-align: center; color: #ff6b6b; padding: 24px; display: none; }
+#prompt { text-align: center; color: var(--muted); padding: 32px 16px; display: none; }
+#no-results { text-align: center; color: var(--muted); padding: 32px 16px; display: none; }
+
+#comp-check-offer {
+margin: 22px auto 0;
+max-width: 520px;
+background: var(--card-bg);
+border: 1px solid var(--border);
+border-radius: 10px;
+padding: 20px 22px;
+text-align: left;
+}
+#comp-check-offer h3 {
+margin: 0 0 8px 0;
+color: var(--text);
+font-size: 1.05rem;
+}
+#comp-check-offer p {
+margin: 0 0 14px 0;
+line-height: 1.5;
+font-size: 0.95rem;
+}
+#comp-check-offer label.field {
+display: block;
+font-size: 0.78rem;
+color: var(--muted);
+margin-bottom: 6px;
+}
+#cc-email {
+width: 100%;
+background: var(--bg);
+border: 1px solid var(--border);
+color: var(--text);
+border-radius: 6px;
+padding: 10px 12px;
+font-size: 1rem;
+font-family: inherit;
+}
+#cc-email:focus {
+outline: none;
+border-color: var(--accent);
+}
+#comp-check-offer .optin {
+display: flex;
+gap: 8px;
+align-items: flex-start;
+margin: 12px 0 16px;
+color: var(--muted);
+font-size: 0.88rem;
+line-height: 1.45;
+cursor: pointer;
+}
+#comp-check-offer .optin input { margin-top: 3px; }
+#cc-submit {
+background: transparent;
+border: 1px solid var(--accent);
+border-radius: 8px;
+color: var(--accent);
+font-size: 1rem;
+font-weight: 700;
+padding: 10px 18px;
+cursor: pointer;
+}
+#cc-submit:hover {
+background: var(--accent);
+color: #111;
+}
+#cc-error { display: none; color: #ff6b6b; font-size: 0.88rem; margin-top: 10px; }
+#cc-done { display: none; color: var(--text); line-height: 1.55; font-size: 0.95rem; }
+
+.result-card {
+background: var(--card-bg);
+border: 1px solid var(--border);
+border-radius: 10px;
+padding: 24px 28px;
+display: none;
+}
+#disambig {
+background: var(--card-bg);
+border: 1px solid var(--border);
+border-radius: 10px;
+padding: 24px 28px;
+display: none;
+}
+#disambig p {
+color: var(--text);
+font-size: 1rem;
+margin: 0 0 16px 0;
+}
+#disambig-buttons {
+display: flex;
+flex-wrap: wrap;
+gap: 12px;
+}
+.disambig-btn {
+background: transparent;
+border: 1px solid var(--accent);
+border-radius: 8px;
+color: var(--accent);
+font-size: 1rem;
+font-weight: 700;
+padding: 10px 18px;
+cursor: pointer;
+}
+.disambig-btn:hover {
+background: var(--accent);
+color: #111;
+}
+.result-card .query-label {
+color: var(--muted);
+font-size: 0.85rem;
+margin-bottom: 4px;
+}
+.result-card .item-name {
+font-size: 1.3rem;
+font-weight: 700;
+color: var(--text);
+margin-bottom: 20px;
+}
+.stat-row {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 16px;
+}
+.stat { text-align: center; }
+.stat .value {
+font-size: 1.35rem;
+font-weight: 700;
+color: var(--accent);
+}
+.stat .label {
+font-size: 0.75rem;
+color: var(--muted);
+margin-top: 4px;
+}
+
+footer {
+text-align: center;
+color: var(--muted);
+font-size: 0.78rem;
+padding: 20px;
+border-top: 1px solid var(--border);
+}
+</style>
+</head>
+<body>
+
+<header>
+<a class="logo" href="https://hamradiobargains.com/"><span style="font-size:1.5rem; font-weight:700;"><span class="b">Ham Radio </span><span class="o">Bargains</span></span></a>
+<h1>Price Checker</h1>
+<p>Is this a good price? Type in a radio or gear model to check what it's actually worth, based on recorded sales &mdash; what rigs actually sold for. The more we log, the more reliable this gets.</p>
+<a class="back-link" href="https://hamradiobargains.com/">&larr; Back to live deals</a>
+<p style="margin-top:10px;">Selling a rig instead? Run the free <a href="/rig-check/" style="color:#ff8c3b;">Rig Check</a> for your model &mdash; answer the questions a sharp buyer will ask and get a condition report you can paste into your listing.</p>
+</header>
+
+<main>
+<div class="search-box">
+<label for="f-keyword">Search item</label>
+<input type="text" id="f-keyword" placeholder="e.g. Yaesu FT-857, IC-7300, AL-80B" autocomplete="off">
+</div>
+
+<div id="status">Loading archive&hellip;</div>
+<div id="error">Couldn't load the archive right now. Try refreshing in a bit.</div>
+<div id="prompt">Type a model name above to look up its fair market value.</div>
+<div id="no-results">
+<div>No comparable sales found in the archive yet for this search. Check back as we log more deals.</div>
+<div id="comp-check-offer">
+<h3>Want us to run a real comp check on <span id="cc-term-label">this one</span>?</h3>
+<p>We log sold prices by hand, and this one isn't in the book yet. Leave your email and we'll dig up what it's actually been selling for and send you the answer &mdash; usually within a day or two.</p>
+<form id="cc-form" novalidate>
+<label class="field" for="cc-email">Email address</label>
+<input type="email" id="cc-email" placeholder="you@example.com" autocomplete="email">
+<label class="optin"><input type="checkbox" id="cc-alerts"> <span>Also send me the nightly deal alerts &mdash; one email a day with the under-market finds. (Optional)</span></label>
+<button type="submit" id="cc-submit">Run the comp check for me</button>
+<div id="cc-error">That email doesn't look right &mdash; check it and try again.</div>
+</form>
+<div id="cc-done"></div>
+</div>
+</div>
+
+<div id="disambig">
+<p id="disambig-text"></p>
+<div id="disambig-buttons"></div>
+</div>
+
+<div class="result-card" id="result-card">
+<div class="query-label">Fair market value for</div>
+<div class="item-name" id="result-name"></div>
+<div class="stat-row">
+<div class="stat">
+<div class="value" id="result-count"></div>
+<div class="label">Comparable sales</div>
+</div>
+<div class="stat">
+<div class="value" id="result-range"></div>
+<div class="label">Price range</div>
+</div>
+<div class="stat">
+<div class="value" id="result-median"></div>
+<div class="label">Median price</div>
+</div>
+</div>
+<p id="result-note" style="margin-top:14px;font-size:13px;color:var(--muted);line-height:1.5;"></p>
+</div>
+</main>
+
+<footer>
+Fair market estimates are based on prices from deals we've flagged over time — not a live market feed. Condition, included accessories, and current prices can vary. Always compare before buying.
+</footer>
+
+<script>
+const SHEET_ID = "1o8Ir0xy8ckXil7QI0oV2ReQ59vCLgE7foqjxxppqkCY";
+const ARCHIVE_GID = "230246201";
+
+let allDeals = [];
+let compModels = null;
+
+function parseCsv(text) {
+const rows = [];
+let row = [], cur = '', inQuotes = false;
+for (let i = 0; i < text.length; i++) {
+const c = text[i];
+if (inQuotes) {
+if (c === '"') {
+if (text[i+1] === '"') { cur += '"'; i++; }
+else inQuotes = false;
+} else cur += c;
+} else {
+if (c === '"') inQuotes = true;
+else if (c === ',') { row.push(cur); cur = ''; }
+else if (c === '\n' || c === '\r') {
+if (c === '\r' && text[i+1] === '\n') i++;
+row.push(cur); cur = '';
+if (row.length > 1 || row[0] !== '') rows.push(row);
+row = [];
+} else cur += c;
+}
+}
+if (cur !== '' || row.length) { row.push(cur); rows.push(row); }
+return rows;
+}
+
+function money(v) {
+if (!v) return null;
+const n = parseFloat(String(v).replace(/[^0-9.\-]/g, ''));
+return isNaN(n) ? null : n;
+}
+function fmtMoney(n) {
+if (n === null) return '—';
+return '$' + n.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
+}
+function median(arr) {
+const sorted = [...arr].sort((a, b) => a - b);
+const mid = Math.floor(sorted.length / 2);
+return sorted.length % 2 !== 0 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
+}
+
+async function loadComps() {
+try {
+const res = await fetch('comps.json', { cache: 'no-store' });
+if (!res.ok) throw new Error('fetch failed: ' + res.status);
+const data = await res.json();
+compModels = [];
+const models = (data && data.models) || {};
+Object.keys(models).forEach(k => {
+const m = models[k];
+if (m && m.latest && m.latest.median !== null && m.latest.median !== undefined) {
+compModels.push({ key: k, latest: m.latest });
+}
+});
+} catch (e) {
+compModels = [];
+console.error(e);
+}
+}
+
+async function loadArchive() {
+const statusEl = document.getElementById('status');
+const errorEl = document.getElementById('error');
+try {
+const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?gid=${ARCHIVE_GID}&headers=0&tqx=out:csv&ts=${Date.now()}`;
+const res = await fetch(url, { cache: 'no-store' });
+if (!res.ok) throw new Error('fetch failed: ' + res.status);
+const text = await res.text();
+const parsed = parseCsv(text);
+const dataRows = parsed.filter(r => r[1] && r[1] !== 'Item');
+const seen = new Set();
+allDeals = [];
+dataRows.forEach(r => {
+// Deals have a Link (column C) which we dedupe on. Price-check log
+// entries folded in by the archive-sync task have no Link (they aren't
+// tied to a specific listing) -- fall back to Date+Item as the dedupe
+// key for those so they still load into the searchable set.
+const link = r[2];
+const dedupeKey = link || (r[0] + '|' + r[1]);
+if (!dedupeKey || seen.has(dedupeKey)) return;
+seen.add(dedupeKey);
+// Use the comp-check data logged at flag time (Median/Count/Low/High of
+// actual comparable SOLD listings) rather than this deal's own asking
+// price -- the asking price is deliberately below market by definition,
+// so it would systematically understate fair market value.
+const compMedian = money(r[6]);
+if (compMedian === null) return;
+allDeals.push({
+item: r[1] || '',
+date: r[0] || '',
+compMedian,
+compCount: money(r[7]),
+compLow: money(r[8]),
+compHigh: money(r[9])
+});
+});
+statusEl.style.display = 'none';
+document.getElementById('prompt').style.display = 'block';
+} catch (e) {
+statusEl.style.display = 'none';
+errorEl.style.display = 'block';
+console.error(e);
+}
+}
+
+// Shared tokenizer: split on non-alphanumerics AND on letter<->digit
+// transitions, so "ts480", "ts-480" and "TS 480" all tokenize identically.
+const tok = s => s.toLowerCase().split(/[^a-z0-9]+|(?<=[a-z])(?=[0-9])|(?<=[0-9])(?=[a-z])/).filter(Boolean);
+
+function matchesKeyword(item, kw) {
+// Every query token must match the START of some item token, so partial
+// model numbers find their suffixed variants: "ts-480" -> ["ts","480"]
+// matches "Kenwood TS-480HX" -> ["kenwood","ts","480","hx"].
+const kwToks = tok(kw);
+if (kwToks.length === 0) return false;
+const itemToks = tok(item);
+return kwToks.every(kt => itemToks.some(it => it === kt || it.startsWith(kt)));
+}
+
+// Pull the model identifier out of an item title: the first run of
+// letters/digits/hyphens that contains a digit and whose tokens cover the
+// query tokens. "Kenwood TS-480HX HF Transceiver" -> "TS-480HX".
+// Used to tell variants apart (TS-480SAT vs TS-480HX) so we can ask the
+// visitor which one they meant instead of blending their numbers.
+function extractModel(item, kwToks) {
+const runs = item.match(/[A-Za-z0-9-]+/g) || [];
+for (const run of runs) {
+if (!/\d/.test(run)) continue;
+const rt = tok(run);
+if (kwToks.every(kt => rt.some(t => t === kt || t.startsWith(kt)))) return run.toUpperCase();
+}
+return null;
+}
+
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+function fmtMonth(dstr) {
+const p = String(dstr || '').split('-');
+if (p.length < 2) return dstr;
+const mi = parseInt(p[1], 10) - 1;
+return (MONTHS[mi] || p[1]) + ' ' + p[0];
+}
+function fmtDate(dstr) {
+const p = String(dstr || '').split('-');
+if (p.length < 3) return dstr;
+const mi = parseInt(p[1], 10) - 1;
+return (MONTHS[mi] || p[1]) + ' ' + parseInt(p[2], 10) + ', ' + p[0];
+}
+
+// Archive deals belonging to one comp-file model: the model's code is the
+// comp key minus its brand word ("ICOM IC-7100" -> "IC-7100"); an archive
+// row belongs to it when the model extracted from its title equals that code.
+function archiveDealsForModel(m, archiveMatches, kwToks) {
+const code = (m.key.split(/\s+/).slice(1).join(' ') || m.key).toUpperCase();
+return (archiveMatches || []).filter(d => {
+const g = extractModel(d.item, kwToks);
+return g && g.toUpperCase() === code;
+});
+}
+
+// "Which model did you mean?" buttons over comp-file models; shared by the
+// strong-comp and thin-comp paths in runSearch.
+function showCompDisambig(list, archiveMatches, kwToks) {
+const names = list.map(m => m.key).sort();
+document.getElementById('disambig-text').textContent =
+'\u201C' + document.getElementById('f-keyword').value.trim() + '\u201D matches ' + names.length + ' models \u2014 which one did you mean?';
+const btns = document.getElementById('disambig-buttons');
+btns.innerHTML = '';
+names.forEach(name => {
+const m = list.find(x => x.key === name);
+const b = document.createElement('button');
+b.type = 'button';
+b.className = 'disambig-btn';
+b.textContent = name + ' (' + m.latest.count + ' sales)';
+b.addEventListener('click', () => { showCompResult(m, archiveDealsForModel(m, archiveMatches, kwToks)); });
+btns.appendChild(b);
+});
+document.getElementById('prompt').style.display = 'none';
+document.getElementById('no-results').style.display = 'none';
+document.getElementById('result-card').style.display = 'none';
+document.getElementById('disambig').style.display = 'block';
+}
+
+function logMissedSearch(term) {
+      try {
+        const url = 'https://formspree.io/f/xvkgylvb';
+        const body = new URLSearchParams({ type: 'missed_search', term: term, site: 'hamradiobargains' });
+        fetch(url, { method: 'POST', mode: 'no-cors', body: body });
+      } catch (e) {}
+    }
+
+    // Comp-check offer: on a miss, the visitor can leave an email and we
+    // run the check by hand and send the answer. The request rides the
+    // same Formspree form as the missed-search beacon, with the email and
+    // an optional deal-alerts opt-in attached; the collector picks it up
+    // from the notification email.
+    let ccTerm = '';
+    let ccSubmittedTerm = '';
+    function showCompCheckOffer(term) {
+      ccTerm = term;
+      const label = document.getElementById('cc-term-label');
+      if (label) label.textContent = '\u201C' + term + '\u201D';
+      if (ccSubmittedTerm !== term) {
+        const form = document.getElementById('cc-form');
+        const done = document.getElementById('cc-done');
+        const err = document.getElementById('cc-error');
+        if (form) form.style.display = 'block';
+        if (done) done.style.display = 'none';
+        if (err) err.style.display = 'none';
+      }
+    }
+
+    document.getElementById('cc-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const emailEl = document.getElementById('cc-email');
+      const errEl = document.getElementById('cc-error');
+      const email = (emailEl.value || '').trim();
+      if (!email || !emailEl.checkValidity() || email.indexOf('@') < 1) {
+        errEl.style.display = 'block';
+        return;
+      }
+      errEl.style.display = 'none';
+      try {
+        const body = new URLSearchParams({
+          type: 'comp_check_request',
+          term: ccTerm,
+          email: email,
+          deal_alerts: document.getElementById('cc-alerts').checked ? 'yes' : 'no',
+          site: 'hamradiobargains'
+        });
+        fetch('https://formspree.io/f/xvkgylvb', { method: 'POST', mode: 'no-cors', body: body });
+      } catch (err) {}
+      ccSubmittedTerm = ccTerm;
+      const done = document.getElementById('cc-done');
+      done.textContent = 'You\u2019re in the queue \u2014 we\u2019ll email ' + email + ' when the check on \u201C' + ccTerm + '\u201D is done, usually within a day or two.';
+      done.style.display = 'block';
+      document.getElementById('cc-form').style.display = 'none';
+    });
+
+    // Render the aggregated fair-value result for one model's deals. Split out
+    // so a disambiguation button shows its model directly: re-running the
+    // fuzzy keyword search from a button just redisplays the same question
+    // (the base model name still prefix-matches its variants).
+    function showResult(deals, label) {
+const promptEl = document.getElementById('prompt');
+const noResultsEl = document.getElementById('no-results');
+const resultCard = document.getElementById('result-card');
+const disambigEl = document.getElementById('disambig');
+let count = 0, low = Infinity, high = -Infinity, weightedSum = 0;
+deals.forEach(d => {
+const w = (d.compCount && d.compCount > 0) ? d.compCount : 1;
+const lo = d.compLow !== null ? d.compLow : d.compMedian;
+const hi = d.compHigh !== null ? d.compHigh : d.compMedian;
+count += w;
+low = Math.min(low, lo);
+high = Math.max(high, hi);
+weightedSum += d.compMedian * w;
+});
+const med = weightedSum / count;
+document.getElementById('result-name').textContent = label;
+document.getElementById('result-count').textContent = count.toLocaleString();
+document.getElementById('result-range').textContent = low === high ? fmtMoney(low) : (fmtMoney(low) + ' \u2013 ' + fmtMoney(high));
+document.getElementById('result-median').textContent = fmtMoney(med);
+const noteEl = document.getElementById('result-note');
+const dealDates = deals.map(d => d.date).filter(Boolean).sort();
+if (dealDates.length) {
+noteEl.textContent = 'From our Deal Archive \u2014 the fair values recorded on the day each of these deals was published (' + fmtMonth(dealDates[0]) + ' \u2013 ' + fmtMonth(dealDates[dealDates.length - 1]) + '). Markets move: where we have enough newer recorded sales for a model, this checker leads with the current figure instead.';
+} else {
+noteEl.textContent = '';
+}
+promptEl.style.display = 'none';
+noResultsEl.style.display = 'none';
+resultCard.style.display = 'block';
+disambigEl.style.display = 'none';
+}
+
+    // Render one comp-file model through the same result card the archive
+    // path uses, so the numbers read identically either way.
+    function showCompResult(m, archiveDeals) {
+const pseudo = [{
+compMedian: m.latest.median,
+compCount: m.latest.count,
+compLow: m.latest.low,
+compHigh: m.latest.high
+}];
+showResult(pseudo, m.key);
+let note = 'Current fair value from our recorded sales, refreshed daily';
+if (m.latest.date) note += ' (sales recorded through ' + fmtDate(m.latest.date) + ')';
+note += '.';
+if (archiveDeals && archiveDeals.length) {
+const meds = archiveDeals.map(d => d.compMedian);
+const ds = archiveDeals.map(d => d.date).filter(Boolean).sort();
+note += ' We have also published ' + archiveDeals.length + ' deal' + (archiveDeals.length > 1 ? 's' : '') + ' for this model; the fair values recorded then ran ' + fmtMoney(Math.min(...meds)) + ' \u2013 ' + fmtMoney(Math.max(...meds));
+if (ds.length) note += ' (' + fmtMonth(ds[0]) + ' \u2013 ' + fmtMonth(ds[ds.length - 1]) + ')';
+note += ' \u2014 markets move, so judge by the current figure above.';
+}
+document.getElementById('result-note').textContent = note;
+}
+
+    function runSearch() {
+const kw = document.getElementById('f-keyword').value.trim().toLowerCase();
+const promptEl = document.getElementById('prompt');
+const noResultsEl = document.getElementById('no-results');
+const resultCard = document.getElementById('result-card');
+const disambigEl = document.getElementById('disambig');
+
+if (!kw) {
+promptEl.style.display = 'block';
+noResultsEl.style.display = 'none';
+resultCard.style.display = 'none';
+disambigEl.style.display = 'none';
+return;
+}
+
+const matches = allDeals.filter(d => matchesKeyword(d.item, kw));
+const compMatches = (compModels || []).filter(m => matchesKeyword(m.key, kw));
+const kwToks = tok(kw);
+
+// Current recorded sales lead \u2014 but only a comp entry built on 3+
+// sales is solid enough to headline. The archive's numbers are the fair
+// values recorded on the day each deal was published, which can be
+// months stale on a moving market; a 1\u20132-sale comp entry is thinner
+// than the archive, so it only answers when nothing else does.
+const strongComps = compMatches.filter(m => m.latest && m.latest.count >= 3);
+if (strongComps.length === 1) {
+showCompResult(strongComps[0], archiveDealsForModel(strongComps[0], matches, kwToks));
+return;
+}
+if (strongComps.length > 1) {
+showCompDisambig(strongComps, matches, kwToks);
+return;
+}
+
+if (matches.length === 0) {
+if (compMatches.length === 1) {
+showCompResult(compMatches[0], []);
+return;
+}
+if (compMatches.length > 1) {
+showCompDisambig(compMatches, matches, kwToks);
+return;
+}
+promptEl.style.display = 'none';
+noResultsEl.style.display = 'block';
+resultCard.style.display = 'none';
+disambigEl.style.display = 'none';
+logMissedSearch(kw);
+showCompCheckOffer(kw);
+return;
+}
+
+// Group matches by model. A bare base number like "ts-480" is not a real
+// model \u2014 it can match several true variants (TS-480SAT vs TS-480HX).
+// Blending their medians would mislead, so ask the visitor which one
+// they meant instead of showing a mixed number.
+const byModel = new Map();
+for (const d of matches) {
+const m = extractModel(d.item, kwToks) || d.item;
+if (!byModel.has(m)) byModel.set(m, []);
+byModel.get(m).push(d);
+}
+if (byModel.size > 1) {
+const names = [...byModel.keys()].sort();
+document.getElementById('disambig-text').textContent =
+'\u201C' + document.getElementById('f-keyword').value.trim() + '\u201D matches ' + names.length + ' models \u2014 which one did you mean?';
+const btns = document.getElementById('disambig-buttons');
+btns.innerHTML = '';
+names.forEach(name => {
+const b = document.createElement('button');
+b.type = 'button';
+b.className = 'disambig-btn';
+b.textContent = name + ' (' + byModel.get(name).length + ')';
+b.addEventListener('click', () => {
+showResult(byModel.get(name), name);
+});
+btns.appendChild(b);
+});
+promptEl.style.display = 'none';
+noResultsEl.style.display = 'none';
+resultCard.style.display = 'none';
+disambigEl.style.display = 'block';
+return;
+}
+
+showResult(matches, document.getElementById('f-keyword').value.trim());
+}
+
+document.getElementById('f-keyword').addEventListener('keydown', (e) => {
+if (e.key === 'Enter') {
+e.preventDefault();
+runSearch();
+}
+});
+
+document.getElementById('f-keyword').addEventListener('input', () => {
+if (!document.getElementById('f-keyword').value.trim()) {
+document.getElementById('prompt').style.display = 'block';
+document.getElementById('no-results').style.display = 'none';
+document.getElementById('result-card').style.display = 'none';
+}
+});
+
+loadArchive();
+loadComps();
+</script>
+
+
+<script>
+// Pre-fill from the homepage shelf: /archive.html?q=<model> runs the search
+// once the archive data has loaded (the loader hides #status when done).
+(function () {
+  var q = new URLSearchParams(location.search).get('q');
+  if (!q) return;
+  var tries = 0;
+  var iv = setInterval(function () {
+    tries++;
+    var st = document.getElementById('status');
+    var done = !st || st.style.display === 'none';
+    if (done || tries > 80) {
+      clearInterval(iv);
+      if (done) {
+        var input = document.getElementById('f-keyword');
+        input.value = q;
+        setTimeout(runSearch, 600);
+      }
+    }
+  }, 250);
+})();
+</script>
+</body>
+</html>
