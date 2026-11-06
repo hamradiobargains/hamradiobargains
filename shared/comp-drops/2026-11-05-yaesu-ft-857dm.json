@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-857DM",
+  "slug": "yaesu-ft-857dm",
+  "searched_at": "2026-11-05T19:16:59-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Yaesu FT-857DM', page 1, signed in as Leo, no challenge. 0 qualifying comps: no sold listing titled FT-857DM on page 1 (everything shown was under 'Results matching fewer words', ignored per rules). UNCERTAIN identity: ad is the Japanese-market 857DM (2 m 144-146 MHz only, 70 cm 430-440 MHz only); the ledger has YAESU FT-857D (count 20, median 1024.5, 2026-10-21) but I am not certain the DM is the same radio for comping, so the ledger was NOT used and no FT-857D figures are applied. Ad: $424.95 plus $25.05 shipping, ZELLE preferred, with removable remote head, MH-31, DC cord, body bracket, Japanese manual, remote head bracket/cables, original box; seller says 'excellent condition and 100% operational'. An earlier comp drop file for this model also exists in comp-drops (2026-11-01-yaesu-ft-857dm.json); not re-read in this sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784122",
+    "site": "qth",
+    "ask": 424.95,
+    "shipping": 25.05
+  },
+  "comps": []
+}
