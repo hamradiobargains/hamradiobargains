@@ -1,0 +1,36 @@
+{
+  "model": "Alinco DX-70",
+  "slug": "alinco-dx-70",
+  "searched_at": "2026-11-05T19:16:59-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Alinco DX70', page 1 (12 results above 'fewer words' section), signed in as Leo, no challenge. 2 kept, median 267.50: THIN. Ledger had no Alinco DX-70 entry. Ad says 'Alinco DX70' (no suffix) so exact 'DX-70' titles used; DX-70T / DX-70TH sales kept separate because suffix identity is not certain (not used: 860082575969 and 860037199520 DX-70TH $375.00 each, +$19.33; 960043317951 DX-70TH $400.00 open box or Best Offer; 178437677394 DX-70T $405.00; 227431553185 DX-70T $399.95) - UNCERTAIN whether the ad's radio is the plain DX-70 or a T/TH. Dropped 3 Best-offer-accepted: 307142437856 ($189.50, Parts/Repair Not Working READ DESCRIPTION), 307142560505 ($279.95, Low 6M Output), 366600332102 ($349.99). Parts-only: 158288859614 ($300.00, 1 bid, +$8.17), 366634687543 ($275.00, +$38.48), 307142437856 ($189.50, also BOA and READ DESCRIPTION). Read Description: 1 (307142437856). Ad is a package: DX70 'in great condition' + Radio Shack 19A power supply + external auto antenna tuner, $400 plus shipping (shipping unknown, recorded 0); comps are radio only, so the ask is not like-for-like. An earlier comp drop file for this model also exists in comp-drops (2026-11-04-alinco-dx-70.json); not re-read in this sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784185",
+    "site": "qth",
+    "ask": 400,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 250,
+      "sold_date": "2026-10-25",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/840058942539",
+      "source": "ebay",
+      "notes": "Buy It Now; +$14.66 delivery; new in box with mobile bracket; seller johnycab13 100% (107)",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 285,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336786879602",
+      "source": "ebay",
+      "notes": "Auction, 2 bids; +$25.00 delivery; title says 'Not Perfect'; with mic and power cord; seller gulfcoast communications 100% (4.8K)",
+      "flags": []
+    }
+  ]
+}
