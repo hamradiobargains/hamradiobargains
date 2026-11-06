@@ -1,0 +1,15 @@
+{
+  "model": "Icom IC-765",
+  "slug": "icom-ic-765",
+  "searched_at": "2026-11-06T15:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-765', page 1 (17 results). Only 2 complete-radio sales, both best offer accepted and dropped (366707175006 shown $699.99; 227537441298 shown $495.00) - dropped 2 best-offer-accepted. Remaining results were parts/boards/knobs/filters/manuals (not the unit) - excluded; dropped 0 parts-only unit sales. Thin - zero comps.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784258",
+    "site": "qth",
+    "ask": 200.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
