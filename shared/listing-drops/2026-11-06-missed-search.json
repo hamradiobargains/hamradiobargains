@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-06",
+  "source": "missed_search",
+  "entries": [
+    {
+      "term": "ten tec century 21",
+      "searched_at": "2026-11-06T12:23:59-05:00",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Ten-Tec Century 21",
+      "status": "worked",
+      "worked_at": "2026-11-06",
+      "result": "2026-11-06-ten-tec-century-21.json, 1 comp (low confidence; 3 parts-only sales excluded)"
+    },
+    {
+      "term": "ten tec century 22",
+      "searched_at": "2026-11-06T13:17:53-05:00",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+    }
+  ]
+}
