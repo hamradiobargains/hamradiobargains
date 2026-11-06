@@ -1,0 +1,43 @@
+{
+  "model": "Astron RS-70M",
+  "slug": "astron-rs-70m",
+  "searched_at": "2026-11-05T19:16:59-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Astron RS-70M', page 1, signed in as Leo, no challenge. 3 kept, median 350 (solid, 3 comps). Ledger has no RS-70M entry. Dropped 3 Best-offer-accepted: 128088702393 ($170.00, +$70.00 delivery), 237031534091 ($309.95, Brand New, +$46.08), 188703818505 ($349.99, +$49.99). Parts-only: 0. Read Description: 0. 1 outlier flagged (900001706675 $449.00, above 1.5x the median of the other kept comps). Ad: $350 plus shipping (shipping unknown, recorded 0), prefers local pickup, heavy.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784123",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 449,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/900001706675",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x the median of the other kept comps; listing title reads 'PRO AUDIO - USED - PERFECT CIRCUIT...'. Buy It Now; free delivery",
+      "flags": []
+    },
+    {
+      "price": 350,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800683058413",
+      "source": "ebay",
+      "notes": "Buy It Now; +$37.83 delivery; title 'Vintage Astron RS-70M Linear Metered Power Supply'",
+      "flags": []
+    },
+    {
+      "price": 210,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298609061833",
+      "source": "ebay",
+      "notes": "Buy It Now; +$33.33 delivery; title 'Vintage Astron RS-70M Linear Metered Power Supply'",
+      "flags": []
+    }
+  ]
+}
