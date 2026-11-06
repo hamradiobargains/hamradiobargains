@@ -1,0 +1,19 @@
+{
+  "model": "Ten-Tec Century 22",
+  "slug": "ten-tec-century-22",
+  "searched_at": "2026-11-06T15:38:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "From missed search shared/listing-drops/2026-11-06-missed-search.json; visitor typed 'ten tec century 22' (Ten-Tec Century 22, Model 579 CW transceiver, a real model). eBay sold/completed searches 'ten tec century 22' and 'ten-tec 579' (signed in as Leo) each returned the same 2 sold listings. Kept 1: item 407258220151 (sold 2026-10-01, $215, untested). Excluded: item 128033298476 (Century 22 Model 579, $215.50, 4 bids, sold 2026-08-25) — listed Parts Only. Fewer-words matches were Ten-Tec Century 21 Model 570 parts/repair units (other model, parts-only) — not merged. Only 1 genuine comp: low-confidence median.",
+  "comps": [
+    {
+      "price": 215.00,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-owned, untested",
+      "url": "https://www.ebay.com/itm/407258220151",
+      "source": "ebay",
+      "notes": "Fixed price with Best Offer option; sold at the listed $215 (not a best-offer-accepted sale). +$17.54 shipping not included.",
+      "flags": []
+    }
+  ]
+}
