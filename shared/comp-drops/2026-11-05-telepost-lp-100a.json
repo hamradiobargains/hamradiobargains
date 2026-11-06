@@ -1,0 +1,49 @@
+{
+  "model": "Telepost LP-100A",
+  "slug": "telepost-lp-100a",
+  "searched_at": "2026-11-05T19:16:59-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Telepost LP-100A', page 1, signed in as Leo, no challenge. 3 kept, median 650 (solid). Ledger had only TELEPOST LP-100 count 1 (2026-09-13) so miss; LP-100 (non-A) sale 147554600505 ($455, 11 bids, 2026-09-13) NOT used as LP-100A. Dropped 6 Best-offer-accepted sales: 940033915537 ($99.00, LP-100 sensor only accessory), 278304650490 ($700.00), 278323455177 ($250.00, also Parts Only), 117379631167 ($468.00), 128022046024 ($459.00), 128020222788 ($489.00). Parts-only: 278323455177 $250.00 (Best offer accepted, +$6.88 delivery). Read Description: 0. Comps vary in coupler/sensor (LPC1 3KW, '5kW'); ad has 3K and 10k couplers and cables, $500 shipped (QTH category tag shows TEST).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784104",
+    "site": "qth",
+    "ask": 500,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 650,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840056434652",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked accepted); +$20.00 delivery; title 'Telepost LP-100A 5kW'; seller thirdgenbrackets 100% (138)",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 570,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880017750633",
+      "source": "ebay",
+      "notes": "Buy It Now; +$24.93 delivery; with LPC1 3KW HF coupler; free returns; seller hamandhifi 100% (31.6K)",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 650,
+      "sold_date": "2026-08-27",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/117379619699",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked accepted); +$25.00 delivery; 1.8-54 MHz 3KW with LPC1 sensor",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
