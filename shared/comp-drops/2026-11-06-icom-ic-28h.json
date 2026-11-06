@@ -1,0 +1,52 @@
+{
+  "model": "Icom IC-28H",
+  "slug": "icom-ic-28h",
+  "searched_at": "2026-11-06T18:00:07-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Search 'icom ic-28h', 12 exact results on page 1. Kept 4. dropped 2 best-offer-accepted (147605937034, 278300852567). dropped 3 parts-only (178477707252, 178476854637, 178428518521). Excluded IC228H (different model, 800016143335), a 3-radio bundle (327322150128), and a manual photocopy. Note: dropped best-offer sale 147605937034 (Sep 28) has the identical title to the trigger listing — possibly the same unit relisted. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/820325658698",
+    "site": "ebay",
+    "ask": 100.0,
+    "shipping": 14.64
+  },
+  "comps": [
+    {
+      "price": 79.95,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298714124603",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). +$14.71 shipping.",
+      "flags": []
+    },
+    {
+      "price": 79.99,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398422214763",
+      "source": "ebay",
+      "notes": "Buy It Now. +$16.85 shipping. Same seller/title as 398422272150 and 398407876110 — appear to be separate units sold.",
+      "flags": []
+    },
+    {
+      "price": 79.99,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398422272150",
+      "source": "ebay",
+      "notes": "Buy It Now. +$16.85 shipping. Same seller/title as 398422214763.",
+      "flags": []
+    },
+    {
+      "price": 79.99,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398407876110",
+      "source": "ebay",
+      "notes": "Buy It Now. +$13.85 shipping. Same seller/title as 398422214763.",
+      "flags": []
+    }
+  ]
+}
