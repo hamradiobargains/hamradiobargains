@@ -1,0 +1,54 @@
+{
+  "model": "Yaesu FT DX 1200",
+  "slug": "yaesu-ftdx-1200",
+  "searched_at": "2026-11-06T18:00:07-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Search 'yaesu ftdx1200', 11 exact results on page 1. Kept 4. dropped 3 best-offer-accepted (128079513826 w/ CW decode module + MARS mod, 158289334546, 298619094337). dropped 0 parts-only. Excluded 4 accessories (Sound EQ units, 264772404823/134285265906/266856864991/256576017973). No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/820325628347",
+    "site": "ebay",
+    "ask": 1400.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 699.95,
+      "sold_date": "2026-11-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298741639251",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). +$39.21 shipping.",
+      "flags": []
+    },
+    {
+      "price": 710.0,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336841303156",
+      "source": "ebay",
+      "notes": "Auction, 35 bids. Includes power supply and microphone. +$57.19 shipping.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 499.99,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307191244512",
+      "source": "ebay",
+      "notes": "Buy It Now. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 999.0,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318355356532",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). Title lists S/N. +$3.85 shipping.",
+      "flags": []
+    }
+  ]
+}
