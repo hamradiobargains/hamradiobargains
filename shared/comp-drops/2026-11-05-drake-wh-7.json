@@ -1,0 +1,39 @@
+{
+  "model": "Drake WH-7",
+  "slug": "drake-wh-7",
+  "searched_at": "2026-11-05T21:55:23-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "From missed search shared/listing-drops/2026-11-05-missed-search.json: visitor typed 'drake wh2' on the price checker. No Drake WH-2 exists (Drake wattmeters are W-4, WV-4, WH-7); an earlier 2026-11-05 check found no 'Drake WH-2' sold comps, so per the variant rule these comps are deposited under the believed-intended variant Drake WH-7, never under 'Drake WH-2'. eBay sold searches 'Drake WH-7' (4 results) and 'Drake WH7 wattmeter' (3 results), page 1; 3 kept. Excluded: 176824999262 $19.99 replacement end caps/hardware for Drake 7-line (accessory, not a WH-7); all other page-1 hits were other Drake 7-line models (TR-7, R-7, PS-7, MS-7, RV-7, MN-7, CS-7) and parts. No best-offer-accepted strikes on the kept comps.",
+  "comps": [
+    {
+      "price": 110.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-owned, working",
+      "url": "https://www.ebay.com/itm/168736402816",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer listing), +$16.60 shipping",
+      "flags": []
+    },
+    {
+      "price": 95.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-owned",
+      "url": "https://www.ebay.com/itm/188812449108",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer listing), includes instruction manual, +$11.28 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 135.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-owned",
+      "url": "https://www.ebay.com/itm/168596798329",
+      "source": "ebay",
+      "notes": "Auction, 1 bid, free shipping",
+      "flags": []
+    }
+  ]
+}
