@@ -1,0 +1,15 @@
+{
+  "model": "DX Commander Classic",
+  "slug": "dx-commander-classic",
+  "searched_at": "2026-11-05T19:16:59-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'DX Commander Classic', page 1, signed in as Leo, no challenge. 0 qualifying comps: only one result in the main section and it was unrelated (an HVAC blower motor relay); everything else was under 'Results matching fewer words', ignored. Not retried under an alternate spelling (e.g. 'DXCommander') to stay inside the 15-search cap. Ledger has no DX Commander entry. Ad: new, never deployed, $375 shipped lower 48, returns accepted if not new; seller cites DX Engineering at $441.97 plus tax with free shipping (seller's claim, not verified).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784173",
+    "site": "qth",
+    "ask": 375,
+    "shipping": 0
+  },
+  "comps": []
+}
