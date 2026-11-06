@@ -1,0 +1,67 @@
+{
+  "model": "Icom IC-7600",
+  "slug": "icom-ic-7600",
+  "searched_at": "2026-11-06T15:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-7600', page 1 (52 results). Kept 5 unit sales. Dropped 4 best-offer-accepted (one of which, item 287590510970 $745, was also labeled Parts Only / 'for parts or repair'). Manuals, guides, cables, knobs, mics, speakers, filters and other accessories excluded. Items 227511080457 and 227392085369 have identical title/price ($1720) and may be the same unit relisted (flagged possible_duplicate). No outliers. Trigger listing text says 'SALE PENDING'.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784201",
+    "site": "qth",
+    "ask": 850.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 1000.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128088720394",
+      "source": "ebay",
+      "notes": "Title: Icom IC-7600 HF/50MHz. Fixed price (or Best Offer listing, not marked best offer accepted). +$60.00 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 1720.0,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227511080457",
+      "source": "ebay",
+      "notes": "Title: ICOM IC-7600 Ham Radio transceiver- Perfect condition- almost an Open Box. Fixed price (or Best Offer listing, not marked accepted). +$250.34 delivery shown. Same title/price/seller listing as item 227392085369 (sold Sep 5) - possibly the same unit relisted.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1720.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227392085369",
+      "source": "ebay",
+      "notes": "Title: ICOM IC-7600 Ham Radio transceiver- Perfect condition- almost an Open Box. Fixed price (or Best Offer listing, not marked accepted). +$250.34 delivery shown. Same title/price as item 227511080457 (sold Sep 11) - possibly the same unit relisted.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1300.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198585403394",
+      "source": "ebay",
+      "notes": "Title: Icom IC-7600 HF 50MHz Ham Radio Transceiver + Mic + Manual (US version). Buy It Now. +$52.50 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287522471663",
+      "source": "ebay",
+      "notes": "Title: ICOM IC-7600 w/ matching PS125 Supply transceiver- beautiful condition. Buy It Now. +$38.50 delivery shown. Includes PS-125 power supply.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
