@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-06",
+  "ran_at": "2026-11-06T18:00:07-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now filter, sorted newly listed, page 1 only (~60 cards); signed in as Leo, no challenges. Window since previous ebay run 2026-11-05T18:00:31-05:00 (browse cards show no listing times; newest-first order used). None of the picked items were in dropped-urls.json. Seller rule failure (skipped): Yaesu FT DX 5000MP w/ SM-5000 800886414087 (seller 1 rating). Ledger: 3 hits (MFJ-989D, YAESU FT-8900R, ALINCO DM-330MV); 5 misses -> 5 eBay sold searches (FT DX 1200, FT-818ND, IC-28H, President Lincoln II+, FT-712L not in ledger). Not picked: accessories/parts (OPC-2350LU cable, UNIT-747 FM unit, FL-2100 upgrade bundles, Nomad keying board, R390 counter, cables, modules), meters/test gear (Kranishi, Kuranishi, Daiwa CN-410M x2, QRPoMeter, MFJ-259C analyzer), keyers/decoders, receivers/scanners (IC-R6, DJ-X2000, IC-PCR1000, Hallicrafters S-120A, SDRplay, ATS/SI4732 sets), non-ham/commercial (DJ-DPS70E, IC-DPR30, Furuno VS-8, TX RX duplexer, IC-M600 marine, Kenwood TKR-850 repeater parts-only), auctions (FT-840, Realistic DX-150A), lots/parts-only (2x FT-290R II as-is, 6-piece MFJ/Palomar lot), generic new imports (UV-K5, uSDX, hotspots), and further candidates once the 8-candidate cap was reached (Yaesu G-800SDX rotator controller, Ranger RCI-2950 x2, Kenwood TH-K2, Heathkit SA-1480).",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/820325628347",
+      "site": "ebay",
+      "title": "Yaesu FT DX 1200 HF Transceiver With Operating Manual Working Minty",
+      "price": 1400.0,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "eBay condition: Used. Title says working, minty; includes operating manual. 30-day returns, seller pays return shipping. Located Idaho Falls, ID.",
+      "work_flag": "",
+      "seller_feedback": "99.4% (11336 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366791181263",
+      "site": "ebay",
+      "title": "Yaesu FT-818ND HF 50 144 430 MHz Portable All Mode Amateur Radio Transceiver",
+      "price": 1448.35,
+      "shipping": 120.0,
+      "found_at": "2026-11-06",
+      "condition_notes": "eBay condition: Used. Ships from Japan (SpeedPAK Expedited). 30-day returns, buyer pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (239 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/257839224652",
+      "site": "ebay",
+      "title": "Yaesu FT-8900R Quad Band FM Ham Radio Transceiver MH-48 Mic Power Cable Manual",
+      "price": 449.95,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "eBay condition: Used, seller note \"Tested and works.\" Includes MH-48 mic, power cable, manual. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (2048 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/820325668114",
+      "site": "ebay",
+      "title": "MFJ-989D VersaTuner V 1500W HF Antenna Tuner Tested Working",
+      "price": 499.99,
+      "shipping": 70.61,
+      "found_at": "2026-11-06",
+      "condition_notes": "eBay condition: Used. Title says tested working. 30-day returns, seller pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "99.4% (11336 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/820325658698",
+      "site": "ebay",
+      "title": "Icom IC-28H VHF FM Ham Radio Transceiver w/ HM-14 DTMF Keypad Mic",
+      "price": 100.0,
+      "shipping": 14.64,
+      "found_at": "2026-11-06",
+      "condition_notes": "eBay condition: Used. Includes HM-14 DTMF mic. Title does not say tested. 30-day returns, seller pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "99.4% (11336 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366791225490",
+      "site": "ebay",
+      "title": "ALINCO DM-330MV Regulated Power Supply DC5-15V 32A Compact Tested Working",
+      "price": 320.33,
+      "shipping": 85.0,
+      "found_at": "2026-11-06",
+      "condition_notes": "eBay condition: Used. Title says tested working. Ships from Japan. 30-day returns, buyer pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (239 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/237168296761",
+      "site": "ebay",
+      "title": "President Lincoln II+ 10 Meter Amateur Radio",
+      "price": 239.95,
+      "shipping": 19.7,
+      "found_at": "2026-11-06",
+      "condition_notes": "eBay condition: Used. Buy It Now or Best Offer. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "99.9% (20042 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366791251627",
+      "site": "ebay",
+      "title": "Untested YAESU FT-712L FM Transceiver Amateur Radio with Microphone Handheld",
+      "price": 248.44,
+      "shipping": 85.0,
+      "found_at": "2026-11-06",
+      "condition_notes": "eBay condition: Used. Title says Untested. Includes microphone. Ships from Japan. 30-day returns, buyer pays return shipping.",
+      "work_flag": "Untested",
+      "seller_feedback": "100% (239 ratings)"
+    }
+  ]
+}
