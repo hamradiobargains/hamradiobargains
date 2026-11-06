@@ -1,0 +1,20 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-06",
+  "ran_at": "2026-11-06T05:54:13-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-05T05:52:50-05:00 (prior eham run). Browsed signed OUT ('Welcome Guest'). Read public classifieds page 1 only (newest first, ads 629499-629510); page 1 already reached ads covered by the prior run, so no page 2. No individual ad pages, search form, sold searches, or seller/callsign pages opened; no ad IDs probed. No challenges. Not dropped (not candidates): 629510 Retekess TR635 consumer AM/FM/SW portable (general consumer radio, not ham gear), 629509 and 629508 computer memory, 629506 WTB Bird 10H slug, 629505 FREE Tempo One + Siltronix 1011D (no asking price, local pickup only), 629502 QST magazines. Ad numbers 629503 and 629504 did not appear on the public page (not opened). Comps: 1 ledger miss (ICOM AH-4: count 1, dated 2026-09-29) -> 1 eBay sold search, signed in as Leo, no challenge.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629507",
+      "site": "eham",
+      "title": "Icom AH-4 NIB HF Long Wire Tuner",
+      "price": 350.0,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "Posted 2026-11-05. 'New in box Icom longwire HF autotuner AH-4 (NIB).' $350 shipped to lower 48. Seller has more pics on request.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
