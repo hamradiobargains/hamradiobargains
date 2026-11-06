@@ -1,0 +1,229 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-05",
+  "ran_at": "2026-11-05T19:17:33-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered: 2026-11-05-qth.json (ran_at 2026-11-05T14:58:38-05:00) and 2026-11-05-ebay.json (ran_at 2026-11-05T18:00:31-05:00), the only eham/qth/ebay drops newer than the previous extras drop 2026-11-05-1105-extras.json (ran_at 2026-11-05T11:05:00-05:00). 2026-11-05-eham.json (ran_at 05:52:50) is older than that extras drop and was already covered; its not-comped IDs 629500/629482/629476 are in dropped-urls.json. The eBay drop's note names no counter IDs/URLs for unworked extras (only a not-picked category list), so 0 eBay extras queued. Named extra QTH 1783910 (Yaesu '991', $600 firm, ruled the ORIGINAL FT-991) was already worked 2026-11-03 under 'Yaesu FT-991' and its URL is in dropped-urls.json, so it was NOT re-queued (no FT-991A figures used). Queue: 25 fresh QTH extras from the 11/05 QTH drop (listed order; extras drop carried over nothing and had no BACKLOG CARRY). All 25 opened once for liveness in Leo's Chrome (QTH ad pages only, ~4 s apart; eHam not touched): 24 live, 1 gone (1784097 Xiegu G90 $320). Triaged this file: 20 (19 live + 1 gone). Ledger hits: 1 (ICOM IC-7000 for 1784083: median 722, count 18, 2026-10-26). eBay sold searches used 15 of 15 for 15 models (Alpha 78, RM Italy BLA 350 Plus, Telepost LP-100A, Yaesu FTM-510DR, Yaesu FT-857DM, sBitx V3, Alinco DX70, Icom AH-4, DX Commander Classic, Astron RS-70M, Icom ID-51, Icom IC-730, MFJ-993B, Kenwood TM-G707, Balun Designs 4125t); ledger misses were BLA 350 Plus (count 2, stale), AH-4 (count 1), IC-730 (count 2, stale), ID-51A (identity unsure), FT-857D (identity unsure for the Japanese 857DM), LP-100 (count 1, not -A); no entry for the rest. Signed in as Leo ('Hi Leo!'), one page at a time, 15+ s apart, no challenges or CAPTCHAs. Comp results: solid (3+ kept) - BLA 350 Plus 3 median 485, LP-100A 3 median 650, FTM-510DR 7 median 550, AH-4 10 median 278.75, RS-70M 3 median 350, MFJ-993B 5 median 200, TM-G707 3 median 200.72. Thin - sBitx V3 1 (399.99), Alinco DX-70 2 (median 267.50). Zero qualifying comps - Alpha 78, FT-857DM, DX Commander Classic, ID-51, IC-730 (all working sales Best-offer-accepted), Balun Designs 4125t. Skipped (not comped, with reasons): 1784087 (Xiegu G90 + XPA125B package, no single-model comp), 1784089 (Drake R-4C/T-4XC/MS-4/AC-4 four-unit set, no single-model comp). Gone: 1784097. Outliers kept and flagged: Icom AH-4 128039506040 ($120.00); Astron RS-70M 900001706675 ($449.00). Cross-posts: none; 1784090 and 1784098 are the same model (TM-G707) from different sellers, one comp file; same-seller N9OGF 1784171/1784169 are different items and carried over. Identity cautions: FT-857DM not mapped to the FT-857D ledger (UNCERTAIN); ID-51 vs ID-51A kept separate (UNCERTAIN); Alinco DX-70 vs DX-70T/TH kept separate (UNCERTAIN); TM-G707 vs TM-G707A kept separate (UNCERTAIN); FTM-510DR/DRASP pooled, FTM-510D excluded; LP-100 (non-A) excluded; AH-730 excluded. Modification wording seen in comps (not used as comps): ID-51A Plus 'mars/cap mod' 227496806601; FTM-510D 'MARS/CAP mod' 377606141199. Work-flag wording carried verbatim: 1784144 'Sold as is no return' (UNCERTAIN); 1784107 'sale final no returns'; 1784122 Japanese version TX range limits (UNCERTAIN). Live and unworked for comps, carried over (liveness already read this run): 1784171 MFJ-923 $60 pickup only Yorkville IL (N9OGF), 1784169 MFJ-921 $60 pickup only Yorkville IL (N9OGF), 1784111 Hy-Gain T2X TailTwister rotor $475 plus shipping/fees Dallas TX (W5RL), 1784178 TIC Ring rotor 45/55G missing a motor $160 pickup Indiana (NT9J), 1783953 Kenwood TS-430S for parts or repair, 'on the air LED stays lit', $200 shipped (KC9DZ; ledger TS-430S entry is stale). Those five were not added to dropped-urls.json. ran_at/searched_at are file-write times, -05:00 (EST). Seller feedback n/a (QTH). CARRIED OVER: 1784171, 1784169, 1784111, 1784178, 1783953. BACKLOG CARRY: none.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784127",
+      "site": "qth",
+      "title": "Alpha 78 legal limit amp (KY7X)",
+      "price": 1100,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: 'Alpha 78 with two 3cx800a7's, Peter Dahl transformer in very nice condition. No scratches or dings. Includes spare meter bulbs.' 'No shipping unless you arrange it yourself.' comps: alpha-78, 0 kept (none on page 1).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784087",
+      "site": "qth",
+      "title": "Xiegu G90 + XPA125B package (AB8BC)",
+      "price": 825,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: complete package (G90, XPA125B 100 W amp with built-in tuner, interface kit and cables, fan kit), 'Selling as a complete package rather than separating'; local pickup preferred, buyer pays shipping. not comped: package ad, no single-model comp (G90 + XPA125B).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784083",
+      "site": "qth",
+      "title": "Icom IC-7000 plus extras (KG9O)",
+      "price": 1300,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: 'ICOM IC 7000 with original factory box, just back from Matt in Mich for a complete check up, mobile bracket, separation cable, amp cable, MFJ ARB 704 amp buffer, video display, ICOM SM 20 desk mic, hand mic, LDG AT 200 auto tuner. 1300 shipped and insured Continental USA only'. comps: ledger hit (ICOM IC-7000, median 722, count 18, 2026-10-26); ledger median is the radio alone, ad is a bundle.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784107",
+      "site": "qth",
+      "title": "RM Italy BLA 350 Plus HF amp (N3VET)",
+      "price": 575,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: 'second owner, real nice condition except a few scratch's on top right corner, works as it should ... includes ac power cord and printed manual ... $575.00 FREE shipping lower 48 states .. sale final no returns'. comps: rm-italy-bla-350-plus, 3 kept, median 485.",
+      "work_flag": "sale final no returns (seller's words)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784089",
+      "site": "qth",
+      "title": "Drake R-4C / T-4XC / MS-4 / AC-4 line (HF)",
+      "price": 550,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: 'Near perfect physically and fully functional. All switches and controls cleaned and De-Ox-It. Tested on-air. R-4C has 500-cycle CW Filter. Includes original Manuals and four non-original Switching Cables. No OSC Cables. Third owner - second owner never upgraded so these units sat in a closet for 35 yrs!' $550 plus shipping (shipping unknown, recorded 0). not comped: four-unit set (receiver, transmitter, speaker, power supply), no single-model comp.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784104",
+      "site": "qth",
+      "title": "LP100A watt meter with 3K and 10K couplers (K8TMJ)",
+      "price": 500,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: 'Very nice LP100A watt meter with 3K and 10k couplers. Cables are also included. $500 shipped.' (QTH category tag shows TEST.) Last edited 11/05/26. comps: telepost-lp-100a, 3 kept, median 650.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784184",
+      "site": "qth",
+      "title": "Yaesu FTM-510DR ASP w/ Bluetooth (N4URW)",
+      "price": 450,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: 'Radio is like new. Never mobile. Includes the radio, power cord, microphone and original box, Bluetooth module installed.' $450 plus shipping (shipping unknown, recorded 0). comps: yaesu-ftm-510dr, 7 kept, median 550.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784122",
+      "site": "qth",
+      "title": "Yaesu FT-857DM 160-6 m transceiver (W5IB)",
+      "price": 424.95,
+      "shipping": 25.05,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: 'excellent condition and 100% operational ... no problem with the display. This is the Japanese version, so it has some limitations on 2 meter and 70cm. It covers 144 thru 146 MHz, so it won't transmit above 146 MHz. On 70 cm it covers 430 thru 440 MHz only.' Includes removable remote head, MH-31 mic, DC cord, body bracket, original Japanese manual, remote head bracket/cables, original box. comps: yaesu-ft-857dm, 0 (no FT-857DM sold on page 1; ledger FT-857D not used, identity UNCERTAIN).",
+      "work_flag": "Japanese version - TX limited to 144-146 MHz on 2 m and 430-440 MHz on 70 cm (seller's words) - UNCERTAIN whether this counts as a transmit modification/limitation",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784144",
+      "site": "qth",
+      "title": "sBitx V3 NEW IN THE BOX (W5APL)",
+      "price": 320,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: 'sBitx V3 BRAND NEW IN BOX ... I paid $429 for the radio ... USA Sales and Shipping only. $320 Shipped ... Sold as is no return.' comps: hf-signals-sbitx-v3, 1 kept (thin), median 399.99.",
+      "work_flag": "Sold as is no return (seller's words) - UNCERTAIN",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784185",
+      "site": "qth",
+      "title": "Alinco DX70, tuner and power supply (KI4WXK)",
+      "price": 400,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: 'Alinco DX70 In Great Condition. Radio Shack 19Amp Power Supply. External Auto Antenna Tuner. $400 Plus Shipping Within The US.' (shipping unknown, recorded 0). comps: alinco-dx-70, 2 kept (thin), median 267.50; comps are radio only, ad is a package.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784174",
+      "site": "qth",
+      "title": "Icom AH-4 autotuner NIB (N3EJT)",
+      "price": 350,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: 'NIB Icom AH-4 Autotuner New in box Icom long wire autotuner AH-4 NIB. $350. I have many pics.' comps: icom-ah-4, 10 kept, median 278.75 (all pre-owned units; 1 outlier).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784173",
+      "site": "qth",
+      "title": "DX Commander Classic - new (W6XA)",
+      "price": 375,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: 'brand new, never deployed ... $375 shipped the lower 48. If it arrives in a condition other than new, I'll accept returns.' not comped: 0 qualifying comps (dx-commander-classic file written, no sold DX Commander on page 1).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784123",
+      "site": "qth",
+      "title": "Astron RS-70M power supply (W3CMP)",
+      "price": 350,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: 'Selling Astron RS-70M power supply. Can power entire station. Heavy. Price $350 plus shipping. Prefer local pickup.' (shipping unknown, recorded 0). No condition wording. comps: astron-rs-70m, 3 kept, median 350 (1 outlier).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784097",
+      "site": "qth",
+      "title": "Xiegu G90 $320 shipped",
+      "price": 320,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "no longer live (QTH: ad number no longer in our system). Last seen in the 11/05 QTH drop notes as 'Xiegu G90 $320 shipped'. not comped: gone.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784179",
+      "site": "qth",
+      "title": "Icom ID-51 HT (WY4A)",
+      "price": 300,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: 'a nice 2/440/dstar ht with rapid and wall chargers one extra battery mic no manual or original box works great $300 dollars shipped'. comps: icom-id-51, 0 qualifying (plain ID-51 sales all Best-offer-accepted; ID-51A identity UNCERTAIN).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784146",
+      "site": "qth",
+      "title": "Icom IC-730 (W6DMO)",
+      "price": 225,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: 'Icom IC-730 in good condition. SM6 mic, power cord and manual included. $225 shipped conus.' comps: icom-ic-730, 0 qualifying (all working-unit sales were Best-offer-accepted; rest parts-only).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784084",
+      "site": "qth",
+      "title": "MFJ-993B automatic antenna tuner (QTH ad)",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: 'in good working condition and functions as it should. There are a few superficial scratches on the top cover, but they are strictly cosmetic.' $200 shipped, includes ICOM radio interface cable; selling excess tuners. comps: mfj-993b, 5 kept, median 200.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784090",
+      "site": "qth",
+      "title": "Kenwood TM-G707 dual band mobile (KB4QNR)",
+      "price": 160,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: 'Kenwood TM G707 mobile in very good condition. The radio ships with microphone, power harness and mounting bracket. $160 and includes shipping to the lower 48.' comps: kenwood-tm-g707, 3 kept, median 200.72. Same model as 1784098 (different seller).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784098",
+      "site": "qth",
+      "title": "Kenwood TM-G707 dual band (WD8BP)",
+      "price": 140,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: 'Kenwood TM-G707 2/440Mhz dual band mobile rig. Comes with the following items: dc power cord, hand mic and the Kenwood box. Works great ... Price shipped: $140' CONUS only, LOWERED PRICE. comps: kenwood-tm-g707, 3 kept, median 200.72 (shared file; trigger listing is 1784090).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784113",
+      "site": "qth",
+      "title": "Balun Designs 4125t 4:1 balun (WA1SEO)",
+      "price": 70,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. Seller: 'It has only seen indoor use ... I am asking $70 shipped and I will accept paypal.' comps: balun-designs-4125t, 0 qualifying (no sold Balun Designs 4125t in main results).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
