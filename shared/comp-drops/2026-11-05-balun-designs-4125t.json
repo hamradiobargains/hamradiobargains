@@ -1,0 +1,15 @@
+{
+  "model": "Balun Designs 4125t",
+  "slug": "balun-designs-4125t",
+  "searched_at": "2026-11-05T19:16:59-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Balun Designs 4125t', page 1, signed in as Leo, no challenge. 0 qualifying comps: nothing in the main results section (everything shown was under 'Results matching fewer words', ignored). This was search 15 of 15. Ledger has no Balun Designs entry. Ad: 'only seen indoor use', $70 shipped, PayPal.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784113",
+    "site": "qth",
+    "ask": 70,
+    "shipping": 0
+  },
+  "comps": []
+}
