@@ -1,0 +1,72 @@
+{
+  "model": "Icom IC-756PRO III",
+  "slug": "icom-ic-756pro-iii",
+  "searched_at": "2026-11-07T14:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Icom IC-756PRO III', page 1 (13 results, 'fewer words' section ignored). 6 unit comps kept. Dropped 1 best-offer-accepted ($775, 2026-09-12), dropped 1 parts-only ($450 'AS IS Estate', Parts Only). Excluded non-units: main PC board (parts), instruction manual, 2 VFO encoders, LED backlight kit. No outliers. searched_at approximate (within ~1 min).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784333",
+    "site": "qth",
+    "ask": 850.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 725.0,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287705034442",
+      "source": "ebay",
+      "notes": "Buy It Now; +$39.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 810.99,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298722233994",
+      "source": "ebay",
+      "notes": "Auction, 7 bids; +$41.69 delivery",
+      "flags": []
+    },
+    {
+      "price": 925.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168689936426",
+      "source": "ebay",
+      "notes": "Buy It Now; +$60.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 699.0,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178430954883",
+      "source": "ebay",
+      "notes": "Buy It Now; title says 'See Desc'; +$24.80 delivery",
+      "flags": []
+    },
+    {
+      "price": 548.77,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178403752311",
+      "source": "ebay",
+      "notes": "Auction, 32 bids; title says 'Untested In Good Condition'; located in United Kingdom; +$81.07 shipping estimate",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 705.0,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147500171709",
+      "source": "ebay",
+      "notes": "Auction, 9 bids; title: 'LCD w/ HM-36 Mic, Manual'; +$75.00 delivery",
+      "flags": []
+    }
+  ]
+}
