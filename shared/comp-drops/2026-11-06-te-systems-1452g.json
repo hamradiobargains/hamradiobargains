@@ -1,0 +1,25 @@
+{
+  "model": "TE Systems 1452G",
+  "slug": "te-systems-1452g",
+  "searched_at": "2026-11-06T18:59:52-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "1 kept, median 847.0, low 847.0, high 847.0. THIN (1 kept).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784209",
+    "site": "qth",
+    "ask": 425,
+    "shipping": 25
+  },
+  "comps": [
+    {
+      "price": 847,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840018297636",
+      "source": "ebay",
+      "notes": "No shipping charge shown / free. Buy It Now. Title: TE Systems 1452G VHF Amplifier 144-148 MHz With Preamp FM/CW. Free delivery.",
+      "flags": []
+    }
+  ]
+}
