@@ -1,0 +1,61 @@
+{
+  "model": "Hy-Gain HAM-IV",
+  "slug": "hy-gain-ham-iv",
+  "searched_at": "2026-11-06T18:59:52-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "5 kept, median 379.99, low 340.0, high 550.0. Rotor sales only (rotor, or rotor+controller as titled; titles not always clear). Dropped Best offer accepted: 1 rotor sale (137597597771 $245.00) plus accessory 398041497044 Rotor-EZ $56.21. Parts-only dropped: 2 (287688154777 $180.00, 800509387066 $295.00). Excluded: HAM-IV/T2X controllers/control units (298674273607, 358825243251, 236933782009, 298612108088, 820163183693), HAM-II set 178410528620, accessories.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784200",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 499.99,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188941340822",
+      "source": "ebay",
+      "notes": "Shown shipping $44.87. Buy It Now.",
+      "flags": []
+    },
+    {
+      "price": 340,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940046834415",
+      "source": "ebay",
+      "notes": "Shown shipping $49.95. Listed $340.00 or Best Offer; not marked accepted. Rotator System.",
+      "flags": []
+    },
+    {
+      "price": 550,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287639787734",
+      "source": "ebay",
+      "notes": "Shown shipping $49.95. Listed $550.00 or Best Offer; not marked accepted. Antenna Rotator System.",
+      "flags": []
+    },
+    {
+      "price": 379.99,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128112892677",
+      "source": "ebay",
+      "notes": "Shown shipping $31.12. Buy It Now.",
+      "flags": []
+    },
+    {
+      "price": 379.99,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407115105174",
+      "source": "ebay",
+      "notes": "Shown shipping $32.92. Buy It Now.",
+      "flags": []
+    }
+  ]
+}
