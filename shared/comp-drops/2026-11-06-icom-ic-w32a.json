@@ -1,0 +1,83 @@
+{
+  "model": "Icom IC-W32A",
+  "slug": "icom-ic-w32a",
+  "searched_at": "2026-11-06T18:59:52-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "7 kept, median 127.99, low 74.09, high 249.99. Outliers: 168553446939. Solid (7 kept). Dropped Best offer accepted: 3 (318401672216 $130.00, 168619207115 $125.00 parts-only, 298646352630 $119.95). Parts-only dropped: 4 (257817383299 $66.00 11 bids, 137496457946 $69.27, 168619207115 $125.00, 377511053317 $106.24). Excluded: 3-radio lot 307139648773, desktop chargers (287534973166, 267712027678, 128035145710, 800319135592). Ad 1784242 is TWO radios ($150 with box + speaker mic, $125 box-less); comps are per single radio.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784242",
+    "site": "qth",
+    "ask": 150,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 74.09,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960112715749",
+      "source": "ebay",
+      "notes": "No shipping charge shown / free. Buy It Now. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 127.99,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198110330248",
+      "source": "ebay",
+      "notes": "Shown shipping $13.99. Buy It Now.",
+      "flags": []
+    },
+    {
+      "price": 249.99,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168553446939",
+      "source": "ebay",
+      "notes": "OUTLIER: price 249.99 vs median 123.99 of the other kept comps. No shipping charge shown / free. Buy It Now. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 129,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147597118942",
+      "source": "ebay",
+      "notes": "Shown shipping $15.00. Listed $129.00 or Best Offer; not marked accepted. Title includes Diamond item (+ accessories).",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 119.99,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358664473338",
+      "source": "ebay",
+      "notes": "Shown shipping $11.19. Buy It Now. Title: ... w/ (accessories).",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 119.95,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237056519190",
+      "source": "ebay",
+      "notes": "Shown shipping $19.70. Listed $119.95 or Best Offer; not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 129.99,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/406994448704",
+      "source": "ebay",
+      "notes": "Shown shipping $14.20. Buy It Now.",
+      "flags": []
+    }
+  ]
+}
