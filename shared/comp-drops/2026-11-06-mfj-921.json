@@ -1,0 +1,88 @@
+{
+  "model": "MFJ MFJ-921",
+  "slug": "mfj-921",
+  "searched_at": "2026-11-06T18:59:52-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "8 kept, median 109.12, low 30.0, high 199.95. Outliers: 820163371962, 206581671728, 327261069292. Dropped Best offer accepted: 4 (336839867505 $75.00, 257708352128 $139.99, 366588998578 $89.99 'tech special', 940001740135 $99.99 parts-only). Parts-only dropped: 2 (940001740135 $99.99; 267705879746 $100.00 or Best Offer). Excluded as untested (treated like as-is): 227552086170 $79.99 +$19.99 'Untested'. Wide spread - see OUTLIER notes.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784169",
+    "site": "qth",
+    "ask": 60,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 109,
+      "sold_date": "2026-11-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307242701793",
+      "source": "ebay",
+      "notes": "No shipping charge shown / free. Listed $109.00 or Best Offer; not marked accepted. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 145,
+      "sold_date": "2026-10-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257798451248",
+      "source": "ebay",
+      "notes": "Shown shipping $6.88. Buy It Now.",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307162605210",
+      "source": "ebay",
+      "notes": "Shown shipping $7.03. Buy It Now.",
+      "flags": []
+    },
+    {
+      "price": 109.25,
+      "sold_date": "2026-09-29",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/178507349756",
+      "source": "ebay",
+      "notes": "No shipping charge shown / free. Buy It Now; shown $109.25 (was $115.00). Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 30,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820163371962",
+      "source": "ebay",
+      "notes": "OUTLIER: price 30.0 vs median 109.25 of the other kept comps. Shown shipping $6.88. Auction, 2 bids. Title: Tested - Working.",
+      "flags": []
+    },
+    {
+      "price": 39.99,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206581671728",
+      "source": "ebay",
+      "notes": "OUTLIER: price 39.99 vs median 109.25 of the other kept comps. Shown shipping $10.00. Buy It Now.",
+      "flags": []
+    },
+    {
+      "price": 199.95,
+      "sold_date": "2026-09-06",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/327261069292",
+      "source": "ebay",
+      "notes": "OUTLIER: price 199.95 vs median 109.00 of the other kept comps. No shipping charge shown / free. Buy It Now. Title: NEW OPEN BOX. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 139.99,
+      "sold_date": "2026-08-27",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/366627114581",
+      "source": "ebay",
+      "notes": "Shown shipping $12.99. Listed $139.99 or Best Offer; not marked accepted.",
+      "flags": []
+    }
+  ]
+}
