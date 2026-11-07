@@ -1,0 +1,15 @@
+{
+  "model": "TIC Ring Rotor 45/55G",
+  "slug": "tic-ring-rotor-45-55g",
+  "searched_at": "2026-11-06T18:59:52-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Search 'tic ring rotor': no tower-rotor sales returned (results were unrelated: watches, games, dental). Zero qualifying comps. Not comped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784178",
+    "site": "qth",
+    "ask": 160,
+    "shipping": 0
+  },
+  "comps": []
+}
