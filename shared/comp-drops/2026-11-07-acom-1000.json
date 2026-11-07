@@ -1,0 +1,25 @@
+{
+  "model": "ACOM 1000",
+  "slug": "acom-1000",
+  "searched_at": "2026-11-07T05:55:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Thin: only 1 qualifying sold comp on page 1. Left out 1 accessory (ACOM 2000A dust cover). Dropped 0 best-offer-accepted, 0 parts-only. eHam ad title reads \"ACOM A 1000\"; treated as the ACOM 1000 amplifier. Ledger had ACOM 1000 at count 2, dated 2026-08-28 (miss).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629518",
+    "site": "eham",
+    "ask": 3500.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 2550.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236876701479",
+      "source": "ebay",
+      "notes": "Fixed price \"or Best Offer\" (not best-offer-accepted); title: ACOM 1000, 1000W HF/6m Linear Amplifier ... AOM-1000-240; +$90.15 delivery",
+      "flags": []
+    }
+  ]
+}
