@@ -1,0 +1,43 @@
+{
+  "model": "Hy-Gain T2X",
+  "slug": "hy-gain-t2x",
+  "searched_at": "2026-11-06T18:59:52-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "3 kept, median 425.0, low 195.5, high 519.99. Outliers: 127987778559, 278436909505. THIN (3 kept). Rotor-only vs rotor+controller not always clear from titles. Dropped Best offer accepted: 4 (287634250556 $575.00 rotor w/ bracket, 318647700565 $179.99 control box, 336827523374 $249.99 parts-only, 257689660796 $275.00 parts-only). Parts-only dropped: 2 (336827523374 $249.99; 257689660796 $275.00). Excluded: controllers/control boxes (920043622681, 397781883927, 168621596003, 298674273607, 820143286335, 188926248368), plugs, caps, mast supports (388292472707, 145333847687, 318703456569, 388358954409, 388179091411, 388178913938, 287347903604).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784111",
+    "site": "qth",
+    "ask": 475,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 519.99,
+      "sold_date": "2026-08-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127987778559",
+      "source": "ebay",
+      "notes": "OUTLIER: price 519.99 vs median 310.25 of the other kept comps. Shown shipping $33.78. Buy It Now. Title: HY-GAIN HAM T2X TAILTWISTER ROTOR ROTATOR.",
+      "flags": []
+    },
+    {
+      "price": 425,
+      "sold_date": "2026-10-22",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/287639817105",
+      "source": "ebay",
+      "notes": "Shown shipping $49.95. Listed $425.00 or Best Offer; not marked accepted. Title: NOS Hy-Gain T2X Rotor Only (no control box stated).",
+      "flags": []
+    },
+    {
+      "price": 195.5,
+      "sold_date": "2026-10-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278436909505",
+      "source": "ebay",
+      "notes": "OUTLIER: price 195.5 vs median 472.50 of the other kept comps. Shown shipping $31.20. Auction, 26 bids. Title: CDE T2X Tailtwister Rotor (rotor only, no controller stated).",
+      "flags": []
+    }
+  ]
+}
