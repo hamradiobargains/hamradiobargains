@@ -1,0 +1,42 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-07",
+  "ran_at": "2026-11-07T05:55:30-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-06T05:54:13-05:00 (prior eham run). Browsed signed OUT ('Welcome Guest'). Cloudflare 'Performing security verification' interstitial on first load cleared by itself after ~10s wait with no interaction. Read public classifieds page 1 only (ads 629507-629521); page 1 reached ads covered by the prior run, so no page 2. Full ad text shown on the list page, so no individual ad pages opened; no search form, sold searches, or seller/callsign pages; no ad IDs probed. Not dropped: 629521 WTB Daiwa CN-801, 629519 WTB balun/OCF antenna, 629512 WTB Turner Super Sidekick (wanted ads, no asking price); 629510/629509/629508/629507 already covered by prior run. Ad numbers 629511 and 629513-629516 did not appear on the public page (not opened). Comps: 1 ledger hit (YAESU FT-710 AESS), 2 ledger misses -> 2 eBay sold searches (ACOM 1000, Daiwa CS-401), signed in as Leo, no challenge.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629520",
+      "site": "eham",
+      "title": "FOR SALE DAIWA CS-401 COAX SWITCH VGC",
+      "price": 90.0,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "VGC; seller says it works as it should with no issues; $90 shipped (from 54888); payment USPS money order or certified check only",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629518",
+      "site": "eham",
+      "title": "ACOM A 1000 LINEAR AMPLIFIER",
+      "price": 3500.0,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "About six years old, little use, excellent cosmetically and electronically per seller; includes manual, original boxes, FTDX101D cable; prefers local pickup, buyer pays shipping (amount not stated)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629517",
+      "site": "eham",
+      "title": "YAESU FT-710AESS",
+      "price": 750.0,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "Light use per seller; includes AESS speaker, original box, hand mic, manual; buyer pays shipping (amount not stated)",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
