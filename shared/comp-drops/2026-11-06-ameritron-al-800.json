@@ -1,0 +1,15 @@
+{
+  "model": "Ameritron AL-800",
+  "slug": "ameritron-al-800",
+  "searched_at": "2026-11-06T18:59:52-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Search 'ameritron al-800': the only non-AL-800H hit was an input switch accessory (206151970915). AL-800H sales are a different model and were not used. Zero qualifying comps. Not comped. (Ledger has only AL-800H, count 1.)",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1778529",
+    "site": "qth",
+    "ask": 1100,
+    "shipping": 0
+  },
+  "comps": []
+}
