@@ -1,0 +1,22 @@
+{
+  "model": "Yaesu SP-767",
+  "slug": "yaesu-sp-767",
+  "searched_at": "2026-11-06T18:59:52-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped - median 99.99, count 3, ledger date 2026-10-29 - ledger hit - individual sales behind the median are not auditable from this file",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784187",
+    "site": "qth",
+    "ask": 75,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 99.99,
+    "low": 50,
+    "high": 179.99,
+    "count": 3,
+    "date": "2026-10-29"
+  }
+}
