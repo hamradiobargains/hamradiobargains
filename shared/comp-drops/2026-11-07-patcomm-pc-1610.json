@@ -1,0 +1,15 @@
+{
+  "model": "Patcomm PC-1610",
+  "slug": "patcomm-pc-1610",
+  "searched_at": "2026-11-07T18:58:43-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep. eBay sold search \"Patcomm PC-1610\": 0 results (page 1 showed only unrelated fewer-words matches, ignored). 0 qualifying comps. Trigger ad is a parts/repair unit (receives, no transmit). Kept 0.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784231",
+    "site": "qth",
+    "ask": 150,
+    "shipping": 0
+  },
+  "comps": []
+}
