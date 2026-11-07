@@ -1,0 +1,15 @@
+{
+  "model": "Ten-Tec Omni VI",
+  "slug": "tentec-omni-vi",
+  "searched_at": "2026-11-06T18:59:52-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Search 'ten-tec omni vi transceiver': Omni VI 563 sales: 920040572280 Oct 14 $290.00 Best offer accepted (dropped); 287575835174 Sep 9 $200.00 parts-only + Best offer accepted (dropped); parts-only 237113549667 $430.00 and 237056476549 $460.00 (Omni 6 Model 563, dropped; seen in the 'tentec omni vii' search). Omni VI PLUS 128017150740 $609.99 BIN is a different model (not used). Zero qualifying comps. Ad is Omni-6 w/ Option 3 - option effect on value not established. Not comped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784220",
+    "site": "qth",
+    "ask": 500,
+    "shipping": 0
+  },
+  "comps": []
+}
