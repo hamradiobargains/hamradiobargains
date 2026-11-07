@@ -1,0 +1,72 @@
+{
+  "model": "LDG AT-1000ProII",
+  "slug": "ldg-at-1000proii",
+  "searched_at": "2026-11-07T15:01:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'LDG AT-1000ProII', page 1 (12 results). 6 unit comps kept (2 Brand New dealer sales, 4 Pre-Owned). Dropped 1 best-offer-accepted ($499.99, 2026-10-24). Excluded 3 AC power adapters and a dust cover. No outliers. searched_at approximate (within ~1 min).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784269",
+    "site": "qth",
+    "ask": 475.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 619.95,
+      "sold_date": "2026-11-02",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/111802127090",
+      "source": "ebay",
+      "notes": "Buy It Now; authorized dealer listing; free delivery",
+      "flags": []
+    },
+    {
+      "price": 569.95,
+      "sold_date": "2026-10-28",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/154353094432",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery",
+      "flags": []
+    },
+    {
+      "price": 419.99,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327391665765",
+      "source": "ebay",
+      "notes": "Buy It Now; +$9.25 delivery",
+      "flags": []
+    },
+    {
+      "price": 499.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287482306623",
+      "source": "ebay",
+      "notes": "Buy It Now; +$15.27 delivery",
+      "flags": []
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117375371440",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; +$8.09 delivery",
+      "flags": []
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278304764660",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; title: 'w/ M-1000 SWR/Power Meter'; +$7.82 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
