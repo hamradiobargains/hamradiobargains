@@ -1,0 +1,15 @@
+{
+  "model": "Collins KWM-380",
+  "slug": "collins-kwm-380",
+  "searched_at": "2026-11-07T17:59:36-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - 0 qualifying comps on page 1 of eBay sold search \"Collins KWM-380\" (7 results). Excluded as not the unit: power switch, two filter kits, RF relay, knobs/parts lot; also KWM-2 (different model, one parts-only, one best-offer-accepted). dropped 1 best-offer-accepted (KWM-2, wrong model anyway), dropped 1 parts-only (KWM-2 station package, wrong model anyway). \"Results matching fewer words\" ignored.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/198780122148",
+    "site": "ebay",
+    "ask": 2395.0,
+    "shipping": 124.5
+  },
+  "comps": []
+}
