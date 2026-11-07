@@ -1,0 +1,45 @@
+{
+  "model": "FlexRadio FLEX-1500",
+  "slug": "flexradio-flex-1500",
+  "searched_at": "2026-11-07T15:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'FlexRadio FLEX-1500', page 1 (5 results). 3 unit comps kept - thin. Dropped 1 best-offer-accepted ($445.99, 2026-08-28). Excluded owner's manual. OUTLIER flagged: $575 'with Extras!' vs ~$341 median of the other two. searched_at approximate (within ~1 min).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784329",
+    "site": "qth",
+    "ask": 385.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 400.0,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168711784786",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; title says 'Tested/Working'; +$9.66 delivery",
+      "flags": []
+    },
+    {
+      "price": 281.92,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168603387046",
+      "source": "ebay",
+      "notes": "Auction, 43 bids; located in Italy, import fees due; +$39.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 575.0,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147474651629",
+      "source": "ebay",
+      "notes": "OUTLIER: $575 vs ~$341 median of the other two (1.69x); title 'with Extras!'; fixed price 'or Best Offer' (not marked accepted); +$23.75 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
