@@ -1,0 +1,70 @@
+{
+  "model": "Yaesu SP-2000",
+  "slug": "yaesu-sp-2000",
+  "searched_at": "2026-11-06T18:59:52-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "6 kept, median 189.34, low 145.0, high 249.99. Solid (6 kept). Titles do not mention the Phits upgrade. Also serves ad 1784252 (same seller W7BJN, $165 shipped; possible cross-post, no serials shown). No Best-offer-accepted or parts-only SP-2000 sales on page 1.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784253",
+    "site": "qth",
+    "ask": 165,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 242.09,
+      "sold_date": "2026-10-29",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/327118749715",
+      "source": "ebay",
+      "notes": "No shipping charge shown / free. Buy It Now. Title: External Speaker FOR ALL MODELS.",
+      "flags": []
+    },
+    {
+      "price": 249.99,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189034690928",
+      "source": "ebay",
+      "notes": "Shown shipping $60.00. Buy It Now.",
+      "flags": []
+    },
+    {
+      "price": 199,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168621602109",
+      "source": "ebay",
+      "notes": "Shown shipping $19.80. Listed $199.00 or Best Offer; not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 170,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206489382740",
+      "source": "ebay",
+      "notes": "Shown shipping $32.50. Buy It Now.",
+      "flags": []
+    },
+    {
+      "price": 145,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117345135699",
+      "source": "ebay",
+      "notes": "Shown shipping $22.00. Listed $145.00 or Best Offer; not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 179.69,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366584597309",
+      "source": "ebay",
+      "notes": "Shown shipping $16.43. Listed $179.69 or Best Offer; not marked accepted.",
+      "flags": []
+    }
+  ]
+}
