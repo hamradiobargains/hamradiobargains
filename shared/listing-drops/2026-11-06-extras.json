@@ -1,0 +1,262 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-06",
+  "ran_at": "2026-11-06T18:59:52-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered (ran_at after the previous extras drop 2026-11-05-1917-extras.json, ran_at 2026-11-05T19:17:33-05:00): 2026-11-06-qth.json (14:53:00), 2026-11-06-ebay.json (18:00:07), 2026-11-06-eham.json (05:54:13). The 2026-11-06 eHam drop names no extras; the 2026-11-06 eBay drop names no extra IDs/URLs (category list only). Queue: 5 carry-overs (1784171, 1784169, 1784111, 1784178, 1783953) + named extra QTH 1783910 (Yaesu '991' $600 firm, treated as the ORIGINAL FT-991 per Leo's ruling; it was already worked 2026-11-03 and is already in dropped-urls, so it was re-run on instruction and NOT re-appended) + 25 fresh QTH extras from the 11/06 QTH drop = 31 queued. Worked/triaged: 23 (22 live, 1 gone: 1783953). Ledger hits: 5 (Yaesu FT-817 for 1784188, Icom IC-735 for 1784192, ATR-1000 for 1784206, Astron RS-20A for 1784219, Yaesu SP-767 for 1784187); IC-7100 ledger not applied because 1781169 is a touchscreen spare part. eBay sold searches used 15 of 15: FT-991, MFJ-923, MFJ-921, Hy-Gain T2X, TIC Ring rotor, Kenwood TS-430S, Ten-Tec Omni VII, Ameritron AL-800, Ten-Tec Omni VI, TE Systems 1452G, Hy-Gain HAM-IV, mAT-600A, Radio Shack DX-394, Yaesu SP-2000, Icom IC-W32A. Zero qualifying comps: MFJ-923, TIC Ring, Omni VII, AL-800, Omni VI, mAT-600A. Thin: T2X (3, with outliers), 1452G (1). Solid: FT-991 (4, median 748.33), MFJ-921 (8, median 109.12 with 3 outliers), TS-430S (13, median 339.99), HAM-IV (5, median 379.99), DX-394 (25, median 160.00), SP-2000 (6, median 189.34), IC-W32A (7, median 127.99). OUTLIERS flagged: MFJ-921 820163371962/206581671728/327261069292; T2X 127987778559/278436909505; DX-394 407265102450/188597209086; IC-W32A 168553446939. Gone: 1783953 (same seller KC9DZ re-listed as 1784240 at $250 - cross-post/repost, no serials). Possible cross-post: 1784253/1784252 (W7BJN, SP-2000, no serials). Skipped: 1781169 (touchscreen spare part, not the radio). UNCERTAIN work flags: 1784240 (parts-or-repair wording), 1783629 (dim display). Modification wording carried verbatim: 1784200 (brake-delay modification), 1784250 (70mHz IF tap cable). Identity cautions: 991 treated as original FT-991 only (FT-991A sales excluded); FT-817 ledger entry used for the non-ND 1784188; AL-800 vs AL-800H kept separate; Omni VI vs Omni VI Plus kept separate; no eHam page opened; eBay signed in as Leo, one page at a time, no challenges. CARRIED OVER: 1784231, 1783943, 1784243, 1784248, 1784109, 1784189, 1784193, 1784232 (not opened this run; cap reached; items from the 2026-11-06 QTH drop: 1784231 Patcomm PC1610 $150+ship, 1783943 Jetstream JT220M $135 shipped (renewed), 1784243 CDE AR-22 rotor $125+ship, 1784248 Yaesu FT-2980R $125 shipped, 1784109 Kenwood PS-430 $100 shipped (renewed), 1784189 Icom IC-PS15 $95+ship, 1784193 Yaesu FC-757AT as-is $75+ship, 1784232 HF Signals Trio $600 local cash only). BACKLOG CARRY: none. ran_at/searched_at are file-write times, -05:00 (EST). Seller feedback n/a (QTH).",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "Yaesu FT-991 (original; seller title 'Yaesu 991') - QTH 1783910 by KF4EA",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. Seller: 'Nice radio with original mic and bound copy of owners manual... One minor scratch on the top. Power pole connectors. I do not have the original box but if buyer wishes to have unit shipped, it would be properly packaged and shipped at buyers expense. $600.00 firm.' Treated as original FT-991 per Leo's ruling. Re-run of a named extra (first triaged 2026-11-03). comps: yaesu-ft-991, 4 kept, median 748.33.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784171",
+      "site": "qth",
+      "title": "MFJ-923 Dual Band Tuner - QTH 1784171 by N9OGF",
+      "price": 60,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. 'VGC $60 Dollars PICK UP only in Yorkville, Illinois'. not comped: 1 eBay sold result (Best offer accepted, dropped); see mfj-923 file.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784169",
+      "site": "qth",
+      "title": "MFJ-921 VHF Tuner - QTH 1784169 by N9OGF",
+      "price": 60,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. 'VGC $60 dollars PICK UP only in Yorkville ,Illinois'. comps: mfj-921, 8 kept, median 109.12. Several kept comps flagged OUTLIER.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784111",
+      "site": "qth",
+      "title": "Hy-Gain T2X TailTwister rotor - QTH 1784111 by W5RL",
+      "price": 475,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. 'Hygain T2X rotor 475 plus shipping / fees Dallas Tx' (shipping amount not stated). comps: hy-gain-t2x, 3 kept, median 425.0. THIN; OUTLIERS flagged.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784178",
+      "site": "qth",
+      "title": "TIC Ring rotor 45/55G - QTH 1784178 by NT9J",
+      "price": 160,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "live. 'TIC Ring rotor... will work for 55/45 G tower, it is missing a motor but you should be able to get one easily... pickup only at 47387 east central Indiana'. not comped: no usable eBay sold results; see tic-ring-rotor-45-55g file.",
+      "work_flag": "missing a motor",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783953",
+      "site": "qth",
+      "title": "Kenwood TS-430S for parts or repair - QTH 1783953 by KC9DZ",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-11-05",
+      "condition_notes": "no longer live. Price/wording from the 2026-11-05 extras drop; ad page returned 'no longer in our system'. Same seller (KC9DZ) now has ad 1784240 with the same wording at $250 - likely a repost (no serials shown). not comped separately; model comps in kenwood-ts-430s (13 kept, median 339.99).",
+      "work_flag": "for parts or repair, 'on the air LED stays lit'",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784250",
+      "site": "qth",
+      "title": "Ten-Tec Omni VII w/ ATU - QTH 1784250 by WB7RBN",
+      "price": 800,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. 'TenTec Omni VII transceiver with internal Automatic Antenna Tuner, Collins 500 Hz CW filter, and the external Cooling Fan. A 70mHz IF tap cable is installed for connecting an external SDR receiver. Includes the manual, schematics, power cord with Anderson Power Poles, a hand microphone, a SignaLink USB with cables, a RS232 to USB cable... original shipping container. Maybe picked up in the Phoenix, AZ area for $800.' not comped: no Omni VII transceiver sales found; see tentec-omni-vii file.",
+      "work_flag": "70mHz IF tap cable is installed for connecting an external SDR receiver",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1778529",
+      "site": "qth",
+      "title": "Ameritron AL-800 amplifier - QTH 1778529 by KP4YH (renewed)",
+      "price": 1100,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. 'I am selling a beautiful Al 800; it works like new. It has been well cared for and never used in competitions. The fan has been recently cleaned and lubricated. It comes in the original box with packaging and the manual. $1,100.00 plus shipping. I accept Zelle or money order.' (shipping amount not stated) not comped: no AL-800 (non-H) sales found; see ameritron-al-800 file.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784188",
+      "site": "qth",
+      "title": "Yaesu FT-817 (not ND) + LDG Z-817 - QTH 1784188 by W4ELP",
+      "price": 500,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. 'FT-817 (Not 'ND') works as it should. Has CW filter, battery holder (no battery), original hand mic and power cable with Anderson Powerpoles. Z-817 does not automatically tune upon band change, but tunes ok with push button. $500.00 shipped.' Includes Z-817 tuner. ledger hit (yaesu-ft-817), ledger comps used.",
+      "work_flag": "Z-817 does not automatically tune upon band change, but tunes ok with push button",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784220",
+      "site": "qth",
+      "title": "Ten-Tec Omni-6 Option 3 + 961 PS/speaker - QTH 1784220 by N8CKU",
+      "price": 500,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. 'Ten Tec Omni-6 with factory installed option 3, and matching 961 power supply/Speaker. I am the second owner and the rig works as it should. Cosmetically a 10... Asking $500 plus shipping. Prefer PayPal. No returns for the usual reasons.' (shipping amount not stated) not comped: zero qualifying Omni VI sales; see tentec-omni-vi file.",
+      "work_flag": "No returns for the usual reasons",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784209",
+      "site": "qth",
+      "title": "TE Systems 1452G 2m amp - QTH 1784209 by W5IB",
+      "price": 425,
+      "shipping": 25,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. '100% of operational. The preamp works great. 10-15 watts in gets 300-350 watts out... keep the leads short and not to drive it with more than 25 watts. $425 plus $25 for shipping.' Power supply available separately. comps: te-systems-1452g, 1 kept, median 847.0. THIN.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784192",
+      "site": "qth",
+      "title": "Icom IC-735 + PS-55 - QTH 1784192 by N5TTT",
+      "price": 425,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. 'fully operational... 100 watts on all amateur bands... good vintage cosmetic condition with normal signs of use. Optional matching Icom AT-150 automatic antenna tuner... additional $125. IC-735 + PS-55: $425. Complete package with AT-150: $550. Plus shipping from Cedar Park, TX.' (shipping amount not stated) ledger hit (icom-ic-735), ledger comps used. Ledger is radio only; ad includes PS-55.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784200",
+      "site": "qth",
+      "title": "Hy-Gain HAM-IV rotor + controller - QTH 1784200 by KJ4VFB",
+      "price": 350,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. 'Overhauled, Tested & Working... believed to be a HAM-IV, complete with matching Telex Hy-Gain H-IV/CD-45-II control box. The rotor was professionally overhauled and modified including a brake-delay modification designed to protect the rotor gears and braking mechanism... stamped H4 S1 JUN79... $350 OBO'. Shipping not stated. comps: hy-gain-ham-iv, 5 kept, median 379.99.",
+      "work_flag": "believed to be a HAM-IV; professionally overhauled and modified including a brake-delay modification",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784205",
+      "site": "qth",
+      "title": "mAT-600A auto tuner - QTH 1784205 by KD1VU",
+      "price": 275,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. 'like new condition mAT-600 A 600-watt auto tuner for HF. Works great is RF sensing and has power cable... $275 shipped.' Payment by check/money order only. not comped: zero eBay sold results; see mat-600a file.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784240",
+      "site": "qth",
+      "title": "Kenwood TS-430S (parts or repair wording) - QTH 1784240 by KC9DZ",
+      "price": 250,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. 'KENWOOD TS 430 FOR PARTS OR REPAIR RADIO WORKS OK BUT HAS A PROBLEM THE ON THE AIR LED STAYS LIT, FULL TRANSMITS OK BUT RECEIVE A LITTLE LOW EVERYTHING ELSE FUNCTIONS AS IT SHOULD... COMES WITH Y-88S AND Y-88SN FILTERS AND FM BOARD, POWER CORD, INSTRUCTION AND SERVICE MANUALS, ORIGNAL DOUBLE BOX... BUY AS IS NO RETURNS DUE TO PART TRADERS MIGHT BE A QUICK FIX FOR A NICE RADIO 250.00 SHIPPED PAYPAL'. Cross-post/repost of 1783953 (same seller, same text, $200 there; no serials). comps: kenwood-ts-430s, 13 kept, median 339.99.",
+      "work_flag": "FOR PARTS OR REPAIR... ON THE AIR LED STAYS LIT... RECEIVE A LITTLE LOW... BUY AS IS NO RETURNS (UNCERTAIN whether needs-work)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784206",
+      "site": "qth",
+      "title": "ATR-1000 auto tuner - QTH 1784206 by KD1VU",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. 'hf auto tuner handles 1000 watts ssb/cw and 300 watts FM and FT8. Works great. It's RF sensing and comes with power cable... $200 shipped.' Payment by check/money order only. ledger hit (atr-1000-automatic-antenna-tuner), ledger comps used.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783629",
+      "site": "qth",
+      "title": "Radio Shack DX-394 receiver - QTH 1783629 by AA4TZ (renewed)",
+      "price": 175,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. 'working condition, all knobs and dials work as they should. Condition... good to very good and cleaner than most. Includes the whip antenna. The front panel display works, but is dim as most of these are. There are mods to add 3 100 ohm resisters on YOUTUBE to remedy this. This is the later, hard to find 'B' Model... $175.00 which includes shipping to CONUS ONLY.' comps: radio-shack-dx-394, 25 kept, median 160.0. Outliers flagged. Receiver, not a transmitter.",
+      "work_flag": "front panel display works, but is dim as most of these are (UNCERTAIN)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784253",
+      "site": "qth",
+      "title": "Yaesu SP-2000 speaker w/ Phits - QTH 1784253 by W7BJN",
+      "price": 165,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. 'Mint condition with original box etc. $165.00 Shipped to lower 48.' Two near-identical ads by the same seller (1784253 and 1784252); possible cross-post, no serials. comps: yaesu-sp-2000, 6 kept, median 189.34.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784252",
+      "site": "qth",
+      "title": "Yaesu SP-2000 Deluxe speaker w/ Phits - QTH 1784252 by W7BJN",
+      "price": 165,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. 'Mint Condition..with original Box etc. $165.00 Shipped to lower 48.' Possible cross-post of 1784253 (same seller, same price; no serials shown). comps: yaesu-sp-2000, 6 kept, median 189.34. (shared file).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784242",
+      "site": "qth",
+      "title": "Icom IC-W32A HTs (two) - QTH 1784242 by K9OY",
+      "price": 150,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. 'Two - ICOM IC-W32A True Dual Bander HTs with excellent batteries, charges & more. 1) Has Box & External Speaker Mic $150.00. 2) Box-less with Wall wart charger $125.00. Both add Ship & any PPl 3.5% Buyers Insurance fees.' Shipping amount not stated. comps: icom-ic-w32a, 7 kept, median 127.99.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784219",
+      "site": "qth",
+      "title": "Astron RS-20A power supply - QTH 1784219 by W6DMO",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. '20 amp power supply as new. Bought it last month to test a xcvr out for about 15 minutes then put it back in the box... $100 plus shipping(Pirateship).' Shipping amount not stated. ledger hit (astron-rs-20a), ledger comps used.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784187",
+      "site": "qth",
+      "title": "Yaesu SP-767 speaker - QTH 1784187 by N5TTT",
+      "price": 75,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. 'Nice cosmetic condition for its age... Asking $75 plus shipping from Cedar Park, TX.' Shipping amount not stated. ledger hit (yaesu-sp-767), ledger comps used.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781169",
+      "site": "qth",
+      "title": "Icom 7100 replacement touchscreen (spare part) - QTH 1781169 by N4ERL (renewed)",
+      "price": 30,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. 'Icom 7100 touchscreen new condition tested working, spare for 7100 w/ adhesive strip 30.00 shipped'. Not a radio. not comped: spare part, not the IC-7100 radio (ledger IC-7100 not applied).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
