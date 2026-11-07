@@ -1,0 +1,54 @@
+{
+  "model": "Yaesu FT-991",
+  "slug": "yaesu-ft-991",
+  "searched_at": "2026-11-06T18:59:52-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "4 kept, median 748.33, low 650.0, high 782.13. Original FT-991 ONLY (per Leo's ruling for ad 1783910); FT-991A sales excluded entirely. Dropped Best offer accepted: 5 (800647647024 $650.00, 117399359206 $1000.00 bundle w/ mic+MFJ items, 178471016735 $799.99, 178456840062 $845.00, 800568396331 $750.00). Parts-only dropped: 1 (267760073694 $275.00). Excluded non-unit: manual 192037858843, SP10 speaker 127933306828. Ad 1783910 was triaged earlier (2026-11-03 sweep) and is re-run here at the named-extra instruction. Ledger FT-991 entry had count 2 (miss) so an eBay sold search was run.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+    "site": "qth",
+    "ask": 600,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 776.66,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128111155293",
+      "source": "ebay",
+      "notes": "Shown shipping $139.86. Auction, 25 bids. Title: YAESU FT-991 ... With Manuals.",
+      "flags": []
+    },
+    {
+      "price": 650,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800686253602",
+      "source": "ebay",
+      "notes": "Shown shipping $20.27. Listed $650.00 or Best Offer; not marked Best offer accepted.",
+      "flags": []
+    },
+    {
+      "price": 720,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800588791875",
+      "source": "ebay",
+      "notes": "Shown shipping $45.00. Auction, 11 bids. Title includes +SP10 speaker.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 782.13,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227509624770",
+      "source": "ebay",
+      "notes": "Shown shipping $30.00. Shown $782.13 with $899.00 struck/or Best Offer; not marked Best offer accepted. Title: 2016 Yaesu American Version FT-991 ... Working.",
+      "flags": []
+    }
+  ]
+}
