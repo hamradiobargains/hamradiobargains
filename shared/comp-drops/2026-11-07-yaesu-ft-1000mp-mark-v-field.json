@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-1000MP Mark V Field",
+  "slug": "yaesu-ft-1000mp-mark-v-field",
+  "searched_at": "2026-11-07T14:59:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Yaesu FT-1000MP Mark V Field', page 1 (18 results). Zero usable unit comps - thin. Dropped 2 parts-only Mark V Field units ($549.95 'Parts Only', 2026-09-12; $395 'AS IS' Parts Only, 2026-08-26). Left out non-Field FT-1000MP Mark V (200 W) units as a different model ($1250 or Best Offer 2026-11-04; $1980 2026-10-06 FP-29; $1100 2026-09-29; $450 or Best Offer 2026-09-17; plus 2 parts-only), and parts/accessories (ATU, harness, filter, power supplies, cables, front panel, PA unit, LED kit, manual - the manual was also best-offer-accepted). searched_at approximate (within ~1 min).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784277",
+    "site": "qth",
+    "ask": 795.0,
+    "shipping": 0
+  },
+  "comps": []
+}
