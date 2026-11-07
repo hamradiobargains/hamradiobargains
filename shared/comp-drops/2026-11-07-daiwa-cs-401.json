@@ -1,0 +1,92 @@
+{
+  "model": "Daiwa CS-401",
+  "slug": "daiwa-cs-401",
+  "searched_at": "2026-11-07T05:55:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "8 kept comps on page 1. Mix of new (5) and pre-owned (3) units -- new units cluster at $139.95-$152.08, pre-owned at $47.50-$90. Dropped 1 best-offer-accepted (168769875987, shown $81/$90 struck). Dropped 0 parts-only. Left out 1 for model identity doubt: 307115000634 \"Vintage Syncron CS-401 ... Daiwa OEM\" $80 (Syncron-branded, not certain it is the same unit). OUTLIER: 407227572795 $47.50 untested vs ~$142 for the rest.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629520",
+    "site": "eham",
+    "ask": 90.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 141.99,
+      "sold_date": "2026-10-12",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227546046999",
+      "source": "ebay",
+      "notes": "Buy It Now; +$2.99 delivery",
+      "flags": []
+    },
+    {
+      "price": 139.95,
+      "sold_date": "2026-10-11",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/377527542858",
+      "source": "ebay",
+      "notes": "Buy It Now; title says brand new in factory box; +$14.95 delivery",
+      "flags": []
+    },
+    {
+      "price": 75.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158316808902",
+      "source": "ebay",
+      "notes": "Buy It Now; title says Excellent; +$28.10 delivery",
+      "flags": []
+    },
+    {
+      "price": 47.5,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407227572795",
+      "source": "ebay",
+      "notes": "OUTLIER: $47.50 vs ~$142 median of the rest (rest is mostly new units); title says Untested; sold at shown price (or Best Offer, not best-offer-accepted); +$9.61 delivery",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 141.99,
+      "sold_date": "2026-09-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227524334679",
+      "source": "ebay",
+      "notes": "Buy It Now; +$2.99 delivery",
+      "flags": []
+    },
+    {
+      "price": 141.99,
+      "sold_date": "2026-08-29",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227420934405",
+      "source": "ebay",
+      "notes": "Buy It Now; +$2.99 delivery",
+      "flags": []
+    },
+    {
+      "price": 152.08,
+      "sold_date": "2026-08-26",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/306997442089",
+      "source": "ebay",
+      "notes": "Buy It Now; located in Japan; +$67.00 delivery, includes import fees",
+      "flags": []
+    },
+    {
+      "price": 90.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227350922946",
+      "source": "ebay",
+      "notes": "Buy It Now; title says Untested; +$12.39 delivery",
+      "flags": [
+        "as_is"
+      ]
+    }
+  ]
+}
