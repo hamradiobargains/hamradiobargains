@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-8100R",
+  "slug": "yaesu-ft-8100r",
+  "searched_at": "2026-11-07T17:59:36-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - 0 qualifying comps. dropped 4 best-offer-accepted (407334847796 $199.98 open box; 147663436426 $99.95 parts-only untested; 117493144560 $129; 198580136711 $179.99). dropped 3 parts-only (307216402780 front panel only $69.99; 137782715062 $123.50 and 278413045900 $80, both titled FT-8100 without R). Other results were FT-817/897 etc. Note the trigger listing itself is for parts or not working.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/206682798636",
+    "site": "ebay",
+    "ask": 225.0,
+    "shipping": 10.56
+  },
+  "comps": []
+}
