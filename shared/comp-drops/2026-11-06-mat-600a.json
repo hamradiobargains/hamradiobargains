@@ -1,0 +1,15 @@
+{
+  "model": "mAT-600A",
+  "slug": "mat-600a",
+  "searched_at": "2026-11-06T18:59:52-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Search 'mat-600a': zero relevant sales (only unrelated Honda gasket 298700238292). Zero qualifying comps. Not comped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784205",
+    "site": "qth",
+    "ask": 275,
+    "shipping": 0
+  },
+  "comps": []
+}
