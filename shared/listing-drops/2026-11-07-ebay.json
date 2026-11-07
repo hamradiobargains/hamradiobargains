@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-07",
+  "ran_at": "2026-11-07T17:53:04-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670), Buy It Now filter, sorted newly listed, page 1 only (~60 cards); signed in as Leo, no challenges. Window since previous ebay run 2026-11-06T18:00:07-05:00 (browse cards show no listing times; newest-first order used). None of the picked items were in dropped-urls.json. Auction-with-BIN cards (showing bids/time left) were not picked. Item descriptions (iframe) could not be read; condition_notes use title, eBay condition label and seller notes only. Seller rule failures (skipped): ICOM IC-746PRO 880093300423 $450 (seller andyofne, feedback score 267 but no positive % shown - no ratings in last 12 months, could not verify); Yaesu FT-2500M 800890167344 $75 (seller 0 ratings). Ledger: 3 hits (ICOM IC-208H, ICOM IC-706MKIIG, YAESU FTM-400XDR); 5 misses -> 5 eBay sold searches (Collins KWM-380, IC-2300H, TM-2550A not in ledger; TS-480HX ledger date 2026-09-30 stale; FT-8100R not in ledger). Not picked: accessories/parts/upgrade kits (MB-123 handles, TL-922 and FL-2100Z upgrades, TS-530S PLL unit, IC-706 head, meters lot, relays, EPROM, connectors), test gear (MFJ-259B, Kenwood DM-81), interfaces/decoders/controllers (RIGblaster, MFJ-461, SR-112, Spectracom box, MFJ loop controller), receivers/scanners (IC-R2, VR-120, Hallicrafters SX-100, TCS-13), non-ham/commercial/generic (Motorola MT500, GE Mastr, Regency BTH-202B, Radtel, TWAYRDIO, BridgeCom lot, MURS, BE RIOT, Nooelec, Icom 5061d), CB/10m (Galaxy 66v, QT60, Gray 300/Retevis, Kenwood 9480 auction), auctions (VX-2R, VR-120, KWM-2-style, Xiegu G90, ID-1, RCI VR-9000), and parts-only lots/vintage beyond cap (Ten-Tec Triton IV lot, Palomar Skipper 300, MFJ-931, Midland 13-509, HTX-100, TV-502S, Heathkit HG-10B).",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/198780122148",
+      "site": "ebay",
+      "title": "Rockwell Collins KWM-380 HF Transceiver SN 739 w/ Original Manual Tested 95W",
+      "price": 2395.0,
+      "shipping": 124.5,
+      "found_at": "2026-11-07",
+      "condition_notes": "eBay condition: Used. Title says tested 95W, includes original manual. Seller notes: \"Please see description and pictures\". Or Best Offer; no returns.",
+      "work_flag": "",
+      "seller_feedback": "100% (4233 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/900073802854",
+      "site": "ebay",
+      "title": "Icom IC-2300H VHF FM Mono Band Transceiver w/ HM-133V Mic LCD Original Box",
+      "price": 124.99,
+      "shipping": 8.17,
+      "found_at": "2026-11-07",
+      "condition_notes": "eBay condition: Used. Includes HM-133V mic and original box. Seller notes: \"Very good condition. Powers on but unable to properly test output due to lack of proper antenna.\" Or Best Offer; no returns.",
+      "work_flag": "powers on but unable to properly test output due to lack of proper antenna",
+      "seller_feedback": "100% (2411 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/336885944870",
+      "site": "ebay",
+      "title": "ICOM-208H VHF/UHF FM Transceiver w/Cables, Manual, Other Parts (Used)",
+      "price": 259.99,
+      "shipping": 17.9,
+      "found_at": "2026-11-07",
+      "condition_notes": "eBay condition: Used. Includes cables, manual, other parts per title. Or Best Offer; no returns. Description not read.",
+      "work_flag": "",
+      "seller_feedback": "99.1% (652 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366793336438",
+      "site": "ebay",
+      "title": "Kenwood TM-2550A 2 Meter 144MHz FM Transceiver",
+      "price": 124.99,
+      "shipping": 19.99,
+      "found_at": "2026-11-07",
+      "condition_notes": "eBay condition: Used. No seller notes shown; description not read. Or Best Offer; no returns.",
+      "work_flag": "",
+      "seller_feedback": "99.4% (20013 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/257841000527",
+      "site": "ebay",
+      "title": "Kenwood TS-480HX HF/50mhz HF Radio *PLEASE READ ITEM DESCRIPTION*",
+      "price": 650.0,
+      "shipping": 45.0,
+      "found_at": "2026-11-07",
+      "condition_notes": "eBay condition: For parts or not working. Title says *PLEASE READ ITEM DESCRIPTION*; description not read, so the fault is unknown. No returns.",
+      "work_flag": "For parts or not working; *PLEASE READ ITEM DESCRIPTION*",
+      "seller_feedback": "100% (198 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/206682805748",
+      "site": "ebay",
+      "title": "Icom IC-706MKIIG HF/VHF/UHF All Mode Transceiver w/ Original Box",
+      "price": 699.0,
+      "shipping": 12.72,
+      "found_at": "2026-11-07",
+      "condition_notes": "eBay condition: For parts or not working. Includes original box. Or Best Offer; no returns. Description not read.",
+      "work_flag": "For parts or not working",
+      "seller_feedback": "100% (26 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/840105282278",
+      "site": "ebay",
+      "title": "Yaesu FTM-400XDR HAM transceiver Lot",
+      "price": 499.0,
+      "shipping": 17.15,
+      "found_at": "2026-11-07",
+      "condition_notes": "eBay condition: Used. Titled \"Lot\"; item specifics give model YAESU FTM-400XDR. What else is in the lot was not confirmed (description not read). Or Best Offer.",
+      "work_flag": "",
+      "seller_feedback": "100% (4738 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/206682798636",
+      "site": "ebay",
+      "title": "Yaesu FT-8100R Dual Band VHF/UHF FM Transceiver w/ Original Box",
+      "price": 225.0,
+      "shipping": 10.56,
+      "found_at": "2026-11-07",
+      "condition_notes": "eBay condition: For parts or not working. Includes original box. Or Best Offer. Description not read.",
+      "work_flag": "For parts or not working",
+      "seller_feedback": "100% (26 ratings)"
+    }
+  ]
+}
