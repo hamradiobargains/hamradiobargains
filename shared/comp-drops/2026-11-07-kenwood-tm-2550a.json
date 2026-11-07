@@ -1,0 +1,34 @@
+{
+  "model": "Kenwood TM-2550A",
+  "slug": "kenwood-tm-2550a",
+  "searched_at": "2026-11-07T17:59:36-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - 2 comps kept. dropped 2 best-offer-accepted (236602309184 2 units $150; 278305434250 $85). dropped 3 parts-only (287706958016 $85; 188978524143 $30; 267305198627 $149.99 untested). Left out memory backup battery. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366793336438",
+    "site": "ebay",
+    "ask": 124.99,
+    "shipping": 19.99
+  },
+  "comps": [
+    {
+      "price": 98.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287574059372",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping $14.98. Title: Volume and Squelch Pots Good.",
+      "flags": []
+    },
+    {
+      "price": 85.0,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278287696448",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); shipping $10.56. Title: w/ Mic LCD.",
+      "flags": []
+    }
+  ]
+}
