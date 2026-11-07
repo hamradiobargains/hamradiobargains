@@ -1,0 +1,74 @@
+{
+  "model": "Icom IC-2300H",
+  "slug": "icom-ic-2300h",
+  "searched_at": "2026-11-07T17:59:36-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "6 comps kept - solid set. dropped 1 best-offer-accepted (267775708643, $100). Left out 3 unbranded \"IC-2300H ... VHF Marine/Maritime Radio Car Radio Station\" new listings ($169-$173, sellers au-b2c and mfx_92) - not certain these are Icom units. Also left out mics, cables, programming software. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/900073802854",
+    "site": "ebay",
+    "ask": 124.99,
+    "shipping": 8.17
+  },
+  "comps": [
+    {
+      "price": 131.0,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/900015369689",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping $8.65. Title: with RT Systems programming.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 180.0,
+      "sold_date": "2026-09-23",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/257755046215",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); shipping $28.55. Title: NEW IN BOX ... Mars.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 131.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298610088079",
+      "source": "ebay",
+      "notes": "Auction, 8 bids; shipping $15.00.",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307151173201",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); shipping $8.53.",
+      "flags": []
+    },
+    {
+      "price": 119.95,
+      "sold_date": "2026-08-28",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/307139379993",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; shipping $16.95. Title: HAS PRE-PROGRAMMED 83 TRUCKING CHAN.",
+      "flags": []
+    },
+    {
+      "price": 149.0,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267755480109",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping.",
+      "flags": []
+    }
+  ]
+}
