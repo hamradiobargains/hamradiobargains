@@ -1,0 +1,137 @@
+{
+  "model": "Kenwood TS-430S",
+  "slug": "kenwood-ts-430s",
+  "searched_at": "2026-11-06T18:59:52-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "13 kept, median 339.99, low 200.0, high 399.99. Solid (13 kept). Also serves ad 1783953 (gone, same seller KC9DZ; likely the same radio reposted as 1784240 - no serials shown). Condition/titles were read to roughly 50 characters from the results page, so a flaw disclosed later in a title would not be visible. Dropped Best offer accepted (radio sales): 7 (920077080076 $100.00 untested, 366757406132 $229.99 parts, 820236238443 $599.99 station bundle, 366542652164 $310.00, 227492920680 $250.00, 198535715601 $295.00, 188117368524 $429.99). Parts-only dropped: 7 (267822298975 $178.50, 366757406132 $229.99, 800817947444 $50.00, 137767433102 $169.99, 158318733823 $219.99, 407212441315 $175.00, 327345416844 $7.00). Excluded as untested: 168643679251 $269.99 or Best Offer. Excluded accessories/parts: manuals, filters, switches, face, boards, speakers, mics, AT-250 tuners, bundle sets.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784240",
+    "site": "qth",
+    "ask": 250,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 249.95,
+      "sold_date": "2026-11-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257833686971",
+      "source": "ebay",
+      "notes": "Shown shipping $25.00. Buy It Now. Title: ... All Mode 160-10m PS430 Power Supply.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 356.64,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178153322840",
+      "source": "ebay",
+      "notes": "Shown shipping $42.78. Buy It Now. Title: Working with MC-50 Microphone Stand.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 379.99,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398395428709",
+      "source": "ebay",
+      "notes": "Shown shipping $42.85. Buy It Now.",
+      "flags": []
+    },
+    {
+      "price": 339.99,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128136067173",
+      "source": "ebay",
+      "notes": "Shown shipping $28.74. Buy It Now.",
+      "flags": []
+    },
+    {
+      "price": 399,
+      "sold_date": "2026-10-15",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/800760953551",
+      "source": "ebay",
+      "notes": "Shown shipping $50.00. Buy It Now.",
+      "flags": []
+    },
+    {
+      "price": 350,
+      "sold_date": "2026-10-12",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/237118373568",
+      "source": "ebay",
+      "notes": "Shown shipping $112.22. Listed $350.00 or Best Offer; not marked accepted. Title: SSB w/ Notch Filter, Gray.",
+      "flags": []
+    },
+    {
+      "price": 200,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117431679656",
+      "source": "ebay",
+      "notes": "Shown shipping $30.00. Auction, 1 bid.",
+      "flags": []
+    },
+    {
+      "price": 265,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800663761278",
+      "source": "ebay",
+      "notes": "Shown shipping $96.39. Listed $265.00 or Best Offer; not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 280,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128073958771",
+      "source": "ebay",
+      "notes": "Shown shipping $13.21. Buy It Now.",
+      "flags": []
+    },
+    {
+      "price": 399.99,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/226830464007",
+      "source": "ebay",
+      "notes": "Shown shipping $155.65. Listed $399.99 or Best Offer; not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 300,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147522650052",
+      "source": "ebay",
+      "notes": "Shown shipping $30.22. Auction, 4 bids.",
+      "flags": []
+    },
+    {
+      "price": 339.99,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820035522272",
+      "source": "ebay",
+      "notes": "Shown shipping $42.38. Listed $339.99 or Best Offer; not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 375,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298518099917",
+      "source": "ebay",
+      "notes": "Shown shipping $41.90. Listed $375.00 or Best Offer; not marked accepted. Title says Tested.",
+      "flags": []
+    }
+  ]
+}
