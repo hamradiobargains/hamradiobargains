@@ -1,0 +1,32 @@
+{
+  "model": "Palstar HF-Auto",
+  "slug": "palstar-hf-auto",
+  "searched_at": "2026-11-07T18:58:43-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep. eBay sold search \"Palstar HF-Auto\": 6 results; 2 kept 1800W units (thin). Dropped BOA: 158236470003 $1,050 and 158197464873 $1,400, both 1500 W versions (2). HF-AUTO-R remote ($349.99), dust cover and other brands ignored. Trigger ad (1784294) is the 1800 W version with firmware 2.40. Kept 2, median 1324.0, low 1298.0, high 1350.0.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784294",
+    "site": "qth",
+    "ask": 1300,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1350,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206622851061",
+      "notes": "HF-AUTO 1800W automatic antenna tuner + manual; shipping 93.59",
+      "flags": []
+    },
+    {
+      "price": 1298,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407205685634",
+      "notes": "auction final bid; HF AUTO 1800 Watts; shipping 23.89",
+      "flags": []
+    }
+  ]
+}
