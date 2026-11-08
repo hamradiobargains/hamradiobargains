@@ -1,0 +1,82 @@
+{
+  "model": "Kenwood PS-430",
+  "slug": "kenwood-ps-430",
+  "searched_at": "2026-11-07T18:58:43-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep. eBay sold search \"Kenwood PS-430\": 27 results. 8 standalone PS-430 power-supply sales kept. Dropped BOA: 366574417942 $95, 178135034859 $117.62 (2). TS-430S radio sales and radio+PS bundles ignored (not the unit). Service manual and PS-53 (different model) ignored. Outliers: 307214142385 ($49.99) and 128030381243 ($178.00). Kept 8, median 115.0, low 49.99, high 178.0.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784109",
+    "site": "qth",
+    "ask": 100,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 130,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267820563355",
+      "notes": "Buy It Now; shipping 24.65",
+      "flags": []
+    },
+    {
+      "price": 130,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267819983331",
+      "notes": "Buy It Now; shipping 24.65; same price/shipping as 267820563355 (possible duplicate listing)",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 140,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257708884364",
+      "notes": "tested working; shipping 40.00",
+      "flags": []
+    },
+    {
+      "price": 49.99,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307214142385",
+      "notes": "OUTLIER: below 0.5x median of other kept comps (~130); auction final bid; shipping 12.99",
+      "flags": []
+    },
+    {
+      "price": 95,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158309835790",
+      "notes": "\"Good Working\" BIN; shipping 25.00",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398397828917",
+      "notes": "shipping 36.85",
+      "flags": []
+    },
+    {
+      "price": 178,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128030381243",
+      "notes": "OUTLIER: above 1.5x median of other kept comps (~100); shipping 40.00",
+      "flags": []
+    },
+    {
+      "price": 80,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127940041172",
+      "notes": "shipping 8.17",
+      "flags": []
+    }
+  ]
+}
