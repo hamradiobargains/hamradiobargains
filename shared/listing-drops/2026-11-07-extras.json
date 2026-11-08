@@ -1,0 +1,185 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-07",
+  "ran_at": "2026-11-07T18:59:17-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered (ran_at after the previous extras drop 2026-11-06-extras.json, ran_at 2026-11-06T18:59:52-05:00): 2026-11-07-qth.json (14:53:25), 2026-11-07-eham.json (05:55:30), 2026-11-07-ebay.json (17:53:04). The 2026-11-07 eHam drop names no extras; the 2026-11-07 eBay drop names no extra IDs/URLs (category list only). Queue: 8 carry-overs (1784231, 1783943, 1784243, 1784248, 1784109, 1784189, 1784193, 1784232) + named extra QTH 1783910 (Yaesu '991' $600 firm, treated as the ORIGINAL FT-991 per Leo's standing ruling; already worked earlier and already in dropped-urls, so re-run on instruction and NOT re-appended) + 27 fresh QTH extras from the 11/07 QTH drop = 36 queued. Worked/triaged: 16 (all 16 live; 0 gone). Ledger hits: 1 (Yaesu FT-991 for 1783910: median 776.66, count 3, date 2026-10-09). eBay sold searches used 15 of 15: Patcomm PC-1610, Jetstream JT220M, CDE AR-22, Yaesu FT-2980R, Kenwood PS-430, Icom IC-PS15, Yaesu FC-757AT, HF Signals sBitx, Ameritron ALS-1306, Yaesu FTdx101D, Expert 1.3K-FA, Anan 7000DLE MKII, Elecraft KPA500, Palstar HF-Auto, Elecraft K2/100. Zero qualifying comps: Patcomm PC-1610 (0 results), Jetstream JT220M (only sale was Best-offer-accepted), Anan 7000DLE MKII (0 results). Thin: CDE AR-22 (2), HF Signals sBitx V3 (1), FTDX101D (1, well below the stale ledger median), Expert 1.3K-FA (2, mutual outliers), Elecraft KPA500 (1), Palstar HF-Auto (2), Elecraft K2/100 (1). Solid: FT-2980R (8, median 177.5), Kenwood PS-430 (8, median 115.0), Icom IC-PS15 (6, median 82.44), Yaesu FC-757AT (5, median 145.0), Ameritron ALS-1306 (3, median 2400.0). OUTLIERS flagged: PS-430 307214142385 ($49.99) and 128030381243 ($178.00); Expert 1.3K-FA 168831234406 ($1,100) and 960063990070 ($2,650). Skipped: none. Cross-posts: none confirmed (N5TTT's 1784189/1784193 are different items; KC9DZ 1784109 is separate from the earlier 1784240). Work flags carried verbatim: 1784231 (parts or repair, no transmit), 1784193 (as-is, does not function properly). UNCERTAIN: 1784279 (seller not expert, options unconfirmed), 1784243 (AR-22 vs AR-22R identity), 1784248/FT-2980 (clone-style import listings excluded from comps). Modification wording: 1784292 (Noctua fan upgrade, noted verbatim). Identity cautions: 991 treated as original FT-991 only (FT-991A figures not used); FT-2980 and FT-2980R titles treated as the same radio; AR-22 kept separate from AR-22R; K2/100 kept separate from K2 10W; HF-Auto 1800W kept separate from 1500W. No eHam page opened; QTH pages opened one at a time (4.5 s apart); eBay signed in as Leo, one page at a time, no challenges. CARRIED OVER: 1784321, 1775896, 1784332, 1784331, 1784324, 1784263, 1784318, 1784322, 1784310, 1784298, 1784280, 1784268, 1784271, 1784270, 1784266, 1784289, 1784320, 1784299, 1784293, 1784295 (not opened this run; cap reached; all from the 2026-11-07 QTH drop, in drop order: 1784321 Ten-Tec Jupiter w/ ATU $550, 1775896 Icom IC-706MKIIG + accessories $975 OBO shipped (renewed; ledger hit available), 1784332 Orion 2800 + Green Heron RT rotator $1850, 1784331 MFJ-949E $129 + $31.50 (ledger hit available), 1784324 Icom ID-51A + extras $350 shipped, 1784263 Hermes Lite II $375 shipped, 1784318 Astron RS-50A $300/$350 shipped, 1784322 sBitx QRP $265, 1784310 zBitx V2 $269, 1784298 RME 69 + speaker $150, 1784280 Collins S-line set $1100, 1784268 Kenwood TS-440S needs cleaning $85 + $47 SALE PENDING (ledger hit available), 1784271 Dentron Super Tuner Plus $225, 1784270 Micro PA 100 amp $275, 1784266 National LF-10 preselector $700, 1784289 Drake MN-4 $140 pending sale, 1784320 Arrow II 220-3 antenna $75, 1784299 MFJ-1784 loop controller $225, 1784293 Flex Antenna Genius 8x2 $800, 1784295 Flex Maestro C). BACKLOG CARRY: none. ran_at/searched_at are file-write times, -05:00 (EST). Seller feedback n/a (QTH).",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784231",
+      "site": "qth",
+      "title": "Patcomm PC1610 HF transceiver",
+      "price": 150,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. Seller (W4TUK): \"I have a Patcomm PC-1610 HF Transceiver that receives but no transmitt. This is offered as a parts or repair unit. Included is mike and DC power cable.\" Asking $150.00 + UPS shipping (amount not stated). comps: patcomm-pc-1610, 0 kept, no median (eBay sold search returned 0 results)",
+      "work_flag": "\"receives but no transmitt. This is offered as a parts or repair unit.\"",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783943",
+      "site": "qth",
+      "title": "Jetstream JT220M 220MHz mobile",
+      "price": 135,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. Seller (K1SPD): \"Great condition. Works as it should. 50 watts, 100 channel memory. Comes with mic (cord slightly frayed with no wires showing) and long power cord with anderson power poles.\" $135 shipped CONUS; ad last edited 11/07/26 (renewed). Seller notes \"NO PAYPAL!\". comps: jetstream-jt220m, 0 kept, no median (only sale found was Best-offer-accepted and dropped; JT222M is a different model number)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784243",
+      "site": "qth",
+      "title": "Hy-Gain / CDE AR-22 antenna rotor",
+      "price": 125,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. Seller: \"HyGain CDE AR-22 Antenna Rotor $125.00 ... Weighs 26 lbs, will fit into a heavy duty double padded 12X12X18 box. Guesstimate ship charges from my Broadview, IL 60155 location.\" Shipping charge not stated; buyer pays shipping plus PayPal/insurance fees per ad. comps: cde-ar-22, 2 kept, median 204.0 (thin); AR-22 vs AR-22R kept separate, identity UNCERTAIN",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784248",
+      "site": "qth",
+      "title": "Yaesu FT-2980R 2m mobile",
+      "price": 125,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. Seller (W7BJN): \"This VHF radio was used VERY little! Like new. FULL 80 watts out! Comes with original box, mic, power cord. Serial# 2M772733.\" $125.00 shipped to lower 48. Ad says the only way to transact is to phone the seller. Possible cross-post/repost: seller W7BJN also has the SP-2000 ads 1784253/1784252 (different item). comps: yaesu-ft-2980r, 8 kept, median 177.5",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784109",
+      "site": "qth",
+      "title": "Kenwood PS-430 power supply",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. Seller (KC9DZ): \"KENWOOD PS 430 IN GREAT CONDITION, COMES WITH AC POWER CORD AND 6 PIN MOLEX PIGTAIL\" $100 shipped; PayPal. Ad last edited 11/07/26 (renewed). comps: kenwood-ps-430, 8 kept, median 115.0 (2 outliers flagged in comp file)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784189",
+      "site": "qth",
+      "title": "Icom IC-PS15 linear power supply",
+      "price": 95,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. Seller (N5TTT): \"Original Icom IC-PS15 heavy-duty 13.8V DC linear power supply. Fully operational, tested, with all cables and connectors intact. ... 20A rated output. Cosmetic wear consistent with age, including scratches and scuffs as pictured.\" $95 plus shipping from Cedar Park, TX (shipping amount not stated). comps: icom-ic-ps15, 6 kept, median 82.44",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784193",
+      "site": "qth",
+      "title": "Yaesu FC-757AT auto tuner (as-is)",
+      "price": 75,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. Seller (N5TTT): \"Unit powers on but does not function properly. Sold AS-IS for repair, restoration, or parts. No guarantee of tuning operation. Complete front panel with all buttons and controls intact. Normal cosmetic wear consistent with age.\" $75 plus shipping from Cedar Park, TX (amount not stated). comps: yaesu-fc-757at, 5 kept, median 145.0",
+      "work_flag": "\"Unit powers on but does not function properly. Sold AS-IS for repair, restoration, or parts. No guarantee of tuning operation.\"",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784232",
+      "site": "qth",
+      "title": "HF Signals Trio (zBitX V1 + sBitx V3 + uBitX V6)",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-11-06",
+      "condition_notes": "live. Seller (K5HC): \"Trio of HF Signals QRP Transceivers - will not sell separately. All in great shape and very little use.\" Local pickup San Antonio TX area only, will not ship, $600 cash only. Price is for all three. comps: hf-signals-sbitx-v3, 1 kept, median 399.99 (thin) (only the sBitx V3 component was comped; zBitX and uBitX not comped)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "Yaesu \"991\" (treated as original FT-991)",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller (KF4EA): \"Nice radio with original mic and bound copy of owners manual. ... One minor scratch on the top. Power pole connectors. I do not have the original box but if buyer wishes to have unit shipped, it would be properly packaged and shipped at buyers expense.\" \"$600.00 firm. I will consider driving a reasonable distance with pre-payment.\" Buyer pays actual shipping (amount not stated). Ad titled \"Yaesu 991\"; A vs non-A not stated in the ad - treated as the ORIGINAL FT-991 per the standing ruling in the task. Submitted 11/02/26. Already in dropped-urls (re-run on instruction, not re-appended). comps: yaesu-ft-991, ledger hit (median 776.66, count 3, ledger date 2026-10-09); original FT-991 only, FT-991A figures not used",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784302",
+      "site": "qth",
+      "title": "Ameritron ALS-1306 amplifier with power supply",
+      "price": 2500,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller (WB5X): \"Amp is working as it should and outputting full rated output power on 160m - 6m. Non-smoking, pet free shack. Amp and power supply will be shipped separately.\" $2500 shipped CONUS insured (2 boxes). comps: ameritron-als-1306, 3 kept, median 2400.0",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784297",
+      "site": "qth",
+      "title": "Yaesu FTdx101D",
+      "price": 2950,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller: original owner, \"less than a year old. Might have 2 hours of use. Radio is pristine and no issues ... like NEW radio.\" Includes unused hand microphone, power cord, manual, original box. $2950.00 picked up or buyer pays actual shipping (US only); ad says \"No low ball offers\". comps: yaesu-ftdx101d, 1 kept, median 1699.0 (thin); seller cites new price of $3749",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784284",
+      "site": "qth",
+      "title": "Expert 1.3K-FA (First Series) with bag",
+      "price": 2950,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller (W5MLE): \"Expert 1.3K-FA First Series w bag, manual, original box $2,950 + shipping. Expert to Flex cable $70 + shipping.\" Shipping amount not stated. comps: spe-expert-1-3k-fa, 2 kept, median 1875.0 (thin) (both comps are outliers vs each other)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784292",
+      "site": "qth",
+      "title": "Anan 7000DLE MKII (black face)",
+      "price": 2500,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller (N2DXZ): \"In very good condition from non smoking QTH. Running Protocol 2 Firmware 2.2.2 and Thetis 2.10.3.21-x64 ... Upgraded with a Noctua High-Performance Whisper Quiet Ultra Low Noise Fan.\" $2,500.00 plus shipping and insurance. \"No trades. No returns.\" comps: anan-7000dle-mkii, 0 kept, no median",
+      "work_flag": "modification wording: \"Upgraded with a Noctua High-Performance Whisper Quiet Ultra Low Noise Fan\" (cooling fan upgrade, not a transmit modification); returns: \"No returns.\"",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784275",
+      "site": "qth",
+      "title": "Elecraft KPA-500 / KAT-500 power combo",
+      "price": 3200,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller (K4KUS): \"Excellent Condition Power Combo. Comes with all cabling including both 120 and 240 power cables. Owners Manuals included.\" $3200 + shipping; local pickup encouraged (between Charlotte and Columbia). comps: elecraft-kpa500, 1 kept, median 2650.0 (thin) (KPA500 only; KAT500 half not comped)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784294",
+      "site": "qth",
+      "title": "Palstar HF-Auto 1800W automatic tuner",
+      "price": 1300,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller (N2DXZ): \"In very good condition from non smoking QTH. Latest firmware 2.40 installed.\" $1,300.00 plus shipping and insurance, shipped in factory box or local pickup. \"No trades. No returns.\" comps: palstar-hf-auto, 2 kept, median 1324.0 (thin)",
+      "work_flag": "returns: \"No returns.\"",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784279",
+      "site": "qth",
+      "title": "Elecraft K2/100",
+      "price": 999,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller (KK7GM): \"this fine Elecraft K2 / 100W from a smoke-free home ... K2 main firmware: 2.04P I/O firmware: 1.09 KPA100 firmware: F1.10. It probably has a few other filter options visible under the cover but let me know what to look for.\" \"I'm not an expert on these\". $999 (Bainbridge Island, WA; shipping not addressed). comps: elecraft-k2-100, 1 kept, median 1080.0 (thin)",
+      "work_flag": "UNCERTAIN: seller says \"I'm not an expert on these\" and has not confirmed the installed options",
+      "seller_feedback": ""
+    }
+  ]
+}
