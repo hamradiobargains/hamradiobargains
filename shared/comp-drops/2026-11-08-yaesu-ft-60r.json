@@ -1,0 +1,417 @@
+{
+  "model": "Yaesu FT-60R",
+  "slug": "yaesu-ft-60r",
+  "searched_at": "2026-11-08T18:00:09-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Yaesu FT-60R', page 1 (100 results, no fewer-words section reached). Kept 41 single FT-60R units (including one titled Vertex FT-60R). Dropped 11 best-offer-accepted (two of these were also labeled Parts Only: a pair $199.99 and a 3-unit MARS-modded lot $227.19). Excluded: 2-unit lot $299 (2026-11-01, not a single unit), batteries, chargers, cables, cases, speaker mics. Shipping recorded in notes only for the comps where it was captured. Several kept comps include extras (flagged extras_included) or MARS/CAP mods (flagged modified). Two Nov 2-3 comps ($79.99, $99.99) have identical 'READ' titles — details not visible on results page. Outliers flagged: OUTLIER: $211.95 vs median ~$134.00 for the rest; OUTLIER: $290.00 vs median ~$134.00 for the rest.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/168848547277",
+    "site": "ebay",
+    "ask": 95.0,
+    "shipping": 7.13
+  },
+  "comps": [
+    {
+      "price": 155.01,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227596236203",
+      "source": "ebay",
+      "notes": "Auction, 6 bids. Title: with antenna, battery, charger. Shipping $7.71.",
+      "flags": []
+    },
+    {
+      "price": 211.95,
+      "sold_date": "2026-11-08",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/396329493770",
+      "source": "ebay",
+      "notes": "OUTLIER: $211.95 vs median ~$134.00 for the rest Buy It Now. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 79.99,
+      "sold_date": "2026-11-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336875441336",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). Title says READ (details not visible on results page). Shipping $9.99.",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336875435574",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). Title says READ (details not visible on results page). Shipping $9.99.",
+      "flags": []
+    },
+    {
+      "price": 135.5,
+      "sold_date": "2026-11-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117486993991",
+      "source": "ebay",
+      "notes": "Auction, 3 bids. Shipping $10.15.",
+      "flags": []
+    },
+    {
+      "price": 290.0,
+      "sold_date": "2026-10-31",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/205887005691",
+      "source": "ebay",
+      "notes": "OUTLIER: $290.00 vs median ~$134.00 for the rest Fixed price or Best Offer (not accepted). Title: with goodies, all new in box. Free shipping.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 119.99,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147654727387",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). Title says READ. Shipping $9.40.",
+      "flags": []
+    },
+    {
+      "price": 79.95,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267828344769",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: w/ antenna. Shipping $9.99.",
+      "flags": []
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880056546600",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). Title: CIB Bundle. Shipping $8.67.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 180.45,
+      "sold_date": "2026-10-27",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/358793549944",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). Shipping $19.95.",
+      "flags": []
+    },
+    {
+      "price": 189.0,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206639773393",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: prog cable + extras. Shipping $12.00.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 177.7,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147594584904",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). Title: Ni-MH. Shipping $10.75.",
+      "flags": []
+    },
+    {
+      "price": 130.0,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940018992316",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). Shipping $12.70.",
+      "flags": []
+    },
+    {
+      "price": 199.99,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278445669266",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). Title: with accessories.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 85.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178257613772",
+      "source": "ebay",
+      "notes": "Buy It Now.",
+      "flags": []
+    },
+    {
+      "price": 142.5,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117447359702",
+      "source": "ebay",
+      "notes": "Auction, 3 bids. Title: MARS mod, excellent condition.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 99.85,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278426892720",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: no charger.",
+      "flags": []
+    },
+    {
+      "price": 132.5,
+      "sold_date": "2026-10-06",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/327383706239",
+      "source": "ebay",
+      "notes": "Auction, 21 bids.",
+      "flags": []
+    },
+    {
+      "price": 120.5,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178537579136",
+      "source": "ebay",
+      "notes": "Auction, 7 bids.",
+      "flags": []
+    },
+    {
+      "price": 89.1,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206593708347",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted); shown $89.10 with $99.00 struck through.",
+      "flags": []
+    },
+    {
+      "price": 179.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398434709487",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: HAM/GMRS, MARS/CAP/GMRS unlocked.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 79.0,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178514298194",
+      "source": "ebay",
+      "notes": "Auction, 3 bids. Title: with charger, works.",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237078695052",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted).",
+      "flags": []
+    },
+    {
+      "price": 137.5,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117423221072",
+      "source": "ebay",
+      "notes": "Auction, 13 bids. Title: + SSM-17A speaker mic + extras.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 121.5,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257753603364",
+      "source": "ebay",
+      "notes": "Auction, 7 bids.",
+      "flags": []
+    },
+    {
+      "price": 128.99,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398398164965",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). Title: w/ manual, antenna, mic.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 170.0,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206564199823",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: + extras.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 149.99,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178486306879",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). Title: Vertex FT-60R, MARS/CAP mods, new battery & charger.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 139.5,
+      "sold_date": "2026-09-12",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/198620808090",
+      "source": "ebay",
+      "notes": "Auction, 6 bids. Title: w/ Ni-MH battery, charger.",
+      "flags": []
+    },
+    {
+      "price": 110.0,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327346897463",
+      "source": "ebay",
+      "notes": "Buy It Now.",
+      "flags": []
+    },
+    {
+      "price": 138.16,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307155496485",
+      "source": "ebay",
+      "notes": "Auction, 5 bids. Title: + extras.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 169.99,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407195989173",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). Title: with charger, works.",
+      "flags": []
+    },
+    {
+      "price": 115.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147543577872",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: with accessories.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 70.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407127975874",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: needs battery.",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198609083043",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: + antenna (works well).",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800541868033",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: w/ 2 batteries, charger, 2 mics, speaker mic, more.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 130.0,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198589928803",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Title: lots of extras, excellent to near mint.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 140.0,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178377865809",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: + DC battery pack (works well).",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 162.49,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178410579460",
+      "source": "ebay",
+      "notes": "Auction, 27 bids. Title: w/ manual, rapid desktop charger, more.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117362943811",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: used, nice.",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-08-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188783400037",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted).",
+      "flags": []
+    }
+  ]
+}
