@@ -1,0 +1,32 @@
+{
+  "model": "CDE AR-22",
+  "slug": "cde-ar-22",
+  "searched_at": "2026-11-07T18:58:43-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep. eBay sold search \"CDE AR-22 rotor\": 21 results. Kept 2 complete AR-22 rotor+control-box sales (thin). Excluded as separate model AR-22R (kept separate on identity caution): complete AR-22R sets 206513639648 $167.50 Aug 31 (46 bids, Works GREAT), 198694734429 $249.99 Oct 8 (BOA); controller-only AR-22R/AR-1/AR-10 sales 920014986346 $30, 267776523627 $31.49, 227448184677 $60, 267303991873 $34.95, 198434659532 $20.25, 407147400024 $10; AR-10/XL controls and mast support not the unit. BOA dropped (count 5 incl. AR-22R/parts): 147566797503 $53.99, 336817945184 $95.00, 186772922577 $26.99, 377359903828 $59.95, 198694734429 $249.99. Parts-only dropped: 127953898907 $24.99, 406810397790 $92.86, 137702473998 $99.99, 137596445887 $40.00, 377534261425 $60.00 (\"Tested Read description\" also), 147566797503 $53.99, 336817945184 $95.00, 377359903828 $59.95. Read-Description dropped: 377534261425. Whether AR-22 vs AR-22R sales belong in one pool is UNCERTAIN. Kept 2, median 204.0, low 133.0, high 275.0.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784243",
+    "site": "qth",
+    "ask": 125,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 133,
+      "sold_date": "2026-11-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206666211505",
+      "notes": "\"Nice working CDE AR-22 rotor + control box - both working great\"; 10 bids; shipping 19.01; seller bouchard8 100% (2.3K)",
+      "flags": []
+    },
+    {
+      "price": 275,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267780087020",
+      "notes": "CDE AR-22 antenna rotor w/ control box and cable; Buy It Now; shipping 51.49",
+      "flags": []
+    }
+  ]
+}
