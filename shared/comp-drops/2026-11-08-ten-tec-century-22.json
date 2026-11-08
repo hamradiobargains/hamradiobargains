@@ -1,0 +1,27 @@
+{
+  "model": "Ten-Tec Century 22",
+  "slug": "ten-tec-century-22",
+  "searched_at": "2026-11-08T05:57:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Thin: 1 kept comp. 2 exact-match results on page 1; dropped 1 parts-only (Aug 25 2026, $215.50 auction, eBay 'Parts Only'); dropped 0 best-offer-accepted.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629526",
+    "site": "eham",
+    "ask": 90.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 215.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407258220151",
+      "source": "ebay",
+      "notes": "Title: Vintage Ten-Tec Century/22 Model 579 HF CW Transceiver | Untested. Fixed price 'or Best Offer' (not 'Best offer accepted'). +$17.80 delivery.",
+      "flags": [
+        "as_is"
+      ]
+    }
+  ]
+}
