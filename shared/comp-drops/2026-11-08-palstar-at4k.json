@@ -1,0 +1,15 @@
+{
+  "model": "Palstar AT4K",
+  "slug": "palstar-at4k",
+  "searched_at": "2026-11-08T15:01:53-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'palstar at4k', page 1: 0 exact results ('No exact matches found'; only 'Results matching fewer words', ignored). thin - no comps. Ledger miss (PALSTAR AT4K count 2, latest 2026-08-09).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784367",
+    "site": "qth",
+    "ask": 675.0,
+    "shipping": 80.0
+  },
+  "comps": []
+}
