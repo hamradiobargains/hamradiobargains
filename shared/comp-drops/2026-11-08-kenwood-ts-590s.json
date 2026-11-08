@@ -1,0 +1,22 @@
+{
+  "model": "Kenwood TS-590S",
+  "slug": "kenwood-ts-590s",
+  "searched_at": "2026-11-08T15:01:53-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 774.98, count 8, ledger date 2026-10-28 — ledger hit — individual sales behind the median are not auditable from this file. Listing says 'This is not the SG', matched to ledger KENWOOD TS-590S.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784405",
+    "site": "qth",
+    "ask": 650.0,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 774.98,
+    "low": 630.0,
+    "high": 940.0,
+    "count": 8,
+    "date": "2026-10-28"
+  }
+}
