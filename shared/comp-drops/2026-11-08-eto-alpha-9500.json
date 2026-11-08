@@ -1,0 +1,15 @@
+{
+  "model": "ETO Alpha 9500",
+  "slug": "eto-alpha-9500",
+  "searched_at": "2026-11-08T05:56:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Thin: zero qualifying sold comps. eBay sold search 'alpha 9500 amplifier' returned 1 exact-match result, a replacement logic power supply (accessory, excluded). Everything else was in 'Results matching fewer words' (other Alpha models, parts, manuals) and ignored. Dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629531",
+    "site": "eham",
+    "ask": 6000.0,
+    "shipping": 0
+  },
+  "comps": []
+}
