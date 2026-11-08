@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-3000",
+  "slug": "flexradio-flex-3000",
+  "searched_at": "2026-11-08T17:57:41-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'FlexRadio FLEX-3000', page 1: only 3 main results, none a FLEX-3000 unit (two FLEX-1500, one FLEX-3000 RFI noise kit accessory). A 'Flex 3000' listing appeared only in 'Results matching fewer words' and was ignored per rules. Zero comps — thin. Ledger has no FLEX-3000 entry.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/920119417865",
+    "site": "ebay",
+    "ask": 500.0,
+    "shipping": 23.01
+  },
+  "comps": []
+}
