@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-08",
+  "ran_at": "2026-11-08T17:53:03-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670) browse page, Buy It Now filter, sorted newly listed, page 1 only (~60 cards); signed in as Leo, no challenges. Window since previous ebay run 2026-11-07T17:53:04-05:00 (browse cards show no listing times; newest-first order used, all page-1 cards marked NEW LISTING). None of the picked items were in dropped-urls.json. All 8 picked sellers passed the feedback rule. Item descriptions (iframe) could not be read; condition_notes use title, eBay condition label, seller notes and returns policy only. Ledger: 3 hits (ICOM IC-7000, ICOM IC-706MKII, KENWOOD TS-850S); 5 misses -> 5 eBay sold searches (FLEX-3000, Swan Mark II not in ledger; HEATHKIT SB-220 ledger date 2026-09-30 stale; YAESU FT-60R ledger count 2; TR-7800 not in ledger). Not picked: parts-only units (TS-930S, HW-5400, IC-706MKIIG main unit only, Mirage B-3016, TE Systems 1452G, RM LA435, GE MVP repeater, Kenwood AT-130 labeled Parts Only), accessories/parts (FL-80 filter, YK-88S, TS-430S fan and FM board, OPC-581, FL-7000 faceplate, Henry HV bleeder, Bird connectors, Xiegu CE-19, SCU-17, CommandMic IV), test gear (Drake DL1000, MFJ-259B, GD-1B), receivers (Drake R8B, WJ-8615D-4, GR-91, DX-392), interfaces/decoders/modems (MFJ-461, NUE-PSK, Z100, Shari Pi4, W8RFZ modulator), CB/10m and non-ham (RCI-99N4, CRE 8900, Galaxy DX 2517, Motorola MCS 2000, UNIWA F400), auctions (Vibroplex bug, APRS transmitter), and beyond cap (Icom ID-5100A Deluxe $525, Yaesu FT-897 bundle $1000, Henry 2K-3 $1100 local pickup, Kenwood TH-22AT $74, Kenwood TR-2600A/Alinco go-kit lot, AOR DDS-2A VFO).",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/237172094973",
+      "site": "ebay",
+      "title": "ICOM IC 7000 HF/ VHF/ UHF ALL MODE TRANSCEIVER",
+      "price": 825.0,
+      "shipping": 45.0,
+      "found_at": "2026-11-08",
+      "condition_notes": "eBay condition: Used. Seller does not accept returns. Item description (iframe) not readable; no defects stated in title.",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "99.3% (7033 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/257842626866",
+      "site": "ebay",
+      "title": "Icom IC-706MKII HF/VHF Dual Band Ham Transceiver Including UT-102 Voice Module",
+      "price": 525.0,
+      "shipping": 25.0,
+      "found_at": "2026-11-08",
+      "condition_notes": "eBay condition: Used. Includes UT-102 voice module (per title). Seller does not accept returns. Description not readable.",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "100% (463 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/267837875286",
+      "site": "ebay",
+      "title": "Kenwood TS-850S HF Transceiver Ham Radio Tested Working Extras DRU-2, VS-2, SSB",
+      "price": 949.05,
+      "shipping": 79.94,
+      "found_at": "2026-11-08",
+      "condition_notes": "eBay condition: Used. Title: tested working; extras DRU-2, VS-2, SSB (filter). Fixed price or Best Offer. Seller does not accept returns.",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "100% (479 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/920119417865",
+      "site": "ebay",
+      "title": "FlexRadio Systems FLEX-3000 Software Defined Ham Radio Transceiver Blue",
+      "price": 500.0,
+      "shipping": 23.01,
+      "found_at": "2026-11-08",
+      "condition_notes": "eBay condition: Used. Fixed price or Best Offer. Description not readable; no condition details in title.",
+      "work_flag": "",
+      "seller_feedback": "100% (16 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/267837986171",
+      "site": "ebay",
+      "title": "Heathkit SB-220 2 kW HF Linear Amplifier",
+      "price": 1000.0,
+      "shipping": 125.0,
+      "found_at": "2026-11-08",
+      "condition_notes": "eBay condition: Used. Seller notes: \"See Pictures.\" Fixed price or Best Offer. Description not readable.",
+      "work_flag": "",
+      "seller_feedback": "98.7% (269 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/168848547277",
+      "site": "ebay",
+      "title": "Yaesu FT-60R Dual Band 2m/70cm VHF/UHF Ham HT w/ Antenna, Box, Manual",
+      "price": 95.0,
+      "shipping": 7.13,
+      "found_at": "2026-11-08",
+      "condition_notes": "eBay condition: Used. With antenna, box, manual (per title). Fixed price or Best Offer.",
+      "work_flag": "",
+      "seller_feedback": "100% (589 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/128183506824",
+      "site": "ebay",
+      "title": "Swan Mark II Amplifier - 2x 3-500z",
+      "price": 950.0,
+      "shipping": 175.0,
+      "found_at": "2026-11-08",
+      "condition_notes": "eBay condition: Used. Title: 2x 3-500z tubes. Fixed price or Best Offer. Description not readable.",
+      "work_flag": "",
+      "seller_feedback": "100% (512 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/168848502560",
+      "site": "ebay",
+      "title": "Kenwood TR-7800 Two Meter Transceiver - WORKS",
+      "price": 54.99,
+      "shipping": 14.99,
+      "found_at": "2026-11-08",
+      "condition_notes": "eBay condition: Used. Title: WORKS.",
+      "work_flag": "",
+      "seller_feedback": "99.7% (3043 ratings)"
+    }
+  ]
+}
