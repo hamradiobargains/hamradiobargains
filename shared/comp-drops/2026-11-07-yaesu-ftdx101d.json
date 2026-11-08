@@ -1,0 +1,24 @@
+{
+  "model": "Yaesu FTDX101D",
+  "slug": "yaesu-ftdx101d",
+  "searched_at": "2026-11-07T18:58:43-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep. eBay sold search \"Yaesu FTdx101D\": 29 results; only 1 qualifying FTDX101D unit sale on page 1 (thin). Dropped: 168643492407 $660 titled Not Working (auction, also marked Best offer accepted; parts-only; counts as 1 BOA and 1 parts-only). Ignored: FTdx10, FT-101 series, SCU-LAN10, EQ units, cables. The single comp is well below the existing ledger entry for FTDX101D (count 12, median 2375.0, dated 2026-09-17), so treat with caution; the ledger entry is stale (>30 days) so it was not used. Trigger ad is FTdx101D (not MP). Kept 1, median 1699.0, low 1699.0, high 1699.0.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784297",
+    "site": "qth",
+    "ask": 2950,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1699,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278384904419",
+      "notes": "\"TESTED and WORKING EXCELLENT COND.\"; Buy It Now; shipping 28.78",
+      "flags": []
+    }
+  ]
+}
