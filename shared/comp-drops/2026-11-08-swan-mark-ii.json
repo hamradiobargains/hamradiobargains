@@ -1,0 +1,15 @@
+{
+  "model": "Swan Mark II",
+  "slug": "swan-mark-ii",
+  "searched_at": "2026-11-08T17:57:41-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Swan Mark II amplifier', page 1 (9 main results). Only one Mark II unit sold: $349.99 2026-09-19, labeled Parts Only — dropped 1 parts-only. Others were Swan 117XC power supplies and a Mark II manual (excluded). Zero comps — thin.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/128183506824",
+    "site": "ebay",
+    "ask": 950.0,
+    "shipping": 175.0
+  },
+  "comps": []
+}
