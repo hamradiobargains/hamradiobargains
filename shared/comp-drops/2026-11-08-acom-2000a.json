@@ -1,0 +1,25 @@
+{
+  "model": "ACOM 2000A",
+  "slug": "acom-2000a",
+  "searched_at": "2026-11-08T15:01:53-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'acom 2000a', page 1: 2 results, 1 unit (the other was a dust cover, excluded). thin - single comp. No best-offer-accepted or parts-only drops. Ledger miss (no ACOM 2000A entry).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784390",
+    "site": "qth",
+    "ask": 3200.0,
+    "shipping": 265.0
+  },
+  "comps": [
+    {
+      "price": 2400.0,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/860080902092",
+      "source": "ebay",
+      "notes": "Buy It Now; Title: GREAT CONDITION!! TESTED; $109.30 delivery shown",
+      "flags": []
+    }
+  ]
+}
