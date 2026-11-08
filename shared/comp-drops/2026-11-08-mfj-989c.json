@@ -1,0 +1,22 @@
+{
+  "model": "MFJ-989C",
+  "slug": "mfj-989c",
+  "searched_at": "2026-11-08T05:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 244.5, count 14, ledger date 2026-10-14 — ledger hit — individual sales behind the median are not auditable from this file.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629525",
+    "site": "eham",
+    "ask": 219.0,
+    "shipping": 42.0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 244.5,
+    "low": 160.5,
+    "high": 299.95,
+    "count": 14,
+    "date": "2026-10-14"
+  }
+}
