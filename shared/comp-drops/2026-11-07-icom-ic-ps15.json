@@ -1,0 +1,64 @@
+{
+  "model": "Icom IC-PS15",
+  "slug": "icom-ic-ps15",
+  "searched_at": "2026-11-07T18:58:43-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep. eBay sold search \"Icom IC-PS15\": 18 results. 6 kept standalone IC-PS15 supplies. Dropped BOA: 366761570781 $89.99, 198561594244 $85.00, 237113368545 $45.00 (also parts-only/untested) (3). Parts-only dropped: 198547908252 $80.00 (restoration), 327308175281 $50.74 auction, 237113368545 $45.00 (3, one overlaps BOA). IC-720A/IC-751 radio sales that mention the PS15 in the title ignored (not the unit). Kept 6, median 82.44, low 65.0, high 105.0.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784189",
+    "site": "qth",
+    "ask": 95,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 79.99,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128165481260",
+      "notes": "shipping 27.12",
+      "flags": []
+    },
+    {
+      "price": 84.9,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188922900309",
+      "notes": "13.8V 20A linear supply; shipping 38.95",
+      "flags": []
+    },
+    {
+      "price": 105,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117412756669",
+      "notes": "shipping 61.62",
+      "flags": []
+    },
+    {
+      "price": 70,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189053477510",
+      "notes": "titled WORKING; shipping 21.98",
+      "flags": []
+    },
+    {
+      "price": 65,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158190452357",
+      "notes": "tested working; shipping 51.70",
+      "flags": []
+    },
+    {
+      "price": 99,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/365940396048",
+      "notes": "free delivery",
+      "flags": []
+    }
+  ]
+}
