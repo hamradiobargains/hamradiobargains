@@ -1,0 +1,27 @@
+{
+  "model": "Icom IC-728",
+  "slug": "icom-ic-728",
+  "searched_at": "2026-11-08T15:01:53-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-728', page 1: only 1 exact result. thin - single comp, and it is a bundle with AT-160 tuner, power supply and more (flagged extras_included). No best-offer-accepted or parts-only drops. Ledger miss (ICOM IC-728 count 1).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784408",
+    "site": "qth",
+    "ask": 295.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 450.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198605865587",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked best offer accepted); Title: w/AT-160 antenna tuner, power supply and MORE; $90.00 delivery shown",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
