@@ -1,0 +1,54 @@
+{
+  "model": "Kenwood TR-7800",
+  "slug": "kenwood-tr-7800",
+  "searched_at": "2026-11-08T18:00:32-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Kenwood TR-7800', page 1 (10 main results). Kept 4 TR-7800 units. Dropped 2 best-offer-accepted (untested $30 2026-10-16; with mic $99.99 2026-09-22). Excluded different models (TR-7850 x2, TR-7600) and a power cable. Thin-ish set (4). Outliers flagged: OUTLIER: $119.99 vs median ~$59.99 for the rest.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/168848502560",
+    "site": "ebay",
+    "ask": 54.99,
+    "shipping": 14.99
+  },
+  "comps": [
+    {
+      "price": 59.99,
+      "sold_date": "2026-11-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227505693338",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: WORKS. Shipping $19.99.",
+      "flags": []
+    },
+    {
+      "price": 35.0,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407185141812",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). Title: transceiver only, untested. Shipping $9.21.",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 119.99,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366591202110",
+      "source": "ebay",
+      "notes": "OUTLIER: $119.99 vs median ~$59.99 for the rest Fixed price or Best Offer (not accepted). Shipping $16.99.",
+      "flags": []
+    },
+    {
+      "price": 59.99,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327134140108",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: WORKS. Shipping $24.99.",
+      "flags": []
+    }
+  ]
+}
