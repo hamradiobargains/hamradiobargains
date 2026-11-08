@@ -1,0 +1,64 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-08",
+  "ran_at": "2026-11-08T05:53:18-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-07T05:55:30-05:00 (prior eham run). Browsed signed OUT ('Login/Register' / 'Welcome Guest' shown). eHam loaded after a ~10s wait with no interaction. Read public classifieds page 1 only (ads 629523-629532). Page 2 not read: clicking the pagination link did not change the page and I did not push further; prior run ended at 629521, so the only possible gap is 629522. Full ad text shown on the list page, so no individual ad pages opened; no search form, sold searches, or seller/callsign pages; no ad IDs probed. Ad number 629522 did not appear on the public page (not opened). Not dropped: 629532 Tecsun AN-48x active SW/MW loop ($30; consumer SWL receive accessory, not treated as ham gear), 629529 MFJ-949E (marked SOLD, pending payment), 629528 trade-only FT-991A for FTX-1 (no price), 629524 WTB Collins 312A-1/312A-2, 629523 wanted IC-735 parts. Comps: 2 ledger hits (ICOM IC-718, MFJ-989C), 3 ledger misses -> 3 eBay sold searches (ETO Alpha 9500, Ten-Tec Century 22, Ten-Tec Argonaut 509), signed in as Leo, no challenge.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629531",
+      "site": "eham",
+      "title": "ETO Alpha 9500",
+      "price": 6000.0,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "Seller says New Old Stock, never unboxed (box opened to verify contents), stored climate-controlled/smoke-free; price firm, $6000 + shipping (amount not stated); cashier's check / money order; local pickup possible",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629530",
+      "site": "eham",
+      "title": "Ten-Tec Argonaut 509 station",
+      "price": 600.0,
+      "shipping": 150.0,
+      "found_at": "2026-11-08",
+      "condition_notes": "Station bundle: 509 HF radio, 405 amplifier, 252 and 210 power supplies, 208 CW filter. 'Very nice to better condition'; seller tested on 20 and 40m, 50W indicated from the amp; 252 has a cosmetic front-panel scuff from previous shipping; ships in 4 packages, $150 shipping with seller covering any overage",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629527",
+      "site": "eham",
+      "title": "Icom 718",
+      "price": 325.0,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "Used; works except remote speaker out jack (seller: should be an easy fix); tuning plug installed; plus actual shipping from 64836 (amount not stated)",
+      "work_flag": "works except for remote speaker out jack",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629526",
+      "site": "eham",
+      "title": "Ten-Tec Century 22",
+      "price": 90.0,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "Very nice, working per seller; non-smoking environment; bought at estate auction a couple of years ago; plus actual shipping from 64836 (amount not stated)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629525",
+      "site": "eham",
+      "title": "MFJ-989C - Versa Tuner V - 3 KW",
+      "price": 219.0,
+      "shipping": 42.0,
+      "found_at": "2026-11-08",
+      "condition_notes": "3KW roller-inductor tuner with power/SWR meters, 2 coax + single wire + balanced line; comes with manual; no condition problems stated; payment Zelle/MO/personal check",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
