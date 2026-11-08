@@ -1,0 +1,283 @@
+{
+  "model": "Kenwood TM-V71A",
+  "slug": "kenwood-tm-v71a",
+  "searched_at": "2026-11-08T15:01:53-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood tm-v71a', page 1 (66 results; cables, mics, mounts and other accessories excluded). Kept 28 unit comps. Dropped 6 best-offer-accepted, dropped 1 parts-only ($300 Sep 5, 'stuck in memory mode, sold as-is'). Outliers flagged: 7. Ledger miss (KENWOOD TM-V71A latest 2026-10-08, 31 days old).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784395",
+    "site": "qth",
+    "ask": 370.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 405.0,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840068834947",
+      "source": "ebay",
+      "notes": "Auction, 2 bids; $15.65 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-11-03",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/257798980519",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,000.00 vs ~$420 median for the rest; Fixed price 'or Best Offer' (not marked best offer accepted); $8.79 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 449.99,
+      "sold_date": "2026-10-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960103118029",
+      "source": "ebay",
+      "notes": "Buy It Now; With factory box; $18.99 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 355.0,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366750767302",
+      "source": "ebay",
+      "notes": "Auction, 10 bids; Title: 'Plus Xtras'; $8.08 delivery shown",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 419.99,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960097252889",
+      "source": "ebay",
+      "notes": "Buy It Now; $18.99 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 510.0,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137835672014",
+      "source": "ebay",
+      "notes": "Auction, 10 bids; $13.58 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 399.9,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137835125653",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked best offer accepted); With mount; 'POWER TESTED'; $13.47 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 381.99,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198699589439",
+      "source": "ebay",
+      "notes": "Auction, 5 bids; With mic, remote mount kit, Kenwood SP-41 speaker; $29.75 delivery shown",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 688.0,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298073323971",
+      "source": "ebay",
+      "notes": "OUTLIER: $688.00 vs ~$420 median for the rest; Buy It Now; w/ box and mic - CLEAN; free delivery shown",
+      "flags": []
+    },
+    {
+      "price": 795.0,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117230535521",
+      "source": "ebay",
+      "notes": "OUTLIER: $795.00 vs ~$420 median for the rest; Fixed price 'or Best Offer' (not marked best offer accepted); With OEM voice module and OEM DFK-3D separation kit; $49.98 delivery shown",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 499.0,
+      "sold_date": "2026-10-12",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/820214468221",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked best offer accepted); $9.55 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 379.99,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178551131296",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked best offer accepted); Same title and price as 178482474674 (Oct 2) - possible relist; $14.39 delivery shown",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 430.0,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137783574453",
+      "source": "ebay",
+      "notes": "Auction, 12 bids; $12.99 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 379.99,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178482474674",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked best offer accepted); Same title and price as 178551131296 (Oct 8) - possible relist; $14.17 delivery shown",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237073929149",
+      "source": "ebay",
+      "notes": "Buy It Now; With mount, 'Excellent'; free delivery shown",
+      "flags": []
+    },
+    {
+      "price": 207.5,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820151020137",
+      "source": "ebay",
+      "notes": "OUTLIER: $207.50 vs ~$425 median for the rest; Auction, 2 bids; $8.03 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 379.0,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336793674997",
+      "source": "ebay",
+      "notes": "Auction, 4 bids; $25.00 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 499.99,
+      "sold_date": "2026-09-17",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/366636966467",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked best offer accepted); $5.68 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188901027446",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked best offer accepted); $40.00 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 445.0,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128062727082",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked best offer accepted); $10.55 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 405.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267770189925",
+      "source": "ebay",
+      "notes": "Auction, 19 bids; With KPS-15 power supply; $20.00 delivery shown",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 399.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327339817771",
+      "source": "ebay",
+      "notes": "Buy It Now; $23.00 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 365.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318748325994",
+      "source": "ebay",
+      "notes": "Auction, 28 bids; $15.00 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 428.0,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366611709582",
+      "source": "ebay",
+      "notes": "Auction, 6 bids; $8.08 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 405.0,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198573490575",
+      "source": "ebay",
+      "notes": "Auction, 18 bids; Subtitle: 'Excellent Condition. Never Installed Or Used.'; $22.30 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 675.0,
+      "sold_date": "2026-08-21",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/307107053600",
+      "source": "ebay",
+      "notes": "OUTLIER: $675.00 vs ~$420 median for the rest; Fixed price 'or Best Offer' (not marked best offer accepted); Title says NEW; $29.95 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 175.0,
+      "sold_date": "2026-08-14",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/307127076740",
+      "source": "ebay",
+      "notes": "OUTLIER: $175.00 vs ~$425 median for the rest; Fixed price 'or Best Offer' (not marked best offer accepted); Title says 'Brand New'; $8.17 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 709.89,
+      "sold_date": "2026-08-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257448745085",
+      "source": "ebay",
+      "notes": "OUTLIER: $709.89 vs ~$420 median for the rest; Buy It Now; With RT Systems cable & software; free delivery shown",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
