@@ -1,0 +1,58 @@
+{
+  "model": "Yaesu FC-757AT",
+  "slug": "yaesu-fc-757at",
+  "searched_at": "2026-11-07T18:58:43-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep. eBay sold search \"Yaesu FC-757AT\": 28 results. 5 kept FC-757AT tuner sales (one titled Untested, flagged as_is, kept). Dropped BOA: 127259624645 $14.99 (faceplate only, also not the unit) (1). Ignored: FT-757GX/GXII radio sales, cables/plugs, interface connector items. Parts-only count 0 for the tuner. Trigger ad is as-is / not functioning. Kept 5, median 145.0, low 127.96, high 159.0.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784193",
+    "site": "qth",
+    "ask": 75,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 127.96,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307216047934",
+      "notes": "Tested; free delivery",
+      "flags": []
+    },
+    {
+      "price": 145,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158144588686",
+      "notes": "shipping 22.50",
+      "flags": []
+    },
+    {
+      "price": 140,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298571318132",
+      "notes": "title says \"Untested\"; shipping 23.07",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 149.99,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198559725142",
+      "notes": "Tested; shipping 34.25",
+      "flags": []
+    },
+    {
+      "price": 159,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158170762677",
+      "notes": "\"Full Automatic\"; shipping 40.85",
+      "flags": []
+    }
+  ]
+}
