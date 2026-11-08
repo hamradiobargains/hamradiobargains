@@ -13,6 +13,20 @@
    "comp_high": 2000.0,
    "source": "QTH",
    "listed_since": "2026-08-13"
+  },
+  {
+   "date": "2026-11-08",
+   "title": "Kenwood TS-850S HF Transceiver w/ MC-60 Mic",
+   "url": "https://swap.qth.com/view_ad.php?counter=1778694",
+   "price": 375.0,
+   "extra": 0.0,
+   "pct_below": 33.9,
+   "median": 567.5,
+   "comp_count": 4,
+   "comp_low": 360.0,
+   "comp_high": 700.0,
+   "source": "QTH",
+   "listed_since": "2026-09-07"
   }
  ]
 }
