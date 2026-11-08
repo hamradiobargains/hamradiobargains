@@ -1,0 +1,61 @@
+{
+  "model": "Yaesu FT-990",
+  "slug": "yaesu-ft-990",
+  "searched_at": "2026-11-08T15:01:53-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ft-990', page 1 (22 results; excluded parts boards, manuals, covers, fans, filters and FT-991A listings). Kept 5 unit comps. Dropped 1 best-offer-accepted ($530, Aug 21), dropped 2 parts-only ($217.50 and $270, both Sep 5). One kept comp is from an international seller (FT-990 AC). Outliers: 0. Ledger miss (no YAESU FT-990 entry).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784418",
+    "site": "qth",
+    "ask": 550.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 600.0,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366776625748",
+      "source": "ebay",
+      "notes": "Auction, 17 bids; +$111.07 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 560.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128060461042",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked best offer accepted); w/ YD-148 microphone; +$75.00 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 600.84,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128077258506",
+      "source": "ebay",
+      "notes": "Buy It Now; titled 'Yaesu FT-990 AC'; international seller - +$163.56 shipping estimate plus import fees shown",
+      "flags": []
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206572463154",
+      "source": "ebay",
+      "notes": "Auction, 3 bids; +$120.00 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 664.99,
+      "sold_date": "2026-08-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257675153438",
+      "source": "ebay",
+      "notes": "Buy It Now; +$49.99 delivery shown",
+      "flags": []
+    }
+  ]
+}
