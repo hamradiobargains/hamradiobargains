@@ -1,0 +1,32 @@
+{
+  "model": "SPE Expert 1.3K-FA",
+  "slug": "spe-expert-1-3k-fa",
+  "searched_at": "2026-11-07T18:58:43-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep. eBay sold search \"Expert 1.3K-FA\": 3 results, 2 kept (thin; each is an outlier against the other because they differ by >2x, so there is no reliable center). 323663642888 $46 dust cover/accessory ignored. BOA 0, parts-only 0. Trigger ad is a First Series 1.3K-FA with bag, manual, original box; Expert-to-Flex cable $70 separate. Kept 2, median 1875.0, low 1100.0, high 2650.0.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784284",
+    "site": "qth",
+    "ask": 2950,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1100,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168831234406",
+      "notes": "OUTLIER: below 0.5x the other kept comp; auction final bid; titled \"SPE Expert 1.3K FA with tuner\"; shipping 90.50; reason for low price not visible from search results",
+      "flags": []
+    },
+    {
+      "price": 2650,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960063990070",
+      "notes": "OUTLIER: above 1.5x the other kept comp; auction final bid; \"Solid State Fully Auto\"; shipping 42.91",
+      "flags": []
+    }
+  ]
+}
