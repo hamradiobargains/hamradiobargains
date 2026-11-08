@@ -1,0 +1,15 @@
+{
+  "model": "Anan 7000DLE MKII",
+  "slug": "anan-7000dle-mkii",
+  "searched_at": "2026-11-07T18:58:43-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep. eBay sold search \"Anan 7000DLE MKII\": 0 results (page 1 showed only unrelated fewer-words matches - LG dryer parts, Monster power conditioners - ignored). 0 qualifying comps. A variant query (\"ANAN 7000DLE\") was not tried because it would use another of the 15 searches. Kept 0.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784292",
+    "site": "qth",
+    "ask": 2500,
+    "shipping": 0
+  },
+  "comps": []
+}
