@@ -1,0 +1,86 @@
+{
+  "model": "Yaesu FT-2980R",
+  "slug": "yaesu-ft-2980r",
+  "searched_at": "2026-11-07T18:58:43-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep. eBay sold search \"Yaesu FT-2980R\": 34 results. 8 kept (FT-2980 and FT-2980R titles treated as the same radio). Dropped BOA: 267824659543, 327423811373, 820125006025, 287557192148, 287555368464, 206484825901, 880011066034 (7). Parts-only 880044271943 $60 dropped (1). Excluded as grey-market import/clone listings (Brand New, Located in China, \"VHF Marine Radio\" titles): 227407930480, 128134803069, 820234025453, 226829713531, 188977445886, 327413062322, 226957894129, 407202784155 (Open Box, same clone-style title) and 137753853946 ($99.99 Pre-Owned, \"for Yaesu\" clone-style title) - UNCERTAIN on the last two. Other new-in-box listings and manual/accessory sales omitted. Ledger had count 1 (149.95). Kept 8, median 177.5, low 169.0, high 225.0.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784248",
+    "site": "qth",
+    "ask": 125,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 174.75,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137853292300",
+      "notes": "Buy It Now; free delivery",
+      "flags": []
+    },
+    {
+      "price": 175,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287602187977",
+      "notes": "Buy It Now; free delivery",
+      "flags": []
+    },
+    {
+      "price": 199,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318755429414",
+      "notes": "w/ MH-48 DTMF mic; shipping not captured (recorded 0)",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 175,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407180614739",
+      "notes": "titled FT-2980 w/ mic, mount, plus antenna; \"or Best Offer\" listing, not marked accepted; free delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 180,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198609083038",
+      "notes": "\"excellent\", w/ mic + manual; shipping 24.50",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 169,
+      "sold_date": "2026-08-27",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/178439994886",
+      "notes": "titled \"Yaesu VHF Transceiver FT-2980\"; shipping 11.95",
+      "flags": []
+    },
+    {
+      "price": 206.95,
+      "sold_date": "2026-08-26",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/227419646929",
+      "notes": "\"Original ... w/Warranty\"; shipping not captured (recorded 0)",
+      "flags": []
+    },
+    {
+      "price": 225,
+      "sold_date": "2026-10-25",
+      "condition": "Open Box (New in Box)",
+      "url": "https://www.ebay.com/itm/267823114582",
+      "notes": "\"New in Box\"; \"or Best Offer\" not marked accepted; shipping 19.80",
+      "flags": []
+    }
+  ]
+}
