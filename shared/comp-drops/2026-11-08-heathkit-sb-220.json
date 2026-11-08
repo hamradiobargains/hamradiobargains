@@ -1,0 +1,81 @@
+{
+  "model": "Heathkit SB-220",
+  "slug": "heathkit-sb-220",
+  "searched_at": "2026-11-08T17:57:41-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Heathkit SB-220', page 1 (136 results, mostly SB-200/SB-201/parts/manuals). Kept 7 SB-220 units. Dropped 2 best-offer-accepted (SB220 $1,200 2026-10-12; SB-220 soft-start mod $1,299.95 2026-09-03). Dropped 3 parts-only (Untested 240V $750 2026-11-05; UNTESTED PARTS/REPAIR $549.99 2026-09-06; 'Very Nice' labeled Parts Only $1,250 2026-08-28). Also excluded: 'SB 221 220 Rebuilt' $899.99 (labeled Parts Only and model ambiguous SB-221/SB-220), 3D-printed SB-220 collectible, SB-221/SB-200/SB-201 units, parts, manuals, overlays. Outliers flagged: OUTLIER: $575.00 vs median ~$1,599.99 for the rest.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/267837986171",
+    "site": "ebay",
+    "ask": 1000.0,
+    "shipping": 125.0
+  },
+  "comps": [
+    {
+      "price": 2000.0,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168301832208",
+      "source": "ebay",
+      "notes": "Title: modified with Dahl HD transformer. Fixed price or Best Offer (not best-offer-accepted). No shipping shown.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 1200.0,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206626903155",
+      "source": "ebay",
+      "notes": "Title: Working, (2) 3-500ZG tubes. Fixed price or Best Offer (not best-offer-accepted). No shipping shown.",
+      "flags": []
+    },
+    {
+      "price": 1699.99,
+      "sold_date": "2026-10-18",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/407299695051",
+      "source": "ebay",
+      "notes": "Title: King Conversions complete rebuild, 3-500z tubes. Buy It Now. Shipping $125.00.",
+      "flags": []
+    },
+    {
+      "price": 1150.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128092019969",
+      "source": "ebay",
+      "notes": "Title: Working, 2x Taylor 3-500ZG tubes, manual. Buy It Now. Shipping $100.00.",
+      "flags": []
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800663922733",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted). Shipping $109.12.",
+      "flags": []
+    },
+    {
+      "price": 2000.0,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158169024102",
+      "source": "ebay",
+      "notes": "Title: \"Clean\". Buy It Now. Shipping $175.00.",
+      "flags": []
+    },
+    {
+      "price": 575.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800587406386",
+      "source": "ebay",
+      "notes": "OUTLIER: $575.00 vs median ~$1,599.99 for the rest Auction, 18 bids, final bid. Shipping $96.39.",
+      "flags": []
+    }
+  ]
+}
