@@ -1,0 +1,24 @@
+{
+  "model": "HF Signals sBitx V3",
+  "slug": "hf-signals-sbitx-v3",
+  "searched_at": "2026-11-07T18:58:43-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep. eBay sold search \"HF Signals sBitx\": 2 results. 1 kept (sBitx V3, thin). 287672522381 Easy BITX unbuilt kit $89.95 ignored (kit, not the unit). Trigger ad (1784232) is a trio (zBitX V1 + sBitx V3 + uBitX V6) sold together at $600 cash/local only; only the sBitx V3 component could be comped; zBitX and uBitX not searched (cap). Kept 1, median 399.99, low 399.99, high 399.99.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784232",
+    "site": "qth",
+    "ask": 600,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 399.99,
+      "sold_date": "2026-08-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267750905880",
+      "notes": "HF Signals sBITx V3 HF transceiver; shipping 16.00; same sale as the ledger entry (count 1)",
+      "flags": []
+    }
+  ]
+}
