@@ -1,0 +1,229 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-08",
+  "ran_at": "2026-11-08T18:58:00-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered (ran_at after previous extras drop 2026-11-07-extras.json, ran_at 2026-11-07T18:59:17-05:00): 2026-11-08-eham.json (05:53:18), 2026-11-08-qth.json (14:52:30), 2026-11-08-ebay.json (17:53:03). The 11/08 eHam drop names no extras; the 11/08 eBay drop lists 'beyond cap' items with NO item numbers/URLs (Icom ID-5100A Deluxe $525, Yaesu FT-897 bundle $1000, Henry 2K-3 $1100 local pickup, Kenwood TH-22AT $74, Kenwood TR-2600A/Alinco go-kit lot, AOR DDS-2A VFO) so they could not be queued. Queue: 20 carry-overs from the previous extras drop + named extra QTH 1783910 (Yaesu '991' $600 firm, treated as the ORIGINAL FT-991 per Leo's ruling; already in dropped-urls so NOT re-appended) + 27 fresh QTH extras from the 11/08 QTH drop (after removing 3 already queued as carry-overs: 1784324, 1784320, 1784332) = 48 queued. Worked/triaged: 20 (16 live incl. 2 marked pending: 1784268 SALE PENDING, 1784289 Pending Sale; 3 gone: 1784310, 1784293, 1784295; 1 sold: 1784331 'SOLD, PENDING PAYMENT'). Ledger hits: 2 (Yaesu FT-991 for 1783910: median 776.66, count 3, date 2026-10-09; Icom IC-706MKIIG for 1775896: median 599.99, count 19, date 2026-10-11). eBay sold searches used 15 of 15 (14 models; Arrow II 220-3 took two because my first query was too loose): Ten-Tec Jupiter, M2 Orion 2800, Icom ID-51A, Hermes Lite 2, Astron RS-50A, sBitx, RME 69, Collins 32S-3, Kenwood TS-440S, Dentron Super Tuner Plus, Micro PA100, National LF-10, Drake MN-4, Arrow II 220-3 (x2). Zero qualifying comps: M2 Orion 2800, sBitx, RME 69 (only sale Best-offer-accepted), National LF-10 (only a Best-offer-accepted bundle), Arrow II 220-3. Thin: Ten-Tec Jupiter (2), Icom ID-51A (2), Hermes Lite 2 (1), Collins 32S-3 (1, unit only, not the 4-piece set), Dentron Super Tuner Plus (1). Solid: Astron RS-50A (4), Micro PA100 (4), Drake MN-4 (6), Kenwood TS-440S (10). OUTLIERS flagged: TS-440S 327347483511 ($399.95, high) and Drake MN-4 147630115925 ($58.98, low, no-reserve auction). Skipped: none. Cross-posts: 1784417 is a relist of 1784321 per the QTH drop (not opened, not queued); no serial comparison possible. 1784299 (MFJ-1784/1786 superloop controller, 'Asking $225.00 Shipped OR MAKE OFFER!') was opened for liveness only and found live, but the search cap was reached before it could be comped - it is carried over, not triaged. Work flags carried verbatim: 1775896 'MARS/CAP mod installed. I can reverse it if you like.' (transmit-mod wording); 1784268 needs cleaning/TLC; 1784270 'selling as-is no returns all sales final'; 1784266 'NO WARRANTY/NO RETURN'. UNCERTAIN: 1784332 (rotator 'not working for the last several years' per seller, controller issue), 1784268 (needs-work wording), Micro PA100 vs PA100+ Plus identity, Dentron Super Tuner Plus vs Super Tuner identity, Icom ID-51A vs ID-51A Plus/Plus2 identity. Two TS-440S comps say 'Untested' in the title (flagged as_is, kept - Archie to decide). No eHam page opened; QTH pages opened one at a time (about 4.5 s apart, same-origin fetch from one QTH tab); eBay signed in as Leo, one page at a time with 15+ s between searches, no challenges. CARRIED OVER: 1784299, 1784426, 1784403, 1784402, 1784398, 1784397, 1784389, 1784393, 1784407, 1784357, 1784362, 1784340, 1784361, 1781093, 1783297, 1784425, 1784424, 1784423, 1784428, 1784353, 1784337, 1784335, 1784391, 1784377, 1784336, 1784396, 1784387 (first run next time, in this order; 1784299 is first). BACKLOG CARRY: none. ran_at/searched_at are file-write times, -05:00 (EST). Seller feedback n/a (QTH).",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784321",
+      "site": "qth",
+      "title": "Ten Tec Jupiter w/ ATU Cover",
+      "price": 550,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller: 'Late Model Ten Tec Jupiter with ATU installed. (This is a Black case/ Blue screen) Is in VGC works as it should. Comes with Embroidered Cover, Power Cord, and Manual. Asking $550 pickup or you ship' (shipping not stated, entered 0). comps: ten-tec-jupiter, 2 kept, median 550.0 (thin). Ad 1784417 is a relist of this ad per the 2026-11-08 QTH drop (cross-post; not opened).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1775896",
+      "site": "qth",
+      "title": "IC-706MK2G + every accessory",
+      "price": 975,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller: 'late serial number ... UT-106 DSP module ... CR-282 High Stability Reference Oscillator ... FL-100 (500 Hz) or FL-101 (250 Hz) narrow CW filter ... FL-223 (1.9 KHz) narrow SSB filter. UT-102 Voice Module. MARS/CAP mod installed. I can reverse it if you like. Carry Handle Kit. HM-118TN DTMF microphone - new. Complete RMK-706 Remote Kit ... The display is clear and bright and it's in good physical condition. I'm asking $975 OBO including shipping to any U.S. address.' (ad last edited 11/06/26). comps: ledger hit - icom-ic-706mkiig, median 599.99, count 19, date 2026-10-11.",
+      "work_flag": "MARS/CAP mod installed. I can reverse it if you like.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784332",
+      "site": "qth",
+      "title": "ORION 2800 and Green Heron RT-21",
+      "price": 1850,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller: 'ORION 2800 rotator and accompanying RT-21 controller. The rotator is from a SK estate. The rotator was put into service around 2004 or 2005. It was not working for the last several years due to a controller (different than offered here) issue at the SK's station. The rotator was completely disassembled and relubricated with Lubriplate MAG-1 grease ... The RT-21 controller is SN 0620 and is approximately 17 years old ... I recently had Green Heron go through it ... Total: $1,850 Prefer no ship' (shipping terms cut off in read; entered 0). not comped: eBay search found no exact Orion 2800 rotator sales (comps: m2-orion-2800 file, 0 kept).",
+      "work_flag": "UNCERTAIN: 'It was not working for the last several years due to a controller (different than offered here) issue at the SK's station.' (seller says relubricated and RT-21 recently went through Green Heron)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784331",
+      "site": "qth",
+      "title": "MFJ-949E Versa Tuner II",
+      "price": 129,
+      "shipping": 31.5,
+      "found_at": "2026-11-07",
+      "condition_notes": "no longer live - ad now reads 'SOLD, PENDING PAYMENT, THANK YOU, TOM'. Price/shipping from the 2026-11-07 QTH drop note ($129 + $31.50). not comped: sold. (Ledger MFJ-949E median 115.75, count 34, date 2026-10-29 was available but not used.)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784324",
+      "site": "qth",
+      "title": "Icom ID-51A VHF/UHF D-Star 'EXTRAS'",
+      "price": 300,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller: 'As-New Excellent Condition. Icom ID-51A Dual Band D-Star Transceiver Extra's included BP-272 Battery, Drop In charger. And the HM-186LS Microphone. $300.00 Shipped PayPal Payment.' (ad edited 11/08/26). comps: icom-id-51a, 2 kept, median 309.99 (thin; ID-51A Plus/Plus2 variants kept separate).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784263",
+      "site": "qth",
+      "title": "Hermes Lite II",
+      "price": 375,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller: 'I have for sale a Hermes Lite II transceiver. Has the N2ADR filter board and case. Works very well. I just have two of them and only need one. $375 shipped. Paypal is ok.' comps: hermes-lite-2, 1 kept, median 429.99 (thin; one sale was a KIT).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784318",
+      "site": "qth",
+      "title": "As New Astron RS-50A Power Supply",
+      "price": 300,
+      "shipping": 50,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller: 'like new RS-50A that I purchased February 2026 ... I used it a little in Florida ... Sale for $300 picked up or $350 Shipped lower 48. Cash picked up or Venmo, check or USPS money order if shipped. I will provide you with the original invoice.' (price 300 pickup; shipping 50 = $350 shipped minus $300). comps: astron-rs-50a, 4 kept, median 197.5.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784322",
+      "site": "qth",
+      "title": "Sbitx QRP",
+      "price": 265,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller: 'Near mint cosmetics and working as it shouldIncludes duceRF amp keyer board (not installed) ... Radio, hand mic and DC cable $265 plus shipping' (shipping amount not stated, entered 0). not comped: ZERO qualifying sBitx sold comps on eBay page 1 (comps: hf-signals-sbitx file, 0 kept).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784310",
+      "site": "qth",
+      "title": "zBitx V2",
+      "price": 269,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "no longer live - QTH: 'The ad number you specified is no longer in our system'. Price from the 2026-11-07 QTH drop note. not comped: gone.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784298",
+      "site": "qth",
+      "title": "RME 69 and matching speaker",
+      "price": 150,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller: 'RME 69 and matching speaker in working condition. The cabinets have been refinished and looks good. This is a very nice example of this receiver. More pics are available. I do have the manual for it also. $150 plus shipping or can deliver to Ft. Wayne Indiana hamfest.' (shipping amount not stated, entered 0). not comped: ZERO qualifying comps (only receiver sale was Best-offer-accepted; comps: rme-69 file, 0 kept).",
+      "work_flag": "Cabinets have been refinished (seller wording)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784280",
+      "site": "qth",
+      "title": "Collins 32S-3, 75S-3, 312B, 516F2",
+      "price": 1100,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller: 'This is the whole enchilada for this classic set: 32S-3 tranceiver 75S-3 receiver 312B-4 station control 516F2 power supply $1100 Happy to send additional pictures on request. Bainbridge Island, WA' (shipping not stated, entered 0). comps: collins-32s-3, 1 kept, median 475.0 (thin; standalone 32S-3 only - does not price the 4-piece set; a Nov 5 S-line STATION sale incl. 30L-1 at $1,499 + $200 shipping was seen but is a different bundle).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784268",
+      "site": "qth",
+      "title": "Kenwood TS440s Needs cleaning and TLC",
+      "price": 85,
+      "shipping": 47,
+      "found_at": "2026-11-07",
+      "condition_notes": "live (ad title reads 'SALE PENDING TNX JIM'). Seller: '$85.00 plus 47.00 for shipping to the cont. U.S. via USPS ground. Power output is OK Receive is sensitive. Nice audio. Output carrier potentiometer needs cleaning along with the upper right notch filter potentiometer. Transmit/receive button has been replaced with a piece of heat shrink and works ok. The display is dirty but no scratches. Checked auto tuner, and it seems ok. Radio needs to be cleaned. No mic, but has it's original power cord.' (end of ad text was cut off in read). comps: kenwood-ts-440s, 10 kept, median 226.11 (one OUTLIER 327347483511 $399.95). Ledger entry was 31 days old (2026-10-08) so a fresh search was run.",
+      "work_flag": "UNCERTAIN: 'Needs cleaning and TLC'; 'Output carrier potentiometer needs cleaning along with the upper right notch filter potentiometer'; 'Transmit/receive button has been replaced with a piece of heat shrink and works ok'",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784271",
+      "site": "qth",
+      "title": "Dentron Super Tuner Plus 1kw Tuner",
+      "price": 225,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller: 'As pictured from an SK estate. Would trade for an LDG AT-1000 or similar. Let's make a deal. $225 plus shipping.' (shipping amount not stated, entered 0). comps: dentron-super-tuner-plus, 1 kept, median 139.95 (thin; plain Super Tuner/160-10AT sales kept separate).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784270",
+      "site": "qth",
+      "title": "MICRO PA 100 AMPLIFIER **NICE**",
+      "price": 275,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller: 'I have a very nice new condition Micro PA 100 amplifier. I'm selling as-is no returns all sales final built very nice amplifier. Ship to your verified address for $275.00. I'm not shipping to the US Islands, Alaska, or Hawaii only within the USA.' comps: micro-pa-100 (file hamgeek-micro-pa100), 4 kept, median 319.0 (comps are mostly Brand New retail-seller sales).",
+      "work_flag": "selling as-is no returns all sales final",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784266",
+      "site": "qth",
+      "title": "NATIONAL RADIO CO. LF-10 PRESELECTOR",
+      "price": 700,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller: 'EXTREMELY RARE and in EXCELLENT CONDITION 1965-vintage National Radio Company LF-10 low frequency preselector, companion unit to the National HRO-500 ... COMPLETE with FULL DOCUMENTATION ... The price for this outstanding GEM is $700 which INCLUDES SHIPPING INSURANCE. Postal Service MONEY ORDER ONLY. NO WARRANTY/NO RETURN. U.S.A. sale only.' not comped: ZERO qualifying comps (only related sale was an HRO-500 + LF-10 bundle, Best offer accepted; comps: national-lf-10 file, 0 kept).",
+      "work_flag": "NO WARRANTY/NO RETURN",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784289",
+      "site": "qth",
+      "title": "Drake MN-4 (Pending Sale)",
+      "price": 140,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live (ad title reads '(Pending Sale)'). Seller: 'Drake MN-4 Antenna Tuner, has original paint which is still in nice condition. Will not require refinishing. Front panel very nice! Functions properly and most importantly has no burned band switch contacts from improper use. $140 shipped stateside only' comps: drake-mn-4, 6 kept, median 195.0 (one OUTLIER 147630115925 $58.98).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784320",
+      "site": "qth",
+      "title": "Arrow II Model 220-3 Antenna 220 MHz",
+      "price": 75,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "live. Seller: 'unused (NOS) 3 element 222 MHz portable Yagi antenna. (Antenna is still in its original factory packaging). Includes simple assembly instructions. Sell for $75.00 shipped CONUS or $65.00 local pickup.' not comped: ZERO qualifying comps after two eBay searches (comps: arrow-ii-220-3 file, 0 kept).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784293",
+      "site": "qth",
+      "title": "Flex Antenna Genius 8x2",
+      "price": 800,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "no longer live - QTH: 'The ad number you specified is no longer in our system'. Price from the 2026-11-07 QTH drop note. not comped: gone.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784295",
+      "site": "qth",
+      "title": "Flex Maestro C",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-07",
+      "condition_notes": "no longer live - QTH: 'The ad number you specified is no longer in our system'. Price not recorded in the 2026-11-07 drop note (entered 0, not a real price). not comped: gone.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "Yaesu 991 for sale",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-11-02",
+      "condition_notes": "live. Seller: 'Nice radio with original mic and bound copy of owners manual. I bought this from a friend about a year ago ... One minor scratch on the top. Power pole connectors. I do not have the original box but if buyer wishes to have unit shipped, it would be properly packaged and shipped at buyers expense. $600.00 firm. I will consider driving a reasonable distance with pre-payment.' (ad submitted 11/02/26; shipping buyer's expense, amount not stated, entered 0). comps: ledger hit - yaesu-ft-991, median 776.66, count 3, date 2026-10-09. Ad text says only 'Yaesu 991'; treated as the ORIGINAL FT-991 per Leo's ruling (FT-991A figures not used).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
