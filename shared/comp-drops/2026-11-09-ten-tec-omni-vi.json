@@ -1,0 +1,27 @@
+{
+  "model": "Ten-Tec Omni VI (563)",
+  "slug": "ten-tec-omni-vi",
+  "searched_at": "2026-11-09T18:57:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ten tec omni vi 563', page 1. THIN: 1 kept comp. Dropped: 1 Best-offer-accepted (920040572280 $290.00, Oct 14). Parts-only (3, dropped): 237113549667 $430.00, 237056476549 $460.00, 287575835174 $200.00 (also Best offer accepted). Omni VI Plus 563+ (128017150740 $609.99), Omni-D and other Omni models excluded as different models. Trigger ask $420 'shipped and insured' (seller expects ~$50 shipping; recorded 0); ad discloses 17/15/12/10 m chirp/freq-lock problem and no filters.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784397",
+    "site": "qth",
+    "ask": 420,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 489,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407351595572",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked accepted); +$39.95 delivery. Title: 'Ten-Tec 563 Omni VI With Option 3'.",
+      "flags": [
+        "option_installed"
+      ]
+    }
+  ]
+}
