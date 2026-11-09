@@ -1,0 +1,25 @@
+{
+  "model": "Dentron Super Tuner Plus",
+  "slug": "dentron-super-tuner-plus",
+  "searched_at": "2026-11-08T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Leo signed in, page 1, sold+completed, sorted recent): 1 kept comps, median 139.95, low 139.95, high 139.95; thin. DROPPED parts-only: 800519184874 (Aug 18, $85.00 +$10.76, Vintage Dentron Super Tuner Plus, listed Parts Only). Kept separate as a different model (plain Super Tuner / 160-10AT / MT-2000A / MT-3000A, not Super Tuner Plus): 137732831224 $146.00, 257709369947 $120.00, 206546390190 $119.00, 278266934170 $99.00 or BO, 298686408117 $119.00, 168790191919 $150.00 or BO, 336768584403 $74.00 untested, 237006306843 $127.49 BO accepted, MT-2000A $175.00 or BO, MT-3000A sales; manual-only 117397568880 ($5.00). Whether Super Tuner Plus and Super Tuner are interchangeable is UNCERTAIN - kept separate. 1 kept - thin. Queued ad: https://swap.qth.com/view_ad.php?counter=1784271.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784271",
+    "site": "qth",
+    "ask": 225,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 139.95,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298718437542",
+      "source": "ebay",
+      "notes": "shipping $23.48 shown; listed 'or Best Offer', not marked accepted - kept at shown price; title: Super Tuner Plus 1Kw 160-10 Meters",
+      "flags": []
+    }
+  ]
+}
