@@ -1,0 +1,15 @@
+{
+  "model": "Arrow II 220-3 (222 MHz 3-element yagi)",
+  "slug": "arrow-ii-220-3",
+  "searched_at": "2026-11-08T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Leo signed in, page 1, sold+completed, sorted recent): 0 kept comps; ZERO qualifying comps. ZERO qualifying comps. Two sold searches used (both counted against the cap): first query 'arrow antenna 220 3 element' was too loose (returned comics, car antennas, pneumatic parts, a 2m handheld beam); second query 'arrow ii 220-3 yagi' returned only other Arrow II models (146/437-10BP split boom $110.00 or BO Oct 4; 146/437-10W $129.00 Best offer accepted Sep 9) - different models, not used. No Arrow II 220-3 sold on page 1. Queued ad: https://swap.qth.com/view_ad.php?counter=1784320.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784320",
+    "site": "qth",
+    "ask": 75,
+    "shipping": 0
+  },
+  "comps": []
+}
