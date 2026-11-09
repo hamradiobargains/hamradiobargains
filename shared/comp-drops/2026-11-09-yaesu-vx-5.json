@@ -1,0 +1,38 @@
+{
+  "model": "Yaesu VX-5",
+  "slug": "yaesu-vx-5",
+  "searched_at": "2026-11-09T18:42:56-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only (105 main results; 'Results matching fewer words' ignored). Strict model identity: kept only units titled VX-5; 94 results mentioning VX-5R excluded as a different model, rest were chargers/batteries/clips/cables/mics. Kept 2 — thin. No best-offer-accepted or parts-only VX-5 units to drop. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366797571662",
+    "site": "ebay",
+    "ask": 306.26,
+    "shipping": 85.0
+  },
+  "comps": [
+    {
+      "price": 189.0,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377607585276",
+      "source": "ebay",
+      "notes": "Title: with CD-15 Rapid Charger Base. Or Best Offer (not accepted). Shipping $14.95.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 149.95,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158244172256",
+      "source": "ebay",
+      "notes": "Title: \"50/144/430 MHz Tri-Band ... CD-15 Base\". Buy It Now. Free shipping.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
