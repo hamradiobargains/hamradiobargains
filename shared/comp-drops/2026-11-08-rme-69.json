@@ -1,0 +1,15 @@
+{
+  "model": "RME 69",
+  "slug": "rme-69",
+  "searched_at": "2026-11-08T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Leo signed in, page 1, sold+completed, sorted recent): 0 kept comps; ZERO qualifying comps. ZERO qualifying comps: only receiver sale 267803323400 (Oct 8, shown $125.00, +$45.33) is marked Best offer accepted - dropped (1). Others on page: RME-69 operating manual $13.99, RME-69 speaker $90.00, RME-6900 receiver 920021587506 ($200.00 Best offer accepted - different model, dropped), 6901 speaker - not the unit. Queued ad: https://swap.qth.com/view_ad.php?counter=1784298.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784298",
+    "site": "qth",
+    "ask": 150,
+    "shipping": 0
+  },
+  "comps": []
+}
