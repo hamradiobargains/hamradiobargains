@@ -1,0 +1,28 @@
+{
+  "model": "Drake TR-5",
+  "slug": "drake-tr-5",
+  "searched_at": "2026-11-09T15:42:49Z",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "From missed search shared/listing-drops/2026-11-07-missed-search.json: visitor typed 'drake tr-5' (entry had no likely_model; the term names a real model, the Drake TR-5 HF transceiver, so it was priced as-is). eBay sold searches 'Drake TR-5' (6 results) and 'Drake TR5 transceiver' (30 results), page 1; 2 kept. Excluded: 366735933305 $17.95 TR-5 operating manual + brochure (accessory); 237124217132 $32 Drake TR75 power supply (accessory, other model); 237100753000 $394.55 TR5 for parts or repair (parts-only); $30.71 replacement mic (accessory). All other hits were other Drake models (TR-4/TR-4C/TR-4CW, TR-3, TR-7, TR-22, RV-7, MS-7, AC-4) or unrelated sports cards. No best-offer-accepted strikes on kept comps. Only 2 genuine comps \u2014 low confidence; both from the same seller (kf9726) a day apart.",
+  "comps": [
+    {
+      "price": 571.0,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-owned, working, on-air tested, WARC bands included",
+      "url": "https://www.ebay.com/itm/237130492679",
+      "source": "ebay",
+      "notes": "Auction, 9 bids, +$37.65 shipping",
+      "flags": []
+    },
+    {
+      "price": 431.0,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-owned, working, on-air tested",
+      "url": "https://www.ebay.com/itm/237129392159",
+      "source": "ebay",
+      "notes": "Auction, 4 bids, +$37.65 shipping",
+      "flags": []
+    }
+  ]
+}
