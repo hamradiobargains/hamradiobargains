@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-09",
+  "ran_at": "2026-11-09T18:38:14-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670) browse page, Buy It Now filter, sorted newly listed, page 1 only (~60 cards); signed in as Leo, no challenges. Window since previous ebay run 2026-11-08T17:53:03-05:00 (browse cards show no listing times; newest-first order used, all page-1 cards marked NEW LISTING / 'Just listed'). None of the picked items were in dropped-urls.json. All 8 picked sellers passed the feedback rule (3 of the 8 are from Japan-based seller J's Market). Item descriptions not read; condition_notes use title, eBay condition label, seller notes and returns policy only. Ledger: 4 hits (ELECRAFT K3/100, HEATHKIT SB-200, KENWOOD TM-G707, KENWOOD TS-50S); 4 misses -> 4 eBay sold searches (ICOM IC-9100 ledger date 2026-10-08 stale; YAESU FT-847 ledger date 2026-10-05 stale; FT-991M not in ledger (FT-991/FT-991A are different models); VX-5 not in ledger (VX-5R is a different model)). Not picked: parts-only units (FT-225RD, Hallicrafters S40B x2, SX-110, Palomar Pulsar, Wawasee JB-12, Firebird F-500, Collins KWS-1 local pickup, Heathkit IT-12, FA-WA-4610, National SW-3 and 1-10), accessories/parts (MJ-89, OPC-438, DFK-3C, FEX-736-50, Argonaut 505 boards, TS-520/830 resistor kit, Yaesu hand mic, Sinclair load, RigExpert interface, RemoteRig, MACOM amp), receivers (National NC-60, Knight Space Spanner, DX-302, Grundig Sat 750, AOR AR-8200, ATS-25, RTL-SDR), CB/10m and non-ham (Messenger 800, Shooting Star 225, Sony ICB-87H/ICB-707, Nippon Dengyo Wild 460, Cobra 21, Kenpro KP-12A, Comrex ENG, NEVS), auctions (Kenwood TM-281A, Icom IC-2300H), unclear/obscure (Kuranishi NT-272 tuner, Standard C-510A), and beyond cap (Icom IC-9100 EME Modified $2,397.25, itm 366797571603).",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/327448594086",
+      "site": "ebay",
+      "title": "Elecraft K3/100 High Perf 160-6m Transceiver KPA3 2.7 # 7538 100 Watts",
+      "price": 1249.0,
+      "shipping": 53.75,
+      "found_at": "2026-11-09",
+      "condition_notes": "eBay condition: Used. Seller notes: \"used\". Fixed price or Best Offer. Seller does not accept returns. Description not read; no defects stated in title.",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "100% (2122 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/840112168033",
+      "site": "ebay",
+      "title": "ICOM IC-9100 HF-6 METER, 2 METER, 440MHZ ALL MODE+ D-STAR + FL-431 FILTER + BOX",
+      "price": 1447.0,
+      "shipping": 0,
+      "found_at": "2026-11-09",
+      "condition_notes": "eBay condition: Used. Seller notes: \"Nice clean condition. Never exposed to any smoking environment. Includes everything shown plus...\" Title: D-STAR, FL-431 filter, box. Free shipping. 14-day returns.",
+      "work_flag": "",
+      "seller_feedback": "100% (1668 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/377633642707",
+      "site": "ebay",
+      "title": "Kenwood HF Transceiver TS-50S w/Mic & Power Cable /OT",
+      "price": 329.95,
+      "shipping": 24.95,
+      "found_at": "2026-11-09",
+      "condition_notes": "eBay condition: Used. Includes mic and power cable (per title). Fixed price or Best Offer. Seller does not accept returns. No condition details in title.",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "99.8% (39662 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227606669011",
+      "site": "ebay",
+      "title": "Heathkit SB-200 HF Linear Amplifier",
+      "price": 595.0,
+      "shipping": 79.0,
+      "found_at": "2026-11-09",
+      "condition_notes": "eBay condition: Used. Seller notes: \"Good working condition.\" Seller does not accept returns. Ships UPS Ground.",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "100% (4636 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227606694296",
+      "site": "ebay",
+      "title": "Kenwood Tmg -707 2/440 MHz With Brkts",
+      "price": 175.0,
+      "shipping": 15.0,
+      "found_at": "2026-11-09",
+      "condition_notes": "eBay condition: Used. Kenwood TM-G707 (title spells \"Tmg -707\"), with brackets. Fixed price or Best Offer. 14-day returns. No condition details in title.",
+      "work_flag": "",
+      "seller_feedback": "96.4% (547 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366797571701",
+      "site": "ebay",
+      "title": "YAESU FT-847 100W HF 50/144/430MHz All Mode Modified Transceiver",
+      "price": 1214.47,
+      "shipping": 120.0,
+      "found_at": "2026-11-09",
+      "condition_notes": "eBay condition: Used. Title says \"Modified\". Ships from Japan (SpeedPAK, import charges apply). 30-day returns. Page also showed a coupon price of $1,153.75; list price recorded.",
+      "work_flag": "",
+      "seller_feedback": "100% (240 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366797570069",
+      "site": "ebay",
+      "title": "YAESU FT-991M HF～430MHz 100W All Mode Transceiver General Coverage TX Modified",
+      "price": 1394.0,
+      "shipping": 120.0,
+      "found_at": "2026-11-09",
+      "condition_notes": "eBay condition: Used. Model per title: FT-991M (not FT-991/FT-991A). Title: \"General Coverage TX Modified\". Item specifics inconsistent (Brand: Icom, Model: HM-186SJ). Ships from Japan (SpeedPAK). 30-day returns. Coupon price $1,324.30 shown; list price recorded.",
+      "work_flag": "",
+      "seller_feedback": "100% (240 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366797571662",
+      "site": "ebay",
+      "title": "YAESU VX-5 50/144/430MHz 5W Triple Band Handheld Transceiver Wide RX",
+      "price": 306.26,
+      "shipping": 85.0,
+      "found_at": "2026-11-09",
+      "condition_notes": "eBay condition: Used. Model per title: VX-5 (not VX-5R). Title: \"Wide RX\". Ships from Japan (SpeedPAK). 30-day returns. Coupon price $290.95 shown; list price recorded.",
+      "work_flag": "",
+      "seller_feedback": "100% (240 ratings)"
+    }
+  ]
+}
