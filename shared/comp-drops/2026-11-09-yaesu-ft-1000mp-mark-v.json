@@ -1,0 +1,56 @@
+{
+  "model": "Yaesu FT-1000MP Mark-V",
+  "slug": "yaesu-ft-1000mp-mark-v",
+  "searched_at": "2026-11-09T14:55:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in as Leo). 4 kept comps of the full 200W Mark-V unit. Dropped 0 best-offer-accepted, dropped 2 parts-only (#128097687377 $806 auction Oct 5; #327244807201 $1,500 BIN Oct 1 - both labeled Parts Only). Excluded Mark-V Field units, the original FT-1000MP (no Mark V in title), and parts/accessories (tuner, heat sink, boards, panels, PA unit, CNTL-1 unit, FP-29 supply, cables, manuals, speaker). OUTLIERS: $450 (vs ~$1,250 median of the rest) and $1,980 (vs ~$1,100 median of the rest; Japan seller, includes FP-29).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784489",
+    "site": "qth",
+    "ask": 800.0,
+    "shipping": 60
+  },
+  "comps": [
+    {
+      "price": 1250.0,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960106931428",
+      "source": "ebay",
+      "notes": "Title: '200 Watt HF Transceiver W Options BIN $1250 OBO!'. Fixed price or Best Offer (not shown as best offer accepted). Shipping +$75.00.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1980.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128045553701",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,980 vs ~$1,100 median of the rest. Title: '200W FP-29 Working' (includes FP-29 power supply). Located in Japan. Fixed price or Best Offer (not shown as best offer accepted). Shipping +$500.00 incl. import fees.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158213724218",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping +$100.00.",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800677669533",
+      "source": "ebay",
+      "notes": "OUTLIER: $450 vs ~$1,250 median of the rest. Title says 'w/ LCD Screen Black' (meaning unclear from title). Fixed price or Best Offer (not shown as best offer accepted). Shipping +$27.24.",
+      "flags": []
+    }
+  ]
+}
