@@ -1,0 +1,54 @@
+{
+  "model": "Kenwood TS-450S",
+  "slug": "kenwood-ts-450s",
+  "searched_at": "2026-11-09T18:57:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood ts-450s', page 1 (33 results). 4 kept, median 365.49 - solid-ish. OUTLIER flagged: 128038629610 $534.08 (high). One kept comp is titled UNTESTED (307238172225) and flagged as_is; kept, Archie to decide. Dropped: 6 Best-offer-accepted units (366522535555 $484.00, 237074384668 $499.94, 318783569175 $350.00, 318800899993 $365.00, 377462434274 $400.00, 188812021229 $495.00). Parts-only (5, dropped): 188803326001 $299.99, 307189251135 $219.99, 158318685684 $279.99 (also BO accepted), 128054452293 $500.00 (also BO accepted), 178225210821 $319.99. TS-450SAT sales (318721082680 $380.00 and a parts SAT) and accessories (filters, tuner, display) excluded. Trigger: ask $850 plus shipping (shipping not stated, 0) with PS, MC-60 and SSB filter.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784389",
+    "site": "qth",
+    "ask": 850,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 375,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880093918094",
+      "source": "ebay",
+      "notes": "+$42.50 delivery.",
+      "flags": []
+    },
+    {
+      "price": 355.97,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307238172225",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked accepted); +$96.39 delivery. Title says 'UNTESTED'.",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 300,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257710557365",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked accepted); +$54.04 delivery.",
+      "flags": []
+    },
+    {
+      "price": 534.08,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128038629610",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x the median of the other three kept comps (355.97); shipping not shown.",
+      "flags": []
+    }
+  ]
+}
