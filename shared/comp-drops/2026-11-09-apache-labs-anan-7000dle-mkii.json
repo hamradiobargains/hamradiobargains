@@ -1,0 +1,15 @@
+{
+  "model": "Apache Labs ANAN-7000DLE MKII",
+  "slug": "apache-labs-anan-7000dle-mkii",
+  "searched_at": "2026-11-09T18:57:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'anan 7000dle mkii' (sold+completed, page 1): eBay returned 0 exact results; the rows shown were only the 'fewer words' section (unrelated items) and were ignored. Zero qualifying comps - not comped. Ask $2,450 plus shipping and insurance (shipping not stated, recorded as 0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784426",
+    "site": "qth",
+    "ask": 2450,
+    "shipping": 0
+  },
+  "comps": []
+}
