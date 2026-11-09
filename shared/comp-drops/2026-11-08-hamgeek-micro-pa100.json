@@ -1,0 +1,52 @@
+{
+  "model": "Micro PA100 (HamGeek, 100W HF QRP amp)",
+  "slug": "hamgeek-micro-pa100",
+  "searched_at": "2026-11-08T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Leo signed in, page 1, sold+completed, sorted recent): 4 kept comps, median 319.0, low 303.05, high 385.85; solid. Comps are mostly Brand New retail-seller sales; the queued ad is a private-party 'new condition' unit sold as-is. Excluded as different models: PA100+ / PA100+ Plus sales (178074286487 $309.70, 389931543460 $309.70, 389931487952 $299.25 or BO, 298589772797 $359.00 or BO, 800285989511 $308.75 or BO, 336490107108 $338.75 or BO) and PA50/PA50-3/PA50+ amps, cables and adapters. Sale 4 (397878070670, $385.85) is close to 1.2x median; no outliers by the 0.5x/1.5x rule. Whether PA100 and PA100+ Plus are interchangeable is UNCERTAIN - kept separate. 4 kept. Queued ad: https://swap.qth.com/view_ad.php?counter=1784270.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784270",
+    "site": "qth",
+    "ask": 275,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 303.05,
+      "sold_date": "2026-10-17",
+      "condition": "not captured",
+      "url": "https://www.ebay.com/itm/297434236707",
+      "source": "ebay",
+      "notes": "shipping $11.00 shown; shown $303.05 (listed $319.00 struck-through/discount); Buy It Now; title: PA100 100W Shortwave HF Power Amplifier Intelligent Portable LPF Filter",
+      "flags": []
+    },
+    {
+      "price": 319,
+      "sold_date": "2026-08-18",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/146673823650",
+      "source": "ebay",
+      "notes": "shipping $11.00 shown; Buy It Now",
+      "flags": []
+    },
+    {
+      "price": 319,
+      "sold_date": "2026-10-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/116888896903",
+      "source": "ebay",
+      "notes": "shipping $11.00 shown; listed 'or Best Offer', not marked accepted - kept at shown price",
+      "flags": []
+    },
+    {
+      "price": 385.85,
+      "sold_date": "2026-08-19",
+      "condition": "not captured",
+      "url": "https://www.ebay.com/itm/397878070670",
+      "source": "ebay",
+      "notes": "free delivery shown; listed 'or Best Offer', not marked accepted - kept at shown price; title: PA100 100W 3.5MHz-30MHz QRP HF Power Amplifier SW Radio Linear Power",
+      "flags": []
+    }
+  ]
+}
