@@ -1,0 +1,52 @@
+{
+  "model": "Astron RS-50A",
+  "slug": "astron-rs-50a",
+  "searched_at": "2026-11-08T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Leo signed in, page 1, sold+completed, sorted recent): 4 kept comps, median 197.5, low 110.0, high 250.0; solid. DROPPED Best-offer-accepted: 287533339214 (Aug 30, shown $198.88 +$52.15), 257686765460 (Aug 23, shown $139.95 +$73.59). RS-50M sales (128040012062, 206639752154) excluded as a different model. 4 kept. Queued ad: https://swap.qth.com/view_ad.php?counter=1784318.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784318",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 50
+  },
+  "comps": [
+    {
+      "price": 229.99,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307179552702",
+      "source": "ebay",
+      "notes": "shipping $74.19 shown; Buy It Now",
+      "flags": []
+    },
+    {
+      "price": 250,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257685153056",
+      "source": "ebay",
+      "notes": "free delivery shown; Buy It Now",
+      "flags": []
+    },
+    {
+      "price": 165,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298476817226",
+      "source": "ebay",
+      "notes": "shipping $105.50 shown; Buy It Now",
+      "flags": []
+    },
+    {
+      "price": 110,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298609055867",
+      "source": "ebay",
+      "notes": "shipping $30.36 shown; listed 'or Best Offer', not marked accepted - kept at shown price",
+      "flags": []
+    }
+  ]
+}
