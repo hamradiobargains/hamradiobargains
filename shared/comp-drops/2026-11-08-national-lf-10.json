@@ -1,0 +1,15 @@
+{
+  "model": "National LF-10",
+  "slug": "national-lf-10",
+  "searched_at": "2026-11-08T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Leo signed in, page 1, sold+completed, sorted recent): 0 kept comps; ZERO qualifying comps. ZERO qualifying comps: only related sale is 377487055208 (Sep 11, HRO-500 receiver + LF-10 preselector bundle, shown $1,199.90, Best offer accepted, +$59.99) - bundle where LF-10 is a part and BO-accepted, dropped (1). No standalone LF-10 sold on page 1. Queued ad: https://swap.qth.com/view_ad.php?counter=1784266.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784266",
+    "site": "qth",
+    "ask": 700,
+    "shipping": 0
+  },
+  "comps": []
+}
