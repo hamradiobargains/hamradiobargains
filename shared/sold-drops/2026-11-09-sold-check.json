@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-09",
+  "checked": 35,
+  "inconclusive": [
+    "https://www.eham.net/classifieds/629120",
+    "https://www.eham.net/classifieds/629186",
+    "https://www.eham.net/classifieds/629392",
+    "https://www.eham.net/classifieds/629495"
+  ],
+  "newlySold": [
+    {
+      "link": "https://swap.qth.com/view_ad.php?counter=1784062",
+      "item": "Elecraft K3/100 Transceiver",
+      "price": 909,
+      "signal": "The ad number you specified, 1784062, is no longer in our system.",
+      "loads": 2
+    },
+    {
+      "link": "https://swap.qth.com/view_ad.php?counter=1784248",
+      "item": "Yaesu FT-2980R 2m Mobile Transceiver",
+      "price": 125,
+      "signal": "The ad number you specified, 1784248, is no longer in our system.",
+      "loads": 2
+    }
+  ]
+}
