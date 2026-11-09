@@ -1,0 +1,15 @@
+{
+  "model": "M2 Orion 2800",
+  "slug": "m2-orion-2800",
+  "searched_at": "2026-11-08T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Leo signed in, page 1, sold+completed, sorted recent): 0 kept comps; ZERO qualifying comps. ZERO qualifying comps: page 1 held only M2 RC2800PX/RC2800PRK rotor CONTROLLERS (Sep 18 $75.00, Oct 19 $159.95 or Best Offer, Oct 20 $49.95 1 bid, Sep 11 RC2800P-A) - controllers, not the Orion 2800 rotator, not used - plus unrelated Yaesu FT-2800M radios and non-ham 'Orion' items. No exact Orion 2800 rotator sold. Queued ad: https://swap.qth.com/view_ad.php?counter=1784332.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784332",
+    "site": "qth",
+    "ask": 1850,
+    "shipping": 0
+  },
+  "comps": []
+}
