@@ -1,0 +1,72 @@
+{
+  "model": "Drake MN-4",
+  "slug": "drake-mn-4",
+  "searched_at": "2026-11-08T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Leo signed in, page 1, sold+completed, sorted recent): 6 kept comps, median 195.0, low 58.98, high 250.0; solid. DROPPED Best-offer-accepted: 267799995582 ($200.00 Oct 16, +$23.80), 185046856808 ($249.99 Sep 21, also Parts Only), 307151578588 (manual only). DROPPED parts-only: 257787766235 ($85.00 Oct 12, 1 bid, +$27.52), 185046856808. Kept separate as different models: MN-4C / MN4C sales (900047519295 $99.95 BO accepted, 940015535831 $160.00 BO accepted, 117320256684 $150.00, 287542126814 $99.00 parts only) and MN-2000 sales ($199.95 or BO, $150.00 2 bids). The queued ad 1784289 is marked '(Pending Sale)'. Outlier: 147630115925. 6 kept. Queued ad: https://swap.qth.com/view_ad.php?counter=1784289.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784289",
+    "site": "qth",
+    "ask": 140,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 58.98,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147630115925",
+      "source": "ebay",
+      "notes": "shipping $20.00 shown; auction 7 bids; title: Drake MN-4 HF Antenna Tuner 80/10 Meters No Reserve. OUTLIER: below 0.5x median of other kept comps (195.00), no-reserve auction",
+      "flags": []
+    },
+    {
+      "price": 250,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237071936768",
+      "source": "ebay",
+      "notes": "shipping $3.85 shown; listed 'or Best Offer', not marked accepted - kept at shown price; title: MN-4 Antenna Matching Network",
+      "flags": []
+    },
+    {
+      "price": 189.99,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227527522662",
+      "source": "ebay",
+      "notes": "shipping $19.99 shown; Buy It Now; title says WORKS",
+      "flags": []
+    },
+    {
+      "price": 195,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267774703813",
+      "source": "ebay",
+      "notes": "shipping $18.65 shown; 'or Best Offer', not marked accepted - kept at shown price",
+      "flags": []
+    },
+    {
+      "price": 195,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267743393833",
+      "source": "ebay",
+      "notes": "shipping $18.65 shown; 'or Best Offer', not marked accepted; same title as 267774703813 (possible duplicate/relist)",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 250,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267757270653",
+      "source": "ebay",
+      "notes": "shipping $34.55 shown; 'or Best Offer', not marked accepted - kept at shown price",
+      "flags": []
+    }
+  ]
+}
