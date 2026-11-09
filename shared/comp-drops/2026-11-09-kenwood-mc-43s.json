@@ -1,0 +1,52 @@
+{
+  "model": "Kenwood MC-43S",
+  "slug": "kenwood-mc-43s",
+  "searched_at": "2026-11-09T05:58:15-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "4 kept comps. dropped 1 best-offer-accepted (287284590457 $59.99). dropped 0 parts-only. Left out ~34 'MC-43S Mic For Kenwood' aftermarket/clone listings ($14-$22) - not the genuine Kenwood model; also left out 385166555135 ($32.21 brand new, import charges - likely clone) and 237147754639 ($18 'NIB' open box - genuineness unclear), and TS-870S radios bundled with an MC-43S. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629538",
+    "site": "eham",
+    "ask": 40.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 39.99,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307247682224",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); title 'OEM GENUINE KENWOOD ... MC-43S'; +$6.83 delivery",
+      "flags": []
+    },
+    {
+      "price": 59.99,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407240635684",
+      "source": "ebay",
+      "notes": "Buy It Now; title 'OEM GENUINE KENWOOD ... MC-43S'; free delivery",
+      "flags": []
+    },
+    {
+      "price": 49.99,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168637098661",
+      "source": "ebay",
+      "notes": "Buy It Now; title 'GENUINE OEM KENWOOD MC-43S ... MADE IN JAPAN'; +$11.99 delivery",
+      "flags": []
+    },
+    {
+      "price": 39.99,
+      "sold_date": "2026-09-01",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/147481288205",
+      "source": "ebay",
+      "notes": "Buy It Now; title 'Kenwood Original MC-43S ... NEW / Open Box'; +$12.10 delivery",
+      "flags": []
+    }
+  ]
+}
