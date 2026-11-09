@@ -1,0 +1,25 @@
+{
+  "model": "Ten-Tec Argonaut 509",
+  "slug": "ten-tec-argonaut-509",
+  "searched_at": "2026-11-09T18:57:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'tentec argonaut 509', page 1. THIN: 1 kept comp. Dropped: 1 Best-offer-accepted (407159675694 $259.00, Aug 31). Parts-only (4, dropped): 128006323346 $169.99 (also Best offer accepted), 158217035044 $249.99, 178462714704 $240.00, 137628038006 $74.13. Other models (Argonaut V/VI/515, manuals, mics, power supply) excluded. Trigger ask $175 'shipped and insured to the lower 48' (shipping recorded 0); ad says little to NO power out.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784398",
+    "site": "qth",
+    "ask": 175,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 400,
+      "sold_date": "2026-11-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128084867690",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked accepted); free delivery. Title: 'Ten-Tec Argonaut 509 QRP Ham radio station'.",
+      "flags": []
+    }
+  ]
+}
