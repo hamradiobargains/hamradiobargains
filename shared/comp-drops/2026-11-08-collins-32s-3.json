@@ -1,0 +1,25 @@
+{
+  "model": "Collins 32S-3",
+  "slug": "collins-32s-3",
+  "searched_at": "2026-11-08T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Leo signed in, page 1, sold+completed, sorted recent): 1 kept comps, median 475.0, low 475.0, high 475.0; thin. Queued ad is a 4-piece S-line set (32S-3 + 75S-3 + 312B-4 + 516F2); only standalone 32S-3 transmitter sales are comped here, so this does NOT price the set. Parts-only dropped: 128092019973 ($250.00 Oct 24, +$35.00), 198737595846 ($180.00 Oct 23, +$53.62, untested for parts/repair). Best-offer-accepted dropped: 398426222416 (Oct 20, shown $450.00 +$75.35). Not comps: 198694279178 (Nov 5, $1,499.00 +$200.00, Collins S-line STATION incl. 30L-1 amp - different bundle), 174256341623 (Oct 14 $179.99, rack-mount lot title with several models), crystals/relays/PTO/dial/knob parts. 1 kept - thin. Queued ad: https://swap.qth.com/view_ad.php?counter=1784280.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784280",
+    "site": "qth",
+    "ask": 1100,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 475,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206668890428",
+      "source": "ebay",
+      "notes": "freight shipping (amount not shown); auction 21 bids; title: 32S-3 transmitter working clean good condition Winged emblem",
+      "flags": []
+    }
+  ]
+}
