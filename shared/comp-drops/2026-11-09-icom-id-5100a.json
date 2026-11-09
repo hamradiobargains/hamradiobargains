@@ -1,0 +1,142 @@
+{
+  "model": "Icom ID-5100A",
+  "slug": "icom-id-5100a",
+  "searched_at": "2026-11-09T05:58:15-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "13 kept comps. dropped 8 best-offer-accepted (820247418692, 189005847784, 327347197208, 227522101768, 168646260756, 137714380828, 327337375638, 206446674103). dropped 3 parts-only (327407623993 no display/no power; 158237594189 AS IS; 168616946986 parts lot, also BOA). Deluxe-titled units (factory Bluetooth package) kept and flagged option_installed. Accessories under $150 excluded. No outliers. Trigger ad title says '5100d', body says ID5100A.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629544",
+    "site": "eham",
+    "ask": 425.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 350.0,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287711980522",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); w/ HM-207 mic; +$8.11 delivery",
+      "flags": []
+    },
+    {
+      "price": 475.0,
+      "sold_date": "2026-11-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267830242866",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery",
+      "flags": []
+    },
+    {
+      "price": 435.0,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257819280479",
+      "source": "ebay",
+      "notes": "Buy It Now; with box; +$25.12 delivery",
+      "flags": []
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327414499766",
+      "source": "ebay",
+      "notes": "Buy It Now; w/ control head, mic, cables; +$33.50 delivery",
+      "flags": []
+    },
+    {
+      "price": 475.0,
+      "sold_date": "2026-10-16",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227520108514",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); free delivery",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198685761299",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); title: optional Bluetooth module, windshield mount and case; +$14.26 delivery",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 405.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206597401191",
+      "source": "ebay",
+      "notes": "auction, 9 bids; title mentions Bluetooth; +$12.17 delivery",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267788163901",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); free delivery",
+      "flags": []
+    },
+    {
+      "price": 354.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158278728018",
+      "source": "ebay",
+      "notes": "auction, 22 bids; titled ID-5100A DELUXE; free delivery",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 415.0,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327356775499",
+      "source": "ebay",
+      "notes": "Buy It Now; +$10.55 delivery",
+      "flags": []
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327345349893",
+      "source": "ebay",
+      "notes": "Buy It Now; +$11.18 delivery",
+      "flags": []
+    },
+    {
+      "price": 629.95,
+      "sold_date": "2026-09-02",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/111792631305",
+      "source": "ebay",
+      "notes": "Buy It Now from Icom dealer; titled ID-5100A Deluxe; $650.00 shown struck through; free delivery",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 425.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117387199756",
+      "source": "ebay",
+      "notes": "Buy It Now; +$14.17 delivery",
+      "flags": []
+    }
+  ]
+}
