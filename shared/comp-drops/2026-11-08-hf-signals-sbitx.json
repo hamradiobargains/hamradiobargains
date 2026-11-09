@@ -1,0 +1,15 @@
+{
+  "model": "sBitx (QRP)",
+  "slug": "hf-signals-sbitx",
+  "searched_at": "2026-11-08T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Leo signed in, page 1, sold+completed, sorted recent): 0 kept comps; ZERO qualifying comps. ZERO qualifying comps: page 1 held no sBitx/zBitx radio sales (only an unrelated mic accessory). Existing ledger entry 'HF SIGNALS SBITX V3' (count 1, 2026-08-10) is a different sample and was not substituted. Queued ad: https://swap.qth.com/view_ad.php?counter=1784322.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784322",
+    "site": "qth",
+    "ask": 265,
+    "shipping": 0
+  },
+  "comps": []
+}
