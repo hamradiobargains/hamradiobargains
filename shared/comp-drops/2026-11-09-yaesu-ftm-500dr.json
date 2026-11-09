@@ -1,0 +1,97 @@
+{
+  "model": "Yaesu FTM-500DR",
+  "slug": "yaesu-ftm-500dr",
+  "searched_at": "2026-11-09T05:58:15-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "9 kept comps. dropped 2 best-offer-accepted (137737046538 $439, 128062540592 $470). dropped 0 parts-only. Kept only titles reading FTM-500DR/FTM500DR; left out titles saying only 'FTM-500D' (257748677698 $425 MARS mod, 278344456822 $310, 307116984083 $521, 158313930161 BOA) and the FTM500 DE (UK, 267799835703) for model identity, a 2-radio lot (318797653636), and accessories (mics, brackets, cables). No outliers. Trigger ad says 'FTM 500' without suffix.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629545",
+    "site": "eham",
+    "ask": 475.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 395.0,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147671260848",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); +$20.18 delivery",
+      "flags": []
+    },
+    {
+      "price": 431.0,
+      "sold_date": "2026-11-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820276872675",
+      "source": "ebay",
+      "notes": "auction, 9 bids; title mentions accessories; +$9.10 delivery",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267825327871",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery",
+      "flags": []
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960090194174",
+      "source": "ebay",
+      "notes": "auction, 13 bids; with original box; free delivery",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128097449147",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); +$17.48 delivery",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366676997490",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); free delivery",
+      "flags": []
+    },
+    {
+      "price": 525.0,
+      "sold_date": "2026-09-12",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/327342254613",
+      "source": "ebay",
+      "notes": "Buy It Now; +$20.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 479.0,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137704131310",
+      "source": "ebay",
+      "notes": "Buy It Now; title 'Excellent Condition'; +$20.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 365.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287557302062",
+      "source": "ebay",
+      "notes": "auction, 26 bids; title: 'Missing head Bracket'; +$16.69 delivery",
+      "flags": []
+    }
+  ]
+}
