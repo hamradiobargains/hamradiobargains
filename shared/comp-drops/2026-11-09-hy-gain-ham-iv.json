@@ -1,0 +1,63 @@
+{
+  "model": "Hy-Gain HAM IV",
+  "slug": "hy-gain-ham-iv",
+  "searched_at": "2026-11-09T05:58:15-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "5 kept comps. dropped 1 best-offer-accepted (407302374419 $430.49 unused/open box). dropped 1 parts-only (287688154777 'HAM-IV ?' $180). Left out HAM II (940048584487), HAM VI (407125974528), 128021765177 (title mixes Ham-IV and CD-45II), 227581889971 (control unit only) and parts/plugs/manuals. No outliers. Model identity caveat: trigger ad says 'CDE/Hy-Gain H4' - read as HAM IV, not stated verbatim.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629536",
+    "site": "eham",
+    "ask": 335.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 499.99,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188941340822",
+      "source": "ebay",
+      "notes": "Buy It Now; title 'HAM IV 4 Antenna Rotor Rotator' (controller not mentioned in title); +$44.87 delivery",
+      "flags": []
+    },
+    {
+      "price": 340.0,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940046834415",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); $425.00 shown struck through; title 'Rotator System ~ TailTwister Direction Control'; +$49.95 delivery",
+      "flags": []
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287639787734",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); title 'W/ Direction Controller Plus'; +$49.95 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 379.99,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128112892677",
+      "source": "ebay",
+      "notes": "Buy It Now; +$31.12 delivery",
+      "flags": []
+    },
+    {
+      "price": 379.99,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407115105174",
+      "source": "ebay",
+      "notes": "Buy It Now; same title/price as 128112892677 but a separate sale; +$32.92 delivery",
+      "flags": []
+    }
+  ]
+}
