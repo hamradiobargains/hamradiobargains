@@ -1,0 +1,110 @@
+{
+  "model": "Yaesu FT-847",
+  "slug": "yaesu-ft-847",
+  "searched_at": "2026-11-09T18:42:56-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only (37 main results; 'Results matching fewer words' ignored). Kept 10 unit sales — solid set. Dropped 8 best-offer-accepted (itm 117503008477, 298739262582, 278385143985, 237089437739, 237086873360, 206550528775, 267781548501, 267773685919). Dropped 2 parts-only (itm 147659988352 'Untested' labeled Parts Only; itm 117455421483 labeled Parts Only). Excluded parts/accessories (PLL unit, TCXO, power switches, manual, box only, Murata filter, display, face, HPF board). No outliers (kept range $518–$950, median ~$700). Trigger listing title says 'Modified'; comps are unmodified per their titles.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366797571701",
+    "site": "ebay",
+    "ask": 1214.47,
+    "shipping": 120.0
+  },
+  "comps": [
+    {
+      "price": 749.99,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/385501648406",
+      "source": "ebay",
+      "notes": "Title: \"Working Confirmed\". Or Best Offer (not accepted). Shipping $144.00, located in Japan, includes import fees.",
+      "flags": []
+    },
+    {
+      "price": 849.99,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880070718544",
+      "source": "ebay",
+      "notes": "Title: \"PRISTINE\". Buy It Now. Shipping $49.97.",
+      "flags": []
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336850794717",
+      "source": "ebay",
+      "notes": "Title: \"All Mode Satellite Transceiver 8 Pin\". Buy It Now. Shipping $15.49.",
+      "flags": []
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236959181320",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $65.00.",
+      "flags": []
+    },
+    {
+      "price": 518.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318914124525",
+      "source": "ebay",
+      "notes": "Auction, 41 bids. Title: w/ MH-36 Mic. Shipping $31.20.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 798.8,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206421721302",
+      "source": "ebay",
+      "notes": "Buy It Now (strikethrough $998.50). Title: with desk microphone and SP-8 speaker. Shipping $139.86.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 556.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188871892103",
+      "source": "ebay",
+      "notes": "Auction, 14 bids. Shipping $31.55.",
+      "flags": []
+    },
+    {
+      "price": 699.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307157511847",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $55.00.",
+      "flags": []
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158227899423",
+      "source": "ebay",
+      "notes": "Or Best Offer (not accepted). Shipping $75.33.",
+      "flags": []
+    },
+    {
+      "price": 630.29,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800645011727",
+      "source": "ebay",
+      "notes": "Auction, 7 bids. Title: \"EXCELLENT CONDITION\". Shipping estimate $137.85.",
+      "flags": []
+    }
+  ]
+}
