@@ -1,0 +1,112 @@
+{
+  "model": "Kenwood TS-440S",
+  "slug": "kenwood-ts-440s",
+  "searched_at": "2026-11-08T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Leo signed in, page 1, sold+completed, sorted recent): 10 kept comps, median 226.11, low 199.0, high 399.95; solid. DROPPED Best-offer-accepted (4): 336835975947 ($479.95 Oct 11), 317898345311 ($450.00 Sep 15), 158234604541 ($350.00 Sep 3), 257293267760 ($149.00 Nov 1, auto-tuner unit, accessory). DROPPED parts/repair/as-is: 800834044438 ($105.15 Oct 31, +$139.86), 128002773437 ($245.00 or Best Offer Oct 16, +$85.00), 327392876617 ($249.99 or BO Oct 15, untested parts/repair, +$114.87), 940012388403 ($160.00 Oct 15, +$26.30), 800766443595 ($199.00 Oct 11, as-is, +$30.00), 147502746646 ($199.99 Aug 20, untested, parts only, +$27.20), 377402335071 (PLL unit part). DROPPED 'READ' title: 318787693035 ($240.00 Sep 3, 5 bids, title 'READ...'). Not used: TS-440S SAT 206527741219 ($400.00) and 178460783567 ($225, 'TS-440S AT' - SAT/AT identity unclear, kept separate). Two kept sales say 'Untested' (flagged as_is, not dropped - Archie to decide). Many titles repeat from the same seller (possible duplicates not confirmed). 10 kept. Queued ad: https://swap.qth.com/view_ad.php?counter=1784268.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784268",
+    "site": "qth",
+    "ask": 85,
+    "shipping": 47
+  },
+  "comps": [
+    {
+      "price": 220,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840076516682",
+      "source": "ebay",
+      "notes": "shipping $35.00 shown; Buy It Now; title says 'Used Untested', with antenna tuner",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 227.5,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820288435599",
+      "source": "ebay",
+      "notes": "shipping $23.07 shown; auction 3 bids; title: TS-440S 100W HF with antenna tuner, NO power cable",
+      "flags": []
+    },
+    {
+      "price": 227.22,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820239447601",
+      "source": "ebay",
+      "notes": "shipping $23.07 shown; auction 3 bids; title: NO power cable",
+      "flags": []
+    },
+    {
+      "price": 225,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840022492903",
+      "source": "ebay",
+      "notes": "shipping $35.00 shown; Buy It Now; title says 'Used Untested'",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 211.5,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318943324587",
+      "source": "ebay",
+      "notes": "shipping $111.55 shown; auction 31 bids; title: with PS-30 power supply + MC...",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 333,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398386336061",
+      "source": "ebay",
+      "notes": "shipping not captured (0 entered as unknown); shown $333.00, '$283.05 with coupon or Best Offer' - kept at $333.00 shown, not marked accepted",
+      "flags": []
+    },
+    {
+      "price": 399.95,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327347483511",
+      "source": "ebay",
+      "notes": "free delivery shown; Buy It Now; with antenna tuner. OUTLIER: above 1.5x median of other kept comps",
+      "flags": []
+    },
+    {
+      "price": 199,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206531955949",
+      "source": "ebay",
+      "notes": "shipping $29.14 shown; Buy It Now; title: worked well, removed 5yr ago",
+      "flags": []
+    },
+    {
+      "price": 199.95,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/406906648305",
+      "source": "ebay",
+      "notes": "shipping $37.25 shown; Buy It Now",
+      "flags": []
+    },
+    {
+      "price": 268,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237004343096",
+      "source": "ebay",
+      "notes": "shipping $21.52 shown; auction 21 bids; title includes tuner, SN 9030633",
+      "flags": []
+    }
+  ]
+}
