@@ -1,0 +1,75 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-09",
+  "ran_at": "2026-11-09T05:53:18-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-08T05:53:18-05:00 (prior eham run). Browsed signed OUT ('Login/Register' / 'Welcome Guest' shown). Read public classifieds pages 1 and 2 (page 2 via its pagination URL, ~25s+ apart); new ads 629534-629547, page 2 rest already seen. Full ad text on list pages, so no individual ad pages opened; no search form, sold searches, or seller/callsign pages; no ad IDs probed. Ad numbers 629533 and 629537 did not appear on the public pages (not opened); 629532 (Tecsun loop, seen last run) also no longer listed. Not dropped: 629547 turnkey station bundle (IC-7300, ACOM 1011, etc.) $2500 OBO pickup only E TN - multi-item bundle, no single model; 629546 two Navy keys ($75/$85, no make/model); 629541 Bird 2500H wattmeter element (meter accessory); 629540 ROTOR-EZ controller upgrade and 629539 rotator QC connector kit (rotator accessories); 629535/629534 homebuilt mic splitter boxes. Comps: 1 ledger hit (ICOM IC-756PRO III), 5 ledger misses -> 5 eBay sold searches (ACOM 2000A, Yaesu FTM-500DR, Icom ID-5100A, Kenwood MC-43S, Hy-Gain HAM IV); signed in to eBay as Leo, no challenge. ID-5100A and FTM-500DR had fresh ledger entries but went to eBay because the ads' model wording ('5100d', 'FTM 500') left identity doubt; H4 -> HAM IV likewise.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629545",
+      "site": "eham",
+      "title": "Yaesu FTM 500 For Sale",
+      "price": 475.0,
+      "shipping": 0,
+      "found_at": "2026-11-09",
+      "condition_notes": "Seller: excellent condition, works as it should; never used mobile, only 4-5 times in shack; all original equipment plus Yaesu SCU-62 separation cables; power cable has Powerpoles; non-smoking, no pets. $475 includes shipping to lower 48. Cash/check/MO, ships after check clears; no trades. Ad says 'FTM 500' (no DR/DE suffix).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629544",
+      "site": "eham",
+      "title": "Icom 5100d for sale!",
+      "price": 425.0,
+      "shipping": 0,
+      "found_at": "2026-11-09",
+      "condition_notes": "Ad body says ID5100A (title says '5100d' - Deluxe not confirmed). Seller: excellent condition, works as it should; never used mobile, only in shack; all original equipment with new power cable; non-smoking, no pets. $425 includes shipping to lower 48. Cash/check/MO; no trades.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629543",
+      "site": "eham",
+      "title": "ICOM PRO III Radio",
+      "price": 850.0,
+      "shipping": 0,
+      "found_at": "2026-11-09",
+      "condition_notes": "Icom IC-756PRO III with PS-125 power supply, HM-36 hand mic, extra DC cable, manuals, never-used DigiRig, cover, original shipping boxes. Seller: all functions operate perfectly, screen free of defects, used on 10m. Free shipping, Zelle. Ad also says 'Sold as-is'.",
+      "work_flag": "Sold as-is",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629542",
+      "site": "eham",
+      "title": "FOR SALE: ACOM 2000A",
+      "price": 3200.0,
+      "shipping": 265.0,
+      "found_at": "2026-11-09",
+      "condition_notes": "ACOM 2000A with color remote control unit; seller: excellent condition, case has no scratches; new matched tubes about 1 year old. $3200 plus shipping and insurance, CONUS only - seller estimates ~$265 (approximate).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629538",
+      "site": "eham",
+      "title": "FS: Kenwood MC-43S Microphone",
+      "price": 40.0,
+      "shipping": 0,
+      "found_at": "2026-11-09",
+      "condition_notes": "Seller: brand new, never used, instruction manual included; $40 ships free.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629536",
+      "site": "eham",
+      "title": "FS: Nice CDE/Hy-Gain H4 rotator",
+      "price": 335.0,
+      "shipping": 0,
+      "found_at": "2026-11-09",
+      "condition_notes": "Ad calls it a CDE/Hy-Gain 'H4' rotator (model assumed to be HAM IV, not stated verbatim). Seller: recent service and refurbished, excellent condition like new, new G25 ball bearings, fresh low-temp lube, terminal strip with SS screws, all hardware, control unit and user manual included. $335 plus shipping (amount not stated).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
