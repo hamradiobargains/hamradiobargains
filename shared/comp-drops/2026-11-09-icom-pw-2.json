@@ -1,0 +1,25 @@
+{
+  "model": "Icom IC-PW2 (PW-2)",
+  "slug": "icom-pw-2",
+  "searched_at": "2026-11-09T18:57:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom pw-2', page 1 (2 results). THIN: 1 kept comp; the second result was not a PW-2 unit at $200 or more and was ignored. Trigger ask $4,800 shipped (buyer covers insurance).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784361",
+    "site": "qth",
+    "ask": 4800,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 3649.99,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206455372289",
+      "source": "ebay",
+      "notes": "Auction, 53 bids; free delivery. Title: 'ICOM IC-PW2 HF/50 MHz, All Band 1kW Amplifier'.",
+      "flags": []
+    }
+  ]
+}
