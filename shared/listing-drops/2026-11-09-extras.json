@@ -1,0 +1,273 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-09",
+  "ran_at": "2026-11-09T18:57:28-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered (ran_at after previous extras drop 2026-11-08-extras.json, ran_at 2026-11-08T18:58:00-05:00): 2026-11-09-eham.json (05:53:18), 2026-11-09-qth.json (14:52:27), 2026-11-09-ebay.json (18:38:14). The 11/09 eHam drop names no extras. Queue: 27 carry-overs from the previous extras drop + 24 fresh QTH extras with prices from the 11/09 QTH drop (after removing 1784424, 1784391 and 1784407, already queued as carry-overs) + named extra QTH 1783910 (see below) + eBay item 366797571603 (Icom IC-9100 EME Modified, $2,397.25, the only 'beyond cap' item in the 11/09 eBay drop with an item number) = 53 queued; the four 11/09 QTH 'no price in list text' ads (1784438, 1784451, 1784439, 1780339) are not in the extras list and were not queued. Worked/triaged: 24 (20 live incl. 1784335 skipped for no price; 4 gone: 1784299, 1784403, 1784402, 1784396; 1784299 was live at the 11/08 sweep). Ledger hits: 4 (Icom IC-7300 for 1781093, Elecraft KX3 for 1783297, Yaesu FT-817 for 1784391 [non-ND], Yaesu FT-891 for 1784428). eBay sold searches used 15 of 15 (Anan 7000DLE MKII, Ten-Tec Argonaut 509, Ten-Tec Omni VI 563, Kenwood TS-450S, Astron VS-50M, Astron VS-20M, Kenwood PS-53, MFJ-949, Comet HFJ-350M, Icom PW-2, FlexRadio Maestro C, Palstar HF-Auto, Antenna Genius 8x2, Yaesu FT-757GXII, Icom IC-746). Zero qualifying comps: Anan 7000DLE MKII (0 results), Astron VS-20M (only sale Best offer accepted), Maestro C (both sales dropped: BO accepted / READ DESC / parts), Antenna Genius 8x2 (only sale was the 8x2 Plus v2, kept out for identity). Thin: Argonaut 509 (1), Omni VI (1), MFJ-949 (1), PW-2 (1), HF-Auto (2). Solid: Kenwood TS-450S (4), VS-50M (3), PS-53 (3), HFJ-350M (6), FT-757GXII (3), IC-746 (3). OUTLIERS flagged: TS-450S 128038629610 ($534.08, high); HFJ-350M 376653415676 ($159.95, high) and 237027209764 ($26.98, low, extras listed). Two kept comps carry title wording of 'Untested' (TS-450S 307238172225, IC-746 137617744628 - flagged as_is, kept). Skipped: 1784335 (FlexRadio 8400M, no asking price - offers/trade invited). Cross-posts: none found among queued ads (1784484 is a relist of the gone 1784403, left in the queue). Named extra QTH 1783910 (Yaesu '991' $600 firm, treated as the ORIGINAL FT-991 per Leo's standing ruling): it is already in dropped-urls.json (triaged 11/08 as a ledger hit), so it was not re-worked; the FT-991 ledger entry (median 776.66, count 3) is dated 2026-10-09, now 31 days old and no longer a valid ledger hit, and the 15-search cap was used up, so it is carried over (comp under 'Yaesu FT-991' only, never FT-991A). Work flags carried verbatim: 1784398 'little to NO power out' ; 1784397 'looses frequency lock and chirps' on 17/15/12/10 m; 1784353 power-switch relay stuck ON; 1784337 'The radio has the mars mod.'; 1784391 'software MARS Mod'; 1784393 'Sale is FINAL'; 1784426 'No returns.'. UNCERTAIN: MFJ-949 suffix identity, Maestro vs Maestro C, Antenna Genius 8x2 vs 8x2 Plus, FT-757GXII station vs radio-only comps, 1784391 package vs radio-only ledger. The three carry-overs 1784377 (FTDX5000 + DMU-2000 package, $3200), 1784336 (Green Heron RT-21 v3, $300 OBO) and 1784387 (Yaesu FRG-100B, $400 shipped) were opened for liveness and found live but not triaged (search cap reached). 1784496 (Palstar HF Auto, $1485), 1784493, 1784450, 1784467, 1784444, 1784484, 1784478 and 1784469 were opened for a look but not triaged. No eHam page opened; QTH pages fetched one at a time about 4 s apart from one QTH tab; eBay signed in as Leo, one page at a time, no challenges. Seller feedback n/a (QTH). Timestamps are file-write times, -05:00 (EST). CARRIED OVER (first run next time, in this order): 1784377, 1784336, 1784387, 1783910, 1784495, 1784496, 1784493, 1784450, 1784467, 1784444, 1784484, 1784478, 1784469, 1784441, 1784440, 1784486, 1784445, 1784506, 1784483, 1775969, 1784488, 1776848, 1780907, 1782243, 1784468, 1784460, 1784222, 1776689, https://www.ebay.com/itm/366797571603. BACKLOG CARRY: none.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784299",
+      "site": "qth",
+      "title": "MFJ-1784/1786 superloop controller",
+      "price": 225,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "no longer live - QTH 'no longer in our system' (live on 11/08 sweep; last recorded 'Asking $225.00 Shipped OR MAKE OFFER!'); not comped: gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784426",
+      "site": "qth",
+      "title": "Anan 7000DLE MKII Black Face version",
+      "price": 2450,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. 'In very good condition from non-smoking QTH. Running Protocol 2 Firmware 2.2.2 ... Upgraded with a Noctua High-Performance Whisper Quiet Ultra Low Noise Fan. Price is $2,450.00 plus shipping and insurance cost to your QTH. ... No trades. No returns.' (shipping amount not stated, recorded 0). Not comped: eBay returned 0 exact sold results for the model (comp file apache-labs-anan-7000dle-mkii, 0 kept)",
+      "work_flag": "Upgraded with a Noctua fan (aftermarket fan, per seller). 'No returns.' 'No trades.'",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784403",
+      "site": "qth",
+      "title": "Flex-1500 + LDG Z11 tuner",
+      "price": 525,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "no longer live - QTH 'no longer in our system' (last recorded $525 shipped, FS/FT); not comped: gone (1784484 is a relist, still in the fresh queue)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784402",
+      "site": "qth",
+      "title": "Ten-Tec Triton IV Digital 544",
+      "price": 325,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "no longer live - QTH 'no longer in our system' (last recorded $325 shipped); not comped: gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784398",
+      "site": "qth",
+      "title": "FS Ten Tec Argonuat 509 Tec Special",
+      "price": 175,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. 'Asking $175 shipped and insured to the lower 48.' 'I have an Argonaut 509 in very nice physical condition, the receiver works great, but there is little to NO power out. It has an aftermarket CW audio filter installed, a LED backlight, the PTO works very nice, nut the dial needs restrung like many out there. BNC antenna port was installed, and a barrel jack for power was installed.' Comps: ten-tec-argonaut-509, 1 kept (thin), median 400.00",
+      "work_flag": "'there is little to NO power out' (seller's 'Tec Special'); 'the dial needs restrung like many out there'; BNC antenna port and barrel jack for power were installed (modifications)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784397",
+      "site": "qth",
+      "title": "FS Ten Tec Omni VI #563 Tech Special",
+      "price": 420,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. '$420 shipped and insured. I expect the shipping to be about $50 for an item this size.' 'On 17, 15, 12, and 10 meters, it looses frequency lock and \"chirps\". Is a known common issue, can be fixed but I am not ready to tackle that. ... one small ding on the back corner ... Other than these, the radio works great on all other bands.' Radio comes with NO optional filters installed; seller does not have the hand mic; manual copy and power cord included. Comps: ten-tec-omni-vi, 1 kept (thin), median 489.00",
+      "work_flag": "'On 17, 15, 12, and 10 meters, it looses frequency lock and \"chirps\". Is a known common issue, can be fixed but I am not ready to tackle that.' ('Tech Special'); one small ding on the back corner",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784389",
+      "site": "qth",
+      "title": "Kenwood TS-450S w/ accessories",
+      "price": 850,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. 'Ken. Ts450s 100w with ken. power supply, Mc60, SSB filter. Never been mobile but come with mobile mount bracket, power cord and original Box. $ 850. + shipping.' (shipping amount not stated, recorded 0; no picture in ad). Comps: kenwood-ts-450s, 4 kept, median 365.49 (1 OUTLIER high)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784393",
+      "site": "qth",
+      "title": "Astron VS-50M Power Supply",
+      "price": 325,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. 'Selling a used in very good cosmetic and operating condition DC power supply ... Will ship for $325 to 48, or pickup/meet-up between Brownsville/McAllen, TX area for $275.' 'Sale is FINAL for obvious reasons.' Comps: astron-vs-50m, 3 kept, median 195.95",
+      "work_flag": "'Sale is FINAL for obvious reasons.'",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784407",
+      "site": "qth",
+      "title": "Astron VS-20M Power Supply",
+      "price": 85,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. '$85 +Shipping to USA' (edited 11/08; shipping amount not stated, recorded 0). 'Here is a nice Astron VS-20M power supply. Works good and is clean.' Not comped: eBay VS-20M search had 0 qualifying sales (comp file astron-vs-20m, 0 kept; only sale was Best offer accepted)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784357",
+      "site": "qth",
+      "title": "Kenwood PS-53 Base Power supply",
+      "price": 150,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. '$150.00 Kenwood PS-53 Linear 12VDC Base Power supply ... in original box.' Shipping is a guesstimate from Broadview, IL 60155 (amount not stated, recorded 0). Comps: kenwood-ps-53, 3 kept, median 150.00",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784362",
+      "site": "qth",
+      "title": "MFJ 949 Versa Tuner II Antenna Tuner",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. 'As pictured. Working, but upgraded tuner after installing my amp. $100 shipped.' Comps: mfj-949, 1 kept (thin), median 65.00 - UNCERTAIN identity: ad names no letter suffix (949/B/C/D/E are different models)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784340",
+      "site": "qth",
+      "title": "Comet HFJ-350M multiband antenna w/ magnetic base",
+      "price": 60,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. 'Comet multi band antenna 3.5 mhz to 50 mhz HFJ 350 M with magnetic base new $60.00 good for portable use long coax cable' (shipping not stated, recorded 0). Comps: comet-hfj-350m, 6 kept, median 99.97 (2 OUTLIERS: 1 high, 1 low)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784361",
+      "site": "qth",
+      "title": "Icom PW-2 HF amplifier",
+      "price": 4800,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. '$4800 Shipped. You cover insurance. Absolutely like new with manuals box, etc.' 'Less than a month old.' Comps: icom-pw-2, 1 kept (thin), median 3649.99",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781093",
+      "site": "qth",
+      "title": "Icom IC-7300",
+      "price": 700,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. '$700.00 plus shipping. No PayPal.' 'Like new condition. No pets, Non smoking house hold.' (shipping amount not stated, recorded 0). Comps: ledger hit icom-ic-7300 (median 787.5, count 44, ledger date 2026-10-22)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783297",
+      "site": "qth",
+      "title": "Elecraft KX3 package",
+      "price": 1400,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. '1400 USD - shipped CONUS' obo. 'KX3 ATU / Roofing filters / battery cradle / rtc / battery charger / mic / programming cable and extended heat sink for ft8'; 'PX3 in photo not included'. Comps: ledger hit elecraft-kx3 (median 1325.0, count 5, ledger date 2026-10-20)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784425",
+      "site": "qth",
+      "title": "Flex Maestro C with extras",
+      "price": 1425,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. 'Price is $1,425.00 plus shipping and insurance cost to your QTH.' Includes AC power supply, weighted tilt feet, 2 batteries, FHM-3 mic, Maestro C Y cable kit; 'From a non-smoking shack.' (shipping amount not stated, recorded 0). Not comped: eBay Maestro C search had 0 qualifying sales (comp file flexradio-maestro-c, 0 kept; Maestro vs Maestro C identity UNCERTAIN)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784424",
+      "site": "qth",
+      "title": "Palstar HF Auto 1800 Watt version",
+      "price": 1275,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. 'Latest firmware 2.40 installed. In very good condition from non-smoking QTH. Price is $1,275.00 plus shipping and insurance cost to your QTH.' Pickup also available (shipping amount not stated, recorded 0). Comps: palstar-hf-auto, 2 kept (thin), median 1324.00",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784423",
+      "site": "qth",
+      "title": "Flex Radio Antenna Genius 8x2",
+      "price": 775,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. 'Like new. This was a backup unit. Never used outside. Price is $775.00 plus shipping and insurance cost to your QTH.' (shipping amount not stated, recorded 0). Not comped: eBay 8x2 search had 0 qualifying sales (comp file flexradio-antenna-genius-8x2; the only sale was the 8x2 Plus v2, identity UNCERTAIN)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784428",
+      "site": "qth",
+      "title": "Yaesu FT-891 + LDG Z-100 + Jetstream 50A PS + SP-2000 package",
+      "price": 700,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. 'i have a like new yaesu ft891 a ldg z100 tuner a jet stream 50 amp power supply and a yaesu sp 2000 speaker i have the box for the radio and the power supply asking 700 for it all pick up only or can meet with in 75 miles or so from zip code 37709'. Comps: ledger hit yaesu-ft-891 (median 589.0, count 29, ledger date 2026-11-02; ledger is the radio alone, ad is a package)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784353",
+      "site": "qth",
+      "title": "Yaesu FT-757GXII station (FP-757HD PS + FC-757AT tuner)",
+      "price": 525,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. '$525 plus shipping. Prefer to sell as a complete package but will sell individually.' 'Good vintage cosmetic condition with normal wear.' (shipping amount not stated, recorded 0). Comps: yaesu-ft-757gxii, 3 kept, median 425.00 (radio only)",
+      "work_flag": "'The FT-757GXII has one known issue: its power-switch relay is stuck ON, requiring power to be controlled externally. Otherwise, the station operates normally.'",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784337",
+      "site": "qth",
+      "title": "Icom IC-746 station",
+      "price": 750,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. '$750.00 + Shipping. For all of it.' 'Everything Works well.' Includes box, mic, Heil Pro Set Elite, SP-21, PS-125, 2 SM-20 mics, owner/service manuals; 'The radio has the UT-102 Voice Board on board.' (shipping amount not stated, recorded 0). Comps: icom-ic-746, 3 kept, median 525.00",
+      "work_flag": "'The radio has the mars mod.' (transmit-modification wording)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784335",
+      "site": "qth",
+      "title": "FlexRadio 8400M",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. No asking price: 'flex radio 840OM It is in mint condition. I am getting out 0f the flex and going the normal radios. Make an offer for a trade.' Skipped - no clear asking price (offers/trade invited); not comped",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784391",
+      "site": "qth",
+      "title": "Yaesu FT-817 (non-ND) QRP package",
+      "price": 700,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "live. '$700 Shipped (CONUS)'; edited 11/09. 'Yaesu FT-817 (non-ND) ... recently had the PA board upgraded to Yaesu's newest board (CB1333004) ... it has the software MARS Mod so it can be used on the new 60M frequencies.' Package with manual, MH-31, LDG Z-817, case, RBA-1 balun, antenna, power supply, 2 batteries ('both hold charge but do not know for how long'); 'sold as a package so I will not separate'; 'No trades please.' Comps: ledger hit yaesu-ft-817 (median 748.5, count 10, ledger date 2026-10-17)",
+      "work_flag": "'it has the software MARS Mod so it can be used on the new 60M frequencies' (transmit-modification wording); PA board upgraded by seller; batteries: 'both hold charge but do not know for how long'",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784396",
+      "site": "qth",
+      "title": "Alinco DR-235TMkIII (AS-IS)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-08",
+      "condition_notes": "no longer live - QTH 'no longer in our system' (11/08 note: 'AS-IS'; price not recorded); not comped: gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
