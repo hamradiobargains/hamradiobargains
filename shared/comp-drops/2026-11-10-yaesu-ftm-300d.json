@@ -1,0 +1,45 @@
+{
+  "model": "Yaesu FTM-300D",
+  "slug": "yaesu-ftm-300d",
+  "searched_at": "2026-11-10T17:58:49-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Yaesu FTM-300D', page 1 above 'fewer words'. Exact FTM-300D only; excluded 5 FTM-300DR sales (different model designation). Dropped 4 best-offer-accepted ($369 Oct 24, $350 Oct 18, $405 Sep 2, $425 Aug 17). 3 kept comps.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/117514520151",
+    "site": "ebay",
+    "ask": 400.0,
+    "shipping": 10.0
+  },
+  "comps": [
+    {
+      "price": 350.0,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398427461774",
+      "source": "ebay",
+      "notes": "Buy It Now. 'with MARS. working'. Shipping $25.75.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227531332525",
+      "source": "ebay",
+      "notes": "Auction, 14 bids. Shipping $14.07.",
+      "flags": []
+    },
+    {
+      "price": 299.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278347668513",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). Shipping $8.23.",
+      "flags": []
+    }
+  ]
+}
