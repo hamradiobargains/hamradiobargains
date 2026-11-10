@@ -1,0 +1,22 @@
+{
+  "model": "Yaesu FT-817",
+  "slug": "yaesu-ft-817",
+  "searched_at": "2026-11-09T18:57:28-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped - median 748.5, count 10, ledger date 2026-10-17 - ledger hit - individual sales behind the median are not auditable from this file Ad says non-ND FT-817 (ledger entry 'YAESU FT-817'); ask is a package with LDG Z-817, accessories and a PA-board upgrade.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784391",
+    "site": "qth",
+    "ask": 700,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 748.5,
+    "low": 542.5,
+    "high": 1070,
+    "count": 10,
+    "date": "2026-10-17"
+  }
+}
