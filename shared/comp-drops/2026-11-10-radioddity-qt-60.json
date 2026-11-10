@@ -1,0 +1,34 @@
+{
+  "model": "Radioddity QT-60",
+  "slug": "radioddity-qt-60",
+  "searched_at": "2026-11-10T05:59:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 2 kept comps. Exact model only: 10 sales titled 'QT60 Pro'/'QT-60 Pro'/'QT60PRO' were left out for model-identity doubt (Pro vs non-Pro not confirmed the same radio; eHam ad says plain QT-60, 'same as Anytone AT-5555N'); 2 of those Pro sales were also best-offer-accepted (dropped 2 best-offer-accepted). dropped 0 parts-only. Also excluded cables/accessories and a QT-40. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629560",
+    "site": "eham",
+    "ask": 180.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 179.95,
+      "sold_date": "2026-11-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327439962216",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery. Title: Radioddity QT-60 10M 60W SSB PEP/50W FM Mobile Transceiver.",
+      "flags": []
+    },
+    {
+      "price": 190.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188910297279",
+      "source": "ebay",
+      "notes": "Buy It Now; +$20.00 delivery. Title: 'Radioditty QT60'.",
+      "flags": []
+    }
+  ]
+}
