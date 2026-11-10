@@ -1,0 +1,59 @@
+{
+  "model": "Yaesu FT-70D",
+  "slug": "yaesu-ft-70d",
+  "searched_at": "2026-11-10T17:58:49-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Yaesu FT-70D', page 1. Exact FT-70D only (FT-70DR/FT-70DE/FT-70DS excluded). Dropped 8 best-offer-accepted ($115 Nov 1, $119 Oct 15, $160 Sep 20, $164.99 Sep 17, $150 Sep 10, $175 Aug 31, $160 Aug 15, $249.99 Aug 13). Excluded batteries, cases, cables, chargers and a bundle (FTM-100D base + two FT-70D). 4 kept comps.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/940081839866",
+    "site": "ebay",
+    "ask": 135.0,
+    "shipping": 10.15
+  },
+  "comps": [
+    {
+      "price": 231.98,
+      "sold_date": "2026-09-11",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/204562158042",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). Title says New. Shipping $50.00, includes import fees.",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178465645576",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). With Diamond SRH77CA antenna. Shipping $11.03.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168629154533",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: SSM-17A / MARS MOD. Shipping $28.24.",
+      "flags": [
+        "modified",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 199.99,
+      "sold_date": "2026-08-22",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/117361440425",
+      "source": "ebay",
+      "notes": "Auction, 2 bids. Title: 'plus xtras, New!!'. Shipping $12.70.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
