@@ -1,0 +1,58 @@
+{
+  "model": "Yaesu FTM-400DR",
+  "slug": "yaesu-ftm-400dr",
+  "searched_at": "2026-11-10T05:59:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "4 kept comps (solid set). dropped 2 best-offer-accepted (820292488863 FTM-400DR w/ FP-1023 PS $475; 800578920678 FTM-400DR/DE $404). dropped 0 parts-only of this model (a parts-only FTM-400DE, a different variant, was excluded for model identity). Excluded FTM-400XDR/XD, FTM-500DR, a control-panel assembly and cables. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629554",
+    "site": "eham",
+    "ask": 450.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 390.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158319121284",
+      "source": "ebay",
+      "notes": "Auction, 3 bids; +$19.50 delivery. Title says with GPS, Bluetooth, FVS-2 Voice Guide Unit.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 465.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117386892303",
+      "source": "ebay",
+      "notes": "Auction, 3 bids; +$15.23 delivery. Title: w/ mars mod, used works well.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267765517044",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; +$35.00 delivery. Title: 'With accessories!'",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 405.0,
+      "sold_date": "2026-08-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358910037342",
+      "source": "ebay",
+      "notes": "Auction, 24 bids; +$25.00 delivery.",
+      "flags": []
+    }
+  ]
+}
