@@ -1,0 +1,47 @@
+{
+  "model": "Icom IC-746",
+  "slug": "icom-ic-746",
+  "searched_at": "2026-11-09T18:57:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-746', page 1 (47 results). 3 kept, median 525.00 - solid. Dropped: 1 Best-offer-accepted (820276933664 $475.00, Oct 28). Parts-only (1, dropped): 820151485808 $165.50 (9 bids). IC-746PRO, SM-20 mic and PS-125 supply sales excluded. One kept comp is titled Untested (137617744628, flagged as_is). Trigger is an IC-746 station (SP-21, PS-125, mics, UT-102 voice board, MARS mod) at $750 plus shipping (0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784337",
+    "site": "qth",
+    "ask": 750,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 525,
+      "sold_date": "2026-11-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267830494252",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked accepted); +$65.00 delivery. Title 'Icom IC-746 All Mode Transceiver Ham Radio-with 3...'.",
+      "flags": []
+    },
+    {
+      "price": 550,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/920014622855",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked accepted); +$11.18 delivery. Title 'Icom IC-746 HF/VHF Radio Transceiver with Handheld...'.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 337,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137617744628",
+      "source": "ebay",
+      "notes": "Auction, 17 bids; +$36.30 delivery. Title says 'Untested'.",
+      "flags": [
+        "as_is"
+      ]
+    }
+  ]
+}
