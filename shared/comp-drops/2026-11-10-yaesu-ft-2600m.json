@@ -1,0 +1,63 @@
+{
+  "model": "Yaesu FT-2600M",
+  "slug": "yaesu-ft-2600m",
+  "searched_at": "2026-11-10T17:58:49-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Yaesu FT-2600M', page 1 above 'fewer words'. Dropped 2 parts-only (Untested As-Is, $50 Nov 10 and $88.75 Oct 26; the latter also best-offer-accepted). Excluded mics, mic cables, manual. Prices split into two clusters (auctions $47-$85 vs fixed-price $175-$190), so 4 of 5 comps trip the outlier rule. OUTLIERS flagged: $47.00, $190.00, $175.00, $64.00.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/117514816221",
+    "site": "ebay",
+    "ask": 174.99,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 85.0,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800731379084",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). Shipping $13.47.",
+      "flags": []
+    },
+    {
+      "price": 47.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267789378573",
+      "source": "ebay",
+      "notes": "OUTLIER: $47.00 vs median ~$130.00 for the rest; Auction, 13 bids. Shipping $24.80.",
+      "flags": []
+    },
+    {
+      "price": 190.0,
+      "sold_date": "2026-09-15",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/178184334174",
+      "source": "ebay",
+      "notes": "OUTLIER: $190.00 vs median ~$74.50 for the rest; Buy It Now. With original box and manual. Shipping $15.23.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 175.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227441241551",
+      "source": "ebay",
+      "notes": "OUTLIER: $175.00 vs median ~$74.50 for the rest; Buy It Now. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 64.0,
+      "sold_date": "2026-08-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128016983296",
+      "source": "ebay",
+      "notes": "OUTLIER: $64.00 vs median ~$130.00 for the rest; Auction, 7 bids. Title: 'PLUS mic - Powers Up, Receives' (transmit not mentioned). Shipping $7.88.",
+      "flags": []
+    }
+  ]
+}
