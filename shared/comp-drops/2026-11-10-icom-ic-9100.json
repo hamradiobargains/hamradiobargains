@@ -1,0 +1,27 @@
+{
+  "model": "Icom IC-9100",
+  "slug": "icom-ic-9100",
+  "searched_at": "2026-11-10T17:58:49-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Icom IC-9100', page 1 above 'fewer words'. Only 3 IC-9100 sales on page; dropped 2 best-offer-accepted ($1,499.99 Oct 17; $1,440.00 Sep 23). Page also showed many IC-7100 sales (different model, excluded). 1 kept comp - thin.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/840115709457",
+    "site": "ebay",
+    "ask": 1447.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1700.0,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267803207692",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted). Title: W/ D-STAR MODULE. Shipping $110.00.",
+      "flags": [
+        "option_installed"
+      ]
+    }
+  ]
+}
