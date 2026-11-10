@@ -1,0 +1,43 @@
+{
+  "model": "Astron VS-50M",
+  "slug": "astron-vs-50m",
+  "searched_at": "2026-11-09T18:57:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'astron vs-50m', page 1. 3 kept, median 195.95 - solid. Dropped: 1 Best-offer-accepted (168552808733 $275.00, Nov 2). Unrelated results ignored. Trigger ask $325 shipped to lower 48 (pickup $275 in TX).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784393",
+    "site": "qth",
+    "ask": 325,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 195,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227552453770",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked accepted); +$67.95 delivery.",
+      "flags": []
+    },
+    {
+      "price": 250,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298531301568",
+      "source": "ebay",
+      "notes": "+$176.58 delivery.",
+      "flags": []
+    },
+    {
+      "price": 195.95,
+      "sold_date": "2026-09-07",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/278343418773",
+      "source": "ebay",
+      "notes": "Brand New; free delivery.",
+      "flags": []
+    }
+  ]
+}
