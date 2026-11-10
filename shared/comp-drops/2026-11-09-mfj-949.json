@@ -1,0 +1,25 @@
+{
+  "model": "MFJ-949 Deluxe Versa Tuner II",
+  "slug": "mfj-949",
+  "searched_at": "2026-11-09T18:57:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'mfj-949 versa tuner II', page 1 (69 results). THIN: 1 kept comp for the plain 'MFJ-949'. The ad names no letter suffix; 949B/C/D/E sales were kept separate (different models) and are not in this file. Parts-only (2, dropped): 158359495472 $40.00, 307194603622 $59.99 (also BO accepted). UNCERTAIN: ad identity (suffix) not stated. Trigger ask $100 shipped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784362",
+    "site": "qth",
+    "ask": 100,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 65,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940007075932",
+      "source": "ebay",
+      "notes": "Auction, 23 bids; +$8.79 delivery.",
+      "flags": []
+    }
+  ]
+}
