@@ -1,0 +1,22 @@
+{
+  "model": "Yaesu FT-891",
+  "slug": "yaesu-ft-891",
+  "searched_at": "2026-11-09T18:57:28-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped - median 589.0, count 29, ledger date 2026-11-02 - ledger hit - individual sales behind the median are not auditable from this file Ad is a package (FT-891 + LDG Z-100 + Jetstream 50A PS + SP-2000), pickup/meet within ~75 miles of 37709; ledger is the radio alone.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784428",
+    "site": "qth",
+    "ask": 700,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 589,
+    "low": 485,
+    "high": 1124,
+    "count": 29,
+    "date": "2026-11-02"
+  }
+}
