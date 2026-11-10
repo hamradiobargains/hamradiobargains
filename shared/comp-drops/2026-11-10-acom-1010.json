@@ -1,0 +1,25 @@
+{
+  "model": "ACOM 1010",
+  "slug": "acom-1010",
+  "searched_at": "2026-11-10T15:00:05-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1: 3 ACOM 1010 sales before the 'Results matching fewer words' section. Dropped 1 best-offer-accepted ($1,750.00, Sep 21). Dropped 1 parts-only (eBay 'Parts Only', $813.69 auction, Oct 13). Thin - 1 comp kept. Not in ledger.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784563",
+    "site": "qth",
+    "ask": 1700.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 1740.0,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198585027496",
+      "source": "ebay",
+      "notes": "Buy It Now. +$128.10 shipping",
+      "flags": []
+    }
+  ]
+}
