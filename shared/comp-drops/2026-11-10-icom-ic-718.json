@@ -1,0 +1,246 @@
+{
+  "model": "Icom IC-718",
+  "slug": "icom-ic-718",
+  "searched_at": "2026-11-10T15:00:05-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (68 results before fewer-words section; none shown). Kept 23 IC-718 unit sales. Dropped 9 best-offer-accepted. Dropped 4 parts-only (one of them, 'AS FOUND' $275, was also best-offer-accepted). Left out accessories/boards/modules/manuals/knobs/crystals/cables and non-IC-718 items (32). IC-718 units with DSP (UT-106) or extra filters installed kept and flagged option_installed. No outliers. Ledger had ICOM IC-718 latest 2026-10-09 (older than 30 days).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784564",
+    "site": "qth",
+    "ask": 400.0,
+    "shipping": 50.0
+  },
+  "comps": [
+    {
+      "price": 450.0,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237158566602",
+      "source": "ebay",
+      "notes": "Auction. Title: USED WORKING W/DSP /CW FILTER. +$21.52 shipping",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 369.99,
+      "sold_date": "2026-11-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336872697333",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). Title says Tested. +$19.64 shipping",
+      "flags": []
+    },
+    {
+      "price": 399.99,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366750379138",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). Includes Tripp Lite PR-20 power supply. +$86.72 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 365.0,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800822310779",
+      "source": "ebay",
+      "notes": "Auction. Title: In Good Shape With The Box. +$35.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 405.0,
+      "sold_date": "2026-10-25",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/860080270754",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). Same title as 860096270096 (Oct 31, best offer accepted, dropped) - possibly the same unit relisted. +$32.67 shipping",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327394327336",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: excellent used condition, +Manual. Free shipping",
+      "flags": []
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267817413372",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). Title: Works Please Read Description (description not read). +$32.65 shipping",
+      "flags": []
+    },
+    {
+      "price": 499.95,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327331081795",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: IC-718DSP with DSP, Fully Tested. Free shipping",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 517.5,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178524565015",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: Proff Installed UT106 DSP, includes manual. Free shipping",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 330.0,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800780665205",
+      "source": "ebay",
+      "notes": "Auction. Title is just \"Icom 718\". +$30.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 599.99,
+      "sold_date": "2026-10-09",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/178456935621",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). Title: Optional DSP & Handle, MARS MOD. Free shipping",
+      "flags": [
+        "option_installed",
+        "modified"
+      ]
+    },
+    {
+      "price": 499.95,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227533284245",
+      "source": "ebay",
+      "notes": "Buy It Now. With mic. Free shipping",
+      "flags": []
+    },
+    {
+      "price": 382.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336792231373",
+      "source": "ebay",
+      "notes": "Buy It Now. Working, with mic and DC power cable. Same title and shipping as 336734254638 (Sep 6). +$95.50 shipping",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237100283216",
+      "source": "ebay",
+      "notes": "Auction. Title: has extra filters installed, great shape. +$14.42 shipping",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398404642970",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). Excellent used condition. +$11.99 shipping",
+      "flags": []
+    },
+    {
+      "price": 485.0,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117412724108",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: Mint, Fully Tested, Includes UT-106 module. +$47.94 shipping",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 360.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398374580847",
+      "source": "ebay",
+      "notes": "Buy It Now. +$49.85 shipping",
+      "flags": []
+    },
+    {
+      "price": 499.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407205619649",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). Title: with MARS MOD. +$33.08 shipping",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 383.94,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257717504532",
+      "source": "ebay",
+      "notes": "Auction. +$23.38 shipping",
+      "flags": []
+    },
+    {
+      "price": 357.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336734254638",
+      "source": "ebay",
+      "notes": "Buy It Now. Working, with mic and DC power cable. Same title and shipping as 336792231373 (Oct 2). +$95.50 shipping",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 575.0,
+      "sold_date": "2026-08-21",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/147518369512",
+      "source": "ebay",
+      "notes": "Buy It Now. +$37.80 shipping",
+      "flags": []
+    },
+    {
+      "price": 479.99,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407149831723",
+      "source": "ebay",
+      "notes": "Buy It Now. Tested - Functions Perfectly - with Icom mic. Free shipping",
+      "flags": []
+    },
+    {
+      "price": 439.99,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327312042354",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). Excellent used condition. +$87.30 shipping",
+      "flags": []
+    }
+  ]
+}
