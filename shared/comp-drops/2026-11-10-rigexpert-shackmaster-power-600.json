@@ -1,0 +1,15 @@
+{
+  "model": "RigExpert Shackmaster Power 600",
+  "slug": "rigexpert-shackmaster-power-600",
+  "searched_at": "2026-11-10T05:59:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — eBay sold search 'RigExpert Shackmaster Power 600' returned 0 results; no comps. dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629557",
+    "site": "eham",
+    "ask": 349.0,
+    "shipping": 0
+  },
+  "comps": []
+}
