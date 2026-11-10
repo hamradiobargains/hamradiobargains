@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-09T13:53:39+00:00",
+ "updated": "2026-11-10T13:53:38+00:00",
  "models": {
+  "COLLINS 30L-1": {
+   "display": "Collins 30L-1",
+   "pct": 53.5,
+   "window": "3mo",
+   "recent_median": 921.02,
+   "recent_count": 5,
+   "prior_median": 599.99,
+   "prior_count": 5
+  },
   "ELECRAFT K3/100": {
    "display": "Elecraft K3/100",
    "pct": -13.7,
@@ -21,11 +30,29 @@
   },
   "ICOM IC-7100": {
    "display": "Icom IC-7100",
-   "pct": -4.5,
+   "pct": -1.0,
    "window": "6mo",
-   "recent_median": 750.0,
-   "recent_count": 11,
-   "prior_median": 785.0,
+   "recent_median": 759.5,
+   "recent_count": 10,
+   "prior_median": 767.5,
+   "prior_count": 6
+  },
+  "ICOM SM-50": {
+   "display": "Icom SM-50",
+   "pct": -11.2,
+   "window": "3mo",
+   "recent_median": 171.48,
+   "recent_count": 19,
+   "prior_median": 193.0,
+   "prior_count": 5
+  },
+  "KENWOOD SP-23": {
+   "display": "Kenwood SP-23",
+   "pct": 20.0,
+   "window": "3mo",
+   "recent_median": 60.0,
+   "recent_count": 7,
+   "prior_median": 50.0,
    "prior_count": 5
   },
   "KENWOOD TM-V71A": {
@@ -66,21 +93,21 @@
   },
   "XIEGU X6100": {
    "display": "Xiegu X6100",
-   "pct": -14.2,
+   "pct": -18.5,
    "window": "3mo",
-   "recent_median": 386.0,
-   "recent_count": 14,
-   "prior_median": 450.0,
-   "prior_count": 9
+   "recent_median": 385.0,
+   "recent_count": 13,
+   "prior_median": 472.5,
+   "prior_count": 10
   },
   "YAESU FT-710": {
    "display": "Yaesu FT-710",
-   "pct": -2.1,
+   "pct": 2.1,
    "window": "3mo",
-   "recent_median": 875.0,
-   "recent_count": 12,
-   "prior_median": 894.0,
-   "prior_count": 7
+   "recent_median": 890.0,
+   "recent_count": 11,
+   "prior_median": 872.0,
+   "prior_count": 8
   },
   "YAESU FT-817ND": {
    "display": "Yaesu FT-817ND",
