@@ -1,0 +1,64 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-10",
+  "ran_at": "2026-11-10T05:56:33-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-09T05:53:18-05:00 (prior eham run). Browsed signed OUT ('Login/Register' / 'Welcome Guest' shown). Read public classifieds pages 1 and 2 (page 2 via its pagination link); new ads 629549-629563. Full ad text on list pages, so no individual ad pages opened; no search form, sold searches, or seller/callsign pages; no ad IDs probed. Ad numbers 629548 and 629552 did not appear on the public pages (not opened). Not dropped (accessories/test gear/non-candidates): 629563 Elecraft KXV3B option board $235; 629562 RemoteRig RRC-1258 MKII $309; 629561 RigExpert Match RFE analyzer $329; 629559 Digirig TS-480 cable set; 629558 Digirig Mobile; 629556/629555 Signalink cable/Signalink USB; 629550 RIGrunner 4008H distribution panel $70; 629549 bow & arrow antenna launcher. Comps: 2 ledger hits (ELECRAFT K3/100, ASTRON RS-20A), 3 ledger misses -> 3 eBay sold searches (Radioddity QT-60, Yaesu FTM-400DR, RigExpert Shackmaster Power 600); signed in to eBay as Leo, no challenge. Shackmaster Power 600 search returned 0 sold results.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629560",
+      "site": "eham",
+      "title": "Radioddity QT-60 10 meter transceiver",
+      "price": 180.0,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "Seller: almost new, works well with full output; 'same radio as the Anytone AT-5555N'. Ships in original box with paperwork, mounting bracket, hand mic, power cable, programming cable. $180 via PayPal, seller pays shipping (lower 48 only).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629557",
+      "site": "eham",
+      "title": "RigExpert Shackmaster Power 600",
+      "price": 349.0,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "Power supply, adjustable 12-15V, 40A max, 4 USB QC2.0 ports. Ad lists features only, no condition statement. $349 shipped, lower 48 only.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629554",
+      "site": "eham",
+      "title": "FS: Yaesu FTM-400DR",
+      "price": 450.0,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "Seller: like new with original box. $450 + shipping (shipping amount not stated). Posted in HF Radios category though it is a VHF/UHF mobile.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629553",
+      "site": "eham",
+      "title": "Elecraft K3/100 TRANSCEIVER # 519",
+      "price": 925.0,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "Elecraft K3/100 ser #519, 100W (KPA3), 2.7 SSB and 250 CW filters, KIO3, KXV3, gold front panel pins, LPA protection diode mod, 7t cap, firmware 5.67. Seller: works as it should, good condition, used today on CW and SSB. Includes power cord and manual. $925 delivered; check/Zelle/PP FF.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629551",
+      "site": "eham",
+      "title": "Astron RS-20A PS",
+      "price": 95.0,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "Astron RS-20A 20A supply (ad spells 'Aston'). Seller: new condition. $95 plus shipping (amount not stated); Zelle/PayPal/check.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
