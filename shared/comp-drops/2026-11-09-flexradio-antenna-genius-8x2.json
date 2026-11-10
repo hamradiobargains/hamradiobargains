@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio Antenna Genius 8x2",
+  "slug": "flexradio-antenna-genius-8x2",
+  "searched_at": "2026-11-09T18:57:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'flexradio antenna genius 8x2', page 1 (1 result). Zero qualifying comps - not comped. The one sale (198620763012, $865.01, Sep 12, auction 4 bids, +$6.88 delivery, 'New - Open box') is titled 'Antenna Genius 8x2 Plus RF Switch TCP/IP v2' - UNCERTAIN whether Plus/v2 is the same radio as the plain 8x2, so it was kept out of the comp set and is listed here only. Trigger ask $775 plus shipping and insurance (0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784423",
+    "site": "qth",
+    "ask": 775,
+    "shipping": 0
+  },
+  "comps": []
+}
