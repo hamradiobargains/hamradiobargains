@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio Maestro C",
+  "slug": "flexradio-maestro-c",
+  "searched_at": "2026-11-09T18:57:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'flexradio maestro c', page 1 (2 results). Zero qualifying comps - not comped. Both sales dropped: 398144436249 $1,099.99 (Best offer accepted; title 'READ DESC' - disclosed-flaw unit) and 206508956367 $599.99 (parts-only/UNTESTED label and Best offer accepted). UNCERTAIN: Maestro vs Maestro C identity (ledger has only 'FLEXRADIO MAESTRO', count 2, median 644.95). Trigger ask $1,425 plus shipping and insurance (0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784425",
+    "site": "qth",
+    "ask": 1425,
+    "shipping": 0
+  },
+  "comps": []
+}
