@@ -1,0 +1,413 @@
+{
+  "model": "Xiegu G90",
+  "slug": "xiegu-g90",
+  "searched_at": "2026-11-10T15:00:05-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (72 results, no fewer-words section). Kept 41 G90 unit sales. Dropped 12 best-offer-accepted. Dropped 2 parts-only (one a G90 + X5105 parts lot). Left out cases, handles, mounts, amps, GNR1 filters, spare-parts kits, DE-19/CE-19 cards and one G90S (different model). OUTLIERS flagged: 2 Brand New sales at $587 (198057780540, 186199985986) vs ~$368 median for the rest - kept, also flagged possible_duplicate of each other. Ledger had XIEGU G90 latest 2026-10-06 (older than 30 days).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784542",
+    "site": "qth",
+    "ask": 325.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 425.0,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158218770949",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). Title: 11 Meter Mod. +$14.99 shipping",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 365.0,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287711961681",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). With mic, USB interface. +$8.11 shipping",
+      "flags": []
+    },
+    {
+      "price": 360.0,
+      "sold_date": "2026-11-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267836420016",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). Includes G90 H3 stand + CE-19 interface card. Free shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 349.99,
+      "sold_date": "2026-11-06",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/880089790839",
+      "source": "ebay",
+      "notes": "Buy It Now. Free shipping",
+      "flags": []
+    },
+    {
+      "price": 429.95,
+      "sold_date": "2026-11-05",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227508907996",
+      "source": "ebay",
+      "notes": "Buy It Now. +$25.12 shipping",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-11-03",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/406944718340",
+      "source": "ebay",
+      "notes": "Buy It Now. +$7.92 shipping",
+      "flags": []
+    },
+    {
+      "price": 587.0,
+      "sold_date": "2026-10-29",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/198057780540",
+      "source": "ebay",
+      "notes": "OUTLIER: $587 vs ~$367.5 median for the rest. Fixed price (or Best Offer, not accepted). Same price/condition as 186199985986 (Oct 6). Free shipping",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168608888526",
+      "source": "ebay",
+      "notes": "Buy It Now. +$6.65 shipping",
+      "flags": []
+    },
+    {
+      "price": 424.99,
+      "sold_date": "2026-10-26",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/198659657764",
+      "source": "ebay",
+      "notes": "Buy It Now. +$7.71 shipping",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960103324800",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). With GSOC controller, cooling fan and extras. Free shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206634151709",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). +$30.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940008722039",
+      "source": "ebay",
+      "notes": "Auction (title: Xiegu G90 QRP). +$6.83 shipping",
+      "flags": []
+    },
+    {
+      "price": 370.0,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307234630645",
+      "source": "ebay",
+      "notes": "Buy It Now. +$8.41 shipping",
+      "flags": []
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840019588252",
+      "source": "ebay",
+      "notes": "Auction. +$9.40 shipping",
+      "flags": []
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2026-10-18",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/366738453522",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). +$6.83 shipping",
+      "flags": []
+    },
+    {
+      "price": 340.0,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198707993889",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). With USB-Digimode interface. +$12.13 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 355.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198691048659",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). Free shipping",
+      "flags": []
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800781606098",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). Title: used, excellent condition. +$30.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 587.0,
+      "sold_date": "2026-10-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/186199985986",
+      "source": "ebay",
+      "notes": "OUTLIER: $587 vs ~$367.5 median for the rest. Fixed price (or Best Offer, not accepted). Same price/condition as 198057780540 (Oct 29). Free shipping",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 260.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168756528610",
+      "source": "ebay",
+      "notes": "Auction. Includes sound card interface and other extras. Free shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2026-09-30",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/318911026026",
+      "source": "ebay",
+      "notes": "Buy It Now. eBay condition shown as New. Free shipping",
+      "flags": []
+    },
+    {
+      "price": 340.0,
+      "sold_date": "2026-09-25",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/287604758915",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). Same title/price as 287601566259 (Sep 22). Free shipping",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 340.0,
+      "sold_date": "2026-09-22",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/287601566259",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). Same title/price as 287604758915 (Sep 25). Free shipping",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 320.0,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257753227171",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). With hand mic, cables. +$15.65 shipping",
+      "flags": []
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206536268745",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). +$14.42 shipping",
+      "flags": []
+    },
+    {
+      "price": 378.98,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128056042113",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: READ DESCRIPTION (description not read). Same price as 117372919414 (Sep 1). Free shipping",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117404862298",
+      "source": "ebay",
+      "notes": "Auction. +$25.55 shipping",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-09-15",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/287571863385",
+      "source": "ebay",
+      "notes": "Buy It Now. With radiator, Digirig and cables. +$13.03 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2026-09-12",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/117406599308",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). eBay condition shown as New. With mic, cables, manual. +$8.36 shipping",
+      "flags": []
+    },
+    {
+      "price": 434.99,
+      "sold_date": "2026-09-05",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227504913190",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). Free shipping",
+      "flags": []
+    },
+    {
+      "price": 380.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117382721482",
+      "source": "ebay",
+      "notes": "Auction. Includes CE-19 digital interface + extras. +$16.31 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 345.0,
+      "sold_date": "2026-09-03",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/298638989013",
+      "source": "ebay",
+      "notes": "Buy It Now. Free shipping",
+      "flags": []
+    },
+    {
+      "price": 420.0,
+      "sold_date": "2026-09-02",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/188843657987",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). +$11.42 shipping",
+      "flags": []
+    },
+    {
+      "price": 378.98,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117372919414",
+      "source": "ebay",
+      "notes": "Buy It Now. Same price as 128056042113 (Sep 18). Free shipping",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 340.0,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206515516147",
+      "source": "ebay",
+      "notes": "Buy It Now. With mic + cable, excellent. +$26.50 shipping",
+      "flags": []
+    },
+    {
+      "price": 324.88,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318801542703",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: tested, working. Free shipping",
+      "flags": []
+    },
+    {
+      "price": 295.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227495604603",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). +$35.21 shipping",
+      "flags": []
+    },
+    {
+      "price": 460.0,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128030215291",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, not accepted). In waterproof case with extras. +$40.85 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 389.0,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267765573600",
+      "source": "ebay",
+      "notes": "Buy It Now. +$9.55 shipping",
+      "flags": []
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2026-08-21",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/137647675746",
+      "source": "ebay",
+      "notes": "Buy It Now (title: XIEGU TECH HF SDR TRANSCEIVER G90). Free shipping",
+      "flags": []
+    },
+    {
+      "price": 445.0,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278270050153",
+      "source": "ebay",
+      "notes": "Auction (title: Xiegu G90 QRP). +$6.83 shipping",
+      "flags": []
+    }
+  ]
+}
