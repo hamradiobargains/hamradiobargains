@@ -1,0 +1,43 @@
+{
+  "model": "Kenwood PS-53",
+  "slug": "kenwood-ps-53",
+  "searched_at": "2026-11-09T18:57:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood ps-53', page 1. 3 kept, median 150.00 - solid. Dropped: 1 Best-offer-accepted (237127157921 $180.00, Oct 30). TS-2000 bundle and Audiotek AT-PS53M excluded. Trigger ask $150 plus shipping (seller says shipping estimate from Broadview IL; recorded 0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784357",
+    "site": "qth",
+    "ask": 150,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 100,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327418387980",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not marked accepted); +$38.77 delivery. Title: 'tested working'.",
+      "flags": []
+    },
+    {
+      "price": 150,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237000481677",
+      "source": "ebay",
+      "notes": "+$45.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 153,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188831297336",
+      "source": "ebay",
+      "notes": "+$24.97 delivery.",
+      "flags": []
+    }
+  ]
+}
