@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FTM-200DS",
+  "slug": "yaesu-ftm-200ds",
+  "searched_at": "2026-11-10T17:58:49-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Yaesu FTM-200DS', page 1 above 'fewer words'. No FTM-200DS sales found. Only FTM-200DR sales appeared (US 50W model, different from the 20W Japanese FTM-200DS) - excluded: $145 Nov 5, $280 Sep 8 best-offer-accepted. 0 comps - thin.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366800110799",
+    "site": "ebay",
+    "ask": 458.81,
+    "shipping": 60.0
+  },
+  "comps": []
+}
