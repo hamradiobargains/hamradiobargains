@@ -1,0 +1,15 @@
+{
+  "model": "Astron VS-20M",
+  "slug": "astron-vs-20m",
+  "searched_at": "2026-11-09T18:57:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'astron vs-20m', page 1 (1 result). Zero qualifying comps - not comped. The only VS-20M sale was Best offer accepted and dropped (800842318926 $69.88, Oct 31). VS-20ML (327348412661 $59.99, new in box, 2 bids) excluded as a different model. Trigger ask now $85 plus shipping (shipping not stated, 0); the 11/08 note recorded $100 shipped, ad was edited.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784407",
+    "site": "qth",
+    "ask": 85,
+    "shipping": 0
+  },
+  "comps": []
+}
