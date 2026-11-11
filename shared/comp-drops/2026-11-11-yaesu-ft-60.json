@@ -1,0 +1,126 @@
+{
+  "model": "Yaesu FT-60",
+  "slug": "yaesu-ft-60",
+  "searched_at": "2026-11-11T17:59:03-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss ('YAESU FT-60R' exists but the listing is titled FT-60, no R — identity not certain). eBay sold search 'yaesu ft-60' page 1: 72 results. Kept 12 units titled FT-60/FT 60 without R suffix; several are Japan-market 144/430 MHz units (noted per comp). LEFT OUT all 54 results titled FT-60R (model-identity doubt; ledger has FT-60R data) and accessories (mounts, programming cable, speaker mic). Dropped 2 best-offer-accepted (287658700213, 307127080071), 0 parts-only. Outliers: $184.33 (https://www.ebay.com/itm/235515379605), $277.73 (https://www.ebay.com/itm/176815885476), $180.90 (https://www.ebay.com/itm/168421371024), $195.98 (https://www.ebay.com/itm/127498319696).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/880106420535",
+    "site": "ebay",
+    "ask": 124.99,
+    "shipping": 10.15
+  },
+  "comps": [
+    {
+      "price": 112.5,
+      "sold_date": "2026-11-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168835357439",
+      "source": "ebay",
+      "notes": "Auction, 32 bids. Title 'Yaesu FT-60 ... #V5'. Shipping $6.25.",
+      "flags": []
+    },
+    {
+      "price": 184.33,
+      "sold_date": "2026-11-02",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/235515379605",
+      "source": "ebay",
+      "notes": "OUTLIER: $184.33 vs ~$113.42 median for the rest. Title 'Yaesu FT-60 5W FM 144/430MHz' (Japan-band unit). Shipping $29.99.",
+      "flags": []
+    },
+    {
+      "price": 277.73,
+      "sold_date": "2026-10-30",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/176815885476",
+      "source": "ebay",
+      "notes": "OUTLIER: $277.73 vs ~$113.42 median for the rest. Title 'Yaesu FT-60 Standard ... 144/430MHz New' (Japan-band unit). Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 90.42,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237102333287",
+      "source": "ebay",
+      "notes": "Title 'Yaesu FT 60 + mike perfect'. Shipping $32.38.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 115.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398338344557",
+      "source": "ebay",
+      "notes": "Title includes NC-88B charger. Shipping $7.13.",
+      "flags": []
+    },
+    {
+      "price": 180.9,
+      "sold_date": "2026-09-18",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/168421371024",
+      "source": "ebay",
+      "notes": "OUTLIER: $180.90 vs ~$113.42 median for the rest. Title 'YAESU FT-60 5W Dual Band 144/430MHz' (Japan-band unit). Shipping $50.00.",
+      "flags": []
+    },
+    {
+      "price": 113.42,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178466638043",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Title 'Yaesu FT 60'. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 149.25,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188782762879",
+      "source": "ebay",
+      "notes": "Title 'YAESU FT-60 5W Dual Band 144/430MHz'. Shipping $19.80.",
+      "flags": []
+    },
+    {
+      "price": 81.0,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147525388197",
+      "source": "ebay",
+      "notes": "Auction, 11 bids. Title '... Fully W[orking]' (truncated). Shipping $8.11.",
+      "flags": []
+    },
+    {
+      "price": 195.98,
+      "sold_date": "2026-08-27",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/127498319696",
+      "source": "ebay",
+      "notes": "OUTLIER: $195.98 vs ~$113.42 median for the rest. Title '... New Japan'. Shipping $35.00.",
+      "flags": []
+    },
+    {
+      "price": 70.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178414854316",
+      "source": "ebay",
+      "notes": "Title 'YAESU FT-60 5W Dual Band 144/430MHz'. Shipping $13.65.",
+      "flags": []
+    },
+    {
+      "price": 90.0,
+      "sold_date": "2026-08-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168598387775",
+      "source": "ebay",
+      "notes": "Title 'YAESU FT-60 Dual Band 144/430MHz'. Shipping $9.95.",
+      "flags": []
+    }
+  ]
+}
