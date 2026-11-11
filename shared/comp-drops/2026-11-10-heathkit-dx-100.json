@@ -1,0 +1,15 @@
+{
+  "model": "Heathkit DX-100",
+  "slug": "heathkit-dx-100",
+  "searched_at": "2026-11-10T19:35:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-10. Query: heathkit dx-100 (eBay sold+completed, sorted newest, 120/page, page 1 only; 'Results matching fewer words' section ignored). 0 kept (no qualifying comps). Zero qualifying comps. Page 1 had 6 sold rows, none a DX-100 unit: DX-40 x2, DX-35, DX-60A, DX-60 (different models, excluded) and one DX-100B manuals listing (307147813010 $29.95, Best offer accepted, manuals only). Sold price recorded as shown (no shipping); shipping per comp in its notes. searched_at is the batch-write time of the sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1776689",
+    "site": "qth",
+    "ask": 200,
+    "shipping": 0
+  },
+  "comps": []
+}
