@@ -1,0 +1,25 @@
+{
+  "model": "Yaesu FT-857DM",
+  "slug": "yaesu-ft-857dm",
+  "searched_at": "2026-11-10T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ft-857dm' page 1 (123 results, 43 FT-857-titled over $300). Only 1 result is titled FT-857DM (kept; THIN). The other results are FT-857D / FT-857 and are kept out for identity per hygiene rule (UNCERTAIN whether 857DM = 857D hardware; ad says 'Japanese version' limited to 144-146 / 430-440 MHz TX). For reference only (not comps): ledger YAESU FT-857D latest 2026-10-21 median 1024.50 count 20; page-1 FT-857D sales ran roughly $500 to $2,650 (e.g. 880044235063 $1,200 BIN 10/31; 366692222300 $990.29 BIN 11/5). Timestamp is file-write time (-05:00 EST); search ran earlier in the same sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784469",
+    "site": "qth",
+    "ask": 400,
+    "shipping": 30
+  },
+  "comps": [
+    {
+      "price": 1174.52,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366671117376",
+      "source": "ebay",
+      "notes": "Buy It Now; +$120.00 delivery; title 'YAESU FT-857DM HF-430MHz All Mode Amateur Radio Transceiver'",
+      "flags": []
+    }
+  ]
+}
