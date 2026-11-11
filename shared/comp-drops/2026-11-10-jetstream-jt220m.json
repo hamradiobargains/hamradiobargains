@@ -1,0 +1,15 @@
+{
+  "model": "Jetstream JT220M",
+  "slug": "jetstream-jt220m",
+  "searched_at": "2026-11-10T19:35:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-10. Query: jetstream jt220m (eBay sold+completed, sorted newest, 120/page, page 1 only; 'Results matching fewer words' section ignored). 0 kept (no qualifying comps). Zero qualifying comps. Only 1 sale on page 1, dropped as Best-offer-accepted (336847667730 $125, Oct 26, \"VHF FM Transceiver Mobile Radio 50W 200CH\"; shipping $12.50 shown). Sold price recorded as shown (no shipping); shipping per comp in its notes. searched_at is the batch-write time of the sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784460",
+    "site": "qth",
+    "ask": 135,
+    "shipping": 0
+  },
+  "comps": []
+}
