@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-11",
+  "source": "missed_search",
+  "entries": [
+    {
+      "term": "tc70-10",
+      "searched_at": "2026-11-11T08:38:13-05:00",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "PC Electronics TC70-10",
+      "status": "worked",
+      "worked_at": "2026-11-11",
+      "result": "2026-11-11-pc-electronics-tc70-10.json, 1 comp (low confidence; 1 parts-only sale excluded)"
+    },
+    {
+      "term": "pc electronics tc70-10",
+      "searched_at": "2026-11-11T08:38:02-05:00",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "PC Electronics TC70-10",
+      "status": "worked",
+      "worked_at": "2026-11-11",
+      "result": "2026-11-11-pc-electronics-tc70-10.json, 1 comp (low confidence; 1 parts-only sale excluded)"
+    },
+    {
+      "term": "felx 6500",
+      "searched_at": "2026-11-11T13:47:21-05:00",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+    },
+    {
+      "term": "qro 2500",
+      "searched_at": "2026-11-11T13:46:15-05:00",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+    },
+    {
+      "term": "yaesu ft-816",
+      "searched_at": "2026-11-11T12:14:16-05:00",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+    },
+    {
+      "term": "yaesu ft-815",
+      "searched_at": "2026-11-11T12:14:11-05:00",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+    },
+    {
+      "term": "kantronics",
+      "searched_at": "2026-11-11T11:41:16-05:00",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+    },
+    {
+      "term": "kam",
+      "searched_at": "2026-11-11T11:41:13-05:00",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+    },
+    {
+      "term": "pk232",
+      "searched_at": "2026-11-11T11:41:10-05:00",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+    },
+    {
+      "term": "tr-2600",
+      "searched_at": "2026-11-11T11:40:39-05:00",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+    },
+    {
+      "term": "tr2600",
+      "searched_at": "2026-11-11T11:40:33-05:00",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+    },
+    {
+      "term": "ic-7760",
+      "searched_at": "2026-11-11T11:40:03-05:00",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+    }
+  ]
+}
