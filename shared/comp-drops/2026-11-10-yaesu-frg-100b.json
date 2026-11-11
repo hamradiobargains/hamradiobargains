@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FRG-100B",
+  "slug": "yaesu-frg-100b",
+  "searched_at": "2026-11-10T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu frg-100b' page 1 (14 results). ZERO qualifying FRG-100B comps: no result is titled FRG-100B; all FRG-100 sales titled plain 'FRG-100' are kept out for identity (FRG-100 vs FRG-100B is a hardware revision - UNCERTAIN). For reference only (not comps): 327250042347 $449.99 or Best Offer (8/20, Tested, Japan original, free delivery); 168611111784 $374.99 BIN (9/3, +$21.99); 307195354828 $500.00 BIN (10/7, +$15.08); 188786516542 $335.15 (9/6, 'or...' offer wording, +); dropped as Best offer accepted: 287586855180 $427.38 (9/30), 307142269554 $489.00 (9/23). Also seen/excluded: FRG-7000 untested 'READ' sales, FRG-8800, TCXO-4 module. Ad 1784387 is an FRG-100B with factory-upgrade claims, $400 shipped. Timestamp is file-write time (-05:00 EST); search ran earlier in the same sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784387",
+    "site": "qth",
+    "ask": 400,
+    "shipping": 0
+  },
+  "comps": []
+}
