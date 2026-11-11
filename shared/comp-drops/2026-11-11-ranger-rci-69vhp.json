@@ -1,0 +1,25 @@
+{
+  "model": "Ranger RCI-69VHP",
+  "slug": "ranger-rci-69vhp",
+  "searched_at": "2026-11-11T17:59:03-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ranger rci 69vhp' page 1: 2 results before 'fewer words'. Kept 1. Left out 117383419575 'Ranger RCI 69 Base plus ++' ($550, Sep 7) — different model (base station). 0 best-offer-accepted, 0 parts-only dropped. Thin (1 comp).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/117516533853",
+    "site": "ebay",
+    "ask": 335.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 390.0,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327379437279",
+      "source": "ebay",
+      "notes": "Title: 'RCI-69VHP 90 watt 10/11 meter radio'. Or Best Offer listing (not best-offer-accepted). Shipping $19.48.",
+      "flags": []
+    }
+  ]
+}
