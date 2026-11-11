@@ -1,0 +1,34 @@
+{
+  "model": "Acom 1200S",
+  "slug": "acom-1200s",
+  "searched_at": "2026-11-11T14:58:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'acom 1200s', page 1 (4 results above 'fewer words'). Kept 2 comps - thin. Dropped 1 best-offer-accepted ($3,899.95, 2026-08-29). Dropped 0 parts-only. Excluded 1 accessory (dust cover, $34). No outliers. searched_at is when this file was built; the eBay sold search ran a few minutes earlier in this run.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784608",
+    "site": "qth",
+    "ask": 3000.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 2850.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198608449723",
+      "source": "ebay",
+      "notes": "Auction, 42 bids. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 3400.0,
+      "sold_date": "2026-08-19",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/198519579990",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'new in open box'. Shipping +$145.50.",
+      "flags": []
+    }
+  ]
+}
