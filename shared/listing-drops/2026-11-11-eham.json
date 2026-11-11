@@ -1,0 +1,75 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-11",
+  "ran_at": "2026-11-11T05:53:00-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-10T05:56:33-05:00 (prior eham run). Browsed signed OUT ('Login/Register' / 'Welcome Guest' shown). A Cloudflare 'Performing security verification' interstitial showed on the first classifieds load and cleared on its own after ~10 s (no interaction, no CAPTCHA). Read public classifieds pages 1 and 2 (page 2 via its pagination link); new ads 629565-629581. Full ad text on list pages, so no individual ad pages opened; no search form, sold searches, or seller/callsign pages; no ad IDs probed. Ad numbers 629564 and 629579 did not appear on the public pages (not opened). Candidate cap: 629572 Outbacker Perth HF mobile antenna $165 (ledger miss) was a plausible candidate but not comped this run (cap of 6 reached); not dropped. Not dropped (no price shown): 629571 Elecraft K2 unbuilt kit w/ options; 629570 Yaesu FT-1000MP Mark V (seller: powers up, untested, sold as not working/as-is/for parts). Not dropped (accessories/components/test gear/wanted ads): 629577 KP1-4 vacuum variable cap $350 OBO; 629576 Jennings UCSL-1000 vac cap $375 OBO; 629574 RigExpert Stick 230 $275; 629573 WTB RIP-1; 629569 WTB SteppIR cable; 629568 Elecraft KRX3 sub receiver kit $244; 629566 Elecraft P3 panadapter $472. Comps: 3 ledger hits (ICOM IC-705, ICOM AH-705, ELECRAFT K3/100), 3 ledger misses -> 3 eBay sold searches (Elecraft K3S, Buddipole Buddistick PRO, DX Engineering 43 vertical); signed in to eBay as Leo, no challenge. DX Engineering 43 vertical search returned 0 sold results.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629581",
+      "site": "eham",
+      "title": "Icom IC-705 + Windcamp Cage & Field Pack",
+      "price": 999.0,
+      "shipping": 0,
+      "found_at": "2026-11-11",
+      "condition_notes": "Seller: working, factory reset before shipping; used primarily on receive for SKYWARN nets. Includes BP-272 battery, HM-243 speaker mic, DC cable, CW plug, Windcamp cage, Windcamp Field Pack backpack, RC-2 mount. AH-705 not included. $999 shipped & insured lower 48.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629580",
+      "site": "eham",
+      "title": "Buddistick PRO + 25ft Coax, Never Used",
+      "price": 159.0,
+      "shipping": 0,
+      "found_at": "2026-11-11",
+      "condition_notes": "Buddipole Buddistick PRO, 40m-6m. Opened but never used (unpacked only for photos). Includes Versahub, arms, whip, coil, 31 ft radial on winder, Cordura bag, manual, 25 ft RG58 coax. $159 shipped lower 48.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629578",
+      "site": "eham",
+      "title": "Icom AH-705 Automatic Antenna Tuner for IC-705",
+      "price": 279.0,
+      "shipping": 0,
+      "found_at": "2026-11-11",
+      "condition_notes": "Purchased new, single owner, never actually used, great condition. Includes 2m BNC coax, 2m control cable, long wire terminal adapter, mounting bracket, DC plug; no batteries. $279 shipped CONUS.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629575",
+      "site": "eham",
+      "title": "DX Engineering 43 ft Vertical",
+      "price": 495.0,
+      "shipping": 0,
+      "found_at": "2026-11-11",
+      "condition_notes": "DX Engineering 43 ft vertical with Safe-T-Tilt and Un-Un for 43 ft verticals. Condition not stated. Pickup only in Solon, OH (no shipping offered; shipping recorded as 0).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629567",
+      "site": "eham",
+      "title": "Elecraft K3S/100 TRANSCEIVER # 10151 WOW !",
+      "price": 3695.0,
+      "shipping": 0,
+      "found_at": "2026-11-11",
+      "condition_notes": "K3S/100 s/n 10151, loaded: KPA3A, KAT3A tuner, 9 filters, KRX3A sub receiver, TCXO, 2 KSYN3A, KIO3B, KXV3B. Seller: 'feels like a new radio'. Power cord and manual. $3695 delivered. Posted 2026-11-10.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629565",
+      "site": "eham",
+      "title": "Elecraft K3/100 TRANSCEIVER # 7538 Nice",
+      "price": 1198.0,
+      "shipping": 0,
+      "found_at": "2026-11-11",
+      "condition_notes": "K3/100 s/n 7538 with KPA3, 2.7 SSB filter, KIO3, KXV3A. Firmware 5.67. Seller: works as it should, good condition, used today on CW and SSB. Power cord. $1198 delivered. Posted 2026-11-09 but first appeared after the prior run (ad number above 629563).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
