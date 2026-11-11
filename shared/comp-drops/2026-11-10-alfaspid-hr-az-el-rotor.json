@@ -1,0 +1,15 @@
+{
+  "model": "alfaSPID HR Az/El Rotor",
+  "slug": "alfaspid-hr-az-el-rotor",
+  "searched_at": "2026-11-10T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'alfaspid az el rotor' page 1: 0 results titled alfaSPID / SPID (only 'Results matching fewer words' filler, ignored). ZERO qualifying comps. Ad 1784493 is an alfaSPID HR Az/El RAS rotor only (spare), includes cabling and documentation, $800 including shipping Lower 48. Timestamp is file-write time (-05:00 EST); search ran earlier in the same sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784493",
+    "site": "qth",
+    "ask": 800,
+    "shipping": 0
+  },
+  "comps": []
+}
