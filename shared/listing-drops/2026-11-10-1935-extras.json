@@ -1,0 +1,185 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-10",
+  "ran_at": "2026-11-10T19:24:53-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered: none newer than the previous extras drop 2026-11-10-extras.json (ran_at 2026-11-10T18:49:10-05:00); the 11/10 eham (05:56), qth (14:52) and ebay (17:58) drops all precede it, so there are NO fresh extras this run. Queue: 1783910 (named extra, FIRST, per Leo's ruling: original Yaesu FT-991 only, filed under 'Yaesu FT-991', never FT-991A) + 25 carry-overs from 2026-11-10-extras.json CARRIED OVER (24 QTH IDs + 1 eBay item) = 26 queued; BACKLOG CARRY none. Worked: 16 of 26 (1783910 named extra + 15 carry-overs); 10 carried over (cap reached). All 16 were live when opened (QTH, one at a time ~4 s apart via same-origin fetch from one QTH tab). Ledger hits: 0 (FT-991 ledger 2026-10-09 count 3 is 32 days old; P3 2026-09-20, K3/0 Mini 2026-09-20 count 1, TL-922A 2026-09-26 count 2, MFJ-998 non-RT, AL-1500 count 2, RRC-1258 count 2 - all stale or too thin). eBay sold searches used: 15 of 15 (cap reached, not exceeded): Yaesu FT-991, Elecraft P3, Elecraft K3/0 Mini, Kenwood DFC-230, Yaesu SP-30, Jetstream JT220M, Heathkit DX-100, Ten-Tec Centurion, Kenwood TL-922A, DX Engineering 43 ft vertical, Icom AT-150, Icom IC-707, Icom ID-50, MFJ-998RT, Mercury III (returned Mercury ATS 1.5K). Solid (3+): FT-991 (3, median 720), P3 (3, median 521.55), SP-30 (7, median 162.99), IC-707 (3, median 379.95). Thin: K3/0 Mini (1), DFC-230 (2), Centurion (1), TL-922A (2), AT-150 (1), ID-50A (2), MFJ-998RT (1), Mercury ATS 1.5K (2). Zero qualifying comps: JT220M (only sale was Best-offer-accepted), DX-100 (no DX-100 sales on page 1), DX Engineering 43 ft vertical (no sold results). Gone: none. Skipped (no price): none. Cross-posts: none found; 1776848 and 1784560 are two different P3 units. Outliers: none flagged (SP-30 307151733752 $82.81 and IC-707 298715312022 $222.50 are 0.51x and 0.57x of the others' medians, just above the 0.5x line - noted in comp notes). UNCERTAIN: ID-50 vs ID-50A (1784569); Mercury III vs Mercury ATS 1.5K (1784533); P3 with VGA/TX Mon options (1784560); work flags carried verbatim and marked UNCERTAIN: 1782243 'may need calibration as it is 45 years old', 1784579 'recommend first power up on a VARIAC transformer since it has been sitting covered up', 1784460 mic cord 'slightly frayed with no wires showing'. found_at is approximated: 2026-11-09 for 1776848, 1780907, 1782243, 1784468, 1784460, 1776689 (carried over from earlier drops; QTH submit dates earlier), 2026-11-02 for 1783910 (its QTH submit date), 2026-11-10 for the ads named in the 11/10 QTH drop. Shipping 0 where free or unknown; local-pickup ads (1776689, 1784579, 1784577, 1784573) carry shipping 0 with no shipping quote. Not triaged, opened for liveness/price only (all live): 1784561 AX1+AXE1 $150 shipped; 1784534 Hermes Lite 2 + 50W amp $500 first offer (ad says the Hermes 'has holes drilled into the top of' the case for cooling); 1784531 K3S/100 $3695 delivered; 1784514 Apache G2E new $1875 shipped; 1784515 RemoteRig RRC-1258 MKII $309 delivered; 1784580 Henry 2002 $1700 or best offer; 1783315 LNR LD-11 $500 OBO shipped; 1783317 LNR 4B V2 $300 OBO shipped; 1778454 Ameritron AL-1500 $2500 pickup only (seller says HV transformer upgraded to Peter Dahl and filter cap board upgraded). They are NOT in dropped-urls. The eBay carry-over IC-9100 EME Modified (366797571603) was not opened. No eHam page opened; eBay signed in as Leo, one search at a time ~15 s apart, no challenges. Timestamps -05:00 (EST). CARRIED OVER (first run next time, in this order): 1784561, 1784534, 1784531, 1784514, 1784515, 1784580, 1783315, 1783317, 1778454, https://www.ebay.com/itm/366797571603. BACKLOG CARRY: none.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu 991 for sale",
+      "price": 600,
+      "shipping": 31,
+      "found_at": "2026-11-02",
+      "condition_notes": "live. Seller wording: \"Nice radio with original mic and bound copy of owners manual.\" \"One minor scratch on the top.\" \"Power pole connectors.\" \"I do not have the original box, but radio is securely packed for shipping.\" \"$600.00 firm, plus shipping.\" \"Shipping insured CONUS looks like $31.00\". \"I will consider driving a reasonable distance with pre-payment.\" Last edited 11/10/26; submitted 11/02/26. Named extra: treated as the ORIGINAL Yaesu FT-991 per Leo's ruling; comps are original FT-991 only, no FT-991A figures used. Already in dropped-urls. comps: yaesu-ft-991, 3 kept, median 720.0",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1776848",
+      "site": "qth",
+      "title": "RADIOHF - Elecraft P3 Panadapter # 121",
+      "price": 475,
+      "shipping": 0,
+      "found_at": "2026-11-09",
+      "condition_notes": "live. Seller wording: \"Works great with cables\"; \"Comes with standard k3 hookup cables, and manual.\"; \"$475 delivered - check, Zelle, PP FF ok.\"; \"I use one of these every day,and this one is not needed in my shack.\"; \"These have been discontinued at Elecraft.\" comps: elecraft-p3, 3 kept, median 521.55",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1780907",
+      "site": "qth",
+      "title": "RADIOHF - Elecraft K3/0 Mini Remote head # 041",
+      "price": 869,
+      "shipping": 0,
+      "found_at": "2026-11-09",
+      "condition_notes": "live. Seller wording: \"Super nice - rare !\"; \"Looks Great and works like new.\"; \"$869 delivered - check, Zelle, PP FF ok.\"; \"Local pickup is also fine.\" Note: the one sold K3/0 Mini comp is also unit # 0041 ($375, Sep 20, auction). comps: elecraft-k3-0-mini, 1 kept, median 375.0",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1782243",
+      "site": "qth",
+      "title": "ANQ - Kenwood DFC-230 For Sale",
+      "price": 160,
+      "shipping": 0,
+      "found_at": "2026-11-09",
+      "condition_notes": "live. Seller wording: \"Works fine but may need calibration as it is 45 years old\"; \"$160 shipped conus. Zelle preferred.\" comps: kenwood-dfc-230, 2 kept, median 205.0",
+      "work_flag": "may need calibration as it is 45 years old (UNCERTAIN - may be a needs-work statement)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784468",
+      "site": "qth",
+      "title": "RADIOHF - YAESU SP-30 SPEAKER",
+      "price": 145,
+      "shipping": 0,
+      "found_at": "2026-11-09",
+      "condition_notes": "live. Seller wording: \"new in box Yaesu SP-30 speaker\"; \"Comes with box,wire and paper manual.\"; \"I will ship free for $145.00 and can take check or PP+4%.\" comps: yaesu-sp-30, 7 kept, median 162.99",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784460",
+      "site": "qth",
+      "title": "VHF - Jetstream JT220m 220mhz mobile",
+      "price": 135,
+      "shipping": 0,
+      "found_at": "2026-11-09",
+      "condition_notes": "live. Seller wording: \"Great condition\"; \"Works as it should\"; \"50 watts\"; \"100 channel memory\"; \"Comes with mic(cord slightly frayed with no wires showing)\"; \"$135 shipped conus\"; \"NO PAYPAL!\" comps: jetstream-jt220m, 0 kept (not a ledger hit; sold search found no qualifying sales)",
+      "work_flag": "mic cord slightly frayed with no wires showing (UNCERTAIN - minor cosmetic wording)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1776689",
+      "site": "qth",
+      "title": "ANQ - FOR SALE: Heathkit DX-100 $200",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-11-09",
+      "condition_notes": "live. Seller wording: \"This is a clean, working unit.\"; \"New HV caps and 3-wire cord.\"; \"It has the original Heath keying/spotting switch mod using a relay instead of the front panel switch.\"; second owner, built 1955, original construction docs and schematics included; very heavy - pickup near Grand Rapids, MI or meet 100+/- miles; last edited 11/09/26. Local-pickup listing. comps: heathkit-dx-100, 0 kept (not a ledger hit; sold search found no qualifying sales)",
+      "work_flag": "original Heath keying/spotting switch mod using a relay instead of the front panel switch",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784579",
+      "site": "qth",
+      "title": "AMP - FOR SALE: Ten Tec Centurion 1300W HF AMP",
+      "price": 1100,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. Seller wording: \"Ten Tec Centurion 1300W HF desktop amplifier with a pair of 3-500Z tubes inside.\"; \"$1100 Local Pickup recommended in So. CA Los Angeles due to heavy weight and no factory boxes. I can ship on your dime CONUS if you really want.\"; \"From the estate of a close friend SK, Clean cosmetic condition\"; \"built-in power supply, currently wired for 230VAC\"; \"I WILL UPDATE ADD WITH PICTURES IN THE NEXT FEW DAYS\". Seller cites 100% eBay feedback under call sign W6RE. comps: ten-tec-centurion, 1 kept, median 1299.99",
+      "work_flag": "this has not been used in several years, recommend first power up on a VARIAC transformer since it has been sitting covered up (UNCERTAIN - untested-since-storage wording)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784577",
+      "site": "qth",
+      "title": "AMP - For Sale: Kenwood TL-922A HF 160-10m amp",
+      "price": 1100,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. Seller wording: \"$1100 + any shipping at buyers expense.\"; \"pair of 3-500Z Eimac tubes inside and has the 10m band installed in it.\"; \"Can be wired for 117 or 230VAC via jumpers in the back panel.\"; \"Normal wear and tear for it's age.\"; \"heavy and would cost a lot to ship so I strongly recommend local pickup in So. CA LA area\"; estate sale; pictures promised \"in the next day or two\". Seller cites 100% eBay feedback under call sign W6RE. Ledger TL-922A (2026-09-26, count 2) was too thin/stale to use. comps: kenwood-tl-922a, 2 kept, median 1272.0",
+      "work_flag": "has the 10m band installed in it",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784573",
+      "site": "qth",
+      "title": "ANT - DX Engineering 43 ft Vertical",
+      "price": 495,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. Seller wording: \"DX Engineering 43 ft vertical complete with Safe-T-Tilt and Un-Un made specifically for 43 ft verticals (new product).\"; \"DXE gets $846 for these, my price is only $495.\"; \"Pick up in Solon, Ohio - SE suburbs of Cleveland OH.\" comps: dx-engineering-43-ft-vertical, 0 kept (not a ledger hit; sold search found no qualifying sales)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784572",
+      "site": "qth",
+      "title": "ANTETUNE - FS. Icom AT-150",
+      "price": 159,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. Seller wording: \"Dependable Icom quality. Includes the 7 pin din to connect to Icom radios.\"; \"Nice cosmetics. Non smoking home.\"; \"$159 shipped. via pirate ship.\" comps: icom-at-150, 1 kept, median 149.99",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784570",
+      "site": "qth",
+      "title": "RADIO HF - FS. Icom IC-707 HF radio",
+      "price": 318,
+      "shipping": 19,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. Seller wording: \"Was a shelf queen used as a backup EOC radio only.\"; \"100W. Front firing speaker.\"; \"Ships with original icom hand mic and power cord with power poles.\"; \"$318 + $19 via pirate ship. Add $10 for CA/WA/OR\"; \"Good on QRZ\". comps: icom-ic-707, 3 kept, median 379.95",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784569",
+      "site": "qth",
+      "title": "RADIOVHF - ICOM ID 50 w/accessories",
+      "price": 400,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. Seller wording: \"Excellent condition comes with the box the cord the manual.\"; \"$400.00 contact by cell phone or email.\" UNCERTAIN identity: ad says \"ID 50\"; sold comps are titled \"ID-50A\". comps: icom-id-50a, 2 kept, median 370.0",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784568",
+      "site": "qth",
+      "title": "ANTETUNE - MFJ 998 RT AUTO TUNER (+ ATR30 manual tuner)",
+      "price": 800,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. Seller wording: \"MFJ 998 RT 1: EXCELLENT SHAPE MFJ 998RT AUTO TUNER.WORKS AS IT SHOULD.800.00 SHIPPED.\"; ad also offers \"2: ATR30 MANUAL TUNER 425.00 SHIPPED\" (not triaged). comps: mfj-998rt, 1 kept, median 699.99",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784533",
+      "site": "qth",
+      "title": "ANTETUNE - Mercury III Antenna Tuner/new never open",
+      "price": 795,
+      "shipping": 25,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. Seller wording: \"I purchased new in 2022. I have never opened the box.\"; \"$795+$25 to ship will get it.\"; PayPal-Venmo OK. UNCERTAIN identity: ad says \"Mercury III\"; sold results returned only \"Mercury ATS 1.5K\" titles - filed separately under mercury-ats-1-5k. comps: mercury-ats-1-5k, 2 kept, median 699.0",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784560",
+      "site": "qth",
+      "title": "RADIOHF - FS: Elecraft P3 Panadapter w/VGA & TX Mon",
+      "price": 675,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. Seller wording: \"nice P3 pan adapter with SVGA output and Tx monitor module installed.\"; \"You will need to add a coupler for measuring power/swr.\"; \"It comes with the cables to connect to a Elecraft K3 or K3S\"; \"$675 shipped\"; \"That's about 200 less then others sold online.\" Same model as 1776848; kept P3 comps not confirmed to include VGA/TX Mon options. comps: elecraft-p3, 3 kept, median 521.55",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
