@@ -1,0 +1,45 @@
+{
+  "model": "Yaesu FT-991",
+  "slug": "yaesu-ft-991",
+  "searched_at": "2026-11-10T19:35:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-10. Query: yaesu ft-991 (eBay sold+completed, sorted newest, 120/page, page 1 only; 'Results matching fewer words' section ignored). 3 kept (solid), median 720.0, low 650.0, high 776.66. Dropped: 5 Best-offer-accepted sales (800647647024 $650, 117399359206 $1000, 178471016735 $799.99, 178456840062 $845, 800568396331 $750); 1 parts-only sale 267760073694 $275 (Aug 20); 1 non-radio (instruction manual 192037858843 $17.95). FT-991A sales excluded for identity (FT-991 original only). Page 1 only. Sold price recorded as shown (no shipping); shipping per comp in its notes. searched_at is the batch-write time of the sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+    "site": "qth",
+    "ask": 600,
+    "shipping": 31
+  },
+  "comps": [
+    {
+      "price": 776.66,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128111155293",
+      "source": "ebay",
+      "notes": "auction final bid; shipping $139.86 shown; title notes manuals",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800686253602",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not marked accepted); shipping $20.27 shown",
+      "flags": []
+    },
+    {
+      "price": 720.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800588791875",
+      "source": "ebay",
+      "notes": "auction final bid; title says \"+SP10\" (speaker included); shipping $45.00 shown",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
