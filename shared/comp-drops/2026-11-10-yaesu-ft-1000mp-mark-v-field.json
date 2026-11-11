@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-1000MP Mark V Field",
+  "slug": "yaesu-ft-1000mp-mark-v-field",
+  "searched_at": "2026-11-10T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ft-1000mp field' page 1. ZERO qualifying comps: the only 'Field'-titled radio sales were parts/as-is (dropped parts-only: 227482763811 $549.95 'Mark-V Field' Parts Only, 9/12; 198595099835 $395.00 'Mark V Field BIN $395 AS IS' Parts Only, 8/26) plus a parts-board lot 267820920565 $300 (excluded, not a radio). Mark V (200W, non-Field) sales kept out for identity (Field is the 100W version): 128045553701 $1,980 or BO (10/6), 158213724218 $1,100 BIN (9/29), 960106931428 $1,250 or BO (11/4), 800677669533 $450 or BO (9/17, w/ LCD screen), 128097687377 $806 Parts Only (dropped). Ledger YAESU FT-1000MP MARK-V (11/04, median 1203, count 4) and YAESU FT-1000MP MARK V FIELD (9/12, count 1, $549.95 which was a parts-only sale) exist for reference only. Ad 1784450 is 'FT-1000MP MK5 Field' w/ CW filters + INRAD 70.455 roofing filter, built-in PS. Timestamp is file-write time (-05:00 EST); search ran earlier in the same sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784450",
+    "site": "qth",
+    "ask": 795,
+    "shipping": 0
+  },
+  "comps": []
+}
