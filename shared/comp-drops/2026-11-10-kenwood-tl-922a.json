@@ -1,0 +1,36 @@
+{
+  "model": "Kenwood TL-922A",
+  "slug": "kenwood-tl-922a",
+  "searched_at": "2026-11-10T19:35:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-10. Query: kenwood tl-922a (eBay sold+completed, sorted newest, 120/page, page 1 only; 'Results matching fewer words' section ignored). 2 kept (thin), median 1272.0, low 1249.0, high 1295.0. Thin (2 kept). Dropped as parts-only/no tubes: 237173838620 $600 (Nov 9), 237168379890 $475 (Nov 8), 237149768664 $600 (Oct 28), 800871929220 $600 (Nov 3, or Best Offer) - all condition Parts Only (4 sales, ship $87.11/$9.12). Dropped Best-offer-accepted: 366711025643 $850 (Oct 9). Excluded as parts/accessories/upgrade kits: ~9 listings $14.50-$75 (panels, switches, capacitor bank, 6m/10m add-on instructions, soft-key interface). Sold price recorded as shown (no shipping); shipping per comp in its notes. searched_at is the batch-write time of the sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784577",
+    "site": "qth",
+    "ask": 1100,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1295.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128092019971",
+      "source": "ebay",
+      "notes": "fixed price Buy It Now; title \"2x Taylor 3-500ZG Tubes\" (tubes included); shipping $125.00 shown",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1249.0,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287510492102",
+      "source": "ebay",
+      "notes": "fixed price Buy It Now; title \"TESTED and WORKING\"; shipping $111.19 shown",
+      "flags": []
+    }
+  ]
+}
