@@ -1,0 +1,22 @@
+{
+  "model": "ICOM ID-5100A",
+  "slug": "icom-id-5100a",
+  "searched_at": "2026-11-10T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 425.0, count 15, ledger date 2026-11-08 — ledger hit — individual sales behind the median are not auditable from this file. Ad title says '5100D' but body says 'ID5100A' - model wording UNCERTAIN.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784440",
+    "site": "qth",
+    "ask": 425,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 425.0,
+    "low": 350.0,
+    "high": 629.95,
+    "count": 15,
+    "date": "2026-11-08"
+  }
+}
