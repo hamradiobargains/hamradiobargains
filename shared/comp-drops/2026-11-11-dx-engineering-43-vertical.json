@@ -1,0 +1,15 @@
+{
+  "model": "DX Engineering 43 ft Vertical",
+  "slug": "dx-engineering-43-vertical",
+  "searched_at": "2026-11-11T05:56:23-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'DX Engineering 43 vertical', page 1: 0 exact results ('No exact matches found'). Only 'Results matching fewer words' shown (baluns, tilt bases, coax, unrelated items) — ignored. No comps. Best-offer-accepted dropped: 0. Parts-only dropped: 0.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629575",
+    "site": "eham",
+    "ask": 495.0,
+    "shipping": 0
+  },
+  "comps": []
+}
