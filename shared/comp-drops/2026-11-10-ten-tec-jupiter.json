@@ -1,0 +1,34 @@
+{
+  "model": "Ten-Tec Jupiter",
+  "slug": "ten-tec-jupiter",
+  "searched_at": "2026-11-10T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ten-tec jupiter 538' page 1 (21 results, mostly keypads). 2 kept (thin). Dropped 1 'Best offer accepted': 317760341388 $799.00 (9/13, black face, back from factory). Excluded accessories: 302/302R wired keypads (117493676432 $275, 406947714445 $299.95, 128089854218 $285). Matches ledger TEN-TEC JUPITER (10/21, count 2, median 550). Ad 1784444 also includes a SignalLink USB + Jupiter cable and states 'final firmware release, does not have CW personality'. Timestamp is file-write time (-05:00 EST); search ran earlier in the same sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784444",
+    "site": "qth",
+    "ask": 600,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 600.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178462714705",
+      "source": "ebay",
+      "notes": "Buy It Now; +$48.50 delivery; title 'Ten-Tec 538 Jupiter (very nice)'",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117474711773",
+      "source": "ebay",
+      "notes": "Buy It Now; +$60.00 delivery; title 'ten tec jupiter'",
+      "flags": []
+    }
+  ]
+}
