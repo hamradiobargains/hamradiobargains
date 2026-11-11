@@ -1,0 +1,81 @@
+{
+  "model": "Yaesu FTM-300D",
+  "slug": "yaesu-ftm-300d",
+  "searched_at": "2026-11-10T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ftm-300d' page 1 (70 results incl. many mounts). FTM-300D and FTM-300DR treated as the same radio (per rules). 7 kept. Dropped 5 'Best offer accepted': 168770061248 $369.00 (10/24, MARS mod), 227569046476 $350.00 (10/18), 287602510929 $429.99 (10/1, new), 158250481259 $405.00 (9/2, new), 327310214601 $425.00 (8/17). Excluded accessories: 358749119091 $299.99 (11/1, 'Car Radio FTM-300DR Control...' - control/head item, not verified as full radio) and many mounts/mic holders. Ledger YAESU FTM-300D (10/3, median 340, count 5) is >30 days old. Timestamp is file-write time (-05:00 EST); search ran earlier in the same sweep. File name carries HHMM because a 2026-11-10 yaesu-ftm-300d comp drop already exists from the 5:52 PM eBay run.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784486",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 297.01,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327418733358",
+      "source": "ebay",
+      "notes": "Auction; +$10.00 delivery; title 'FTM-300DR'",
+      "flags": []
+    },
+    {
+      "price": 311.0,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880015261054",
+      "source": "ebay",
+      "notes": "Auction; +$11.57 delivery; title 'FTM-300DR'",
+      "flags": []
+    },
+    {
+      "price": 270.0,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178551488361",
+      "source": "ebay",
+      "notes": "Auction; +$11.57 delivery; title 'FTM-300DR'",
+      "flags": []
+    },
+    {
+      "price": 220.0,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/920017937334",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted); +$15.65 delivery; title 'FTM-300DR'",
+      "flags": []
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398427461774",
+      "source": "ebay",
+      "notes": "Buy It Now; +$25.75 delivery; title 'FTM-300D 50W with MARS. working'",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227531332525",
+      "source": "ebay",
+      "notes": "Auction 14 bids; +$14.07 delivery; title 'FTM-300D'",
+      "flags": []
+    },
+    {
+      "price": 299.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278347668513",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted); +$8.23 delivery; title 'FTM-300D'",
+      "flags": []
+    }
+  ]
+}
