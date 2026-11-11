@@ -1,0 +1,34 @@
+{
+  "model": "Icom ID-50A",
+  "slug": "icom-id-50a",
+  "searched_at": "2026-11-10T19:35:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-10. Query: icom id-50 (eBay sold+completed, sorted newest, 120/page, page 1 only; 'Results matching fewer words' section ignored). 2 kept (thin), median 370.0, low 360.0, high 380.0. Thin (2 kept). Dropped: 1 Best-offer-accepted (128062715225 $385, Sep 8). UNCERTAIN identity: the QTH ad says \"ICOM ID 50\"; every sold listing on page 1 is titled \"ID-50A\" (the US-market name) - treated as the same radio, Archie to confirm. Other results (ID-51A, ID-52/52A, ID-5100A) are different models and were excluded. Sold price recorded as shown (no shipping); shipping per comp in its notes. searched_at is the batch-write time of the sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784569",
+    "site": "qth",
+    "ask": 400,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 380.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398402038508",
+      "source": "ebay",
+      "notes": "fixed price \"or Best Offer\" (not marked accepted); shipping $8.11 shown",
+      "flags": []
+    },
+    {
+      "price": 360.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147493940958",
+      "source": "ebay",
+      "notes": "fixed price Buy It Now; free delivery",
+      "flags": []
+    }
+  ]
+}
