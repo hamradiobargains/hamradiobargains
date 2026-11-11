@@ -1,0 +1,25 @@
+{
+  "model": "MFJ-998RT",
+  "slug": "mfj-998rt",
+  "searched_at": "2026-11-10T19:35:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-10. Query: mfj-998rt (eBay sold+completed, sorted newest, 120/page, page 1 only; 'Results matching fewer words' section ignored). 1 kept (thin), median 699.99, low 699.99, high 699.99. Thin (1 kept). Ledger has separate MFJ-998 (non-RT) entries, not used for identity reasons. Sold price recorded as shown (no shipping); shipping per comp in its notes. searched_at is the batch-write time of the sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784568",
+    "site": "qth",
+    "ask": 800,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 699.99,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178458083977",
+      "source": "ebay",
+      "notes": "fixed price Buy It Now; title \"MFJ 998 RT Remote Automatic Antenna Tuner 1500w\"; shipping $39.87 shown",
+      "flags": []
+    }
+  ]
+}
