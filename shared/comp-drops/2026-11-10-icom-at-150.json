@@ -1,0 +1,25 @@
+{
+  "model": "Icom AT-150",
+  "slug": "icom-at-150",
+  "searched_at": "2026-11-10T19:35:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-10. Query: icom at-150 (eBay sold+completed, sorted newest, 120/page, page 1 only; 'Results matching fewer words' section ignored). 1 kept (thin), median 149.99, low 149.99, high 149.99. Thin (1 kept). Dropped: 1 Best-offer-accepted (178355033375 $230, Sep 9). Sold price recorded as shown (no shipping); shipping per comp in its notes. searched_at is the batch-write time of the sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784572",
+    "site": "qth",
+    "ask": 159,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 149.99,
+      "sold_date": "2026-11-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147631649042",
+      "source": "ebay",
+      "notes": "fixed price Buy It Now; title \"Icom AT-150 Automatic Antenna Tuner\"; shipping $18.00 shown",
+      "flags": []
+    }
+  ]
+}
