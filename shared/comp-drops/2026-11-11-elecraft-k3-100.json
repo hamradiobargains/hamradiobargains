@@ -1,0 +1,22 @@
+{
+  "model": "Elecraft K3/100",
+  "slug": "elecraft-k3-100",
+  "searched_at": "2026-11-11T05:56:23-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 1199.49, count 16, ledger date 2026-11-09 — ledger hit — individual sales behind the median are not auditable from this file.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629565",
+    "site": "eham",
+    "ask": 1198.0,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 1199.49,
+    "low": 909.0,
+    "high": 2385.0,
+    "count": 16,
+    "date": "2026-11-09"
+  }
+}
