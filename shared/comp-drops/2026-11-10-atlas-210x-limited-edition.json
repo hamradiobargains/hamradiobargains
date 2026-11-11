@@ -1,0 +1,15 @@
+{
+  "model": "Atlas 210X Limited Edition",
+  "slug": "atlas-210x-limited-edition",
+  "searched_at": "2026-11-10T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'atlas 210x limited edition' page 1. ZERO qualifying comps: no radio sale is titled Limited Edition (the only 'limited' 210-number hits were unrelated). Standard Atlas 210X sales kept out for identity (Limited Edition = ~1000 units, higher power, Atlas-branded Shure mic + console speaker PS - UNCERTAIN how it compares): for reference only - 206527741221 $300.00 BIN (9/9, + power supply console, +$64.50); 257689722093 $250.00 BIN (8/25, working, +$20.00). Also seen/dropped: 227540678652 $149.99 BIN 'Powers On As Is' (9/27); parts-only: 128176910844 $99.99 (11/6 TECH SPECIAL), 267804705787 $180 (10/28 not tested), 237075888996 $84 (9/23), 287565574878 $250 (9/5, also Best offer accepted); boards set 257687133053 $99 excluded. Ledger ATLAS 210X (10/27, median 250, low 225, high 300, count 3). Ad 1784478: Limited Edition with matching Shure mic and console speaker power supply, $550 shipped FedEx. Timestamp is file-write time (-05:00 EST); search ran earlier in the same sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784478",
+    "site": "qth",
+    "ask": 550,
+    "shipping": 0
+  },
+  "comps": []
+}
