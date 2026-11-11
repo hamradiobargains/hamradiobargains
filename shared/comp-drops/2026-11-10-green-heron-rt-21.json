@@ -1,0 +1,25 @@
+{
+  "model": "Green Heron RT-21",
+  "slug": "green-heron-rt-21",
+  "searched_at": "2026-11-10T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'green heron rt-21' page 1 (6 results). 1 kept (THIN). Excluded for identity: 178451189382 $659.00 or Best Offer (9/8) 'New Green Heron RT-21 AzEl' (Az/El controller, different unit, new). Ledger GREEN HERON RT-21 (8/29, count 1, 325) is the same sale. Ad 1784336 is RT-21 v3 (S/N 02053) for HAM III/IV/T2X rotators, $300 OBO, buyer pays shipping. Timestamp is file-write time (-05:00 EST); search ran earlier in the same sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784336",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 325.0,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178450800158",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted); +$46.05 delivery; title 'RT-21 Rotator Controller with Power Cord'",
+      "flags": []
+    }
+  ]
+}
