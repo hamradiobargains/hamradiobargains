@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T13:53:38+00:00",
+ "updated": "2026-11-11T13:53:50+00:00",
  "models": {
   "COLLINS 30L-1": {
    "display": "Collins 30L-1",
@@ -12,11 +12,11 @@
   },
   "ELECRAFT K3/100": {
    "display": "Elecraft K3/100",
-   "pct": -13.7,
+   "pct": 3.1,
    "window": "3mo",
-   "recent_median": 1207.99,
-   "recent_count": 10,
-   "prior_median": 1399.12,
+   "recent_median": 1215.99,
+   "recent_count": 9,
+   "prior_median": 1178.95,
    "prior_count": 6
   },
   "ICOM IC-705": {
@@ -39,12 +39,12 @@
   },
   "ICOM SM-50": {
    "display": "Icom SM-50",
-   "pct": -11.2,
+   "pct": 2.4,
    "window": "3mo",
-   "recent_median": 171.48,
-   "recent_count": 19,
-   "prior_median": 193.0,
-   "prior_count": 5
+   "recent_median": 176.93,
+   "recent_count": 18,
+   "prior_median": 172.85,
+   "prior_count": 6
   },
   "KENWOOD SP-23": {
    "display": "Kenwood SP-23",
@@ -66,12 +66,12 @@
   },
   "KENWOOD TS-830S": {
    "display": "Kenwood TS-830S",
-   "pct": 14.6,
+   "pct": 11.1,
    "window": "3mo",
-   "recent_median": 389.5,
-   "recent_count": 6,
-   "prior_median": 339.99,
-   "prior_count": 6
+   "recent_median": 389.0,
+   "recent_count": 5,
+   "prior_median": 349.99,
+   "prior_count": 7
   },
   "MFJ-989C": {
    "display": "MFJ-989C",
@@ -84,12 +84,12 @@
   },
   "XIEGU G90": {
    "display": "Xiegu G90",
-   "pct": -4.7,
+   "pct": -3.2,
    "window": "3mo",
-   "recent_median": 378.98,
-   "recent_count": 21,
-   "prior_median": 397.5,
-   "prior_count": 12
+   "recent_median": 372.5,
+   "recent_count": 38,
+   "prior_median": 385.0,
+   "prior_count": 13
   },
   "XIEGU X6100": {
    "display": "Xiegu X6100",
