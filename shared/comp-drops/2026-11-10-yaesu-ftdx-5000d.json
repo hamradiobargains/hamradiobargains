@@ -1,0 +1,38 @@
+{
+  "model": "Yaesu FTDX-5000D",
+  "slug": "yaesu-ftdx-5000d",
+  "searched_at": "2026-11-10T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ftdx5000' page 1 (133 results, mostly accessories/filters). Radios >$1000: 2 FTDX5000D sales kept (thin). FTDX-5000MP sales kept out for identity (different model; ad says only 'ftdx 5000 200 watt rig' - D vs MP UNCERTAIN): 960075702840 $1,935.00 3 bids (10/23); 206564199819 $3,000.00 BIN (9/28); 206481360086 $3,105.00 BIN MP Limited + SM-5000 (9/27); 389087440544 $3,400.00 BIN (9/4); 336749595298 $4,250.00 BIN MP Limited (8/20); 127876026400 $3,300.00 or Best Offer (8/19). Dropped: 287491714354 MP $3,099.95 Best offer accepted; parts-only: 336828041694 MP $2,025.00 (BO accepted + Parts Only), 237082048003 MP Limited $1,700.00 Parts Only. Thin: 2 comps. The ad is a package (FTDX5000 + DMU-2000 + 120/80 micro tuner + 40/20 micro tuner + LG display + speakers); DMU-2000 alone sold $474.99 (880091394430, 11/7). Timestamp is file-write time (-05:00 EST); search ran earlier in the same sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784377",
+    "site": "qth",
+    "ask": 3200,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 2299.95,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/900052548213",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted); +$118.82 delivery; title: 200 Watt w/300hz Roofing Filter",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 2995.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336745983613",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted); freight shipping; title: w/SM 5000 Monitor, Original Box, Manual",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
