@@ -1,0 +1,22 @@
+{
+  "model": "Icom IC-705",
+  "slug": "icom-ic-705",
+  "searched_at": "2026-11-11T14:58:16-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 999.5, count 20, ledger date 2026-10-27 — ledger hit — individual sales behind the median are not auditable from this file",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784601",
+    "site": "qth",
+    "ask": 999.0,
+    "shipping": 0.0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 999.5,
+    "low": 750.0,
+    "high": 1473.0,
+    "count": 20,
+    "date": "2026-10-27"
+  }
+}
