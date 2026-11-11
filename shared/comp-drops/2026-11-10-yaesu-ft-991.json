@@ -1,0 +1,54 @@
+{
+  "model": "Yaesu FT-991",
+  "slug": "yaesu-ft-991",
+  "searched_at": "2026-11-10T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ft-991' page 1, FT-991A results ignored (different radio; original FT-991 only). 11 FT-991-titled results: 4 kept; dropped 5 'Best offer accepted' (800647647024 $650, 117399359206 $1000 bundle w/ mics, 178471016735 $799.99, 178456840062 $845, 800568396331 $750); dropped 1 parts-only (267760073694 $275 'Parts Only', Aug 20); excluded 1 manual (192037858843 $17.95). 4 comps = solid-ish (3+). Shipping shown per comp in comp notes. Timestamp is file-write time (-05:00 EST); search ran earlier in the same sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+    "site": "qth",
+    "ask": 600,
+    "shipping": 31
+  },
+  "comps": [
+    {
+      "price": 776.66,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128111155293",
+      "source": "ebay",
+      "notes": "Auction 25 bids; +$139.86 delivery shown; 'Whith Manuals'",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800686253602",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted); +$20.27 delivery",
+      "flags": []
+    },
+    {
+      "price": 720.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800588791875",
+      "source": "ebay",
+      "notes": "Auction 11 bids; +$45.00 delivery; title 'FT 991 +SP10' (speaker included)",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 782.13,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227509624770",
+      "source": "ebay",
+      "notes": "Shown $782.13 (list $899.00 or Best Offer, not marked accepted); +$30.00 delivery; title 'American Version Working'",
+      "flags": []
+    }
+  ]
+}
