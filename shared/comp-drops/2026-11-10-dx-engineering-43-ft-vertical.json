@@ -1,0 +1,15 @@
+{
+  "model": "DX Engineering 43 ft Vertical",
+  "slug": "dx-engineering-43-ft-vertical",
+  "searched_at": "2026-11-10T19:35:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-10. Query: dx engineering 43 ft vertical (eBay sold+completed, sorted newest, 120/page, page 1 only; 'Results matching fewer words' section ignored). 0 kept (no qualifying comps). Zero qualifying comps: the sold search for \"dx engineering 43 ft vertical\" returned no sold results on page 1. Sold price recorded as shown (no shipping); shipping per comp in its notes. searched_at is the batch-write time of the sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784573",
+    "site": "qth",
+    "ask": 495,
+    "shipping": 0
+  },
+  "comps": []
+}
