@@ -1,0 +1,79 @@
+{
+  "model": "Yaesu SP-30",
+  "slug": "yaesu-sp-30",
+  "searched_at": "2026-11-10T19:35:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-10. Query: yaesu sp-30 (eBay sold+completed, sorted newest, 120/page, page 1 only; 'Results matching fewer words' section ignored). 7 kept (solid), median 162.99, low 82.81, high 199.95. Excluded as not the unit: SP-30 dust cover 175885044027 $36; two FTDX10 radio packages (134998597724 $1,698.88, 137737020031 $1,150 BOA). No Best-offer-accepted or parts sales among kept. SP-30 here is the FT-DX10-series external speaker; Palstar SP30B/SP30H excluded. Sold price recorded as shown (no shipping); shipping per comp in its notes. searched_at is the batch-write time of the sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784468",
+    "site": "qth",
+    "ask": 145,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 163.0,
+      "sold_date": "2026-10-29",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/395229358164",
+      "source": "ebay",
+      "notes": "fixed price Buy It Now; free delivery; new",
+      "flags": []
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/920083141740",
+      "source": "ebay",
+      "notes": "fixed price \"or Best Offer\" (not marked accepted); shipping $6.48 shown",
+      "flags": []
+    },
+    {
+      "price": 162.99,
+      "sold_date": "2026-10-23",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/135406157285",
+      "source": "ebay",
+      "notes": "fixed price Buy It Now; free delivery; title says JAPAN F/S",
+      "flags": []
+    },
+    {
+      "price": 154.0,
+      "sold_date": "2026-09-26",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/187687131280",
+      "source": "ebay",
+      "notes": "fixed price Buy It Now; shipping $40.00 shown",
+      "flags": []
+    },
+    {
+      "price": 162.99,
+      "sold_date": "2026-09-21",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/226807129080",
+      "source": "ebay",
+      "notes": "fixed price Buy It Now; free delivery",
+      "flags": []
+    },
+    {
+      "price": 82.81,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307151733752",
+      "source": "ebay",
+      "notes": "auction final bid (2 bids); title \"Yaesu SP-30 External Wired Speaker\" (no FT-DX10 qualifier shown, identity not fully certain); lowest of the set, 0.51x median of the others (not below the 0.5x outlier line); shipping $10.15 shown",
+      "flags": []
+    },
+    {
+      "price": 199.95,
+      "sold_date": "2026-08-22",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/116022083131",
+      "source": "ebay",
+      "notes": "fixed price Buy It Now; free delivery; seller gigaparts (dealer)",
+      "flags": []
+    }
+  ]
+}
