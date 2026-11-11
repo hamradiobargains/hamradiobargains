@@ -1,0 +1,43 @@
+{
+  "model": "Icom IC-707",
+  "slug": "icom-ic-707",
+  "searched_at": "2026-11-10T19:35:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-10. Query: icom ic-707 (eBay sold+completed, sorted newest, 120/page, page 1 only; 'Results matching fewer words' section ignored). 3 kept (solid), median 379.95, low 222.5, high 395.0. Dropped: 1 Best-offer-accepted (168788489401 $395, Oct 28). Excluded as not the radio: 2 IC-707/718/746P crystal-oscillator listings ($51.99, $47.99), Icom CR-338 TCXO ($70), LCD display screen ($26.98). Sold price recorded as shown (no shipping); shipping per comp in its notes. searched_at is the batch-write time of the sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784570",
+    "site": "qth",
+    "ask": 318,
+    "shipping": 19
+  },
+  "comps": [
+    {
+      "price": 395.0,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168850617821",
+      "source": "ebay",
+      "notes": "fixed price \"or Best Offer\" (not marked accepted); title \"Excellent Condition\"; shipping $26.50 shown",
+      "flags": []
+    },
+    {
+      "price": 379.95,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298739312209",
+      "source": "ebay",
+      "notes": "fixed price \"or Best Offer\" (not marked accepted); title \"Excellent Condition\"; shipping $25.14 shown",
+      "flags": []
+    },
+    {
+      "price": 222.5,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298715312022",
+      "source": "ebay",
+      "notes": "auction final bid; title \"IC-707 HF 100W Amateur Radio Transceiver\"; 0.57x median of the others (not below the 0.5x outlier line); shipping $25.93 shown",
+      "flags": []
+    }
+  ]
+}
