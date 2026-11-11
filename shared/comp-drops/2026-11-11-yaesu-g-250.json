@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu G-250",
+  "slug": "yaesu-g-250",
+  "searched_at": "2026-11-11T17:59:03-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu g-250' page 1: 6 results before 'fewer words', mostly FT-250/FT-250R radios and a G-450ADC (different models). Left out 237145373079 'Yaesu G-250 Antenna Rotor Flat Base for Cage or Trolley' ($110.52, Oct 31, Pre-Owned, +$20.10 ship) — unclear whether it is the rotator or only a mounting base, so identity not certain. 0 kept comps — thin. 0 best-offer-accepted, 0 parts-only dropped.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/820343587389",
+    "site": "ebay",
+    "ask": 277.84,
+    "shipping": 65.0
+  },
+  "comps": []
+}
