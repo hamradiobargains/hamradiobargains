@@ -1,0 +1,43 @@
+{
+  "model": "Elecraft P3",
+  "slug": "elecraft-p3",
+  "searched_at": "2026-11-10T19:35:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-10. Query: elecraft p3 (eBay sold+completed, sorted newest, 120/page, page 1 only; 'Results matching fewer words' section ignored). 3 kept (solid), median 521.55, low 500.0, high 541.49. Dropped: 1 Best-offer-accepted (327426574028 $879, Nov 6, P3 w/ VGA). Excluded as not the unit: 5 TX-monitor/W2-wattmeter option listings ($99-$161.49: 327364281358, 327258103509, 327372604989, 327395293370, 327169836635), 1 Y-cable (327335369946 $37.04), 1 K3S/100+P3 package (137585247662 $3,595, Aug 14). No outliers among kept. Note: queued ad 1784560 is P3 with VGA and TX Mon installed; kept comps are not confirmed to include those options. Other queued ads sharing this model: https://swap.qth.com/view_ad.php?counter=1784560 (P3 w/ VGA & TX Mon, $675 shipped). Sold price recorded as shown (no shipping); shipping per comp in its notes. searched_at is the batch-write time of the sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1776848",
+    "site": "qth",
+    "ask": 475,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 541.49,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327363664423",
+      "source": "ebay",
+      "notes": "fixed price \"or Best Offer\" (not marked accepted); eBay card shows $541.49 with $569.99 listing price alongside; title \"w/ cables #2175\"; shipping $32.00 shown",
+      "flags": []
+    },
+    {
+      "price": 521.55,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327327860882",
+      "source": "ebay",
+      "notes": "fixed price \"or Best Offer\" (not marked accepted); shipping $32.00 shown",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336726281279",
+      "source": "ebay",
+      "notes": "fixed price Buy It Now; title \"for K3s or K3 or FTDX5000mp\"; shipping $23.10 shown",
+      "flags": []
+    }
+  ]
+}
