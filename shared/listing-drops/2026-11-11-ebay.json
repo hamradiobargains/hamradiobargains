@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-11",
+  "ran_at": "2026-11-11T17:59:03-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670) browse page, Buy It Now filter, sorted Time: newly listed, pages 1-2 (~99 cards); signed in as Leo, no challenges. Window since previous ebay run 2026-11-10T17:58:49-05:00 (browse cards show no listing times; newest-first order used). Item descriptions not read (one item-specifics check on the K3); condition_notes use title, eBay condition label, seller notes and returns policy. Seller rule: 2 listings skipped for seller with 2 ratings (MFJ-921 920131847914, AMECO TX-62 920131895524). Auction-format cards skipped (Kenwood TM-V71A, Yaesu VX-6R). Not picked: parts-only units (Yaesu FT-101ZD, Drake TR-3, Kenwood TS-440S, Realistic DX-150B, etc.), commercial LMR (Icom IC-F4003, Kenwood TK-8180H), receivers, test equipment (RigExpert AA-600), keyers/accessories/parts/general electronics; cap reached with Azden PCS-7000H, Kenwood TM-2550A, Radio Shack HTX-212 unchecked. Ledger: 2 hits (Elecraft K3/100, Yaesu FTM-400XDR); 6 misses -> 6 eBay sold searches.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/137922613768",
+      "site": "ebay",
+      "title": "Elecraft K3 HF Ham Radio Transceiver Loaded",
+      "price": 1775.0,
+      "shipping": 32.75,
+      "found_at": "2026-11-11",
+      "condition_notes": "eBay condition: Used; seller notes 'Excellent condition see below'. Or Best Offer. Title says 'Loaded'; title/specifics do not state 10W vs 100W. Seller does not accept returns. Free local pickup also offered (Sherwood, OR).",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (5863 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/327451341403",
+      "site": "ebay",
+      "title": "Elecraft K3/100 High Perf 160-6m Transceiver KPA3 2.7 # 1746 100 Watts",
+      "price": 1249.0,
+      "shipping": 53.75,
+      "found_at": "2026-11-11",
+      "condition_notes": "eBay condition: Used; seller notes 'used'. Or Best Offer. KPA3 100W amp per title, serial # 1746. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (2125 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/117516327790",
+      "site": "ebay",
+      "title": "YAESU FTM-400XDR Dual Band Transceiver 144/430MHz C4FM Digital 50W Black .",
+      "price": 400.0,
+      "shipping": 0,
+      "found_at": "2026-11-11",
+      "condition_notes": "eBay condition: Used. Or Best Offer. Free shipping. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (572 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/117516533853",
+      "site": "ebay",
+      "title": "RANGER RCI 69VHP TEN METER MOBILE RADIO",
+      "price": 335.0,
+      "shipping": 0,
+      "found_at": "2026-11-11",
+      "condition_notes": "eBay condition: Used. Or Best Offer. Free shipping. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (572 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/880106420535",
+      "site": "ebay",
+      "title": "Yaesu FT-60 Dual Band Handheld Radio Transceiver With Stand Charger",
+      "price": 124.99,
+      "shipping": 10.15,
+      "found_at": "2026-11-11",
+      "condition_notes": "eBay condition: Used. Or Best Offer. Includes stand charger per title. 30-day returns, seller pays return shipping. Title says FT-60 (no R suffix).",
+      "work_flag": "",
+      "seller_feedback": "100% (3564 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/840119042854",
+      "site": "ebay",
+      "title": "ICOM HM-90a BC-96 Wireless Remote control microphone and microphone holder",
+      "price": 49.0,
+      "shipping": 8.54,
+      "found_at": "2026-11-11",
+      "condition_notes": "eBay condition: Used; seller notes 'Used and has not been tested in many years. No longer have the transceiver it was used with.' Includes BC-96 holder. Or Best Offer. 30-day returns.",
+      "work_flag": "has not been tested in many years",
+      "seller_feedback": "100% (364 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/820343587389",
+      "site": "ebay",
+      "title": "YAESU G-250 Antenna Rotator Ham Radio Directional Rotor Collectibles Parts F554",
+      "price": 277.84,
+      "shipping": 65.0,
+      "found_at": "2026-11-11",
+      "condition_notes": "eBay condition: Used; seller notes 'Power-on confirmed, but functionality unconfirmed, therefore listed as a part.' Ships from Japan (SpeedPAK Expedited, import fees included). Or Best Offer. Free returns.",
+      "work_flag": "Power-on confirmed, but functionality unconfirmed, therefore listed as a part",
+      "seller_feedback": "99.7% (1521 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/206692449692",
+      "site": "ebay",
+      "title": "Kenwood TR-7950 2M FM Transceiver with Microphone ~ UNTESTED, AS-IS",
+      "price": 69.99,
+      "shipping": 0,
+      "found_at": "2026-11-11",
+      "condition_notes": "eBay condition: Used. Title: UNTESTED, AS-IS; includes microphone. Or Best Offer. Free shipping. Seller does not accept returns.",
+      "work_flag": "UNTESTED, AS-IS; seller does not accept returns",
+      "seller_feedback": "99.2% (641 ratings)"
+    }
+  ]
+}
