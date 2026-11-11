@@ -1,0 +1,27 @@
+{
+  "model": "Heathkit SA-2550",
+  "slug": "heathkit-sa-2550",
+  "searched_at": "2026-11-10T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'heathkit sa-2550' page 1: 2 results. 1 kept (THIN, and a bundle: title adds a VLF Converter HD-1420 - flagged extras_included). Dropped 1 'Best offer accepted': 318830252876 $199.99 (10/22, 'appears unused unassembled'). Ledger HEATHKIT SA-2550 (9/29, count 1, 274.99) is the same sale. Ad 1784483: motor-driven 500pf variable capacitor matcher, $300 shipped. Timestamp is file-write time (-05:00 EST); search ran earlier in the same sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784483",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 274.99,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366696734623",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted); +$19.99 delivery; title 'Vintage Heathkit SA-2550 Antenna Matcher + VLF Converter HD-1420'",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
