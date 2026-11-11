@@ -1,0 +1,124 @@
+{
+  "model": "MFJ-969",
+  "slug": "mfj-969",
+  "searched_at": "2026-11-10T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'mfj-969' page 1 (23 results). 12 kept. Dropped 1 'Best offer accepted': 327411623231 $129.99 (10/21); dropped 2 parts-only: 860036666769 $70.00 (10/12, 'Untested For Parts', BIN) and 327302539555 $73.00 (8/16, Parts Only, 10 bids). Excluded accessory: 287117592070 $4.99 replacement counter drive. Shipping was not shown on many cards (noted 'shipping not shown' per comp). OUTLIERS: 257794511331 $70 (low, <0.5x median of others) and 327215355559 $245 (high, >1.5x median of others) - both kept. Ad 1784488: MFJ-969, 'No shipping Local pickup', $200 cash only. Timestamp is file-write time (-05:00 EST); search ran earlier in the same sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784488",
+    "site": "qth",
+    "ask": 200,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 245.0,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327215355559",
+      "source": "ebay",
+      "notes": "OUTLIER: high, >1.5x median of other comps. Buy It Now; free delivery; title 'MFJ-969 DELUXE VERSATUNER II 300 WATT 160-6 METER'",
+      "flags": []
+    },
+    {
+      "price": 175.0,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940030988559",
+      "source": "ebay",
+      "notes": "Auction 1 bid; shipping not shown; title 'MFJ Deluxe Versa Tuner II Manual HF Antenna Tuner'",
+      "flags": []
+    },
+    {
+      "price": 199.0,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/900011644165",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping not shown; title 'MFJ-969 ... TESTED'",
+      "flags": []
+    },
+    {
+      "price": 70.0,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257794511331",
+      "source": "ebay",
+      "notes": "OUTLIER: low, <0.5x median of other comps. Auction 10 bids; shipping not shown; title 'MFJ-969 DELUXE VERSA TUNER II HF/6M 300 WATTS TUNER WITH DUMMY LOAD AN...'",
+      "flags": []
+    },
+    {
+      "price": 140.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327392778628",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery; title 'w/ SWR Meter'",
+      "flags": []
+    },
+    {
+      "price": 199.99,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147350030845",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping not shown",
+      "flags": []
+    },
+    {
+      "price": 140.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800677654098",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted); shipping not shown; title 'w/ SWR Meter'",
+      "flags": []
+    },
+    {
+      "price": 169.99,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327338880776",
+      "source": "ebay",
+      "notes": "Buy It Now; +$19.99 delivery; title '...WORKS'",
+      "flags": []
+    },
+    {
+      "price": 145.17,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227485101209",
+      "source": "ebay",
+      "notes": "Auction 42 bids; shipping not specified",
+      "flags": []
+    },
+    {
+      "price": 90.0,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206513483563",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping not shown",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137617709753",
+      "source": "ebay",
+      "notes": "Auction 1 bid; shipping not shown",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137629002322",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted); shipping not shown",
+      "flags": []
+    }
+  ]
+}
