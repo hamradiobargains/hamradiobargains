@@ -1,0 +1,15 @@
+{
+  "model": "Icom ID-5200A",
+  "slug": "icom-id-5200a",
+  "searched_at": "2026-11-10T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom id-5200a' page 1. ZERO qualifying comps: only 2 ID-5200 results, both accessories (ID-5200A/E Basic Manual 227539096772 $19.95; suction cup mount 267823062071 $24.95) - excluded; remaining results were from the 'Results matching fewer words' section (ignored). Ad 1784495 is a brand-new-in-box ID-5200A, $830 shipped. Timestamp is file-write time (-05:00 EST); search ran earlier in the same sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784495",
+    "site": "qth",
+    "ask": 830,
+    "shipping": 0
+  },
+  "comps": []
+}
