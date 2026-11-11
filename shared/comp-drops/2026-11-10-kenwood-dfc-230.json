@@ -1,0 +1,36 @@
+{
+  "model": "Kenwood DFC-230",
+  "slug": "kenwood-dfc-230",
+  "searched_at": "2026-11-10T19:35:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-10. Query: kenwood dfc-230 (eBay sold+completed, sorted newest, 120/page, page 1 only; 'Results matching fewer words' section ignored). 2 kept (thin), median 205.0, low 174.99, high 235.0. Dropped: 1 Best-offer-accepted (227519951462 $195, Sep 15). Thin (2 kept). Sold price recorded as shown (no shipping); shipping per comp in its notes. searched_at is the batch-write time of the sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1782243",
+    "site": "qth",
+    "ask": 160,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 235.0,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147486308738",
+      "source": "ebay",
+      "notes": "fixed price \"or Best Offer\" (not marked accepted); title says \"Untested\"; shipping $11.80 shown",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 174.99,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880036023045",
+      "source": "ebay",
+      "notes": "fixed price \"or Best Offer\" (not marked accepted); title \"External VFO In Box\"; shipping $13.00 shown",
+      "flags": []
+    }
+  ]
+}
