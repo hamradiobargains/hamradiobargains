@@ -1,0 +1,15 @@
+{
+  "model": "Elecraft K3",
+  "slug": "elecraft-k3",
+  "searched_at": "2026-11-11T17:59:03-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no 'ELECRAFT K3' entry; K3/100 entry exists but the listing does not state 10W vs 100W). eBay sold search 'elecraft k3' page 1: 76 results, nearly all accessories/options (P3, KPOD, SP3, KRX3, KSYN3A, KPA3 board, K144XV, K3/0 Mini, XV144). Only transceivers on page 1 were 3 titled 'K3/100' (960050274640 $1,650.00 Oct 13 'LOADED'; 327342065547 $1,199.99 Sep 7; 327327910301 $1,215.99 Aug 26) — LEFT OUT because the trigger listing is titled plain 'K3' with no wattage stated, so model identity is not certain. 0 kept comps — thin. 0 best-offer-accepted / 0 parts-only among transceivers. See also today's elecraft-k3-100 ledger drop.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/137922613768",
+    "site": "ebay",
+    "ask": 1775.0,
+    "shipping": 32.75
+  },
+  "comps": []
+}
