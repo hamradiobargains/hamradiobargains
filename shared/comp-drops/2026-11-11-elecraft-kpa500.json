@@ -1,0 +1,45 @@
+{
+  "model": "Elecraft KPA500",
+  "slug": "elecraft-kpa500",
+  "searched_at": "2026-11-11T14:58:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'elecraft kpa500', page 1 (10 results above 'fewer words'). Kept 3 comps - solid set. Dropped 1 best-offer-accepted ($3,000, 2026-10-02). Dropped 0 parts-only. Excluded 1 KPA1500 (different model) and 5 accessories/cables/RFI kits. No outliers. searched_at is when this file was built; the eBay sold search ran a few minutes earlier in this run.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784635",
+    "site": "qth",
+    "ask": 2400.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 2475.0,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147662978975",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked best offer accepted). Title: '+ Cables and Manuals'. Shipping +$39.75.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 2795.0,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327384677825",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping +$59.00.",
+      "flags": []
+    },
+    {
+      "price": 2650.0,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198585403389",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: '+ Box (factory built, excellent)'. Shipping +$78.50.",
+      "flags": []
+    }
+  ]
+}
