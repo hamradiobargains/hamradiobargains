@@ -1,0 +1,19 @@
+{
+  "model": "PC Electronics TC70-10",
+  "slug": "pc-electronics-tc70-10",
+  "searched_at": "2026-11-11T15:40:00Z",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Missed-search check from shared/listing-drops/2026-11-11-missed-search.json; visitors typed 'tc70-10' and 'pc electronics tc70-10' (both the P.C. Electronics TC70-10 70cm ATV transceiver). eBay sold/completed searches for 'PC Electronics TC70-10' and 'TC70-10' (signed in as Leo) returned 2 exact matches; 1 kept. Excluded: Nov 11, 2026 TC70-10 sold $100 (3 bids) listed 'Parts Only' (parts-only); Sep 6, 2026 P.C. Electronics TC70-1 $179.99 fixed price (different model, TC70-1 not merged); Oct 16, 2026 'P.C. Electronics TC 70 ATV Transceiver' $31 (2 bids) - listing does not identify the variant (TC70-1/-10/-20), so not counted; remaining results were unrelated items (oil seals, cards, Zebra TC70X, etc.). Only 1 genuine comp - low confidence.",
+  "comps": [
+    {
+      "price": 118.50,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-owned / used",
+      "url": "https://www.ebay.com/itm/336734656548",
+      "source": "ebay",
+      "notes": "Auction, 31 bids; +$7.10 shipping charged separately",
+      "flags": []
+    }
+  ]
+}
