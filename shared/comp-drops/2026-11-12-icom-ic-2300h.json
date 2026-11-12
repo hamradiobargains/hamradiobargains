@@ -1,0 +1,22 @@
+{
+  "model": "Icom IC-2300H",
+  "slug": "icom-ic-2300h",
+  "searched_at": "2026-11-12T18:47:00-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 131.0, count 5, ledger date 2026-10-30 — ledger hit — individual sales behind the median are not auditable from this file. Ad is two units at $140 each shipped CONUS.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784701",
+    "site": "qth",
+    "ask": 140,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 131.0,
+    "low": 100.0,
+    "high": 149.0,
+    "count": 5,
+    "date": "2026-10-30"
+  }
+}
