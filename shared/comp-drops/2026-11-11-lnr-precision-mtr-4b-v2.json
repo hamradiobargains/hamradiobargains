@@ -1,0 +1,25 @@
+{
+  "model": "LNR Precision MTR-4B V2",
+  "slug": "lnr-precision-mtr-4b-v2",
+  "searched_at": "2026-11-11T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, sorted ended-recently, Leo signed in, no challenge. THIN: 1 comp. Kept median: 325.0.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783317",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 325,
+      "sold_date": "2026-10-05",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/178554917047",
+      "source": "ebay",
+      "notes": "LNR Precision Mountain Topper MTR-4B V2 QRP CW 80/40/30/20m; fixed price or Best Offer (not marked accepted); +$45.71 shipping",
+      "flags": []
+    }
+  ]
+}
