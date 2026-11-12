@@ -1,0 +1,52 @@
+{
+  "model": "Kenwood TS-820S",
+  "slug": "kenwood-ts-820s",
+  "searched_at": "2026-11-12T17:58:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "4 kept comps. dropped 3 best-offer-accepted working units (800856423676 $390 Nov 7; 800579507196 $385 Sep 1; 137298837182 $379 Sep 1). dropped 7 parts-only/untested units (900038676001, 298696571394, 366491056619, 236568377971, 398279321565, 178148809872, 168382585489). Excluded plain 'TS-820' titles as a different model (307006635958 $365 Sep 2; 128017896208 $259.99 Aug 23; plus 2 parts-only), parts lots/boards/kits/accessories, and 128067753467 'KENWOOD TS-820S' Open Box $20 (Sep 17 — price implies not a complete unit; left out on doubt). No outliers. Note: 168668978228 and 168546424108 have identical titles and $125.47 shipping (possibly same seller) but are separate sold listings; not flagged.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/327453103049",
+    "site": "ebay",
+    "ask": 289.99,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 200.0,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168668978228",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $125.47.",
+      "flags": []
+    },
+    {
+      "price": 449.95,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237087135135",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted). Shipping $39.62.",
+      "flags": []
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168546424108",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $125.47.",
+      "flags": []
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358829355303",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted). Title: tested works great 100+ watts. Shipping $104.21.",
+      "flags": []
+    }
+  ]
+}
