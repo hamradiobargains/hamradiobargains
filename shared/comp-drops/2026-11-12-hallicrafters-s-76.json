@@ -1,0 +1,15 @@
+{
+  "model": "Hallicrafters S-76",
+  "slug": "hallicrafters-s-76",
+  "searched_at": "2026-11-12T07:13:41-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'hallicrafters s-76', page 1: 1 result, a restoration kit (165635778603, $125.00, Sep 23) - accessory, excluded. 0 unit comps. Trigger ad 1784640 lists an S-76 receiver at $55 BO plus an HT-37 transmitter at $125 BO (see hallicrafters-ht-37 file); the trigger ask recorded here is the S-76 price.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784640",
+    "site": "qth",
+    "ask": 55,
+    "shipping": 0
+  },
+  "comps": []
+}
