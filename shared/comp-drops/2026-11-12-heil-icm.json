@@ -1,0 +1,22 @@
+{
+  "model": "Heil iCM",
+  "slug": "heil-icm",
+  "searched_at": "2026-11-12T07:13:41-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 99.0, count 7, ledger date 2026-10-17 — ledger hit — individual sales behind the median are not auditable from this file. $95 shipped CONUS.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784477",
+    "site": "qth",
+    "ask": 95,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 99.0,
+    "low": 57.0,
+    "high": 125.0,
+    "count": 7,
+    "date": "2026-10-17"
+  }
+}
