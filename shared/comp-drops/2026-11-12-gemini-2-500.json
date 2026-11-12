@@ -1,0 +1,15 @@
+{
+  "model": "Linear Amp UK Gemini 2-500",
+  "slug": "gemini-2-500",
+  "searched_at": "2026-11-12T10:34:40-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Zero qualifying comps. eBay sold search 'Gemini 2-500 amplifier' page 1 (120 cards) returned only unrelated items (Gemini DA900/DM2000 antenna boosters, Gemini P-700/XGA-5000 audio amps, car amps); no Linear Amp UK Gemini 2-500 2 m amplifier sales. Search used the query as written in the carry-over note; eBay signed in as Leo, no challenge. Needs a different source/ledger comp.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1780048",
+    "site": "qth",
+    "ask": 1850,
+    "shipping": 0
+  },
+  "comps": []
+}
