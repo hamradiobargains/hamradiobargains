@@ -1,0 +1,27 @@
+{
+  "model": "Elecraft K3S",
+  "slug": "elecraft-k3s",
+  "searched_at": "2026-11-11T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, sorted ended-recently, Leo signed in, no challenge. THIN: 1 transceiver comp priced at $1,500+ (page had 45 K3S-titled results, nearly all filters/boards/mics/parts and K3 units, excluded; Nov 5 Elecraft K3 100W 'sold for repair' $800 is a K3, not K3S). The one comp bundles a P3; same sale as the existing ledger K3S entry. Kept median: 3595.0.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784531",
+    "site": "qth",
+    "ask": 3695,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 3595,
+      "sold_date": "2026-08-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137585247662",
+      "source": "ebay",
+      "notes": "Elecraft K3S/100-F + P3 Panadapter package, 'Loaded, Gently Used'; auction, 3 bids; +$29.90 shipping; price includes the P3 panadapter",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
