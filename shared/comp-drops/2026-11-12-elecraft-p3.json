@@ -1,0 +1,45 @@
+{
+  "model": "Elecraft P3",
+  "slug": "elecraft-p3",
+  "searched_at": "2026-11-12T14:58:58-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'elecraft p3', page 1 main results only. 3 kept. Dropped 1 best-offer-accepted (item 327426574028, P3 #5097 with VGA, shown $879.00). Dropped 1 parts-only (W2 coupler, accessory). Excluded W2 couplers and a P3 Y-cable as accessories. The 2026-09-19 sale is serial #2175 - same serial as the trigger QTH ad 1784699 (flagged possible_duplicate). No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784699",
+    "site": "qth",
+    "ask": 479.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 541.49,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327363664423",
+      "source": "ebay",
+      "notes": "Title: 'Elecraft P3 Panadapter - Works great w/ cables # 2175 nice CA'. Fixed price or Best Offer (not best-offer-accepted). +$32.00 delivery. Same serial #2175 as QTH ad 1784699.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 521.55,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327327860882",
+      "source": "ebay",
+      "notes": "Title: 'Elecraft P3 Panadapter - # 1371 Nice'. Fixed price or Best Offer (not best-offer-accepted). +$32.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336726281279",
+      "source": "ebay",
+      "notes": "Title: 'Nice Elecraft P3 Panadapter for K3s or K3 or FTDX5000mp #3544 great serial range'. Buy It Now. +$23.10 delivery.",
+      "flags": []
+    }
+  ]
+}
