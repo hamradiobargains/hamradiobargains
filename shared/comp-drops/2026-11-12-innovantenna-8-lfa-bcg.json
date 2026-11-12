@@ -1,0 +1,15 @@
+{
+  "model": "InnoVAntenna 8-LFA-BCG 8-element 50 MHz",
+  "slug": "innovantenna-8-lfa-bcg",
+  "searched_at": "2026-11-12T07:13:41-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'innovantenna 8 element 50 mhz', page 1: 0 results. No comps. Trigger ad: $500, local pickup only (shipping recorded 0); ad also offers an 80 sq ft windload rotor separately.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784634",
+    "site": "qth",
+    "ask": 500,
+    "shipping": 0
+  },
+  "comps": []
+}
