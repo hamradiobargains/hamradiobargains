@@ -1,0 +1,63 @@
+{
+  "model": "Yaesu FT3DR",
+  "slug": "yaesu-ft3dr",
+  "searched_at": "2026-11-12T17:59:05-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "5 kept comps (titles naming FT3DR only). No best-offer-accepted or parts-only among FT3DR-titled units. Excluded on model-identity doubt: 5 sales titled only 'FT3D' (306866969442 and 860004538603 were also best-offer-accepted; 267759505851 $172.64; 377427411491 $199.99; 168615573640 $275) and 287437999419 $325 'FT3DR FT3D ... Box Japan Tested' (possible Japan-market unit). Excluded batteries, chargers, manuals, stands and other accessories. No outliers. Ledger miss: ledger lists 'YAESU FT-3D', not FT3DR.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/960188239915",
+    "site": "ebay",
+    "ask": 310.0,
+    "shipping": 12.0
+  },
+  "comps": [
+    {
+      "price": 255.0,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206669113764",
+      "source": "ebay",
+      "notes": "Auction, 11 bids. Shipping $20.00.",
+      "flags": []
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298677233034",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted). Shipping $9.21.",
+      "flags": []
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336792380631",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $10.15.",
+      "flags": []
+    },
+    {
+      "price": 295.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257704534733",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted). Title: FT3DR FT3D. Shipping $19.70.",
+      "flags": []
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188863450909",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted). Title: Unused/Mint + Diamond RH77CA. Free shipping.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
