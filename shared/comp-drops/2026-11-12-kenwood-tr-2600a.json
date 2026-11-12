@@ -1,0 +1,40 @@
+{
+  "model": "Kenwood TR-2600A",
+  "slug": "kenwood-tr-2600a",
+  "searched_at": "2026-11-12T15:52:09Z",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Missed-search check from shared/listing-drops/2026-11-11-missed-search.json; visitors typed 'tr2600' and 'tr-2600' (Kenwood TR-2600 2m FM handheld). eBay sold/completed searches (signed in as Leo) for 'Kenwood (TR-2600,TR2600,TR-2600A,TR2600A)' and 'Kenwood TR 2600' found no sales titled as a plain TR-2600; every genuine sale was the TR-2600A, the US-market version of the same handheld. Per the variant rule the comps are deposited under 'Kenwood TR-2600A', not under the typed 'TR-2600' (US-suffix variant kept as its own model, not merged). Excluded: Nov 2, 2026 Kenwood TR 2600A $43.27 (Best offer accepted - real price unknown, item 377387509369); Nov 8, 2026 Kenwood MS-1 mobile stand fits TR-2500/2600 $9.29 (accessory, best offer accepted). Kept 3 comps; the Nov 10 $129.99 sale includes an Alinco ELH-260D amplifier and go-kit extras and sits far above the other two, so it is flagged extras_included + outlier. Median $69.99 with it, $52.50 without. Low confidence (3 comps, one a bundle).",
+  "comps": [
+    {
+      "price": 129.99,
+      "sold_date": "2026-11-10",
+      "condition": "Pre-owned, vintage",
+      "url": "https://www.ebay.com/itm/237172084985",
+      "source": "ebay",
+      "notes": "Buy It Now; sold with Alinco ELH-260D amplifier and go-kit extras ('MORE'); +$16.60 shipping",
+      "flags": [
+        "extras_included",
+        "outlier"
+      ]
+    },
+    {
+      "price": 35.0,
+      "sold_date": "2026-11-03",
+      "condition": "Pre-owned, tested works",
+      "url": "https://www.ebay.com/itm/377618059841",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer listing, sold at list); +$10.20 shipping",
+      "flags": []
+    },
+    {
+      "price": 69.99,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-owned, working, broken antenna, CTCSS module installed",
+      "url": "https://www.ebay.com/itm/227486884632",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer listing, sold at list); +$7.76 shipping",
+      "flags": []
+    }
+  ]
+}
