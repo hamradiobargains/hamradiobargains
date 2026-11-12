@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T13:53:38+00:00",
+ "updated": "2026-11-12T09:48:38-05:00",
  "source": "HamRadioBargains sold-comp ledger \u2014 genuine sold listings from eHam, QTH, eBay and site deals, plus the eHam comp archive. Prices are asking prices at sale; best offers may differ.",
  "models": {
   "ACOM 06AT": {
@@ -7963,31 +7963,6 @@
     }
    ]
   },
-  "YAESU FT-1000MP MARK V": {
-   "latest": {
-    "date": "2026-10-06",
-    "median": 1156.0,
-    "low": 1100.0,
-    "high": 1980.0,
-    "count": 3
-   },
-   "history": [
-    {
-     "date": "2026-09-20",
-     "median": 1000.0,
-     "low": 1000.0,
-     "high": 1000.0,
-     "count": 1
-    },
-    {
-     "date": "2026-10-06",
-     "median": 1156.0,
-     "low": 1100.0,
-     "high": 1980.0,
-     "count": 3
-    }
-   ]
-  },
   "YAESU FT-1000MP MARK V FIELD": {
    "latest": {
     "date": "2026-09-12",
@@ -8015,6 +7990,13 @@
     "count": 4
    },
    "history": [
+    {
+     "date": "2026-09-20",
+     "median": 1000.0,
+     "low": 1000.0,
+     "high": 1000.0,
+     "count": 1
+    },
     {
      "date": "2026-10-06",
      "median": 1156.0,
