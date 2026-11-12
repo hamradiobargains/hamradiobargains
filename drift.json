@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T13:53:50+00:00",
+ "updated": "2026-11-12T13:53:38+00:00",
  "models": {
   "COLLINS 30L-1": {
    "display": "Collins 30L-1",
@@ -21,12 +21,12 @@
   },
   "ICOM IC-705": {
    "display": "Icom IC-705",
-   "pct": 1.0,
+   "pct": 0.5,
    "window": "3mo",
-   "recent_median": 999.99,
-   "recent_count": 15,
-   "prior_median": 990.0,
-   "prior_count": 5
+   "recent_median": 999.5,
+   "recent_count": 14,
+   "prior_median": 995.0,
+   "prior_count": 6
   },
   "ICOM IC-7100": {
    "display": "Icom IC-7100",
@@ -36,6 +36,15 @@
    "recent_count": 10,
    "prior_median": 767.5,
    "prior_count": 6
+  },
+  "ICOM IC-718": {
+   "display": "Icom IC-718",
+   "pct": -12.9,
+   "window": "3mo",
+   "recent_median": 400.0,
+   "recent_count": 22,
+   "prior_median": 459.0,
+   "prior_count": 5
   },
   "ICOM SM-50": {
    "display": "Icom SM-50",
