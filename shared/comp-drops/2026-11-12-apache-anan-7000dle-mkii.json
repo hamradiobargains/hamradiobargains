@@ -1,0 +1,15 @@
+{
+  "model": "Apache Anan 7000DLE MKII",
+  "slug": "apache-anan-7000dle-mkii",
+  "searched_at": "2026-11-12T07:13:41-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'anan 7000dle mkii', page 1: 0 results. The 'MK2' spelling and plain '7000DLE' were not searched (cap). No comps. Trigger ad 1784638 (7000DLE 'MK2', $2,600 shipping and insurance included). Same model also queued: https://swap.qth.com/view_ad.php?counter=1784586 (Anan 7000DLE MKII Black Face, $2,425 plus shipping and insurance). Descriptions differ (protocol 1 original firmware vs protocol 2 firmware 2.2.2), so treated as two units, not cross-posts.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784638",
+    "site": "qth",
+    "ask": 2600,
+    "shipping": 0
+  },
+  "comps": []
+}
