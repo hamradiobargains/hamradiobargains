@@ -1,0 +1,174 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-11",
+  "ran_at": "2026-11-11T18:47:00-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered (ran_at after previous extras drop 2026-11-10-1935-extras.json, ran_at 2026-11-10T19:24:53-05:00): 2026-11-11-eham.json (05:53:00), 2026-11-11-qth.json (14:52:53), 2026-11-11-ebay.json (17:59:03). The 11/11 eBay drop names no 'Extra plausible candidates not comped' list (its unchecked Azden PCS-7000H, Kenwood TM-2550A, Radio Shack HTX-212 are named by model only, no item numbers, so not queued). Queue: 10 carry-overs from the 11/10 extras drop (9 QTH IDs + eBay item 366797571603) + fresh extras from the 11/11 QTH drop (28 listed + 8 renewed IDs, minus those already in dropped-urls or already queued) + eHam 629572 = about 49 queued; BACKLOG CARRY none. Named extra 1783910 (Yaesu 991, Leo's original-FT-991 ruling) was already triaged in 2026-11-10-1935-extras.json and is in dropped-urls, so it was not re-queued; 1784608 likewise already in dropped-urls. Worked: 15 (10 carry-overs + fresh 1784653, 1784650, 1784649, 1784648, 1784647). All 15 live when opened (QTH ads read one at a time ~4.5 s apart via same-origin fetch from one QTH tab; eBay item page opened once). Ledger hits: 0 (ledger models checked and rejected - ELECRAFT K3S count 1 / 2026-08-14, HERMES LITE 2 count 1, REMOTERIG RRC-1258 MKII count 2, AMERITRON AL-1500 count 2, ICOM IC-9100 2026-10-08 is 34 days old, KENWOOD MC-90 2026-10-09 32 days old, DRAKE 2B 2026-09-20 stale, PALSTAR HF-AUTO count 2; AX1, G2E, Henry 2002, LD-11, MTR-4B, FT3D, T-8 not in ledger). eBay sold searches used: 15 of 15 (cap reached, not exceeded): Elecraft AX1, Hermes Lite 2, Elecraft K3S, Apache ANAN G2E, RemoteRig RRC-1258, Henry 2002, LNR LD-11, LNR MTR-4B, Ameritron AL-1500, Icom IC-9100, Kenwood MC-90, Drake 2B, Yaesu FT-3D, Tennadyne T-8, Palstar HF-Auto. Solid (3+): RRC-1258 MKII (3, with outlier), MC-90 (5, median 212.60), Drake 2-B (5, median 259.99), FT-3D (11, median 275.00). Thin: AX1 (1), Hermes Lite 2 (1, kit), K3S (1, with P3), MTR-4B V2 (1), AL-1500 (2), IC-9100 (1), HF-Auto (1). Zero comps: Apache G2E, Henry 2002 (only a 2002A parts-only sale, excluded), LNR LD-11, Tennadyne T-8. Gone: none. Skipped (no price): none. Cross-posts: none. Outliers: RRC-1258 MKII 298724657388 $157.50 (low; single unit vs pair-titled 'MKIIs' sales) and Drake 2-B 287546407484 $349.99 (high; includes speaker Q-multiplier and calibrator). UNCERTAIN: IC-9100 listing 'EME Modified General Coverage' (transmit-modification wording, carried verbatim in work_flag; J's Market, 240 ratings 100% positive, passes the seller rule); 1778454 HV transformer / filter-cap board upgrades (carried in work_flag); 1784534 drilled case holes (carried in work_flag); FT3D vs FT3DR treated as the same radio; RRC-1258 'MKIIs' pair vs single box; AX1 comp lacks the AXE1 coil. found_at is approximated for carry-overs (2026-11-10 or 2026-11-09 per their prior drop; QTH submit dates 10/26 for 1783315 and 1783317, 09/04 for 1778454). Shipping 0 where free, not quoted or local-pickup/hand-delivery (1784580, 1778454, 1784648, 1784647, 1784650). No eHam page opened; eBay signed in as Leo, one search at a time 17+ s apart, no challenges. Timestamps -05:00 (EST). CARRIED OVER (first run next time, in this order): 1784646, 1784645, 1784643, 1784642, 1784641, 1784640, 1784638, 1784634, 1784632, 1784627, 1784626, 1784611, 1784600, 1784595, 1784593, 1784590, 1784589, 1784586, 1784585, 1784583, 1784609, 1784610, 1784567, 1780048, 1780962, 1783411, 1784591, 1784477, eHam 629572 (Outbacker Perth HF mobile antenna, $165, workable only from the eHam drop - eHam is not opened by the sweep). BACKLOG CARRY: none.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784561",
+      "site": "qth",
+      "title": "ANTHF - Elecraft AX1 + AXE1 15/17/20m + 40M",
+      "price": 150,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. Seller wording: \"Elecraft AX1 15m/17m/20m portable qrp antenna plus AXE1 40m add on coil. $150 shipped conus.\" Submitted 11/10/26. comps: elecraft-ax1, 1 kept, median 124.99 (thin; AX1 only, no AXE1)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784534",
+      "site": "qth",
+      "title": "RADIOHF - Sale: Hermes Lite 2 with 50 watts amp",
+      "price": 500,
+      "shipping": 0,
+      "found_at": "2026-11-09",
+      "condition_notes": "live. Seller wording: \"complete SDR station for first offer of $500\", \"original owner\", \"Neptune 50 watt Ukrainian amp, along with muffin fans and cables\", \"Also include a 3 way T/R switch for extra amps. All equipment in excellent shape.\" Shipping not stated. Last edited 11/11/26, submitted 11/09/26. comps: hermes-lite-2, 1 kept (kit), median 429.99 (thin)",
+      "work_flag": "The Hermes has holes drilled into the top of case to permit better cooling.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784531",
+      "site": "qth",
+      "title": "RADIOHF - Elecraft K3S/100 Transceiver # 10151",
+      "price": 3695,
+      "shipping": 0,
+      "found_at": "2026-11-09",
+      "condition_notes": "live. Seller wording: \"Elecraft K3S/100 High Perf 160-6m Transceiver # 10151 100 Watt - LOADED $3695 delivered - check, Zelle, PP FF ok.\" Options listed: KPA3A 100 watts, KAT3A internal tuner, 2 2.8 upgraded SSB filters, 2 2.1 ssb/data filters, 2 400 CW filters, 2 13K FM filters, 1 6K AM filter, KRX3A sub receiver, TCXO, 2 KSYN3A, KIO3B, KXV3B preamp I/O, \"Gold pins\", \"feels like a new radio\". Comes with power cord and manual. Submitted 11/09/26. comps: elecraft-k3s, 1 kept (bundled with P3), median 3595.00 (thin)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784514",
+      "site": "qth",
+      "title": "RADIOHF - Apache G2E 100 watt transciever(new)",
+      "price": 1875,
+      "shipping": 0,
+      "found_at": "2026-11-09",
+      "condition_notes": "live. Seller wording: \"Brand new sealed in the box a APACHE ANAN G2E 100 watt transceiver, Received last month. price to sell $1875 dollars shipped\", \"at lower price they go for $2295 plus shipping.\" Last edited 11/10/26, submitted 11/09/26. comps: apache-anan-g2e, 0 found (no sold results)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784515",
+      "site": "qth",
+      "title": "RADIOHF - RemoteRig RRC-1258 MKII Box",
+      "price": 309,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. Seller wording: \"RemoteRig RRC-1258 MKII for Elecraft K3 K3S , Icom IC-7100 / IC-706, etc. MICROBIT $309 delivered - check, Zelle, PP FF ok. You are looking at the box that goes at the remote site..without the CW pot.\" comps: remoterig-rrc-1258-mkii, 3 kept, median 649.99 (OUTLIER: 157.50 low; high comps may be pairs). found_at approximated to 2026-11-10 (carried over from 11/10 extras)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784580",
+      "site": "qth",
+      "title": "AMPVHF - Henry 2002 2 Meter Amplifier",
+      "price": 1700,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. Seller wording: \"Henry radio 2002 - a linear amplifier for sale in excellent working condition. Excellent cosmetically looking full output. Asking $1700 or best offer prefer to have pick up but if buyer wants to pay for shipping, that's OK\". Shipping not quoted. Submitted 11/10/26. comps: henry-radio-2002, 0 kept (no qualifying comps)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783315",
+      "site": "qth",
+      "title": "RADIOHF - For Sale: LNR LD-11",
+      "price": 500,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. Seller wording: \"LNR LD-11 500 OBO\", \"500 shipped CONUS\", \"works with cw,ssb and digital modes\". Last edited 11/10/26, submitted 10/26/26. comps: lnr-precision-ld-11, 0 found (no sold results). found_at approximated (carried over via 11/10 extras)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783317",
+      "site": "qth",
+      "title": "RADIOHF - For Sale: QRP LNR 4B V2",
+      "price": 300,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. Seller wording: \"QRP LNR 4B V2 300 OBO great cw only portable radio. 300 shipped CONUS only doing POTA\". Last edited 11/10/26, submitted 10/26/26. comps: lnr-precision-mtr-4b-v2, 1 kept, median 325.00 (thin). found_at approximated (carried over via 11/10 extras)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1778454",
+      "site": "qth",
+      "title": "AMPHF - Ameritron AL-1500 HF AMP",
+      "price": 2500,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. Seller wording: \"This amp is in almost perfect condition. Only used on SSB and never run hard.\" \"I am downsizing my shack. It also comes with a spare tube\". \"$2500, pickup only, will meet if within reasonable distance. Only respond to contacts THRU QTH.\" Last edited 11/09/26, submitted 09/04/26. comps: ameritron-al-1500, 2 kept, median 3749.97 (thin). found_at approximated (carried over via 11/10 extras)",
+      "work_flag": "I have upgraded the HV Transformer to a Peter Dahl transformer. Also upgraded the filter capacitor board to a higher voltage board. [UNCERTAIN: component upgrades, not a stated transmit modification]",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.ebay.com/itm/366797571603",
+      "site": "ebay",
+      "title": "ICOM IC-9100 HF-430MHz 100W EME Modified General Coverage Transceiver",
+      "price": 2394.23,
+      "shipping": 200,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. Condition: Used. Buy It Now; price $2,394.23, $2,294.23 with coupon code per listing page; shipping US $200; returns accepted; 32 sold. Title wording: \"EME Modified General Coverage\". comps: icom-ic-9100, 1 kept, median 1700.00 (thin; standard IC-9100 comps, none stated as modified). found_at approximated (carried over via 11/10 extras)",
+      "work_flag": "ICOM IC-9100 HF-430MHz 100W EME Modified General Coverage Transceiver [title wording, transmit-modification wording]",
+      "seller_feedback": "J's Market (240) 100% positive feedback"
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784653",
+      "site": "qth",
+      "title": "MISC - Kenwood MC-90 Dynamic Microphone",
+      "price": 189,
+      "shipping": 25,
+      "found_at": "2026-11-11",
+      "condition_notes": "live. Seller wording: \"excellent, like new, Kenwood MC-90 Dynamic Microphone. Comes from non-smoking home and is cosmetically in great condition.\" \"$189 plus shipping - $25\". Submitted 11/11/26. comps: kenwood-mc-90, 5 kept, median 212.60",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784650",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE DRAKE 2B w/crystal calibartor",
+      "price": 299,
+      "shipping": 0,
+      "found_at": "2026-11-11",
+      "condition_notes": "live. Seller wording: \"totally original, cabinet and copper clean and well above average condition receives well, 15 & 20m, 10m quiet, 40 & 80m QRN days, evenings OK. All functions work as intended, high serial # 11888. $299 plus shipping to your QTH\". Shipping amount not quoted. comps: drake-2-b, 5 kept, median 259.99 (1 OUTLIER 349.99)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784649",
+      "site": "qth",
+      "title": "RADIOVHF - Yaesu FT 3D",
+      "price": 225,
+      "shipping": 0,
+      "found_at": "2026-11-11",
+      "condition_notes": "live. Seller wording: \"Yaesu FT3D ht with factory box and all that came with it plus cd-41 drop in charger, 3d printed desk stand for HT, 2 batteries and the extra printed and bound manuals. Works and looks good. $225 Shipped\". comps: yaesu-ft-3d, 11 kept, median 275.00",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784648",
+      "site": "qth",
+      "title": "ANTHF - Tennadyne T-8 $1,500 with choke",
+      "price": 1500,
+      "shipping": 0,
+      "found_at": "2026-11-11",
+      "condition_notes": "live. Seller wording: \"New, unopened box.\" \"I will deliver on my drive from FL to Denver on December 2 3 and 4.\" Deposit via Zelle, cash on personal delivery. Shipping not quoted. comps: tennadyne-t-8, 0 found (no sold results)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784647",
+      "site": "qth",
+      "title": "ANTETUNE - PALSTAR HF Autotuner 1800 watts $1,400",
+      "price": 1400,
+      "shipping": 0,
+      "found_at": "2026-11-11",
+      "condition_notes": "live. Seller wording: \"excellent condition, very little use. No original box.\" \"I will deliver on my drive from FL to Denver on December 2 3 and 4.\" (hand delivery only). Shipping not quoted. comps: palstar-hf-auto, 1 kept, median 1350.00 (thin)",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
