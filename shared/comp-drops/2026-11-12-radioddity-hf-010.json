@@ -1,0 +1,25 @@
+{
+  "model": "Radioddity HF-010",
+  "slug": "radioddity-hf-010",
+  "searched_at": "2026-11-12T07:13:41-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'radioddity hf-010', page 1: 3 results. 1 kept (thin). Dropped: 1 best-offer-accepted sale 117367317679 $229.99 (Aug 25, Open Box). Excluded: 406936272595 HF-010A adapter $39.99 (accessory). 0 parts-only, 0 read-description. Trigger ad: $210 shipped US, 'NEW- NEVER DEPLOYED'.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784632",
+    "site": "qth",
+    "ask": 210,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 298.0,
+      "sold_date": "2026-10-25",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/198266652771",
+      "source": "ebay",
+      "notes": "free delivery; title 'Radioddity HF-010 Portable HF Antenna | 80m-6m Full Band | SWR 1-1.5'",
+      "flags": []
+    }
+  ]
+}
