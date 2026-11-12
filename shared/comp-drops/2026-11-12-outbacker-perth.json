@@ -1,0 +1,15 @@
+{
+  "model": "Outbacker Perth",
+  "slug": "outbacker-perth",
+  "searched_at": "2026-11-12T10:34:40-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Zero qualifying comps. eBay sold search 'Outbacker Perth' page 1 (120 cards) had one Outbacker item: 377601691682 sold 2026-10-30, 'Terlin Outbacker Antenna Perth Plus WL-31 Good Condition 80-10M', Brand New $174.95 + $24.95 delivery - Perth Plus is a different model than the Perth, so not counted (shown for reference only). eHam listing not opened; ask and item taken from the 2026-11-11 eHam drop note. eBay signed in as Leo, no challenge.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629572",
+    "site": "eham",
+    "ask": 165,
+    "shipping": 0
+  },
+  "comps": []
+}
