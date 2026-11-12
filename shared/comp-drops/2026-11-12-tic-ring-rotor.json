@@ -1,0 +1,15 @@
+{
+  "model": "TIC Ring Rotor",
+  "slug": "tic-ring-rotor",
+  "searched_at": "2026-11-12T07:13:41-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'tic ring rotor', page 1: 0 results (only unrelated bicycle-rotor lock rings and retaining rings shown). No comps. Trigger ad: $160, TIC Ring rotor for 55/45G tower, 'missing a motor', pickup only east-central Indiana (shipping recorded 0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784610",
+    "site": "qth",
+    "ask": 160,
+    "shipping": 0
+  },
+  "comps": []
+}
