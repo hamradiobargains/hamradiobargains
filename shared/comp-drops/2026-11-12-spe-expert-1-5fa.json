@@ -1,0 +1,15 @@
+{
+  "model": "SPE Expert 1.5FA",
+  "slug": "spe-expert-1-5fa",
+  "searched_at": "2026-11-12T07:13:41-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'SPE Expert 1.5FA', page 1: 0 results (No exact matches found). No comps. Trigger ad: $6,000, seller will hand-deliver Dec 2-4 (shipping recorded 0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784645",
+    "site": "qth",
+    "ask": 6000,
+    "shipping": 0
+  },
+  "comps": []
+}
