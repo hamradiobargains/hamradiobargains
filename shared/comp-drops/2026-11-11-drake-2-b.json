@@ -1,0 +1,63 @@
+{
+  "model": "Drake 2-B",
+  "slug": "drake-2-b",
+  "searched_at": "2026-11-11T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, sorted ended-recently, Leo signed in, no challenge. 5 kept, median 259.99. Excluded: Best-offer-accepted receiver sales 128145456780 $165.00, 267803840387 $198.00, 158196637972 $379.99; parts-only 327406615940 $189.95, 287572189814 $229.99, 278403693311 $245.67 (also BOA), 178397819385 $96.00, 307144360713 $326.54 (UK); 147636287249 $175.00 'NOT WORKING' (receiver + 2BQ, treated as non-working); accessories only (2-AC calibrator, 2-AQ/2-BQ Q-multipliers, LF-2 converter, restoration kit, accessory bundles) excluded. 1 OUTLIER flagged (349.99). Kept median: 259.99.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784650",
+    "site": "qth",
+    "ask": 299,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 259.99,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128135089920",
+      "source": "ebay",
+      "notes": "DRAKE 2-B HF receiver; Buy It Now; +$26.59 shipping",
+      "flags": []
+    },
+    {
+      "price": 299.95,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307177840369",
+      "source": "ebay",
+      "notes": "Title: Very GC, crystal calibrator; Buy It Now; +$27.90 shipping",
+      "flags": []
+    },
+    {
+      "price": 349.99,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287546407484",
+      "source": "ebay",
+      "notes": "OUTLIER: high vs other kept (>1.5x median of the rest); title includes 2-AQ speaker Q-multiplier and 2-AC calibrator; Buy It Now; +$33.86 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 149.99,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127999476488",
+      "source": "ebay",
+      "notes": "Buy It Now; +$30.12 shipping",
+      "flags": []
+    },
+    {
+      "price": 150,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137686517158",
+      "source": "ebay",
+      "notes": "Title says 'Powers On Untested'; Buy It Now; +$15.14 shipping",
+      "flags": []
+    }
+  ]
+}
