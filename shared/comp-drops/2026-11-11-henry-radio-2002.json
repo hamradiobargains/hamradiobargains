@@ -1,0 +1,15 @@
+{
+  "model": "Henry Radio 2002",
+  "slug": "henry-radio-2002",
+  "searched_at": "2026-11-11T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, sorted ended-recently, Leo signed in, no challenge. Search 'henry 2002 amplifier' returned no qualifying comps. Only related sale: 177976183584 Henry Radio 2002A VHF linear amp, $1,869.00 or Best Offer, Mar 31 2026, Parts Only, shipped from Japan - excluded (parts-only, and 2002A not confirmed as the same model as 2002). No comps.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784580",
+    "site": "qth",
+    "ask": 1700,
+    "shipping": 0
+  },
+  "comps": []
+}
