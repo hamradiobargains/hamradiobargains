@@ -1,0 +1,43 @@
+{
+  "model": "RemoteRig RRC-1258 MKII",
+  "slug": "remoterig-rrc-1258-mkii",
+  "searched_at": "2026-11-11T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, sorted ended-recently, Leo signed in, no challenge. 3 kept, median 649.99. 2 excluded as parts-only: 840056247879 $134.99 (Oct 31, 'Untested', Parts Only, 1 bid, +$8.00) and 840031699977 $174.50 (Oct 24, 'Untested', Parts Only, 7 bids, +$8.00). 0 Best-offer-accepted. OUTLIER flagged: 298724657388 $157.50. Identity note: the two high sales say 'MKIIs' and may be remote+local pairs while the trigger ad is a single remote-site box without the CW pot. Kept median: 649.99.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784515",
+    "site": "qth",
+    "ask": 309,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 157.5,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298724657388",
+      "source": "ebay",
+      "notes": "OUTLIER: low vs the other kept sales, which are priced as pairs ('MKIIs'); this is a single Microbit RemoteRig RRC-1258 MkII Remote Radio Unit, auction, 5 bids; +$6.98 shipping",
+      "flags": []
+    },
+    {
+      "price": 649.99,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188808713752",
+      "source": "ebay",
+      "notes": "Title 'RRC-1258 MKIIs V7 ... Transceivers RRC-1258 MKIIs' (plural, possibly a pair); fixed price or Best Offer (not marked accepted); +$20.00 shipping; free returns",
+      "flags": []
+    },
+    {
+      "price": 799.99,
+      "sold_date": "2026-10-13",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/880011919522",
+      "source": "ebay",
+      "notes": "Title 'RRC-1258 MKIIs for Elecraft, Icom IC-7100 / IC-706' (plural, possibly a pair); fixed price or Best Offer (not marked accepted); free delivery; 'Last one'",
+      "flags": []
+    }
+  ]
+}
