@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-12",
+  "ran_at": "2026-11-12T17:53:05-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670) browse page, Buy It Now filter, sorted Time: newly listed, page 1 (~60 cards); signed in as Leo, no challenges. Window since previous ebay run 2026-11-11T17:59:03-05:00 (browse cards show no listing times; newest-first order used; none of the previous run's items appeared on page 1). Item descriptions not read (one seller-notes check on the KWM-2); condition_notes use title, eBay condition label, seller notes and returns policy. Seller rule: all 8 picks passed (lowest: FT-857D seller 100% / 12 ratings). Auction-format cards skipped (telegraph keys, MFJ-949D, Icom IC-R70). Not picked: parts-only units (Icom IC-761 broken, Collins 32V-3 untested, Heathkit HW-5400 tech special, Kenwood TS-520, Hallicrafters SX-101A), receivers (AOR AR7030, Hallicrafters S-108, Realistic DX-120), test equipment, keys, parts/accessories/general electronics; cap reached with Alinco DJ-V5, Yaesu FT-5DR, Xiegu G90 bundle, MFJ-949E, LDG Z-11-Pro-II, LDG AT-7000, Mirage B-34-G, Standard CPB710, Icom AG-35, Kantronics MT-1200 unchecked. Ledger: 2 hits (Yaesu FT-857D, Yaesu VX-8R); 6 misses -> 6 eBay sold searches.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/840122427152",
+      "site": "ebay",
+      "title": "ICOM IC-9100 HF-6 METER, 2 METER, 440MHZ ALL MODE+ D-STAR + FL-431 FILTER + BOX",
+      "price": 1447.0,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "eBay condition: Used. Title notes D-STAR and FL-431 filter installed, includes box. 14-day returns, buyer pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (1673 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/287724951205",
+      "site": "ebay",
+      "title": "YAESU FT-920 HF RADIO 100W Transceiver with Manual",
+      "price": 579.0,
+      "shipping": 23.83,
+      "found_at": "2026-11-12",
+      "condition_notes": "eBay condition: Used. Includes manual. 30-day returns, buyer pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (998 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/900086322658",
+      "site": "ebay",
+      "title": "Kenwood TS-450sat transceiver",
+      "price": 475.0,
+      "shipping": 75.33,
+      "found_at": "2026-11-12",
+      "condition_notes": "eBay condition: Used. Fixed price or Best Offer. Seller does not accept returns. No condition detail in title.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (1495 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/327453103049",
+      "site": "ebay",
+      "title": "Kenwood TS-820S SSB Ham Radio Transceiver tested good",
+      "price": 289.99,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "eBay condition: Used. Title says tested good. Fixed price or Best Offer. 30-day returns, seller pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "99.2% (81569 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/940087016970",
+      "site": "ebay",
+      "title": "Vintage Collins KWM-2 Transceiver; Excellent Cosmetically with Plug-in Relays",
+      "price": 699.0,
+      "shipping": 39.15,
+      "found_at": "2026-11-12",
+      "condition_notes": "eBay condition: Used. Seller notes: 'Collins KWM-2 with plug-in relays and works.' Fixed price or Best Offer. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (606 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/860138267390",
+      "site": "ebay",
+      "title": "Yaesu FT-857D 100w HF VHF UHF Mobile Transceiver w/ Armoloq TPA-857B Frame",
+      "price": 1200.0,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "eBay condition: Used. Includes Armoloq TPA-857B frame. Fixed price or Best Offer. 30-day returns, buyer pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (12 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/137925744802",
+      "site": "ebay",
+      "title": "Yaesu VX-8R Quad Band Submersible Transceiver Used With Accessories",
+      "price": 375.95,
+      "shipping": 9.99,
+      "found_at": "2026-11-12",
+      "condition_notes": "eBay condition: Used. Includes accessories (not itemized in title). Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "99.5% (3938 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/960188239915",
+      "site": "ebay",
+      "title": "Yaesu FT3DR Ham Radio C4FM Dual-Band Digital Transceiver, Extra Battery, Charger",
+      "price": 310.0,
+      "shipping": 12.0,
+      "found_at": "2026-11-12",
+      "condition_notes": "eBay condition: Used. Includes extra battery and charger. Fixed price or Best Offer. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (56 ratings)"
+    }
+  ]
+}
