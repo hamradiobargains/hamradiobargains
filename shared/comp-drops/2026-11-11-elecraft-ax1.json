@@ -1,0 +1,25 @@
+{
+  "model": "Elecraft AX1",
+  "slug": "elecraft-ax1",
+  "searched_at": "2026-11-11T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, sorted ended-recently, Leo signed in, no challenge. THIN: 1 comp (search returned 1 result). Comp is the AX1 antenna alone; the trigger ad is AX1 + AXE1 40m coil add-on, so the comp does not include the coil. Source: 2026-11-11 extras sweep. Kept median: 124.99.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784561",
+    "site": "qth",
+    "ask": 150,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 124.99,
+      "sold_date": "2026-08-31",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/377446981575",
+      "source": "ebay",
+      "notes": "AX1 whip only, no AXE1 40m coil; +$7.24 shipping; Buy It Now",
+      "flags": []
+    }
+  ]
+}
