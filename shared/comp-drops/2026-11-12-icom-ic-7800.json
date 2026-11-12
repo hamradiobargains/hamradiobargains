@@ -1,0 +1,25 @@
+{
+  "model": "Icom IC-7800",
+  "slug": "icom-ic-7800",
+  "searched_at": "2026-11-12T07:13:41-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-7800', page 1 (59 results incl. accessories): 1 transceiver comp kept (thin). Dropped: 1 best-offer-accepted sale 206483188943 $4,199.00 (Aug 15, MINT, free shipping). Excluded: HM-36 microphones, service manual 358694529634, knob 306559726389, LCD backlight boards 406420594300/176720219616, other models (IC-7300MK2, IC-781 parts-only 960137828803). 0 parts-only IC-7800, 0 read-description. Trigger ad: $4,500 OBO, pickup only NW Georgia (shipping recorded 0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784589",
+    "site": "qth",
+    "ask": 4500,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 5600.0,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128065324448",
+      "source": "ebay",
+      "notes": "shipping +$310.00; title 'Icom IC-7800 Ham Radio Transceiver Working'",
+      "flags": []
+    }
+  ]
+}
