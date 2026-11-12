@@ -1,0 +1,25 @@
+{
+  "model": "Hermes Lite 2",
+  "slug": "hermes-lite-2",
+  "searched_at": "2026-11-11T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, sorted ended-recently, Leo signed in, no challenge. THIN: 1 radio comp. Other results on page were books ($39.77, $51.12) and amplifier keying cables ($94.95, $119.95, $29.95), excluded as accessories. Trigger ad is a built HL2 plus 50W amp with a drilled case. Kept median: 429.99.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784534",
+    "site": "qth",
+    "ask": 500,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 429.99,
+      "sold_date": "2026-09-21",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/206557088881",
+      "source": "ebay",
+      "notes": "Hermes Lite 2 SDR transceiver KIT with N2ADR board and enclosure; auction, 2 bids; free delivery; kit, not a built/tested unit",
+      "flags": []
+    }
+  ]
+}
