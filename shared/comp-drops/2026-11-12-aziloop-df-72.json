@@ -1,0 +1,15 @@
+{
+  "model": "Aziloop DF-72",
+  "slug": "aziloop-df-72",
+  "searched_at": "2026-11-12T10:34:40-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Zero qualifying comps. eBay sold search 'Aziloop DF-72' page 1 (120 cards) returned only unrelated items (trading cards, golf putters, slides, model kits); no Aziloop sold listings. Listing's own reference: new on DX Engineering $779 + tax (seller's words, unverified). eBay signed in as Leo, no challenge.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784591",
+    "site": "qth",
+    "ask": 650,
+    "shipping": 0
+  },
+  "comps": []
+}
