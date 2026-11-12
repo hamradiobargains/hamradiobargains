@@ -1,0 +1,39 @@
+{
+ "model": "AEA PK-232",
+ "slug": "aea-pk-232",
+ "searched_at": "2026-11-12T15:57:48Z",
+ "searched_by": "claude",
+ "source": "ebay",
+ "notes": "Missed-search check from shared/listing-drops/2026-11-11-missed-search.json; visitor typed 'pk232' (AEA PK-232 multi-mode data controller / TNC). eBay sold/completed searches (signed in as Leo) for 'AEA PK-232', 'PK-232MBX', 'pk232 tnc', 'Pakratt 232', 'Timewave PK-232'. Identity call: the PK-232MBX (mailbox-firmware version, incl. Timewave-era units) is kept as its own model and NOT merged into the plain PK-232; ~10 genuine PK-232MBX sales ($25-$79.64, Sep-Oct 2026) were found but are not deposited here. Also excluded: 298612174870 PK-232 $9.99 (parts only); best-offer-accepted sales 407268287689 ($25.29 MBX), 287575853915 ($15 MBX, parts), 198552617973 ($49.95 MBX); AEA DSP-232 (different model, 188836877691); PC-PakRatt software, manuals, USB/serial cables; Kantronics TNCs; the many Epson '232XL 4PK' ink cartridge hits. Kept 3 sales titled plain PK-232 (no MBX); two are untested. Median $29.99. Low confidence (3 comps).",
+ "comps": [
+  {
+   "price": 40,
+   "sold_date": "2026-10-04",
+   "condition": "Pre-owned, untested",
+   "url": "https://www.ebay.com/itm/137431525519",
+   "source": "ebay",
+   "notes": "Fixed price (or Best Offer listing, sold at list); +$10.00 shipping",
+   "flags": []
+  },
+  {
+   "price": 20,
+   "sold_date": "2026-09-29",
+   "condition": "Pre-owned, untested",
+   "url": "https://www.ebay.com/itm/158240099141",
+   "source": "ebay",
+   "notes": "Buy It Now; +$11.10 shipping",
+   "flags": []
+  },
+  {
+   "price": 29.99,
+   "sold_date": "2026-09-28",
+   "condition": "Pre-owned, black case, with cables",
+   "url": "https://www.ebay.com/itm/227535854744",
+   "source": "ebay",
+   "notes": "Buy It Now; includes cables; +$16.99 shipping",
+   "flags": [
+    "extras_included"
+   ]
+  }
+ ]
+}
