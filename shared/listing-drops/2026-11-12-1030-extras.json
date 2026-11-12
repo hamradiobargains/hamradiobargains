@@ -1,0 +1,53 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-12",
+  "ran_at": "2026-11-12T10:34:40-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered: none newer than the previous extras drop 2026-11-12-extras.json (ran_at 2026-11-12T07:14:24-05:00); the 11/12 eHam drop (05:52:53) precedes it, and today's QTH (2:52 PM) and eBay (5:52 PM) runs have not happened yet, so there are NO fresh extras this run. Queued 4 = the CARRIED OVER list of 2026-11-12-extras.json (1780048, 1783411, 1784591, eHam 629572); BACKLOG CARRY none. Named extra QTH 1783910 (Yaesu 991, Leo's original-FT-991 ruling) was already triaged in 2026-11-10-1935-extras.json (live, FT-991 comps filed under 'Yaesu FT-991', 3 kept, median 720) and is in dropped-urls.json, so it was not re-queued and no new FT-991 search was run. Worked 4 of 4. Liveness: 1780048, 1783411, 1784591 live (QTH, opened one at a time ~5 s apart); eHam 629572 not checked - eHam off-limits to the sweep. Ledger hits: 0 (none of the four models are in comps.json). eBay sold searches used: 4 of 15 (Gemini 2-500, Yaesu ATAS-120A, Aziloop DF-72, Outbacker Perth), one at a time 15+ s apart, signed in as Leo, no challenge. Solid (3+): ATAS-120A (21 kept, median 323.69). Zero comps: Gemini 2-500, Aziloop DF-72, Outbacker Perth (one Perth Plus WL-31 sale not counted as a different model). Gone: none. Skipped: none. Cross-posts: none. Outliers: none. UNCERTAIN: none. ATAS-120A set mixes new, import and used units; 4 'ATAS-120' (no A) sales left out as possibly a different model. No eHam page opened. Timestamps -05:00 (EST). CARRIED OVER: no carry-over. BACKLOG CARRY: none.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1780048",
+      "site": "qth",
+      "title": "AMPVHF - Gemini 2m 500W Amp - Exc. Cond.",
+      "price": 1850,
+      "shipping": 0,
+      "found_at": "2026-11-11",
+      "condition_notes": "live. \"Up for sale is a clean, fully functional Linear Amp UK Gemini 2-500 2-meter solid-state linear amplifier.\" \"It is in excellent physical and operational condition.\" \"Asking: $1850\" Spec lines include 500W CW/SSB/Digital, 25W drive, internal 50V linear power supply running directly off standard AC mains - \"currently set up for 220V\". Shipping not quoted (W3TI, last edited 11/11/26, submitted 09/20/26). | comps: gemini-2-500, 0 kept (no Gemini 2-500 sales found)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783411",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu ATAS-120A Antenna",
+      "price": 300,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. \"Like New Yaesu ATAS-120A Antenna in excellent condition. I purchased it new this summer at HRO in Salem, NH and tried it in my driveway but my plans changed. It is in the original box with all original contents. I am asking $300 net shipped and Zelle is preferred but we can discuss payment by PayPal.\" (KA1API, last edited 11/10/26, submitted 10/27/26) | comps: yaesu-atas-120a, 21 kept, median 323.69",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784591",
+      "site": "qth",
+      "title": "ANTHF - Aziloop Antenna Processor",
+      "price": 650,
+      "shipping": 0,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. \"This is a few months old well working Aziloop DF-72 multi-directional receive antenna system for low bands including 80m, 160m, AM and VLB frequencies with 360 degree diagram rotation.\" \"New on DX Engineering - $779 + Tax\" \"Asking $650\" Shipping not quoted (WK1O, submitted 11/10/26). | comps: aziloop-df-72, 0 kept (no Aziloop sales found)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629572",
+      "site": "eham",
+      "title": "Outbacker Perth HF mobile antenna",
+      "price": 165,
+      "shipping": 0,
+      "found_at": "2026-11-11",
+      "condition_notes": "not checked — eHam off-limits to the sweep. Condition wording not recorded in the 2026-11-11 eHam drop (note read: Outbacker Perth HF mobile antenna $165, ledger miss, not comped at cap). Shipping not recorded. | comps: outbacker-perth, 0 kept (no Outbacker Perth sales; one Perth Plus sale not counted)",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
