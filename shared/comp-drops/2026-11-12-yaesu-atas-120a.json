@@ -1,0 +1,205 @@
+{
+  "model": "Yaesu ATAS-120A",
+  "slug": "yaesu-atas-120a",
+  "searched_at": "2026-11-12T10:34:40-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Page 1 of eBay sold search 'Yaesu ATAS-120A' (120 per page, newest-first); ~42 ATAS-matching cards, 21 kept. Condition is recorded per comp: 16 Brand New/New (several shipped from Japan with import fees included), 5 used/pre-owned/open-box (271.0, 296.0, 259.99, 200.0, 250.0; used-side median 259.99), mixed in one median of 323.69 (low 200.0, high 429.0). Dropped: 3 'Best offer accepted' (257718962688 $225 with ATBK-100; 298668014507 $245 titled ATAS-120; 168814430234 $199.99 titled ATAS-120, parts only); 2 parts-only (168814430234 $199.99 [also best-offer-accepted], 117498804221 $99.00 titled ATAS-120, Parts Only); 0 'Read Description'. Model identity: three/four sales titled 'ATAS-120' (no A) kept out as possibly a different model: 880065408145 Open Box $319.99 + $38.77, 298668014507, 168814430234, 117498804221. Not the unit: ATBK-100 radial/base kits, ATAS-100 units/whips/controllers, AX-17 Pro controllers, MX62 duplexers, FT-891 + ATAS-120A transceiver bundle 327403636210 ($1,124) were excluded. No outliers. Ask side: 1783411 like-new in original box, $300 net shipped (used/open-box comps above are the closer match). eBay signed in as Leo, no challenge.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783411",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 323.69,
+      "sold_date": "2026-11-10",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/125958400448",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); shipping $39.60; ships from Japan, import fees included",
+      "flags": []
+    },
+    {
+      "price": 399.95,
+      "sold_date": "2026-11-10",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/111802127119",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping free; free delivery; Authorized Dealer",
+      "flags": []
+    },
+    {
+      "price": 329.11,
+      "sold_date": "2026-11-09",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/206684992201",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping free; free delivery; located Japan, import fees included",
+      "flags": []
+    },
+    {
+      "price": 339.0,
+      "sold_date": "2026-11-09",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/267216851721",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping free; free delivery; located Japan, import fees included",
+      "flags": []
+    },
+    {
+      "price": 271.0,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198754823622",
+      "source": "ebay",
+      "notes": "auction, 15 bids; shipping free; free delivery; seller qualityrf",
+      "flags": []
+    },
+    {
+      "price": 284.88,
+      "sold_date": "2026-11-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/234967898635",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping $45.00; located Japan, import fees included",
+      "flags": []
+    },
+    {
+      "price": 279.03,
+      "sold_date": "2026-11-04",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/305561445084",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping $86.00",
+      "flags": []
+    },
+    {
+      "price": 296.0,
+      "sold_date": "2026-11-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198739636893",
+      "source": "ebay",
+      "notes": "auction; shipping free; free delivery",
+      "flags": []
+    },
+    {
+      "price": 284.99,
+      "sold_date": "2026-10-18",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/188093054167",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping $60.00",
+      "flags": []
+    },
+    {
+      "price": 329.0,
+      "sold_date": "2026-10-11",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/800262421824",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping $45.00",
+      "flags": []
+    },
+    {
+      "price": 334.99,
+      "sold_date": "2026-10-07",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/226826959748",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping free; free delivery",
+      "flags": []
+    },
+    {
+      "price": 299.41,
+      "sold_date": "2026-10-01",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/144697378804",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping $125.00",
+      "flags": []
+    },
+    {
+      "price": 424.79,
+      "sold_date": "2026-09-26",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/158017004440",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping $119.46",
+      "flags": []
+    },
+    {
+      "price": 333.0,
+      "sold_date": "2026-09-14",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/395275283382",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping free; free delivery",
+      "flags": []
+    },
+    {
+      "price": 429.0,
+      "sold_date": "2026-09-13",
+      "condition": "New",
+      "url": "https://www.ebay.com/itm/315422098186",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping free; free delivery",
+      "flags": []
+    },
+    {
+      "price": 413.75,
+      "sold_date": "2026-09-07",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/335862525924",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); shipping $31.05",
+      "flags": []
+    },
+    {
+      "price": 259.99,
+      "sold_date": "2026-09-06",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/117386905112",
+      "source": "ebay",
+      "notes": "auction; shipping $22.70; title: Used works well",
+      "flags": []
+    },
+    {
+      "price": 299.95,
+      "sold_date": "2026-09-01",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/257713454895",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); shipping $20.00",
+      "flags": []
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188854955792",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); shipping $30.00; title: in great condition, works as intended",
+      "flags": []
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-08-23",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/198590675038",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); shipping $10.15; title reads 'ATAS - 120A ... Made in Japan'",
+      "flags": []
+    },
+    {
+      "price": 348.32,
+      "sold_date": "2026-08-21",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/375488447718",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping $50.00",
+      "flags": []
+    }
+  ]
+}
