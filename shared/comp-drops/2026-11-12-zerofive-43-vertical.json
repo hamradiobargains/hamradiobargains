@@ -1,0 +1,15 @@
+{
+  "model": "ZeroFive 43 ft Telescoping Vertical",
+  "slug": "zerofive-43-vertical",
+  "searched_at": "2026-11-12T07:13:41-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'zerofive 43 vertical', page 1: 0 results. No comps. Trigger ad: $429, pickup or plus actual shipping cost (shipping not quoted, recorded 0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784593",
+    "site": "qth",
+    "ask": 429,
+    "shipping": 0
+  },
+  "comps": []
+}
