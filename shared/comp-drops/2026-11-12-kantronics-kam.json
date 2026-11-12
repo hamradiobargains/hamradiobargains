@@ -1,0 +1,55 @@
+{
+ "model": "Kantronics KAM",
+ "slug": "kantronics-kam",
+ "searched_at": "2026-11-12T15:57:48Z",
+ "searched_by": "claude",
+ "source": "ebay",
+ "notes": "Missed-search check from shared/listing-drops/2026-11-11-missed-search.json; visitor typed 'kam' (and, 3 seconds later, 'kantronics'), read as the Kantronics KAM (All Mode) HF/VHF data controller. eBay sold/completed searches (signed in as Leo) for 'Kantronics KAM', 'Kantronics All Mode', 'Kantronics KAM Plus', 'Kantronics KAM XL'. Identity calls: KAM Plus, KAM XL and KAM'98 are kept as separate models and NOT merged (e.g. KAM Plus 398247198768 $80, 206434729140 $70, 128095070908 $35, 147577602784 $20.55, 900078329500/900057444695 $35.08; KAM XL 336795546524 $129.95, 278238755730 $149.99, 336751876525 $99.99; KAM'98 257712436585 $118.15). Excluded: 188836884827 $42 pair of two KAM units (multi-unit lot); 178413723030 $10.50 (parts only); best-offer-accepted sales 257820588433, 267837729712, 188712562185, 147439301868, 298690133757; KPC-series TNCs, memory upgrades, USB TNC cables, and a mixed KAM Plus station lot (128062698071). Kept 5 sales of the original KAM. Median $65.00.",
+ "comps": [
+  {
+   "price": 65,
+   "sold_date": "2026-10-26",
+   "condition": "Pre-owned, version 5.0",
+   "url": "https://www.ebay.com/itm/860056497884",
+   "source": "ebay",
+   "notes": "Fixed price (or Best Offer listing, sold at list); +$10.96 shipping",
+   "flags": []
+  },
+  {
+   "price": 61.28,
+   "sold_date": "2026-10-17",
+   "condition": "Pre-owned, untested",
+   "url": "https://www.ebay.com/itm/127905406394",
+   "source": "ebay",
+   "notes": "Buy It Now; free shipping",
+   "flags": []
+  },
+  {
+   "price": 90,
+   "sold_date": "2026-10-17",
+   "condition": "Pre-owned",
+   "url": "https://www.ebay.com/itm/237089100442",
+   "source": "ebay",
+   "notes": "Fixed price (or Best Offer listing, sold at list); +$20.00 shipping",
+   "flags": []
+  },
+  {
+   "price": 88.45,
+   "sold_date": "2026-10-03",
+   "condition": "Pre-owned, vintage, DB-25/DIN",
+   "url": "https://www.ebay.com/itm/267782527090",
+   "source": "ebay",
+   "notes": "Buy It Now; UK seller, +$38.25 shipping estimate plus import fees",
+   "flags": []
+  },
+  {
+   "price": 54.95,
+   "sold_date": "2026-09-27",
+   "condition": "Pre-owned, firmware version 2.85",
+   "url": "https://www.ebay.com/itm/257653602694",
+   "source": "ebay",
+   "notes": "Fixed price (or Best Offer listing, sold at list); +$9.80 shipping",
+   "flags": []
+  }
+ ]
+}
