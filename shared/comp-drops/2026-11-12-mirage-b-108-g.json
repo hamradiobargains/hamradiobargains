@@ -1,0 +1,15 @@
+{
+  "model": "Mirage B-108-G",
+  "slug": "mirage-b-108-g",
+  "searched_at": "2026-11-12T07:13:41-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'mirage b-108-g', page 1: 0 results. No comps. Trigger ad: $69 plus shipping (shipping not quoted, recorded 0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784641",
+    "site": "qth",
+    "ask": 69,
+    "shipping": 0
+  },
+  "comps": []
+}
