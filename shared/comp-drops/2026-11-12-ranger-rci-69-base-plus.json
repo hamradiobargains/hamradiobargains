@@ -1,0 +1,25 @@
+{
+  "model": "Ranger RCI-69 Base Plus",
+  "slug": "ranger-rci-69-base-plus",
+  "searched_at": "2026-11-12T05:57:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 1 kept comp; strict model identity (trigger ad: 'RCI-69 100 WATT BASE PLUS', no V2). Left out as different/uncertain model: 4 RCI-69 Base Plus V2 sales (156081978485 $769.99 new; 137922351014 and 137921907226 $400 open box, same seller same day; 226982871454 $725 new), RCI-69VHP ($390), 3 RCI-69FFB4 mobile ($385 parts, $452, $500), 2 plain 'RCI-69 Base' not stated as Base Plus (117497300649 $397.09 open box; 298717700778 $395 tested working), and a meter LED kit (accessory). Dropped 1 best-offer-accepted (RCI-69FFB4 $799.99, wrong model anyway). Dropped 2 parts-only (198753588911 RCI-69 Base $345; 237086586857 RCI 69 Base $275; neither stated as Base Plus).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629583",
+    "site": "eham",
+    "ask": 425.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 550.0,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117383419575",
+      "source": "ebay",
+      "notes": "Title 'Ranger RCI 69 Base plus ++'; Buy It Now; +$36.36 delivery.",
+      "flags": []
+    }
+  ]
+}
