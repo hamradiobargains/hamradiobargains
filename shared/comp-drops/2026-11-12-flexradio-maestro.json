@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio Maestro",
+  "slug": "flexradio-maestro",
+  "searched_at": "2026-11-12T07:13:41-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'flexradio maestro', page 1: 0 comps kept. Dropped: 206508956367 'UNTESTED NO CABLES/BATTERY' $599.99 (Aug 22; parts-only and best-offer-accepted, +$22.36 shipping); 398144436249 'READ DESC' $1,099.99 (Aug 19; best-offer-accepted and read-description). Counts: best-offer-accepted 2, parts-only 1, read-description 1. Remaining results were iDatalink/Maestro car-radio kits, not comps. Titles do not distinguish original Maestro from Maestro C. Trigger ad: Maestro C with extras, $1,400 plus shipping and insurance (shipping recorded 0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784585",
+    "site": "qth",
+    "ask": 1400,
+    "shipping": 0
+  },
+  "comps": []
+}
