@@ -1,0 +1,22 @@
+{
+  "model": "Kenwood TS-480SAT",
+  "slug": "kenwood-ts-480sat",
+  "searched_at": "2026-11-12T07:13:41-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 725.0, count 5, ledger date 2026-10-20 — ledger hit — individual sales behind the median are not auditable from this file. Ad: $650 without Microham Digikeyer II, $750 including Digikeyer and cables; shipped 48 states.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1780962",
+    "site": "qth",
+    "ask": 650,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 725.0,
+    "low": 650.0,
+    "high": 1000.0,
+    "count": 5,
+    "date": "2026-10-20"
+  }
+}
