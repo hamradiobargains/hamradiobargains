@@ -1,0 +1,115 @@
+{
+  "model": "Yaesu FT-3D",
+  "slug": "yaesu-ft-3d",
+  "searched_at": "2026-11-11T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, sorted ended-recently, Leo signed in, no challenge. 11 kept, median 275.00. 3 Best-offer-accepted excluded: 306866969442 $300.00 (Nov 8), 358553510212 $299.99 (Nov 3), 860004538603 $249.98 (Oct 6). UNCERTAIN identity: titles use FT3D and FT3DR interchangeably; treated as the same radio (not verified). Kept median: 275.0.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784649",
+    "site": "qth",
+    "ask": 225,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 255,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206669113764",
+      "source": "ebay",
+      "notes": "FT3DR; auction 11 bids; +$20.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 325,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287437999419",
+      "source": "ebay",
+      "notes": "Title FT3DR FT3D, 'Box Japan Tested'; Buy It Now; +$12.25 shipping",
+      "flags": []
+    },
+    {
+      "price": 200,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298677233034",
+      "source": "ebay",
+      "notes": "FT3DR with GPS/APRS; fixed price or Best Offer (not marked accepted); +$9.21 shipping",
+      "flags": []
+    },
+    {
+      "price": 329,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206383108947",
+      "source": "ebay",
+      "notes": "FT3D with antenna, charger, manual; Buy It Now; +$14.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 285,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257711317072",
+      "source": "ebay",
+      "notes": "FT3D; fixed price or Best Offer (not marked accepted); +$21.70 shipping",
+      "flags": []
+    },
+    {
+      "price": 225,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336792380631",
+      "source": "ebay",
+      "notes": "FT3DR; Buy It Now; +$10.15 shipping",
+      "flags": []
+    },
+    {
+      "price": 295,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257704534733",
+      "source": "ebay",
+      "notes": "Title FT3DR FT3D; fixed price or Best Offer (not marked accepted); +$19.70 shipping",
+      "flags": []
+    },
+    {
+      "price": 172.64,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267759505851",
+      "source": "ebay",
+      "notes": "FT3D; auction 7 bids; +$20.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 199.99,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377427411491",
+      "source": "ebay",
+      "notes": "FT3D; Buy It Now; +$19.99 shipping",
+      "flags": []
+    },
+    {
+      "price": 275,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168615573640",
+      "source": "ebay",
+      "notes": "FT3D; auction 1 bid; +$8.54 shipping",
+      "flags": []
+    },
+    {
+      "price": 325,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800074912984",
+      "source": "ebay",
+      "notes": "FT3D; fixed price or Best Offer (not marked accepted); +$12.50 shipping",
+      "flags": []
+    }
+  ]
+}
