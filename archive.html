@@ -482,9 +482,26 @@ document.getElementById('disambig').style.display = 'block';
 
 function logMissedSearch(term) {
       try {
+        // Beacon trim (2026-11-12, Leo's call): one Formspree submission per
+        // search term per visitor per day. The free plan caps the account at
+        // 50 submissions/month, shared with comp-check requests and postcard
+        // requests; repeat searches of the same term carry no new signal.
+        // The comp-check request path is separate and is never trimmed.
+        const norm = String(term || '').toLowerCase().replace(/\s+/g, ' ').trim();
+        if (!norm) return;
+        const today = new Date().toDateString();
+        const key = 'hrb-miss-' + norm;
+        let alreadyLogged = false;
+        try {
+          alreadyLogged = !!(window.localStorage && localStorage.getItem(key) === today);
+        } catch (e) {}
+        if (alreadyLogged) return;
         const url = 'https://formspree.io/f/xvkgylvb';
         const body = new URLSearchParams({ type: 'missed_search', term: term, site: 'hamradiobargains' });
         fetch(url, { method: 'POST', mode: 'no-cors', body: body });
+        try {
+          if (window.localStorage) localStorage.setItem(key, today);
+        } catch (e) {}
       } catch (e) {}
     }
 
