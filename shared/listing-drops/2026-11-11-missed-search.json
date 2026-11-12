@@ -43,17 +43,29 @@
     {
       "term": "kantronics",
       "searched_at": "2026-11-11T11:41:16-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Kantronics KAM",
+      "status": "worked",
+      "worked_at": "2026-11-12",
+      "result": "2026-11-12-kantronics-kam.json, 5 comps (maker-only term typed right after 'kam'; priced as Kantronics KAM)"
     },
     {
       "term": "kam",
       "searched_at": "2026-11-11T11:41:13-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Kantronics KAM",
+      "status": "worked",
+      "worked_at": "2026-11-12",
+      "result": "2026-11-12-kantronics-kam.json, 5 comps (KAM Plus/XL/'98 kept separate)"
     },
     {
       "term": "pk232",
       "searched_at": "2026-11-11T11:41:10-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "AEA PK-232",
+      "status": "worked",
+      "worked_at": "2026-11-12",
+      "result": "2026-11-12-aea-pk-232.json, 3 comps (low confidence; PK-232MBX sales kept separate, not merged)"
     },
     {
       "term": "tr-2600",
