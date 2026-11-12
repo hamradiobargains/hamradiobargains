@@ -1,0 +1,15 @@
+{
+  "model": "Hallicrafters HT-37",
+  "slug": "hallicrafters-ht-37",
+  "searched_at": "2026-11-12T07:13:41-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'hallicrafters ht-37', page 1: 0 qualifying unit comps. Excluded: 188458385887 HT-37 transmitter 'For Parts Or Repair' $95.00 (+$89.39 delivery), Sep 10 (parts-only, 1); accessories 166343748980 replacement lamps $23.50 and 227068852160 partial recap kit $39.99. Other results were different models (HT-40/44/46/32) and are not comps. Trigger ad 1784640: HT-37 transmitter priced $125 BO (ad also lists S-76 receiver $55 BO); trigger ask recorded here is $125.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784640",
+    "site": "qth",
+    "ask": 125,
+    "shipping": 0
+  },
+  "comps": []
+}
