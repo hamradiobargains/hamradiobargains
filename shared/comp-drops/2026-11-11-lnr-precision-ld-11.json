@@ -1,0 +1,15 @@
+{
+  "model": "LNR Precision LD-11",
+  "slug": "lnr-precision-ld-11",
+  "searched_at": "2026-11-11T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, sorted ended-recently, Leo signed in, no challenge. Search 'lnr ld-11' returned 0 sold results. No comps.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783315",
+    "site": "qth",
+    "ask": 500,
+    "shipping": 0
+  },
+  "comps": []
+}
