@@ -1,0 +1,64 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-12",
+  "ran_at": "2026-11-12T05:52:53-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-11T05:53:00-05:00 (prior eham run). Browsed signed OUT ('Login/Register' / 'Welcome Guest' shown). Cloudflare 'Performing security verification' interstitial showed on the first classifieds load and on one ad page; both cleared on their own within ~10 s (no interaction, no CAPTCHA). Read public classifieds pages 1 and 2 (page 2 via its pagination link); new ads 629582-629586, plus 629579 (dated 2026-11-10, not public at last run, now on page 1). Opened one public ad page (629584) only to look for a price. No search form, sold searches, or seller/callsign pages; no ad IDs probed. Ad number 629564 still not on the public pages (not opened). Not dropped (no price shown on list page or ad page): 629584 Elecraft K2/100 w/ SSB (seller: receives fine, transmit not tested by him). Comps: 1 ledger hit (ELECRAFT K3/100), 4 ledger misses -> 4 eBay sold searches (ACOM 1000, ACOM 1200S, ACOM 2000A, Ranger RCI-69 Base Plus); signed in to eBay as Leo, no challenge. All four eBay sets thin (1-2 kept comps).",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629586",
+      "site": "eham",
+      "title": "Elecraft K3/100 TRANSCEIVER # 1746",
+      "price": 1099.0,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "Seller: very nice radio, works as it should, good condition, used today on CW and SSB; latest firmware 5.67. 100 W, KPA3, 2.7 SSB filter, KIO3, KXV3A, gold pins front panel, power cord. $1099 delivered. Local pickup also OK (92590).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629585",
+      "site": "eham",
+      "title": "ACOM 1000",
+      "price": 1500.0,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "Seller: built January 2021 (before cheaper Chinese tube); wired for 115 V; easily puts out 1000 W. $1500 firm. LOCAL PICKUP ONLY, Connecticut - no shipping offered.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629583",
+      "site": "eham",
+      "title": "RCI-69 100 WATT BASE PLUS MODEL 10-12 METERS",
+      "price": 425.0,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "Seller: has both original cartons, puts out 100 watts, nice radio. $425 plus shipping (shipping cost not stated). Ranger RCI-69 Base Plus 10-12 m; ad does not say V2.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629582",
+      "site": "eham",
+      "title": "Acom 1200S HF/6m amplifier - like new",
+      "price": 3000.0,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "Seller: one owner, under 3 years old, smoke-free; cosmetically and operationally perfect, current firmware. Includes Yaesu CAT cable, power cord, original double box. $3,000 + actual insured UPS shipping (amount not stated), CONUS only; local pickup Minneapolis MN area.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629579",
+      "site": "eham",
+      "title": "ACOM 2000A Amp",
+      "price": 3500.0,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "Seller: in storage for 20+ years, just got it out of storage; excellent condition; original RCU; believes usage hours low. $3500, buyer pays shipping (amount not stated, heavy). Oklahoma; will meet within 2-3 hrs of OKC. Ad body says 'Acom 200A' (title says 2000A). Ad dated 2026-11-10 but first appeared on public pages this run.",
+      "work_flag": "in storage for 20 plus years / just got it out of storage (no statement it was tested)",
+      "seller_feedback": ""
+    }
+  ]
+}
