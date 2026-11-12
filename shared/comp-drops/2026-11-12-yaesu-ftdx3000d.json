@@ -1,0 +1,88 @@
+{
+  "model": "Yaesu FTDX3000D",
+  "slug": "yaesu-ftdx3000d",
+  "searched_at": "2026-11-12T14:58:58-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ftdx3000d', page 1 main results only. 8 kept. Dropped 1 best-offer-accepted (item 358594958341, Yaesu Ft DX 3000, shown $999.00). 0 parts-only. FTDX5000/FT-3000M results excluded (different models). Only one kept title says 'FTDX3000D'; the rest say 'FTdx-3000'/'FTDX 3000' - treated as the same radio, consistent with the existing YAESU FTDX3000D ledger entry (which already includes the $950 and $725 sales). No outliers. Trigger listing is in Italy.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784691",
+    "site": "qth",
+    "ask": 730.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 849.95,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/900060442137",
+      "source": "ebay",
+      "notes": "Title: 'Yaesu FTdx-3000 HF/50 MHz Transceiver w Manual, Mic, and Power Cord'. Fixed price or Best Offer (not best-offer-accepted). +$67.80 delivery.",
+      "flags": []
+    },
+    {
+      "price": 899.99,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880058506831",
+      "source": "ebay",
+      "notes": "Title: 'Yaesu FTDX3000D HF/50MHz Amateur Transceiver'. Buy It Now. +$59.87 delivery.",
+      "flags": []
+    },
+    {
+      "price": 790.0,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257812837183",
+      "source": "ebay",
+      "notes": "Title: 'YAESU FTDX3000 HF/6 ALL MODE TRANSCEIVER 100W MAGNIFICENT!'. Auction, 13 bids. +$26.55 delivery.",
+      "flags": []
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189019590288",
+      "source": "ebay",
+      "notes": "Title: 'Yaesu FTDX3000 HF/50MHz Amateur Ham Radio Transceiver Tested Working w/ Mic'. Fixed price or Best Offer (not best-offer-accepted). +$32.67 delivery.",
+      "flags": []
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158227520015",
+      "source": "ebay",
+      "notes": "Title: 'Yaesu FTDX 3000 Transceiver Ham Radio with Mic and Manual'. Fixed price or Best Offer (not best-offer-accepted). +$37.65 delivery.",
+      "flags": []
+    },
+    {
+      "price": 725.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117401055027",
+      "source": "ebay",
+      "notes": "Title: 'Yaesu FTDX 3000 Transceiver - Read Description!' (description not read). Buy It Now. +$29.95 delivery.",
+      "flags": []
+    },
+    {
+      "price": 794.99,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398323511570",
+      "source": "ebay",
+      "notes": "Title: 'Yaesu FT DX 3000 HF/50MHz 100W Ham Radio Transceiver Built-In Tuner Manual'. Fixed price or Best Offer (not best-offer-accepted). Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 785.0,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318483388847",
+      "source": "ebay",
+      "notes": "Title: 'Yaesu Ft DX 3000 FTDX3000 HF/50 MHz Amateur Radio Transceiver with Manual Tested'. Buy It Now. +$90.65 delivery.",
+      "flags": []
+    }
+  ]
+}
