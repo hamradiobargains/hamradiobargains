@@ -58,17 +58,29 @@
     {
       "term": "tr-2600",
       "searched_at": "2026-11-11T11:40:39-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Kenwood TR-2600",
+      "status": "worked",
+      "worked_at": "2026-11-12",
+      "result": "2026-11-12-kenwood-tr-2600a.json, 3 comps (low confidence; deposited under Kenwood TR-2600A per variant rule \u2014 no sales titled plain TR-2600)"
     },
     {
       "term": "tr2600",
       "searched_at": "2026-11-11T11:40:33-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Kenwood TR-2600",
+      "status": "worked",
+      "worked_at": "2026-11-12",
+      "result": "2026-11-12-kenwood-tr-2600a.json, 3 comps (low confidence; deposited under Kenwood TR-2600A per variant rule \u2014 no sales titled plain TR-2600)"
     },
     {
       "term": "ic-7760",
       "searched_at": "2026-11-11T11:40:03-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Icom IC-7760",
+      "status": "worked",
+      "worked_at": "2026-11-12",
+      "result": "no comps found (only a dust cover and a manual sold; no IC-7760 radio sales on eBay)"
     }
   ]
 }
