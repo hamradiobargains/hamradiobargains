@@ -1,0 +1,15 @@
+{
+  "model": "Apache ANAN-G2E",
+  "slug": "apache-anan-g2e",
+  "searched_at": "2026-11-11T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, sorted ended-recently, Leo signed in, no challenge. Search 'apache anan g2e' returned 0 sold results. No comps. Trigger ad is a new sealed unit ($1875 shipped; seller says it lists at $2295 plus shipping).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784514",
+    "site": "qth",
+    "ask": 1875,
+    "shipping": 0
+  },
+  "comps": []
+}
