@@ -1,0 +1,83 @@
+{
+  "model": "Yaesu FT-920",
+  "slug": "yaesu-ft-920",
+  "searched_at": "2026-11-12T17:57:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "7 kept comps. dropped 2 best-offer-accepted (178386917587 $600 Nov 5; 237015086111 $750 Oct 20). dropped 3 parts-only (117455422600 Nov 5; 287559077564 $349 Sep 2; 800502565100 $405 Aug 20 untested estate). Excluded 1 accessory (TCXO-7 module 174013544763). No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/287724951205",
+    "site": "ebay",
+    "ask": 579.0,
+    "shipping": 23.83
+  },
+  "comps": [
+    {
+      "price": 700.0,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336847488208",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted). With manual. Shipping $42.75.",
+      "flags": []
+    },
+    {
+      "price": 775.19,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307204166674",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted). Shipping not specified.",
+      "flags": []
+    },
+    {
+      "price": 525.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227549439018",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted). Title: 100 watt with antenna tuner built in / stock mic. Shipping $139.70.",
+      "flags": []
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158247266669",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted). Shipping $93.05.",
+      "flags": []
+    },
+    {
+      "price": 695.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278371765874",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted). Title: working + INRAD CW, AM and 108 SSB filter board. Shipping $55.14.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366652322542",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted). Title: working + YF-116C CW & YF-116A AM filters. Free shipping.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 720.0,
+      "sold_date": "2026-08-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278275977148",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: NICE. Shipping $50.00.",
+      "flags": []
+    }
+  ]
+}
