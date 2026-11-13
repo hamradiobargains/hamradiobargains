@@ -1,0 +1,15 @@
+{
+  "model": "Alpha 9500",
+  "slug": "alpha-9500",
+  "searched_at": "2026-11-13T05:57:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"Alpha 9500\", page 1: zero qualifying comps — all results were unrelated items (Zodiac Polaris pool-cleaner cables, apparel). No Alpha 9500 amplifier sales on page 1. Thin (none). Dropped 0 best-offer-accepted (among qualifying), 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629599",
+    "site": "eham",
+    "ask": 3800.0,
+    "shipping": 0
+  },
+  "comps": []
+}
