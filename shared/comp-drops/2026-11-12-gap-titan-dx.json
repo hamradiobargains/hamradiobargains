@@ -1,0 +1,15 @@
+{
+  "model": "GAP Titan DX",
+  "slug": "gap-titan-dx",
+  "searched_at": "2026-11-12T18:55:27-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'GAP Titan DX vertical'. 0 results. NOTE: the ad says 'GAP Titan HF vertical' (no 'DX'); the query added 'DX' in error, so a plain 'GAP Titan' search was not run (search cap). Treat as not comped / unsearched for the plain Titan. searched_at is approximate (sweep ran about 18:46-18:58 ET).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784673",
+    "site": "qth",
+    "ask": 200,
+    "shipping": 0
+  },
+  "comps": []
+}
