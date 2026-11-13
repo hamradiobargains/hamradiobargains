@@ -1,0 +1,15 @@
+{
+  "model": "MFJ-926B",
+  "slug": "mfj-926b",
+  "searched_at": "2026-11-13T18:02:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (MFJ-926B): eBay reported 0 results; only \"Results matching fewer words\" shown (e.g. MFJ-868B), which were ignored. thin - no comps.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/257851047160",
+    "site": "ebay",
+    "ask": 235.0,
+    "shipping": 0
+  },
+  "comps": []
+}
