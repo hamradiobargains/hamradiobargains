@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-12T13:53:38+00:00",
+ "updated": "2026-11-13T13:53:42+00:00",
  "models": {
-  "COLLINS 30L-1": {
-   "display": "Collins 30L-1",
-   "pct": 53.5,
+  "ASTRON RS-20A": {
+   "display": "Astron RS-20A",
+   "pct": 48.9,
    "window": "3mo",
-   "recent_median": 921.02,
-   "recent_count": 5,
-   "prior_median": 599.99,
+   "recent_median": 59.49,
+   "recent_count": 16,
+   "prior_median": 39.95,
    "prior_count": 5
   },
   "ELECRAFT K3/100": {
@@ -21,12 +21,12 @@
   },
   "ICOM IC-705": {
    "display": "Icom IC-705",
-   "pct": 0.5,
+   "pct": 0.1,
    "window": "3mo",
-   "recent_median": 999.5,
-   "recent_count": 14,
-   "prior_median": 995.0,
-   "prior_count": 6
+   "recent_median": 999.99,
+   "recent_count": 13,
+   "prior_median": 999.0,
+   "prior_count": 7
   },
   "ICOM IC-7100": {
    "display": "Icom IC-7100",
@@ -66,12 +66,12 @@
   },
   "KENWOOD TM-V71A": {
    "display": "Kenwood TM-V71A",
-   "pct": -3.4,
+   "pct": -15.5,
    "window": "3mo",
-   "recent_median": 425.0,
-   "recent_count": 25,
-   "prior_median": 439.98,
-   "prior_count": 8
+   "recent_median": 422.5,
+   "recent_count": 24,
+   "prior_median": 499.95,
+   "prior_count": 9
   },
   "KENWOOD TS-830S": {
    "display": "Kenwood TS-830S",
@@ -102,12 +102,12 @@
   },
   "XIEGU X6100": {
    "display": "Xiegu X6100",
-   "pct": -18.5,
+   "pct": -14.4,
    "window": "3mo",
    "recent_median": 385.0,
-   "recent_count": 13,
-   "prior_median": 472.5,
-   "prior_count": 10
+   "recent_count": 12,
+   "prior_median": 450.0,
+   "prior_count": 11
   },
   "YAESU FT-710": {
    "display": "Yaesu FT-710",
@@ -120,10 +120,10 @@
   },
   "YAESU FT-817ND": {
    "display": "Yaesu FT-817ND",
-   "pct": 36.0,
+   "pct": 31.8,
    "window": "3mo",
-   "recent_median": 873.48,
-   "recent_count": 14,
+   "recent_median": 847.01,
+   "recent_count": 17,
    "prior_median": 642.5,
    "prior_count": 6
   },
