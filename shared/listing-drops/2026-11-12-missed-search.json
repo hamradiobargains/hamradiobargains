@@ -5,27 +5,35 @@
     {
       "term": "kenwood ts-950sdx",
       "searched_at": "2026-11-12T07:40:58-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result. CONSOLIDATED 2026-11-13 on Leo's ruling: 'kenwood ts950sdx' and 'kenwood to-950sdx' are the same model (Kenwood TS-950SDX), typed by the same visitor within 20 seconds \u2014 price this model ONCE and count all three spellings as worked."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result. CONSOLIDATED 2026-11-13 on Leo's ruling: 'kenwood ts950sdx' and 'kenwood to-950sdx' are the same model (Kenwood TS-950SDX), typed by the same visitor within 20 seconds — price this model ONCE and count all three spellings as worked.",
+      "likely_model": "Kenwood TS-950SDX",
+      "status": "worked",
+      "worked_at": "2026-11-13",
+      "result": "2026-11-13-kenwood-ts-950sdx.json, 1 comp (low confidence; covers consolidated spellings ts950sdx / to-950sdx)"
     },
     {
       "term": "kenwood ts-140",
       "searched_at": "2026-11-12T07:39:58-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result. CORRECTED 2026-11-13 on Leo's ruling: the visitor typed 'to-140' but the model is the Kenwood TS-140 (a Kenwood HF radio) \u2014 price as the Kenwood TS-140. ALSO CONSOLIDATED 2026-11-13 on Leo's ruling: 'kenwood rs-140' (typed 34 seconds earlier by the same visitor) is the same TS-140 attempt \u2014 there is no Kenwood RS-140; count it as worked when the TS-140 is priced."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result. CORRECTED 2026-11-13 on Leo's ruling: the visitor typed 'to-140' but the model is the Kenwood TS-140 (a Kenwood HF radio) — price as the Kenwood TS-140. ALSO CONSOLIDATED 2026-11-13 on Leo's ruling: 'kenwood rs-140' (typed 34 seconds earlier by the same visitor) is the same TS-140 attempt — there is no Kenwood RS-140; count it as worked when the TS-140 is priced.",
+      "likely_model": "Kenwood TS-140S",
+      "status": "worked",
+      "worked_at": "2026-11-13",
+      "result": "2026-11-13-kenwood-ts-140s.json, 3 comps (low confidence; covers consolidated rs-140 / to-140 attempts)"
     },
     {
       "term": "htx-*",
       "searched_at": "2026-11-12T15:36:54-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
     },
     {
       "term": "htx-243",
       "searched_at": "2026-11-12T15:36:42-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
     },
     {
       "term": "htx-202",
       "searched_at": "2026-11-12T15:36:30-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
     }
   ]
 }
