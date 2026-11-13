@@ -1,0 +1,36 @@
+{
+  "model": "Yaesu FT-200",
+  "slug": "yaesu-ft-200",
+  "searched_at": "2026-11-12T18:52:45-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Yaesu FT-200' (ad is 'Tempo 1 / Yaesu FT200' - Tempo 1 not searched separately). 2 kept comps - THIN. Excluded: FT-100, FT-225RD, FT-230R, FT-250, FT-1500M (different models); FT-100 178466638056 was also BOA. 0 BOA among FT-200 sales. searched_at is approximate (sweep ran about 18:46-18:58 ET). Kept median 185.085 (2 kept).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781492",
+    "site": "qth",
+    "ask": 150,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 104.67,
+      "sold_date": "2026-10-01",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/257767343057",
+      "source": "ebay",
+      "notes": "Auction final bid, 5 bids; titled 'Yaesu FT200 SSB Transceiver (1960s)'; shipping not shown.",
+      "flags": []
+    },
+    {
+      "price": 265.5,
+      "sold_date": "2026-09-08",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/158225719086",
+      "source": "ebay",
+      "notes": "Fixed price '$265.50 or Best Offer' (not marked accepted); titled 'Vintage Yaesu FT-200 SSB Transceiver + FP-200 Power Supply'; shipping not shown.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
