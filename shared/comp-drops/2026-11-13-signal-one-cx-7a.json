@@ -1,0 +1,15 @@
+{
+  "model": "Signal One CX-7A",
+  "slug": "signal-one-cx-7a",
+  "searched_at": "2026-11-13T18:02:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (Signal One CX-7A): 0 exact results; only \"Results matching fewer words\" shown, which were ignored. thin - no comps.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/128192993843",
+    "site": "ebay",
+    "ask": 3500.0,
+    "shipping": 99.0
+  },
+  "comps": []
+}
