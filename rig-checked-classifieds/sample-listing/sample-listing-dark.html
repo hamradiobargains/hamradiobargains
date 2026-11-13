@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MFJ-941D Versa Tuner II — Sample Listing · Rig-Checked Classifieds</title>
+<style>
+  :root{--bg:#0f1417;--panel:#171e23;--panel-2:#1d272e;--panel-3:#12191d;--text:#e8edf0;--muted:#8fa1a8;--line:rgba(232,237,240,.13);--accent:#ff8c3b;--good:#69c487;--goodtx:#b9e8c7;--warn:#ffc857;--bad:#ff7b72;--shadow:0 18px 50px rgba(0,0,0,.28)}
+  *{box-sizing:border-box}
+  body{margin:0;color:var(--text);background:radial-gradient(circle at 15% 0%,rgba(255,140,59,.13),transparent 32rem),radial-gradient(circle at 90% 12%,rgba(60,113,138,.16),transparent 34rem),var(--bg);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.5}
+  .samplebar{background:var(--warn);color:#21150a;text-align:center;padding:9px 14px;font-size:13px;letter-spacing:.4px;font-weight:800}
+  header.site{background:var(--panel-3);border-bottom:1px solid var(--line);padding:16px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+  header.site .brand{font-size:20px;letter-spacing:.4px;font-weight:800} header.site .brand b{color:var(--accent)}
+  header.site .sec{font-size:13px;color:var(--muted)}
+  header.site a{color:var(--muted);text-decoration:none} header.site a:hover{color:var(--text);text-decoration:underline}
+  .wrap{max-width:880px;margin:0 auto;padding:22px 16px 50px}
+  .back{font-size:13.5px;margin-bottom:12px} .back a{color:var(--muted)}
+  .badge{display:inline-block;background:var(--panel-2);border:1px solid var(--line);color:var(--text);border-radius:4px;padding:1px 8px;font-size:11px;letter-spacing:.5px;vertical-align:2px;font-weight:700}
+  .badge.gold{background:var(--warn);color:#21150a;border-color:transparent}
+  .lbl{display:inline-block;border-radius:999px;padding:3px 11px;font-size:12px;font-weight:800;background:rgba(105,196,135,.13);color:var(--goodtx);border:1px solid rgba(105,196,135,.35)}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:var(--shadow)}
+  h1{font-size:28px;margin:0 0 4px;letter-spacing:-.02em} .sub{color:var(--muted);font-size:14px}
+  .sellerline{font-size:14px;margin-top:9px}
+  .verified{color:var(--good);font-weight:850}
+  .gauge{display:flex;border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:18px 0;flex-wrap:wrap}
+  .gauge>div{flex:1;min-width:150px;padding:13px 16px;background:var(--panel-2)}
+  .gauge>div+div{border-left:1px solid var(--line)}
+  .gauge .k{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);font-weight:800}
+  .gauge .v{font-size:23px;margin-top:3px;font-weight:800} .gauge .n{font-size:12px;color:var(--muted);margin-top:2px}
+  .fvline{font-size:13px;color:var(--muted);margin:-8px 0 4px}
+  h2{font-size:19px;margin:26px 0 10px;border-bottom:2px solid var(--accent);padding-bottom:5px;letter-spacing:-.01em}
+  .gallery{display:grid;grid-template-columns:2fr 1fr 1fr;gap:8px}
+  .ph{background:linear-gradient(145deg,#232f38,#141d23);color:#c6d3da;border:1px solid var(--line);border-radius:10px;min-height:110px;display:flex;flex-direction:column;justify-content:flex-end;padding:9px;font-size:12px}
+  .ph.hero{min-height:230px;font-size:13px}
+  .ph .tag{background:var(--warn);color:#21150a;border-radius:3px;padding:1px 6px;font-size:11px;font-weight:700;align-self:flex-start;margin-bottom:5px}
+  table.rc{width:100%;border-collapse:collapse;font-size:15px}
+  table.rc td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  table.rc td.q{width:62%;color:var(--text)} table.rc td.a{font-size:14px;color:#d5dde2}
+  .pill{display:inline-block;background:rgba(105,196,135,.13);color:var(--goodtx);border:1px solid rgba(105,196,135,.35);border-radius:999px;padding:2px 10px;font-size:12px;font-weight:800}
+  .pill.honest{background:rgba(255,200,87,.13);color:#f0dfae;border-color:rgba(255,200,87,.4)}
+  dl.terms{display:grid;grid-template-columns:170px 1fr;gap:6px 14px;font-size:15px;margin:0}
+  dl.terms dt{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;padding-top:2px;font-weight:800}
+  dl.terms dd{margin:0}
+  .sellercard{display:flex;gap:16px;flex-wrap:wrap;background:var(--panel-2);border:1px solid var(--line);border-radius:14px;padding:15px 17px;font-size:14px}
+  .sellercard .cs{font-size:20px}
+  .cta{display:inline-block;background:var(--accent);color:#1b1108;font-weight:800;border-radius:8px;padding:11px 20px;margin-top:16px;text-decoration:none}
+  .fine{font-size:12.5px;color:var(--muted);line-height:1.55;margin-top:26px;border-top:1px solid var(--line);padding-top:13px}
+</style>
+</head>
+<body>
+<div class="samplebar">SAMPLE LISTING — an example of a live listing page on Rig-Checked Classifieds. This gear is not for sale here.</div>
+<header class="site"><div class="brand">HAM RADIO <b>BARGAINS</b></div><div class="sec"><a href="/rig-checked-classifieds/">RIG-CHECKED CLASSIFIEDS</a></div></header>
+
+<div class="wrap">
+  <div class="back"><a href="/rig-checked-classifieds/">← Back to Rig-Checked Classifieds</a></div>
+
+  <div class="card">
+    <h1>MFJ-941D Versa Tuner II</h1>
+    <div class="sub">Antenna tuner · Listed Nov 12 · Tennessee</div>
+    <div class="sellerline">Seller <strong>N4•••</strong> · <span class="verified">✓ Identity verified by postcard</span> · <span class="badge gold">FOUNDING SELLER</span></div>
+
+    <div class="gauge">
+      <div><div class="k">Asking</div><div class="v">$107</div><div class="n">+ shipping</div></div>
+      <div><div class="k">Fair value</div><div class="v">$107</div><div class="n">range $90 – $125</div></div>
+      <div><div class="k">Verdict</div><div style="margin-top:7px"><span class="lbl">At fair value</span></div><div class="n">the seller saw this figure before posting</div></div>
+    </div>
+    <p class="fvline">Fair value from 8 recorded sales of this model.</p>
+
+    <h2>Photos — the actual tuner, tagged in every frame</h2>
+    <div class="gallery">
+      <div class="ph hero"><span class="tag">✎ N4••• + date — handwritten tag in frame</span>Front panel — meter, inductor selector, antenna selector</div>
+      <div class="ph"><span class="tag">✎ tag in frame</span>Inside — coils &amp; capacitors</div>
+      <div class="ph"><span class="tag">✎ tag in frame</span>Rear — SO-239s &amp; ground wing nut</div>
+      <div class="ph"><span class="tag">✎ tag in frame</span>Cabinet — top</div>
+      <div class="ph"><span class="tag">✎ tag in frame</span>Cabinet — side</div>
+      <div class="ph"><span class="tag">✎ tag in frame</span>Meter close-up</div>
+      <div class="ph"><span class="tag">✎ tag in frame</span>Underside / case screws</div>
+    </div>
+    <p class="fvline" style="margin-top:8px">Every photo on a live listing shows the actual item with the seller&rsquo;s callsign and the date handwritten on paper in the same frame. No tag, no listing.</p>
+
+    <h2>Rig Check — seller&rsquo;s condition report <span class="pill">9 of 9 answered</span></h2>
+    <table class="rc">
+      <tr><td class="q">Inductor selector — clicks solidly through every position, no crackling or dropouts under power?</td><td class="a">Clean through all positions</td></tr>
+      <tr><td class="q">Both variable capacitors — smooth through full travel, no scraping plates?</td><td class="a">Both smooth</td></tr>
+      <tr><td class="q">Any arcing at 100 W on 80 or 160 meters — ever?</td><td class="a">Never</td></tr>
+      <tr><td class="q">The meter — swings freely, falls back to zero, reads consistently on the 30 W and 300 W ranges?</td><td class="a">Reads clean on both ranges</td></tr>
+      <tr><td class="q">Bypass — tuner drops fully out of line into a dummy load, meter reads 1:1?</td><td class="a">Bypass works, 1:1 into a load</td></tr>
+      <tr><td class="q">Antenna selector — all positions actually connect (COAX 1 &amp; 2, both DIRECT, WIRE/BALANCED, BYPASS)?</td><td class="a">All work</td></tr>
+      <tr><td class="q">Balun — any heat discoloration or burnt smell from balanced-line use at power?</td><td class="a">Clean</td></tr>
+      <tr><td class="q">Proven under load — tuned a real antenna at full power on the low bands, not just a dummy load?</td><td class="a"><span class="pill honest">Only higher bands or a dummy load</span></td></tr>
+      <tr><td class="q">Connectors &amp; cabinet — SO-239s tight, ground wing nut present, all case screws in?</td><td class="a">All present and tight</td></tr>
+    </table>
+    <p class="fvline" style="margin-top:8px">Note the eighth answer: the one thing this tuner hasn&rsquo;t done is printed in the open, in the seller&rsquo;s own report. That&rsquo;s the system working — a buyer decides with the gap visible, not hidden. Every model gets its own question set, built from the things that actually decide that model&rsquo;s value.</p>
+
+    <h2>Terms — declared before you ask</h2>
+    <dl class="terms">
+      <dt>Price</dt><dd>$107.00 + shipping</dd>
+      <dt>Payment</dt><dd>Declared at posting and shown here — on a live listing this line is never blank</dd>
+      <dt>Shipping</dt><dd>Buyer pays shipping; ships from Tennessee</dd>
+      <dt>Contact</dt><dd>Leave a comment on this listing — the seller is notified</dd>
+    </dl>
+    <a class="cta" href="/rig-checked-classifieds/">Leave a comment if interested</a>
+
+    <h2>About the seller</h2>
+    <div class="sellercard">
+      <div><div class="cs"><strong>N4•••</strong></div><div>Tennessee</div></div>
+      <div><strong>✓ Verified</strong><div>Postcard code returned from the FCC license address</div></div>
+      <div><strong>Founding Seller</strong><div>Among the first verified sellers on the board</div></div>
+      <div><strong>Record</strong><div>1 listing · 0 sold on Rig-Checked Classifieds</div></div>
+    </div>
+
+    <p class="fine"><strong>What &ldquo;verified&rdquo; means here:</strong> a code was mailed to the address on this seller&rsquo;s FCC license and came back entered — it ties the account to the licensee at that address. It is not a background check, an endorsement, or a guarantee of any transaction. The Rig Check above is the seller&rsquo;s own statement; HamRadioBargains reviews it for completeness, not truth. Fair value is our opinion from recorded sales, not an appraisal. Trade safe: talk to the seller, pay with protection, and read the safe-trading guide before you send money.</p>
+  </div>
+
+</div>
+</body>
+</html>
