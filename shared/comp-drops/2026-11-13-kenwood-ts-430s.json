@@ -1,0 +1,143 @@
+{
+  "model": "Kenwood TS-430S",
+  "slug": "kenwood-ts-430s",
+  "searched_at": "2026-11-13T15:01:34-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "13 comps. dropped 4 best-offer-accepted (920077080076 $100, 820236238443 bundle $599.99, 366542652164 $310, 227492920680 $250). dropped 8 parts-only (366759240793, 307266537789, 860024425648, 267822298975, 366757406132, 137767433102, 158318733823, 407212441315 - three of these were also best offer accepted). OUTLIERS flagged: 178522140258 at $600. Excluded TS-430V (different model, 2 sales), AT-250 tuners and accessories/manuals/boards. Search used \"kenwood ts-430s\"; titles saying TS-430 or TS-430S counted. Trigger listing titled \"TS-430\" (Kenwood TS-430S assumed for the search, so the ledger entry KENWOOD TS-430S was not used as a hit).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784734",
+    "site": "qth",
+    "ask": 295.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 249.95,
+      "sold_date": "2026-11-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257833686971",
+      "source": "ebay",
+      "notes": "fixed price; title includes PS-430 power supply; +$25.00 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 379.99,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398395428709",
+      "source": "ebay",
+      "notes": "fixed price; +$42.85 delivery",
+      "flags": []
+    },
+    {
+      "price": 339.99,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128136067173",
+      "source": "ebay",
+      "notes": "fixed price; +$28.97 delivery",
+      "flags": []
+    },
+    {
+      "price": 399.0,
+      "sold_date": "2026-10-15",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/800760953551",
+      "source": "ebay",
+      "notes": "fixed price; +$50.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178522140258",
+      "source": "ebay",
+      "notes": "OUTLIER: $600 vs ~$320 median for the rest. auction, 13 bids; bundle with PS-52 power supply, AT-250 auto tuner, SP-230 speaker; +$55.03 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117431679656",
+      "source": "ebay",
+      "notes": "auction, 1 bid; title says (-READ DISCRIPTION), description not read; +$30.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 265.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800663761278",
+      "source": "ebay",
+      "notes": "fixed price or Best Offer (not shown as accepted); +$96.39 delivery",
+      "flags": []
+    },
+    {
+      "price": 280.0,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128073958771",
+      "source": "ebay",
+      "notes": "fixed price; with MC-60 microphone; +$13.21 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 399.99,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/226830464007",
+      "source": "ebay",
+      "notes": "fixed price or Best Offer (not shown as accepted); title: in original box, 2 cords, mic; +$155.65 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147522650052",
+      "source": "ebay",
+      "notes": "auction, 4 bids; +$30.50 delivery",
+      "flags": []
+    },
+    {
+      "price": 269.99,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168643679251",
+      "source": "ebay",
+      "notes": "fixed price or Best Offer (not shown as accepted); title says UNTESTED; free delivery",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 339.99,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820035522272",
+      "source": "ebay",
+      "notes": "fixed price or Best Offer (not shown as accepted); with DC power cable, Japan; +$42.38 delivery",
+      "flags": []
+    },
+    {
+      "price": 375.0,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298518099917",
+      "source": "ebay",
+      "notes": "fixed price or Best Offer (not shown as accepted); title: tested and working; +$41.90 delivery",
+      "flags": []
+    }
+  ]
+}
