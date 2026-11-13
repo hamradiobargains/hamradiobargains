@@ -1,0 +1,15 @@
+{
+  "model": "MFJ-9475",
+  "slug": "mfj-9475",
+  "searched_at": "2026-11-13T19:05:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep, eBay sold search 'mfj-9475' (5 of 15). 0 qualifying sold comps: page 1 held no MFJ-9475 radio sales (one unrelated train plate '#9475' and other MFJ models only). Ledger had no MFJ-9475 entry.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784764",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": []
+}
