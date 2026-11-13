@@ -1,0 +1,45 @@
+{
+  "model": "Elecraft P3",
+  "slug": "elecraft-p3",
+  "searched_at": "2026-11-13T05:57:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"Elecraft P3\", page 1: 3 kept. Dropped 1 best-offer-accepted ($879, #5097 VGA, 2026-11-06). Dropped 0 parts-only P3 units; excluded 6 accessories (5 W2/P3 coupler listings, one of them Parts Only, and 1 CBLP3Y cable). No outliers. Kept comp 327363664423 is serial #2175 — the same unit as the trigger listing (eHam 629598), flagged possible_duplicate. Fixed-price prices shown discounted from list (e.g. $541.49 vs $569.99) recorded as shown.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629598",
+    "site": "eham",
+    "ask": 479.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 541.49,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327363664423",
+      "source": "ebay",
+      "notes": "Title: \"Works great w/ cables # 2175 nice CA\". Same serial #2175 as trigger listing eHam 629598. Or Best Offer listing, not best-offer-accepted; shown $541.49 (list $569.99). +$32.00 delivery.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 521.55,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327327860882",
+      "source": "ebay",
+      "notes": "Title: \"# 1371 Nice\". Or Best Offer listing, not best-offer-accepted; shown $521.55 (list $549.00). +$32.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336726281279",
+      "source": "ebay",
+      "notes": "Title: \"Nice ... for K3s or K3 or FTDX5000mp #3544\". Buy It Now. +$23.10 delivery.",
+      "flags": []
+    }
+  ]
+}
