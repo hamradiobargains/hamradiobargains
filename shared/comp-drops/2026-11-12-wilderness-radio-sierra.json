@@ -1,0 +1,15 @@
+{
+  "model": "Wilderness Radio Sierra",
+  "slug": "wilderness-radio-sierra",
+  "searched_at": "2026-11-12T18:48:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Wilderness Radio Sierra QRP'. 2 results: 137860219441 Wilderness Radio Sierra QRP w/ 5 band modules, KC-2 keyer, noise blanker, sold 2026-10-21 $450.00 (+$21.13 delivery) was 'Best offer accepted' - DROPPED (1 BOA dropped). 147651537698 Wilderness Radio SST 40/20 CW transceivers + Z-Rock tuner, sold 2026-11-01 $127.50 (2 bids) is a different model (SST) - excluded. 0 kept comps. searched_at is approximate (sweep ran about 18:46-18:58 ET).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784723",
+    "site": "qth",
+    "ask": 80,
+    "shipping": 0
+  },
+  "comps": []
+}
