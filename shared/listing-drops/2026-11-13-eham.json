@@ -1,0 +1,75 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-13",
+  "ran_at": "2026-11-13T05:52:31-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-12T05:52:53-05:00 (prior eham run). Browsed signed OUT (\"Login/Register\" / \"Welcome Guest\" shown); no Cloudflare challenge. Read public classifieds pages 1 and 2 (page 2 via its pagination link); new public ads 629587-629600. No individual ad pages opened, no search form, sold searches, or seller/callsign pages; no ad IDs probed. Ad numbers 629588, 629590, 629591 (and 629564 from earlier runs) are not on the public pages - not opened. Not candidates: 629592 WTB AM-141 (want-to-buy), 629589 N3ZN paddle (keyer, outside candidate categories). Plausible but not dropped because of the 5-6 candidate cap: 629600 MFJ-900 tuner ($50 shipped), 629596 Elecraft SP4 speaker ($345 delivered), 629593 GAP Titan HF vertical ($200, pickup only, no shipping). Comps: 2 ledger hits (ELECRAFT K3/100, KENWOOD MC-90), 4 ledger misses -> 4 eBay sold searches (Alpha 9500, Elecraft K3S, Elecraft P3 - ledger entry stale 2026-09-20, Elecraft K3/0 Mini); signed in to eBay as Leo, no challenge. Alpha 9500 and K3S/100: zero qualifying sold comps on page 1.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629599",
+      "site": "eham",
+      "title": "Alpha 9500",
+      "price": 3800.0,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "Seller: \"Works great.\" Asking $3800 plus shipping in the US (shipping not stated; ships in two boxes, transformer separate). Seller prefers Zelle.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629598",
+      "site": "eham",
+      "title": "ELECRAFT P3 PANADAPTER # 2175",
+      "price": 479.0,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "$479 delivered. \"Works great w/ cables\", nice. Local pickup also fine. Same serial (#2175) appears as an eBay sold comp on 2026-09-19 (item 327363664423).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629597",
+      "site": "eham",
+      "title": "Elecraft K3/100 TRANSCEIVER # 755",
+      "price": 905.0,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "$905 delivered. SN 755, KPA3 100 W, 2.7 SSB filter, KIO3, KXV3A, firmware 5.67, power cord, manual. Seller used it today on CW and SSB.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629595",
+      "site": "eham",
+      "title": "Elecraft K3/0 Mini Remote Head - Nice ! 133",
+      "price": 855.0,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "$855 delivered. SN 133. \"Super nice\", \"Looks great and works like new.\" Head only (RemoteRig boxes and Octopus cable sold separately).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629594",
+      "site": "eham",
+      "title": "Elecraft K3S/100 TRANSCEIVER  # 10659 WOW !",
+      "price": 2775.0,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "$2775 delivered. SN 10659. KPA3A 100 W, KAT3A internal tuner, 2.7 SSB and 400 CW filters, KSYN3A, KIO3B, KXV3B, gold pins; power cord. \"Nice\".",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629587",
+      "site": "eham",
+      "title": "Kenwood MC-90 Dynamic Microphone",
+      "price": 189.0,
+      "shipping": 25.0,
+      "found_at": "2026-11-13",
+      "condition_notes": "Excellent, like new, cosmetically great, non-smoking home. $189 plus $25 shipping.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
