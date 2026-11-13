@@ -1,0 +1,262 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-12",
+  "ran_at": "2026-11-12T18:46:50-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered: 2026-11-12-qth.json (ran_at 2026-11-12T14:52:45-05:00) and 2026-11-12-ebay.json (ran_at 2026-11-12T17:53:05-05:00); window = after previous extras drop 2026-11-12-1030-extras.json (ran_at 2026-11-12T10:34:40-05:00). The 11/12 eHam drop (05:52:53) predates that window; the missed-search drop was not covered. Previous extras drop had no CARRIED OVER and no BACKLOG CARRY. Queued 24 = named extra QTH 1783910 (Yaesu '991', $600 firm, Leo's original-FT-991 ruling) + 23 fresh QTH extras from the 11/12 QTH drop's 'Extra plausible candidates not comped' list. 1783910 was already triaged in 2026-11-10-1935-extras.json (live, comps filed as 'Yaesu FT-991', 3 kept, median 720) and is in dropped-urls.json, so it was not re-queued and no new FT-991 search was run (FT-991A figures never used). The 11/12 eBay drop names no 'Extra plausible candidates not comped' list (its 'cap reached with ... unchecked' items give no item numbers/URLs), so no eBay extras were queued. eHam: none queued. Worked 23 of 23. Liveness: 23 live, 0 gone (ads opened one at a time at human pace via page navigation in Leo's Chrome; no eHam page opened). Ledger hits: 5 (Drake MN-2000 1784721; Heil iCM 1784429; Icom IC-2300H 1784701; Kenwood PS-430 1784666; Yaesu FT-817 1784693). eBay sold searches used: 15 of 15 (cap reached, not exceeded): Wilderness Radio Sierra QRP, Ameritron AL-80A, Kenwood TS-570DG, Kenwood TM-710A, Elecraft SP4, National HRO-500, Drake PS-7, Yaesu FT-200, Tokyo Hy-Power HL-50B, EA4TX remote box, Mirage D-100 TVN, GAP Titan DX (query error: ad says 'GAP Titan', 'DX' was added), ZS6BKW, Yaesu FT-70D, N3ZN ZN-SL. Searches ran one at a time 15+ s apart, signed in as Leo, no challenge. Solid (3+): TS-570DG (9 kept, median 405.0), TM-D710A (4 kept, median 504.5), PS-7 (5 kept, median 99.99), FT-70D (5 kept, median 160.0). Thin: AL-80A (1), FT-200 (2), ZS6BKW (2). Zero comps: Sierra (1 BOA dropped), HRO-500 (1 BOA dropped), SP4, HL-50B, EA4TX 1x8, D-100 TVN, GAP Titan (query error), N3ZN. Skipped (listing recorded, not comped): 1784685 and 1784683 (multi-item N9APA ads, no single price; items and prices quoted verbatim in condition_notes, price field 0); 1784719 (M squared 6m 3-el, no model number). Gone: none. Cross-posts: none (same-seller pairs, different items: WS8X 1784720/1784721; K2ZZ 1784723/1784661; KL7AM 1784704/1784702; N9APA 1784685/1784683). Outliers: none. UNCERTAIN: 1784693 FT-817 package (MARS Mod + PA-board upgrade wording carried in work_flag; ledger median is radio-only); 1784690 HRO-500 'Recently developed low sensitivity. Suspect IF issue.' (work_flag); 1781492 Tempo 1 'sold for parts' wording and 1781494 PS7 'Sold for parts due to scammers' wording (meaning unclear, carried verbatim); 1784702 'TM-710A V2' model identity (comped as TM-D710A); TS-570D vs TS-570DG identity (mixed set; DG-only median 550.0 on 2 sales); FT-70D vs FT-70DR kept separate. found_at is 2026-11-12 for all (all from the 11/12 QTH drop; a few are renewed older ads, noted in condition_notes). Shipping recorded 0 where included/free, not quoted, or pickup. Comp-drop searched_at times are approximate. Timestamps -05:00 (EST). CARRIED OVER: no carry-over. BACKLOG CARRY: none.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784723",
+      "site": "qth",
+      "title": "Wilderness Radio Sierra QRP transceiver w/ 20m and 40m modules",
+      "price": 80,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. Seller wording: 'this nice looking Sierra Wilderness Radio with 20 and 40m band modules. Price is $80'. Shipping not stated. comps: wilderness-radio-sierra, 0 kept (1 best-offer-accepted sale dropped), not comped to a median",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784721",
+      "site": "qth",
+      "title": "Drake MN-2000 antenna tuner",
+      "price": 300,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. Seller wording: 'Super clean and 100% functioning MN-2000. Only selling to fund another HF rig and already have another tuner.' $300 shipped CONUS. ledger hit (Drake MN-2000, median 200.0, count 13, ledger date 2026-10-31); same seller (WS8X) also has AL-80A 1784720",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784720",
+      "site": "qth",
+      "title": "Ameritron AL-80A HF linear amplifier w/ Eimac 3-500Z",
+      "price": 850,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. Seller wording: 'Strong AL-80A with Eimac 3-500Z tube. Excellent cosmetic condition. Healthy tube with plenty of life. Absolutely no issues whatsoever. Close to 700W output with 50W drive. Wired for 115VAC.' Local pickup or will meet within reasonable distance; shipping not quoted. comps: ameritron-al-80a, 1 kept (thin), median 1100.0",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784719",
+      "site": "qth",
+      "title": "M squared 6 meter 3-element beam (model number not stated)",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. Seller wording: 'FOR SALE: M squared 6 meter 3 element PICK UP ONLY... M scared 3 element beam in good shape. 100 bucks.... EMAIL only.' not comped: model number not stated in ad, so no exact-model search was possible",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784704",
+      "site": "qth",
+      "title": "Kenwood TS-570D(G) HF transceiver w/ mic, power cord, original box",
+      "price": 500,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. Seller wording: 'Excellent Kenwood 570D(G) HF Transceiver Very Nice clean condition and working as it should HF Transceiver. The D(G) is on the rear serial# tag... Comes with Power cord and Kenwood microphone. Original box if you want it. $500 shipped/insured US - Bargain!' comps: kenwood-ts-570dg, 9 kept, median 405.0 (TS-570D and DG titles mixed; DG-only median 550.0 on 2 sales)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784702",
+      "site": "qth",
+      "title": "Kenwood TM-710A V2 (listed wording) 50W VHF/UHF transceiver, like new in box",
+      "price": 550,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. Seller wording: 'Kenwood TM-710A V2 Like New 50 watt VHF/UHF Transceiver Like new in original box and packing. Has everything it came with new. Looks un-used'. $550 shipped/insured US. Model identity UNCERTAIN (no Kenwood TM-710A exists; APRS/EchoLink text matches TM-D710A). comps: kenwood-tm-d710a, 4 kept, median 504.5",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784701",
+      "site": "qth",
+      "title": "Icom IC-2300H VHF transceiver (2 units)",
+      "price": 140,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. Seller wording: 'Excellent condition with the factory boxes and everything that came with them. Have two (2) of these for sale that are excess to my needs now.' $140 each shipped CONUS. ledger hit (Icom IC-2300H, median 131.0, count 5, ledger date 2026-10-30)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784694",
+      "site": "qth",
+      "title": "Elecraft SP4 speaker for K4",
+      "price": 339,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. Seller wording: 'Elecraft SP4 Speaker for K4 ..works with k3 and many others - super nice ! $339 delivered... Very Good condition.' Local pickup also fine. comps: elecraft-sp4, 0 results (not comped)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784693",
+      "site": "qth",
+      "title": "Yaesu FT-817 (non-ND) radio package",
+      "price": 650,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. Seller wording: 'Yaesu FT-817 (non-ND) with tons of accessories! The PA board was upgraded to Yaesu's newest board (CB1333004 on 11/2/26) after reading about all the overheating and reliability issues with the original board. Also, it has the software MARS Mod so it can be used on the new 60M frequencies. This package includes the original Yaesu Operating Manual, MH-31 Mic, LDG Z-817 Autotuner with cables, Yaesu carrying case and straps, LDG RBA-1 Balun, Portable Miracle Antenna, Cigarette Lighter power cord, Yaesu NC-72B Battery Charger, AA battery Tray, 2 Antennas, MFJ-1317 Switching Power Supply and 2 Batteries (Yaesu FNB-85 and MAHA MH-FNB-72 - both hold charge but do not know for how long as I used a different battery). This is being sold as a package so I will not separate.' $650 shipped CONUS. ledger hit (Yaesu FT-817, median 748.5, count 10, ledger date 2026-10-17; radio-only median vs a package)",
+      "work_flag": "Seller wording: 'it has the software MARS Mod so it can be used on the new 60M frequencies'; 'PA board was upgraded to Yaesu's newest board (CB1333004 on 11/2/26)'; batteries 'both hold charge but do not know for how long'. UNCERTAIN whether the MARS-mod/PA-board wording counts under Leo's rulings - carried verbatim.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784690",
+      "site": "qth",
+      "title": "National HRO-500 communications receiver",
+      "price": 750,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. Seller wording: 'For sale National HRO 500 Receiver Nice looking HRO 500 clean cosmetically and intact. In regular use in my station. Recently developed low sensitivity. Synthesizer works well. Suspect IF issue. Am downsizing collection and do not have time to mess with it. Have original manual Buyer pickup or pay shipping. Asking 750 or offer'. comps: national-hro-500, 0 kept (1 best-offer-accepted sale dropped), not comped to a median",
+      "work_flag": "Seller wording: 'Recently developed low sensitivity. Suspect IF issue.' (needs work)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784685",
+      "site": "qth",
+      "title": "N9APA antenna tuners (4 items in one ad)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. not comped: multi-item ad with no single price - items as listed: MFJ 991A 300W auto tuner with 5124i Icom cable $150; MFJ 989B 3KW tuner $200; Palstar 1500DT $325; Palstar AT5K $950; 'SHIPPING IS XTRA'. Price field 0 = no single price. Same seller (N9APA) as 1784683",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784683",
+      "site": "qth",
+      "title": "N9APA HF radios (3 items in one ad)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. not comped: multi-item ad with no single price - items as listed: Icom 746PRO HF/6M/2M 100W $589 w/mic/manual/DC cable; Kenwood TS450SAT 100W HF $425 'real nice' w/mic/manual/DC cable; Kenwood TS480SAT 100W HF/6M $650 'real nice' factory box/mic/manual/PC/cables; 'SHIPPING IS XTRA'. Price field 0 = no single price. Same seller (N9APA) as 1784685",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781494",
+      "site": "qth",
+      "title": "Drake PS-7 power supply (for TR-7) w/ 3 original cables",
+      "price": 125,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live (renewed ad, originally submitted 10/06/26, last edited 11/12/26). Seller wording: 'Drake PS7 linear power supply designed for TR7. Sold the TR7 and now left with PS7. Complete with 3 original cables... Sold for parts due to scammers. $125 picked up in El Paso, TX or I can ship at your expense'. Shipping not quoted. comps: drake-ps-7, 5 kept, median 99.99",
+      "work_flag": "Seller wording includes 'Sold for parts due to scammers' - meaning unclear (looks like an anti-scammer note, not a condition statement). UNCERTAIN - carried verbatim.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781492",
+      "site": "qth",
+      "title": "Tempo 1 / Yaesu FT-200 HF transceiver",
+      "price": 150,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live (renewed ad, originally submitted 10/06/26, last edited 11/12/26). Seller wording: 'Tempo 1 -same as Yaesu FT200, HF transceiver, 200 Watt All tubes checked and new finals installed. Aligned and working fine but sold for parts. More pictures upon request. Tempo power supply not included.' $150 picked up or can ship. Shipping not quoted. comps: yaesu-ft-200, 2 kept (thin), median 185.085",
+      "work_flag": "Seller wording: 'Aligned and working fine but sold for parts.'; 'Tempo power supply not included.' UNCERTAIN whether 'sold for parts' means parts-only - carried verbatim.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784661",
+      "site": "qth",
+      "title": "Tokyo Hy-Power HL-50B QRP HF/6M amplifier, like new w/ box",
+      "price": 395,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. Seller wording: 'this like new Tokyo HL-50B QRP HF/6M amplifier. Comes with box, power cable. Price is $395 OBO'. Shipping not stated. Same seller (K2ZZ) as 1784723. comps: tokyo-hy-power-hl-50b, 0 results (not comped)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784677",
+      "site": "qth",
+      "title": "EA4TX 1x8 remote box, new in box",
+      "price": 175,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. Seller wording: 'new in box - $175... still new in box. Price does not include shipping but I can ship to US locations from my US mailbox inexpensively.' Shipping amount not quoted. comps: ea4tx-1x8-remote-box, 0 results (not comped)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1780006",
+      "site": "qth",
+      "title": "Mirage D-100 TVN 70cm SSB/CW/FM 100W amplifier",
+      "price": 225,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live (renewed ad, originally submitted 09/20/26, last edited 11/11/26). Seller wording: 'Rated 10w in for 100w out 420-450 MHz. Works FM, SSB, CW. Original factory warranty seal still in place... Works fine, looks good!' 'Asking $225, offers considered. P/U in York, PA, or buyer pays shipping.' Shipping amount not quoted. comps: mirage-d-100-tvn, 0 results (not comped)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784673",
+      "site": "qth",
+      "title": "GAP Titan HF vertical antenna",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. Seller wording: 'GAP Titan HF vertical antenna I removed this from a SKs property. Was in use until his passing. Antenna is complete with no missing parts. NO SHIPPING... Face to Face pick up in Vanzant, Missouri, Douglas County... $200 cash or interesting trades considered'. comps: gap-titan-dx, 0 results (query used 'Titan DX' in error - plain 'GAP Titan' not searched), not comped",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784666",
+      "site": "qth",
+      "title": "Kenwood PS-430 power supply w/ AC cord and 6-pin Molex pigtail",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. Seller wording: 'KENWOOD PS 430 IN GREAT CONDITION, COMES WITH AC POWER CORD AND 6 PIN MOLEX PIGTAIL 100 SHIPPED PAYPAL'. ledger hit (Kenwood PS-430, median 115.0, count 6, ledger date 2026-10-26)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784663",
+      "site": "qth",
+      "title": "ZS6BKW antenna by NI4L, never used",
+      "price": 125,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. Seller wording: 'a never used ZS6BKW antenna. I tried installing it but the trees that I wanted to use did not work. The antenna is VERY well built by NI4L. It is a 3kw antenna covering 80-6 with a tuner.' $125 shipped CONUS. comps: zs6bkw-antenna, 2 kept (thin), median 136.005",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784660",
+      "site": "qth",
+      "title": "Yaesu FT-70D handheld w/ Nagoya NA701, extra battery, charging adaptor",
+      "price": 185,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. Seller wording: 'Very clean and operates as it should. Included is a Nagoya NA701 antenna and an extra battery plus Charging adaptor.' '$185 plus half shipping.' Shipping amount not quoted (price excludes half of shipping). comps: yaesu-ft-70d, 5 kept, median 160.0",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784429",
+      "site": "qth",
+      "title": "Heil iCM desk mic wired for Icom (8-pin)",
+      "price": 135,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live (renewed ad, originally submitted 11/08/26, last edited 11/12/26). Seller wording: 'heil icm desk mike in nice condition.wired with 8 pin connector for icom radios asking $135 shipped conus no paypal'. ledger hit (Heil iCM, median 99.0, count 7, ledger date 2026-10-17)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784664",
+      "site": "qth",
+      "title": "N3ZN ZN-SL single lever paddle",
+      "price": 325,
+      "shipping": 0,
+      "found_at": "2026-11-12",
+      "condition_notes": "live. Seller wording: 'my N3ZN single lever paddle, ZN-SL. IMHO the best there is but i am a bug guy and this does not get much use. $325.00 shipped in the lower 48.' comps: n3zn-zn-sl-paddle, 0 results (not comped)",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
