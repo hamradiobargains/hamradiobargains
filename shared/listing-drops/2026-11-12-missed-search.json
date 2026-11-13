@@ -23,17 +23,28 @@
     {
       "term": "htx-*",
       "searched_at": "2026-11-12T15:36:54-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "status": "worked",
+      "worked_at": "2026-11-13",
+      "result": "no comps found (wildcard term names no model; same visitor's htx-202 and htx-243 searches priced in 2026-11-13-radio-shack-htx-202.json and 2026-11-13-radio-shack-htx-242.json)"
     },
     {
       "term": "htx-243",
       "searched_at": "2026-11-12T15:36:42-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Radio Shack HTX-242",
+      "status": "worked",
+      "worked_at": "2026-11-13",
+      "result": "2026-11-13-radio-shack-htx-242.json, 11 comps (no HTX-243 exists, 0 eBay results; deposited under Radio Shack HTX-242 per variant rule; 2 outliers flagged)"
     },
     {
       "term": "htx-202",
       "searched_at": "2026-11-12T15:36:30-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Radio Shack HTX-202",
+      "status": "worked",
+      "worked_at": "2026-11-13",
+      "result": "2026-11-13-radio-shack-htx-202.json, 15 comps"
     }
   ]
 }
