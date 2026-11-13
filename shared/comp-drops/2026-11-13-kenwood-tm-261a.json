@@ -1,0 +1,107 @@
+{
+  "model": "Kenwood TM-261A",
+  "slug": "kenwood-tm-261a",
+  "searched_at": "2026-11-13T18:02:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (Kenwood TM-261A), above \"Results matching fewer words\". 9 kept. Dropped 5 best-offer-accepted (840101117333, 358547900279, 137624587026, 298538017381, 287535139085 - three of these also Parts Only). Dropped 1 parts-only (206570696343). Excluded: TM-261 (no A) units, TM-733A + TM-261A bundle (298667326208), ambiguous \"TM-261A - Microphone - (Untested)\" at $32.99 (117508155727, could be mic only), manuals, mics, cables, brackets. OUTLIERS: $125.00 (267808154974), $149.95 (277948092305).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/840125333404",
+    "site": "ebay",
+    "ask": 149.99,
+    "shipping": 15.35
+  },
+  "comps": [
+    {
+      "price": 65.0,
+      "sold_date": "2026-11-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/860131948031",
+      "source": "ebay",
+      "notes": "Shipping +$11.54.",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267808154974",
+      "source": "ebay",
+      "notes": "OUTLIER: $125.00 vs ~$74.99 median for the rest. Used with box & manual per title; or Best Offer (not accepted); free shipping.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 59.99,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880020367214",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); shipping +$8.99.",
+      "flags": []
+    },
+    {
+      "price": 69.99,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/920008383426",
+      "source": "ebay",
+      "notes": "Title ends \"- WORKS\"; or Best Offer (not accepted); shipping +$12.99. Identical title to 327386581584.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 62.99,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/900012107882",
+      "source": "ebay",
+      "notes": "Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 79.99,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327386581584",
+      "source": "ebay",
+      "notes": "Title ends \"- WORKS\"; shipping +$19.99. Identical title to 920008383426.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 85.0,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336793565087",
+      "source": "ebay",
+      "notes": "Includes Mobilinkd TNC-3 APRS per title; shipping +$8.36.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 149.95,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/277948092305",
+      "source": "ebay",
+      "notes": "OUTLIER: $149.95 vs ~$74.99 median for the rest. Title \"Very Good - See Desc\"; or Best Offer (not accepted); free shipping.",
+      "flags": []
+    },
+    {
+      "price": 89.99,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127689853497",
+      "source": "ebay",
+      "notes": "w/ Mic per title; shipping +$8.67.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
