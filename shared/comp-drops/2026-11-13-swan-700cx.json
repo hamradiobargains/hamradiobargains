@@ -1,0 +1,27 @@
+{
+  "model": "Swan 700CX",
+  "slug": "swan-700cx",
+  "searched_at": "2026-11-13T19:03:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep, eBay sold search 'swan 700cx' (3 of 15). 1 kept, median 600.0 - THIN. Dropped: Best offer accepted 1 (257698166057 $155, Parts Only 'Untried', +$54.95). Swan 500CX/500C/other sales and manuals/screws/display kit excluded as different models or accessories.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784772",
+    "site": "qth",
+    "ask": 550,
+    "shipping": 50
+  },
+  "comps": [
+    {
+      "price": 600.0,
+      "sold_date": "2026-11-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820203950311",
+      "source": "ebay",
+      "notes": "shipping +$80.0; title 'Swan 700CX Ham Transceiver With Power Supply And Working...'; or Best Offer, not marked accepted",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
