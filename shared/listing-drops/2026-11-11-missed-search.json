@@ -5,7 +5,7 @@
     {
       "term": "tc70-10",
       "searched_at": "2026-11-11T08:38:13-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "likely_model": "PC Electronics TC70-10",
       "status": "worked",
       "worked_at": "2026-11-11",
@@ -14,7 +14,7 @@
     {
       "term": "pc electronics tc70-10",
       "searched_at": "2026-11-11T08:38:02-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "likely_model": "PC Electronics TC70-10",
       "status": "worked",
       "worked_at": "2026-11-11",
@@ -23,7 +23,7 @@
     {
       "term": "felx 6500",
       "searched_at": "2026-11-11T13:47:21-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "likely_model": "FlexRadio FLEX-6500",
       "result": "2026-11-13-flexradio-flex-6500.json, 1 comp (low confidence; typo for FLEX-6500)",
       "status": "worked",
@@ -32,7 +32,7 @@
     {
       "term": "qro 2500",
       "searched_at": "2026-11-11T13:46:15-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "likely_model": "QRO Technologies HF-2500",
       "result": "2026-11-13-qro-technologies-hf-2500.json, 1 comp (low confidence)",
       "status": "worked",
@@ -41,7 +41,7 @@
     {
       "term": "yaesu ft-816",
       "searched_at": "2026-11-11T12:14:16-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "likely_model": "Yaesu FT-817ND",
       "result": "2026-11-13-yaesu-ft-817nd.json, 15 comps (no FT-816 exists; deposited under Yaesu FT-817ND per variant rule; 1 outlier flagged)",
       "status": "worked",
@@ -50,12 +50,16 @@
     {
       "term": "yaesu ft-815",
       "searched_at": "2026-11-11T12:14:11-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "status": "worked",
+      "worked_at": "2026-11-13",
+      "result": "no comps for FT-815 (no such model; eBay shows only other FT models, mostly FT-817/817ND). Same visitor typed yaesu ft-816 5 s later, already priced as Yaesu FT-817ND in 2026-11-13-yaesu-ft-817nd.json (15 comps); no new deposit to avoid duplicating those comps",
+      "likely_model": "Yaesu FT-817ND"
     },
     {
       "term": "kantronics",
       "searched_at": "2026-11-11T11:41:16-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "likely_model": "Kantronics KAM",
       "status": "worked",
       "worked_at": "2026-11-12",
@@ -64,7 +68,7 @@
     {
       "term": "kam",
       "searched_at": "2026-11-11T11:41:13-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "likely_model": "Kantronics KAM",
       "status": "worked",
       "worked_at": "2026-11-12",
@@ -73,7 +77,7 @@
     {
       "term": "pk232",
       "searched_at": "2026-11-11T11:41:10-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "likely_model": "AEA PK-232",
       "status": "worked",
       "worked_at": "2026-11-12",
@@ -82,25 +86,25 @@
     {
       "term": "tr-2600",
       "searched_at": "2026-11-11T11:40:39-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "likely_model": "Kenwood TR-2600",
       "status": "worked",
       "worked_at": "2026-11-12",
-      "result": "2026-11-12-kenwood-tr-2600a.json, 3 comps (low confidence; deposited under Kenwood TR-2600A per variant rule \u2014 no sales titled plain TR-2600)"
+      "result": "2026-11-12-kenwood-tr-2600a.json, 3 comps (low confidence; deposited under Kenwood TR-2600A per variant rule — no sales titled plain TR-2600)"
     },
     {
       "term": "tr2600",
       "searched_at": "2026-11-11T11:40:33-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "likely_model": "Kenwood TR-2600",
       "status": "worked",
       "worked_at": "2026-11-12",
-      "result": "2026-11-12-kenwood-tr-2600a.json, 3 comps (low confidence; deposited under Kenwood TR-2600A per variant rule \u2014 no sales titled plain TR-2600)"
+      "result": "2026-11-12-kenwood-tr-2600a.json, 3 comps (low confidence; deposited under Kenwood TR-2600A per variant rule — no sales titled plain TR-2600)"
     },
     {
       "term": "ic-7760",
       "searched_at": "2026-11-11T11:40:03-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "likely_model": "Icom IC-7760",
       "status": "worked",
       "worked_at": "2026-11-12",
