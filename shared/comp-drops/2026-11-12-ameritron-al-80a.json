@@ -1,0 +1,25 @@
+{
+  "model": "Ameritron AL-80A",
+  "slug": "ameritron-al-80a",
+  "searched_at": "2026-11-12T18:48:40-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Ameritron AL-80A'. 1 kept comp - THIN. Excluded: AL-80B amplifier sales (267781606466 $999.99 Sep 10; 880079033079 $2,499.00 Nov 11, Open Box) - different model; accessories/parts (AL-80A relay, LED meter kit, screw kit, dust cover). 0 BOA dropped. searched_at is approximate (sweep ran about 18:46-18:58 ET). Kept median 1100.0 (1 kept).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784720",
+    "site": "qth",
+    "ask": 850,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1100.0,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227465153403",
+      "source": "ebay",
+      "notes": "Fixed price '$1,100.00 or Best Offer' (not marked accepted); shipping +$80.16 delivery.",
+      "flags": []
+    }
+  ]
+}
