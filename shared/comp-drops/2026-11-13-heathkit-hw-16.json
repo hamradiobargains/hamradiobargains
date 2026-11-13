@@ -1,0 +1,69 @@
+{
+  "model": "Heathkit HW-16",
+  "slug": "heathkit-hw-16",
+  "searched_at": "2026-11-13T18:02:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (Heathkit HW-16), above \"Results matching fewer words\". 5 kept. Dropped 4 best-offer-accepted (336588446382, 307261204638, 278409245579, 366571316358 - three of these were also Parts Only), dropped 1 parts-only (168805351726). Excluded accessories/parts (rebuild kit, tube kit, panel overlay, dial, HG-10 VFO). 298585272705 has the same title as the trigger listing - possible earlier sale of the same unit.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/860141581070",
+    "site": "ebay",
+    "ask": 175.0,
+    "shipping": 95.03
+  },
+  "comps": [
+    {
+      "price": 200.0,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366653186122",
+      "source": "ebay",
+      "notes": "Buy It Now; title includes original manual; free shipping.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168784415023",
+      "source": "ebay",
+      "notes": "Buy It Now; title \"Very nice condition\"; shipping +$33.14.",
+      "flags": []
+    },
+    {
+      "price": 165.0,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398391341072",
+      "source": "ebay",
+      "notes": "Buy It Now; title says Untested; shipping +$22.61.",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 93.37,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298637418561",
+      "source": "ebay",
+      "notes": "Auction, 5 bids; title \"**WORKS** & Manual\"; shipping +$56.49.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298585272705",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not best-offer-accepted); title identical to trigger listing 860141581070 (\"Tri-band CW Transceiver in Tested and Working Condition\"); shipping +$37.90.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    }
+  ]
+}
