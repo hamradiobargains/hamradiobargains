@@ -1,0 +1,353 @@
+{
+  "model": "Tigertronics SignaLink USB",
+  "slug": "tigertronics-signalink-usb",
+  "searched_at": "2026-11-13T18:02:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (Tigertronics SignaLink USB), no \"fewer words\" section. Kept all SignaLink USB (SLUSB) units incl. factory jumper variants (SLUSB6PM/8PD/13I/13K/HTW) - same unit, different pre-installed jumper. Trigger listing is unit only; many comps include cables (flagged extras_included). Dropped 10 best-offer-accepted (117500843395, 960059143204, 206650921315, 287663927188, 158281683682, 307135899789, 168626136397, 800562444776, 168626137229, 206490959496). Dropped 2 parts-only (307202248803, 117350918656). Excluded 4 accessories (SLMOD jumper modules, SLCABHTY cable). OUTLIERS: $109.46 (116080794352), $109.46 (116072783150), $109.46 (116080692367), $109.46 (116157635434), $120.00 (366503523376).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/336896319014",
+    "site": "ebay",
+    "ask": 79.99,
+    "shipping": 6.95
+  },
+  "comps": [
+    {
+      "price": 79.95,
+      "sold_date": "2026-11-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307202328812",
+      "source": "ebay",
+      "notes": "With cables per title; shipping +$9.95.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 89.99,
+      "sold_date": "2026-11-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377406466257",
+      "source": "ebay",
+      "notes": "With 6-pin mini-DIN data port cable per title; or Best Offer (not accepted); shipping +$10.00.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 51.0,
+      "sold_date": "2026-11-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880086480293",
+      "source": "ebay",
+      "notes": "Auction, 22 bids; w/ cables per title; shipping +$12.95.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 87.99,
+      "sold_date": "2026-11-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127983154059",
+      "source": "ebay",
+      "notes": "w/ cables per title; shown $87.99 with $99.99 struck through; shipping +$8.37.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 60.0,
+      "sold_date": "2026-11-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880050929018",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); shipping +$7.68.",
+      "flags": []
+    },
+    {
+      "price": 85.0,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/900015549333",
+      "source": "ebay",
+      "notes": "With SLCAB13K cable and Kenwood jumper, TESTED per title; or Best Offer (not accepted); shipping +$7.76.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 109.46,
+      "sold_date": "2026-10-30",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/116080794352",
+      "source": "ebay",
+      "notes": "OUTLIER: $109.46 vs ~$69.47 median for the rest. SLUSB13I variant; shown $109.46 with $149.95 struck through; free shipping.",
+      "flags": []
+    },
+    {
+      "price": 59.0,
+      "sold_date": "2026-10-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940034015228",
+      "source": "ebay",
+      "notes": "Shipping +$5.73.",
+      "flags": []
+    },
+    {
+      "price": 77.0,
+      "sold_date": "2026-10-25",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/840049499241",
+      "source": "ebay",
+      "notes": "SLUSB8PD variant; free shipping.",
+      "flags": []
+    },
+    {
+      "price": 49.99,
+      "sold_date": "2026-10-24",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/117475948342",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; title says Used Untested; shipping +$6.83.",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 85.0,
+      "sold_date": "2026-10-23",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/880038867774",
+      "source": "ebay",
+      "notes": "Title names SLCAB6PM cable; free shipping.",
+      "flags": []
+    },
+    {
+      "price": 69.99,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227562986445",
+      "source": "ebay",
+      "notes": "w/ SLCAB13K Kenwood cable per title; shipping +$8.76.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 60.0,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267811792251",
+      "source": "ebay",
+      "notes": "Shipping +$6.66.",
+      "flags": []
+    },
+    {
+      "price": 80.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267796555503",
+      "source": "ebay",
+      "notes": "SLUSB13K variant; free shipping.",
+      "flags": []
+    },
+    {
+      "price": 70.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366695814683",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; shipping +$5.68.",
+      "flags": []
+    },
+    {
+      "price": 55.0,
+      "sold_date": "2026-10-02",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/206103686701",
+      "source": "ebay",
+      "notes": "Title says Used Untested; shipping +$17.20.",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 109.46,
+      "sold_date": "2026-09-29",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/116072783150",
+      "source": "ebay",
+      "notes": "OUTLIER: $109.46 vs ~$69.47 median for the rest. SLUSB6PM variant; free shipping.",
+      "flags": []
+    },
+    {
+      "price": 62.99,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117316721555",
+      "source": "ebay",
+      "notes": "Shipping +$21.10.",
+      "flags": []
+    },
+    {
+      "price": 75.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820164367208",
+      "source": "ebay",
+      "notes": "w/ cable per title; shipping +$6.83.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 38.0,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327365891107",
+      "source": "ebay",
+      "notes": "Auction, 2 bids; shipping +$8.38.",
+      "flags": []
+    },
+    {
+      "price": 54.99,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407223229445",
+      "source": "ebay",
+      "notes": "Shipping +$6.99.",
+      "flags": []
+    },
+    {
+      "price": 109.46,
+      "sold_date": "2026-09-19",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/116080692367",
+      "source": "ebay",
+      "notes": "OUTLIER: $109.46 vs ~$69.47 median for the rest. SLUSBHTW variant; free shipping.",
+      "flags": []
+    },
+    {
+      "price": 59.99,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158281657784",
+      "source": "ebay",
+      "notes": "Shipping +$6.89.",
+      "flags": []
+    },
+    {
+      "price": 109.46,
+      "sold_date": "2026-09-16",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/116157635434",
+      "source": "ebay",
+      "notes": "OUTLIER: $109.46 vs ~$69.47 median for the rest. SLUSB13K variant; free shipping.",
+      "flags": []
+    },
+    {
+      "price": 120.0,
+      "sold_date": "2026-09-16",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/366503523376",
+      "source": "ebay",
+      "notes": "OUTLIER: $120.00 vs ~$69.47 median for the rest. Shipping +$13.50.",
+      "flags": []
+    },
+    {
+      "price": 79.99,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257675127642",
+      "source": "ebay",
+      "notes": "Shipping +$9.99.",
+      "flags": []
+    },
+    {
+      "price": 65.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206534566371",
+      "source": "ebay",
+      "notes": "Title \"(nice)\"; shipping +$12.00.",
+      "flags": []
+    },
+    {
+      "price": 52.08,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307151543084",
+      "source": "ebay",
+      "notes": "Auction, 2 bids; multiple modules and mic connector per title; shipping +$22.14.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 69.95,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117383800498",
+      "source": "ebay",
+      "notes": "Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 60.0,
+      "sold_date": "2026-08-24",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/188788058437",
+      "source": "ebay",
+      "notes": "Auction, 2 bids; 6PM variant; shipping +$8.54.",
+      "flags": []
+    },
+    {
+      "price": 54.99,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206495542039",
+      "source": "ebay",
+      "notes": "Shipping +$6.68.",
+      "flags": []
+    },
+    {
+      "price": 69.0,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158150634298",
+      "source": "ebay",
+      "notes": "Shipping +$9.00.",
+      "flags": []
+    },
+    {
+      "price": 55.0,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227484493019",
+      "source": "ebay",
+      "notes": "SLUSB6PM variant; shipping +$6.57.",
+      "flags": []
+    },
+    {
+      "price": 85.0,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267740809221",
+      "source": "ebay",
+      "notes": "Shipping +$12.00.",
+      "flags": []
+    },
+    {
+      "price": 50.0,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278263839947",
+      "source": "ebay",
+      "notes": "Auction, 3 bids; with Kenwood cable per title; shipping +$19.80.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
