@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-13",
+  "ran_at": "2026-11-13T17:52:19-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670) browse page, Buy It Now filter, sorted Time: newly listed, page 1 (~60 cards); signed in as Leo, no challenges. Window since previous ebay run 2026-11-12T17:53:05-05:00 (browse cards show no listing times; newest-first order used). Item descriptions not read; condition_notes use title, eBay condition label, seller notes and returns policy. Seller rule: all 9 checked passed (lowest: MFJ-926B seller 96.4% / 371 ratings). Not picked: parts-only units (Yaesu FT-1000MP, B&W 6100, Heathkit HW-32A, HW-5400 tech special, Kenwood VFO-520, Heathkit GW-31, Icom AG-25 untested), CB/10m amplifiers (Texas Star, Palomar, Magnum, Pride, Silver Eagle, Galaxy), receivers, test equipment/meters/dummy loads/analyzers, switches, accessories, general electronics, auction-format cards (AnyTone AT-779UV, Collins 75S-1). Cap reached at 8; Yaesu FT-2500M (227613102430, $62.75 + $12.70, no mic, seller 99.7% / 10616 ratings) passed the seller rule but was left out at the cap - it would have been a ledger hit. Ledger: 0 hits (TM-V71A, FT-8800R entries in ledger not used - listings are TM-V71 and FT-8800/H, different models); 8 misses -> 8 eBay sold searches (TM-V71 and FT-8800 pages each loaded twice: first pass used an over-broad accessory filter, re-read with it removed).",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/287727965218",
+      "site": "ebay",
+      "title": "Kenwood TM-V71 VHF UHF Ham Radio Transceiver Cross-Band Repeater 20W Dual Band",
+      "price": 447.0,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "eBay condition: Used. Seller notes: 'Used condition with no noticeable scratches or stains. Repaired and tested for operation. Modified for expanded reception and cross-band repeater operation.' Japanese-market TM-V71 (not TM-V71A), ships free from Japan, import fees included. Fixed price or Best Offer. 30-day returns, seller pays return shipping.",
+      "work_flag": "Repaired and tested for operation. Modified for expanded reception and cross-band repeater operation.",
+      "seller_feedback": "100% (278 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/287727946713",
+      "site": "ebay",
+      "title": "YAESU FT-8800/H Dual Band Mobile Ham Radio Transceiver w/ Original Box VHF UHF",
+      "price": 613.42,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "eBay condition: Used. Seller notes: 'Used condition with scratches, dirt, and other signs of use. The unit functions properly. The hand microphone's coiled cable was replaced in February 2024.' Includes original box. Japanese-market FT-8800/H (not FT-8800R), ships free from Japan, import fees included. Fixed price or Best Offer. 30-day returns, seller pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (278 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/860141581070",
+      "site": "ebay",
+      "title": "Heathkit HW-16 Tri-band CW Transceiver in Tested and Working Condition",
+      "price": 175.0,
+      "shipping": 95.03,
+      "found_at": "2026-11-13",
+      "condition_notes": "eBay condition: Used. Title says tested and working. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (8090 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/336896319014",
+      "site": "ebay",
+      "title": "Tigertronics SignaLink USB SLUSB Digital Mode Interface Ham Radio - Unit Only",
+      "price": 79.99,
+      "shipping": 6.95,
+      "found_at": "2026-11-13",
+      "condition_notes": "eBay condition: Used. Unit only (no cables/jumpers per title). Fixed price or Best Offer. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (108 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/377643277347",
+      "site": "ebay",
+      "title": "Icom IC-PW1 HF+50MHz Ham Radio Linear KW Amplifier",
+      "price": 2699.95,
+      "shipping": 99.95,
+      "found_at": "2026-11-13",
+      "condition_notes": "eBay condition: Used. No condition detail in title. 30-day returns, buyer pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "99.8% (39707 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/128192993843",
+      "site": "ebay",
+      "title": "Signal One CX-7A Transceiver. Fully restored. New caps. New 8072 final tube.",
+      "price": 3500.0,
+      "shipping": 99.0,
+      "found_at": "2026-11-13",
+      "condition_notes": "eBay condition: Used. Title: fully restored, new caps, new 8072 final tube. Seller notes: 'The case was damaged but has been repaired with Drake screws. The display can be a little jumpy between frequencies.' Seller does not accept returns.",
+      "work_flag": "The case was damaged but has been repaired with Drake screws. The display can be a little jumpy between frequencies. Seller does not accept returns.",
+      "seller_feedback": "100% (1228 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/257851047160",
+      "site": "ebay",
+      "title": "MFJ-926B, REMOTE AUTO TUNER, 200W, HF, W/BIAS-T",
+      "price": 235.0,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "eBay condition: Used. Seller notes: 'Factory Tested to normal specs, has scratches and slight cosmetic blemishes'. Seller is mfjenterprises73. 30-day returns, buyer pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "96.4% (371 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/840125333404",
+      "site": "ebay",
+      "title": "Kenwood TM-261A 2m 144MHz VHF FM Mobile Ham Transceiver w/ Mic Manual Box (NICE)",
+      "price": 149.99,
+      "shipping": 15.35,
+      "found_at": "2026-11-13",
+      "condition_notes": "eBay condition: Used. Includes mic, manual and box per title. Fixed price or Best Offer. 30-day returns, seller pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (15588 ratings)"
+    }
+  ]
+}
