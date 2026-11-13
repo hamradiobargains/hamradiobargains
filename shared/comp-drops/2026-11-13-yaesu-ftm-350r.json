@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FTM-350R",
+  "slug": "yaesu-ftm-350r",
+  "searched_at": "2026-11-13T15:02:06-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "no comps. Of 16 page-1 results, none was a complete working FTM-350R sold at a usable price: excluded 389871892095 and 298541656170 (front panel / control head only - parts, and 389871892095 also best offer accepted), dropped 1 parts-only (128118871461, Parts Only, $238.50, 5 bids), excluded 278384344098 (FTM-350AR - different model, also best offer accepted). Counts: dropped 2 best-offer-accepted (one head-only, one FTM-350AR), 1 parts-only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784775",
+    "site": "qth",
+    "ask": 250.0,
+    "shipping": 0
+  },
+  "comps": []
+}
