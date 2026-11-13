@@ -1,0 +1,15 @@
+{
+  "model": "Icom AH-2B",
+  "slug": "icom-ah-2b",
+  "searched_at": "2026-11-13T19:13:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep, eBay sold search 'icom ah-2b' (13 of 15). 0 qualifying: page 1 held no AH-2B sales. AH-2 tuner sales (178291438369 $254.96 Aug 29 free; 137661952012 $75 BOA; 365502047593 $69.99 parts control unit; 147605950084 IC-735 w/ AH-2 parts BOA) are a different item and were not used. Tuner cables/controllers excluded.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784763",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": []
+}
