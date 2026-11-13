@@ -1,0 +1,15 @@
+{
+  "model": "Mirage D-100 TVN",
+  "slug": "mirage-d-100-tvn",
+  "searched_at": "2026-11-12T18:54:47-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Mirage D-100 TVN'. 0 results. 0 comps. searched_at is approximate (sweep ran about 18:46-18:58 ET).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1780006",
+    "site": "qth",
+    "ask": 225,
+    "shipping": 0
+  },
+  "comps": []
+}
