@@ -1,0 +1,99 @@
+{
+  "model": "Kenwood TS-570DG",
+  "slug": "kenwood-ts-570dg",
+  "searched_at": "2026-11-12T18:49:21-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Kenwood TS-570DG'. Ad says 'Kenwood 570D(G)' with 'D(G) on the rear serial# tag'. Set mixes titles 'TS-570D' (7) and 'TS-570DG' (2: 237069446903, 237025472138, both $550.00) - ledger keeps TS-570D separate and identity of D vs DG is not certain, so each comp's notes give the title; DG-only median is 550.00 (2 sales). 9 kept. Dropped: 3 'Best offer accepted' (298667013333 $439.95 Sep 18; 278378966573 $575.00 Sep 18; 237032582315 $489.95 Aug 27); 1 'Technician Special' (298619888377 $239.95 Aug 27, listed 'or Best Offer' - treated as for-repair/as-is, parts-only list: 298619888377 $239.95); 0 'Read Description'. Excluded: TS-570S / TS-570S(G) (6m model, different radio), YK-88C-1 filter (227257454835 $69.95). No outliers. searched_at is approximate (sweep ran about 18:46-18:58 ET). Kept median 405.0 (9 kept).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784704",
+    "site": "qth",
+    "ask": 500,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 367.0,
+      "sold_date": "2026-10-22",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/327406559212",
+      "source": "ebay",
+      "notes": "Auction final bid, 46 bids; titled 'TS-570D'; shipping +$31.54.",
+      "flags": []
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198700168899",
+      "source": "ebay",
+      "notes": "Auction final bid, 1 bid; titled 'TS-570D' w/ power cord and MC-60 mic, 'Tested'; free shipping.",
+      "flags": []
+    },
+    {
+      "price": 405.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198671323460",
+      "source": "ebay",
+      "notes": "Auction final bid, 2 bids; titled 'TS-570D' w/ power cord and MC-60 mic, 'Tested'; shipping +$22.61.",
+      "flags": []
+    },
+    {
+      "price": 499.99,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188983705251",
+      "source": "ebay",
+      "notes": "Fixed price '$499.99 or Best Offer' (not marked accepted); titled 'TS-570D' w/ mic and DRU-3A digital voice recorder; shipping +$75.60.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 356.77,
+      "sold_date": "2026-09-22",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/188934017206",
+      "source": "ebay",
+      "notes": "Auction final bid, 10 bids; titled 'TS 570D'; shipping not shown.",
+      "flags": []
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237069446903",
+      "source": "ebay",
+      "notes": "Fixed price; titled 'TS 570DG' + mic + power cord; shipping +$3.85.",
+      "flags": []
+    },
+    {
+      "price": 585.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407122489473",
+      "source": "ebay",
+      "notes": "Fixed price; titled 'TS-570D' - title says 'NO POWER PLUG'; free shipping.",
+      "flags": []
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237025472138",
+      "source": "ebay",
+      "notes": "Fixed price; titled 'TS 570DG' + mic + power cord; shipping +$3.85.",
+      "flags": []
+    },
+    {
+      "price": 362.9,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257706544562",
+      "source": "ebay",
+      "notes": "Fixed price; titled 'TS 570d'; shipping not shown.",
+      "flags": []
+    }
+  ]
+}
