@@ -1,0 +1,54 @@
+{
+  "model": "Kenwood TM-D710A",
+  "slug": "kenwood-tm-d710a",
+  "searched_at": "2026-11-12T18:50:02-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Kenwood TM-710A' (the ad's own wording: 'Kenwood TM-710A V2 Like New 50 watt VHF/UHF'; no Kenwood model is named TM-710A on eBay - the APRS/EchoLink/SmartBeaconing text matches the TM-D710A). IDENTITY UNCERTAIN: comps filed as TM-D710A only (titles 'TM-D710A'); TM-D710GA/G (GPS-equipped; 307225043174 $535.00 Oct 11 and 900054417127 $495.00 Oct 31, both 'or Best Offer'), TM-D700 series, TM-701, TM-721, TM-733 sales excluded as different models. Ledger 'KENWOOD TM-D710GA' (count 9, 2026-10-11) is a different model and was not used. 4 kept - solid. 0 BOA dropped from the TM-D710A set (the only BOA seen was a TM-D700). No outliers. searched_at is approximate (sweep ran about 18:46-18:58 ET). Kept median 504.5 (4 kept).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784702",
+    "site": "qth",
+    "ask": 550,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 510.0,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307148305517",
+      "source": "ebay",
+      "notes": "Fixed price; titled 'TM-D710A Dual Band with Extras'; shipping +$25.00.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 499.0,
+      "sold_date": "2026-09-17",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/188939609592",
+      "source": "ebay",
+      "notes": "Fixed price; titled 'TM-D710A'; shipping +$22.70.",
+      "flags": []
+    },
+    {
+      "price": 489.95,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298619910386",
+      "source": "ebay",
+      "notes": "Fixed price '$489.95 or Best Offer' (not marked accepted); shipping +$22.45.",
+      "flags": []
+    },
+    {
+      "price": 599.0,
+      "sold_date": "2026-08-18",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/188784232514",
+      "source": "ebay",
+      "notes": "Fixed price; titled 'TM-D710A' w/ box and mic; shipping +$22.70.",
+      "flags": []
+    }
+  ]
+}
