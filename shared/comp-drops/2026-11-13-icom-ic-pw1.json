@@ -1,0 +1,25 @@
+{
+  "model": "Icom IC-PW1",
+  "slug": "icom-ic-pw1",
+  "searched_at": "2026-11-13T18:02:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (Icom IC-PW1), above \"Results matching fewer words\". thin - 1 comp. Dropped 1 best-offer-accepted (237050031179, shown $3,350, with Icom extras). Excluded 1 service manual. Dropped 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/377643277347",
+    "site": "ebay",
+    "ask": 2699.95,
+    "shipping": 99.95
+  },
+  "comps": [
+    {
+      "price": 2695.0,
+      "sold_date": "2026-11-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227593352827",
+      "source": "ebay",
+      "notes": "Fixed price; shipping +$129.00.",
+      "flags": []
+    }
+  ]
+}
