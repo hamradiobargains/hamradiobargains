@@ -1,0 +1,15 @@
+{
+  "model": "National HRO-500",
+  "slug": "national-hro-500",
+  "searched_at": "2026-11-12T18:51:23-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'National HRO-500'. 1 result: 377487055208 National HRO-500 + LF-10 preselector, Pre-Owned, sold 2026-09-11 $1,199.90 (+$59.99 delivery) was 'Best offer accepted' - DROPPED (1 BOA dropped). 0 kept comps. searched_at is approximate (sweep ran about 18:46-18:58 ET).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784690",
+    "site": "qth",
+    "ask": 750,
+    "shipping": 0
+  },
+  "comps": []
+}
