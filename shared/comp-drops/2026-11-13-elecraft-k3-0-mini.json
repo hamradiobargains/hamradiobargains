@@ -1,0 +1,27 @@
+{
+  "model": "Elecraft K3/0 Mini",
+  "slug": "elecraft-k3-0-mini",
+  "searched_at": "2026-11-13T05:57:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"Elecraft K3/0 Mini\", page 1: 1 kept — thin. Dropped 0 best-offer-accepted, 0 parts-only. No outliers (single comp).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629595",
+    "site": "eham",
+    "ask": 855.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 575.0,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137755760888",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Title: \"# 0041. W Microphone.\" +$25.00 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
