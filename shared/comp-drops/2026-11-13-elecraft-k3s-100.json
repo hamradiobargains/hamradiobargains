@@ -1,0 +1,15 @@
+{
+  "model": "Elecraft K3S/100",
+  "slug": "elecraft-k3s-100",
+  "searched_at": "2026-11-13T05:57:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"Elecraft K3S\", page 1 (66 results): zero K3S transceiver sales — results were K3/K3S options, filters, mics, KPOD, P3 and plain K3/K3/100 radios (different model, excluded). Thin (none). Ledger has ELECRAFT K3S/100 count 1 dated 2026-08-14 (miss).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629594",
+    "site": "eham",
+    "ask": 2775.0,
+    "shipping": 0
+  },
+  "comps": []
+}
