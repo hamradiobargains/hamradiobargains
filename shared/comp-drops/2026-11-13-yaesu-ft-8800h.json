@@ -1,0 +1,27 @@
+{
+  "model": "Yaesu FT-8800/H",
+  "slug": "yaesu-ft-8800h",
+  "searched_at": "2026-11-13T18:02:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (Yaesu FT-8800). thin - 1 comp. Exact model only: FT-8800H / FT-8800/H; FT-8800R and unsuffixed FT-8800 sales excluded as not certainly the same model (ledger YAESU FT-8800R not used). Excluded accessories (mics, cables, switches, control heads). Dropped 0 best-offer-accepted among exact-model sales.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/287727946713",
+    "site": "ebay",
+    "ask": 613.42,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 340.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236797267030",
+      "source": "ebay",
+      "notes": "Buy It Now; Japan-located seller; title \"FT-8800H ... + Mic\"; shipping +$20.00.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
