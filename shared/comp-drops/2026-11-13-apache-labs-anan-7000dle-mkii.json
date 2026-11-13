@@ -1,0 +1,15 @@
+{
+  "model": "Apache Labs ANAN-7000DLE MKII",
+  "slug": "apache-labs-anan-7000dle-mkii",
+  "searched_at": "2026-11-13T14:58:58-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "no comps - eBay sold search for \"anan 7000dle mkii\" returned \"No exact matches found\"; page 1 showed only unrelated items (LG dryer parts, power conditioner). dropped 0 best-offer-accepted, 0 parts-only. Listing ask is plus shipping (amount not stated), shipping recorded as 0.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784783",
+    "site": "qth",
+    "ask": 2425.0,
+    "shipping": 0
+  },
+  "comps": []
+}
