@@ -1,0 +1,63 @@
+{
+  "model": "Yaesu FT-70D",
+  "slug": "yaesu-ft-70d",
+  "searched_at": "2026-11-12T18:56:49-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Yaesu FT-70D'. 56 results on page 1; FT-70D radios kept = 5 (solid). Dropped: 7 'Best offer accepted' (117498853919 $115.00, 820243558493 $119.00, 257748684852 $160.00, 407209908825 $164.99, 800643137730 $150.00, 257712655329 $175.00, 257678616724 $160.00). FT-70DR sales (e.g., 117497003467 $199.99, 128159542446 $149.99, 820276851860 $150.00, 117485358215 $149.99) left out - ledger keeps FT-70D and FT-70DR separate and identity is not certain; chargers, batteries, cases, cables and a lot with an FTM-100D base (137802571403) excluded. No outliers. Ad price is $185 plus half shipping. searched_at is approximate (sweep ran about 18:46-18:58 ET). Kept median 160.0 (5 kept).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784660",
+    "site": "qth",
+    "ask": 185,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 125.0,
+      "sold_date": "2026-11-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237176838062",
+      "source": "ebay",
+      "notes": "Fixed price; shipping +$6.98.",
+      "flags": []
+    },
+    {
+      "price": 231.98,
+      "sold_date": "2026-09-11",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/204562158042",
+      "source": "ebay",
+      "notes": "Fixed price '$231.98 or Best Offer' (not marked accepted); shipping +$50.00.",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178465645576",
+      "source": "ebay",
+      "notes": "Fixed price '$125.00 or Best Offer' (not marked accepted); w/ Diamond SRH antenna; shipping +$11.03.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168629154533",
+      "source": "ebay",
+      "notes": "Fixed price; shipping +$28.24.",
+      "flags": []
+    },
+    {
+      "price": 199.99,
+      "sold_date": "2026-08-22",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/117361440425",
+      "source": "ebay",
+      "notes": "Auction final bid, 2 bids; shipping +$12.70.",
+      "flags": []
+    }
+  ]
+}
