@@ -1,0 +1,25 @@
+{
+  "model": "Kenwood TM-V71",
+  "slug": "kenwood-tm-v71",
+  "searched_at": "2026-11-13T18:02:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (Kenwood TM-V71). thin - 1 comp. Exact model only: Japanese-market TM-V71; the many TM-V71A / TM-V71E sales on the page were excluded as different models (the ledger has a separate KENWOOD TM-V71A entry). Excluded accessories (cables, mounts, backplates, programming cables). Dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/287727965218",
+    "site": "ebay",
+    "ask": 447.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 648.66,
+      "sold_date": "2026-11-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366713629409",
+      "source": "ebay",
+      "notes": "Buy It Now; Japan-located seller; title says Wideband RX; shown $616.23 with coupon; shipping +$100.00 (import fees included).",
+      "flags": []
+    }
+  ]
+}
