@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio Maestro",
+  "slug": "flexradio-maestro",
+  "searched_at": "2026-11-13T19:01:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep, eBay sold search 'flexradio maestro' (1 of 15). 0 kept. Page 1 held 3 FlexRadio Maestro sales, all dropped: 206508956367 $599.99 (Best offer accepted; also Parts Only, 'UNTESTED NO CABLES/BATTERY', +$22.36), 398144436249 $1,099.99 (Best offer accepted; titled 'READ DESC', free), 158320491411 $939.68 (Best offer accepted, +$23.76). Dropped counts: BOA 3, parts-only 1 (206508956367), Read Description 1 (398144436249). iDatalink Maestro car dash kits excluded (not the radio accessory). Identity caveat: ad is 'Maestro C'; no sold titles distinguish Maestro vs Maestro C. Zero usable comps. Ledger entry FLEXRADIO MAESTRO (2026-09-15, count 2) was stale, so a search was run.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784782",
+    "site": "qth",
+    "ask": 1400,
+    "shipping": 0
+  },
+  "comps": []
+}
