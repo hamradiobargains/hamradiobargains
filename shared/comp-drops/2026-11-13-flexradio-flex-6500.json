@@ -1,0 +1,19 @@
+{
+  "model": "FlexRadio FLEX-6500",
+  "slug": "flexradio-flex-6500",
+  "searched_at": "2026-11-13T07:12:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "From missed search: shared/listing-drops/2026-11-11-missed-search.json, visitor typed 'felx 6500' (typo for FLEX-6500). eBay sold search 'flexradio flex-6500' (LH_Sold/LH_Complete, signed in as Leo, no challenge): 3 exact-section results, 1 genuine FLEX-6500 kept. Excluded: 2 FlexRadio 6600M sales (other model); everything in the 'results matching fewer words' section (FLEX-6600 best-offer-accepted etc.). Second search 'flex 6500' returned only unrelated noise (LED strips, APX6500 parts, solar controllers). Low confidence: single comp.",
+  "comps": [
+    {
+      "price": 2197.14,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-owned, boxed, SmartSDR v4.2.2",
+      "url": "https://www.ebay.com/itm/147612986909",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; UK seller; price as shown in USD; +$187.24 shipping estimate not included",
+      "flags": []
+    }
+  ]
+}

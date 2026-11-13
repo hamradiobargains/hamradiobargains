@@ -1,0 +1,155 @@
+{
+  "model": "Yaesu FT-817ND",
+  "slug": "yaesu-ft-817nd",
+  "searched_at": "2026-11-13T07:12:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "From missed search: shared/listing-drops/2026-11-11-missed-search.json, visitor typed 'yaesu ft-816' (no FT-816 exists; also typed 'yaesu ft-815' five seconds earlier). Variant rule: eBay's own matching for 'yaesu ft-816' returned the FT-817 family; FT-817ND is the dominant, unambiguous model there, so comps are deposited under Yaesu FT-817ND, never under 'FT-816'. eBay sold search 'yaesu ft-816' (signed in as Leo, no challenge), 40 exact-section results, 15 FT-817ND kept. Excluded: parts-only (FT-817 $495 9 bids 11/12; FT-817ND $610 48 bids 10/27; FT-817 $299.99 10/24); best-offer-accepted (FT-817ND $800 11/9, $1,199 10/9; FT-817 9/24, 9/6, 8/27; FT-818ND 9/27; FT-897 10/23); identity calls kept separate, NOT merged: 8 sales titled plain FT-817 without ND (Yaesu FT-817 ledger name) and 2 FT-818ND sales; 'Ft 817/818' $13.22 accessory listings; fewer-words section. Outlier kept and flagged: 188818000712 $140 open box vs cluster ~$650-1,300; median $820 with it, $833.51 without.",
+  "comps": [
+    {
+      "price": 760.0,
+      "sold_date": "2026-11-05",
+      "condition": "Pre-owned, used, working",
+      "url": "https://www.ebay.com/itm/206655857134",
+      "source": "ebay",
+      "notes": "Auction, 2 bids",
+      "flags": []
+    },
+    {
+      "price": 1300.0,
+      "sold_date": "2026-11-04",
+      "condition": "Unused (listed Brand New), US version",
+      "url": "https://www.ebay.com/itm/198769699177",
+      "source": "ebay",
+      "notes": "Buy It Now",
+      "flags": []
+    },
+    {
+      "price": 815.0,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-owned, used, working",
+      "url": "https://www.ebay.com/itm/940007355933",
+      "source": "ebay",
+      "notes": "Auction, 49 bids",
+      "flags": []
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-owned, complete station",
+      "url": "https://www.ebay.com/itm/227548012933",
+      "source": "ebay",
+      "notes": "Auction, 2 bids; includes tuners, rechargeable battery, voice/digital accessories",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 820.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-owned, excellent, USA model",
+      "url": "https://www.ebay.com/itm/336840020029",
+      "source": "ebay",
+      "notes": "Buy It Now",
+      "flags": []
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-owned, USA version",
+      "url": "https://www.ebay.com/itm/137702526006",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer listing, sold at list price); +$40 delivery",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-owned, complete station",
+      "url": "https://www.ebay.com/itm/168752978976",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; many extras; same title/seller pattern as 168751371614 a day earlier (possible relist)",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-owned, complete station",
+      "url": "https://www.ebay.com/itm/168751371614",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; many extras",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-owned",
+      "url": "https://www.ebay.com/itm/128093158281",
+      "source": "ebay",
+      "notes": "Auction, 1 bid",
+      "flags": []
+    },
+    {
+      "price": 759.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-owned, USA version",
+      "url": "https://www.ebay.com/itm/137664701741",
+      "source": "ebay",
+      "notes": "Auction, 1 bid",
+      "flags": []
+    },
+    {
+      "price": 1300.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-owned, excellent, US version",
+      "url": "https://www.ebay.com/itm/206513482931",
+      "source": "ebay",
+      "notes": "Buy It Now; extras included",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 847.01,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-owned",
+      "url": "https://www.ebay.com/itm/278311963742",
+      "source": "ebay",
+      "notes": "Auction, 20 bids; +$31.70 delivery",
+      "flags": []
+    },
+    {
+      "price": 1125.0,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-owned",
+      "url": "https://www.ebay.com/itm/278287849599",
+      "source": "ebay",
+      "notes": "Auction, 20 bids",
+      "flags": []
+    },
+    {
+      "price": 1075.0,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-owned",
+      "url": "https://www.ebay.com/itm/278262770891",
+      "source": "ebay",
+      "notes": "Auction, 18 bids",
+      "flags": []
+    },
+    {
+      "price": 140.0,
+      "sold_date": "2026-08-19",
+      "condition": "Open box",
+      "url": "https://www.ebay.com/itm/188818000712",
+      "source": "ebay",
+      "notes": "Title 'Yaesu FT-817 ND Mobile Radio'; fixed price (or Best Offer listing, sold at list); listing page shows no description/specifics to confirm",
+      "flags": [
+        "outlier"
+      ]
+    }
+  ]
+}

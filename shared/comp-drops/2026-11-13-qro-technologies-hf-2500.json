@@ -1,0 +1,19 @@
+{
+  "model": "QRO Technologies HF-2500",
+  "slug": "qro-technologies-hf-2500",
+  "searched_at": "2026-11-13T07:12:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "From missed search: shared/listing-drops/2026-11-11-missed-search.json, visitor typed 'qro 2500' (QRO Technologies HF-2500 amplifier). eBay autocorrected 'qro 2500' and 'qro hf-2500' to 'qrp ...'; the QRO result still surfaced, and 'qro technologies' returned the same single sale. 1 genuine comp kept. Excluded: QRP tuners/uSDX transceivers, QSC PLX2502 audio amps, Dodge AC parts, QRO HF-2000 manual (other model / not a sale of the amp). Plain HF-2500 kept separate from the HF-2500DX ledger name (title gives no DX suffix). Low confidence: single comp.",
+  "comps": [
+    {
+      "price": 2400.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-owned, 'nice', Peter Dahl transformers",
+      "url": "https://www.ebay.com/itm/198681182873",
+      "source": "ebay",
+      "notes": "Buy It Now; +$215.30 delivery not included; free returns",
+      "flags": []
+    }
+  ]
+}
