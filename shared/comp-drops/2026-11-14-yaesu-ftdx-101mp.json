@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FTDX-101MP",
+  "slug": "yaesu-ftdx-101mp",
+  "searched_at": "2026-11-14T14:58:36-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ftdx-101mp': 4 exact-query results on page 1; 3 were accessories (relay cable, dust cover, DC cable) and left out; dropped 1 best-offer-accepted (radio, Open Box, Nov 13, shown $3,595.00). dropped 0 parts-only. No comps kept — thin (zero). searched_at is the comp-file build time.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784848",
+    "site": "qth",
+    "ask": 3350.0,
+    "shipping": 0
+  },
+  "comps": []
+}
