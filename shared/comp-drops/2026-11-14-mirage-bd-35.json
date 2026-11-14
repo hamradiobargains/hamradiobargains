@@ -1,0 +1,52 @@
+{
+  "model": "Mirage BD-35",
+  "slug": "mirage-bd-35",
+  "searched_at": "2026-11-14T17:57:45-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in). Dropped 2 best-offer-accepted (178525710593 $299.95 new, 188890295349 $129.99), dropped 0 parts-only. 188900268262 has the same title as best-offer sale 188890295349 five days earlier - possibly the same unit relisted; not flagged.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/327456576450",
+    "site": "ebay",
+    "ask": 200.98,
+    "shipping": 23.15
+  },
+  "comps": [
+    {
+      "price": 115.0,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned - title: Mirage BD-35 Handheld Amplifier Dual Band VHF/UHF 144/440MHz",
+      "url": "https://www.ebay.com/itm/900076445661",
+      "source": "ebay",
+      "notes": "fixed or Best Offer (not accepted); shipping +$10.31 delivery",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned - title: Mirage BD-35 Dual Band Linear Amplifier 35W 144/440 MHz VHF/UHF FM",
+      "url": "https://www.ebay.com/itm/267776443532",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping +$20.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 124.99,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned - title: Mirage BD-35 Dual Band VHF/UHF Ham Radio Amplifier 144/440 MHz 45W/35W",
+      "url": "https://www.ebay.com/itm/188900268262",
+      "source": "ebay",
+      "notes": "fixed or Best Offer (not accepted); shipping +$11.95 delivery",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned - title: Mirage BD-35 Handheld Amp 144/440, 45/35 Watts, MHz Dual Band Amplifier VHF UHF",
+      "url": "https://www.ebay.com/itm/227498097938",
+      "source": "ebay",
+      "notes": "fixed or Best Offer (not accepted); shipping +$7.16 delivery",
+      "flags": []
+    }
+  ]
+}
