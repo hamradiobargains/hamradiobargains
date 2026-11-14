@@ -1,0 +1,15 @@
+{
+  "model": "Tokyo Hy-Power HL-724D",
+  "slug": "tokyo-hy-power-hl-724d",
+  "searched_at": "2026-11-14T17:58:50-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - no HL-724D sales found on page 1 of the eBay sold search (signed in); results were other Tokyo Hy-Power models (HL-200BDX, HL-350VDX, HL-20U, HL-37V, HL-1.5KFX, HC-200 tuner, etc.), all excluded as different models. No comps recorded. Dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366810316561",
+    "site": "ebay",
+    "ask": 293.38,
+    "shipping": 85.0
+  },
+  "comps": []
+}
