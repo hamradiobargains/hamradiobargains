@@ -1,0 +1,81 @@
+{
+  "model": "Kenwood TS-570D",
+  "slug": "kenwood-ts-570d",
+  "searched_at": "2026-11-14T14:58:36-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood ts-570d': 42 results on page 1, mostly manuals/accessories/TS-570S/TS-570S(G) units (left out — different model); TS-570DG not counted. dropped 3 best-offer-accepted (Sep 18 $439.95, Sep 18 $575.00, Aug 27 $489.95; also a BOA TX-RX board, which is a part anyway). dropped 3 parts-only (Oct 22 $367.00, Sep 22 $355.13, Aug 27 $239.95 'Technician Special'). 6 comps kept — solid set. No outliers. Oct 9 and Oct 4 comps are the same title from the same seller (crpando30) — flagged possible_duplicate. searched_at is the comp-file build time.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784860",
+    "site": "qth",
+    "ask": 425.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 400.0,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198700168899",
+      "source": "ebay",
+      "notes": "Auction, 1 bid, free delivery. Title says 'Tested', with power cord and MC-60 mic. Same title/seller as 198671323460 (sold Oct 4).",
+      "flags": [
+        "possible_duplicate",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 405.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198671323460",
+      "source": "ebay",
+      "notes": "Auction, 2 bids, +$22.61 delivery. Title says 'Tested', with power cord and MC-60 mic. Same title/seller as 198700168899 (sold Oct 9).",
+      "flags": [
+        "possible_duplicate",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227491381614",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not best-offer-accepted), free delivery. Includes Kenwood PS-30 power supply.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 499.99,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188983705251",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not best-offer-accepted), +$75.60 delivery. With mic and DRU-3A digital voice recording unit.",
+      "flags": [
+        "option_installed",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 585.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407122489473",
+      "source": "ebay",
+      "notes": "Buy It Now, free delivery. Title: '-NO POWER PLUG-'.",
+      "flags": []
+    },
+    {
+      "price": 361.23,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257706544562",
+      "source": "ebay",
+      "notes": "Buy It Now, located in United Kingdom, +$127.36 shipping estimate.",
+      "flags": []
+    }
+  ]
+}
