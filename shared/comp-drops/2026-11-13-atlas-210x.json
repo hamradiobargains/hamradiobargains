@@ -1,0 +1,45 @@
+{
+  "model": "Atlas 210X",
+  "slug": "atlas-210x",
+  "searched_at": "2026-11-13T19:02:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep, eBay sold search 'atlas 210x' (2 of 15). 3 kept, median 250.0. Ad is 'Atlas 210X Limited Edition' (1000 produced); no kept comp is titled Limited Edition, so comps are standard 210X units and LE premium/identity is unverified (ledger ATLAS 210X count 3 dated 2026-10-27 was not used for that reason). Dropped: Best offer accepted 1 (287565574878 $250, also Parts Only); parts-only/as-is 4: 128176910844 $99.99 (TECH SPECIAL), 267804705787 $180 (Not Tested AS IS, Parts Only), 237075888996 $84 (Parts Only, with console), 227540678652 $149.99 ('Powers On As Is'). Excluded as non-units: manual 191878873630, circuit boards 257687133053. Unrelated results (sleeping bag, shocks) ignored.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784761",
+    "site": "qth",
+    "ask": 550,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 200.0,
+      "sold_date": "2026-10-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128158058882",
+      "source": "ebay",
+      "notes": "shipping +$44.76; title 'ATLAS 210 X HF TRANSCIEVER'; auction final bid",
+      "flags": []
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206527741221",
+      "source": "ebay",
+      "notes": "shipping +$64.5; Atlas 210X + Power Supply Console (100W out)",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257689722093",
+      "source": "ebay",
+      "notes": "shipping +$20.0; title says working receiver and transmitter",
+      "flags": []
+    }
+  ]
+}
