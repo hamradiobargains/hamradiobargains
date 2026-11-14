@@ -1,0 +1,25 @@
+{
+  "model": "Kenwood BS-8",
+  "slug": "kenwood-bs-8",
+  "searched_at": "2026-11-13T19:11:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep, eBay sold search 'kenwood bs-8' (11 of 15). 1 kept, median 70.14 - THIN, identity caveat (BS5/BS8 title). 12 other page-1 sales were complete SM-220 monitors sold 'w/ BS-8' installed (not BS-8 alone) and were excluded here; see the Kenwood SM-220 files.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783569",
+    "site": "qth",
+    "ask": 124,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 70.14,
+      "sold_date": "2026-09-11",
+      "condition": "",
+      "url": "https://www.ebay.com/itm/298654823158",
+      "source": "ebay",
+      "notes": "shipping +$19.23; title 'Kenwood BS5/BS8 Band Scope adapter for the SM220 monitor'; BS5/BS8 mixed title - identity not certain; or Best Offer, not marked accepted",
+      "flags": []
+    }
+  ]
+}
