@@ -1,0 +1,22 @@
+{
+  "model": "Kenwood SM-220",
+  "slug": "kenwood-sm-220",
+  "searched_at": "2026-11-13T19:16:00-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped - median 325.0, count 11, ledger date 2026-10-15 - ledger hit - individual sales behind the median are not auditable from this file. Ad is SM-220 with BS-8 installed; the ledger median is the SM-220 line (ledger count 11). Related: the 2026-11-13 kenwood-bs-8 search page showed 12 SM-220 w/ BS-8 sales (not audited here).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784776",
+    "site": "qth",
+    "ask": 200,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 325.0,
+    "low": 199.95,
+    "high": 465.0,
+    "count": 11,
+    "date": "2026-10-15"
+  }
+}
