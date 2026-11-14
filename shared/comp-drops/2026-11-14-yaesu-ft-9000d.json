@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-9000D",
+  "slug": "yaesu-ft-9000d",
+  "searched_at": "2026-11-14T18:56:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Yaesu FT-9000D' (page 1): eBay returned 20 results but all were other models (FT-900, FT-950, FT-7900R); no FT-9000D sale. Zero comps.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784839",
+    "site": "qth",
+    "ask": 4700,
+    "shipping": 0
+  },
+  "comps": []
+}
