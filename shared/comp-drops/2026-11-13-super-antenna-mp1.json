@@ -1,0 +1,15 @@
+{
+  "model": "Super Antenna MP1",
+  "slug": "super-antenna-mp1",
+  "searched_at": "2026-11-13T19:07:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep, eBay sold search 'super antenna mp1' (7 of 15). 0 kept for exact MP1 antenna. Related but not matched: MP1C 366666532486 $75 (Sep 13, +$8.70), MP1B 377449421232 $130 (Sep 10, or Best Offer, +$8.54), 327267478727 $300 'MP1 antenna almost MP1DXMAX Read description' (Read Description, dropped), 377520797049 $300 MP1LXMAX tripod package (Best offer accepted, dropped). Many accessory sales (coils, tripod mount, radials, frequency guide) excluded. Ad is a kit (MP1 + GB1 bag + tripod + MR4010 radials + FG1 + UMPS3 spike); no kit comp found. Unrelated Yu-Gi-Oh MP1 results ignored. Counts: BOA 2 (377520797049, 377462722212 radial set), Read Description 1.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784771",
+    "site": "qth",
+    "ask": 295,
+    "shipping": 0
+  },
+  "comps": []
+}
