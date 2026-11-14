@@ -1,0 +1,25 @@
+{
+  "model": "Radioddity QB25",
+  "slug": "radioddity-qb25",
+  "searched_at": "2026-11-14T17:58:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin - only 1 kept comp. eBay sold search page 1 (signed in). Dropped 4 best-offer-accepted QB25 sales (257733604110, 257731083485, 257716681834 at $56.99 and 257707233720 at $62.99, all open box), plus 1 best-offer-accepted listing whose title is unclear (407199447413). Dropped 0 parts-only. Excluded 4 Radioddity QB25 Pro sales (different model) and programming cables/accessories.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/128195265697",
+    "site": "ebay",
+    "ask": 68.89,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 79.99,
+      "sold_date": "2026-10-04",
+      "condition": "Open Box - title: Radioddity QB25 Quad Band 25W VHF UHF Mobile Ham Radio Transceiver Open Box",
+      "url": "https://www.ebay.com/itm/137802846602",
+      "source": "ebay",
+      "notes": "fixed or Best Offer (not accepted); shipping +$11.99 delivery",
+      "flags": []
+    }
+  ]
+}
