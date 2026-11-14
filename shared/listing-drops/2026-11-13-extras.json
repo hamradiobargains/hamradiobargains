@@ -1,0 +1,229 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-13",
+  "ran_at": "2026-11-13T18:47:00-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered: 2026-11-13-qth.json (ran_at 2026-11-13T14:52:55-05:00), 2026-11-13-eham.json (05:52:31) and 2026-11-13-ebay.json (17:52:19); window = after previous extras drop 2026-11-12-1846-extras.json (ran_at 2026-11-12T18:46:50-05:00). Previous extras drop had no CARRIED OVER and no BACKLOG CARRY. Extras queued 25: 22 from the 11/13 QTH drop's 'Extra plausible candidates not comped' list + 3 from the 11/13 eHam drop's list (629600 MFJ-900, 629596 Elecraft SP4 speaker, 629593 GAP Titan). The 11/13 eBay drop has no such list (its note on FT-2500M 227613102430, $62.75 + $12.70, left out at the cap, is not under that heading, so it was not queued; ledger YAESU FT-2500M 2026-11-08 count 5 median 65.0 if wanted). Named extra QTH 1783910 (Yaesu '991', $600 firm): already triaged in 2026-11-10-1935-extras.json (comps filed as 'Yaesu FT-991', 3 kept, median 720) and already in dropped-urls.json, so not re-queued; no new search run; FT-991A figures never used. Worked 20 of 22 QTH (18 comped or ledger-hit, 2 skipped for no price: 1784770, 1784752). All 20 opened ads were live, 0 gone; QTH pages opened one at a time ~5 s apart in Leo's Chrome; no eHam page opened. Ledger hits 3: 1784776 SM-220, 1784781 OpenSpot 4 Pro, 1784750 MC-60 (all within 30 days). Ledger misses/stale or identity-uncertain -> eBay sold searches used 15 of 15 (cap reached): FlexRadio Maestro, Atlas 210X, Swan 700CX, Palstar AT2KD, MFJ-9475, Collins 51S-1, Super Antenna MP1, Icom IC-Z1A, Radioddity DB50, Xiegu X6200, Kenwood BS-8, Luiton LT-890SSB, Icom AH-2B, Icom UT-106, AnyTone Ares II. Searches ran one at a time 15+ s apart, signed in as Leo, no challenge. Solid (3+): Xiegu X6200 (16 kept, median 599.99), UT-106 (5, 109.0), Atlas 210X (3, 250.0), IC-Z1A (3, 89.99), Ares II (4, 174.0). Thin: Swan 700CX (1), AT2KD (2), 51S-1 (2), DB50 (1), BS-8 (1). Zero comps: Maestro, MFJ-9475, MP1, LT-890SSB, AH-2B. Skipped (listing recorded): 1784770 (RF Power Components Maxi Tuner - not for sale/no price), 1784752 (KWM-2A - no price). Gone: none. Cross-posts: none (1784764/1784763/1784761 are the same seller WB1AFK, different items). Outliers: X6200 366698100985 $275 (Open Box 'w/ Mic, ATU...'); Ares II 137896900052 $87. UNCERTAIN: 1784766 IC-Z1A BP-170 pack 'power doesn't connect properly'; 1784732 Collins 51S-1 broken slug-rack strap and 'Sold pending funds' wording; 1784777 X6200 'SALE PENDING'; 1781588 Ares II 11-meter mod wording; 1784764 MFJ-9475 'amp keying circuit modification'; 1784782 Maestro C vs Maestro identity; 1784761 Atlas 'Limited Edition' vs standard 210X comps; BS-8 title BS5/BS8. Shipping recorded 0 where included, free, or not quoted. Comp-drop searched_at times are approximate. Timestamps -05:00 (EST). CARRIED OVER (put first next run): 1784729 (QTH, NOS ETO Alpha 9500, $6000 firm + shipping - opened and live this run, not comped, cap), 1784727 (QTH, SharkRF M1KE with stand, $315 incl. CONUS shipping - opened and live this run, not comped, cap), https://www.eham.net/classifieds/629600 (MFJ-900 tuner, $50 shipped), https://www.eham.net/classifieds/629596 (Elecraft SP4 speaker, $345 delivered), https://www.eham.net/classifieds/629593 (GAP Titan HF vertical, $200 pickup only). BACKLOG CARRY: none.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784782",
+      "site": "qth",
+      "title": "Flex Maestro C with extras",
+      "price": 1400,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. Includes AC power supply, weighted tilt feet, 2 batteries, FHM-3 mic, Maestro C Y cable kit. 'Price is $1,400.00 plus shipping and insurance cost to your QTH.' 'From a non-smoking shack.' 'Shipped in factory box.' Shipping amount not quoted (recorded 0). | comps: not comped: zero kept comps (flexradio-maestro, 0 kept; all 3 page-1 sales were Best offer accepted); Maestro vs Maestro C identity unresolved",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784761",
+      "site": "qth",
+      "title": "Atlas 210X Limited Edition w/ Shure mic and console power supply",
+      "price": 550,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. 'Exceptionally nice Atlas 210x Limited Edition with matching Atlas branded Shure Brothers microphone and console speaker power supply. 1000 units produced.' '$550 shipped FedEx.' | comps: comps: atlas-210x, 3 kept, median 250.0 (standard 210X units; no Limited Edition comps)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784772",
+      "site": "qth",
+      "title": "Swan 700CX AD4DQ Restored",
+      "price": 550,
+      "shipping": 50,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. 'Nice Swan 700 CX that was restored by Brutus Lee, AD4DQ last year, and overall works pretty amazing!' 'All tubes were tested and replaced as needed, including one 8050 final. Rig is recapped, and all out of tolerance resistors were replaced.' 'Local pickup 02818 for $550' 'Shipped CONUS $600'. Price recorded as pickup $550, shipping 50. | comps: comps: swan-700cx, 1 kept, median 600.0 (thin)",
+      "work_flag": "For whatever reason there is no grid drive on 40 meters although receive seems OK!?!",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784796",
+      "site": "qth",
+      "title": "Palstar AT2KD Tuner",
+      "price": 425,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. 'LIKE NEW CONDITION WITH NO ISSUES 2 YR OLD' 'UPGRADED TO AUTO , MANUAL AND GREASE PACKETS' '425.00 SHIPPED CHECK USPS M/O PAYPAL' | comps: comps: palstar-at2kd, 2 kept, median 437.0 (thin)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784776",
+      "site": "qth",
+      "title": "Kenwood SM-220 Station Monitor w/BS-8",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. 'VERY NICE WORKING STATION MONITOR WIT THE BS-8 INSTALLED. $200 PLUS SHIPPING' (shipping amount not quoted; recorded 0). Ad category label reads 'TEST'. | comps: ledger hit (SM-220, median 325.0, count 11, ledger date 2026-10-15)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784764",
+      "site": "qth",
+      "title": "MFJ-9475 QRP 75 Meter SSB Transceiver",
+      "price": 300,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. 'Great working MFJ-9475 QRP transceiver. This is the last version with the fine tune. This has a nicely done amp keying circuit modification.' 'Microphone and power cord. $300 shipped priority mail.' | comps: not comped: zero sold comps found (mfj-9475, 0 kept)",
+      "work_flag": "'This has a nicely done amp keying circuit modification.'",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784781",
+      "site": "qth",
+      "title": "OpenSpot 4 Pro Digital Hotspot",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. 'Excellent condition with original box and cable. $200 Shipped PayPal Payment,Postal MO.' | comps: ledger hit (SharkRF OpenSpot 4 Pro, median 246.5, count 3, ledger date 2026-10-20)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784732",
+      "site": "qth",
+      "title": "Collins 51S-1 General Coverage Receiver",
+      "price": 300,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. 'Sold pending funds from Greg Hunter.' '$300 plus shipping.' 'Looks excellent and worked fine until the front metal strap on the slug rack broke.' Seller includes all parts except the new strap, the old broken strap, and the nylon tuning tool. Pickup in Fort Myers, FL area. Shipping not quoted (recorded 0). | comps: comps: collins-51s-1, 2 kept, median 1074.0 (thin; comps are working units)",
+      "work_flag": "'Sold pending funds from Greg Hunter.' 'worked fine until the front metal strap on the slug rack broke' - seller not repairing (needs work).",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784771",
+      "site": "qth",
+      "title": "Super Antenna MP1 and Accessories",
+      "price": 295,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. MP1 antenna, GB1 Go Bag, tripod, MR4010 radial set, FG1 frequency guide, UMPS3 super spike; 'Total Retail Value $502.75' 'Sale Price 295.00 OBO Free Shipping, CONUS, PayPal only, USPS shipping.' | comps: not comped: no matching sold comps for MP1 kit (super-antenna-mp1, 0 kept; MP1 variants noted in file)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784750",
+      "site": "qth",
+      "title": "Kenwood MC-60 microphone",
+      "price": 125,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. 'Excellent condition Kenwood MC-60 microphone for sale. Has the 8 pin plug and does have a pre-amp built in. Cosmetically in exc cond. $125 which will include shipping to the lower 48.' Ad last edited 11/13/26. | comps: ledger hit (Kenwood MC-60, median 115.0, count 25, ledger date 2026-10-26)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784766",
+      "site": "qth",
+      "title": "Icom IC-Z1A w/ Separation Cable & Accs",
+      "price": 210,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. 'Icom IC-Z1A in great working condition with OPC-500 Separation Cable, BP-180 7.2v NiCd Battery, HM-54 Speaker Mic, Car Charger, and stock Icom antenna. Will include BP-170 AA battery pack but power doesn't connect properly, perhaps simple fix. Note, no desktop charger. **$210 shipped CONUS** [w/out HM-54 for $175 shipped CONUS, w/ listed + add'l OPC-500 (or 2x OPC-500) for shipped $250 CONUS.]' | comps: comps: icom-ic-z1a, 3 kept, median 89.99",
+      "work_flag": "'BP-170 AA battery pack but power doesn't connect properly, perhaps simple fix' (accessory only; radio described as 'great working condition') - UNCERTAIN whether this counts as needs-work",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784778",
+      "site": "qth",
+      "title": "Radioddity DB50 dual band VHF/UHF NIB",
+      "price": 150,
+      "shipping": 20,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. 'Radioddity DB50 dual band VHF/UHF Ham Radio NIB, verified working condition but sold as is but is new, price $150 local pick up and if shipped $170.' Price recorded as pickup $150, shipping 20. | comps: comps: radioddity-db50, 1 kept, median 150.0 (thin)",
+      "work_flag": "'verified working condition but sold as is but is new'",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784777",
+      "site": "qth",
+      "title": "Xiegu X6200 (SALE PENDING)",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. Ad title reads 'SALE PENDING: Xiegu X6200'. 'Perfect condition X6200. Never used in the field. Transceiver used on desktop and for interface testing with flrig/fldigi (I am the developer). Includes desktop stand and right angle BNC<->PL-259 adapter, original manual, handheld mic and wallwart adapter. Ships in original Xiegu box. $600 via PayPal includes shipping to CONUS.' | comps: comps: xiegu-x6200, 16 kept, median 599.99 (solid; 1 outlier flagged)",
+      "work_flag": "'SALE PENDING' (title)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783569",
+      "site": "qth",
+      "title": "Kenwood BS-8 pan adapter",
+      "price": 124,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. 'Kenwood bs8 pan adapter for sm220. Replaced mine with bs5, this is in goodqorking condition.---$124 shipped.' Ad last edited 11/13/26, originally submitted 10/29/26. | comps: comps: kenwood-bs-8, 1 kept, median 70.14 (thin; BS5/BS8 title identity caveat)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784803",
+      "site": "qth",
+      "title": "Luiton LT-890SSB 10 meter radio",
+      "price": 100,
+      "shipping": 25,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. 'new never used Luiton LT-890SSB 10 , 12 meter radio cover some other frequencies also. opened box but discovered will not fit very well in my vehicle. Asking $100 plus $25 Shipping contenental USA. give me an offer i cannot refuse.' 10-meter/CB-type radio. | comps: not comped: zero kept comps (luiton-lt-890ssb; only sale on page 1 was Best offer accepted)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784770",
+      "site": "qth",
+      "title": "RF Power Components Maxi Tuner",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. Not a sale: seller says 'I'm not looking to buy or sell' and is asking owners to report serial numbers. Skipped: ad names no price. | comps: not comped: no price, not for sale",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784763",
+      "site": "qth",
+      "title": "Icom AH-2B HF Whip Antenna Mount",
+      "price": 300,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. 'New in box Icom AH-2b antenna mount and unopened hardware. No whip included. $300 shipped.' | comps: not comped: zero qualifying sold comps for AH-2B (icom-ah-2b, 0 kept)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784730",
+      "site": "qth",
+      "title": "Icom UT-106 DSP module",
+      "price": 95,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. 'Works great! $95 shipped free to the 48 states.' | comps: comps: icom-ut-106, 5 kept, median 109.0 (solid)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781588",
+      "site": "qth",
+      "title": "AnyTone Ares II 10M radio",
+      "price": 140,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. 'BRAND NEW AnyTone ARES II 10 meter Radio (Mod to expand the coverage to 11 meters has already been completed).' 40 channels per band, 136-174 MHz receive, AM/FM/USB/LSB. 'Asking $140. USPS MO,Check, or PayPal F F.' Renewed older ad (submitted 10/07/26, last edited 11/13/26). | comps: comps: anytone-ares-ii, 4 kept, median 174.0 (1 outlier flagged; comps not matched to modified state)",
+      "work_flag": "'Mod to expand the coverage to 11 meters has already been completed' (transmit-coverage modification, ad wording verbatim)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784752",
+      "site": "qth",
+      "title": "Rockwell Collins KWM-2A with 516F-2 power supply and SM-3 mic",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. 'Rockwell Collins KWM2A with a 516 F2 power supply and the SM-3 desk microphone. These are completely gone through by Steve Berman who now is a silent key a few years back and our bulletproof.' Ad names no price (seller gives a phone number). Skipped: ad names no price. | comps: not comped: no asking price",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
