@@ -1,0 +1,166 @@
+{
+  "model": "Xiegu X6200",
+  "slug": "xiegu-x6200",
+  "searched_at": "2026-11-13T19:10:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep, eBay sold search 'xiegu x6200' (10 of 15). 16 kept, median 599.99 (solid). OUTLIER: 366698100985 $275 (Open Box, w/ Mic, ATU...) kept and flagged. Dropped: Best offer accepted 3 (206576616460 $600; 336863908454 $580; 237111890204 $369.95 'Technician Special', Parts); parts-only 2 (188605180178 $399.99 Parts Only, 237111890204 $369.95). Accessories/cables/heat sinks/knobs and any result under $250 were treated as non-radio and excluded (not individually inspected). Ledger XIEGU X6200 (2026-09-03, count 1) was too thin to use. Note 880017771257 is modified (WR12 wide-band mod) and 880059388563 includes accessories; both kept and flagged. Where eBay showed a struck-through higher price, the lower shown sold price was recorded.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784777",
+    "site": "qth",
+    "ask": 600,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 600.0,
+      "sold_date": "2026-11-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/336883931630",
+      "source": "ebay",
+      "notes": "shipping +$8.35",
+      "flags": []
+    },
+    {
+      "price": 725.0,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880059388563",
+      "source": "ebay",
+      "notes": "shipping +$14.2; auction final bid; title 'Ham Radio + Accessories'",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 699.0,
+      "sold_date": "2026-11-02",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/820187702862",
+      "source": "ebay",
+      "notes": "shipping +$8.11; or Best Offer, not marked accepted",
+      "flags": []
+    },
+    {
+      "price": 543.99,
+      "sold_date": "2026-10-28",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/227586254678",
+      "source": "ebay",
+      "notes": "free shipping shown; or Best Offer, not marked accepted",
+      "flags": []
+    },
+    {
+      "price": 655.19,
+      "sold_date": "2026-10-27",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/168816162592",
+      "source": "ebay",
+      "notes": "free shipping shown; price shown $655.19 over struck $909.99",
+      "flags": []
+    },
+    {
+      "price": 625.0,
+      "sold_date": "2026-10-26",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/128150803178",
+      "source": "ebay",
+      "notes": "free shipping shown; or Best Offer, not marked accepted",
+      "flags": []
+    },
+    {
+      "price": 636.99,
+      "sold_date": "2026-10-25",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/158192078708",
+      "source": "ebay",
+      "notes": "free shipping shown; price shown $636.99 over struck $909.99",
+      "flags": []
+    },
+    {
+      "price": 670.0,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880017771257",
+      "source": "ebay",
+      "notes": "shipping +$9.56; auction final bid; title includes 'Wide-Band WR12 Mod'",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 579.99,
+      "sold_date": "2026-10-03",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/178530737831",
+      "source": "ebay",
+      "notes": "free shipping shown",
+      "flags": []
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2026-09-28",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/366698100985",
+      "source": "ebay",
+      "notes": "OUTLIER: $275 is under 0.5x the median of the other kept comps; shipping +$8.79; or Best Offer, not marked accepted; title 'w/ Mic, ATU...'",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 499.95,
+      "sold_date": "2026-09-12",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/407210437267",
+      "source": "ebay",
+      "notes": "shipping +$8.21; or Best Offer, not marked accepted",
+      "flags": []
+    },
+    {
+      "price": 599.99,
+      "sold_date": "2026-09-01",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/257715021788",
+      "source": "ebay",
+      "notes": "shipping +$16.6",
+      "flags": []
+    },
+    {
+      "price": 594.99,
+      "sold_date": "2026-09-01",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/178459482895",
+      "source": "ebay",
+      "notes": "free shipping shown",
+      "flags": []
+    },
+    {
+      "price": 545.99,
+      "sold_date": "2026-08-31",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/168642443864",
+      "source": "ebay",
+      "notes": "shipping +$7.76; price shown $545.99 over struck $599.99; or Best Offer, not marked accepted",
+      "flags": []
+    },
+    {
+      "price": 599.99,
+      "sold_date": "2026-08-26",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/198597164632",
+      "source": "ebay",
+      "notes": "free shipping shown",
+      "flags": []
+    },
+    {
+      "price": 599.99,
+      "sold_date": "2026-08-26",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/198594493877",
+      "source": "ebay",
+      "notes": "free shipping shown",
+      "flags": []
+    }
+  ]
+}
