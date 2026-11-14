@@ -1,0 +1,61 @@
+{
+  "model": "Icom UT-106",
+  "slug": "icom-ut-106",
+  "searched_at": "2026-11-13T19:14:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep, eBay sold search 'icom ut-106' (14 of 15). 5 kept, median 109.0 (solid). Dropped: Best offer accepted 2 (366676833697 $75; 137632674634 $150 new in box). Excluded: radios sold with UT-106 installed (IC-718 178524565015 $517.50, 254955245891 $1,100; IC-910 117373105466 $169; PCR1000 237008423853 $225) and Nagoya UT-106UV antennas (different product).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784730",
+    "site": "qth",
+    "ask": 95,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 119.0,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800720700995",
+      "source": "ebay",
+      "notes": "shipping +$9.0",
+      "flags": []
+    },
+    {
+      "price": 109.0,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189062633989",
+      "source": "ebay",
+      "notes": "shipping +$8.7",
+      "flags": []
+    },
+    {
+      "price": 92.5,
+      "sold_date": "2026-10-09",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/820196477829",
+      "source": "ebay",
+      "notes": "shipping +$7.68; auction final bid",
+      "flags": []
+    },
+    {
+      "price": 109.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188933951616",
+      "source": "ebay",
+      "notes": "shipping +$8.7",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407129606811",
+      "source": "ebay",
+      "notes": "shipping +$8.8",
+      "flags": []
+    }
+  ]
+}
