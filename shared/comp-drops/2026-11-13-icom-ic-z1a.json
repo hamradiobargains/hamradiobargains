@@ -1,0 +1,43 @@
+{
+  "model": "Icom IC-Z1A",
+  "slug": "icom-ic-z1a",
+  "searched_at": "2026-11-13T19:08:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep, eBay sold search 'icom ic-z1a' (8 of 15). 3 kept, median 89.99. Dropped: Best offer accepted 1 (198353172353 $250, May 25). Excluded: 257689321324 $140 auction for TWO IC-Z1A radios (bundle, 2 units). Ledger IC-Z1A (2026-10-04) was stale (>30 days), so a search was run.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784766",
+    "site": "qth",
+    "ask": 210,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 89.99,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206600821607",
+      "source": "ebay",
+      "notes": "shipping +$6.98; price shown $89.99 over struck $119.99",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178546053274",
+      "source": "ebay",
+      "notes": "free shipping shown",
+      "flags": []
+    },
+    {
+      "price": 72.24,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206537903621",
+      "source": "ebay",
+      "notes": "shipping +$6.98; price shown $72.24 over struck $84.99",
+      "flags": []
+    }
+  ]
+}
