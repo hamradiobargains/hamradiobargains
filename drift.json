@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-13T13:53:42+00:00",
+ "updated": "2026-11-14T13:53:40+00:00",
  "models": {
   "ASTRON RS-20A": {
    "display": "Astron RS-20A",
-   "pct": 48.9,
+   "pct": 33.4,
    "window": "3mo",
-   "recent_median": 59.49,
-   "recent_count": 16,
-   "prior_median": 39.95,
-   "prior_count": 5
+   "recent_median": 59.99,
+   "recent_count": 15,
+   "prior_median": 44.97,
+   "prior_count": 6
   },
   "ELECRAFT K3/100": {
    "display": "Elecraft K3/100",
@@ -111,12 +111,12 @@
   },
   "YAESU FT-710": {
    "display": "Yaesu FT-710",
-   "pct": 2.1,
+   "pct": 6.0,
    "window": "3mo",
-   "recent_median": 890.0,
-   "recent_count": 11,
-   "prior_median": 872.0,
-   "prior_count": 8
+   "recent_median": 911.39,
+   "recent_count": 10,
+   "prior_median": 860.0,
+   "prior_count": 9
   },
   "YAESU FT-817ND": {
    "display": "Yaesu FT-817ND",
