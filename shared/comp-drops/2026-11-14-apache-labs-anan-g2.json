@@ -1,0 +1,25 @@
+{
+  "model": "Apache Labs ANAN G2",
+  "slug": "apache-labs-anan-g2",
+  "searched_at": "2026-11-14T14:58:36-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'anan g2': 2 exact-query results, both 'Apache Labs ANAN-G2HF/6M SDR Transciever', Brand New, same seller (keevado). dropped 1 best-offer-accepted (Nov 6). dropped 0 parts-only. 1 comp kept — thin. Note: kept comp is a Brand New unit at $699.99 Buy It Now, far below the $2,700 QTH ask for a used one; single comp so no outlier test possible — treat with caution. Title does not say G2 vs G2E explicitly beyond 'ANAN-G2'. searched_at is the comp-file build time.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784867",
+    "site": "qth",
+    "ask": 2700.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 699.99,
+      "sold_date": "2026-11-12",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/900086674156",
+      "source": "ebay",
+      "notes": "Buy It Now, free delivery. Title 'Apache Labs ANAN-G2HF/6M SDR Transciever'. Same seller/title also sold Nov 6 as best-offer-accepted (dropped). Price far below the used QTH ask — single comp, no outlier test possible.",
+      "flags": []
+    }
+  ]
+}
