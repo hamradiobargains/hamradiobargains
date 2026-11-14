@@ -1,0 +1,43 @@
+{
+  "model": "Xiegu GPA-100",
+  "slug": "xiegu-gpa-100",
+  "searched_at": "2026-11-14T05:54:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "3 qualifying sold comps on page 1 (units only; keying/interface cables excluded; Xiegu XPA125B sales excluded as a different model). eBay search 'xiegu gpa-100' (sold, page 1, main results only). dropped 0 best-offer-accepted, dropped 0 parts-only. No outliers. Ledger miss: XIEGU GPA-100 latest 2026-10-11 (older than 30 days).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629605",
+    "site": "eham",
+    "ask": 425.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 429.0,
+      "sold_date": "2026-11-03",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/960141615047",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked best offer accepted). +$8.44 delivery.",
+      "flags": []
+    },
+    {
+      "price": 541.0,
+      "sold_date": "2026-10-11",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/406838377487",
+      "source": "ebay",
+      "notes": "Shown $541.00 (struck-through $574.99; '$459.85 with coupon' also displayed); 'or Best Offer' (not marked accepted). Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 424.99,
+      "sold_date": "2026-09-25",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/278402082811",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted). +$11.94 delivery.",
+      "flags": []
+    }
+  ]
+}
