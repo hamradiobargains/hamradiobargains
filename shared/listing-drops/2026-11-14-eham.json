@@ -1,0 +1,31 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-14",
+  "ran_at": "2026-11-14T05:52:38-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-13T05:52:31-05:00 (prior eham run). Browsed signed OUT (\"Login/Register\" / \"Welcome Guest\" shown); no Cloudflare challenge. Read public classifieds page 1 only (it already reached ads covered by prior runs); new public ads 629601, 629602, 629605, 629606. No individual ad pages opened, no search form, sold searches, or seller/callsign pages; no ad IDs probed. Ad numbers 629603 and 629604 are not on the public pages - not opened. Not candidates: 629601 Elecraft K3 Front Panel ($189 delivered, 'a few intermittent buttons') and 629602 Elecraft K3/K3S Rear Fan panel ($34.99 delivered, missing fan mesh screens) - sub-assemblies/parts, not complete units. Cap-skipped items from the 11-13 run (629600 MFJ-900, 629596 Elecraft SP4, 629593 GAP Titan) are outside this run's window and were not re-dropped. Comps: 0 ledger hits; 2 ledger misses (FLEXRADIO FLEX-6500 count 2; XIEGU GPA-100 latest 2026-10-11, older than 30 days) -> 2 eBay sold searches; signed in to eBay as Leo, no challenge.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629606",
+      "site": "eham",
+      "title": "Flex 6500 Like New but like my ftdx-101D",
+      "price": 2200.0,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "Seller: 'Like New Condition', original box, shipped with cable. Price stated as $2200.00 shipped. Posted 2026-11-13.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629605",
+      "site": "eham",
+      "title": "Xiegu GPA100 Linear Amp",
+      "price": 425.0,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "Seller: less than one year old, used once. $425.00 shipped in the US. Posted 2026-11-13.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
