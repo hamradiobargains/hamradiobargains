@@ -1,0 +1,79 @@
+{
+  "model": "Yaesu FT-100D",
+  "slug": "yaesu-ft-100d",
+  "searched_at": "2026-11-14T17:55:40-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search page 1 (signed in). Dropped 2 best-offer-accepted, dropped 1 parts-only. Excluded as different model: 1 Yaesu FT-100 (original, not FT-100D; 366718501799 $610). Excluded accessories/parts listings (TCXO, cables, knobs, latch spring, ribbon set, FC-50 tuner) and fewer-words results. 137920165568 and 960093277406 share an identical title (\"Used Working Yaesu FT-100D HF-6M, 144,440MHz Transceiver\", also matches dropped best-offer sale 267778784791) - same seller may have relisted or sold several units; not flagged, Archie/Leo may want to check. 227593099094 is labeled Brand New by eBay. OUTLIERS flagged: https://www.ebay.com/itm/314005155679 $733.46 vs ~$477.50.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/377646296812",
+    "site": "ebay",
+    "ask": 649.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 400.0,
+      "sold_date": "2026-11-13",
+      "condition": "Pre-Owned - title: Used Working Yaesu FT-100D HF-6M, 144,440MHz Transceiver",
+      "url": "https://www.ebay.com/itm/137920165568",
+      "source": "ebay",
+      "notes": "fixed or Best Offer (not accepted); shipping +$35.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 405.0,
+      "sold_date": "2026-11-06",
+      "condition": "Pre-Owned - title: Yaesu FT-100D HF/VHF/UHF Ham Transceiver LCD Mic Auto-Scan FM AM SSB CW",
+      "url": "https://www.ebay.com/itm/227590892902",
+      "source": "ebay",
+      "notes": "auction 5 bids; shipping +$51.49 delivery",
+      "flags": []
+    },
+    {
+      "price": 567.0,
+      "sold_date": "2026-11-06",
+      "condition": "Brand New - title: Yaesu FT-100D Multi-Band HF/VHF/UHF Ham Transceiver 100W LCD",
+      "url": "https://www.ebay.com/itm/227593099094",
+      "source": "ebay",
+      "notes": "auction 23 bids; shipping +$46.08 delivery",
+      "flags": []
+    },
+    {
+      "price": 733.46,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned - title: Yaesu FT-100D HF/VHF/UHF Transceiver",
+      "url": "https://www.ebay.com/itm/314005155679",
+      "source": "ebay",
+      "notes": "OUTLIER: $733.46 vs ~$477.50 median for the rest; fixed or Best Offer (not accepted); shipping Free delivery",
+      "flags": []
+    },
+    {
+      "price": 698.0,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned - title: Yaesu FT-100D Multi-Band HF/VHF/UHF Ham Transceiver 100W LCD",
+      "url": "https://www.ebay.com/itm/227567740387",
+      "source": "ebay",
+      "notes": "auction 13 bids; shipping +$38.48 delivery",
+      "flags": []
+    },
+    {
+      "price": 395.0,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned - title: Used Working Yaesu FT-100D HF-6M, 144,440MHz Transceiver",
+      "url": "https://www.ebay.com/itm/960093277406",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping +$12.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned - title: Yaesu FT-100D HF-6M, 144,440MHz Transceiver",
+      "url": "https://www.ebay.com/itm/188829891440",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping +$40.00 delivery",
+      "flags": []
+    }
+  ]
+}
