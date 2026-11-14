@@ -1,0 +1,34 @@
+{
+  "model": "Palstar AT2KD",
+  "slug": "palstar-at2kd",
+  "searched_at": "2026-11-13T19:04:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep, eBay sold search 'palstar at2kd' (4 of 15). 2 kept, median 437.0 - THIN. Palstar AT2K sales on page 1 (different model, no D) excluded. Ledger PALSTAR AT2KD (2026-09-28) was stale, so a search was run.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784796",
+    "site": "qth",
+    "ask": 425,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 549.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267783514303",
+      "source": "ebay",
+      "notes": "shipping +$14.8; or Best Offer, not marked accepted",
+      "flags": []
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318643368653",
+      "source": "ebay",
+      "notes": "shipping +$25.12; or Best Offer, not marked accepted",
+      "flags": []
+    }
+  ]
+}
