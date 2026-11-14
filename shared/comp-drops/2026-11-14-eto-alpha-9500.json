@@ -1,0 +1,15 @@
+{
+  "model": "ETO Alpha 9500",
+  "slug": "eto-alpha-9500",
+  "searched_at": "2026-11-14T18:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ETO Alpha 9500' (page 1): 0 exact results. Only unrelated hits under 'Results matching fewer words' (ETO Alpha 91B sold 2026-08-31 $1,799.95 best offer accepted; Alpha 76PA - different models, not used). Zero comps. Ledger had no Alpha 9500 entry. Also zero on the 11-13 eHam run's search.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784729",
+    "site": "qth",
+    "ask": 6000,
+    "shipping": 0
+  },
+  "comps": []
+}
