@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T13:53:42+00:00",
+ "updated": "2026-11-14T13:53:40+00:00",
  "source": "HamRadioBargains sold-comp ledger \u2014 genuine sold listings from eHam, QTH, eBay and site deals, plus the eHam comp archive. Prices are asking prices at sale; best offers may differ.",
  "models": {
   "ACOM 06AT": {
@@ -549,6 +549,24 @@
     }
    ]
   },
+  "ANYTONE ARES II": {
+   "latest": {
+    "date": "2026-11-09",
+    "median": 174.0,
+    "low": 87.0,
+    "high": 249.0,
+    "count": 4
+   },
+   "history": [
+    {
+     "date": "2026-11-09",
+     "median": 174.0,
+     "low": 87.0,
+     "high": 249.0,
+     "count": 4
+    }
+   ]
+  },
   "ANYTONE AT-5555N": {
    "latest": {
     "date": "2026-08-23",
@@ -945,6 +963,24 @@
      "low": 475.0,
      "high": 475.0,
      "count": 1
+    }
+   ]
+  },
+  "COLLINS 51S-1": {
+   "latest": {
+    "date": "2026-11-05",
+    "median": 1074.0,
+    "low": 899.0,
+    "high": 1249.0,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-11-05",
+     "median": 1074.0,
+     "low": 899.0,
+     "high": 1249.0,
+     "count": 2
     }
    ]
   },
@@ -2253,6 +2289,24 @@
      "low": 130.0,
      "high": 130.0,
      "count": 1
+    }
+   ]
+  },
+  "HEATHKIT HW-16": {
+   "latest": {
+    "date": "2026-10-26",
+    "median": 157.5,
+    "low": 93.37,
+    "high": 200.0,
+    "count": 4
+   },
+   "history": [
+    {
+     "date": "2026-10-26",
+     "median": 157.5,
+     "low": 93.37,
+     "high": 200.0,
+     "count": 4
     }
    ]
   },
@@ -3735,6 +3789,24 @@
     }
    ]
   },
+  "ICOM IC-PW1": {
+   "latest": {
+    "date": "2026-11-03",
+    "median": 2695.0,
+    "low": 2695.0,
+    "high": 2695.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-11-03",
+     "median": 2695.0,
+     "low": 2695.0,
+     "high": 2695.0,
+     "count": 1
+    }
+   ]
+  },
   "ICOM IC-PW2": {
    "latest": {
     "date": "2026-08-16",
@@ -4256,6 +4328,24 @@
     }
    ]
   },
+  "ICOM UT-106": {
+   "latest": {
+    "date": "2026-11-09",
+    "median": 109.0,
+    "low": 92.5,
+    "high": 119.0,
+    "count": 5
+   },
+   "history": [
+    {
+     "date": "2026-11-09",
+     "median": 109.0,
+     "low": 92.5,
+     "high": 119.0,
+     "count": 5
+    }
+   ]
+  },
   "JOHNSON VIKING MATCHBOX 275W (250-23)": {
    "latest": {
     "date": "2026-10-09",
@@ -4368,6 +4458,24 @@
      "low": 160.0,
      "high": 250.0,
      "count": 7
+    }
+   ]
+  },
+  "KENWOOD BS-8": {
+   "latest": {
+    "date": "2026-09-11",
+    "median": 70.14,
+    "low": 70.14,
+    "high": 70.14,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-09-11",
+     "median": 70.14,
+     "low": 70.14,
+     "high": 70.14,
+     "count": 1
     }
    ]
   },
@@ -4690,6 +4798,24 @@
     }
    ]
   },
+  "KENWOOD TH-D72A": {
+   "latest": {
+    "date": "2026-10-27",
+    "median": 389.48,
+    "low": 325.0,
+    "high": 650.0,
+    "count": 6
+   },
+   "history": [
+    {
+     "date": "2026-10-27",
+     "median": 389.48,
+     "low": 325.0,
+     "high": 650.0,
+     "count": 6
+    }
+   ]
+  },
   "KENWOOD TH-D74A": {
    "latest": {
     "date": "2026-10-16",
@@ -4834,6 +4960,24 @@
      "low": 85.0,
      "high": 98.0,
      "count": 2
+    }
+   ]
+  },
+  "KENWOOD TM-261A": {
+   "latest": {
+    "date": "2026-11-11",
+    "median": 85.0,
+    "low": 59.99,
+    "high": 149.95,
+    "count": 7
+   },
+   "history": [
+    {
+     "date": "2026-11-11",
+     "median": 85.0,
+     "low": 59.99,
+     "high": 149.95,
+     "count": 7
     }
    ]
   },
@@ -5038,6 +5182,24 @@
     }
    ]
   },
+  "KENWOOD TM-V71": {
+   "latest": {
+    "date": "2026-11-10",
+    "median": 648.66,
+    "low": 648.66,
+    "high": 648.66,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-11-10",
+     "median": 648.66,
+     "low": 648.66,
+     "high": 648.66,
+     "count": 1
+    }
+   ]
+  },
   "KENWOOD TM-V71A": {
    "latest": {
     "date": "2026-11-04",
@@ -5135,6 +5297,24 @@
     }
    ]
   },
+  "KENWOOD TS-140S": {
+   "latest": {
+    "date": "2026-09-25",
+    "median": 291.81,
+    "low": 253.62,
+    "high": 329.99,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-09-25",
+     "median": 291.81,
+     "low": 253.62,
+     "high": 329.99,
+     "count": 2
+    }
+   ]
+  },
   "KENWOOD TS-2000": {
    "latest": {
     "date": "2026-10-28",
@@ -5188,10 +5368,10 @@
   "KENWOOD TS-430S": {
    "latest": {
     "date": "2026-11-05",
-    "median": 345.0,
+    "median": 339.99,
     "low": 200.0,
     "high": 399.99,
-    "count": 14
+    "count": 15
    },
    "history": [
     {
@@ -5207,6 +5387,13 @@
      "low": 200.0,
      "high": 399.99,
      "count": 14
+    },
+    {
+     "date": "2026-11-05",
+     "median": 339.99,
+     "low": 200.0,
+     "high": 399.99,
+     "count": 15
     }
    ]
   },
@@ -5770,6 +5957,24 @@
      "low": 440.11,
      "high": 1100.0,
      "count": 5
+    }
+   ]
+  },
+  "KENWOOD TS-950SDX": {
+   "latest": {
+    "date": "2026-09-16",
+    "median": 1917.99,
+    "low": 1917.99,
+    "high": 1917.99,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-09-16",
+     "median": 1917.99,
+     "low": 1917.99,
+     "high": 1917.99,
+     "count": 1
     }
    ]
   },
@@ -6971,6 +7176,42 @@
     }
    ]
   },
+  "RADIO SHACK HTX-202": {
+   "latest": {
+    "date": "2026-11-13",
+    "median": 57.5,
+    "low": 34.95,
+    "high": 75.0,
+    "count": 12
+   },
+   "history": [
+    {
+     "date": "2026-11-13",
+     "median": 57.5,
+     "low": 34.95,
+     "high": 75.0,
+     "count": 12
+    }
+   ]
+  },
+  "RADIO SHACK HTX-242": {
+   "latest": {
+    "date": "2026-11-03",
+    "median": 47.5,
+    "low": 27.5,
+    "high": 90.0,
+    "count": 9
+   },
+   "history": [
+    {
+     "date": "2026-11-03",
+     "median": 47.5,
+     "low": 27.5,
+     "high": 90.0,
+     "count": 9
+    }
+   ]
+  },
   "RADIO WORKS Y1-5K": {
    "latest": {
     "date": "2026-09-30",
@@ -7312,6 +7553,24 @@
      "median": 300.0,
      "low": 300.0,
      "high": 300.0,
+     "count": 1
+    }
+   ]
+  },
+  "SWAN 700CX": {
+   "latest": {
+    "date": "2026-11-05",
+    "median": 600.0,
+    "low": 600.0,
+    "high": 600.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-11-05",
+     "median": 600.0,
+     "low": 600.0,
+     "high": 600.0,
      "count": 1
     }
    ]
@@ -7683,6 +7942,24 @@
     }
    ]
   },
+  "TIGERTRONICS SIGNALINK USB": {
+   "latest": {
+    "date": "2026-11-12",
+    "median": 69.95,
+    "low": 38.0,
+    "high": 120.0,
+    "count": 35
+   },
+   "history": [
+    {
+     "date": "2026-11-12",
+     "median": 69.95,
+     "low": 38.0,
+     "high": 120.0,
+     "count": 35
+    }
+   ]
+  },
   "TRIO TR-9000G": {
    "latest": {
     "date": "2026-10-23",
@@ -7868,11 +8145,11 @@
   },
   "XIEGU GPA-100": {
    "latest": {
-    "date": "2026-10-11",
-    "median": 424.99,
+    "date": "2026-11-03",
+    "median": 427.0,
     "low": 380.0,
     "high": 541.0,
-    "count": 3
+    "count": 4
    },
    "history": [
     {
@@ -7881,6 +8158,13 @@
      "low": 380.0,
      "high": 541.0,
      "count": 3
+    },
+    {
+     "date": "2026-11-03",
+     "median": 427.0,
+     "low": 380.0,
+     "high": 541.0,
+     "count": 4
     }
    ]
   },
@@ -7911,11 +8195,11 @@
   },
   "XIEGU X6200": {
    "latest": {
-    "date": "2026-09-03",
-    "median": 400.0,
-    "low": 400.0,
-    "high": 400.0,
-    "count": 1
+    "date": "2026-11-06",
+    "median": 599.99,
+    "low": 499.95,
+    "high": 725.0,
+    "count": 15
    },
    "history": [
     {
@@ -7924,6 +8208,13 @@
      "low": 400.0,
      "high": 400.0,
      "count": 1
+    },
+    {
+     "date": "2026-11-06",
+     "median": 599.99,
+     "low": 499.95,
+     "high": 725.0,
+     "count": 15
     }
    ]
   },
@@ -9198,6 +9489,24 @@
      "median": 1174.52,
      "low": 1174.52,
      "high": 1174.52,
+     "count": 1
+    }
+   ]
+  },
+  "YAESU FT-8800/H": {
+   "latest": {
+    "date": "2026-10-01",
+    "median": 340.0,
+    "low": 340.0,
+    "high": 340.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-10-01",
+     "median": 340.0,
+     "low": 340.0,
+     "high": 340.0,
      "count": 1
     }
    ]
