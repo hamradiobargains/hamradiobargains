@@ -1,0 +1,52 @@
+{
+  "model": "AnyTone Ares II",
+  "slug": "anytone-ares-ii",
+  "searched_at": "2026-11-13T19:15:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep, eBay sold search 'anytone ares ii' (15 of 15, cap reached). 4 kept, median 174.0. OUTLIER: 137896900052 $87 kept and flagged. Dropped: parts-only 1 (307182451057 $79 'Ares 2 V2', Parts Only, +$25). Excluded: AT-6666 (different model), 'SUPER MOD' wire kits, programming cables. Ad says the 11-meter coverage mod is already done; comps are not matched to modified/unmodified state.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781588",
+    "site": "qth",
+    "ask": 140,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 87.0,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137896900052",
+      "source": "ebay",
+      "notes": "OUTLIER: under 0.5x the median of the other kept comps; shipping +$18.85; auction final bid",
+      "flags": []
+    },
+    {
+      "price": 249.0,
+      "sold_date": "2026-10-28",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/327121624421",
+      "source": "ebay",
+      "notes": "free shipping shown",
+      "flags": []
+    },
+    {
+      "price": 199.0,
+      "sold_date": "2026-06-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/226095135268",
+      "source": "ebay",
+      "notes": "free shipping shown",
+      "flags": []
+    },
+    {
+      "price": 149.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287525093805",
+      "source": "ebay",
+      "notes": "shipping +$16.5; title says 'Ares 11' (read as Ares II)",
+      "flags": []
+    }
+  ]
+}
