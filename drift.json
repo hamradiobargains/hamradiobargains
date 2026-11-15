@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T13:53:40+00:00",
+ "updated": "2026-11-15T13:53:37+00:00",
  "models": {
   "ASTRON RS-20A": {
    "display": "Astron RS-20A",
@@ -46,6 +46,24 @@
    "prior_median": 459.0,
    "prior_count": 5
   },
+  "ICOM IC-7300": {
+   "display": "Icom IC-7300",
+   "pct": -1.9,
+   "window": "3mo",
+   "recent_median": 779.5,
+   "recent_count": 38,
+   "prior_median": 795.0,
+   "prior_count": 5
+  },
+  "ICOM IC-R20": {
+   "display": "Icom IC-R20",
+   "pct": 10.5,
+   "window": "3mo",
+   "recent_median": 419.99,
+   "recent_count": 7,
+   "prior_median": 379.95,
+   "prior_count": 5
+  },
   "ICOM SM-50": {
    "display": "Icom SM-50",
    "pct": 2.4,
@@ -81,6 +99,15 @@
    "recent_count": 5,
    "prior_median": 349.99,
    "prior_count": 7
+  },
+  "MFJ MFJ-949E": {
+   "display": "MFJ MFJ-949E",
+   "pct": 80.0,
+   "window": "3mo",
+   "recent_median": 135.0,
+   "recent_count": 29,
+   "prior_median": 75.0,
+   "prior_count": 5
   },
   "MFJ-989C": {
    "display": "MFJ-989C",
