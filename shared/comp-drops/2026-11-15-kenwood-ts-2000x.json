@@ -1,0 +1,38 @@
+{
+  "model": "Kenwood TS-2000X",
+  "slug": "kenwood-ts-2000x",
+  "searched_at": "2026-11-15T17:58:17-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — only 2 TS-2000X units on page 1, both from the same seller and likely the same unit relisted (one title says 'relisted'). Plain TS-2000 sales excluded as a different model; X-model boards/modules excluded as parts. No best-offer-accepted or parts-only TS-2000X units to drop. Outlier test not meaningful with 2 comps.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/206703878149",
+    "site": "ebay",
+    "ask": 1800.0,
+    "shipping": 82.15
+  },
+  "comps": [
+    {
+      "price": 730.0,
+      "sold_date": "2026-11-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168827315503",
+      "source": "ebay",
+      "notes": "auction, 12 bids; title 'Kenwood TS2000X, relisted'; +$51.49 delivery; same seller (airfreeone) as 168808084867",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 999.0,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168808084867",
+      "source": "ebay",
+      "notes": "auction, 36 bids; title says 'Read condition!!!' (condition text not read); +$60.16 delivery; same seller as 168827315503 (which says 'relisted')",
+      "flags": [
+        "possible_duplicate"
+      ]
+    }
+  ]
+}
