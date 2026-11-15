@@ -1,0 +1,218 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-14",
+  "ran_at": "2026-11-14T18:46:15-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered: 2026-11-14-qth.json (ran_at 2026-11-14T14:52:53-05:00), 2026-11-14-eham.json (05:52:38) and 2026-11-14-ebay.json (17:59:28); window = after previous extras drop 2026-11-13-extras.json (ran_at 2026-11-13T18:47:00-05:00). Previous extras drop CARRIED OVER (5, put first): QTH 1784729, QTH 1784727, eHam 629600, eHam 629596, eHam 629593; its BACKLOG CARRY: none. Named extra added by Leo: QTH 1783910 (Yaesu '991', $600 firm) worked again as the ORIGINAL FT-991 per Leo's ruling; comps filed under 'Yaesu FT-991' only, no FT-991A figures used; it is already in dropped-urls.json so not re-appended. Fresh extras: the 11/14 eHam and eBay drops list none under 'Extra plausible candidates not comped' (the 11/14 eBay drop's cap-skipped items are not under that heading, so not queued); the 11/14 QTH drop lists 34 (1784727 duplicates a carry-over). Queue 40 total: 5 carry-overs + 1783910 + 34 fresh. Worked 19 (18 triaged with listings, 1 skipped for no price: 1784856 FT-897 with accessories names no price). Ledger hits 5: 1784814 Drake L-4B, 1784864 RM Italy BLA350 Plus, 1784872 LDG KT-100, 1784789 DX-394 (UNCERTAIN, 'B' model), 1784811 FT-857D go bag. eBay sold searches used 15 of 15 (cap reached): ETO Alpha 9500, SharkRF M1KE, MFJ-900, Elecraft SP4, GAP Titan DX, GAP Titan vertical, GAP Titan (three searches on GAP Titan because the first two terms returned nothing), Yaesu FT-991, Yaesu FT-9000D, Mercury LUX amplifier, ETO Alpha 78, Palstar AT4K, Zerofive 10-40 vertical, Icom IC-703 Plus, FlexRadio FLEX-1500. One at a time, 15+ s apart, signed in as Leo, no challenge. Solid (3+): Yaesu FT-991 (4 kept, median 685.00). Thin: MFJ-900 (2, 87.49), FLEX-1500 (2, 339.44). Zero comps: Alpha 9500, M1KE, SP4, GAP Titan, FT-9000D, Mercury LUX, Alpha 78, AT4K, Zerofive, IC-703 Plus (IC-703 non-Plus sold $429 and $439, listed in its comp file only, kept separate). Gone: none (all 18 opened QTH ads were live; no eHam page opened). Skipped: 1784856 (no price). Cross-posts: none (1784727 appeared both as carry-over and in the 11/14 list). Outliers: none. UNCERTAIN: 1784789 DX-394 'B' model vs ledger DX-394; 1784814 Drake L4B 'Added 7 diodes to lower bias current' with home-brew supply; 1784856 FT-897 'sold as-is, with no returns' (no price); 1784866 Mercury LUX bundle with ATS tuner; 1784811 and 1784856 are accessory bundles. IC-R75 1784859 ($315 + shipping, live this run) and SGC-237 1784836 ($315 shipped, live this run) were opened but not comped, cap. Shipping recorded 0 where included, free, pickup only or not quoted (Palstar AT4K $80 is the seller's estimate; KT-100 $15 is $140 shipped minus $125 pickup). Timestamps -05:00 (EST); comp searched_at times approximate. CARRIED OVER (put first next run): 1784859, 1784836, 1784826, 1784819, 1784815, 1784850, 1784857, 1784806, 1784858, 1784833, 1784831, 1784835, 1784816, 1784852, 1784824, 1784842, 1784813, 1784805, 1784804. BACKLOG CARRY: none.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784729",
+      "site": "qth",
+      "title": "AMPHF - FS: New Old Stock (NOS) ETO Alpha 9500 Linear Amplifier & Power Transformer",
+      "price": 6000,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. Seller's words: 'New Old Stock (NOS)... Never unboxed. Box opened to verify contents.' $6000.00 U.S. + Shipping (not quoted), cashier's check / money order. comps: eto-alpha-9500, 0 kept, no median (zero qualifying sold comps).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784727",
+      "site": "qth",
+      "title": "DIGITAL - SHARKRF M1KE WITH STAND",
+      "price": 315,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "live. Seller's words: 'purchased this M1KE new in June of this year... still well in warranty (2 years)... used it lightly and works great... very good condition, no nicks or scratches'. $315 includes CONUS shipping; 'Sale is final'. comps: sharkrf-m1ke, 0 kept, no median (only a desk stand sold).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629600",
+      "site": "eham",
+      "title": "MFJ-900 tuner",
+      "price": 50,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "not checked - eHam off-limits to the sweep. As recorded in the eHam drop: $50 shipped. comps: mfj-900, 2 kept (thin), median 87.49.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629596",
+      "site": "eham",
+      "title": "Elecraft SP4 speaker",
+      "price": 345,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "not checked - eHam off-limits to the sweep. As recorded in the eHam drop: $345 delivered. comps: elecraft-sp4, 0 kept, no median (SP3 speaker $345 sold 2026-11-01 is a different model).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629593",
+      "site": "eham",
+      "title": "GAP Titan HF vertical",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-11-13",
+      "condition_notes": "not checked - eHam off-limits to the sweep. As recorded in the eHam drop: $200, pickup only, no shipping. comps: gap-titan, 0 kept, no median (3 searches, nothing relevant).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu 991 for sale",
+      "price": 600,
+      "shipping": 31,
+      "found_at": "2026-11-10",
+      "condition_notes": "live. Named extra, worked again at Leo's instruction; treated as the ORIGINAL Yaesu FT-991 (Leo's ruling today), comps are FT-991 only, never FT-991A. Seller's words: 'Nice radio with original mic and bound copy of owners manual... One minor scratch on the top. Power pole connectors. I do not have the original box, but radio is securely packed for shipping.' '$600.00 firm, plus shipping' (insured CONUS 'looks like $31.00'); 'I will consider driving a reasonable distance with pre-payment.' Ad last edited 11/10/26. comps: yaesu-ft-991, 4 kept, median 685.00. URL already in dropped-urls.json (not re-appended).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784839",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu FT-9000D",
+      "price": 4700,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. Seller's words: 'Yaesu FT-9000D works great. Looks great. $4700 and willing to do some trading.' comps: yaesu-ft-9000d, 0 kept, no median (zero qualifying sold comps).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784866",
+      "site": "qth",
+      "title": "AMPHF - FOR SALE MERCURY LUX (with Mercury ATS auto tuner)",
+      "price": 4100,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. Seller's words: 'both units are in perfect shape and pristine condition with no issues... original boxes'; $4100 for amplifier AND tuner together, 'may consider selling the amplifier separately'; prefers local pickup (metro Atlanta), will ship, shipping not quoted. Bundle price. comps: mercury-lux, 0 kept, no median.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784812",
+      "site": "qth",
+      "title": "AMPHF - ETO Alpha 78",
+      "price": 1100,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. Seller's words: 'Alpha 78 with two Eimac 3cx800a7 tubes and a Peter Dahl transformer in very nice condition. No scratches or dings. Includes spare meter bulbs.' 'No shipping unless you arrange it yourself.' $1100. comps: eto-alpha-78, 0 kept, no median.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784814",
+      "site": "qth",
+      "title": "AMPHF - Drake L4B & Power supply",
+      "price": 900,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. Seller's words: 'Drake L4B with 2 3-400z tubes and home brew 3 KV supply. Showing just under 1KW on 10 meters... Added 7 diodes to lower bias current. Supply rated 1 amp continuous current.' 'I will not ship it. Pick up only.' $900. comps: drake-l-4b, ledger hit, median 1299.0 (count 5, ledger date 2026-10-27).",
+      "work_flag": "Seller's words: 'Added 7 diodes to lower bias current'; home-brew 3 KV supply; pick up only",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784845",
+      "site": "qth",
+      "title": "ANTETUNE - PALSTAR AT4K TUNER",
+      "price": 675,
+      "shipping": 80,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. Seller's words: '$675 OBO + SHIPPING... SHIPPING WILL PROBABLY BE IN THE $80 RANGE... NO BOX... PICK UP IN TAMPA'. Shipping $80 is the seller's estimate. comps: palstar-at4k, 0 kept, no median.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784864",
+      "site": "qth",
+      "title": "AMPHF - RM Italy BLA350Plus Amplifier",
+      "price": 660,
+      "shipping": 47,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. Seller's words: 'Have \"like new\" RM Italy BLA350 PLUS Amplifier... set up for 120 Volts.' '$660 plus shipping $47'. Payment via Zelle, M.O. or personal check when clears. comps: rm-italy-bla-350-plus, ledger hit, median 485.0 (count 3, ledger date 2026-11-02).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784874",
+      "site": "qth",
+      "title": "ANTHF - VERTICAL HF ANTENNA (Zerofive 10-40)",
+      "price": 570,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. Seller's words: 'Less than a year old, Zerofive 10-40 multiband ground plane antenna, NO RADIALS are needed... installed elevated at 30'... Price $570 plus shipping.' Shipping not quoted. comps: zerofive-10-40, 0 kept, no median.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784856",
+      "site": "qth",
+      "title": "RADIOHF - FT-897 With Accessories",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. not comped: ad names no price (no asking price in the ad text), skipped. Seller's words: 'Radio operates as it should... No internal batteries are installed. The radio and accessories are being sold as-is, with no returns. The equipment is fully operational, and due to the nature of electronic equipment, all sales are final.' Included: LDG-897 meter, Yaesu FP-30B power supply, mAT-30 tuner, SignaLink USB, CAT cable, USB-62C cable, manuals. Local pickup preferred.",
+      "work_flag": "Seller's words: 'sold as-is, with no returns'",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784822",
+      "site": "qth",
+      "title": "RADIOHF - Icom IC-703 Plus",
+      "price": 425,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. Seller's words: 'Icom IC-703 Plus - radio, manual, mic, power cable. Has the UT-106 DSP module. Excellent cosmetic and electronic condition, full power, works on 60m and all other bands 160m to 6m. Includes adapter to key an external amplifier and Win 11 compatible USB to radio CAT cable.' '$425 shipped.' comps: icom-ic-703-plus, 0 kept (IC-703 non-Plus sales $429 and $439 noted in the comp file only).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784809",
+      "site": "qth",
+      "title": "RADIOHF - For Sale: Flex Radio Model FLEX-1500",
+      "price": 350,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. Seller's words: 'Comes with the radio, power cord, computer cord and hand mic (that could use a new cord.) Asking $350 including shipping to the U.S. If you use PayPal, please add 3%.' comps: flexradio-flex-1500, 2 kept (thin), median 339.44.",
+      "work_flag": "Seller's words: 'hand mic (that could use a new cord.)'",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784872",
+      "site": "qth",
+      "title": "ANTETUNE - LDG (Kenwood) KT-100 Tuner",
+      "price": 125,
+      "shipping": 15,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. Seller's words: 'LDG KT-100 HF & 6M tuner with control/power cable to Kenwood radio. A few scratches on top, Just tested, Works as it should. $125 picked up or $140 shipped in lower 48.' Ask recorded as $125 pickup + $15 shipping. comps: ldg-kt-100, ledger hit, median 99.99 (count 3, ledger date 2026-10-19).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784789",
+      "site": "qth",
+      "title": "RADIOHF - RADIO SHACK DX-394",
+      "price": 175,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. Seller's words: 'Unit is in working condition, all knobs and dials work as they should. Condition of unit is good to very good and cleaner than most. Includes the whip antenna. The front panel display works, but is dim as most of these are... This is the later, hard to find \"B\" Model'. 'Asking $175.00 which includes shipping to CONUS ONLY.' comps: radio-shack-dx-394, ledger hit, median 162.5 (count 24, ledger date 2026-11-03); UNCERTAIN: ad says 'B' model, ledger entry is DX-394.",
+      "work_flag": "Seller's words: 'The front panel display works, but is dim as most of these are'",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784811",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu FT-857D ham radio go bag",
+      "price": 1900,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. Seller's words: 'Yaesu FT-857D ham radio go bag. Armoloq frame, TNC Mobilinkd, Digirig, and cables... XZOY 12V LifePO4... Comes with original box that includes face separation kit YSK-857, owners manual... Turn-key system. Over $2400 invested. $1900. Cash Only / No Trades.' Bundle price. comps: yaesu-ft-857d, ledger hit, median 1049.0 (count 19, ledger date 2026-10-21; radio alone, not the bundle).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
