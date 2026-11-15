@@ -5,7 +5,11 @@
     {
       "term": "kwm-380",
       "searched_at": "2026-11-15T13:27:50-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Collins KWM-380",
+      "status": "worked",
+      "worked_at": "2026-11-15",
+      "result": "no comps found (eBay sold: only KWM-380 parts/accessories — pass transistors, power switch, filter kits, relay, knobs; no complete-radio sales)"
     }
   ]
 }
