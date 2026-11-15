@@ -1,0 +1,26 @@
+{
+  "model": "Collins KWM-380",
+  "slug": "collins-kwm-380",
+  "searched_at": "2026-11-15T14:01:00-05:00",
+  "searched_by": "leo-eham-screenshots",
+  "source": "eham",
+  "notes": "Deposited from Leo's eHam screenshots 2026-11-15 (he searched eHam after the eBay price-check found zero complete-radio sales). Both ads are the SAME unit: identical ad text, same seller, same missing power cord and manual, same '$2500 as-is offers' line. First listed 2025-11-15 at $3395 delivered and stamped SOLD; relisted 2025-12-24 at $2999 delivered and stamped SOLD. Archie's judgment: the December sale is the real transaction; the November entry is flagged possible_duplicate so the unit is not double-counted. Leo can reverse the flag with one word. Untested unit, sold as-is in both ads.",
+  "comps": [
+    {
+      "price": 3395.0,
+      "sold_date": "2025-11-15",
+      "condition": "Clean, many options, untested; no power cord or manual",
+      "source": "eham",
+      "flags": ["possible_duplicate"],
+      "notes": "First listing of the unit; relisted lower on 2025-12-24. Asking price was delivered (shipping included)."
+    },
+    {
+      "price": 2999.0,
+      "sold_date": "2025-12-24",
+      "condition": "Clean, many options, untested; no power cord or manual",
+      "source": "eham",
+      "flags": [],
+      "notes": "Relist of the 2025-11-15 ad at a lower price; treated as the unit's actual sale. Asking price was delivered (shipping included)."
+    }
+  ]
+}
