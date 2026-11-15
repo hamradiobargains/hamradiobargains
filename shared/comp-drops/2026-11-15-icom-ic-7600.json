@@ -1,0 +1,65 @@
+{
+  "model": "Icom IC-7600",
+  "slug": "icom-ic-7600",
+  "searched_at": "2026-11-15T15:02:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-7600', page 1 only (fewer-words section ignored). 5 kept comps. Dropped 1 best-offer-accepted (397625033167, $1,488 '+ Extras') and 1 parts-only (287590510970, 'for parts or repair', also best-offer-accepted). Accessories (cables, knobs, meters, speakers, guides) left out. Two kept comps at $1,720 (227511080457 and 227392085369) have identical titles/prices — flagged possible_duplicate. No outliers. Ledger miss reason: ICOM IC-7600 latest date 2026-09-29 is older than 30 days.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784876",
+    "site": "qth",
+    "ask": 1050.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 1195.0,
+      "sold_date": "2026-11-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227605046309",
+      "source": "ebay",
+      "notes": "Buy It Now; title 'ICOM IC-7600 HF/6 METER ALL MODE TRANSCEIVER'; +$69.00 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128088720394",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not best-offer-accepted); +$60.00 delivery shown",
+      "flags": []
+    },
+    {
+      "price": 1720.0,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227511080457",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not best-offer-accepted); title 'Perfect condition- almost an Open Box'; +$250.34 delivery shown; same title and price as item 227392085369 sold 2026-09-05",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1720.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227392085369",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not best-offer-accepted); title 'Perfect condition- almost an Open Box'; +$250.34 delivery shown; same title and price as item 227511080457 sold 2026-09-11",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1300.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198585403394",
+      "source": "ebay",
+      "notes": "Buy It Now; title includes mic + manual (US version); +$52.50 delivery shown",
+      "flags": []
+    }
+  ]
+}
