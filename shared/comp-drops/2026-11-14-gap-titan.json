@@ -1,0 +1,15 @@
+{
+  "model": "GAP Titan",
+  "slug": "gap-titan",
+  "searched_at": "2026-11-14T18:54:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Three eBay sold searches (counted as 3 of the 15): 'GAP Titan DX' (0 relevant), 'GAP Titan vertical' (0 results), 'GAP Titan' (only unrelated auto parts/toys/clothing). Zero comps for the GAP Titan HF vertical. Exact variant (Titan / Titan DX) not stated in the eHam drop; ad not opened (eHam off-limits to the sweep).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629593",
+    "site": "eham",
+    "ask": 200,
+    "shipping": 0
+  },
+  "comps": []
+}
