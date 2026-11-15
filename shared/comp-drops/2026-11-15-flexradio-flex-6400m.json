@@ -1,0 +1,27 @@
+{
+  "model": "FlexRadio FLEX-6400M",
+  "slug": "flexradio-flex-6400m",
+  "searched_at": "2026-11-15T15:02:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'flexradio flex-6400m', page 1 only. Thin: 1 kept comp. Left out non-M FlexRadio 6400 sales (398334155262 $1,200; 327316076950 $1,799.95) and FLEX-6600M sales - different models. No best-offer-accepted or parts-only drops. Ledger miss reason: FLEXRADIO FLEX-6400M count 1.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784924",
+    "site": "qth",
+    "ask": 2150.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 2400.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206500829240",
+      "source": "ebay",
+      "notes": "Buy It Now; title 'FlexRadio FLEX-6400M HF/50MHz Ham Radio Transceiver ATU LSB Black'; +$11.94 delivery shown",
+      "flags": [
+        "option_installed"
+      ]
+    }
+  ]
+}
