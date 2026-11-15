@@ -1,0 +1,42 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-15",
+  "ran_at": "2026-11-15T05:54:24-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-14T05:52:38-05:00 (prior eham run). Browsed signed OUT ('Login/Register' / 'Welcome Guest' shown); a Cloudflare 'Performing security verification' interstitial cleared on its own after one ordinary wait, no CAPTCHA. Read public classifieds page 1 only (it already reached ads covered by prior runs). No individual ad pages opened, no search form, sold searches, or seller/callsign pages; no ad IDs probed. New public ads in window: 629622, 629623, 629624 - three postings of the same Ten-Tec Omni VI w/ option 3 (all dropped, each noted as a likely duplicate). Not-yet-public: page 1 also displayed ads marked as pending admin approval ('*Approve!*' / '*Admin Pending*' admin links) - 629640, 629627, 629626, 629621, 629611, 629610 - not opened and not dropped. Comps: 0 ledger hits; 1 ledger miss (no 'TEN-TEC OMNI VI W/ OPTION 3' entry; 'TEN-TEC OMNI VI' count 1, 2026-07-27; 'TEN-TEC OMNI VI (563)' count 1) -> 1 eBay sold search; signed in to eBay as Leo, no challenge.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629624",
+      "site": "eham",
+      "title": "Ten Tec Omni VI w/ option3",
+      "price": 600.0,
+      "shipping": 70.0,
+      "found_at": "2026-11-15",
+      "condition_notes": "Ten-Tec Omni VI with Option 3 factory installed; includes 704 mic and manual. Seller: excellent cosmetic condition, fully operational, full power out on all bands. Payment by check, cashier's check or postal money order; ships when check clears. Posted 2026-11-13. This version asks $600 plus $70 shipping to lower 48, and also offers a power supply for $150 plus $50 shipping (not included in price). Appears to be the same unit as 629622 and 629623 (same seller text, relisted at $650).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629623",
+      "site": "eham",
+      "title": "Ten Tec Omni VI w/ option3",
+      "price": 650.0,
+      "shipping": 70.0,
+      "found_at": "2026-11-15",
+      "condition_notes": "Ten-Tec Omni VI with Option 3 factory installed; includes 704 mic and manual. Seller: excellent cosmetic condition, fully operational, full power out on all bands. Payment by check, cashier's check or postal money order; ships when check clears. Posted 2026-11-13. Asking $650 plus $70 shipping to lower 48. Appears to be the same unit as 629622 and 629624 (629624 is the newest version, at $600).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629622",
+      "site": "eham",
+      "title": "Ten Tec Omni VI w/ option3",
+      "price": 650.0,
+      "shipping": 70.0,
+      "found_at": "2026-11-15",
+      "condition_notes": "Ten-Tec Omni VI with Option 3 factory installed; includes 704 mic and manual. Seller: excellent cosmetic condition, fully operational, full power out on all bands. Payment by check, cashier's check or postal money order; ships when check clears. Posted 2026-11-13. Asking $650 plus $70 shipping to lower 48. Appears to be the same unit as 629623 and 629624 (629624 is the newest version, at $600).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
