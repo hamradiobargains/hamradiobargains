@@ -1,0 +1,22 @@
+{
+  "model": "RM ITALY BLA 350 PLUS",
+  "slug": "rm-italy-bla-350-plus",
+  "searched_at": "2026-11-14T19:03:30-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped - median 485.0, count 3, ledger date 2026-11-02 - ledger hit - individual sales behind the median are not auditable from this file",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784864",
+    "site": "qth",
+    "ask": 660,
+    "shipping": 47
+  },
+  "comps": [],
+  "ledger": {
+    "median": 485,
+    "low": 460,
+    "high": 600,
+    "count": 3,
+    "date": "2026-11-02"
+  }
+}
