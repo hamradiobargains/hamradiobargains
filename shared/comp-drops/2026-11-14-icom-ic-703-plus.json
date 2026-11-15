@@ -1,0 +1,15 @@
+{
+  "model": "Icom IC-703 Plus",
+  "slug": "icom-ic-703-plus",
+  "searched_at": "2026-11-14T19:01:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Icom IC-703 Plus' page 1: no sale titled 'IC-703 Plus'. Two sales titled 'IC-703' (no 'Plus') - kept OUT of comps because IC-703 and IC-703 Plus are not treated as the same model (unsure, kept separate); for reference only: 940011539847 $429.00 (2026-10-20, 2 bids, +$31.70) and 278405423622 $439.00 (2026-10-01, 3 bids, +$31.70), both IC-703 w/ auto antenna tuner, DSP and FL-52A. Accessory sales (brackets, power cables) left out. Zero comps.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784822",
+    "site": "qth",
+    "ask": 425,
+    "shipping": 0
+  },
+  "comps": []
+}
