@@ -1,0 +1,38 @@
+{
+  "model": "Yaesu FTDX5000MP Limited",
+  "slug": "yaesu-ftdx5000mp-limited",
+  "searched_at": "2026-11-15T15:02:28-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ftdx5000mp limited', page 1 only. Thin: 2 kept comps, both titled 'Limited' and both sold with SM-5000 + box. Dropped 1 parts-only (237082048003, FTDX5000MP Limited, $1,700). Left out FTDX5000MP sales whose titles do not say Limited (cannot confirm identity): 800886414087 $2,000, 800802882002 $2,000, 960075702840 $1,935, 206564199819 $3,000, 389087440544 $3,400, 127876026400 $3,300; also 336828041694 (parts-only + best-offer-accepted) and 287491714354 (best-offer-accepted) non-Limited. FTDX5000D and FTDX3000 results left out. No outliers. Ledger miss reason: ledger has only YAESU FTDX-5000MP; identity with the Limited not certain.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784897",
+    "site": "qth",
+    "ask": 2300.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 3105.0,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206481360086",
+      "source": "ebay",
+      "notes": "Buy It Now; title 'Yaesu FTdx5000MP Limited Ham Radio HF Transceiver + SM-5000 + Box (very nice)'; +$127.50 delivery shown",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 4250.0,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336749595298",
+      "source": "ebay",
+      "notes": "Buy It Now; title 'Rare 2021 Yaesu FTdx5000MP Limited HF/6 Transceiver + SM-5000 + Box 200w'; +$62.91 delivery shown",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
