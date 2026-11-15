@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T13:53:40+00:00",
+ "updated": "2026-11-15T13:53:37+00:00",
  "source": "HamRadioBargains sold-comp ledger \u2014 genuine sold listings from eHam, QTH, eBay and site deals, plus the eHam comp archive. Prices are asking prices at sale; best offers may differ.",
  "models": {
   "ACOM 06AT": {
@@ -618,6 +618,24 @@
      "low": 989.99,
      "high": 1686.78,
      "count": 4
+    }
+   ]
+  },
+  "APACHE LABS ANAN G2": {
+   "latest": {
+    "date": "2026-11-12",
+    "median": 699.99,
+    "low": 699.99,
+    "high": 699.99,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-11-12",
+     "median": 699.99,
+     "low": 699.99,
+     "high": 699.99,
+     "count": 1
     }
    ]
   },
@@ -3074,11 +3092,11 @@
   },
   "ICOM IC-706MKIIG": {
    "latest": {
-    "date": "2026-10-11",
+    "date": "2026-11-13",
     "median": 599.99,
     "low": 425.0,
     "high": 750.0,
-    "count": 19
+    "count": 27
    },
    "history": [
     {
@@ -3094,6 +3112,13 @@
      "low": 425.0,
      "high": 750.0,
      "count": 19
+    },
+    {
+     "date": "2026-11-13",
+     "median": 599.99,
+     "low": 425.0,
+     "high": 750.0,
+     "count": 27
     }
    ]
   },
@@ -5604,10 +5629,10 @@
   "KENWOOD TS-570D": {
    "latest": {
     "date": "2026-10-09",
-    "median": 500.0,
-    "low": 400.0,
+    "median": 499.99,
+    "low": 361.23,
     "high": 600.0,
-    "count": 6
+    "count": 7
    },
    "history": [
     {
@@ -5616,6 +5641,13 @@
      "low": 400.0,
      "high": 600.0,
      "count": 6
+    },
+    {
+     "date": "2026-10-09",
+     "median": 499.99,
+     "low": 361.23,
+     "high": 600.0,
+     "count": 7
     }
    ]
   },
@@ -6467,6 +6499,24 @@
     }
    ]
   },
+  "MFJ-900": {
+   "latest": {
+    "date": "2026-09-28",
+    "median": 87.49,
+    "low": 74.99,
+    "high": 99.99,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-09-28",
+     "median": 87.49,
+     "low": 74.99,
+     "high": 99.99,
+     "count": 2
+    }
+   ]
+  },
   "MFJ-939K": {
    "latest": {
     "date": "2026-10-09",
@@ -6782,11 +6832,11 @@
   },
   "MIRAGE BD-35": {
    "latest": {
-    "date": "2026-09-15",
-    "median": 137.5,
+    "date": "2026-11-09",
+    "median": 125.0,
     "low": 80.0,
     "high": 155.5,
-    "count": 4
+    "count": 5
    },
    "history": [
     {
@@ -6795,6 +6845,13 @@
      "low": 80.0,
      "high": 155.5,
      "count": 4
+    },
+    {
+     "date": "2026-11-09",
+     "median": 125.0,
+     "low": 80.0,
+     "high": 155.5,
+     "count": 5
     }
    ]
   },
@@ -7262,6 +7319,24 @@
      "median": 298.0,
      "low": 298.0,
      "high": 298.0,
+     "count": 1
+    }
+   ]
+  },
+  "RADIODDITY QB25": {
+   "latest": {
+    "date": "2026-10-04",
+    "median": 79.99,
+    "low": 79.99,
+    "high": 79.99,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-10-04",
+     "median": 79.99,
+     "low": 79.99,
+     "high": 79.99,
      "count": 1
     }
    ]
@@ -7836,11 +7911,11 @@
   },
   "TEN-TEC OMNI VI": {
    "latest": {
-    "date": "2026-07-27",
-    "median": 900.0,
-    "low": 900.0,
+    "date": "2026-11-09",
+    "median": 694.5,
+    "low": 489.0,
     "high": 900.0,
-    "count": 1
+    "count": 2
    },
    "history": [
     {
@@ -7849,6 +7924,13 @@
      "low": 900.0,
      "high": 900.0,
      "count": 1
+    },
+    {
+     "date": "2026-11-09",
+     "median": 694.5,
+     "low": 489.0,
+     "high": 900.0,
+     "count": 2
     }
    ]
   },
@@ -8511,11 +8593,11 @@
   },
   "YAESU FT-100D": {
    "latest": {
-    "date": "2026-08-25",
-    "median": 600.0,
-    "low": 550.0,
-    "high": 650.0,
-    "count": 3
+    "date": "2026-11-13",
+    "median": 583.5,
+    "low": 400.0,
+    "high": 733.46,
+    "count": 8
    },
    "history": [
     {
@@ -8524,6 +8606,13 @@
      "low": 550.0,
      "high": 650.0,
      "count": 3
+    },
+    {
+     "date": "2026-11-13",
+     "median": 583.5,
+     "low": 400.0,
+     "high": 733.46,
+     "count": 8
     }
    ]
   },
@@ -9742,11 +9831,11 @@
   },
   "YAESU FT-991": {
    "latest": {
-    "date": "2026-10-09",
-    "median": 776.66,
-    "low": 720.0,
+    "date": "2026-11-11",
+    "median": 748.33,
+    "low": 586.0,
     "high": 782.13,
-    "count": 3
+    "count": 4
    },
    "history": [
     {
@@ -9762,6 +9851,13 @@
      "low": 720.0,
      "high": 782.13,
      "count": 3
+    },
+    {
+     "date": "2026-11-11",
+     "median": 748.33,
+     "low": 586.0,
+     "high": 782.13,
+     "count": 4
     }
    ]
   },
