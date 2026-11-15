@@ -1,0 +1,47 @@
+{
+  "model": "Kantronics KAM-XL",
+  "slug": "kantronics-kam-xl",
+  "searched_at": "2026-11-15T17:58:17-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Kantronics KAM-XL', page 1 only. Kept 3 KAM-XL units. Dropped 1 best-offer-accepted (267837729712, KAM-XL + cabling) and 1 parts-only (307027467875). Excluded KAM / KAM Plus sales as different models. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/198798062695",
+    "site": "ebay",
+    "ask": 200.0,
+    "shipping": 25.0
+  },
+  "comps": [
+    {
+      "price": 129.95,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336795546524",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not accepted); includes power adapter; +$10.02 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 149.99,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278238755730",
+      "source": "ebay",
+      "notes": "Buy It Now; includes power adapter; +$15.00 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336751876525",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not accepted); +$6.98 delivery",
+      "flags": []
+    }
+  ]
+}
