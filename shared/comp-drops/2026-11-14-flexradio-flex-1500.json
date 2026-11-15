@@ -1,0 +1,34 @@
+{
+  "model": "FlexRadio FLEX-1500",
+  "slug": "flexradio-flex-1500",
+  "searched_at": "2026-11-14T19:02:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'FlexRadio FLEX-1500' page 1: 3 sales, 2 kept (thin), median 339.44. Dropped 1 best-offer-accepted: 800578722810 $445.99 (2026-08-28, +$25.12). No parts-only, no read-description. Outliers: none. Ledger entry FLEXRADIO FLEX-1500 (2026-09-29, count 3) is older than 30 days and was not used.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784809",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 400,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168711784786",
+      "source": "ebay",
+      "notes": "Title 'Tested/Working'; 1 bid, final bid; +$9.66 delivery",
+      "flags": []
+    },
+    {
+      "price": 278.88,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168603387046",
+      "source": "ebay",
+      "notes": "Auction, 43 bids, final bid; located in Italy (international seller); +$38.58 delivery",
+      "flags": []
+    }
+  ]
+}
