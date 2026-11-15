@@ -1,0 +1,144 @@
+{
+  "model": "Yaesu FT-710AESS",
+  "slug": "yaesu-ft-710aess",
+  "searched_at": "2026-11-15T17:58:17-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Yaesu FT-710AESS', page 1 only, 'Results matching fewer words' ignored. Kept 12 FT-710 AESS units. Dropped 6 best-offer-accepted (840046592240, 128128764840 [title 'FT 710', model unclear], 820095677192, 336788551111, 820066184473, 128048357796) and 1 parts-only (168845597176, also best-offer-accepted). Excluded as different model: FT-710 Field (several), FT-711RH; excluded accessories (handles). Several kept comps are Japan sellers with high import-inclusive delivery and SP-40 speaker included. 168731036314 and 168686397798 are same seller/same title, flagged possible_duplicate. OUTLIERS: https://www.ebay.com/itm/135406267266 $1,498.42 vs ~$936",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/117523524529",
+    "site": "ebay",
+    "ask": 898.0,
+    "shipping": 20.91
+  },
+  "comps": [
+    {
+      "price": 939.99,
+      "sold_date": "2026-11-12",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/205029673522",
+      "source": "ebay",
+      "notes": "Japan seller, includes SP-40 speaker; or Best Offer listing (not accepted); +$300.00 delivery incl. import fees",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1038.59,
+      "sold_date": "2026-10-26",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/206031683452",
+      "source": "ebay",
+      "notes": "Japan seller, w/ SP-40 speaker; or Best Offer listing (not accepted); +$225.00 delivery incl. import fees",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 939.0,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/306893765286",
+      "source": "ebay",
+      "notes": "Japan seller, W/SP-40; Buy It Now; +$170.00 delivery incl. import fees",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 894.79,
+      "sold_date": "2026-10-18",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/407274782416",
+      "source": "ebay",
+      "notes": "Japan seller, w/SP-40; or Best Offer listing (not accepted); +$111.00 delivery incl. import fees",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 936.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168731036314",
+      "source": "ebay",
+      "notes": "auction, 22 bids, 'Lightly Used'; +$21.40 delivery; same seller and title as 168686397798 (Sep 20)",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 915.0,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168686397798",
+      "source": "ebay",
+      "notes": "auction, 36 bids, 'Lightly Used'; +$21.40 delivery; same seller and title as 168731036314 (Oct 4)",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1207.24,
+      "sold_date": "2026-09-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/136758521637",
+      "source": "ebay",
+      "notes": "Japan seller, JP 100V version w/ SP-40 and NTI-200 step-unit; Buy It Now; +$234.00 delivery incl. import fees",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 850.02,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257671330696",
+      "source": "ebay",
+      "notes": "Buy It Now; +$96.39 delivery",
+      "flags": []
+    },
+    {
+      "price": 932.78,
+      "sold_date": "2026-08-29",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/206348169079",
+      "source": "ebay",
+      "notes": "Japan seller; or Best Offer listing (not accepted); +$100.00 delivery incl. import fees",
+      "flags": []
+    },
+    {
+      "price": 949.98,
+      "sold_date": "2026-08-22",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/407111746049",
+      "source": "ebay",
+      "notes": "Japan seller, w/SP-40; or Best Offer listing (not accepted); +$190.00 delivery incl. import fees",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1498.42,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/135406267266",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,498.42 vs ~$936 median for the rest. '[Near Mint]' Japan seller, w/SP-40, all accessories; Buy It Now; +$270.00 delivery incl. import fees",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 890.0,
+      "sold_date": "2026-08-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117358019850",
+      "source": "ebay",
+      "notes": "with external speaker; or Best Offer listing (not accepted); +$41.90 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
