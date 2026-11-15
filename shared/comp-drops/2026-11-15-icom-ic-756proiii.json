@@ -1,0 +1,101 @@
+{
+  "model": "Icom IC-756PROIII",
+  "slug": "icom-ic-756proiii",
+  "searched_at": "2026-11-15T17:58:17-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Icom IC-756PROIII', page 1 only, fewer-words section ignored. Kept 9 units. Dropped 1 best-offer-accepted (307175521685) and 3 parts-only (960049271770 labeled Parts Only despite 'Fully tested' title; 206553202982 Parts Only + best-offer-accepted; 168653701149 'AS IS Estate' Parts Only). Excluded IC-746/746PRO/756PRO II sales and accessories/boards/manual/mic. OUTLIERS: https://www.ebay.com/itm/287529272937 $1,199.99 vs ~$715",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/206703878151",
+    "site": "ebay",
+    "ask": 790.0,
+    "shipping": 63.49
+  },
+  "comps": [
+    {
+      "price": 725.0,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287705034442",
+      "source": "ebay",
+      "notes": "Buy It Now; +$39.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 510.0,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117461592060",
+      "source": "ebay",
+      "notes": "auction, 33 bids; title 'Powers On / Front Bezel Screen' (truncated); +$25.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 810.99,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298722233994",
+      "source": "ebay",
+      "notes": "auction, 7 bids; +$41.69 delivery",
+      "flags": []
+    },
+    {
+      "price": 925.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168689936426",
+      "source": "ebay",
+      "notes": "Buy It Now; +$60.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 1199.99,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287529272937",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,199.99 vs ~$715 median for the rest. Buy It Now; includes SEC-1235M power supply and MFJ-264 dummy load; +$35.00 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198594964064",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not accepted); free delivery",
+      "flags": []
+    },
+    {
+      "price": 699.0,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178430954883",
+      "source": "ebay",
+      "notes": "Buy It Now; title says 'See Desc'; +$25.03 delivery",
+      "flags": []
+    },
+    {
+      "price": 705.0,
+      "sold_date": "2026-08-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147500171709",
+      "source": "ebay",
+      "notes": "auction, 9 bids; with HM-36 mic and manual; +$75.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 543.1,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178403752311",
+      "source": "ebay",
+      "notes": "auction, 32 bids; title 'Untested In Good Condition'; +$80.24 shipping estimate",
+      "flags": [
+        "as_is"
+      ]
+    }
+  ]
+}
