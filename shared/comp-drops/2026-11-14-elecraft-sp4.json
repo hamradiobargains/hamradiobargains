@@ -1,0 +1,15 @@
+{
+  "model": "Elecraft SP4",
+  "slug": "elecraft-sp4",
+  "searched_at": "2026-11-14T18:53:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Elecraft SP4' (page 1): 0 exact results; the 'fewer words' section held only an Elecraft K4D-SP4 dust cover ($42, accessory), unrelated trading cards, and Elecraft SP3 speaker for K3 (sold 2026-11-01 $345.00 Buy It Now +$19.75 delivery, item 137893055486) - SP3 is a different model, left out and listed here for reference only. Zero comps.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629596",
+    "site": "eham",
+    "ask": 345,
+    "shipping": 0
+  },
+  "comps": []
+}
