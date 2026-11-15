@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-15",
+  "ran_at": "2026-11-15T17:58:17-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670) browse page, Buy It Now filter, sorted Time: newly listed, page 1 (~60 cards); signed in as Leo, no challenges. Window since previous ebay run 2026-11-14T17:59:28-05:00 (browse cards show no listing times; newest-first order used; FT-710AESS page says 'listed in the last 3 days'). Item descriptions not read; condition_notes use title, eBay condition label, shipping and returns policy. Seller rule: all 8 picked passed (lowest: Mirage B-5018-G seller 99.5% / 8767 ratings). Five of the 8 (FTdx10, TS-2000X, IC-7300, IC-756PROIII, TM-V71A) come from one seller (100%, 31753 ratings). Cap reached at 8. Left out at the cap (seller not checked): Elecraft KX3 loaded bundle (198798082076, $1,780), Kenwood TM-D700A (880120813073, $350), Elecraft PX3 (880120813074, $680), Kenwood TH-D7A ($270), Alinco DR-135T ($200), Kenwood TS-711A (840132479618, $475 or BO), Icom IC-V8000 (900094399062, $195), Yaesu FT-8800R, FT-2900R, Mirage B-1018-G, B-34-G, KP-2 preamp, Alinco DM-330MV power supply, Alinco DR-140T, Kenwood TM-241A. Not picked: parts-only units (Yaesu FT-897D for repair, Kenwood TM-261A, KLM PA 15-160B, Heathkit DX-40, Regency BTH-201, Alinco DR-112, National receiver, Knight T-60), auction (Icom 7300 02 card), 10m export/CB-style radios and amps (Ranger, Connex, President, Fat Boy), receivers, software/cables, brackets, test gear, general electronics. Ledger: 3 hits (Yaesu FTDX10, Icom IC-7300, Kenwood TM-V71A); 5 misses -> 5 eBay sold searches (FT-710AESS: ledger name is 'YAESU FT-710 AESS', not an exact match; TS-2000X count 1; IC-756PROIII count 2 and dated 2026-08-21; KAM-XL and B-5018-G not in ledger).",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/117523524529",
+      "site": "ebay",
+      "title": "Yaesu FT-710AESS 100 Watt Deluxe SDR DSP HF and 6M Transceiver",
+      "price": 898.0,
+      "shipping": 20.91,
+      "found_at": "2026-11-15",
+      "condition_notes": "eBay condition: Used. Buy It Now. USPS Ground Advantage $20.91 from Kalamazoo, MI. Seller does not accept returns. Item description not read.",
+      "work_flag": "Seller does not accept returns (used radio)",
+      "seller_feedback": "100% (666 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/198798082077",
+      "site": "ebay",
+      "title": "Yaesu FTdx10 HF 50MHz Ham Radio Transceiver + Mic + Manual (US version, nice)",
+      "price": 1280.0,
+      "shipping": 77.71,
+      "found_at": "2026-11-15",
+      "condition_notes": "eBay condition: Used; title says 'nice', US version, includes mic and manual. Buy It Now. FedEx $77.71 from Sparks, NV. 30-day returns, seller pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (31753 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/206703878149",
+      "site": "ebay",
+      "title": "Kenwood TS-2000X Ham Radio Transceiver 1200MHz (US version, collector quality)",
+      "price": 1800.0,
+      "shipping": 82.15,
+      "found_at": "2026-11-15",
+      "condition_notes": "eBay condition: Used; title says 'collector quality', US version. Buy It Now. FedEx $82.15. 30-day returns, seller pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (31753 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/206703878150",
+      "site": "ebay",
+      "title": "Icom IC-7300 Ham Radio HF Transceiver + Mic + DC Cable (pristine)",
+      "price": 930.0,
+      "shipping": 72.71,
+      "found_at": "2026-11-15",
+      "condition_notes": "eBay condition: Used; title says 'pristine', includes mic and DC cable. Buy It Now. FedEx $72.71. 30-day returns, seller pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (31753 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/206703878151",
+      "site": "ebay",
+      "title": "Icom IC-756PROIII Ham Radio HF Transceiver (great RX/TX, display a little dim)",
+      "price": 790.0,
+      "shipping": 63.49,
+      "found_at": "2026-11-15",
+      "condition_notes": "eBay condition: Used; title says great RX/TX but display a little dim. Buy It Now. FedEx $63.49. 30-day returns, seller pays return shipping.",
+      "work_flag": "display a little dim",
+      "seller_feedback": "100% (31753 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/198798082074",
+      "site": "ebay",
+      "title": "Kenwood TM-V71A Ham Radio Dual-Band Mobile Transceiver (US version, excellent)",
+      "price": 500.0,
+      "shipping": 26.43,
+      "found_at": "2026-11-15",
+      "condition_notes": "eBay condition: Used; title says 'excellent', US version. Buy It Now. USPS Ground Advantage $26.43. 30-day returns, seller pays return shipping.",
+      "work_flag": "",
+      "seller_feedback": "100% (31753 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/198798062695",
+      "site": "ebay",
+      "title": "Kantronics KAM-XL",
+      "price": 200.0,
+      "shipping": 25.0,
+      "found_at": "2026-11-15",
+      "condition_notes": "eBay condition: Used. Buy It Now or Best Offer. USPS Ground Advantage $25.00. Seller does not accept returns. Item description not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (420 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/900094397062",
+      "site": "ebay",
+      "title": "Mirage B-5018-G VHF Linear Amplifier 144-148 MHz 160W 2 Meter Ham Radio",
+      "price": 295.0,
+      "shipping": 30.75,
+      "found_at": "2026-11-15",
+      "condition_notes": "eBay condition: Used. Buy It Now. USPS Priority $30.75. 30-day returns, seller pays return shipping. Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "99.5% (8767 ratings)"
+    }
+  ]
+}
