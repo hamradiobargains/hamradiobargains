@@ -1,0 +1,15 @@
+{
+  "model": "Zerofive 10-40",
+  "slug": "zerofive-10-40",
+  "searched_at": "2026-11-14T19:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Zerofive 10-40 vertical': 0 results. Zero comps.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784874",
+    "site": "qth",
+    "ask": 570,
+    "shipping": 0
+  },
+  "comps": []
+}
