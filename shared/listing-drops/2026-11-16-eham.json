@@ -1,0 +1,75 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-16",
+  "ran_at": "2026-11-16T05:52:26-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-15T05:54:24-05:00 (prior eham run). Browsed signed OUT ('Login/Register' / 'Welcome Guest' shown); no Cloudflare challenge. Read public classifieds pages 1 and 2 (page 2 via its pagination link), about 30 s apart. No individual ad pages opened, no search form, sold searches, or seller/callsign pages; no ad IDs probed. Ads 629616-629642 (posted 2026-11-13 to 2026-11-15) appear on the public pages for the first time since the last run (the 11-15 run saw several of them as pending admin approval); none were in dropped-urls, so they were treated as new. Not on the public pages (not opened, not dropped): 629625, 629627, 629639, 629641. The Omni VI ads 629622-629624 dropped last run no longer appear on the public pages. Not candidates: 629642 Palm Radio Mini-Paddle (keyer), 629640 Kenwood TS-590S (no asking price, pickup only), 629638 WANT ad, 629637 QST magazines, 629634 Retekess TR635 (consumer SW receiver), 629633/629632 computer memory, 629631 unbranded telescoping ground plane, 629626 Geminus SDR kit (make offer, no price), 629618 four-microphone estate lot (mixed items), 629616 Daniel MT-2 station (no price). Plausible but not dropped because of the 5-6 candidate cap: 629636 TGIF Spot 3.5 Nextion hotspot ($225 shipped), 629630 Pyramid PS8KX power supply ($45 shipped), 629629 N9TAX dual-band Slim Jim ($40 shipped). Comps: 0 ledger hits; 6 candidates, all ledger misses -> 7 eBay sold searches (RM Italy listing searched under both HLA305V and BLA350 Plus because the ad names both; the ledger's 'RM ITALY BLA 350 PLUS' entry (count 3, 2026-11-02) was not used for that reason). Signed in to eBay as Leo, no challenge. Yaesu GS-232B and Array Solutions Six Pack: zero exact sold results.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629635",
+      "site": "eham",
+      "title": "RM ITALY HLA305V Amplifier",
+      "price": 660.0,
+      "shipping": 47.0,
+      "found_at": "2026-11-16",
+      "condition_notes": "Title says RM Italy HLA305V, but the body says 'like new' RM Italy BLA350 PLUS amplifier: 1 to 12 watts input gives 300 watts, weighs 30 pounds, set up for 120 volts. Model identity uncertain (title vs body). $660 plus $47 shipping. Payment Zelle, money order, or personal check when it clears. Posted 2026-11-14.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629628",
+      "site": "eham",
+      "title": "AnyTone AT-778UV Dualband Mobile Transceiver",
+      "price": 110.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-16",
+      "condition_notes": "Like new in retail box, includes programming cable. 25/15/5 W selectable, 200 channels. $110 shipped. Posted 2026-11-14.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629621",
+      "site": "eham",
+      "title": "Realistic HTX 10",
+      "price": 125.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-16",
+      "condition_notes": "Radio Shack HTX-10 ten-meter radio in good working condition per seller; shows normal wear. Includes mic, power cord, copy of manual. $125 shipped. Payment by check, money order, certified check. Posted 2026-11-13.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629620",
+      "site": "eham",
+      "title": "YAESU GS-232B COMPUTER INTERFACE FOR YAESU ROTOR",
+      "price": 250.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-16",
+      "condition_notes": "Yaesu GS-232B computer interface for G-5500 rotor. Seller bought it in a package on eBay; previously owned by a university with 8 satellite set-ups; 'They stated it worked when listed' (seller does not say they tested it). $250 shipped in continental USA. Payment e-transfer or PayPal. Posted 2026-11-13.",
+      "work_flag": "They stated it worked when listed",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629619",
+      "site": "eham",
+      "title": "Array Solitions Six pack switch",
+      "price": 335.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-16",
+      "condition_notes": "Array Solutions Six Pack antenna switch with controller and cables. No power supply. 'In great shape. Been in storage for 20 years.' $335 OBO; buyer pays shipping (amount not stated). Posted 2026-11-13.",
+      "work_flag": "No power supply. Been in storage for 20 years.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629617",
+      "site": "eham",
+      "title": "Samlex SEC-1235M  $184",
+      "price": 184.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-16",
+      "condition_notes": "Samlex SEC-1235M purchased new, barely used, like-new condition, includes original box. $184 including CONUS shipping. Posted 2026-11-13.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
