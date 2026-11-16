@@ -1,0 +1,58 @@
+{
+  "model": "Realistic HTX-10",
+  "slug": "realistic-htx-10",
+  "searched_at": "2026-11-16T05:56:47-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no REALISTIC HTX-10 / RADIO SHACK HTX-10 entry; ledger has HTX-202 and HTX-242 only - different models). eBay sold page 1: 7 results. Left out 2 HTX-100 sales (different model; both were also parts-only lots), and 1 recap/upgrade kit (not the unit). Dropped 0 best-offer-accepted, 0 parts-only HTX-10 sales. 4 kept. Two kept comps (257760980826, 267758649002) have identical titles and shipping - possibly the same unit relisted. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629621",
+    "site": "eham",
+    "ask": 125.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 86.6,
+      "sold_date": "2026-11-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800852213535",
+      "source": "ebay",
+      "notes": "title: Works Good; auction, 25 bids; ship 20.00",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257760980826",
+      "source": "ebay",
+      "notes": "title: w/power supply; Buy It Now; ship 19.99; identical title and shipping to 267758649002 (sold 2026-08-22) - possibly the same unit relisted",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 120.0,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137446246863",
+      "source": "ebay",
+      "notes": "title: With Microphone, Bracket; or Best Offer listing (not best-offer-accepted); ship 9.07",
+      "flags": []
+    },
+    {
+      "price": 89.99,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267758649002",
+      "source": "ebay",
+      "notes": "title: w/power supply; auction, 2 bids; ship 19.99; identical title and shipping to 257760980826 (sold 2026-09-30) - possibly the same unit relisted",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    }
+  ]
+}
