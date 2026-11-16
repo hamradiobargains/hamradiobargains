@@ -1,0 +1,211 @@
+{
+  "model": "Yaesu FT-2900R",
+  "slug": "yaesu-ft-2900r",
+  "searched_at": "2026-11-16T17:59:14-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "MODEL IDENTITY CAVEAT: the trigger listing's title says 'Yaesu FT-2900' with no R/E suffix and its item specifics show no model; its title otherwise matches the FT-2900R listing template used for several sold comps below (e.g. 227608145449). Comps here are FT-2900R / FT-2900R/E sales — Leo/Archie should confirm the unit is an FT-2900R before relying on them. eBay sold search 'yaesu ft-2900', page 1 above 'fewer words'. 21 kept comps. Dropped 5 best-offer-accepted (287709908226 $150, 800657909014 'FT 2900' $113.50, 377468739293 $199.99, 158208964724 'FT 2900' $125, 377391941382 $199.99). Dropped 3 parts-only (168827188168, 267743658740, 327383544033 'FT-2900' $80). Left out speaker baffle and protector-rail accessories. Outliers flagged: $58.00.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/307285872816",
+    "site": "ebay",
+    "ask": 145.0,
+    "shipping": 25.35
+  },
+  "comps": [
+    {
+      "price": 199.95,
+      "sold_date": "2026-11-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227608145449",
+      "source": "ebay",
+      "notes": "Fixed price; free shipping",
+      "flags": []
+    },
+    {
+      "price": 140.0,
+      "sold_date": "2026-11-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137721962122",
+      "source": "ebay",
+      "notes": "Fixed price; +$14.70 shipping",
+      "flags": []
+    },
+    {
+      "price": 112.5,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206656636341",
+      "source": "ebay",
+      "notes": "Auction, 4 bids; title 'UNTESTED'; +$55.65 shipping",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 151.99,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960044230398",
+      "source": "ebay",
+      "notes": "Fixed price (was $159.99); free shipping",
+      "flags": []
+    },
+    {
+      "price": 149.0,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206625030516",
+      "source": "ebay",
+      "notes": "Title 'WORKS PERFECTLY'; fixed price; +$15.65 shipping",
+      "flags": []
+    },
+    {
+      "price": 112.5,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880022994199",
+      "source": "ebay",
+      "notes": "Auction, 11 bids; title 'Tested'; +$13.96 shipping",
+      "flags": []
+    },
+    {
+      "price": 125.01,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147632793983",
+      "source": "ebay",
+      "notes": "Auction, 7 bids; +$11.61 shipping",
+      "flags": []
+    },
+    {
+      "price": 58.0,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257794122015",
+      "source": "ebay",
+      "notes": "OUTLIER: $58.00 vs ~$149.50 median for the rest; Auction, 9 bids; title says 'Turns On'; +$14.13 shipping",
+      "flags": []
+    },
+    {
+      "price": 199.95,
+      "sold_date": "2026-10-11",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/327342121037",
+      "source": "ebay",
+      "notes": "Title 'OPEN BOX'; fixed price; free shipping",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-10-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327395227057",
+      "source": "ebay",
+      "notes": "Title 'WORKS PERFECTLY'; or Best Offer listing (not accepted); free shipping",
+      "flags": []
+    },
+    {
+      "price": 120.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298736025415",
+      "source": "ebay",
+      "notes": "Title 'w/ Mic (US)'; or Best Offer listing (not accepted); +$9.82 shipping",
+      "flags": []
+    },
+    {
+      "price": 80.0,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407260117973",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not accepted); +$7.61 shipping",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137676885958",
+      "source": "ebay",
+      "notes": "Title 'WORKS PERFECTLY'; or Best Offer listing (not accepted); +$11.94 shipping",
+      "flags": []
+    },
+    {
+      "price": 105.5,
+      "sold_date": "2026-09-27",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/307184691086",
+      "source": "ebay",
+      "notes": "Auction, 12 bids; +$15.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 130.0,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147577980641",
+      "source": "ebay",
+      "notes": "Fixed price; free shipping",
+      "flags": []
+    },
+    {
+      "price": 193.45,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307176150280",
+      "source": "ebay",
+      "notes": "Title 'and FP-1023 Power Supply'; fixed price (was $214.95); +$16.21 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 189.99,
+      "sold_date": "2026-09-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/257724278402",
+      "source": "ebay",
+      "notes": "Title 'FT-2900R/E'; or Best Offer listing (not accepted); +$9.06 shipping",
+      "flags": []
+    },
+    {
+      "price": 169.9,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206540423340",
+      "source": "ebay",
+      "notes": "Title 'US Version ... with Box'; fixed price; +$13.99 shipping",
+      "flags": []
+    },
+    {
+      "price": 179.99,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178428509088",
+      "source": "ebay",
+      "notes": "Title 'MARS/CAP'; fixed price; +$17.45 shipping",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 199.99,
+      "sold_date": "2026-09-03",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/377439435775",
+      "source": "ebay",
+      "notes": "Title 'FT-2900R/E'; or Best Offer listing (not accepted); +$10.54 shipping. Same title/price/date as 377468739293 (dropped, best offer accepted) — likely a multi-quantity listing.",
+      "flags": []
+    },
+    {
+      "price": 127.5,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307142295522",
+      "source": "ebay",
+      "notes": "Title 'FT-2900R/E'; auction, 13 bids; +$9.74 shipping",
+      "flags": []
+    }
+  ]
+}
