@@ -1,0 +1,27 @@
+{
+  "model": "Icom IC-728",
+  "slug": "icom-ic-728",
+  "searched_at": "2026-11-16T18:50:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-728' (page 1, 28 results, exact-model matches only). THIN: 1 kept comp, and it is a bundle (IC-728 plus AT-160 tuner, power supply and more) so it overstates a bare radio. Dropped: Best-offer-accepted 0, parts-only 0, Read Description 0. Ledger had 1 comp (2026-09-05, 450.00) = same sale, count 1 so no ledger hit. Ad 1785016: Icom IC-728 w/ mic, new MB-23 handle, power cord, manual, serial 02558; top cover and sides repainted, display now green; $260 shipped (USPS MO/check; PayPal/Zelle +3%); 'Sold as is no return'.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785016",
+    "site": "qth",
+    "ask": 260,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 450,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198605865587",
+      "source": "ebay",
+      "notes": "Title: ICOM HF Transceiver IC-728 w/AT-160 Antenna Tuner Power Supply and MORE!; fixed price 'or Best Offer' (not marked accepted); shipping +90.00",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
