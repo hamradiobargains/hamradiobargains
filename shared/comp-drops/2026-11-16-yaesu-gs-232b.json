@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu GS-232B",
+  "slug": "yaesu-gs-232b",
+  "searched_at": "2026-11-16T05:56:47-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no YAESU GS-232B entry). eBay sold search returned 0 results for the exact model; everything on the page was in 'Results matching fewer words' (other rotator controllers, clone interface boards) - ignored. No comps. Thin.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629620",
+    "site": "eham",
+    "ask": 250.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
