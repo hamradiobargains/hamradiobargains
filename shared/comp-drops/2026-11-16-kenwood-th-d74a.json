@@ -1,0 +1,114 @@
+{
+  "model": "Kenwood TH-D74A",
+  "slug": "kenwood-th-d74a",
+  "searched_at": "2026-11-16T15:01:09-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "10 kept comps (median 444.975). dropped 2 best-offer-accepted (820090593392 2x radios, 227516292670), dropped 1 parts-only (198623793858). Left out for identity: 6 sales titled only 'TH-D74' without the A suffix (336852603603, 128156853990, 377553754068 parts-only, 318880351293, 158031770034, 398379311924 best-offer-accepted); TX-RX board 327218911818, chargers, batteries and cables also left out. No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784988",
+    "site": "qth",
+    "ask": 400,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 280,
+      "sold_date": "2026-11-09",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/206681696111",
+      "source": "ebay",
+      "notes": "Auction, 9 bids. Title: Kenwood THD74A Tri-band Handheld Transceiver. Shipping +$99.00.",
+      "flags": []
+    },
+    {
+      "price": 459.99,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960097367551",
+      "source": "ebay",
+      "notes": "Title: Kenwood TH-D74A Tri-Band Handheld Ham Radio With Extra Battery, Charging Dock. Shipping +$17.99.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 500,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158377407272",
+      "source": "ebay",
+      "notes": "Title: Kenwood TH-D74A Handheld Transceiver Radio, Tri-Band. Shipping +$5.98.",
+      "flags": []
+    },
+    {
+      "price": 475,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128113909184",
+      "source": "ebay",
+      "notes": "Title: Kenwood TH-D74A Tri-Band Handheld - Extra Battery, SRH320A Ant, Charging Dock. Shipping +$9.07.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 400,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137812561134",
+      "source": "ebay",
+      "notes": "Title: Kenwood TH-D74A Tri-Band 144/220/430MHz APRS LCD w/ KSC-25LS KNB-75L. Shipping +$6.63.",
+      "flags": []
+    },
+    {
+      "price": 500,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398242518403",
+      "source": "ebay",
+      "notes": "Title: Kenwood TH-D74A Tri-Band HT Ham Radio Tested Complete w/ Box And Accessories. Shipping +$35.80.",
+      "flags": []
+    },
+    {
+      "price": 385,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188898879835",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Title: Kenwood TH-D74A Tri-Band Handheld Transceiver with MARS / Extended Transmit Mod. Shipping +$8.64.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 439.95,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237043764286",
+      "source": "ebay",
+      "notes": "Title: Kenwood TH-D74A Tri-Band Transceiver 144/220/440Mhz. Shipping +$21.00.",
+      "flags": []
+    },
+    {
+      "price": 450,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198524331474",
+      "source": "ebay",
+      "notes": "Title: Kenwood TH-D74A GPS APRS 5W Handheld Amateur Transceiver Tri-Band - BUNDLE. Free delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 399,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128021497269",
+      "source": "ebay",
+      "notes": "Title: Kenwood TH-D74A Tri-band Handheld Transceiver HAM 144/220/430 MHz W Original box. Shipping +$17.88.",
+      "flags": []
+    }
+  ]
+}
