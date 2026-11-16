@@ -1,0 +1,36 @@
+{
+  "model": "LDG Z-100",
+  "slug": "ldg-z-100",
+  "searched_at": "2026-11-15T18:55:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "LDG Z-100: 2 kept, median 132.48 - THIN. Extras sweep, eBay sold page 1, searched_at approximate. Ledger miss (only LDG Z-100PLUS in ledger, 2026-10-06). Plain Z-100 only; excluded for identity: Z-100Plus sales and Z-100A sales (237102612063 $125, 198634886580 $103.50, 137694260124 $125, 336793773208 $100, 800591852595 $60 - not sure Z-100A equals Z-100, kept separate), and FT-817 bundles (318900478478, 237039970332). 2 BOA dropped (287460843811 $93, 178432457018 $125). THIN (2). Trigger ask $105 plus unquoted shipping (recorded 0), with box and radio interface cable.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784831",
+    "site": "qth",
+    "ask": 105,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 135,
+      "sold_date": "2026-10-24",
+      "condition": "Used (eBay condition label not captured)",
+      "url": "https://www.ebay.com/itm/227564769841",
+      "source": "ebay",
+      "notes": "Shown shipping $12.78. Title: LDG Z-100 Automatic HF Antenna Autotuner Tuner f",
+      "flags": []
+    },
+    {
+      "price": 129.95,
+      "sold_date": "2026-08-31",
+      "condition": "Used (eBay condition label not captured)",
+      "url": "https://www.ebay.com/itm/298623918474",
+      "source": "ebay",
+      "notes": "Shown shipping $17.20. Title: LDG Z-100 Automatic Antenna Tuner With Icom Inte Title indicates extras included.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
