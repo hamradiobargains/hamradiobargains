@@ -1,0 +1,174 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-16",
+  "ran_at": "2026-11-16T06:59:17-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered: 2026-11-16-eham.json (ran_at 2026-11-16T05:52:26-05:00); window = after previous extras drop 2026-11-15-extras.json (ran_at 2026-11-15T18:46:54-05:00); no qth or ebay listing drops exist after that time. Previous extras drop CARRIED OVER (14, put first): 1784805, 1784804, 1778126, 1784904, 1784891, 1784887, 1784926, 1784923, 1784928, 1784916, 1779011, 1784933, 1784890, 1784906; its BACKLOG CARRY: none. Named extra added by Leo: QTH 1783910 (Yaesu '991', $600 firm) worked as the ORIGINAL FT-991 per Leo's ruling: ledger hit filed under 'Yaesu FT-991' only, no FT-991A figures used; already in dropped-urls.json so not re-appended. Fresh extras: the 2026-11-16 eHam drop has no 'Extra plausible candidates not comped' list; it names 629636 (TGIF Spot 3.5 hotspot $225 shipped), 629630 (Pyramid PS8KX supply $45 shipped) and 629629 (N9TAX dual-band Slim Jim $40 shipped) as plausible but not dropped because of its candidate cap - not under the extras heading, so not queued (eHam not opened). Queue 15 total: 14 carry-overs + 1783910, no fresh extras. Worked 15: all 15 live (QTH ads opened one at a time ~5 s apart), 1 ledger hit, 14 triaged ads covering 13 models searched + 1 multi-item lot not comped. eBay sold searches used 15 of 15 (cap reached): Yaesu FT-1000MP, Palstar LA-1K, Xiegu XPA125B, Yaesu DMU-2000, Yaesu FTM-200DR, FlexRadio Maestro, Yaesu SP-5, Clear Speech CSS-1, Kenwood SP-120, Astron SS-20M (2 searches: 'ss-20m' and 'ss20m'), Astron RS-10S (2 searches: 'rs-10s' empty, then 'rs-10'), Drake B-1000, M2 KT-34. One at a time, 15+ s apart, signed in as Leo, no challenge. Solid (3+): FT-1000MP (8 kept, median 737.49), XPA125B (11, 398.89), DMU-2000 (6, 437.48), SP-5 (4, 99.97), CSS-1 (4, 117.42), SP-120 (6, 72.50). Thin: LA-1K (1, 2600.00), FTM-200DR (2, 197.50). Zero comps: Maestro, SS-20M, RS-10S (only RS-10A sales exist, kept separate), B-1000, KT-34. 1784804 (three-antenna VHF/UHF lot) not comped: no single model. Ledger hits: 1 (Yaesu FT-991, median 748.33, count 4, 2026-11-11). Ledger misses worth noting: SP-5 (2026-10-15) and SP-120 (2026-09-01), XPA125B (2026-09-26) and FT-1000MP original (2026-10-05) were older than 30 days; LA-1K count 1; Maestro count 2. Gone: none. Skipped: none (all ads named a price except the antenna lot, which lists per-item prices; it is recorded with price 0). Cross-posts: none seen (no serials shown). Outliers: FT-1000MP 174.99 (1-bid auction, kept, flagged OUTLIER in notes); XPA125B 185.00 (kept, flagged OUTLIER). UNCERTAIN: 1778126 'MARS modded' and 'Sold as-is, no returns' (carried verbatim in work_flag); 1784926 'Sold as is and no returns' (carried verbatim); 1784923 Maestro vs Maestro B Plus identity (no comps); 1784890 RS-10S vs RS-10A (no exact comps); 1784805 KT-34 variant not stated (no comps); CSS-1 comp 237168755819 title lists 'CSS-1 CSS-2'; FTM-200DR comp 336873523202 has a bare title; FT-1000MP comps are the original MP only (Mark V excluded), BOA sales dropped (2). Best-offer-accepted sales dropped across searches: FT-1000MP 2, XPA125B 5 (incl. 1 parts-only), FTM-200DR 3, DMU-2000 1, SP-5 1, CSS-1 1, Maestro 1. Shipping recorded 0 where included, free, pickup only or not quoted. found_at for 1784805/1784804 = 2026-11-14 (source 11/14 qth drop), 1783910 = 2026-11-16 (named extra), the rest 2026-11-15. Timestamps -05:00 (EST); comp searched_at times approximate. CARRIED OVER: no carry-over. BACKLOG CARRY: none.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784805",
+      "site": "qth",
+      "title": "HF Yagi Antenna M2 KT-34 (K9MRI)",
+      "price": 325,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live; seller's words: 'I have for sale (1) HF Yagi Antenna model KT-34 M2. One of the best HF Antennas It is Pick-up only. $325.00' - no condition wording; KT-34 variant (KT-34 / KT-34A / KT-34XA) not stated; comps: m2-kt-34, 0 kept (eBay sold search returned zero results)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784804",
+      "site": "qth",
+      "title": "VHF/UHF antenna lot: 6m 5-el Yagi, 2304 MHz loop yagi, 1296 MHz phased array (K9MRI)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live; seller's words: 'I have for sale the following antennas: (1) 5 Element 6 Meter Yagi $75.00 (1) 76 element loop yagi for 2304 Mhz $100.00 (1) Phased array for 1296 Mhz consisting of 2x 27 element loop yagis mounted on frame including phasing cables and splitter $160.00 Pick-up only'; price field 0 because the ad lists three separate items at $75 / $100 / $160, no lot price; not comped: three different antennas, no single model to search (cap used on single-radio/accessory models)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1778126",
+      "site": "qth",
+      "title": "Yaesu FT-1000MP w/ Collins and INRAD filters, MARS modded (KO2OK)",
+      "price": 1000,
+      "shipping": 0,
+      "found_at": "2026-11-15",
+      "condition_notes": "live; seller's words: 'Like new condition (one rub mark on word DUAL button). No other wear. Works great. Loaded with Collins (factory options), plus INRAD filters in main and sub (SSB and CW). MARS modded. AC supply built-in. From original owner, with original manual, promo brochures, double boxes. have Yaesu hand mike in like new condition.' '$1000 or best offer, demo/pickup NNJ 07860, or plus shipping' (shipping not quoted, recorded 0). 'Sold as-is, no returns.' Also FH-1 keypad $70 sold separately. comps: yaesu-ft-1000mp, 8 kept, median 737.49 (original MP only; Mark V excluded; one OUTLIER 174.99 1-bid auction kept and flagged)",
+      "work_flag": "MARS modded. Sold as-is, no returns.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784904",
+      "site": "qth",
+      "title": "Palstar LA-1K HF amplifier (K3MEJ)",
+      "price": 2700,
+      "shipping": 0,
+      "found_at": "2026-11-15",
+      "condition_notes": "live; seller's words: 'Amp is in excellent cosmetic and working condition. Comes in original factory box with both 120 and 240 volts power cables. Shipped FREE to lower 48. Others pay actual shipping cost.' comps: palstar-la-1k, 1 kept, median 2600.00 (THIN)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784891",
+      "site": "qth",
+      "title": "Xiegu XPA125B HF amplifier and tuner (K5MUL)",
+      "price": 425,
+      "shipping": 0,
+      "found_at": "2026-11-15",
+      "condition_notes": "live; seller's words: 'Automatic operation with Xiegu radios. Will manually work with most HF radios. Very lightly used. In like new condition. Will accept Paypal. $425 and buyer pays ahipping CONUS.' shipping not quoted, recorded 0. comps: xiegu-xpa125b, 11 kept, median 398.89 (one OUTLIER 185.00)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784887",
+      "site": "qth",
+      "title": "Yaesu DMU-2000 data management unit w/ extra electronics card for FT2000 and FT950 (KB1HYU)",
+      "price": 400,
+      "shipping": 0,
+      "found_at": "2026-11-15",
+      "condition_notes": "live; seller's words: 'Yaesu DMU-2000 data management unit with extra electronics card for FT2000 and FT950 $400 delivered, US POSTAL MO OR PAYPAL ADD 3%'; delivered price, shipping recorded 0; no condition wording. comps: yaesu-dmu-2000, 6 kept, median 437.48",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784926",
+      "site": "qth",
+      "title": "Yaesu FTM-200DR 2M/70CM mobile (W3JZ)",
+      "price": 320,
+      "shipping": 0,
+      "found_at": "2026-11-15",
+      "condition_notes": "live; seller's words: 'Mint condition 2M/70CM mobile rig with the original box and all accessories that came with the radio when purchased with the exception of the manual. ... Includes a generic external speaker and Power Pole connector. This rig has only been used in my shack and has never been in a mobile environment. Full power output on both bands. No scratches or dents and the screen is clean and bright. Price is $320 shipped to CONUS. ... Sold as is and no returns. SWR meter not included in sale.' comps: yaesu-ftm-200dr, 2 kept, median 197.50 (THIN)",
+      "work_flag": "Sold as is and no returns.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784923",
+      "site": "qth",
+      "title": "FlexRadio Maestro B Plus w/ extra battery & 15 VDC power supply (KB1HYU)",
+      "price": 875,
+      "shipping": 0,
+      "found_at": "2026-11-15",
+      "condition_notes": "live; seller's words: 'Maestro unit is in very nice shape works as it should, has the optional hinged feet comes with an extra battery and 15VDC power supply. $875 Delivered US POSTAL M/O or Paypal add 3%.' delivered price, shipping recorded 0. comps: flexradio-maestro, 0 kept (page 1 had only car dash kits and one Best-offer-accepted 'READ DESC' Maestro); UNCERTAIN Maestro vs Maestro B Plus identity",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784928",
+      "site": "qth",
+      "title": "Yaesu SP-5 filtered desk speaker (N3EJT)",
+      "price": 130,
+      "shipping": 0,
+      "found_at": "2026-11-15",
+      "condition_notes": "live; seller's words: 'Excellent condition, no scratches. Yaesu SP-5 audio filtering desk speaker. ... Dual radio inputs & built in Low & High cut audio filters. Also a 1/4 inch headphone jack on front panel.' '$130 picked up or + shipping' (shipping not quoted, recorded 0). comps: yaesu-sp-5, 4 kept, median 99.97",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784916",
+      "site": "qth",
+      "title": "Clear Speech CSS-1 noise reduction speaker (K9DTC)",
+      "price": 110,
+      "shipping": 0,
+      "found_at": "2026-11-15",
+      "condition_notes": "live; seller's words: 'THIS IS NOISE REDUCTION SPEAKER $110 SHIPPED PAYPAL ZELLE VENMO CHECK' - no condition wording. comps: clear-speech-css-1, 4 kept, median 117.42",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1779011",
+      "site": "qth",
+      "title": "Kenwood SP-120 speaker (K3DUA)",
+      "price": 95,
+      "shipping": 0,
+      "found_at": "2026-11-15",
+      "condition_notes": "live; seller's words: 'I have available for sale a good condition KENWOOD SP-120. - This is priced at $95 including shipping in the USA ONLY.' shipping included, recorded 0. comps: kenwood-sp-120, 6 kept, median 72.50",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784933",
+      "site": "qth",
+      "title": "Astron SS-20M power supply (K0HB)",
+      "price": 129,
+      "shipping": 0,
+      "found_at": "2026-11-15",
+      "condition_notes": "live; seller's words: 'Astron SS-20M, 13.8 VDC, 20A continuous (25A peak), with front-panel volt/amp meters. Quiet, lightweight switching design ... Condition is like new and it works perfectly. Includes power cord. $129 + shipping, CONUS only.' shipping not quoted, recorded 0. comps: astron-ss-20m, 0 kept (eBay sold searches found only an SS-30M)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784890",
+      "site": "qth",
+      "title": "Astron RS-10S power supply w/ speaker (KX5MOT)",
+      "price": 75,
+      "shipping": 0,
+      "found_at": "2026-11-15",
+      "condition_notes": "live; seller's words: 'Astron model RS-10S 10 amp linear desktop power supply with built in speaker. Used but in good working condition and has some holes on top from previous owner. Asking $75 shipped to CONUS.' shipping included, recorded 0. comps: astron-rs-10s, 0 kept (exact-model search empty; only RS-10A sales exist, kept separate and listed in the comp file notes for reference); UNCERTAIN RS-10S vs RS-10A",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784906",
+      "site": "qth",
+      "title": "Drake B-1000 balun (K9DTC)",
+      "price": 90,
+      "shipping": 0,
+      "found_at": "2026-11-15",
+      "condition_notes": "live; seller's words: 'Drake B-1000 Balun $90 SHIPPED PAYPAL ZELLE VENMO CHECK' - no condition wording. comps: drake-b-1000, 0 kept (eBay sold search returned zero results)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "Yaesu FT-991 (original) HF/VHF/UHF transceiver (KF4EA) - ad title 'Yaesu 991'",
+      "price": 600,
+      "shipping": 31,
+      "found_at": "2026-11-16",
+      "condition_notes": "live; named extra added by Leo, treated as the ORIGINAL Yaesu FT-991 per Leo's ruling. Seller's words: 'Nice radio with original mic and bound copy of owners manual. I bought this from a friend about a year ago ... One minor scratch on the top. Power pole connectors. I do not have the original box, but radio is securely packed for shipping. Shipping insured CONUS looks like $31.00, so you know. $600.00 firm, plus shipping. I will consider driving a reasonable distance with pre-payment.' comps: ledger hit, yaesu-ft-991, median 748.33, count 4, ledger date 2026-11-11 (original FT-991 only, no FT-991A figures)",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
