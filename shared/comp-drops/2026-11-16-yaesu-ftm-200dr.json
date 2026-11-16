@@ -1,0 +1,34 @@
+{
+  "model": "Yaesu FTM-200DR",
+  "slug": "yaesu-ftm-200dr",
+  "searched_at": "2026-11-16T07:56:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "THIN (2 kept). eBay sold search, page 1 only, signed in as Leo, no challenge (extras sweep). 2 kept, median 197.50. Thin: 2 kept. Dropped 3 Best-offer-accepted sales (128093504366 $250.00 Sep 26; 128093506275 $250.00 Sep 25; 267777864583 $280.00 Sep 8, 1 bid). Excluded: portable waterproof radio case (377218936028). Ad 1784926 asks $320 shipped to CONUS, 'mint', original box and accessories, 'Sold as is and no returns'.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784926",
+    "site": "qth",
+    "ask": 320,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 145,
+      "sold_date": "2026-11-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336873523202",
+      "source": "ebay",
+      "notes": "title 'yaesu ftm-200dr Radio' (bare title, no condition detail visible); shipping 13.38",
+      "flags": []
+    },
+    {
+      "price": 250,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128093501695",
+      "source": "ebay",
+      "notes": "shipping 19.86",
+      "flags": []
+    }
+  ]
+}
