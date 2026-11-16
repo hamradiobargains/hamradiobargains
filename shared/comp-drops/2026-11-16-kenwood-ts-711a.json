@@ -1,0 +1,25 @@
+{
+  "model": "Kenwood TS-711A",
+  "slug": "kenwood-ts-711a",
+  "searched_at": "2026-11-16T17:59:14-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood ts-711a', page 1 above 'fewer words'. Thin: 1 kept comp. Dropped 0 best-offer-accepted. Dropped 1 parts-only (128119443755, $129.50 auction). Left out 2 'Kenwood TS-711' sales from Japan (128137873094 $266.15, 128006545709 $299.99) — no A suffix, Japanese-market model, not certain it is the same model. Left out memory-backup batteries and screws.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/900097026543",
+    "site": "ebay",
+    "ask": 345.0,
+    "shipping": 44.89
+  },
+  "comps": [
+    {
+      "price": 343.02,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/177835545221",
+      "source": "ebay",
+      "notes": "Title says tested working; or Best Offer listing (not accepted); +$58.46 shipping",
+      "flags": []
+    }
+  ]
+}
