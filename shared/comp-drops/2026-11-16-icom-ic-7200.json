@@ -1,0 +1,72 @@
+{
+  "model": "Icom IC-7200",
+  "slug": "icom-ic-7200",
+  "searched_at": "2026-11-16T18:51:20-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-7200' (page 1, 54 results; accessories such as RC-28, plugs, brochure, AT-180 tuner excluded). Solid: 6 kept, median 735.00 (low 448.26, high 849.95). Best-offer-accepted dropped 0, parts-only 0, Read Description 0. NOTE: all comps are working-condition radios; ad 1784972 is a fire/lightning-damaged unit sold as-is for parts or repair, so these comps are not like-for-like. 397573705259 was sold by a Japan seller (import fees included in shipping). Ledger entry (2026-10-08, count 6) was older than 30 days so not used. Ad 1784972: 'Radio was involved in a fire resulting from a lightning strike. It powers on but doesn't do much else... Includes long power cord only. Sold as-is for parts or repair. Asking $25o shipped to CONUS' ($250 read from the ad's '$25o').",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784972",
+    "site": "qth",
+    "ask": 250,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 710,
+      "sold_date": "2026-11-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227593107437",
+      "source": "ebay",
+      "notes": "Title ends 'LOOKS UNUSED'; auction, 25 bids; shipping +27.50",
+      "flags": []
+    },
+    {
+      "price": 849.95,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327400452500",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping",
+      "flags": []
+    },
+    {
+      "price": 448.26,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327406413226",
+      "source": "ebay",
+      "notes": "Title: TRANSCEIVER ICOM-IC-7200 #205734 Nice!; auction, 34 bids; shipping +15.59",
+      "flags": []
+    },
+    {
+      "price": 760,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/397573705259",
+      "source": "ebay",
+      "notes": "Title ends 'Tested'; Buy It Now; Japan seller, shipping +141.60 incl. import fees",
+      "flags": []
+    },
+    {
+      "price": 449.99,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189058975379",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping +39.98",
+      "flags": []
+    },
+    {
+      "price": 799.95,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327342143840",
+      "source": "ebay",
+      "notes": "Title: IC-7200 HF/50MHz & MB-116 with original box; Buy It Now; free shipping",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
