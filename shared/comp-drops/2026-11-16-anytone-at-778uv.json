@@ -1,0 +1,213 @@
+{
+  "model": "AnyTone AT-778UV",
+  "slug": "anytone-at-778uv",
+  "searched_at": "2026-11-16T05:56:47-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no ANYTONE AT-778UV entry). eBay sold page 1: 51 results, most are accessories (mics, cables, remote-head kits) - left out. Left out 4 AnyTone AT-778UV II sales (different model). Dropped 6 best-offer-accepted (plus 1 parts-only sale that was also best-offer-accepted). 21 kept. Many kept comps are brand-new units from dealers/importers; two sold dates as shown by eBay are old (2023-01-06, 2025-03-29) - kept, not discarded for age. Outliers flagged: 366718539773 $50.00 vs ~$131.82; 117427331876 $50.00 vs ~$131.82; 137737505338 $49.99 vs ~$131.82.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629628",
+    "site": "eham",
+    "ask": 110.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 124.99,
+      "sold_date": "2026-11-15",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/356016447876",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping",
+      "flags": []
+    },
+    {
+      "price": 139.99,
+      "sold_date": "2026-11-08",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/358108499776",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not best-offer-accepted); free shipping",
+      "flags": []
+    },
+    {
+      "price": 117.5,
+      "sold_date": "2026-11-08",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/267130190045",
+      "source": "ebay",
+      "notes": "Buy It Now (shown reduced from 125.00); free shipping",
+      "flags": []
+    },
+    {
+      "price": 164.85,
+      "sold_date": "2023-01-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/224890701705",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping; sold date as shown by eBay",
+      "flags": []
+    },
+    {
+      "price": 69.0,
+      "sold_date": "2026-11-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147643241027",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not best-offer-accepted); ship 12.28",
+      "flags": []
+    },
+    {
+      "price": 144.02,
+      "sold_date": "2026-10-14",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/376959075222",
+      "source": "ebay",
+      "notes": "or Best Offer listing (shown reduced from 153.21); ship 19.99",
+      "flags": []
+    },
+    {
+      "price": 132.53,
+      "sold_date": "2026-09-22",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/376959082589",
+      "source": "ebay",
+      "notes": "or Best Offer listing (shown reduced from 140.99); ship 39.99",
+      "flags": []
+    },
+    {
+      "price": 129.99,
+      "sold_date": "2026-10-16",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/366089221055",
+      "source": "ebay",
+      "notes": "title: + Cable; or Best Offer listing (not best-offer-accepted); free shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 50.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366718539773",
+      "source": "ebay",
+      "notes": "OUTLIER: $50.00 vs median $131.82 for the rest. title says (Guaranteed); Buy It Now; ship 15.70",
+      "flags": []
+    },
+    {
+      "price": 50.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117427331876",
+      "source": "ebay",
+      "notes": "OUTLIER: $50.00 vs median $131.82 for the rest. Buy It Now; ship 12.00",
+      "flags": []
+    },
+    {
+      "price": 69.0,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287586280102",
+      "source": "ebay",
+      "notes": "auction, 21 bids; ship 16.32",
+      "flags": []
+    },
+    {
+      "price": 99.0,
+      "sold_date": "2026-09-20",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/178513604890",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not best-offer-accepted); free shipping",
+      "flags": []
+    },
+    {
+      "price": 139.0,
+      "sold_date": "2026-09-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/137542293913",
+      "source": "ebay",
+      "notes": "bundle: radio plus BRC BK-144 tri-band mini-disc antenna; or Best Offer listing (not best-offer-accepted); shipping shown but not fully captured",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 49.99,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137737505338",
+      "source": "ebay",
+      "notes": "OUTLIER: $49.99 vs median $131.82 for the rest. or Best Offer listing (not best-offer-accepted); ship 9.99",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137704537118",
+      "source": "ebay",
+      "notes": "title: EUC Very Clean; or Best Offer listing; same title as 137794109262 (sold 2026-10-09 best-offer-accepted, dropped) - possibly the same unit relisted",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 139.99,
+      "sold_date": "2026-08-21",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/306524133546",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not best-offer-accepted); free shipping",
+      "flags": []
+    },
+    {
+      "price": 131.12,
+      "sold_date": "2026-09-05",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/389616536456",
+      "source": "ebay",
+      "notes": "or Best Offer listing (shown reduced from 140.99); ship 11.99",
+      "flags": []
+    },
+    {
+      "price": 158.55,
+      "sold_date": "2026-11-12",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/166629770244",
+      "source": "ebay",
+      "notes": "Buy It Now; ship 118.91 plus import fees",
+      "flags": []
+    },
+    {
+      "price": 158.55,
+      "sold_date": "2026-11-10",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/176269884842",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not best-offer-accepted); ship 118.91 plus import fees",
+      "flags": []
+    },
+    {
+      "price": 166.43,
+      "sold_date": "2025-03-29",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/186439855817",
+      "source": "ebay",
+      "notes": "title: + Cable; or Best Offer listing (shown reduced from 177.05); ship 13.20; sold date as shown by eBay",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 134.75,
+      "sold_date": "2026-10-10",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/354381562906",
+      "source": "ebay",
+      "notes": "Buy It Now; ship 8.82 (includes import fees)",
+      "flags": []
+    }
+  ]
+}
