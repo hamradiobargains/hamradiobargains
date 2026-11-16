@@ -1,0 +1,67 @@
+{
+  "model": "Icom IC-735",
+  "slug": "icom-ic-735",
+  "searched_at": "2026-11-15T18:52:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Icom IC-735: 5 kept, median 367.77. Extras sweep, eBay sold page 1, searched_at approximate. Ledger miss (ICOM IC-735 latest 2026-10-12, older than 30 days). 5 kept. 5 'Best offer accepted' dropped (147605950084 $247.45 [also for parts/repair], 336840048507 $175 [also untested/no power cord], 206570361519 $300, 366667010077 $375, 397635591541 $120 [also PARTS main board]). Parts-only/for-parts dropped: 840129219605 $275 (Parts Only label), 278434335872 $148 (for parts or repair). Component/part sales excluded as not complete units: 267418678279 $225 (PARTS main unit PC board), 165198956410 $189.99 (PARTS screen control board), 265550038680 $185 (front unit LCD/S-meter). 168744825551 and 168673789223 share title and price ($367.77) - possible duplicate. 168642936646 title says WIDE-BANDED (modified). Trigger ask $275 shipped lower 48.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784815",
+    "site": "qth",
+    "ask": 275,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 285,
+      "sold_date": "2026-10-12",
+      "condition": "Used (eBay condition label not captured)",
+      "url": "https://www.ebay.com/itm/298732752423",
+      "source": "ebay",
+      "notes": "Shown shipping $14.50. Title: Icom IC-735 HF Transceiver ( Tested Working!! )",
+      "flags": []
+    },
+    {
+      "price": 267,
+      "sold_date": "2026-10-08",
+      "condition": "Used (eBay condition label not captured)",
+      "url": "https://www.ebay.com/itm/336792240409",
+      "source": "ebay",
+      "notes": "Shown shipping $95.50. Title: Icom IC-735 HF Transceiver, working, with Microp",
+      "flags": []
+    },
+    {
+      "price": 367.77,
+      "sold_date": "2026-09-30",
+      "condition": "Used (eBay condition label not captured)",
+      "url": "https://www.ebay.com/itm/168744825551",
+      "source": "ebay",
+      "notes": "Free shipping shown. Title: icom 735 transceiver Same title and price as another kept sale (168673789223 / 168744825551).",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 367.77,
+      "sold_date": "2026-09-29",
+      "condition": "Used (eBay condition label not captured)",
+      "url": "https://www.ebay.com/itm/168673789223",
+      "source": "ebay",
+      "notes": "Free shipping shown. Title: icom 735 transceiver Same title and price as another kept sale (168673789223 / 168744825551).",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 379.02,
+      "sold_date": "2026-09-01",
+      "condition": "Used (eBay condition label not captured)",
+      "url": "https://www.ebay.com/itm/168642936646",
+      "source": "ebay",
+      "notes": "Shown shipping $127.98. Title: ICOM IC-735 HF ALL MODE TRANSCEIVER, 100W (WIDE- Title says WIDE-BANDED (possible modification).",
+      "flags": [
+        "modified"
+      ]
+    }
+  ]
+}
