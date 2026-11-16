@@ -1,0 +1,52 @@
+{
+  "model": "Clear Speech CSS-1",
+  "slug": "clear-speech-css-1",
+  "searched_at": "2026-11-16T08:08:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, signed in as Leo, no challenge (extras sweep). 4 kept, median 117.42. Search 'clear speech css-1' (AM-Comm / NCT ClearSpeech DSP noise-reduction speaker). Dropped 1 Best-offer-accepted sale (257745059340 $110.00, Sep 18, 'CSS-1,-2'). Item 237168755819's title lists 'CSS-1 CSS-2' together, so the exact model on that sale is not fully certain. Ad 1784916 asks $110 shipped, no condition wording beyond 'noise reduction speaker'.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784916",
+    "site": "qth",
+    "ask": 110,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 109.5,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237168755819",
+      "source": "ebay",
+      "notes": "title lists 'CSS-1 CSS-2' (model identity slightly uncertain); free shipping",
+      "flags": []
+    },
+    {
+      "price": 119.95,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298714875642",
+      "source": "ebay",
+      "notes": "shipping 17.20",
+      "flags": []
+    },
+    {
+      "price": 114.89,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198653602665",
+      "source": "ebay",
+      "notes": "title: with cord and wires, vintage; shipping 14.20",
+      "flags": []
+    },
+    {
+      "price": 119.95,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298668884403",
+      "source": "ebay",
+      "notes": "shipping 17.20",
+      "flags": []
+    }
+  ]
+}
