@@ -1,0 +1,15 @@
+{
+  "model": "Astron SS-20M",
+  "slug": "astron-ss-20m",
+  "searched_at": "2026-11-16T08:18:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, signed in as Leo, no challenge (extras sweep). 0 kept, no comps. ZERO qualifying sold comps. Two searches run ('astron ss-20m' and 'astron ss20m', 2 of the sweep's 15); both returned only one result, an ASTRON SS-30M new unit (237061463815, $180.00, Sep 20, ship 17.50), a different model, excluded. Ad 1784933: Astron SS-20M switching supply 13.8 VDC 20A, like new, works, includes power cord, $129 + shipping CONUS only (shipping not quoted).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784933",
+    "site": "qth",
+    "ask": 129,
+    "shipping": 0
+  },
+  "comps": []
+}
