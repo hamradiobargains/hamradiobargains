@@ -1,0 +1,25 @@
+{
+  "model": "RM Italy HLA305V",
+  "slug": "rm-italy-hla305v",
+  "searched_at": "2026-11-16T05:56:47-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "MODEL IDENTITY UNCERTAIN on the trigger listing: eHam ad title says 'RM ITALY HLA305V Amplifier' but the body says 'RM Italy BLA350 PLUS Amplifier' (1-12 W in, 300 W out, 120 V, 30 lb). Searched both models; see the rm-italy-bla350-plus comp drop from this run. Ledger: no HLA305V entry (miss). eBay sold page 1: 1 result; dropped 0 best-offer-accepted, 0 parts-only. 1 kept. Thin.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629635",
+    "site": "eham",
+    "ask": 660.0,
+    "shipping": 47.0
+  },
+  "comps": [
+    {
+      "price": 429.0,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940026475237",
+      "source": "ebay",
+      "notes": "title: for HERMES LITE or QRP, TESTED WORKING; Buy It Now; ship 24.12",
+      "flags": []
+    }
+  ]
+}
