@@ -1,0 +1,229 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-15",
+  "ran_at": "2026-11-15T18:46:54-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered: 2026-11-15-qth.json (ran_at 2026-11-15T14:52:41-05:00), 2026-11-15-eham.json (05:54:24) and 2026-11-15-ebay.json (17:58:17); window = after previous extras drop 2026-11-14-extras.json (ran_at 2026-11-14T18:46:15-05:00). Previous extras drop CARRIED OVER (19, put first): 1784859, 1784836, 1784826, 1784819, 1784815, 1784850, 1784857, 1784806, 1784858, 1784833, 1784831, 1784835, 1784816, 1784852, 1784824, 1784842, 1784813, 1784805, 1784804; its BACKLOG CARRY: none. Named extra added by Leo: QTH 1783910 (Yaesu '991', $600 firm) worked as the ORIGINAL FT-991 per Leo's ruling; comps filed under 'Yaesu FT-991' only, no FT-991A figures used; already in dropped-urls.json so not re-appended. Fresh extras: the 11/15 QTH drop lists 16 under 'Extra plausible candidates not comped' (1784836 and 1784815 duplicate carry-overs); the 11/15 eHam drop and 11/15 eBay drop list none under that heading (the eBay drop's cap-skipped items are not under that heading, so not queued). eHam not opened. Queue 34 total: 19 carry-overs + 1783910 + 14 fresh. Worked 20: 15 eBay sold searches, 3 ledger hits, 2 gone. Ledger hits 3: 1783910 Yaesu FT-991 (median 748.33, count 4, 2026-11-11), 1778124 Icom IC-7000 (722.00, 18, 2026-10-26), 1784903 Ameritron ATR-30 (400.00, 6, 2026-10-22); the three were worked after the search cap was reached because ledger hits cost no search. eBay sold searches used 15 of 15 (cap reached): Icom IC-R75, SGC SGC-237, SGC SGC-2130, Icom IC-729, Icom IC-735, Yaesu SM-5000, Xiegu G106, Yaesu SCU-17, LDG AT-200 Pro, LDG Z-100, Ten-Tec Argonaut 509, AnyTone AT-778UV, Alinco DJ-W70, Radioddity HF-010, Diamond SX-600. One at a time, 15+ s apart, signed in as Leo, no challenge. Solid (3+): IC-R75 (13 kept, median 449.00), SGC-237 (3, 300.00), IC-735 (5, 367.77), Xiegu G106 (11, 199.95), SCU-17 (4, 89.78), AT-200 Pro (6, 168.67), AT-778UV (21, 132.53), SX-600 (5, 149.00). Thin: LDG Z-100 (2, 132.48), Argonaut 509 (1, 400.00), HF-010 (1, 298.00). Zero comps: SGC-2130, IC-729, SM-5000 (only a parts-only sale), DJ-W70. Gone: 1784850 (RF Applications P-3000), 1784816 (IC-726S); their ask/title come from the 11/14 drop (1784850 ask not recorded -> 0). Skipped: none. Cross-posts: none (IC-729 ad shows serial 01545; no other serials compared). Outliers: SGC-237 152.50; AT-778UV 49.99, 50.00, 50.00; SX-600 60.00. UNCERTAIN: 1784819 IC-729 'MARS done on it' + 'Sold as is no return'; 1784835 Argonaut 509 'white noise'; 1784852 AT-778UV 'TX 144–148 MHz (or wider depending on region)' spec text; 1778124 IC-7000 'AB5N modified microphone' / 'as=is'; 1784826 SGC-2130 and 1784857 SM-5000 and 1784819 have no comps; Z-100 vs Z-100A/Z-100Plus kept separate (not sure same); AT-778UV titles partly truncated in capture, eBay condition labels not captured for several comp sets. Several 11/15 ads (1784904, 1784923 etc.) were read for liveness during queue prep but not triaged; they are carried over. Timestamps -05:00 (EST); comp searched_at times approximate. CARRIED OVER (put first next run): 1784805, 1784804, 1778126, 1784904, 1784891, 1784887, 1784926, 1784923, 1784928, 1784916, 1779011, 1784933, 1784890, 1784906. BACKLOG CARRY: none.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784859",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE: IC-R75 Receiver",
+      "price": 315,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. \"I have for sale 1 used Icom IC-R75 Receiver. Receiver works good.$315.00 plus shipping cost.\" Shipping not quoted (recorded 0). Comps: icom-ic-r75, 13 kept, median 449.00.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784836",
+      "site": "qth",
+      "title": "ANTETUNE - FS: SGC-237 Autotuner+50 FT Cable",
+      "price": 265,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. \"Reduced Price!-SGC-237 HF/VHF AUTO-TUNER WITH APPROXIMATELY (50-FT) CONTROL CABLE & COAX ... Part of a smoke/pet FREE SK Estate I'm helping to liquidate. ... This tuner was used with an Icom IC-706MII and an Icom IC-7000 ... $265.00 Shipped\". Comps: sgc-sgc-237, 3 kept, median 300.00 (one OUTLIER 152.50).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784826",
+      "site": "qth",
+      "title": "ANTETUNE - SGC 2130 Automatic antenna Tuner",
+      "price": 325,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. \"New unused but tested.$325 shipped US\". Comps: sgc-sgc-2130, 0 kept (no SGC-2130 sold results on eBay page 1), no median.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784819",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE: ICOM IC-729 NICE RADIO",
+      "price": 300,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. \"Comes with Microphone, Handle, Power Cord and Manual. Serial # 01545. ... 100 Watts out on HF and 30+ Watts on 6 Meter. I was told that the last owner had MARS done on it. ... Now Only $300 or Best Offer Shipped. ... Sold as is no return.\" Comps: icom-ic-729, 0 kept (no IC-729 sold results on eBay page 1), no median.",
+      "work_flag": "I was told that the last owner had MARS done on it. Sold as is no return.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784815",
+      "site": "qth",
+      "title": "RADIOHF - FOR SALE: Icom IC-735 HF Transceiver",
+      "price": 275,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live (edited 11/15/26). \"Selling my Working well Icom IC-735 transceiver. Has good output and receives well on all HF bands. No options except DC power Cord. $275 shipped lower 48. Guaranteed to receive and transmit as advertised when received. Cosmetically good with a few scratches.\" Ad also offers an SM-5 Icom desk mike for $25 more if shipped with the radio. Comps: icom-ic-735, 5 kept, median 367.77.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784850",
+      "site": "qth",
+      "title": "RF Applications P-3000",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "no longer live (QTH: \"The ad number you specified, 1784850, is no longer in our system.\"). Ask not recorded in the 11/14 drop notes (recorded 0). Not comped: ad gone.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784857",
+      "site": "qth",
+      "title": "MISC - Yaesu SM 5000 Monitor Scope",
+      "price": 500,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. \"New YAESU SM 5000 STATION MONITOR. NEW OLD STOCK. I boufht 2 of these when I bought my FTDX5000MP. $500 delivered & will be double boxed.\" Comps: yaesu-sm-5000, 0 kept (only a parts-only SM-5000 sale on eBay page 1), no median.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784806",
+      "site": "qth",
+      "title": "RADIOHF - Xiegu G106",
+      "price": 220,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. \"Bought brand new 2 weeks ago. Comes with original box, power cable, mic, data cables, and DE-19 for data modes. $220 shipped in the USA\". Comps: xiegu-g106, 11 kept, median 199.95.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784858",
+      "site": "qth",
+      "title": "MISC - Yaesu SCU-17",
+      "price": 150,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. \"Yaesu SCU-17 comes with the adapter cables. $150 shipped US POSTAL MO OR Paypal add 3%\". Comps: yaesu-scu-17, 4 kept, median 89.78.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784833",
+      "site": "qth",
+      "title": "ANTETUNE - LDG AT-200 Pro",
+      "price": 139,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. \"In original box. $139 plus shipping\". Shipping not quoted (recorded 0). Comps: ldg-at-200-pro, 6 kept, median 168.67.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784831",
+      "site": "qth",
+      "title": "ANTETUNE - LDG Z-100 Tuner",
+      "price": 105,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. \"Nice tuner with box and radio interface cable. $105 plus shipping\". Shipping not quoted (recorded 0). Comps: ldg-z-100, 2 kept (thin), median 132.48.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784835",
+      "site": "qth",
+      "title": "MISC - Ten Tec Argonaut 509",
+      "price": 119,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. \"Has white noise as far as I got on radio. Good output. $119 plus shipping\". Shipping not quoted (recorded 0). Comps: ten-tec-argonaut-509, 1 kept (thin), median 400.00.",
+      "work_flag": "Has white noise as far as I got on radio. (UNCERTAIN whether this means needs-work)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784816",
+      "site": "qth",
+      "title": "Icom IC-726S (with issues per 11/14 drop note)",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "no longer live (QTH: ad number no longer in our system). Ask $100 and 'with issues' wording taken from the 11/14 QTH drop notes, not re-read. Not comped: ad gone.",
+      "work_flag": "with issues (per 11/14 drop note; ad gone, seller's own words not re-read)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784852",
+      "site": "qth",
+      "title": "RADIOVHF - AnyTone AT-778UV Dualband Mobile Transceiver",
+      "price": 110,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. \"Like new in retail box, $110 shipped Incl Programming Cable. Frequency Range: VHF: RX 136–174 MHz, TX 144–148 MHz (or wider depending on region) ...\". Comps: anytone-at-778uv, 21 kept, median 132.53 (3 OUTLIERS).",
+      "work_flag": "Ad spec text: \"TX 144–148 MHz (or wider depending on region)\" (UNCERTAIN: spec wording, no modification stated)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784824",
+      "site": "qth",
+      "title": "RADIOVHF - FS: ALINCO DJ-W70 (NEW)",
+      "price": 115,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. \"I have a brand new Alinco Dj-w70 2m/440 HT. $115 shipped.\". Comps: alinco-dj-w70, 0 kept (no DJ-W70 sold results on eBay page 1), no median.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784842",
+      "site": "qth",
+      "title": "ANTHF - RADIODDITY HF-010 PORTABLE ANTENNA",
+      "price": 210,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. \"AD WILL DELETE WHEN SOLD 10-BAND HF COVERAGE (80M–6M) ... $210 shipped US NOTE: STOCK PHOTO - ACTUAL PICTURE AVAILABLE\". Comps: radioddity-hf-010, 1 kept (thin), median 298.00.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784813",
+      "site": "qth",
+      "title": "TEST - Diamond Antenna SX600 SWR Power Meter",
+      "price": 209,
+      "shipping": 0,
+      "found_at": "2026-11-14",
+      "condition_notes": "live. \"Diamond Antenna SX600 SWR Power Meter 1.8-525MHz 200W Dual Sensor New ! $209 Delivered - check, Zelle, PP FF ok New in box very cool meter. I see these online at over $300\". Comps: diamond-sx600, 5 kept, median 149.00 (1 OUTLIER 60.00).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu 991 for sale",
+      "price": 600,
+      "shipping": 31,
+      "found_at": "2026-11-15",
+      "condition_notes": "live (named extra added by Leo; submitted 11/02/26). \"Nice radio with original mic and bound copy of owners manual. I do not have the original box, but radio is securely packed for shipping. Shipping insured CONUS looks like $31.00, so you know. $600.00 firm, plus shipping.\" Treated as the ORIGINAL FT-991 per Leo's ruling. Comps: ledger hit, 'Yaesu FT-991' (yaesu-ft-991), median 748.33, count 4, ledger date 2026-11-11; no FT-991A figures used.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1778124",
+      "site": "qth",
+      "title": "RADIOHF - FS: Icom IC-7000 HF/VHF/UHF Radio",
+      "price": 650,
+      "shipping": 0,
+      "found_at": "2026-11-15",
+      "condition_notes": "live (renewed; submitted 08/31/26, last edited 11/14/26). \"Has AB5N modified microphone. ... Radio in Excellent working and physical shape. Comes with microphone, DC cable, original manual, mic clip, accessory plugs. Asking $650 demo/pickup NNJ 07860, or plus shipping. Selling as=is, no returns.\" Shipping not quoted (recorded 0). Comps: ledger hit, Icom IC-7000 (icom-ic-7000), median 722.00, count 18, ledger date 2026-10-26.",
+      "work_flag": "Has AB5N modified microphone. Selling as=is, no returns.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784903",
+      "site": "qth",
+      "title": "ANTETUNE - Ameritron ATR-30 Tuner",
+      "price": 399,
+      "shipping": 0,
+      "found_at": "2026-11-15",
+      "condition_notes": "live. \"Tuner is in excellent cosmetic and working condition. This is a later model with the factory LED lighting. $399.00 shipped to lower 48.\" Comps: ledger hit, Ameritron ATR-30 (ameritron-atr-30), median 400.00, count 6, ledger date 2026-10-22.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
