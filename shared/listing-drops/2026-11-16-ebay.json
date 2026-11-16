@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-16",
+  "ran_at": "2026-11-16T17:59:14-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670) browse page, Buy It Now filter, sorted Time: newly listed, page 1 (~60 cards, all tagged NEW LISTING); signed in as Leo, no challenges. Window since previous ebay run 2026-11-15T17:58:17-05:00 (browse cards show no listing times; none of the 11-15 run's picks or left-outs reappeared on page 1, so page 1 treated as the window). Item descriptions not read; condition_notes use title, eBay condition label, seller notes, shipping and returns policy. Seller rule: all 8 picked passed (lowest count: Xiegu G90 seller 100% / 22 ratings). Cap reached at 8. Left out at the cap (seller not checked): Kenwood TM-731A (860150232978, $650 or BO), Yaesu FT-60R/E (920150172287, $100 or BO; R vs E ambiguous), Kenwood TS-711A + VS-1 + SP-430 + MC-60 bundle (287734363119, $400), Yaesu VX-170 (900096988845, $75 or BO), AnyTone AT-778UV (920150192215, $90), new retail units (FTM-150R, FT-3185R, FT-65R, FT-4XR). Not picked: parts-only units (Yaesu FT-690R II, Drake TR-4C, Icom IC-M800 marine, Texas Star modulator), auctions (AnyTone D878UV, Heathkit HW-7, Kenwood PG-4L), receivers/scanners, test gear and analyzers (MFJ-269C, MFJ-815B, Dosy counter), boards/modules (IC-775DSP, FT-990 CONTROL unit), panadapters (Elecraft P3, FTRX-10), commercial/marine/military (IC-H16, GX6000, Collins 490T1), software, cables, cases. Ledger: 3 hits (Icom IC-7300MK2, Xiegu G90, Kenwood TH-F6A); 5 misses -> 5 eBay sold searches (IC-730 count 2; TS-711A not in ledger, only 'KENWOOD TS-711'; TS-120S and TS-700A not in ledger; FT-2900: listing has no suffix and ledger 'YAESU FT-2900R' is dated 2026-10-11, older than 30 days).",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/900096919714",
+      "site": "ebay",
+      "title": "Icom IC-7300MK2 HF 50MHz SDR Ham Radio Transceiver 100 Watts with Box & Manuals",
+      "price": 1350.0,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "eBay condition: New. Card subtitle: 'BRAND NEW / Untouched Hamfest Grand Prize'. Fixed price or Best Offer, free shipping, 30-day returns (buyer pays return shipping).",
+      "work_flag": "",
+      "seller_feedback": "100% (5458 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/920150236306",
+      "site": "ebay",
+      "title": "Xiegu G90 HF SDR Ham Radio Transceiver w/ Hand Mic, Cables, LCD Screen",
+      "price": 400.0,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "eBay condition: Used. Includes hand mic and cables per title. Fixed price or Best Offer, free shipping. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns (used radio)",
+      "seller_feedback": "100% (22 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/287734411145",
+      "site": "ebay",
+      "title": "ICOM IC-730 HF ALL-MODE TRANSCEIVER – EXCELLENT CONDITION – FULLY TESTED & ALIGN",
+      "price": 465.0,
+      "shipping": 48.0,
+      "found_at": "2026-11-16",
+      "condition_notes": "eBay condition: Used. Title says excellent condition, fully tested & aligned; seller notes say exceptionally clean cosmetic and operating condition. Fixed price or Best Offer. Seller does not accept returns.",
+      "work_flag": "Seller does not accept returns (used radio)",
+      "seller_feedback": "100% (4133 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/900097026543",
+      "site": "ebay",
+      "title": "Kenwood TS-711a 2m 144MHz All Mode Ham Radio Base Transceiver",
+      "price": 345.0,
+      "shipping": 44.89,
+      "found_at": "2026-11-16",
+      "condition_notes": "eBay condition: Used. No seller notes on the condition line; description not read. Fixed price, 30-day returns (seller pays return shipping).",
+      "work_flag": "",
+      "seller_feedback": "99.5% (8769 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/900096990215",
+      "site": "ebay",
+      "title": "Kenwood TH-F6A 144/220/440 MHz FM Triband Amateur Radio",
+      "price": 241.99,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "eBay condition: Used. Seller notes: previously owned, tested, working, good condition. Fixed price, free shipping, 30-day returns (seller pays). Seller is a pawn chain.",
+      "work_flag": "",
+      "seller_feedback": "99.8% (225100 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/206706088342",
+      "site": "ebay",
+      "title": "KENWOOD TS-120S Amateur (Han) Radio HF Transceiver Ham Radio with Mic.",
+      "price": 250.0,
+      "shipping": 107.0,
+      "found_at": "2026-11-16",
+      "condition_notes": "eBay condition: Used. Seller notes: 'Untested no/power cord.' Includes mic per title. Fixed price, 30-day returns (buyer pays). Shipping is high ($107).",
+      "work_flag": "Untested no/power cord.",
+      "seller_feedback": "99.8% (3048 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/206706222398",
+      "site": "ebay",
+      "title": "KENWOOD TS-700A 2M ALL MODE HAM RADIO TRANSCEIVER",
+      "price": 150.0,
+      "shipping": 85.37,
+      "found_at": "2026-11-16",
+      "condition_notes": "eBay condition: Used. Seller notes: 'Powers on Untested'. Fixed price, 30-day returns (buyer pays).",
+      "work_flag": "Powers on Untested",
+      "seller_feedback": "99.8% (3048 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/307285872816",
+      "site": "ebay",
+      "title": "Yaesu FT-2900 FM VHF 75W Ham Radio Transceiver 144-148 MHz LCD Display",
+      "price": 145.0,
+      "shipping": 25.35,
+      "found_at": "2026-11-16",
+      "condition_notes": "eBay condition: Used. Title says FT-2900 (no R/E suffix shown). No seller notes on the condition line; description not read. Fixed price, 30-day returns (seller pays).",
+      "work_flag": "",
+      "seller_feedback": "99.5% (8769 ratings)"
+    }
+  ]
+}
