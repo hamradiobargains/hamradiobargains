@@ -1,0 +1,61 @@
+{
+  "model": "Diamond SX-600",
+  "slug": "diamond-sx600",
+  "searched_at": "2026-11-15T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Diamond SX-600: 5 kept, median 149.00. Extras sweep, eBay sold page 1, searched_at approximate. Ledger miss (DIAMOND SX-600 latest 2026-10-13, older than 30 days). 5 kept. 1 BOA dropped (147443616245 $185). Excluded for identity: 128173217807 $160 (title 'SWR SX-600 Power Meter UV Dual Band', not Diamond-branded). OUTLIER: 237019049334 $60 (< 0.5x the median of the others, 149.50). Trigger ask $209 delivered, new in box.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784813",
+    "site": "qth",
+    "ask": 209,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 179.99,
+      "sold_date": "2026-11-01",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/366756429473",
+      "source": "ebay",
+      "notes": "Free shipping shown. Title: Diamond SX600 SWR Power Meter 1.8-525MHz 200W Du",
+      "flags": []
+    },
+    {
+      "price": 131.17,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820073777379",
+      "source": "ebay",
+      "notes": "Shown shipping $49.60. Title: DIAMOND SWR & POWER METER, ROSMETER AND WATTMETE",
+      "flags": []
+    },
+    {
+      "price": 149,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178442792751",
+      "source": "ebay",
+      "notes": "Shown shipping $10.00. Title: DIAMOND SX-600 Dual Band SWR Power Watt Meter Be",
+      "flags": []
+    },
+    {
+      "price": 150,
+      "sold_date": "2026-08-23",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/327322972759",
+      "source": "ebay",
+      "notes": "Shown shipping $7.95. Title: Diamond SX-600 SWR& Power meter",
+      "flags": []
+    },
+    {
+      "price": 60,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237019049334",
+      "source": "ebay",
+      "notes": "OUTLIER: price is below 0.5x the median of the other kept comps. Shown shipping $6.57. Title: Diamond SX600 VHF, UHF, HF dual sensor power/SWR",
+      "flags": []
+    }
+  ]
+}
