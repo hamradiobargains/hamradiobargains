@@ -1,0 +1,34 @@
+{
+  "model": "RM Italy BLA350 Plus",
+  "slug": "rm-italy-bla350-plus",
+  "searched_at": "2026-11-16T05:56:47-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "MODEL IDENTITY UNCERTAIN on the trigger listing: eHam ad title says 'RM ITALY HLA305V Amplifier' but the body says 'RM Italy BLA350 PLUS Amplifier' (1-12 W in, 300 W out, 120 V, 30 lb). Searched both models; see the rm-italy-hla305v comp drop from this run. Ledger: 'RM ITALY BLA 350 PLUS' has count 3, latest 2026-11-02 (median 485.0) but was NOT used as a hit because the listing's model identity is not certain - eBay sold search run instead. eBay sold page 1: 2 results; dropped 0 best-offer-accepted, 0 parts-only. 2 kept. Thin.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629635",
+    "site": "eham",
+    "ask": 660.0,
+    "shipping": 47.0
+  },
+  "comps": [
+    {
+      "price": 600.0,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800868043950",
+      "source": "ebay",
+      "notes": "title: BLA 350 Plus, 300W max output with 10W, 120VAC; or Best Offer listing (not best-offer-accepted); free shipping",
+      "flags": []
+    },
+    {
+      "price": 460.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206521652956",
+      "source": "ebay",
+      "notes": "title: BLA350 Plus 120V 300 W; auction, 16 bids; free shipping",
+      "flags": []
+    }
+  ]
+}
