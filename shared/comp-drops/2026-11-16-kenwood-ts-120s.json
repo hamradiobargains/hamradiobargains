@@ -1,0 +1,63 @@
+{
+  "model": "Kenwood TS-120S",
+  "slug": "kenwood-ts-120s",
+  "searched_at": "2026-11-16T17:59:14-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood ts-120s', page 1 above 'fewer words'. 5 kept comps, wide spread ($92.70-$350). Dropped 1 best-offer-accepted (366673093039 $250). Dropped 8 parts-only (327453283890, 407217522282, 198760177047, 198625389314, 287441729534, 137686798308, 198308861596, 406996841022). Left out front panel, YK-88S filter and 4-pin adapter. Outliers flagged: $113.50, $350.00, $92.70, $299.99.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/206706088342",
+    "site": "ebay",
+    "ask": 250.0,
+    "shipping": 107.0
+  },
+  "comps": [
+    {
+      "price": 113.5,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398447835050",
+      "source": "ebay",
+      "notes": "OUTLIER: $113.50 vs ~$275.00 median for the rest; Auction, 6 bids; title 'WITH MIC. !!LOOK!!'; +$65.36 shipping",
+      "flags": []
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398139993453",
+      "source": "ebay",
+      "notes": "OUTLIER: $350.00 vs ~$181.75 median for the rest; or Best Offer listing (not accepted); free shipping",
+      "flags": []
+    },
+    {
+      "price": 92.7,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800723391575",
+      "source": "ebay",
+      "notes": "OUTLIER: $92.70 vs ~$275.00 median for the rest; Auction, 6 bids; title 'Powers On Not Fully Tested'; +$34.99 shipping",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318347783269",
+      "source": "ebay",
+      "notes": "Title '(TESTED)'; or Best Offer listing (not accepted); +$10.50 shipping",
+      "flags": []
+    },
+    {
+      "price": 299.99,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137616767895",
+      "source": "ebay",
+      "notes": "OUTLIER: $299.99 vs ~$181.75 median for the rest; Auction, 2 bids; title 'TESTED WORKS'; +$22.73 shipping",
+      "flags": []
+    }
+  ]
+}
