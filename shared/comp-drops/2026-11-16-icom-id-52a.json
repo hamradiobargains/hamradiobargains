@@ -1,0 +1,85 @@
+{
+  "model": "Icom ID-52A",
+  "slug": "icom-id-52a",
+  "searched_at": "2026-11-16T15:01:09-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "7 kept comps (median 365.0). dropped 4 best-offer-accepted (198780474777, 158268917865, 237019422316, 236981979202), dropped 0 parts-only. Left out for identity: ID-52A PLUS / ID-52 PLUS / ID-52E PLUS sales (206628466715, 960011030233, 800724301629, 137373134162, 178496616422, 327424366562) and 'ID-52' sales without the A suffix (226338183769, 168801661348, 128095321673). Two kept comps (137839118859, 158241877575) share an identical title and are flagged possible_duplicate. No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785002",
+    "site": "qth",
+    "ask": 425,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 450,
+      "sold_date": "2026-11-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128096885104",
+      "source": "ebay",
+      "notes": "Title: Icom ID-52A D-STAR Dual Band VHF/UHF FM Digital Bluetooth Handheld Ham Radio. Shipping +$5.68.",
+      "flags": []
+    },
+    {
+      "price": 350,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407312025129",
+      "source": "ebay",
+      "notes": "Title: Icom ID-52A VHF/UHF D-STAR Handheld Transceiver - Complete with Original Box. Shipping +$6.19.",
+      "flags": []
+    },
+    {
+      "price": 350,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137839118859",
+      "source": "ebay",
+      "notes": "Title: Icom ID-52A D-STAR Dual Band VHF/UHF FM Ham radio- includes battery charger. Shipping +$9.82. Identical title to 158241877575 (sold 2026-09-06) - possibly the same unit relisted.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 399.99,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117445577939",
+      "source": "ebay",
+      "notes": "Title: Icom ID-52A Transceiver for VHF/UHF Digital D-STAR IPX7. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 325,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267784193320",
+      "source": "ebay",
+      "notes": "Auction, 6 bids. Title: Icom ID-52A Handheld Transceiver for UHF/VHF D-Star Digital/Analog WITH MARS MOD. Shipping +$7.63.",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 365,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158241877575",
+      "source": "ebay",
+      "notes": "Auction, 9 bids. Title: Icom ID-52A D-STAR Dual Band VHF/UHF FM Ham radio- includes battery charger. Shipping +$15.00. Identical title to 137839118859 (sold 2026-10-13) - possibly the same unit relisted.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 399.99,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178443333266",
+      "source": "ebay",
+      "notes": "Title: Icom ID-52A Dual-Band Digital D-STAR GPS Bluetooth Handheld HT Amateur Ham Radio. Shipping +$17.15.",
+      "flags": []
+    }
+  ]
+}
