@@ -1,0 +1,22 @@
+{
+  "model": "Yaesu FT-991",
+  "slug": "yaesu-ft-991",
+  "searched_at": "2026-11-16T07:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 748.33, count 4, ledger date 2026-11-11 — ledger hit — individual sales behind the median are not auditable from this file. Original Yaesu FT-991 ONLY per Leo's ruling (ad title says 'Yaesu 991'); no FT-991A figures used. Ad 1783910 live this run: original mic and bound owner's manual, one minor scratch on top, Power Pole connectors, no original box, $600 firm plus shipping (seller estimates $31 insured CONUS), will consider driving a reasonable distance with prepayment.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+    "site": "qth",
+    "ask": 600,
+    "shipping": 31
+  },
+  "comps": [],
+  "ledger": {
+    "median": 748.33,
+    "low": 586,
+    "high": 782.13,
+    "count": 4,
+    "date": "2026-11-11"
+  }
+}
