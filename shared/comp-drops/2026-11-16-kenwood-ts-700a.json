@@ -1,0 +1,43 @@
+{
+  "model": "Kenwood TS-700A",
+  "slug": "kenwood-ts-700a",
+  "searched_at": "2026-11-16T17:59:14-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood ts-700a', page 1 above 'fewer words'. 3 kept comps. Dropped 1 best-offer-accepted (168808582289 $170). Dropped 3 parts-only (820240811300 not tested, 358332658368 not tested, 365871592177 no transmit). TS-700SP / TS-700S results were in the 'fewer words' section and are different models anyway. Outliers flagged: $239.99.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/206706222398",
+    "site": "ebay",
+    "ask": 150.0,
+    "shipping": 85.37
+  },
+  "comps": [
+    {
+      "price": 125.0,
+      "sold_date": "2026-11-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298618837261",
+      "source": "ebay",
+      "notes": "Fixed price; +$51.86 shipping",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307257514893",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; title 'in very good condition'; free shipping",
+      "flags": []
+    },
+    {
+      "price": 239.99,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287523395206",
+      "source": "ebay",
+      "notes": "OUTLIER: $239.99 vs ~$137.50 median for the rest; Title 'W/ORIGINAL MIC + VOX PLUG-XLNT'; or Best Offer listing (not accepted); +$41.81 shipping",
+      "flags": []
+    }
+  ]
+}
