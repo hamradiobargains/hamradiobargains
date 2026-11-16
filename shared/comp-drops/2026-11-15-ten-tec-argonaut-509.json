@@ -1,0 +1,27 @@
+{
+  "model": "Ten-Tec Argonaut 509",
+  "slug": "ten-tec-argonaut-509",
+  "searched_at": "2026-11-15T18:56:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ten-Tec Argonaut 509: 1 kept, median 400.00 - THIN. Extras sweep, eBay sold page 1, searched_at approximate. Ledger miss (TEN-TEC ARGONAUT 509 count 2). THIN (1). 1 BOA dropped (407159675694 $259). Parts-only/for-parts dropped: 128006323346 $169.99 (also BOA), 158217035044 $249.99 (label Parts Only), 178462714704 $240 (label Parts Only, 'complete, untested'), 137628038006 $74.13 (restoration or parts). Kept comp title says 'QRP Ham radio station' - contents not read, may include extras. Trigger ask $119 plus unquoted shipping (recorded 0); ad says 'Has white noise as far as I got on radio. Good output.'",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784835",
+    "site": "qth",
+    "ask": 119,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 400,
+      "sold_date": "2026-11-06",
+      "condition": "Used (eBay condition label not captured)",
+      "url": "https://www.ebay.com/itm/128084867690",
+      "source": "ebay",
+      "notes": "Free shipping shown. Title: Ten-Tec Argonaut 509 QRP Ham radio station Title indicates extras included.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
