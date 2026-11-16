@@ -1,0 +1,15 @@
+{
+  "model": "Icom IC-703 Plus",
+  "slug": "icom-ic-703-plus",
+  "searched_at": "2026-11-16T15:01:09-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "No IC-703 Plus unit sales on eBay sold page 1. Left out for identity: 3 plain IC-703 sales (940011539847 $429 auction 2026-10-20; 327358460766 $435 2026-10-07; 278405423622 $439 auction 2026-10-01) - IC-703 and IC-703 Plus are different models. Remaining results were IC-706 variants and accessories. dropped 0 best-offer-accepted, 0 parts-only. 0 kept comps — thin.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785015",
+    "site": "qth",
+    "ask": 400,
+    "shipping": 0
+  },
+  "comps": []
+}
