@@ -1,0 +1,25 @@
+{
+  "model": "Radioddity HF-010",
+  "slug": "radioddity-hf-010",
+  "searched_at": "2026-11-15T18:57:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Radioddity HF-010: 1 kept, median 298.00 - THIN. Extras sweep, eBay sold page 1, searched_at approximate. Ledger miss (RADIODDITY HF-010 count 1, 2026-10-25). THIN (1). 1 BOA dropped (117367317679 $229.99, Aug 25, Open box). Trigger ask $210 shipped US; ad uses a stock photo.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784842",
+    "site": "qth",
+    "ask": 210,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 298,
+      "sold_date": "2026-10-25",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/198266652771",
+      "source": "ebay",
+      "notes": "Free shipping shown. Title: Radioddity HF-010 Portable HF Antenna | 80m-6m F",
+      "flags": []
+    }
+  ]
+}
