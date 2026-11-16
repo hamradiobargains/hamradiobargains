@@ -154,6 +154,20 @@ async src="//gc.zgo.at/count.js"></script>
 <div id="status">Loading deal analysis&hellip;</div>
 <div id="error"></div>
 
+<div id="story" style="display:none;">
+<div class="card">
+<div class="item-title" id="story-title"></div>
+<p id="story-body" style="margin:10px 0 0;line-height:1.55;"></p>
+</div>
+<div class="card">
+<div class="section-title">Where to go instead</div>
+<p style="margin:0;line-height:1.55;">Deals that clear our around-25% rule move fast — most are gone in days. Here's how to catch the next one:</p>
+<a class="listing-btn" href="./" style="margin-top:14px;">See today's deals &rarr;</a>
+<a class="listing-btn" href="/deal-alerts/" style="margin-top:10px;">Get deal alerts &rarr;</a>
+<a class="listing-btn" href="/models/" style="margin-top:10px;">Browse the model library &rarr;</a>
+</div>
+</div>
+
 <div id="content">
 <div class="card">
 <div class="item-title" id="item-title"></div>
@@ -446,6 +460,51 @@ link.style.display = 'none';
 const params = new URLSearchParams(window.location.search);
 const linkParam = params.get('link');
 
+// Gone-deal story: an old post or video link can outlive the deal itself by
+// months. When the deal is no longer in a live feed, explain what happened
+// (sold / ended / unknown) instead of a bare "not found", and point the
+// visitor at what's live now.
+const ARCHIVE_CSV = 'https://docs.google.com/spreadsheets/d/' + SHEET_ID + '/export?format=csv&gid=230246201';
+
+function longDate(iso) {
+const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || '');
+if (!m) return '';
+return months[Number(m[2]) - 1] + ' ' + Number(m[3]) + ', ' + m[1];
+}
+
+function showStory(link) {
+document.getElementById('status').style.display = 'none';
+const storyEl = document.getElementById('story');
+const titleEl = document.getElementById('story-title');
+const bodyEl = document.getElementById('story-body');
+storyEl.style.display = 'block';
+titleEl.textContent = 'That deal is gone.';
+bodyEl.textContent = 'Checking our records for what happened to it\u2026';
+Promise.all([
+fetch('sold.json').then(r => r.ok ? r.json() : {}).catch(() => ({})),
+fetch(ARCHIVE_CSV).then(r => r.ok ? r.text() : '').then(t => t ? parseDeals(parseCsv(t)) : []).catch(() => [])
+]).then(([sold, archive]) => {
+const rec = archive.find(d => d.link === link);
+const soldRec = sold[link];
+if (soldRec) {
+titleEl.textContent = 'This one sold.';
+bodyEl.textContent = rec
+? rec.item + ' was on our board at ' + rec.price + ', flagged ' + longDate(rec.date) + '. It was marked sold on ' + longDate(soldRec.soldDate) + '. That\u2019s how these go: a deal that clears our around-25% rule usually moves in days, sometimes hours.'
+: 'This deal was marked sold on ' + longDate(soldRec.soldDate) + '. Deals that clear our around-25% rule usually move in days, sometimes hours.';
+} else if (rec) {
+titleEl.textContent = 'This listing has ended.';
+bodyEl.textContent = rec.item + ' ran on our board at ' + rec.price + ', first flagged ' + longDate(rec.date) + '. The seller\u2019s listing has since ended or aged off, and we never recorded a sale. The board turns over daily \u2014 what\u2019s live now is below.';
+} else {
+titleEl.textContent = 'That deal isn\u2019t on the board anymore.';
+bodyEl.textContent = 'This link is likely from an older post. Deals rotate off the board as they sell or age out, but our old posts and videos keep circulating \u2014 so you may land here long after a deal is gone. Here\u2019s what\u2019s live now.';
+}
+}).catch(() => {
+titleEl.textContent = 'That deal isn\u2019t on the board anymore.';
+bodyEl.textContent = 'Deals rotate off the board as they sell or age out. Here\u2019s what\u2019s live now.';
+});
+}
+
 if (!linkParam) {
 showError('No listing was specified.');
 } else {
@@ -453,7 +512,7 @@ loadDeals()
 .then(deals => {
 const match = deals.find(d => d.link === linkParam);
 if (!match) {
-showError('This deal could not be found — it may have been removed.');
+showStory(linkParam);
 return;
 }
 render(match);
