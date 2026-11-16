@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio Maestro",
+  "slug": "flexradio-maestro",
+  "searched_at": "2026-11-16T08:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, signed in as Leo, no challenge (extras sweep). 0 kept, no comps. ZERO qualifying sold comps on page 1 for search 'flexradio maestro'. Page 1 held only iDatalink Maestro car dash kits (not radios) and one FlexRadio Maestro Controller (398144436249, $1,099.99, Aug 19) that was Best-offer-accepted AND titled 'READ DESC' - dropped on both counts (1 BOA, 1 Read Description). Ledger FLEXRADIO MAESTRO (median 644.95, count 2, 2026-09-15) was not used: older than 30 days and count under 3; it is mentioned for reference only. Ad 1784923 is a Maestro B Plus with hinged feet, extra battery and 15 VDC power supply, $875 delivered (US postal M/O or PayPal add 3%); Maestro/Maestro B/B Plus identity not verified against eBay sales.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784923",
+    "site": "qth",
+    "ask": 875,
+    "shipping": 0
+  },
+  "comps": []
+}
