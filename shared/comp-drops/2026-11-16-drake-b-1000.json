@@ -1,0 +1,15 @@
+{
+  "model": "Drake B-1000",
+  "slug": "drake-b-1000",
+  "searched_at": "2026-11-16T08:28:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, signed in as Leo, no challenge (extras sweep). 0 kept, no comps. ZERO sold results for 'drake b-1000 balun' (page 1 empty). Ad 1784906: 'Drake B-1000 Balun', $90 shipped, no condition wording. No fallback search run.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784906",
+    "site": "qth",
+    "ask": 90,
+    "shipping": 0
+  },
+  "comps": []
+}
