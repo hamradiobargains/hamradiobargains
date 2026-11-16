@@ -1,0 +1,15 @@
+{
+  "model": "Array Solutions Six Pack",
+  "slug": "array-solutions-six-pack",
+  "searched_at": "2026-11-16T05:56:47-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no ARRAY SOLUTIONS SIX PACK entry). eBay sold search returned 0 results for the exact model; everything on the page was in 'Results matching fewer words' (other Array Solutions products) - ignored. No comps. Thin.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629619",
+    "site": "eham",
+    "ask": 335.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
