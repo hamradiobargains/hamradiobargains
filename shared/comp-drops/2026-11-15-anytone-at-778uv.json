@@ -1,0 +1,207 @@
+{
+  "model": "AnyTone AT-778UV",
+  "slug": "anytone-at-778uv",
+  "searched_at": "2026-11-15T18:56:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "AnyTone AT-778UV: 21 kept, median 132.53. Extras sweep, eBay sold page 1, searched_at approximate. Ledger miss (no AT-778UV entry). AT-778UV only; AT-778UV II excluded. 21 kept, including older sales (2023-01-06 and 2025-03-29) because they were on page 1. 7 BOA dropped (366747566185 $94.95, 146608774478 $140.99, 267521290599 $215.25, 137794109262 $99.99, 178480138542 $80, 178475026807 $80, 137801729746 $30 [also Parts Only]). Accessory sales under $30 (microphones, brackets, cables) excluded. 3 OUTLIERS flagged (49.99, 50.00, 50.00 are below 0.5x the median of the others). Several titles truncated in capture. Trigger ask $110 shipped, 'Like new in retail box', incl. programming cable.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784852",
+    "site": "qth",
+    "ask": 110,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 139.99,
+      "sold_date": "2026-11-08",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/358108499776",
+      "source": "ebay",
+      "notes": "Free shipping shown. Title: AnyTone AT-778UV 25W Ham Mobile Two Way Radio UH",
+      "flags": []
+    },
+    {
+      "price": 117.5,
+      "sold_date": "2026-11-08",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/267130190045",
+      "source": "ebay",
+      "notes": "Free shipping shown. Title: AnyTone AT-778UV 25W Ham Mobile Two Way Radio UH",
+      "flags": []
+    },
+    {
+      "price": 164.85,
+      "sold_date": "2023-01-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/224890701705",
+      "source": "ebay",
+      "notes": "Free shipping shown. Title: AT-778UV Dual Band Transceiver Mobile Radio VHF/",
+      "flags": []
+    },
+    {
+      "price": 69,
+      "sold_date": "2026-11-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147643241027",
+      "source": "ebay",
+      "notes": "Shown shipping $12.28. Title: AnyTone AT-778UV Dual Band VHF/UHF FM Mobile Ham",
+      "flags": []
+    },
+    {
+      "price": 144.02,
+      "sold_date": "2026-10-14",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/376959075222",
+      "source": "ebay",
+      "notes": "Shown shipping $19.99. Title: AnyTone AT-778UV Dual Band Transceiver 25W 136-1",
+      "flags": []
+    },
+    {
+      "price": 132.53,
+      "sold_date": "2026-09-22",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/376959082589",
+      "source": "ebay",
+      "notes": "Shown shipping $39.99. Title: AnyTone AT-778UV 25W Ham Mobile 2-Way Radio UHF ",
+      "flags": []
+    },
+    {
+      "price": 129.99,
+      "sold_date": "2026-10-16",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/366089221055",
+      "source": "ebay",
+      "notes": "Free shipping shown. Title: AnyTone AT-778UV Dual Band Mobile Radio VHF/UHF  Title indicates extras included.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 50,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366718539773",
+      "source": "ebay",
+      "notes": "OUTLIER: price is below 0.5x the median of the other kept comps. Shown shipping $15.70. Title: AnyTone AT-778UV ... Ham Radio UHF VHF Dual Band",
+      "flags": []
+    },
+    {
+      "price": 50,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117427331876",
+      "source": "ebay",
+      "notes": "OUTLIER: price is below 0.5x the median of the other kept comps. Shown shipping $12.00. Title: AnyTone AT-778UV ... Mobile Two Way Radio UHF VH",
+      "flags": []
+    },
+    {
+      "price": 69,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287586280102",
+      "source": "ebay",
+      "notes": "Shown shipping $16.32. Title: AnyTone AT-778UV ... Transceiver",
+      "flags": []
+    },
+    {
+      "price": 99,
+      "sold_date": "2026-09-20",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/178513604890",
+      "source": "ebay",
+      "notes": "Free shipping shown. Title: AnyTone AT-778UV",
+      "flags": []
+    },
+    {
+      "price": 139,
+      "sold_date": "2026-09-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/137542293913",
+      "source": "ebay",
+      "notes": "Shown shipping $15.00. Title: AnyTone AT778UV",
+      "flags": []
+    },
+    {
+      "price": 49.99,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137737505338",
+      "source": "ebay",
+      "notes": "OUTLIER: price is below 0.5x the median of the other kept comps. Shown shipping $9.99. Title: AnyTone AT-778UV",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137704537118",
+      "source": "ebay",
+      "notes": "Shown shipping $13.15. Title: AnyTone AT-778UV",
+      "flags": []
+    },
+    {
+      "price": 139.99,
+      "sold_date": "2026-08-21",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/306524133546",
+      "source": "ebay",
+      "notes": "Free shipping shown. Title: Dual Band Tr... AT-778UV",
+      "flags": []
+    },
+    {
+      "price": 131.12,
+      "sold_date": "2026-09-05",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/389616536456",
+      "source": "ebay",
+      "notes": "Shown shipping $11.99. Title: AnyTone AT-778UV",
+      "flags": []
+    },
+    {
+      "price": 158.55,
+      "sold_date": "2026-11-12",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/166629770244",
+      "source": "ebay",
+      "notes": "Shown shipping $118.91. Title: Anytone AT-778UV",
+      "flags": []
+    },
+    {
+      "price": 158.55,
+      "sold_date": "2026-11-10",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/176269884842",
+      "source": "ebay",
+      "notes": "Shown shipping $118.91. Title: Ham Radio Tr... AT-778UV",
+      "flags": []
+    },
+    {
+      "price": 166.43,
+      "sold_date": "2025-03-29",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/186439855817",
+      "source": "ebay",
+      "notes": "Shown shipping $13.20. Title: AnyTone AT-778UV",
+      "flags": []
+    },
+    {
+      "price": 134.75,
+      "sold_date": "2026-10-10",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/354381562906",
+      "source": "ebay",
+      "notes": "Shown shipping $8.82. Title: AnyTone AT-778UV",
+      "flags": []
+    },
+    {
+      "price": 135.95,
+      "sold_date": "2026-11-12",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/376869898667",
+      "source": "ebay",
+      "notes": "Free shipping shown. Title: AnyTone AT-778UV",
+      "flags": []
+    }
+  ]
+}
