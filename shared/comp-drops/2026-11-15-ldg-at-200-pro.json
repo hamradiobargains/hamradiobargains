@@ -1,0 +1,70 @@
+{
+  "model": "LDG AT-200 Pro",
+  "slug": "ldg-at-200-pro",
+  "searched_at": "2026-11-15T18:55:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "LDG AT-200 Pro: 6 kept, median 168.67. Extras sweep, eBay sold page 1, searched_at approximate. Ledger miss (LDG AT-200PRO latest 2026-10-02, older than 30 days). AT-200Pro only; AT-200ProII kept separate and excluded (168636787456 $450, 137815425721 $179.99, 158227824644 $150 [BOA], 137719010635 $200). 6 kept. 2 BOA dropped (267794812259 $150, 298632905294 $239). 1 parts/repair dropped (287620857955 $137.69). No outliers. Trigger ask $139 plus unquoted shipping (recorded 0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784833",
+    "site": "qth",
+    "ask": 139,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 172.16,
+      "sold_date": "2026-10-20",
+      "condition": "Used (eBay condition label not captured)",
+      "url": "https://www.ebay.com/itm/178505315449",
+      "source": "ebay",
+      "notes": "Free shipping shown. Title: LDG AT200PRO Ham Radio Automatic Antenna Tuner A",
+      "flags": []
+    },
+    {
+      "price": 174.95,
+      "sold_date": "2026-10-02",
+      "condition": "Used (eBay condition label not captured)",
+      "url": "https://www.ebay.com/itm/227504133843",
+      "source": "ebay",
+      "notes": "Free shipping shown. Title: Ham Radio LDG AT-200 Pro 200W Automatic Antenna ",
+      "flags": []
+    },
+    {
+      "price": 107.5,
+      "sold_date": "2026-09-19",
+      "condition": "Used (eBay condition label not captured)",
+      "url": "https://www.ebay.com/itm/287583043231",
+      "source": "ebay",
+      "notes": "Shown shipping $12.00. Title: LDG Electronics AT-200Pro Automatic Antenna Tune",
+      "flags": []
+    },
+    {
+      "price": 165,
+      "sold_date": "2026-09-14",
+      "condition": "Used (eBay condition label not captured)",
+      "url": "https://www.ebay.com/itm/147564838297",
+      "source": "ebay",
+      "notes": "Free shipping shown. Title: LDG AT-200PRO Ham Radio Automatic Antenna Tuner ",
+      "flags": []
+    },
+    {
+      "price": 209.95,
+      "sold_date": "2026-08-25",
+      "condition": "Used (eBay condition label not captured)",
+      "url": "https://www.ebay.com/itm/137393492527",
+      "source": "ebay",
+      "notes": "Shown shipping $9.75. Title: LDG AT-200PRO Ham Radio Automatic Antenna Tuner ",
+      "flags": []
+    },
+    {
+      "price": 165.18,
+      "sold_date": "2026-09-05",
+      "condition": "Used (eBay condition label not captured)",
+      "url": "https://www.ebay.com/itm/800582471993",
+      "source": "ebay",
+      "notes": "Shown shipping $120.59. Title: LDG AT-200PRO AUTO ANTENNA TUNER HF / 50MHz 250W",
+      "flags": []
+    }
+  ]
+}
