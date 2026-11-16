@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio Maestro C",
+  "slug": "flexradio-maestro-c",
+  "searched_at": "2026-11-16T15:01:09-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1 had only 2 Maestro results, neither identified as the Maestro C, and both Best offer accepted (206508956367 also Parts Only/untested; 398144436249). dropped 2 best-offer-accepted (one also parts-only). 0 kept comps — thin.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784998",
+    "site": "qth",
+    "ask": 1325,
+    "shipping": 0
+  },
+  "comps": []
+}
