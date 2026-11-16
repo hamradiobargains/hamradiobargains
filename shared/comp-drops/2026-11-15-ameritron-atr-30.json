@@ -1,0 +1,22 @@
+{
+  "model": "Ameritron ATR-30",
+  "slug": "ameritron-atr-30",
+  "searched_at": "2026-11-15T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 400.0, count 6, ledger date 2026-10-22 — ledger hit — individual sales behind the median are not auditable from this file. Trigger ask $399 shipped to lower 48; later model with factory LED lighting.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784903",
+    "site": "qth",
+    "ask": 399,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 400,
+    "low": 339.95,
+    "high": 445,
+    "count": 6,
+    "date": "2026-10-22"
+  }
+}
