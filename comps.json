@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T13:53:37+00:00",
+ "updated": "2026-11-16T13:53:42+00:00",
  "source": "HamRadioBargains sold-comp ledger \u2014 genuine sold listings from eHam, QTH, eBay and site deals, plus the eHam comp archive. Prices are asking prices at sale; best offers may differ.",
  "models": {
   "ACOM 06AT": {
@@ -603,6 +603,24 @@
     }
    ]
   },
+  "ANYTONE AT-778UV": {
+   "latest": {
+    "date": "2026-11-15",
+    "median": 133.64,
+    "low": 69.0,
+    "high": 166.43,
+    "count": 18
+   },
+   "history": [
+    {
+     "date": "2026-11-15",
+     "median": 133.64,
+     "low": 69.0,
+     "high": 166.43,
+     "count": 18
+    }
+   ]
+  },
   "AOR AR-DV1": {
    "latest": {
     "date": "2026-09-20",
@@ -1056,6 +1074,24 @@
     }
    ]
   },
+  "COLLINS KWM-380": {
+   "latest": {
+    "date": "2026-07-21",
+    "median": 2649.5,
+    "low": 2300.0,
+    "high": 2999.0,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-07-21",
+     "median": 2649.5,
+     "low": 2300.0,
+     "high": 2999.0,
+     "count": 2
+    }
+   ]
+  },
   "COMET CAT-300": {
    "latest": {
     "date": "2026-06-11",
@@ -1184,11 +1220,11 @@
   },
   "DIAMOND SX-600": {
    "latest": {
-    "date": "2026-10-13",
-    "median": 141.36,
+    "date": "2026-11-01",
+    "median": 149.0,
     "low": 130.0,
-    "high": 150.0,
-    "count": 4
+    "high": 179.99,
+    "count": 5
    },
    "history": [
     {
@@ -1197,6 +1233,13 @@
      "low": 130.0,
      "high": 150.0,
      "count": 4
+    },
+    {
+     "date": "2026-11-01",
+     "median": 149.0,
+     "low": 130.0,
+     "high": 179.99,
+     "count": 5
     }
    ]
   },
@@ -3547,11 +3590,11 @@
   },
   "ICOM IC-756PROIII": {
    "latest": {
-    "date": "2026-08-21",
-    "median": 702.0,
-    "low": 699.0,
-    "high": 705.0,
-    "count": 2
+    "date": "2026-11-04",
+    "median": 715.0,
+    "low": 510.0,
+    "high": 925.0,
+    "count": 8
    },
    "history": [
     {
@@ -3560,16 +3603,23 @@
      "low": 699.0,
      "high": 705.0,
      "count": 2
+    },
+    {
+     "date": "2026-11-04",
+     "median": 715.0,
+     "low": 510.0,
+     "high": 925.0,
+     "count": 8
     }
    ]
   },
   "ICOM IC-7600": {
    "latest": {
-    "date": "2026-09-29",
-    "median": 1100.0,
+    "date": "2026-11-13",
+    "median": 1147.5,
     "low": 1000.0,
     "high": 1300.0,
-    "count": 3
+    "count": 4
    },
    "history": [
     {
@@ -3578,6 +3628,13 @@
      "low": 1000.0,
      "high": 1300.0,
      "count": 3
+    },
+    {
+     "date": "2026-11-13",
+     "median": 1147.5,
+     "low": 1000.0,
+     "high": 1300.0,
+     "count": 4
     }
    ]
   },
@@ -3960,11 +4017,11 @@
   },
   "ICOM IC-R75": {
    "latest": {
-    "date": "2026-10-12",
+    "date": "2026-11-11",
     "median": 444.5,
-    "low": 395.0,
+    "low": 260.0,
     "high": 660.0,
-    "count": 8
+    "count": 14
    },
    "history": [
     {
@@ -3980,6 +4037,13 @@
      "low": 395.0,
      "high": 660.0,
      "count": 8
+    },
+    {
+     "date": "2026-11-11",
+     "median": 444.5,
+     "low": 260.0,
+     "high": 660.0,
+     "count": 14
     }
    ]
   },
@@ -4458,6 +4522,24 @@
      "low": 54.95,
      "high": 90.0,
      "count": 5
+    }
+   ]
+  },
+  "KANTRONICS KAM-XL": {
+   "latest": {
+    "date": "2026-09-26",
+    "median": 129.95,
+    "low": 99.99,
+    "high": 149.99,
+    "count": 3
+   },
+   "history": [
+    {
+     "date": "2026-09-26",
+     "median": 129.95,
+     "low": 99.99,
+     "high": 149.99,
+     "count": 3
     }
    ]
   },
@@ -6150,6 +6232,24 @@
     }
    ]
   },
+  "LDG AT-200 PRO": {
+   "latest": {
+    "date": "2026-10-20",
+    "median": 168.67,
+    "low": 107.5,
+    "high": 209.95,
+    "count": 6
+   },
+   "history": [
+    {
+     "date": "2026-10-20",
+     "median": 168.67,
+     "low": 107.5,
+     "high": 209.95,
+     "count": 6
+    }
+   ]
+  },
   "LDG AT-200PRO": {
    "latest": {
     "date": "2026-10-02",
@@ -6255,6 +6355,24 @@
      "low": 77.0,
      "high": 142.5,
      "count": 3
+    }
+   ]
+  },
+  "LDG Z-100": {
+   "latest": {
+    "date": "2026-10-24",
+    "median": 132.47,
+    "low": 129.95,
+    "high": 135.0,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-10-24",
+     "median": 132.47,
+     "low": 129.95,
+     "high": 135.0,
+     "count": 2
     }
    ]
   },
@@ -7420,6 +7538,24 @@
     }
    ]
   },
+  "REALISTIC HTX-10": {
+   "latest": {
+    "date": "2026-11-05",
+    "median": 103.3,
+    "low": 86.6,
+    "high": 120.0,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-11-05",
+     "median": 103.3,
+     "low": 86.6,
+     "high": 120.0,
+     "count": 2
+    }
+   ]
+  },
   "REMOTERIG RRC-1258 MKII": {
    "latest": {
     "date": "2026-10-26",
@@ -7465,11 +7601,11 @@
   },
   "RM ITALY BLA350 PLUS": {
    "latest": {
-    "date": "2026-09-13",
-    "median": 472.5,
+    "date": "2026-11-02",
+    "median": 485.0,
     "low": 460.0,
-    "high": 485.0,
-    "count": 2
+    "high": 600.0,
+    "count": 3
    },
    "history": [
     {
@@ -7478,6 +7614,31 @@
      "low": 460.0,
      "high": 485.0,
      "count": 2
+    },
+    {
+     "date": "2026-11-02",
+     "median": 485.0,
+     "low": 460.0,
+     "high": 600.0,
+     "count": 3
+    }
+   ]
+  },
+  "RM ITALY HLA305V": {
+   "latest": {
+    "date": "2026-10-20",
+    "median": 429.0,
+    "low": 429.0,
+    "high": 429.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-10-20",
+     "median": 429.0,
+     "low": 429.0,
+     "high": 429.0,
+     "count": 1
     }
    ]
   },
@@ -7496,6 +7657,24 @@
      "low": 594.95,
      "high": 709.99,
      "count": 2
+    }
+   ]
+  },
+  "SAMLEX SEC-1235M": {
+   "latest": {
+    "date": "2026-11-15",
+    "median": 149.0,
+    "low": 80.0,
+    "high": 249.95,
+    "count": 16
+   },
+   "history": [
+    {
+     "date": "2026-11-15",
+     "median": 149.0,
+     "low": 80.0,
+     "high": 249.95,
+     "count": 16
     }
    ]
   },
@@ -7532,6 +7711,24 @@
      "low": 799.0,
      "high": 799.0,
      "count": 1
+    }
+   ]
+  },
+  "SGC SGC-237": {
+   "latest": {
+    "date": "2026-10-24",
+    "median": 300.0,
+    "low": 152.5,
+    "high": 380.0,
+    "count": 3
+   },
+   "history": [
+    {
+     "date": "2026-10-24",
+     "median": 300.0,
+     "low": 152.5,
+     "high": 380.0,
+     "count": 3
     }
    ]
   },
@@ -8170,11 +8367,11 @@
   },
   "XIEGU G106": {
    "latest": {
-    "date": "2026-10-14",
-    "median": 199.95,
+    "date": "2026-10-26",
+    "median": 194.97,
     "low": 149.99,
     "high": 319.0,
-    "count": 13
+    "count": 14
    },
    "history": [
     {
@@ -8183,6 +8380,13 @@
      "low": 149.99,
      "high": 319.0,
      "count": 13
+    },
+    {
+     "date": "2026-10-26",
+     "median": 194.97,
+     "low": 149.99,
+     "high": 319.0,
+     "count": 14
     }
    ]
   },
@@ -9209,6 +9413,24 @@
     }
    ]
   },
+  "YAESU FT-710AESS": {
+   "latest": {
+    "date": "2026-11-12",
+    "median": 939.5,
+    "low": 850.02,
+    "high": 1498.42,
+    "count": 10
+   },
+   "history": [
+    {
+     "date": "2026-11-12",
+     "median": 939.5,
+     "low": 850.02,
+     "high": 1498.42,
+     "count": 10
+    }
+   ]
+  },
   "YAESU FT-726R": {
    "latest": {
     "date": "2026-08-30",
@@ -10111,6 +10333,24 @@
     }
    ]
   },
+  "YAESU FTDX5000MP LIMITED": {
+   "latest": {
+    "date": "2026-09-27",
+    "median": 3677.5,
+    "low": 3105.0,
+    "high": 4250.0,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-09-27",
+     "median": 3677.5,
+     "low": 3105.0,
+     "high": 4250.0,
+     "count": 2
+    }
+   ]
+  },
   "YAESU FTM-10R": {
    "latest": {
     "date": "2026-10-16",
@@ -10499,6 +10739,24 @@
      "low": 19,
      "high": 39,
      "count": 10
+    }
+   ]
+  },
+  "YAESU SCU-17": {
+   "latest": {
+    "date": "2026-11-08",
+    "median": 89.78,
+    "low": 60.0,
+    "high": 109.99,
+    "count": 4
+   },
+   "history": [
+    {
+     "date": "2026-11-08",
+     "median": 89.78,
+     "low": 60.0,
+     "high": 109.99,
+     "count": 4
     }
    ]
   },
