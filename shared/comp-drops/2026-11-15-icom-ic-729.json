@@ -1,0 +1,15 @@
+{
+  "model": "Icom IC-729",
+  "slug": "icom-ic-729",
+  "searched_at": "2026-11-15T18:52:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Icom IC-729: 0 kept - zero comps. Extras sweep, eBay sold page 1, searched_at approximate. Ledger miss (no IC-729 entry). eBay returned 302 results for 'icom ic-729' but none were IC-729 sales (other Icom models only). Zero comps. Trigger ask $300 or best offer shipped; ad says 'I was told that the last owner had MARS done on it' and 'Sold as is no return'.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784819",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": []
+}
