@@ -1,0 +1,180 @@
+{
+  "model": "Samlex SEC-1235M",
+  "slug": "samlex-sec-1235m",
+  "searched_at": "2026-11-16T05:56:47-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no SAMLEX SEC-1235M entry). eBay sold page 1: 23 results; dropped 4 best-offer-accepted, 0 parts-only. 18 kept. Outliers flagged: 225906566815 $229.99 vs ~$149.00; 398308753845 $249.95 vs ~$149.00; 111802128888 $249.95 vs ~$149.00; 298536276503 $371.40 vs ~$149.00.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629617",
+    "site": "eham",
+    "ask": 184.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 150.0,
+      "sold_date": "2026-11-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267842575500",
+      "source": "ebay",
+      "notes": "ship 7.87; title: with 50 ft coax",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 229.99,
+      "sold_date": "2026-11-14",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/225906566815",
+      "source": "ebay",
+      "notes": "OUTLIER: $229.99 vs median $149.00 for the rest. Buy It Now; ship 14.70",
+      "flags": []
+    },
+    {
+      "price": 249.95,
+      "sold_date": "2026-11-10",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/398308753845",
+      "source": "ebay",
+      "notes": "OUTLIER: $249.95 vs median $149.00 for the rest. Buy It Now; free shipping",
+      "flags": []
+    },
+    {
+      "price": 180.0,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820325643416",
+      "source": "ebay",
+      "notes": "Buy It Now (shown reduced from 200.00); ship 15.89",
+      "flags": []
+    },
+    {
+      "price": 122.5,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117493581995",
+      "source": "ebay",
+      "notes": "auction, 3 bids; ship 8.44",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267816469633",
+      "source": "ebay",
+      "notes": "Buy It Now; ship 15.00; same seller/title as 267816468718 (sold 2026-10-25) - separate sale, not confirmed as same unit",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2026-11-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840105243167",
+      "source": "ebay",
+      "notes": "Buy It Now; ship 15.65",
+      "flags": []
+    },
+    {
+      "price": 249.95,
+      "sold_date": "2026-10-31",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/111802128888",
+      "source": "ebay",
+      "notes": "OUTLIER: $249.95 vs median $149.00 for the rest. Buy It Now; free shipping",
+      "flags": []
+    },
+    {
+      "price": 371.4,
+      "sold_date": "2026-07-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298536276503",
+      "source": "ebay",
+      "notes": "OUTLIER: $371.40 vs median $149.00 for the rest. or Best Offer listing (not best-offer-accepted); free shipping",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267816468718",
+      "source": "ebay",
+      "notes": "Buy It Now; ship 15.00; same seller/title as 267816469633",
+      "flags": []
+    },
+    {
+      "price": 199.0,
+      "sold_date": "2026-10-16",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/820226352731",
+      "source": "ebay",
+      "notes": "new in box; or Best Offer listing (not best-offer-accepted); ship 15.35",
+      "flags": []
+    },
+    {
+      "price": 80.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840015021538",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not best-offer-accepted); ship 9.06",
+      "flags": []
+    },
+    {
+      "price": 119.99,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128098856250",
+      "source": "ebay",
+      "notes": "Buy It Now; ship 18.85",
+      "flags": []
+    },
+    {
+      "price": 105.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188982393511",
+      "source": "ebay",
+      "notes": "Buy It Now; ship 21.00",
+      "flags": []
+    },
+    {
+      "price": 149.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257737702466",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not best-offer-accepted); ship 9.99",
+      "flags": []
+    },
+    {
+      "price": 149.0,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198526931570",
+      "source": "ebay",
+      "notes": "title says Tested; ship 12.45",
+      "flags": []
+    },
+    {
+      "price": 119.0,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407143983582",
+      "source": "ebay",
+      "notes": "title says Tested (title also says 23A); ship 12.00",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2026-08-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188727500305",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping",
+      "flags": []
+    }
+  ]
+}
