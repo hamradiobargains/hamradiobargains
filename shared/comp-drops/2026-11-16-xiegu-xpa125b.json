@@ -1,0 +1,115 @@
+{
+  "model": "Xiegu XPA125B",
+  "slug": "xiegu-xpa125b",
+  "searched_at": "2026-11-16T07:48:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, signed in as Leo, no challenge (extras sweep). 11 kept, median 398.89. Ledger entry (415.00, count 10, 2026-09-26) was older than 30 days so a fresh sold search was run. Dropped 4 Best-offer-accepted unit sales (137692960119 $485.00; 117370339436 $479.00; 237037763280 $509.50; 237023418526 $425.99) plus 1 parts-only BOA sale (318862481304 $300.00). Parts-only/for-parts sales dropped (4): 128135378133 $310.00 (Oct 14, 'FOR PARTS SOLD AS IS'); 128087012199 $329.89 (Oct 4, 'FOR PARTS SOLD AS IS'); 117392381057 $232.50 (Sep 9, 4 bids, Parts Only); 318862481304 $300.00 (Sep 14, Parts Only, BOA). Cables, power cords and keying adapters excluded; the G90 + XPA125B bundle (800890266743 $610) excluded. Ad 1784891 asks $425 + buyer pays shipping CONUS, very lightly used, like new.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784891",
+    "site": "qth",
+    "ask": 425,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 389.99,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147643260989",
+      "source": "ebay",
+      "notes": "shipping 16.32",
+      "flags": []
+    },
+    {
+      "price": 355,
+      "sold_date": "2026-10-14",
+      "condition": "",
+      "url": "https://www.ebay.com/itm/366719303754",
+      "source": "ebay",
+      "notes": "auction, 19 bids; title 'Mint'; shipping 9.82",
+      "flags": []
+    },
+    {
+      "price": 185,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137836277725",
+      "source": "ebay",
+      "notes": "OUTLIER: below half of the other kept comps' median; title says 'Mint'; shipping 25.65",
+      "flags": []
+    },
+    {
+      "price": 381,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117420437323",
+      "source": "ebay",
+      "notes": "auction, 3 bids; shipping 49.05",
+      "flags": []
+    },
+    {
+      "price": 449.89,
+      "sold_date": "2026-09-16",
+      "condition": "",
+      "url": "https://www.ebay.com/itm/820095531237",
+      "source": "ebay",
+      "notes": "free shipping",
+      "flags": []
+    },
+    {
+      "price": 430,
+      "sold_date": "2026-09-12",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/237056664872",
+      "source": "ebay",
+      "notes": "condition shown Brand New; shipping 13.10",
+      "flags": []
+    },
+    {
+      "price": 399,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178430926257",
+      "source": "ebay",
+      "notes": "shipping 8.44",
+      "flags": []
+    },
+    {
+      "price": 368.89,
+      "sold_date": "2026-08-25",
+      "condition": "",
+      "url": "https://www.ebay.com/itm/128042539132",
+      "source": "ebay",
+      "notes": "free shipping",
+      "flags": []
+    },
+    {
+      "price": 458,
+      "sold_date": "2026-08-24",
+      "condition": "",
+      "url": "https://www.ebay.com/itm/318520511549",
+      "source": "ebay",
+      "notes": "shipping 17.87",
+      "flags": []
+    },
+    {
+      "price": 398.89,
+      "sold_date": "2026-08-23",
+      "condition": "",
+      "url": "https://www.ebay.com/itm/117373177695",
+      "source": "ebay",
+      "notes": "free shipping",
+      "flags": []
+    },
+    {
+      "price": 400,
+      "sold_date": "2026-08-19",
+      "condition": "",
+      "url": "https://www.ebay.com/itm/318749275825",
+      "source": "ebay",
+      "notes": "shipping 7.57",
+      "flags": []
+    }
+  ]
+}
