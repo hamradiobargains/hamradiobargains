@@ -1,0 +1,25 @@
+{
+  "model": "Icom IC-2720H",
+  "slug": "icom-ic-2720h",
+  "searched_at": "2026-11-16T18:50:45-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-2720h' (page 1, 67 results incl. many cables/mics/kits/LCDs which were excluded as accessories). THIN: 1 kept comp. Kept-out: 298616429241 (title 'Icom IC-2720 Dual Band VHF/UHF Mobile Transceiver', 239.95 or Best Offer, +19.70, sold 2026-08-26) - title lacks the H suffix, identity not certain, kept separate (UNCERTAIN, may be the same radio). Best-offer-accepted dropped: 2 (117373726987 180.00 sold 2026-08-23; 128036521535 99.99 sold 2026-08-30, also parts-only). Parts-only dropped: 3 (189053202937 119.99 sold 2026-11-08 'PARTS/REPAIR odor'; 189015421239 129.99 sold 2026-10-01; 128036521535 99.99 sold 2026-08-30 'NO FACE'). Read Description 0. Ad 1784970: IC-2720H described as perfect condition, original box, separation kit, manual, quarter-wave fiberglass dual-band antenna, $350 for everything.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784970",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 159,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237076375023",
+      "source": "ebay",
+      "notes": "Title: Icom IC-2720h Dual Band Mobile Transceiver Ham Radio VHF UHF Wide Band Receive; Buy It Now; shipping +16.00",
+      "flags": []
+    }
+  ]
+}
