@@ -1,0 +1,15 @@
+{
+  "model": "M2 KT-34",
+  "slug": "m2-kt-34",
+  "searched_at": "2026-11-16T08:32:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, signed in as Leo, no challenge (extras sweep). 0 kept, no comps. ZERO sold results for 'm2 kt-34' (page 1 empty). Ledger has only 'KLM KT-34XA' (median 300, count 4, 2026-09-29), a different model and maker name; not used as a comp - reference only. The ad says only 'HF Yagi Antenna model KT-34 M2' (KT-34 / KT-34A / KT-34XA variant not stated). Ad 1784805: pick-up only, $325, no condition wording.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784805",
+    "site": "qth",
+    "ask": 325,
+    "shipping": 0
+  },
+  "comps": []
+}
