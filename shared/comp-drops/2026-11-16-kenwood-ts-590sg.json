@@ -1,0 +1,57 @@
+{
+  "model": "Kenwood TS-590SG",
+  "slug": "kenwood-ts-590sg",
+  "searched_at": "2026-11-16T15:01:09-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "4 kept comps (median 1237.5). dropped 4 best-offer-accepted (267840350734, 168861503803, 147631453898, 860007218628), dropped 0 parts-only. Manuals, amp cables and a cooling fan left out. No outliers. TS-590S (non-SG) sales not in this search.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784940",
+    "site": "qth",
+    "ask": 1275,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1200,
+      "sold_date": "2026-11-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227579193201",
+      "source": "ebay",
+      "notes": "Title: Kenwood TS-590SG 100W HF Transceiver w/ LDG KT-100 Automatic Antenna Tuner. Shipping +$100.00.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1275,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128086799583",
+      "source": "ebay",
+      "notes": "Title: Kenwood TS-590SG. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 1545,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287595147150",
+      "source": "ebay",
+      "notes": "Title: Kenwood TS-590SG HF 50MHz Transceiver Bundle w/ MC-60A Mic, SO-3 TCXO, Boxed. Free delivery.",
+      "flags": [
+        "extras_included",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 661,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800548808535",
+      "source": "ebay",
+      "notes": "Auction, 6 bids. Title: Kenwood Original TS-590SG HF/50MHz. Shipping +$26.43.",
+      "flags": []
+    }
+  ]
+}
