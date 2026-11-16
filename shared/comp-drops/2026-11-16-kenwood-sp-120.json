@@ -1,0 +1,72 @@
+{
+  "model": "Kenwood SP-120",
+  "slug": "kenwood-sp-120",
+  "searched_at": "2026-11-16T08:12:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, signed in as Leo, no challenge (extras sweep). 6 kept, median 72.50. Ledger entry (median 75.00, count 3, 2026-09-01) was older than 30 days so a fresh sold search was run. No Best-offer-accepted or parts-only sales on page 1. Excluded: TS-120 service/repair manual listing (128083726839, $9.90). Ad 1779011 asks $95 including USPS shipping in the USA, 'good condition'.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1779011",
+    "site": "qth",
+    "ask": 95,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 60,
+      "sold_date": "2026-11-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237156068602",
+      "source": "ebay",
+      "notes": "title: for TS 120 130; shipping 15.65",
+      "flags": []
+    },
+    {
+      "price": 70,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237080687692",
+      "source": "ebay",
+      "notes": "title: for TS 120 130; shipping 25.00",
+      "flags": []
+    },
+    {
+      "price": 85,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198536111616",
+      "source": "ebay",
+      "notes": "title: vintage, + box ('very nice'); shipping 19.50",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 75,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117372886427",
+      "source": "ebay",
+      "notes": "shipping 8.95",
+      "flags": []
+    },
+    {
+      "price": 85.89,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407167254896",
+      "source": "ebay",
+      "notes": "title: boxed; shipping not shown",
+      "flags": []
+    },
+    {
+      "price": 39.64,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137649814093",
+      "source": "ebay",
+      "notes": "auction, 2 bids; shipping not shown",
+      "flags": []
+    }
+  ]
+}
