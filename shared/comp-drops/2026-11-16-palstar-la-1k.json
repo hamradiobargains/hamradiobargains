@@ -1,0 +1,25 @@
+{
+  "model": "Palstar LA-1K",
+  "slug": "palstar-la-1k",
+  "searched_at": "2026-11-16T07:40:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "THIN (1 kept). eBay sold search, page 1 only, signed in as Leo, no challenge (extras sweep). 1 kept, median 2600.00. Thin: one sale. Other page-1 results were band-switch cables and a dust cover (accessories, excluded). Ad 1784904 asks $2,700 shipped free to lower 48, excellent cosmetic and working condition, original box. Ledger already had one LA-1K sale ($2,600, 2026-10-12) - same sale item 840006996405.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784904",
+    "site": "qth",
+    "ask": 2700,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 2600,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840006996405",
+      "source": "ebay",
+      "notes": "title 'PALSTAR LA1K HF LDMOS AMPLIFIER'; shipping 25.00",
+      "flags": []
+    }
+  ]
+}
