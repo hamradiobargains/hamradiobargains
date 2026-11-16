@@ -1,0 +1,15 @@
+{
+  "model": "Astron RS-10S",
+  "slug": "astron-rs-10s",
+  "searched_at": "2026-11-16T08:24:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only, signed in as Leo, no challenge (extras sweep). 0 kept, no comps. ZERO exact-model sold comps. 'astron rs-10s' returned no results; the looser 'astron rs-10' returned only RS-10A / RS-10A-BB sales (the RS-10A is the non-speaker model; RS-10S has the built-in speaker), kept separate and NOT used as comps. For reference only, RS-10A page-1 sales: 377588688619 $54.00 Nov 10 (RS-10A-BB, ship 18.25); 147589387136 $29.74 Nov 7 (ship 11.95); 327391683231 $29.99 Oct 7 (ship 14.99); 227422569586 $59.99 Sep 18 (free ship); Best-offer-accepted dropped: 206527307643 $38.99 Sep 18, 287505867552 $29.95 Aug 28 (listed 'Works/Prong Mis...'). Ad 1784890: RS-10S 10 A linear supply with built-in speaker, used, good working condition, holes in top from previous owner, $75 shipped CONUS.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784890",
+    "site": "qth",
+    "ask": 75,
+    "shipping": 0
+  },
+  "comps": []
+}
