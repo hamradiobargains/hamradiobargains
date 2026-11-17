@@ -1,0 +1,27 @@
+{
+  "model": "Elecraft K3/0 Mini",
+  "slug": "elecraft-k3-0-mini",
+  "searched_at": "2026-11-17T18:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'elecraft k3/0 mini', page 1 (Sold + Completed, sorted ended-recently, 120/page), signed in as Leo, no challenge. 1 kept, median 375.00 (range 375.00-375.00) - thin. Thin: 1 kept. No Best-offer-accepted or parts sales of the K3/0 Mini on page 1. Page 1 also showed K3/K3S/K4 KPOD panels, SP3 speakers, P3 and misc accessories, which are not K3/0 Mini and were ignored. Trigger ad 1785032 (QTH, K3/0 Mini #133, $855 delivered) live. Ledger ELECRAFT K3/0 MINI count 1 (thin) - ledger miss. Possibly the same family of units as eHam 629662/629661 per the earlier drop (no serials compared). searched_at is approximate (sweep ran about 18:46-18:58 ET; per-search times not logged).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785032",
+    "site": "qth",
+    "ask": 855,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 375,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137755760888",
+      "source": "ebay",
+      "notes": "Elecraft K3/0 Mini Remote Head # 0041. W Microphone. - 1 bid - shipping $25.00; same single sale as the ledger entry",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
