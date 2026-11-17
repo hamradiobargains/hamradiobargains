@@ -1,0 +1,45 @@
+{
+  "model": "Kenwood TS-890S",
+  "slug": "kenwood-ts-890s",
+  "searched_at": "2026-11-17T15:03:21-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1 for 'kenwood ts-890s': 3 TS-890S unit sales kept (one includes an Astron RS-35M power supply). Excluded: power cables, manual, a TS-950S. dropped 0 best-offer-accepted, dropped 0 parts-only. No outliers. Trigger listing is a bundle with the SP-890 speaker (Phonema-upgraded); comps are radio only except as flagged.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785092",
+    "site": "qth",
+    "ask": 2750.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 3495.0,
+      "sold_date": "2026-11-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117493428620",
+      "source": "ebay",
+      "notes": "Title: KENWOOD TS-890S HF TRANSCEIVER + ASTRON RS-35M - GOOD CONDITION. Buy It Now. Free delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 2998.0,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117455377653",
+      "source": "ebay",
+      "notes": "Title: ... MINT CONDITION. Buy It Now. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 3299.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128054147125",
+      "source": "ebay",
+      "notes": "Title: ... MINT UNUSED. Buy It Now. +$25.19 delivery.",
+      "flags": []
+    }
+  ]
+}
