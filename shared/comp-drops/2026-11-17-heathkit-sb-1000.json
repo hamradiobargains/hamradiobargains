@@ -1,0 +1,15 @@
+{
+  "model": "Heathkit SB-1000",
+  "slug": "heathkit-sb-1000",
+  "searched_at": "2026-11-17T18:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'heathkit sb-1000', page 1 (Sold + Completed, sorted ended-recently, 120/page), signed in as Leo, no challenge. 0 kept - no usable sold comps. 0 kept. Only SB-1000 sale on page 1: 336859396885 (Oct 23 2026, $499.99, ship $49.05) - Best offer accepted AND titled UNTESTED ... SMELLS MUSTY AS IS PARTS/REPAIR, Parts Only; excluded on both counts. Trigger ad 1785060 (QTH, $1,250 shipped US) live. Not in ledger. searched_at is approximate (sweep ran about 18:46-18:58 ET; per-search times not logged).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785060",
+    "site": "qth",
+    "ask": 1250,
+    "shipping": 0
+  },
+  "comps": []
+}
