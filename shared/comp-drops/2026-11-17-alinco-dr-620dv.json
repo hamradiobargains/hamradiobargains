@@ -1,0 +1,15 @@
+{
+  "model": "Alinco DR-620DV",
+  "slug": "alinco-dr-620dv",
+  "searched_at": "2026-11-17T18:00:44-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 0 kept comps. No DR-620DV unit sales on page 1. Only radio sale was 366611958198 'Alinco DR-620' (no DV suffix, $174.99) — best-offer-accepted and not the exact model, so excluded: dropped 1 best-offer-accepted. dropped 0 parts-only. Rest of page 1 was EMS-57 microphones and mic cables. Ledger: no ALINCO DR-620DV entry — miss.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366817701443",
+    "site": "ebay",
+    "ask": 435.73,
+    "shipping": 60.0
+  },
+  "comps": []
+}
