@@ -1,0 +1,15 @@
+{
+  "model": "Done win DM-690",
+  "slug": "dm-690",
+  "searched_at": "2026-11-16T18:58:20-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'dm-690 mobile radio' - 0 results. ZERO comps. Brand uncertain: the ad says 'Done win DM 690 mini mobile radio' (25 watts, 200 memories, original box, program cable, disc, manual); $35, seller covers shipping (shipping recorded 0); personal check or postal money order, no PayPal. UNCERTAIN: brand spelling unclear, exact brand not verified.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785013",
+    "site": "qth",
+    "ask": 35,
+    "shipping": 0
+  },
+  "comps": []
+}
