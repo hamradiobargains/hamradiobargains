@@ -1,0 +1,15 @@
+{
+  "model": "Hallicrafters SX-115",
+  "slug": "hallicrafters-sx-115",
+  "searched_at": "2026-11-17T18:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'hallicrafters sx-115', page 1 (Sold + Completed, sorted ended-recently, 120/page), signed in as Leo, no challenge. 0 kept - no usable sold comps. 0 kept. Excluded: 1 Best-offer-accepted (298200879659, $1,750.00, Aug 21 2026, free shipping, very minty with matching speaker); 160109283900 is an SX-115 TUBE KIT (new, $109.00) - accessory, not the unit. Trigger ad 1785068 (QTH, $600, pickup/meet in Chicago area) live. Not in ledger. searched_at is approximate (sweep ran about 18:46-18:58 ET; per-search times not logged).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785068",
+    "site": "qth",
+    "ask": 600,
+    "shipping": 0
+  },
+  "comps": []
+}
