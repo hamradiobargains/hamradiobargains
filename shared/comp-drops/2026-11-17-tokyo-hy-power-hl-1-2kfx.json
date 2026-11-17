@@ -1,0 +1,15 @@
+{
+  "model": "Tokyo Hy-Power HL-1.2KFX",
+  "slug": "tokyo-hy-power-hl-1-2kfx",
+  "searched_at": "2026-11-17T15:03:21-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay reported '0 results for tokyo hy-power hl-1.2kfx' in sold listings; page showed other Tokyo Hy-Power models only (HL-1.5KFX, HL-200BDX, HL-160V etc.), none HL-1.2KFX. dropped 0 best-offer-accepted, dropped 0 parts-only. 0 kept comps — thin.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785052",
+    "site": "qth",
+    "ask": 1800.0,
+    "shipping": 50.0
+  },
+  "comps": []
+}
