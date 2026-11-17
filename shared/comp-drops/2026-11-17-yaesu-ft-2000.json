@@ -1,0 +1,43 @@
+{
+  "model": "Yaesu FT-2000",
+  "slug": "yaesu-ft-2000",
+  "searched_at": "2026-11-17T15:03:21-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1 for 'yaesu ft-2000': 3 FT-2000 unit sales kept. Excluded: FT-2000 parts/boards/knobs, FT-2500M radios, mic. dropped 2 best-offer-accepted (257740746119 $850; 335839053426 $839.28), dropped 1 parts-only (840084020159 $599.99). No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785057",
+    "site": "qth",
+    "ask": 795.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 899.0,
+      "sold_date": "2026-11-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940087429850",
+      "source": "ebay",
+      "notes": "Title: FT-2000 TESTED + WORKING. Buy It Now. +$32.43 delivery.",
+      "flags": []
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840014646591",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted). +$14.53 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278323485601",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted). +$27.38 delivery.",
+      "flags": []
+    }
+  ]
+}
