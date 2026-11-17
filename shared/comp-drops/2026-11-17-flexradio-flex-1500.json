@@ -1,0 +1,34 @@
+{
+  "model": "FlexRadio FLEX-1500",
+  "slug": "flexradio-flex-1500",
+  "searched_at": "2026-11-17T18:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'flexradio flex-1500', page 1 (Sold + Completed, sorted ended-recently, 120/page), signed in as Leo, no challenge. 2 kept, median 339.11 (range 278.22-400.00) - thin. Excluded: 1 Best-offer-accepted (800578722810 $445.99, ship $25.12). Thin: 2 kept. Trigger ad 1785093 (QTH, $365; shipping not stated) live. Ledger FLEXRADIO FLEX-1500 latest 2026-09-29 (older than 30 days) - ledger miss. searched_at is approximate (sweep ran about 18:46-18:58 ET; per-search times not logged).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785093",
+    "site": "qth",
+    "ask": 365,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 400,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168711784786",
+      "source": "ebay",
+      "notes": "Flexradio FLEX-1500 Transceiver, Tested/Working - 1 bid - shipping $9.66",
+      "flags": []
+    },
+    {
+      "price": 278.22,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168603387046",
+      "source": "ebay",
+      "notes": "Flexradio System Flex-1500 SDR QRP 5W HF RTX - 43 bids - Located in Italy; shipping $38.49",
+      "flags": []
+    }
+  ]
+}
