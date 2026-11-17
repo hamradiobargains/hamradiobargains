@@ -1,0 +1,70 @@
+{
+  "model": "MFJ-962D",
+  "slug": "mfj-962d",
+  "searched_at": "2026-11-16T18:52:40-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'mfj-962d' (page 1, 9 results). Solid: 6 kept, median 211.25 (low 100.00, high 260.00; median of 182.50 and 239.99 = 211.245). Best-offer-accepted dropped 2 (920064998751 200.00 sold 2026-10-22; 128030638770 270.00 sold 2026-09-28). Parts-only dropped 0. Excluded as a part, not the unit: 267397399454 'MFJ-962D 1.5KW ANTENNA TUNER PARTS: TURNS COUNTER (WORKING!)' 50.00 sold 2026-09-15 (a turns counter). Read Description 0. OUTLIER: 168780640216 (100.00) is under 0.5x the median of the other kept comps. 287714992631's title says 'Versa Tuner II' but also MFJ-962D, kept. Ad 1785012 is a damaged unit: 'This tuner arced badly out of the blue... Selling AS-IS for parts or if someone can repair it. Asking $40 shipped CONUS'; comps are working units, not like-for-like.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785012",
+    "site": "qth",
+    "ask": 40,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 250,
+      "sold_date": "2026-11-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168858198409",
+      "source": "ebay",
+      "notes": "Title: MFJ -962D VERSA TUNER iii; fixed price 'or Best Offer' (not marked accepted); shipping +26.95",
+      "flags": []
+    },
+    {
+      "price": 182.5,
+      "sold_date": "2026-11-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287714992631",
+      "source": "ebay",
+      "notes": "Title: MFJ MFJ-962D HF Versa Tuner II 1.5kW Roller Inductor Antenna Tuner; auction, 23 bids; shipping +38.48",
+      "flags": []
+    },
+    {
+      "price": 100,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168780640216",
+      "source": "ebay",
+      "notes": "OUTLIER: under 0.5x the median of the other kept comps (239.99). Title: MFJ-962D antenna tuner / power meter; auction, 1 bid; shipping +23.81",
+      "flags": []
+    },
+    {
+      "price": 119.99,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227557193955",
+      "source": "ebay",
+      "notes": "Title ends 'Works'; Buy It Now; shipping +29.99",
+      "flags": []
+    },
+    {
+      "price": 239.99,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227541933168",
+      "source": "ebay",
+      "notes": "Title ends 'WORK'; Buy It Now; shipping +29.99",
+      "flags": []
+    },
+    {
+      "price": 260,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128040640521",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked accepted); shipping +15.74",
+      "flags": []
+    }
+  ]
+}
