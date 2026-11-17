@@ -1,0 +1,86 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-17",
+  "ran_at": "2026-11-17T05:53:05-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-16T05:52:26-05:00 (prior eham run). Browsed signed OUT ('Login/Register' / 'Welcome Guest' shown). First load of the classifieds page showed a Cloudflare 'Performing security verification' interstitial; after one ~10 s wait it cleared on its own with no interaction (no CAPTCHA, no 1015). Read public classifieds pages 1 and 2 only (page 2 via its pagination link), about 30 s apart. No individual ad pages opened, no search form, sold searches, or seller/callsign pages; no ad IDs probed. Ads 629646-629666 are on the public pages for the first time (629646-629651 dated 2026-11-15, i.e. likely approved after the last run); none were in dropped-urls. Not on the public pages (not opened, not dropped): 629643, 629644, 629645, 629653. Not candidates: 629664 Navy straight keys (keyer/key), 629657 Eero router (computer), 629656 Philips/Magnavox D2935 (consumer SW receiver), 629654 Triex LM470D tower (tower, not in candidate classes), 629652 Bird 43 wattmeter (test equipment), 629651/629650 UHF duplexers (repeater gear; one unbranded), 629647 Kenwood TS-570DG (marked SOLD), 629646 RigExpert AA-54 (marked SOLD). Plausible but not dropped because of the 5-6 candidate cap: 629649 Astron SS-20M ($129 + shipping), 629658 Elecraft P3 panadapter ($489 delivered), 629662/629661 Elecraft K3/0 Mini remote heads ($859 / $855 delivered). Comps: 6 models / 7 listings. Ledger hits (eBay skipped): ICOM IC-7600, ICOM ID-5100A, ELECRAFT K3/100 (used for both K3/100 listings). Ledger misses -> 3 eBay sold searches: Yaesu FTM-300DR (ledger only has 'YAESU FTM-300D'), Yaesu FTM-500DR (eHam ad says 'FTM 500' without suffix, so not a certain ledger match; searched as FTM-500DR), Elecraft K3S/100 (ledger count 1, dated 2026-08-14). Signed in to eBay as Leo, no challenge. Elecraft K3S: zero K3S unit sales on page 1.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629666",
+      "site": "eham",
+      "title": "Icom 5100d for sale!",
+      "price": 425.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-17",
+      "condition_notes": "Title says '5100d' but the body says ID5100A. Excellent condition, works as it should, never used mobile (shack only). All original equipment plus new power cable. $425 includes shipping to lower 48. Cash, check or money order; ships when check clears; no trades. Posted 2026-11-17.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629665",
+      "site": "eham",
+      "title": "Yaesu FTM 500 For Sale",
+      "price": 450.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-17",
+      "condition_notes": "Ad says 'FTM 500' only - DR/DE variant not stated. Excellent condition, works as it should, never used mobile, used 4 or 5 times in shack. All original equipment plus Yaesu SCU-62 separation cables; power cable has Powerpoles. $450 includes shipping to lower 48. Cash, check or money order; no trades. Posted 2026-11-17.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629663",
+      "site": "eham",
+      "title": "Elecraft K3S/100 TRANSCEIVER  # 10151 WOW !",
+      "price": 3675.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-17",
+      "condition_notes": "Elecraft K3S/100 serial 10151, 'LOADED': KPA3A 100 W, KAT3A internal tuner, KRX3A sub receiver, TCXO, 2x KSYN3A, KIO3B USB/soundcard, KXV3B, 9 filters total (2x 2.8 upgraded SSB, 2x 2.1 SSB/data, 2x 400 CW, 2x 13K FM, 1x 6K AM), gold pins. 'Feels like a new radio.' Power cord and manual. $3675 delivered; check, Zelle, PayPal F&F. Posted 2026-11-17.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629659",
+      "site": "eham",
+      "title": "Elecraft K3/100  TRANSCEIVER # 7538",
+      "price": 1179.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-17",
+      "condition_notes": "Elecraft K3/100 serial 7538, KPA3 100 W, 2.7 SSB filter, KIO3, KXV3A transverter I/O, gold pins, later serial number, latest firmware 5.67. 'Works as it should', good condition, power cord. $1179 delivered; check, Zelle, PayPal F&F; local pickup OK. Posted 2026-11-16. Note: today's eBay sold search showed an eBay listing with the identical title including '# 7538', sold 2026-11-16 as best-offer-accepted (eBay item 327448594086) - this unit may already be sold.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629660",
+      "site": "eham",
+      "title": "Elecraft K3/100  TRANSCEIVER # 2756",
+      "price": 919.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-17",
+      "condition_notes": "Elecraft K3/100 serial 2756, KPA3 100 W, 2.7 SSB filter, KIO3, 'lots of mods done on 5/2023' (not specified), latest firmware 5.67. Super clean, great condition, works as it should, used on CW and SSB the day of posting. Power cord and manual. $919 delivered; check, Zelle, PayPal F&F; local pickup OK. Posted 2026-11-16.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629655",
+      "site": "eham",
+      "title": "ICOM IC-7600 MINT!",
+      "price": 1500.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-17",
+      "condition_notes": "From a Silent Key estate; seller says little if any use, pristine like-new, no scratches. Checked on all bands, well over 100 W out. Original shipping box, all accessories and manuals. $1,500 with free shipping. Posted 2026-11-16.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629648",
+      "site": "eham",
+      "title": "FTM-300DR",
+      "price": 375.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-17",
+      "condition_notes": "Yaesu FTM-300DR. 'Better than new', used a short time, spotless. Complete with box; unused mounting bracket, power cord, hardware and cables still factory wrapped. Dealer performed MARS mod when new. Includes RT Systems CD. $375 shipped continental US, PayPal only. Posted 2026-11-15 (first seen on public pages this run).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
