@@ -1,0 +1,15 @@
+{
+  "model": "mAT-600A auto tuner",
+  "slug": "mat-600a",
+  "searched_at": "2026-11-16T18:55:20-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'mat-600a auto tuner' - 0 results. ZERO comps. Ad 1784965: 'like new condition mAT-600 A 600-watt auto tuner for HF', RF sensing, power cable; $250 shipped. Same seller (KD1VU) as the ATR-1000 ad 1784966 (different tuner, not a cross-post). Not in ledger.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784965",
+    "site": "qth",
+    "ask": 250,
+    "shipping": 0
+  },
+  "comps": []
+}
