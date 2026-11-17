@@ -1,0 +1,321 @@
+{
+  "model": "Yaesu FT-5DR",
+  "slug": "yaesu-ft-5dr",
+  "searched_at": "2026-11-17T18:00:44-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "30 kept comps (solid). dropped 10 best-offer-accepted (940084331409, 168822529838, 168822483258, 168820782044 — three identical 'Mint' listings same seller/day, 407312041925, 137815590385, 137786736343, 128059748406, 366637154883, 407113585298). dropped 0 parts-only. Kept titles naming FT-5DR/FT5DR (several also say FT5D). Excluded accessories (case, cable, battery case). Mix of Brand New/Open Box/Pre-Owned — see each comp's condition. Ledger: 'YAESU FT5DR' (2026-10-23, count 29) and 'YAESU FT5D' exist but do not match the listing's 'FT-5DR' display name exactly — treated as miss. OUTLIERS flagged: 317482667826 $598.00 (others' median $311.95).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/900099851346",
+    "site": "ebay",
+    "ask": 300.0,
+    "shipping": 6.41
+  },
+  "comps": [
+    {
+      "price": 303.0,
+      "sold_date": "2026-11-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206677772205",
+      "source": "ebay",
+      "notes": "auction, 19 bids; free shipping",
+      "flags": []
+    },
+    {
+      "price": 439.95,
+      "sold_date": "2026-11-14",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/116013892569",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping",
+      "flags": []
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940060353828",
+      "source": "ebay",
+      "notes": "auction, 31 bids; same seller/title as 940060309859 same day (separate auctions); shipping +$6.77",
+      "flags": []
+    },
+    {
+      "price": 302.0,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940060309859",
+      "source": "ebay",
+      "notes": "auction, 27 bids; same seller/title as 940060353828 same day (separate auctions); shipping +$6.77",
+      "flags": []
+    },
+    {
+      "price": 459.95,
+      "sold_date": "2026-11-02",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/398146665461",
+      "source": "ebay",
+      "notes": "Buy It Now; title: w/ MARS MOD; free shipping",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2026-11-01",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/147649356719",
+      "source": "ebay",
+      "notes": "fixed price 'or Best Offer' (not best-offer-accepted); title: New Sealed US; shipping +$14.15",
+      "flags": []
+    },
+    {
+      "price": 330.0,
+      "sold_date": "2026-11-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840059735919",
+      "source": "ebay",
+      "notes": "auction, 2 bids; title: and accessories; shipping +$8.36",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 379.99,
+      "sold_date": "2026-10-29",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/880044183102",
+      "source": "ebay",
+      "notes": "fixed price 'or Best Offer' (not best-offer-accepted); title: New Sealed US; free shipping",
+      "flags": []
+    },
+    {
+      "price": 202.5,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117470374779",
+      "source": "ebay",
+      "notes": "auction, 24 bids; free shipping",
+      "flags": []
+    },
+    {
+      "price": 280.0,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880009152124",
+      "source": "ebay",
+      "notes": "auction, 2 bids; title: little use, in original box, with extras; shipping +$8.00",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 434.95,
+      "sold_date": "2026-10-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/394762091838",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping",
+      "flags": []
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-10-16",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/227569203068",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping +$4.80",
+      "flags": []
+    },
+    {
+      "price": 303.0,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227550889362",
+      "source": "ebay",
+      "notes": "auction, 1 bid; title: sd card PLUS Mars mod; shipping +$21.95",
+      "flags": [
+        "modified",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 259.99,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287606852248",
+      "source": "ebay",
+      "notes": "Buy It Now; title: W/ Drop In Charger; shipping +$10.47",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158326240203",
+      "source": "ebay",
+      "notes": "auction, 1 bid; identical title/seller listing 158311292082 sold same day",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 305.0,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158311292082",
+      "source": "ebay",
+      "notes": "auction, 2 bids; identical title/seller listing 158326240203 sold same day; shipping +$9.06",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 598.0,
+      "sold_date": "2026-09-14",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/317482667826",
+      "source": "ebay",
+      "notes": "OUTLIER: $598.00 vs median $311.95 of the other kept comps; Buy It Now; free shipping",
+      "flags": []
+    },
+    {
+      "price": 305.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178483751021",
+      "source": "ebay",
+      "notes": "Buy It Now; title: Modified GMRS; same title/price as 178434059256 (2026-09-09); free shipping",
+      "flags": [
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 349.95,
+      "sold_date": "2026-09-10",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/267779619260",
+      "source": "ebay",
+      "notes": "Buy It Now; title: Modified GMRS; same title/price as 267774183664 (2026-09-03); shipping +$12.08",
+      "flags": [
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 299.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327343303534",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping +$26.88",
+      "flags": []
+    },
+    {
+      "price": 305.0,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178434059256",
+      "source": "ebay",
+      "notes": "Buy It Now; title: Modified GMRS; same title/price as 178483751021 (2026-09-10); free shipping",
+      "flags": [
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117366779603",
+      "source": "ebay",
+      "notes": "fixed price 'or Best Offer' (not best-offer-accepted); title: + 2 Batteries, Charger Stand, USB Charger, SSM-17A; shipping +$14.60",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 330.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117366796876",
+      "source": "ebay",
+      "notes": "fixed price 'or Best Offer' (not best-offer-accepted); shipping +$13.26",
+      "flags": []
+    },
+    {
+      "price": 349.95,
+      "sold_date": "2026-09-03",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/267774183664",
+      "source": "ebay",
+      "notes": "Buy It Now; title: Modified GMRS; same title/price as 267779619260 (2026-09-10); shipping +$12.08",
+      "flags": [
+        "modified",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 209.99,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257715120476",
+      "source": "ebay",
+      "notes": "Buy It Now; title ends '**READ**' (reason not shown in search results); shipping +$10.00",
+      "flags": []
+    },
+    {
+      "price": 320.0,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257688439164",
+      "source": "ebay",
+      "notes": "fixed price 'or Best Offer' (not best-offer-accepted); shipping +$10.00",
+      "flags": []
+    },
+    {
+      "price": 311.95,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137621994967",
+      "source": "ebay",
+      "notes": "Buy It Now; title: Battery Manual; free shipping",
+      "flags": []
+    },
+    {
+      "price": 289.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327330779777",
+      "source": "ebay",
+      "notes": "fixed price 'or Best Offer' (not best-offer-accepted); title: MARS MOD; shipping +$20.92",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 329.99,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287528483010",
+      "source": "ebay",
+      "notes": "Buy It Now; title: Works With Extra Battery; shipping +$9.82",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2026-08-20",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/168616671102",
+      "source": "ebay",
+      "notes": "Buy It Now; title: w/Extra Battery; free shipping",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
