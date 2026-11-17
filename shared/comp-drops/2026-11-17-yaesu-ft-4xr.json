@@ -1,0 +1,63 @@
+{
+  "model": "Yaesu FT-4XR",
+  "slug": "yaesu-ft-4xr",
+  "searched_at": "2026-11-17T18:00:44-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "5 kept comps. dropped 3 best-offer-accepted FT-4XR sales (920131237310 $139.99; 800460571997 $124.99 title says READ; 198642158494 $100.00). dropped 0 parts-only. Model identity: excluded units titled only FT-4X or FT-4XE (128052612611 $80 FT-4X; 880011418490 and 177754312795 FT-4X, both also best-offer-accepted; 407169618446 FT-4XE). Excluded accessories (chargers, batteries, clips, cases, mics, cables). Ledger: no YAESU FT-4XR entry — miss.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/900099861794",
+    "site": "ebay",
+    "ask": 75.0,
+    "shipping": 6.82
+  },
+  "comps": [
+    {
+      "price": 116.97,
+      "sold_date": "2026-11-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178502112093",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206527741227",
+      "source": "ebay",
+      "notes": "Buy It Now; title: + Box (excellent); shipping +$12.50",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2026-08-29",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/257690733275",
+      "source": "ebay",
+      "notes": "auction, 1 bid; shipping +$12.28",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-08-26",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/278271174926",
+      "source": "ebay",
+      "notes": "fixed price 'or Best Offer' (not best-offer-accepted); title: + SCU35 Programming cable; shipping +$19.80",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 129.95,
+      "sold_date": "2026-08-23",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/113067311927",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping",
+      "flags": []
+    }
+  ]
+}
