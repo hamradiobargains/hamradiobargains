@@ -1,0 +1,15 @@
+{
+  "model": "Astron SS-20M",
+  "slug": "astron-ss-20m",
+  "searched_at": "2026-11-17T12:16:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'astron ss-20m', page 1: 0 exact-model results before the 'fewer words' section. Only SS-30M (237061463815, $180.00, sold 2026-09-20, Brand New) appeared — different model, excluded. Not comped; not substituted with RS-20M ledger (different model, ledger RS-20M median 90.00, count 7, 2026-10-22, listed for reference only).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629649",
+    "site": "eham",
+    "ask": 129,
+    "shipping": 0
+  },
+  "comps": []
+}
