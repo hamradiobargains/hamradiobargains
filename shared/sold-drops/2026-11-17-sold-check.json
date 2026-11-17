@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-17",
+  "checked": 32,
+  "inconclusive": [
+    "https://www.eham.net/classifieds/629392",
+    "https://www.eham.net/classifieds/629495"
+  ],
+  "newlySold": [
+    {
+      "link": "https://swap.qth.com/view_ad.php?counter=1784098",
+      "item": "Kenwood TM-G707",
+      "price": 140,
+      "signal": "The ad number you specified, 1784098, is no longer in our system.",
+      "loads": 2
+    },
+    {
+      "link": "https://swap.qth.com/view_ad.php?counter=1784972",
+      "item": "Icom IC-7200 (needs work)",
+      "price": 250.0,
+      "signal": "The ad number you specified, 1784972, is no longer in our system.",
+      "loads": 2
+    }
+  ]
+}
