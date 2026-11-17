@@ -1,0 +1,196 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-16",
+  "ran_at": "2026-11-16T18:47:03-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered: 2026-11-16-qth.json (ran_at 2026-11-16T14:52:24-05:00) and 2026-11-16-ebay.json (ran_at 2026-11-16T17:59:14-05:00); window = after previous extras drop 2026-11-16-extras.json (ran_at 2026-11-16T06:59:17-05:00); the 2026-11-16 eHam drop (05:52:26) predates it. This drop is named with HHMM because 2026-11-16-extras.json already exists. Previous extras drop CARRIED OVER: none; BACKLOG CARRY: none. Named extra added by Leo: QTH 1783910 (Yaesu '991', $600 firm), worked as the ORIGINAL Yaesu FT-991 per Leo's ruling: ledger hit filed under 'Yaesu FT-991' only, no FT-991A figures used; already in dropped-urls.json so not re-appended. Fresh extras: the 11/16 QTH drop lists 7 priced candidates under 'Extra plausible candidates not comped' (1785016, 1784970, 1785028, 1784972, 1785010, 1784935, 1784995) plus 9 'reviewed by title only, price not checked' ads in the same list (1785020, 1784966, 1784965, 1784987, 1785019, 1785017, 1784957, 1785013, 1785012), queued after the 7 in listed order; the 11/16 eBay drop has no extras list under that heading (its cap-skipped items are not under that heading, so not queued); eHam not opened. Queue 17 total: 1783910 + 16 fresh. Worked 17: all 17 live (QTH ads opened one at a time, a few seconds apart; ad pages read via page text). Ledger hits 4: 1783910 Yaesu FT-991 (median 748.33, count 4, 2026-11-11), 1785028 Icom IC-2300H (131.00, 5, 2026-10-30), 1785010 Drake MN-2000 (200.00, 13, 2026-10-31), 1785020 Drake MN-4 (222.50, 4, 2026-10-17, exactly 30 days old). eBay sold searches used 13 of 15: Icom IC-728, Icom IC-2720H, Icom IC-7200, Yaesu FC-102, microHAM DigiKeyer II (0 results) then 'digikeyer' (0 exact), mAT-600A (0), My Antennas MEF-105-5K (0), Alex Loop (0), Tempo AC One, MFJ-962D, ATR-1000, DM-690 (0). One at a time, 15+ s apart, signed in as Leo, no challenge. Solid (3+): IC-7200 (6 kept, median 735.00), MFJ-962D (6, 211.25), ATR-1000 (5, 293.55). Thin: IC-728 (1, 450.00 bundle), IC-2720H (1, 159.00), FC-102 (2, 230.00). Zero comps: DigiKeyer II, mAT-600A, MEF-105-5K, Alex Loop, DM-690, Tempo AC One (0 kept: all parts-only or best-offer-accepted). 1784987 Skywalker mobile amp not comped: no model/brand-model identifiable. Best-offer-accepted sales dropped: IC-2720H 2, FC-102 1, MFJ-962D 2, Tempo 3. Parts-only dropped: IC-2720H 3, FC-102 1, Tempo 5 (some also BOA). Gone: none. Skipped: none (all ads named a price; 1784987's price read from '500.shipped or best offer'). Cross-posts: none seen (no serials shown except 1785016 serial 02558; 1784966 and 1784965 are two different tuners from one seller KD1VU). Outliers: MFJ-962D 168780640216 (100.00). UNCERTAIN: 1785016 'Sold as is no return' + repainted; 1784987 'sold as is'; 1784972 and 1785012 damaged units sold for parts/repair (comps are working units); ATR-1000 comps are all Brand New imports vs a used unit, and the ad names no brand; IC-2720H comp 298616429241 titled 'IC-2720' excluded (identity not certain); DM-690 brand unclear. Shipping recorded 0 where included, free, 'plus actual shipping' or not quoted. found_at = 2026-11-16 (source drop date). Timestamps -05:00 (EST); comp searched_at times approximate. CARRIED OVER: no carry-over. BACKLOG CARRY: none.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "Yaesu 991 for sale (treated as original FT-991 per Leo's ruling)",
+      "price": 600,
+      "shipping": 31,
+      "found_at": "2026-11-16",
+      "condition_notes": "live. 'Nice radio with original mic and bound copy of owners manual... One minor scratch on the top. Power pole connectors. I do not have the original box'. $600.00 firm plus shipping; 'Shipping insured CONUS looks like $31.00'. comps: ledger hit, yaesu-ft-991 (original FT-991 only), median 748.33, count 4",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785016",
+      "site": "qth",
+      "title": "ICOM IC-728 NICE RADIO",
+      "price": 260,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "live. 'The Top cover and Sides have been repainted and the Display now is Green'; comes with microphone, new MB-23 handle, power cord, manual, serial 02558; 'Now Only $260 Shipped'; 'Sold as is no return'. comps: icom-ic-728, 1 kept (bundle with tuner and PS, thin), median 450.00",
+      "work_flag": "'Sold as is no return'; top cover and sides repainted, display now green. UNCERTAIN whether this means needs-work.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784970",
+      "site": "qth",
+      "title": "icom ic'2720h",
+      "price": 350,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "live. 'perfect condition and comes with all its accessories, the original box, the separation kit, and the manual. It has no scratches... smoke-free... includes a quarter-wave, fiberglass, dual-band antenna'. $350 for everything; shipping not stated. comps: icom-ic-2720h, 1 kept (thin), median 159.00",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785028",
+      "site": "qth",
+      "title": "ICOM-2300H VHF",
+      "price": 135,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "live. 'Comes with all that it came with. Rig is just days old. Just requires too much programing for me.' $135.00 shipped lower 48. comps: ledger hit, icom-ic-2300h, median 131.00, count 5, ledger date 2026-10-30",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784972",
+      "site": "qth",
+      "title": "Icom IC-7200 Tech Special",
+      "price": 250,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "live. 'Radio was involved in a fire resulting from a lightning strike. It powers on but doesn't do much else... I do not see any visible physical damage on the inside. Includes long power cord only. Sold as-is for parts or repair.' Asking '$25o shipped to CONUS' (read as $250). comps: icom-ic-7200, 6 kept, median 735.00 (all working units, not like-for-like)",
+      "work_flag": "Fire/lightning damage; 'It powers on but doesn't do much else'; 'Sold as-is for parts or repair'.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785010",
+      "site": "qth",
+      "title": "Drake MN-2000 2kw manual tuner w/cover",
+      "price": 275,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "live. 'exceptional condition and includes the pictured custom embroidered cover and the original owners manual'. $275 plus actual shipping (shipping not quoted, recorded 0). comps: ledger hit, drake-mn-2000, median 200.00, count 13, ledger date 2026-10-31",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784935",
+      "site": "qth",
+      "title": "FS - Yaesu FC-102 Tuner w/ Remote Switch",
+      "price": 350,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "live. 'Fully functional. Includes the FAS-1-4R Remote Antenna Switch attached to the Rear. Front panel has a small scratch, Top and sides have a few scratches. Gone through by NC4L Mal.' DC power cable, original manual and two repro copies. $350 plus shipping (not quoted, recorded 0). comps: yaesu-fc-102, 2 kept (thin), median 230.00",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784995",
+      "site": "qth",
+      "title": "FOR SALE: Microham Digikeyer II",
+      "price": 125,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "live. Digikeyer II with connecting cables for Ten-Tec Orion I and Kenwood TS-480S; '$125 shipped 48'; cashier's check, personal check or money order only. comps: microham-digikeyer-ii, not comped: zero exact sold results",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785020",
+      "site": "qth",
+      "title": "For Sale ; Drake MN-4 Matching Unit",
+      "price": 125,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "live. 'Small crack in side of meter lens cover. Works well.' $125.00 plus shipping (not quoted, recorded 0). comps: ledger hit, drake-mn-4, median 222.50, count 4, ledger date 2026-10-17 (30 days old)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784966",
+      "site": "qth",
+      "title": "For Sale ATR-1000 Auto Tuner for HF",
+      "price": 175,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "live. 'handles 1000 watts ssb/cw and 300 watts FM and FT8. Works great. It's RF sensing and comes with power cable.' Selling because upgraded; $175 shipped; USPS money order, bank check or personal check. comps: atr-1000, 5 kept, median 293.55 (all Brand New imports; UNCERTAIN comparability)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784965",
+      "site": "qth",
+      "title": "For Sale mAT-600A auto tuner HF 600 Watt",
+      "price": 250,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "live. 'like new condition mAT-600 A 600-watt auto tuner for HF. Works great is RF sensing and has power cable.' $250 shipped; bank check, personal check or USPS money order. comps: mat-600a, not comped: zero sold results",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784987",
+      "site": "qth",
+      "title": "For sale Skywalker mobile amp",
+      "price": 500,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "live. 'vintage Skywaker mobile amp seems to work just fine. was not able to check for full power because my power supply is not big enough. sold as is because I'm not sure the switches are correctly labeled either'; price read from '500.shipped or best offer' (best offer accepted). comps: not comped: no model number and brand/model not identifiable",
+      "work_flag": "'sold as is because I'm not sure the switches are correctly labeled'; 'was not able to check for full power'. UNCERTAIN whether this means needs-work.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785019",
+      "site": "qth",
+      "title": "My Antennas MEF-105-5K End Fed Half Wave",
+      "price": 400,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "live. 'sought after high power discontinued model. It is as new never installed.' $400 shipped; PayPal or Zelle preferred. comps: myantennas-mef-105-5k, not comped: zero sold results",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785017",
+      "site": "qth",
+      "title": "Alex Loop with 6:1 Vernier dial",
+      "price": 240,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "live. 'Like new and complete.' $240 shipped. comps: alex-loop, not comped: zero sold results",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1784957",
+      "site": "qth",
+      "title": "FS: TEMPO AC ONE POWER SUPPLY WORKING",
+      "price": 95,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "live. 'Fully tested and under load. Voltages are up to specs. Recapped as needed with 105 degree axials. Very good condition... Comes with new matching 11 pin Octal M&F connectors.' $95 plus 'estimated $14-22 for USA shipping' (not fixed, recorded 0); local pickup possible. comps: tempo-ac-one, 0 kept (all sales parts-only or best-offer-accepted)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785013",
+      "site": "qth",
+      "title": "Done win dm 690 mini dualband mobile",
+      "price": 35,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "live. 'Done win DM 690 mini mobile radio, 25 watts, 200 memories, come with original box, program cable, disc and manual.' $35.00 and 'I'll cover shipping'; check or postal money order, no PayPal. comps: dm-690, not comped: zero sold results (brand UNCERTAIN)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785012",
+      "site": "qth",
+      "title": "MFJ-962D - FOR PARTS",
+      "price": 40,
+      "shipping": 0,
+      "found_at": "2026-11-16",
+      "condition_notes": "live. 'FOR PARTS!! This tuner arced badly out of the blue the other day... See the pictures to see the damage. Selling AS-IS for parts or if someone can repair it.' $40 shipped CONUS. comps: mfj-962d, 6 kept, median 211.25 (working units, not like-for-like)",
+      "work_flag": "'FOR PARTS!! This tuner arced badly out of the blue the other day'; 'Selling AS-IS for parts or if someone can repair it'.",
+      "seller_feedback": ""
+    }
+  ]
+}
