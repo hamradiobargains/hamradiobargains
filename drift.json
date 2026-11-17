@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-16T13:53:42+00:00",
+ "updated": "2026-11-17T13:53:49+00:00",
  "models": {
   "ASTRON RS-20A": {
    "display": "Astron RS-20A",
-   "pct": 33.4,
+   "pct": 20.1,
    "window": "3mo",
    "recent_median": 59.99,
-   "recent_count": 15,
-   "prior_median": 44.97,
-   "prior_count": 6
+   "recent_count": 14,
+   "prior_median": 49.95,
+   "prior_count": 7
   },
   "ELECRAFT K3/100": {
    "display": "Elecraft K3/100",
@@ -39,30 +39,30 @@
   },
   "ICOM IC-718": {
    "display": "Icom IC-718",
-   "pct": -11.0,
+   "pct": -12.9,
    "window": "3mo",
    "recent_median": 400.0,
-   "recent_count": 21,
-   "prior_median": 449.5,
-   "prior_count": 6
+   "recent_count": 20,
+   "prior_median": 459.0,
+   "prior_count": 7
   },
   "ICOM IC-7300": {
    "display": "Icom IC-7300",
-   "pct": 1.0,
+   "pct": 5.0,
    "window": "3mo",
-   "recent_median": 780.0,
-   "recent_count": 37,
-   "prior_median": 772.48,
-   "prior_count": 6
+   "recent_median": 787.5,
+   "recent_count": 36,
+   "prior_median": 749.95,
+   "prior_count": 7
   },
   "ICOM IC-R20": {
    "display": "Icom IC-R20",
-   "pct": 10.5,
+   "pct": 19.2,
    "window": "3mo",
-   "recent_median": 419.99,
-   "recent_count": 7,
-   "prior_median": 379.95,
-   "prior_count": 5
+   "recent_median": 435.0,
+   "recent_count": 6,
+   "prior_median": 364.98,
+   "prior_count": 6
   },
   "ICOM SM-50": {
    "display": "Icom SM-50",
@@ -93,12 +93,12 @@
   },
   "MFJ MFJ-949E": {
    "display": "MFJ MFJ-949E",
-   "pct": 64.8,
+   "pct": 68.8,
    "window": "3mo",
-   "recent_median": 127.75,
-   "recent_count": 28,
-   "prior_median": 77.5,
-   "prior_count": 6
+   "recent_median": 135.0,
+   "recent_count": 27,
+   "prior_median": 80.0,
+   "prior_count": 7
   },
   "MFJ-989C": {
    "display": "MFJ-989C",
@@ -186,7 +186,7 @@
    "pct": -4.3,
    "window": "3mo",
    "recent_median": 450.0,
-   "recent_count": 10,
+   "recent_count": 12,
    "prior_median": 470.0,
    "prior_count": 5
   }
