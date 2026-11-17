@@ -1,0 +1,67 @@
+{
+  "model": "Elecraft P3",
+  "slug": "elecraft-p3",
+  "searched_at": "2026-11-17T12:08:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'elecraft p3', page 1, 12 results before the 'fewer words' section. 5 kept, median 525.00 (range 500.00-569.00) — solid. Ledger miss: ledger entry ELECRAFT P3 latest dated 2026-09-20 (older than 30 days). Dropped: 1 Best-offer-accepted (327426574028, $879.00, sold 2026-11-06, +$32.00 delivery); parts-only 1 (327395293370, $99.00, 'ELECRAFT P3 Panadapter Transmit Monitor or W2 Wattmeter 2KW coupler - READ', Parts Only — a W2 wattmeter coupler listing, not a P3 unit). Excluded as not the unit: W2 wattmeter coupler listings 327364281358, 327258103509, 327372604989, 327169836635 (Open Box, $156.64-$169.99) and CBLP3Y Y-cable 327335369946 ($37.04). Two kept comps (327363664423, 327327860882) show a second struck price in the results ($569.99 / $549.00 respectively); sold price recorded as the first figure shown. Other queued ads for this model are only this one eHam ad (629658 Elecraft P3 panadapter, $489 delivered, per eHam drop notes).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629658",
+    "site": "eham",
+    "ask": 489,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 525,
+      "sold_date": "2026-11-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147680475802",
+      "source": "ebay",
+      "notes": "Buy It Now; with manual and cables; +$24.75 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 569,
+      "sold_date": "2026-11-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327363664428",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); works great with cables; +$32.00 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 541.49,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327363664423",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); second struck price $569.99 shown; works great w/ cables; +$32.00 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 521.55,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327327860882",
+      "source": "ebay",
+      "notes": "or Best Offer (not marked accepted); second struck price $549.00 shown; +$32.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 500,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336726281279",
+      "source": "ebay",
+      "notes": "Buy It Now; +$23.10 delivery",
+      "flags": []
+    }
+  ]
+}
