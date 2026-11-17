@@ -1,0 +1,133 @@
+{
+  "model": "Yaesu FTM-500DR",
+  "slug": "yaesu-ftm-500dr",
+  "searched_at": "2026-11-17T18:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ftm-500dr', page 1 (Sold + Completed, sorted ended-recently, 120/page), signed in as Leo, no challenge. 13 kept, median 450.00 (range 310.00-525.00) - solid. Ad says \"FTM 500\" (no suffix) - searched as FTM-500DR; FTM-500D titles treated as the same radio (kept, noted per comp). Excluded: 3 Best-offer-accepted (960191106389 $375, 158313930161 $475, 128062540592 $470). No parts-only or Read Description sales on page 1. Trigger ad 1785048 (QTH, 'Yaesu FTM 500', $450 includes shipping, with SCU-62 separation cables) live. Ledger YAESU FTM-500DR exists but the ad name has no DR suffix, so identity not certain - treated as a ledger miss and searched. searched_at is approximate (sweep ran about 18:46-18:58 ET; per-search times not logged).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785048",
+    "site": "qth",
+    "ask": 450,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 405,
+      "sold_date": "2026-11-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940069272652",
+      "source": "ebay",
+      "notes": "Yaesu FTM-500DR Dual Band Transceiver 144/430MHz (auction) - shipping $8.60",
+      "flags": []
+    },
+    {
+      "price": 455,
+      "sold_date": "2026-11-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820321776078",
+      "source": "ebay",
+      "notes": "Yaesu FTM-500DR Dual Band Transceiver 144/430MHz (auction) - shipping $12.66",
+      "flags": []
+    },
+    {
+      "price": 395,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147671260848",
+      "source": "ebay",
+      "notes": "YAESU FTM500DR TRANSCEIVER - $395.00 or Best Offer (not marked accepted) - shipping $19.54",
+      "flags": []
+    },
+    {
+      "price": 431,
+      "sold_date": "2026-11-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820276872675",
+      "source": "ebay",
+      "notes": "Yaesu FTM-500DR Dual Band Transceiver 144/430MHz (auction) - shipping $8.93",
+      "flags": []
+    },
+    {
+      "price": 450,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267825327871",
+      "source": "ebay",
+      "notes": "Yaesu FTM-500DR, 2M/70CM FM/C4FM Mobile Ham Radio - free shipping",
+      "flags": []
+    },
+    {
+      "price": 350,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960090194174",
+      "source": "ebay",
+      "notes": "Yaesu FTM-500DR, 2M/70CM FM/C4FM Mobile Ham Radio (auction) - free shipping",
+      "flags": []
+    },
+    {
+      "price": 450,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128097449147",
+      "source": "ebay",
+      "notes": "Yaesu FTM-500DR, 2M/70CM FM/C4FM Mobile Ham Radio - or Best Offer (not marked accepted) - shipping $17.48",
+      "flags": []
+    },
+    {
+      "price": 450,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366676997490",
+      "source": "ebay",
+      "notes": "Yaesu FTM-500DR Dual Band Transceiver 144/430MHz - free shipping",
+      "flags": []
+    },
+    {
+      "price": 425,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257748677698",
+      "source": "ebay",
+      "notes": "Yaesu FTM-500D Dual Band 144/430MHz C4FM - or Best Offer (not marked accepted) - titled FTM-500D (treated as the same radio as FTM-500DR); shipping $9.06",
+      "flags": []
+    },
+    {
+      "price": 525,
+      "sold_date": "2026-09-12",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/327342254613",
+      "source": "ebay",
+      "notes": "Yaesu FTM-500DR VHF/UHF Ham Radio - condition shown Brand New; shipping $20.00",
+      "flags": []
+    },
+    {
+      "price": 479,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137704131310",
+      "source": "ebay",
+      "notes": "Yaesu FTM-500DR 50W C4FM/FM Dual-Band Mobile - shipping $20.00",
+      "flags": []
+    },
+    {
+      "price": 310,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278344456822",
+      "source": "ebay",
+      "notes": "Yaesu FTM-500D Dual Band VHF/UHF Ham Radio - titled FTM-500D (treated as same as FTM-500DR); shipping $11.94",
+      "flags": []
+    },
+    {
+      "price": 474,
+      "sold_date": "2026-04-27",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/236260444268",
+      "source": "ebay",
+      "notes": "Yaesu FTM-500D C4FM/FM 144/430MHz Dual Band Transceiver - titled FTM-500D (treated as same as FTM-500DR); old sale (Apr 2026); shipping $20.00",
+      "flags": []
+    }
+  ]
+}
