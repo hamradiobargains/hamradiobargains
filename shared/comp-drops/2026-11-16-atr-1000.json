@@ -1,0 +1,61 @@
+{
+  "model": "ATR-1000 auto tuner",
+  "slug": "atr-1000",
+  "searched_at": "2026-11-16T18:53:20-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'atr-1000 auto tuner' (page 1, 5 results). Solid: 5 kept, median 293.55 (low 278.19, high 328.49). Best-offer-accepted dropped 0, parts-only 0, Read Description 0. Ledger had 'ATR-1000 AUTOMATIC ANTENNA TUNER' (2026-10-23, count 8, median 292.02) but the ad names no brand, so identity not certain enough for a ledger hit and a fresh search was run. UNCERTAIN: all 5 comps are Brand New imported units (titles say 'Chinese'), the ad is a used unit with power cable; every comp is fixed price 'or Best Offer' (not marked accepted). Ad 1784966: 'ATR-1000 hf auto tuner handles 1000 watts ssb/cw and 300 watts FM and FT8. Works great. It's RF sensing and comes with power cable.' $175 shipped. Same seller (KD1VU) also posted mAT-600A ad 1784965 (different tuner, not a cross-post).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784966",
+    "site": "qth",
+    "ask": 175,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 328.49,
+      "sold_date": "2026-11-15",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/336516023584",
+      "source": "ebay",
+      "notes": "Title: ATR-1000 1.8-30MHz Car RF Antenna Tuner for Shortwave Radio Stations Chinese; fixed price 'or Best Offer'; shipping +30.86",
+      "flags": []
+    },
+    {
+      "price": 290.7,
+      "sold_date": "2026-10-19",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/168429431248",
+      "source": "ebay",
+      "notes": "Title: ATR-1000 1.8-30MHz 1000W Universal Auto HF Antenna Tuner; fixed price 'or Best Offer'; shipping +35.00",
+      "flags": []
+    },
+    {
+      "price": 278.19,
+      "sold_date": "2026-10-09",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/800109446952",
+      "source": "ebay",
+      "notes": "Title: ATR-1000 ... for YAESU/ICOM/KENWOOD; fixed price 'or Best Offer'; shipping +49.99",
+      "flags": []
+    },
+    {
+      "price": 328.49,
+      "sold_date": "2026-10-04",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/406806837847",
+      "source": "ebay",
+      "notes": "Title: ATR-1000 1.8-30MHz 1000W Car RF Antenna Tuner Chinese Display id89; fixed price 'or Best Offer'; shipping +30.86",
+      "flags": []
+    },
+    {
+      "price": 293.55,
+      "sold_date": "2026-09-18",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/358608813098",
+      "source": "ebay",
+      "notes": "Title: ATR-1000 1.8-30MHz 1000W Auto HF Antenna Tuner for SW Radio Station Chinese Only; fixed price 'or Best Offer'; shipping +38.00",
+      "flags": []
+    }
+  ]
+}
