@@ -1,0 +1,34 @@
+{
+  "model": "Yaesu FC-102",
+  "slug": "yaesu-fc-102",
+  "searched_at": "2026-11-16T18:52:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu fc-102' (page 1, 24 results, 3 exact-model sold). THIN: 2 kept, median 230.00. Best-offer-accepted dropped 1 (117501089651 150.00 sold 2026-11-03, also parts-only). Parts-only dropped 1 (same item, 150.00). Read Description 0. Titles of both kept sales say 'Powers On' (function beyond power-on not stated). The 2026-10-05 sale is the one count-1 ledger entry (200.00). Ad 1784935: FC-102 'Fully functional' with FAS-1-4R remote antenna switch attached to rear; small scratch front panel, a few scratches top and sides; 'Gone through by NC4L Mal'; DC power cable, original manual and two repro copies; $350 plus shipping (shipping recorded 0 = not quoted).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784935",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 260,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940033766247",
+      "source": "ebay",
+      "notes": "Title: Vintage Yaesu FC-102 High-Power HF Antenna Tuner (Powers On); Buy It Now; shipping +40.00",
+      "flags": []
+    },
+    {
+      "price": 200,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278409891517",
+      "source": "ebay",
+      "notes": "Title: Yaesu FC-102 Antenna tuner Ham Radio Powers On; Buy It Now; shipping +40.00",
+      "flags": []
+    }
+  ]
+}
