@@ -1,0 +1,15 @@
+{
+  "model": "Tempo AC One power supply",
+  "slug": "tempo-ac-one",
+  "searched_at": "2026-11-16T18:54:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'tempo ac one power supply' (page 1, 6 results). ZERO comps kept: 0 qualifying sales. Dropped: best-offer-accepted 3 (398045637411 150.00 sold 2026-10-31 'Untested - As Is'; 318855945441 125.00 sold 2026-09-27 parts/repair; 307084118761 95.00 sold 2026-10-01 pre-owned, the only non-parts sale); parts-only/for-repair dropped 5 (327443769481 19.95 sold 2026-11-07; 398045637411 150.00 sold 2026-10-31; 860044856719 29.99 sold 2026-10-21; 318855945441 125.00 sold 2026-09-27; 227524419231 74.99 sold 2026-09-21). Read Description 0. For reference only, not a comp: the pre-owned 95.00 sale was Best offer accepted so the real price is unknown. Ad 1784957: Tempo AC One power supply, 'Fully tested and under load', 'Recapped as needed with 105 degree axials', new matching 11 pin octal connectors; $95 plus estimated $14-22 USA shipping (shipping recorded 0 = not fixed).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784957",
+    "site": "qth",
+    "ask": 95,
+    "shipping": 0
+  },
+  "comps": []
+}
