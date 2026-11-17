@@ -1,0 +1,52 @@
+{
+  "model": "Yaesu FTM-300DR",
+  "slug": "yaesu-ftm-300dr",
+  "searched_at": "2026-11-17T05:57:26-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "4 kept comps (exact 'FTM-300DR' titles only). Dropped 1 best-offer-accepted (FTM-300DR, $429.99, 2026-10-01). Dropped 0 parts-only. Excluded for model identity: 8 sales titled FTM-300D without the R (4 of them best-offer-accepted) (ledger treats 'YAESU FTM-300D' as a separate model), plus FTM-310DRASP, FTM-400DR/XDR, FTM-510DRASP. Excluded 358749119091 ('Yaesu Car Radio FTM-300DR Control Panel Assembly Accessories', $299.99) because the title does not make clear whether it is the full radio or only the control head. Accessories (case, cable, GPS) left out. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629648",
+    "site": "eham",
+    "ask": 375.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 297.01,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327418733358",
+      "source": "ebay",
+      "notes": "Auction, 8 bids. Shipping +$10.00.",
+      "flags": []
+    },
+    {
+      "price": 311.0,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880015261054",
+      "source": "ebay",
+      "notes": "Auction, 23 bids. Title: '(NO DC CABLE)'. Shipping +$11.94.",
+      "flags": []
+    },
+    {
+      "price": 270.0,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178551488361",
+      "source": "ebay",
+      "notes": "Auction, 19 bids. Title: '(NO DC CABLE)'. Shipping +$11.94.",
+      "flags": []
+    },
+    {
+      "price": 220.0,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/920017937334",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked best offer accepted). Shipping +$15.65.",
+      "flags": []
+    }
+  ]
+}
