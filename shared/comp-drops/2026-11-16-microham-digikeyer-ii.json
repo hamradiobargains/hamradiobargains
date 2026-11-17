@@ -1,0 +1,15 @@
+{
+  "model": "microHAM DigiKeyer II",
+  "slug": "microham-digikeyer-ii",
+  "searched_at": "2026-11-16T18:54:40-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold searches 'microham digikeyer ii' (0 results) and 'digikeyer' (eBay autocorrected to 'digikeeter', 3 results, none a DigiKeyer) - ZERO exact sold comps; 2 of 15 searches used. Ad 1784995: DigiKeyer II with connecting cables for Ten-Tec Orion I and Kenwood TS-480S; $125 shipped 48; cashier's check, personal check or money order only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1784995",
+    "site": "qth",
+    "ask": 125,
+    "shipping": 0
+  },
+  "comps": []
+}
