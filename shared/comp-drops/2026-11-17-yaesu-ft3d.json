@@ -1,0 +1,88 @@
+{
+  "model": "Yaesu FT3D",
+  "slug": "yaesu-ft3d",
+  "searched_at": "2026-11-17T18:00:44-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "8 kept comps. dropped 3 best-offer-accepted (306866969442 $300; 358553510212 $299.99 open box; 860004538603 $249.98). dropped 0 parts-only. Model identity: kept only titles naming FT3D (two also say FT3DR FT3D); left out 4 sales titled only FT3DR (US-version designation) out of caution — 960188239915 $275 (2026-11-17), 206669113764 $255 (2026-11-08), 298677233034 $200, 336792380631 $225. Excluded accessories (RT Systems software, battery case). Ledger: 'YAESU FT-3D' and 'YAESU FT3DR' exist but neither matches the listing's 'FT3D' display name exactly — treated as miss. OUTLIERS flagged: 128175189258 $50.00 (others' median $285.00).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/900099856140",
+    "site": "ebay",
+    "ask": 200.0,
+    "shipping": 6.95
+  },
+  "comps": [
+    {
+      "price": 50.0,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128175189258",
+      "source": "ebay",
+      "notes": "OUTLIER: $50.00 vs median $285.00 of the other kept comps; auction, 1 bid; title: Yaesu FT3D Dual Band VHF/UHF Handheld Ham Radio Transceiver LCD Black; shipping +$10.15",
+      "flags": []
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287437999419",
+      "source": "ebay",
+      "notes": "Buy It Now; title: Yaesu FT3DR FT3D ... Box Japan Tested; shipping +$12.25",
+      "flags": []
+    },
+    {
+      "price": 329.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206383108947",
+      "source": "ebay",
+      "notes": "Buy It Now; title lists antenna, charger, manual; shipping +$14.00",
+      "flags": []
+    },
+    {
+      "price": 285.0,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257711317072",
+      "source": "ebay",
+      "notes": "fixed price 'or Best Offer' (not best-offer-accepted); shipping +$21.91",
+      "flags": []
+    },
+    {
+      "price": 295.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257704534733",
+      "source": "ebay",
+      "notes": "fixed price 'or Best Offer' (not best-offer-accepted); title: Yaesu FT3DR FT3D; shipping +$19.70",
+      "flags": []
+    },
+    {
+      "price": 172.64,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267759505851",
+      "source": "ebay",
+      "notes": "auction, 7 bids; shipping +$20.00",
+      "flags": []
+    },
+    {
+      "price": 199.99,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377427411491",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping +$19.99",
+      "flags": []
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2026-08-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168615573640",
+      "source": "ebay",
+      "notes": "auction, 1 bid; shipping +$8.38",
+      "flags": []
+    }
+  ]
+}
