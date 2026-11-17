@@ -1,0 +1,15 @@
+{
+  "model": "Elecraft K3S/0 Mini",
+  "slug": "elecraft-k3s-0-mini",
+  "searched_at": "2026-11-17T18:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'elecraft k3s/0 mini', page 1 (Sold + Completed, sorted ended-recently, 120/page), signed in as Leo, no challenge. 0 kept - no usable sold comps. 0 exact K3S/0 Mini sales on page 1. The only Elecraft remote-head sale returned was the K3/0 Mini (137755760888, $375.00, Sep 20) - a different model name, not used as a K3S/0 Mini comp (ledger name K3/0 Mini kept separate under the identity rule); the rest was unrelated. Trigger ad 1781024 (QTH, K3S/0 Mini #407, $859 delivered, renewed) live. Not in ledger. Kept separate from K3/0 Mini (different model name). searched_at is approximate (sweep ran about 18:46-18:58 ET; per-search times not logged).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1781024",
+    "site": "qth",
+    "ask": 859,
+    "shipping": 0
+  },
+  "comps": []
+}
