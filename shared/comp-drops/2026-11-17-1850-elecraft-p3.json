@@ -1,0 +1,72 @@
+{
+  "model": "Elecraft P3",
+  "slug": "elecraft-p3",
+  "searched_at": "2026-11-17T18:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'elecraft p3 panadapter', page 1 (Sold + Completed, sorted ended-recently, 120/page), signed in as Leo, no challenge. 6 kept, median 533.25 (range 500.00-639.99) - solid. Excluded: 2 Best-offer-accepted (227577165056 $425.25, 327426574028 $879.00); W2 wattmeter coupler listings (Open Box, ~$156-161) are accessories, not P3 units; PX3 sales (KX3 panadapter) are a different model. No parts-only P3 sales seen. Trigger ad 1785029 (QTH, P3 #4142, $489 delivered) live. Ledger ELECRAFT P3 latest 2026-09-20 (older than 30 days) - ledger miss. An earlier 2026-11-17 comp drop (elecraft-p3, eHam trigger) was written today with 5 kept median 525.00; this later search found 6 kept (page 1 is the same query family but a different search string, 'elecraft p3 panadapter'). searched_at is approximate (sweep ran about 18:46-18:58 ET; per-search times not logged).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785029",
+    "site": "qth",
+    "ask": 489,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 525,
+      "sold_date": "2026-11-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147680475802",
+      "source": "ebay",
+      "notes": "Elecraft P3 Panadapter -With Manual and Cables - shipping $24.75; Buy It Now",
+      "flags": []
+    },
+    {
+      "price": 569,
+      "sold_date": "2026-11-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327363664428",
+      "source": "ebay",
+      "notes": "Elecraft P3 Panadapter - # 549 Works great with cables - shipping $32.00; $569.00 or Best Offer (not marked accepted)",
+      "flags": []
+    },
+    {
+      "price": 639.99,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127926377811",
+      "source": "ebay",
+      "notes": "Elecraft P3 Panadapter with VGA Option - shipping $52.52; VGA option installed",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 541.49,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327363664423",
+      "source": "ebay",
+      "notes": "Elecraft P3 Panadapter - Works great w/ cables # 2175 nice - shipping $32.00",
+      "flags": []
+    },
+    {
+      "price": 521.55,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327327860882",
+      "source": "ebay",
+      "notes": "Elecraft P3 Panadapter - # 1371 Nice - shipping $32.00; $521.55 shown with higher price struck through",
+      "flags": []
+    },
+    {
+      "price": 500,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336726281279",
+      "source": "ebay",
+      "notes": "Nice Elecraft P3 Panadapter for K3s or K3 or FTDX5000mp #3544 great serial range - shipping $23.10",
+      "flags": []
+    }
+  ]
+}
