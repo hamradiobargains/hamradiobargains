@@ -1,0 +1,15 @@
+{
+  "model": "Alinco DR-620H",
+  "slug": "alinco-dr-620h",
+  "searched_at": "2026-11-17T18:00:44-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 0 kept comps. No DR-620H unit sales on page 1. Only radio sale was 366611958198 'Alinco DR-620' (no H suffix, $174.99) — best-offer-accepted and not the exact model, so excluded: dropped 1 best-offer-accepted. dropped 0 parts-only. Rest of page 1 was microphones, mic cables and unrelated Insignia TV boards. Ledger: no ALINCO DR-620H entry — miss.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366817695985",
+    "site": "ebay",
+    "ask": 351.74,
+    "shipping": 60.0
+  },
+  "comps": []
+}
