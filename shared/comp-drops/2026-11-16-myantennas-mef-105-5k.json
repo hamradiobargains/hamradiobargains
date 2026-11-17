@@ -1,0 +1,15 @@
+{
+  "model": "My Antennas MEF-105-5K",
+  "slug": "myantennas-mef-105-5k",
+  "searched_at": "2026-11-16T18:56:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'myantennas mef-105-5k' - 0 results. ZERO comps. Ad 1785019: My Antennas MEF-105-5K 1.8-6 MHz 81:1 unun/end-fed half wave transformer, 'sought after high power discontinued model', 'as new never installed'; $400 shipped (PayPal or Zelle preferred).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785019",
+    "site": "qth",
+    "ask": 400,
+    "shipping": 0
+  },
+  "comps": []
+}
