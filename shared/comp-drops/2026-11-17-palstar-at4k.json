@@ -1,0 +1,15 @@
+{
+  "model": "Palstar AT4K",
+  "slug": "palstar-at4k",
+  "searched_at": "2026-11-17T15:03:21-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay reported '0 results for palstar at4k' in sold listings; the page showed only other Palstar models (AT2K, AT2KD and others), none are AT4K. dropped 0 best-offer-accepted, dropped 0 parts-only. 0 kept comps — thin.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785079",
+    "site": "qth",
+    "ask": 675.0,
+    "shipping": 0
+  },
+  "comps": []
+}
