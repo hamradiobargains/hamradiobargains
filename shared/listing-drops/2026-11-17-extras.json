@@ -1,0 +1,64 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-17",
+  "ran_at": "2026-11-17T12:20:00-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered: 2026-11-17-eham.json (ran_at 2026-11-17T05:53:05-05:00), the only eham/qth/ebay drop after the previous extras drop 2026-11-16-1847-extras.json (ran_at 2026-11-16T18:47:03-05:00). Previous CARRIED OVER: none; BACKLOG CARRY: none. Named extra added by Leo: QTH 1783910 (Yaesu '991', $600 firm), worked as ORIGINAL Yaesu FT-991 per Leo's ruling, ledger hit under 'Yaesu FT-991' only, no FT-991A figures used; it was already in dropped-urls.json so not re-appended. Extras queued 5 (1783910 + eHam 629649, 629658, 629662, 629661, from the eHam drop's 'plausible but not dropped because of the cap' list). Worked 5. Ledger hits 1 (1783910 Yaesu FT-991, median 748.33, count 4, 2026-11-11). eBay sold searches used 3 of 15: Elecraft P3 (5 kept, median 525.00), Elecraft K3/0 Mini (1 kept, thin, 375.00), Astron SS-20M (0 exact). Gone: none (1783910 live; eHam not checked, off-limits). Skipped: none. Cross-posts: 629662/629661 same model, no serials shown, possible cross-post. Outliers: none. Dropped from P3 comps: 1 Best-offer-accepted ($879, 327426574028), 1 parts-only W2-coupler listing (327395293370, $99.00), 4 W2 wattmeter coupler + 1 Y-cable accessory listings excluded. eBay: signed in as Leo, no challenge, 15+ s between searches. Timestamps -05:00 (EST); comp searched_at times approximate. eHam asks/titles come only from the eHam drop notes (no condition wording recorded there). CARRIED OVER: no carry-over.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu 991 for sale",
+      "price": 600,
+      "shipping": 31,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. 'Nice radio with original mic and bound copy of owners manual... bought this from a friend about a year ago... One minor scratch on the top. Power pole connectors. I do not have the original box... Shipping insured CONUS looks like $31.00... $600.00 firm, plus shipping. I will consider driving a reasonable distance with pre-payment.' Seller KF4EA, last edited 11/10/26. Treated as ORIGINAL FT-991 per Leo's ruling. comps: ledger hit, yaesu-ft-991, median 748.33, count 4, ledger date 2026-11-11 (FT-991 ledger only).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629649",
+      "site": "eham",
+      "title": "Astron SS-20M",
+      "price": 129,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "not checked — eHam off-limits to the sweep. Per eHam drop: $129 + shipping (shipping not quoted, recorded 0). No condition wording recorded in the drop. comps: not comped: astron-ss-20m searched, 0 exact-model sold results.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629658",
+      "site": "eham",
+      "title": "Elecraft P3 panadapter",
+      "price": 489,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "not checked — eHam off-limits to the sweep. Per eHam drop: $489 delivered. No condition wording recorded in the drop. comps: elecraft-p3, 5 kept, median 525.00",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629662",
+      "site": "eham",
+      "title": "Elecraft K3/0 Mini remote head",
+      "price": 859,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "not checked — eHam off-limits to the sweep. Per eHam drop: $859 delivered. No condition wording recorded in the drop. comps: elecraft-k3-0-mini, 1 kept (thin), median 375.00",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629661",
+      "site": "eham",
+      "title": "Elecraft K3/0 Mini remote head",
+      "price": 855,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "not checked — eHam off-limits to the sweep. Per eHam drop: $855 delivered. No condition wording recorded in the drop. comps: elecraft-k3-0-mini, 1 kept (thin), median 375.00 (same model as 629662; possible cross-post/duplicate listings, no serials known)",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
