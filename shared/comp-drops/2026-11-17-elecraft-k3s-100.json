@@ -1,0 +1,15 @@
+{
+  "model": "Elecraft K3S/100",
+  "slug": "elecraft-k3s-100",
+  "searched_at": "2026-11-17T05:57:26-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin: 0 kept comps. eBay sold search 'Elecraft K3S' page 1 had no sales of a K3S radio - only accessories/options/boards (filters, KPOD, MH2 mic, KBPF3, KPA3, PCB lot) and plain K3 / K3/100 radios, which are a different model and were left out. Dropped 0 best-offer-accepted and 0 parts-only among K3S units (none present). Ledger 'ELECRAFT K3S/100' has count 1 dated 2026-08-14 (miss). Trigger unit is heavily optioned (sub receiver, tuner, 9 filters), so even a plain K3S/100 comp would need care.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629663",
+    "site": "eham",
+    "ask": 3675.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
