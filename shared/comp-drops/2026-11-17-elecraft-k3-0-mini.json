@@ -1,0 +1,27 @@
+{
+  "model": "Elecraft K3/0 Mini",
+  "slug": "elecraft-k3-0-mini",
+  "searched_at": "2026-11-17T12:12:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'elecraft k3/0 mini', page 1: 1 result before the 'fewer words' section, 1 kept — THIN. Ledger miss/stale: ELECRAFT K3/0 MINI ledger count 1 dated 2026-09-20 (same sale as this comp). Nothing dropped. Second queued ad for this model: https://www.eham.net/classifieds/629661 ($855 delivered, per eHam drop notes); first listed (629662, $859 delivered) used as trigger.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629662",
+    "site": "eham",
+    "ask": 859,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 375,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137755760888",
+      "source": "ebay",
+      "notes": "auction, 1 bid; Remote Head #0041 with microphone; +$25.00 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
