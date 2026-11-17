@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-1000MP Mark V Field",
+  "slug": "yaesu-ft-1000mp-mark-v-field",
+  "searched_at": "2026-11-17T15:03:21-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1 for 'yaesu ft-1000mp mark v field': only 2 Mark V Field unit sales, both Parts Only (227482763811 $549.95 2026-09-12; 198595099835 $395 'AS IS' 2026-08-26) - dropped. Everything else was Field parts/boards/filters/power supply or 200 W Mark V (non-Field, different model: 960106931428, 128045553701, 128097687377, 327244807201, 158213724218, 800677669533). dropped 0 best-offer-accepted, dropped 2 parts-only. 0 kept comps — thin.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785045",
+    "site": "qth",
+    "ask": 795.0,
+    "shipping": 0
+  },
+  "comps": []
+}
