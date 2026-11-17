@@ -1,0 +1,110 @@
+{
+  "model": "Yaesu FTDX3000",
+  "slug": "yaesu-ftdx3000",
+  "searched_at": "2026-11-17T15:03:21-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold page 1 for 'yaesu ftdx3000': 10 FTDX3000 unit sales kept. Model naming: the trigger ad says 'FTDX 3000'; eBay titles use both FTDX3000 and FTDX3000D (3 kept comps say FTDX3000D) - kept both as the same radio, noted per comp; the ledger only has 'YAESU FTDX3000D', which is why the ledger was not used. Excluded: FTDX5000/5000MP units (incl. 2 parts-only FTDX5000MP, different model), EQ unit, crystal filter, display unit, tuner cable. 880058506831 and 198787382671 are the same seller and identical title at $899.99 - possible relist of one unit. dropped 1 best-offer-accepted (358594958341, $999), dropped 0 parts-only. No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785065",
+    "site": "qth",
+    "ask": 850.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 899.99,
+      "sold_date": "2026-11-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198787382671",
+      "source": "ebay",
+      "notes": "Title says FTDX3000D. Buy It Now. +$59.87 delivery. Same seller/title as 880058506831.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 787.0,
+      "sold_date": "2026-11-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257841056392",
+      "source": "ebay",
+      "notes": "Title says FTDX3000D, w/ mic, manual, cables. Auction, 3 bids. +$96.39 delivery.",
+      "flags": []
+    },
+    {
+      "price": 849.95,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/900060442137",
+      "source": "ebay",
+      "notes": "Title: FTdx-3000 w/ manual, mic, power cord. or Best Offer (not accepted). +$67.80 delivery.",
+      "flags": []
+    },
+    {
+      "price": 899.99,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880058506831",
+      "source": "ebay",
+      "notes": "Title says FTDX3000D. Buy It Now. +$59.87 delivery. Same seller/title as 198787382671.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 790.0,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257812837183",
+      "source": "ebay",
+      "notes": "Title: FTDX3000 HF/6 100W MAGNIFICENT. Auction, 13 bids. +$26.55 delivery.",
+      "flags": []
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189019590288",
+      "source": "ebay",
+      "notes": "Title: FTDX3000 Tested Working w/ Mic. or Best Offer (not accepted). +$32.67 delivery.",
+      "flags": []
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158227520015",
+      "source": "ebay",
+      "notes": "Title: FTDX 3000 with Mic and Manual. or Best Offer (not accepted). +$37.65 delivery.",
+      "flags": []
+    },
+    {
+      "price": 725.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117401055027",
+      "source": "ebay",
+      "notes": "Title: Yaesu FTDX 3000 Transceiver - Read Description! (description not read). Buy It Now. +$29.95 delivery.",
+      "flags": []
+    },
+    {
+      "price": 794.99,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398323511570",
+      "source": "ebay",
+      "notes": "Title: FT DX 3000 100W Built-In Tuner Manual. or Best Offer (not accepted). Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 785.0,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318483388847",
+      "source": "ebay",
+      "notes": "Title: Ft DX 3000 FTDX3000 with Manual Tested. Buy It Now. +$90.65 delivery.",
+      "flags": []
+    }
+  ]
+}
