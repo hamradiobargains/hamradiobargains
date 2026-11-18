@@ -1,0 +1,15 @@
+{
+  "model": "Icom IC-7400",
+  "slug": "icom-ic-7400",
+  "searched_at": "2026-11-18T14:55:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Icom IC-7400' page 1: 34 results above the fewer-words section, but none was an IC-7400 radio — IC-7400 matches were only accessories/parts (backlight repair kits, PA driver board kits, CR-338 TCXO crystals); the rest were other models (IC-7600, IC-7300, IC-7100). No comps — thin (zero). Ledger has no IC-7400 entry. dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785128",
+    "site": "qth",
+    "ask": 500.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
