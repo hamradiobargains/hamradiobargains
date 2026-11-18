@@ -1,0 +1,15 @@
+{
+  "model": "Super Antenna YP-3",
+  "slug": "super-antenna-yp-3",
+  "searched_at": "2026-11-18T18:59:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-18. 0 kept (zero usable comps). eBay sold search \"Super Antenna YP-3\", page 1: 0 exact results above the \"matching fewer words\" section. Not comped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785136",
+    "site": "qth",
+    "ask": 400,
+    "shipping": 0
+  },
+  "comps": []
+}
