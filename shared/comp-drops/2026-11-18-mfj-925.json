@@ -1,0 +1,25 @@
+{
+  "model": "MFJ MFJ-925",
+  "slug": "mfj-925",
+  "searched_at": "2026-11-18T05:57:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Thin: kept 1. Dropped 1 best-offer-accepted ($144.99 Sep 16). Dropped 0 parts-only. Left out MFJ-5114-series interface cables. The eHam unit has a broken power switch.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629668",
+    "site": "eham",
+    "ask": 100.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 100.0,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206527741224",
+      "source": "ebay",
+      "notes": "Title: '(works well)'. +$14.50 shipping",
+      "flags": []
+    }
+  ]
+}
