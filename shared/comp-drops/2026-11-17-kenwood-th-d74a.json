@@ -1,0 +1,22 @@
+{
+  "model": "Kenwood TH-D74A",
+  "slug": "kenwood-th-d74a",
+  "searched_at": "2026-11-17T18:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 403.74, count 15, ledger date 2026-11-09 — ledger hit — individual sales behind the median are not auditable from this file. Ledger range low 280.00, high 550.00. Trigger ad 1785091 (QTH, $349 shipped) live. searched_at is approximate (sweep ran about 18:46-18:58 ET; per-search times not logged).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785091",
+    "site": "qth",
+    "ask": 349,
+    "shipping": 0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 403.74,
+    "low": 280,
+    "high": 550,
+    "count": 15,
+    "date": "2026-11-09"
+  }
+}
