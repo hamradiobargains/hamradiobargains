@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-18",
+  "ran_at": "2026-11-18T17:52:45-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670) browse page, Buy It Now filter, sorted Time: newly listed, pages 1-2 (~118 cards, all tagged NEW LISTING); signed in as Leo, no challenges. Window since previous ebay run 2026-11-17T17:52:54-05:00 (browse cards show no listing times; none of the picks are in dropped-urls). Item descriptions not read; condition_notes use title, eBay condition label, seller notes, shipping and returns. Seller rule: 8 of 8 checked passed. Cap reached at 8. Page 1 was mostly one seller's Kenwood TS-430S/TS-2000/TS-950 boards and parts. Not picked: parts-only (Yaesu FT-7800R 'Untested - AS-IS', Yaesu VX-5R untested, Alinco DR-110T untested, Icom IC-38A untested, Mirage B-1030-G amp, Kenwood TM-201A, Hallicrafters S40B), receivers (Hallicrafters S-120, ATS/SI4732 sets), commercial (Kenwood TK-690H, Icom IC-F60), accessories/controllers/modules (SteppIR SDA-100 controller, Kenwood UT-10, Yaesu FT-736R 1.2 GHz module, Drake C-4 console, K1EL WinKeyer, LDG DWM-4 wattmeter), CB gear (RM Italy KL 203-P, Ranger RCI-99N1), new retail balun/duplexer, crystals, parts. Ledger: 2 hits (YAESU FT-990, MFJ-16010), 6 misses -> 6 eBay sold searches (KENWOOD TM-V71 ledger count 1; others not in ledger).",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/137942781434",
+      "site": "ebay",
+      "title": "KENWOOD TM-V71 144/430MHz 20W Dual Band Amateur Radio Transceiver",
+      "price": 426.6,
+      "shipping": 0,
+      "found_at": "2026-11-18",
+      "condition_notes": "eBay condition: Used; seller notes: 'The transceiver has been repaired and tested. It shows minor signs of use, with some small scratches' (truncated on page). Japanese-market TM-V71 (not TM-V71A). Listed or Best Offer. Free SpeedPAK Expedited from Tokyo, import fees included. 30-day returns, seller pays.",
+      "work_flag": "has been repaired and tested",
+      "seller_feedback": "99.6% (672 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/880130492912",
+      "site": "ebay",
+      "title": "Yaesu FT-990 HF Transceiver AC Built-In MARS Mod Tested Works w/ Manuals & Mic",
+      "price": 715.0,
+      "shipping": 31.98,
+      "found_at": "2026-11-18",
+      "condition_notes": "eBay condition: Used; seller notes: 'Tested and working into a 50-ohm dummy load—powers on cleanly with crisp display, modulates well on' (truncated on page). MARS mod per title; includes manuals and mic. Listed or Best Offer. UPS Ground from Kendallville, IN. Seller does not accept returns.",
+      "work_flag": "no returns",
+      "seller_feedback": "100% (960 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/307289521044",
+      "site": "ebay",
+      "title": "Alinco DR-06T Mobile 50MHz 6-Meter FM Transceiver",
+      "price": 195.0,
+      "shipping": 10.03,
+      "found_at": "2026-11-18",
+      "condition_notes": "eBay condition: Used. No seller notes on condition. Listed or Best Offer. Ships from Burbank, CA. Seller does not accept returns.",
+      "work_flag": "no returns",
+      "seller_feedback": "100% (572 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/307289507360",
+      "site": "ebay",
+      "title": "Alinco DR-235T Mobile VHF FM 220MHz Transceiver",
+      "price": 195.0,
+      "shipping": 10.03,
+      "found_at": "2026-11-18",
+      "condition_notes": "eBay condition: Used. No seller notes on condition. Listed or Best Offer. Ships from Burbank, CA. Seller does not accept returns.",
+      "work_flag": "no returns",
+      "seller_feedback": "100% (572 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/237191069426",
+      "site": "ebay",
+      "title": "Yaesu FT-411 2m VHF FM Handheld Transceiver, FNB-12H, FBA-17 battery packs",
+      "price": 79.95,
+      "shipping": 15.02,
+      "found_at": "2026-11-18",
+      "condition_notes": "eBay condition: Used; seller notes: 'Used, missing paint some scratches. Normal signs of use for a radio in use since April of 1990.' (truncated on page). Includes FNB-12H and FBA-17 battery packs. Ships from Pioneer, CA (USPS Ground Advantage). Seller does not accept returns.",
+      "work_flag": "no returns",
+      "seller_feedback": "100% (1149 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/168871591491",
+      "site": "ebay",
+      "title": "MFJ-16010 ST SUPER ANTENNA TUNER",
+      "price": 99.99,
+      "shipping": 0,
+      "found_at": "2026-11-18",
+      "condition_notes": "eBay condition: Used. No seller notes on condition. Listed or Best Offer. Free standard shipping from Dover, DE. 30-day returns, seller pays.",
+      "work_flag": "",
+      "seller_feedback": "100% (2163 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/336904349143",
+      "site": "ebay",
+      "title": "Henry Electronics model S-30 2-meter HAM Radio RF Amplifier 30W Output",
+      "price": 65.0,
+      "shipping": 8.42,
+      "found_at": "2026-11-18",
+      "condition_notes": "eBay condition: Used. No seller notes on condition. Listed or Best Offer. Ships from Flint, MI (USPS Ground Advantage). Seller does not accept returns.",
+      "work_flag": "no returns",
+      "seller_feedback": "100% (2660 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/940103191506",
+      "site": "ebay",
+      "title": "Tokyo Hy-Power HL-32V 2Meter, 144 Mhz RF Power Amplifier",
+      "price": 40.0,
+      "shipping": 6.42,
+      "found_at": "2026-11-18",
+      "condition_notes": "eBay condition: Used; seller notes: 'Works properly, use your handheld in your car!' Listed or Best Offer. Ships from Creedmoor, NC. Seller does not accept returns.",
+      "work_flag": "no returns",
+      "seller_feedback": "100% (439 ratings)"
+    }
+  ]
+}
