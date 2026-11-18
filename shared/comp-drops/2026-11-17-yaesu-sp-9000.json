@@ -1,0 +1,38 @@
+{
+  "model": "Yaesu SP-9000",
+  "slug": "yaesu-sp-9000",
+  "searched_at": "2026-11-17T18:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu sp-9000', page 1 (Sold + Completed, sorted ended-recently, 120/page), signed in as Leo, no challenge. 2 kept, median 85.00 (range 85.00-85.00) - thin. Thin: 2 kept (identical listings, same date - likely duplicate/relist of one speaker lot; counted separately but flagged). Excluded: SP-9000 dust cover (323806104232, new, $42.00), FTDX9000 full-station bundle from Australia (128009856960, $6,737.00), unrelated aircraft part. Trigger ad 1785083 (QTH, SP-9000 speaker, $285) live. Not in ledger. searched_at is approximate (sweep ran about 18:46-18:58 ET; per-search times not logged).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785083",
+    "site": "qth",
+    "ask": 285,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 85,
+      "sold_date": "2026-11-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336882433995",
+      "source": "ebay",
+      "notes": "Vertex Standard SP-9000 External Speaker Black 3.5mm Wired Mute Yaesu FT-9000 - $85.00 or Best Offer (not marked accepted); shipping $7.92; same title/price/date as 336882278468",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 85,
+      "sold_date": "2026-11-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336882278468",
+      "source": "ebay",
+      "notes": "Vertex Standard SP-9000 External Speaker Black 3.5mm Wired Mute Yaesu FT-9000 - $85.00 or Best Offer (not marked accepted); shipping $7.92; same title/price/date as 336882433995",
+      "flags": [
+        "possible_duplicate"
+      ]
+    }
+  ]
+}
