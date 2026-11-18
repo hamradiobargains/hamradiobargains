@@ -1,0 +1,43 @@
+{
+  "model": "Icom IC-756PRO II",
+  "slug": "icom-ic-756pro-ii",
+  "searched_at": "2026-11-18T05:57:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Kept 3. Dropped 2 best-offer-accepted ($750 Nov 16, $679 Nov 4). Dropped 0 parts-only. Left out a manual and an LED backlight kit, plus IC-756PRO / PRO III / IC-746 units (different models). No outliers. Note: the eHam ad is a bundle with the matching power supply; these comps are the radio alone.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629672",
+    "site": "eham",
+    "ask": 899.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 800.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327352157836",
+      "source": "ebay",
+      "notes": "+$75.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158339640411",
+      "source": "ebay",
+      "notes": "Free shipping",
+      "flags": []
+    },
+    {
+      "price": 714.87,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188871030322",
+      "source": "ebay",
+      "notes": "+$34.63 shipping",
+      "flags": []
+    }
+  ]
+}
