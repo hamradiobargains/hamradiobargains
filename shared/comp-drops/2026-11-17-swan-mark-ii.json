@@ -1,0 +1,15 @@
+{
+  "model": "Swan Mark II",
+  "slug": "swan-mark-ii",
+  "searched_at": "2026-11-17T18:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'swan mark ii amplifier', page 1 (Sold + Completed, sorted ended-recently, 120/page), signed in as Leo, no challenge. 0 kept - no usable sold comps. 0 exact Swan Mark II sales kept. Excluded: 1 parts-only (198629127197, Swan Mark II HF linear amplifier, Parts Only, $349.99, ship $99.87). Other results were Swan 117XC power supplies, Swan 1200Z (parts only), Swan 6-meter amp (for parts), and unrelated guitar-amp cases - not Mark II. Trigger ad 1785095 (QTH, '$1k shipped US') live. Ledger has only SWAN 700CX - ledger miss. searched_at is approximate (sweep ran about 18:46-18:58 ET; per-search times not logged).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785095",
+    "site": "qth",
+    "ask": 1000,
+    "shipping": 0
+  },
+  "comps": []
+}
