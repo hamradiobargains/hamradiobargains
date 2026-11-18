@@ -1,0 +1,27 @@
+{
+  "model": "Icom IC-2KL",
+  "slug": "icom-ic-2kl",
+  "searched_at": "2026-11-17T18:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-2kl', page 1 (Sold + Completed, sorted ended-recently, 120/page), signed in as Leo, no challenge. 1 kept, median 1250.00 (range 1250.00-1250.00) - thin. Thin: 1 kept. Excluded: 2 Best-offer-accepted (168759136740 IC-2KL $750.00 ship $50.00; 158237133666 IC-2KL/IC-2KLPS $595.00 ship $80.70); accessory excluded: 327340273421 (IC-2KL to 13-pin ACC cable, new, $119.95). Trigger ad 1780110 (QTH, IC-2KL amp + IC-2KL PS + AT-500 tuner, $1200 for the whole system, renewed 11/17/26) live. Not in ledger. searched_at is approximate (sweep ran about 18:46-18:58 ET; per-search times not logged).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1780110",
+    "site": "qth",
+    "ask": 1200,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1250,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298612403511",
+      "source": "ebay",
+      "notes": "Icom HF Package - IC-2KL / IC-2KLPS / IC-AT500 with 10 m upgrade kit - full package (amp + power supply + AT-500 tuner + 10 m kit) - same package type as the ad; Buy It Now; shipping $80.00",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
