@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio Maestro",
+  "slug": "flexradio-maestro",
+  "searched_at": "2026-11-18T18:56:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-18. 0 kept (zero usable comps). eBay sold search \"FlexRadio Maestro\", page 1: 0 usable comps. Results were 3 iDatalink Maestro Ford dash kits (not ham gear) and 1 FlexRadio Maestro Control Console (206508956367, $599.99, Aug 22, Parts Only / UNTESTED NO CABLES/BATTERY, Best offer accepted - dropped on both counts). Trigger ad says \"Maestro C\" - identity vs original Maestro not certain; not comped. Ledger FLEXRADIO MAESTRO (count 2, 2026-09-15, median 644.95) is older than 30 days so was not used.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785144",
+    "site": "qth",
+    "ask": 1350,
+    "shipping": 0
+  },
+  "comps": []
+}
