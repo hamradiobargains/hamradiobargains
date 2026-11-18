@@ -1,0 +1,105 @@
+{
+  "model": "Ten-Tec Scout 555",
+  "slug": "ten-tec-scout-555",
+  "searched_at": "2026-11-17T18:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ten-tec 555 scout', page 1 (Sold + Completed, sorted ended-recently, 120/page), signed in as Leo, no challenge. 9 kept, median 398.55 (range 297.49-600.00) - solid. Excluded: 1 Best-offer-accepted (227615611315 $200.00); parts-only/for parts: 117520918313 ($349.00, Parts Only, ship $30.00), 327394796351 ($175.00, FOR PARTS, ship $8.93); accessory excluded: 117519149857 (Scout Band Modules Qty 5, $200). Trigger ad 1785078 (QTH, $425 shipped) live. Ledger TEN-TEC 555 SCOUT latest 2026-10-11 (older than 30 days) - ledger miss. searched_at is approximate (sweep ran about 18:46-18:58 ET; per-search times not logged).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785078",
+    "site": "qth",
+    "ask": 425,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 510,
+      "sold_date": "2026-11-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237163906834",
+      "source": "ebay",
+      "notes": "TEN-TEC SCOUT 555 TRANSCEIVER WITH 9 DIFFERENT BAND, MICROPHONE, MANUAL - 2 bids - shipping $19.51; 9 band modules",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 339.99,
+      "sold_date": "2026-11-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940046056934",
+      "source": "ebay",
+      "notes": "Ten-Tec Scout model 555 Transceiver with 80M, 40M, 17M and 10M Band Modules - 2 bids - shipping $28.15",
+      "flags": []
+    },
+    {
+      "price": 297.49,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128129372675",
+      "source": "ebay",
+      "notes": "Ten-Tec Scout 555 HF Ham Radio Transceiver 40 Meter w/ Power Supply - shipping $15.23; $297.49 shown with $349.99 struck through, Buy It Now",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 600,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267808449406",
+      "source": "ebay",
+      "notes": "Ten-Tec Scout model 555 Transceiver with 160m, 6 other Band Modules - $600 or Best Offer (not marked accepted) - OUTLIER: above 1.5x median of the other kept comps (369.27); 160m + 6 other band modules; shipping $35.00",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 310,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188930691714",
+      "source": "ebay",
+      "notes": "TEN TEC SCOUT 555 HF TRANSCEIVER - 6 bids - shipping $25.00",
+      "flags": []
+    },
+    {
+      "price": 401.33,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278334339927",
+      "source": "ebay",
+      "notes": "Ten-Tec Scout model 555 Transceiver with 80M, 40M, 20M and 15M Band Modules - 10 bids - shipping $26.95",
+      "flags": []
+    },
+    {
+      "price": 300,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327330399937",
+      "source": "ebay",
+      "notes": "Ten-Tec Scout 555 HFTran - shipping $25.00",
+      "flags": []
+    },
+    {
+      "price": 435,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198571714779",
+      "source": "ebay",
+      "notes": "RARE Ten-Tec Scout 555 With MOST of the Plug in Band Modules NR Low Starting Bid - 14 bids - shipping $20.00",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 398.55,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307250582731",
+      "source": "ebay",
+      "notes": "TenTec 555 Scout HF transceiver - unique and rare - 3 bids - Located in United Kingdom; shipping estimate $48.71, import fees paid at checkout",
+      "flags": []
+    }
+  ]
+}
