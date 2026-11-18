@@ -1,0 +1,25 @@
+{
+  "model": "Kenwood TM-V71",
+  "slug": "kenwood-tm-v71",
+  "searched_at": "2026-11-18T17:58:50-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 1 comp. Exact TM-V71 only (Japanese-market model); many TM-V71A/TM-V71E results and accessories (remote kits, mics, backplates, cables) left out. Also left out 117513518004 (Sold Nov 15, 2026, 'Kenwood TM-V71 ... w/ Mic', $450.00 or Best Offer, US-located): title says TM-V71 but a US-sold unit is likely a TM-V71A — identity in doubt. Dropped 0 best-offer-accepted, 0 parts-only. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/137942781434",
+    "site": "ebay",
+    "ask": 426.6,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 648.66,
+      "sold_date": "2026-11-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366713629409",
+      "source": "ebay",
+      "notes": "KENWOOD TM-V71 144/430MHz Dual Band Mobile Transceiver Wideband RX. Buy It Now. +$100.00 delivery, import fees included, located in Japan. eBay also showed '$616.23 with coupon'.",
+      "flags": []
+    }
+  ]
+}
