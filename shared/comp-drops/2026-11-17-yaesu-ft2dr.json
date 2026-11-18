@@ -1,0 +1,61 @@
+{
+  "model": "Yaesu FT2DR",
+  "slug": "yaesu-ft2dr",
+  "searched_at": "2026-11-17T18:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ft2dr', page 1 (Sold + Completed, sorted ended-recently, 120/page), signed in as Leo, no challenge. 5 kept, median 177.50 (range 155.07-180.00) - solid. Excluded: 2 Best-offer-accepted (407208317694 Lot of 2 FT-2DR $149.99 - also a 2-radio lot; 318720865961 FT-2D $225.00). Accessories (cables, batteries, cases, chargers) ignored. FT-2D / FT-2DR titles treated as the same radio, noted per comp. Trigger ad 1785033 (QTH, FT2DR with SCU-39, $225 shipped or make offer) live. Not in ledger. searched_at is approximate (sweep ran about 18:46-18:58 ET; per-search times not logged).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785033",
+    "site": "qth",
+    "ask": 225,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 155.5,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117473584364",
+      "source": "ebay",
+      "notes": "Yaesu FT2DR Dual Band Transceiver used C4FM Digital - shipping $10.15",
+      "flags": []
+    },
+    {
+      "price": 179.99,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117399335776",
+      "source": "ebay",
+      "notes": "Yaesu FT2DR Dual Band Transceiver used works well - 1 bid - shipping $10.15",
+      "flags": []
+    },
+    {
+      "price": 177.5,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117392155625",
+      "source": "ebay",
+      "notes": "Yaesu FT-2D Digital C4FM/FM Handheld Transceiver Used - titled FT-2D (treated as same radio as FT2DR); shipping $20.64",
+      "flags": []
+    },
+    {
+      "price": 180,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117388926261",
+      "source": "ebay",
+      "notes": "Yaesu FT2DR FT2D C4FM Digital Dual Band VHF/UHF Handheld Ham Radio - $180.00 or Best Offer (not marked accepted); shipping $6.98",
+      "flags": []
+    },
+    {
+      "price": 155.07,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178450606166",
+      "source": "ebay",
+      "notes": "Yaesu FT-2DR Dual Band C4FM Digital Handheld Transceiver - shipping $14.85",
+      "flags": []
+    }
+  ]
+}
