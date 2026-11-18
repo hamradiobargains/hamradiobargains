@@ -1,0 +1,15 @@
+{
+  "model": "Norcal 40A",
+  "slug": "norcal-40a",
+  "searched_at": "2026-11-17T18:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'norcal 40a', page 1 (Sold + Completed, sorted ended-recently, 120/page), signed in as Leo, no challenge. 0 kept - no usable sold comps. 0 kept. Excluded: 1 Best-offer-accepted (168671882433 Wilderness Radio Norcal 40a with book, $150.00, ship $6.98); 227423570684 ($164.96, sold Nov 13 2026, ship $17.16, located France, import fees) is a two-radio bundle \"Sierra Norcal 40A + Sierra Wilderness (defect) with some bands modules\" - bundle with a second radio and disclosed defect, not a clean 40A comp, excluded (noted here for transparency); NorCal 40B new kit (257397901666 $149.73) and SMK-1 (128149295966 $56.00) are different models. Trigger ad 1785094 (QTH, $275 shipped CONUS) live. Not in ledger. searched_at is approximate (sweep ran about 18:46-18:58 ET; per-search times not logged).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785094",
+    "site": "qth",
+    "ask": 275,
+    "shipping": 0
+  },
+  "comps": []
+}
