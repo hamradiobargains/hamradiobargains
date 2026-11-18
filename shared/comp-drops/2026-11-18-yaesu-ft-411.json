@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-411",
+  "slug": "yaesu-ft-411",
+  "searched_at": "2026-11-18T17:58:50-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 0 comps kept. Dropped 2 best-offer-accepted (278409769968 Sep 26 shown $49.99; 237032111851 Sep 15 shown $100.00). Left out 6 FT-411E results (different model). Dropped 0 parts-only among exact FT-411.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/237191069426",
+    "site": "ebay",
+    "ask": 79.95,
+    "shipping": 15.02
+  },
+  "comps": []
+}
