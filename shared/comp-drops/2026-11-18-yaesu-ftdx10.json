@@ -1,0 +1,22 @@
+{
+  "model": "Yaesu FTDX10",
+  "slug": "yaesu-ftdx10",
+  "searched_at": "2026-11-18T14:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 1042.49, count 14, ledger date 2026-10-31 — ledger hit — individual sales behind the median are not auditable from this file",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785119",
+    "site": "qth",
+    "ask": 1150.0,
+    "shipping": 45.0
+  },
+  "comps": [],
+  "ledger": {
+    "median": 1042.49,
+    "low": 790.0,
+    "high": 1698.88,
+    "count": 14,
+    "date": "2026-10-31"
+  }
+}
