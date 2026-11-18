@@ -1,0 +1,240 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-17",
+  "ran_at": "2026-11-17T18:46:16-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered: 2026-11-17-qth.json (ran_at 2026-11-17T14:52:56-05:00) and 2026-11-17-ebay.json (ran_at 2026-11-17T17:52:54-05:00), the eham/qth/ebay drops after the previous extras drop 2026-11-17-extras.json (ran_at 2026-11-17T12:20:00-05:00). Previous CARRIED OVER: none; BACKLOG CARRY: none. Named extra from Leo (stored task prompt): QTH 1783910 (Yaesu '991', $600 firm), put at the front; worked as the ORIGINAL Yaesu FT-991 per Leo's ruling, comps filed under 'Yaesu FT-991' only, no FT-991A figures. It was already in dropped-urls.json (worked earlier today by the 12:20 extras run), so not re-appended. Extras queued 31 (1783910 + 27 QTH extras from the 11/17 QTH drop's 'Extra plausible candidates not comped' list, none already in dropped-urls + 3 eBay candidates the 11/17 eBay drop 'left out at the cap': Retevis MA1 960209015793, CDE Ham II rotator control 198803573621, Stryker SR-490 117527230753 — treated as extras even though that drop words them 'left out at the cap' rather than 'extra plausible candidates'; AZDEN PCS-6000 287737433646 was already seller-rule skipped in that drop so not queued). Worked 21 (20 QTH ads opened live + 1783910 gone). Ledger hits 5 (1785050 ICOM ID-5100A, 1785091 Kenwood TH-D74A, 1785030 Elecraft K3/100, 1785034 Yaesu FT5DR, 1785062 Kenwood TM-281A). eBay sold searches used 15 of 15: Yaesu FT-991 (1783910, per Leo's instruction run first), Ten-Tec Scout 555, Swan Mark II, FlexRadio FLEX-1500, Elecraft K3/0 Mini, Elecraft K3S/0 Mini, Elecraft P3, Heathkit SB-1000, Hallicrafters SX-115, Yaesu FTM-500DR, Icom IC-2KL, Ten-Tec Omni C, Norcal 40A, Yaesu SP-9000, Yaesu FT2DR. Comp results: solid (3+ kept): FT-991 3, Scout 555 9, P3 6, FTM-500DR 13, FT2DR 5; thin: FLEX-1500 2, K3/0 Mini 1, IC-2KL 1, Omni C 2, SP-9000 2; zero usable: Swan Mark II, K3S/0 Mini, SB-1000, SX-115, Norcal 40A. Gone: 1 (1783910). Skipped: 1 (1785086 SGC-237 + 50 ft cable: ad page names no price; the drop's $265 does not appear on the ad page; SGC SGC-237 ledger exists but was not used because there is no ask to compare). Cross-posts: none detected among worked ads (K6RO has several separate K3 listings; N8NH has two ads, ID-5100A and FTM-500, different radios); possible same-family units with eHam 629662/629661 K3/0 Mini heads not checked (eHam off-limits; no serials compared). Outliers: 1 (Scout 555 comp 267808449406, $600.00, vs median 369.27 of the others). Observation on a carried ad: 1785070 Cushcraft 11-element 2 m beam, page read this run: ask is $100 (\"DXE gets $469 for an 11 element beam, I'll sell this one for $100\"), pick up only in Solon, Ohio; the $469 in the 11/17 QTH drop note was the DXE retail figure, not the ask. Not comped (cap), so carried over. eBay: signed in as Leo, no challenge or CAPTCHA at any point, 15+ s between searches. eHam not opened. QTH pages read at human pace via same-origin page fetches 5 s apart. Several Best-offer-accepted, parts-only and accessory results were dropped and are itemized in each comp drop's notes. Comp drop timestamps (searched_at) are approximate. Timestamps -05:00 (EST). CARRIED OVER: 1785070, 1785043, 1785081, 1785049, 1785051, 1785074, 1785097, https://www.ebay.com/itm/960209015793, https://www.ebay.com/itm/198803573621, https://www.ebay.com/itm/117527230753 (counter IDs unless a URL is shown; in order: 1785070 Cushcraft 11-el 2m beam, 1785043 Hi-Q 4/80 HF antenna, 1785081 Radioddity HF-010 antenna, 1785049 and 1785051 MFJ-925 auto tuner, 1785074 Heil Goldline GM-5, 1785097 Elecraft K3/K3S items list, then eBay Retevis MA1, CDE Ham II rotator control, Stryker SR-490). None of these except 1785070 were opened. BACKLOG CARRY: none.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "RADIOHF - Yaesu 991 for sale (Leo ruling: original Yaesu FT-991)",
+      "price": 600,
+      "shipping": 31,
+      "found_at": "2026-11-17",
+      "condition_notes": "no longer live (ad number no longer in our system when opened). Last known ask $600 firm per task note; shipping $31 per earlier 2026-11-17 drop; ask/shipping not re-read this run. comps: yaesu-ft-991 (file 2026-11-17-1850-yaesu-ft-991), 3 kept, median 776.66 (FT-991 only, no FT-991A figures).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785078",
+      "site": "qth",
+      "title": "RADIOHF - Ten-Tec Scout 555 (40/30/20/15 modules)",
+      "price": 425,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"Very nice late model Scout 555 with 40, 30, 20, and 15 meter modules. Has optional Jones filter and noise blanker installed. Very clean. Not a mark on it. Microphone cord has insulation coming apart but is functional.\" $425 shipped priority mail. Zelle or PayPal. Listed 11/17/26 by WB1AFK. comps: ten-tec-scout-555, 9 kept, median 398.55 (one OUTLIER: 600.00).",
+      "work_flag": "Microphone cord has insulation coming apart but is functional",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785050",
+      "site": "qth",
+      "title": "RADIOVHF - Icom 5100d for sale! (body: ID5100A)",
+      "price": 425,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"Radio is in excellent condition and works as it should. Never used mobile, only in shack.\" Radio comes with all original equipment with new power cable; $425 includes shipping to lower 48 states; cash, check or money order; ships once check clears; no trades. Title says 5100d, body says ID5100A. Listed 11/16/26 by N8NH. comps: ledger hit (icom-id-5100a) — median 425.00, count 15, ledger date 2026-11-08.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785095",
+      "site": "qth",
+      "title": "AMPHF - Excellent Swan MarkII HF Amplifier",
+      "price": 1000,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"Excellent Swan markII Amplifier works! Pair of 3-500 tubes\" $1k shipped US. Listed 11/17/26 by KL7AM. comps: swan-mark-ii, 0 kept (only Mark II sale on page 1 was parts-only); not usefully comped.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785093",
+      "site": "qth",
+      "title": "RADIOHF - Flex 1500 QRP SDR",
+      "price": 365,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"I have for sale this nice working Flex 1500 QRP SDR radio. The radio comes with power cord and FHM-1 hand microphone\" Price $365; zelle, money order or check preferred; shipping not stated (recorded 0). Listed 11/17/26 by K2ZZ. comps: flexradio-flex-1500, 2 kept, median 339.11 (thin).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785091",
+      "site": "qth",
+      "title": "RADIOVHF - Kenwood TH-D74A Tri-Band D-STAR/APRS HT",
+      "price": 349,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"Kenwood TH-D74A in Like new, working 100%. Complete with the original box, manual, and all original paperwork & accessories. Plus programming disc and cable.\" Condition: \"Excellent. Works 100%, all functions tested.\" $349 Shipped. Listed 11/17/26 by W1MBB. comps: ledger hit (kenwood-th-d74a) — median 403.74, count 15, ledger date 2026-11-09.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785030",
+      "site": "qth",
+      "title": "RADIOHF - Elecraft K3/100 Transceiver #2756",
+      "price": 919,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"Elecraft K3/100 High Perf 160-6m Transceiver KPA3 2.7 #2756 100 Watts $919 Delivered ... SER # 2756 100 Watts 2.7 SSB filter KIO3 Lots of mods done on 5/2023 Super clean radio. Latest firmware installed. 5.67 Works as it should. Great condition. Power cord and manual.\" Local pickup also fine; check, zelle, PP ff ok. Listed 11/16/26 by K6RO. comps: ledger hit (elecraft-k3-100) — median 1199.49, count 16, ledger date 2026-11-09 (generic K3/100 entry, wide range 909-2385).",
+      "work_flag": "\"Lots of mods done on 5/2023\" — UNCERTAIN whether these are transmit mods or ordinary option/upgrade work; seller does not say what the mods are",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785032",
+      "site": "qth",
+      "title": "RADIOHF - Elecraft K3/0 Mini Remote Head #133",
+      "price": 855,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"Elecraft K3/0 Mini Remote Head # 133 - Super nice - rare! $855 delivered ... Discontinued, and hard to find. Looks Great and works like new.\" Also has remoterig.com boxes and Octopus cable for sale in a separate listing. Local pickup also fine. Listed 11/16/26 by K6RO. comps: elecraft-k3-0-mini, 1 kept, median 375.00 (thin).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1781024",
+      "site": "qth",
+      "title": "RADIOHF - Elecraft K3S/0 Mini Remote Head #407",
+      "price": 859,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"Elecraft K3S/0 Mini Remote Head # 407 - Super nice - cube and manual $859 delivered ... Discontinued, and hard to find.\" Local pickup also fine. Renewed listing (older ad, ID 1781024) by K6RO. comps: elecraft-k3s-0-mini, 0 kept (no K3S/0 Mini sales on page 1); not usefully comped.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785029",
+      "site": "qth",
+      "title": "RADIOHF - Elecraft P3 Panadapter #4142",
+      "price": 489,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"Nice Elecraft P3 Panadapter - Works great with cables # 4142 Nice! $489 delivered ... This is a SUPER nice P3. Comes with standard k3 hookup cables, and manual ... Very Good condition ... these have been discontinued at Elecraft.\" Listed 11/16/26 by K6RO. comps: elecraft-p3, 6 kept, median 533.25 (solid).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785060",
+      "site": "qth",
+      "title": "AMPHF - Heathkit SB-1000HF Amplifier",
+      "price": 1250,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"Heathkit SB-1000HF Amplifier Excellent Super Condition with full output Eimac 3-500Z tube. Have a couple more pics\" $1,250 shipped US. Listed 11/16/26 by KL7AM. comps: heathkit-sb-1000, 0 kept (only SB-1000 sale was BOA + parts/repair); not usefully comped.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785068",
+      "site": "qth",
+      "title": "RADIOHF - Hallicrafters SX-115 receiver",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"VERY CLEAN NICE WORKING.\" For pick up or meet in the Chicago area; $600; PayPal, Zelle, Venmo, check, cash (no shipping offered; recorded 0). Listed 11/17/26 by K9DTC. comps: hallicrafters-sx-115, 0 kept (only unit sale was BOA); not usefully comped.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785048",
+      "site": "qth",
+      "title": "RADIOVHF - Yaesu FTM 500 For Sale",
+      "price": 450,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"Radio is in excellent condition and works as it should. Never mobile used, only 4 or 5 times in shack. ... Radio comes with all original equipment and Yaesu Separation Cables SCU-62. Power cable has power poles on the end.\" $450 includes shipping to lower 48 states; cash, check or money order; ships once check clears; no trades. Listed 11/16/26 by N8NH. comps: yaesu-ftm-500dr, 13 kept, median 450.00 (solid; ad says 'FTM 500', no DR suffix).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1780110",
+      "site": "qth",
+      "title": "AMPHF - ICOM IC2KL Amp, IC2KL PS and Icom AT-500",
+      "price": 1200,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"I have a (MINT) Icom IC2KL Amp, IC2KL Power Supply and an Icom AT-500 Auto Tuner all in perfect condition with all connectors, manuals, 13 pin Icom radio connectors... works flawlessly and even on 10 Meters ... I ran it about 200 to 300W now and then, but it does 600 easy!\" $1200 for the whole system; prefers pickup in Raleigh NC area, will pack, ship and insure for the shipping cost (shipping not stated, recorded 0); Zelle only. Originally submitted 09/21/26, last edited 11/17/26 by KQ4ICK. comps: icom-ic-2kl, 1 kept, median 1250.00 (thin; the one kept comp is the same 3-piece package).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785042",
+      "site": "qth",
+      "title": "RADIOHF - Ten Tec Omni C Transceiver",
+      "price": 275,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"Has the optional 1.8 ssb filter and the factory audio filters work great. As with most classic retro transceivers it could use a minor alignment (cw is 300hz low - ssb fine) but is fully operational and a pleasure to use and really nice on cw. Included is the power cord and bound manual. The LDG tuner shown in picture is NOT included.\" $275 shipped lower 48; postal money order preferred. Submitted 11/16/26, edited 11/17/26 by K0FL. comps: ten-tec-omni-c, 2 kept, median 327.50 (thin).",
+      "work_flag": "\"it could use a minor alignment (cw is 300hz low - ssb fine) but is fully operational\"",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785094",
+      "site": "qth",
+      "title": "RADIOHF - FS: Norcal 40A QRP Transceiver",
+      "price": 275,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"Norcal 40A QRP transceiver. A classic. Has frequency counter and keyer installed. In great shape and works well. Selling for a friend who has health problems.\" $275 shipped in the CONUS. Listed 11/17/26 by K4LXY. comps: norcal-40a, 0 kept (only 40A sale on page 1 was BOA; other was a bundle with a second radio); not usefully comped.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785083",
+      "site": "qth",
+      "title": "MISC - YAESU SP-9000 SPEAKER",
+      "price": 285,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"AD WILL DELETE WHEN SOLD. Designed to match the FT-9000 series. Features two 4 inch (100 mm) speakers ... NOTE: STOCK PHOTO, actual speaker photos available.\" $285; shipping not stated (recorded 0). Listed 11/17/26 by K4WSB. comps: yaesu-sp-9000, 2 kept, median 85.00 (thin; both look like the same listing).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785034",
+      "site": "qth",
+      "title": "RADIOVHF - FS: Yaesu FT5DR UHF/VHF Transceiver",
+      "price": 300,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"very lightly used Yaesu FT5DR UHF/VHF handheld transceiver ... asking $300 shipped in CONUS (or make offer). The radio is in very good condition with no known issues. The sale includes the original box, manual, and items that came with it new (SBR-14LI battery pack, SAD-25 charger, Antenna, Belt Clip, Quick Release Holster, USB Cable).\" Listed 11/16/26 by N3EN. comps: ledger hit (yaesu-ft5dr) — median 325.00, count 29, ledger date 2026-10-23.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785033",
+      "site": "qth",
+      "title": "RADIOVHF - FS: Yaesu FT2DR w/ SCU-39",
+      "price": 225,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"lightly used FT2DR UHF/VHF handheld transceiver for sale. It comes with the SCU-39 WIRES-X connection cable package. I am asking $225 shipped in CONUS (or make offer). The radio is in very good condition with no known issues. The sale includes the original box, manual, and items that came with it new (SBR-14LI battery pack, SAD-18B charger, Antenna, Belt Clip, USB Cable).\" Listed 11/16/26. comps: yaesu-ft2dr, 5 kept, median 177.50 (solid).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785062",
+      "site": "qth",
+      "title": "RADIOVHF - Kenwood 281A VHF Transceiver",
+      "price": 175,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. \"As NIB, Looks unused in original box with Mic, Manual, Cord, mobile mount and accessories\" $175 shipped US. Listed 11/16/26 by KL7AM. comps: ledger hit (kenwood-tm-281a) — median 110.00, count 16, ledger date 2026-10-21.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785086",
+      "site": "qth",
+      "title": "ANTETUNE - FS: SGC-237 Antenna Tuner + 50 FT Cable",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-17",
+      "condition_notes": "live. Skipped, no price named: the ad text says \"Reduced Price!\" and \"Shipped\" but states no dollar figure (the 11/17 QTH drop note listed $265; no such figure appears on the ad page). \"Part of a smoke/pet FREE SK Estate\"; set up for Icom radios, used with an Icom IC-706MII and IC-7000. Listed 11/17/26 by WD8EEQ. comps: not comped: no price named in the ad.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
