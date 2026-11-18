@@ -1,0 +1,54 @@
+{
+  "model": "Radioddity GD-88",
+  "slug": "radioddity-gd-88",
+  "searched_at": "2026-11-18T05:57:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Kept 4. Dropped 3 best-offer-accepted ($100 Oct 27, $94.99 Sep 25, $164.97 Aug 29). Dropped 0 parts-only. Left out a charger and a battery. All kept comps are Open Box or Brand New; the eHam unit is used, like new. No outliers (kept median $127.50).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629673",
+    "site": "eham",
+    "ask": 100.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 125.0,
+      "sold_date": "2026-11-12",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/267813852605",
+      "source": "ebay",
+      "notes": "Or Best Offer listing, no best offer accepted shown. +$7.63 shipping",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-11-08",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/237170174702",
+      "source": "ebay",
+      "notes": "Or Best Offer listing, no best offer accepted shown. Free shipping",
+      "flags": []
+    },
+    {
+      "price": 149.99,
+      "sold_date": "2026-09-06",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/236943890614",
+      "source": "ebay",
+      "notes": "Or Best Offer listing, no best offer accepted shown. Free shipping",
+      "flags": []
+    },
+    {
+      "price": 130.0,
+      "sold_date": "2026-08-25",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/147463587889",
+      "source": "ebay",
+      "notes": "Title: 'W/Extras'. Or Best Offer listing, no best offer accepted shown. +$15.00 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
