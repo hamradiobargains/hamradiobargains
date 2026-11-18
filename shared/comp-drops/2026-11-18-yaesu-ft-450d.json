@@ -1,0 +1,115 @@
+{
+  "model": "Yaesu FT-450D",
+  "slug": "yaesu-ft-450d",
+  "searched_at": "2026-11-18T05:57:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Kept 11. Dropped 5 best-offer-accepted ($499.95 Nov 17, $450 Nov 4, $550 Oct 3, $625 Sep 24, $349.99 Sep 8; the Sep 8 one was also parts-only). Dropped 1 more parts-only ($450 Sep 25, eBay 'Parts Only'). Left out many accessories (cables, mics, manuals, carry handles) and an ambiguous 'Yaesu FT-450D Antenna Tuner' $999.99 sale. No outliers (kept median $435).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629670",
+    "site": "eham",
+    "ask": 450.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 479.99,
+      "sold_date": "2026-11-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407321914887",
+      "source": "ebay",
+      "notes": "+$27.34 shipping",
+      "flags": []
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2026-11-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880047802191",
+      "source": "ebay",
+      "notes": "Or Best Offer listing, no best offer accepted shown. +$15.60 shipping",
+      "flags": []
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800802793945",
+      "source": "ebay",
+      "notes": "Auction. +$40.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336841540488",
+      "source": "ebay",
+      "notes": "Title: 'Good Working'. +$23.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 535.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298717472486",
+      "source": "ebay",
+      "notes": "Auction. +$19.06 shipping",
+      "flags": []
+    },
+    {
+      "price": 498.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/397860936804",
+      "source": "ebay",
+      "notes": "Title: 'Tested'. Or Best Offer listing, no best offer accepted shown. +$82.50 shipping",
+      "flags": []
+    },
+    {
+      "price": 412.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168700811582",
+      "source": "ebay",
+      "notes": "Auction. +$26.43 shipping",
+      "flags": []
+    },
+    {
+      "price": 415.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336805861975",
+      "source": "ebay",
+      "notes": "Title: 'Clean and Tested - Last Version'. +$25.55 shipping. Same title as 336766775862 (Aug 30); both shown as sold",
+      "flags": []
+    },
+    {
+      "price": 435.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168685420342",
+      "source": "ebay",
+      "notes": "Auction. +$20.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 499.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336766775862",
+      "source": "ebay",
+      "notes": "Title: 'Clean and Tested - Last Version'. +$70.70 shipping",
+      "flags": []
+    },
+    {
+      "price": 364.0,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237010457850",
+      "source": "ebay",
+      "notes": "Auction. Title: 'w/ Mic CAT Control'. +$75.33 shipping",
+      "flags": []
+    }
+  ]
+}
