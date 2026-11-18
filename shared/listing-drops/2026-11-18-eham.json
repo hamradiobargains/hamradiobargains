@@ -1,0 +1,75 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-18",
+  "ran_at": "2026-11-18T05:52:49-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-17T05:53:05-05:00 (prior eham run). Browsed signed OUT ('Login/Register' / 'Welcome Guest' shown). The first classifieds load briefly went through a Cloudflare interstitial that cleared on its own within ~10 s (no CAPTCHA, no 1015). Read public classifieds pages 1 and 2 only, about 30 s apart; no individual ad pages, search form, sold searches, or seller/callsign pages; no ad IDs probed. New on page 1: ads 629667-629676; page 2 (629656-629666) was all covered by earlier runs. No not-yet-public ads seen. Not candidates: 629675 Motorola XTS-5000 VHF ($250 shipped; commercial/public-safety LMR radio, not ham gear), 629674 Bunnell keys (keys), 629671 RCI-69 10/12 m base (no asking price), 629669 Lenovo ThinkPad X240 (computer). Comps: 6 candidates, all ledger misses (IC-756PRO II latest 2026-10-15, FT-450D latest 2026-10-06 and FLEXRADIO FLEX-6400 latest 2026-09-29 count 2, all older than 30 days; no ledger entry for TYT MD-380, Radioddity GD-88, or MFJ-925) -> 6 eBay sold searches, page 1 only, signed in as Leo, no challenge.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629676",
+      "site": "eham",
+      "title": "Tytera MD-380",
+      "price": 50.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-18",
+      "condition_notes": "Tytera (TYT) MD-380, 400-480 MHz (UHF) DMR handheld. Seller bought it for a project and never used it; says he tested it and it works good. Includes radio, 7.4V battery (missing belt clip), desktop charger. $50 shipped to CONUS. PayPal, Zelle, Venmo, USPS money order. Posted 2026-11-18.",
+      "work_flag": "Missing belt clip",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629673",
+      "site": "eham",
+      "title": "Radioddity GD-88 DMR Radio",
+      "price": 100.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-18",
+      "condition_notes": "Radioddity GD-88 DMR, VHF/UHF, 7W, GPS/APRS. Used a few times around the house, like new, non-smoker, original box, everything included plus a speaker mic. $100 shipped to CONUS. Posted 2026-11-17.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629672",
+      "site": "eham",
+      "title": "ICOM IC-756 PRO2 IC-125PS $899",
+      "price": 899.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-18",
+      "condition_notes": "BUNDLE: Icom IC-756PRO II plus matching Icom power supply (title says 'IC-125PS', body says 'IC-125'; presumably the PS-125). From a Silent Key estate; seller says very little if any use, like-new, no scratches, checked on all bands and makes well over 100 W. Original shipping box, all accessories and manuals. $899 with free shipping. Posted 2026-11-17.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629670",
+      "site": "eham",
+      "title": "Yaesu FT-450D",
+      "price": 450.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-18",
+      "condition_notes": "Fully functional, tested on air with good signal report. Includes Powerpole power cable, reprinted manual, MH-67A8J mic, and original MH-31A8J mic that has no audio output. Double boxed. $450 cash with free shipping, money order only. Posted 2026-11-17.",
+      "work_flag": "original MH-31A8J mic with no audio output",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629668",
+      "site": "eham",
+      "title": "MFJ 925 autotuner",
+      "price": 100.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-18",
+      "condition_notes": "MFJ-925 IntelliTuner auto tuner, 200 W SSB/CW, 100 W digital, 160-10 m (seller says it also works on 6 m). Used with FT-450/FT-450D. Power switch no longer works, so it is always on (turn off by removing power). Comes with wall-wart, power cord, manual. $100 shipped in US. Posted 2026-11-17.",
+      "work_flag": "The power switch on it no longer works so it is always on",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629667",
+      "site": "eham",
+      "title": "for sale - flex 6400",
+      "price": 1350.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-18",
+      "condition_notes": "FlexRadio FLEX-6400 without the internal ATU. SmartSDR+ license valid through Nov 2027. Original box and foam, standard hand mic. Seller says tested and working 100%, smoke-free, cosmetics great with minor desk wear. $1,350 shipped CONUS; PayPal, or cash for local pickup in Melbourne, FL. All sales final, sold as-is, no returns; guaranteed not DOA. Posted 2026-11-17.",
+      "work_flag": "sold as-is with no returns or refunds",
+      "seller_feedback": ""
+    }
+  ]
+}
