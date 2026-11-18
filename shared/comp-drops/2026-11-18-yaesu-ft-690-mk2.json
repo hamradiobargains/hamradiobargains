@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-690 Mk2",
+  "slug": "yaesu-ft-690-mk2",
+  "searched_at": "2026-11-18T18:59:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-18. 0 kept (zero usable comps). eBay sold search \"Yaesu FT-690 Mk2\", page 1: 0 usable comps. Dropped: 307285872820 ($75.00, Nov 17, Parts Only, FT-690r II); 318865825068 ($150.00, Sep 14, Parts Only, \"Read Description\", FT-690r II); 307198566232 ($132.09 auction, Sep 26, Best offer accepted, \"ft 690 with mic mh 10\"). Kept out for identity: 313823079490 ($303.63, Nov 7, Pre-Owned, free shipping, title \"YAESU FT-690 All Mode Transceiver SSB/CW/AM/FM\") - title does not say Mk II / FT-690R II so it is not certain it is the same radio as the trigger ad; if Archie judges it the same, it is a single thin comp.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785153",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": []
+}
