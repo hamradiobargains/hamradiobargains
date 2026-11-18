@@ -1,0 +1,34 @@
+{
+  "model": "Ten-Tec Omni C",
+  "slug": "ten-tec-omni-c",
+  "searched_at": "2026-11-17T18:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ten-tec omni c', page 1 (Sold + Completed, sorted ended-recently, 120/page), signed in as Leo, no challenge. 2 kept, median 327.50 (range 300.00-355.00) - thin. Thin: 2 kept. Excluded: 1 Best-offer-accepted (920040579512 Omni Series C $270.00, ship $5.86); Omni 6+ (564) parts-only sale (168653654514, $669) is a different model and parts-only; Ten-Tec encoder keypad (237131529335) and 218 SSB filter (198613922115) are accessories. Trigger ad 1785042 (QTH, $275 shipped lower 48) live. Ledger has only Omni VI/VII entries - ledger miss. searched_at is approximate (sweep ran about 18:46-18:58 ET; per-search times not logged).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785042",
+    "site": "qth",
+    "ask": 275,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 355,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287626638156",
+      "source": "ebay",
+      "notes": "TenTec Omni 546 D Series C Ham Radio - 4 bids - title reads \"Omni 546 D Series C\" (treated as Omni C, model 546); shipping $29.42",
+      "flags": []
+    },
+    {
+      "price": 300,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178462714703",
+      "source": "ebay",
+      "notes": "Ten-Tec 546 Omni C Vintage Ham Radio Transceiver (works, needs alignment) - seller wording: works, needs alignment; Buy It Now; shipping $49.50",
+      "flags": []
+    }
+  ]
+}
