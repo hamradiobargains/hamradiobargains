@@ -1,0 +1,25 @@
+{
+  "model": "MFJ-925",
+  "slug": "mfj-925",
+  "searched_at": "2026-11-18T18:53:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-18. 1 kept (thin), median 100.00. 1 kept (thin). Dropped: 1 Best-offer-accepted (800663887510 $144.99, Brand New, Sep 16); 13 results excluded as MFJ-5114 interface cables (accessories, $16.98-$23.69, Oct-Nov). Ad 1785049/1785051 note: power switch no longer works (always on). Cross-post: QTH 1785051 (identical text, same seller AF5CC, also $100 shipped).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785049",
+    "site": "qth",
+    "ask": 100,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 100.0,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned (Buy It Now)",
+      "url": "https://www.ebay.com/itm/206527741224",
+      "source": "ebay",
+      "notes": "fixed price; shipping +$14.50; title: works well",
+      "flags": []
+    }
+  ]
+}
