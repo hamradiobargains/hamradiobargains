@@ -1,0 +1,15 @@
+{
+  "model": "EA4TX ARS-USB",
+  "slug": "ea4tx-ars-usb",
+  "searched_at": "2026-11-19T18:58:22-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "0 kept, no median — zero usable comps. zero exact results for EA4TX ARS-USB on page 1; ignored unrelated results. searched via eBay sold/completed page 1, signed in as Leo, no challenge; searched_at is the file-write time (approximate).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785160",
+    "site": "qth",
+    "ask": 230,
+    "shipping": 0
+  },
+  "comps": []
+}
