@@ -1,0 +1,25 @@
+{
+  "model": "Kenwood SM-230",
+  "slug": "kenwood-sm-230",
+  "searched_at": "2026-11-19T14:58:32-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood sm-230', page 1: 1 result, kept. Dropped 0 best-offer-accepted, 0 parts-only. Thin - 1 comp.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785183",
+    "site": "qth",
+    "ask": 475.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 250.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128127975845",
+      "source": "ebay",
+      "notes": "Buy It Now. +$35.00 delivery shown.",
+      "flags": []
+    }
+  ]
+}
