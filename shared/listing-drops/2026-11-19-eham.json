@@ -1,0 +1,8 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-19",
+  "ran_at": "2026-11-19T05:53:05-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-18T05:52:49-05:00 (prior eham run). Browsed signed OUT ('Login/Register' / 'Welcome Guest' shown). First classifieds load showed a Cloudflare 'Performing security verification' interstitial that cleared on its own within ~10 s (no CAPTCHA, no 1015, no interaction). Read public classifieds page 1 only (one page load); no individual ad pages, search form, sold searches, or seller/callsign pages; no ad IDs probed. No new ads since the prior run: page 1 ran 629676 down to 629666, all posted 2026-11-17/18 and already covered by earlier runs (site stats showed 1 ad posted in last 24 h, which is 629676, already dropped). Page 2 not loaded since it holds only older ads. No not-yet-public ads seen. Zero candidates, so no ledger lookups or eBay sold searches this run.",
+  "listings": []
+}
