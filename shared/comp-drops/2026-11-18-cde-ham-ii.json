@@ -1,0 +1,70 @@
+{
+  "model": "CDE Ham II (CD44 rotator control box)",
+  "slug": "cde-ham-ii",
+  "searched_at": "2026-11-18T18:55:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-18. 6 kept (solid), median 49.98. Control box only. 6 kept (2 OUTLIERs). Dropped: 3 Best-offer-accepted (188934349716 $59.99, 407302102591 $49.97, 287626808728 $34.95 [also parts-only]); 2 parts-only/as-is (398338634991 $229.99 CD-45-II rotator w/ control box, Parts Only; 336847563647 $17.50 auction, Parts Only, Powers On Untested AS-IS); 1 untested treated as as-is (257736996881 $40.00, Sep 30, title \"...Ham II Cd44 With Untested\"); 1 bundle (206308655965 $199.95, rotator + control box, Works). The trigger listing itself says \"Unknown functionality. Untested. See pictures\".",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/198803573621",
+    "site": "ebay",
+    "ask": 40,
+    "shipping": 11.88
+  },
+  "comps": [
+    {
+      "price": 49.98,
+      "sold_date": "2026-11-07",
+      "condition": "Pre-Owned (Buy It Now)",
+      "url": "https://www.ebay.com/itm/860054601414",
+      "source": "ebay",
+      "notes": "fixed price; shipping free; title: Vintage CDE Transmit/receive Direction Control Model Ham II Cd44",
+      "flags": []
+    },
+    {
+      "price": 49.99,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned (Buy It Now)",
+      "url": "https://www.ebay.com/itm/336870784216",
+      "source": "ebay",
+      "notes": "fixed price; shipping +$7.95; title: CDE Transmit Receive Direction Control Works Tested (title does not name Ham II; identified as the CDE T/R direction control box)",
+      "flags": []
+    },
+    {
+      "price": 95.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned (Buy It Now)",
+      "url": "https://www.ebay.com/itm/198653726431",
+      "source": "ebay",
+      "notes": "OUTLIER: 1.9x the median of the other kept comps (49.98); title: VERY NICE and Updated ... BIN $95 OBO (or Best Offer, not marked accepted); shipping +$15.00",
+      "flags": []
+    },
+    {
+      "price": 40.0,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned (Buy It Now)",
+      "url": "https://www.ebay.com/itm/407235497016",
+      "source": "ebay",
+      "notes": "fixed price; shipping +$6.79; title: CDE HF Transmit/Receive Direction Control Unit Calibrate Brake Release (title does not name Ham II; identified as the CDE T/R direction control unit)",
+      "flags": []
+    },
+    {
+      "price": 26.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned (auction)",
+      "url": "https://www.ebay.com/itm/257716652236",
+      "source": "ebay",
+      "notes": "auction final bid; shipping +$27.01; title: Vintage CDE HAM-II CD44 Transmit/Receive Direction Rotor Control",
+      "flags": []
+    },
+    {
+      "price": 110.0,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned (Buy It Now)",
+      "url": "https://www.ebay.com/itm/227492610152",
+      "source": "ebay",
+      "notes": "OUTLIER: 2.2x the median of the other kept comps (49.98); fixed price; shipping free; title: CDE Ham-II/CD44 Rotor Rotator Control Box",
+      "flags": []
+    }
+  ]
+}
