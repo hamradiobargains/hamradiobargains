@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-90",
+  "slug": "yaesu-ft-90",
+  "searched_at": "2026-11-19T17:58:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"yaesu ft-90\", page 1 (no \"fewer words\" section; mostly accessories). 0 kept comps — thin. Trigger is listed as FT-90 (20W per title), not FT-90R. Excluded: 267847604455 FT-90R $100 (different model), 168853644956 FT-90R parts only $168.65 (dropped 1 parts-only; also different model), 800883370133 \"YAESU FT-90 MICRO COMMANDER\" $280 BIN (left out — \"Micro Commander\" is the US FT-90R name, so model identity is uncertain). Dropped 0 best-offer-accepted.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366823269765",
+    "site": "ebay",
+    "ask": 400.93,
+    "shipping": 85.0
+  },
+  "comps": []
+}
