@@ -1,0 +1,25 @@
+{
+  "model": "FlexRadio FLEX-8400",
+  "slug": "flexradio-flex-8400",
+  "searched_at": "2026-11-19T14:58:32-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'flex 8400', page 1: 1 result, kept. Dropped 0 best-offer-accepted, 0 parts-only. Thin - 1 comp. Comp title does not mention ATU; trigger listing includes ATU and GPS.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785219",
+    "site": "qth",
+    "ask": 2299.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 2222.0,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206527032383",
+      "source": "ebay",
+      "notes": "Auction, 3 bids. +$24.39 delivery shown. Title: FLEX-8400 SDR Transceiver.",
+      "flags": []
+    }
+  ]
+}
