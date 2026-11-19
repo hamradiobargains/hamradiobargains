@@ -1,0 +1,15 @@
+{
+  "model": "Lab599 TX-500MP",
+  "slug": "lab599-tx-500mp",
+  "searched_at": "2026-11-19T17:58:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"lab599 tx-500mp\", page 1: only 1 result above \"Results matching fewer words\" and it was an accessory (amplifier keying cable). 0 unit comps — thin. Dropped 0 best-offer-accepted, 0 parts-only. Note: ledger has \"LAB599 TX-500\" (different model from TX-500MP; also stale, 2026-10-11) — not used.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/377659939803",
+    "site": "ebay",
+    "ask": 1800.0,
+    "shipping": 0
+  },
+  "comps": []
+}
