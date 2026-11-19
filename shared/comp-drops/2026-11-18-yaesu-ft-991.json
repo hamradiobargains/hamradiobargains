@@ -1,0 +1,43 @@
+{
+  "model": "Yaesu FT-991",
+  "slug": "yaesu-ft-991",
+  "searched_at": "2026-11-18T18:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-18. 3 kept (solid), median 650.00. Original FT-991 only (FT-991A results excluded per Leo ruling). 3 kept, median 650.00 (solid). Dropped: 5 Best-offer-accepted (800647647024 $650.00, 117399359206 $1,000.00 [also bundle w/ MD-100 mic etc.], 178471016735 $799.99, 178456840062 $845.00, 800568396331 $750.00); 1 parts-only (267760073694 $275.00, \"Parts Only\", Aug 20); 1 instruction manual (192037858843 $17.95, accessory, excluded). Page 1 only; FT-991A listings excluded as different model.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+    "site": "qth",
+    "ask": 600,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 586.0,
+      "sold_date": "2026-11-11",
+      "condition": "Pre-Owned (auction, 4 bids)",
+      "url": "https://www.ebay.com/itm/128169070600",
+      "source": "ebay",
+      "notes": "auction final bid; shipping +$45.00; seller 100% positive (14)",
+      "flags": []
+    },
+    {
+      "price": 776.66,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned (auction)",
+      "url": "https://www.ebay.com/itm/128111155293",
+      "source": "ebay",
+      "notes": "auction final bid; shipping +$139.86; title: with Manuals",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned (Buy It Now)",
+      "url": "https://www.ebay.com/itm/800686253602",
+      "source": "ebay",
+      "notes": "fixed price; shipping +$20.27; title: with Manuals",
+      "flags": []
+    }
+  ]
+}
