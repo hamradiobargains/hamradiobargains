@@ -1,0 +1,25 @@
+{
+  "model": "Radioddity DB40-D",
+  "slug": "radioddity-db40-d",
+  "searched_at": "2026-11-18T18:59:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-18. 1 kept (thin), median 349.95. 1 kept (thin). Dropped: 2 Best-offer-accepted (117438437216 $199.95, Sep 30, Brand New; 158184063149 $195.00, Aug 21, Brand New); 1 parts-only (117375484876 $98.89, Aug 25, PARTS ONLY).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785133",
+    "site": "qth",
+    "ask": 195,
+    "shipping": 20
+  },
+  "comps": [
+    {
+      "price": 349.95,
+      "sold_date": "2026-10-09",
+      "condition": "Open Box (Buy It Now)",
+      "url": "https://www.ebay.com/itm/227488571764",
+      "source": "ebay",
+      "notes": "fixed price; shipping free; Radioddity DB40-D DMR Mobile Radio VHF/UHF analog/digital bluetooth",
+      "flags": []
+    }
+  ]
+}
