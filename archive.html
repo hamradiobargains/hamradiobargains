@@ -644,6 +644,14 @@ disambigEl.style.display = 'none';
 return;
 }
 
+// Anonymous usage count (GoatCounter event): one ping per search, tagged
+// with the term typed, so we can see which models people look up.
+try {
+if (window.goatcounter && window.goatcounter.count) {
+window.goatcounter.count({ path: 'checker-search/' + kw.replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''), title: 'Price Checker search', event: true });
+}
+} catch (e) {}
+
 const matches = allDeals.filter(d => matchesKeyword(d.item, kw));
 const compMatches = (compModels || []).filter(m => matchesKeyword(m.key, kw));
 const kwToks = tok(kw);
@@ -759,5 +767,6 @@ loadComps();
   }, 250);
 })();
 </script>
+<script data-goatcounter="https://hrb.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
