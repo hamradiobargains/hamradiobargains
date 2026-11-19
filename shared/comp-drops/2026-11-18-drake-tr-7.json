@@ -1,0 +1,59 @@
+{
+  "model": "Drake TR-7",
+  "slug": "drake-tr-7",
+  "searched_at": "2026-11-18T18:57:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-18. 4 kept (solid), median 694.50. 4 kept, median 694.50 (solid); none are outliers. Dropped: 1 parts-only (960021037704 $405.00 auction, Parts Only, Oct 15); 1 \"Please Read\" title (267763689565 $450.00, Sep 3, \"Solid State Works Please Read\" - treated as disclosed-flaw, same as Read Description); 1 TR7A variant, different radio (206561618086 $301.00 auction, Sep 23); AUX-7 boards, PTOs, manuals, knobs, switches, filters and other parts excluded (accessories, incl. 3 AUX-7 board sales at $159.95-$169.95 and 4 Best-offer-accepted parts/manual sales). Ledger DRAKE TR-7 (count 5, 2026-10-08, median 450.00) is older than 30 days so was not used.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785117",
+    "site": "qth",
+    "ask": 850,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 689.0,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned (Buy It Now)",
+      "url": "https://www.ebay.com/itm/128178148928",
+      "source": "ebay",
+      "notes": "fixed price; shipping +$86.00; title: TRANSCEIVER DRAKE TR-7 SERIAL #3288 VINTAGE",
+      "flags": []
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned (Buy It Now)",
+      "url": "https://www.ebay.com/itm/198702128924",
+      "source": "ebay",
+      "notes": "fixed price; shipping +$182.91; title: TR-7 + Filters + PS-7 Power Supply (works)",
+      "flags": [
+        "extras_included",
+        "option_installed"
+      ]
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned (Buy It Now)",
+      "url": "https://www.ebay.com/itm/147653444592",
+      "source": "ebay",
+      "notes": "fixed price; shipping +$150.00; title: Vintage Drake HAM Station Group: TR-7 (S/N 10761), PS-7, RV-7, MS-7 - $900 (OBO); same station set as QTH ad 1785117 (TR7, RV7, MS7, PS7)",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 649.95,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned (Buy It Now)",
+      "url": "https://www.ebay.com/itm/298741681836",
+      "source": "ebay",
+      "notes": "fixed price; shipping +$122.97; title: TR-7 HF Transceiver 160-10 m with PS-7 Power Supply and 7077 Base Mic",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
