@@ -1,0 +1,54 @@
+{
+  "model": "Heil Goldline GM-5",
+  "slug": "heil-goldline-gm-5",
+  "searched_at": "2026-11-18T18:54:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-18. 4 kept (solid), median 74.97. 4 kept (incl. 1 OUTLIER), median of kept 74.97. Dropped: 2 Best-offer-accepted (117494904293 $50.00 Nov 1; 128109793621 $59.99 Oct 23).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785074",
+    "site": "qth",
+    "ask": 100,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 5.69,
+      "sold_date": "2026-11-13",
+      "condition": "Pre-Owned (auction)",
+      "url": "https://www.ebay.com/itm/287725396430",
+      "source": "ebay",
+      "notes": "OUTLIER: price far below the other kept comps (0.06x their median 89.95) - likely missing element or flawed unit, title does not say; auction final bid; shipping +$7.63; title: Handheld Wired XLR Mic On/Off Switch w/ Storage Bag",
+      "flags": []
+    },
+    {
+      "price": 89.99,
+      "sold_date": "2026-11-12",
+      "condition": "USED (Buy It Now)",
+      "url": "https://www.ebay.com/itm/940082494970",
+      "source": "ebay",
+      "notes": "fixed price; shipping +$10.00; title: LOOKS UNUSED ... GM-5 DX DREAM MACHINE with HC-5 element",
+      "flags": []
+    },
+    {
+      "price": 89.95,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned (Buy It Now)",
+      "url": "https://www.ebay.com/itm/366767381845",
+      "source": "ebay",
+      "notes": "fixed price; shipping +$9.95; title includes Gold Mesh Desk Stand and PTT cable",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 59.99,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned (Buy It Now)",
+      "url": "https://www.ebay.com/itm/128091713995",
+      "source": "ebay",
+      "notes": "fixed price; shipping +$14.85; Dual Element Dynamic Microphone",
+      "flags": []
+    }
+  ]
+}
