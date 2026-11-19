@@ -1,0 +1,15 @@
+{
+  "model": "Hy-Gain Ham III",
+  "slug": "hy-gain-ham-iii",
+  "searched_at": "2026-11-19T14:58:32-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'ham iii rotor', page 1 (5 results before 'fewer words'): 0 complete-rotor comps. Left out: 4 sales of a CDE Ham-III/CD-44 controller only (3 of them best-offer-accepted, $75/$85/$85; 1 or-best-offer $85 2026-08-28) and 1 motor capacitor. No parts-only drops. Thin - no comps.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785221",
+    "site": "qth",
+    "ask": 325.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
