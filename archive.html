@@ -268,7 +268,7 @@ border-top: 1px solid var(--border);
 </div>
 
 <div class="result-card" id="result-card">
-<div class="query-label">Fair market value for</div>
+<div class="query-label" id="result-query-label">Fair market value for</div>
 <div class="item-name" id="result-name"></div>
 <div class="stat-row">
 <div class="stat">
@@ -277,11 +277,11 @@ border-top: 1px solid var(--border);
 </div>
 <div class="stat">
 <div class="value" id="result-range"></div>
-<div class="label">Price range</div>
+<div class="label" id="result-range-label">Price range</div>
 </div>
 <div class="stat">
 <div class="value" id="result-median"></div>
-<div class="label">Median price</div>
+<div class="label" id="result-median-label">Median price</div>
 </div>
 </div>
 <p id="result-note" style="margin-top:14px;font-size:13px;color:var(--muted);line-height:1.5;"></p>
@@ -573,6 +573,9 @@ high = Math.max(high, hi);
 weightedSum += d.compMedian * w;
 });
 const med = weightedSum / count;
+document.getElementById('result-query-label').textContent = 'Fair market value for';
+document.getElementById('result-range-label').textContent = 'Price range';
+document.getElementById('result-median-label').textContent = 'Median price';
 document.getElementById('result-name').textContent = label;
 document.getElementById('result-count').textContent = count.toLocaleString();
 document.getElementById('result-range').textContent = low === high ? fmtMoney(low) : (fmtMoney(low) + ' \u2013 ' + fmtMoney(high));
@@ -609,6 +612,19 @@ const ds = archiveDeals.map(d => d.date).filter(Boolean).sort();
 note += ' We have also published ' + archiveDeals.length + ' deal' + (archiveDeals.length > 1 ? 's' : '') + ' for this model; the fair values recorded then ran ' + fmtMoney(Math.min(...meds)) + ' \u2013 ' + fmtMoney(Math.max(...meds));
 if (ds.length) note += ' (' + fmtMonth(ds[0]) + ' \u2013 ' + fmtMonth(ds[ds.length - 1]) + ')';
 note += ' \u2014 markets move, so judge by the current figure above.';
+}
+if (m.latest.count < 3 && !(archiveDeals && archiveDeals.length)) {
+const n = m.latest.count;
+document.getElementById('result-query-label').textContent = 'Early recorded sales for';
+document.getElementById('result-range-label').textContent = n === 2 ? 'The two sales so far' : 'Recorded sale so far';
+document.getElementById('result-median-label').textContent = n === 2 ? 'Midpoint so far' : 'Only sale so far';
+if (n === 2) {
+note = 'Early days \u2014 only 2 recorded sales so far: ' + fmtMoney(m.latest.low) + ' and ' + fmtMoney(m.latest.high);
+} else {
+note = 'Early days \u2014 only 1 recorded sale so far: ' + fmtMoney(m.latest.low);
+}
+if (m.latest.date) note += ' (recorded through ' + fmtDate(m.latest.date) + ')';
+note += '. That is a rough guide, not a fair value yet \u2014 once we have recorded 3 or more sales of this model, this card becomes a fair value.';
 }
 document.getElementById('result-note').textContent = note;
 }
