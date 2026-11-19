@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-2000D",
+  "slug": "yaesu-ft-2000d",
+  "searched_at": "2026-11-19T14:58:32-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ft-2000d', page 1 (13 results before 'fewer words'): 0 exact FT-2000D comps. Left out as different model: 4 Yaesu FT-2000 (100 W, not the 200 W FT-2000D) sales ($899 2026-11-13, $850 or-best-offer 2026-10-14, $850 best-offer-accepted 2026-09-15, one 2026-08-23 whose price I did not fully read), 8 FT-2500M/FT-2400H 2 m mobiles, 1 FT-2000 knob set. No best-offer-accepted or parts-only drops among exact-model sales (none existed). Thin - no comps; ledger YAESU FT-2000D has count 2 (2026-11-03).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785189",
+    "site": "qth",
+    "ask": 1100.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
