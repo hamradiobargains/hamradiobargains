@@ -1,0 +1,34 @@
+{
+  "model": "Palstar HF-Auto",
+  "slug": "palstar-hf-auto",
+  "searched_at": "2026-11-19T14:58:32-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'palstar hf-auto', page 1 (7 results before 'fewer words'): kept 2. Dropped 2 best-offer-accepted ($1,050 2026-08-31 '1500 Watt'; $1,400 2026-08-30 '1500w'). Dropped 0 parts-only. Left out 3 non-units: Palstar AT2K tuner (different model), HF-AUTO-R remote control, dust cover. Thin - 2 comps.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785220",
+    "site": "qth",
+    "ask": 1199.0,
+    "shipping": 48.0
+  },
+  "comps": [
+    {
+      "price": 1350.0,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206622851061",
+      "source": "ebay",
+      "notes": "Buy It Now. +$94.02 delivery shown. Title says 1800W, includes manual, (excellent).",
+      "flags": []
+    },
+    {
+      "price": 1298.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407205685634",
+      "source": "ebay",
+      "notes": "Auction, 14 bids. +$24.12 delivery shown. Title says 1800 Watts.",
+      "flags": []
+    }
+  ]
+}
