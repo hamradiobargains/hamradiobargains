@@ -1,0 +1,85 @@
+{
+  "model": "Kenwood TS-870S",
+  "slug": "kenwood-ts-870s",
+  "searched_at": "2026-11-19T17:58:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"kenwood ts-870s\", page 1, above \"Results matching fewer words\". 7 kept unit comps. Dropped 3 best-offer-accepted (units at $600, $799, $685). Dropped 0 parts-only. Excluded accessories/boards/knobs/cables. No outliers (kept median $700). 117403308350 and 117402683413 have identical title, price, seller listing style and sold date — possible duplicate.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366823268828",
+    "site": "ebay",
+    "ask": 1800.51,
+    "shipping": 200.0
+  },
+  "comps": [
+    {
+      "price": 677.77,
+      "sold_date": "2026-11-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880122557269",
+      "source": "ebay",
+      "notes": "Buy It Now; +$49.87 shipping",
+      "flags": []
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298668466957",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; +$61.51 shipping; title \"Kenwood TS-870, TS-870S\"",
+      "flags": []
+    },
+    {
+      "price": 849.99,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117403308350",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not accepted); free shipping; title \"Boxed MC-43S + Extras\"; possible duplicate of 117402683413",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 849.99,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117402683413",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not accepted); free shipping; title \"Boxed MC-43S + Extras\"; possible duplicate of 117403308350",
+      "flags": [
+        "extras_included",
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267769850644",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not accepted); free shipping",
+      "flags": []
+    },
+    {
+      "price": 499.66,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278329775073",
+      "source": "ebay",
+      "notes": "Auction, 1 bid",
+      "flags": []
+    },
+    {
+      "price": 657.45,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128060184224",
+      "source": "ebay",
+      "notes": "Buy It Now; shipping not shown",
+      "flags": []
+    }
+  ]
+}
