@@ -1,55 +1,13 @@
 {
  "week_of": "2026-11-16",
  "angle_label": "25% rule",
- "note": "Remainder of the week of Nov 16, 2026, prepared by Archie when Leo handed group posting to Claude (2026-11-19). Mon-Wed are not listed; Leo posted those himself. Post only the entries for today's date. Entries with hold=true are never posted until Archie reissues the queue without the hold.",
+ "note": "Remainder of the week of Nov 16, 2026, prepared by Archie when Leo handed group posting to Claude (2026-11-19). Mon-Wed are not listed; Leo posted those himself. Thu Nov 19 was pulled the same morning at Leo's direction (password change on his home PC; posting starts Fri Nov 20 instead) — those 8 groups roll into next week's rotation automatically. Post only the entries for today's date. Entries with hold=true are never posted until Archie reissues the queue without the hold.",
  "copies": {
   "standard": "How do you know what a used rig is actually worth?\n\nI got tired of guessing, so I built a ledger. Every day I record what used ham gear really sells for — actual sold prices, not asking prices — and work out a fair value for each model from those sales. Then I go looking for listings priced around 25% below that fair value. Buy at that level and the rig is money parked, not money gone: use it, enjoy it, and you can usually get your money back out of it later.\n\nThe method's written up here, free for anybody to use: https://hamradiobargains.com/source/\n\n73 — Leo, K4LFC",
   "dx_full": "Hello all — 40+ years a ham, and a regular reader here.\n\nQuick heads-up on a free page I keep that this group may get some use out of in November: it's called On the Air, on HamRadioBargains.com. Every month it writes up the DX contests and QSO parties in plain English — what the contest is, when the bands will be busy, and what it's like to jump in — no rulebook-speak. November is a strong month: Sweepstakes CW next weekend (Nov 7–9), Sweepstakes on phone two weeks later (Nov 21–23), and the month closes with CQ WW on CW (Nov 28–29) — October was voice, November ends in code.\n\nThe same site also tracks what used gear actually sells for, from recorded sales, and posts listings priced around 25% below that fair value — plus a free price checker if you're valuing a rig to buy or sell. But honestly, the On the Air page is the part I built for groups like this one.\n\nHope it's useful. See you in the pileups. 73",
   "dx_short": "40+ years a ham. I run the On the Air page at HamRadioBargains.com — plain-English write-ups of the month's DX contests. November: Sweepstakes CW Nov 7–9, Sweepstakes phone Nov 21–23, and CQ WW CW Nov 28–29. Free resource, built for clubs like this one. 73"
  },
  "days": {
-  "2026-11-19": [
-   {
-    "group": "NC Ham radio swap and classified",
-    "copy_id": "standard",
-    "post_used": "25% rule"
-   },
-   {
-    "group": "145 alive activity group",
-    "copy_id": "standard",
-    "post_used": "25% rule"
-   },
-   {
-    "group": "Brazos Valley amateur radio club",
-    "copy_id": "standard",
-    "post_used": "25% rule"
-   },
-   {
-    "group": "Ham active",
-    "copy_id": "standard",
-    "post_used": "25% rule"
-   },
-   {
-    "group": "Ham fest",
-    "copy_id": "standard",
-    "post_used": "25% rule"
-   },
-   {
-    "group": "Ham radio for non-techies",
-    "copy_id": "standard",
-    "post_used": "25% rule"
-   },
-   {
-    "group": "New Bern amateur radio club",
-    "copy_id": "standard",
-    "post_used": "25% rule"
-   },
-   {
-    "group": "Sierra foothills amateur radio club",
-    "copy_id": "standard",
-    "post_used": "25% rule"
-   }
-  ],
   "2026-11-20": [
    {
     "group": "W3KWH steel city radio club",
