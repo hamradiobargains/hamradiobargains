@@ -1,0 +1,61 @@
+{
+  "model": "Drake MN-2700",
+  "slug": "drake-mn-2700",
+  "searched_at": "2026-11-18T18:59:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Extras sweep 2026-11-18. 5 kept (solid), median 249.95. 5 kept (solid), median 249.95, 1 OUTLIER. Excluded: 2 instruction manuals (366753441802 $17.99; 206438846276 $20.00; accessories). No Best-offer-accepted or parts-only sales on page 1. Ledger DRAKE MN-2700 (count 6, 2026-10-12) is older than 30 days so was not used.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785139",
+    "site": "qth",
+    "ask": 225,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 269.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned (Buy It Now)",
+      "url": "https://www.ebay.com/itm/158205381486",
+      "source": "ebay",
+      "notes": "fixed price; shipping +$28.00; DRAKE MN-2700 2KW ANTENNA TUNER",
+      "flags": []
+    },
+    {
+      "price": 249.95,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned (Buy It Now)",
+      "url": "https://www.ebay.com/itm/287592976440",
+      "source": "ebay",
+      "notes": "fixed price; shipping +$23.34; title: WORKS GOOD",
+      "flags": []
+    },
+    {
+      "price": 120.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned (auction)",
+      "url": "https://www.ebay.com/itm/198621263290",
+      "source": "ebay",
+      "notes": "OUTLIER: 0.46x the median of the other kept comps (259.48); auction final bid; shipping not shown",
+      "flags": []
+    },
+    {
+      "price": 152.5,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned (auction)",
+      "url": "https://www.ebay.com/itm/287552909496",
+      "source": "ebay",
+      "notes": "auction final bid; shipping +$20.27",
+      "flags": []
+    },
+    {
+      "price": 299.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned (Buy It Now)",
+      "url": "https://www.ebay.com/itm/287549882308",
+      "source": "ebay",
+      "notes": "fixed price; shipping +$23.56; title: Beautiful",
+      "flags": []
+    }
+  ]
+}
