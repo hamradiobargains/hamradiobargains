@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FTM-350R",
+  "slug": "yaesu-ftm-350r",
+  "searched_at": "2026-11-19T17:58:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"yaesu ftm-350r\", page 1, above \"Results matching fewer words\" (results mostly other models). 0 kept unit comps — thin. Dropped 1 parts-only (128118871461, $238.50 auction, Parts Only). Excluded 2 front panel / control head only sales (accessories) and 1 FTM-350AR (different model; also best-offer-accepted, $349.99) — counted as dropped 1 best-offer-accepted.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/407375427491",
+    "site": "ebay",
+    "ask": 295.0,
+    "shipping": 19.7
+  },
+  "comps": []
+}
