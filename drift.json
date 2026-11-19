@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-18T13:53:38+00:00",
+ "updated": "2026-11-19T13:53:38+00:00",
  "models": {
+  "ALINCO DM-330MV": {
+   "display": "Alinco DM-330MV",
+   "pct": 7.4,
+   "window": "3mo",
+   "recent_median": 145.0,
+   "recent_count": 13,
+   "prior_median": 135.0,
+   "prior_count": 5
+  },
   "ASTRON RS-20A": {
    "display": "Astron RS-20A",
    "pct": 20.1,
@@ -15,9 +24,9 @@
    "pct": 0.0,
    "window": "3mo",
    "recent_median": 75.0,
-   "recent_count": 24,
-   "prior_median": 74.99,
-   "prior_count": 5
+   "recent_count": 23,
+   "prior_median": 75.0,
+   "prior_count": 6
   },
   "ELECRAFT K3/100": {
    "display": "Elecraft K3/100",
@@ -57,12 +66,12 @@
   },
   "ICOM IC-7300": {
    "display": "Icom IC-7300",
-   "pct": 5.0,
+   "pct": 1.0,
    "window": "3mo",
-   "recent_median": 787.5,
-   "recent_count": 36,
-   "prior_median": 749.95,
-   "prior_count": 7
+   "recent_median": 780.0,
+   "recent_count": 35,
+   "prior_median": 772.48,
+   "prior_count": 8
   },
   "ICOM IC-R20": {
    "display": "Icom IC-R20",
@@ -111,12 +120,12 @@
   },
   "MFJ-989C": {
    "display": "MFJ-989C",
-   "pct": 3.0,
+   "pct": -5.8,
    "window": "3mo",
-   "recent_median": 244.5,
-   "recent_count": 8,
-   "prior_median": 237.47,
-   "prior_count": 6
+   "recent_median": 235.0,
+   "recent_count": 6,
+   "prior_median": 249.47,
+   "prior_count": 8
   },
   "RADIO SHACK DX-394": {
    "display": "Radio Shack DX-394",
@@ -174,10 +183,10 @@
   },
   "YAESU FT-857": {
    "display": "Yaesu FT-857",
-   "pct": -27.8,
+   "pct": -25.0,
    "window": "3mo",
-   "recent_median": 650.0,
-   "recent_count": 7,
+   "recent_median": 675.0,
+   "recent_count": 9,
    "prior_median": 899.99,
    "prior_count": 7
   },
@@ -198,15 +207,6 @@
    "recent_count": 22,
    "prior_median": 1099.0,
    "prior_count": 7
-  },
-  "YAESU FTM-500DR": {
-   "display": "Yaesu FTM-500DR",
-   "pct": -6.3,
-   "window": "3mo",
-   "recent_median": 440.5,
-   "recent_count": 14,
-   "prior_median": 470.0,
-   "prior_count": 5
   },
   "YAESU M-90D": {
    "display": "Yaesu M-90D",
