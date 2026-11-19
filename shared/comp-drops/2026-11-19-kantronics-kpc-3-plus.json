@@ -1,0 +1,103 @@
+{
+  "model": "Kantronics KPC-3 Plus",
+  "slug": "kantronics-kpc-3-plus",
+  "searched_at": "2026-11-19T17:58:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"kantronics kpc-3 plus\", page 1 (no \"fewer words\" section). 9 kept unit comps. Dropped 1 best-offer-accepted (366716993152, $99.99), dropped 1 parts-only (336835821632, $15). Excluded 1 bundle (227410283123, KPC-3 Plus + KPC-9612 Plus combo, $139.99), memory/firmware upgrades, manuals, KAM/KPC-3 non-plus/other units. OUTLIER: 358162739169 at $203.39 vs ~$73 median for the rest. 298678504590 / 298654769479 share an identical title and shipping — possible duplicate.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/840146130862",
+    "site": "ebay",
+    "ask": 99.0,
+    "shipping": 13.7
+  },
+  "comps": [
+    {
+      "price": 79.95,
+      "sold_date": "2026-11-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117469817489",
+      "source": "ebay",
+      "notes": "Buy It Now; +$7.36 shipping; firmware ver. 8.3",
+      "flags": []
+    },
+    {
+      "price": 51.0,
+      "sold_date": "2026-10-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287667687676",
+      "source": "ebay",
+      "notes": "Auction, 2 bids; +$8.42 shipping; title \"Vintage\"",
+      "flags": []
+    },
+    {
+      "price": 60.0,
+      "sold_date": "2026-10-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880054872817",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not accepted); +$13.50 shipping",
+      "flags": []
+    },
+    {
+      "price": 203.39,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358162739169",
+      "source": "ebay",
+      "notes": "OUTLIER: $203.39 vs ~$73 median for the rest. Fixed price, or Best Offer (not accepted); +$8.99 shipping; title \"w/ Cables\"",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 55.99,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206600822710",
+      "source": "ebay",
+      "notes": "Buy It Now; +$6.97 shipping; V8.3",
+      "flags": []
+    },
+    {
+      "price": 69.95,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298678504590",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not accepted); +$19.70 shipping; V9.1; same title as 298654769479",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 79.95,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298654769479",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not accepted); +$19.70 shipping; V9.1; same title as 298678504590",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 79.95,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237052448072",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not accepted); +$19.70 shipping; title \"V8.3?\"",
+      "flags": []
+    },
+    {
+      "price": 76.49,
+      "sold_date": "2026-08-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206499099522",
+      "source": "ebay",
+      "notes": "Buy It Now; +$6.98 shipping; V9.1",
+      "flags": []
+    }
+  ]
+}
