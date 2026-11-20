@@ -1,0 +1,43 @@
+{
+  "model": "Icom IC-9700",
+  "slug": "icom-ic-9700",
+  "searched_at": "2026-11-20T15:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "searched_at is when this drop was built; the eBay sold search ran in the preceding ~10 minutes. eBay sold search, page 1 exact-match section only. 3 comps kept - solid set. Dropped 2 best-offer-accepted (Nov 6 new $2,100; Oct 7 Japan 50W open box $1,400). Dropped 2 parts-only (Sep 15 bundle w/ PS + SP-38 $1,750, Parts Only, also best-offer-accepted; Sep 13 'intermittent - parts or repair' $745.95, also best-offer-accepted). Left out Nov 7 'ICOM 9700 ... 50W ... Japan' brand new $1,366.80 - Japanese-domestic 50 W version, not certain it is the same model as the US 100 W IC-9700. No outliers. Ledger miss: ICOM IC-9700 latest date 2026-10-19 is older than 30 days.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785258",
+    "site": "qth",
+    "ask": 1599.0,
+    "shipping": 65.0
+  },
+  "comps": [
+    {
+      "price": 1590.0,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940012266787",
+      "source": "ebay",
+      "notes": "+$21.86 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 1300.0,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307169645245",
+      "source": "ebay",
+      "notes": "+$180.00 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 1550.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178437192271",
+      "source": "ebay",
+      "notes": "Auction, 27 bids. Title: with original box and power cable. +$8.43 delivery shown.",
+      "flags": []
+    }
+  ]
+}
