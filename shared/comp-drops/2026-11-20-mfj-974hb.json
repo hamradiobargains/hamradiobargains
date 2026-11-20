@@ -1,0 +1,15 @@
+{
+  "model": "MFJ-974HB",
+  "slug": "mfj-974hb",
+  "searched_at": "2026-11-20T17:57:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"mfj 974hb\", page 1: only 1 sold result, and it was parts-only (377564537278, $25, Oct 12 2026, eBay \"Parts Only\") — dropped. Dropped 0 best-offer-accepted, 1 parts-only. 0 comps kept — thin (no usable comps).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/900108048551",
+    "site": "ebay",
+    "ask": 275.0,
+    "shipping": 20.0
+  },
+  "comps": []
+}
