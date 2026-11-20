@@ -1,0 +1,52 @@
+{
+  "model": "TYT TH-8600",
+  "slug": "tyt-th-8600",
+  "searched_at": "2026-11-19T18:58:22-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "4 kept, median 155.39, low 110.0, high 183.72 — solid (3+). dropped Best-offer-accepted: 116971960308 ($100.00, Nov 2). Excluded: microphones, programming cables, speaker mics. Kept sales are 3 Brand New + 1 Open Box, no Pre-Owned radio sale on page 1. searched via eBay sold/completed page 1, signed in as Leo, no challenge; searched_at is the file-write time (approximate).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785138",
+    "site": "qth",
+    "ask": 50,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 167.9,
+      "sold_date": "2026-11-11",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/267497526910",
+      "source": "ebay",
+      "notes": "shipping free",
+      "flags": []
+    },
+    {
+      "price": 142.87,
+      "sold_date": "2026-09-09",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/375195970182",
+      "source": "ebay",
+      "notes": "fixed price or Best Offer, not marked accepted; includes import fees; shipping $19.99",
+      "flags": []
+    },
+    {
+      "price": 110.0,
+      "sold_date": "2026-09-07",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/227491445630",
+      "source": "ebay",
+      "notes": "fixed price or Best Offer, not marked accepted; shipping free",
+      "flags": []
+    },
+    {
+      "price": 183.72,
+      "sold_date": "2026-09-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/256300604019",
+      "source": "ebay",
+      "notes": "located in China; fixed price or Best Offer, not marked accepted; shipping $9.98",
+      "flags": []
+    }
+  ]
+}
