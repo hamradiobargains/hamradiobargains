@@ -1,0 +1,15 @@
+{
+  "model": "Heathkit PS-23",
+  "slug": "heathkit-ps-23",
+  "searched_at": "2026-11-19T18:58:22-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "0 kept, no median — zero usable comps. zero usable comps: only unit-looking sale was 800566569522 (Heathkit PS-23, $114.25, Sep 7, Best offer accepted, dropped). Others were rebuild/restoration kits, boards, cages (excluded). searched via eBay sold/completed page 1, signed in as Leo, no challenge; searched_at is the file-write time (approximate).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785157",
+    "site": "qth",
+    "ask": 145,
+    "shipping": 0
+  },
+  "comps": []
+}
