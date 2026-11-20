@@ -1,0 +1,142 @@
+{
+  "model": "Kenwood R-1000",
+  "slug": "kenwood-r-1000",
+  "searched_at": "2026-11-19T18:58:22-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "14 kept, median 195.5, low 149.99, high 399.95 — solid (3+). dropped Best-offer-accepted (7): 168856197532 ($120.00), 800806035254 ($249.95), 267822358275 ($109.99), 198731786960 ($150.00), 287622477680 ($285.00), 267794951308 ($135.00), 128018444319 ($179.99), plus parts-only/untested sold separately: 257830445244 ($78.87 Parts Only auction), 128139543870 ($116.00 Parts Only untested), 298634088121 ($80.00 Parts Only), 306813002457 ($312.79 Parts Only). Excluded accessories/boards: 397087816294, 144101803766, 394008812499, ATR-1000 tuners, UT-106. OUTLIERS: 407251574155 ($399.95, 2.0x median of others) and 257442794819 ($360.00, 1.8x). Page 1 spans Aug 25-Nov 17. searched via eBay sold/completed page 1, signed in as Leo, no challenge; searched_at is the file-write time (approximate). OUTLIERS (kept, flagged): 407251574155 $399.95 (2.05x), 257442794819 $360.00 (1.85x).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785213",
+    "site": "qth",
+    "ask": 260,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 180.0,
+      "sold_date": "2026-11-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267840860354",
+      "source": "ebay",
+      "notes": "shipping free",
+      "flags": []
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-11-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800900745570",
+      "source": "ebay",
+      "notes": "shipping $42.36",
+      "flags": []
+    },
+    {
+      "price": 165.0,
+      "sold_date": "2026-11-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327449674096",
+      "source": "ebay",
+      "notes": "shipping $35.50",
+      "flags": []
+    },
+    {
+      "price": 195.0,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840056024889",
+      "source": "ebay",
+      "notes": "shipping $11.54",
+      "flags": []
+    },
+    {
+      "price": 399.95,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407251574155",
+      "source": "ebay",
+      "notes": "OUTLIER: 2.05x median of other kept comps; shipping $35.65",
+      "flags": []
+    },
+    {
+      "price": 250.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168766374448",
+      "source": "ebay",
+      "notes": "shipping $9.29",
+      "flags": []
+    },
+    {
+      "price": 157.5,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188857669454",
+      "source": "ebay",
+      "notes": "auction final bid; shipping $30.00",
+      "flags": []
+    },
+    {
+      "price": 195.99,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287563903794",
+      "source": "ebay",
+      "notes": "shipping $37.97",
+      "flags": []
+    },
+    {
+      "price": 186.69,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820091029656",
+      "source": "ebay",
+      "notes": "shipping $14.15",
+      "flags": []
+    },
+    {
+      "price": 149.99,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168647052218",
+      "source": "ebay",
+      "notes": "shipping $30.33",
+      "flags": []
+    },
+    {
+      "price": 259.99,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227345668997",
+      "source": "ebay",
+      "notes": "shipping $39.99",
+      "flags": []
+    },
+    {
+      "price": 360.0,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257442794819",
+      "source": "ebay",
+      "notes": "OUTLIER: 1.85x median of other kept comps; shipping free",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287532725226",
+      "source": "ebay",
+      "notes": "auction final bid; shipping $75.33",
+      "flags": []
+    },
+    {
+      "price": 207.43,
+      "sold_date": "2026-10-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407305966091",
+      "source": "ebay",
+      "notes": "title 'R 1000 HF'; includes import fees; shipping $76.72",
+      "flags": []
+    }
+  ]
+}
