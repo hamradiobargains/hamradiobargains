@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T13:53:38+00:00",
+ "updated": "2026-11-20T13:53:39+00:00",
  "source": "HamRadioBargains sold-comp ledger \u2014 genuine sold listings from eHam, QTH, eBay and site deals, plus the eHam comp archive. Prices are asking prices at sale; best offers may differ.",
  "models": {
   "ACOM 06AT": {
@@ -2243,11 +2243,11 @@
   },
   "FLEXRADIO FLEX-8400": {
    "latest": {
-    "date": "2026-07-19",
-    "median": 2049.0,
+    "date": "2026-09-07",
+    "median": 2135.5,
     "low": 2049.0,
-    "high": 2049.0,
-    "count": 1
+    "high": 2222.0,
+    "count": 2
    },
    "history": [
     {
@@ -2256,6 +2256,13 @@
      "low": 2049.0,
      "high": 2049.0,
      "count": 1
+    },
+    {
+     "date": "2026-09-07",
+     "median": 2135.5,
+     "low": 2049.0,
+     "high": 2222.0,
+     "count": 2
     }
    ]
   },
@@ -2292,6 +2299,24 @@
      "low": 470.0,
      "high": 772.26,
      "count": 9
+    }
+   ]
+  },
+  "GAMMA RESEARCH HPS-1A": {
+   "latest": {
+    "date": "2026-09-16",
+    "median": 49.99,
+    "low": 49.99,
+    "high": 49.99,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-09-16",
+     "median": 49.99,
+     "low": 49.99,
+     "high": 49.99,
+     "count": 1
     }
    ]
   },
@@ -4686,6 +4711,24 @@
     }
    ]
   },
+  "KANTRONICS KPC-3 PLUS": {
+   "latest": {
+    "date": "2026-11-01",
+    "median": 68.25,
+    "low": 51.0,
+    "high": 79.95,
+    "count": 6
+   },
+   "history": [
+    {
+     "date": "2026-11-01",
+     "median": 68.25,
+     "low": 51.0,
+     "high": 79.95,
+     "count": 6
+    }
+   ]
+  },
   "KENWOOD AT-230": {
    "latest": {
     "date": "2026-10-13",
@@ -4892,11 +4935,11 @@
   },
   "KENWOOD R-1000": {
    "latest": {
-    "date": "2026-10-09",
-    "median": 267.5,
+    "date": "2026-11-17",
+    "median": 208.72,
     "low": 149.99,
-    "high": 449.95,
-    "count": 16
+    "high": 399.95,
+    "count": 20
    },
    "history": [
     {
@@ -4912,6 +4955,13 @@
      "low": 149.99,
      "high": 449.95,
      "count": 16
+    },
+    {
+     "date": "2026-11-17",
+     "median": 208.72,
+     "low": 149.99,
+     "high": 399.95,
+     "count": 20
     }
    ]
   },
@@ -4973,6 +5023,24 @@
      "low": 199.95,
      "high": 465.0,
      "count": 11
+    }
+   ]
+  },
+  "KENWOOD SM-230": {
+   "latest": {
+    "date": "2026-10-11",
+    "median": 250.0,
+    "low": 250.0,
+    "high": 250.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-10-11",
+     "median": 250.0,
+     "low": 250.0,
+     "high": 250.0,
+     "count": 1
     }
    ]
   },
@@ -6208,11 +6276,11 @@
   },
   "KENWOOD TS-870S": {
    "latest": {
-    "date": "2026-09-19",
-    "median": 686.77,
+    "date": "2026-11-16",
+    "median": 677.77,
     "low": 511.9,
     "high": 800.0,
-    "count": 4
+    "count": 5
    },
    "history": [
     {
@@ -6228,6 +6296,13 @@
      "low": 511.9,
      "high": 800.0,
      "count": 4
+    },
+    {
+     "date": "2026-11-16",
+     "median": 677.77,
+     "low": 511.9,
+     "high": 800.0,
+     "count": 5
     }
    ]
   },
@@ -7227,6 +7302,24 @@
     }
    ]
   },
+  "MICROHAM DXP": {
+   "latest": {
+    "date": "2026-11-13",
+    "median": 350.0,
+    "low": 350.0,
+    "high": 350.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-11-13",
+     "median": 350.0,
+     "low": 350.0,
+     "high": 350.0,
+     "count": 1
+    }
+   ]
+  },
   "MIRAGE B108": {
    "latest": {
     "date": "2026-10-07",
@@ -7288,6 +7381,24 @@
     }
    ]
   },
+  "MIRAGE D-3010-N": {
+   "latest": {
+    "date": "2026-10-16",
+    "median": 179.95,
+    "low": 179.95,
+    "high": 179.95,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-10-16",
+     "median": 179.95,
+     "low": 179.95,
+     "high": 179.95,
+     "count": 1
+    }
+   ]
+  },
   "NANOVNA-H4": {
    "latest": {
     "date": "2026-09-02",
@@ -7302,6 +7413,24 @@
      "median": 50.0,
      "low": 50.0,
      "high": 50.0,
+     "count": 1
+    }
+   ]
+  },
+  "NATIONAL HRO-50T": {
+   "latest": {
+    "date": "2026-10-29",
+    "median": 175.0,
+    "low": 175.0,
+    "high": 175.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-10-29",
+     "median": 175.0,
+     "low": 175.0,
+     "high": 175.0,
      "count": 1
     }
    ]
@@ -8644,6 +8773,24 @@
     }
    ]
   },
+  "TYT TH-8600": {
+   "latest": {
+    "date": "2026-11-11",
+    "median": 155.38,
+    "low": 110.0,
+    "high": 183.72,
+    "count": 4
+   },
+   "history": [
+    {
+     "date": "2026-11-11",
+     "median": 155.38,
+     "low": 110.0,
+     "high": 183.72,
+     "count": 4
+    }
+   ]
+  },
   "TYT TH-9800": {
    "latest": {
     "date": "2026-10-29",
@@ -8659,6 +8806,24 @@
      "low": 138.98,
      "high": 277.89,
      "count": 9
+    }
+   ]
+  },
+  "UR6QW 5-BAND EQ (YAESU RJ-45)": {
+   "latest": {
+    "date": "2026-09-06",
+    "median": 105.0,
+    "low": 105.0,
+    "high": 105.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-09-06",
+     "median": 105.0,
+     "low": 105.0,
+     "high": 105.0,
+     "count": 1
     }
    ]
   },
