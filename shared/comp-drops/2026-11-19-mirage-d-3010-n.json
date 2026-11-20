@@ -1,0 +1,25 @@
+{
+  "model": "Mirage D-3010-N",
+  "slug": "mirage-d-3010-n",
+  "searched_at": "2026-11-19T18:58:22-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "1 kept, median 179.95, low 179.95, high 179.95 — thin. dropped Best-offer-accepted: 860106672233 (Mirage D 3010 TESTED, $249.00, Nov 2, +$29.44 delivery). Thin: 1 kept; D3010 vs D-3010-N identity not certain (ledger has MIRAGE D-3010 count 2 dated 2026-10-16). searched via eBay sold/completed page 1, signed in as Leo, no challenge; searched_at is the file-write time (approximate).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785129",
+    "site": "qth",
+    "ask": 175,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 179.95,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267804917427",
+      "source": "ebay",
+      "notes": "title: Mirage D3010 UHF 430-450 MHz 100W; does not say N-connector (D-3010-N) variant, so variant identity not certain; shipping free",
+      "flags": []
+    }
+  ]
+}
