@@ -1,0 +1,25 @@
+{
+  "model": "Radioddity DB40-D",
+  "slug": "radioddity-db40-d",
+  "searched_at": "2026-11-20T05:55:06-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 1 kept comp. eBay sold search page 1 had 3 exact DB40-D results: kept 1, dropped 1 best-offer-accepted (Sep 30, 2026, Brand New, shown $199.95), dropped 1 parts-only (Aug 25, 2026, $98.89). Ignored 'Results matching fewer words' (DB-25D, DB40-G GMRS, mounts). No outliers (only one kept comp). The kept sale's price and date match the ledger's single DB40-D entry (349.95, 2026-10-09).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629677",
+    "site": "eham",
+    "ask": 195.0,
+    "shipping": 20.0
+  },
+  "comps": [
+    {
+      "price": 349.95,
+      "sold_date": "2026-10-09",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/227488571764",
+      "source": "ebay",
+      "notes": "Buy It Now; free delivery. Title: Radioddity DB40-D DMR Mobile Radio VHF & UHF analog & digital bluetooth.",
+      "flags": []
+    }
+  ]
+}
