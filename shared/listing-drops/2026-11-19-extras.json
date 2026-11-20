@@ -1,0 +1,240 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-19",
+  "ran_at": "2026-11-19T18:58:58-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered: 2026-11-19-qth.json (ran_at 2026-11-19T14:52:56-05:00), 2026-11-19-eham.json (ran_at 2026-11-19T05:53:05-05:00), 2026-11-19-ebay.json (ran_at 2026-11-19T17:53:14-05:00), i.e. the eham/qth/ebay drops after the previous extras drop 2026-11-18-extras.json (ran_at 2026-11-18T18:46:33-05:00); of these only the 11/19 eham (no new ads), 11/19 ebay (no 'extra plausible candidates' list; over-cap items it mentions are not under that heading) and 11/19 qth were new. Previous CARRIED OVER (6, put at the front): 1785160, 1785129, 1785126, 1785127, 1785157, 1785138; previous BACKLOG CARRY: none. Named extra from Leo (stored task prompt): QTH 1783910 (Yaesu '991', $600 firm) added ahead of the fresh extras, treated as the ORIGINAL Yaesu FT-991 per Leo's ruling; it was already in dropped-urls.json (not re-appended) and is gone (QTH: no longer in our system); ledger hit for YAESU FT-991 (count 4, date 2026-11-11) so no sold search was needed; comp drop filed under 'Yaesu FT-991' with no FT-991A figures. Fresh extras queued: 22 QTH counter IDs from the 11/19 qth drop 'Extra plausible candidates not comped' (none already in dropped-urls). Queue total 29 (6 carry-overs + 1 named + 22 fresh). Worked 21 (live 18, gone 3: 1783910, 1785207, 1785216); carried over 8. Ledger hits 4 (comps skipped): 1785223 Yaesu FT-60R (count 37, 2026-11-08), 1785218 AnyTone AT-778UV (count 18, 2026-11-15), 1785193 Kenwood TM-281A (count 16, 2026-10-21), 1783910 Yaesu FT-991 (count 4, 2026-11-11). Ledger misses/stale (searched): Kenwood R-1000 (2026-10-09, older than 30 days), Heil iCM (2026-10-17, older than 30 days), Icom SP-20 (2026-10-06, older than 30 days), Icom ID-50A (count 2), Radioddity QT80 (count 2), Mirage D-3010 (count 2; D-3010-N not in ledger). eBay sold searches used 15 of 15: EA4TX ARS-USB (0), Mirage D-3010-N (1), Heil iCM (7), Gamma Research HPS-1A (1), Heathkit PS-23 (0), TYT TH-8600 (4), Kenwood R-1000 (14), Icom ID-50A (2), Icom ID-31A (0), Radioddity QT80 (2), Kenwood SM-230 (1), Icom SP-20 (11), microHAM DXP (1), UR6QW equalizer (1), National HRO-50T (1). Solid (3+): Heil iCM, TYT TH-8600, Kenwood R-1000, Icom SP-20; thin: D-3010-N, HPS-1A, ID-50A, QT80, SM-230, microHAM DXP, UR6QW EQ, HRO-50T; zero usable: EA4TX ARS-USB, Heathkit PS-23, Icom ID-31A. Skipped: none for lack of price. Cross-posts: none seen (no serials shown anywhere). Outliers: Kenwood R-1000 comps 407251574155 ($399.95, 2.05x) and 257442794819 ($360.00, 1.85x); Icom SP-20 comps 287147081213 ($198.00, 1.54x) and 327370701831 ($57.86, 0.45x, UK auction). Identity cautions: Mirage D3010 comp vs D-3010-N, HPS-1A spec in comp title (13.8V 2A) vs ad (13.5V 5A), UR6QW comp title does not name UR6QW; SM-230 kept separate from SM-220 sales; AnyTone 6666 PRO kept separate from QT80. Dropped from comps: Best-offer-accepted, parts-only/untested, accessory sales itemized in each comp drop's notes. Comp drop searched_at times are approximate (file-write time). Kenwood SM-230 comp drop uses the HHMM name because 2026-11-19-kenwood-sm-230.json already existed from the QTH run. eBay: signed in as Leo, no challenge or CAPTCHA at any point, 15+ s between page loads; eHam not opened; QTH ads read one at a time ~5.5 s apart via same-origin fetches from the QTH tab. Timestamps -05:00 (EST). CARRIED OVER: 1785178, 1785173, 1785209, 1785170, 1785169, 1785177, 1785225, 1774203 (all QTH counter IDs; item/ask from the 11/19 qth drop: Wilderness Norcal 40A $125, Heathkit DX-35 $75, Heathkit HG-10 VFO $75, Icom IC-R5 $75, Icom IC-R2 $100, Collins console $750, EFJ Navigator $350, Swan-350 $189 renewed; each was opened and read live this run but not comped because the search cap was reached). BACKLOG CARRY: none.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "Yaesu \"991\" (treated as original FT-991 per Leo ruling)",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "no longer live (QTH: ad number no longer in our system; named extra from the stored task prompt, ask $600 firm per that prompt). Original wording not available. ledger hit (comps: yaesu-ft-991, ledger median 748.33, count 4) — judge against FT-991 comps only, never FT-991A",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785160",
+      "site": "qth",
+      "title": "EA4TX ARS-USB rotor controller",
+      "price": 230,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "live. \"The unit is like new. Went with a different controller interface. Comes with the interface cable and is wired for a Yaesu G-1000 DXA rotor. The unit can be configured for many other rotors.\" $230.00 shipped to Conus; payment bank check or Zelle. comps: ea4tx-ars-usb, 0 kept — searched, no usable comps",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785129",
+      "site": "qth",
+      "title": "Mirage D-3010-N UHF amplifier",
+      "price": 175,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "live. \"Works Great! No issues The preamp works too\" $175 shipped/insured US. comps: mirage-d-3010-n, 1 kept, median 179.95",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785126",
+      "site": "qth",
+      "title": "Heil iCM desk mic (for older Icom radios)",
+      "price": 135,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "live. \"a nice working heil icm desk mike ... 7 foot long mike cord wired for the older icom radios\" asking $135 shipped conus, no paypal, postal m.o. ok (edited 11/18; the 11/18 drop note listed $145). comps: heil-icm, 7 kept, median 99.0",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785127",
+      "site": "qth",
+      "title": "Gamma Research HPS-1A power supply",
+      "price": 100,
+      "shipping": 15,
+      "found_at": "2026-11-19",
+      "condition_notes": "live. \"Cosmetic/Working Condition: Perfect cosmetic condition and completely operational.\" $100 + $15.00 shipping (CONUS only), PayPal or postal money order. comps: gamma-research-hps-1a, 1 kept, median 49.99",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785157",
+      "site": "qth",
+      "title": "Heathkit PS-23 power supply",
+      "price": 145,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "live. \"power supply in good working order and original as built\" $145 shipped, CONUS, PayPal or money order only. comps: heathkit-ps-23, 0 kept — searched, no usable comps",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785138",
+      "site": "qth",
+      "title": "TYT TH-8600 dualband mobile",
+      "price": 50,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "live. \"comes with mic, power cable, no box no manual\" 2 mtr/70cm, 200 memories, 25 watts; asking $50.00 and \"Ill cover shipping\"; no Paypal, personal check or postal M O (edited 11/19). comps: tyt-th-8600, 4 kept, median 155.39",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785213",
+      "site": "qth",
+      "title": "Kenwood R-1000 receiver",
+      "price": 260,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "live. \"Has some scratches on top of case otherwise works. Has power cord and service manual.\" $260.00 includes shipping lower 48, PayPal only. comps: kenwood-r-1000, 14 kept, median 195.5",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785185",
+      "site": "qth",
+      "title": "Icom ID-50A with extra battery",
+      "price": 350,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "live. \"works as it should used very little\" usb-c charging and programming box, manual, 2 batteries, belt clip; $350.00 shipped. comps: icom-id-50a, 2 kept, median 370.0",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785168",
+      "site": "qth",
+      "title": "Icom ID-31A D-STAR UHF HT",
+      "price": 250,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "live. \"in excellent condition and works perfectly\" one factory battery, plug-in charger, antenna, RT Systems programming software (no cable); $250 shipped or consider trade for portable QRP HF rig. comps: icom-id-31a, 0 kept — searched, no usable comps",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785223",
+      "site": "qth",
+      "title": "Yaesu FT-60R with extras",
+      "price": 175,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "live. \"Use in excellent shape, FT-60R with a new replacement 1,600 MaH Battery, SSM-17A Speaker Mic, FBA-25 battery case and RT Systems ADMS-1J-USB programming software.\" $175 Shipped Conus; Zelle or USPS MO. ledger hit (comps: yaesu-ft-60r, ledger median 135.5, count 37)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785218",
+      "site": "qth",
+      "title": "AnyTone AT-778UV dualband mobile",
+      "price": 110,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "live. \"Like new in retail box, $110 shipped. Used very little\" (AT-778UV dualband mobile transceiver). ledger hit (comps: anytone-at-778uv, ledger median 133.64, count 18)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785230",
+      "site": "qth",
+      "title": "Radioddity QT80 10 m HF rig",
+      "price": 235,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "live. \"ALL MODE 10 METER HF RIG (OPENED ON 11 ) 80 WATTS PEP. WORKS WELL ... LIKE NEW IN BOX WIYH ALL THAT CAME WITH IT\" $235.00 shipped, postal or bank orders required. comps: radioddity-qt80, 2 kept, median 289.98",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785193",
+      "site": "qth",
+      "title": "Kenwood TM-281A VHF mobile package",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "live. \"Kenwood TM-281A 2-meter VHF mobile transceiver in excellent condition\" with original power cable plus extra, hand mic, brackets, manual, Tram 1235 mag mount, Tram 1121B antenna, Motorola 0180352A08 antenna; \"Total: $200\". ledger hit (comps: kenwood-tm-281a, ledger median 110.0, count 16)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785212",
+      "site": "qth",
+      "title": "Kenwood SM-230 station monitor (\"mint\")",
+      "price": 400,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "live. \"F.S. mint Kenwood SM230 ... great working and super clean SM230 station scope\" asking 400.00 shipped, PayPal ok (seller notes it is attached to a TS-950SD he may sell). comps: kenwood-sm-230, 1 kept, median 250.0",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785207",
+      "site": "qth",
+      "title": "SGC-237 tuner w/ cable",
+      "price": 265,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "no longer live (QTH: ad number no longer in our system). not comped: gone (ask $265 per the 11/19 drop note)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785216",
+      "site": "qth",
+      "title": "MFJ-826B",
+      "price": 140,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "no longer live (QTH: ad number no longer in our system). not comped: gone (ask $140 per the 11/19 drop note)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785176",
+      "site": "qth",
+      "title": "Icom SP-20 external speaker(s)",
+      "price": 235,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "live. \"I have 2 each one ----- $ 235 shipped with cover\" (seller wording unclear whether $235 is per speaker or for both; recorded as $235). comps: icom-sp-20, 11 kept, median 129.99",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785187",
+      "site": "qth",
+      "title": "microHAM DXP interface + cables",
+      "price": 245,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "live. microHAM DXP interface \"plus cables\", the three cables and a printed manual to CONUS for $245 OBO; PayPal preferred (fees on the buyer unless F&F), Zelle or USPS money order. comps: microham-dxp, 1 kept, median 350.0",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785215",
+      "site": "qth",
+      "title": "UR6QW 5-band EQ for Yaesu (RJ-45 mic plug)",
+      "price": 80,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "live. \"Excellent condition zero issue\" $80.00 shipped CONUS or will trade for the Icom version with the 8-pin round connector; PayPal, Venmo or USPS MO. comps: ur6qw-5-band-eq, 1 kept, median 105.0",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785204",
+      "site": "qth",
+      "title": "National HRO-50T receiver",
+      "price": 150,
+      "shipping": 0,
+      "found_at": "2026-11-19",
+      "condition_notes": "live. \"Works, recent service. Good shape as could be expected for age with minor scratches/scuffs, no dents. Coils are good - A-AA-B-C-D-G\"; asking $150; local meet possible (NW Indiana/Chicagoland/Michiana), no shipping stated. comps: national-hro-50t, 1 kept, median 175.0",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
