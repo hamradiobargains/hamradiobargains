@@ -1,0 +1,25 @@
+{
+  "model": "National HRO-50T",
+  "slug": "national-hro-50t",
+  "searched_at": "2026-11-19T18:58:22-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "1 kept, median 175.0, low 175.0, high 175.0 — thin. Thin: 1 kept. Excluded: HRO-50T1 'Untested For Parts Or Repair' x2 (188866538027, 188456943626, $175.00 each, Aug 31, Best offer accepted AND parts) dropped; HRO-60/60T/60R units, coils, calibrators, manuals and photofact sheets not the same model. searched via eBay sold/completed page 1, signed in as Leo, no challenge; searched_at is the file-write time (approximate).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785204",
+    "site": "qth",
+    "ask": 150,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 175.0,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257765298026",
+      "source": "ebay",
+      "notes": "title: WORKING Vintage National Radio HRO-50T Receiver W/ B Coil; shipping $117.04",
+      "flags": []
+    }
+  ]
+}
