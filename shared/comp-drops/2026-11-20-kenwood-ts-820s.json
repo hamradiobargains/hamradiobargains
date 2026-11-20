@@ -1,0 +1,65 @@
+{
+  "model": "Kenwood TS-820S",
+  "slug": "kenwood-ts-820s",
+  "searched_at": "2026-11-20T17:55:40-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"kenwood ts-820s\", page 1. 5 kept. Dropped 5 best-offer-accepted (800856423676, 900038676001, 236568377971, 800579507196, 137298837182). Dropped 8 parts-only (298696571394, 178343419331, 178343369009, 178343426727, 398279321565 \"UNTESTED FOR PARTS\", 860023861415, plus 128156033868 and 366543394245 which are also plain TS-820). Left out for model identity: 3 titled TS-820 without S (307006635958 $365, 128017896208 $259.99, and the parts units above). Left out 128067753467 ($20, Open Box, title only \"KENWOOD TS-820S\" — unclear if it is the radio). Accessories/manuals/boards excluded. OUTLIER: 237087135135 at $449.95 vs ~$295 median of the rest. 168668978228 and 168546424108 are the same title and shipping from the same listing pattern — possible relist.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/227623498486",
+    "site": "ebay",
+    "ask": 299.99,
+    "shipping": 49.99
+  },
+  "comps": [
+    {
+      "price": 289.99,
+      "sold_date": "2026-11-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327453103049",
+      "source": "ebay",
+      "notes": "Title: \"tested good\". Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168668978228",
+      "source": "ebay",
+      "notes": "+$125.47 shipping. Same title/shipping as 168546424108 (sold 2026-09-06) — possible relist.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 449.95,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237087135135",
+      "source": "ebay",
+      "notes": "OUTLIER: $449.95 vs ~$295 for the rest. +$39.62 shipping.",
+      "flags": []
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168546424108",
+      "source": "ebay",
+      "notes": "+$125.47 shipping. Same title/shipping as 168668978228 (sold 2026-10-15) — possible relist.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/358829355303",
+      "source": "ebay",
+      "notes": "Title: \"Tested Works Great 100+ Watts\". +$104.21 shipping.",
+      "flags": []
+    }
+  ]
+}
