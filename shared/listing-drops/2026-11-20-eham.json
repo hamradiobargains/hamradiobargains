@@ -1,0 +1,42 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-20",
+  "ran_at": "2026-11-20T05:53:14-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-19T05:53:05-05:00 (prior eham run). Browsed signed OUT ('Login/Register' / 'Welcome Guest' shown). First classifieds load showed the usual Cloudflare 'Performing security verification' interstitial, which cleared on its own within ~10 s (no CAPTCHA, no 1015, no interaction). Read public classifieds page 1 only (one page load); no individual ad pages, search form, sold searches, or seller/callsign pages; no ad IDs probed. New on page 1: ads 629677-629686 (most dated 2026-11-18 but first publicly listed after the prior run); 629676 and below were already covered. Ad numbers 629681 and 629685 did not appear on the public page; not opened. Not candidates: 629686 Panasonic CF-30 laptop (computer), 629684 and 629682 (WANTED ads), 629680 Elecraft P3 transmit monitor option board ($169 delivered; option module, not a listed gear category), 629678 Motorola XTS2500 UHF P25 ($395 shipped; commercial/public-safety LMR, not ham gear). Comps: 3 candidates. Ledger hits: ELECRAFT P3 (count 11, 2026-11-15) and YAESU FT-891 (count 29, 2026-11-02). Ledger miss: RADIODDITY DB40-D (count 1) -> 1 eBay sold search, page 1 only, signed in as Leo, no challenge.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629683",
+      "site": "eham",
+      "title": "FS. Yaesu FT891 and accessories",
+      "price": 625.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-20",
+      "condition_notes": "Yaesu FT-891 sold as a bundle with an ATU-100 tuner, DigiRig DR-891 digital interface with 3 CAT/audio cables, power cord, hand mic, box, never-used mobile mount and coax jumper. Seller says the only mod was replacing the fans with much quieter ones. $625 including shipping; PayPal F&F. Posted 2026-11-18.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629679",
+      "site": "eham",
+      "title": "ELECRAFT P3 PANADAPTER # 4285 Nice",
+      "price": 499.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-20",
+      "condition_notes": "Elecraft P3 panadapter #4285, described as very nice; comes with manuals and cables for a K3. No mention of the SVGA option (seller says a separate P3 with VGA is in another listing). $499 delivered; check, Zelle, PayPal F&F; local pickup OK. Posted 2026-11-18.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629677",
+      "site": "eham",
+      "title": "Radioddity DB40-D VHF/UHF/DMR",
+      "price": 195.0,
+      "shipping": 20.0,
+      "found_at": "2026-11-20",
+      "condition_notes": "Radioddity DB40-D 40 W VHF/UHF analog/DMR mobile with Bluetooth; comes with all items in the picture. $195 picked up, $215 shipped (shipping recorded as the $20 difference). No condition statement beyond that. Posted 2026-11-18.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
