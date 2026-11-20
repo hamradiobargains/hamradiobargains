@@ -1,0 +1,25 @@
+{
+  "model": "UR6QW 5-band EQ (Yaesu RJ-45)",
+  "slug": "ur6qw-5-band-eq",
+  "searched_at": "2026-11-19T18:58:22-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "1 kept, median 105.0, low 105.0, high 105.0 — thin. Thin: 1 kept (search 'UR6QW equalizer'). Not used (different model or identity unclear, kept separate): 131846080926 (5 band Sound Equalizer for FT-101/FT-901 series, $105.00, Sep 5, older-Yaesu connector), 158373001440 (MIC EQUALIZER/COMPRESSION UR6QW, $95.00, Oct 4, band count not stated), 307184583501 (UR6QW 12 Band Digital EQ, $225.00), 168616187309 (UR6QW & UX1LA 10 Band EQ, $275.00), 8-band Yaesu EQs ($160.00/$165.00), Icom 8-pin EQ ($110.00), IC-7100 bundle (excluded). No Best-offer-accepted rows seen. searched via eBay sold/completed page 1, signed in as Leo, no challenge; searched_at is the file-write time (approximate).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785215",
+    "site": "qth",
+    "ask": 80,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 105.0,
+      "sold_date": "2026-09-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/133885444539",
+      "source": "ebay",
+      "notes": "title: 5 Band Sound Equalizer for radio FT-891 FTDX-10 FT-991A FT-857D FT-897D FT-818; Ukraine seller; fixed price or Best Offer, not marked accepted; shipping $25.00 plus import fees; title does not name UR6QW, so brand/model identity not certain",
+      "flags": []
+    }
+  ]
+}
