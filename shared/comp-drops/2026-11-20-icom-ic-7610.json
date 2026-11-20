@@ -1,0 +1,61 @@
+{
+  "model": "Icom IC-7610",
+  "slug": "icom-ic-7610",
+  "searched_at": "2026-11-20T15:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "searched_at is when this drop was built; the eBay sold search ran in the preceding ~10 minutes. eBay sold search, page 1 exact-match section only (22 results; rest were accessories, manuals, IC-7600/IC-7300/IC-703 units). 5 comps kept - solid set. Dropped 3 best-offer-accepted (Oct 9 JP 100V w/ step-up unit $2,598.38; Oct 26 $2,650; Sep 7 $3,095). Dropped 1 parts-only (Sep 22 $250, Parts Only, also best-offer-accepted). No outliers. Ledger miss: ICOM IC-7610 latest date 2026-10-09 is older than 30 days.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785235",
+    "site": "qth",
+    "ask": 2300.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 2550.0,
+      "sold_date": "2026-11-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168853165466",
+      "source": "ebay",
+      "notes": "Auction, 27 bids. +$29.75 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 2600.0,
+      "sold_date": "2026-08-23",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/127210125969",
+      "source": "ebay",
+      "notes": "Title says NEW. +$93.09 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 2750.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398388172460",
+      "source": "ebay",
+      "notes": "Title: w/ Mic, LCD, Spectrum Scope. +$25.12 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 3200.0,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178255106938",
+      "source": "ebay",
+      "notes": "+$25.41 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 2300.0,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137735732253",
+      "source": "ebay",
+      "notes": "+$75.33 delivery shown.",
+      "flags": []
+    }
+  ]
+}
