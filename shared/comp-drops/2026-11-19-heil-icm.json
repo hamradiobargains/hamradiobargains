@@ -1,0 +1,81 @@
+{
+  "model": "Heil iCM",
+  "slug": "heil-icm",
+  "searched_at": "2026-11-19T18:58:22-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "7 kept, median 99.0, low 57.0, high 125.0 — solid (3+). dropped Best-offer-accepted: 117471704313 ($95.00, Oct 20), 267760122089 ($85.00, Aug 30). Excluded: Heil AD-1-ICM headset adapters/cables (accessories) and non-Heil matches. Search 'Heil iCM'. searched via eBay sold/completed page 1, signed in as Leo, no challenge; searched_at is the file-write time (approximate).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785126",
+    "site": "qth",
+    "ask": 135,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 115.0,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237100418940",
+      "source": "ebay",
+      "notes": "shipping $15.00",
+      "flags": []
+    },
+    {
+      "price": 57.0,
+      "sold_date": "2026-10-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298730668709",
+      "source": "ebay",
+      "notes": "auction, 3 bids, final bid; shipping $7.63",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-09-24",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227405337574",
+      "source": "ebay",
+      "notes": "shipping $7.63",
+      "flags": []
+    },
+    {
+      "price": 84.95,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287580928187",
+      "source": "ebay",
+      "notes": "sold with CB-1 stand; shipping $8.44",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 99.0,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327345647316",
+      "source": "ebay",
+      "notes": "shipping $6.98",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407122885131",
+      "source": "ebay",
+      "notes": "fixed price or Best Offer (not marked accepted); shipping free",
+      "flags": []
+    },
+    {
+      "price": 79.0,
+      "sold_date": "2026-08-27",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/206495768705",
+      "source": "ebay",
+      "notes": "iCM-BG gold/black variant, never used; shipping $6.98",
+      "flags": []
+    }
+  ]
+}
