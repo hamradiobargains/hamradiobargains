@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-8400",
+  "slug": "flexradio-flex-8400",
+  "searched_at": "2026-11-20T15:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "searched_at is when this drop was built; the eBay sold search ran in the preceding ~10 minutes. eBay sold search for 'flexradio flex-8400': page 1 showed no exact-match sold results - every result was in the 'Results matching fewer words' section, which was ignored. 0 comps - thin. Ledger miss: FLEXRADIO FLEX-8400 count 2 (< 3). Trigger listing includes ATU, GPS, dust cover, box, mic; seller pays shipping.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785312",
+    "site": "qth",
+    "ask": 2700.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
