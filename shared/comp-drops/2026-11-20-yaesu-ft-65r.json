@@ -1,0 +1,102 @@
+{
+  "model": "Yaesu FT-65R",
+  "slug": "yaesu-ft-65r",
+  "searched_at": "2026-11-20T17:57:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"yaesu ft-65r\", page 1. 9 kept. Dropped 4 best-offer-accepted (880026103683, 298660208509, 407216726798, 800263190465). Dropped 0 parts-only. Batteries, chargers, mics, manuals, software/cables, pouches excluded. OUTLIERS: 880046743670 $49.95 and 227606292628 $60 (both well under half of ~$142), 336819494931 $229.99 (MARS mod + extras, over 1.5x of ~$139). Mix of Brand New, Open Box and Pre-Owned.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/327467235642",
+    "site": "ebay",
+    "ask": 95.0,
+    "shipping": 6.98
+  },
+  "comps": [
+    {
+      "price": 137.99,
+      "sold_date": "2026-11-16",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/307285770021",
+      "source": "ebay",
+      "notes": "Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2026-11-15",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/117523653492",
+      "source": "ebay",
+      "notes": "Title: \"TESTED PERFORMANCE. WORKS GREAT!!\". +$15.00 shipping.",
+      "flags": []
+    },
+    {
+      "price": 139.95,
+      "sold_date": "2026-11-15",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/397832725410",
+      "source": "ebay",
+      "notes": "Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 60.0,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227606292628",
+      "source": "ebay",
+      "notes": "OUTLIER: $60 vs ~$142 for the rest. +$9.56 shipping.",
+      "flags": []
+    },
+    {
+      "price": 229.99,
+      "sold_date": "2026-11-06",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/336819494931",
+      "source": "ebay",
+      "notes": "OUTLIER: $229.99 vs ~$139 for the rest. Title: \"w/ MARS Mod/extras\". +$10.66 shipping.",
+      "flags": [
+        "modified",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 49.95,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880046743670",
+      "source": "ebay",
+      "notes": "OUTLIER: $49.95 vs ~$142 for the rest. Auction, 1 bid. +$10.15 shipping.",
+      "flags": []
+    },
+    {
+      "price": 189.98,
+      "sold_date": "2026-10-12",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227446909337",
+      "source": "ebay",
+      "notes": "Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 145.0,
+      "sold_date": "2026-09-20",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/267784579050",
+      "source": "ebay",
+      "notes": "Auction, 5 bids. Title: \"NEW IN BOX + DigiRig Cable + Programming Cable\". +$6.71 shipping.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 149.95,
+      "sold_date": "2026-08-24",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/112298394822",
+      "source": "ebay",
+      "notes": "Free shipping.",
+      "flags": []
+    }
+  ]
+}
