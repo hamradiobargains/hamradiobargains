@@ -1,0 +1,45 @@
+{
+  "model": "Yaesu FT-736R",
+  "slug": "yaesu-ft-736r",
+  "searched_at": "2026-11-20T15:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "searched_at is when this drop was built; the eBay sold search ran in the preceding ~10 minutes. eBay sold search, page 1 exact-match section only. 3 comps kept - solid set. Dropped 2 best-offer-accepted (Oct 22 $525; Oct 15 w/ 220 & 50 MHz modules $799.95). Dropped 3 parts-only (Oct 26 'Powers On, Untested' $549.99 labeled Parts Only; Oct 7 'Untested / As-is' $349; Aug 29 'Parts Radio' $169). Left out band modules, power supply, boards, manuals, switches, and a Nov 15 multi-radio station bundle ($1,300; FL-7000 + FT-767GX + FT-736R). OUTLIER: $650 (Nov 5) vs ~$402.50 median of the other two kept comps. Ledger miss: YAESU FT-736R latest date 2026-10-01 is older than 30 days.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785257",
+    "site": "qth",
+    "ask": 850.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 305.0,
+      "sold_date": "2026-11-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227609909490",
+      "source": "ebay",
+      "notes": "Auction, 2 bids. Title: Satellite RX Tested. +$70.72 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-11-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880061917265",
+      "source": "ebay",
+      "notes": "OUTLIER: $650 vs ~$402.50 median of the other kept comps. Title: Excellent Condition, Box & CTCSS. +$24.87 delivery shown.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257716476368",
+      "source": "ebay",
+      "notes": "+$16.32 delivery shown.",
+      "flags": []
+    }
+  ]
+}
