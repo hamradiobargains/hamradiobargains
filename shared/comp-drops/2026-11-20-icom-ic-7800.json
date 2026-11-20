@@ -1,0 +1,25 @@
+{
+  "model": "Icom IC-7800",
+  "slug": "icom-ic-7800",
+  "searched_at": "2026-11-20T15:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "searched_at is when this drop was built; the eBay sold search ran in the preceding ~10 minutes. eBay sold search, page 1 (no 'fewer words' split shown; 62 results, almost all mics, cables, manuals, knobs, SP-34 speaker, and IC-7600/IC-7610 units). Only 1 IC-7800 unit sold - thin. Dropped 0 best-offer-accepted, 0 parts-only. Ledger miss: ICOM IC-7800 count 2 (< 3).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785255",
+    "site": "qth",
+    "ask": 3300.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 5600.0,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128065324448",
+      "source": "ebay",
+      "notes": "Title: Working. +$310.00 delivery shown.",
+      "flags": []
+    }
+  ]
+}
