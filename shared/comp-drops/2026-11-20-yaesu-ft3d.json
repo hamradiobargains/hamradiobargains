@@ -1,0 +1,72 @@
+{
+  "model": "Yaesu FT3D",
+  "slug": "yaesu-ft3d",
+  "searched_at": "2026-11-20T17:56:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"yaesu ft3d\", page 1. 6 kept (titles saying FT3D only). Dropped 3 best-offer-accepted (306866969442, 358553510212, 860004538603). Dropped 0 parts-only. Left out for model identity: 5 titled FT3DR (198772848017 $330, 960188239915 $275, 206669113764 $255, 298677233034 $200, 336792380631 $225) and 2 titled \"FT3DR FT3D\" (287437999419 $325, 257704534733 $295) — ledger keeps YAESU FT3D and YAESU FT3DR separate. 2 accessories excluded. OUTLIERS: 128175189258 at $50 (1-bid auction; different seller than the trigger listing) and 206383108947 at $329 vs ~$200 median of the rest (just over 1.5x).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/128207123352",
+    "site": "ebay",
+    "ask": 295.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 263.0,
+      "sold_date": "2026-11-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237159276905",
+      "source": "ebay",
+      "notes": "Title: \"Extras\". +$16.10 shipping.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-11-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/900099856140",
+      "source": "ebay",
+      "notes": "+$6.95 shipping.",
+      "flags": []
+    },
+    {
+      "price": 50.0,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128175189258",
+      "source": "ebay",
+      "notes": "OUTLIER: $50 vs ~$263 for the rest. Auction, 1 bid. +$10.15 shipping. Seller gsm131.",
+      "flags": []
+    },
+    {
+      "price": 329.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206383108947",
+      "source": "ebay",
+      "notes": "OUTLIER: $329 vs ~$200 median of the rest (just over 1.5x). Title lists antenna, charger, manual. +$14.00 shipping.",
+      "flags": []
+    },
+    {
+      "price": 285.0,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257711317072",
+      "source": "ebay",
+      "notes": "+$21.91 shipping.",
+      "flags": []
+    },
+    {
+      "price": 172.64,
+      "sold_date": "2026-08-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267759505851",
+      "source": "ebay",
+      "notes": "Auction, 7 bids. +$20.00 shipping.",
+      "flags": []
+    }
+  ]
+}
