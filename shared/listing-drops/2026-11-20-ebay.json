@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-20",
+  "ran_at": "2026-11-20T17:58:14-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670) browse page, Buy It Now filter, sorted Time: newly listed, page 1 (60 cards, all tagged NEW LISTING); signed in as Leo, no challenges. Window since previous ebay run 2026-11-19T17:53:14-05:00 (browse cards show no listing times; every picked item page says 'Just listed. This item was listed in the last 3 days.'; none in dropped-urls). Item descriptions not read; condition_notes use title, eBay condition label, seller notes, shipping and returns. Seller rule: 9 checked, 8 passed, 1 skipped — Icom IC-705 $1,200 (itm 800944054965, seller jusbal-2180, 23 ratings) shows no positive-feedback percentage, so feedback could not be verified. Cap reached at 8. Not picked: commercial/LMR (Motorola 800MHz amp, Sepura Tetrapol), receivers (Collins R-388/URR, Hallicrafters S-120, Yaesu FRG-7700, ATS200), CB/10m (Ranger RCI-2980, RadioShack HTX-10, Palomar TX 50), parts-only/untested (Kenwood TR-9130, TR-9000, TS-830S display, EF Johnson Invader 200, Yaesu FT-207R, Icom IC-T10 untested, Alliance U-100 parts), coils/capacitors/switches/manuals/stands/SFP modules, unbranded MMDVM/transverter boards, Remco toy, W2IHY audio unit (no model named), davemade M80 (unclear item). Also seen but over cap: Yaesu FT-60R ($99), Yaesu FP-30A ($463.52), Standard FT-7900H ($405.58), MFJ-202 noise bridge, Autek WM-1, Azden PCS-3000 ($31.49). Ledger: 4 hits (ICOM IC-705, ICOM IC-7300, AMERITRON ALS-600, MFJ-969), 4 misses -> 4 eBay sold searches (Kenwood TS-820S, Yaesu FT3D, MFJ-974HB, Yaesu FT-65R).",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/900107919868",
+      "site": "ebay",
+      "title": "Icom IC-705 HF/VHF/UHF All Mode Portable QRP 5W/10W Transceiver - NO MIC",
+      "price": 910.0,
+      "shipping": 30.48,
+      "found_at": "2026-11-20",
+      "condition_notes": "eBay condition: Used. Title says \"NO MIC\". Or Best Offer. No returns. Ships FedEx 2Day from Covington, LA. Item description not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (48 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/920165213402",
+      "site": "ebay",
+      "title": "ICOM IC-7300 Radio W/ Box",
+      "price": 849.99,
+      "shipping": 0,
+      "found_at": "2026-11-20",
+      "condition_notes": "eBay condition: Used. Includes box per title. Free shipping. No returns. Seller is a liquidation store (Lunar Liquidation, Mesa, AZ). Item specifics say Model Icom IC-7300 (not MK2). Item description not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "99.8% (4264 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/237195161308",
+      "site": "ebay",
+      "title": "Ameritron ALS-600 & ALS-600SPS Solid-State FET HF Amplifier - 120V - 10m mod",
+      "price": 1499.99,
+      "shipping": 36.78,
+      "found_at": "2026-11-20",
+      "condition_notes": "eBay condition: Used. Includes ALS-600SPS power supply per title; title says \"10m mod\". No returns. Ships FedEx Ground Economy. Item description not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (760 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227623498486",
+      "site": "ebay",
+      "title": "Kenwood TS-820S HF Ham Radio Transceiver WORKS",
+      "price": 299.99,
+      "shipping": 49.99,
+      "found_at": "2026-11-20",
+      "condition_notes": "eBay condition: Used; seller notes \"Works good. Talked to people all over the country. Only the issue is the meter doesn't work\". No returns. Ships from La Crosse, WI. Item description not read.",
+      "work_flag": "the meter doesn't work; Seller does not accept returns",
+      "seller_feedback": "99.6% (22085 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/128207123352",
+      "site": "ebay",
+      "title": "Yaesu FT3D Dual Band VHF/UHF Handheld Ham Radio Transceiver LCD Black",
+      "price": 295.0,
+      "shipping": 0,
+      "found_at": "2026-11-20",
+      "condition_notes": "eBay condition: Used. Or Best Offer. Free shipping. 30-day returns, buyer pays return shipping. Item specifics say Model Yaesu FT3D (no R suffix). Item description not read.",
+      "work_flag": "",
+      "seller_feedback": "99.7% (636 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/900108048551",
+      "site": "ebay",
+      "title": "MFJ 974HB BALANCED BALANCE LINE TUNER, 300 WATTS, TESTED.",
+      "price": 275.0,
+      "shipping": 20.0,
+      "found_at": "2026-11-20",
+      "condition_notes": "eBay condition: Used; seller notes \"THIS TUNER IS IN GREAT CONDITION. TUNED MY OFF-CENTER FED AND RANDOM WIRE ANTENNA VERY WELL.\" Or Best Offer. No returns. Ships from Wichita. Item description not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "99.8% (3401 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/327467240081",
+      "site": "ebay",
+      "title": "MFJ Model MFJ-969 Deluxe Versa Tuner II Antenna Tuner WORKS",
+      "price": 159.99,
+      "shipping": 24.99,
+      "found_at": "2026-11-20",
+      "condition_notes": "eBay condition: Used; seller notes \"WORKS\". No returns. Ships from La Crosse, WI. Item description not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "99.6% (22085 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/327467235642",
+      "site": "ebay",
+      "title": "Yaesu FT-65R VHF/UHF 2 Meter/70cm Dual Band FM Handheld Transceiver",
+      "price": 95.0,
+      "shipping": 6.98,
+      "found_at": "2026-11-20",
+      "condition_notes": "eBay condition: Used. No returns. Ships USPS Ground Advantage from Ocoee, FL. Item description not read.",
+      "work_flag": "Seller does not accept returns",
+      "seller_feedback": "100% (2839 ratings)"
+    }
+  ]
+}
