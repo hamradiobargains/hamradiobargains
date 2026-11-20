@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T13:53:38+00:00",
+ "updated": "2026-11-20T13:53:39+00:00",
  "models": {
   "ALINCO DM-330MV": {
    "display": "Alinco DM-330MV",
@@ -30,12 +30,12 @@
   },
   "ELECRAFT K3/100": {
    "display": "Elecraft K3/100",
-   "pct": 3.1,
+   "pct": 12.4,
    "window": "3mo",
-   "recent_median": 1215.99,
-   "recent_count": 9,
-   "prior_median": 1178.95,
-   "prior_count": 6
+   "recent_median": 1347.49,
+   "recent_count": 8,
+   "prior_median": 1199.0,
+   "prior_count": 7
   },
   "ICOM IC-705": {
    "display": "Icom IC-705",
@@ -111,12 +111,12 @@
   },
   "MFJ MFJ-949E": {
    "display": "MFJ MFJ-949E",
-   "pct": 68.8,
+   "pct": 74.2,
    "window": "3mo",
    "recent_median": 135.0,
-   "recent_count": 27,
-   "prior_median": 80.0,
-   "prior_count": 7
+   "recent_count": 25,
+   "prior_median": 77.5,
+   "prior_count": 8
   },
   "MFJ-989C": {
    "display": "MFJ-989C",
@@ -208,14 +208,23 @@
    "prior_median": 1099.0,
    "prior_count": 7
   },
+  "YAESU FT5D": {
+   "display": "Yaesu FT5D",
+   "pct": -11.6,
+   "window": "3mo",
+   "recent_median": 309.5,
+   "recent_count": 26,
+   "prior_median": 350.0,
+   "prior_count": 5
+  },
   "YAESU M-90D": {
    "display": "Yaesu M-90D",
-   "pct": -1.3,
+   "pct": -19.9,
    "window": "3mo",
-   "recent_median": 181.07,
+   "recent_median": 146.88,
    "recent_count": 6,
-   "prior_median": 183.5,
-   "prior_count": 5
+   "prior_median": 183.47,
+   "prior_count": 6
   }
  }
 }
