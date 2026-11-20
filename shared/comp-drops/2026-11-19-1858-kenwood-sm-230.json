@@ -1,0 +1,25 @@
+{
+  "model": "Kenwood SM-230",
+  "slug": "kenwood-sm-230",
+  "searched_at": "2026-11-19T18:58:22-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "1 kept, median 250.0, low 250.0, high 250.0 — thin. Thin: 1 kept. Search results were mostly Pokemon SM230 promo cards (ignored) and Kenwood SM-220 sales (different model, kept separate, not used). searched via eBay sold/completed page 1, signed in as Leo, no challenge; searched_at is the file-write time (approximate).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785212",
+    "site": "qth",
+    "ask": 400,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 250.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128127975845",
+      "source": "ebay",
+      "notes": "title: Kenwood SM-230 Station Monitor Bandscope Oscilloscope TS-940S TS-930S; shipping $35.00",
+      "flags": []
+    }
+  ]
+}
