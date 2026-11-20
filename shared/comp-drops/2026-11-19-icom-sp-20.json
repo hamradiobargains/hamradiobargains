@@ -1,0 +1,115 @@
+{
+  "model": "Icom SP-20",
+  "slug": "icom-sp-20",
+  "searched_at": "2026-11-19T18:58:22-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "11 kept, median 129.99, low 57.86, high 198.0 — solid (3+). Parts/untested sales excluded and listed here: 336734246599 ($97.00, Oct 2, Parts Only, shipping $70.75), 147495985357 ($64.99, Aug 22, listed Untested, shipping $25.50). No Best-offer-accepted rows on page 1. OUTLIERS: 327370701831 ($57.86, 0.45x) and 287147081213 ($198.00, 1.54x); UK auctions 327370701831 and 278290161059 show estimated shipping. Ledger had ICOM SP-20 count 11 dated 2026-10-06 (older than 30 days at lookup). searched via eBay sold/completed page 1, signed in as Leo, no challenge; searched_at is the file-write time (approximate). OUTLIERS (kept, flagged): 287147081213 $198.00 (1.54x), 327370701831 $57.86 (0.45x).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785176",
+    "site": "qth",
+    "ask": 235,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 198.0,
+      "sold_date": "2026-10-07",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/287147081213",
+      "source": "ebay",
+      "notes": "OUTLIER: 1.54x median of other kept comps; title: ICOM SP-20 audio equipment, external speaker; shipping free",
+      "flags": []
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227491580393",
+      "source": "ebay",
+      "notes": "fixed price or Best Offer, not marked accepted; shipping $11.88",
+      "flags": []
+    },
+    {
+      "price": 155.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398440410497",
+      "source": "ebay",
+      "notes": "shipping $12.51",
+      "flags": []
+    },
+    {
+      "price": 57.86,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327370701831",
+      "source": "ebay",
+      "notes": "OUTLIER: 0.45x median of other kept comps; UK seller, 14-bid auction final bid, 'Second Hand Icom SP-20 Loudspeaker'; shipping $33.15 (shipping estimate)",
+      "flags": []
+    },
+    {
+      "price": 120.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366661500594",
+      "source": "ebay",
+      "notes": "auction final bid; shipping $18.88",
+      "flags": []
+    },
+    {
+      "price": 130.0,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206534319458",
+      "source": "ebay",
+      "notes": "shipping $32.50",
+      "flags": []
+    },
+    {
+      "price": 149.0,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178462413773",
+      "source": "ebay",
+      "notes": "shipping $28.49",
+      "flags": []
+    },
+    {
+      "price": 127.5,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178445509151",
+      "source": "ebay",
+      "notes": "auction final bid; shipping $16.32",
+      "flags": []
+    },
+    {
+      "price": 99.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800448187580",
+      "source": "ebay",
+      "notes": "shipping $79.00",
+      "flags": []
+    },
+    {
+      "price": 129.99,
+      "sold_date": "2026-08-25",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/327324757821",
+      "source": "ebay",
+      "notes": "title says Tested; shipping $18.45",
+      "flags": []
+    },
+    {
+      "price": 67.44,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278290161059",
+      "source": "ebay",
+      "notes": "UK seller, 13-bid auction final bid; shipping $116.66 (shipping estimate)",
+      "flags": []
+    }
+  ]
+}
