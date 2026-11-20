@@ -1,0 +1,36 @@
+{
+  "model": "Radioddity QT80",
+  "slug": "radioddity-qt80",
+  "searched_at": "2026-11-19T18:58:22-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "2 kept, median 289.98, low 259.95, high 320.0 — thin. parts-only sales excluded: 117523743468 ($138.98, Nov 16) and 128195520395 ($138.98, Nov 14). dropped Best-offer-accepted: 188909835464 ($200.00, Sep 18), 800578942733 ($155.00, Aug 28). Excluded: AnyTone 6666 PRO 227514077389 ($289.99, different listing brand/model name). Thin: 2 kept. searched via eBay sold/completed page 1, signed in as Leo, no challenge; searched_at is the file-write time (approximate).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785230",
+    "site": "qth",
+    "ask": 235,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 320.0,
+      "sold_date": "2026-09-10",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/800612606932",
+      "source": "ebay",
+      "notes": "title: 'Unlocked 10M 11M CB 12M 15M'; fixed price or Best Offer, not marked accepted; shipping $18.49",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 259.95,
+      "sold_date": "2026-09-04",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/327307077245",
+      "source": "ebay",
+      "notes": "shipping free",
+      "flags": []
+    }
+  ]
+}
