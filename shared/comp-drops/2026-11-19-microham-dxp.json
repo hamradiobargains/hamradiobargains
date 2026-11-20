@@ -1,0 +1,27 @@
+{
+  "model": "microHAM DXP",
+  "slug": "microham-dxp",
+  "searched_at": "2026-11-19T18:58:22-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "1 kept, median 350.0, low 350.0, high 350.0 — thin. Thin: 1 kept. Page 1 had only 4 sold results; the other 3 were different microHAM products (USB Interface II $35.00, micro KEYER II $129.99 or Best Offer, Digi Keyer II $190.00 1 bid), excluded as different models. No Best-offer-accepted or parts sales. searched via eBay sold/completed page 1, signed in as Leo, no challenge; searched_at is the file-write time (approximate).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785187",
+    "site": "qth",
+    "ask": 245,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 350.0,
+      "sold_date": "2026-11-13",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/940082360496",
+      "source": "ebay",
+      "notes": "title: Microham DXP Digital Interface with New Elecraft K3 DB15 Cable; shipping free",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
