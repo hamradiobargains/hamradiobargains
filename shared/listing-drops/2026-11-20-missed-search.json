@@ -14,7 +14,11 @@
     {
       "term": "mercury ii",
       "searched_at": "2026-11-20T23:59:25-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "KM3KM Mercury IIIS",
+      "status": "worked",
+      "worked_at": "2026-11-21",
+      "result": "no comps found (no 'Mercury II' amplifier sales on eBay; same visitor's 'mercury iiis' already priced in 2026-11-21-km3km-mercury-iiis.json — no duplicate deposit)"
     },
     {
       "term": "mercury iii",

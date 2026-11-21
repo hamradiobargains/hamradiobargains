@@ -65,12 +65,20 @@
     {
       "term": "hw 2036a",
       "searched_at": "2026-11-21T00:03:10-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Heathkit HW-2036A",
+      "status": "worked",
+      "worked_at": "2026-11-21",
+      "result": "no comps found (only HW-2036A sale was inoperative/parts-only; plain HW-2036 sales kept separate, not deposited)"
     },
     {
       "term": "tm 241a",
       "searched_at": "2026-11-21T00:02:48-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Kenwood TM-241A",
+      "status": "worked",
+      "worked_at": "2026-11-21",
+      "result": "2026-11-21-kenwood-tm-241a.json, 4 comps"
     }
   ]
 }
