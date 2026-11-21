@@ -1,0 +1,56 @@
+{
+  "model": "Yaesu FT-5100",
+  "slug": "yaesu-ft-5100",
+  "searched_at": "2026-11-20T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"Yaesu FT-5100\": 4 kept comps (solid). Dropped: 267807487206 ($39.99, Oct 7, \"Tech special\", Parts Only, +$14.90); 147588657682 ($47.75, Sep 21, Parts Only, +$11.75). Parts-only dropped count 2. Mic/mount noted as extras_included flag only where the title names them. Page 1 of eBay sold/completed search only. Best-offer-accepted sales, parts-only/as-is sales and accessories dropped. Comp sold prices are as shown on the results page (no shipping); shown shipping in each comp note. Search run by the daily extras sweep 2026-11-20.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785262",
+    "site": "qth",
+    "ask": 125,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 75,
+      "sold_date": "2026-11-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327463484129",
+      "source": "ebay",
+      "notes": "shipping 10.88. Title: \"Yaesu FT-5100 Dual Band FM Ham Radio Transceiver w/ Microphone & Mount\". Listed \"or Best Offer\", not marked accepted.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 84.99,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307200729873",
+      "source": "ebay",
+      "notes": "shipping 13.96. Title: \"...w/ Microphone & Mount\". Buy It Now.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 119.97,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147565392350",
+      "source": "ebay",
+      "notes": "shipping 17.17. Title: \"Yaesu Ft-5100 Ham Radio UHF / VHF Dual Band FM Transceiver Mobile Car Truck\". Buy It Now.",
+      "flags": []
+    },
+    {
+      "price": 129.97,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137665401860",
+      "source": "ebay",
+      "notes": "OUTLIER: 1.53x median of the other kept comps (84.99). shipping 17.17. Same title style as above. Listed \"or Best Offer\", not marked accepted.",
+      "flags": []
+    }
+  ]
+}
