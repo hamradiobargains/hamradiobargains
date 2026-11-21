@@ -418,6 +418,13 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
         <button type="button" class="btn btn-secondary" id="swapBtn">⇅ Swap callsigns</button>
       </div>
       <div id="downloadMsg" style="font-size:13px;color:var(--muted);margin-top:8px;min-height:18px;text-align:center"></div>
+      <div id="pngOut" style="display:none;margin-top:12px;text-align:center">
+        <img id="pngImg" alt="Your QSL card as an image" style="max-width:100%;height:auto;border-radius:10px;box-shadow:0 6px 24px rgba(0,0,0,.35)" />
+        <div style="margin-top:10px">
+          <button type="button" class="btn btn-secondary" id="shareImgBtn" style="display:none">Share / save / print the image</button>
+        </div>
+        <p style="font-size:13px;color:var(--muted);margin-top:8px">On an iPhone or iPad, press and hold the image to save it to Photos &mdash; or use the Share button for Save Image, Print, AirDrop and Messages.</p>
+      </div>
 
       <div class="share-box" id="shareBox">
         <p><strong style="color:var(--text)">Your card is ready.</strong> Send this link to the other station — text it, email it, or drop it in a message. They'll see the finished card, no account needed.</p>
@@ -786,15 +793,25 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
     }).then(function(canvas){
       canvas.toBlob(function(b){
         if(!b){ msg.textContent='Image export didn\'t work in this browser \u2014 the share link above is the best way to send it.'; return; }
+        var fname='QSL-'+(state.toCall||'card')+'-'+(state.date||'')+'.png';
+        try{ window._qslFile=new File([b], fname, {type:'image/png'}); }catch(e){ window._qslFile=null; }
         var a=document.createElement('a');
         a.href=URL.createObjectURL(b);
-        a.download='QSL-'+(state.toCall||'card')+'-'+(state.date||'')+'.png';
+        a.download=fname;
         document.body.appendChild(a); a.click(); a.remove();
-        msg.textContent='Downloaded \u2014 check your downloads for the PNG.';
+        var out=$('pngOut'); $('pngImg').src=a.href; out.style.display='block';
+        var sb=$('shareImgBtn');
+        if(window._qslFile && navigator.canShare && navigator.canShare({files:[window._qslFile]})){ sb.style.display='inline-block'; }
+        msg.textContent='Your card image is ready below \u2014 save it, share it, or print it from there.';
+        out.scrollIntoView({behavior:'smooth', block:'nearest'});
       },'image/png');
     }).catch(function(){
       msg.textContent='Image export didn\'t work in this browser \u2014 use Copy link instead, it always works.';
     });
+  });
+
+  $('shareImgBtn').addEventListener('click', function(){
+    if(window._qslFile && navigator.share){ navigator.share({files:[window._qslFile], title:'QSL card'}).catch(function(){}); }
   });
 
   // ---------- Receive view ----------
