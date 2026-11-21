@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T13:53:39+00:00",
+ "updated": "2026-11-21T13:53:40+00:00",
  "models": {
   "ALINCO DM-330MV": {
    "display": "Alinco DM-330MV",
@@ -60,9 +60,9 @@
    "pct": -12.9,
    "window": "3mo",
    "recent_median": 400.0,
-   "recent_count": 20,
+   "recent_count": 19,
    "prior_median": 459.0,
-   "prior_count": 7
+   "prior_count": 8
   },
   "ICOM IC-7300": {
    "display": "Icom IC-7300",
@@ -75,12 +75,12 @@
   },
   "ICOM IC-R20": {
    "display": "Icom IC-R20",
-   "pct": 19.2,
+   "pct": 10.5,
    "window": "3mo",
-   "recent_median": 435.0,
-   "recent_count": 6,
-   "prior_median": 364.98,
-   "prior_count": 6
+   "recent_median": 419.99,
+   "recent_count": 5,
+   "prior_median": 379.95,
+   "prior_count": 7
   },
   "ICOM SM-50": {
    "display": "Icom SM-50",
@@ -102,21 +102,21 @@
   },
   "KENWOOD TM-V71A": {
    "display": "Kenwood TM-V71A",
-   "pct": -15.5,
+   "pct": -18.0,
    "window": "3mo",
-   "recent_median": 422.5,
-   "recent_count": 24,
-   "prior_median": 499.95,
-   "prior_count": 9
+   "recent_median": 419.99,
+   "recent_count": 23,
+   "prior_median": 512.45,
+   "prior_count": 10
   },
   "MFJ MFJ-949E": {
    "display": "MFJ MFJ-949E",
-   "pct": 74.2,
+   "pct": 34.5,
    "window": "3mo",
-   "recent_median": 135.0,
-   "recent_count": 25,
-   "prior_median": 77.5,
-   "prior_count": 8
+   "recent_median": 127.75,
+   "recent_count": 24,
+   "prior_median": 95.0,
+   "prior_count": 10
   },
   "MFJ-989C": {
    "display": "MFJ-989C",
@@ -138,12 +138,12 @@
   },
   "XIEGU G90": {
    "display": "Xiegu G90",
-   "pct": -6.9,
+   "pct": -3.2,
    "window": "3mo",
-   "recent_median": 370.0,
-   "recent_count": 37,
-   "prior_median": 397.5,
-   "prior_count": 14
+   "recent_median": 372.5,
+   "recent_count": 36,
+   "prior_median": 385.0,
+   "prior_count": 15
   },
   "XIEGU X6100": {
    "display": "Xiegu X6100",
@@ -174,12 +174,12 @@
   },
   "YAESU FT-817ND": {
    "display": "Yaesu FT-817ND",
-   "pct": 29.2,
+   "pct": 9.7,
    "window": "3mo",
-   "recent_median": 833.5,
-   "recent_count": 16,
-   "prior_median": 645.0,
-   "prior_count": 7
+   "recent_median": 820.0,
+   "recent_count": 15,
+   "prior_median": 747.5,
+   "prior_count": 8
   },
   "YAESU FT-857": {
    "display": "Yaesu FT-857",
@@ -203,10 +203,10 @@
    "display": "Yaesu FT-991A",
    "pct": -9.1,
    "window": "3mo",
-   "recent_median": 999.5,
-   "recent_count": 22,
+   "recent_median": 999.0,
+   "recent_count": 21,
    "prior_median": 1099.0,
-   "prior_count": 7
+   "prior_count": 8
   },
   "YAESU FT5D": {
    "display": "Yaesu FT5D",
