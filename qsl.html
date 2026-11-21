@@ -330,6 +330,17 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
     <div class="receive-title">✦ &nbsp;For you&nbsp; ✦</div>
     <div id="receiveCard"></div>
     <p class="honest">A friendly card between hams — not an awards confirmation.</p>
+    <div style="text-align:center;margin-top:16px">
+      <button type="button" class="btn btn-secondary" id="downloadBtnR" style="max-width:420px;width:100%">Download image (PNG)</button>
+      <p id="downloadMsgR" style="margin-top:8px;font-size:14px"></p>
+      <div id="pngOutR" style="display:none;margin-top:12px;text-align:center">
+        <img id="pngImgR" alt="The QSL card as an image" style="max-width:100%;height:auto;border-radius:10px;box-shadow:0 6px 24px rgba(0,0,0,.35)" />
+        <div style="margin-top:10px">
+          <button type="button" class="btn btn-secondary" id="shareImgBtnR" style="display:none">Share / save / print the image</button>
+        </div>
+        <p style="font-size:13px;opacity:.75;margin-top:8px">On an iPhone or iPad, press and hold the image to save it to Photos.</p>
+      </div>
+    </div>
     <div style="text-align:center;margin-top:20px">
       <button class="btn btn-primary" id="sendBackBtn" style="max-width:420px;width:100%">Send one back</button>
       <p style="margin-top:16px;font-size:14px"><a href="https://hamradiobargains.com/">hamradiobargains.com</a></p>
@@ -986,33 +997,43 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
     x.lineWidth=2; x.strokeStyle=th.edge; x.stroke();
     return cv;
   }
-  $('downloadBtn').addEventListener('click', function(){
-    var msg=$('downloadMsg'); msg.textContent='Rendering your card\u2026';
+  // One export path for both views: the sender's form and the recipient's
+  // card view each get the drawn PNG, the on-page image, and (where the
+  // browser supports it) the Share / save / print button.
+  function exportCardPNG(msgId, outId, imgId, shareBtnId, failText){
+    var msg=$(msgId); msg.textContent='Rendering your card\u2026';
     function go(){
       var canvas;
       try{ canvas=drawQSL(); }
-      catch(e){ msg.textContent='Image export didn\u2019t work in this browser \u2014 use Copy link instead, it always works.'; return; }
+      catch(e){ msg.textContent=failText; return; }
       canvas.toBlob(function(b){
-        if(!b){ msg.textContent='Image export didn\u2019t work in this browser \u2014 the share link above is the best way to send it.'; return; }
+        if(!b){ msg.textContent=failText; return; }
         var fname='QSL-'+(state.toCall||'card')+'-'+(state.date||'')+'.png';
         try{ window._qslFile=new File([b], fname, {type:'image/png'}); }catch(e){ window._qslFile=null; }
         var a=document.createElement('a');
         a.href=URL.createObjectURL(b);
         a.download=fname;
         document.body.appendChild(a); a.click(); a.remove();
-        var out=$('pngOut'); $('pngImg').src=a.href; out.style.display='block';
-        var sb=$('shareImgBtn');
+        var out=$(outId); $(imgId).src=a.href; out.style.display='block';
+        var sb=$(shareBtnId);
         if(window._qslFile && navigator.canShare && navigator.canShare({files:[window._qslFile]})){ sb.style.display='inline-block'; }
         msg.textContent='Your card image is ready below \u2014 save it, share it, or print it from there.';
         out.scrollIntoView({behavior:'smooth', block:'nearest'});
       },'image/png');
     }
     if(document.fonts && document.fonts.ready){ document.fonts.ready.then(go); } else { go(); }
-  });
-
-  $('shareImgBtn').addEventListener('click', function(){
+  }
+  function shareCardImage(){
     if(window._qslFile && navigator.share){ navigator.share({files:[window._qslFile], title:'QSL card'}).catch(function(){}); }
+  }
+  $('downloadBtn').addEventListener('click', function(){
+    exportCardPNG('downloadMsg','pngOut','pngImg','shareImgBtn','Image export didn\u2019t work in this browser \u2014 use Copy link instead, it always works.');
   });
+  $('shareImgBtn').addEventListener('click', shareCardImage);
+  $('downloadBtnR').addEventListener('click', function(){
+    exportCardPNG('downloadMsgR','pngOutR','pngImgR','shareImgBtnR','Image export didn\u2019t work in this browser \u2014 the card above still shows everything, and a screenshot keeps it too.');
+  });
+  $('shareImgBtnR').addEventListener('click', shareCardImage);
 
   // ---------- Receive view ----------
   function init(){
