@@ -1,0 +1,34 @@
+{
+  "model": "Heathkit HG-10",
+  "slug": "heathkit-hg-10",
+  "searched_at": "2026-11-20T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"Heathkit HG-10 VFO\": 2 kept comps (THIN). Identity: HG-10B is treated as a different model and kept out (kept separate when unsure). Dropped: 178310887602 ($125.00, Oct 12, Parts Only, or Best Offer, free delivery); 820144325820 ($59.99, Sep 19, Untested, Parts Only, Best offer accepted, +$13.75); 404222044981 ($18.00, Nov 8, HG-10 tube kit, accessory). Parts-only dropped count 2, best-offer-accepted dropped count 1. HG-10B sales seen on the same page, NOT comps for the HG-10: 327403312443 $65.00 or BO (Nov 5, +$19.63); 327391680973 $79.99 \"WORKS\" (Oct 28, +$29.99); 117431241190 $109.00 or BO \"Works As Good As It Looks\" (Sep 26, +$14.15); 267831488470 $99.00 Best offer accepted (Nov 12); 366568953862 $59.99 Best offer accepted (Sep 14); remaining HG-10B sales parts/untested. Page 1 of eBay sold/completed search only. Best-offer-accepted sales, parts-only/as-is sales and accessories dropped. Comp sold prices are as shown on the results page (no shipping); shown shipping in each comp note. Search run by the daily extras sweep 2026-11-20.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785209",
+    "site": "qth",
+    "ask": 75,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 140,
+      "sold_date": "2026-08-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267752997511",
+      "source": "ebay",
+      "notes": "OUTLIER: 2.33x median of the other kept comps (60.00). shipping 16.85. Title: \"Heathkit HG-10 VFO Ham Radio 2-80 Meter Works Great 30 Day Returns.\" Listed \"or Best Offer\", not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 60,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237065030113",
+      "source": "ebay",
+      "notes": "OUTLIER: 0.43x median of the other kept comps (140.00). shipping 16.58. Auction, 1 bid. Title: \"HEATHKIT HG-10 VARIABLE FREQUENCY OSCILLATOR WAS WORKING WITH DX-60 1 OF 2\".",
+      "flags": []
+    }
+  ]
+}
