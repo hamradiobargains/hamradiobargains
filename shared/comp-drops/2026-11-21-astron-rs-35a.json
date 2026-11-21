@@ -1,0 +1,160 @@
+{
+  "model": "Astron RS-35A",
+  "slug": "astron-rs-35a",
+  "searched_at": "2026-11-21T17:58:58-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Astron RS-35A', page 1. Ledger miss (latest 2026-10-15, older than 30 days). Kept 16 RS-35A units. Dropped 7 best-offer-accepted (206559787588, 227557534181, 336847615472, 336847606384, 237065274229, 267760253554, 298612134703). Dropped 1 parts-only (267676942636). Excluded other Astron models. OUTLIERS flagged: $150.00 (itm 365790242450) vs ~$100; $169.99 (itm 366263889486) vs ~$100.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/860165567740",
+    "site": "ebay",
+    "ask": 149.99,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 100.0,
+      "sold_date": "2026-11-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227612226471",
+      "source": "ebay",
+      "notes": "w/ On/Off Switch; shipping $25.12",
+      "flags": []
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2026-11-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227572666539",
+      "source": "ebay",
+      "notes": "shipping $33.14",
+      "flags": []
+    },
+    {
+      "price": 89.99,
+      "sold_date": "2026-11-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147663065648",
+      "source": "ebay",
+      "notes": "title: Tested Working; free shipping",
+      "flags": []
+    },
+    {
+      "price": 75.0,
+      "sold_date": "2026-11-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267824796815",
+      "source": "ebay",
+      "notes": "shipping $87.30",
+      "flags": []
+    },
+    {
+      "price": 95.0,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307239381117",
+      "source": "ebay",
+      "notes": "title: Tested Working; shipping $25.00",
+      "flags": []
+    },
+    {
+      "price": 135.0,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307224693773",
+      "source": "ebay",
+      "notes": "title: Excellent; shipping $25.00",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-10-19",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/365790242450",
+      "source": "ebay",
+      "notes": "OUTLIER: $150.00 vs ~$100 median for the rest; title: NEW; shipping $45.80",
+      "flags": []
+    },
+    {
+      "price": 139.95,
+      "sold_date": "2026-10-15",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/237113823519",
+      "source": "ebay",
+      "notes": "shipping $34.47",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820142772865",
+      "source": "ebay",
+      "notes": "title: Working Good Condition; shipping $21.16",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398424294638",
+      "source": "ebay",
+      "notes": "title: Tested; shipping $23.64",
+      "flags": []
+    },
+    {
+      "price": 169.99,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366263889486",
+      "source": "ebay",
+      "notes": "OUTLIER: $169.99 vs ~$100 median for the rest; title: Very good Condition and Works; shipping $55.95",
+      "flags": []
+    },
+    {
+      "price": 110.0,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178454300848",
+      "source": "ebay",
+      "notes": "shipping $54.04",
+      "flags": []
+    },
+    {
+      "price": 99.95,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267760185942",
+      "source": "ebay",
+      "notes": "title: Tested; shipping $54.04",
+      "flags": []
+    },
+    {
+      "price": 99.95,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267760261827",
+      "source": "ebay",
+      "notes": "title: Unit Test(ed) — truncated in results",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327206095170",
+      "source": "ebay",
+      "notes": "title: Heavy-Duty; shipping $29.99",
+      "flags": []
+    },
+    {
+      "price": 99.95,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267760266546",
+      "source": "ebay",
+      "notes": "title: Tested",
+      "flags": []
+    }
+  ]
+}
