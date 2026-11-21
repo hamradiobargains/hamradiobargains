@@ -1,0 +1,8 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-21",
+  "ran_at": "2026-11-21T05:52:52-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-20T05:53:14-05:00 (prior eham run). Browsed signed OUT ('Login/Register' / 'Welcome Guest' shown). First classifieds load showed a brief Cloudflare security-verification redirect that cleared on its own within ~10 s (no CAPTCHA, no 1015, no interaction). Read public classifieds page 1 only (one page load); no individual ad pages, search form, sold searches, or seller/callsign pages; no ad IDs probed. No new public ads since the prior run: page 1 still tops out at 629686 and shows 629674-629686, all covered by the prior run (629681 and 629685 still not on the public page; not opened). Zero candidates; no comp searches (ledger or eBay) this run.",
+  "listings": []
+}
