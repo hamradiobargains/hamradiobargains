@@ -1,0 +1,839 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="dark" />
+<link rel="icon" href="data:," />
+<title>Send a QSL Card — HamRadioBargains</title>
+<style>
+:root{
+  --bg:#0f1417; --card-bg:#171e23; --border:#2a343a; --text:#e8edf0; --muted:#8fa1a8; --accent:#ff8c3b;
+  --input-bg:#11181c; --radius:14px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+button,input,select{font:inherit}
+.wrap{max-width:720px;margin:0 auto;padding:0 18px 48px}
+.site-head{text-align:center;padding:28px 0 8px}
+.logo{font-weight:900;letter-spacing:-.02em;font-size:28px;line-height:1;color:var(--text)}
+.logo span{color:var(--accent)}
+.backlink{display:inline-block;margin-top:14px;font-size:14px;min-height:36px;padding:8px 4px}
+h1{font-size:36px;line-height:1.05;letter-spacing:-.03em;margin:18px 0 10px;text-align:center}
+.intro{color:var(--muted);text-align:center;line-height:1.6;font-size:16.5px;margin:0 auto 26px;max-width:560px}
+.panel{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:20px}
+label{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:7px}
+input[type="text"],input[type="date"],select{width:100%;min-height:48px;background:var(--input-bg);border:1px solid var(--border);border-radius:10px;color:var(--text);padding:11px 12px;font-size:16px}
+input:focus,select:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:transparent}
+.call-input{text-transform:uppercase;font-weight:800;letter-spacing:.06em;font-size:19px !important}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.grid4 label{min-height:34px}
+.field{margin-bottom:16px}
+.confirm{font-size:13.5px;line-height:1.45;margin-top:7px;min-height:20px;color:#b9d6c2}
+.confirm.warn{color:var(--muted)}
+.confirm:empty{display:none}
+.note-count{font-size:12px;color:var(--muted);text-align:right;margin-top:5px}
+.section-label{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:22px 0 10px}
+.layout-picker{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.layout-btn{min-height:56px;border-radius:12px;border:1px solid var(--border);background:var(--input-bg);color:var(--text);cursor:pointer;padding:10px 8px;text-align:left;display:flex;gap:10px;align-items:center}
+.layout-btn[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset;background:#1d262c}
+.layout-btn strong{display:block;font-size:14px}
+.layout-btn small{display:block;color:var(--muted);font-size:12px;margin-top:2px;line-height:1.3}
+.swatch{width:40px;height:25px;border-radius:5px;flex:0 0 auto;border:1px solid rgba(255,255,255,.18)}
+.sw-classic{background:#f5efe0}
+.sw-midnight{background:#171e23;border-color:var(--accent)}
+.sw-signal{background:#fff}
+.preview-wrap{margin-top:6px}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}
+.btn{min-height:52px;border-radius:12px;border:1px solid var(--border);cursor:pointer;font-weight:800;padding:12px 14px}
+.btn-primary{background:var(--accent);color:#161006;border-color:var(--accent);grid-column:1/-1;font-size:17px}
+.btn-secondary{background:transparent;color:var(--text)}
+.btn:active{transform:translateY(1px)}
+.share-box{margin-top:16px;display:none;background:#0f171b;border:1px solid var(--border);border-radius:12px;padding:14px}
+.share-box.show{display:block}
+.share-box p{margin:0 0 10px;font-size:14px;line-height:1.5;color:var(--muted)}
+.share-row{display:flex;gap:8px}
+.share-row input{flex:1;min-width:0;font-size:13px !important}
+.copy-btn{min-height:48px;padding:0 16px;border-radius:10px;border:1px solid var(--accent);background:var(--accent);color:#161006;font-weight:800;cursor:pointer;white-space:nowrap}
+.copy-feedback{font-size:13px;color:#9fd3a8;margin-top:8px;min-height:18px}
+.honest{font-size:13.5px;line-height:1.6;color:var(--muted);text-align:center;margin:18px auto 0;max-width:540px}
+footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-align:center;color:var(--muted);font-size:13.5px;line-height:1.6}
+.receive-head{text-align:center;padding-top:10px}
+.receive-head p{color:var(--muted);line-height:1.6}
+.receive-title{font-size:15px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:var(--accent);text-align:center;margin:8px 0 14px}
+.hidden{display:none !important}
+/* ===== WIDE SCREENS ONLY (>=700px): the CARD breaks out of the 640px form column
+   to ~900px, centered on the page. The form itself stays in its column.
+   Nothing below 700px is touched — phone rendering is unchanged. ===== */
+@media(min-width:700px){
+  .preview-wrap{width:min(900px,calc(100vw - 36px));margin-left:50%;transform:translateX(-50%);container-type:inline-size}
+  #receiveCard{width:min(900px,calc(100vw - 36px));margin-left:50%;transform:translateX(-50%);container-type:inline-size}
+  .qsl{max-width:900px}
+}
+@media(max-width:560px){
+  h1{font-size:32px}
+  .grid2,.grid3,.grid4{grid-template-columns:1fr}
+  .grid4 label{min-height:0}
+  .layout-picker{grid-template-columns:1fr}
+  .actions{grid-template-columns:1fr}
+  .panel{padding:16px}
+  .logo{font-size:25px}
+}
+</style>
+<style id="cardStyles">
+/* ===== QSL CARDS — LANDSCAPE 5.5" x 3.5" (11:7) — also used for PNG export =====
+   TRADITIONAL CARD ANATOMY (modeled on real paper QSL cards):
+   place line across the top -> SENDER's callsign ENORMOUS, full width ->
+   sender identity block (name + FCC mailing address) lower-left with the
+   handwritten note beside it -> ONE ruled QSO strip across the lower third
+   (CONFIRMING QSO WITH + recipient call | DATE | TIME | FREQ | MODE | RSTs)
+   -> brand small at the bottom-left edge, "73's de ..." signature bottom-right.
+   The giant sender call fills the card at every width — no void. */
+.qsl{width:100%;max-width:640px;margin:0 auto;overflow:hidden;text-align:left;aspect-ratio:11/7;display:flex;flex-direction:column}
+.qsl *{box-sizing:border-box}
+.qsl .q-hero{white-space:nowrap;text-align:center;line-height:.95;flex-shrink:0}
+.qsl .hlen3,.qsl .hlen4{font-size:calc((100vw - 76px)*.28)}
+.qsl .hlen5{font-size:calc((100vw - 76px)*.275)}
+.qsl .hlen6{font-size:calc((100vw - 76px)*.235)}
+.qsl .hlen7{font-size:calc((100vw - 76px)*.205)}
+.qsl .hlen8{font-size:calc((100vw - 76px)*.18)}
+.qsl .q-mid{display:flex;flex:1;min-height:0;align-items:center}
+.qsl .q-strip{display:flex;flex-shrink:0}
+.qsl .q-cell{display:flex;flex-direction:column;flex:1;min-width:0}
+.qsl .q-cell:first-child{flex:1.65}
+.qsl .q-cell b{flex:1;display:flex;align-items:center;line-height:1.15;white-space:nowrap}
+.qsl .q-cell-date{flex:1.35}
+.qsl .q-cell-freq{flex:1.2}
+.qsl .q-foot{display:flex;justify-content:space-between;align-items:flex-end;flex-shrink:0}
+/* ================= CLASSIC — cream paper card ================= */
+.qsl-classic{background:#f5efe0;color:#221f18;border-radius:8px;padding:16px 22px 12px;border:1px solid #d8cdb2;box-shadow:0 14px 34px rgba(0,0,0,.35);font-family:Georgia,'Times New Roman',serif}
+.qsl-classic .q-place{text-align:center;color:#8a2f23;font-weight:700;font-size:13px;letter-spacing:.3em;text-transform:uppercase;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex-shrink:0}
+.qsl-classic .q-hero{font-weight:900;color:#201c14;letter-spacing:.01em;margin-top:2px}
+.qsl-classic .q-mid{gap:22px;margin-top:2px}
+.qsl-classic .q-ident{flex:0 0 41%;min-width:0;font-size:12.5px;line-height:1.5}
+.qsl-classic .q-ident b{display:block;font-size:14.5px;letter-spacing:.05em;text-transform:uppercase;line-height:1.3}
+.qsl-classic .q-ident span{display:block;color:#5a5344;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.qsl-classic .q-notebox{flex:1;min-width:0}
+.qsl-classic .q-note{font-family:'Snell Roundhand','Bradley Hand','Segoe Script','Brush Script MT',cursive;font-size:20px;line-height:1.3;color:#33302a;transform:rotate(-1deg);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.qsl-classic .q-dist{font-family:system-ui,sans-serif;font-size:10.5px;color:#7a7260;margin-top:7px;letter-spacing:.02em}
+.qsl-classic .q-strip{border:1.5px solid #221f18;margin-top:10px;background:rgba(255,255,255,.28)}
+.qsl-classic .q-cell{border-left:1px solid #a89a76;padding:6px 8px 7px}
+.qsl-classic .q-cell:first-child{border-left:none}
+.qsl-classic .q-cell span{display:block;font-size:8px;line-height:1.25;letter-spacing:.1em;text-transform:uppercase;color:#5a5344;white-space:nowrap;overflow:hidden}
+.qsl-classic .q-cell b{font-size:14px;margin-top:2px}
+.qsl-classic .q-cell.q-cell-to b{font-size:17px}
+.qsl-classic .q-cell i{font-style:normal;font-family:system-ui,sans-serif;font-size:9px;color:#7a7260;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.qsl-classic .q-foot{margin-top:9px;padding-top:7px;border-top:1px solid #d8cdb2;gap:16px}
+.qsl-classic .q-brand{font-size:9.5px;letter-spacing:.03em;color:#7a7260;font-family:system-ui,sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.qsl-classic .q-sign{font-family:'Snell Roundhand','Bradley Hand','Segoe Script','Brush Script MT',cursive;font-size:21px;color:#201c14;white-space:nowrap}
+/* ================= MIDNIGHT — dark, orange accent ================= */
+.qsl-midnight{background:#171e23;color:#e8edf0;border-radius:12px;padding:0 0 12px;border:1px solid #2a343a;box-shadow:0 14px 34px rgba(0,0,0,.4);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.qsl-midnight .m-bar{height:6px;background:#ff8c3b;flex-shrink:0}
+.qsl-midnight .m-inner{padding:12px 22px 0;flex:1;display:flex;flex-direction:column;min-height:0}
+.qsl-midnight .q-place{text-align:center;color:#ff8c3b;font-weight:800;font-size:12.5px;letter-spacing:.3em;text-transform:uppercase;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex-shrink:0}
+.qsl-midnight .q-hero{font-weight:900;color:#ff8c3b;letter-spacing:-.01em;margin-top:2px}
+.qsl-midnight .q-mid{gap:22px;margin-top:2px}
+.qsl-midnight .q-ident{flex:0 0 41%;min-width:0;font-size:12.5px;line-height:1.5;color:#c6d2d8}
+.qsl-midnight .q-ident b{display:block;font-size:14.5px;letter-spacing:.05em;text-transform:uppercase;line-height:1.3;color:#fff}
+.qsl-midnight .q-ident span{display:block;color:#8fa1a8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.qsl-midnight .q-notebox{flex:1;min-width:0}
+.qsl-midnight .q-note{font-family:'Snell Roundhand','Bradley Hand','Segoe Script','Brush Script MT',cursive;font-size:20px;line-height:1.3;color:#f0e9dc;transform:rotate(-1deg);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.qsl-midnight .q-dist{font-size:10.5px;color:#8fa1a8;margin-top:7px;letter-spacing:.02em}
+.qsl-midnight .q-strip{border:1px solid #3a4750;border-radius:8px;overflow:hidden;margin-top:10px;background:#0f1417}
+.qsl-midnight .q-cell{border-left:1px solid #2a343a;padding:6px 8px 7px}
+.qsl-midnight .q-cell:first-child{border-left:none}
+.qsl-midnight .q-cell span{display:block;font-size:8px;line-height:1.25;letter-spacing:.1em;text-transform:uppercase;color:#8fa1a8;font-weight:700;white-space:nowrap;overflow:hidden}
+.qsl-midnight .q-cell b{font-size:14px;margin-top:2px;color:#fff}
+.qsl-midnight .q-cell.q-cell-to b{font-size:17px}
+.qsl-midnight .q-cell i{font-style:normal;font-size:9px;color:#8fa1a8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.qsl-midnight .q-foot{margin-top:9px;padding-top:7px;border-top:1px solid #2a343a;gap:16px}
+.qsl-midnight .q-brand{font-size:9.5px;color:#8fa1a8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.qsl-midnight .q-sign{font-weight:800;font-size:14.5px;color:#fff;white-space:nowrap}
+.qsl-midnight .q-sign em{color:#ff8c3b;font-style:normal}
+/* ================= SIGNAL REPORT — clean & minimal ================= */
+.qsl-signal{background:#ffffff;color:#111111;border-radius:6px;padding:16px 22px 12px;border:1px solid #ddd;box-shadow:0 14px 34px rgba(0,0,0,.3);font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.qsl-signal .q-place{text-align:center;font-weight:700;font-size:12px;letter-spacing:.3em;text-transform:uppercase;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex-shrink:0;border-bottom:2px solid #111;padding-bottom:7px}
+.qsl-signal .q-hero{font-family:system-ui,sans-serif;font-weight:800;color:#111;letter-spacing:-.02em;margin-top:6px}
+.qsl-signal .q-mid{gap:22px;margin-top:2px}
+.qsl-signal .q-ident{flex:0 0 41%;min-width:0;font-size:11.5px;line-height:1.55}
+.qsl-signal .q-ident b{display:block;font-size:13px;letter-spacing:.05em;text-transform:uppercase;line-height:1.35}
+.qsl-signal .q-ident span{display:block;color:#555;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.qsl-signal .q-notebox{flex:1;min-width:0}
+.qsl-signal .q-note{font-family:'Snell Roundhand','Bradley Hand','Segoe Script','Brush Script MT',cursive;font-size:19px;line-height:1.3;color:#222;transform:rotate(-1deg);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.qsl-signal .q-dist{font-size:10px;color:#777;margin-top:7px}
+.qsl-signal .q-strip{border:2px solid #111;margin-top:10px}
+.qsl-signal .q-cell{border-left:1px solid #111;padding:6px 8px 7px}
+.qsl-signal .q-cell:first-child{border-left:none}
+.qsl-signal .q-cell span{display:block;font-size:8px;line-height:1.25;letter-spacing:.1em;text-transform:uppercase;color:#666;white-space:nowrap;overflow:hidden}
+.qsl-signal .q-cell b{font-size:13.5px;margin-top:2px}
+.qsl-signal .q-cell.q-cell-to b{font-family:system-ui,sans-serif;font-size:16.5px}
+.qsl-signal .q-cell i{font-style:normal;font-family:system-ui,sans-serif;font-size:9px;color:#888;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.qsl-signal .q-foot{margin-top:9px;padding-top:7px;border-top:1px solid #e2e2e2;gap:16px}
+.qsl-signal .q-brand{font-size:9.5px;color:#888;font-family:system-ui,sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.qsl-signal .q-sign{font-size:13.5px;font-weight:700;white-space:nowrap}
+@media(max-width:560px){
+  /* Phone: card KEEPS its 11:7 landscape shape. The anatomy is a vertical
+     stack (place / giant call / identity+note / strip / foot) so nothing
+     needs to reflow — type and spacing just scale down with the card. */
+  .qsl{aspect-ratio:11/7}
+  .qsl .q-cell:first-child{flex:2.2}
+  .qsl .q-cell-date b{white-space:normal}
+  .qsl .q-cell-freq b{white-space:normal}
+  .qsl .q-cell-to span{font-size:4.8px !important;letter-spacing:0 !important}
+  .qsl .hlen3,.qsl .hlen4{font-size:calc((100vw - 68px)*.27)}
+  .qsl .hlen5{font-size:calc((100vw - 68px)*.265)}
+  .qsl .hlen6{font-size:calc((100vw - 68px)*.225)}
+  .qsl .hlen7{font-size:calc((100vw - 68px)*.195)}
+  .qsl .hlen8{font-size:calc((100vw - 68px)*.17)}
+  /* CLASSIC — compact */
+  .qsl-classic{padding:9px 12px 7px}
+  .qsl-classic .q-place{font-size:7.5px;letter-spacing:.18em}
+  .qsl-classic .q-mid{gap:10px}
+  .qsl-classic .q-ident{font-size:8px;line-height:1.4}
+  .qsl-classic .q-ident b{font-size:9px}
+  .qsl-classic .q-note{font-size:12.5px;-webkit-line-clamp:2}
+  .qsl-classic .q-dist{font-size:7px;margin-top:3px}
+  .qsl-classic .q-strip{margin-top:6px;border-width:1px}
+  .qsl-classic .q-cell{padding:3px 4px 4px}
+  .qsl-classic .q-cell span{font-size:5.2px;letter-spacing:.02em}
+  .qsl-classic .q-cell b{font-size:8.5px;margin-top:1px}
+  .qsl-classic .q-cell.q-cell-to b{font-size:10.5px}
+  .qsl-classic .q-cell i{font-size:6px}
+  .qsl-classic .q-foot{margin-top:5px;padding-top:4px}
+  .qsl-classic .q-brand{font-size:6.5px}
+  .qsl-classic .q-sign{font-size:12.5px}
+  /* MIDNIGHT — compact */
+  .qsl-midnight{padding-bottom:7px}
+  .qsl-midnight .m-bar{height:4px}
+  .qsl-midnight .m-inner{padding:7px 12px 0}
+  .qsl-midnight .q-place{font-size:7.5px;letter-spacing:.16em}
+  .qsl-midnight .q-mid{gap:10px}
+  .qsl-midnight .q-ident{font-size:8px;line-height:1.4}
+  .qsl-midnight .q-ident b{font-size:9px}
+  .qsl-midnight .q-note{font-size:12.5px;-webkit-line-clamp:2}
+  .qsl-midnight .q-dist{font-size:7px;margin-top:3px}
+  .qsl-midnight .q-strip{margin-top:6px;border-radius:6px}
+  .qsl-midnight .q-cell{padding:3px 4px 4px}
+  .qsl-midnight .q-cell span{font-size:5.2px;letter-spacing:.02em}
+  .qsl-midnight .q-cell b{font-size:8.5px;margin-top:1px}
+  .qsl-midnight .q-cell.q-cell-to b{font-size:10.5px}
+  .qsl-midnight .q-cell i{font-size:6px}
+  .qsl-midnight .q-foot{margin-top:5px;padding-top:4px}
+  .qsl-midnight .q-brand{font-size:6.5px}
+  .qsl-midnight .q-sign{font-size:9.5px}
+  /* SIGNAL REPORT — compact */
+  .qsl-signal{padding:9px 12px 7px}
+  .qsl-signal .q-place{font-size:7.5px;letter-spacing:.16em;padding-bottom:4px;border-bottom-width:1.5px}
+  .qsl-signal .q-hero{margin-top:3px}
+  .qsl-signal .q-mid{gap:10px}
+  .qsl-signal .q-ident{font-size:7.5px;line-height:1.4}
+  .qsl-signal .q-ident b{font-size:8.5px}
+  .qsl-signal .q-note{font-size:12px;-webkit-line-clamp:2}
+  .qsl-signal .q-dist{font-size:6.5px;margin-top:3px}
+  .qsl-signal .q-strip{margin-top:6px;border-width:1.5px}
+  .qsl-signal .q-cell{padding:3px 4px 4px}
+  .qsl-signal .q-cell span{font-size:5.2px;letter-spacing:.02em}
+  .qsl-signal .q-cell b{font-size:8px;margin-top:1px}
+  .qsl-signal .q-cell.q-cell-to b{font-size:10px}
+  .qsl-signal .q-cell i{font-size:6px}
+  .qsl-signal .q-foot{margin-top:5px;padding-top:4px}
+  .qsl-signal .q-brand{font-size:6.5px}
+  .qsl-signal .q-sign{font-size:9px}
+}
+@media(min-width:700px){
+  /* ===== WIDE CARD COMPOSITION (>=700px only) =====
+     Type scales with the card's own width via cqw units (the preview /
+     receive wrappers are inline-size containers). The sender's call is
+     sized to span ~90% of the card width, like W8CNL / K1INX / NJ9T. */
+  .qsl{max-width:900px}
+  .qsl .hlen3,.qsl .hlen4{font-size:28cqw}
+  .qsl .hlen5{font-size:27.5cqw}
+  .qsl .hlen6{font-size:23.5cqw}
+  .qsl .hlen7{font-size:20.5cqw}
+  .qsl .hlen8{font-size:18cqw}
+  /* ---- CLASSIC ---- */
+  .qsl-classic{padding:2.2cqw 3cqw 1.6cqw;border-radius:10px}
+  .qsl-classic .q-place{font-size:1.85cqw}
+  .qsl-classic .q-hero{margin-top:.4cqw}
+  .qsl-classic .q-mid{gap:3cqw}
+  .qsl-classic .q-ident{font-size:1.8cqw;line-height:1.55}
+  .qsl-classic .q-ident b{font-size:2.05cqw}
+  .qsl-classic .q-note{font-size:2.9cqw}
+  .qsl-classic .q-dist{font-size:1.5cqw;margin-top:1cqw}
+  .qsl-classic .q-strip{margin-top:1.6cqw}
+  .qsl-classic .q-cell{padding:.9cqw 1.1cqw 1cqw}
+  .qsl-classic .q-cell span{font-size:1.15cqw}
+  .qsl-classic .q-cell b{font-size:2cqw;margin-top:.3cqw}
+  .qsl-classic .q-cell.q-cell-to b{font-size:2.4cqw}
+  .qsl-classic .q-cell i{font-size:1.3cqw}
+  .qsl-classic .q-foot{margin-top:1.3cqw;padding-top:1cqw}
+  .qsl-classic .q-brand{font-size:1.35cqw}
+  .qsl-classic .q-sign{font-size:3cqw}
+  /* ---- MIDNIGHT ---- */
+  .qsl-midnight{padding-bottom:1.6cqw;border-radius:14px}
+  .qsl-midnight .m-bar{height:.85cqw}
+  .qsl-midnight .m-inner{padding:1.8cqw 3cqw 0}
+  .qsl-midnight .q-place{font-size:1.85cqw}
+  .qsl-midnight .q-hero{margin-top:.4cqw}
+  .qsl-midnight .q-mid{gap:3cqw}
+  .qsl-midnight .q-ident{font-size:1.8cqw;line-height:1.55}
+  .qsl-midnight .q-ident b{font-size:2.05cqw}
+  .qsl-midnight .q-note{font-size:2.9cqw}
+  .qsl-midnight .q-dist{font-size:1.5cqw;margin-top:1cqw}
+  .qsl-midnight .q-strip{margin-top:1.6cqw;border-radius:10px}
+  .qsl-midnight .q-cell{padding:.9cqw 1.1cqw 1cqw}
+  .qsl-midnight .q-cell span{font-size:1.15cqw}
+  .qsl-midnight .q-cell b{font-size:2cqw;margin-top:.3cqw}
+  .qsl-midnight .q-cell.q-cell-to b{font-size:2.4cqw}
+  .qsl-midnight .q-cell i{font-size:1.3cqw}
+  .qsl-midnight .q-foot{margin-top:1.3cqw;padding-top:1cqw}
+  .qsl-midnight .q-brand{font-size:1.35cqw}
+  .qsl-midnight .q-sign{font-size:2.05cqw}
+  /* ---- SIGNAL REPORT ---- */
+  .qsl-signal{padding:2.2cqw 3cqw 1.6cqw;border-radius:8px}
+  .qsl-signal .q-place{font-size:1.75cqw;padding-bottom:1cqw}
+  .qsl-signal .q-hero{margin-top:.9cqw}
+  .qsl-signal .q-mid{gap:3cqw}
+  .qsl-signal .q-ident{font-size:1.7cqw;line-height:1.6}
+  .qsl-signal .q-ident b{font-size:1.95cqw}
+  .qsl-signal .q-note{font-size:2.8cqw}
+  .qsl-signal .q-dist{font-size:1.45cqw;margin-top:1cqw}
+  .qsl-signal .q-strip{margin-top:1.6cqw}
+  .qsl-signal .q-cell{padding:.9cqw 1.1cqw 1cqw}
+  .qsl-signal .q-cell span{font-size:1.15cqw}
+  .qsl-signal .q-cell b{font-size:1.95cqw;margin-top:.3cqw}
+  .qsl-signal .q-cell.q-cell-to b{font-size:2.3cqw}
+  .qsl-signal .q-cell i{font-size:1.3cqw}
+  .qsl-signal .q-foot{margin-top:1.3cqw;padding-top:1cqw}
+  .qsl-signal .q-brand{font-size:1.35cqw}
+  .qsl-signal .q-sign{font-size:1.95cqw}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site-head">
+    <div class="logo">Ham Radio <span>Bargains</span></div>
+    <div><a class="backlink" href="https://hamradiobargains.com/">← Back to live deals</a></div>
+  </header>
+
+  <!-- RECEIVE VIEW -->
+  <section id="receiveView" class="hidden">
+    <div class="receive-head">
+      <h1 style="font-size:30px">You've got a QSL card</h1>
+      <p id="receiveLine">A QSL card for you</p>
+    </div>
+    <div class="receive-title">✦ &nbsp;For you&nbsp; ✦</div>
+    <div id="receiveCard"></div>
+    <p class="honest">A friendly card between hams — not an awards confirmation.</p>
+    <div style="text-align:center;margin-top:20px">
+      <button class="btn btn-primary" id="sendBackBtn" style="max-width:420px;width:100%">Send one back</button>
+      <p style="margin-top:16px;font-size:14px"><a href="https://hamradiobargains.com/">hamradiobargains.com</a></p>
+    </div>
+  </section>
+
+  <!-- FORM VIEW -->
+  <section id="formView">
+    <h1>Send a QSL Card</h1>
+    <p class="intro">Just worked someone worth a card? Type the two callsigns — the names and hometowns fill themselves in from the FCC record — pick a card, and send the link. No account, no stamp.</p>
+
+    <div class="panel">
+      <div class="grid2">
+        <div class="field">
+          <label for="fromCall">Your callsign</label>
+          <input type="text" id="fromCall" class="call-input" value="K4LFC" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="K4LFC" />
+          <div class="confirm" id="fromInfo" aria-live="polite"></div>
+        </div>
+        <div class="field">
+          <label for="toCall">Their callsign</label>
+          <input type="text" id="toCall" class="call-input" value="W1AW" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="W1AW" />
+          <div class="confirm" id="toInfo" aria-live="polite"></div>
+        </div>
+      </div>
+
+      <div class="grid4">
+        <div class="field">
+          <label for="qsoDate">Date</label>
+          <input type="date" id="qsoDate" />
+        </div>
+        <div class="field">
+          <label for="qsoTime">UTC time <span style="text-transform:none;letter-spacing:0;font-weight:400">(optional)</span></label>
+          <input type="text" id="qsoTime" placeholder="14:32" autocomplete="off" />
+        </div>
+        <div class="field">
+          <label for="rstSent">RST you gave them</label>
+          <input type="text" id="rstSent" value="59" placeholder="59" autocomplete="off" />
+        </div>
+        <div class="field">
+          <label for="rstRcvd">RST they gave you</label>
+          <input type="text" id="rstRcvd" value="57" placeholder="59" autocomplete="off" />
+        </div>
+      </div>
+
+      <div class="grid3">
+        <div class="field">
+          <label for="band">Band</label>
+          <select id="band">
+            <option>160m</option><option>80m</option><option>60m</option><option>40m</option><option>30m</option>
+            <option selected>20m</option><option>17m</option><option>15m</option><option>12m</option><option>10m</option>
+            <option>6m</option><option>2m</option><option>70cm</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="freq">Frequency (MHz) <span style="text-transform:none;letter-spacing:0;font-weight:400">(optional)</span></label>
+          <input type="text" id="freq" placeholder="14.225" autocomplete="off" inputmode="decimal" />
+        </div>
+        <div class="field">
+          <label for="mode">Mode</label>
+          <select id="mode">
+            <option selected>SSB</option><option>CW</option><option>FM</option><option>FT8</option><option>FT4</option>
+            <option>AM</option><option>RTTY</option><option>SSTV</option><option>Other</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field" style="margin-bottom:4px">
+        <label for="note">A short note <span style="text-transform:none;letter-spacing:0;font-weight:400">(optional)</span></label>
+        <input type="text" id="note" maxlength="90" value="Great signal into North Carolina!" placeholder="Great signal into North Carolina!" />
+        <div class="note-count"><span id="noteCount">33</span> / 90</div>
+      </div>
+
+      <div class="section-label">Pick a layout</div>
+      <div class="layout-picker" role="group" aria-label="Card layout">
+        <button type="button" class="layout-btn" data-layout="classic" aria-pressed="true"><span class="swatch sw-classic"></span><span><strong>Classic</strong><small>Cream paper card</small></span></button>
+        <button type="button" class="layout-btn" data-layout="midnight" aria-pressed="false"><span class="swatch sw-midnight"></span><span><strong>Midnight</strong><small>Dark, orange accent</small></span></button>
+        <button type="button" class="layout-btn" data-layout="signal" aria-pressed="false"><span class="swatch sw-signal"></span><span><strong>Signal Report</strong><small>Clean &amp; minimal</small></span></button>
+      </div>
+
+      <div class="section-label">Live preview</div>
+      <div class="preview-wrap" id="previewWrap"></div>
+
+      <div class="actions">
+        <button type="button" class="btn btn-primary" id="makeBtn">Make my card — get the link</button>
+        <button type="button" class="btn btn-secondary" id="downloadBtn">Download image (PNG)</button>
+        <button type="button" class="btn btn-secondary" id="swapBtn">⇅ Swap callsigns</button>
+      </div>
+      <div id="downloadMsg" style="font-size:13px;color:var(--muted);margin-top:8px;min-height:18px;text-align:center"></div>
+
+      <div class="share-box" id="shareBox">
+        <p><strong style="color:var(--text)">Your card is ready.</strong> Send this link to the other station — text it, email it, or drop it in a message. They'll see the finished card, no account needed.</p>
+        <div class="share-row">
+          <input type="text" id="shareLink" readonly aria-label="Shareable QSL card link" />
+          <button type="button" class="copy-btn" id="copyBtn">Copy link</button>
+        </div>
+        <div class="copy-feedback" id="copyFeedback"></div>
+      </div>
+
+      <p class="honest">A friendly card between hams — not an awards confirmation (that's LoTW and eQSL territory). You send the link yourself — text it, email it, or drop it in a message.</p>
+    </div>
+  </section>
+
+  <footer>
+    HamRadioBargains.com — deals, price checks &amp; tools for hams.<br />
+    Card details come from the FCC record via Callook. If a record can't be pulled, the card still works with just the callsign.
+  </footer>
+</div>
+
+<script>
+(function(){
+  var $ = function(id){ return document.getElementById(id); };
+  function esc(s){ return String(s||'').replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
+  function titleCase(s){ return String(s||'').toLowerCase().replace(/\b\w/g,function(c){return c.toUpperCase();}); }
+  function parseLoc(line2){
+    if(!line2) return '';
+    var parts = line2.trim().split(/\s+/);
+    // e.g. GRAHAM, NC 27253  -> Graham, NC
+    var zip = parts[parts.length-1];
+    var state = parts[parts.length-2]||'';
+    var city = parts.slice(0, parts.length-2).join(' ').replace(/,$/,'');
+    if(!city || !state) return titleCase(line2.replace(/\s+\d{5}(-\d{4})?$/,''));
+    return titleCase(city) + ', ' + state.toUpperCase();
+  }
+  function fmtDate(iso){
+    if(!iso) return '';
+    var p = iso.split('-'); if(p.length!==3) return iso;
+    var months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    var m = parseInt(p[1],10); var d = parseInt(p[2],10);
+    return (months[m-1]||p[1]) + ' ' + d + ', ' + p[0];
+  }
+  function todayISO(){
+    var d=new Date(); var mm=String(d.getMonth()+1).padStart(2,'0'); var dd=String(d.getDate()).padStart(2,'0');
+    return d.getFullYear()+'-'+mm+'-'+dd;
+  }
+
+  var state = {
+    fromCall:'K4LFC', toCall:'W1AW',
+    fromName:'', fromLoc:'', fromGrid:'', fromAddr:'',
+    toName:'', toLoc:'', toGrid:'', toAddr:'',
+    date: todayISO(), time:'', band:'20m', freq:'', mode:'SSB', rstSent:'59', rstRcvd:'57',
+    note:'Great signal into North Carolina!', layout:'classic'
+  };
+  var cache = {};
+  var timeTouched = false;
+
+  // ---------- Card rendering — traditional paper-QSL anatomy ----------
+  // Place line -> SENDER call enormous -> sender identity + handwritten note
+  // -> one ruled QSO strip -> brand bottom-left, signature bottom-right.
+  var STATE_NAMES={AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',DC:'District of Columbia',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming',PR:'Puerto Rico',GU:'Guam',VI:'Virgin Islands'};
+  function fmtDateShort(iso){
+    if(!iso) return '';
+    var p=iso.split('-'); if(p.length!==3) return iso;
+    var months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    var m=parseInt(p[1],10); var d=parseInt(p[2],10);
+    return d+' '+(months[m-1]||p[1])+' '+p[0];
+  }
+  function placeLine(){
+    var city='', st='';
+    if(state.fromLoc){
+      var parts=state.fromLoc.split(',');
+      city=(parts[0]||'').trim();
+      st=(parts[1]||'').trim().toUpperCase();
+    }
+    var place='';
+    if(city) place=city.toUpperCase()+(st?', '+((STATE_NAMES[st]||st).toUpperCase()):'');
+    var bits=[place, state.fromGrid].filter(Boolean);
+    return bits.join(' · ') || 'Amateur Radio Station';
+  }
+  function heroClass(){
+    var n=(state.fromCall||'').length;
+    if(n<=3) return 'hlen3';
+    if(n>=8) return 'hlen8';
+    return 'hlen'+n;
+  }
+  function gridToLatLon(g){
+    if(!g) return null;
+    g=String(g).trim().toUpperCase();
+    if(g.length<4) return null;
+    var lon=-180+(g.charCodeAt(0)-65)*20+parseInt(g.charAt(2),10)*2;
+    var lat=-90+(g.charCodeAt(1)-65)*10+parseInt(g.charAt(3),10)*1;
+    if(g.length>=6){ lon+=(g.charCodeAt(4)-65)*(2/24)+1/24; lat+=(g.charCodeAt(5)-65)*(1/24)+1/48; }
+    else { lon+=1; lat+=0.5; }
+    if(isNaN(lat)||isNaN(lon)) return null;
+    return {lat:lat, lon:lon};
+  }
+  function distanceLine(){
+    var a=gridToLatLon(state.fromGrid), b=gridToLatLon(state.toGrid);
+    if(!a||!b) return '';
+    var rad=Math.PI/180;
+    var dLat=(b.lat-a.lat)*rad, dLon=(b.lon-a.lon)*rad;
+    var h=Math.sin(dLat/2)*Math.sin(dLat/2)+Math.cos(a.lat*rad)*Math.cos(b.lat*rad)*Math.sin(dLon/2)*Math.sin(dLon/2);
+    var mi=3959*2*Math.atan2(Math.sqrt(h), Math.sqrt(1-h));
+    if(!(mi>=10)) return '';
+    var y=Math.sin(dLon)*Math.cos(b.lat*rad);
+    var x=Math.cos(a.lat*rad)*Math.sin(b.lat*rad)-Math.sin(a.lat*rad)*Math.cos(b.lat*rad)*Math.cos(dLon);
+    var brg=(Math.atan2(y,x)/rad+360)%360;
+    var pts=['N','NE','E','SE','S','SW','W','NW'];
+    var comp=pts[Math.round(brg/45)%8];
+    var town=state.toLoc||state.toCall||'';
+    return '≈ '+Math.round(mi)+' mi '+comp+(town?' to '+town:'');
+  }
+  function identHTML(){
+    var out='';
+    if(state.fromName) out+='<b>'+esc(state.fromName)+'</b>';
+    var lines=[];
+    if(state.fromAddr) lines=state.fromAddr.split('\n');
+    else if(state.fromLoc) lines=[state.fromLoc];
+    lines.forEach(function(l){ if(l) out+='<span>'+esc(l)+'</span>'; });
+    if(!out) out='<b>'+esc(state.fromCall||'')+'</b><span>Amateur Radio</span>';
+    return out;
+  }
+  function stripHTML(){
+    var toSub=[state.toName, state.toLoc].filter(Boolean).join(' — ');
+    if(state.toGrid) toSub+=(toSub?' · ':'')+state.toGrid;
+    var cells='<div class="q-cell q-cell-to"><span>Confirming QSO with</span><b>'+esc(state.toCall||'—')+'</b>'+(toSub?'<i>'+esc(toSub)+'</i>':'')+'</div>';
+    function cell(label, val, cls){ return '<div class="q-cell'+(cls?' '+cls:'')+'"><span>'+esc(label)+'</span><b>'+esc(val)+'</b></div>'; }
+    cells+=cell('Date', fmtDateShort(state.date), 'q-cell-date');
+    if(state.time) cells+=cell('Time UTC', state.time);
+    if(state.freq) cells+=cell('Freq', state.freq+' MHz', 'q-cell-freq');
+    else cells+=cell('Band', state.band, 'q-cell-freq');
+    cells+=cell('Mode', state.mode);
+    if(state.rstSent) cells+=cell('RST Sent', state.rstSent);
+    if(state.rstRcvd) cells+=cell('RST Rcvd', state.rstRcvd);
+    return '<div class="q-strip">'+cells+'</div>';
+  }
+  function cardHTML(){
+    var brand='Sent with HamRadioBargains.com — hamradiobargains.com';
+    var place=esc(placeLine());
+    var hero='<div class="q-hero '+heroClass()+'">'+esc(state.fromCall||'—')+'</div>';
+    var noteText=state.note||'Confirming our contact — thanks for the QSO.';
+    var dist=distanceLine();
+    var mid='<div class="q-mid"><div class="q-ident">'+identHTML()+'</div>'
+      +'<div class="q-notebox"><div class="q-note">“'+esc(noteText)+'”</div>'
+      +(dist?'<div class="q-dist">'+esc(dist)+'</div>':'')+'</div></div>';
+    var strip=stripHTML();
+    if(state.layout==='midnight'){
+      var footM='<div class="q-foot"><div class="q-brand">'+esc(brand)+'</div><div class="q-sign">73\'s de <em>'+esc(state.fromCall||'')+'</em></div></div>';
+      return '<div class="qsl qsl-midnight" id="theCard"><div class="m-bar"></div><div class="m-inner">'
+        +'<div class="q-place">'+place+'</div>'+hero+mid+strip+footM+'</div></div>';
+    }
+    if(state.layout==='signal'){
+      var footS='<div class="q-foot"><div class="q-brand">'+esc(brand)+'</div><div class="q-sign">73\'s de '+esc(state.fromCall||'')+'</div></div>';
+      return '<div class="qsl qsl-signal" id="theCard">'
+        +'<div class="q-place">'+place+'</div>'+hero+mid+strip+footS+'</div>';
+    }
+    var footC='<div class="q-foot"><div class="q-brand">'+esc(brand)+'</div><div class="q-sign">73\'s de '+esc(state.fromCall||'')+'</div></div>';
+    return '<div class="qsl qsl-classic" id="theCard">'
+      +'<div class="q-place">'+place+'</div>'+hero+mid+strip+footC+'</div>';
+  }
+  function renderPreview(){ $('previewWrap').innerHTML = cardHTML(); }
+
+  // ---------- Auto-fill ----------
+  var validShape = /^[A-Z]{1,2}[0-9][A-Z]{1,3}$/;
+  // Auto-stamp: the page sits open during a live QSO, so when a valid TO
+  // callsign is entered (the moment the lookup fires), fill an empty,
+  // untouched UTC time field with the current UTC time. Never overwrite
+  // a time the operator typed themselves; the field stays editable.
+  function maybeStampTime(){
+    if(timeTouched) return;
+    var el = $('qsoTime');
+    if(!el || el.value.trim() !== '') return;
+    var d = new Date();
+    var hh = String(d.getUTCHours()).padStart(2,'0');
+    var mm = String(d.getUTCMinutes()).padStart(2,'0');
+    el.value = hh + ':' + mm;
+    state.time = el.value;
+    renderPreview();
+  }
+  function setInfo(which, html, warn){
+    var el = $(which==='from'?'fromInfo':'toInfo');
+    el.innerHTML = html||''; el.className = 'confirm'+(warn?' warn':'');
+  }
+  function lookup(call, which){
+    call = (call||'').trim().toUpperCase();
+    if(!validShape.test(call)){ 
+      if(which==='from'){ state.fromName=''; state.fromLoc=''; state.fromGrid=''; state.fromAddr=''; }
+      else { state.toName=''; state.toLoc=''; state.toGrid=''; state.toAddr=''; }
+      setInfo(which,'',false); renderPreview(); return;
+    }
+    if(which==='to') maybeStampTime();
+    if(cache[call]){
+      applyResult(which, call, cache[call]); return;
+    }
+    setInfo(which,'Looking up '+esc(call)+'…', true);
+    fetch('https://callook.info/'+encodeURIComponent(call)+'/json')
+      .then(function(r){ return r.json(); })
+      .then(function(data){ cache[call]=data; applyResult(which, call, data); })
+      .catch(function(){
+        setInfo(which, "Couldn't pull the FCC record — the card still works", true);
+      });
+  }
+  function applyResult(which, call, data){
+    if(!data || data.status!=='VALID'){
+      setInfo(which, "Couldn't pull the FCC record — the card still works", true);
+      return;
+    }
+    var name = titleCase(data.name||'');
+    var loc = '';
+    try{ loc = parseLoc(data.address && data.address.line2 ? data.address.line2 : ''); }catch(e){}
+    var grid = (data.location && data.location.gridsquare) ? data.location.gridsquare : '';
+    var addr = '';
+    try{
+      var line1 = data.address && data.address.line1 ? titleCase(String(data.address.line1).trim()) : '';
+      var line2raw = data.address && data.address.line2 ? String(data.address.line2).trim() : '';
+      var addr2 = '';
+      if(line2raw){
+        var lp = line2raw.split(/\s+/);
+        var zip = /^\d{5}/.test(lp[lp.length-1]) ? lp[lp.length-1] : '';
+        var stab = zip ? (lp[lp.length-2]||'') : '';
+        var cityRaw = zip ? lp.slice(0, lp.length-2).join(' ').replace(/,$/,'') : '';
+        addr2 = (cityRaw && stab) ? titleCase(cityRaw) + ', ' + stab.toUpperCase() + (zip?' '+zip:'') : titleCase(line2raw.replace(/\s+\d{5}(-\d{4})?$/,''));
+      }
+      addr = [line1, addr2].filter(Boolean).join('\n');
+    }catch(e){}
+    if(which==='from'){ state.fromName=name; state.fromLoc=loc; state.fromGrid=grid; state.fromAddr=addr; }
+    else { state.toName=name; state.toLoc=loc; state.toGrid=grid; state.toAddr=addr; }
+    var line = [name, loc].filter(Boolean).join(' — ');
+    if(grid) line += (line?' · ':'') + grid;
+    setInfo(which, esc(line||call), false);
+    renderPreview();
+  }
+  function debounce(fn, ms){ var t; return function(){ clearTimeout(t); var a=arguments; t=setTimeout(function(){fn.apply(null,a);}, ms); }; }
+  var lookupFrom = debounce(function(){ lookup(state.fromCall,'from'); }, 650);
+  var lookupTo = debounce(function(){ lookup(state.toCall,'to'); }, 650);
+
+  // ---------- Form wiring ----------
+  function syncFromForm(){
+    state.fromCall = $('fromCall').value.trim().toUpperCase();
+    state.toCall = $('toCall').value.trim().toUpperCase();
+    state.date = $('qsoDate').value || todayISO();
+    state.time = $('qsoTime').value.trim();
+    state.band = $('band').value; state.freq = $('freq').value.trim(); state.mode = $('mode').value;
+    state.rstSent = $('rstSent').value.trim(); state.rstRcvd = $('rstRcvd').value.trim();
+    state.note = $('note').value.trim();
+    $('noteCount').textContent = $('note').value.length;
+    renderPreview();
+    // hide stale share link when data changes
+    $('shareBox').classList.remove('show'); $('copyFeedback').textContent='';
+  }
+  ['qsoTime','rstSent','rstRcvd','note','freq'].forEach(function(id){ $(id).addEventListener('input', syncFromForm); });
+  $('qsoTime').addEventListener('input', function(){ timeTouched = true; });
+  ['qsoDate','band','mode'].forEach(function(id){ $(id).addEventListener('change', syncFromForm); $(id).addEventListener('input', syncFromForm); });
+  $('fromCall').addEventListener('input', function(){ syncFromForm(); lookupFrom(); });
+  $('toCall').addEventListener('input', function(){ syncFromForm(); lookupTo(); });
+  $('fromCall').addEventListener('blur', function(){ lookup(state.fromCall,'from'); });
+  $('toCall').addEventListener('blur', function(){ lookup(state.toCall,'to'); });
+
+  document.querySelectorAll('.layout-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      state.layout = btn.getAttribute('data-layout');
+      document.querySelectorAll('.layout-btn').forEach(function(b){ b.setAttribute('aria-pressed', b===btn?'true':'false'); });
+      renderPreview(); $('shareBox').classList.remove('show');
+    });
+  });
+  $('swapBtn').addEventListener('click', function(){
+    var fc=$('fromCall').value, tc=$('toCall').value;
+    $('fromCall').value=tc; $('toCall').value=fc;
+    var fn=state.fromName, fl=state.fromLoc, fg=state.fromGrid, fa=state.fromAddr;
+    state.fromName=state.toName; state.fromLoc=state.toLoc; state.fromGrid=state.toGrid; state.fromAddr=state.toAddr;
+    state.toName=fn; state.toLoc=fl; state.toGrid=fg; state.toAddr=fa;
+    syncFromForm(); lookup(state.fromCall,'from'); lookup(state.toCall,'to');
+  });
+
+  // ---------- Share link ----------
+  function buildLink(){
+    var base = window.location.origin + window.location.pathname;
+    var p = new URLSearchParams();
+    p.set('from', state.fromCall); p.set('to', state.toCall);
+    p.set('date', state.date); if(state.time) p.set('time', state.time);
+    p.set('band', state.band); if(state.freq) p.set('freq', state.freq); p.set('mode', state.mode);
+    if(state.rstSent) p.set('rstSent', state.rstSent);
+    if(state.rstRcvd) p.set('rstRcvd', state.rstRcvd);
+    if(state.note) p.set('note', state.note);
+    p.set('layout', state.layout);
+    if(state.fromName) p.set('fromName', state.fromName);
+    if(state.fromLoc) p.set('fromLoc', state.fromLoc);
+    if(state.fromGrid) p.set('fromGrid', state.fromGrid);
+    if(state.fromAddr) p.set('fromAddr', state.fromAddr);
+    if(state.toName) p.set('toName', state.toName);
+    if(state.toLoc) p.set('toLoc', state.toLoc);
+    if(state.toGrid) p.set('toGrid', state.toGrid);
+    return base + '?' + p.toString();
+  }
+  $('makeBtn').addEventListener('click', function(){
+    syncFromForm();
+    if(!state.fromCall || !state.toCall){
+      $('shareBox').classList.add('show');
+      $('shareLink').value='';
+      $('copyFeedback').textContent='Add both callsigns first, then make your card.';
+      return;
+    }
+    $('shareLink').value = buildLink();
+    if (window.goatcounter && window.goatcounter.count) {
+      window.goatcounter.count({ path: 'qsl-card-made', title: 'QSL card made', event: true });
+    }
+    $('shareBox').classList.add('show');
+    $('copyFeedback').textContent='';
+    $('shareBox').scrollIntoView({behavior:'smooth', block:'nearest'});
+  });
+  $('copyBtn').addEventListener('click', function(){
+    var v=$('shareLink').value; if(!v) return;
+    function done(){ $('copyFeedback').textContent='Copied — now paste it wherever you talk to '+ (state.toCall||'them') + '.'; }
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(v).then(done).catch(function(){ $('shareLink').select(); document.execCommand('copy'); done(); }); }
+    else { $('shareLink').select(); document.execCommand('copy'); done(); }
+  });
+
+  // ---------- Download PNG ----------
+  $('downloadBtn').addEventListener('click', function(){
+    var msg=$('downloadMsg'); msg.textContent='Rendering your card…';
+    try{
+      var card = document.querySelector('#previewWrap .qsl');
+      if(!card) throw new Error('no card');
+      var clone = card.cloneNode(true);
+      var w = card.offsetWidth, h = card.offsetHeight;
+      clone.setAttribute('style','width:'+w+'px;max-width:'+w+'px;margin:0;');
+      var css = $('cardStyles').textContent;
+      var html = new XMLSerializer().serializeToString(clone);
+      // Ensure XHTML-compatible: serializer output is fine for foreignObject in modern browsers
+      var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'"><foreignObject width="100%" height="100%"><div xmlns="http://www.w3.org/1999/xhtml"><style>'+css.replace(/&/g,'&amp;')+'</style>'+html+'</div></foreignObject></svg>';
+      var blob = new Blob([svg], {type:'image/svg+xml;charset=utf-8'});
+      var url = URL.createObjectURL(blob);
+      var img = new Image();
+      img.onload = function(){
+        var scale=2; var canvas=document.createElement('canvas');
+        canvas.width=w*scale; canvas.height=h*scale;
+        var ctx=canvas.getContext('2d'); ctx.scale(scale,scale); ctx.drawImage(img,0,0);
+        URL.revokeObjectURL(url);
+        canvas.toBlob(function(b){
+          if(!b){ msg.textContent='Image export didn\'t work in this browser — the share link above is the best way to send it.'; return; }
+          var a=document.createElement('a');
+          a.href=URL.createObjectURL(b);
+          a.download='QSL-'+(state.toCall||'card')+'-'+(state.date||'')+'.png';
+          document.body.appendChild(a); a.click(); a.remove();
+          msg.textContent='Downloaded — check your downloads for the PNG.';
+        },'image/png');
+      };
+      img.onerror=function(){ msg.textContent='Image export didn\'t work in this browser — use Copy link instead, it always works.'; };
+      img.src=url;
+    }catch(e){
+      msg.textContent='Image export didn\'t work here — use Copy link instead, it always works.';
+    }
+  });
+
+  // ---------- Receive view ----------
+  function init(){
+    $('qsoDate').value = state.date;
+    $('noteCount').textContent = $('note').value.length;
+    var params = new URLSearchParams(window.location.search);
+    var isReceive = params.get('from') && params.get('to');
+    if(isReceive){
+      state.fromCall=(params.get('from')||'').toUpperCase();
+      state.toCall=(params.get('to')||'').toUpperCase();
+      state.date=params.get('date')||todayISO();
+      state.time=params.get('time')||'';
+      state.band=params.get('band')||'20m';
+      state.freq=params.get('freq')||'';
+      state.mode=params.get('mode')||'SSB';
+      state.rstSent=params.get('rstSent')||params.get('rst')||'';
+      state.rstRcvd=params.get('rstRcvd')||'';
+      state.note=params.get('note')||'';
+      state.layout=params.get('layout')||'classic';
+      if(['classic','midnight','signal'].indexOf(state.layout)<0) state.layout='classic';
+      state.fromName=params.get('fromName')||''; state.fromLoc=params.get('fromLoc')||''; state.fromGrid=params.get('fromGrid')||''; state.fromAddr=params.get('fromAddr')||'';
+      state.toName=params.get('toName')||''; state.toLoc=params.get('toLoc')||''; state.toGrid=params.get('toGrid')||'';
+      $('formView').classList.add('hidden');
+      $('receiveView').classList.remove('hidden');
+      $('receiveLine').textContent='A QSL card for you from '+state.fromCall;
+      $('receiveCard').innerHTML=cardHTML();
+      document.title='QSL Card from '+state.fromCall+' — HamRadioBargains';
+      $('sendBackBtn').addEventListener('click', function(){
+        // swap into fresh form
+        $('receiveView').classList.add('hidden');
+        $('formView').classList.remove('hidden');
+        $('fromCall').value=state.toCall; $('toCall').value=state.fromCall;
+        var tn=state.toName, tl=state.toLoc, tg=state.toGrid;
+        // new from = old to info, new to = old from info
+        var newFromName=tn, newFromLoc=tl, newFromGrid=tg;
+        var newToName=state.fromName, newToLoc=state.fromLoc, newToGrid=state.fromGrid;
+        state.fromCall=$('fromCall').value; state.toCall=$('toCall').value;
+        state.fromName=newFromName; state.fromLoc=newFromLoc; state.fromGrid=newFromGrid;
+        state.toName=newToName; state.toLoc=newToLoc; state.toGrid=newToGrid;
+        var swapAddr=state.fromAddr; state.fromAddr=state.toAddr; state.toAddr=swapAddr;
+        state.date=todayISO(); $('qsoDate').value=state.date;
+        $('qsoTime').value=''; state.time=''; timeTouched=false;
+        $('freq').value=''; state.freq='';
+        $('note').value=''; state.note=''; $('noteCount').textContent='0';
+        // restore layout picker
+        document.querySelectorAll('.layout-btn').forEach(function(b){ b.setAttribute('aria-pressed', b.getAttribute('data-layout')===state.layout?'true':'false'); });
+        if(state.fromName) setInfo('from', esc([state.fromName,state.fromLoc].filter(Boolean).join(' — ')+(state.fromGrid?' · '+state.fromGrid:'')), false);
+        if(state.toName) setInfo('to', esc([state.toName,state.toLoc].filter(Boolean).join(' — ')+(state.toGrid?' · '+state.toGrid:'')), false);
+        renderPreview();
+        window.scrollTo({top:0,behavior:'smooth'});
+        // clean URL params so refresh stays in form
+        try{ history.replaceState(null,'',window.location.pathname); }catch(e){}
+      });
+      return;
+    }
+    renderPreview();
+    lookup(state.fromCall,'from');
+    lookup(state.toCall,'to');
+  }
+  init();
+})();
+</script>
+<script data-goatcounter="https://hrb.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
