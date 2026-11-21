@@ -769,47 +769,200 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
   });
 
   // ---------- Download PNG ----------
-  // Renders the card with html2canvas (self-hosted, loaded on first click).
-  // The previous SVG-foreignObject approach never finished loading in
-  // iOS Safari/WebKit, leaving the button stuck on "Rendering..." forever.
-  function loadH2C(){
-    return new Promise(function(res, rej){
-      if(window.html2canvas) return res();
-      var s=document.createElement('script');
-      s.src='html2canvas.min.js';
-      s.onload=function(){ res(); };
-      s.onerror=function(){ rej(new Error('lib load failed')); };
-      document.head.appendChild(s);
+  // The card image is DRAWN directly on a canvas from the card data —
+  // fixed geometry, no layout measuring. Two earlier approaches failed
+  // on iPhones: SVG foreignObject never finished loading in WebKit, and
+  // html2canvas re-measures the card's flexible layout with different
+  // font metrics and squeezes its rows into each other. Drawing the
+  // card arithmetically renders identically in every browser.
+  function drawQSL(){
+    var W=1760, H=1120, padX=53, topPad=39, botPad=28, IW=W-2*padX;
+    var SERIF="Georgia,'Times New Roman',serif";
+    var SYS="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif";
+    var MONO="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace";
+    var SCRIPT="'Snell Roundhand','Bradley Hand','Segoe Script','Brush Script MT',cursive";
+    var T={
+      classic:{bg:'#f5efe0',edge:'#d8cdb2',ink:'#221f18',place:'#8a2f23',placeFont:'700 %dpx '+SERIF,
+        hero:'#201c14',heroFont:'900 %dpx '+SERIF, nameF:'700 %dpx '+SERIF, nameC:'#221f18',
+        addrC:'#5a5344', addrF:'%dpx '+SERIF, noteC:'#33302a', distC:'#7a7260',
+        stripBg:'rgba(255,255,255,0.28)', stripEdge:'#221f18', stripEdgeW:4, stripR:0, cellDiv:'#a89a76',
+        labC:'#5a5344', labF:'%dpx '+SERIF, valC:'#221f18', valF:'700 %dpx '+SERIF, subC:'#7a7260',
+        footLine:'#d8cdb2', brandC:'#7a7260', signC:'#201c14', signF:'%dpx '+SCRIPT, radius:28, bar:null},
+      midnight:{bg:'#171e23',edge:'#2a343a',ink:'#e8edf0',place:'#ff8c3b',placeFont:'800 %dpx '+SYS,
+        hero:'#ff8c3b',heroFont:'900 %dpx '+SYS, nameF:'700 %dpx '+SYS, nameC:'#ffffff',
+        addrC:'#8fa1a8', addrF:'%dpx '+SYS, noteC:'#f0e9dc', distC:'#8fa1a8',
+        stripBg:'#0f1417', stripEdge:'#3a4750', stripEdgeW:3, stripR:22, cellDiv:'#2a343a',
+        labC:'#8fa1a8', labF:'700 %dpx '+SYS, valC:'#ffffff', valF:'600 %dpx '+SYS, subC:'#8fa1a8',
+        footLine:'#2a343a', brandC:'#8fa1a8', signC:'#ffffff', signF:'800 %dpx '+SYS, radius:38, bar:'#ff8c3b'},
+      signal:{bg:'#ffffff',edge:'#dddddd',ink:'#111111',place:'#111111',placeFont:'700 %dpx '+MONO,
+        hero:'#111111',heroFont:'800 %dpx '+SYS, nameF:'700 %dpx '+MONO, nameC:'#111111',
+        addrC:'#555555', addrF:'%dpx '+MONO, noteC:'#222222', distC:'#777777',
+        stripBg:'#ffffff', stripEdge:'#111111', stripEdgeW:5, stripR:0, cellDiv:'#111111',
+        labC:'#666666', labF:'%dpx '+MONO, valC:'#111111', valF:'600 %dpx '+SYS, subC:'#888888',
+        footLine:'#e2e2e2', brandC:'#888888', signC:'#111111', signF:'700 %dpx '+SYS, radius:22, bar:null}
+    };
+    var th=T[state.layout]||T.classic;
+    var cv=document.createElement('canvas'); cv.width=W; cv.height=H;
+    var x=cv.getContext('2d');
+    function F(tpl,px){ return tpl.replace('%d', Math.round(px)); }
+    function fit(text, tpl, startPx, maxW){
+      var px=startPx;
+      while(px>10){ x.font=F(tpl,px); if(x.measureText(text).width<=maxW) break; px-=4; }
+      return px;
+    }
+    function spacedWidth(text, spacing){ var w=0; for(var i=0;i<text.length;i++) w+=x.measureText(text[i]).width+spacing; return w-spacing; }
+    function drawSpaced(text, cx, y, spacing){
+      var total=spacedWidth(text, spacing), sx=cx-total/2;
+      var prevAlign=x.textAlign; x.textAlign='left';
+      for(var i=0;i<text.length;i++){ x.fillText(text[i], sx, y); sx+=x.measureText(text[i]).width+spacing; }
+      x.textAlign=prevAlign;
+    }
+    function ellipsize(text, maxW){
+      if(x.measureText(text).width<=maxW) return text;
+      while(text.length && x.measureText(text+'\u2026').width>maxW) text=text.slice(0,-1);
+      return text+'\u2026';
+    }
+    // Card body
+    x.beginPath();
+    if(x.roundRect) x.roundRect(1,1,W-2,H-2,th.radius); else x.rect(1,1,W-2,H-2);
+    x.fillStyle=th.bg; x.fill();
+    x.save(); x.clip();
+    if(th.bar){ x.fillStyle=th.bar; x.fillRect(0,0,W,17); }
+    // Place line
+    var place=(placeLine()||'').toUpperCase();
+    x.fillStyle=th.place; x.font=F(th.placeFont, 35); x.textAlign='center'; x.textBaseline='alphabetic';
+    var placeTop=(state.layout==='midnight'? 88 : topPad+34);
+    if(spacedWidth(place, 10) > IW){ x.font=F(th.placeFont, fit(place, th.placeFont, 35, IW-10*(place.length-1))); }
+    drawSpaced(place, W/2, placeTop, Math.max(4, parseInt(x.font)*0.28));
+    if(state.layout==='signal'){ x.fillStyle='#111111'; x.fillRect(padX, placeTop+20, IW, 5); }
+    // Hero callsign
+    var hero=state.fromCall||'\u2014';
+    var heroPx=fit(hero, th.heroFont, 430, IW);
+    x.font=F(th.heroFont, heroPx); x.fillStyle=th.hero;
+    var heroBase=placeTop+44+heroPx*0.76;
+    x.fillText(hero, W/2, heroBase);
+    var heroBottom=heroBase+heroPx*0.16;
+    // Strip geometry (foot reserved at the bottom)
+    var toSub=[state.toName, state.toLoc].filter(Boolean).join(' \u2014 ');
+    if(state.toGrid) toSub+=(toSub?' \u00b7 ':'')+state.toGrid;
+    var stripH=toSub? 158 : 128;
+    var footBase=H-botPad-4, footLineY=footBase-40;
+    var stripY=footLineY-26-stripH;
+    var midTop=heroBottom+26, midBot=stripY-20, midH=Math.max(60, midBot-midTop);
+    // Ident block (left)
+    var identW=Math.floor(IW*0.41);
+    var nameTxt=state.fromName||state.fromCall||'';
+    if(state.layout==='midnight') nameTxt=nameTxt.toUpperCase();
+    var addrLines=[];
+    if(state.fromAddr) addrLines=state.fromAddr.split('\n').filter(Boolean);
+    else if(state.fromLoc) addrLines=[state.fromLoc];
+    if(!state.fromName && !addrLines.length) addrLines=['Amateur Radio'];
+    var identLines=[{t:nameTxt, f:th.nameF, px:(state.layout==='midnight'?40:34), c:th.nameC}];
+    addrLines.forEach(function(l){ identLines.push({t:l, f:th.addrF, px:31, c:th.addrC}); });
+    var identH=identLines.length*50;
+    var iy=midTop+(midH-identH)/2+36;
+    x.textAlign='left';
+    identLines.forEach(function(ln){
+      x.font=F(ln.f, fit(ln.t, ln.f, ln.px, identW)); x.fillStyle=ln.c;
+      x.fillText(ln.t, padX, iy); iy+=50;
     });
+    // Note + distance (right)
+    var noteX=padX+identW+53, noteW=W-padX-noteX;
+    var noteText='\u201c'+(state.note||'Confirming our contact \u2014 thanks for the QSO.')+'\u201d';
+    var dist=distanceLine();
+    var notePx=51, noteLH=66, lines=[];
+    while(notePx>=36){
+      x.font=F('%dpx '+SCRIPT, notePx);
+      lines=[]; var words=noteText.split(/\s+/), cur='';
+      words.forEach(function(wd){
+        var t=cur? cur+' '+wd : wd;
+        if(x.measureText(t).width<=noteW || !cur) cur=t;
+        else { lines.push(cur); cur=wd; }
+      });
+      if(cur) lines.push(cur);
+      if(lines.length<=3) break;
+      notePx-=4; noteLH=Math.round(notePx*1.3);
+    }
+    if(lines.length>3){ lines=lines.slice(0,3); lines[2]=ellipsize(lines[2], noteW); }
+    var noteBlockH=lines.length*noteLH + (dist? 19+30 : 0);
+    var ny=midTop+(midH-noteBlockH)/2;
+    x.save();
+    x.translate(noteX+noteW/2, ny+lines.length*noteLH/2);
+    x.rotate(-0.0175);
+    x.font=F('%dpx '+SCRIPT, notePx); x.fillStyle=th.noteC; x.textAlign='left';
+    lines.forEach(function(ln, i){
+      x.fillText(ln, -noteW/2, -lines.length*noteLH/2 + notePx*0.85 + i*noteLH);
+    });
+    x.restore();
+    if(dist){
+      x.font=F('%dpx '+SYS, 25); x.fillStyle=th.distC; x.textAlign='left';
+      x.fillText(ellipsize(dist, noteW), noteX, ny+lines.length*noteLH+19+24);
+    }
+    // QSO strip
+    var cells=[{label:'Confirming QSO with', value:state.toCall||'\u2014', sub:toSub, flex:2.2},
+      {label:'Date', value:fmtDateShort(state.date), flex:1.6}];
+    if(state.time) cells.push({label:'Time UTC', value:state.time, flex:1.35});
+    if(state.freq) cells.push({label:'Freq', value:state.freq+' MHz', flex:1.35});
+    else cells.push({label:'Band', value:state.band||'', flex:1.35});
+    cells.push({label:'Mode', value:state.mode||'', flex:1.35});
+    if(state.rstSent) cells.push({label:'RST Sent', value:state.rstSent, flex:1.1});
+    if(state.rstRcvd) cells.push({label:'RST Rcvd', value:state.rstRcvd, flex:1.1});
+    var flexSum=0; cells.forEach(function(c){ flexSum+=c.flex; });
+    x.beginPath();
+    if(th.stripR && x.roundRect) x.roundRect(padX, stripY, IW, stripH, th.stripR); else x.rect(padX, stripY, IW, stripH);
+    x.fillStyle=th.stripBg; x.fill();
+    x.lineWidth=th.stripEdgeW; x.strokeStyle=th.stripEdge; x.stroke();
+    x.save();
+    if(th.stripR && x.roundRect){ x.beginPath(); x.roundRect(padX, stripY, IW, stripH, th.stripR); x.clip(); }
+    var cx=padX;
+    cells.forEach(function(c, idx){
+      var cw=IW*c.flex/flexSum;
+      if(idx>0){ x.fillStyle=th.cellDiv; x.fillRect(cx, stripY+2, 2, stripH-4); }
+      var tx=cx+28;
+      x.textAlign='left';
+      x.font=F(th.labF, 21); x.fillStyle=th.labC;
+      var lab=c.label.toUpperCase();
+      x.fillText(ellipsize(lab, cw-48), tx, stripY+44);
+      x.font=F(th.valF, fit(c.value, th.valF, 45, cw-48)); x.fillStyle=th.valC;
+      x.fillText(c.value, tx, stripY+96);
+      if(c.sub){
+        x.font=F('%dpx '+SYS, 24); x.fillStyle=th.subC;
+        x.fillText(ellipsize(c.sub, cw-48), tx, stripY+130);
+      }
+      cx+=cw;
+    });
+    x.restore();
+    // Footer
+    x.fillStyle=th.footLine; x.fillRect(padX, footLineY, IW, 2);
+    var brand='Sent with HamRadioBargains.com \u2014 hamradiobargains.com';
+    var sign='73\u2019s de '+(state.fromCall||'');
+    x.font=F(th.signF, state.layout==='classic'?53:(state.layout==='midnight'?36:34));
+    var signW=x.measureText(sign).width;
+    x.textAlign='right'; x.fillStyle=th.signC;
+    if(state.layout==='midnight'){
+      var pre='73\u2019s de ';
+      x.fillText(pre, W-padX-signW+x.measureText(pre).width, footBase);
+      x.fillStyle='#ff8c3b'; x.fillText(state.fromCall||'', W-padX, footBase);
+    } else {
+      x.fillText(sign, W-padX, footBase);
+    }
+    x.font=F('%dpx '+SYS, 24); x.fillStyle=th.brandC; x.textAlign='left';
+    x.fillText(ellipsize(brand, IW-signW-44), padX, footBase);
+    x.restore();
+    // Card edge
+    x.beginPath();
+    if(x.roundRect) x.roundRect(1,1,W-2,H-2,th.radius); else x.rect(1,1,W-2,H-2);
+    x.lineWidth=2; x.strokeStyle=th.edge; x.stroke();
+    return cv;
   }
   $('downloadBtn').addEventListener('click', function(){
     var msg=$('downloadMsg'); msg.textContent='Rendering your card\u2026';
-    var card = document.querySelector('#previewWrap .qsl');
-    if(!card){ msg.textContent='Make your card first, then download it.'; return; }
-    loadH2C().then(function(){
-      if(document.fonts && document.fonts.ready) return document.fonts.ready;
-    }).then(function(){
-      return html2canvas(card, {backgroundColor:null, scale:2, logging:false,
-        width: card.offsetWidth, height: card.offsetHeight,
-        windowWidth: document.documentElement.clientWidth,
-        onclone: function(doc){
-          // Pin the export copy to the card's exact on-screen pixel size.
-          // Without this, the renderer's own layout pass (esp. on iPhone
-          // WebKit, where font metrics differ) squeezes the card's rows
-          // into each other — name block over the callsign, QSO strip
-          // over the distance line.
-          var c = doc.querySelector('.qsl');
-          if(c){
-            c.style.width = card.offsetWidth+'px';
-            c.style.height = card.offsetHeight+'px';
-            c.style.maxWidth = card.offsetWidth+'px';
-            c.style.aspectRatio = 'auto';
-            c.style.margin = '0';
-          }
-        }});
-    }).then(function(canvas){
+    function go(){
+      var canvas;
+      try{ canvas=drawQSL(); }
+      catch(e){ msg.textContent='Image export didn\u2019t work in this browser \u2014 use Copy link instead, it always works.'; return; }
       canvas.toBlob(function(b){
-        if(!b){ msg.textContent='Image export didn\'t work in this browser \u2014 the share link above is the best way to send it.'; return; }
+        if(!b){ msg.textContent='Image export didn\u2019t work in this browser \u2014 the share link above is the best way to send it.'; return; }
         var fname='QSL-'+(state.toCall||'card')+'-'+(state.date||'')+'.png';
         try{ window._qslFile=new File([b], fname, {type:'image/png'}); }catch(e){ window._qslFile=null; }
         var a=document.createElement('a');
@@ -822,9 +975,8 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
         msg.textContent='Your card image is ready below \u2014 save it, share it, or print it from there.';
         out.scrollIntoView({behavior:'smooth', block:'nearest'});
       },'image/png');
-    }).catch(function(){
-      msg.textContent='Image export didn\'t work in this browser \u2014 use Copy link instead, it always works.';
-    });
+    }
+    if(document.fonts && document.fonts.ready){ document.fonts.ready.then(go); } else { go(); }
   });
 
   $('shareImgBtn').addEventListener('click', function(){
