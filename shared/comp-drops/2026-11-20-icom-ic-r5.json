@@ -1,0 +1,43 @@
+{
+  "model": "Icom IC-R5",
+  "slug": "icom-ic-r5",
+  "searched_at": "2026-11-20T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"Icom IC-R5\": 3 kept comps (solid). About 10 accessory sales (programming cables, antennas, carrying case) ignored. No best-offer-accepted or parts-only radio sales on page 1. Page 1 of eBay sold/completed search only. Best-offer-accepted sales, parts-only/as-is sales and accessories dropped. Comp sold prices are as shown on the results page (no shipping); shown shipping in each comp note. Search run by the daily extras sweep 2026-11-20.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785170",
+    "site": "qth",
+    "ask": 75,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 114.99,
+      "sold_date": "2026-10-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189020875634",
+      "source": "ebay",
+      "notes": "shipping 0.00. Title: \"ICOM IC-R5 Wideband AM/FM WFM Compact Receiver/Scanner-PREOWNED-WORKS\". Buy It Now, free delivery.",
+      "flags": []
+    },
+    {
+      "price": 125,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298642977550",
+      "source": "ebay",
+      "notes": "shipping 13.96. Title: \"...Mint Condition, In Box\". Listed \"or Best Offer\", not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 130.88,
+      "sold_date": "2026-08-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188839208745",
+      "source": "ebay",
+      "notes": "shipping 27.83. Title: \"ICOM IC- R5 Scanner ... Boxed MINT! BARGAIN\". Buy It Now; shipping shown as estimate.",
+      "flags": []
+    }
+  ]
+}
