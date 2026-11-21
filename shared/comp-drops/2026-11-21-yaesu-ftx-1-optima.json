@@ -1,0 +1,43 @@
+{
+  "model": "Yaesu FTX-1 Optima",
+  "slug": "yaesu-ftx-1-optima",
+  "searched_at": "2026-11-21T17:55:40-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Yaesu FTX-1', page 1 (66 results). Kept 3 FTX-1 Optima (100W) units, all Brand New fixed-price with identical titles (separate item numbers, likely a dealer selling multiple new units). Excluded: FTX-1 Field 10W ($1,200, 1 bid, Nov 21, itm 336909188897) and FTX-1 Optima-50 JDM 50W ($1,698, itm 366290927780) as different configurations; accessories (FC-80 tuner, guards, cables, keying relays, GPS antennas). Dropped 0 best-offer-accepted, 0 parts-only. Trigger listing is Open box with M-90D, BU-6, power pole included.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/327468996323",
+    "site": "ebay",
+    "ask": 1950.0,
+    "shipping": 23.64
+  },
+  "comps": [
+    {
+      "price": 1697.88,
+      "sold_date": "2026-11-19",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/327465078915",
+      "source": "ebay",
+      "notes": "shipping $9.99",
+      "flags": []
+    },
+    {
+      "price": 1699.88,
+      "sold_date": "2026-10-18",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/327395186860",
+      "source": "ebay",
+      "notes": "shipping $9.99",
+      "flags": []
+    },
+    {
+      "price": 1699.88,
+      "sold_date": "2026-10-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/327117679108",
+      "source": "ebay",
+      "notes": "shipping $9.99",
+      "flags": []
+    }
+  ]
+}
