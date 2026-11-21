@@ -1,0 +1,15 @@
+{
+  "model": "Icom IC-PW2",
+  "slug": "icom-ic-pw2",
+  "searched_at": "2026-11-20T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"Icom IC-PW2\": 0 usable comps. Page 1 showed only accessories: 267598557083 (instruction manual $18.90), 277797625195 (CI-V reference guide $14.49), 326536500327 (Remote Unit dust cover $49.00), 326536496998 (RF Unit dust cover $49.00). No amplifier sales. Older ledger entry for ICOM IC-PW2 (count 1, median 3649.99, date 2026-08-16) is stale (over 30 days) and was not used. THIN: no comps. Page 1 of eBay sold/completed search only. Best-offer-accepted sales, parts-only/as-is sales and accessories dropped. Comp sold prices are as shown on the results page (no shipping); shown shipping in each comp note. Search run by the daily extras sweep 2026-11-20.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785278",
+    "site": "qth",
+    "ask": 4400,
+    "shipping": 0
+  },
+  "comps": []
+}
