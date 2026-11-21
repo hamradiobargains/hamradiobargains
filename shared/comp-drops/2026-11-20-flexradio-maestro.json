@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio Maestro B",
+  "slug": "flexradio-maestro",
+  "searched_at": "2026-11-20T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search: two queries run. Query 1 \"FlexRadio Maestro B\" returned no FlexRadio results (card-game hits only); query 2 \"FlexRadio Maestro\" counted as a second search. 0 kept comps. Dropped: 158320491411 ($932.20, Sep 24, \"Flexradio SDR Maestro Console\", Best offer accepted, +$23.57); 377599982992 (Maestro carry handle $50.00, accessory); an iDatalink Ford Flex kit (unrelated). Identity caution: the ad says \"Flex Maestro B\"; ledger FLEXRADIO MAESTRO (count 2, median 644.95, date 2026-09-15) is over 30 days old and the \"B\" suffix could not be matched to a distinct model, so the ledger was not used. THIN: no comps. Page 1 of eBay sold/completed search only. Best-offer-accepted sales, parts-only/as-is sales and accessories dropped. Comp sold prices are as shown on the results page (no shipping); shown shipping in each comp note. Search run by the daily extras sweep 2026-11-20.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785243",
+    "site": "qth",
+    "ask": 800,
+    "shipping": 0
+  },
+  "comps": []
+}
