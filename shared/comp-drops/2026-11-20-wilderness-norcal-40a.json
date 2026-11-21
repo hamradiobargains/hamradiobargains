@@ -1,0 +1,15 @@
+{
+  "model": "Wilderness Norcal 40A",
+  "slug": "wilderness-norcal-40a",
+  "searched_at": "2026-11-20T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"Wilderness Norcal 40A\": 0 usable comps. Dropped: 168671882433 ($150.00, Oct 18 2026, Best offer accepted, +$6.98 delivery, Wilderness Radio Norcal 40a with The Electronics of Radio book); 227423570684 ($164.51, Nov 13 2026, Buy It Now, +$17.11 delivery, import fees due, seller in France, titled \"Sierra Norcal 40A + Sierra Wilderness (defect) with some bands modules\" - two-radio bundle with a disclosed defect, not a clean single unit). Remaining page-1 results were unrelated (archery, cards, apparel). Best-offer-accepted dropped count 1; bundle/defect dropped count 1. THIN: no comps. Page 1 of eBay sold/completed search only. Best-offer-accepted sales, parts-only/as-is sales and accessories dropped. Comp sold prices are as shown on the results page (no shipping); shown shipping in each comp note. Search run by the daily extras sweep 2026-11-20.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785178",
+    "site": "qth",
+    "ask": 125,
+    "shipping": 0
+  },
+  "comps": []
+}
