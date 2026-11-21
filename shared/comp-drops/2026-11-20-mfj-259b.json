@@ -1,0 +1,411 @@
+{
+  "model": "MFJ-259B",
+  "slug": "mfj-259b",
+  "searched_at": "2026-11-20T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"MFJ-259B\": 43 kept comps (solid) from 61 page-1 matches for the model string. Dropped (item number and price): Best offer accepted (8): 800860617844 $150.00 (also Parts Only), 307270215355 $155.00, 318707239298 $200.00, 800780756540 $250.00 (Open Box), 206337921047 $225.00 (also Parts Only), 298702140560 $159.95, 158255095567 $175.00, 800578815983 $75.99. Parts-only / as-is / not working, not best-offer (5): 327448308421 $145.00 (Powers On Untested As Is), 327373229245 $73.00 (Parts Only, auction), 158248074639 $99.99 (\"READ!\" - Read Description count 1, Parts Only), 800588432011 $25.38 (Not working correctly, Parts Only), 840058978318 $50.00 (AS-IS). Accessories/manuals dropped: 323940691700 ($12.95 DC supply), 198266263087 ($12.00 cable/plug), 135402837974 ($22.75 operating instructions), 173049127039 ($3.99 plug), 176110303930 ($2.99 plug). MFJ-259 / 259C not included. Outliers flagged: 198620602887 284.99, 237167963703 75.00, 336881610628 60.00, 860002124159 285.00, 198636739216 50.00. Seller listings with \"(SMOKERS)\" in the title are kept and noted. NOTE: a few result titles were truncated on the results page; extras (case, batteries, power supply, manual) are flagged only where the visible title names them. Page 1 of eBay sold/completed search only. Best-offer-accepted sales, parts-only/as-is sales and accessories dropped. Comp sold prices are as shown on the results page (no shipping); shown shipping in each comp note. Search run by the daily extras sweep 2026-11-20.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785270",
+    "site": "qth",
+    "ask": 150,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 180,
+      "sold_date": "2026-11-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336887332222",
+      "source": "ebay",
+      "notes": "shipping 8.44. Title: \"...MFJ-259B HF/VHF SWR Antenna Analyzer - TESTED\". Listed \"or Best Offer\", not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 185,
+      "sold_date": "2026-11-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/900099892545",
+      "source": "ebay",
+      "notes": "shipping 23.15.",
+      "flags": []
+    },
+    {
+      "price": 185,
+      "sold_date": "2026-11-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227588223563",
+      "source": "ebay",
+      "notes": "shipping 8.36. Title includes \"Frequency Counter\". Listed \"or Best Offer\", not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 199,
+      "sold_date": "2026-11-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168863492314",
+      "source": "ebay",
+      "notes": "shipping 8.42. Listed \"or Best Offer\", not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 175,
+      "sold_date": "2026-11-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366808002759",
+      "source": "ebay",
+      "notes": "shipping 7.63. Title includes \"Frequency Counter\".",
+      "flags": []
+    },
+    {
+      "price": 169.15,
+      "sold_date": "2026-11-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820325787075",
+      "source": "ebay",
+      "notes": "shipping 11.08.",
+      "flags": []
+    },
+    {
+      "price": 184.99,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940023940048",
+      "source": "ebay",
+      "notes": "shipping 25.08. Title: \"...Tester Meter with Box\".",
+      "flags": []
+    },
+    {
+      "price": 152.75,
+      "sold_date": "2026-11-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267838901908",
+      "source": "ebay",
+      "notes": "shipping 14.99.",
+      "flags": []
+    },
+    {
+      "price": 284.99,
+      "sold_date": "2026-11-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198620602887",
+      "source": "ebay",
+      "notes": "OUTLIER: 1.56x median of the other kept comps (182.50). shipping 37.27. Listed \"or Best Offer\", not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 199.95,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237170100100",
+      "source": "ebay",
+      "notes": "shipping 14.20.",
+      "flags": []
+    },
+    {
+      "price": 75,
+      "sold_date": "2026-11-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237167963703",
+      "source": "ebay",
+      "notes": "OUTLIER: 0.41x median of the other kept comps (185.00). shipping 7.95. Title: \"MFJ-259B antenna analyzer in good condition\".",
+      "flags": []
+    },
+    {
+      "price": 60,
+      "sold_date": "2026-11-05",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/336881610628",
+      "source": "ebay",
+      "notes": "OUTLIER: 0.32x median of the other kept comps (185.00). shipping 20.00. Condition shown as Open Box.",
+      "flags": []
+    },
+    {
+      "price": 199,
+      "sold_date": "2026-11-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287685580653",
+      "source": "ebay",
+      "notes": "shipping 9.50. Title includes \"(SMOKERS)\".",
+      "flags": []
+    },
+    {
+      "price": 138.5,
+      "sold_date": "2026-11-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840056033962",
+      "source": "ebay",
+      "notes": "shipping 15.00. Auction. Title includes \"VTG\".",
+      "flags": []
+    },
+    {
+      "price": 122.5,
+      "sold_date": "2026-11-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/860090203488",
+      "source": "ebay",
+      "notes": "shipping 10.00. Auction, 6 bids. Title: \"MFJ-259B SWR Analyzer with Power Supply And Connectors\".",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 225,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267803334135",
+      "source": "ebay",
+      "notes": "shipping 12.85. Listed \"or Best Offer\", not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 199.99,
+      "sold_date": "2026-11-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940008954215",
+      "source": "ebay",
+      "notes": "shipping 12.97. Title includes \"(SMOKERS)\". Listed \"or Best Offer\", not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 225,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147620349191",
+      "source": "ebay",
+      "notes": "shipping 7.63. Listed \"or Best Offer\", not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 179,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147643137644",
+      "source": "ebay",
+      "notes": "shipping 10.99. Title: \"...MFJ-259B Ham Radio w/ Case + AA Ba[ttery]\" (title truncated on results page).",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 169,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800787845784",
+      "source": "ebay",
+      "notes": "shipping 14.20.",
+      "flags": []
+    },
+    {
+      "price": 127.5,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287622224716",
+      "source": "ebay",
+      "notes": "shipping 11.45. Auction.",
+      "flags": []
+    },
+    {
+      "price": 199.99,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278409678214",
+      "source": "ebay",
+      "notes": "shipping 12.97. Listed \"or Best Offer\", not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 150,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147624532252",
+      "source": "ebay",
+      "notes": "shipping 10.00.",
+      "flags": []
+    },
+    {
+      "price": 285,
+      "sold_date": "2026-10-05",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/860002124159",
+      "source": "ebay",
+      "notes": "OUTLIER: 1.56x median of the other kept comps (182.50). shipping 14.16. Condition shown as Brand New.",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336825835085",
+      "source": "ebay",
+      "notes": "shipping 14.50.",
+      "flags": []
+    },
+    {
+      "price": 249.99,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377534717331",
+      "source": "ebay",
+      "notes": "shipping 4.99. Listed \"or Best Offer\", not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 265,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137544148134",
+      "source": "ebay",
+      "notes": "shipping 0.00. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 199,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188926106647",
+      "source": "ebay",
+      "notes": "shipping 7.95. Title includes \"+ Manual an[d ...]\" (title truncated on results page).",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 155.5,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307169536369",
+      "source": "ebay",
+      "notes": "shipping 9.74. Auction. Title includes \"Used\".",
+      "flags": []
+    },
+    {
+      "price": 162.5,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158279749858",
+      "source": "ebay",
+      "notes": "shipping 9.56.",
+      "flags": []
+    },
+    {
+      "price": 199.95,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327340138929",
+      "source": "ebay",
+      "notes": "shipping 0.00. Title: \"...HF VHF w/ power supply\". Free delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 215,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117376146161",
+      "source": "ebay",
+      "notes": "shipping 8.41.",
+      "flags": []
+    },
+    {
+      "price": 244.75,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/406734949877",
+      "source": "ebay",
+      "notes": "shipping 0.00. Free delivery. Listed \"or Best Offer\", not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 50,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198636739216",
+      "source": "ebay",
+      "notes": "OUTLIER: 0.27x median of the other kept comps (185.00). shipping 7.39. Title: \"MFJ MFJ-259B HF/VHF SWR Analyzer w/ Frequency Display Impedance/SWR Meter\". Listed \"or Best Offer\", not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 180,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158279849041",
+      "source": "ebay",
+      "notes": "shipping 11.24. Title includes \"FULLY WORKING\".",
+      "flags": []
+    },
+    {
+      "price": 180,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178459839160",
+      "source": "ebay",
+      "notes": "shipping 18.50. Title includes \"(very nice, wor[king])\" (title truncated on results page).",
+      "flags": []
+    },
+    {
+      "price": 190,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257717183942",
+      "source": "ebay",
+      "notes": "shipping 0.00. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 249,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237000037089",
+      "source": "ebay",
+      "notes": "shipping 0.00. Free delivery. Listed \"or Best Offer\", not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 175,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237017877750",
+      "source": "ebay",
+      "notes": "shipping 14.20. Title includes \"TESTED\".",
+      "flags": []
+    },
+    {
+      "price": 179.95,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237035420240",
+      "source": "ebay",
+      "notes": "shipping 19.70. Listed \"or Best Offer\", not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 179.99,
+      "sold_date": "2026-08-26",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/267766341044",
+      "source": "ebay",
+      "notes": "shipping 20.00. Auction. Title: \"1 New in the Box ... Analyzer\".",
+      "flags": []
+    },
+    {
+      "price": 200,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318631614934",
+      "source": "ebay",
+      "notes": "shipping 25.00.",
+      "flags": []
+    },
+    {
+      "price": 229.99,
+      "sold_date": "2026-08-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236952023647",
+      "source": "ebay",
+      "notes": "shipping 14.50.",
+      "flags": []
+    }
+  ]
+}
