@@ -1,0 +1,22 @@
+{
+  "model": "Yaesu FTM-400XDR",
+  "slug": "yaesu-ftm-400xdr",
+  "searched_at": "2026-11-20T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 437.97, count 16, ledger date 2026-10-22 — ledger hit — individual sales behind the median are not auditable from this file. Ledger key YAESU FTM-400XDR. Ad includes SCU-20 cable.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785256",
+    "site": "qth",
+    "ask": 399,
+    "shipping": 38
+  },
+  "comps": [],
+  "ledger": {
+    "median": 437.97,
+    "low": 350.99,
+    "high": 495,
+    "count": 16,
+    "date": "2026-10-22"
+  }
+}
