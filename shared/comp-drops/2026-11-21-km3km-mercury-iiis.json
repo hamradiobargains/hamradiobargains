@@ -1,0 +1,19 @@
+{
+  "model": "KM3KM Mercury IIIS",
+  "slug": "km3km-mercury-iiis",
+  "searched_at": "2026-11-21T16:39:13-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "From missed search shared/listing-drops/2026-11-20-missed-search.json — visitor typed 'mercury iiis' (then 'mercury iii' 6 s later and 'mercury ii' 1 s after that). eBay sold+completed searches 'mercury iii amplifier', 'mercury amplifier hf', 'mercury iii km3km' (signed in as Leo). THIN: 1 comp — low confidence. Mercury IIIS kept separate from the plain Mercury III (no plain Mercury III sales found). Excluded: Mercury ATS 1.5K auto tuners 278418282850 and 278385223244 ($699 each — different product, priced in mercury-ats drops); all other results were non-ham 'Mercury'/'III' items (marine parts, audio amps, sports cards, records, shoes).",
+  "comps": [
+    {
+      "price": 2495.0,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned, tested and working",
+      "url": "https://www.ebay.com/itm/278385193506",
+      "source": "ebay",
+      "notes": "Title 'MERCURY IIIS HF/50 AMPLIFIER TESTED and WORKING see video'; Buy It Now; +$28.54 shipping; free returns",
+      "flags": []
+    }
+  ]
+}
