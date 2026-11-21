@@ -1,0 +1,207 @@
+{
+  "model": "Yaesu VX-6R",
+  "slug": "yaesu-vx-6r",
+  "searched_at": "2026-11-21T17:56:50-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Yaesu VX-6R', page 1 (120 results). Kept 20 radio units (old sales kept per rule). Dropped 3 best-offer-accepted (377636118492, 800877240572, 286081412115). Dropped 0 parts-only. Excluded VX-6 (no R) unit 880019109875 $147.50 — model identity not certain; excluded accessories (antennas, batteries, cases, stands, caps). OUTLIERS flagged: $379.98 (itm 227446888180) vs ~$253; $805.00 (itm 960003967641) vs ~$253.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/137950868248",
+    "site": "ebay",
+    "ask": 300.0,
+    "shipping": 14.99
+  },
+  "comps": [
+    {
+      "price": 247.87,
+      "sold_date": "2026-11-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/157544679211",
+      "source": "ebay",
+      "notes": "shipping $15.00",
+      "flags": []
+    },
+    {
+      "price": 190.0,
+      "sold_date": "2026-11-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820101426273",
+      "source": "ebay",
+      "notes": "title: 1pcs YAESU VX-6R handheld radio; shipping $50.00",
+      "flags": []
+    },
+    {
+      "price": 253.0,
+      "sold_date": "2026-11-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940084324359",
+      "source": "ebay",
+      "notes": "auction, 12 bids; shipping $21.00",
+      "flags": []
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2026-11-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/137940135979",
+      "source": "ebay",
+      "notes": "shipping $14.99",
+      "flags": []
+    },
+    {
+      "price": 325.0,
+      "sold_date": "2026-11-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198774907706",
+      "source": "ebay",
+      "notes": "auction, 43 bids; free shipping",
+      "flags": []
+    },
+    {
+      "price": 165.0,
+      "sold_date": "2026-11-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206063310860",
+      "source": "ebay",
+      "notes": "title: 1pcs Yaesu VX-6R; shipping $50.00",
+      "flags": []
+    },
+    {
+      "price": 199.95,
+      "sold_date": "2026-11-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237174151880",
+      "source": "ebay",
+      "notes": "title: w/ Charger",
+      "flags": []
+    },
+    {
+      "price": 300.0,
+      "sold_date": "2026-10-28",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/860055196294",
+      "source": "ebay",
+      "notes": "title: w/ FNB-80LI SSM-17H USB; shipping $12.28",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 379.98,
+      "sold_date": "2026-10-26",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/227446888180",
+      "source": "ebay",
+      "notes": "OUTLIER: $379.98 vs ~$253 median for the rest; free shipping",
+      "flags": []
+    },
+    {
+      "price": 199.95,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257807070842",
+      "source": "ebay",
+      "notes": "title: w/ Charger",
+      "flags": []
+    },
+    {
+      "price": 335.0,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257808549440",
+      "source": "ebay",
+      "notes": "title: MARS MOD With Extras; shipping $8.71",
+      "flags": [
+        "modified",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 157.5,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880019103676",
+      "source": "ebay",
+      "notes": "auction, 11 bids; shipping $8.42",
+      "flags": []
+    },
+    {
+      "price": 169.27,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257797436860",
+      "source": "ebay",
+      "notes": "auction, 2 bids; title says Used (rest truncated in results); shipping $6.77",
+      "flags": []
+    },
+    {
+      "price": 265.0,
+      "sold_date": "2026-10-10",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/137820668940",
+      "source": "ebay",
+      "notes": "title: Excellent; shipping $6.98",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227552302321",
+      "source": "ebay",
+      "notes": "shipping $8.58",
+      "flags": []
+    },
+    {
+      "price": 805.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960003967641",
+      "source": "ebay",
+      "notes": "OUTLIER: $805.00 vs ~$253 median for the rest; title: Lot of 1; shipping $8.42",
+      "flags": []
+    },
+    {
+      "price": 329.95,
+      "sold_date": "2025-02-03",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/112550757516",
+      "source": "ebay",
+      "notes": "free shipping",
+      "flags": []
+    },
+    {
+      "price": 343.39,
+      "sold_date": "2024-12-04",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/112379105503",
+      "source": "ebay",
+      "notes": "title: with RT Systems Prog. Software/Cable",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 323.84,
+      "sold_date": "2024-01-21",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/112379089118",
+      "source": "ebay",
+      "notes": "title: w/ Diamond dual band antenna; free shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 322.74,
+      "sold_date": "2020-05-05",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/112379089029",
+      "source": "ebay",
+      "notes": "title: with Comet dual band antenna",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
