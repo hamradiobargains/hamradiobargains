@@ -1,0 +1,25 @@
+{
+  "model": "National NCL-2000",
+  "slug": "national-ncl-2000",
+  "searched_at": "2026-11-20T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"National NCL-2000\": 1 kept comp (THIN). Dropped: 920001826454 ($500.00, Oct 6, \"Powers On- Untested\", Parts Only, Best offer accepted, +$150.00). Best-offer-accepted dropped count 1; parts-only dropped count 1. The QTH ad is pickup only (southern New Jersey), configured for 220 V. Page 1 of eBay sold/completed search only. Best-offer-accepted sales, parts-only/as-is sales and accessories dropped. Comp sold prices are as shown on the results page (no shipping); shown shipping in each comp note. Search run by the daily extras sweep 2026-11-20.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785252",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 610,
+      "sold_date": "2026-11-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168829341440",
+      "source": "ebay",
+      "notes": "shipping 79.00. Auction, 19 bids. Title: \"National NCL2000 Linear Amplifier\".",
+      "flags": []
+    }
+  ]
+}
