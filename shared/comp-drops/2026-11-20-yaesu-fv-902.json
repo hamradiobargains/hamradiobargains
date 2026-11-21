@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FV-902",
+  "slug": "yaesu-fv-902",
+  "searched_at": "2026-11-20T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"Yaesu FV-902\": 0 exact-model sales on page 1 (results were other Yaesu VFOs: FV-301, FV-102DM, FV-101Z, FV-401). Identity caution: the QTH ad calls the FV-902 an \"antenna tuner\"; Yaesu lists the FT-902 tuner as FC-902 and FV-902DM as a VFO, so the model identity in the ad is unclear. THIN: no comps. Page 1 of eBay sold/completed search only. Best-offer-accepted sales, parts-only/as-is sales and accessories dropped. Comp sold prices are as shown on the results page (no shipping); shown shipping in each comp note. Search run by the daily extras sweep 2026-11-20.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785285",
+    "site": "qth",
+    "ask": 215,
+    "shipping": 0
+  },
+  "comps": []
+}
