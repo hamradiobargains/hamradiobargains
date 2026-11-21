@@ -480,6 +480,7 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
     note:'Great signal into North Carolina!', layout:'classic'
   };
   var cache = {};
+  var receiveMode = false;
   var timeTouched = false;
 
   // ---------- Card rendering — traditional paper-QSL anatomy ----------
@@ -726,8 +727,37 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
   });
 
   // ---------- Share link ----------
+  // Nothing is stored server-side — the link carries the card. New links
+  // pack just the QSO itself (callsigns, date, time, band/freq, mode, both
+  // RSTs, note, layout, and the two grid squares) into one coded 'c'
+  // parameter, about half the length of the original spelled-out form.
+  // Names, towns and mailing addresses are NOT carried: they are public
+  // FCC record data, re-fetched for the two callsigns when the card is
+  // opened (the same lookup the form uses). If that lookup cannot answer,
+  // the card still renders from the link alone — grids included, so the
+  // place line and distance survive. Old spelled-out links, which carry
+  // everything, still open exactly as before.
+  var PACK_FIELDS=['from','to','date','time','band','freq','mode','rstSent','rstRcvd','note','layout','fromGrid','toGrid'];
+  var PACK_SRC={from:'fromCall',to:'toCall',date:'date',time:'time',band:'band',freq:'freq',mode:'mode',rstSent:'rstSent',rstRcvd:'rstRcvd',note:'note',layout:'layout',fromGrid:'fromGrid',toGrid:'toGrid'};
+  function packLink(base){
+    var vals=PACK_FIELDS.map(function(k){ return state[PACK_SRC[k]]||''; });
+    while(vals.length && !vals[vals.length-1]) vals.pop();
+    var bytes=new TextEncoder().encode(vals.join('\u001f'));
+    var bin=''; bytes.forEach(function(b){ bin+=String.fromCharCode(b); });
+    var coded=btoa(bin).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
+    return base+'?c='+coded;
+  }
+  function unpackLink(coded){
+    var bin=atob(coded.replace(/-/g,'+').replace(/_/g,'/'));
+    var bytes=new Uint8Array(bin.length);
+    for(var i=0;i<bin.length;i++) bytes[i]=bin.charCodeAt(i);
+    var vals=new TextDecoder().decode(bytes).split('\u001f');
+    var out={}; PACK_FIELDS.forEach(function(k,i){ out[k]=vals[i]||''; });
+    return out;
+  }
   function buildLink(){
     var base = window.location.origin + window.location.pathname;
+    try{ return packLink(base); }catch(e){ /* fall through to spelled-out form */ }
     var p = new URLSearchParams();
     p.set('from', state.fromCall); p.set('to', state.toCall);
     p.set('date', state.date); if(state.time) p.set('time', state.time);
@@ -989,28 +1019,44 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
     $('qsoDate').value = state.date;
     $('noteCount').textContent = $('note').value.length;
     var params = new URLSearchParams(window.location.search);
-    var isReceive = params.get('from') && params.get('to');
+    var packedVals=null;
+    if(params.get('c')){
+      try{ var pv=unpackLink(params.get('c')); if(pv.from && pv.to) packedVals=pv; }catch(e){ packedVals=null; }
+    }
+    var gv=function(k){ return packedVals ? (packedVals[k]||'') : (params.get(k)||''); };
+    var isReceive = packedVals || (params.get('from') && params.get('to'));
     if(isReceive){
-      state.fromCall=(params.get('from')||'').toUpperCase();
-      state.toCall=(params.get('to')||'').toUpperCase();
-      state.date=params.get('date')||todayISO();
-      state.time=params.get('time')||'';
-      state.band=params.get('band')||'20m';
-      state.freq=params.get('freq')||'';
-      state.mode=params.get('mode')||'SSB';
-      state.rstSent=params.get('rstSent')||params.get('rst')||'';
-      state.rstRcvd=params.get('rstRcvd')||'';
-      state.note=params.get('note')||'';
-      state.layout=params.get('layout')||'classic';
+      state.fromCall=gv('from').toUpperCase();
+      state.toCall=gv('to').toUpperCase();
+      state.date=gv('date')||todayISO();
+      state.time=gv('time')||'';
+      state.band=gv('band')||'20m';
+      state.freq=gv('freq')||'';
+      state.mode=gv('mode')||'SSB';
+      state.rstSent=gv('rstSent')||gv('rst')||'';
+      state.rstRcvd=gv('rstRcvd')||'';
+      state.note=gv('note')||'';
+      state.layout=gv('layout')||'classic';
       if(['classic','midnight','signal'].indexOf(state.layout)<0) state.layout='classic';
-      state.fromName=params.get('fromName')||''; state.fromLoc=params.get('fromLoc')||''; state.fromGrid=params.get('fromGrid')||''; state.fromAddr=params.get('fromAddr')||'';
-      state.toName=params.get('toName')||''; state.toLoc=params.get('toLoc')||''; state.toGrid=params.get('toGrid')||'';
+      state.fromName=gv('fromName'); state.fromLoc=gv('fromLoc'); state.fromGrid=gv('fromGrid'); state.fromAddr=gv('fromAddr');
+      state.toName=gv('toName'); state.toLoc=gv('toLoc'); state.toGrid=gv('toGrid');
       $('formView').classList.add('hidden');
       $('receiveView').classList.remove('hidden');
       $('receiveLine').textContent='A QSL card for you from '+state.fromCall;
       $('receiveCard').innerHTML=cardHTML(); fitCard($('receiveCard').querySelector('.qsl'));
       document.title='QSL Card from '+state.fromCall+' — HamRadioBargains';
+      if(packedVals){
+        // Packed links carry no names/addresses — pull both FCC records
+        // now and re-render the received card as each one lands.
+        receiveMode=true;
+        var _rp=renderPreview;
+        renderPreview=function(){ _rp(); if(receiveMode){ $('receiveCard').innerHTML=cardHTML(); fitCard($('receiveCard').querySelector('.qsl')); } };
+        $('qsoTime').value=state.time;
+        lookup(state.fromCall,'from');
+        lookup(state.toCall,'to');
+      }
       $('sendBackBtn').addEventListener('click', function(){
+        receiveMode=false;
         // swap into fresh form
         $('receiveView').classList.add('hidden');
         $('formView').classList.remove('hidden');
