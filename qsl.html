@@ -832,8 +832,9 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
     var place=(placeLine()||'').toUpperCase();
     x.fillStyle=th.place; x.font=F(th.placeFont, 35); x.textAlign='center'; x.textBaseline='alphabetic';
     var placeTop=(state.layout==='midnight'? 88 : topPad+34);
-    if(spacedWidth(place, 10) > IW){ x.font=F(th.placeFont, fit(place, th.placeFont, 35, IW-10*(place.length-1))); }
-    drawSpaced(place, W/2, placeTop, Math.max(4, parseInt(x.font)*0.28));
+    var placePx=35;
+    if(spacedWidth(place, 10) > IW){ placePx=fit(place, th.placeFont, 35, IW-10*(place.length-1)); x.font=F(th.placeFont, placePx); }
+    drawSpaced(place, W/2, placeTop, Math.max(4, placePx*0.28));
     if(state.layout==='signal'){ x.fillStyle='#111111'; x.fillRect(padX, placeTop+20, IW, 5); }
     // Hero callsign
     var hero=state.fromCall||'\u2014';
