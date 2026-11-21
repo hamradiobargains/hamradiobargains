@@ -1,0 +1,34 @@
+{
+  "model": "E.F. Johnson Viking Navigator",
+  "slug": "ef-johnson-viking-navigator",
+  "searched_at": "2026-11-20T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"EF Johnson Viking Navigator\": 2 kept comps (THIN). Dropped: 860092824543 ($350.00, Nov 17, \"Low Output Needs Caps\", Best offer accepted, +$56.01); 188835672983 ($159.99, Aug 25, Best offer accepted, +$49.95); 188884202271 (operating manual $17.99); 236153231202 (VFO coupler repair kit). Best-offer-accepted dropped count 2. The ad (QTH 1785225) says recapped, new power cord, new meter from a Viking 1/2. Page 1 of eBay sold/completed search only. Best-offer-accepted sales, parts-only/as-is sales and accessories dropped. Comp sold prices are as shown on the results page (no shipping); shown shipping in each comp note. Search run by the daily extras sweep 2026-11-20.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785225",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 365,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237145864549",
+      "source": "ebay",
+      "notes": "shipping 44.73. Title: \"Vintage E.F. Johnson Viking Navigator CW Transmitter Model 240-126 Powers On VFO\". Listed \"or Best Offer\", not marked accepted.",
+      "flags": []
+    },
+    {
+      "price": 510,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298633491703",
+      "source": "ebay",
+      "notes": "shipping 46.06. Auction, 8 bids. Title: \"Johnson Viking Navigator Transmitter -untested\". Title says untested (not a parts/repair listing, so kept).",
+      "flags": []
+    }
+  ]
+}
