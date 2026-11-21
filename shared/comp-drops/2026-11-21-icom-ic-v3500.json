@@ -1,0 +1,25 @@
+{
+  "model": "Icom IC-V3500",
+  "slug": "icom-ic-v3500",
+  "searched_at": "2026-11-21T17:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — eBay sold search 'Icom IC-V3500', page 1 (3 results). Kept 1. Dropped 1 best-offer-accepted (860134871372, Pre-Owned). Dropped 1 parts-only (237101011185, 6 bids).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/137950879842",
+    "site": "ebay",
+    "ask": 239.99,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 284.0,
+      "sold_date": "2026-11-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/286433965415",
+      "source": "ebay",
+      "notes": "shipping $36.56",
+      "flags": []
+    }
+  ]
+}
