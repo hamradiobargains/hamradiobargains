@@ -1,0 +1,25 @@
+{
+  "model": "Icom IC-PW1",
+  "slug": "icom-ic-pw1",
+  "searched_at": "2026-11-21T15:01:52-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Icom IC-PW1', page 1 (3 results): 1 comp kept - thin. dropped 1 best-offer-accepted (Sep 6 2026, IC-PW1 with Icom extras, shown $3,350). Left out 1 service manual. 0 parts-only. No outlier test possible with one comp. searched_at is the time recorded right after the run's three eBay sold searches finished (searches ran 14:55-15:01).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785347",
+    "site": "qth",
+    "ask": 1899.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 2695.0,
+      "sold_date": "2026-11-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227593352827",
+      "source": "ebay",
+      "notes": "Title: 'ICOM IC-PW1 HF/6 METER SOLID STATE 1000 WATT LINEAR AMPLIFIER'. Buy It Now. Shipping +$129.00.",
+      "flags": []
+    }
+  ]
+}
