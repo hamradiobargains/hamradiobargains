@@ -789,7 +789,24 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
     loadH2C().then(function(){
       if(document.fonts && document.fonts.ready) return document.fonts.ready;
     }).then(function(){
-      return html2canvas(card, {backgroundColor:null, scale:2, logging:false});
+      return html2canvas(card, {backgroundColor:null, scale:2, logging:false,
+        width: card.offsetWidth, height: card.offsetHeight,
+        windowWidth: document.documentElement.clientWidth,
+        onclone: function(doc){
+          // Pin the export copy to the card's exact on-screen pixel size.
+          // Without this, the renderer's own layout pass (esp. on iPhone
+          // WebKit, where font metrics differ) squeezes the card's rows
+          // into each other — name block over the callsign, QSO strip
+          // over the distance line.
+          var c = doc.querySelector('.qsl');
+          if(c){
+            c.style.width = card.offsetWidth+'px';
+            c.style.height = card.offsetHeight+'px';
+            c.style.maxWidth = card.offsetWidth+'px';
+            c.style.aspectRatio = 'auto';
+            c.style.margin = '0';
+          }
+        }});
     }).then(function(canvas){
       canvas.toBlob(function(b){
         if(!b){ msg.textContent='Image export didn\'t work in this browser \u2014 the share link above is the best way to send it.'; return; }
