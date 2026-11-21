@@ -98,9 +98,9 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
 .qsl .q-hero{white-space:nowrap;text-align:center;line-height:.95;flex-shrink:0}
 .qsl .hlen3,.qsl .hlen4{font-size:calc((100vw - 76px)*.28)}
 .qsl .hlen5{font-size:calc((100vw - 76px)*.275)}
-.qsl .hlen6{font-size:calc((100vw - 76px)*.235)}
-.qsl .hlen7{font-size:calc((100vw - 76px)*.205)}
-.qsl .hlen8{font-size:calc((100vw - 76px)*.18)}
+.qsl .hlen6{font-size:calc((100vw - 76px)*.215)}
+.qsl .hlen7{font-size:calc((100vw - 76px)*.19)}
+.qsl .hlen8{font-size:calc((100vw - 76px)*.168)}
 .qsl .q-mid{display:flex;flex:1;min-height:0;align-items:center}
 .qsl .q-strip{display:flex;flex-shrink:0}
 .qsl .q-cell{display:flex;flex-direction:column;flex:1;min-width:0}
@@ -186,9 +186,9 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
   .qsl .q-cell-to span{font-size:4.8px !important;letter-spacing:0 !important}
   .qsl .hlen3,.qsl .hlen4{font-size:calc((100vw - 68px)*.27)}
   .qsl .hlen5{font-size:calc((100vw - 68px)*.265)}
-  .qsl .hlen6{font-size:calc((100vw - 68px)*.225)}
-  .qsl .hlen7{font-size:calc((100vw - 68px)*.195)}
-  .qsl .hlen8{font-size:calc((100vw - 68px)*.17)}
+  .qsl .hlen6{font-size:calc((100vw - 68px)*.205)}
+  .qsl .hlen7{font-size:calc((100vw - 68px)*.18)}
+  .qsl .hlen8{font-size:calc((100vw - 68px)*.16)}
   /* CLASSIC — compact */
   .qsl-classic{padding:9px 12px 7px}
   .qsl-classic .q-place{font-size:7.5px;letter-spacing:.18em}
@@ -252,9 +252,9 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
   .qsl{max-width:900px}
   .qsl .hlen3,.qsl .hlen4{font-size:28cqw}
   .qsl .hlen5{font-size:27.5cqw}
-  .qsl .hlen6{font-size:23.5cqw}
-  .qsl .hlen7{font-size:20.5cqw}
-  .qsl .hlen8{font-size:18cqw}
+  .qsl .hlen6{font-size:21.5cqw}
+  .qsl .hlen7{font-size:19cqw}
+  .qsl .hlen8{font-size:16.8cqw}
   /* ---- CLASSIC ---- */
   .qsl-classic{padding:2.2cqw 3cqw 1.6cqw;border-radius:10px}
   .qsl-classic .q-place{font-size:1.85cqw}
@@ -579,7 +579,32 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
     return '<div class="qsl qsl-classic" id="theCard">'
       +'<div class="q-place">'+place+'</div>'+hero+mid+strip+footC+'</div>';
   }
-  function renderPreview(){ $('previewWrap').innerHTML = cardHTML(); }
+  // ---------- Auto-fit ----------
+  // The giant sender call is sized by per-length CSS guesses, but glyph
+  // widths vary by callsign and font — a 2x3 call (6 chars, e.g. KA4FFP)
+  // ran just wide enough that the card's overflow clipped its last letter.
+  // Measure the real rendered text and shrink it to fit, never enlarge.
+  function fitOne(el){
+    if(!el) return;
+    el.style.fontSize = '';
+    var avail = el.clientWidth, w = el.scrollWidth;
+    if(avail > 0 && w > avail){
+      var size = parseFloat(window.getComputedStyle(el).fontSize);
+      if(size > 0) el.style.fontSize = (size * (avail / w) * 0.97) + 'px';
+    }
+  }
+  function fitCard(card){
+    if(!card) return;
+    fitOne(card.querySelector('.q-hero'));
+    fitOne(card.querySelector('.q-cell-to b'));
+  }
+  function fitAllCards(){
+    var cards = document.querySelectorAll('.qsl');
+    for(var i = 0; i < cards.length; i++) fitCard(cards[i]);
+  }
+  window.addEventListener('resize', fitAllCards);
+
+  function renderPreview(){ $('previewWrap').innerHTML = cardHTML(); fitCard($('previewWrap').querySelector('.qsl')); }
 
   // ---------- Auto-fill ----------
   var validShape = /^[A-Z]{1,2}[0-9][A-Z]{1,3}$/;
@@ -797,7 +822,7 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
       $('formView').classList.add('hidden');
       $('receiveView').classList.remove('hidden');
       $('receiveLine').textContent='A QSL card for you from '+state.fromCall;
-      $('receiveCard').innerHTML=cardHTML();
+      $('receiveCard').innerHTML=cardHTML(); fitCard($('receiveCard').querySelector('.qsl'));
       document.title='QSL Card from '+state.fromCall+' — HamRadioBargains';
       $('sendBackBtn').addEventListener('click', function(){
         // swap into fresh form
