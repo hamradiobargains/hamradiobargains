@@ -1,0 +1,50 @@
+{
+  "model": "Kenwood TM-241A",
+  "slug": "kenwood-tm-241a",
+  "searched_at": "2026-11-21T16:45:49-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "From missed search shared/listing-drops/2026-11-21-missed-search.json \u2014 visitor typed 'tm 241a'. eBay sold+completed search 'kenwood tm-241a' (signed in as Leo). 4 comps. Excluded: parts-only/repair sales 278426980585 ($59, 'Powers Up For Parts/Repair') and 227487509375 ($75, display problem); best-offer-accepted sale 820023061134 ($100 asking, real price unknown); accessories (MC-44 mics, mounting brackets) and manuals; other Kenwood 2m mobiles from 'fewer words' results (TM-231A, TM-261A, TM-281A, TM-221A, TM-271A, TM-2550A etc.) not merged.",
+  "comps": [
+    {
+      "price": 84.99,
+      "sold_date": "2026-11-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257708485828",
+      "source": "ebay",
+      "notes": "Includes mic and mounting bracket; listed 'or Best Offer' but sold at listed price (no best-offer-accepted tag); free shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 68.0,
+      "sold_date": "2026-10-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960109451215",
+      "source": "ebay",
+      "notes": "With mic; Buy It Now; +$15.00 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 50.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117449536319",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; +$20.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 110.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned, 'Nice Condition'",
+      "url": "https://www.ebay.com/itm/128025231007",
+      "source": "ebay",
+      "notes": "Listed 'or Best Offer', sold at listed price; +$14.70 shipping",
+      "flags": []
+    }
+  ]
+}
