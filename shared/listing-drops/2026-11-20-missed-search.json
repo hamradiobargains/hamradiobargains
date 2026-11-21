@@ -5,7 +5,11 @@
     {
       "term": "yaesu ft-890a",
       "searched_at": "2026-11-20T22:28:54-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Yaesu FT-890AT",
+      "result": "2026-11-21-yaesu-ft-890at.json, 1 comp (low confidence; no FT-890A exists, deposited under Yaesu FT-890AT per variant rule; plain FT-890 kept separate)",
+      "status": "worked",
+      "worked_at": "2026-11-21"
     },
     {
       "term": "mercury ii",
@@ -15,12 +19,20 @@
     {
       "term": "mercury iii",
       "searched_at": "2026-11-20T23:59:24-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "KM3KM Mercury III",
+      "result": "no comps found (no plain Mercury III sales on eBay; same visitor's 'mercury iiis' 6 s earlier priced in 2026-11-21-km3km-mercury-iiis.json — no duplicate deposit)",
+      "status": "worked",
+      "worked_at": "2026-11-21"
     },
     {
       "term": "mercury iiis",
       "searched_at": "2026-11-20T23:59:18-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "KM3KM Mercury IIIS",
+      "result": "2026-11-21-km3km-mercury-iiis.json, 1 comp (low confidence)",
+      "status": "worked",
+      "worked_at": "2026-11-21"
     }
   ]
 }
