@@ -1,0 +1,15 @@
+{
+  "model": "Cushcraft A144-11",
+  "slug": "cushcraft-a144-11",
+  "searched_at": "2026-11-20T18:58:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search \"Cushcraft A144-11\": 0 sales; page 1 held only unrelated results (comic books, toys, cards, softballs). THIN: no comps. The QTH ad is a Cushcraft A144-11 modified to WA2ELA spacing with 8 elements (3 elements kept to restore original), local pickup/meet from Greenwich CT. Page 1 of eBay sold/completed search only. Best-offer-accepted sales, parts-only/as-is sales and accessories dropped. Comp sold prices are as shown on the results page (no shipping); shown shipping in each comp note. Search run by the daily extras sweep 2026-11-20.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785241",
+    "site": "qth",
+    "ask": 125,
+    "shipping": 0
+  },
+  "comps": []
+}
