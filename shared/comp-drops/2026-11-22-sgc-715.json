@@ -1,0 +1,15 @@
+{
+  "model": "SGC 715",
+  "slug": "sgc-715",
+  "searched_at": "2026-11-22T18:54:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'SGC 715' page 1: 8 rows with SGC/715 text, all baseball/sports trading cards graded by SGC (Topps #715 etc.); 0 SGC-715 radio sales. 0 comps: not comped. Only page 1 searched per rule; a 'SGC 715 manpack' query was not run. searched_at is the file-build time (searches ran in the minutes before).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785374",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": []
+}
