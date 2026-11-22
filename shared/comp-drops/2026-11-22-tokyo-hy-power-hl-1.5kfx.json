@@ -1,0 +1,15 @@
+{
+  "model": "Tokyo Hy-Power HL-1.5KFX",
+  "slug": "tokyo-hy-power-hl-1.5kfx",
+  "searched_at": "2026-11-22T18:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "ledger miss (no HL-1.5KFX entry). eBay sold page 1: only 1 matching sale and it was best-offer-accepted (267759593940, shown $2,750) — dropped 1 best-offer-accepted, 0 parts-only; 0 kept — thin. Trigger listing's item specifics are inconsistent (Model 'HL-1.5HFX...', MPN HL1KFX) though the title says HL-1.5KFX.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/820385160443",
+    "site": "ebay",
+    "ask": 2261.0,
+    "shipping": 548.0
+  },
+  "comps": []
+}
