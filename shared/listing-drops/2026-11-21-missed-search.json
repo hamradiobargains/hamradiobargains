@@ -50,17 +50,29 @@
     {
       "term": "icf 5090",
       "searched_at": "2026-11-21T00:04:11-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Sony ICF-5900W",
+      "status": "worked",
+      "worked_at": "2026-11-22",
+      "result": "2026-11-22-sony-icf-5900w.json, 10 comps (no ICF-5090 exists; deposited under Sony ICF-5900W per variant rule; 1 outlier flagged; plain ICF-5900 kept separate)"
     },
     {
       "term": "sx 130",
       "searched_at": "2026-11-21T00:03:41-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Hallicrafters SX-130",
+      "status": "worked",
+      "worked_at": "2026-11-22",
+      "result": "2026-11-22-hallicrafters-sx-130.json, 1 comp (low confidence)"
     },
     {
       "term": "sx 125",
       "searched_at": "2026-11-21T00:03:33-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Hallicrafters SX-125",
+      "status": "worked",
+      "worked_at": "2026-11-22",
+      "result": "no comps found (no Hallicrafters SX-125 exists, 0 eBay sold results; same visitor's 'sx 130' 8 s later priced in 2026-11-22-hallicrafters-sx-130.json)"
     },
     {
       "term": "hw 2036a",
