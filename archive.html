@@ -225,6 +225,13 @@ font-size: 0.78rem;
 padding: 20px;
 border-top: 1px solid var(--border);
 }
+
+  /* Currency conversion (added 2026-11-22, Leo approved) */
+  .fxbox { margin-top: 14px; }
+  .fxbox .fx { font-size: 1.15rem; font-weight: 700; }
+  .fxbox .fxrange { color: var(--muted, #9a9aa0); font-size: .92rem; margin-top: 2px; }
+  .fxbox .fxtier2 { color: var(--muted, #9a9aa0); margin-top: 2px; }
+  .fxbox .fxnote { color: var(--muted, #9a9aa0); font-size: .8rem; margin-top: 4px; }
 </style>
 </head>
 <body>
@@ -284,6 +291,7 @@ border-top: 1px solid var(--border);
 <div class="label" id="result-median-label">Median price</div>
 </div>
 </div>
+<div class="fxbox" id="result-fx" data-fx-fv="" hidden></div>
 <p id="result-note" style="margin-top:14px;font-size:13px;color:var(--muted);line-height:1.5;"></p>
 </div>
 </main>
@@ -580,6 +588,8 @@ document.getElementById('result-name').textContent = label;
 document.getElementById('result-count').textContent = count.toLocaleString();
 document.getElementById('result-range').textContent = low === high ? fmtMoney(low) : (fmtMoney(low) + ' \u2013 ' + fmtMoney(high));
 document.getElementById('result-median').textContent = fmtMoney(med);
+var fxEl = document.getElementById('result-fx');
+if (fxEl) { fxEl.setAttribute('data-fx-fv', med); fxEl.setAttribute('data-fx-low', low); fxEl.setAttribute('data-fx-high', high); if (window.__fxRender) window.__fxRender(); }
 const noteEl = document.getElementById('result-note');
 const dealDates = deals.map(d => d.date).filter(Boolean).sort();
 if (dealDates.length) {
@@ -626,6 +636,7 @@ note = 'Early days \u2014 only 1 recorded sale so far: ' + fmtMoney(m.latest.low
 if (m.latest.date) note += ' (recorded through ' + fmtDate(m.latest.date) + ')';
 note += '. That is a rough guide, not a fair value yet \u2014 once we have recorded 3 or more sales of this model, this card becomes a fair value.';
 }
+if (m.latest.count < 3 && !(archiveDeals && archiveDeals.length)) { var fxT = document.getElementById('result-fx'); if (fxT) { fxT.setAttribute('data-fx-fv', ''); fxT.hidden = true; fxT.innerHTML = ''; } }
 document.getElementById('result-note').textContent = note;
 }
 
@@ -768,5 +779,48 @@ loadComps();
 })();
 </script>
 <script data-goatcounter="https://hrb.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script>
+/* Currency conversion — display only (Leo approved 2026-11-22). USD is
+   always the primary figure; these lines convert the US fair value at
+   today's rates for overseas readers and stay hidden if the rates feed
+   can't be reached. window.__fxRender() re-runs after dynamic renders. */
+(function () {
+  var rates = null, when = '';
+  function jpy(v, R) { var x = v * R.JPY; var y = x >= 10000 ? Math.round(x / 100) * 100 : Math.round(x / 10) * 10; return '\u00a5' + y.toLocaleString('en-US'); }
+  function cur(v, s, r) { return s + Math.round(v * r).toLocaleString('en-US'); }
+  function line(v, R) { return '\u2248 ' + jpy(v, R) + ' \u00b7 ' + cur(v, '\u20ac', R.EUR) + ' \u00b7 ' + cur(v, '\u00a3', R.GBP); }
+  function rng(lo, hi, R) { return jpy(lo, R) + '\u2013' + jpy(hi, R) + ' \u00b7 ' + cur(lo, '\u20ac', R.EUR) + '\u2013' + cur(hi, '\u20ac', R.EUR) + ' \u00b7 ' + cur(lo, '\u00a3', R.GBP) + '\u2013' + cur(hi, '\u00a3', R.GBP); }
+  function fill() {
+    if (!rates) return;
+    document.querySelectorAll('[data-fx-fv]').forEach(function (b) {
+      var fv = parseFloat(b.getAttribute('data-fx-fv'));
+      var lo = parseFloat(b.getAttribute('data-fx-low'));
+      var hi = parseFloat(b.getAttribute('data-fx-high'));
+      if (!isFinite(fv)) { b.hidden = true; b.innerHTML = ''; return; }
+      var html = '<div class="fx">' + line(fv, rates) + '</div>';
+      if (isFinite(lo) && isFinite(hi)) html += '<div class="fxrange">Range \u2248 ' + rng(lo, hi, rates) + '</div>';
+      html += '<div class="fxtier2">\u2248 ' + cur(fv, 'A$', rates.AUD) + ' \u00b7 ' + cur(fv, 'C$', rates.CAD) + '</div>';
+      html += '<div class="fxnote">US fair value converted at exchange rates of ' + when + ' \u2014 your local market may differ. All prices here are US dollars.</div>';
+      b.innerHTML = html;
+      b.hidden = false;
+      var sec = b.closest('section') || b.parentElement;
+      var rs = sec ? sec.querySelector('[data-fx-range]') : null;
+      if (rs && isFinite(lo) && isFinite(hi)) { rs.textContent = '(\u2248 ' + rng(lo, hi, rates) + ')'; rs.hidden = false; }
+    });
+  }
+  window.__fxRender = fill;
+  fetch('https://open.er-api.com/v6/latest/USD')
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      if (!d || d.result !== 'success' || !d.rates) return;
+      rates = d.rates;
+      var p = (d.time_last_update_utc || '').split(' ');
+      when = p.length >= 4 ? (p[2] + ' ' + p[1] + ', ' + p[3]) : '';
+      fill();
+    })
+    .catch(function () {});
+})();
+</script>
+
 </body>
 </html>
