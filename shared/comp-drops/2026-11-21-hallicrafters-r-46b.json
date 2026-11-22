@@ -1,0 +1,61 @@
+{
+  "model": "Hallicrafters R-46B",
+  "slug": "hallicrafters-r-46b",
+  "searched_at": "2026-11-21T18:46:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Hallicrafters R-46B' (sold+completed, newest first, page 1 only, signed in as Leo, no challenge). 5 comps kept, median 49.99; solid. Best-offer-accepted sales dropped: 0. Parts-only/for-parts/as-is sales dropped: 0. 'Read Description' sales dropped: 0. Outliers kept and marked: 128156201890, 127903560111. Sold price as shown (no shipping); listing ask and shipping recorded separately in trigger_listing. searched_at is approximate (file-build time). Prior ledger entry HALLICRAFTERS R-46B (count 4, 2026-09-16) was older than 30 days so a fresh search was run.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785296",
+    "site": "qth",
+    "ask": 50,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 49.99,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227583456678",
+      "source": "ebay",
+      "notes": "Vintage Hallicrafters R-46B Ham Radio Speaker 3.2 Ohm Metal | or Best Offer (not marked accepted); shown shipping $22.99",
+      "flags": []
+    },
+    {
+      "price": 14.51,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128156201890",
+      "source": "ebay",
+      "notes": "Hallicrafters R-46B Speaker - Tested - 3.2 Ohms | OUTLIER: 14.51 is <0.5x the median (59.99) of the other kept comps; auction, 2 bids; shipping not shown",
+      "flags": []
+    },
+    {
+      "price": 69.99,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127851594382",
+      "source": "ebay",
+      "notes": "HALLICRAFTERS R-46B SPEAKER | shipping not shown",
+      "flags": []
+    },
+    {
+      "price": 89.99,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127903560111",
+      "source": "ebay",
+      "notes": "Vintage Hallicrafters R-46B Speaker | OUTLIER: 89.99 is >1.5x the median (49.97) of the other kept comps; shipping not shown",
+      "flags": []
+    },
+    {
+      "price": 49.95,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198592667312",
+      "source": "ebay",
+      "notes": "RARE Vintage Hallicrafters R-46B Speaker No Reserve | auction, 1 bid; shown shipping $20.00",
+      "flags": []
+    }
+  ]
+}
