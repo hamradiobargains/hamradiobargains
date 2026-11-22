@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-2000D",
+  "slug": "yaesu-ft-2000d",
+  "searched_at": "2026-11-22T14:58:37-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ft-2000d', page 1: 1 result, a knob set accessory (item 168407971457) - excluded. 0 comps - thin. dropped 0 best-offer-accepted, dropped 0 parts-only. Ledger miss reason: YAESU FT-2000D latest count 2 (2026-11-03).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785467",
+    "site": "qth",
+    "ask": 1200.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
