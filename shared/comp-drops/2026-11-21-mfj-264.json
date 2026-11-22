@@ -1,0 +1,169 @@
+{
+  "model": "MFJ-264",
+  "slug": "mfj-264",
+  "searched_at": "2026-11-21T18:40:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'MFJ-264 dummy load' (sold+completed, newest first, page 1 only, signed in as Leo, no challenge). 17 comps kept, median 99.00; solid. Best-offer-accepted sales dropped: 6 (920094325388 $114.50; 800760727552 $169.99; 188872018493 $149.99; 168673980877 $89.95; 336770141378 $79.95; 398320355231 $55.00). Parts-only/for-parts/as-is sales dropped: 0. 'Read Description' sales dropped: 0. Excluded as other model/accessory/bundle: 257851105182 MFJ-264N N-connector variant $114.95 (different model, excluded); 287529272937 IC-756PROIII bundle with MFJ-2.. $1,199.99 (bundle, excluded). Outliers kept and marked: 257532989188, 307268615242. Sold price as shown (no shipping); listing ask and shipping recorded separately in trigger_listing. searched_at is approximate (file-build time). Ad 1785291 says 'MFJ 264' so MFJ-264N (N-connector) and MFJ-264B were kept separate; ask is $110 shipped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785291",
+    "site": "qth",
+    "ask": 110,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 153.0,
+      "sold_date": "2026-11-18",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/257532989188",
+      "source": "ebay",
+      "notes": "MFJ-264,The MFJ-264 is ham radios most versatile 50 Ohm dummy load | OUTLIER: 153.00 is >1.5x the median (97.00) of the other kept comps; shipping free",
+      "flags": []
+    },
+    {
+      "price": 115.0,
+      "sold_date": "2026-11-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/900079217612",
+      "source": "ebay",
+      "notes": "MFJ-264 1.5KW DRY DUMMY LOAD 1-650MHz, FOR HAM RADIO HF VHF, UHF, used | shown shipping $7.00",
+      "flags": []
+    },
+    {
+      "price": 11.0,
+      "sold_date": "2026-11-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307268615242",
+      "source": "ebay",
+      "notes": "Model MFJ-264 1-650 MHz 1.5KW HF-UHF Dry Dummy Load. With box and instructions. | OUTLIER: auction, 1 bid, final $11.00; shipping free",
+      "flags": []
+    },
+    {
+      "price": 75.0,
+      "sold_date": "2026-05-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318252682079",
+      "source": "ebay",
+      "notes": "MFJ-264 1.5KW HF-UHF Dry Dummy Load 1-650 MHz for Radio Transmitters - B2 | shown shipping $7.00",
+      "flags": []
+    },
+    {
+      "price": 99.0,
+      "sold_date": "2026-10-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287685482372",
+      "source": "ebay",
+      "notes": "Rare MFJ-264 1.5kW HF-UHF Dry Dummy Load 1-650 MHz Ham Radio Transmitter | shown shipping $9.50",
+      "flags": []
+    },
+    {
+      "price": 99.0,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327409601203",
+      "source": "ebay",
+      "notes": "MFJ-264 1.5KW Dry Dummy Load 1-650MHz | shown shipping $7.95",
+      "flags": []
+    },
+    {
+      "price": 130.0,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880018925151",
+      "source": "ebay",
+      "notes": "MFJ-264 1.5KW Dry Dummy Load 1-650MHz | shipping free",
+      "flags": []
+    },
+    {
+      "price": 130.0,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198710510151",
+      "source": "ebay",
+      "notes": "MFJ-264 Ham Radio 1.5KW HF UHF Dry Dummy Load (nice) | shown shipping $15.53",
+      "flags": []
+    },
+    {
+      "price": 80.0,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840018461694",
+      "source": "ebay",
+      "notes": "MFJ Model MFJ-264 1.5KW HF-UHF Dry Dummy Load | shipping free",
+      "flags": []
+    },
+    {
+      "price": 129.95,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820214022662",
+      "source": "ebay",
+      "notes": "MFJ MFJ-264 1.5kW Dummy Load 1-650 MHz HF for Ham Radio Transceiver | shipping free",
+      "flags": []
+    },
+    {
+      "price": 124.99,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188992544296",
+      "source": "ebay",
+      "notes": "MJF 1.5 KW HF-UHF Dry Dummy Load MFJ 264 (title shows MJF) | shown shipping $15.87",
+      "flags": []
+    },
+    {
+      "price": 80.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117416074987",
+      "source": "ebay",
+      "notes": "MFJ Model MFJ-264 1.5KW HF-UHF Dry Dummy Load | shown shipping $6.98",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178482679229",
+      "source": "ebay",
+      "notes": "MJF Enterprises 1.5 KW HF-UHF Dry Dummy Load MFJ-264 | shown shipping $15.65",
+      "flags": []
+    },
+    {
+      "price": 89.95,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800627266447",
+      "source": "ebay",
+      "notes": "MFJ-264 1.5kW Dry Dummy Load HF/UHF 1-650 MHz. 50 Ohm RF Load. | shown shipping $14.62",
+      "flags": []
+    },
+    {
+      "price": 65.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800622927155",
+      "source": "ebay",
+      "notes": "MFJ 264 1.5KW Dummy Load | shown shipping $9.92",
+      "flags": []
+    },
+    {
+      "price": 76.0,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257710605888",
+      "source": "ebay",
+      "notes": "MFJ MFJ-264 Dry Dummy Load 1.5kW Power Handling, 1-650 MHz HF-U | shown shipping $7.63",
+      "flags": []
+    },
+    {
+      "price": 95.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168629091394",
+      "source": "ebay",
+      "notes": "MFJ-264 Ham Radio 1.5KW HF UHF Dry Dummy Load (nice) | shown shipping $10.00",
+      "flags": []
+    }
+  ]
+}
