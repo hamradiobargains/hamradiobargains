@@ -1,0 +1,15 @@
+{
+  "model": "Hy-Gain/CDE Ham III",
+  "slug": "hy-gain-cde-ham-iii",
+  "searched_at": "2026-11-22T18:54:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Hy-Gain Ham III rotor' page 1: 0 complete Ham III rotor units sold. Only Ham III rows were 4 'Vintage CDE Ham-III / CD-44 Antenna Rotor Controller' (control box only, not the rotor: 336866104975 $75.00 Nov 14 BOA; 336806006077 $85.00 Oct 25 BOA; 336766780741 $85.00 Sep 18 BOA; 336702861323 $85.00 Aug 28 or BO) and a Ham-series motor cap $9.00; all excluded (controller-only/accessory; 3 of 4 also Best Offer Accepted). Ham II / Ham IV / T2X rotors kept separate and not used (e.g. Ham II 287690885247 $340.00 Nov 20; Ham IV 940046834415 $340.00 Oct 31). 0 comps: not comped. searched_at is the file-build time (searches ran in the minutes before).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785405",
+    "site": "qth",
+    "ask": 325,
+    "shipping": 0
+  },
+  "comps": []
+}
