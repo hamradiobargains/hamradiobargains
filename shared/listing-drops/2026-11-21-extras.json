@@ -1,0 +1,273 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-21",
+  "ran_at": "2026-11-21T18:46:59-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered (ran_at after previous extras drop 2026-11-20-extras.json, ran_at 2026-11-20T18:46:20-05:00): 2026-11-21-eham.json (ran_at 2026-11-21T05:52:52-05:00, no extras list; eHam not opened), 2026-11-21-qth.json (ran_at 2026-11-21T14:53:03-05:00, 23 priced QTH extras listed under 'Extra plausible candidates not comped'; its 6 'no price captured on list page' IDs were not queued), 2026-11-21-ebay.json (ran_at 2026-11-21T18:00:12-05:00, no 'Extra plausible candidates not comped' heading; over-cap items it mentions were not queued). Previous CARRIED OVER (14, put at the front): 1785246, 1785260, 1785291, 1785306, 1785253, 1785300, 1785233, 1785237, 1785297, 1785296, 1785301, 1785305, 1785304, 1785303; previous BACKLOG CARRY: none. Named extra from Leo (stored task prompt): QTH 1783910 (Yaesu '991', $600 firm), treated as the ORIGINAL Yaesu FT-991 per Leo's ruling, filed under 'Yaesu FT-991' never FT-991A; it was already in dropped-urls.json (not re-appended); gone again (QTH: no longer in our system); ledger hit used (count 4, 2026-11-11); the optional one FT-991 sold search was not run because the 15-search cap was fully used by queued items and the ledger entry is fresh. Queue: 14 carry-overs + 1 named + 23 fresh QTH extras = 38. Worked 24 (live 22, gone/sold 2: 1783910 gone, 1785398 'SOLD PENDING PAYMENT'); carried over 14. Ledger hits 7 (comps skipped): 1783910 Yaesu FT-991 (count 4, 2026-11-11), 1785306 Astron RS-20A (count 21, 2026-11-01), 1785334 Icom IC-756PRO III (count 6, 2026-11-04), 1785361 Yaesu FT2DR (count 5, 2026-10-25), 1785325 Yaesu FT-70D (count 5, 2026-11-11), 1785328 Kenwood MC-60 (count 25, 2026-10-26), 1785359 Tigertronics SignaLink USB (count 35, 2026-11-12). eBay sold searches used 15 of 15: LNR Precision EF-QUAD (0 exact matches), Timewave DSP-599ZX (6 kept), MFJ-264 (17), Astron RS-50M (3), RME 69 (0 usable), W9GR DSP (0), Nye Viking Master Key (3), Hammarlund S-100 speaker (2), Hallicrafters R-46B (5), Kenwood KMC-22 (2), Heil HTH-K (0), Heil HTH-Y (0), FlexRadio FLEX-8400 (0), ACOM 2000A (1), Palstar HF-Auto (2). Solid (3+): DSP-599ZX, MFJ-264, RS-50M, Nye Master Key, R-46B; thin: S-100, KMC-22, ACOM 2000A, HF-Auto; zero usable: EF-QUAD, RME 69, W9GR DSP, HTH-K, HTH-Y, FLEX-8400. Skipped/not comped: 1785301 (mixed lot of commercial Kenwood HTs, no single model; opened live, not comped); 1785398 (ad says SOLD PENDING PAYMENT, treated as sold, not comped); no ad skipped for lack of a price. Cross-posts: none seen (no serials compared; 1785397 and 1785396 are two ACOM 2000A ads by the same seller per its text, 1785396 not queued). Outliers: MFJ-264 257532989188 ($153.00, Brand New, >1.5x) and 307268615242 ($11.00 auction, 1 bid, <0.5x); Nye Viking Master Key 940006711562 ($24.95 auction, 1 bid) and 227438156892 ($64.95, marginally >1.5x of the other two); Hallicrafters R-46B 128156201890 ($14.51 auction, 2 bids) and 127903560111 ($89.99). Identity cautions: Astron RS-50M vs the rack-mount wording in 1785253 (UNCERTAIN); MFJ-264N/264B kept separate from MFJ-264; Hammarlund S-200 kept separate from S-100; Palstar HF-AUTO-R remote and dust cover excluded; Timewave comp 398255203351 dropped as probable 'Read Description' (title truncated by eBay, UNCERTAIN). Carry-overs 1785333-1785338 etc. were opened once for liveness this run and were all live on 2026-11-21 (SPE 1.5K-FA $6100 shipped; Palstar AT4K $675 OBO + shipping; Icom IC-735 $275 shipped; Icom IC-703 $300 + shipping with W4RT OBF-703 filters; Hy-Gain/CDE Ham III rebuilt rotor $325 + shipping; Little Tarheel II $500; Hi-Q 4/80 screwdriver $550 shipped with stress cracks in coil cover; SGC 715 manpack x2 $300 shipped; Radioddity HF-010 $210 shipped new; MFJ-939Y $150 shipped; Elecraft KXV3B $229 delivered; RIGrunner 4008 $65 shipped, one connector bad; Heil Proset Plus $65 + shipping; Heil Pro Set HC-5 $55 + shipping), but were not comped because the 15-search cap was reached. Timestamps -05:00 (EST). Comp drop searched_at times are approximate (file-build time). eBay: signed in as Leo, no challenge or CAPTCHA at any point, 15+ seconds between eBay page loads; eHam not opened; QTH ads opened one at a time about 5-6 seconds apart. CARRIED OVER: 1785333, 1785366, 1785386, 1785393, 1785405, 1785350, 1785385, 1785374, 1785363, 1785356, 1785355, 1785357, 1785337, 1785338 (all QTH counter IDs; order preserved; item/ask: SPE 1.5K-FA $6100, Palstar AT4K $675, Icom IC-735 $275, Icom IC-703 $279/$300, Hy-Gain/CDE Ham III rebuilt rotor $325, Little Tarheel II $500, Hi-Q 4/80 screwdriver $550, SGC 715 HF manpack $300, Radioddity HF-010 $210, MFJ-939Y $150, Elecraft KXV3B $229, RIGrunner 4008 $65, Heil Proset Plus $65, Heil Pro Set HC-5 $55). BACKLOG CARRY: none.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "Yaesu \"991\" (treated as ORIGINAL Yaesu FT-991 per Leo's ruling)",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "no longer live (QTH: 'The ad number you specified, 1783910, is no longer in our system'). Ask per task prompt: $600 firm. comps: ledger hit, yaesu-ft-991 (median 748.33, count 4, 2026-11-11), no FT-991A figures used",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785246",
+      "site": "qth",
+      "title": "LNR Precision EF-QUAD end-fed antenna (10/15/20/40m)",
+      "price": 129,
+      "shipping": 20,
+      "found_at": "2026-11-20",
+      "condition_notes": "live. 'LNR Precision EF-QUAD end-fed antenna in like-new condition.' Shipping: $20 (CONUS only). Payment: PayPal preferred. comps: lnr-precision-ef-quad, 0 kept (eBay sold search found no usable exact-model sales) - not comped: no exact-model sold sales",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785260",
+      "site": "qth",
+      "title": "Timewave DSP-599ZX digital noise filter",
+      "price": 150,
+      "shipping": 0,
+      "found_at": "2026-11-20",
+      "condition_notes": "live. 'TIMEWAVE DSP-599ZX DIGITAL NOISE FILTER Like New in box with manual. $150.00 + shipping' (shipping amount not stated; shown as 0 = unknown). comps: timewave-dsp-599zx, 6 kept, median 187.47",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785291",
+      "site": "qth",
+      "title": "MFJ-264 HF-UHF 1.5 kW dummy load",
+      "price": 110,
+      "shipping": 0,
+      "found_at": "2026-11-20",
+      "condition_notes": "live. 'The unit is in good condition and works as it should.' $110 shipped CONUS. comps: mfj-264, 17 kept, median 99.00 (2 outliers marked)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785306",
+      "site": "qth",
+      "title": "Astron RS-20A power supply",
+      "price": 85,
+      "shipping": 0,
+      "found_at": "2026-11-20",
+      "condition_notes": "live. 'Astron RS-20A 20 amp power supply like new. $85 plus shipping.' (shipping amount not stated; shown as 0 = unknown). comps: ledger hit, astron-rs-20a (median 58.99, count 21, 2026-11-01)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785253",
+      "site": "qth",
+      "title": "Astron 12V 50A rack-mount power supply (\"RS-50 M - Rack Mount\")",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-11-20",
+      "condition_notes": "live. 'Astron 12 Volt -50 amp power supply.(RS-50 M -Rack Mount) With Voltage and Current meters. Pick-up only in Southern N.J. $200.' comps: astron-rs-50m, 3 kept, median 150.00 - identity UNCERTAIN (ad says RS-50 M rack mount)",
+      "work_flag": "Pick-up only in Southern N.J. (no shipping offered). UNCERTAIN: rack-mount model identity",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785300",
+      "site": "qth",
+      "title": "RME 69 receiver with matching speaker",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-11-20",
+      "condition_notes": "live. 'RME 69 and matching speaker in working condition. The cabinets have been refinished and looks good (the wrinkle finish is a little uneven on the sides but the front looks great).' $100 plus shipping (amount not stated). comps: rme-69, 0 kept (eBay sold search found no usable exact-model sales) - not comped: no usable RME-69 receiver sales (only parts-only, manual, kit, preselector)",
+      "work_flag": "Cabinets have been refinished; wrinkle finish a little uneven on the sides (seller wording)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785233",
+      "site": "qth",
+      "title": "W9GR DSP III audio DSP",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-11-20",
+      "condition_notes": "live. 'W9GR DSP III. Using it on an old Icom IC-745 on CW... Works well on SSB also. $100 shipped in CONUS. Or make reasonable offer.' comps: w9gr-dsp-iii, 0 kept (eBay sold search found no usable exact-model sales) - not comped: no exact sold sales",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785237",
+      "site": "qth",
+      "title": "Nye Viking Master Key (straight key)",
+      "price": 80,
+      "shipping": 0,
+      "found_at": "2026-11-20",
+      "condition_notes": "live. 'Nice condition Nye straight key. $80 shipped USA.' comps: nye-viking-master-key, 3 kept, median 60.00 (thin; 1 outlier marked)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785297",
+      "site": "qth",
+      "title": "Hammarlund S-100 speaker (HQ-100/HQ-110)",
+      "price": 50,
+      "shipping": 0,
+      "found_at": "2026-11-20",
+      "condition_notes": "live. 'Hammarlund S-100 speaker in VGC. Sounds good...' $50 plus shipping (amount not stated). comps: hammarlund-s-100, 2 kept (thin), median 39.97",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785296",
+      "site": "qth",
+      "title": "Hallicrafters R-46B speaker",
+      "price": 50,
+      "shipping": 0,
+      "found_at": "2026-11-20",
+      "condition_notes": "live. 'R-46B speaker in good condition. Sounds good just excessive to my needs.' $50 plus shipping (amount not stated). comps: hallicrafters-r-46b, 5 kept, median 49.99 (2 outliers marked)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785301",
+      "site": "qth",
+      "title": "Used Kenwood VHF handi-talkie lot (5 TK-2360, 1 TK-2160, 3 TK-2302, 1 TK-2200)",
+      "price": 80,
+      "shipping": 0,
+      "found_at": "2026-11-20",
+      "condition_notes": "live. 'Most of these radios work, There are many batteries, a charger. Everything in the Pic, asking $80.00 shipped lower 48. ... No returns. Some of these radios are programmed with ham frequencies.' not comped: mixed lot of commercial Kenwood HTs, no single model to comp",
+      "work_flag": "Most of these radios work (some may not); No returns; Some of these radios are programmed with ham frequencies - UNCERTAIN whether transmit-modification wording matters",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785305",
+      "site": "qth",
+      "title": "Kenwood KMC-22 hand mic (new in box)",
+      "price": 25,
+      "shipping": 0,
+      "found_at": "2026-11-20",
+      "condition_notes": "live. 'New in factory box, is one Kenwood KMC-22 Hand Mic. I am asking $25.00 Shipped lower 48, with no returns.' comps: kenwood-kmc-22, 2 kept (thin), median 28.00 (thin)",
+      "work_flag": "No returns",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785304",
+      "site": "qth",
+      "title": "Heil HTH-K dual headset (new)",
+      "price": 25,
+      "shipping": 0,
+      "found_at": "2026-11-20",
+      "condition_notes": "live. 'New, out of package ia a HEIL HTH-K DUAL Headset... Asking $25.00 shipped lower 48 with no returns.' comps: heil-hth-k, 0 kept (eBay sold search found no usable exact-model sales)",
+      "work_flag": "No returns",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785303",
+      "site": "qth",
+      "title": "Heil HTH-Y dual headset (new, unopened)",
+      "price": 35,
+      "shipping": 0,
+      "found_at": "2026-11-20",
+      "condition_notes": "live. 'New in on-opened package is one Heil HTH- Yaesu head set... Asking $35.00 shipped lower 48, with no returns.' comps: heil-hth-y, 0 kept (eBay sold search found no usable exact-model sales)",
+      "work_flag": "No returns",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785336",
+      "site": "qth",
+      "title": "FlexRadio FLEX-8400 (no ATU)",
+      "price": 1950,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. 'Flex 8400 (No ATU) with Smart SDR+ good until 8/21/2027. Loaded with very latest firmware. Includes all cables, mic, gps antenna, double boxing etc. included with original radio.' $1950 shipped CONUS. PayPal ok. comps: flexradio-flex-8400, 0 kept (eBay sold search found no usable exact-model sales); ledger FLEXRADIO FLEX-8400 (count 2, 2026-09-07, median 2135.50) is outside the 30-day window",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785334",
+      "site": "qth",
+      "title": "Icom IC-756PRO III with PS-125, HM-36, DigiRig",
+      "price": 850,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. 'All functions operate perfectly, and the screen is free of defects... Asking $850.00 free shipping, payment via Zelle... Sold as-is. SN.3203069'. Includes PS125 power supply, HM36 mic, extra DC cable, manuals, never-used DIGIRIG, cover, original boxes. comps: ledger hit, icom-ic-756pro-iii (median 715.0, count 6, 2026-11-04)",
+      "work_flag": "Sold as-is. (\"I used the radio on 10m, and it was reported loud and clear.\")",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785397",
+      "site": "qth",
+      "title": "ACOM 2000A (latest model)",
+      "price": 5300,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. 'The amplifier is AS NEW Works perfect on all bands... PRICE IS $5300 SHIPPED ... Payment only credit card with payoneer'. Seller says a second amplifier is also for sale (see 1785396). comps: acom-2000a, 1 kept (thin), median 2400.00 (thin; one sale 2026-10-26 at 2400.00 + 109.30 shipping)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785398",
+      "site": "qth",
+      "title": "Apache Labs ANAN G2 SDR (ad title says SOLD PENDING PAYMENT)",
+      "price": 2350,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "no longer live (ad title reads 'FOR SALE: APACHE LABS ANAN G2 SDR SOLD PENDING PAYMENT'; treated as sold - UNCERTAIN whether the sale falls through). Text: 'Selling an as new plain face 100 watt G2... Not my cup of tea. Prefer local sale. $2350'. not comped: ad sold/pending",
+      "work_flag": "SOLD PENDING PAYMENT (seller wording) - UNCERTAIN",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785399",
+      "site": "qth",
+      "title": "Palstar HF-Auto automatic tuner",
+      "price": 1050,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. 'Palstar HF Auto in Excellent condition. Cosmetic 8.5/10 couple minor scuffs. Will provide operational video. Payment by Zelle or personal check... $1,050 plus UPS.' (shipping amount not stated; shown as 0 = unknown). comps: palstar-hf-auto, 2 kept (thin), median 1324.00 (thin; best-offer-accepted sales dropped)",
+      "work_flag": "Cosmetic 8.5/10, couple minor scuffs (seller wording)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785361",
+      "site": "qth",
+      "title": "Yaesu FT2DR with SCU-39",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. 'very lightly used FT2DR... SCU-39 WIRES-X connection cable package. I am asking $200 shipped in CONUS (or make offer). The radio is in very good condition with no known issues.' Includes original box, manual, SBR-14LI battery, SAD-18B charger, antenna, belt clip, USB cable. comps: ledger hit, yaesu-ft2dr (median 177.5, count 5, 2026-10-25)",
+      "work_flag": "no known issues (seller wording)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785325",
+      "site": "qth",
+      "title": "Yaesu FT-70D (Nagoya NA701, extra battery, charger)",
+      "price": 140,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. 'Very clean and operates as it should... $140 plus half shipping. Paypal accepted. No postal M.O.'s' (half-shipping amount not stated; shown as 0 = unknown). comps: ledger hit, yaesu-ft-70d (median 160.0, count 5, 2026-11-11)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785328",
+      "site": "qth",
+      "title": "Kenwood MC-60 microphone",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. 'Kenwood MC-60 Microphone Good condition $100 Shipped CONUS'. comps: ledger hit, kenwood-mc-60 (median 115.0, count 25, 2026-10-26)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785359",
+      "site": "qth",
+      "title": "Tigertronics SignaLink USB (with Icom 746 cable)",
+      "price": 50,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. 'Signal Link USB Comes with Icom 746 cable. $50 shipped Paypal+ or Postal M.O.' comps: ledger hit, tigertronics-signalink-usb (median 69.95, count 35, 2026-11-12)",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
