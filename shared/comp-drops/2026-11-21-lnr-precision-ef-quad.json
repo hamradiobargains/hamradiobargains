@@ -1,0 +1,15 @@
+{
+  "model": "LNR Precision EF-QUAD",
+  "slug": "lnr-precision-ef-quad",
+  "searched_at": "2026-11-21T18:53:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'LNR Precision EF-QUAD' (sold+completed, newest first, page 1 only, signed in as Leo, no challenge). No usable sales on page 1 (eBay reported 'No exact matches found'; 'results matching fewer words' ignored). Best-offer-accepted sales dropped: 0. Parts-only/for-parts/as-is sales dropped: 0. 'Read Description' sales dropped: 0. Sold price as shown (no shipping); listing ask and shipping recorded separately in trigger_listing. searched_at is approximate (file-build time).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785246",
+    "site": "qth",
+    "ask": 129,
+    "shipping": 20
+  },
+  "comps": []
+}
