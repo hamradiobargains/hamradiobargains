@@ -1,0 +1,15 @@
+{
+  "model": "RME 69",
+  "slug": "rme-69",
+  "searched_at": "2026-11-21T18:42:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'RME 69 receiver' (sold+completed, newest first, page 1 only, signed in as Leo, no challenge). No usable sales on page 1. Best-offer-accepted sales dropped: 1 (267803323400 $125.00). Parts-only/for-parts/as-is sales dropped: 2 (267803323400 RME-69 receiver parts-only, 1 bid, $125.00 (also Best offer accepted); 178566497573 RME DB-20 Preselector parts-only $149.99 (different item)). 'Read Description' sales dropped: 0. Excluded as other model/accessory/bundle: 202467900769 RME-69 operating manual $13.99 (excluded); 116183163119 RME-69 rebuild kit $36.00 (excluded). Sold price as shown (no shipping); listing ask and shipping recorded separately in trigger_listing. searched_at is approximate (file-build time).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785300",
+    "site": "qth",
+    "ask": 100,
+    "shipping": 0
+  },
+  "comps": []
+}
