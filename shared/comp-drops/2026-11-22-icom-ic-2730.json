@@ -1,0 +1,15 @@
+{
+  "model": "Icom IC-2730",
+  "slug": "icom-ic-2730",
+  "searched_at": "2026-11-22T18:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "ledger miss (no IC-2730 entry). eBay sold page 1: 0 kept — thin. Trigger listing names 'IC-2730' with no A suffix; page 1 working-unit sales were all IC-2730A (6 non-best-offer sales seen, $245–$389) plus one IC-2730B, so they were left out for strict model identity. dropped 2 best-offer-accepted IC-2730A, 0 parts-only. Left out control heads, cases, accessories.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/287750116649",
+    "site": "ebay",
+    "ask": 250.0,
+    "shipping": 8.42
+  },
+  "comps": []
+}
