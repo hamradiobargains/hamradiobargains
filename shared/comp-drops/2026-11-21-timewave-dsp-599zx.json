@@ -1,0 +1,70 @@
+{
+  "model": "Timewave DSP-599ZX",
+  "slug": "timewave-dsp-599zx",
+  "searched_at": "2026-11-21T18:39:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Timewave DSP-599zx' (sold+completed, newest first, page 1 only, signed in as Leo, no challenge). 6 comps kept, median 187.47; solid. Best-offer-accepted sales dropped: 0. Parts-only/for-parts/as-is sales dropped: 0. 'Read Description' sales dropped: 1 (398255203351 ($199.00 or Best Offer, +$10.88, Oct 14 2026; title shown as \"Timewave DSP-599zx Digital DSP Audio Filter Processor Powers On Read\" - eBay-truncated, treated as \"Read Description\" - UNCERTAIN)). Sold price as shown (no shipping); listing ask and shipping recorded separately in trigger_listing. searched_at is approximate (file-build time). One comp (398255203351) dropped as probable 'Read Description' - title truncated by eBay at 'Powers On Read'; UNCERTAIN.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785260",
+    "site": "qth",
+    "ask": 150,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 150.0,
+      "sold_date": "2026-11-13",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/940090486649",
+      "source": "ebay",
+      "notes": "TIMEWAVE DSP 599 ZX AUDIO FILTER IN ORIGINAL BOX UNUSED | shown shipping $10.43",
+      "flags": []
+    },
+    {
+      "price": 179.95,
+      "sold_date": "2026-11-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227577530197",
+      "source": "ebay",
+      "notes": "TIMEWAVE DSP-599ZX DIGITAL SIGNAL PROCESSOR | shown shipping $8.23",
+      "flags": []
+    },
+    {
+      "price": 195.0,
+      "sold_date": "2026-11-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117492003587",
+      "source": "ebay",
+      "notes": "Vintage Timewave DSP-599zx DSP Audio Noise Filter Ham Radio Interface | shipping free",
+      "flags": []
+    },
+    {
+      "price": 229.99,
+      "sold_date": "2026-11-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128172902841",
+      "source": "ebay",
+      "notes": "TIMEWAVE DSP-599ZX DIGITAL SIGNAL PROCESSOR! | shown shipping $24.13",
+      "flags": []
+    },
+    {
+      "price": 126.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398313796471",
+      "source": "ebay",
+      "notes": "Timewave DSP-599ZX Digital Signal Processor / Audio Filter | shown shipping $40.00",
+      "flags": []
+    },
+    {
+      "price": 229.99,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137513971520",
+      "source": "ebay",
+      "notes": "Vintage Timewave DSP-599zx DSP Audio Noise Filter Ham Radio Interface | shown shipping $19.70",
+      "flags": []
+    }
+  ]
+}
