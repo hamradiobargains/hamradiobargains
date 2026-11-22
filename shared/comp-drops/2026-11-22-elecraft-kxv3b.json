@@ -1,0 +1,15 @@
+{
+  "model": "Elecraft KXV3B",
+  "slug": "elecraft-kxv3b",
+  "searched_at": "2026-11-22T18:54:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Elecraft KXV3B' page 1: 3 rows, 0 usable. 188773856768 manual for KXV3B/KIO3B $18.55 (BOA, manual); 366791590749 K3/K3S PCB parts lot incl. KXV3 $139.99 (BOA, parts lot); 327335241268 'ELECRAFT K3 KXV3A Transverter I/O' $180.49 Nov 20 (BOA; KXV3A is a different board than KXV3B, kept separate, not used). Best offer accepted: 3 of 3. 0 comps: not comped. searched_at is the file-build time (searches ran in the minutes before).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785355",
+    "site": "qth",
+    "ask": 229,
+    "shipping": 0
+  },
+  "comps": []
+}
