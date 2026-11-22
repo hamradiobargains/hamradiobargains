@@ -1,0 +1,103 @@
+{
+  "model": "AEA PK-232MBX",
+  "slug": "aea-pk-232mbx",
+  "searched_at": "2026-11-22T18:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "ledger miss (no 'AEA PK-232MBX' entry; 'AEA PK-232' is a different model). eBay sold page 1, 9 kept. dropped 1 best-offer-accepted (407268287689, $25.29); dropped 1 parts-only (287575853915, $15.00, also best-offer-accepted). Left out: 1 plain PK-232 (non-MBX, 227535854744), 2 'PK-232 MBX (VER 7.2) FIRMWARE WITH PACTOR' listings (137703255034, 147527551773 — appear to be firmware, not the unit), and cables/software manual. Outliers: 287722499982 $14 vs ~$37.225; 168789326367 $50 vs ~$32.47; 127948168015 $69 vs ~$32.47.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/327470782261",
+    "site": "ebay",
+    "ask": 59.0,
+    "shipping": 9.06
+  },
+  "comps": [
+    {
+      "price": 29.99,
+      "sold_date": "2026-11-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227605006515",
+      "source": "ebay",
+      "notes": "Buy It Now; +$14.99 shipping",
+      "flags": []
+    },
+    {
+      "price": 14.0,
+      "sold_date": "2026-11-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287722499982",
+      "source": "ebay",
+      "notes": "OUTLIER: $14 vs ~$37.225 median of the rest; auction, 5 bids; +$6.30 shipping",
+      "flags": []
+    },
+    {
+      "price": 25.5,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237151139333",
+      "source": "ebay",
+      "notes": "or Best Offer listing (not best-offer-accepted); +$6.20 shipping",
+      "flags": []
+    },
+    {
+      "price": 50.0,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168789326367",
+      "source": "ebay",
+      "notes": "OUTLIER: $50 vs ~$32.47 median of the rest; or Best Offer listing (not best-offer-accepted); +$8.38 shipping",
+      "flags": []
+    },
+    {
+      "price": 25.0,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198704913322",
+      "source": "ebay",
+      "notes": "auction, 1 bid; title: with Cables; +$11.45 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 39.5,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940002157174",
+      "source": "ebay",
+      "notes": "title: Appears New & Unused - With Manuals Cables; or Best Offer listing (not best-offer-accepted); +$12.99 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 44.99,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236937716945",
+      "source": "ebay",
+      "notes": "title: Tested, No Power Supply; Buy It Now; +$10.99 shipping",
+      "flags": []
+    },
+    {
+      "price": 34.95,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117348181219",
+      "source": "ebay",
+      "notes": "Buy It Now; +$6.98 shipping",
+      "flags": []
+    },
+    {
+      "price": 69.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127948168015",
+      "source": "ebay",
+      "notes": "OUTLIER: $69 vs ~$32.47 median of the rest; title: With Cables; Buy It Now; +$12.00 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
