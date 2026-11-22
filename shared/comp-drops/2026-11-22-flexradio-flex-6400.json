@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-6400",
+  "slug": "flexradio-flex-6400",
+  "searched_at": "2026-11-22T14:57:35-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'flexradio flex-6400', page 1: 1 result total, a FLEX-6400M (item 206500829240, $2,400, 2026-08-25) - excluded, different model. 0 exact-match comps - thin. dropped 0 best-offer-accepted, dropped 0 parts-only. Results matching fewer words ignored. Ledger miss reason: FLEXRADIO FLEX-6400 latest count 2 (2026-09-29).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785431",
+    "site": "qth",
+    "ask": 1499.0,
+    "shipping": 47.0
+  },
+  "comps": []
+}
