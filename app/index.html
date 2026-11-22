@@ -111,6 +111,13 @@ nav.tabs .badge{position:absolute;top:0;right:calc(50% - 21px);background:var(--
 .err{background:#3A1F1A;border:1px solid #6E3524;color:#F5B79A;border-radius:12px;padding:11px 13px;font-size:14.5px;display:none;margin:10px 0;line-height:1.45}
 .foot{color:#5F6B78;font-size:12.5px;text-align:center;margin:22px 0 6px;line-height:1.5}
 .sectionlabel{font-size:13px;font-weight:800;letter-spacing:.07em;color:var(--gray);margin:20px 0 4px}
+
+  /* Currency conversion (added 2026-11-22, Leo approved) */
+  .fxbox { margin-top: 12px; border-top: 1px solid var(--line); padding-top: 12px; }
+  .fxbox .fx { font-size: 1.1rem; font-weight: 700; }
+  .fxbox .fxrange { color: var(--gray); font-size: .9rem; margin-top: 2px; }
+  .fxbox .fxtier2 { color: var(--gray); margin-top: 2px; }
+  .fxbox .fxnote { color: var(--gray); font-size: .78rem; margin-top: 4px; }
 </style>
 </head>
 <body>
@@ -201,7 +208,7 @@ nav.tabs .badge{position:absolute;top:0;right:calc(50% - 21px);background:var(--
 
   <div style="text-align:center;margin:20px 0 2px"><button class="btn ghost shareBtn" type="button" style="padding:10px 20px">Send this app to a ham</button></div>
   <p class="foot">Fair values from recorded sales, gathered and kept by HamRadioBargains.com.<br>Buy right. Sell straight.</p>
-  <p class="foot" style="margin-top:6px;font-size:12px;opacity:.75">App version 15 · Nov 11, 2026</p>
+  <p class="foot" style="margin-top:6px;font-size:12px;opacity:.75">App version 16 · Nov 22, 2026</p>
 </main>
 
 <nav class="tabs">
@@ -301,6 +308,7 @@ function renderChecker(name){
   html += '<div class="klabel">FAIR VALUE</div>';
   html += '<div style="font-size:21px;font-weight:700;margin-top:6px">' + esc(name) + '</div>';
   html += '<div class="bigfv">' + money(L.median) + '</div>';
+  if (L.median && (L.count || 0) >= 3) html += '<div class="fxbox" data-fx-fv="' + L.median + '" data-fx-low="' + L.low + '" data-fx-high="' + L.high + '" hidden></div>';
   html += '<div class="statrow">';
   html += '<div class="stat"><span class="klabel">RECORDED SALES</span><b>' + (L.count != null ? L.count : "—") + '</b></div>';
   html += '<div class="stat"><span class="klabel">SALE RANGE</span><b>' + money(L.low) + "–" + money(L.high) + '</b></div>';
@@ -323,6 +331,7 @@ function renderChecker(name){
   html += '<a class="btn ghost" href="/rig-check/">Rig Check it</a>';
   html += '</div></div>';
   box.innerHTML = html;
+  if (window.__fxRender) window.__fxRender();
   var ask = document.getElementById("askInp"), vres = document.getElementById("vRes");
   ask.addEventListener("input", function(){
     var a = parseFloat(ask.value);
@@ -667,5 +676,48 @@ if ("serviceWorker" in navigator && location.protocol === "https:") {
     } catch (e) {}
   })();
 </script>
+<script>
+/* Currency conversion — display only (Leo approved 2026-11-22). USD is
+   always the primary figure; these lines convert the US fair value at
+   today's rates for overseas readers and stay hidden if the rates feed
+   can't be reached. window.__fxRender() re-runs after dynamic renders. */
+(function () {
+  var rates = null, when = '';
+  function jpy(v, R) { var x = v * R.JPY; var y = x >= 10000 ? Math.round(x / 100) * 100 : Math.round(x / 10) * 10; return '\u00a5' + y.toLocaleString('en-US'); }
+  function cur(v, s, r) { return s + Math.round(v * r).toLocaleString('en-US'); }
+  function line(v, R) { return '\u2248 ' + jpy(v, R) + ' \u00b7 ' + cur(v, '\u20ac', R.EUR) + ' \u00b7 ' + cur(v, '\u00a3', R.GBP); }
+  function rng(lo, hi, R) { return jpy(lo, R) + '\u2013' + jpy(hi, R) + ' \u00b7 ' + cur(lo, '\u20ac', R.EUR) + '\u2013' + cur(hi, '\u20ac', R.EUR) + ' \u00b7 ' + cur(lo, '\u00a3', R.GBP) + '\u2013' + cur(hi, '\u00a3', R.GBP); }
+  function fill() {
+    if (!rates) return;
+    document.querySelectorAll('[data-fx-fv]').forEach(function (b) {
+      var fv = parseFloat(b.getAttribute('data-fx-fv'));
+      var lo = parseFloat(b.getAttribute('data-fx-low'));
+      var hi = parseFloat(b.getAttribute('data-fx-high'));
+      if (!isFinite(fv)) { b.hidden = true; b.innerHTML = ''; return; }
+      var html = '<div class="fx">' + line(fv, rates) + '</div>';
+      if (isFinite(lo) && isFinite(hi)) html += '<div class="fxrange">Range \u2248 ' + rng(lo, hi, rates) + '</div>';
+      html += '<div class="fxtier2">\u2248 ' + cur(fv, 'A$', rates.AUD) + ' \u00b7 ' + cur(fv, 'C$', rates.CAD) + '</div>';
+      html += '<div class="fxnote">US fair value converted at exchange rates of ' + when + ' \u2014 your local market may differ. All prices here are US dollars.</div>';
+      b.innerHTML = html;
+      b.hidden = false;
+      var sec = b.closest('section') || b.parentElement;
+      var rs = sec ? sec.querySelector('[data-fx-range]') : null;
+      if (rs && isFinite(lo) && isFinite(hi)) { rs.textContent = '(\u2248 ' + rng(lo, hi, rates) + ')'; rs.hidden = false; }
+    });
+  }
+  window.__fxRender = fill;
+  fetch('https://open.er-api.com/v6/latest/USD')
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      if (!d || d.result !== 'success' || !d.rates) return;
+      rates = d.rates;
+      var p = (d.time_last_update_utc || '').split(' ');
+      when = p.length >= 4 ? (p[2] + ' ' + p[1] + ', ' + p[3]) : '';
+      fill();
+    })
+    .catch(function () {});
+})();
+</script>
+
 </body>
 </html>
