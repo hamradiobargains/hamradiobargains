@@ -1,0 +1,27 @@
+{
+  "model": "Heil Pro Set HC-5",
+  "slug": "heil-pro-set-hc-5",
+  "searched_at": "2026-11-22T18:54:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Heil Pro Set HC-5' page 1 (93 ProSet-family rows). Only 1 row names an HC-5 element headset. THIN: 1 comp (Sep 25, adapters included, so likely above a bare headset). Other ProSet models (3, 6, Elite 6, 7, Plus) kept separate and not used; HC-5 element/ear-pad/windscreen accessories excluded. Best offer accepted: 0 for the kept row. Parts-only: 0. Read Description: 0. UNCERTAIN: whether the ad's 'Pro Set HC-5' maps cleanly to a headset titled 'Proset w/ HC-5 element'. searched_at is the file-build time (searches ran in the minutes before).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785338",
+    "site": "qth",
+    "ask": 55,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 150.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128077401614",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not marked accepted); free shipping; title 'Heil Proset w/ hc-5 element w/ Icom & Kenwood adapters'",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
