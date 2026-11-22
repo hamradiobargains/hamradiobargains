@@ -1,0 +1,15 @@
+{
+  "model": "Palstar AT4K",
+  "slug": "palstar-at4k",
+  "searched_at": "2026-11-22T18:54:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Palstar AT4K' page 1: 77 sold results, none were an AT4K (all AT2K/AT2KD/AT5K etc.), so 0 comps. Ledger latest count 2 / 2026-08-09 not usable (count<3, >30d). searched_at is the file-build time (searches ran in the minutes before).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785366",
+    "site": "qth",
+    "ask": 675,
+    "shipping": 0
+  },
+  "comps": []
+}
