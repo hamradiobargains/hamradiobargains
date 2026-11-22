@@ -313,6 +313,24 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
   .qsl-signal .q-sign{font-size:1.95cqw}
 }
 </style>
+<style id="printStyles">
+/* ===== PRINT - the card alone, at exact postcard size 5.5in x 3.5in =====
+   Printing the page (either view) yields only the card, sized in real
+   inches; the card's cqw type scales off its wrapper, so setting the
+   wrapper to 5.5in wide makes the whole design land at postcard size. */
+@media print{
+  @page{size:letter;margin:.4in}
+  html,body{background:#fff !important}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .site-head,footer{display:none !important}
+  #formView>*:not(.panel){display:none !important}
+  #formView .panel>*:not(#previewWrap){display:none !important}
+  #formView .panel{border:none !important;background:none !important;box-shadow:none !important;padding:0 !important;margin:0 !important}
+  #receiveView>*:not(#receiveCard){display:none !important}
+  #previewWrap,#receiveCard{width:5.5in !important;margin:0 !important;transform:none !important}
+  .qsl{width:5.5in !important;max-width:none !important;margin:0 !important;box-shadow:none !important}
+}
+</style>
 </head>
 <body>
 <div class="wrap">
@@ -338,7 +356,7 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
         <div style="margin-top:10px">
           <button type="button" class="btn btn-secondary" id="shareImgBtnR" style="display:none">Share / save / print the image</button>
         </div>
-        <p style="font-size:13px;opacity:.75;margin-top:8px">On an iPhone or iPad, press and hold the image to save it to Photos.</p>
+        <p style="font-size:13px;opacity:.75;margin-top:8px">On an iPhone or iPad, press and hold the image to save it to Photos. It is sized to print at exactly postcard size — 5.5 × 3.5 inches.</p>
       </div>
     </div>
     <div style="text-align:center;margin-top:20px">
@@ -434,7 +452,7 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
         <div style="margin-top:10px">
           <button type="button" class="btn btn-secondary" id="shareImgBtn" style="display:none">Share / save / print the image</button>
         </div>
-        <p style="font-size:13px;color:var(--muted);margin-top:8px">On an iPhone or iPad, press and hold the image to save it to Photos &mdash; or use the Share button for Save Image, Print, AirDrop and Messages.</p>
+        <p style="font-size:13px;color:var(--muted);margin-top:8px">On an iPhone or iPad, press and hold the image to save it to Photos &mdash; or use the Share button for Save Image, Print, AirDrop and Messages. The image is sized to print at exactly postcard size — 5.5 × 3.5 inches.</p>
       </div>
 
       <div class="share-box" id="shareBox">
@@ -1000,6 +1018,35 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
   // One export path for both views: the sender's form and the recipient's
   // card view each get the drawn PNG, the on-page image, and (where the
   // browser supports it) the Share / save / print button.
+  // Stamp the PNG with its real print size: the canvas is 1760x1120,
+  // which at 320 DPI is exactly a 5.5in x 3.5in postcard, so apps that
+  // honor DPI (Photos, Preview, print dialogs) size it as a postcard on
+  // their own. Adds a PNG pHYs chunk (12598 px per meter = 320 DPI)
+  // right after the IHDR chunk. Any failure returns the original blob -
+  // the download never breaks over metadata.
+  var CRC_TABLE=null;
+  function crc32(bytes){
+    if(!CRC_TABLE){ CRC_TABLE=[]; for(var n=0;n<256;n++){ var c=n; for(var k=0;k<8;k++) c=(c&1)?(0xEDB88320^(c>>>1)):(c>>>1); CRC_TABLE[n]=c>>>0; } }
+    var crc=0xFFFFFFFF;
+    for(var i=0;i<bytes.length;i++) crc=CRC_TABLE[(crc^bytes[i])&0xFF]^(crc>>>8);
+    return (crc^0xFFFFFFFF)>>>0;
+  }
+  function withCardPrintSize(blob){
+    return blob.arrayBuffer().then(function(buf){
+      try{
+        var u=new Uint8Array(buf);
+        if(u.length<40 || u[0]!==0x89 || u[1]!==0x50) return blob;
+        var ppm=12598, data=new Uint8Array(9);
+        var dv=new DataView(data.buffer); dv.setUint32(0,ppm); dv.setUint32(4,ppm); data[8]=1;
+        var chunk=new Uint8Array(21); var cdv=new DataView(chunk.buffer);
+        cdv.setUint32(0,9); chunk.set([0x70,0x48,0x59,0x73],4); chunk.set(data,8);
+        cdv.setUint32(17, crc32(chunk.subarray(4,17)));
+        var out=new Uint8Array(u.length+21);
+        out.set(u.subarray(0,33),0); out.set(chunk,33); out.set(u.subarray(33),54);
+        return new Blob([out],{type:'image/png'});
+      }catch(e){ return blob; }
+    }).catch(function(){ return blob; });
+  }
   function exportCardPNG(msgId, outId, imgId, shareBtnId, failText){
     var msg=$(msgId); msg.textContent='Rendering your card\u2026';
     function go(){
@@ -1008,6 +1055,7 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
       catch(e){ msg.textContent=failText; return; }
       canvas.toBlob(function(b){
         if(!b){ msg.textContent=failText; return; }
+        withCardPrintSize(b).then(function(b){
         var fname='QSL-'+(state.toCall||'card')+'-'+(state.date||'')+'.png';
         try{ window._qslFile=new File([b], fname, {type:'image/png'}); }catch(e){ window._qslFile=null; }
         var a=document.createElement('a');
@@ -1019,6 +1067,7 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
         if(window._qslFile && navigator.canShare && navigator.canShare({files:[window._qslFile]})){ sb.style.display='inline-block'; }
         msg.textContent='Your card image is ready below \u2014 save it, share it, or print it from there.';
         out.scrollIntoView({behavior:'smooth', block:'nearest'});
+        });
       },'image/png');
     }
     if(document.fonts && document.fonts.ready){ document.fonts.ready.then(go); } else { go(); }
