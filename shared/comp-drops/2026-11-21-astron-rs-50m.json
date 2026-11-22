@@ -1,0 +1,43 @@
+{
+  "model": "Astron RS-50M",
+  "slug": "astron-rs-50m",
+  "searched_at": "2026-11-21T18:41:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Astron RS-50M' (sold+completed, newest first, page 1 only, signed in as Leo, no challenge). 3 comps kept, median 150.00; solid. Best-offer-accepted sales dropped: 1 (128040012062 $250.00). Parts-only/for-parts/as-is sales dropped: 0. 'Read Description' sales dropped: 0. Excluded as other model/accessory/bundle: 227552453770 Astron VS-50M $195.00 (different model, excluded). Sold price as shown (no shipping); listing ask and shipping recorded separately in trigger_listing. searched_at is approximate (file-build time). UNCERTAIN identity: ad 1785253 says 'Astron Rack Mount 12 Volt -50 amp power supply (RS-50 M - Rack Mount)'; RS-50M is the metered desktop unit, a rack-mount model may be a different SKU (RM-50M); keep separate if Archie disagrees. Ledger RS-50A (count 4, 2026-10-22) is a different model and was not used.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785253",
+    "site": "qth",
+    "ask": 200,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 159.99,
+      "sold_date": "2026-11-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880114981584",
+      "source": "ebay",
+      "notes": "Astron RS-50M 50 Amplifier Amp Power Supply | shown shipping $59.87",
+      "flags": []
+    },
+    {
+      "price": 130.0,
+      "sold_date": "2026-11-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267835885046",
+      "source": "ebay",
+      "notes": "Astron RS50M Power Supply Used | auction, 7 bids; shown shipping $32.43",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206639752154",
+      "source": "ebay",
+      "notes": "Astron RS-50M Ham Radio 50-Amp Power Supply (older, but nice) | shown shipping $74.29",
+      "flags": []
+    }
+  ]
+}
