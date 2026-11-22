@@ -1,0 +1,52 @@
+{
+  "model": "Icom IC-7100",
+  "slug": "icom-ic-7100",
+  "searched_at": "2026-11-22T14:59:19-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-7100', page 1 (120 of 497 results, mostly other Icom models): 7 titles mention IC-7100; kept 4 radio sales, excluded 3 accessories (remote head base mount, cup holder mount, power cord). dropped 0 best-offer-accepted (no IC-7100 radio sale showed Best offer accepted; two were 'or Best Offer' fixed-price listings kept at shown price), dropped 0 parts-only. No outliers. Ledger miss reason: ICOM IC-7100 latest date 2026-10-10 (>30 days). Note: trigger listing is a brand-new unit; all comps are Pre-Owned.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785444",
+    "site": "qth",
+    "ask": 765.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 620.0,
+      "sold_date": "2026-11-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/920130796809",
+      "source": "ebay",
+      "notes": "Title: Icom IC-7100 HF/VHF/UHF Transceiver w/ D Star Good Conditions. Buy It Now. +$29.75 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-11-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287711919173",
+      "source": "ebay",
+      "notes": "Title: icom ic 7100 transceiver. Auction, 25 bids. +$25.00 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-11-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117511627318",
+      "source": "ebay",
+      "notes": "Title: Icom IC-7100 HF/VHF/UHF Multi-Band Ham Transceiver LCD GPS Weather Alert. Fixed price 'or Best Offer' (not marked Best offer accepted). +$14.51 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287716267902",
+      "source": "ebay",
+      "notes": "Title: Icom IC-7100 HF/VHF/UHF Ham Radio Transceiver w/ LCD Screen, D-STAR. Fixed price 'or Best Offer' (not marked Best offer accepted). +$25.12 delivery shown.",
+      "flags": []
+    }
+  ]
+}
