@@ -1,0 +1,106 @@
+{
+  "model": "Sony ICF-5900W",
+  "slug": "sony-icf-5900w",
+  "searched_at": "2026-11-22T15:57:33-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "From missed search shared/listing-drops/2026-11-21-missed-search.json — visitor typed 'icf 5090'. VARIANT RULE: no Sony ICF-5090 exists (eBay sold search 'icf 5090' returns 0 results). Deposited under Sony ICF-5900W as the likely intended model (keeps the ICF prefix; '5090' is a digit transposition of '5900'; the visitor was searching vintage SW receivers — Hallicrafters SX-130 etc.). Alternative reading Sony CRF-5090 considered: 1 genuine sale ($155, 128127982752, 2026-10-12) — NOT deposited here. eBay sold+completed search 'sony (icf-5900w,icf5900w,icf-5900)' (signed in as Leo). 10 comps. Identity call: plain ICF-5900 (non-W, Japan/international version) kept separate, not merged — 366797857619, 158374125528, 198673462591, 366571874656, 820122696590. Excluded: best-offer-accepted (asking shown, real price unknown) 940074954688, 307268903939, 327430494762, 117234855896, 307243002259, 198497380905, 298527992318, 820075102064; parts-only/repair 920021417774, 820214402642, 267795452135, 940114055155, 137396120727; accessories (adapter cords, battery covers, knobs, cap kit, speaker); Sony ICF-6800W 377662625899 (other model).",
+  "comps": [
+    {
+      "price": 366.0,
+      "sold_date": "2026-11-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227570714845",
+      "source": "ebay",
+      "notes": "Listed 'or Best Offer' but sold at listed price (no best-offer-accepted tag); +$22.59 shipping",
+      "flags": []
+    },
+    {
+      "price": 219.36,
+      "sold_date": "2026-11-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227593719649",
+      "source": "ebay",
+      "notes": "Auction, 13 bids; with power supply; seller in Germany; +$32.90 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 218.26,
+      "sold_date": "2026-11-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147644389759",
+      "source": "ebay",
+      "notes": "Sold at listed price; seller in Germany; +$75.13 shipping",
+      "flags": []
+    },
+    {
+      "price": 279.95,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned, tested",
+      "url": "https://www.ebay.com/itm/287692122829",
+      "source": "ebay",
+      "notes": "Buy It Now; +$13.99 shipping",
+      "flags": []
+    },
+    {
+      "price": 209.84,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198755300940",
+      "source": "ebay",
+      "notes": "Sold at listed price; seller in UK; +$178.54 shipping",
+      "flags": []
+    },
+    {
+      "price": 295.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/116571449872",
+      "source": "ebay",
+      "notes": "Buy It Now; with power supply; +$20.78 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 249.99,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned, tested/works",
+      "url": "https://www.ebay.com/itm/327377329971",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; +$12.93 shipping",
+      "flags": []
+    },
+    {
+      "price": 379.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned, tested/works",
+      "url": "https://www.ebay.com/itm/307184757026",
+      "source": "ebay",
+      "notes": "Listed 'or Best Offer' but sold at listed price; +$18.05 shipping",
+      "flags": []
+    },
+    {
+      "price": 90.0,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168683742090",
+      "source": "ebay",
+      "notes": "Auction, 1 bid; heavy shipping +$88.55; far below the $209–379 cluster",
+      "flags": [
+        "outlier"
+      ]
+    },
+    {
+      "price": 249.99,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned, listed as working",
+      "url": "https://www.ebay.com/itm/407172208754",
+      "source": "ebay",
+      "notes": "Buy It Now; +$35.00 shipping",
+      "flags": []
+    }
+  ]
+}
