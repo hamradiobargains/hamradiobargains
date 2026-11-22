@@ -1,0 +1,27 @@
+{
+  "model": "Elecraft K3/0 Mini",
+  "slug": "elecraft-k3-0-mini",
+  "searched_at": "2026-11-22T05:55:39-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'elecraft k3/0 mini', page 1, exact-match section only (1 result). 1 kept comp — thin. Dropped 0 best-offer-accepted, 0 parts-only. No outlier test possible with one comp.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629728",
+    "site": "eham",
+    "ask": 825.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 575.0,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137755760888",
+      "source": "ebay",
+      "notes": "Title 'Elecraft K3/0 Mini Remote Head # 0041. W Microphone.'; auction, 1 bid; +$25.00 shipping.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
