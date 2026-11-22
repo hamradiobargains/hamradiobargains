@@ -107,8 +107,8 @@ Buying used, run the roller inductor through its full travel and watch the turns
   "description": "What&#x27;s a MFJ 989D worth? Based on 7 recent sold listings, fair market value is ~$275 (range $250–$350). See price history, sold comps, and live below-market deals.",
   "offers": {
     "@type": "AggregateOffer",
-    "lowPrice": "250",
-    "highPrice": "350",
+    "lowPrice": 250,
+    "highPrice": 350,
     "priceCurrency": "USD",
     "offerCount": "7"
   }
@@ -177,6 +177,14 @@ Buying used, run the roller inductor through its full travel and watch the turns
                    margin-top: 10px; font-size: .95rem; }
   .answer-box dt { color: var(--muted); }
   .answer-box .fine { font-size: .8rem; color: var(--muted); margin-top: 10px; }
+  /* Currency conversion (added 2026-11-22, Leo approved) — filled by the
+     FX script at the end of the body; stays hidden if rates can't load. */
+  .fxbox { border-top: 1px solid var(--border); margin-top: 12px; padding-top: 12px; }
+  .fxbox .fx { font-size: 1.15rem; font-weight: 700; }
+  .fxbox .fxrange { color: var(--muted); font-size: .92rem; margin-top: 2px; }
+  .fxbox .fxtier2 { color: var(--muted); margin-top: 2px; }
+  .fxbox .fxnote { color: var(--muted); font-size: .8rem; margin-top: 4px; }
+  span.fxrange { color: var(--muted); font-size: .85em; }
 
   h2 { font-size: 1.3rem; margin: 38px 0 14px;
        padding-bottom: 8px; border-bottom: 1px solid var(--border); }
@@ -252,11 +260,12 @@ Buying used, run the roller inductor through its full travel and watch the turns
     <div class="fmv">~$275</div>
     <dl>
       <dt>Fair market value</dt><dd><strong>$275</strong> (median of recent sales)</dd>
-      <dt>Typical range</dt><dd>$250 – $350</dd>
+      <dt>Typical range</dt><dd>$250 – $350 <span class="fxrange" data-fx-range hidden></span></dd>
       <dt>Based on</dt><dd>7 sold listings</dd>
 
       <dt>Last updated</dt><dd>October 21, 2026</dd>
     </dl>
+    <div class="fxbox" data-fx-fv="275" data-fx-low="249.99" data-fx-high="350" hidden></div>
     <p class="fine">Values are estimates from recent comparable sales — condition, accessories, and included extras vary. Always compare before buying.</p>
   </section>
 
@@ -415,6 +424,44 @@ Buying used, run the roller inductor through its full travel and watch the turns
       '<polyline points="' + pts + '" fill="none" stroke-width="2.5" style="stroke:var(--accent)"/>' + dots;
     box.hidden = false;
   }).catch(function () { /* offline or missing file: leave the section hidden */ });
+})();
+</script>
+<script>
+/* Currency conversion — display only (Leo approved 2026-11-22). USD is
+   always the primary figure and the only one the 25% math uses; these
+   lines convert the US fair value at today's rates for overseas readers
+   and stay hidden if the rates feed can't be reached. */
+(function () {
+  var boxes = document.querySelectorAll('[data-fx-fv]');
+  if (!boxes.length) return;
+  fetch('https://open.er-api.com/v6/latest/USD')
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      if (!d || d.result !== 'success' || !d.rates) return;
+      var R = d.rates;
+      var p = (d.time_last_update_utc || '').split(' ');
+      var when = p.length >= 4 ? (p[2] + ' ' + p[1] + ', ' + p[3]) : '';
+      function jpy(v) { var x = v * R.JPY; var y = x >= 10000 ? Math.round(x / 100) * 100 : Math.round(x / 10) * 10; return '\u00a5' + y.toLocaleString('en-US'); }
+      function cur(v, s, r) { return s + Math.round(v * r).toLocaleString('en-US'); }
+      function line(v) { return '\u2248 ' + jpy(v) + ' \u00b7 ' + cur(v, '\u20ac', R.EUR) + ' \u00b7 ' + cur(v, '\u00a3', R.GBP); }
+      function rng(lo, hi) { return jpy(lo) + '\u2013' + jpy(hi) + ' \u00b7 ' + cur(lo, '\u20ac', R.EUR) + '\u2013' + cur(hi, '\u20ac', R.EUR) + ' \u00b7 ' + cur(lo, '\u00a3', R.GBP) + '\u2013' + cur(hi, '\u00a3', R.GBP); }
+      boxes.forEach(function (b) {
+        var fv = parseFloat(b.getAttribute('data-fx-fv'));
+        var lo = parseFloat(b.getAttribute('data-fx-low'));
+        var hi = parseFloat(b.getAttribute('data-fx-high'));
+        if (!isFinite(fv)) return;
+        var html = '<div class="fx">' + line(fv) + '</div>';
+        if (isFinite(lo) && isFinite(hi)) html += '<div class="fxrange">Range \u2248 ' + rng(lo, hi) + '</div>';
+        html += '<div class="fxtier2">\u2248 ' + cur(fv, 'A$', R.AUD) + ' \u00b7 ' + cur(fv, 'C$', R.CAD) + '</div>';
+        html += '<div class="fxnote">US fair value converted at exchange rates of ' + when + ' \u2014 your local market may differ. All prices on this page are US dollars.</div>';
+        b.innerHTML = html;
+        b.hidden = false;
+        var sec = b.closest('section');
+        var rs = sec ? sec.querySelector('[data-fx-range]') : null;
+        if (rs && isFinite(lo) && isFinite(hi)) { rs.textContent = '(\u2248 ' + rng(lo, hi) + ')'; rs.hidden = false; }
+      });
+    })
+    .catch(function () {});
 })();
 </script>
 </body>
