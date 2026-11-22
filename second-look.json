@@ -27,6 +27,48 @@
             "comp_high": 2385.0,
             "source": "eHam",
             "listed_since": "2026-10-09"
+        },
+        {
+            "date": "2026-11-22",
+            "title": "Kenwood TS-2000 Multi-Band HF/VHF/UHF Transceiver",
+            "url": "https://swap.qth.com/view_ad.php?counter=1778263",
+            "price": 575.0,
+            "extra": 0.0,
+            "pct_below": 39.5,
+            "median": 950.0,
+            "comp_count": 13,
+            "comp_low": 510.0,
+            "comp_high": 1500.0,
+            "source": "QTH",
+            "listed_since": "2026-09-02"
+        },
+        {
+            "date": "2026-11-22",
+            "title": "Ameritron ALS-600 Amplifier with Power Supply",
+            "url": "https://swap.qth.com/view_ad.php?counter=1779509",
+            "price": 950.0,
+            "extra": 0.0,
+            "pct_below": 30.4,
+            "median": 1365.0,
+            "comp_count": 6,
+            "comp_low": 1050.0,
+            "comp_high": 1500.0,
+            "source": "QTH",
+            "listed_since": "2026-10-22"
+        },
+        {
+            "date": "2026-11-22",
+            "title": "Icom IC-7600 HF/50MHz Transceiver with Astron Power Supply",
+            "url": "https://swap.qth.com/view_ad.php?counter=1781385",
+            "price": 850.0,
+            "extra": 0.0,
+            "pct_below": 25.9,
+            "median": 1147.5,
+            "comp_count": 4,
+            "comp_low": 1000.0,
+            "comp_high": 1300.0,
+            "source": "QTH",
+            "listed_since": "2026-10-22"
         }
     ]
 }
