@@ -1,0 +1,34 @@
+{
+  "model": "Hammarlund S-100",
+  "slug": "hammarlund-s-100",
+  "searched_at": "2026-11-21T18:45:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Hammarlund S-100 speaker' (sold+completed, newest first, page 1 only, signed in as Leo, no challenge). 2 comps kept, median 39.97; THIN (<3). Best-offer-accepted sales dropped: 1 (960027848361 $60.00 (\"Hammarlund 9\" Ham Radio Transceiver Speaker Model S 100 ?\")). Parts-only/for-parts/as-is sales dropped: 0. 'Read Description' sales dropped: 0. Excluded as other model/accessory/bundle: 178374770434 Hammarlund S-200 speaker $90.00 (different model); 178292256366 Hammarlund S-200 speaker $230.00 (different model); 267770074008 Hammarlund S-200 speaker $75.00 (different model, also BOA). Sold price as shown (no shipping); listing ask and shipping recorded separately in trigger_listing. searched_at is approximate (file-build time).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785297",
+    "site": "qth",
+    "ask": 50,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 19.99,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128119055259",
+      "source": "ebay",
+      "notes": "Hammarlund S-100 Speaker | auction, 1 bid; shown shipping $21.80",
+      "flags": []
+    },
+    {
+      "price": 59.95,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158223822892",
+      "source": "ebay",
+      "notes": "Rare and Nice HAMMARLUND S-100 SPEAKER BIN $59.95 | shown shipping $20.00",
+      "flags": []
+    }
+  ]
+}
