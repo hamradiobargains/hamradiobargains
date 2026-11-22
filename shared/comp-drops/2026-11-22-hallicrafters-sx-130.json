@@ -1,0 +1,19 @@
+{
+  "model": "Hallicrafters SX-130",
+  "slug": "hallicrafters-sx-130",
+  "searched_at": "2026-11-22T15:57:33-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "From missed search shared/listing-drops/2026-11-21-missed-search.json — visitor typed 'sx 130' (same visitor typed 'sx 125' 8 s earlier; no Hallicrafters SX-125 sales exist on eBay). eBay sold+completed searches 'hallicrafters sx-130' and 'hallicrafters (sx130,\"sx 130\")' (signed in as Leo). 1 comp — low confidence. Excluded: SX-130 operating/service manual 202467900762 ($14.99, accessory, not the radio); bare 'sx 130' search returns only KTM motorcycle parts.",
+  "comps": [
+    {
+      "price": 119.99,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned, listed as working",
+      "url": "https://www.ebay.com/itm/327341571575",
+      "source": "ebay",
+      "notes": "Buy It Now; +$29.99 shipping",
+      "flags": []
+    }
+  ]
+}
