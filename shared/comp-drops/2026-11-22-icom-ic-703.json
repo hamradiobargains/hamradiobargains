@@ -1,0 +1,49 @@
+{
+  "model": "Icom IC-703",
+  "slug": "icom-ic-703",
+  "searched_at": "2026-11-22T18:54:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Icom IC-703' page 1 (18 title matches). 3 kept, median 435.00 (solid, but oldest/newest Oct 1-Oct 20, none in Nov). Excluded non-unit rows: control head 278375119429 $99.00, front head panel 800766803066 $229.00, latches, screws, mounting bracket, OPC-581 cable, manual, amplifier cables. Best offer accepted: 0. Parts-only: 0 radios (OPC-581 cable row was labelled Parts Only, excluded as accessory). Read Description: 0. Outliers: none. searched_at is the file-build time (searches ran in the minutes before).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785393",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 429.0,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940011539847",
+      "source": "ebay",
+      "notes": "Auction, 2 bids; shipping 31.70; title lists auto antenna tuner, DSP and FL-52A 500 Hz filter",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 435.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327358460766",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not marked accepted); shipping 24.64; w/ mic and manual",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 439.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278405423622",
+      "source": "ebay",
+      "notes": "Auction, 3 bids; shipping 31.70; title lists auto antenna tuner, DSP and FL-52A 500 Hz filter",
+      "flags": [
+        "option_installed"
+      ]
+    }
+  ]
+}
