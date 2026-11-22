@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T13:53:40+00:00",
+ "updated": "2026-11-22T13:53:38+00:00",
  "source": "HamRadioBargains sold-comp ledger \u2014 genuine sold listings from eHam, QTH, eBay and site deals, plus the eHam comp archive. Prices are asking prices at sale; best offers may differ.",
  "models": {
   "ACOM 06AT": {
@@ -713,11 +713,11 @@
   },
   "ASTRON RS-35A": {
    "latest": {
-    "date": "2026-10-15",
-    "median": 110.0,
-    "low": 99.95,
+    "date": "2026-11-16",
+    "median": 100.0,
+    "low": 75.0,
     "high": 179.99,
-    "count": 13
+    "count": 20
    },
    "history": [
     {
@@ -726,6 +726,13 @@
      "low": 99.95,
      "high": 179.99,
      "count": 13
+    },
+    {
+     "date": "2026-11-16",
+     "median": 100.0,
+     "low": 75.0,
+     "high": 179.99,
+     "count": 20
     }
    ]
   },
@@ -762,6 +769,24 @@
      "low": 110.0,
      "high": 250.0,
      "count": 4
+    }
+   ]
+  },
+  "ASTRON RS-50M": {
+   "latest": {
+    "date": "2026-11-19",
+    "median": 150.0,
+    "low": 130.0,
+    "high": 159.99,
+    "count": 3
+   },
+   "history": [
+    {
+     "date": "2026-11-19",
+     "median": 150.0,
+     "low": 130.0,
+     "high": 159.99,
+     "count": 3
     }
    ]
   },
@@ -2394,11 +2419,11 @@
   },
   "HALLICRAFTERS R-46B": {
    "latest": {
-    "date": "2026-09-16",
-    "median": 65.0,
+    "date": "2026-11-08",
+    "median": 60.0,
     "low": 49.95,
     "high": 89.99,
-    "count": 4
+    "count": 5
    },
    "history": [
     {
@@ -2407,6 +2432,13 @@
      "low": 49.95,
      "high": 89.99,
      "count": 4
+    },
+    {
+     "date": "2026-11-08",
+     "median": 60.0,
+     "low": 49.95,
+     "high": 89.99,
+     "count": 5
     }
    ]
   },
@@ -4887,6 +4919,24 @@
     }
    ]
   },
+  "KENWOOD KMC-22": {
+   "latest": {
+    "date": "2026-10-28",
+    "median": 28.0,
+    "low": 22.0,
+    "high": 33.99,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-10-28",
+     "median": 28.0,
+     "low": 22.0,
+     "high": 33.99,
+     "count": 2
+    }
+   ]
+  },
   "KENWOOD MC-43S": {
    "latest": {
     "date": "2026-11-08",
@@ -5220,6 +5270,24 @@
     }
    ]
   },
+  "KENWOOD TH-79A": {
+   "latest": {
+    "date": "2026-10-29",
+    "median": 182.47,
+    "low": 175.95,
+    "high": 189.0,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-10-29",
+     "median": 182.47,
+     "low": 175.95,
+     "high": 189.0,
+     "count": 2
+    }
+   ]
+  },
   "KENWOOD TH-D72A": {
    "latest": {
     "date": "2026-10-27",
@@ -5371,6 +5439,24 @@
      "low": 1249.0,
      "high": 1295.0,
      "count": 2
+    }
+   ]
+  },
+  "KENWOOD TM-241A": {
+   "latest": {
+    "date": "2026-11-16",
+    "median": 76.5,
+    "low": 50.0,
+    "high": 110.0,
+    "count": 4
+   },
+   "history": [
+    {
+     "date": "2026-11-16",
+     "median": 76.5,
+     "low": 50.0,
+     "high": 110.0,
+     "count": 4
     }
    ]
   },
@@ -6050,11 +6136,11 @@
   },
   "KENWOOD TS-520S": {
    "latest": {
-    "date": "2026-09-29",
-    "median": 262.5,
-    "low": 225,
-    "high": 320,
-    "count": 8
+    "date": "2026-10-26",
+    "median": 293.54,
+    "low": 287.09,
+    "high": 299.99,
+    "count": 2
    },
    "history": [
     {
@@ -6063,6 +6149,13 @@
      "low": 225,
      "high": 320,
      "count": 8
+    },
+    {
+     "date": "2026-10-26",
+     "median": 293.54,
+     "low": 287.09,
+     "high": 299.99,
+     "count": 2
     }
    ]
   },
@@ -6568,6 +6661,24 @@
     }
    ]
   },
+  "KM3KM MERCURY IIIS": {
+   "latest": {
+    "date": "2026-09-18",
+    "median": 2495.0,
+    "low": 2495.0,
+    "high": 2495.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-09-18",
+     "median": 2495.0,
+     "low": 2495.0,
+     "high": 2495.0,
+     "count": 1
+    }
+   ]
+  },
   "LAB599 TX-500": {
    "latest": {
     "date": "2026-10-11",
@@ -7054,6 +7165,24 @@
      "low": 99.99,
      "high": 285.0,
      "count": 40
+    }
+   ]
+  },
+  "MFJ-264": {
+   "latest": {
+    "date": "2026-11-18",
+    "median": 99.0,
+    "low": 65.0,
+    "high": 153.0,
+    "count": 16
+   },
+   "history": [
+    {
+     "date": "2026-11-18",
+     "median": 99.0,
+     "low": 65.0,
+     "high": 153.0,
+     "count": 16
     }
    ]
   },
@@ -7572,6 +7701,24 @@
      "low": 610.0,
      "high": 610.0,
      "count": 1
+    }
+   ]
+  },
+  "NYE VIKING MASTER KEY": {
+   "latest": {
+    "date": "2026-11-19",
+    "median": 62.48,
+    "low": 60.0,
+    "high": 64.95,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-11-19",
+     "median": 62.48,
+     "low": 60.0,
+     "high": 64.95,
+     "count": 2
     }
    ]
   },
@@ -8874,6 +9021,24 @@
      "low": 38.0,
      "high": 120.0,
      "count": 35
+    }
+   ]
+  },
+  "TIMEWAVE DSP-599ZX": {
+   "latest": {
+    "date": "2026-11-13",
+    "median": 187.47,
+    "low": 126.0,
+    "high": 229.99,
+    "count": 6
+   },
+   "history": [
+    {
+     "date": "2026-11-13",
+     "median": 187.47,
+     "low": 126.0,
+     "high": 229.99,
+     "count": 6
     }
    ]
   },
@@ -10319,10 +10484,10 @@
   "YAESU FT-757GX": {
    "latest": {
     "date": "2026-08-13",
-    "median": 249.5,
+    "median": 249.0,
     "low": 249.0,
-    "high": 250.0,
-    "count": 2
+    "high": 249.0,
+    "count": 1
    },
    "history": [
     {
@@ -10331,6 +10496,13 @@
      "low": 249.0,
      "high": 250.0,
      "count": 2
+    },
+    {
+     "date": "2026-08-13",
+     "median": 249.0,
+     "low": 249.0,
+     "high": 249.0,
+     "count": 1
     }
    ]
   },
@@ -10725,6 +10897,24 @@
      "low": 200.0,
      "high": 699.99,
      "count": 12
+    }
+   ]
+  },
+  "YAESU FT-890AT": {
+   "latest": {
+    "date": "2026-10-31",
+    "median": 275.0,
+    "low": 275.0,
+    "high": 275.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-10-31",
+     "median": 275.0,
+     "low": 275.0,
+     "high": 275.0,
+     "count": 1
     }
    ]
   },
@@ -11509,11 +11699,11 @@
   },
   "YAESU FTX-1 OPTIMA": {
    "latest": {
-    "date": "2026-10-06",
+    "date": "2026-11-19",
     "median": 1699.88,
-    "low": 1699.88,
+    "low": 1697.88,
     "high": 1699.88,
-    "count": 1
+    "count": 3
    },
    "history": [
     {
@@ -11522,6 +11712,13 @@
      "low": 1699.88,
      "high": 1699.88,
      "count": 1
+    },
+    {
+     "date": "2026-11-19",
+     "median": 1699.88,
+     "low": 1697.88,
+     "high": 1699.88,
+     "count": 3
     }
    ]
   },
@@ -11903,6 +12100,24 @@
      "low": 60.0,
      "high": 60.0,
      "count": 1
+    }
+   ]
+  },
+  "YAESU VX-6R": {
+   "latest": {
+    "date": "2026-11-21",
+    "median": 247.87,
+    "low": 150.0,
+    "high": 379.98,
+    "count": 17
+   },
+   "history": [
+    {
+     "date": "2026-11-21",
+     "median": 247.87,
+     "low": 150.0,
+     "high": 379.98,
+     "count": 17
     }
    ]
   },
