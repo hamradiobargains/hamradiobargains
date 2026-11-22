@@ -241,7 +241,11 @@
         .site-header h1{ font-size:27px; }
         .logo{ font-size:23px; }
       }
-    </style>
+    
+      .homeqth { margin-top: 16px; border-top: 1px solid var(--ink-line, #2c2c2e); padding-top: 14px; }
+      .homeqth label { display: block; font-weight: 600; margin-bottom: 8px; }
+      .homeqth-note { font-weight: 400; color: var(--muted, #9a9aa0); font-size: .85em; }
+</style>
   </head>
   <body>
     <div class="wrap">
@@ -250,7 +254,7 @@
       <header class="site-header">
         <div class="logo">Ham Radio <span class="accent">Bargains</span></div>
         <h1>Callsign Lookup</h1>
-        <p class="intro">Buying from a callsign you don&rsquo;t know? See who&rsquo;s on the other end of the deal &mdash; name, license class, and the address on their FCC license, straight from the public record.</p>
+        <p class="intro">Buying from a callsign you don&rsquo;t know? See who&rsquo;s on the other end of the deal &mdash; name, license class, and the address on their license, straight from the public record &mdash; in the US and a growing list of countries, with country and beam-heading data for everywhere else.</p>
       </header>
 
       <form class="search-card" id="lookupForm" novalidate>
@@ -259,7 +263,15 @@
           <input id="callInput" type="text" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="e.g. W1AW" maxlength="10" />
           <button type="submit" id="lookupBtn">Look it up</button>
         </div>
-        <p class="hint">US amateur callsigns only. New to a call? Try <button type="button" id="tryExample">K4LFC</button> to see how it reads.</p>
+        <p class="hint">Amateur callsigns worldwide. New to a call? Try <button type="button" id="tryExample">K4LFC</button> to see how it reads.</p>
+        <div class="homeqth">
+          <label for="homeInput">Your callsign or grid square <span class="homeqth-note">(for beam headings &mdash; headings default to Burlington, NC until you set yours; it&rsquo;s remembered on this device only)</span></label>
+          <div class="search-row">
+            <input id="homeInput" type="text" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="e.g. K4LFC or EM95" maxlength="10" />
+            <button type="button" id="homeBtn">Set my station</button>
+          </div>
+          <p class="hint" id="homeStatus">Beam headings from: Burlington, NC (our home QTH)</p>
+        </div>
       </form>
 
       <div class="message" id="message" role="status" aria-live="polite"></div>
@@ -273,7 +285,7 @@
             </div>
             <div class="qsl-call" id="qCall"></div>
             <hr class="qsl-rule" />
-            <p class="qsl-phrase">License on file with the FCC for:</p>
+            <p class="qsl-phrase" id="qPhrase">License on file with the FCC for:</p>
             <p class="qsl-name" id="qName"></p>
             <p class="qsl-addr" id="qAddr1"></p>
             <p class="qsl-addr" id="qAddr2"></p>
@@ -283,7 +295,9 @@
               <div class="qsl-cell"><span class="k">Licensed since</span><span class="v" id="qSince"></span></div>
               <div class="qsl-cell"><span class="k">Expires</span><span class="v" id="qExpires"></span></div>
             </div>
-            <p class="qsl-dist" id="qDist" style="display:none;"><span class="k">From our home QTH</span><span class="v" id="qDistV"></span></p>
+            <p class="qsl-dist" id="qDist" style="display:none;"><span class="k" id="qDistK">From our home QTH</span><span class="v" id="qDistV"></span></p>
+            <p class="qsl-dist" id="qBeam" style="display:none;"><span class="k">Beam headings</span><span class="v" id="qBeamV"></span></p>
+            <p class="qsl-prev" id="qNote" style="display:none;"></p>
             <p class="qsl-prev" id="qPrev" style="display:none;">Previously held: <strong id="qPrevV"></strong></p>
             <p class="qsl-sign">73</p>
           </div>
@@ -292,13 +306,63 @@
       </div>
 
       <footer>
-        License details come from the FCC&rsquo;s public amateur radio records, served by Callook. Details can lag a new grant or renewal by a few days. Always compare before buying.
+        US license details come from the FCC&rsquo;s public amateur radio records, served by Callook. Records for Canada, Australia, Germany and the Czech Republic come from HamDB; country, zone and reference-point data for all callsigns come from HamQTH&rsquo;s DXCC tables. Details can lag a new grant or renewal by a few days. Always compare before buying.
       </footer>
     </div>
 
     <script>
       (function () {
         var HOME = { lat: 36.10, lon: -79.44 };
+        // Beam-heading origin: the visitor's own station when they've set
+        // one (remembered on this device only), else our home QTH in
+        // Burlington, NC \u2014 and the card always labels which.
+        var ORIGIN = { label: 'Burlington, NC', lat: HOME.lat, lon: HOME.lon, home: true };
+        try {
+          var savedOrigin = JSON.parse(window.localStorage.getItem('hrbOrigin') || 'null');
+          if (savedOrigin && isFinite(savedOrigin.lat) && isFinite(savedOrigin.lon) && savedOrigin.label) {
+            ORIGIN = { label: String(savedOrigin.label), lat: +savedOrigin.lat, lon: +savedOrigin.lon, home: false };
+          }
+        } catch (e) {}
+
+        function gridToLatLon(grid) {
+          var g = String(grid || '').trim().toUpperCase();
+          if (!/^[A-R]{2}[0-9]{2}([A-X]{2}([0-9]{2})?)?$/.test(g)) return null;
+          var lon = (g.charCodeAt(0) - 65) * 20 - 180, lat = (g.charCodeAt(1) - 65) * 10 - 90;
+          lon += (+g[2]) * 2; lat += (+g[3]) * 1;
+          var lonW = 2, latH = 1;
+          if (g.length >= 6) { lon += (g.charCodeAt(4) - 65) * (2 / 24); lat += (g.charCodeAt(5) - 65) * (1 / 24); lonW = 2 / 24; latH = 1 / 24; }
+          if (g.length >= 8) { lon += (+g[6]) * (2 / 240); lat += (+g[7]) * (1 / 240); lonW = 2 / 240; latH = 1 / 240; }
+          return { lat: lat + latH / 2, lon: lon + lonW / 2 };
+        }
+        function latLonToGrid(lat, lon) {
+          var la = Math.max(-89.99, Math.min(89.99, +lat)), lo = Math.max(-179.99, Math.min(179.99, +lon));
+          var aLo = Math.floor((lo + 180) / 20), aLa = Math.floor((la + 90) / 10);
+          var bLo = Math.floor(((lo + 180) % 20) / 2), bLa = Math.floor((la + 90) % 10);
+          var cLo = Math.floor((((lo + 180) % 2) / 2) * 24), cLa = Math.floor(((la + 90) % 1) * 24);
+          return String.fromCharCode(65 + aLo) + String.fromCharCode(65 + aLa) + bLo + bLa +
+                 String.fromCharCode(97 + cLo) + String.fromCharCode(97 + cLa);
+        }
+        function cardinal16(b) {
+          var pts = ['N', 'NNE', 'NE', 'ENE', 'E', 'ESE', 'SE', 'SSE', 'S', 'SSW', 'SW', 'WSW', 'W', 'WNW', 'NW', 'NNW'];
+          return pts[Math.round(b / 22.5) % 16];
+        }
+        // Distance + bearings from ORIGIN to a target. Returns null on bad input.
+        function geoTo(lat, lon) {
+          var la = parseFloat(lat), lo = parseFloat(lon);
+          if (isNaN(la) || isNaN(lo)) return null;
+          var R = 3959;
+          var dLat = (la - ORIGIN.lat) * Math.PI / 180;
+          var dLon = (lo - ORIGIN.lon) * Math.PI / 180;
+          var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                  Math.cos(ORIGIN.lat * Math.PI / 180) * Math.cos(la * Math.PI / 180) *
+                  Math.sin(dLon / 2) * Math.sin(dLon / 2);
+          var miles = R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+          var y = Math.sin(dLon) * Math.cos(la * Math.PI / 180);
+          var x = Math.cos(ORIGIN.lat * Math.PI / 180) * Math.sin(la * Math.PI / 180) -
+                  Math.sin(ORIGIN.lat * Math.PI / 180) * Math.cos(la * Math.PI / 180) * Math.cos(dLon);
+          var brg = (Math.atan2(y, x) * 180 / Math.PI + 360) % 360;
+          return { miles: miles, brg: brg };
+        }
         var form = document.getElementById('lookupForm');
         var input = document.getElementById('callInput');
         var btn = document.getElementById('lookupBtn');
@@ -322,23 +386,32 @@
         function hideMessage() { msg.classList.remove('show'); msg.innerHTML = ''; }
 
         function distanceLine(lat, lon) {
-          var la = parseFloat(lat), lo = parseFloat(lon);
-          if (isNaN(la) || isNaN(lo)) return null;
-          var R = 3959;
-          var dLat = (la - HOME.lat) * Math.PI / 180;
-          var dLon = (lo - HOME.lon) * Math.PI / 180;
-          var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-                  Math.cos(HOME.lat * Math.PI / 180) * Math.cos(la * Math.PI / 180) *
-                  Math.sin(dLon / 2) * Math.sin(dLon / 2);
-          var miles = Math.round(R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)));
-          if (miles < 1) return 'Right here in Burlington, NC';
-          var y = Math.sin(dLon) * Math.cos(la * Math.PI / 180);
-          var x = Math.cos(HOME.lat * Math.PI / 180) * Math.sin(la * Math.PI / 180) -
-                  Math.sin(HOME.lat * Math.PI / 180) * Math.cos(la * Math.PI / 180) * Math.cos(dLon);
-          var brg = (Math.atan2(y, x) * 180 / Math.PI + 360) % 360;
-          var dirs = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
-          var dir = dirs[Math.round(brg / 45) % 8];
-          return '\u2248 ' + miles + ' mi ' + dir + ' of Burlington, NC';
+          var g = geoTo(lat, lon);
+          if (!g) return null;
+          var miles = Math.round(g.miles);
+          if (miles < 1) return ORIGIN.home ? 'Right here in Burlington, NC' : 'Right in your own neighborhood';
+          return '\u2248 ' + miles.toLocaleString() + ' mi ' + cardinal16(g.brg) + ' of ' + ORIGIN.label;
+        }
+        function beamLine(lat, lon) {
+          var g = geoTo(lat, lon);
+          if (!g || g.miles < 25) return null;
+          var sp = Math.round(g.brg), lp = (sp + 180) % 360;
+          return 'Short path ' + sp + '\u00b0 (' + cardinal16(sp) + ') \u00b7 Long path ' + lp + '\u00b0 (' + cardinal16(lp) + ')';
+        }
+        function showGeo(lat, lon) {
+          var dist = distanceLine(lat, lon);
+          var distEl = document.getElementById('qDist');
+          if (dist) {
+            document.getElementById('qDistK').textContent = ORIGIN.home ? 'From our home QTH' : 'From your station';
+            document.getElementById('qDistV').textContent = dist;
+            distEl.style.display = '';
+          } else { distEl.style.display = 'none'; }
+          var beam = beamLine(lat, lon);
+          var beamEl = document.getElementById('qBeam');
+          if (beam) {
+            document.getElementById('qBeamV').textContent = beam + ' \u2014 from ' + ORIGIN.label;
+            beamEl.style.display = '';
+          } else { beamEl.style.display = 'none'; }
         }
 
         function renderResult(call, d) {
@@ -357,14 +430,9 @@
           document.getElementById('qSince').textContent = info.grantDate || '\u2014';
           document.getElementById('qExpires').textContent = info.expiryDate || '\u2014';
 
-          var dist = distanceLine(loc.latitude, loc.longitude);
-          var distEl = document.getElementById('qDist');
-          if (dist) {
-            document.getElementById('qDistV').textContent = dist;
-            distEl.style.display = '';
-          } else {
-            distEl.style.display = 'none';
-          }
+          document.getElementById('qPhrase').textContent = 'License on file with the FCC for:';
+          document.getElementById('qNote').style.display = 'none';
+          showGeo(loc.latitude, loc.longitude);
 
           var prevEl = document.getElementById('qPrev');
           if (prev.callsign) {
@@ -381,11 +449,83 @@
           wrap.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }
 
+        function fetchJson(url) {
+          return fetch(url).then(function (r) { if (!r.ok) throw new Error('bad'); return r.json(); }).catch(function () { return null; });
+        }
+        function hamdbRecord(call) {
+          return fetchJson('https://api.hamdb.org/v1/' + encodeURIComponent(call) + '/json/hamradiobargains')
+            .then(function (d) {
+              var rec = d && d.hamdb && d.hamdb.callsign;
+              if (!rec || !d.hamdb.messages || d.hamdb.messages.status !== 'OK') return null;
+              return rec;
+            });
+        }
+        function dxccInfo(call) {
+          return fetchJson('https://www.hamqth.com/api/v2/dxcc?callsign=' + encodeURIComponent(call))
+            .then(function (d) { return (d && d.entity) ? d : null; });
+        }
+
+        function finishCard() {
+          fine.classList.add('show');
+          hideMessage();
+          wrap.classList.add('show');
+          wrap.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+        function setPrev(call) {
+          var prevEl = document.getElementById('qPrev');
+          if (call) { document.getElementById('qPrevV').textContent = call; prevEl.style.display = ''; }
+          else { prevEl.style.display = 'none'; }
+        }
+
+        function renderHamDB(call, rec) {
+          document.getElementById('qPhrase').textContent = 'License record for:';
+          document.getElementById('qCall').textContent = rec.call || call;
+          document.getElementById('qName').textContent = rec.name || '';
+          document.getElementById('qAddr1').textContent = rec.addr1 || '';
+          var parts = [rec.addr2, rec.state, rec.zip, rec.country].filter(function (x) { return x && x !== 'NOT_FOUND'; });
+          document.getElementById('qAddr2').textContent = parts.join(', ');
+          document.getElementById('qClass').textContent = rec.class || '\u2014';
+          document.getElementById('qGrid').textContent = (rec.grid && rec.grid !== 'NOT_FOUND') ? rec.grid : latLonToGrid(rec.lat, rec.lon);
+          document.getElementById('qSince').textContent = '\u2014';
+          document.getElementById('qExpires').textContent = rec.expires || '\u2014';
+          document.getElementById('qNote').style.display = 'none';
+          setPrev(null);
+          showGeo(rec.lat, rec.lon);
+          finishCard();
+        }
+
+        function renderEntity(call, d) {
+          var ent = d.entity;
+          document.getElementById('qPhrase').textContent = 'DXCC entity for:';
+          document.getElementById('qCall').textContent = call;
+          document.getElementById('qName').textContent = ent.name || '';
+          document.getElementById('qAddr1').textContent = d.details || '';
+          var off = (ent.utcOffset > 0 ? '+' : '') + ent.utcOffset;
+          document.getElementById('qAddr2').textContent = 'CQ zone ' + ent.waz + ' \u00b7 ITU zone ' + ent.itu + ' \u00b7 UTC' + off;
+          document.getElementById('qClass').textContent = '\u2014';
+          document.getElementById('qGrid').textContent = latLonToGrid(ent.lat, ent.lon);
+          document.getElementById('qSince').textContent = '\u2014';
+          document.getElementById('qExpires').textContent = '\u2014';
+          var note = document.getElementById('qNote');
+          note.textContent = 'No free public register publishes this operator\u2019s name and address, so this card places the country from the callsign itself. Distance and beam headings are measured to ' + (ent.name || 'the entity') + '\u2019s reference point, not a home address.';
+          note.style.display = '';
+          setPrev(null);
+          showGeo(ent.lat, ent.lon);
+          finishCard();
+        }
+
         function lookup(raw) {
           var call = String(raw || '').trim().toUpperCase();
+          // Portable/visiting suffixes (JA1NUT/P, DL/K4LFC): look up the
+          // home call \u2014 the part that carries the record.
+          var parts = call.split('/');
+          if (parts.length === 2) {
+            if (/^(P|M|MM|AM|QRP|LH)$/.test(parts[1])) call = parts[0];
+            else if (/^[A-Z0-9]{1,3}$/.test(parts[0])) call = parts[1];
+          }
           input.value = call;
-          if (!/^[A-Z]{1,2}[0-9][A-Z]{1,3}$/.test(call)) {
-            showMessage('<strong>That doesn&rsquo;t look like a US callsign.</strong> Callsigns run one or two letters, a digit, then one to three letters &mdash; like W1AW or K4LFC. Check it and try again.');
+          if (!/^[A-Z]{1,3}[0-9][A-Z0-9]{1,4}$/.test(call) || call.length < 3) {
+            showMessage('<strong>That doesn&rsquo;t look like an amateur callsign.</strong> Callsigns run letters, a digit, then more letters &mdash; like W1AW, VE3NE or JA1NUT. Check it and try again.');
             input.focus();
             return;
           }
@@ -396,20 +536,18 @@
           btn.textContent = 'Looking up\u2026';
           wrap.classList.remove('show');
           showMessage('Looking up <strong>' + esc(call) + '</strong>&hellip;');
-          fetch('https://callook.info/' + encodeURIComponent(call) + '/json')
-            .then(function (r) {
-              if (!r.ok) throw new Error('bad response');
-              return r.json();
-            })
-            .then(function (d) {
-              if (!d || d.status !== 'VALID') {
-                showMessage('<strong>No FCC license found for ' + esc(call) + '.</strong> Check the callsign and try again &mdash; a brand-new grant can take a few days to appear in the public records.');
-                return;
-              }
-              renderResult(call, d);
+          var usShape = /^[A-Z]{1,2}[0-9][A-Z]{1,3}$/.test(call);
+          var pCallook = usShape ? fetchJson('https://callook.info/' + encodeURIComponent(call) + '/json') : Promise.resolve(null);
+          Promise.all([pCallook, hamdbRecord(call), dxccInfo(call)])
+            .then(function (res) {
+              var d = res[0], rec = res[1], dx = res[2];
+              if (d && d.status === 'VALID') { renderResult(call, d); return; }
+              if (rec) { renderHamDB(call, rec); return; }
+              if (dx) { renderEntity(call, dx); return; }
+              showMessage('<strong>No record found for ' + esc(call) + '.</strong> We checked the FCC record, the HamDB callbook (US, Canada, Australia, Germany, Czech Republic) and the DXCC tables. Check the callsign and try again &mdash; a brand-new grant can take a few days to appear in the public records.');
             })
             .catch(function () {
-              showMessage('<strong>The lookup service isn&rsquo;t answering right now</strong> &mdash; give it a minute and try again.');
+              showMessage('<strong>The lookup services aren&rsquo;t answering right now</strong> &mdash; give it a minute and try again.');
             })
             .finally(function () {
               btn.disabled = false;
@@ -424,6 +562,41 @@
         document.getElementById('tryExample').addEventListener('click', function () {
           lookup('K4LFC');
         });
+
+        // ----- Your-station (beam-heading origin) wiring -----
+        var homeInput = document.getElementById('homeInput');
+        var homeStatus = document.getElementById('homeStatus');
+        function paintOrigin() {
+          homeStatus.textContent = ORIGIN.home
+            ? 'Beam headings from: Burlington, NC (our home QTH)'
+            : 'Beam headings from: ' + ORIGIN.label + ' \u2014 set on this device only';
+        }
+        function setOrigin(label, lat, lon) {
+          ORIGIN = { label: label, lat: lat, lon: lon, home: false };
+          try { window.localStorage.setItem('hrbOrigin', JSON.stringify({ label: label, lat: lat, lon: lon })); } catch (e) {}
+          paintOrigin();
+        }
+        document.getElementById('homeBtn').addEventListener('click', function () {
+          var v = homeInput.value.trim().toUpperCase();
+          if (!v) return;
+          var g = gridToLatLon(v);
+          if (g) { setOrigin('grid ' + v, g.lat, g.lon); homeInput.value = ''; return; }
+          var base = v.split('/')[0];
+          homeStatus.textContent = 'Finding ' + esc(base) + '\u2026';
+          hamdbRecord(base).then(function (rec) {
+            if (rec && isFinite(parseFloat(rec.lat))) {
+              var where = [rec.addr2, rec.country].filter(Boolean).join(', ');
+              setOrigin(base + (where ? ' \u00b7 ' + where : ''), parseFloat(rec.lat), parseFloat(rec.lon));
+              homeInput.value = '';
+              return;
+            }
+            dxccInfo(base).then(function (dx) {
+              if (dx && dx.entity) { setOrigin(base + ' \u00b7 ' + dx.entity.name + ' (country reference point)', dx.entity.lat, dx.entity.lon); homeInput.value = ''; }
+              else { homeStatus.textContent = 'Couldn\u2019t place \u201c' + v + '\u201d \u2014 enter a grid square (like EM95) or a callsign we can look up.'; }
+            });
+          });
+        });
+        paintOrigin();
 
         var param = new URLSearchParams(window.location.search).get('call');
         if (param) lookup(param);

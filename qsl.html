@@ -508,6 +508,14 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
     date: todayISO(), time:'', band:'20m', freq:'', mode:'SSB', rstSent:'59', rstRcvd:'57',
     note:'Great signal into North Carolina!', layout:'classic'
   };
+  function latLonToGrid(lat, lon){
+    var la = Math.max(-89.99, Math.min(89.99, +lat)), lo = Math.max(-179.99, Math.min(179.99, +lon));
+    var aLo = Math.floor((lo + 180) / 20), aLa = Math.floor((la + 90) / 10);
+    var bLo = Math.floor(((lo + 180) % 20) / 2), bLa = Math.floor((la + 90) % 10);
+    var cLo = Math.floor((((lo + 180) % 2) / 2) * 24), cLa = Math.floor(((la + 90) % 1) * 24);
+    return String.fromCharCode(65 + aLo) + String.fromCharCode(65 + aLa) + bLo + bLa +
+           String.fromCharCode(97 + cLo) + String.fromCharCode(97 + cLa);
+  }
   var cache = {};
   var receiveMode = false;
   var timeTouched = false;
@@ -644,7 +652,7 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
   function renderPreview(){ $('previewWrap').innerHTML = cardHTML(); fitCard($('previewWrap').querySelector('.qsl')); }
 
   // ---------- Auto-fill ----------
-  var validShape = /^[A-Z]{1,2}[0-9][A-Z]{1,3}$/;
+  var validShape = /^[A-Z]{1,3}[0-9][A-Z0-9]{1,4}$/;
   // Auto-stamp: the page sits open during a live QSO, so when a valid TO
   // callsign is entered (the moment the lookup fires), fill an empty,
   // untouched UTC time field with the current UTC time. Never overwrite
@@ -664,9 +672,20 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
     var el = $(which==='from'?'fromInfo':'toInfo');
     el.innerHTML = html||''; el.className = 'confirm'+(warn?' warn':'');
   }
+  function fetchJsonQ(url){
+    return fetch(url).then(function(r){ if(!r.ok) throw new Error('bad'); return r.json(); }).catch(function(){ return null; });
+  }
+  function baseCall(call){
+    var parts = String(call||'').split('/');
+    if(parts.length === 2){
+      if(/^(P|M|MM|AM|QRP|LH)$/.test(parts[1])) return parts[0];
+      if(/^[A-Z0-9]{1,3}$/.test(parts[0])) return parts[1];
+    }
+    return call;
+  }
   function lookup(call, which){
-    call = (call||'').trim().toUpperCase();
-    if(!validShape.test(call)){ 
+    call = baseCall((call||'').trim().toUpperCase());
+    if(!validShape.test(call) || call.length < 3){
       if(which==='from'){ state.fromName=''; state.fromLoc=''; state.fromGrid=''; state.fromAddr=''; }
       else { state.toName=''; state.toLoc=''; state.toGrid=''; state.toAddr=''; }
       setInfo(which,'',false); renderPreview(); return;
@@ -676,18 +695,31 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
       applyResult(which, call, cache[call]); return;
     }
     setInfo(which,'Looking up '+esc(call)+'…', true);
-    fetch('https://callook.info/'+encodeURIComponent(call)+'/json')
-      .then(function(r){ return r.json(); })
-      .then(function(data){ cache[call]=data; applyResult(which, call, data); })
-      .catch(function(){
-        setInfo(which, "Couldn't pull the FCC record — the card still works", true);
-      });
+    var usShape = /^[A-Z]{1,2}[0-9][A-Z]{1,3}$/.test(call);
+    var pCallook = usShape ? fetchJsonQ('https://callook.info/'+encodeURIComponent(call)+'/json') : Promise.resolve(null);
+    Promise.all([pCallook,
+      fetchJsonQ('https://api.hamdb.org/v1/'+encodeURIComponent(call)+'/json/hamradiobargains'),
+      fetchJsonQ('https://www.hamqth.com/api/v2/dxcc?callsign='+encodeURIComponent(call))
+    ]).then(function(res){
+      var norm = null;
+      var d = res[0];
+      if(d && d.status === 'VALID') norm = normCallook(d);
+      if(!norm){
+        var rec = res[1] && res[1].hamdb && res[1].hamdb.callsign;
+        if(rec && res[1].hamdb.messages && res[1].hamdb.messages.status === 'OK') norm = normHamDB(rec);
+      }
+      if(!norm && res[2] && res[2].entity) norm = normDXCC(res[2].entity);
+      if(!norm){
+        setInfo(which, "Couldn't pull a record — the card still works", true);
+        return;
+      }
+      cache[call] = norm;
+      applyResult(which, call, norm);
+    }).catch(function(){
+      setInfo(which, "Couldn't pull a record — the card still works", true);
+    });
   }
-  function applyResult(which, call, data){
-    if(!data || data.status!=='VALID'){
-      setInfo(which, "Couldn't pull the FCC record — the card still works", true);
-      return;
-    }
+  function normCallook(data){
     var name = titleCase(data.name||'');
     var loc = '';
     try{ loc = parseLoc(data.address && data.address.line2 ? data.address.line2 : ''); }catch(e){}
@@ -706,10 +738,47 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
       }
       addr = [line1, addr2].filter(Boolean).join('\n');
     }catch(e){}
-    if(which==='from'){ state.fromName=name; state.fromLoc=loc; state.fromGrid=grid; state.fromAddr=addr; }
-    else { state.toName=name; state.toLoc=loc; state.toGrid=grid; state.toAddr=addr; }
-    var line = [name, loc].filter(Boolean).join(' — ');
-    if(grid) line += (line?' · ':'') + grid;
+    return { name: name, loc: loc, grid: grid, addr: addr, note: '' };
+  }
+  function normHamDB(rec){
+    var name = titleCase(rec.name||'');
+    var city = titleCase(rec.addr2||'');
+    var loc = [city, rec.country].filter(Boolean).join(', ');
+    var grid = (rec.grid && rec.grid !== 'NOT_FOUND') ? rec.grid : latLonToGrid(rec.lat, rec.lon);
+    var line2 = [city, rec.state, rec.zip].filter(Boolean).join(' ').trim();
+    if(rec.country) line2 = line2 ? line2 + ', ' + rec.country : rec.country;
+    var addr = [titleCase(rec.addr1||''), line2].filter(Boolean).join('\n');
+    return { name: name, loc: loc, grid: grid, addr: addr, note: '' };
+  }
+  function normDXCC(ent){
+    // Country-level only: no operator name or address exists in any free
+    // public register, so the card keeps the hand-entered name and gets
+    // the country + the entity's reference grid.
+    return { name: '', loc: ent.name || '', grid: latLonToGrid(ent.lat, ent.lon), addr: '', note: 'country reference only — no public register record for this call' };
+  }
+  function applyResult(which, call, norm){
+    if(!norm){
+      setInfo(which, "Couldn't pull a record — the card still works", true);
+      return;
+    }
+    // Full records (FCC/HamDB) fill every field, exactly as before.
+    // A DXCC country-level result fills only what it honestly knows and
+    // leaves the operator's hand-entered name and address alone.
+    var partial = !!norm.note;
+    if(which==='from'){
+      if(!partial || norm.name) state.fromName=norm.name;
+      if(!partial || norm.loc) state.fromLoc=norm.loc;
+      if(!partial || norm.grid) state.fromGrid=norm.grid;
+      if(!partial || norm.addr) state.fromAddr=norm.addr;
+    } else {
+      if(!partial || norm.name) state.toName=norm.name;
+      if(!partial || norm.loc) state.toLoc=norm.loc;
+      if(!partial || norm.grid) state.toGrid=norm.grid;
+      if(!partial || norm.addr) state.toAddr=norm.addr;
+    }
+    var line = [norm.name, norm.loc].filter(Boolean).join(' — ');
+    if(norm.grid) line += (line?' · ':'') + norm.grid;
+    if(norm.note) line += (line?' · ':'') + norm.note;
     setInfo(which, esc(line||call), false);
     renderPreview();
   }
