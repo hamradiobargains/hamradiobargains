@@ -1,0 +1,15 @@
+{
+  "model": "Palstar AT4K",
+  "slug": "palstar-at4k",
+  "searched_at": "2026-11-22T05:55:39-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'palstar at4k', page 1: eBay reported 0 results for the exact query; the page showed only other Palstar models (AT2K, AT2KD, etc.), none AT4K. 0 kept comps — thin (none). Dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629724",
+    "site": "eham",
+    "ask": 675.0,
+    "shipping": 0
+  },
+  "comps": []
+}
