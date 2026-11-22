@@ -1,0 +1,25 @@
+{
+  "model": "SPE Expert 1.5K-FA",
+  "slug": "spe-expert-1-5k-fa",
+  "searched_at": "2026-11-22T18:54:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'SPE Expert 1.5K-FA' page 1: 7 sold rows; only 1 is the 1.5K-FA. Excluded as different models: 307256322821 SPE 1.3K-FA $2950 or BO (Nov 21), 168831234406 SPE 1.3K FA $1100 (Nov 4), 960063990070 SPE 1.3K-FA $2650 (Oct 20); plus unrelated piston rings/engine pump and a 2K-FA dust cover. THIN: 1 comp. Best offer accepted: 0. Parts-only: 0. Read Description: 0. searched_at is the file-build time (searches ran in the minutes before).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785333",
+    "site": "qth",
+    "ask": 6100,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 2575.0,
+      "sold_date": "2026-11-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168853202777",
+      "source": "ebay",
+      "notes": "Auction, 9 bids; shipping 129.40 shown; title lists carry case",
+      "flags": []
+    }
+  ]
+}
