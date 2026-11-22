@@ -1,0 +1,15 @@
+{
+  "model": "Heil Proset Plus",
+  "slug": "heil-proset-plus",
+  "searched_at": "2026-11-22T18:54:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Heil Proset Plus' page 1: 106 rows (mostly Heil ProSet family: ProSet 3, ProSet 6, Elite 6, ProSet 7, HC-5/HC-6 element variants, ear pads, windscreens). 0 rows titled 'ProSet Plus' as a headset (the only 'ProSet Plus' text was an ear-pad accessory 254787976056 $14.00 and unrelated trading cards), so 0 comps. Other ProSet models kept separate and not used. 0 comps: not comped. searched_at is the file-build time (searches ran in the minutes before).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785337",
+    "site": "qth",
+    "ask": 65,
+    "shipping": 0
+  },
+  "comps": []
+}
