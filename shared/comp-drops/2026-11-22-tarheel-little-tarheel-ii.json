@@ -1,0 +1,27 @@
+{
+  "model": "Tarheel Little Tarheel II",
+  "slug": "tarheel-little-tarheel-ii",
+  "searched_at": "2026-11-22T18:54:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Little Tarheel II' page 1: 7 rows, 1 is a Little Tarheel II. THIN: 1 comp (Sep 22). Excluded: Tarheel Little PRO / Little PRO-HP (different models, $599 new), cradle mount, and unrelated records/T-shirt. Best offer accepted: 0. Parts-only: 0. Read Description: 0. searched_at is the file-build time (searches ran in the minutes before).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785350",
+    "site": "qth",
+    "ask": 500,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 400.0,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206572852091",
+      "source": "ebay",
+      "notes": "Fixed price; shipping 51.43; title: HF mobile antenna + install kit, 'excell...' (title truncated)",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
