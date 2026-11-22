@@ -1,0 +1,97 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-22",
+  "ran_at": "2026-11-22T05:55:39-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-21T05:52:52-05:00 (prior eham run). Browsed signed OUT ('Login/Register' / 'Welcome Guest' shown). First classifieds load showed a brief Cloudflare redirect that cleared on its own within ~10 s (no CAPTCHA, no 1015, no interaction). Read public classifieds pages 1 and 2 only (two page loads); no individual ad pages, search form, sold searches, or seller/callsign pages; no ad IDs probed. Page 1 = 629720-629730 (629726 not on the public page; not opened). Page 2 = 629710-629719. Ads 629687-629709 (if public) would be on pages 3+, not scanned per the no-deep-pagination rule - coverage gap for this window. Skipped as non-candidates: 629727 Uniden SDS200 scanner, 629725 Alpha transformer (amp part), 629723 KXV3B option board, 629719/629718/629717/629716 make-offer ads with no asking price, 629715 Bendix King programming adapter (commercial), 629714 WANTED, 629713 SW portable, 629712/629711 computer RAM. Comps (6 candidate cap): ledger hits for Elecraft K3/100, Elecraft P3, AnyTone AT-778UV; eBay sold searches for FlexRadio FLEX-6600M, Palstar AT4K (0 exact sold results), Elecraft K3/0 Mini. 629721 AX3 and 629720 Brick2 not comped (cap). No eBay challenge; eBay signed in as Leo.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629730",
+      "site": "eham",
+      "title": "Elecraft P3 Panadapter # 2175",
+      "price": 475.0,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "Seller: 'Works great w/ cables'; $475 delivered. Non-SVGA P3 (seller says the VGA version is a separate listing). Posted 2026-11-21.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629729",
+      "site": "eham",
+      "title": "Elecraft K3/100 TRANSCEIVER # 755",
+      "price": 899.0,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "100W K3 with KPA3, 2.7 kHz SSB filter, KIO3, firmware 5.67, power cord, manual; seller 'Used it today on CW and SSB'; $899 delivered. Posted 2026-11-21.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629728",
+      "site": "eham",
+      "title": "Elecraft K3/0 Mini Remote Head # 133",
+      "price": 825.0,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "Seller: 'Looks Great and works like new'; $825 delivered. Posted 2026-11-21.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629724",
+      "site": "eham",
+      "title": "PALSTAR AT4K ANTENNA TUNER",
+      "price": 675.0,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "Seller: 'AS NEW', 'NO BOX'; $675 OBO + shipping (shipping not stated; seller mentions UPS ground cost $107 for a similar box). Posted 2026-11-21.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629722",
+      "site": "eham",
+      "title": "Flex 6600M with ATU and Cover",
+      "price": 2850.0,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "Seller: 'immaculate condition', 'Fully tested', full power all bands; includes ATU, cover, mic, power and Ethernet cables, original packaging; $2850 shipped and insured CONUS. Posted 2026-11-21.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629721",
+      "site": "eham",
+      "title": "Elecraft AX3 Antenna with 40M Coil",
+      "price": 325.0,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "Includes optional 40m coil, radial wire, 5 ft BNC jumper; seller 'looks like new and works as it should'; $325 shipped lower 48 (+3.5% if PayPal G&S). Posted 2026-11-21. Not comped this run (candidate cap).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629720",
+      "site": "eham",
+      "title": "BRICK2 SDR 14-bit sdr transceive",
+      "price": 450.0,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "Brick2 SDR, 14-bit model, 'excellent physical condition and works perfectly', DC cable included, 15-20 W typical; $450 firm shipped CONUS. Posted 2026-11-21. Not comped this run (candidate cap).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629710",
+      "site": "eham",
+      "title": "AnyTone AT-778UV Dualband Mobile Transceiver",
+      "price": 110.0,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "Seller: 'Like new in retail box', 'Used very little', includes programming cable; $110 shipped. Posted 2026-11-20 (listed publicly after the prior run).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
