@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-22",
+  "ran_at": "2026-11-22T18:00:00-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670) browse page, Buy It Now filter, sorted Time: newly listed, page 1 only; signed in as Leo, no challenges. Window since previous ebay run 2026-11-21T18:00:12-05:00 (browse cards show no listing times; every picked item page says 'Just listed. This item was listed in the last 3 days.'; none in dropped-urls). Seller rule: 11 checked, 8 passed, 3 skipped — Icom IC-730 $415 (itm 287750238223, seller ju-273623 shows no feedback score), Icom IC-2350H $279 (itm 880144353741, seller muso_34 shows no feedback score), Kenwood TH-D75A $599 (itm 237199702230, seller swissmr 233 score but 0 ratings in last 12 months, no positive % shown). Cap reached at 8. Not picked: auctions (Yaesu FT-60D, Xiegu GPA100, Kenwood TH-27A parts, Knight-kit T-60), parts-only/untested (AEA PK-64 untested, Ten-Tec Argonaut 509 parts, Drake TR-4 parts, Kenwood TS-940SAT parts-only $475, Yaesu FT-891 parts, FT-101E untested parts-only, IC-2200H untested as-is, Z-Match parts-only, Drake TR-4 untested $299.99), receivers/SWL (Kenwood R-2000, R-1000, Hallicrafters S-38, Sangean ATS-909X, Knight Star Roamer, WW2 ARC adapter), accessories/software/parts (RT Systems kits, cases, pots, filters, noise blanker, Ten-Tec mic, FT-891 control head, MFJ-4916S duplexer, BK-63 bracket, cable, cage, Bencher paddle, Knight calibrator), unbranded (vintage RF amp $279, UR6QW EQ, transverter module, '80-10 meter mobile antenna'), hotspot (VETSPOT), commercial (Motorola MT500). Also seen but over cap: Alpha 8406 6m amp open box $3,499.95, SGC SG-237 tuner $850, Yaesu FT-8500 + Astron RS-12A bundle $240, ICOM IC-3SAT $129.99, WiMo PicoAPRS V4 $300, NIB SSB Electronic ACS-2004U switch $650.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/880144545571",
+      "site": "ebay",
+      "title": "Yaesu FT-710 HF/50MHz Ham Radio Transceiver 100W LCD w/ Mic Manual",
+      "price": 875.0,
+      "shipping": 51.49,
+      "found_at": "2026-11-22",
+      "condition_notes": "eBay condition Used; or Best Offer; title: w/ mic, manual; item specifics Model Yaesu FT-710, year 2023 — listing does not say AESS or Field; 14-day returns, buyer pays return shipping; ships from Scottsdale AZ.",
+      "work_flag": "",
+      "seller_feedback": "100% (158 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/377668465852",
+      "site": "ebay",
+      "title": "Icom IC-7700 HF+50MHz Ham Radio Transceiver Brand New Open Box",
+      "price": 3199.95,
+      "shipping": 119.95,
+      "found_at": "2026-11-22",
+      "condition_notes": "eBay condition Open box; title says Brand New Open Box; or Best Offer; 30-day returns, buyer pays return shipping; ships from Huntington Beach CA.",
+      "work_flag": "",
+      "seller_feedback": "99.8% (39806 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/327470782261",
+      "site": "ebay",
+      "title": "AEA Pakratt PK-232MBX Multi-Mode Data Controller Universal Ham Radio Powers On",
+      "price": 59.0,
+      "shipping": 9.06,
+      "found_at": "2026-11-22",
+      "condition_notes": "eBay condition Used; title says only 'Powers On'; no returns; ships from Ocoee FL.",
+      "work_flag": "powers on (title says only \"Powers On\"); no returns on a used unit",
+      "seller_feedback": "100% (2841 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/920172491704",
+      "site": "ebay",
+      "title": "Kenwood TS-590S HF/50MHz Ham Radio Transceiver 100W",
+      "price": 849.99,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "eBay condition Used; or Best Offer; free 2-4 day shipping; 14-day returns, buyer pays return shipping; ships from Lancaster PA.",
+      "work_flag": "",
+      "seller_feedback": "100% (78 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/407381885271",
+      "site": "ebay",
+      "title": "FT-991A HF/VHF/UHF All Mode Transceiver 100W with Box",
+      "price": 1049.0,
+      "shipping": 204.0,
+      "found_at": "2026-11-22",
+      "condition_notes": "eBay condition Used; seller notes: pre-owned, no obvious scratches or damage in photos, light signs of use, 'Not tested by us'; includes box, MH-31 mic, DC cable, Japanese printed manual; ships from Hokkaido, Japan (SpeedPAK); 60-day returns, seller pays.",
+      "work_flag": "Not tested by us",
+      "seller_feedback": "100% (208 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/287750116649",
+      "site": "ebay",
+      "title": "Icom IC-2730 Dual Band VHF/UHF Ham Transceiver w/ HM-207 Mic, LCD",
+      "price": 250.0,
+      "shipping": 8.42,
+      "found_at": "2026-11-22",
+      "condition_notes": "eBay condition Used; or Best Offer; w/ HM-207 mic; item specifics Model Icom IC-2730 (no A suffix stated); no returns; ships from Tampa FL.",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "100% (188 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/820385160443",
+      "site": "ebay",
+      "title": "Tokyo Hy-Power HL-1.5KFX 1kW HF Linear Amplifier",
+      "price": 2261.0,
+      "shipping": 548.0,
+      "found_at": "2026-11-22",
+      "condition_notes": "eBay condition Used; seller notes only 'Please check the photos.'; or Best Offer; item specifics conflict (Model 'HL-1.5HFX...', MPN HL1KFX); no returns; ships from Kanagawa, Japan (SpeedPAK).",
+      "work_flag": "no returns on a used amplifier; seller notes only \"Please check the photos.\"",
+      "seller_feedback": "98.7% (1066 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/800953264837",
+      "site": "ebay",
+      "title": "Yaesu FT-60R Dual Band VHF/UHF HT w/ Charger Box Manual + SMA-24 Antenna",
+      "price": 140.0,
+      "shipping": 6.98,
+      "found_at": "2026-11-22",
+      "condition_notes": "eBay condition Used; seller notes: pre-owned, comes with box, manual, charging cradle, AC adapter, stock antenna and SMA-24 dual-band antenna; or Best Offer; no returns; ships from Springville AL.",
+      "work_flag": "no returns on a used radio",
+      "seller_feedback": "100% (207 ratings)"
+    }
+  ]
+}
