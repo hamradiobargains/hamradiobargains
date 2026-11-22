@@ -1,0 +1,113 @@
+{
+  "model": "Icom IC-735",
+  "slug": "icom-ic-735",
+  "searched_at": "2026-11-22T18:54:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Icom IC-735' page 1 (34 title matches). 9 kept. Best offer accepted dropped: 2 (206692321694 $379.99 Nov 18; 366667010077 $375.00 Sep 13). Parts-only / for repair / untested / stuck-TX sales dropped (item: price): 800943045332 $310.00; 840129219605 $275.00; 257848298068 $349.40 (also BOA); 147605950084 $247.45 (also BOA); 336840048507 $175.00 (untested, also BOA); 137821090360 $250.00 (stuck in transmit); 278434335872 $148.00; 168761356915 $44.99; 206570361519 $300.00 (also BOA); 137742365805 $250.00 (tuning knob stuck); 137755960790 $100.00. Read Description: 0. Accessory/part-only rows (front panels, display, RF board, manual, battery, push buttons) excluded. IC-735F title on 267838988370 kept (same radio family; UNCERTAIN). Outliers: none. searched_at is the file-build time (searches ran in the minutes before).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785386",
+    "site": "qth",
+    "ask": 275,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 252.99,
+      "sold_date": "2026-11-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267838988370",
+      "source": "ebay",
+      "notes": "Auction, 15 bids; shipping 64.99; title says IC-735F with IC-HM12 mic",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 290.0,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168829454040",
+      "source": "ebay",
+      "notes": "Shipping 31.20; w/ hand mic",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 285.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298732752423",
+      "source": "ebay",
+      "notes": "Shipping 14.50; title says Tested Working",
+      "flags": []
+    },
+    {
+      "price": 267.0,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336792240409",
+      "source": "ebay",
+      "notes": "Shipping 95.50; working, with microphone and DC power cord",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 301.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257757701974",
+      "source": "ebay",
+      "notes": "Auction, 13 bids; shipping 114.30; with IC-55 power supply and SM-8 mic",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 285.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117412934504",
+      "source": "ebay",
+      "notes": "Shipping 23.40; original box, HM-12 mic",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 315.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128072878078",
+      "source": "ebay",
+      "notes": "Shipping 23.40; original box, HM-12 mic",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 375.29,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168642936646",
+      "source": "ebay",
+      "notes": "Shipping 126.72; title says WIDE-BANDED (transmit-modification wording)",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 360.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287605980349",
+      "source": "ebay",
+      "notes": "Shipping 25.12; title says Gen'l Cover (general-coverage wording, UNCERTAIN whether transmit mod)",
+      "flags": [
+        "modified"
+      ]
+    }
+  ]
+}
