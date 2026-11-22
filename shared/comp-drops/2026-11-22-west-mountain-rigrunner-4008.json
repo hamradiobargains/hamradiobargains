@@ -1,0 +1,52 @@
+{
+  "model": "West Mountain RIGrunner 4008",
+  "slug": "west-mountain-rigrunner-4008",
+  "searched_at": "2026-11-22T18:54:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'RIGrunner 4008' page 1 (27 RIGrunner rows). 4 kept, median 79.98, solid; one outlier (105.99). Best offer accepted dropped: 2 (287714792698 $35.00 Nov 8 w/ OV/UV protection; 377571045487 $80.00 Oct 22). 4008H kept separate and not used (298722444691 $70.00 Nov 13 or BO; 800535879876 $60.00 Sep 14 BOA). Two rows titled 'RIGrunner 4008 4008H' were left out as UNCERTAIN identity: 168779413756 $74.99 Oct 30 (sh 12.99) and 366757784785 $69.99 Oct 24 Open Box (free ship); including them would not move the median much. Other models excluded: 4004U, 4005, 4007U, 4012. Parts-only: 0. Read Description: 0. searched_at is the file-build time (searches ran in the minutes before).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785357",
+    "site": "qth",
+    "ask": 65,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 69.95,
+      "sold_date": "2026-11-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820344638516",
+      "source": "ebay",
+      "notes": "Fixed price; shipping 11.15",
+      "flags": []
+    },
+    {
+      "price": 63.27,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227591263739",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not marked accepted); shipping 7.47",
+      "flags": []
+    },
+    {
+      "price": 90.0,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168606498708",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not marked accepted); shipping 13.50; 40 amp panel",
+      "flags": []
+    },
+    {
+      "price": 105.99,
+      "sold_date": "2026-10-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960028042581",
+      "source": "ebay",
+      "notes": "OUTLIER: >1.5x median of the other kept comps (69.95); free shipping",
+      "flags": []
+    }
+  ]
+}
