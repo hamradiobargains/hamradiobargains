@@ -1,0 +1,34 @@
+{
+  "model": "Radioddity HF-010",
+  "slug": "radioddity-hf-010",
+  "searched_at": "2026-11-22T18:54:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Radioddity HF-010' page 1 (13 Radioddity/HF-010 rows). 2 kept: THIN. Best offer accepted dropped: 1 (117367317679 $229.99 Open Box, Aug 25; also 800578942733 QT80, 327312045332 HF-008 BOA were other models). Excluded other models: HF-009, HF-008, GS-10B, QT80, ATU-100, CBL-561 and the HF-010A adapter. Parts-only: 0. Read Description: 0. Outliers: none. searched_at is the file-build time (searches ran in the minutes before).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785363",
+    "site": "qth",
+    "ask": 210,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 298.0,
+      "sold_date": "2026-10-25",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/198266652771",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not marked accepted); free shipping",
+      "flags": []
+    },
+    {
+      "price": 237.0,
+      "sold_date": "2026-11-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198801353544",
+      "source": "ebay",
+      "notes": "Fixed price; shipping 9.95; title 'HF-010 Portable HF Antenna 10-Band 80m-6m' (no Radioddity brand in title shown)",
+      "flags": []
+    }
+  ]
+}
