@@ -1,0 +1,34 @@
+{
+  "model": "Kenwood KMC-22",
+  "slug": "kenwood-kmc-22",
+  "searched_at": "2026-11-21T18:47:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Kenwood KMC-22' (sold+completed, newest first, page 1 only, signed in as Leo, no challenge). 2 comps kept, median 28.00; THIN (<3). Best-offer-accepted sales dropped: 1 (257758904779 $22.00). Parts-only/for-parts/as-is sales dropped: 0. 'Read Description' sales dropped: 0. Excluded as other model/accessory/bundle: 267453291134 LOT OF 2 Kenwood mobile palm mics \"believed to be a KMC\" $24.99 (lot, identity uncertain, excluded). Sold price as shown (no shipping); listing ask and shipping recorded separately in trigger_listing. searched_at is approximate (file-build time).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785305",
+    "site": "qth",
+    "ask": 25,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 33.99,
+      "sold_date": "2026-10-28",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/128140983564",
+      "source": "ebay",
+      "notes": "Kenwood KMC-22 Two Way Radio Microphone 8 Pin UHF VHF | or Best Offer (not marked accepted); shown shipping $6.00",
+      "flags": []
+    },
+    {
+      "price": 22.0,
+      "sold_date": "2026-09-29",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/198542320963",
+      "source": "ebay",
+      "notes": "KMC-22 Kenwood Microphone for Mobile Radio 6 pin plug, new | shown shipping $6.97",
+      "flags": []
+    }
+  ]
+}
