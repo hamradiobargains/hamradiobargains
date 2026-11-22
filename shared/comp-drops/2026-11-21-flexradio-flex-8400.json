@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-8400",
+  "slug": "flexradio-flex-8400",
+  "searched_at": "2026-11-21T18:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'FlexRadio FLEX-8400' (sold+completed, newest first, page 1 only, signed in as Leo, no challenge). No usable sales on page 1 (eBay reported 'No exact matches found'; 'results matching fewer words' ignored). Best-offer-accepted sales dropped: 0. Parts-only/for-parts/as-is sales dropped: 0. 'Read Description' sales dropped: 0. Sold price as shown (no shipping); listing ask and shipping recorded separately in trigger_listing. searched_at is approximate (file-build time). Only one query used (no second 'Flex 8400' spelling); older ledger entry FLEXRADIO FLEX-8400 count 2 dated 2026-09-07 is outside the 30-day ledger window.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785336",
+    "site": "qth",
+    "ask": 1950,
+    "shipping": 0
+  },
+  "comps": []
+}
