@@ -1,0 +1,15 @@
+{
+  "model": "MFJ-939Y",
+  "slug": "mfj-939y",
+  "searched_at": "2026-11-22T18:54:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'MFJ-939Y' page 1: 14 MFJ-939-family rows, 0 titled 939Y (the 939 family is radio-specific: 939K Kenwood, 939I Icom, 939Y Yaesu), so 0 exact comps. Kept separate and not used: MFJ-939K 880025807810 $100.00 (BOA) and 227549780877 $77.00; MFJ-939I 257850988975 $175.00 (Nov 18, sh free), 880019559348 $180.00 or BO; unspecified-variant MFJ-939 rows 398392943351 $144.99 or BO, 237145948097 $149.99 (939/939K), 137854593482 $120.00 (BOA), 287714957019 $213.50 (Nov 15, 36 bids, variant not shown in title, UNCERTAIN); radio+tuner bundles (FT-891 128196598780, IC-7000 287629750973) and 5114 interface cables excluded. 0 comps: not comped; the 939I/939K figures are listed only so Archie can see the family range, not as comps. searched_at is the file-build time (searches ran in the minutes before).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785356",
+    "site": "qth",
+    "ask": 150,
+    "shipping": 0
+  },
+  "comps": []
+}
