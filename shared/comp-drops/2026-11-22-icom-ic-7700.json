@@ -1,0 +1,34 @@
+{
+  "model": "Icom IC-7700",
+  "slug": "icom-ic-7700",
+  "searched_at": "2026-11-22T18:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "ledger miss (no IC-7700 entry). eBay sold page 1: only 2 qualifying unit sales — thin. dropped 0 best-offer-accepted, 0 parts-only. Left out accessories, cables, manual, brochure, catalog. No outliers (too few comps to test).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/377668465852",
+    "site": "ebay",
+    "ask": 3199.95,
+    "shipping": 119.95
+  },
+  "comps": [
+    {
+      "price": 2849.9,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137552742785",
+      "source": "ebay",
+      "notes": "Buy It Now; title: 200W / Original Box; ships from Japan; +$300.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 2650.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257689050853",
+      "source": "ebay",
+      "notes": "auction, 9 bids; title: Great Condition, works on all bands and modes; freight shipping",
+      "flags": []
+    }
+  ]
+}
