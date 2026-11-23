@@ -1,0 +1,123 @@
+{
+  "model": "Yaesu FTM-400XDR",
+  "slug": "yaesu-ftm-400xdr",
+  "searched_at": "2026-11-23T18:00:55-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss: 'YAESU FTM-400XDR' latest date 2026-10-22 is older than 30 days. eBay sold search 'yaesu ftm-400xdr' page 1. Dropped 4 best-offer-accepted (itm 117516327790, 900057380309, 840105282278, 287681286804). Dropped 0 parts-only. Left out as other variants: 4 sales titled 'FTM-400XDR/DE' (European designation; itm 366827527005 $445 2026-11-21, 158331339651 $406, 377501076090 $469.99, 287576574344 $430.93 — plus a 5th, 287578633506, that was best-offer-accepted) and 1 FTM-400XDH (best offer accepted). Left out a MARS-mod kit and a radio box. 11 kept — solid set. No outliers (low $249.99 vs ~$420 median of rest is above half).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/800957085677",
+    "site": "ebay",
+    "ask": 449.0,
+    "shipping": 15.65
+  },
+  "comps": [
+    {
+      "price": 340.0,
+      "sold_date": "2026-11-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198786140048",
+      "source": "ebay",
+      "notes": "title says '(please read)' — description not read; Buy It Now; +$39.01 shipping",
+      "flags": []
+    },
+    {
+      "price": 399.0,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128151241043",
+      "source": "ebay",
+      "notes": "'USA version'; or Best Offer (not accepted); +$12.28 shipping",
+      "flags": []
+    },
+    {
+      "price": 350.99,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117468301469",
+      "source": "ebay",
+      "notes": "auction, 33 bids; +$25.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 420.0,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327413370835",
+      "source": "ebay",
+      "notes": "'(USA )'; or Best Offer (not accepted); +$32.00 shipping; identical title to itm 257777100214",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 420.0,
+      "sold_date": "2026-10-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/206629562059",
+      "source": "ebay",
+      "notes": "eBay label Brand New but title says '(excellent)'; Buy It Now; +$42.15 shipping",
+      "flags": []
+    },
+    {
+      "price": 249.99,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137815645286",
+      "source": "ebay",
+      "notes": "Buy It Now; +$19.80 shipping; low price, title shows nothing unusual",
+      "flags": []
+    },
+    {
+      "price": 460.0,
+      "sold_date": "2026-10-12",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/198701599671",
+      "source": "ebay",
+      "notes": "title '(new)'; Buy It Now; +$42.15 shipping; identical title to itm 178506175246",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257777100214",
+      "source": "ebay",
+      "notes": "'(USA )'; or Best Offer (not accepted); +$17.15 shipping; identical title to itm 327413370835",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-09-30",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/178506175246",
+      "source": "ebay",
+      "notes": "title '(new)'; Buy It Now; +$42.15 shipping; identical title to itm 198701599671",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 400.0,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267787620302",
+      "source": "ebay",
+      "notes": "'Touch Screen, MH-48 Mic.'; Buy It Now; +$15.44 shipping",
+      "flags": []
+    },
+    {
+      "price": 495.0,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257737683045",
+      "source": "ebay",
+      "notes": "or Best Offer (not accepted); +$9.99 shipping",
+      "flags": []
+    }
+  ]
+}
