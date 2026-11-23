@@ -1,0 +1,15 @@
+{
+  "model": "VHQ Hexbeam",
+  "slug": "vhq-hexbeam",
+  "searched_at": "2026-11-23T05:55:47-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no entry). eBay sold page 1 for 'vhq hexbeam' had 1 exact-word result, a VHQ logo badge magnet (not the antenna) — excluded. 0 comps. dropped 0 best-offer-accepted, dropped 0 parts-only. Thin (none). Note: listing does not name the specific VHQ hexbeam model.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629734",
+    "site": "eham",
+    "ask": 975.0,
+    "shipping": 0
+  },
+  "comps": []
+}
