@@ -1,0 +1,52 @@
+{
+  "model": "Icom IC-7100",
+  "slug": "icom-ic-7100",
+  "searched_at": "2026-11-22T18:54:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Icom IC-7100' page 1 (6 rows with 7100 in title). 4 kept, median 650.00, solid and all within Nov 9-13. Excluded: remote head base mount 147660091905 $11.00 and a PSU power cord 398281157293 $14.50. Best offer accepted: 0. Parts-only: 0. Read Description: 0. Outliers: none. Ledger prior (2026-10-10, count 27, median 780.95) was stale (>30 days), so this fresh search was run. Note for the listing 1785473: ad says MARS modded (transmit modification wording); no comp carried a modification flag in its title, so these are unmodified-radio prices. searched_at is the file-build time (searches ran in the minutes before).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785473",
+    "site": "qth",
+    "ask": 675,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 620.0,
+      "sold_date": "2026-11-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/920130796809",
+      "source": "ebay",
+      "notes": "Fixed price; shipping 29.75; title 'Good Condition', with D-STAR",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-11-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287711919173",
+      "source": "ebay",
+      "notes": "Auction, 25 bids; shipping 25.00; title 'icom ic 7100 transceiver'",
+      "flags": []
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-11-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117511627318",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not marked accepted); shipping 14.51; title lists LCD, GPS",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287716267902",
+      "source": "ebay",
+      "notes": "Fixed price, or Best Offer (not marked accepted); shipping 25.12; w/ LCD screen",
+      "flags": []
+    }
+  ]
+}
