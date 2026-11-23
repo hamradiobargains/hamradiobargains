@@ -1,0 +1,240 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-22",
+  "ran_at": "2026-11-22T18:46:46-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered (ran_at after previous extras drop 2026-11-21-extras.json, ran_at 2026-11-21T18:46:59-05:00): 2026-11-22-eham.json (ran_at 2026-11-22T05:55:39-05:00; no 'Extra plausible candidates not comped' list; eHam not opened; its over-cap items 629721 AX3 and 629720 Brick2 were noted as 'not comped (cap)' but not under that heading, so not queued), 2026-11-22-qth.json (ran_at 2026-11-22T14:53:04-05:00; 24 priced QTH extras under 'Extra plausible candidates not comped'; its 5 'no price captured' IDs 1785415/1785416/1785418/1785437/1785470 not queued), 2026-11-22-ebay.json (ran_at 2026-11-22T18:00:00-05:00; no 'Extra plausible candidates not comped' heading; over-cap items it mentions were not queued). Previous CARRIED OVER (14, put at the front): 1785333, 1785366, 1785386, 1785393, 1785405, 1785350, 1785385, 1785374, 1785363, 1785356, 1785355, 1785357, 1785337, 1785338; previous BACKLOG CARRY: none. Named extra from Leo (stored task prompt): QTH 1783910 (Yaesu '991', $600 firm), treated as the ORIGINAL Yaesu FT-991 per Leo's ruling, filed under 'Yaesu FT-991' never FT-991A; already in dropped-urls.json (not re-appended); gone again; ledger hit written (yaesu-ft-991, count 4, 2026-11-11); the optional FT-991 sold search was not run because the 15-search cap was used up by live queued items and the ledger entry is fresh. Queue: 14 carry-overs + 1 named + 24 fresh QTH extras = 39. Worked 21 (live 18, gone 3). Ledger hits 4 (comps skipped): 1783910 Yaesu FT-991 (count 4, 2026-11-11), 1785420 Kenwood TS-590SG (count 7, 2026-11-15), 1785466 Elecraft P3 (count 11, 2026-11-15), 1785462 Elecraft K3/100 (count 16, 2026-11-09). eBay sold searches used 15 of 15: SPE Expert 1.5K-FA (1 kept), Palstar AT4K (0), Icom IC-735 (9), Icom IC-703 (3), Hy-Gain Ham III (0), Little Tarheel II (1), SGC 715 (0), Radioddity HF-010 (2), MFJ-939Y (0), Elecraft KXV3B (0), RIGrunner 4008 (4), Heil Proset Plus (0), Heil Pro Set HC-5 (1), Icom IC-7100 (4), Palstar LA-1K (1). Solid (3+): IC-735, IC-703, RIGrunner 4008, IC-7100; thin: SPE 1.5K-FA, Tarheel II, HF-010, HC-5, LA-1K; zero usable: AT4K, Ham III, SGC 715, MFJ-939Y, KXV3B, Proset Plus. Gone: 1783910 (named FT-991), 1785385 (Hi-Q 4/80), 1785409 (Bencher BY-1). Skipped for no price: none. Cross-posts: none seen (no serials compared; 1785462 K3/100F and 1785466 P3 are two ads by the same seller K2JSB). Outliers: RIGrunner 4008 itm 960028042581 ($105.99, >1.5x of the other kept comps). Identity cautions: IC-735F title on 267838988370 kept in IC-735 comps (UNCERTAIN); IC-735 'WIDE-BANDED' (168642936646) and 'Gen'l Cover' (287605980349) comps flagged modified (the latter UNCERTAIN); RIGrunner 4008H kept separate and two '4008 4008H' titles left out (UNCERTAIN); MFJ-939I/939K kept separate from 939Y; Ham II/Ham IV/T2X kept separate from Ham III; Little PRO/PRO-HP kept separate from Little Tarheel II; Elecraft KXV3A kept separate from KXV3B; K3/100 ledger used for the ad's K3/100F. Listing-wording flags carried verbatim: 1785473 IC-7100 'MARS modded ... sold as-is, with all sales final' (transmit-modification wording); 1785374 SGC 715 'Receive volume is lower than the other on 1 radio' (UNCERTAIN); 1785357 RIGrunner 'one connecter is bad'. 1785419 Palstar LA-1K ask changed from $2400 (drop) to $2300 (live ad). Comp drop file names: five used the HHMM form because the same-day slug already existed (icom-ic-7100, palstar-at4k, kenwood-ts-590sg, elecraft-p3, elecraft-k3-100). searched_at on all comp drops is the file-build time (18:54 EST), not the individual search time. eBay: signed in as Leo, no challenge or CAPTCHA at any point; eHam not opened; QTH ads opened one at a time. Timestamps -05:00 (EST). CARRIED OVER: 1785443, 1785445, 1785447, 1785411, 1785457, 1785455, 1785414, 1785453, 1785408, 1785417, 1785468, 1785424, 1785456, 1785474, 1785476, 1785434, 1785421, 1785464 (all QTH counter IDs; order preserved; item/ask from the 2026-11-22 QTH drop: 1785443 4O3A PGXL $6509.99, 1785445 Yaesu FL-7000 $995, 1785447 Palstar HF-Auto $1199, 1785411 LDG AT1000 Pro $375 shipped, 1785457 Yaesu FTM-200DR $350, 1785455 Hermes Lite 2 $195, 1785414 Heil PR781 $195, 1785453 Inrad desk mic $150, 1785408 Swan 240 $140, 1785417 Yaesu FT-470 $125, 1785468 Icom IC-R70 $125, 1785424 MX-P50M HF amp $120, 1785456 Kenwood SP-230 $100, 1785474 LDG RVS-8 $100, 1785476 Diamond SX-400 $90 shipped, 1785434 DX Engineering DVA vertical switch $175, 1785421 Siltronix 1011D $425, 1785464 Collins KWM-2 w/ 516F-2 $1200). BACKLOG CARRY: none.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "Yaesu \"991\" (treated as original FT-991 per Leo)",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "no longer live (QTH: 'The ad number you specified, 1783910, is no longer in our system.'). Ad text last recorded: '$600 firm'. Treated as the ORIGINAL Yaesu FT-991 per Leo's ruling (never FT-991A). comps: ledger hit, yaesu-ft-991 ledger median 748.33 / count 4 / 2026-11-11.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785333",
+      "site": "qth",
+      "title": "SPE Expert 1.5K-FA Taurus HF 160-6M amplifier",
+      "price": 6100,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. Seller wording: 'Mint 3 Mo. old SPE 1.5KFA TAURUS model HF amplifier bought from MTCRadio. ... asking $6100 shipped Lower 48. Pay Pal ok.' comps: spe-expert-1-5k-fa, 1 kept (thin), median 2575.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785366",
+      "site": "qth",
+      "title": "Palstar AT4K antenna tuner",
+      "price": 675,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. Seller wording: '2500 Watts single tone continuous 160m to 10m ... NO BOX $675 OBO + SHIPPING DUE TO ITS SIZE, SHIPPING WILL PROBABLY BE IN THE $100+ RANGE ... PICK UP IN TAMPA I'M WILLING TO MEET 1/2 WAY, UP TO 50 MILES'. Shipping recorded as 0 because the ad gives only an estimate (~$100+). comps: palstar-at4k, 0 kept (no AT4K sold on page 1).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785386",
+      "site": "qth",
+      "title": "Icom IC-735 HF transceiver",
+      "price": 275,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. Seller wording: 'Selling my IC-735 transceiver in good condition for $275 shipped with dc power cord and SM-5 desk mic. Without mic for $250 shipped. I accept PayPal or USPS money orders.' comps: icom-ic-735, 9 kept, median 290.00.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785393",
+      "site": "qth",
+      "title": "Icom IC-703 HF 160-6m transceiver",
+      "price": 300,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. Seller wording: 'Excellent, one owner, working and cosmetic condition ... Upgraded with W4RT Electronics OBF-703 famous Collins Mechanical filters ($279), 500 Hz CW filter and 2300 Hz SSB filter. Comes in original box, manual, power cord and HM 103 hand microphone. $300 + actual shipping and insurance.' Shipping recorded as 0 (actual cost not stated). comps: icom-ic-703, 3 kept, median 435.00.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785405",
+      "site": "qth",
+      "title": "Hy-Gain/CDE Ham III rebuilt rotor",
+      "price": 325,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. Seller wording: 'just rebuilt. New bearing installed. Excellent condition inside and out. New stainless steel nuts, bolts, washers hardware. New mast mount plate & SS u-bolts ... Rotor operates very smooth, bright meter light ... $325 + shipping.' Shipping recorded as 0 (not stated). comps: hy-gain-cde-ham-iii, 0 kept (only Ham-III controller boxes sold on page 1).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785350",
+      "site": "qth",
+      "title": "Little Tarheel II screwdriver antenna",
+      "price": 500,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. Seller wording: 'ANTENNA AND ALL ORIGINAL CONPONETS PLUS PROGRAMMABLE CNTROLER $500.00'. No condition statement. comps: tarheel-little-tarheel-ii, 1 kept (thin), median 400.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785385",
+      "site": "qth",
+      "title": "Hi-Q 4/80 screwdriver antenna",
+      "price": 550,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "no longer live (QTH: 'The ad number you specified, 1785385, is no longer in our system.'). Last recorded: $550 shipped, stress cracks in coil cover (per 2026-11-21 extras note). not comped: gone.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785374",
+      "site": "qth",
+      "title": "SGC 715 HF manpack transceivers (2)",
+      "price": 300,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. Seller wording: 'Crystal controlled version covers up to 15Mhz ... Both transmit, Receive volume is lower than the other on 1 radio. Comes 2 d cell and 1 c cell battery pack. $300 obo shipped. PayPal or Zelle preferred.' Price is for both units. comps: sgc-715, 0 kept (only baseball cards matched the search).",
+      "work_flag": "Receive volume is lower than the other on 1 radio (UNCERTAIN whether needs-work)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785363",
+      "site": "qth",
+      "title": "Radioddity HF-010 portable HF antenna",
+      "price": 210,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. Seller wording: 'NEW- NEVER DEPLOYED $210 shipped US NOTE: STOCK PHOTO - ACTUAL PICTURE A...' (text truncated by the read). comps: radioddity-hf-010, 2 kept (thin), median 267.50.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785356",
+      "site": "qth",
+      "title": "MFJ-939Y IntelliTuner automatic antenna tuner",
+      "price": 150,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. Seller wording: 'Excellent condition. 200 watts ... No scratches. Can be used with any radio. $150 shipped USPS Priority Mail CONUS. Zelle preferred. No returns.' comps: mfj-939y, 0 kept (no 939Y sold on page 1; 939I/939K rows listed in the comp file notes only).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785355",
+      "site": "qth",
+      "title": "Elecraft KXV3B transverter I/O - preamp option board (K3/K3S)",
+      "price": 229,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. Seller wording: 'I include the plate, hardware, and cable..complete kit. $229 delivered ... I also have the KXV3A FOR $169 if you don't need the preamp.' comps: elecraft-kxv3b, 0 kept (all 3 rows Best Offer Accepted/parts/manual).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785357",
+      "site": "qth",
+      "title": "West Mountain RIGrunner 4008",
+      "price": 65,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. Seller wording: 'Looks like new but one connecter is bad, ( see pic ) Not perfect but very functional. Also, with a bag of fuses, and cable to PS. $65 shipped Paypal+ or Postal M.O.' comps: west-mountain-rigrunner-4008, 4 kept (1 outlier), median 79.98.",
+      "work_flag": "one connecter is bad, ( see pic ) Not perfect but very functional",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785337",
+      "site": "qth",
+      "title": "Heil Proset Plus headset",
+      "price": 65,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. Seller wording: 'This headset is in good shape. It has an electret element(good for Icom) and the second element is the HC-4. No adapter included. $65 plus shipping'. Shipping recorded as 0 (not stated). comps: heil-proset-plus, 0 kept (no ProSet Plus headset sold on page 1).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785338",
+      "site": "qth",
+      "title": "Heil Pro Set HC-5 headset",
+      "price": 55,
+      "shipping": 0,
+      "found_at": "2026-11-21",
+      "condition_notes": "live. Seller wording: 'This Proset 5 is in good condition. Has HC5 element. Non smoker. $55 plus shipping'. Shipping recorded as 0 (not stated). comps: heil-pro-set-hc-5, 1 kept (thin), median 150 (that sale included Icom and Kenwood adapters).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785420",
+      "site": "qth",
+      "title": "Kenwood TS-590SG with SO-3 TCXO",
+      "price": 1150,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "live. Seller wording: 'Excellent Condition Kenwood TS-590SG with genuine Kenwood SO-3 TCXO, not a cheap Chinese knock off ... Everything works ... Comes with power cord and unused Kenwood MC-43S hand mike. $1150 and split shipping.' Shipping recorded as 0 (split, amount not stated). comps: ledger hit, kenwood-ts-590sg ledger median 1199.99 / count 7 / 2026-11-15.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785473",
+      "site": "qth",
+      "title": "Icom IC-7100 HF/6M/VHF/UHF transceiver",
+      "price": 675,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "live. Seller wording: 'Good working, nice-looking IC-7100 ... No issues. It is MARS modded but otherwise unmolested and not hacked up. It shows some wear on the body, but the remote head is very clean ... Comes with the HM-198 hand mic, original-length power cable, and original manual. No original box ... Otherwise, it is sold as-is, with all sales final. $675 plus shipping.' Shipping recorded as 0 (not stated). comps: icom-ic-7100, 4 kept, median 650.00.",
+      "work_flag": "MARS modded (transmit-modification wording); 'sold as-is, with all sales final'",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785466",
+      "site": "qth",
+      "title": "Elecraft P3 panadapter (loaded)",
+      "price": 900,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "live. Seller wording: 'P3 s/n 1912 with Protective Front/ Side Rails installed in excellent condition with both options installed: P3SVGA & TXMON w/ 2KW TX Sensor. Comes with Protective Cover, and Manuals. Asking $900 pickup or you ship.' Shipping recorded as 0 (buyer arranges). comps: ledger hit, elecraft-p3 ledger median 549.99 / count 11 / 2026-11-15.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785462",
+      "site": "qth",
+      "title": "Elecraft K3/100F transceiver w/ options",
+      "price": 1900,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "live. Seller wording: 'my K3/100F s/n 8180 is excess to my needs. It is in excellent condition. Has following installed: KAT3-F, KTCX03-1-F, KBPF3, KXV3A, K3SSKT-F, KDVR3, 400HZ, 1.8K, 2.8K, 6K, 13K filters, Protective Front/ side Rails. Comes with Power Cord, Protective Cover, and Manuals. Asking $1900 pickup or you ship'. Shipping recorded as 0 (buyer arranges). comps: ledger hit, elecraft-k3-100 ledger median 1199.49 / count 16 / 2026-11-09 (model identity K3/100 taken from the ad's 'K3/100F'; ledger figures are for K3/100 transceivers with varied options).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785419",
+      "site": "qth",
+      "title": "Palstar LA-1K 1 kW solid state amplifier",
+      "price": 2300,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "live (ask now $2300; the 2026-11-22 QTH drop recorded $2400, ad shows 'Last Edited on 11/22/26'). Seller wording: 'Selling a nice 1KW solid state amp. It will come in the original box with both power cords. Looking for a local sale. $2300'. comps: palstar-la-1k, 1 kept (thin), median 2600.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785409",
+      "site": "qth",
+      "title": "Bencher BY-1 paddle",
+      "price": 130,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "no longer live (QTH: 'The ad number you specified, 1785409, is no longer in our system.'). Ask is the $130 recorded in the 2026-11-22 QTH drop. not comped: gone (ledger had a fresh BY-1 median 75.00 / count 29 / 2026-10-26, but no live extra needed it).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
