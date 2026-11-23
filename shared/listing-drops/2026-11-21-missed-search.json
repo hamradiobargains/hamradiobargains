@@ -40,12 +40,20 @@
     {
       "term": "tm 2520",
       "searched_at": "2026-11-21T00:05:45-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Kenwood TM-2530A",
+      "status": "worked",
+      "worked_at": "2026-11-23",
+      "result": "no comps found (no Kenwood TM-2520 exists, 0 eBay sold results; likely TM-2530A typo, but only TM-2530A accessories sold, no radios)"
     },
     {
       "term": "tm 3520",
       "searched_at": "2026-11-21T00:05:36-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Kenwood TM-3530A",
+      "status": "worked",
+      "worked_at": "2026-11-23",
+      "result": "no comps found (no Kenwood TM-3520 exists, 0 eBay sold results; likely TM-3530A typo, but its only sale was best-offer-accepted, excluded)"
     },
     {
       "term": "icf 5090",

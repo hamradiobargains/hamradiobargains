@@ -5,8 +5,12 @@
     {
       "term": "drake r4c",
       "searched_at": "2026-11-23T02:13:32-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
-      "priority": "front_of_queue"
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "priority": "front_of_queue",
+      "likely_model": "Drake R-4C",
+      "status": "worked",
+      "worked_at": "2026-11-23",
+      "result": "2026-11-23-drake-r-4c.json, 7 comps (1 outlier flagged)"
     }
   ]
 }
