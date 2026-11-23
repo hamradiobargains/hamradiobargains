@@ -1,0 +1,82 @@
+{
+ "model": "Drake R-4C",
+ "slug": "drake-r-4c",
+ "searched_at": "2026-11-23T10:45:12-05:00",
+ "searched_by": "claude",
+ "source": "ebay",
+ "notes": "From missed search shared/listing-drops/2026-11-23-missed-search.json (front_of_queue); visitor typed 'drake r4c'. eBay sold/completed search 'Drake R-4C', signed in. 7 genuine comps kept. Excluded: best-offer-accepted sales ($1,400 9/13, $685 9/8, $475 9/5, $621.49 10/11, $335 10/23, $163.55 parts 10/14, $600 full T-4XC/R-4C/AC-4/MS-4 station 11/16); parts-only units ($225 11/14, $300 11/2, $180 10/26, $270 10/25, $145 9/17, $19.09 chassis 10/11, $489 T-4XC+R-4C pair 10/27); duplicate SN 27316 auction 900060496509; accessories (recap kits, manuals, knobs, crystals, filters, cables, calibrator board); other models (R-4, R-4A, R-4B, TR-4, TR-4C, T-4X, C-4, MN-4). Median $490.65 with the $813 outlier, $410.33 without.",
+ "comps": [
+  {
+   "price": 210.37,
+   "sold_date": "2026-11-10",
+   "condition": "Pre-Owned; high serial 27316, CW filters",
+   "url": "https://www.ebay.com/itm/900081320978",
+   "source": "ebay",
+   "notes": "Buy It Now. Same radio (SN 27316, same title, same $210.37) also shows as a 3-bid auction ended 2026-11-09 (item 900060496509) - treated as one sale (likely second-chance/relist), only this listing deposited.",
+   "flags": []
+  },
+  {
+   "price": 330.0,
+   "sold_date": "2026-10-27",
+   "condition": "Pre-Owned",
+   "url": "https://www.ebay.com/itm/257795730462",
+   "source": "ebay",
+   "notes": "Fixed price with Best Offer option; sold at listed price (not best-offer-accepted).",
+   "flags": []
+  },
+  {
+   "price": 169.99,
+   "sold_date": "2026-10-04",
+   "condition": "Pre-Owned; title says 'Read Description'",
+   "url": "https://www.ebay.com/itm/327388180091",
+   "source": "ebay",
+   "notes": "Buy It Now; title flags condition caveats in description.",
+   "flags": []
+  },
+  {
+   "price": 495.0,
+   "sold_date": "2026-10-01",
+   "condition": "Pre-Owned; 'very nice', loaded",
+   "url": "https://www.ebay.com/itm/158371941866",
+   "source": "ebay",
+   "notes": "Buy It Now; includes MS-4 speaker.",
+   "flags": [
+    "extras_included"
+   ]
+  },
+  {
+   "price": 520.0,
+   "sold_date": "2026-09-21",
+   "condition": "Pre-Owned",
+   "url": "https://www.ebay.com/itm/206513482935",
+   "source": "ebay",
+   "notes": "Buy It Now; includes 4-NB noise blanker, filters, original manual.",
+   "flags": [
+    "extras_included"
+   ]
+  },
+  {
+   "price": 813.0,
+   "sold_date": "2026-09-21",
+   "condition": "Pre-Owned",
+   "url": "https://www.ebay.com/itm/298665140174",
+   "source": "ebay",
+   "notes": "Auction, 34 bids; listed '+ Extras'. Far above the cluster.",
+   "flags": [
+    "extras_included",
+    "outlier"
+   ]
+  },
+  {
+   "price": 490.65,
+   "sold_date": "2026-10-08",
+   "condition": "Pre-Owned; 'beautiful condition and fully loaded'",
+   "url": "https://www.ebay.com/itm/800753924197",
+   "source": "ebay",
+   "notes": "Auction, 1 bid; UK seller; +$130.70 shipping not included.",
+   "flags": [
+    "extras_included"
+   ]
+  }
+ ]
+}
