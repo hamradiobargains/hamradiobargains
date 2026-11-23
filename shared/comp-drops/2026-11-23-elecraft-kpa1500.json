@@ -1,0 +1,25 @@
+{
+  "model": "Elecraft KPA1500",
+  "slug": "elecraft-kpa1500",
+  "searched_at": "2026-11-23T14:58:15-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (ELECRAFT KPA1500 count 1, date 2026-08-31). eBay sold search page 1: 3 results above 'Results matching fewer words'; 2 were KPA500/KPA1500 interface cables (excluded, accessories). 1 kept comp - thin. Dropped 0 best-offer-accepted, 0 parts-only. This kept sale (2026-08-31, $5,999.99) appears to be the same sale already behind the ledger entry.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785502",
+    "site": "qth",
+    "ask": 5800.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 5999.99,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188457755162",
+      "source": "ebay",
+      "notes": "Title: (Mint) Elecraft KPA1500 Amplifier w/ Internal Atu. Listed 'or Best Offer' (not shown as best offer accepted). +$99.99 delivery.",
+      "flags": []
+    }
+  ]
+}
