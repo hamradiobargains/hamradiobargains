@@ -1,0 +1,15 @@
+{
+  "model": "Alpha 9500",
+  "slug": "alpha-9500",
+  "searched_at": "2026-11-23T14:58:48-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no ALPHA 9500 entry). eBay sold search 'Alpha 9500' page 1: 20 results above the fewer-words section, none an Alpha 9500 amplifier (camera, pool-cleaner cables, unrelated items). 0 comps - thin. Dropped 0 best-offer-accepted, 0 parts-only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785516",
+    "site": "qth",
+    "ask": 3250.0,
+    "shipping": 0
+  },
+  "comps": []
+}
