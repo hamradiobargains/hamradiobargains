@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T13:53:38+00:00",
+ "updated": "2026-11-23T13:53:43+00:00",
  "models": {
   "ALINCO DM-330MV": {
    "display": "Alinco DM-330MV",
@@ -57,10 +57,10 @@
   },
   "ICOM IC-7100": {
    "display": "Icom IC-7100",
-   "pct": -1.0,
+   "pct": -4.2,
    "window": "6mo",
-   "recent_median": 759.5,
-   "recent_count": 10,
+   "recent_median": 735.0,
+   "recent_count": 14,
    "prior_median": 767.5,
    "prior_count": 6
   },
@@ -120,12 +120,12 @@
   },
   "MFJ MFJ-949E": {
    "display": "MFJ MFJ-949E",
-   "pct": 34.5,
+   "pct": 22.7,
    "window": "3mo",
-   "recent_median": 127.75,
-   "recent_count": 24,
-   "prior_median": 95.0,
-   "prior_count": 10
+   "recent_median": 135.0,
+   "recent_count": 23,
+   "prior_median": 109.99,
+   "prior_count": 11
   },
   "MFJ-989C": {
    "display": "MFJ-989C",
@@ -172,6 +172,24 @@
    "prior_median": 450.0,
    "prior_count": 11
   },
+  "YAESU FT-450D": {
+   "display": "Yaesu FT-450D",
+   "pct": -11.4,
+   "window": "3mo",
+   "recent_median": 442.5,
+   "recent_count": 10,
+   "prior_median": 499.21,
+   "prior_count": 5
+  },
+  "YAESU FT-60R": {
+   "display": "Yaesu FT-60R",
+   "pct": -4.3,
+   "window": "3mo",
+   "recent_median": 134.0,
+   "recent_count": 32,
+   "prior_median": 140.0,
+   "prior_count": 5
+  },
   "YAESU FT-710": {
    "display": "Yaesu FT-710",
    "pct": -3.6,
@@ -183,12 +201,12 @@
   },
   "YAESU FT-817ND": {
    "display": "Yaesu FT-817ND",
-   "pct": 9.7,
+   "pct": -3.8,
    "window": "3mo",
-   "recent_median": 820.0,
-   "recent_count": 15,
-   "prior_median": 747.5,
-   "prior_count": 8
+   "recent_median": 817.5,
+   "recent_count": 14,
+   "prior_median": 850.0,
+   "prior_count": 9
   },
   "YAESU FT-857": {
    "display": "Yaesu FT-857",
@@ -210,12 +228,12 @@
   },
   "YAESU FT-991A": {
    "display": "Yaesu FT-991A",
-   "pct": -9.1,
+   "pct": -9.6,
    "window": "3mo",
-   "recent_median": 999.0,
-   "recent_count": 21,
+   "recent_median": 994.0,
+   "recent_count": 20,
    "prior_median": 1099.0,
-   "prior_count": 8
+   "prior_count": 9
   },
   "YAESU FT5D": {
    "display": "Yaesu FT5D",
