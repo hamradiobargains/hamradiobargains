@@ -1,0 +1,15 @@
+{
+  "model": "Elecraft K3S/100",
+  "slug": "elecraft-k3s-100",
+  "searched_at": "2026-11-23T14:57:50-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (ELECRAFT K3S/100 count 1, date 2026-08-14). eBay sold search 'Elecraft K3S' page 1 (71 results, no fewer-words section): 0 K3S transceiver sales. Results were K3/K3S accessories, filters, parts, knobs, manuals and K3 (not K3S) transceivers - excluded as different model. Dropped 0 best-offer-accepted, 0 parts-only (none were K3S units). No comps - thin.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785490",
+    "site": "qth",
+    "ask": 2750.0,
+    "shipping": 0
+  },
+  "comps": []
+}
