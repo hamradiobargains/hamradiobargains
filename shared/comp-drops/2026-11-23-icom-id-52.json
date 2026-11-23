@@ -1,0 +1,25 @@
+{
+  "model": "Icom ID-52",
+  "slug": "icom-id-52",
+  "searched_at": "2026-11-23T18:00:55-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss: comps.json has 'ICOM ID-52A' only; listing is the Japanese-market ID-52 (no A), a different model designation. eBay sold search 'icom id-52' page 1; most results were ID-52A / accessories. Kept only units titled ID-52 with no A/Plus. Dropped 1 best-offer-accepted (itm 128095321673, shown $429, same title as the listing). Dropped 0 parts-only. Left out itm 168801661348 ('Icom ID-52 Digital Handheld Transceiver w/ MARS Mod', $365 auction 2026-10-25) — MARS mod suggests a US ID-52A, identity not certain; and itm 178496616422 'ID-52 PLUS' $619.99 (different model). THIN — only 1 comp, and it is a Brand New unit.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/168882602579",
+    "site": "ebay",
+    "ask": 399.0,
+    "shipping": 6.71
+  },
+  "comps": [
+    {
+      "price": 524.97,
+      "sold_date": "2026-11-07",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/226338183769",
+      "source": "ebay",
+      "notes": "'ICOM ID-52 Dual Band GPS Bluetooth Digital Transceiver 144/430MHz IPX-7 D-STAR'; Buy It Now; free shipping",
+      "flags": []
+    }
+  ]
+}
