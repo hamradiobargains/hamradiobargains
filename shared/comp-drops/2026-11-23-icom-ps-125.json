@@ -1,0 +1,17 @@
+{
+ "model": "Icom PS-125",
+ "slug": "icom-ps-125",
+ "searched_at": "2026-11-23T14:29:00-05:00",
+ "searched_by": "claude",
+ "source": "ebay",
+ "notes": "Standalone-unit comps only, from Claude's PS-125 sold check (originally run over a month before this deposit; results relayed by Leo 2026-11-23). 7 genuine comps kept. Excluded as not comparable: 5 best-offer-accepted sales, bundles with transceivers, cable adapters, and an instructions-only listing. The four August-dated comps have since rolled off eBay's 90-day sold window, so their listing pages are no longer retrievable; they are deposited without URLs on the strength of the original check's records, each noted as such. Median $175.00, range $107.50-$225.00, no outliers flagged.",
+ "comps": [
+  {"price": 107.50, "sold_date": "2026-10-07", "condition": "Pre-Owned", "url": "https://www.ebay.com/itm/298722245173", "source": "ebay", "notes": "Auction, 4 bids.", "flags": []},
+  {"price": 195.00, "sold_date": "2026-10-01", "condition": "Pre-Owned", "url": "https://www.ebay.com/itm/178457051180", "source": "ebay", "notes": "Buy It Now.", "flags": []},
+  {"price": 189.00, "sold_date": "2026-09-16", "condition": "Pre-Owned", "url": "https://www.ebay.com/itm/318818143406", "source": "ebay", "notes": "Or Best Offer listing, sold at listed price (not best-offer-accepted).", "flags": []},
+  {"price": 162.49, "sold_date": "2026-08-24", "condition": "Pre-Owned; original box and manual", "source": "ebay", "notes": "Buy It Now. Listing link no longer retrievable (rolled off eBay's 90-day sold window); sale recorded during the original check.", "flags": []},
+  {"price": 175.00, "sold_date": "2026-08-12", "condition": "Pre-Owned", "source": "ebay", "notes": "Buy It Now. Listing link no longer retrievable (rolled off eBay's 90-day sold window); sale recorded during the original check.", "flags": []},
+  {"price": 225.00, "sold_date": "2026-08-11", "condition": "Pre-Owned; very nice shape", "source": "ebay", "notes": "Buy It Now. Listing link no longer retrievable (rolled off eBay's 90-day sold window); sale recorded during the original check.", "flags": []},
+  {"price": 174.95, "sold_date": "2026-08-06", "condition": "Pre-Owned; tested/working", "source": "ebay", "notes": "Buy It Now. Listing link no longer retrievable (rolled off eBay's 90-day sold window); sale recorded during the original check.", "flags": []}
+ ]
+}
