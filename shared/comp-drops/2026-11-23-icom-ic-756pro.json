@@ -1,0 +1,54 @@
+{
+  "model": "Icom IC-756PRO",
+  "slug": "icom-ic-756pro",
+  "searched_at": "2026-11-23T18:00:55-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss: 'ICOM IC-756PRO' latest date 2026-10-17 is older than 30 days. eBay sold search 'icom ic-756pro' page 1; original IC-756PRO only (PRO II / PRO III / 'Pro 111' excluded). Dropped 2 best-offer-accepted (itm 840128903562 shown $450 2026-11-17; itm 336756569984 shown $699.89 2026-09-05). Dropped 1 parts-only (itm 336817543948, eBay 'Parts Only', 2026-10-01). Left out knobs, jacks, manuals. 4 kept — solid but small set. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/407384051122",
+    "site": "ebay",
+    "ask": 600.0,
+    "shipping": 107.27
+  },
+  "comps": [
+    {
+      "price": 725.0,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137759314544",
+      "source": "ebay",
+      "notes": "'Icom IC-756-PRO Transceiver'; Buy It Now; +$27.11 shipping",
+      "flags": []
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820212068442",
+      "source": "ebay",
+      "notes": "'... Excellent Condition, Working!'; or Best Offer (not accepted); +$31.20 shipping",
+      "flags": []
+    },
+    {
+      "price": 739.0,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820102916463",
+      "source": "ebay",
+      "notes": "'ICOM IC-756 Pro ... and ICOM SM-8 Desk Mic Fully tested'; or Best Offer (not accepted); +$11.18 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 530.0,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188979696985",
+      "source": "ebay",
+      "notes": "'Icom IC-756 Pro HF 50MHz Amateur Transceiver'; auction, 5 bids; free shipping",
+      "flags": []
+    }
+  ]
+}
