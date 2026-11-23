@@ -1,0 +1,53 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-23",
+  "ran_at": "2026-11-23T05:53:08-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-22T05:55:39-05:00 (prior eham run). Browsed signed OUT ('Welcome Guest' shown). First classifieds load showed a brief Cloudflare 'Performing security verification' interstitial that reported success and cleared on its own within ~10 s (no CAPTCHA, no 1015, no interaction). Read public classifieds page 1 only (one page load); new ads 629731-629737 all on page 1, 629730 and below covered by the prior run, so no page 2 needed. No individual ad pages, search form, sold searches, or seller/callsign pages; no ad IDs probed. 629735 not on the public page (not opened). Skipped as non-candidates: 629733 1/2in Superflex heliax (coax, pickup only), 629732 WTB VizKey bug. Comps: ledger hit for Icom IC-756PRO III; eBay sold searches for Kenwood TS-440SAT (ledger 36 days old; 1 comp, thin), VHQ Hexbeam (0 comps), Standard C188A (no exact sold results). No eBay challenge; eBay signed in as Leo.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629737",
+      "site": "eham",
+      "title": "ICOM PRO III Radio",
+      "price": 850.0,
+      "shipping": 0,
+      "found_at": "2026-11-23",
+      "condition_notes": "Icom IC-756PRO III with PS-125 power supply, HM-36 mic, extra DC cable, manuals, original boxes, cover, and a never-used DIGIRIG. Seller: 'All functions operate perfectly', screen free of defects, used on 10m. Also says 'Sold as-is'. $850 free shipping. Posted 2026-11-22.",
+      "work_flag": "Sold as-is",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629736",
+      "site": "eham",
+      "title": "Standard C188a, AS-IS, UNTESTED",
+      "price": 60.0,
+      "shipping": 0,
+      "found_at": "2026-11-23",
+      "condition_notes": "Small lot of Standard C188A HTs (quantity of radios not stated) with antennas, three mics, three drop-in stands, three AC wall transformers, one drop-in charger, two empty dry-cell cases. 'AS-IS, UNTESTED. FOR PARTS or EXPERIMENTATION.' $60 shipped CONUS, offers entertained. Posted 2026-11-22.",
+      "work_flag": "AS-IS, UNTESTED. FOR PARTS or EXPERIMENTATION",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629734",
+      "site": "eham",
+      "title": "VHQ Hexbeam",
+      "price": 975.0,
+      "shipping": 0,
+      "found_at": "2026-11-23",
+      "condition_notes": "VHQ hexbeam (specific VHQ model/band count not stated), used 2 years, 'very good condition'; spreaders could use paint touch-up, no other cosmetic or functional issues; rated 3,500 W; includes mast-above option. $975 plus shipping (shipping not stated). Posted 2026-11-22.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629731",
+      "site": "eham",
+      "title": "Kenwood TS-440SAT",
+      "price": 400.0,
+      "shipping": 0,
+      "found_at": "2026-11-23",
+      "condition_notes": "'Very good condition' TS-440SAT with CW filter, hand mic, power cord. $400 shipped CONUS. Posted 2026-11-21 (after the prior run's scan).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
