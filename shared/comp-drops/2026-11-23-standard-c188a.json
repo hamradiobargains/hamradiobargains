@@ -1,0 +1,15 @@
+{
+  "model": "Standard C188A",
+  "slug": "standard-c188a",
+  "searched_at": "2026-11-23T05:55:47-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no entry). eBay sold search 'standard c188a' returned no exact matches (only 'fewer words' results, ignored). 0 comps. Thin (none). Trigger listing is an as-is/untested parts lot of unstated quantity.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629736",
+    "site": "eham",
+    "ask": 60.0,
+    "shipping": 0
+  },
+  "comps": []
+}
