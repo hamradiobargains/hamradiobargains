@@ -1,0 +1,289 @@
+{
+ "week_of": "2026-11-23",
+ "angle_label": "Swap Nets",
+ "copies": {
+  "standard": "Where do hams actually talk, trade, and help each other out? A lot of it happens on local swap nets.\n\nI keep a free directory of swap nets on HamRadioBargains.com: nets across the country, listed by day and time, so you can find one near you and check in. New hams use it to meet people locally. Old hands use it to hear what is for sale before it ever hits a listing.\n\nThe directory is here: https://hamradiobargains.com/on-the-air/swap-nets/\n\nKnow a net that should be listed? There is a form on that page. Send it in and I will add it.\n\n73, Leo K4LFC",
+  "standard_alt": "Quick one for the group: I keep a free monthly calendar of what is on the air, contests, QSO parties, and special events, written in plain English.\n\nIt is called On the Air, on HamRadioBargains.com. Each month it explains what is coming up, when the bands will be busy, and what each event is like to join. Handy if you are planning your weekends around the radio.\n\nSee this month here: https://hamradiobargains.com/on-the-air/\n\n73, Leo K4LFC",
+  "dx_full": "Hello all — 40+ years a ham, and a regular reader here.\n\nQuick heads-up on a free page I keep that this group may get some use out of in November: it's called On the Air, on HamRadioBargains.com. Every month it writes up the DX contests and QSO parties in plain English — what the contest is, when the bands will be busy, and what it's like to jump in — no rulebook-speak. November is a strong month: Sweepstakes CW next weekend (Nov 7–9), Sweepstakes on phone two weeks later (Nov 21–23), and the month closes with CQ WW on CW (Nov 28–29) — October was voice, November ends in code.\n\nThe same site also tracks what used gear actually sells for, from recorded sales, and posts listings priced around 25% below that fair value — plus a free price checker if you're valuing a rig to buy or sell. But honestly, the On the Air page is the part I built for groups like this one.\n\nHope it's useful. See you in the pileups. 73",
+  "dx_short": "40+ years a ham. I run the On the Air page at HamRadioBargains.com — plain-English write-ups of the month's DX contests. November: Sweepstakes CW Nov 7–9, Sweepstakes phone Nov 21–23, and CQ WW CW Nov 28–29. Free resource, built for clubs like this one. 73"
+ },
+ "days": {
+  "2026-11-23": [
+   {
+    "group": "Triad Ham radio",
+    "copy_id": "standard",
+    "post_used": "Swap Nets",
+    "first_post": true
+   },
+   {
+    "group": "Amateur radio marketplace",
+    "copy_id": "standard",
+    "post_used": "Swap Nets",
+    "first_post": true
+   },
+   {
+    "group": "Ham radio equipment",
+    "copy_id": "standard",
+    "post_used": "Swap Nets",
+    "first_post": true
+   },
+   {
+    "group": "Amateur radio equipment for sale or trade",
+    "copy_id": "standard",
+    "post_used": "Swap Nets",
+    "first_post": true
+   },
+   {
+    "group": "Ham radio for sale",
+    "copy_id": "standard",
+    "post_used": "Swap Nets",
+    "first_post": true
+   },
+   {
+    "group": "Ham Radio 50 years back",
+    "copy_id": "standard",
+    "post_used": "Swap Nets",
+    "first_post": true
+   },
+   {
+    "group": "Central Illinois amateur radio",
+    "copy_id": "standard",
+    "post_used": "Swap Nets",
+    "first_post": true
+   },
+   {
+    "group": "World radio league",
+    "copy_id": "standard",
+    "post_used": "Swap Nets",
+    "first_post": true
+   }
+  ],
+  "2026-11-24": [
+   {
+    "group": "Ham Radio",
+    "copy_id": "standard",
+    "post_used": "Swap Nets",
+    "first_post": true
+   },
+   {
+    "group": "Ham Radio Classifieds",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Baofeng Owner Club",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Ham Radio for Newbies",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Ham Radio Market",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Heathkit Owners Group",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Amateur Radio Market Place",
+    "copy_id": "standard_alt",
+    "post_used": "On-the-Air calendar"
+   },
+   {
+    "group": "Ham Radio Swap Equipment For Sale",
+    "copy_id": "standard_alt",
+    "post_used": "On-the-Air calendar"
+   }
+  ],
+  "2026-11-25": [
+   {
+    "group": "Amateur Radio Operators",
+    "copy_id": "standard_alt",
+    "post_used": "On-the-Air calendar"
+   },
+   {
+    "group": "Ham radio buy sell or trade",
+    "copy_id": "standard_alt",
+    "post_used": "On-the-Air calendar"
+   },
+   {
+    "group": "All Radio Sales",
+    "copy_id": "standard_alt",
+    "post_used": "On-the-Air calendar"
+   },
+   {
+    "group": "Ham radio (stop) classified",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Ham Radio Stuff For Sale",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Ham radio community",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Amateur Ham radio discussion for sale buy trade",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   }
+  ],
+  "2026-11-26": [
+   {
+    "group": "NC Ham radio swap and classified",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Ham radio without Borders",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Ham radio's for sale new and used",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Ham radio sales worldwide",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Ham shacks",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Amateur radio, CBGMRS buy sell trade",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Ham radio cell swap Texas",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   }
+  ],
+  "2026-11-27": [
+   {
+    "group": "W3KWH steel city radio club",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Yaesu ft-891 owner",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Sierra foothills amateur radio club",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Brazos Valley amateur radio club",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "New Bern amateur radio club",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Ham active",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Ham radio for non-techies",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   }
+  ],
+  "2026-11-28": [
+   {
+    "group": "145 alive activity group",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Ham fest",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Scars",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "QRP low power amateur radio operators",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Ohio Ham operators amateur radio group",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "North Carolina radio operators",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Indiana Ham radio, buying and selling",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   }
+  ],
+  "2026-11-29": [
+   {
+    "group": "amateur/ham radio for beginners",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Yaesu lovers",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Ham Radio For Beginners",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Ham radio information",
+    "copy_id": "standard",
+    "post_used": "Swap Nets"
+   },
+   {
+    "group": "Ham radio buy sell trade north america",
+    "copy_id": "standard",
+    "post_used": "Swap Nets",
+    "hold": true,
+    "hold_reason": "The tracker carries a 'dissapprove' note (Post Used) against this group; Leo must confirm before any post."
+   },
+   {
+    "group": "contesting and dx'ing",
+    "copy_id": "dx_full",
+    "post_used": "DX variant",
+    "hold": true,
+    "hold_reason": "Leo has not yet chosen the full or short DX version for this group; do not post either until the queue is reissued without this hold. Note: the stored DX copy still carries November framing."
+   }
+  ]
+ }
+}
