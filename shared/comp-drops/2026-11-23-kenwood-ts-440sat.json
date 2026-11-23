@@ -1,0 +1,25 @@
+{
+  "model": "Kenwood TS-440SAT",
+  "slug": "kenwood-ts-440sat",
+  "searched_at": "2026-11-23T05:55:47-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (KENWOOD TS-440SAT latest 2026-10-18, older than 30 days). eBay sold page 1 had only 2 exact-match results: 1 kept; excluded 1 accessory (Murata ceramic SSB filter for TS-440S/SAT). 'Results matching fewer words' ignored. dropped 0 best-offer-accepted, dropped 0 parts-only. Thin (1 comp).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629731",
+    "site": "eham",
+    "ask": 400.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 389.99,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128163650092",
+      "source": "ebay",
+      "notes": "Title: 'KENWOOD TS-440SAT HF TRANSCEIVER! AUTOTUNER'. Buy It Now. +$29.03 delivery.",
+      "flags": []
+    }
+  ]
+}
