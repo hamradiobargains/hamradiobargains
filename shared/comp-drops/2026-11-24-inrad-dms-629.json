@@ -1,0 +1,25 @@
+{
+  "model": "Inrad DMS-629",
+  "slug": "inrad-dms-629",
+  "searched_at": "2026-11-24T18:55:37-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Inrad DMS-629', page 1 only. 1 kept - thin. Not counted (other models): DMS-628 $115.95 itm 177220733061, DMS-665 $69.99 itm 137571818630, DMS-1 stand + Heil HM-10 Untested As Is (BO accepted) itm 178412284449.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785505",
+    "site": "qth",
+    "ask": 130,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 139.95,
+      "sold_date": "2026-09-17",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/177220712890",
+      "source": "ebay",
+      "notes": "title: INRAD DMS-629 desk microphone, Icom Kenwood Yaesu OPEN BOX; fixed price, free shipping; shipping not shown or free",
+      "flags": []
+    }
+  ]
+}
