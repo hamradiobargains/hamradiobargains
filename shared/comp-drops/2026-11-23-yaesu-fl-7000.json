@@ -1,0 +1,34 @@
+{
+  "model": "Yaesu FL-7000",
+  "slug": "yaesu-fl-7000",
+  "searched_at": "2026-11-23T19:01:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (sold + completed, sorted ended recently, page 1 only). Query \"Yaesu FL-7000\". 2 kept (thin). Dropped: parts-only 336786821598 $750 (sold 2026-09-16, 15 bids, ship $90.38, \"POWERS UP-no Further Testing\"). Excluded: 227604989201 $1,300 (multi-radio station bundle w/ FT-767GX, FT-736R), plus FL-7000 cables/end caps/DC plugs/PELTOR FL7000 PTT (not the amp). BO-accepted dropped 0, Read Description 0. Median 1100 equals existing ledger (count 2, 2026-10-03). Extras sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785445",
+    "site": "qth",
+    "ask": 995,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1500,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800688941642",
+      "source": "ebay",
+      "notes": "shipping shown: $99.00. Buy It Now; title \"4 Button RTTY View Testing Video. Local pick up.\"",
+      "flags": []
+    },
+    {
+      "price": 700,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327333859360",
+      "source": "ebay",
+      "notes": "shipping shown: $35.00. Buy It Now; title \"yaesu fl-7000\"",
+      "flags": []
+    }
+  ]
+}
