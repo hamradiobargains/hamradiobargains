@@ -1,0 +1,32 @@
+{
+  "model": "Kenwood TH-79A",
+  "slug": "kenwood-th-79a",
+  "searched_at": "2026-11-24T12:19:03-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Missed-search queue: shared/listing-drops/2026-11-21-missed-search.json, visitor typed 'th 79' (Kenwood TH-79A, the US dual-band HT; TH-79E export variant not merged). eBay sold+completed search 'Kenwood TH-79A', page 1 (11 results). Kept 2 (low confidence). Excluded best-offer-accepted: 227598123967 (parts/repair), 257759987321 (parts/repair), 287578494334 (open box), 257640894302 ('appears to work - no guarantee', Parts Only). Excluded parts-only: 880096730747 (8 bids $69.69), 278333000520 ($20). Excluded accessories: PB-34 battery 176730235903, LCD part 187090030403, antenna 402710485968. Other models in 'fewer words' results (TH-78A, TH-D7A, TH-F6A, TH-D7x etc.) not counted.",
+  "comps": [
+    {
+      "price": 175.95,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/236622510172",
+      "source": "ebay",
+      "notes": "Fixed price (or Best Offer, sold at list); title 'with battery mods'; shipping $10.02",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 189.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188873805321",
+      "source": "ebay",
+      "notes": "Buy It Now; 'Tested and Working MARS/CAP' (MARS/CAP mod); shipping $7.39",
+      "flags": [
+        "modified"
+      ]
+    }
+  ]
+}
