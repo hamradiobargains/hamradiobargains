@@ -1,0 +1,34 @@
+{
+  "model": "Heil HM-5",
+  "slug": "heil-hm-5",
+  "searched_at": "2026-11-24T18:55:37-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Heil HM-5', page 1 only. 2 kept, median 91.975 - thin. The rest of page 1 was Honda HM5 carburetor/filter parts and other Heil models (not counted). itm 257804218425 'Vintage Heil Sound - Desk Table Microphone' $49.95 free ship, 2026-10-18, model not named, not counted (UNCERTAIN).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785485",
+    "site": "qth",
+    "ask": 90,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 71.95,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407290643931",
+      "source": "ebay",
+      "notes": "title: Tabletop / Desk Ham Radio Mic Vintage; shown shipping $54.83",
+      "flags": []
+    },
+    {
+      "price": 112,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267726656442",
+      "source": "ebay",
+      "notes": "title: with HC-5 Element, Very Nice; shown shipping $11.35",
+      "flags": []
+    }
+  ]
+}
