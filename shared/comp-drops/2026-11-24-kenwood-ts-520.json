@@ -1,0 +1,45 @@
+{
+  "model": "Kenwood TS-520",
+  "slug": "kenwood-ts-520",
+  "searched_at": "2026-11-24T18:55:37-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Kenwood TS-520', page 1 only. 3 kept, median 229.99 (solid but dated). Exact TS-520 only: TS-520S and TS-520SE sales (e.g. itm 117187220391 $299.99, 128139474838 $287.09, 307231143643 $284.99 BO accepted, 257351018591 TS-520SE $419.99) kept out because the ledger keeps TS-520S separate. Dropped Best offer accepted (4): itm 128139528249 $189.99 (also Untested), 327201816018 $210, 287574039671 $107.96 (also For Parts), 117288557732 $175 (also read description). Dropped parts-only/for parts/repair (4 TS-520 + 3 TS-520S/SE): itm 198760250490 $112.50, 178506175238 $135 (totally untested), 407171978296 $129.99, 287574039671 $107.96; TS-520S/SE parts: 237142825708 $199.95, 128017876865 $229.99, 198628349095 $150. Accessories ignored (DFD display itm 117063451754, restoration kit). Queued trigger is a TS-520 with external VFO, speaker, CW filter, MC-50 mic and Heil headset.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785478",
+    "site": "qth",
+    "ask": 250,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 139,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227594639924",
+      "source": "ebay",
+      "notes": "shown shipping $48.58",
+      "flags": []
+    },
+    {
+      "price": 229.99,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307194591928",
+      "source": "ebay",
+      "notes": "shown shipping $34.99",
+      "flags": []
+    },
+    {
+      "price": 269.95,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287558500835",
+      "source": "ebay",
+      "notes": "title: w/ Manual & Accessories - Working!; shown shipping $31.65",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
