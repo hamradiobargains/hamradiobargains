@@ -1,0 +1,25 @@
+{
+  "model": "Ten-Tec Argonaut 509",
+  "slug": "ten-tec-argonaut-509",
+  "searched_at": "2026-11-24T17:59:05-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (TEN-TEC ARGONAUT 509 count 2). eBay sold page 1: 1 kept - thin. Dropped 2 parts-only that were also best-offer-accepted (128201275367 $60, 128006323346 $169.99), 1 best-offer-accepted (407159675694 $259), 2 parts-only (158217035044 $249.99, 178462714704 $240 'complete, untested'). Excluded manual and Model 210 power supply.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/407386566962",
+    "site": "ebay",
+    "ask": 289.0,
+    "shipping": 24.95
+  },
+  "comps": [
+    {
+      "price": 400.0,
+      "sold_date": "2026-11-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128084867690",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted offer). Free delivery.",
+      "flags": []
+    }
+  ]
+}
