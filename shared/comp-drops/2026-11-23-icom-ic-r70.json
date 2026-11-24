@@ -1,0 +1,45 @@
+{
+  "model": "Icom IC-R70",
+  "slug": "icom-ic-r70",
+  "searched_at": "2026-11-23T19:01:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (sold + completed, sorted ended recently, page 1 only). Query \"Icom IC-R70\". 3 kept (solid). Dropped Best offer accepted: 198687811502 $219 (2026-10-08, \"Poor Audio\") = 1. Dropped parts-only: 327437437839 $250 (11-09, ship $35), 407211809605 $175 (09-26, ship $25.12), 318892386511 $149.99 (09-24, ship $17.25, titled \"Read Description\" - also Parts Only) = 3 (1 of them Read Description). Excluded: IC-EX257 FM module 398284126832 $119.95 (accessory). Extras sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785468",
+    "site": "qth",
+    "ask": 125,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 339.99,
+      "sold_date": "2026-11-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227581891366",
+      "source": "ebay",
+      "notes": "shipping shown: $39.99. Buy It Now; title \"WORKS\"",
+      "flags": []
+    },
+    {
+      "price": 240,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318703974009",
+      "source": "ebay",
+      "notes": "shipping shown: $16.01. \"or Best Offer\" listing, not marked accepted",
+      "flags": []
+    },
+    {
+      "price": 230,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307239241703",
+      "source": "ebay",
+      "notes": "shipping shown: $15.59. Buy It Now; \"with Optional EX-257 FM Unit\"",
+      "flags": [
+        "option_installed"
+      ]
+    }
+  ]
+}
