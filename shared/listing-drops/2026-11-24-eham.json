@@ -1,0 +1,119 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-24",
+  "ran_at": "2026-11-24T05:56:00-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-23T05:53:08-05:00 (prior eham run). Browsed signed OUT ('Welcome Guest' shown). Read public classifieds pages 1 and 2 (two page loads, ~30 s apart); no Cloudflare challenge or 1015. No individual ad pages, search form, sold searches, or seller/callsign pages; no ad IDs probed. New public ads 629739-629755. 629738 is not on the public pages (likely pending approval) - not opened. Skipped as non-candidates: 629753 Radioddity GD-88 (no price), 629747 Icom HM-56 mic (no price, make offer), 629742 Elecraft K2/10 (ad says 'SOLD pending payment'), 629740 HP RF probe (test equipment), 629739/629743/629748 wanted ads. Comps (cap of 6): ledger hits for Elecraft K3/100, Yaesu FT-950, Yaesu FT-990; eBay sold searches for Icom IC-7300 (ledger 33 days old), Elecraft K3S/100 (ledger count 1; 0 exact comps on page 1), Kenwood TM-742A (not in ledger; 1 comp, thin). No comp searches this run (cap reached) for IC-R8500, SPE 1.5KFA Taurus, FT-690 MkII, SDRplay RSP1B. No eBay challenge; eBay signed in as Leo.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629755",
+      "site": "eham",
+      "title": "Elecraft K3/100 TRANSCEIVER # 3799",
+      "price": 1399.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-24",
+      "condition_notes": "Elecraft K3/100, s/n 3799, 100 W (KPA3), internal tuner, 2.7 SSB filter, KIO3, KXV3A, TCXO; firmware 5.67. Seller: 'Works as it should', good condition, used today on CW/SSB. Includes power cord. $1399 delivered (check, Zelle, PayPal F&F). Posted 2026-11-24.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629754",
+      "site": "eham",
+      "title": "Kenwood Tm742A tri band transceiver",
+      "price": 575.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-24",
+      "condition_notes": "Kenwood TM-742A with UT-1200 (23cm) module plus 2m and 70cm; seller says tested and working on all 3 bands, display bright, controls smooth. Includes DTMF hand mic and DC pigtail. CR2032 memory backup battery needs replacing (resets on power off). $575 OBO, shipping not stated. Posted 2026-11-23.",
+      "work_flag": "The CR2032 memory backup battery needs replacing (resets to band edges on power off)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629752",
+      "site": "eham",
+      "title": "FT 950",
+      "price": 500.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-24",
+      "condition_notes": "Yaesu FT-950 with 20/30m and 40/80m μ-tuning units, 2 manuals, all cabling and hand mic. Non-smoker. $500 firm; prefers pickup or meet within 100 miles (shipping not offered/stated). Posted 2026-11-23.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629751",
+      "site": "eham",
+      "title": "ICOM IC-7300 HF TRANSCEIVER – COMPLETE STATION",
+      "price": 750.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-24",
+      "condition_notes": "Icom IC-7300 with HM-219 mic and power cables, bought June 2026, like-new. Price shown is the radio alone ($750); also offered: SP-35 $20, SkyTopper STP1330 $60, LDG Z-100A $85; packages $800 (radio+SP-35+PSU) or $875 (all incl. tuner). Shipping CONUS at buyer's expense (amount not stated). Franklin, TN. Posted 2026-11-23.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629750",
+      "site": "eham",
+      "title": "SDRplay Receiver Unit",
+      "price": 110.0,
+      "shipping": 15.0,
+      "found_at": "2026-11-24",
+      "condition_notes": "SDRplay RSP1B wideband SDR receiver, never used. $110 plus $15 shipping. Posted 2026-11-23.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629749",
+      "site": "eham",
+      "title": "Icom IC-R8500",
+      "price": 700.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-24",
+      "condition_notes": "Icom IC-R8500 wideband receiver; seller says all works well. Includes service and operating manual and power supply. $700 plus shipping (amount not stated). No returns. Posted 2026-11-23.",
+      "work_flag": "No returns",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629746",
+      "site": "eham",
+      "title": "SPE 1.5KFA Taurus HF Amp",
+      "price": 5500.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-24",
+      "condition_notes": "SPE 1.5KFA 'Taurus' HF amplifier, 3 months old, original owner. $5500 plus shipping (amount not stated); PayPal +3.5%. Posted 2026-11-23.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629745",
+      "site": "eham",
+      "title": "Yaesu FT-990 Station",
+      "price": 800.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-24",
+      "condition_notes": "Yaesu FT-990 AC version, s/n 1N100095, excellent; firmware 1.30 with PIN diode upgrade and full alignment by Yaesu USA. Modified: first IF tap with G4HUP buffer board installed. Station bundle includes MD-100 desk mic, SP-6 speaker, digital adapter, SDRplay RSP1, FT-990 USB-60 cable, original boxes, manuals. $800 includes CONUS shipping. Posted 2026-11-23.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629744",
+      "site": "eham",
+      "title": "Elecraft K3S/100 TRANSCEIVER  # 10659 WOW !",
+      "price": 2750.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-24",
+      "condition_notes": "Elecraft K3S/100 s/n 10659: KPA3A, KAT3A internal tuner, 2.7 SSB and 400 CW filters, KSYN3A, KIO3B, KXV3B. Comes with power cord. Condition described only as 'Nice'. $2750 delivered. Posted 2026-11-22 (first seen on public page this run).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629741",
+      "site": "eham",
+      "title": "Yaesu FT-690 mk2 six meter SSB portable radio",
+      "price": 350.0,
+      "shipping": 0.0,
+      "found_at": "2026-11-24",
+      "condition_notes": "Yaesu FT-690 MkII, very good physical and electrical condition; includes manual and MH15cb DTMF mic (as written) plus choice of FL-6020 amp or FBA-8 battery pack. $350 shipped ($400 with both FL-6020 and FBA-8). Posted 2026-11-22 (first seen on public page this run).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
