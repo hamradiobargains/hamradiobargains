@@ -1,0 +1,15 @@
+{
+  "model": "FlexRadio FLEX-5000A",
+  "slug": "flexradio-flex-5000a",
+  "searched_at": "2026-11-24T18:55:37-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'FlexRadio FLEX-5000A', page 1 only. 0 comps: no FlexRadio FLEX-5000/5000A radio sales on page 1 (results were Allen-Bradley Flex 5000 PLC modules and Ford Flex radio panels, all unrelated). Ledger entry for this model is count 2, dated 2025-01-28 (median 850), too old/thin for a ledger hit.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785501",
+    "site": "qth",
+    "ask": 875,
+    "shipping": 0
+  },
+  "comps": []
+}
