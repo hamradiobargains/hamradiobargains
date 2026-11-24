@@ -1,0 +1,15 @@
+{
+  "model": "Elecraft K3S/100",
+  "slug": "elecraft-k3s-100",
+  "searched_at": "2026-11-24T05:56:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'elecraft k3s', page 1: 0 comps — no sold K3S transceivers on page 1; results were K3/K3S accessories, option boards, filters, P3 panadapters, and non-S K3 radios (excluded: K3 ≠ K3S). Dropped 0 best-offer-accepted, 0 parts-only among exact-model results (none existed). Ledger ELECRAFT K3S/100 has count 1 (2026-08-14), so it was a miss. Thin/none.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629744",
+    "site": "eham",
+    "ask": 2750.0,
+    "shipping": 0.0
+  },
+  "comps": []
+}
