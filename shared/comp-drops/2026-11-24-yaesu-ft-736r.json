@@ -1,0 +1,50 @@
+{
+ "model": "Yaesu FT-736R",
+ "slug": "yaesu-ft-736r",
+ "searched_at": "2026-11-24T17:31:06Z",
+ "searched_by": "claude",
+ "source": "ebay",
+ "notes": "From missed search shared/listing-drops/2026-11-21-missed-search.json; visitor typed 'ft 636'. VARIANT RULE: eBay sold/completed search 'yaesu ft-636' (signed in as Leo) returned 0 results - Yaesu made no FT-636; read as a one-digit typo for the FT-736R VHF/UHF all-mode, so comps deposited under Yaesu FT-736R. Nothing deposited under 'FT-636'. Search 'yaesu ft-736r': 23 results, 4 genuine comps kept. Excluded: best-offer-accepted ($525 10/22, $799.95 10/15 w/ 220+50 MHz modules); parts-only ($549.99 10/26, parts radio 8/29, 144 main unit and TX unit boards); bundle where FT-736R is one of several (FL-7000 + FT-767GX + FT-736R station, $1,300 11/15); band modules (FEX-736-50/220/1.2), power supplies, voice unit, manuals, switches.",
+ "comps": [
+  {
+   "price": 305.0,
+   "sold_date": "2026-11-19",
+   "condition": "Pre-Owned; tested, satellite RX",
+   "url": "https://www.ebay.com/itm/227609909490",
+   "source": "ebay",
+   "notes": "Auction, 2 bids; +$70.72 shipping.",
+   "flags": []
+  },
+  {
+   "price": 650.0,
+   "sold_date": "2026-11-05",
+   "condition": "Pre-Owned; excellent, box, CTCSS",
+   "url": "https://www.ebay.com/itm/880061917265",
+   "source": "ebay",
+   "notes": "Fixed price with best-offer option, sold at list; includes box and CTCSS unit; +$24.87 shipping.",
+   "flags": [
+    "extras_included"
+   ]
+  },
+  {
+   "price": 349.0,
+   "sold_date": "2026-10-07",
+   "condition": "Pre-Owned; untested / as-is",
+   "url": "https://www.ebay.com/itm/257786591317",
+   "source": "ebay",
+   "notes": "Buy It Now, free shipping. Sold untested/as-is (not listed parts-only).",
+   "flags": [
+    "as_is"
+   ]
+  },
+  {
+   "price": 500.0,
+   "sold_date": "2026-09-13",
+   "condition": "Pre-Owned",
+   "url": "https://www.ebay.com/itm/257716476368",
+   "source": "ebay",
+   "notes": "Buy It Now; +$16.32 shipping. Title mentions LCD.",
+   "flags": []
+  }
+ ]
+}

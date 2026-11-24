@@ -1,0 +1,30 @@
+{
+ "model": "Ten-Tec Omni VI",
+ "slug": "ten-tec-omni-vi",
+ "searched_at": "2026-11-24T17:31:06Z",
+ "searched_by": "claude",
+ "source": "ebay",
+ "notes": "From missed search shared/listing-drops/2026-11-21-missed-search.json; visitor typed 'omni iv'. VARIANT RULE: eBay sold/completed search 'ten-tec omni iv' (signed in as Leo) returned 0 results - Ten-Tec made no Omni IV (series is Omni A-D, V, VI, VII). 'iv' read as a transposition of 'vi', so comps deposited under Ten-Tec Omni VI (model 563); Omni V is the other plausible reading and was not priced. Nothing deposited under 'Omni IV'. Search 'ten-tec omni vi': 26 results, 2 genuine comps kept (low confidence). Excluded: best-offer-accepted sale ($290 10/14, item 920040572280); parts-only units ($430 10/10 and $460 9/8 563 w/ Opt 3, $200 9/9); Omni VI Plus model 564 kept separate as a distinct model ($609.99 8/28, not merged); boards, EPROMs, filters, displays, mic jacks, power supplies, manuals, covers, ads.",
+ "comps": [
+  {
+   "price": 499.99,
+   "sold_date": "2026-11-15",
+   "condition": "Pre-Owned",
+   "url": "https://www.ebay.com/itm/117511253321",
+   "source": "ebay",
+   "notes": "Auction, 1 bid; +$25.81 shipping.",
+   "flags": []
+  },
+  {
+   "price": 489.0,
+   "sold_date": "2026-11-09",
+   "condition": "Pre-Owned; Option 3 installed",
+   "url": "https://www.ebay.com/itm/407351595572",
+   "source": "ebay",
+   "notes": "Fixed price with best-offer option, sold at list (not best-offer-accepted); +$39.95 shipping. Option 3 upgrade installed.",
+   "flags": [
+    "extras_included"
+   ]
+  }
+ ]
+}
