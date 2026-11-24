@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T13:53:42+00:00",
+ "updated": "2026-11-24T13:53:38+00:00",
  "source": "HamRadioBargains sold-comp ledger \u2014 genuine sold listings from eHam, QTH, eBay and site deals, plus the eHam comp archive. Prices are asking prices at sale; best offers may differ.",
  "models": {
   "ACOM 06AT": {
@@ -1517,6 +1517,24 @@
      "low": 215.0,
      "high": 349.99,
      "count": 6
+    }
+   ]
+  },
+  "DRAKE R-4C": {
+   "latest": {
+    "date": "2026-11-10",
+    "median": 490.65,
+    "low": 210.37,
+    "high": 520.0,
+    "count": 5
+   },
+   "history": [
+    {
+     "date": "2026-11-10",
+     "median": 490.65,
+     "low": 210.37,
+     "high": 520.0,
+     "count": 5
     }
    ]
   },
@@ -3668,11 +3686,11 @@
   },
   "ICOM IC-7300": {
    "latest": {
-    "date": "2026-10-22",
-    "median": 787.5,
+    "date": "2026-11-22",
+    "median": 795.0,
     "low": 550.0,
     "high": 1500.0,
-    "count": 44
+    "count": 57
    },
    "history": [
     {
@@ -3688,6 +3706,13 @@
      "low": 550.0,
      "high": 1500.0,
      "count": 44
+    },
+    {
+     "date": "2026-11-22",
+     "median": 795.0,
+     "low": 550.0,
+     "high": 1500.0,
+     "count": 57
     }
    ]
   },
@@ -4357,11 +4382,11 @@
   },
   "ICOM IC-R70": {
    "latest": {
-    "date": "2026-10-23",
-    "median": 275.0,
+    "date": "2026-11-17",
+    "median": 280.0,
     "low": 230.0,
-    "high": 320.0,
-    "count": 2
+    "high": 339.99,
+    "count": 4
    },
    "history": [
     {
@@ -4370,6 +4395,13 @@
      "low": 230.0,
      "high": 320.0,
      "count": 2
+    },
+    {
+     "date": "2026-11-17",
+     "median": 280.0,
+     "low": 230.0,
+     "high": 339.99,
+     "count": 4
     }
    ]
   },
@@ -4685,6 +4717,24 @@
     }
    ]
   },
+  "ICOM ID-52": {
+   "latest": {
+    "date": "2026-11-07",
+    "median": 524.97,
+    "low": 524.97,
+    "high": 524.97,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-11-07",
+     "median": 524.97,
+     "low": 524.97,
+     "high": 524.97,
+     "count": 1
+    }
+   ]
+  },
   "ICOM ID-52A": {
    "latest": {
     "date": "2026-11-01",
@@ -4743,6 +4793,24 @@
      "low": 237.14,
      "high": 399.95,
      "count": 6
+    }
+   ]
+  },
+  "ICOM PS-125": {
+   "latest": {
+    "date": "2026-10-07",
+    "median": 175.0,
+    "low": 107.5,
+    "high": 225.0,
+    "count": 7
+   },
+   "history": [
+    {
+     "date": "2026-10-07",
+     "median": 175.0,
+     "low": 107.5,
+     "high": 225.0,
+     "count": 7
     }
    ]
   },
@@ -5338,6 +5406,24 @@
     }
    ]
   },
+  "KENWOOD SP-230": {
+   "latest": {
+    "date": "2026-11-23",
+    "median": 90.0,
+    "low": 64.95,
+    "high": 100.0,
+    "count": 8
+   },
+   "history": [
+    {
+     "date": "2026-11-23",
+     "median": 90.0,
+     "low": 64.95,
+     "high": 100.0,
+     "count": 8
+    }
+   ]
+  },
   "KENWOOD SP-820": {
    "latest": {
     "date": "2026-10-13",
@@ -5712,6 +5798,24 @@
      "low": 289.0,
      "high": 400.0,
      "count": 3
+    }
+   ]
+  },
+  "KENWOOD TM-742A": {
+   "latest": {
+    "date": "2026-11-16",
+    "median": 485.0,
+    "low": 485.0,
+    "high": 485.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-11-16",
+     "median": 485.0,
+     "low": 485.0,
+     "high": 485.0,
+     "count": 1
     }
    ]
   },
@@ -6808,6 +6912,24 @@
     }
    ]
   },
+  "LDG AT-1000 PRO (ORIGINAL, NOT PRO II)": {
+   "latest": {
+    "date": "2026-10-09",
+    "median": 110.0,
+    "low": 110.0,
+    "high": 110.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-10-09",
+     "median": 110.0,
+     "low": 110.0,
+     "high": 110.0,
+     "count": 1
+    }
+   ]
+  },
   "LDG AT-1000PRO": {
    "latest": {
     "date": "2026-10-09",
@@ -7761,6 +7883,24 @@
     }
    ]
   },
+  "MX-P50M HF AMPLIFIER": {
+   "latest": {
+    "date": "2025-06-05",
+    "median": 259.66,
+    "low": 259.66,
+    "high": 259.66,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2025-06-05",
+     "median": 259.66,
+     "low": 259.66,
+     "high": 259.66,
+     "count": 1
+    }
+   ]
+  },
   "NANOVNA-H4": {
    "latest": {
     "date": "2026-09-02",
@@ -8621,6 +8761,24 @@
      "low": 160.0,
      "high": 250.0,
      "count": 3
+    }
+   ]
+  },
+  "SILTRONIX 1011D (COMANCHE)": {
+   "latest": {
+    "date": "2026-11-14",
+    "median": 600.0,
+    "low": 600.0,
+    "high": 600.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-11-14",
+     "median": 600.0,
+     "low": 600.0,
+     "high": 600.0,
+     "count": 1
     }
    ]
   },
@@ -10319,6 +10477,24 @@
     }
    ]
   },
+  "YAESU FT-470": {
+   "latest": {
+    "date": "2026-11-02",
+    "median": 86.5,
+    "low": 73.0,
+    "high": 95.0,
+    "count": 4
+   },
+   "history": [
+    {
+     "date": "2026-11-02",
+     "median": 86.5,
+     "low": 73.0,
+     "high": 95.0,
+     "count": 4
+    }
+   ]
+  },
   "YAESU FT-4XR": {
    "latest": {
     "date": "2026-11-17",
@@ -11301,6 +11477,24 @@
     }
    ]
   },
+  "YAESU FT-991 (ORIGINAL, NOT FT-991A)": {
+   "latest": {
+    "date": "2026-11-11",
+    "median": 720.0,
+    "low": 586.0,
+    "high": 782.13,
+    "count": 3
+   },
+   "history": [
+    {
+     "date": "2026-11-11",
+     "median": 720.0,
+     "low": 586.0,
+     "high": 782.13,
+     "count": 3
+    }
+   ]
+  },
   "YAESU FT-991A": {
    "latest": {
     "date": "2026-10-27",
@@ -11330,6 +11524,24 @@
      "low": 645.0,
      "high": 1700.0,
      "count": 41
+    }
+   ]
+  },
+  "YAESU FT-DX3000": {
+   "latest": {
+    "date": "2026-11-09",
+    "median": 822.47,
+    "low": 725.0,
+    "high": 950.0,
+    "count": 6
+   },
+   "history": [
+    {
+     "date": "2026-11-09",
+     "median": 822.47,
+     "low": 725.0,
+     "high": 950.0,
+     "count": 6
     }
    ]
   },
@@ -11764,11 +11976,11 @@
   },
   "YAESU FTM-400XDR": {
    "latest": {
-    "date": "2026-10-22",
-    "median": 445.0,
-    "low": 350.99,
+    "date": "2026-11-10",
+    "median": 437.97,
+    "low": 340.0,
     "high": 495.0,
-    "count": 15
+    "count": 16
    },
    "history": [
     {
@@ -11791,6 +12003,13 @@
      "low": 350.99,
      "high": 495.0,
      "count": 15
+    },
+    {
+     "date": "2026-11-10",
+     "median": 437.97,
+     "low": 340.0,
+     "high": 495.0,
+     "count": 16
     }
    ]
   },
