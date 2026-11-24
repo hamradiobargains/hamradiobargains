@@ -1,0 +1,25 @@
+{
+  "model": "MX-P50M HF amplifier",
+  "slug": "mx-p50m",
+  "searched_at": "2026-11-23T19:01:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (sold + completed, sorted ended recently, page 1 only). Query \"MX-P50M\". 1 kept (thin), and it is old (2025-06-05), new-in-box from China at $259.66 (\"or Best Offer\", not marked accepted). Parts 0, BO-accepted 0, Read Description 0. Extras sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785424",
+    "site": "qth",
+    "ask": 120,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 259.66,
+      "sold_date": "2025-06-05",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/335355213786",
+      "source": "ebay",
+      "notes": "shipping shown: $16.39. Located in China; \"or Best Offer\" listing, not marked accepted; title \"45W MX-P50M For FT-817 ICOM IC-703 Elecraft KX3\"",
+      "flags": []
+    }
+  ]
+}
