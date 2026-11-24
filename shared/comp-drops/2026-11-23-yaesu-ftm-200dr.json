@@ -1,0 +1,34 @@
+{
+  "model": "Yaesu FTM-200DR",
+  "slug": "yaesu-ftm-200dr",
+  "searched_at": "2026-11-23T19:01:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (sold + completed, sorted ended recently, page 1 only). Query \"Yaesu FTM-200DR\". 2 kept (thin). Dropped: Best offer accepted 128093504366 $250 (2026-09-26), 128093506275 $250 (2026-09-25), 267777864583 $280 (2026-09-08, 1 bid) = 3. Excluded: 117413312542 $164.99 remote-head package (head/mic/bracket only), waterproof cases/boxes. Parts 0, Read Description 0. Extras sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785457",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 145,
+      "sold_date": "2026-11-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336873523202",
+      "source": "ebay",
+      "notes": "shipping shown: $13.38. Buy It Now",
+      "flags": []
+    },
+    {
+      "price": 250,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128093501695",
+      "source": "ebay",
+      "notes": "shipping shown: $19.86. \"or Best Offer\" listing, not marked accepted",
+      "flags": []
+    }
+  ]
+}
