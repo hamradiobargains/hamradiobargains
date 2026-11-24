@@ -1,0 +1,15 @@
+{
+  "model": "Hy-Gain Ham III",
+  "slug": "hy-gain-ham-iii",
+  "searched_at": "2026-11-24T18:55:37-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Hy-Gain Ham III rotator', page 1 only. 0 comps: no Ham III sales on page 1 (Ham II, Ham IV, Tailtwister and DCU-1 results are different models and were not counted, e.g. Ham II $316 and $340 2026-11, Ham IV $316-$550). Queued ad is a rebuilt Ham III, $325 + shipping.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785555",
+    "site": "qth",
+    "ask": 325,
+    "shipping": 0
+  },
+  "comps": []
+}
