@@ -1,0 +1,97 @@
+{
+  "model": "Icom SP-20",
+  "slug": "icom-sp-20",
+  "searched_at": "2026-11-24T17:59:05-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (ICOM SP-20 latest 2026-10-06, older than 30 days). eBay sold page 1: 9 kept. Dropped 1 parts-only (336734246599 $97, labeled Parts Only though title says Working). Excluded IC-746PRO/PS-125/SP-20 station package (287628569438). OUTLIERS: $57.34 auction (vs ~$140 for the rest) and $220 (vs ~$129 for the rest).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/840163020577",
+    "site": "ebay",
+    "ask": 148.99,
+    "shipping": 40.0
+  },
+  "comps": [
+    {
+      "price": 220.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287147081213",
+      "source": "ebay",
+      "notes": "OUTLIER: $220 vs ~$129 median for the rest. Title: 'Used Operation confirmed'. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227491580393",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer. Shipping $11.88.",
+      "flags": []
+    },
+    {
+      "price": 155.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398440410497",
+      "source": "ebay",
+      "notes": "Title: '(CLEAN)'. Shipping $12.51.",
+      "flags": []
+    },
+    {
+      "price": 120.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366661500594",
+      "source": "ebay",
+      "notes": "Auction, 1 bid. Title: 'Tested Excell...'. Shipping $18.88.",
+      "flags": []
+    },
+    {
+      "price": 130.0,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206534319458",
+      "source": "ebay",
+      "notes": "Title: '(very nice)'. Shipping $32.50.",
+      "flags": []
+    },
+    {
+      "price": 149.0,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178462413773",
+      "source": "ebay",
+      "notes": "Title: 'Excellent Condition'. Shipping $28.49.",
+      "flags": []
+    },
+    {
+      "price": 127.5,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178445509151",
+      "source": "ebay",
+      "notes": "Auction, 10 bids. Title: 'Speaker only'. Shipping $16.32.",
+      "flags": []
+    },
+    {
+      "price": 99.0,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800448187580",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping $79.00.",
+      "flags": []
+    },
+    {
+      "price": 57.34,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327370701831",
+      "source": "ebay",
+      "notes": "OUTLIER: $57.34 vs ~$140 median for the rest. Auction, 14 bids. Title: 'Second Hand'. Shipping $52.66.",
+      "flags": []
+    }
+  ]
+}
