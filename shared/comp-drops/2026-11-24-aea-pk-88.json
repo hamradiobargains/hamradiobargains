@@ -1,0 +1,27 @@
+{
+  "model": "AEA PK-88",
+  "slug": "aea-pk-88",
+  "searched_at": "2026-11-24T17:59:05-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no entry). eBay sold page 1: 1 kept - thin. Dropped 2 best-offer-accepted (187213490657 $95 w/ daughter board, 237071955913 $75 3-pc lot), 1 parts-only (267806109060 $49.95 'Untested'). Excluded USB cable, PK-96, and manual.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/960239443818",
+    "site": "ebay",
+    "ask": 49.99,
+    "shipping": 10.47
+  },
+  "comps": [
+    {
+      "price": 30.0,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137722673013",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'w/ Schematic MFJ Mic Switch'. Shipping $10.15.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
