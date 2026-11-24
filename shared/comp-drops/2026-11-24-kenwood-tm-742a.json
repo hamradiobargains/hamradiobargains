@@ -1,0 +1,27 @@
+{
+  "model": "Kenwood TM-742A",
+  "slug": "kenwood-tm-742a",
+  "searched_at": "2026-11-24T05:56:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood tm-742a', page 1 (above the fewer-words section): 1 comp kept — thin. Dropped 0 best-offer-accepted, dropped 2 parts-only (168747375864 $299 'Read Discri...' Parts Only; 257677058654 $399 'AS-IS Part' lot). Excluded accessories (fan, mounting panel, backup battery, hardware kit). Comp's third-band module is not identified in its title; the trigger listing has the UT-1200 23cm module. Not in ledger.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629754",
+    "site": "eham",
+    "ask": 575.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 485.0,
+      "sold_date": "2026-11-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147673813615",
+      "source": "ebay",
+      "notes": "auction, 3 bids; shipping $39.99; title: Kenwood TM-742A Tri-Band VHF/UHF Ametuer Transceiver, w/ Triplexer, Nice!",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
