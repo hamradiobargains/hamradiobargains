@@ -1,0 +1,83 @@
+{
+  "model": "Yaesu FT-710 Field",
+  "slug": "yaesu-ft-710-field",
+  "searched_at": "2026-11-24T17:59:05-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (YAESU FT-710 FIELD latest 2026-10-10, older than 30 days). eBay sold page 1: 7 kept, FT-710 Field only. Dropped 2 best-offer-accepted (287696929367 $825, 178522636254 $899.95). Excluded FT-710 AESS sales (117523524529, 168845597176, 257671330696, 128048357796), ambiguous 'YEASU FT 710' (128128764840, also best-offer-accepted), and carry handles. No outliers. Trigger is new with MARS mod + extras; comps are mostly used/open box.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/336914947545",
+    "site": "ebay",
+    "ask": 950.0,
+    "shipping": 30.0
+  },
+  "comps": [
+    {
+      "price": 894.8,
+      "sold_date": "2026-11-06",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/366141265983",
+      "source": "ebay",
+      "notes": "Japan-located seller. Shipping $200.00.",
+      "flags": []
+    },
+    {
+      "price": 825.0,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287704929591",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer (not accepted offer). Same title as 287696929367 (best-offer-accepted Nov 2, dropped) - likely relist of same unit. Shipping $28.95.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-10-10",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/880004606948",
+      "source": "ebay",
+      "notes": "Title: 'w/ Box & Manual'. Shipping $26.27.",
+      "flags": []
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-09-30",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/318931026370",
+      "source": "ebay",
+      "notes": "Title: 'USA Model'. Same title as 178522636254 (best-offer-accepted Sep 25, dropped). Free delivery.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 760.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307171025828",
+      "source": "ebay",
+      "notes": "Auction, 2 bids. Title: 'EX+'. Shipping $13.75.",
+      "flags": []
+    },
+    {
+      "price": 720.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398316724476",
+      "source": "ebay",
+      "notes": "Auction, 10 bids. Title: 'Light Indoor Use Only. Great condition.' Shipping $54.04.",
+      "flags": []
+    },
+    {
+      "price": 860.0,
+      "sold_date": "2026-08-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298604487281",
+      "source": "ebay",
+      "notes": "Auction, 10 bids. Shipping $45.00.",
+      "flags": []
+    }
+  ]
+}
