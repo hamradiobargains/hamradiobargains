@@ -1,0 +1,251 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-23",
+  "ran_at": "2026-11-23T18:46:44-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered (ran_at after previous extras drop 2026-11-22-extras.json, ran_at 2026-11-22T18:46:46-05:00): 2026-11-23-eham.json (05:53:08; no 'Extra plausible candidates not comped' list; eHam not opened), 2026-11-23-qth.json (14:52:53; 11 priced QTH extras under that heading), 2026-11-23-ebay.json (18:00:22; no such heading; its over-cap items, incl. Yaesu G-800DXA rotor itm 880147115709 $360 + $34.23 ship, were not queued). 2026-11-23-missed-search.json is not an eham/qth/ebay drop, not covered. Previous CARRIED OVER (18, at the front): 1785443, 1785445, 1785447, 1785411, 1785457, 1785455, 1785414, 1785453, 1785408, 1785417, 1785468, 1785424, 1785456, 1785474, 1785476, 1785434, 1785421, 1785464; previous BACKLOG CARRY: none. Named extra from Leo (stored task prompt): QTH 1783910 (Yaesu '991', $600 firm), treated as the ORIGINAL Yaesu FT-991 per Leo's ruling, filed under 'Yaesu FT-991' never FT-991A; already in dropped-urls.json (not re-appended); gone again; one FT-991 sold search run (cap allowed). Queue: 18 carry-overs + 1 named + 11 fresh QTH extras = 30. Triaged 22 (live 15, gone 6 incl. 1785455 now marked SOLD, skipped for no price 1). Unworked 8 (carried over). Ledger hits 1 ad (1785511, both IC-7610 and IC-7600 ledgers used because identity is unclear; 0 searches). eBay sold searches used 15 of 15: 4O3A PGXL (0), Yaesu FL-7000 (2 kept), Palstar HF-Auto (2), LDG AT-1000 Pro original (1), Yaesu FTM-200DR (2), Inrad DMS-650 (0), Swan 240 (0), Yaesu FT-470 (4), Icom IC-R70 (3), MX-P50M (1), Kenwood SP-230 (9), DX Engineering DVA-80B-P (0), Siltronix 1011D (1), Collins KWM-2 (0), Yaesu FT-991 (3). Solid (3+): FT-470, IC-R70, SP-230, FT-991; thin: FL-7000, HF-Auto, AT-1000 Pro, FTM-200DR, MX-P50M, 1011D; zero usable: PGXL, DMS-650, Swan 240, DVA-80B-P, KWM-2. Gone: 1785414, 1785455 (title says ITS SOLD), 1785474, 1785476, 1783910, 1785499. Skipped: 1785481 Mercury Lite (no price, offers invited). Cross-posts: none seen (no serials compared). Outliers: Kenwood SP-230 itm 267810109210 ($30, below half the median of the others). Identity/uncertainty cautions: 1785511 title IC-7610 vs body IC7600 (UNCERTAIN, both ledgers written); LDG AT-1000PROLL (itm 147617419356, BO accepted) possibly a ProII typo, dropped (UNCERTAIN); FT-470 itm 366721175442 'TESTED READ' and Siltronix itm 298657614515 'read below' dropped as Read-Description type (UNCERTAIN); FT-470 itm 820221715394 'Untested' kept with as_is flag (UNCERTAIN); Inrad '650DESK' itm 840034875531 not counted for DMS-650 (UNCERTAIN); Palstar HF-Auto 1500W vs 1800W titles mixed because the ad gives no variant. Listing-wording flags carried verbatim (see work_flag): 1785408 Swan 240 'as is ... put out 70 watts in tune mode' (UNCERTAIN); 1785421 Siltronix 1011D 'selling for parts ... as is no mic ... will do the whole 10 meter band as well'; 1785434 DXE DVA 'burned capacitor (C1)'; 1785468 IC-R70 'missing small axis cover'; 1785464 KWM-2 'sale is final, no returns' and Waters 340-A Q-Multiplier installed; 1785511 'No mods'. Ask changes vs the 2026-11-22 drop: 1785411 $375 -> $365 shipped; 1785443 was recorded at the $6509.99 purchase price, live ask is $5200 + $200 shipping. Fresh extras read live this run but NOT worked (cap) and carried over with the facts seen (item/ask, as of 2026-11-23 live read): 1785504 Yaesu FTDX-5000 (variant not stated) w/ MH-31, FH-2, SM-2000 x2, DMU, boxes/manuals $2000.00; 1785501 FlexRadio FLEX-5000A w/ optional ATU and 2nd RX, 'Just a few blemishes on the top case otherwise very very clean', radio/DC cable/FireWire card+cable/printed manual, $875 plus shipping; 1785478 Kenwood TS-520 w/ external VFO, speaker, CW filter, MC-50 mic, Heil headset, pickup only cash and carry $250; 1785482 VHQ Hexbeam $975 plus shipping (was $2,220 new), 'gently used for 2 seasons ... very good shape. Spreaders could use a spray paint touch up', includes mast extension; 1785485 Heil HM-5 'works good ... correctly wired', conus shipping included, $90; 1785491 Heil Pro-Micro dual side boomset w/ AD-1YM adapter 'very good condition' $140 shipped; 1785505 Inrad DMS-629 mic + desk stand 'Almost New. Used once' w/ Icom cable and extra Yaesu mic cable $130 plus shipping; 1785486 Timewave DSP-9 'Looks and works like new', 'No returns', $85 shipped or best offer. All eight were live when read; none were added to dropped-urls. CARRIED OVER: 1785504, 1785501, 1785478, 1785482, 1785485, 1785491, 1785505, 1785486 (all QTH counter IDs; order preserved). BACKLOG CARRY: none. eBay: signed in as Leo, no challenge or CAPTCHA at any point; eHam not opened; QTH ads loaded one at a time ~4.5 s apart from Leo's Chrome. searched_at on comp drops is the file-build time (19:01 EST), not the individual search time. Comp drop file names: icom-ic-7600 ledger file uses the HHMM form (1901) because a same-day icom-ic-7600 file already existed. GitHub API from the cloud shell was denied for this scheduled run (repo not attached); all repo reads used raw files / Chrome. Timestamps -05:00 (EST).",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785443",
+      "site": "qth",
+      "title": "4O3A / FlexRadio Power Genius XL (PGXL) linear amplifier",
+      "price": 5200,
+      "shipping": 200,
+      "found_at": "2026-11-22",
+      "condition_notes": "live. Seller: \"personal pristine almost new, fully functional, cosmetically perfect legal limit linear amplifier\"; original owner, bought new from DX Engineering Aug 2026 ($6509.99 plus tax, shown in ad); \"I am asking 5200.00 + 200.00 shipping by UPS in the lower 48 ... Offer's are welcome, but please keep them respectful.\"; includes original box, manual, power cable; copy of invoice can be supplied. Comps: 4o3a-pgxl, 0 kept (no exact sold matches on eBay), thin/none.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785445",
+      "site": "qth",
+      "title": "Yaesu FL-7000 HF linear amplifier",
+      "price": 995,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "live. Seller: \"Like new. 100% operationl.\"; includes manual; \"Asking $995 plus shipping.\" (shipping amount not stated, recorded as 0). Comps: yaesu-fl-7000, 2 kept, median 1100 (thin).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785447",
+      "site": "qth",
+      "title": "Palstar HF-Auto automatic antenna tuner",
+      "price": 1199,
+      "shipping": 48,
+      "found_at": "2026-11-22",
+      "condition_notes": "live. Seller: \"mint Palstar HF Auto tuner in like new condition\"; technical manual, ferrites/power cable, original box and packing. \"Just $1199 + $48 shipped insured via UPS\". Comps: palstar-hf-auto, 2 kept, median 1324 (thin).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785411",
+      "site": "qth",
+      "title": "LDG AT-1000 Pro autotuner (original Pro, NOS) w/ RF cables",
+      "price": 365,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "live. Ad now says \"$365.00 Shipped\" (previous drop recorded $375). Seller: \"NEW OLD STOCK ... stored in its original shipping box ... doesn't look like its ever been used\"; SK estate liquidation, \"Many More available\"; includes DC power cable, interface cables for most Icom radios and a Yaesu cable for FT-857/897, two RF patch cables. Comps: ldg-at-1000pro, 1 kept, median 110 (thin; original Pro kept separate from Pro II).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785457",
+      "site": "qth",
+      "title": "Yaesu FTM-200DR dual band C4FM mobile w/ bundle",
+      "price": 350,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "live. Seller: \"gently used ... Used indoors at a base station in a smoke-free environment—clean screen, crisp audio, and works 100% as it should. $350 Shipped OBO.\"; bundle: SSM-85D mic, original box and manual, RT Systems YPS-M200-USB programming kit (USB-77 cable and software), DC power cord / mobile bracket / separation cable. Comps: yaesu-ftm-200dr, 2 kept, median 197.5 (thin).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785455",
+      "site": "qth",
+      "title": "Hermes Lite 2 with cable",
+      "price": 195,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "no longer live. Ad title now reads \"ITS SOLD\" (body: $195 shipped or best offer; \"Sold as is no return.\"). Not comped.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785414",
+      "site": "qth",
+      "title": "Heil PR781",
+      "price": 195,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "no longer live. QTH: ad number no longer in our system. Not comped.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785453",
+      "site": "qth",
+      "title": "Inrad DMS-650 desk mic",
+      "price": 150,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "live. Seller: \"almost new Inrad deck mic DMS-650 for $150 shipped in the lower 48\". Comps: inrad-dms-650, 0 kept (eBay: no exact matches).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785408",
+      "site": "qth",
+      "title": "Swan 240 HF transceiver",
+      "price": 140,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "live. Seller: \"SWAN 240 ... sn/402331. Cosmetically fair-almost good, paint scratches ... a dent on front left cover edge. It put out 70 watts in tune mode, where I used it on 40m only. $140 included conus shipping, as is\" (payment: money order or personal check after it clears, then ships). Comps: swan-240, 0 kept (only parts-only/untested sales on eBay).",
+      "work_flag": "as is; \"It put out 70 watts in tune mode, where I used it on 40m only\" (UNCERTAIN whether this means needs-work)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785417",
+      "site": "qth",
+      "title": "Yaesu FT-470 VHF/UHF HT",
+      "price": 125,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "live. Seller: \"Full Duplex in VGC. Fully functional and ready to work the birds! Includes original YHA-28 antenna, PA-6 DC charger/adapter and a new aftermarket speaker mic. Rare find in this condition. $125 to your door UPS CONUS.\" Comps: yaesu-ft-470, 4 kept, median 86.50 (solid).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785468",
+      "site": "qth",
+      "title": "Icom IC-R70 HF receiver w/ FL-32, FL-30, FL-33",
+      "price": 125,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "live. Seller: \"working radio. Well used condition. missing small axis cover. $125.00 Plus shipping USA only\" (shipping amount not stated, recorded as 0); FL-32 CW, FL-30 SSB, FL-33 AM filters installed. Comps: icom-ic-r70, 3 kept, median 240 (solid).",
+      "work_flag": "\"Well used condition. missing small axis cover\"",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785424",
+      "site": "qth",
+      "title": "MX-P50M HF amp (5 W in, ~45 W out)",
+      "price": 120,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "live. Seller: \"Chinese import in excellent condition\"; includes 8-pin mini-DIN interface cable for the Yaesu FT-817/818 and a fused DC power cord; \"$120 shipped.\" Comps: mx-p50m, 1 kept (2025-06-05, new from China), median 259.66 (thin, old).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785456",
+      "site": "qth",
+      "title": "Kenwood SP-230 external speaker",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "live. Seller: \"Exceptionally clean and 100 percent functioning SP-230 ... From a smoke free shack. $100 shipped OBO.\" Comps: kenwood-sp-230, 9 kept, median 89.99 (solid; 1 outlier $30).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785474",
+      "site": "qth",
+      "title": "LDG RVS-8",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "no longer live. QTH: ad number no longer in our system. Not comped.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785476",
+      "site": "qth",
+      "title": "Diamond SX-400",
+      "price": 90,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "no longer live. QTH: ad number no longer in our system. Not comped.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785434",
+      "site": "qth",
+      "title": "DX Engineering DVA dual vertical array switch for 80 m (DXE-DVA-80B-P)",
+      "price": 175,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "live. Seller: \"In good physical condition but has a burned capacitor (C1). Should be an easy repair. ... A photo of the unfortunate capacitor is available. Asking $175 shipped in USPS Priority Flat Rate Box in conus.\" Comps: dx-engineering-dxe-dva-80b-p, 0 kept (eBay: no exact matches).",
+      "work_flag": "\"has a burned capacitor (C1). Should be an easy repair\" (needs repair)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785421",
+      "site": "qth",
+      "title": "Siltronix 1011D (Comanche) HF transceiver, digital VFO, no mic",
+      "price": 425,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "live. Seller: \"a beautiful Siltronx 1011d with digital vfo only one around that I know it looks brand new I am say selling for parts for part swapper sselling as is no mic $425.00 plues shipping it will do the whole 10 meter band as well\" (shipping amount not stated, recorded as 0). Comps: siltronix-1011d, 1 kept, median 600 (thin).",
+      "work_flag": "\"selling for parts for part swapper sselling as is no mic\"; \"it will do the whole 10 meter band as well\" (transmit-coverage wording)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785464",
+      "site": "qth",
+      "title": "Collins KWM-2 w/ 516F-2 power supply, Waters 340-A Q-multiplier",
+      "price": 1200,
+      "shipping": 0,
+      "found_at": "2026-11-22",
+      "condition_notes": "live. Seller: \"REFIRBISHED ... All reailgned/recapd, excellent condition, runs very well! Has Waters 340-A Q-Multiplier/Notch filter installed. 516F-2 Power Supply has new cap board and new 5x7 speaker cone\"; \"(this is not a fleabay POS \\\"parts only\\\" radio! It has been put within specs and is ready to use on the air)\"; \"$1200 Bank Check or Money Order only\"; \"shipping is on you or pickup in Raton, NM\"; \"vintage radio, so sale is final, no returns\"; contact only through QTH. Shipping amount not stated, recorded as 0. Comps: collins-kwm-2, 0 kept (all KWM-2 sales BO-accepted or parts).",
+      "work_flag": "\"vintage radio, so sale is final, no returns\"; Waters 340-A Q-Multiplier/Notch filter installed (modification); \"REFIRBISHED ... All reailgned/recapd\"",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "Yaesu \"991\" (treated as original FT-991 per Leo)",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-11-23",
+      "condition_notes": "no longer live. QTH: ad number no longer in our system. Named extra from Leo ($600 firm), treated as the ORIGINAL Yaesu FT-991 (never FT-991A). comps: yaesu-ft-991, 3 kept, median 720 (one FT-991 sold search run because the ad is gone and the cap allowed it).",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785511",
+      "site": "qth",
+      "title": "Icom IC-7610 (title) / \"IC7600\" (body)",
+      "price": 2000,
+      "shipping": 0,
+      "found_at": "2026-11-23",
+      "condition_notes": "live. Title says \"Icom IC-7610\", body says \"Selling a nice IC7600 amateur radio. No mods Local sale only $2000\". Model identity UNCERTAIN. Comps: ledger hit for both models (icom-ic-7610 median 2400 count 9 2026-11-17; icom-ic-7600 median 1147.5 count 4 2026-11-13) - ledger hit, individual sales not auditable.",
+      "work_flag": "\"No mods\"; local sale only (model identity UNCERTAIN: title IC-7610 vs body IC7600)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785499",
+      "site": "qth",
+      "title": "Icom IC-PS15",
+      "price": 40,
+      "shipping": 0,
+      "found_at": "2026-11-23",
+      "condition_notes": "no longer live. QTH: ad number no longer in our system. Not comped.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785481",
+      "site": "qth",
+      "title": "Mercury Lite HF amp",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-23",
+      "condition_notes": "live. Skipped, not comped: ad names no price. Seller: \"I want what the market will give me. Make an offer and see what we can do. Will ship from Highland,IL. Add the shipping cost into your offer--at least $50.\"; \"new one in perfect condition. Works great\"; \"PayPal with protection only. NO RETURN\" (previous drop recorded $50 - that is the shipping figure, not an ask).",
+      "work_flag": "\"NO RETURN\" (offers invited, no asking price)",
+      "seller_feedback": ""
+    }
+  ]
+}
