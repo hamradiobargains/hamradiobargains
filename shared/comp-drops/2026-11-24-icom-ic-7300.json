@@ -1,0 +1,505 @@
+{
+  "model": "Icom IC-7300",
+  "slug": "icom-ic-7300",
+  "searched_at": "2026-11-24T05:56:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-7300', page 1 (no fewer-words section on page). Kept 52 comps (median $800.00). Dropped 18 best-offer-accepted, dropped 3 parts-only. Excluded 8 IC-7300MK2 sales (different model) and all accessories/manuals. Outliers flagged: OUTLIER 112189168069 $1,237.29 vs ~$800; OUTLIER 178546500297 $1,500.00 vs ~$800; OUTLIER 397214552229 $1,250.99 vs ~$800; OUTLIER 407247848682 $385.00 vs ~$800. Ledger entry ICOM IC-7300 was 33 days old (2026-10-22), so search ran.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629751",
+    "site": "eham",
+    "ask": 750.0,
+    "shipping": 0.0
+  },
+  "comps": [
+    {
+      "price": 700.0,
+      "sold_date": "2026-11-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198798100795",
+      "source": "ebay",
+      "notes": "auction, 10 bids; shipping $50.00; title: Icom 7300 02 Direct Sampling Amateur Radio - Black",
+      "flags": []
+    },
+    {
+      "price": 930.0,
+      "sold_date": "2026-11-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206703878150",
+      "source": "ebay",
+      "notes": "fixed price; shipping $72.71; title: Icom IC-7300 Ham Radio HF Transceiver + Mic + DC Cable (pristine)",
+      "flags": []
+    },
+    {
+      "price": 799.99,
+      "sold_date": "2026-11-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327450502351",
+      "source": "ebay",
+      "notes": "auction, 10 bids; shipping $34.00; title: ICOM IC-7300 WITH BOX",
+      "flags": []
+    },
+    {
+      "price": 1199.95,
+      "sold_date": "2026-11-12",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/117438619830",
+      "source": "ebay",
+      "notes": "fixed price; free shipping; title: Icom IC-7300 100W Touchscreen HF/50MHz Transceiver",
+      "flags": []
+    },
+    {
+      "price": 771.0,
+      "sold_date": "2026-11-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307264799802",
+      "source": "ebay",
+      "notes": "auction, 4 bids; shipping $29.50; title: Icom IC-7300 Ham Radio Transceiver",
+      "flags": []
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198754829627",
+      "source": "ebay",
+      "notes": "auction, 40 bids; free shipping; title: Icom IC-7300 Base Transceiver amateur Ham Radio HF & 50MHz -- Free Shipping",
+      "flags": []
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820313798465",
+      "source": "ebay",
+      "notes": "fixed price; shipping $28.00; title: Icom IC-7300 HF/50MHz All Mode Transceiver with Mic and Power Cable",
+      "flags": []
+    },
+    {
+      "price": 1237.29,
+      "sold_date": "2026-11-04",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/112189168069",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,237.29 vs ~$800 median for the rest; fixed price; free shipping; title: Icom IC-7300 HF/50MHz 100W Base Transceiver with Nifty! Mini Manual Bundle!!",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 775.0,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267827658184",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); shipping $39.69; title: Icom IC-7300 HF/50MHz 100W Ham Radio Transceiver w/ Mars Mod, Mic, Manuals, Box",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 695.0,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377593005239",
+      "source": "ebay",
+      "notes": "fixed price; shipping $85.00; title: Icom IC-7300 HF/50MHz Transceiver with MARS Mod, Mic, Power Cord, Original Box",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 949.99,
+      "sold_date": "2026-11-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237154650214",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); shipping $32.34; title: Icom IC-7300 HF/50MHz SDR Ham Radio Transceiver 100W – Tested & Working",
+      "flags": []
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257815881941",
+      "source": "ebay",
+      "notes": "auction, 19 bids; shipping $80.00; title: Icom IC-7300 HF/50MHz 100W Transceiver",
+      "flags": []
+    },
+    {
+      "price": 999.0,
+      "sold_date": "2026-10-31",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/287648884581",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); shipping $10.50; title: Icom IC-7300 HF/50MHz with Ham Radio Transceiver full kit(everything included)",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2026-10-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128146745320",
+      "source": "ebay",
+      "notes": "auction, 5 bids; shipping $45.00; title: Icom IC-7300 HF/50MHz Direct Sampling Transceiver US Version 100 Watt",
+      "flags": []
+    },
+    {
+      "price": 779.0,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/900015110575",
+      "source": "ebay",
+      "notes": "auction, 14 bids; shipping $35.00; title: Icom IC-7300 HF/50MHz 100W Transceiver Ham Radio Mint",
+      "flags": []
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147646494668",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); shipping $39.69; title: Icom IC-7300 HF/50MHz 100W Ham Radio Transceiver w/ Mars Mod, Mic, Manuals, Box",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 1500.0,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178546500297",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,500.00 vs ~$800 median for the rest; fixed price (or Best Offer, not accepted-offer); shipping $19.86; title: Icom IC-7300 - Radio Transceiver",
+      "flags": []
+    },
+    {
+      "price": 896.79,
+      "sold_date": "2026-10-16",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/236870519336",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); shipping $142.40; title: ICOM 7300 HF+50MHz Amateur Transceiver 100W SSB CW RTTY AM FM Ham Radio IC New",
+      "flags": []
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-10-14",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/940014489293",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); shipping $15.08; title: Icom IC-7300 Ham Radio Transceiver HF/50MHz LCD Screen Black LSB",
+      "flags": []
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880011269733",
+      "source": "ebay",
+      "notes": "fixed price; shipping $99.10; title: Icom IC-7300 HF/50MHz Transceiver - Excellent working and cosmetic condition",
+      "flags": []
+    },
+    {
+      "price": 860.0,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800766460603",
+      "source": "ebay",
+      "notes": "auction, 10 bids; shipping $25.00; title: Icom IC-7300 HF/50MHz Direct Sampling Transceiver US Version 100 Watt",
+      "flags": []
+    },
+    {
+      "price": 729.95,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/920013860925",
+      "source": "ebay",
+      "notes": "fixed price; shipping $34.95; title: Icom IC-7300 HF/50MHz Ham Radio Transceiver Ex Cond Orig Box & Accessories /CE",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336835400701",
+      "source": "ebay",
+      "notes": "fixed price; shipping $13.79; title: Icom IC-7300 HF/50MHz 100W Transceiver",
+      "flags": []
+    },
+    {
+      "price": 707.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189033914843",
+      "source": "ebay",
+      "notes": "auction, 9 bids; shipping $17.17; title: Icom IC-7300 HF/50MHz 100W Transceiver",
+      "flags": []
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-10-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336828005688",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); shipping $57.19; title: Icom IC-7300 HF/50MHz 100W Transceiver",
+      "flags": []
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2026-10-05",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/307212494282",
+      "source": "ebay",
+      "notes": "fixed price; shipping $25.00; title: Icom IC-7300 HF/50MHz 100W Base Radio Amateur Ham Station USA Model Brand New",
+      "flags": []
+    },
+    {
+      "price": 586.0,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318930539203",
+      "source": "ebay",
+      "notes": "auction, 8 bids; free shipping; title: Icom IC-7300 HF/50MHz Sampling Transceiver 100 Watt HF/50MHz GOOD CONDITION",
+      "flags": []
+    },
+    {
+      "price": 795.0,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158352058165",
+      "source": "ebay",
+      "notes": "fixed price; free shipping; title: iCOM IC-7300 HF Transceiver, Heil Hdset, Hand Mic, MARS, Mt Brkt, Owner Guide",
+      "flags": [
+        "extras_included",
+        "modified"
+      ]
+    },
+    {
+      "price": 1250.99,
+      "sold_date": "2026-10-01",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/397214552229",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,250.99 vs ~$800 median for the rest; fixed price; free shipping; title: Icom IC-7300 HF/50MHz 100W Transceiver",
+      "flags": []
+    },
+    {
+      "price": 550.0,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117440690735",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); shipping $11.88; title: Icom IC-7300 HF/50MHz Ham Radio Transceiver LCD Screen USB Black",
+      "flags": []
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307096264004",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); shipping $9.27; title: Icom IC-7300 HF/50MHz 100W Ham Radio Transceiver LCD Screen SSB CW AM FM",
+      "flags": []
+    },
+    {
+      "price": 686.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128091548808",
+      "source": "ebay",
+      "notes": "auction, 33 bids; shipping $139.86; title: Icom IC-7300 HF/50MHz Direct Sampling Transceiver US Version 100 Watt",
+      "flags": []
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278406272993",
+      "source": "ebay",
+      "notes": "fixed price; shipping $75.00; title: iCOM IC-7300 HF Transceiver, Hand Mic, Manual, Box",
+      "flags": []
+    },
+    {
+      "price": 825.0,
+      "sold_date": "2026-09-26",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/267778026773",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); free shipping; title: Icom IC-7300 HF/50MHz Direct Sampling Transceiver US Version 100 Watt",
+      "flags": []
+    },
+    {
+      "price": 385.0,
+      "sold_date": "2026-09-26",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/407247848682",
+      "source": "ebay",
+      "notes": "OUTLIER: $385.00 vs ~$800 median for the rest; fixed price (or Best Offer, not accepted-offer); shipping $75.33; title: NIB Icom IC-7300 Dual Band HF/50 MHz Ham Radio Transceiver w/ Manual Cables Box",
+      "flags": []
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178517033488",
+      "source": "ebay",
+      "notes": "fixed price; shipping $60.26; title: Icom IC-7300 HF 50MHz Ham Radio Transceiver + Mic + Manual (US version, nice)",
+      "flags": []
+    },
+    {
+      "price": 890.0,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117422164852",
+      "source": "ebay",
+      "notes": "auction, 19 bids; free shipping; title: ICOM IC-7300 HF/50MHz 100W Transceiver With Extras!",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 809.99,
+      "sold_date": "2026-09-25",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/178496482308",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); shipping $69.49; title: Icom IC-7300 HF/50MHz 100W SDR Transceiver, HM-219 Mic, Box, Manual, Tested.",
+      "flags": []
+    },
+    {
+      "price": 640.0,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188962333403",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); shipping $24.87; title: Icom IC-7300 HF/50MHz Direct Sampling Transceiver US Version 100w - Barely Used",
+      "flags": []
+    },
+    {
+      "price": 727.01,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298671629451",
+      "source": "ebay",
+      "notes": "auction, 30 bids; shipping $15.59; title: ICOM IC-7300 HF/50 MHz 100W SDR Transceiver w/Power Cable, Manuals & Box - NICE!",
+      "flags": []
+    },
+    {
+      "price": 749.99,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188939621763",
+      "source": "ebay",
+      "notes": "fixed price; shipping $18.93; title: ICOM IC-7300 HF/50MHz Transceiver MARS Mod + PTRX-7300 Panadapter Box",
+      "flags": [
+        "extras_included",
+        "modified"
+      ]
+    },
+    {
+      "price": 500.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206561929086",
+      "source": "ebay",
+      "notes": "auction, 1 bid; shipping $50.00; title: icom 7300 transceiver",
+      "flags": []
+    },
+    {
+      "price": 600.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307177694775",
+      "source": "ebay",
+      "notes": "auction, 2 bids; shipping $100.00; title: ICOM 7300 HF +50MHz 100W Transceiver - Excellent condition",
+      "flags": []
+    },
+    {
+      "price": 806.0,
+      "sold_date": "2026-09-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117398287182",
+      "source": "ebay",
+      "notes": "auction, 28 bids; shipping $37.82; title: ICOM 7300 HF +50MHz 100W Transceiver - Excellent condition in original box",
+      "flags": []
+    },
+    {
+      "price": 729.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318833927527",
+      "source": "ebay",
+      "notes": "auction, 1 bid; free shipping; title: Icom IC-7300 HF/50MHz Sampling Transceiver 100 Watt HF/50MHz EXCELLENT CONDITION",
+      "flags": []
+    },
+    {
+      "price": 840.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158266946466",
+      "source": "ebay",
+      "notes": "fixed price; shipping $29.00; title: Icom 7300 Ham Radio , Excellent condition",
+      "flags": []
+    },
+    {
+      "price": 799.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327342001491",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); free shipping; title: Icom IC-7300 HF/50MHz Direct Sampling Transceiver US Version 100 Watt HF/50MHz.",
+      "flags": []
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178462444357",
+      "source": "ebay",
+      "notes": "auction, 26 bids; shipping $35.00; title: Icom IC-7300 100W Transceiver",
+      "flags": []
+    },
+    {
+      "price": 670.0,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336785288453",
+      "source": "ebay",
+      "notes": "fixed price; shipping $21.86; title: Icom IC-7300 HF/50MHz Direct Sampling Transceiver US Version 100 Watt",
+      "flags": []
+    },
+    {
+      "price": 750.0,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298616403622",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); shipping $55.00; title: ICOM IC-7300 HF/50 MHz 100W Radio SDR Transceiver w/ MARS mod & SM-50 Desk Mic",
+      "flags": [
+        "extras_included",
+        "modified"
+      ]
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227493971661",
+      "source": "ebay",
+      "notes": "auction, 1 bid; shipping $11.89; title: Icom IC-7300 Ham Radio",
+      "flags": []
+    },
+    {
+      "price": 949.0,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128052613851",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted-offer); free shipping; title: ICOM IC-7300 HF/50MHz SDR Transceiver – Excellent – Original Box – Works Perfect",
+      "flags": []
+    }
+  ]
+}
