@@ -1,0 +1,15 @@
+{
+  "model": "Ameritron AL-800H",
+  "slug": "ameritron-al-800h",
+  "searched_at": "2026-11-24T18:55:37-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Ameritron AL-800H', page 1 only. 0 comps: no AL-800H sold on page 1 (only AL-811/AL-811H/AL-80B/AL-R11H, which are different models and were not counted). Ledger for AL-800H is count 1, 2026-08-17, median 1550 - not a ledger hit. Queued ad is pickup only.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785548",
+    "site": "qth",
+    "ask": 1800,
+    "shipping": 0
+  },
+  "comps": []
+}
