@@ -25,17 +25,29 @@
     {
       "term": "palstar auto tuner",
       "searched_at": "2026-11-21T00:07:08-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Palstar HF-Auto",
+      "status": "worked",
+      "worked_at": "2026-11-24",
+      "result": "2026-11-24-palstar-hf-auto.json, 2 comps (low confidence; generic term priced as Palstar HF-Auto; AT-Auto kept separate)"
     },
     {
       "term": "th 78",
       "searched_at": "2026-11-21T00:06:08-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Kenwood TH-78A",
+      "status": "worked",
+      "worked_at": "2026-11-24",
+      "result": "2026-11-24-kenwood-th-78a.json, 3 comps (low confidence; 1 outlier flagged; Japan-market TH-78 kept separate)"
     },
     {
       "term": "th 79",
       "searched_at": "2026-11-21T00:06:04-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Kenwood TH-79A",
+      "status": "worked",
+      "worked_at": "2026-11-24",
+      "result": "2026-11-24-kenwood-th-79a.json, 2 comps (low confidence)"
     },
     {
       "term": "tm 2520",
