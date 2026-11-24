@@ -1,0 +1,15 @@
+{
+  "model": "Palstar AT1KP",
+  "slug": "palstar-at1kp",
+  "searched_at": "2026-11-24T17:59:05-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no entry). eBay sold page 1: 0 kept - thin, no usable comps. Dropped 1 best-offer-accepted (336811302427 $380), 1 parts-only that was also best-offer-accepted (227506054298 $200 'Parts or Repair').",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/257870361844",
+    "site": "ebay",
+    "ask": 450.0,
+    "shipping": 26.55
+  },
+  "comps": []
+}
