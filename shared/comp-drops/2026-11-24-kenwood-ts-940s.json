@@ -1,0 +1,67 @@
+{
+  "model": "Kenwood TS-940S",
+  "slug": "kenwood-ts-940s",
+  "searched_at": "2026-11-24T14:59:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only (47 results above 'fewer words', most were accessories/parts - meters, batteries, cables, filters, PLL/PA units - left out). Ledger miss: KENWOOD TS-940S latest date 2026-10-06 is older than 30 days. Kept 5. Dropped 4 best-offer-accepted (840116097281 $600 MARS mod; 860008719051, 158247160564, 398045650423 - these three were also Parts Only) and 7 parts-only (198747553986, 960200595956, 307182886478, 168674175503, 227503048425, 227501269628, 117283095173 - the last titled 'Working' but eBay-labeled Parts Only). OUTLIERS flagged: $200 (800914478647, untested as-is auction) vs ~$1,195 median of the rest; $1,400 (900005600013, with MC-60 mic) vs ~$875 median of the rest.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785538",
+    "site": "qth",
+    "ask": 300.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 200.0,
+      "sold_date": "2026-11-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800914478647",
+      "source": "ebay",
+      "notes": "OUTLIER: $200 vs ~$1,195 median of the other kept comps. Auction, 1 bid. Title: 'Untested As Is'. +$200.00 delivery shown.",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 1400.0,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/900005600013",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,400 vs ~$875 median of the other kept comps. Fixed price 'or Best Offer' (not shown as accepted). Title: '& MC-60 Mic Combo'. +$94.61 delivery shown.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1290.0,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128008695202",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not shown as accepted). Title says 'Working'. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178546441890",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: '+ Box (A+ cosmetics, one owner)'. +$211.85 delivery shown.",
+      "flags": []
+    },
+    {
+      "price": 649.99,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198614962422",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'KENWOOD TS-940S AT HF Transceiver' (AT tuner version). +$89.76 delivery shown.",
+      "flags": [
+        "option_installed"
+      ]
+    }
+  ]
+}
