@@ -1,0 +1,25 @@
+{
+  "model": "LDG AT-1000 Pro (original, NOT Pro II)",
+  "slug": "ldg-at-1000pro",
+  "searched_at": "2026-11-23T19:01:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (sold + completed, sorted ended recently, page 1 only). Query \"LDG AT-1000 Pro\". Original AT-1000Pro kept SEPARATE from AT-1000ProII (9 ProII sales on the page were left out). 1 kept (thin). Dropped: Best offer accepted 147617419356 $300 (2026-10-03, title \"AT-1000PROLL\" - possible typo for ProII; identity UNCERTAIN) = 1. Parts 0, Read Description 0. Ledger entry for the original is count 2 / 2026-10-09 (median 199.97), now stale. Extras sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785411",
+    "site": "qth",
+    "ask": 365,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 110,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168781868481",
+      "source": "ebay",
+      "notes": "shipping shown: $7.32. Buy It Now; title \"AT-1000Pro Autotuner Automatic Antenna Tuner 12-14V Black\"",
+      "flags": []
+    }
+  ]
+}
