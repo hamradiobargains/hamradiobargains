@@ -1,0 +1,15 @@
+{
+  "model": "4O3A PGXL (FlexRadio Power Genius XL)",
+  "slug": "4o3a-pgxl",
+  "searched_at": "2026-11-23T19:01:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (sold + completed, sorted ended recently, page 1 only). Query \"4O3A Power Genius XL\": eBay showed \"No exact matches found\"; every result was in the fewer-words section and none was a PGXL, so 0 comps (not a signal of price). Ledger has no entry for this model. Extras sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785443",
+    "site": "qth",
+    "ask": 5200,
+    "shipping": 200
+  },
+  "comps": []
+}
