@@ -1,0 +1,15 @@
+{
+  "model": "Collins KWM-2 (not KWM-2A)",
+  "slug": "collins-kwm-2",
+  "searched_at": "2026-11-23T19:01:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (sold + completed, sorted ended recently, page 1 only). Query \"Collins KWM-2\". 0 kept: every KWM-2 transceiver sale on the page was Best offer accepted or Parts Only, and KWM-2A (a different model) was left out. Dropped Best offer accepted (KWM-2): 940092773113 $599 (11-18), 117459223973 $494.99 (10-22, also Parts Only), 117220136252 $489.99 (10-10, also Parts Only), 128079621157 $385 (09-15) = 4. Dropped parts-only (KWM-2): 117223335550 $500 (10-21), 198690195347 $875 (10-10, \"STATION PAC...\"), 198611436287 $400 (09-05, \"(untested)\", ship $54.50) = 3. Read Description 0. Many power-supply/parts/accessory sales excluded. Extras sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785464",
+    "site": "qth",
+    "ask": 1200,
+    "shipping": 0
+  },
+  "comps": []
+}
