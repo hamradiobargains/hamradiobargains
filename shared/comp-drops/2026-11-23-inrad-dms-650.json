@@ -1,0 +1,15 @@
+{
+  "model": "Inrad DMS-650",
+  "slug": "inrad-dms-650",
+  "searched_at": "2026-11-23T19:01:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (sold + completed, sorted ended recently, page 1 only). Query \"Inrad DMS-650\": eBay showed \"No exact matches found\"; all results were in the fewer-words section (ignored), so 0 comps. For reference only, NOT counted: 840034875531 \"INRAD 650DESK MIC AND STAND\" $71.00 (2 bids, sold 2026-10-25, ship $7.95) - possibly the same mic, UNCERTAIN; DMS-629 open-box $139.95 and DMS-628 $115.95 are different models. Extras sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785453",
+    "site": "qth",
+    "ask": 150,
+    "shipping": 0
+  },
+  "comps": []
+}
