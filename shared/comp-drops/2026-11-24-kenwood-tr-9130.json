@@ -1,0 +1,15 @@
+{
+  "model": "Kenwood TR-9130",
+  "slug": "kenwood-tr-9130",
+  "searched_at": "2026-11-24T17:59:05-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no entry). eBay sold page 1: 0 kept - thin, no usable comps. Dropped 3 parts-only (860162755123 $60.95 also best-offer-accepted, 147677365560 $69.95, 168641600021 $29) and 1 best-offer-accepted (287511758782 $200, title 'Untested As-Is').",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/206725234433",
+    "site": "ebay",
+    "ask": 197.0,
+    "shipping": 8.44
+  },
+  "comps": []
+}
