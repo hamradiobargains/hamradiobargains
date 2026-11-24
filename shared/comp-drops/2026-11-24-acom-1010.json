@@ -1,0 +1,25 @@
+{
+  "model": "ACOM 1010",
+  "slug": "acom-1010",
+  "searched_at": "2026-11-24T15:00:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only (4 results above 'fewer words'). Ledger miss: ACOM 1010 count 1. Kept 1. Dropped 2 best-offer-accepted (820332580935 $2,650 shown, 287598977570 $1,750 shown) and 1 parts-only (820208444691, Parts Only auction $813.69). No outliers. Thin (1 comp).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785569",
+    "site": "qth",
+    "ask": 2000.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1740.0,
+      "sold_date": "2026-08-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198585027496",
+      "source": "ebay",
+      "notes": "Buy It Now. +$128.10 delivery shown.",
+      "flags": []
+    }
+  ]
+}
