@@ -168,6 +168,26 @@
       .logthis{ margin-top:16px; display:none; }
       .logthis.show{ display:block; }
 
+      /* ---------- POTA activators panel ---------- */
+      .pota-card{ margin-top:20px; }
+      .pota-head{ display:flex; flex-wrap:wrap; gap:8px; align-items:flex-start; justify-content:space-between; }
+      .pota-updated{ color:var(--muted); font-size:12.5px; white-space:nowrap; padding-top:6px; }
+      .pota-list{ margin-top:6px; }
+      .pota-row{
+        display:flex; flex-wrap:wrap; gap:4px 14px; align-items:baseline; width:100%;
+        background:none; border:none; border-bottom:1px solid var(--border);
+        color:var(--text); text-align:left; padding:10px 4px; cursor:pointer;
+        font:inherit;
+      }
+      .pota-row:hover{ background:rgba(255,140,59,.06); }
+      .pota-row .p-call{ font-weight:800; letter-spacing:1px; font-size:16.5px; white-space:nowrap; }
+      .pota-row .p-park{ color:var(--text); font-size:14.5px; }
+      .pota-row .p-park .p-ref{ color:var(--muted); font-size:13px; white-space:nowrap; }
+      .pota-row .p-fm{ font-weight:700; white-space:nowrap; font-variant-numeric:tabular-nums; }
+      .pota-row .p-geo{ color:var(--accent); font-size:13.5px; white-space:nowrap; }
+      .pota-row .p-age{ color:var(--muted); font-size:13px; margin-left:auto; white-space:nowrap; }
+      .pota-quiet{ color:var(--muted); font-size:15px; padding:14px 4px 4px; margin:0; }
+
       /* ---------- Log table ---------- */
       .log-card{ margin-top:20px; }
       .log-head{ display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between; }
@@ -228,6 +248,18 @@
           <p class="hint" id="homeStatus">Beam headings from: Burlington, NC (our home QTH)</p>
         </div>
       </div>
+
+      <section class="card pota-card" aria-label="Parks on the Air activators on the air now">
+        <div class="pota-head">
+          <div>
+            <h2>Activators on the air now</h2>
+            <p class="sub" style="margin:0;">Live spots from <a href="https://pota.app" target="_blank" rel="noopener">Parks on the Air</a> &middot; <span id="potaCount">checking&hellip;</span></p>
+          </div>
+          <span class="pota-updated" id="potaUpdated"></span>
+        </div>
+        <div class="pota-list" id="potaList"><p class="pota-quiet">Loading activator spots&hellip;</p></div>
+        <p class="hint">Tap a spot to look the activator up and set up the log form with their frequency and mode.</p>
+      </section>
 
       <div class="cols">
         <section class="card" aria-label="Callsign lookup">
@@ -986,6 +1018,125 @@
             saveLog(); renderLog();
           }
         });
+
+        /* ---------- POTA activators panel ---------- */
+        var POTA_URL = 'https://api.pota.app/spot/activator';
+        var POTA_CAP = 25;
+        var potaSpots = [];
+        function potaParseTime(t) {
+          var str = String(t || '');
+          if (!str) return NaN;
+          if (!/(Z|[+-]\d{2}:?\d{2})$/i.test(str)) str += 'Z';
+          return Date.parse(str);
+        }
+        function potaAge(t) {
+          var ms = Date.now() - potaParseTime(t);
+          if (!isFinite(ms)) return '';
+          var min = Math.floor(ms / 60000);
+          if (min < 1) return 'just now';
+          if (min === 1) return '1 min ago';
+          if (min < 60) return min + ' min ago';
+          var hr = Math.floor(min / 60);
+          return hr + (hr === 1 ? ' hr ago' : ' hrs ago');
+        }
+        function potaMhz(khz) {
+          var f = parseFloat(khz);
+          if (!isFinite(f) || f <= 0) return '';
+          return (f / 1000).toFixed(3).replace(/0+$/, '').replace(/\.$/, '');
+        }
+        function potaBand(khz) {
+          var f = parseFloat(khz);
+          if (!isFinite(f)) return '';
+          var ranges = [
+            [1800, 2000, '160m'], [3500, 4000, '80m'], [5330, 5406, '60m'],
+            [7000, 7300, '40m'], [10100, 10150, '30m'], [14000, 14350, '20m'],
+            [18068, 18168, '17m'], [21000, 21450, '15m'], [24890, 24990, '12m'],
+            [28000, 29700, '10m'], [50000, 54000, '6m'], [144000, 148000, '2m'],
+            [222000, 225000, '1.25m'], [420000, 450000, '70cm'],
+            [902000, 928000, '33cm'], [1240000, 1300000, '23cm']
+          ];
+          for (var i = 0; i < ranges.length; i++) {
+            if (f >= ranges[i][0] && f <= ranges[i][1]) return ranges[i][2];
+          }
+          return '';
+        }
+        function potaMode(m) {
+          var up = String(m || '').trim().toUpperCase();
+          if (!up) return '';
+          if (up === 'USB' || up === 'LSB') return 'SSB';
+          if (up === 'PSK' || up === 'PSK31') return 'PSK31';
+          var known = ['SSB', 'CW', 'FM', 'AM', 'FT8', 'FT4', 'RTTY', 'SSTV'];
+          for (var i = 0; i < known.length; i++) if (up === known[i]) return up;
+          return 'Other';
+        }
+        function renderPota() {
+          var list = $('potaList');
+          if (!potaSpots.length) {
+            $('potaCount').textContent = 'none spotted right now';
+            list.innerHTML = '<p class="pota-quiet">Activator spots unavailable right now.</p>';
+            return;
+          }
+          $('potaCount').textContent = potaSpots.length + (potaSpots.length === 1 ? ' activator' : ' activators') + ' on the air' +
+            (potaSpots.length > POTA_CAP ? ' · showing the newest ' + POTA_CAP : '');
+          var rows = '';
+          var n = Math.min(potaSpots.length, POTA_CAP);
+          for (var i = 0; i < n; i++) {
+            var sp = potaSpots[i];
+            var mhz = potaMhz(sp.frequency);
+            var park = sp.parkName || sp.name || '';
+            var geo = geoTo(sp.latitude, sp.longitude);
+            var geoTxt = geo ? '&asymp; ' + Math.round(geo.miles).toLocaleString() + ' mi &middot; beam ' + Math.round(geo.brg) + '&deg; ' + cardinal16(geo.brg) : '';
+            rows += '<button type="button" class="pota-row" data-pota="' + i + '">' +
+              '<span class="p-call">' + esc(sp.activator) + '</span>' +
+              '<span class="p-park">' + esc(park) + (sp.reference ? ' <span class="p-ref">' + esc(sp.reference) + '</span>' : '') + '</span>' +
+              '<span class="p-fm">' + (mhz ? esc(mhz) + ' MHz' : '') + (sp.mode ? ' &middot; ' + esc(sp.mode) : '') + '</span>' +
+              (geoTxt ? '<span class="p-geo">' + geoTxt + '</span>' : '') +
+              '<span class="p-age">' + esc(potaAge(sp.spotTime)) + '</span>' +
+              '</button>';
+          }
+          list.innerHTML = rows;
+          var d = new Date();
+          $('potaUpdated').textContent = 'Updated ' + pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()) + ' UTC';
+        }
+        function refreshPota() {
+          fetchJson(POTA_URL).then(function (d) {
+            if (!Array.isArray(d)) { potaSpots = []; renderPota(); return; }
+            potaSpots = d.filter(function (sp) {
+              return sp && sp.activator && !sp.invalid && isFinite(potaParseTime(sp.spotTime));
+            });
+            potaSpots.sort(function (a, b) { return potaParseTime(b.spotTime) - potaParseTime(a.spotTime); });
+            renderPota();
+          }).catch(function () { potaSpots = []; renderPota(); });
+        }
+        function potaWorkSpot(sp) {
+          if (!sp || !sp.activator) return;
+          if (editingId) resetFormForNext();
+          $('fCall').value = sp.activator;
+          var mhz = potaMhz(sp.frequency);
+          if (mhz) $('fFreq').value = mhz;
+          var band = potaBand(sp.frequency);
+          if (band) $('fBand').value = band;
+          var mode = potaMode(sp.mode);
+          if (mode) $('fMode').value = mode;
+          var grid = sp.grid6 || sp.grid4 || '';
+          if (grid) $('fGrid').value = String(grid).toUpperCase();
+          var park = sp.parkName || sp.name || '';
+          $('fNote').value = ('POTA ' + (sp.reference || '') + (park ? ' — ' + park : '')).slice(0, 120);
+          stampNow();
+          gc('companion-pota-spot');
+          lookup(sp.activator);
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        $('potaList').addEventListener('click', function (e) {
+          var t = e.target;
+          while (t && t !== $('potaList') && (!t.getAttribute || !t.getAttribute('data-pota'))) t = t.parentNode;
+          if (!t || !t.getAttribute) return;
+          var idx = t.getAttribute('data-pota');
+          if (idx === null || idx === undefined) return;
+          potaWorkSpot(potaSpots[parseInt(idx, 10)]);
+        });
+        refreshPota();
+        setInterval(refreshPota, 60000);
 
         /* ---------- Init ---------- */
         stampNow();
