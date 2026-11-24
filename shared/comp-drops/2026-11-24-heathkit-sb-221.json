@@ -1,0 +1,25 @@
+{
+  "model": "Heathkit SB-221",
+  "slug": "heathkit-sb-221",
+  "searched_at": "2026-11-24T18:55:37-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Heathkit SB-221', page 1 only. 1 kept - thin. Dropped parts-only (1): itm 198736023642 SB 221 220 amplifier, title says 'Rebuilt Larger Transformer Caps', eBay condition label 'Parts Only' $899.99 +136.87, 2026-10-28 (UNCERTAIN - title reads like a working rebuild). Not counted: itm 306903847812 unbuilt/unassembled SB-221 kit with SB-220 10m mod kit, Open Box $1995 free ship, 2026-11-09 (kit, not a built unit); power supply bundle and meter sales are accessories.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785533",
+    "site": "qth",
+    "ask": 900,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1000,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198655895981",
+      "source": "ebay",
+      "notes": "title: Linear Amplifier 2kW PEP HF; shown shipping $70.64",
+      "flags": []
+    }
+  ]
+}
