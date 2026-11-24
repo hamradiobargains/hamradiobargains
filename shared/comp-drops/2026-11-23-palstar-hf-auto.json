@@ -1,0 +1,34 @@
+{
+  "model": "Palstar HF-Auto",
+  "slug": "palstar-hf-auto",
+  "searched_at": "2026-11-23T19:01:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (sold + completed, sorted ended recently, page 1 only). Query \"Palstar HF-Auto\". 2 kept (thin); the two kept sales are 1800W/1800 Watts titled; HF-Auto 1500W titles also exist (variant not stated in the ad). Dropped: Best offer accepted 158236470003 $1,050 (2026-08-31) and 158197464873 $1,400 (2026-08-30) = 2. Excluded: HF-AUTO-R remote 198577792082 $349.99 (accessory). Parts 0, Read Description 0. Extras sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785447",
+    "site": "qth",
+    "ask": 1199,
+    "shipping": 48
+  },
+  "comps": [
+    {
+      "price": 1350,
+      "sold_date": "2026-10-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206622851061",
+      "source": "ebay",
+      "notes": "shipping shown: $94.02. Buy It Now; \"1800W ... + Manual (excellent)\"",
+      "flags": []
+    },
+    {
+      "price": 1298,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407205685634",
+      "source": "ebay",
+      "notes": "shipping shown: $24.12. 14 bids; \"1800 Watts\"",
+      "flags": []
+    }
+  ]
+}
