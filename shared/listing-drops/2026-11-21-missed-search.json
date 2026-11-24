@@ -10,17 +10,26 @@
     {
       "term": "ft 636",
       "searched_at": "2026-11-21T00:09:43-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "status": "worked",
+      "worked_at": "2026-11-24",
+      "result": "2026-11-24-yaesu-ft-736r.json, 4 comps — no 'FT-636' exists/0 eBay results; deposited under variant Yaesu FT-736R"
     },
     {
       "term": "rca",
       "searched_at": "2026-11-21T00:08:55-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "status": "worked",
+      "worked_at": "2026-11-24",
+      "result": "no comps found — term names only a brand (RCA), no model identifiable to price"
     },
     {
       "term": "omni iv",
       "searched_at": "2026-11-21T00:08:26-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "status": "worked",
+      "worked_at": "2026-11-24",
+      "result": "2026-11-24-ten-tec-omni-vi.json, 2 comps (low confidence) — no 'Omni IV' exists/0 eBay results; deposited under variant Ten-Tec Omni VI"
     },
     {
       "term": "palstar auto tuner",
