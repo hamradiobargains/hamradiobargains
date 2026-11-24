@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="dark" />
     <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <title>Station Companion — Ham Radio Bargains</title>
     <style>
       :root{
@@ -187,6 +188,26 @@
       .pota-row .p-geo{ color:var(--accent); font-size:13.5px; white-space:nowrap; }
       .pota-row .p-age{ color:var(--muted); font-size:13px; margin-left:auto; white-space:nowrap; }
       .pota-quiet{ color:var(--muted); font-size:15px; padding:14px 4px 4px; margin:0; }
+
+      /* ---------- Live map ---------- */
+      .map-card{ margin-top:20px; }
+      .map-toggles{ display:flex; flex-wrap:wrap; gap:8px 22px; margin:2px 0 12px; }
+      .map-toggles label{
+        display:inline-flex; align-items:center; gap:7px; margin:0; cursor:pointer;
+        font-size:13.5px; font-weight:600; letter-spacing:.3px; text-transform:none; color:var(--text);
+      }
+      .map-toggles input{ accent-color:var(--accent); width:17px; height:17px; margin:0; cursor:pointer; }
+      #hrbMap{ height:400px; border:1px solid var(--border); border-radius:8px; background:#0b0f11; }
+      @media (max-width:560px){ #hrbMap{ height:300px; } }
+      .leaflet-container{ font:inherit; }
+      .leaflet-popup-content-wrapper{ background:var(--card-bg); color:var(--text); border:1px solid var(--border); border-radius:8px; box-shadow:0 10px 24px rgba(0,0,0,.5); }
+      .leaflet-popup-content{ font-size:14px; line-height:1.45; margin:12px 14px; }
+      .leaflet-popup-content strong{ letter-spacing:.4px; }
+      .leaflet-popup-tip{ background:var(--card-bg); }
+      .leaflet-bar a{ background:var(--card-bg); color:var(--text); border-color:var(--border); }
+      .leaflet-bar a:hover{ background:#1f282e; }
+      .leaflet-control-attribution{ background:rgba(15,20,23,.75) !important; color:var(--muted) !important; font-size:10.5px; }
+      .leaflet-control-attribution a{ color:var(--muted) !important; }
 
       /* ---------- Log table ---------- */
       .log-card{ margin-top:20px; }
@@ -395,6 +416,17 @@
         </section>
       </div>
 
+      <section class="card map-card" id="mapCard" aria-label="Live map">
+        <h2>Live map</h2>
+        <p class="sub">Your station, the station you are working, and the great-circle path between you. The pins are the POTA activators on the air right now; click one to work it, same as the list above.</p>
+        <div class="map-toggles">
+          <label><input type="checkbox" id="mapPinsToggle" checked /> POTA pins</label>
+          <label><input type="checkbox" id="mapSessionToggle" /> Session paths</label>
+          <label><input type="checkbox" id="mapGrayToggle" checked /> Grayline</label>
+        </div>
+        <div id="hrbMap" aria-label="Map of your station, your contacts, and the paths between them"></div>
+      </section>
+
       <section class="card log-card" aria-label="Your log">
         <div class="log-head">
           <div>
@@ -426,6 +458,7 @@
       </footer>
     </div>
 
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script>
       (function () {
         var HOME = { lat: 36.10, lon: -79.44 };
@@ -527,6 +560,7 @@
           ORIGIN = { label: label, lat: lat, lon: lon, home: false };
           try { window.localStorage.setItem('hrbOrigin', JSON.stringify({ label: label, lat: lat, lon: lon })); } catch (e) {}
           paintOrigin();
+          if (MAP) MAP.stationMoved();
         }
         function fetchJson(url) {
           return fetch(url).then(function (r) { if (!r.ok) throw new Error('bad'); return r.json(); }).catch(function () { return null; });
@@ -569,6 +603,8 @@
         var form = $('lookupForm'), input = $('callInput'), btn = $('lookupBtn');
         var msg = $('message'), wrap = $('qslWrap');
         var LAST = null;
+        var MAP = null;       // live-map bridge; the map section sets it when Leaflet is present
+        var MAP_SPOT = null;  // POTA park a spot click is working, so the lookup keeps the arc on the park
 
         function showMessage(html) {
           wrap.classList.remove('show');
@@ -604,6 +640,11 @@
             $('qBeamV').textContent = beam + ' — from ' + ORIGIN.label;
             beamEl.style.display = '';
           } else { beamEl.style.display = 'none'; }
+          if (MAP_SPOT && $('qCall').textContent === MAP_SPOT.call) {
+            MAP_SPOT = null; // this lookup came from a POTA spot: the arc already points at the park
+          } else if (MAP) {
+            MAP.contact(lat, lon, $('qCall').textContent);
+          }
         }
         function setPrev(call) {
           var prevEl = $('qPrev');
@@ -691,6 +732,7 @@
             else if (/^[A-Z0-9]{1,3}$/.test(parts[0])) call = parts[1];
           }
           input.value = call;
+          if (MAP_SPOT && MAP_SPOT.call !== call) MAP_SPOT = null;
           if (!/^[A-Z]{1,3}[0-9][A-Z0-9]{1,4}$/.test(call) || call.length < 3) {
             showMessage('<strong>That doesn’t look like an amateur callsign.</strong> Callsigns run letters, a digit, then more letters: like W1AW, VE3NE or JA1NUT. Check it and try again.');
             input.focus();
@@ -824,6 +866,7 @@
               '</td></tr>';
           }
           body.innerHTML = rows;
+          if (MAP) MAP.sessionChanged();
         }
         function findEntry(id) {
           for (var i = 0; i < entries.length; i++) if (entries[i].id === id) return entries[i];
@@ -1070,6 +1113,7 @@
           return 'Other';
         }
         function renderPota() {
+          if (MAP) MAP.spotsChanged();
           var list = $('potaList');
           if (!potaSpots.length) {
             $('potaCount').textContent = 'none spotted right now';
@@ -1123,6 +1167,8 @@
           var park = sp.parkName || sp.name || '';
           $('fNote').value = ('POTA ' + (sp.reference || '') + (park ? ' — ' + park : '')).slice(0, 120);
           stampNow();
+          MAP_SPOT = { call: sp.activator };
+          if (MAP) MAP.contact(sp.latitude, sp.longitude, sp.activator + (sp.reference ? ' · ' + sp.reference : ''));
           gc('companion-pota-spot');
           lookup(sp.activator);
           window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1137,6 +1183,234 @@
         });
         refreshPota();
         setInterval(refreshPota, 60000);
+
+        /* ---------- Live map (Leaflet; an optional extra) ----------
+           Everything map-shaped lives in this section and is guarded: if
+           the Leaflet library did not load, the map card hides itself,
+           MAP stays null, and every other part of the page works exactly
+           as before. The geometry helpers are pure functions of their
+           inputs; the Leaflet wiring sits behind the existence check. */
+        function gcWrapLon(lon) {
+          var l = lon % 360;
+          if (l > 180) l -= 360;
+          if (l < -180) l += 360;
+          return l;
+        }
+        // Point at fraction f along the great circle from (lat1, lon1) to
+        // (lat2, lon2), by spherical interpolation between the two unit
+        // vectors: correct at any distance, poles and antimeridian alike.
+        function gcPoint(lat1, lon1, lat2, lon2, f) {
+          var p1 = lat1 * Math.PI / 180, l1 = lon1 * Math.PI / 180;
+          var p2 = lat2 * Math.PI / 180, l2 = lon2 * Math.PI / 180;
+          var x1 = Math.cos(p1) * Math.cos(l1), y1 = Math.cos(p1) * Math.sin(l1), z1 = Math.sin(p1);
+          var x2 = Math.cos(p2) * Math.cos(l2), y2 = Math.cos(p2) * Math.sin(l2), z2 = Math.sin(p2);
+          var dot = Math.min(1, Math.max(-1, x1 * x2 + y1 * y2 + z1 * z2));
+          var om = Math.acos(dot);
+          if (om < 1e-9) return { lat: lat1, lon: lon1 };
+          var so = Math.sin(om);
+          var a = Math.sin((1 - f) * om) / so, b = Math.sin(f * om) / so;
+          var x = a * x1 + b * x2, y = a * y1 + b * y2, z = a * z1 + b * z2;
+          return {
+            lat: Math.atan2(z, Math.sqrt(x * x + y * y)) * 180 / Math.PI,
+            lon: gcWrapLon(Math.atan2(y, x) * 180 / Math.PI)
+          };
+        }
+        // The great circle as one or more [lat, lon] lines a flat map can
+        // draw: when the path crosses the antimeridian it is split at
+        // ±180 with the crossing latitude carried to both edges, so the
+        // arc takes the short way across the Pacific instead of sweeping
+        // the long way around the map.
+        function gcPath(lat1, lon1, lat2, lon2) {
+          var g = geoTo(lat2, lon2);
+          var dist = g ? g.miles : 0;
+          var steps = Math.max(8, Math.min(72, Math.ceil(dist / 60)));
+          var lines = [], cur = [], prevLon = null, crossed = false;
+          for (var i = 0; i <= steps; i++) {
+            var f = i / steps;
+            var p = gcPoint(lat1, lon1, lat2, lon2, f);
+            if (prevLon !== null && Math.abs(p.lon - prevLon) > 180) {
+              crossed = true;
+              var edge = prevLon > 0 ? 180 : -180;
+              var pe = gcPoint(lat1, lon1, lat2, lon2, Math.max(0, f - 0.5 / steps));
+              cur.push([pe.lat, edge]);
+              if (cur.length > 1) lines.push(cur);
+              cur = [[pe.lat, -edge]];
+            }
+            cur.push([p.lat, p.lon]);
+            prevLon = p.lon;
+          }
+          if (cur.length > 1) lines.push(cur);
+          return { lines: lines, crossed: crossed, mid: gcPoint(lat1, lon1, lat2, lon2, 0.5) };
+        }
+        // Where the sun is, right now: declination and the longitude of
+        // the subsolar point (standard solar-position approximation, the
+        // same family of math as SunCalc). Pure function of the date.
+        function sunPosition(date) {
+          var rad = Math.PI / 180;
+          var d = date.valueOf() / 86400000 - 0.5 + 2440588 - 2451545; // days since J2000.0
+          var M = rad * (357.5291 + 0.98560028 * d);
+          var lonEcl = M + rad * (1.9148 * Math.sin(M) + 0.02 * Math.sin(2 * M) + 0.0003 * Math.sin(3 * M)) + rad * 102.9372 + Math.PI;
+          var ecc = rad * 23.4397;
+          var dec = Math.asin(Math.sin(lonEcl) * Math.sin(ecc));
+          var ra = Math.atan2(Math.sin(lonEcl) * Math.cos(ecc), Math.cos(lonEcl));
+          var hourAngle = rad * (280.16 + 360.9856235 * d) - ra; // at longitude 0
+          return { dec: dec / rad, lon: gcWrapLon(-hourAngle / rad) };
+        }
+        // The night side of the earth as a polygon: the terminator runs
+        // at 90 degrees from the subsolar point (tan(lat) = -cos(H) /
+        // tan(dec) along each meridian), closed around whichever pole is
+        // in darkness. Pure function of the date.
+        function graylinePolygon(date) {
+          var sun = sunPosition(date);
+          var tanDec = Math.tan(sun.dec * Math.PI / 180);
+          var pts = [];
+          for (var lon = -180; lon <= 180; lon += 3) {
+            var h = (lon - sun.lon) * Math.PI / 180;
+            var lat = Math.atan(-Math.cos(h) / tanDec) * 180 / Math.PI;
+            if (isNaN(lat)) lat = 0;
+            pts.push([lat, lon]);
+          }
+          var pole = sun.dec > 0 ? -90 : 90;
+          pts.push([pole, 180]);
+          pts.push([pole, -180]);
+          return pts;
+        }
+        (function initMap() {
+          var card = $('mapCard');
+          if (!window.L || !card || !$('hrbMap')) {
+            if (card) card.style.display = 'none';
+            return;
+          }
+          try {
+            var L = window.L;
+            var map = L.map('hrbMap', { scrollWheelZoom: false });
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+              attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a>',
+              subdomains: 'abcd',
+              maxZoom: 20
+            }).addTo(map);
+            var grayLayer = L.layerGroup().addTo(map);
+            var sessionLayer = L.layerGroup().addTo(map);
+            var pinLayer = L.layerGroup().addTo(map);
+            var contactLayer = L.layerGroup().addTo(map);
+            var stationLayer = L.layerGroup().addTo(map);
+            var contactPt = null;
+            var showPins = !$('mapPinsToggle') || $('mapPinsToggle').checked !== false;
+            var showSession = !!($('mapSessionToggle') && $('mapSessionToggle').checked === true);
+            var showGray = !$('mapGrayToggle') || $('mapGrayToggle').checked !== false;
+
+            function drawStation() {
+              stationLayer.clearLayers();
+              var mark = L.circleMarker([ORIGIN.lat, ORIGIN.lon], {
+                radius: 8, color: '#0f1417', weight: 2, fillColor: '#ff8c3b', fillOpacity: 1
+              });
+              mark.bindPopup('<strong>Your station</strong><br>' + esc(ORIGIN.label));
+              stationLayer.addLayer(mark);
+            }
+            function drawContact(fit) {
+              contactLayer.clearLayers();
+              if (!contactPt) return;
+              var path = gcPath(ORIGIN.lat, ORIGIN.lon, contactPt.lat, contactPt.lon);
+              for (var i = 0; i < path.lines.length; i++) {
+                contactLayer.addLayer(L.polyline(path.lines[i], { color: '#ff8c3b', weight: 2.5, opacity: 0.9 }));
+              }
+              var end = L.circleMarker([contactPt.lat, contactPt.lon], {
+                radius: 6, color: '#0f1417', weight: 2, fillColor: '#7fd4ff', fillOpacity: 1
+              });
+              end.bindPopup('<strong>' + esc(contactPt.label || 'Contact') + '</strong>');
+              contactLayer.addLayer(end);
+              if (fit) {
+                if (path.crossed) map.setView([path.mid.lat, path.mid.lon], 2);
+                else map.fitBounds([[ORIGIN.lat, ORIGIN.lon], [contactPt.lat, contactPt.lon]], { padding: [30, 30] });
+              }
+            }
+            function drawPins() {
+              pinLayer.clearLayers();
+              if (!showPins) return;
+              for (var i = 0; i < potaSpots.length; i++) {
+                (function (sp) {
+                  var la = parseFloat(sp.latitude), lo = parseFloat(sp.longitude);
+                  if (!isFinite(la) || !isFinite(lo)) return;
+                  var pin = L.circleMarker([la, lo], {
+                    radius: 5, color: '#0f1417', weight: 1.5, fillColor: '#ffd23b', fillOpacity: 0.95
+                  });
+                  var park = sp.parkName || sp.name || '';
+                  var mhz = potaMhz(sp.frequency);
+                  pin.bindPopup('<strong>' + esc(sp.activator) + '</strong>' +
+                    (park ? '<br>' + esc(park) : '') +
+                    (sp.reference ? '<br>' + esc(sp.reference) : '') +
+                    (mhz ? '<br>' + esc(mhz) + ' MHz' : '') +
+                    (sp.mode ? ' &middot; ' + esc(sp.mode) : ''));
+                  pin.on('click', function () { potaWorkSpot(sp); });
+                  pinLayer.addLayer(pin);
+                })(potaSpots[i]);
+              }
+            }
+            function drawSession() {
+              sessionLayer.clearLayers();
+              if (!showSession) return;
+              for (var i = 0; i < entries.length; i++) {
+                var en = entries[i];
+                if (!en.grid) continue;
+                var ll = gridToLatLon(en.grid);
+                if (!ll) continue;
+                var path = gcPath(ORIGIN.lat, ORIGIN.lon, ll.lat, ll.lon);
+                for (var j = 0; j < path.lines.length; j++) {
+                  sessionLayer.addLayer(L.polyline(path.lines[j], { color: '#8fa1a8', weight: 1.5, opacity: 0.55 }));
+                }
+                var dot = L.circleMarker([ll.lat, ll.lon], {
+                  radius: 4, color: '#0f1417', weight: 1.5, fillColor: '#e8edf0', fillOpacity: 0.9
+                });
+                dot.bindPopup('<strong>' + esc(en.call) + '</strong><br>' +
+                  esc(en.date || '') + (en.band ? ' &middot; ' + esc(en.band) : '') + (en.mode ? ' ' + esc(en.mode) : ''));
+                sessionLayer.addLayer(dot);
+              }
+            }
+            function drawGray() {
+              grayLayer.clearLayers();
+              if (!showGray) return;
+              grayLayer.addLayer(L.polygon(graylinePolygon(new Date()), {
+                stroke: false, fillColor: '#000000', fillOpacity: 0.38, interactive: false
+              }));
+            }
+            if ($('mapPinsToggle')) $('mapPinsToggle').addEventListener('change', function () {
+              showPins = $('mapPinsToggle').checked === true;
+              drawPins();
+            });
+            if ($('mapSessionToggle')) $('mapSessionToggle').addEventListener('change', function () {
+              showSession = $('mapSessionToggle').checked === true;
+              drawSession();
+            });
+            if ($('mapGrayToggle')) $('mapGrayToggle').addEventListener('change', function () {
+              showGray = $('mapGrayToggle').checked === true;
+              drawGray();
+            });
+            MAP = {
+              contact: function (lat, lon, label) {
+                var la = parseFloat(lat), lo = parseFloat(lon);
+                if (!isFinite(la) || !isFinite(lo)) return;
+                contactPt = { lat: la, lon: lo, label: label || '' };
+                drawContact(true);
+              },
+              stationMoved: function () {
+                drawStation();
+                drawContact(false);
+                drawSession();
+              },
+              sessionChanged: function () { drawSession(); },
+              spotsChanged: function () { drawPins(); }
+            };
+            drawStation();
+            map.setView([ORIGIN.lat, ORIGIN.lon], 3);
+            drawGray();
+            drawPins();
+            setInterval(drawGray, 60000);
+            gc('companion-map');
+          } catch (e) {
+            MAP = null;
+            if (card) card.style.display = 'none';
+          }
+        })();
 
         /* ---------- Init ---------- */
         stampNow();
