@@ -1,0 +1,70 @@
+{
+  "model": "SGC SGC-230",
+  "slug": "sgc-sgc-230",
+  "searched_at": "2026-11-24T18:55:37-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'SGC SGC-230', page 1 only (eBay lists this unit as SG-230 Smartuner; SGC-230 and SG-230 treated as the same unit). 6 kept, median 299.975 - solid, spread 170.77 to 400. Dropped Best offer accepted (2): itm 188943895578 SG-230 New Open Box $475, itm 278089602316 ICOM IC-M710 + SGC-230 bundle $560.99. Baseball card results (SGC-graded) ignored. No outliers by the 0.5x/1.5x rule.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785582",
+    "site": "qth",
+    "ask": 325,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 369.99,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137882635416",
+      "source": "ebay",
+      "notes": "title: SGC SG-230 Smartuner; free shipping; shipping not shown or free",
+      "flags": []
+    },
+    {
+      "price": 400,
+      "sold_date": "2026-11-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940109900983",
+      "source": "ebay",
+      "notes": "title: Tested Works; free shipping; shipping not shown or free",
+      "flags": []
+    },
+    {
+      "price": 300,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206534319452",
+      "source": "ebay",
+      "notes": "title: good condition; shown shipping $38.50",
+      "flags": []
+    },
+    {
+      "price": 299.95,
+      "sold_date": "2026-10-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237126188859",
+      "source": "ebay",
+      "notes": "title: HF Automatic Antenna Coupler Tuner 1.8-30MHz 200 Watts; shown shipping $21.00",
+      "flags": []
+    },
+    {
+      "price": 170.77,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206655890161",
+      "source": "ebay",
+      "notes": "title: SG-230 Smarttuner / Codan 9103-S (UNCERTAIN: Codan-badged listing); shown shipping $14.11",
+      "flags": []
+    },
+    {
+      "price": 199.99,
+      "sold_date": "2026-09-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198603060360",
+      "source": "ebay",
+      "notes": "shown shipping $24.87",
+      "flags": []
+    }
+  ]
+}
