@@ -1,0 +1,45 @@
+{
+  "model": "Yaesu FT-991 (original, NOT FT-991A)",
+  "slug": "yaesu-ft-991",
+  "searched_at": "2026-11-23T19:01:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (sold + completed, sorted ended recently, page 1 only). Named extra: QTH ad 1783910 (Yaesu \"991\", $600 firm) treated as the ORIGINAL FT-991 per Leo's ruling; ad was gone when worked, so this is the one sold search run for it. Query \"Yaesu FT-991\"; FT-991A sales left out. 3 kept (solid). Dropped Best offer accepted: 178471016735 $799.99 (2026-09-07), 178456840062 $845 (2026-09-06), 800568396331 $750 (2026-08-27) = 3. Parts 0, Read Description 0. Excluded: side rails 287707894934. Extras sweep.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+    "site": "qth",
+    "ask": 600,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 586,
+      "sold_date": "2026-11-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128169070600",
+      "source": "ebay",
+      "notes": "shipping shown: $45.00. 4 bids",
+      "flags": []
+    },
+    {
+      "price": 720,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800588791875",
+      "source": "ebay",
+      "notes": "shipping shown: $45.00. 11 bids; title \"+SP10\" (SP-10 speaker included)",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 782.13,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227509624770",
+      "source": "ebay",
+      "notes": "shipping shown: $30.00. \"or Best Offer\" listing, not marked accepted; price shown $782.13 (struck-through $899.00); title \"2016 Yaesu American Version Model FT-991 ... Working\"",
+      "flags": []
+    }
+  ]
+}
