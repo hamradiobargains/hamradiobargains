@@ -4,7 +4,7 @@
   "searched_at": "2026-11-24T12:19:03-05:00",
   "searched_by": "claude",
   "source": "ebay",
-  "notes": "Missed-search queue: shared/listing-drops/2026-11-21-missed-search.json, visitor typed 'th 78' (Kenwood TH-78A dual-band HT). eBay sold+completed search 'Kenwood TH-78A', page 1 (14 results). Kept 3 (low confidence); 336861853174 ($34.99) flagged outlier \u2014 median $158.99 with it, $177.00 without. Excluded best-offer-accepted: 840059043170 ($185 shown), 147653121021 ($100 shown), 158303945946 ($95 shown). Excluded as-is/parts: 168643545224 ('As-Is', Parts Only). Excluded multi-unit lot: 188894906267 ('HT'S Huge Bundle', $185 \u2014 plural HTs, per-radio price unknowable). Identity call: Japanese-market Kenwood TH-78 (no A, 144/430MHz) sales 407181804570 and 388661423705 kept separate, not merged. Excluded accessories (battery cases, PB-13 battery).",
+  "notes": "Missed-search queue: shared/listing-drops/2026-11-21-missed-search.json, visitor typed 'th 78' (Kenwood TH-78A dual-band HT). eBay sold+completed search 'Kenwood TH-78A', page 1 (14 results). Kept 3 (low confidence); 336861853174 ($34.99) flagged outlier — median $158.99 with it, $177.00 without. Excluded best-offer-accepted: 840059043170 ($185 shown), 147653121021 ($100 shown), 158303945946 ($95 shown). Excluded as-is/parts: 168643545224 ('As-Is', Parts Only). Excluded multi-unit lot: 188894906267 ('HT'S Huge Bundle', $185 — plural HTs, per-radio price unknowable). Identity call: Japanese-market Kenwood TH-78 (no A, 144/430MHz) sales 407181804570 and 388661423705 kept separate, not merged. Excluded accessories (battery cases, PB-13 battery). Leo ruling 2026-11-24: the $34.99 sale (336861853174) stays OUT — public figure is the $177.00 median on the 2 kept sales (early-sales territory, not a ready fair value).",
   "comps": [
     {
       "price": 195.0,
@@ -34,7 +34,7 @@
       "condition": "Pre-Owned",
       "url": "https://www.ebay.com/itm/336861853174",
       "source": "ebay",
-      "notes": "Buy It Now; title 'DTSS & Message Paging System Japan'; far below the cluster \u2014 possibly Japan-market unit or untested; shipping $13.65",
+      "notes": "Buy It Now; title 'DTSS & Message Paging System Japan'; far below the cluster — possibly Japan-market unit or untested; shipping $13.65",
       "flags": [
         "outlier"
       ]
