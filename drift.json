@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T13:53:43+00:00",
+ "updated": "2026-11-24T13:53:38+00:00",
  "models": {
   "ALINCO DM-330MV": {
    "display": "Alinco DM-330MV",
@@ -18,6 +18,15 @@
    "recent_count": 14,
    "prior_median": 49.95,
    "prior_count": 7
+  },
+  "ASTRON RS-35A": {
+   "display": "Astron RS-35A",
+   "pct": -9.1,
+   "window": "3mo",
+   "recent_median": 100.0,
+   "recent_count": 15,
+   "prior_median": 110.0,
+   "prior_count": 5
   },
   "BENCHER BY-1": {
    "display": "Bencher BY-1",
@@ -75,10 +84,10 @@
   },
   "ICOM IC-7300": {
    "display": "Icom IC-7300",
-   "pct": 1.0,
+   "pct": 3.2,
    "window": "3mo",
-   "recent_median": 780.0,
-   "recent_count": 35,
+   "recent_median": 797.0,
+   "recent_count": 48,
    "prior_median": 772.48,
    "prior_count": 8
   },
@@ -111,21 +120,21 @@
   },
   "KENWOOD TM-V71A": {
    "display": "Kenwood TM-V71A",
-   "pct": -15.5,
+   "pct": -9.5,
    "window": "3mo",
-   "recent_median": 422.5,
-   "recent_count": 22,
-   "prior_median": 499.95,
-   "prior_count": 11
+   "recent_median": 419.99,
+   "recent_count": 21,
+   "prior_median": 463.98,
+   "prior_count": 12
   },
   "MFJ MFJ-949E": {
    "display": "MFJ MFJ-949E",
-   "pct": 22.7,
+   "pct": 16.1,
    "window": "3mo",
-   "recent_median": 135.0,
-   "recent_count": 23,
-   "prior_median": 109.99,
-   "prior_count": 11
+   "recent_median": 127.75,
+   "recent_count": 22,
+   "prior_median": 110.0,
+   "prior_count": 12
   },
   "MFJ-989C": {
    "display": "MFJ-989C",
@@ -147,21 +156,21 @@
   },
   "TIGERTRONICS SIGNALINK USB": {
    "display": "Tigertronics SignaLink USB",
-   "pct": 27.3,
+   "pct": 21.7,
    "window": "3mo",
    "recent_median": 70.0,
-   "recent_count": 30,
-   "prior_median": 55.0,
-   "prior_count": 5
+   "recent_count": 29,
+   "prior_median": 57.5,
+   "prior_count": 6
   },
   "XIEGU G90": {
    "display": "Xiegu G90",
-   "pct": -3.2,
+   "pct": -5.5,
    "window": "3mo",
-   "recent_median": 372.5,
-   "recent_count": 36,
-   "prior_median": 385.0,
-   "prior_count": 15
+   "recent_median": 367.5,
+   "recent_count": 34,
+   "prior_median": 389.0,
+   "prior_count": 17
   },
   "XIEGU X6100": {
    "display": "Xiegu X6100",
@@ -171,6 +180,15 @@
    "recent_count": 12,
    "prior_median": 450.0,
    "prior_count": 11
+  },
+  "XIEGU XPA125B": {
+   "display": "Xiegu XPA125B",
+   "pct": -10.1,
+   "window": "3mo",
+   "recent_median": 394.5,
+   "recent_count": 6,
+   "prior_median": 439.0,
+   "prior_count": 5
   },
   "YAESU FT-450D": {
    "display": "Yaesu FT-450D",
