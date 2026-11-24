@@ -1,0 +1,25 @@
+{
+  "model": "Heil Pro-Micro Dual-Sided Headset",
+  "slug": "heil-pro-micro",
+  "searched_at": "2026-11-24T18:55:37-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Heil Pro Micro headset', page 1 only. 1 kept - thin. Not counted: itm 168649579583 Pro-Micro SINGLE-side PMS-iC with HS-2 hand switch $85.41 +9.99, 2026-09-01. Other Heil headsets (Pro 7, Pro Set, Elite) are different models. The ad's AD-1YM adapter is the Yaesu-type adapter; the one comp is the Icom (iC) version, so adapter variant differs (UNCERTAIN).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785491",
+    "site": "qth",
+    "ask": 135,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 65,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800725327791",
+      "source": "ebay",
+      "notes": "title: Pro-Micro Dual-Sided Ham Radio Headset PMD-iC (Icom wiring); shown shipping $8.63",
+      "flags": []
+    }
+  ]
+}
