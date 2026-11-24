@@ -1,0 +1,92 @@
+{
+  "model": "Yaesu FTM-3200DR",
+  "slug": "yaesu-ftm-3200dr",
+  "searched_at": "2026-11-24T17:59:05-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no entry). eBay sold page 1: 8 kept. Dropped 1 best-offer-accepted (920058448168 $120, title 'FTM-3200D'), 1 parts-only (147529239892 $132.50 'UNTESTED'). OUTLIERS: $77 auction (vs ~$160 for the rest) and $249.95 open box (vs ~$160). 287707746745 and 178457051173 have identical titles - possible same unit relisted.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/840162979079",
+    "site": "ebay",
+    "ask": 295.0,
+    "shipping": 12.08
+  },
+  "comps": [
+    {
+      "price": 159.99,
+      "sold_date": "2026-11-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227586073033",
+      "source": "ebay",
+      "notes": "Fixed price or Best Offer. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 175.0,
+      "sold_date": "2026-11-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287707746745",
+      "source": "ebay",
+      "notes": "Title: '+ Mic + Cable (excellent)'. Identical title to 178457051173 (sold Sep 11). Free delivery.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 249.95,
+      "sold_date": "2026-11-03",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/227506246099",
+      "source": "ebay",
+      "notes": "OUTLIER: $249.95 vs ~$160 median for the rest. Open box, Buy It Now. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 212.49,
+      "sold_date": "2026-10-09",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/327004710813",
+      "source": "ebay",
+      "notes": "Title: 'with Microphone, Estate find, Looks Mint, with Box'. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2026-09-29",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/189005908761",
+      "source": "ebay",
+      "notes": "Title: 'w/ Microphone'. Shipping $11.45.",
+      "flags": []
+    },
+    {
+      "price": 77.0,
+      "sold_date": "2026-09-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307191671671",
+      "source": "ebay",
+      "notes": "OUTLIER: $77 vs ~$160 median for the rest. Auction, 21 bids. Shipping $9.06.",
+      "flags": []
+    },
+    {
+      "price": 159.99,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257764755930",
+      "source": "ebay",
+      "notes": "Buy It Now. Free delivery.",
+      "flags": []
+    },
+    {
+      "price": 170.0,
+      "sold_date": "2026-09-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178457051173",
+      "source": "ebay",
+      "notes": "Title: '+ Mic + Cable (excellent)'. Identical title to 287707746745 (sold Nov 16). Shipping $19.50.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    }
+  ]
+}
