@@ -1,0 +1,25 @@
+{
+  "model": "Timewave DSP-9",
+  "slug": "timewave-dsp-9",
+  "searched_at": "2026-11-24T18:55:37-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Timewave DSP-9', page 1 only. 1 kept - thin. Dropped 'READ' (Read Description) sale: itm 227462483687 DSP-9 $109.99 +14.00, 2026-08-27 (1). Not counted (DSP-9+ is a different model): itm 327371068156 DSP-9+ w/ adapter $89.99 +19.99 2026-09-26, itm 407065469023 DSP-9+ no power supply, 'READ' $69 2026-11-07; DSP-59+ and DSP-599ZX also separate. Queued ad is 'DSP-9' and does not say plus.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785486",
+    "site": "qth",
+    "ask": 85,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 49.99,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128137602684",
+      "source": "ebay",
+      "notes": "title: Timewave DSP-9 Radio Noise Reduction Filter; shipping not shown; shipping not shown or free",
+      "flags": []
+    }
+  ]
+}
