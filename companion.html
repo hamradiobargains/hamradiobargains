@@ -198,6 +198,7 @@
       }
       .map-toggles input{ accent-color:var(--accent); width:17px; height:17px; margin:0; cursor:pointer; }
       #hrbMap{ height:400px; border:1px solid var(--border); border-radius:8px; background:#0b0f11; }
+      .leaflet-tooltip{ font-size:12px; line-height:1.4; }
       @media (max-width:560px){ #hrbMap{ height:300px; } }
       .leaflet-container{ font:inherit; }
       .leaflet-popup-content-wrapper{ background:var(--card-bg); color:var(--text); border:1px solid var(--border); border-radius:8px; box-shadow:0 10px 24px rgba(0,0,0,.5); }
@@ -1435,6 +1436,7 @@
             var sessionLayer = L.layerGroup().addTo(map);
             var pinLayer = L.layerGroup().addTo(map);
             var dxLayer = L.layerGroup().addTo(map);
+            var TIP = { direction: 'top', offset: [0, -6], opacity: 0.96 };
             var contactLayer = L.layerGroup().addTo(map);
             var stationLayer = L.layerGroup().addTo(map);
             var contactPt = null;
@@ -1448,7 +1450,7 @@
               var mark = L.circleMarker([ORIGIN.lat, ORIGIN.lon], {
                 radius: 8, color: '#0f1417', weight: 2, fillColor: '#ff8c3b', fillOpacity: 1
               });
-              mark.bindPopup('<strong>Your station</strong><br>' + esc(ORIGIN.label));
+              mark.bindTooltip('<strong>Your station</strong><br>' + esc(ORIGIN.label), TIP);
               stationLayer.addLayer(mark);
             }
             function drawContact(fit) {
@@ -1461,7 +1463,7 @@
               var end = L.circleMarker([contactPt.lat, contactPt.lon], {
                 radius: 6, color: '#0f1417', weight: 2, fillColor: '#7fd4ff', fillOpacity: 1
               });
-              end.bindPopup('<strong>' + esc(contactPt.label || 'Contact') + '</strong>');
+              end.bindTooltip('<strong>' + esc(contactPt.label || 'Contact') + '</strong>', TIP);
               contactLayer.addLayer(end);
               if (fit) {
                 if (path.crossed) map.setView([path.mid.lat, path.mid.lon], 2);
@@ -1480,11 +1482,11 @@
                   });
                   var park = sp.parkName || sp.name || '';
                   var mhz = potaMhz(sp.frequency);
-                  pin.bindPopup('<strong>' + esc(sp.activator) + '</strong>' +
+                  pin.bindTooltip('<strong>' + esc(sp.activator) + '</strong>' +
                     (park ? '<br>' + esc(park) : '') +
                     (sp.reference ? '<br>' + esc(sp.reference) : '') +
                     (mhz ? '<br>' + esc(mhz) + ' MHz' : '') +
-                    (sp.mode ? ' &middot; ' + esc(sp.mode) : ''));
+                    (sp.mode ? ' &middot; ' + esc(sp.mode) : ''), TIP);
                   pin.on('click', function () { potaWorkSpot(sp); });
                   pinLayer.addLayer(pin);
                 })(potaSpots[i]);
@@ -1503,11 +1505,11 @@
                     radius: 5, color: '#0f1417', weight: 1.5, fillColor: '#ff8c42', fillOpacity: 0.95
                   });
                   var mhz = potaMhz(sp.freqKhz);
-                  pin.bindPopup('<strong>' + esc(sp.dxcall) + '</strong>' +
+                  pin.bindTooltip('<strong>' + esc(sp.dxcall) + '</strong>' +
                     (sp.country ? '<br>' + esc(sp.country) : '') +
                     (mhz ? '<br>' + esc(mhz) + ' MHz' : '') +
                     (sp.comment ? '<br>' + esc(sp.comment) : '') +
-                    '<br>Spotted by ' + esc(sp.spotter) + ' &middot; ' + esc(dxAge(sp)));
+                    '<br>Spotted by ' + esc(sp.spotter) + ' &middot; ' + esc(dxAge(sp)), TIP);
                   pin.on('click', function () { dxWorkSpot(sp); });
                   dxLayer.addLayer(pin);
                 })(dxSpots[i]);
@@ -1528,8 +1530,8 @@
                 var dot = L.circleMarker([ll.lat, ll.lon], {
                   radius: 4, color: '#0f1417', weight: 1.5, fillColor: '#e8edf0', fillOpacity: 0.9
                 });
-                dot.bindPopup('<strong>' + esc(en.call) + '</strong><br>' +
-                  esc(en.date || '') + (en.band ? ' &middot; ' + esc(en.band) : '') + (en.mode ? ' ' + esc(en.mode) : ''));
+                dot.bindTooltip('<strong>' + esc(en.call) + '</strong><br>' +
+                  esc(en.date || '') + (en.band ? ' &middot; ' + esc(en.band) : '') + (en.mode ? ' ' + esc(en.mode) : ''), TIP);
                 sessionLayer.addLayer(dot);
               }
             }
