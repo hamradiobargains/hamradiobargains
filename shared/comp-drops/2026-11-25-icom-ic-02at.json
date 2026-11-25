@@ -1,0 +1,90 @@
+{
+  "model": "Icom IC-02AT",
+  "slug": "icom-ic-02at",
+  "searched_at": "2026-11-25T11:35:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Missed-search check from shared/listing-drops/2026-11-25-missed-search.json; visitor typed 'icom ic-02at'. eBay sold/completed search 'Icom IC-02AT' returned 19 matches. Kept 8. Excluded: 4 parts-only (257857558061 broken mic, 168810773774, 237084213655 untested parts-only, 128040661076 17-bid auction); 5 best-offer-accepted (227597827350, 137893589746, 206608592378, 307178928320, 278347624771); 1 accessory-only soft case (143650675708); 1 two-radio bundle IC-02AT + IC-2AT (128105869967, price not attributable to one unit). Two kept sales were fixed-price listings with a Best Offer option that show no best-offer-accepted marker, so treated as sold at list. Prices are hammer price, shipping excluded. Median $77.48 (n=8, low $35.00, high $134.87).",
+  "comps": [
+    {
+      "price": 79.95,
+      "sold_date": "2026-11-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147687165806",
+      "source": "ebay",
+      "notes": "Buy It Now fixed price; +$14.75 shipping",
+      "flags": []
+    },
+    {
+      "price": 109.95,
+      "sold_date": "2026-11-11",
+      "condition": "Pre-Owned, listed as working",
+      "url": "https://www.ebay.com/itm/257790625406",
+      "source": "ebay",
+      "notes": "Buy It Now; includes battery, antenna, charger; +$7.95 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 69.99,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336846655489",
+      "source": "ebay",
+      "notes": "Buy It Now; includes mic, Icom battery charger, batteries; free shipping",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 35.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned, untested",
+      "url": "https://www.ebay.com/itm/820134153443",
+      "source": "ebay",
+      "notes": "Fixed price with Best Offer option, sold at list (no best-offer-accepted marker); untested; includes battery & antenna; +$10.00 shipping",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 40.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307177560577",
+      "source": "ebay",
+      "notes": "Fixed price with Best Offer option, sold at list (no best-offer-accepted marker); +$6.71 shipping",
+      "flags": []
+    },
+    {
+      "price": 99.95,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned, listed as working",
+      "url": "https://www.ebay.com/itm/307170697536",
+      "source": "ebay",
+      "notes": "Buy It Now; includes battery & antenna; +$8.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 75.0,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227041503262",
+      "source": "ebay",
+      "notes": "Buy It Now ('see photos'); +$10.02 shipping",
+      "flags": []
+    },
+    {
+      "price": 134.87,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158074320082",
+      "source": "ebay",
+      "notes": "Buy It Now; includes BC-35 battery charger; +$15.00 shipping",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
