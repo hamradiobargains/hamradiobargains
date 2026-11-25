@@ -1,0 +1,28 @@
+{
+  "model": "Drake R-4A",
+  "slug": "drake-r-4a",
+  "searched_at": "2026-11-25T11:12:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "From missed search shared/listing-drops/2026-11-25-missed-search.json, visitor term 'drake 4a'. Drake made no model named '4A'; the term is read as the Drake R-4A receiver (4-line, the only '4A'-suffixed main unit in the line). eBay sold search 'drake 4a' returned mostly non-radio noise (action figures, posters, trading cards) plus R-4A/R-4B items; priced from 'drake r-4a', page 1, 13 results. Kept 2 genuine R-4A sales. Excluded: R-4B listings (ebay 198717930506 twins; an R-4B parts-only $149.99 2026-11-24) - different model; manuals/crystals/cables/S-meter accessories; bundles where the R-4A is not the sole main item (ebay 227307908901 FT-950/T-4X/R-4A lot $2,749.99; ebay 168100436346 T-4XB+R-4A twins with PS $650); parts-only R-4A (ebay 407148683983 $259.99 2026-08-29); best-offer-accepted parts-only R-4A (ebay 267758654384 $145 2026-09-18; ebay 147507219702 $200 2026-08-28). Only 2 comps - low confidence.",
+  "comps": [
+    {
+      "price": 156.5,
+      "sold_date": "2026-11-11",
+      "condition": "Pre-Owned, described as working very well",
+      "url": "https://www.ebay.com/itm/287697263377",
+      "source": "ebay",
+      "notes": "Drake R-4A Receiver working very well. Auction, 8 bids; +$45.00 shipping.",
+      "flags": []
+    },
+    {
+      "price": 280.0,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128147669693",
+      "source": "ebay",
+      "notes": "Drake R-4A HF Receiver. Fixed price (listed 'or Best Offer', sold at list - not marked best offer accepted); +$96.39 shipping.",
+      "flags": []
+    }
+  ]
+}
