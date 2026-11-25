@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FTDX-5000 (variant not stated)",
+  "slug": "yaesu-ftdx-5000",
+  "searched_at": "2026-11-24T18:55:37-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Yaesu FTDX-5000', page 1 only. 0 usable comps: no sold listing on page 1 is titled plain FTDX-5000; every radio sale names the D or MP variant, and variants are kept separate because the ad does not state which it is (UNCERTAIN identity). Not counted, for reference only (price, ship): FTDX5000D 2026-11-18 $2950 +128.00 itm 267811094696 (BO listing, not marked accepted), 2026-10-31 $2299.95 +119.95 itm 900052548213, 2026-09-15 $2995 itm 336745983613; FTDX5000MP 2026-11-16 $2185 +128.00 itm 267832766736, 2026-11-13 $2000 +78.84 itm 800886414087, 2026-11-12 $2000 +75.76 itm 800802882002, 2026-10-23 $1935 +222.77 itm 960075702840, 2026-09-28 $3000 +209.34 itm 206564199819; FTDX5000MP Limited 2026-09-27 $3105 +127.50 itm 206481360086. Dropped: itm 336828041694 FTdx5000MP 2026-10-06 $2025 +155.00 Best offer accepted (1); itm 237082048003 FTDX5000MP LIMITED Parts Only 2026-09-21 $1700 (1 parts-only). Accessory sales ignored (DMU-2000 $400-$450, front panel, PA unit, manuals, cables). Queued ad includes MH-31, FH-2, 2x SM-2000, DMU, boxes/manuals.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785504",
+    "site": "qth",
+    "ask": 2000,
+    "shipping": 0
+  },
+  "comps": []
+}
