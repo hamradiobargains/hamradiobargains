@@ -1,0 +1,65 @@
+{
+  "model": "Ameritron ALS-500M",
+  "slug": "ameritron-als-500m",
+  "searched_at": "2026-11-25T14:57:40-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search, page 1 only (11 results above 'Results matching fewer words'). Kept 5. Dropped 4 parts-only (labeled Parts Only: $995.95 Nov 13, $1,295.00 Sep 28 w/ ALS-500RC, $675.00 Sep 22, $600.00 Sep 5). Dropped 0 best-offer-accepted. Excluded 2 non-unit listings (manual $19.95; ALS-500RC remote $149.97). OUTLIERS (vs median of the other kept comps): $499 (below half of ~$1,022), $1,195 and $1,199.99 (above 1.5x of ~$787) — the spread is wide; median of all 5 kept is $850. searched_at recorded at the end of this run's eBay batch.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785652",
+    "site": "qth",
+    "ask": 850.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 723.26,
+      "sold_date": "2026-10-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206627808373",
+      "source": "ebay",
+      "notes": "Auction final bid, 6 bids. Title: with 10 Meter board. +$125.30 delivery.",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407283412217",
+      "source": "ebay",
+      "notes": "Title: with cable, very good condition. Fixed price 'or Best Offer' (no best offer accepted shown). +$10.54 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1199.99,
+      "sold_date": "2026-09-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189006638609",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,199.99 vs ~$787 median of the other kept comps. Title: 600 Watt ... w/ Module (module not identified). Fixed price 'or Best Offer' (no best offer accepted shown). +$49.99 delivery.",
+      "flags": []
+    },
+    {
+      "price": 499.0,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278362483275",
+      "source": "ebay",
+      "notes": "OUTLIER: $499 vs ~$1,022 median of the other kept comps. Title (misspelled 'AMRERITRON'): TESTED and WORKING. Buy It Now. +$22.34 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1195.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336775170667",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,195 vs ~$787 median of the other kept comps. Title: & Remote (includes remote). Buy It Now. +$14.51 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
