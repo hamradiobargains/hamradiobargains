@@ -419,7 +419,7 @@
 
       <section class="card map-card" id="mapCard" aria-label="Live map">
         <h2>Live map</h2>
-        <p class="sub">Your station, the station you are working, and the great-circle path between you. The yellow pins are the POTA activators on the air right now; click one to work it, same as the list above. Tick DX spots and the orange pins are the latest DX cluster spots, worked the same way. Tick Satellites and the violet dots are amateur satellites in flight, each with its ground track: dashed where it has been, solid where it is headed. Hover for the next pass over your station, click one for its coverage footprint.</p>
+        <p class="sub">Your station, the station you are working, and the great-circle path between you. The yellow pins are the POTA activators on the air right now; click one to work it, same as the list above. Tick DX spots and the orange pins are the latest DX cluster spots, worked the same way. Tick Satellites and the violet dots are amateur satellites in flight, each with its ground track: dotted gray where it has been, solid violet where it is headed. Hover for the next pass over your station, click one for its coverage footprint.</p>
         <div class="map-toggles">
           <label><input type="checkbox" id="mapPinsToggle" checked /> POTA pins</label>
           <label><input type="checkbox" id="mapSessionToggle" /> Session paths</label>
@@ -1756,7 +1756,7 @@
                 var en = satRecs[s], span = en.periodMin * 60000, isSel = en.def.id === satSelected;
                 var past = trackSegs(en, nowMs - span / 2, nowMs, 24);
                 for (var a = 0; a < past.length; a++) {
-                  satLayer.addLayer(L.polyline(past[a], { color: '#b388ff', weight: 1, opacity: isSel ? 0.55 : 0.3, dashArray: '3 6' }));
+                  satLayer.addLayer(L.polyline(past[a], { color: '#7f8c99', weight: 2.5, opacity: isSel ? 1 : 0.85, dashArray: '0.1 7', lineCap: 'round' }));
                 }
                 var fut = trackSegs(en, nowMs, nowMs + span, 64);
                 for (var f = 0; f < fut.length; f++) {
