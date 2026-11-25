@@ -422,7 +422,14 @@ function matchesKeyword(item, kw) {
 const kwToks = tok(kw);
 if (kwToks.length === 0) return false;
 const itemToks = tok(item);
-return kwToks.every(kt => itemToks.some(it => it === kt || it.startsWith(kt)));
+if (kwToks.every(kt => itemToks.some(it => it === kt || it.startsWith(kt)))) return true;
+// Fused fallback: a hyphenated query like "ft-dx10" tokenizes as
+// ["ft","dx","10"] while the model name keeps "ftdx" fused, so no query
+// token prefix-matches. Compare the joined forms instead. Multiple fused
+// hits are safe: runSearch asks the visitor which model they meant
+// rather than blending numbers.
+const q = kwToks.join('');
+return q.length >= 4 && itemToks.join('').includes(q);
 }
 
 // Pull the model identifier out of an item title: the first run of
@@ -435,7 +442,8 @@ const runs = item.match(/[A-Za-z0-9-]+/g) || [];
 for (const run of runs) {
 if (!/\d/.test(run)) continue;
 const rt = tok(run);
-if (kwToks.every(kt => rt.some(t => t === kt || t.startsWith(kt)))) return run.toUpperCase();
+const fused = kwToks.join('').length >= 4 && rt.join('').includes(kwToks.join(''));
+if (fused || kwToks.every(kt => rt.some(t => t === kt || t.startsWith(kt)))) return run.toUpperCase();
 }
 return null;
 }
