@@ -1,0 +1,63 @@
+{
+  "model": "Yaesu FT-991",
+  "slug": "yaesu-ft-991",
+  "searched_at": "2026-11-24T18:55:37-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Named extra from Leo's stored task prompt: QTH ad 1783910, treated as the ORIGINAL Yaesu FT-991 per Leo's ruling (comps filed under FT-991, never FT-991A). The ad was gone when worked (QTH: no longer in our system); trigger ask $600 firm is from the ad as previously recorded. eBay sold search 'Yaesu FT-991', page 1 only, FT-991A and FT-991M results excluded. 5 kept, median 720 - solid. Dropped Best offer accepted (5): itm 800647647024 $650, 117399359206 $1000 (bundle with MD-100 mic and MFJ items), 178471016735 $799.99, 178456840062 $845, 800568396331 $750. Excluded other model: itm 318849980696 FT-991M Japan model $900 +25.22, 2026-11-20. No parts-only or Read Description sales on page 1. No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+    "site": "qth",
+    "ask": 600,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 586,
+      "sold_date": "2026-11-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128169070600",
+      "source": "ebay",
+      "notes": "shown shipping $45.00",
+      "flags": []
+    },
+    {
+      "price": 650,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800686253602",
+      "source": "ebay",
+      "notes": "title: with manuals; shown shipping $20.27",
+      "flags": []
+    },
+    {
+      "price": 720,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800588791875",
+      "source": "ebay",
+      "notes": "title: +SP10; shown shipping $45.00",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 776.66,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128111155293",
+      "source": "ebay",
+      "notes": "title: with manuals; shown shipping $139.86",
+      "flags": []
+    },
+    {
+      "price": 782.13,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227509624770",
+      "source": "ebay",
+      "notes": "title: 2016 American Version Model FT-991 UHF VHF HF, Working; shown shipping $30.00",
+      "flags": []
+    }
+  ]
+}
