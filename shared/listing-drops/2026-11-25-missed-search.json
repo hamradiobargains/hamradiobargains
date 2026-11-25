@@ -49,17 +49,26 @@
     {
       "term": "lcg-600",
       "searched_at": "2026-11-25T08:46:56-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "status": "worked",
+      "worked_at": "2026-11-25",
+      "result": "No comps found — no known ham model 'LCG-600'; eBay sold search returned 0 exact matches (only Ford tractor parts and card-game lots); no variant assumed or deposited (Claude 2026-11-25 run)."
     },
     {
       "term": "heath monitor",
       "searched_at": "2026-11-25T08:40:51-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "status": "worked",
+      "worked_at": "2026-11-25",
+      "result": "No comps found — vague term naming no model (could be Heathkit SB-610, SB-614, HO-10 or others); eBay sold search 'heath monitor' returned only Allen & Heath audio gear and Heath gas detectors, no Heathkit sales; no variant assumed or deposited (Claude 2026-11-25 run)."
     },
     {
       "term": "pierce simpson gladding",
       "searched_at": "2026-11-25T08:40:33-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "status": "worked",
+      "worked_at": "2026-11-25",
+      "result": "No comps found — maker-only term (Pearce-Simpson, a Gladding division) names no model; eBay sold results span Simba, Guardian, Cougar 23B CBs and Gulfstream/Islander/Newport marine radios, so no variant was assumed or deposited (Claude 2026-11-25 run)."
     },
     {
       "term": "hallicrafters sr-150",
