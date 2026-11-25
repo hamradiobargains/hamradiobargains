@@ -1,0 +1,19 @@
+{
+  "model": "Icom IC-202",
+  "slug": "icom-ic-202",
+  "searched_at": "2026-11-25T10:43:33-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "From missed search shared/listing-drops/2026-11-25-missed-search.json, visitor term 'ic-202'. eBay sold searches 'icom ic-202' and 'icom ic202', page 1: 3 IC-202-family results; 1 genuine IC-202 comp kept. Excluded 2 Icom IC-202S listings (ebay 800724581434 $60, 2026-09-27; ebay 407270227366 $71.28, 2026-10-12) — both parts-only, and IC-202S is a separate variant not merged into IC-202. Dropped 0 best-offer-accepted. Single comp, UK-located seller — very low confidence.",
+  "comps": [
+    {
+      "price": 163.94,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800548274167",
+      "source": "ebay",
+      "notes": "ICOM IC-202 2m SSB / CW PORTABLE TRANSCEIVER. Auction, 1 bid. Located in United Kingdom; +$134.00 shipping estimate.",
+      "flags": []
+    }
+  ]
+}
