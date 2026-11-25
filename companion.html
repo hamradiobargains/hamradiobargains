@@ -419,12 +419,13 @@
 
       <section class="card map-card" id="mapCard" aria-label="Live map">
         <h2>Live map</h2>
-        <p class="sub">Your station, the station you are working, and the great-circle path between you. The yellow pins are the POTA activators on the air right now; click one to work it, same as the list above. Tick DX spots and the orange pins are the latest DX cluster spots, worked the same way.</p>
+        <p class="sub">Your station, the station you are working, and the great-circle path between you. The yellow pins are the POTA activators on the air right now; click one to work it, same as the list above. Tick DX spots and the orange pins are the latest DX cluster spots, worked the same way. Tick Satellites and the violet dots are amateur satellites in flight; hover for the next pass over your station, click one to see its path and footprint.</p>
         <div class="map-toggles">
           <label><input type="checkbox" id="mapPinsToggle" checked /> POTA pins</label>
           <label><input type="checkbox" id="mapSessionToggle" /> Session paths</label>
           <label><input type="checkbox" id="mapGrayToggle" checked /> Grayline</label>
           <label><input type="checkbox" id="mapDxToggle" /> DX spots</label>
+          <label><input type="checkbox" id="mapSatToggle" /> Satellites</label>
         </div>
         <div id="hrbMap" aria-label="Map of your station, your contacts, and the paths between them"></div>
       </section>
@@ -1328,6 +1329,207 @@
           if (MAP && MAP.dxChanged) MAP.dxChanged();
         }
 
+        /* ---------- Amateur satellites (TLE + SGP4) ----------
+           Positions come from two-line element sets run through the
+           satellite.js SGP4 propagator (self-hosted beside this page).
+           The element file is CelesTrak's amateur group; a same-origin
+           mirror (tle.txt, refreshed daily) is the fallback. Frame and
+           time math (Julian date, GMST, ECEF rotation, WGS84 geodetic,
+           look angles) is done here rather than taken from the library:
+           those helpers proved unreliable in testing, while SGP4 and
+           the TLE parser verified clean against known orbits (the
+           harness pins QO-100 to its geostationary slot). Passes are
+           computed against the visitor's own station (ORIGIN). */
+        var SAT_DEFS = [
+          { id: '25544', name: 'ISS', role: 'Voice & packet repeater' },
+          { id: '07530', name: 'AO-7', role: 'The 1974 veteran, still going' },
+          { id: '22825', name: 'AO-27', role: 'FM repeater' },
+          { id: '24278', name: 'FO-29', role: 'SSB/CW transponder' },
+          { id: '27607', name: 'SO-50', role: 'FM repeater' },
+          { id: '39444', name: 'AO-73', role: 'FUNcube-1 · SSB/CW transponder' },
+          { id: '40967', name: 'AO-85', role: 'Fox-1A · FM repeater' },
+          { id: '43017', name: 'AO-91', role: 'Fox-1B · FM repeater' },
+          { id: '43678', name: 'PO-101', role: 'FM repeater & packet digipeater' },
+          { id: '43700', name: 'QO-100', role: 'Es’hail 2 · geostationary transponder' },
+          { id: '44909', name: 'RS-44', role: 'SSB/CW transponder' },
+          { id: '50466', name: 'CAS-9 (XW-3)', role: 'SSB/CW transponder' },
+          { id: '53109', name: 'IO-117', role: 'GreenCube · packet digipeater, long passes' },
+          { id: '61781', name: 'AO-123', role: 'ASRTU-1 · FM repeater' }
+        ];
+        var satRecs = [];        // [{def, rec, periodMin, pass, passDone}]
+        var satSelected = null;  // NORAD id of the clicked satellite
+        var satLibPromise = null;
+        var satInitDone = false;
+        var satTimer = null;
+
+        function satLoadLib() {
+          if (window.satellite) return Promise.resolve(true);
+          if (satLibPromise) return satLibPromise;
+          satLibPromise = new Promise(function (resolve) {
+            var sc = document.createElement('script');
+            sc.src = 'satellite.min.js';
+            sc.onload = function () { resolve(!!window.satellite); };
+            sc.onerror = function () { resolve(false); };
+            (document.body || document.documentElement).appendChild(sc);
+          });
+          return satLibPromise;
+        }
+        function satParseTle(text) {
+          var byId = {};
+          var lines = String(text || '').split(/\r?\n/);
+          for (var i = 0; i + 1 < lines.length; i++) {
+            if (lines[i].charAt(0) === '1' && lines[i + 1].charAt(0) === '2') {
+              var id = lines[i].substring(2, 7).trim();
+              if (id && !byId[id]) byId[id] = [lines[i], lines[i + 1]];
+            }
+          }
+          return byId;
+        }
+        function satFetchTle() {
+          var primary = fetch('https://celestrak.org/NORAD/elements/gp.php?GROUP=amateur&FORMAT=tle')
+            .then(function (r) { if (!r.ok) throw new Error('bad'); return r.text(); });
+          return primary.catch(function () {
+            return fetch('tle.txt').then(function (r) { if (!r.ok) throw new Error('bad'); return r.text(); });
+          });
+        }
+        function satJd(date) { return date.getTime() / 86400000 + 2440587.5; }
+        function satGmstDeg(date) {
+          var jd = satJd(date), t = (jd - 2451545.0) / 36525;
+          var g = 280.46061837 + 360.98564736629 * (jd - 2451545.0) + 0.000387933 * t * t - t * t * t / 38710000;
+          return ((g % 360) + 360) % 360;
+        }
+        // SGP4 (library) for the ECI position; our own rotation and
+        // WGS84 geodetic conversion from there.
+        function satPos(rec, date) {
+          var pv = window.satellite.sgp4(rec, (satJd(date) - rec.jdsatepoch) * 1440);
+          if (!pv || !pv.position || !isFinite(pv.position.x)) return null;
+          var th = satGmstDeg(date) * Math.PI / 180, c = Math.cos(th), s = Math.sin(th);
+          var x = c * pv.position.x + s * pv.position.y;
+          var y = -s * pv.position.x + c * pv.position.y;
+          var z = pv.position.z;
+          var a = 6378.137, e2 = 0.00669437999014;
+          var lon = Math.atan2(y, x);
+          var p = Math.sqrt(x * x + y * y);
+          var lat = Math.atan2(z, p * (1 - e2)), h = 0;
+          for (var i = 0; i < 3; i++) {
+            var n = a / Math.sqrt(1 - e2 * Math.sin(lat) * Math.sin(lat));
+            h = p / Math.cos(lat) - n;
+            lat = Math.atan2(z, p * (1 - e2 * n / (n + h)));
+          }
+          return { lat: lat * 180 / Math.PI, lon: lon * 180 / Math.PI, altKm: h, ecef: { x: x, y: y, z: z } };
+        }
+        function satObsEcef() {
+          var a = 6378.137, e2 = 0.00669437999014;
+          var la = ORIGIN.lat * Math.PI / 180, lo = ORIGIN.lon * Math.PI / 180;
+          var n = a / Math.sqrt(1 - e2 * Math.sin(la) * Math.sin(la));
+          return {
+            x: n * Math.cos(la) * Math.cos(lo), y: n * Math.cos(la) * Math.sin(lo), z: n * (1 - e2) * Math.sin(la),
+            up: { x: Math.cos(la) * Math.cos(lo), y: Math.cos(la) * Math.sin(lo), z: Math.sin(la) }
+          };
+        }
+        function satEl(rec, date, obs) {
+          var sp = satPos(rec, date);
+          if (!sp) return -90;
+          var rx = sp.ecef.x - obs.x, ry = sp.ecef.y - obs.y, rz = sp.ecef.z - obs.z;
+          var r = Math.sqrt(rx * rx + ry * ry + rz * rz);
+          if (!r) return -90;
+          var d = (rx * obs.up.x + ry * obs.up.y + rz * obs.up.z) / r;
+          return Math.asin(Math.max(-1, Math.min(1, d))) * 180 / Math.PI;
+        }
+        // Next above-horizon pass over ORIGIN: 60-second scan refined by
+        // bisection. Geostationary birds are reported as a fixed state.
+        function satNextPass(entry, from) {
+          var obs = satObsEcef();
+          if (entry.periodMin > 1400) {
+            return { geo: true, el: satEl(entry.rec, from, obs) };
+          }
+          var stepMs = 60000, horizon = 36 * 3600000;
+          var t = from.getTime();
+          var prevEl = satEl(entry.rec, new Date(t), obs);
+          if (prevEl > 0) {
+            // Already up: walk to the peak and the set.
+            var peak = prevEl, tt = t;
+            while (tt - t < entry.periodMin * 60000) {
+              tt += stepMs;
+              var e2v = satEl(entry.rec, new Date(tt), obs);
+              if (e2v > peak) peak = e2v;
+              if (e2v <= 0) break;
+            }
+            return { now: true, maxEl: peak, los: new Date(tt) };
+          }
+          while (t - from.getTime() < horizon) {
+            var t2 = t + stepMs;
+            var el2 = satEl(entry.rec, new Date(t2), obs);
+            if (prevEl <= 0 && el2 > 0) {
+              var lo = t, hi = t2;
+              for (var i = 0; i < 14; i++) {
+                var mid = (lo + hi) / 2;
+                if (satEl(entry.rec, new Date(mid), obs) > 0) hi = mid; else lo = mid;
+              }
+              var aos = hi;
+              var peak2 = 0, tt2 = aos, los = null;
+              while (tt2 - aos < entry.periodMin * 60000) {
+                tt2 += 30000;
+                var ev = satEl(entry.rec, new Date(tt2), obs);
+                if (ev > peak2) peak2 = ev;
+                if (ev <= 0) { los = tt2; break; }
+              }
+              return { aos: new Date(aos), maxEl: peak2, los: los ? new Date(los) : null };
+            }
+            t = t2; prevEl = el2;
+          }
+          return null;
+        }
+        function satHhmm(d) {
+          function p2(n) { return (n < 10 ? '0' : '') + n; }
+          return p2(d.getUTCHours()) + ':' + p2(d.getUTCMinutes()) + ' UTC';
+        }
+        function satPassLine(entry) {
+          if (!entry.passDone) return 'Pass times loading…';
+          var p = entry.pass;
+          if (!p) return 'No pass over your station in the next 36 hours';
+          if (p.geo) {
+            return p.el > 0
+              ? 'Geostationary · in range now at ' + Math.round(p.el) + '° elevation'
+              : 'Geostationary · below your horizon from here';
+          }
+          if (p.now) return 'In range now · peaks at ' + Math.round(p.maxEl) + '°' + (p.los ? ', sets ' + satHhmm(p.los) : '');
+          return 'Next pass ' + satHhmm(p.aos) + ' · max el ' + Math.round(p.maxEl) + '°';
+        }
+        function satInit() {
+          if (satInitDone) return;
+          satInitDone = true;
+          satLoadLib().then(function (ok) {
+            if (!ok || !window.satellite) return;
+            return satFetchTle().then(function (text) {
+              var byId = satParseTle(text);
+              var built = [];
+              for (var i = 0; i < SAT_DEFS.length; i++) {
+                var def = SAT_DEFS[i], tle = byId[def.id];
+                if (!tle) continue;
+                try {
+                  var rec = window.satellite.twoline2satrec(tle[0], tle[1]);
+                  if (rec && rec.error === 0 && isFinite(rec.no) && rec.no > 0) {
+                    built.push({ def: def, rec: rec, periodMin: 2 * Math.PI / rec.no, pass: null, passDone: false });
+                  }
+                } catch (e) { /* skip a malformed element set */ }
+              }
+              satRecs = built;
+              if (MAP && MAP.satChanged) MAP.satChanged();
+            });
+          }).catch(function () { /* the layer simply stays empty */ });
+        }
+        function satSetEnabled(on) {
+          if (on) {
+            satInit();
+            if (!satTimer) satTimer = setInterval(function () {
+              var t = $('mapSatToggle');
+              if (t && t.checked && MAP && MAP.satChanged) MAP.satChanged();
+            }, 10000);
+          }
+          if (MAP && MAP.satChanged) MAP.satChanged();
+        }
+
         /* ---------- Live map (Leaflet; an optional extra) ----------
            Everything map-shaped lives in this section and is guarded: if
            the Leaflet library did not load, the map card hides itself,
@@ -1436,6 +1638,7 @@
             var sessionLayer = L.layerGroup().addTo(map);
             var pinLayer = L.layerGroup().addTo(map);
             var dxLayer = L.layerGroup().addTo(map);
+            var satLayer = L.layerGroup().addTo(map);
             var TIP = { direction: 'top', offset: [0, -6], opacity: 0.96 };
             var contactLayer = L.layerGroup().addTo(map);
             var stationLayer = L.layerGroup().addTo(map);
@@ -1444,6 +1647,7 @@
             var showSession = !!($('mapSessionToggle') && $('mapSessionToggle').checked === true);
             var showGray = !$('mapGrayToggle') || $('mapGrayToggle').checked !== false;
             var showDx = !!($('mapDxToggle') && $('mapDxToggle').checked === true);
+            var showSat = !!($('mapSatToggle') && $('mapSatToggle').checked === true);
 
             function drawStation() {
               stationLayer.clearLayers();
@@ -1515,6 +1719,62 @@
                 })(dxSpots[i]);
               }
             }
+            function drawSats() {
+              satLayer.clearLayers();
+              if (!showSat || !window.satellite || !satRecs.length) return;
+              var now = new Date();
+              // Pass predictions fill in a couple at a time so the first
+              // draw never stalls; the 10-second redraw completes the set.
+              var budget = 2;
+              for (var b = 0; b < satRecs.length && budget > 0; b++) {
+                if (!satRecs[b].passDone) {
+                  try { satRecs[b].pass = satNextPass(satRecs[b], now); } catch (e) { satRecs[b].pass = null; }
+                  satRecs[b].passDone = true;
+                  budget--;
+                }
+              }
+              var sel = null;
+              for (var s = 0; s < satRecs.length; s++) if (satRecs[s].def.id === satSelected) sel = satRecs[s];
+              if (sel) {
+                var span = sel.periodMin * 60000;
+                var pts = [];
+                for (var k = -6; k <= 72; k++) {
+                  var pp = satPos(sel.rec, new Date(now.getTime() - 300000 + span * k / 72));
+                  if (pp) pts.push([pp.lat, pp.lon]);
+                }
+                var seg = [];
+                function flushSeg() { if (seg.length > 1) satLayer.addLayer(L.polyline(seg, { color: '#b388ff', weight: 1.5, opacity: 0.7 })); seg = []; }
+                for (var q = 0; q < pts.length; q++) {
+                  if (seg.length && Math.abs(pts[q][1] - seg[seg.length - 1][1]) > 180) flushSeg();
+                  seg.push(pts[q]);
+                }
+                flushSeg();
+                var sp0 = satPos(sel.rec, now);
+                if (sp0) {
+                  var rho = Math.acos(6378.137 / (6378.137 + sp0.altKm));
+                  satLayer.addLayer(L.circle([sp0.lat, sp0.lon], {
+                    radius: rho * 6371000, color: '#b388ff', weight: 1, opacity: 0.5, fillColor: '#b388ff', fillOpacity: 0.07
+                  }));
+                }
+              }
+              for (var i = 0; i < satRecs.length; i++) {
+                (function (entry) {
+                  var p = satPos(entry.rec, now);
+                  if (!p) return;
+                  var isSel = entry.def.id === satSelected;
+                  var dot = L.circleMarker([p.lat, p.lon], {
+                    radius: isSel ? 8 : 6, color: '#0f1417', weight: 1.5, fillColor: '#b388ff', fillOpacity: 0.95
+                  });
+                  dot.bindTooltip('<strong>' + esc(entry.def.name) + '</strong><br>' + esc(entry.def.role) +
+                    '<br>Altitude ' + Math.round(p.altKm) + ' km<br>' + esc(satPassLine(entry)), TIP);
+                  dot.on('click', function () {
+                    satSelected = (satSelected === entry.def.id) ? null : entry.def.id;
+                    drawSats();
+                  });
+                  satLayer.addLayer(dot);
+                })(satRecs[i]);
+              }
+            }
             function drawSession() {
               sessionLayer.clearLayers();
               if (!showSession) return;
@@ -1558,6 +1818,11 @@
               showDx = $('mapDxToggle').checked === true;
               dxSetEnabled(showDx);
             });
+            if ($('mapSatToggle')) $('mapSatToggle').addEventListener('change', function () {
+              showSat = $('mapSatToggle').checked === true;
+              if (showSat) satSetEnabled(true);
+              drawSats();
+            });
             MAP = {
               contact: function (lat, lon, label) {
                 var la = parseFloat(lat), lo = parseFloat(lon);
@@ -1569,17 +1834,22 @@
                 drawStation();
                 drawContact(false);
                 drawSession();
+                for (var i = 0; i < satRecs.length; i++) { satRecs[i].pass = null; satRecs[i].passDone = false; }
+                drawSats();
               },
               sessionChanged: function () { drawSession(); },
               spotsChanged: function () { drawPins(); },
-              dxChanged: function () { drawDx(); }
+              dxChanged: function () { drawDx(); },
+              satChanged: function () { drawSats(); }
             };
             drawStation();
             map.setView([ORIGIN.lat, ORIGIN.lon], 3);
             drawGray();
             drawPins();
             drawDx();
+            drawSats();
             if (showDx) dxSetEnabled(true);
+            if (showSat) satSetEnabled(true);
             setInterval(drawGray, 60000);
             gc('companion-map');
           } catch (e) {
