@@ -1,0 +1,47 @@
+{
+  "model": "Heil HM-12",
+  "slug": "heil-hm-12",
+  "searched_at": "2026-11-25T05:55:15-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'heil hm12', page 1: 4 results; 3 HM-12 comps kept. Left out 1 (ebay 800858871954, $40 auction, 2026-11-10, 'HEIL SOUND GENESIS HM-12...') because Heil Genesis is a separate mic model and the title is ambiguous. Dropped 0 best-offer-accepted, 0 parts-only. Excluded non-matching models (HM-10-XD, HM-iC). No outliers. 2 of 3 comps include extras (base; Icom cable). Thin (3 comps).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629759",
+    "site": "eham",
+    "ask": 65.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 75.0,
+      "sold_date": "2026-11-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188943233691",
+      "source": "ebay",
+      "notes": "HEIL HM-12 MICROPHONE W/ BASE HAM RADIO TESTED. Buy It Now. +$10.00 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 52.0,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/860030754293",
+      "source": "ebay",
+      "notes": "Heil HM-12 Microphone with Icom cable-single element. Buy It Now. Free delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 49.99,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/127606807141",
+      "source": "ebay",
+      "notes": "HEIL HM-12 MICROPHONE - EXCELLENT. Buy It Now. +$15.50 delivery.",
+      "flags": []
+    }
+  ]
+}
