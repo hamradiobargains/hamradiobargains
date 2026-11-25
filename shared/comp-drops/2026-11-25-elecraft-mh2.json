@@ -1,0 +1,34 @@
+{
+  "model": "Elecraft MH2",
+  "slug": "elecraft-mh2",
+  "searched_at": "2026-11-25T05:54:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'elecraft mh2', page 1: 2 exact results, both kept. Thin (2 comps). Both sold by k6ro-amg - likely the same seller as the eHam listing (K6RO); separate sales on different dates, not flagged as duplicates. Dropped 0 best-offer-accepted, 0 parts-only. No outliers. Ignored 'Results matching fewer words' (e.g. KX3 accessory bundle).",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629761",
+    "site": "eham",
+    "ask": 58.95,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 53.19,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327394022620",
+      "source": "ebay",
+      "notes": "Elecraft MH2 MH-2 Hand Microphone - K3 K3S K4 - Kenwood - 8 pin. Fixed price (or Best Offer, not accepted-offer), was $55.99. +$13.65 delivery. Seller k6ro-amg.",
+      "flags": []
+    },
+    {
+      "price": 56.99,
+      "sold_date": "2026-11-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327379068377",
+      "source": "ebay",
+      "notes": "Same title. Fixed price (or Best Offer, not accepted-offer), was $59.99. +$13.65 delivery. Seller k6ro-amg.",
+      "flags": []
+    }
+  ]
+}
