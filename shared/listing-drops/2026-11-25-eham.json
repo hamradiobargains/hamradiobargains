@@ -1,0 +1,64 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-25",
+  "ran_at": "2026-11-25T05:56:00-05:00",
+  "ran_by": "claude",
+  "notes": "Window: since 2026-11-24T05:56:00-05:00 (prior eham run). Browsed signed OUT ('Welcome Guest' / 'Login/Register' shown). First load showed a Cloudflare 'Performing security verification' interstitial that cleared on its own within ~10 s with no interaction (not a 1015, no CAPTCHA). Read public classifieds pages 1 and 2 (two page loads). No individual ad pages, search form, sold searches, or seller/callsign pages; no ad IDs probed. New public ads 629757-629769. 629756 is not on the public pages (likely pending approval) - not opened. Skipped as non-candidates: 629769 Morse Express key (keys, no price), 629767 Begali CW Machine and 629764 Bencher BY-2 paddle (keys/keyers), 629768 QRPworks Ham Central Terminal $98 shipped (terminal/logger, not clearly a TNC/data interface - left out), 629765 RemoteRig RRC-1258 MKII $309 (remote-control interface, not in candidate categories), 629762 Elecraft P3 TX monitor board $165 (option board), 629760/629757 wanted ads. Comps: ledger hits for Elecraft K3/100, Elecraft P3, Yaesu FT-1000MP Mark-V; eBay sold searches for Elecraft MH2 and Heil HM-12 (not in ledger). No eBay challenge; eBay signed in as Leo.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629766",
+      "site": "eham",
+      "title": "Elecraft K3/100  TRANSCEIVER # 2756",
+      "price": 909.0,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "$909 delivered. SN 2756, 100 W, 2.7 SSB filter, KIO3; seller says 'Lots of mods done on 5/2023', super clean, firmware 5.67, works as it should, used today CW/SSB. Power cord and manual. Seller K6RO.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629763",
+      "site": "eham",
+      "title": "ELECRAFT P3 PANADAPTER # 030",
+      "price": 475.0,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "$475 delivered. P3 #030 with manual and K3 cables; seller describes it as very nice. No mention of SVGA or TX monitor option (TX monitor board listed separately as 629762). Seller K6RO.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629761",
+      "site": "eham",
+      "title": "ELECRAFT MH2 MH-2 HAND MIC K3 K3S",
+      "price": 58.95,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "$58.95 delivered. 8-pin hand mic, 'Works great.' Seller K6RO.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629759",
+      "site": "eham",
+      "title": "Heil HM12 w/ Kenwood cable",
+      "price": 65.0,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "$65 shipped CONUS. Like new, includes Kenwood CC-1-K cable.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629758",
+      "site": "eham",
+      "title": "Yaesu FT-1000MP Mark-V w/extras",
+      "price": 1450.0,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "$1450 shipped and insured (lower 48). 200 W Mark-V, 'pristine', works all bands full output; one very light scratch on left side of power supply. Includes stock hand mic, matching SP-8 speaker, several hundred dollars of optional filters installed, CAT cable and KPA-500 cable. Add 3% for PayPal. Also listed on QRZ.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
