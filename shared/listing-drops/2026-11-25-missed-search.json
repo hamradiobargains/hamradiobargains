@@ -5,7 +5,7 @@
     {
       "term": "ic-202e",
       "searched_at": "2026-11-25T03:20:37-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "status": "worked",
       "worked_at": "2026-11-25",
       "result": "No comps found for Icom IC-202E; nearest variant Icom IC-202 already has 1 comp in 2026-11-25-icom-ic-202.json (not re-deposited)"
@@ -13,7 +13,7 @@
     {
       "term": "ic-202",
       "searched_at": "2026-11-25T03:20:35-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "status": "worked",
       "worked_at": "2026-11-25",
       "result": "2026-11-25-icom-ic-202.json, 1 comp (very low confidence; deposited by an earlier 2026-11-25 run, re-confirmed this run - same single comp, not re-deposited)"
@@ -21,20 +21,23 @@
     {
       "term": "tr-2400",
       "searched_at": "2026-11-25T03:19:54-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "status": "worked",
       "worked_at": "2026-11-25",
-      "result": "No comps found — Kenwood TR-2400: only sale was parts-only with best offer accepted; Trident TR-2400 scanner sales are a different product, not deposited. Worked by Claude's 2026-11-25 price-check run; marking landed by Archie (run's repo access blocked)."
+      "result": "No comps found \u2014 Kenwood TR-2400: only sale was parts-only with best offer accepted; Trident TR-2400 scanner sales are a different product, not deposited. Worked by Claude's 2026-11-25 price-check run; marking landed by Archie (run's repo access blocked)."
     },
     {
       "term": "ft-400xfr",
       "searched_at": "2026-11-25T10:09:22-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "status": "worked",
+      "worked_at": "2026-11-25",
+      "result": "No pricing needed \u2014 term is a typo for the Yaesu FTM-400XDR (Leo's call, 2026-11-25), already covered: fair value $437.97 median on 16 recorded sales. Marking landed by Archie."
     },
     {
       "term": "icom ic-02at",
       "searched_at": "2026-11-25T10:05:15-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "likely_model": "Icom IC-02AT",
       "result": "2026-11-25-icom-ic-02at.json, 8 comps (median $77.48)",
       "status": "worked",
@@ -43,73 +46,73 @@
     {
       "term": "collins 30k",
       "searched_at": "2026-11-25T08:48:26-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "likely_model": "Collins 30K",
-      "result": "No comps found — eBay sold search for 'Collins 30K' and 'Collins 30K-1' returned no sales of the Collins 30K transmitter (only 30L-1 amplifiers, a different product, and Warhammer 30K items); nothing deposited",
+      "result": "No comps found \u2014 eBay sold search for 'Collins 30K' and 'Collins 30K-1' returned no sales of the Collins 30K transmitter (only 30L-1 amplifiers, a different product, and Warhammer 30K items); nothing deposited",
       "status": "worked",
       "worked_at": "2026-11-25"
     },
     {
       "term": "collins kw-1",
       "searched_at": "2026-11-25T08:48:21-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "likely_model": "Collins KW-1",
-      "result": "No comps found — eBay sold search for 'Collins KW-1' and 'Collins KW1 transmitter' returned 0 matching sales (only KWM-2/KWM-2A and other Collins models); nothing deposited",
+      "result": "No comps found \u2014 eBay sold search for 'Collins KW-1' and 'Collins KW1 transmitter' returned 0 matching sales (only KWM-2/KWM-2A and other Collins models); nothing deposited",
       "status": "worked",
       "worked_at": "2026-11-25"
     },
     {
       "term": "lcg-600",
       "searched_at": "2026-11-25T08:46:56-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "status": "worked",
       "worked_at": "2026-11-25",
-      "result": "No comps found — no known ham model 'LCG-600'; eBay sold search returned 0 exact matches (only Ford tractor parts and card-game lots); no variant assumed or deposited (Claude 2026-11-25 run)."
+      "result": "No comps found \u2014 no known ham model 'LCG-600'; eBay sold search returned 0 exact matches (only Ford tractor parts and card-game lots); no variant assumed or deposited (Claude 2026-11-25 run)."
     },
     {
       "term": "heath monitor",
       "searched_at": "2026-11-25T08:40:51-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "status": "worked",
       "worked_at": "2026-11-25",
-      "result": "No comps found — vague term naming no model (could be Heathkit SB-610, SB-614, HO-10 or others); eBay sold search 'heath monitor' returned only Allen & Heath audio gear and Heath gas detectors, no Heathkit sales; no variant assumed or deposited (Claude 2026-11-25 run)."
+      "result": "No comps found \u2014 vague term naming no model (could be Heathkit SB-610, SB-614, HO-10 or others); eBay sold search 'heath monitor' returned only Allen & Heath audio gear and Heath gas detectors, no Heathkit sales; no variant assumed or deposited (Claude 2026-11-25 run)."
     },
     {
       "term": "pierce simpson gladding",
       "searched_at": "2026-11-25T08:40:33-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "status": "worked",
       "worked_at": "2026-11-25",
-      "result": "No comps found — maker-only term (Pearce-Simpson, a Gladding division) names no model; eBay sold results span Simba, Guardian, Cougar 23B CBs and Gulfstream/Islander/Newport marine radios, so no variant was assumed or deposited (Claude 2026-11-25 run)."
+      "result": "No comps found \u2014 maker-only term (Pearce-Simpson, a Gladding division) names no model; eBay sold results span Simba, Guardian, Cougar 23B CBs and Gulfstream/Islander/Newport marine radios, so no variant was assumed or deposited (Claude 2026-11-25 run)."
     },
     {
       "term": "hallicrafters sr-150",
       "searched_at": "2026-11-25T08:39:58-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "status": "worked",
       "worked_at": "2026-11-25",
-      "result": "No comps found — Hallicrafters SR-150: all 4 radio sales are parts-only/parts-or-repair (incl. 'very clean' w/PS-150 lot listed Parts Only); 5th result was a brochure; nothing deposited."
+      "result": "No comps found \u2014 Hallicrafters SR-150: all 4 radio sales are parts-only/parts-or-repair (incl. 'very clean' w/PS-150 lot listed Parts Only); 5th result was a brochure; nothing deposited."
     },
     {
       "term": "hallicrafters sr-160",
       "searched_at": "2026-11-25T08:39:51-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "status": "worked",
       "worked_at": "2026-11-25",
-      "result": "No comps found — Hallicrafters SR-160: all 3 eBay sales (227589266840, 227583505367, 860045008990) are labeled Parts Only; nothing deposited."
+      "result": "No comps found \u2014 Hallicrafters SR-160: all 3 eBay sales (227589266840, 227583505367, 860045008990) are labeled Parts Only; nothing deposited."
     },
     {
       "term": "xiegu 60",
       "searched_at": "2026-11-25T08:37:33-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "status": "worked",
       "worked_at": "2026-11-25",
-      "result": "No comps found — Xiegu makes no '60' model; term is ambiguous (G90 / X6100 / X6200 all plausible), so no variant was assumed or deposited. eBay sold search 'xiegu 60' returned 0 exact matches."
+      "result": "No comps found \u2014 Xiegu makes no '60' model; term is ambiguous (G90 / X6100 / X6200 all plausible), so no variant was assumed or deposited. eBay sold search 'xiegu 60' returned 0 exact matches."
     },
     {
       "term": "drake 4a",
       "searched_at": "2026-11-25T06:54:55-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "status": "worked",
       "worked_at": "2026-11-25",
       "result": "2026-11-25-drake-r-4a.json, 2 comps (low confidence; term read as Drake R-4A)"
