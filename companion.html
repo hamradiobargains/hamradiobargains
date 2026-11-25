@@ -418,11 +418,12 @@
 
       <section class="card map-card" id="mapCard" aria-label="Live map">
         <h2>Live map</h2>
-        <p class="sub">Your station, the station you are working, and the great-circle path between you. The pins are the POTA activators on the air right now; click one to work it, same as the list above.</p>
+        <p class="sub">Your station, the station you are working, and the great-circle path between you. The yellow pins are the POTA activators on the air right now; click one to work it, same as the list above. Tick DX spots and the orange pins are the latest DX cluster spots, worked the same way.</p>
         <div class="map-toggles">
           <label><input type="checkbox" id="mapPinsToggle" checked /> POTA pins</label>
           <label><input type="checkbox" id="mapSessionToggle" /> Session paths</label>
           <label><input type="checkbox" id="mapGrayToggle" checked /> Grayline</label>
+          <label><input type="checkbox" id="mapDxToggle" /> DX spots</label>
         </div>
         <div id="hrbMap" aria-label="Map of your station, your contacts, and the paths between them"></div>
       </section>
@@ -1183,6 +1184,149 @@
         refreshPota();
         setInterval(refreshPota, 60000);
 
+        /* ---------- DX cluster spots (DX Summit web feed) ----------
+           The telnet DX clusters republished as a web feed: the same
+           spots the logging programs show. A browser cannot speak
+           telnet, so the page reads DX Summit's public spot page and
+           parses its fixed-width lines. Locations come from the page's
+           own callbook/DXCC machinery, cached per callsign: the exact
+           station position when the callbook has one, the DXCC country
+           point otherwise. The feed only runs while the DX tick is on. */
+        var DX_FEED = 'https://www.dxsummit.fi/DxSpots.aspx?count=50';
+        var dxSpots = [];        // parsed spots, newest first, one per station
+        var dxGeo = {};          // base call -> {lat, lon} | null (null = tried, unplaced)
+        var dxGeoBusy = {};      // base call -> true while a lookup is in flight
+        var dxTimer = null;
+
+        function dxBaseCall(call) {
+          var c = String(call || '').trim().toUpperCase();
+          var parts = c.split('/');
+          if (parts.length === 2) {
+            if (/^(P|M|MM|AM|QRP|LH)$/.test(parts[1])) return parts[0];
+            if (/^[A-Z0-9]{1,3}$/.test(parts[0])) return parts[1];
+            return parts[0].length >= parts[1].length ? parts[0] : parts[1];
+          }
+          return c;
+        }
+        function dxCallOk(call) {
+          var b = dxBaseCall(call);
+          return /^[A-Z]{1,3}[0-9][A-Z0-9]{1,4}$/.test(b) && b.length >= 3;
+        }
+        function dxParse(text) {
+          var out = [];
+          var seen = {};
+          var lines = String(text || '').split(/\r?\n/);
+          for (var i = 0; i < lines.length; i++) {
+            var m = lines[i].match(/^(\S+)\s+(\d+\.\d)\s+(\S+)\s*(.*?)\s+(\d{4})\s+(\d{1,2}\s+[A-Za-z]{3})\s{2,}(.+?)\s*$/);
+            if (!m) continue;
+            var call = m[3].toUpperCase();
+            if (!dxCallOk(call)) continue;
+            var base = dxBaseCall(call);
+            if (seen[base]) continue;
+            seen[base] = true;
+            out.push({
+              spotter: m[1].replace(/-@$/, ''),
+              freqKhz: m[2],
+              dxcall: call,
+              base: base,
+              comment: (m[4] || '').trim(),
+              time: m[5],
+              country: m[7]
+            });
+          }
+          return out;
+        }
+        function dxSpotWhen(sp, now) {
+          var hh = parseInt(sp.time.slice(0, 2), 10), mm = parseInt(sp.time.slice(2, 4), 10);
+          var t = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), hh, mm);
+          if (t - now.getTime() > 5 * 60000) t -= 86400000;
+          return t;
+        }
+        function dxAge(sp) {
+          var mins = Math.max(0, Math.round((Date.now() - dxSpotWhen(sp, new Date())) / 60000));
+          if (mins < 1) return 'just now';
+          if (mins < 60) return mins + ' min ago';
+          return Math.floor(mins / 60) + 'h ' + (mins % 60) + 'm ago';
+        }
+        function dxModeFrom(comment) {
+          var up = ' ' + String(comment || '').toUpperCase() + ' ';
+          var modes = ['FT8', 'FT4', 'RTTY', 'PSK31', 'SSTV', 'CW', 'SSB', 'FM', 'AM'];
+          for (var i = 0; i < modes.length; i++) {
+            if (up.indexOf(' ' + modes[i] + ' ') >= 0 || up.indexOf(' ' + modes[i] + '-') >= 0 || up.indexOf('/' + modes[i] + ' ') >= 0) return modes[i];
+          }
+          return '';
+        }
+        function dxResolve(base) {
+          if (base in dxGeo || dxGeoBusy[base]) return;
+          dxGeoBusy[base] = true;
+          hamdbRecord(base).then(function (rec) {
+            if (rec && isFinite(parseFloat(rec.lat)) && isFinite(parseFloat(rec.lon))) {
+              dxGeo[base] = { lat: parseFloat(rec.lat), lon: parseFloat(rec.lon) };
+            }
+            return dxGeo[base] ? null : dxccInfo(base);
+          }).then(function (dx) {
+            if (!dxGeo[base] && dx && dx.entity && isFinite(parseFloat(dx.entity.lat)) && isFinite(parseFloat(dx.entity.lon))) {
+              dxGeo[base] = { lat: parseFloat(dx.entity.lat), lon: parseFloat(dx.entity.lon) };
+            }
+            if (!(base in dxGeo)) dxGeo[base] = null;
+          }).catch(function () { dxGeo[base] = null; })
+          .finally(function () {
+            delete dxGeoBusy[base];
+            if (MAP && MAP.dxChanged) MAP.dxChanged();
+          });
+        }
+        function dxResolveSome() {
+          var n = 0;
+          for (var i = 0; i < dxSpots.length && n < 6; i++) {
+            var b = dxSpots[i].base;
+            if (!(b in dxGeo) && !dxGeoBusy[b]) { dxResolve(b); n++; }
+          }
+        }
+        function refreshDx() {
+          if (typeof fetch !== 'function') return;
+          fetch(DX_FEED).then(function (r) { return r.text(); }).then(function (text) {
+            var m = String(text || '').match(/<pre>([\s\S]*?)<\/pre>/i);
+            var body = m ? m[1] : String(text || '');
+            body = body.replace(/<[^>]+>/g, '');
+            var parsed = dxParse(body);
+            if (parsed.length) {
+              dxSpots = parsed;
+              dxResolveSome();
+              if (MAP && MAP.dxChanged) MAP.dxChanged();
+            }
+          }).catch(function () { /* a failed poll keeps the pins already up */ });
+        }
+        function dxWorkSpot(sp) {
+          if (!sp) return;
+          var g = dxGeo[sp.base];
+          if (editingId) resetFormForNext();
+          $('fCall').value = sp.dxcall;
+          var mhz = potaMhz(sp.freqKhz);
+          if (mhz) $('fFreq').value = mhz;
+          var band = potaBand(sp.freqKhz);
+          if (band) $('fBand').value = band;
+          var mode = dxModeFrom(sp.comment);
+          if (mode) $('fMode').value = mode;
+          $('fNote').value = ('DX spot by ' + sp.spotter + (sp.comment ? ' — ' + sp.comment : '')).slice(0, 120);
+          stampNow();
+          if (g) {
+            MAP_SPOT = { call: sp.dxcall };
+            if (MAP) MAP.contact(g.lat, g.lon, sp.dxcall + (sp.country ? ' · ' + sp.country : ''));
+          }
+          gc('companion-dx-spot');
+          lookup(sp.dxcall);
+        }
+        function dxSetEnabled(on) {
+          if (on) {
+            refreshDx();
+            if (!dxTimer) dxTimer = setInterval(function () {
+              var t = $('mapDxToggle');
+              if (t && t.checked) refreshDx();
+            }, 60000);
+          }
+          if (MAP && MAP.dxChanged) MAP.dxChanged();
+        }
+
         /* ---------- Live map (Leaflet; an optional extra) ----------
            Everything map-shaped lives in this section and is guarded: if
            the Leaflet library did not load, the map card hides itself,
@@ -1290,12 +1434,14 @@
             var grayLayer = L.layerGroup().addTo(map);
             var sessionLayer = L.layerGroup().addTo(map);
             var pinLayer = L.layerGroup().addTo(map);
+            var dxLayer = L.layerGroup().addTo(map);
             var contactLayer = L.layerGroup().addTo(map);
             var stationLayer = L.layerGroup().addTo(map);
             var contactPt = null;
             var showPins = !$('mapPinsToggle') || $('mapPinsToggle').checked !== false;
             var showSession = !!($('mapSessionToggle') && $('mapSessionToggle').checked === true);
             var showGray = !$('mapGrayToggle') || $('mapGrayToggle').checked !== false;
+            var showDx = !!($('mapDxToggle') && $('mapDxToggle').checked === true);
 
             function drawStation() {
               stationLayer.clearLayers();
@@ -1344,6 +1490,29 @@
                 })(potaSpots[i]);
               }
             }
+            function drawDx() {
+              dxLayer.clearLayers();
+              if (!showDx) return;
+              for (var i = 0; i < dxSpots.length; i++) {
+                (function (sp) {
+                  var g = dxGeo[sp.base];
+                  if (!g) return;
+                  var la = parseFloat(g.lat), lo = parseFloat(g.lon);
+                  if (!isFinite(la) || !isFinite(lo)) return;
+                  var pin = L.circleMarker([la, lo], {
+                    radius: 5, color: '#0f1417', weight: 1.5, fillColor: '#ff8c42', fillOpacity: 0.95
+                  });
+                  var mhz = potaMhz(sp.freqKhz);
+                  pin.bindPopup('<strong>' + esc(sp.dxcall) + '</strong>' +
+                    (sp.country ? '<br>' + esc(sp.country) : '') +
+                    (mhz ? '<br>' + esc(mhz) + ' MHz' : '') +
+                    (sp.comment ? '<br>' + esc(sp.comment) : '') +
+                    '<br>Spotted by ' + esc(sp.spotter) + ' &middot; ' + esc(dxAge(sp)));
+                  pin.on('click', function () { dxWorkSpot(sp); });
+                  dxLayer.addLayer(pin);
+                })(dxSpots[i]);
+              }
+            }
             function drawSession() {
               sessionLayer.clearLayers();
               if (!showSession) return;
@@ -1383,6 +1552,10 @@
               showGray = $('mapGrayToggle').checked === true;
               drawGray();
             });
+            if ($('mapDxToggle')) $('mapDxToggle').addEventListener('change', function () {
+              showDx = $('mapDxToggle').checked === true;
+              dxSetEnabled(showDx);
+            });
             MAP = {
               contact: function (lat, lon, label) {
                 var la = parseFloat(lat), lo = parseFloat(lon);
@@ -1396,12 +1569,15 @@
                 drawSession();
               },
               sessionChanged: function () { drawSession(); },
-              spotsChanged: function () { drawPins(); }
+              spotsChanged: function () { drawPins(); },
+              dxChanged: function () { drawDx(); }
             };
             drawStation();
             map.setView([ORIGIN.lat, ORIGIN.lon], 3);
             drawGray();
             drawPins();
+            drawDx();
+            if (showDx) dxSetEnabled(true);
             setInterval(drawGray, 60000);
             gc('companion-map');
           } catch (e) {
