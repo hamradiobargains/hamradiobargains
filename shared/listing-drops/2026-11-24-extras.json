@@ -1,0 +1,229 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-24",
+  "ran_at": "2026-11-24T18:56:10-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered (ran_at after previous extras drop 2026-11-23-extras.json, ran_at 2026-11-23T18:46:44-05:00): 2026-11-24-eham.json (05:56:00; no 'Extra plausible candidates not comped' list; eHam not opened), 2026-11-24-qth.json (14:52:36; 17 priced QTH extras under that heading), 2026-11-24-ebay.json (17:59:05; no such heading; its over-cap items were not queued). Previous CARRIED OVER (8, at the front): 1785504, 1785501, 1785478, 1785482, 1785485, 1785491, 1785505, 1785486. No previous BACKLOG CARRY. Named extra from Leo (stored task prompt): QTH 1783910 (Yaesu '991', $600 firm), treated as the ORIGINAL Yaesu FT-991 per Leo's ruling; filed under 'Yaesu FT-991', never FT-991A; already in dropped-urls.json (not re-appended); gone again; one FT-991 sold search run (cap allowed), judged against FT-991 comps only. Queue: 8 carry-overs + 1 named + 17 fresh QTH extras = 26 (1785541 is the same package as 1785540, 1785504/1785501 also re-listed in the 11-24 drop as renewals). Triaged 20 (live 18, gone 2: 1785482, 1783910; skipped 0). Ledger hits: 3 ads (1785540/1785541 FT-891 median 589 count 29; 1785566 FTM-300D median 311 count 9; 1785563 Elecraft P3 median 549.99 count 11). eBay sold searches used 15 of 15: Yaesu FTDX-5000 (0 exact), FlexRadio FLEX-5000A (0), Kenwood TS-520 (3 kept), Heil HM-5 (2), Heil Pro-Micro (1), Inrad DMS-629 (1), Timewave DSP-9 (1), Yaesu FT-991 (5), FlexRadio FLEX-6500 (2), Ten-Tec Omni VI Plus 564 (2), Heathkit SB-221 (1), Ameritron AL-800H (0), Kenwood TM-D710A (6), Hy-Gain Ham III (0), SGC SGC-230 (6). Solid (3+): TS-520, FT-991, TM-D710A, SG-230; thin: HM-5, Pro-Micro, DMS-629, DSP-9, FLEX-6500, Omni VI+ 564, SB-221; zero usable: FTDX-5000 (variant unstated), FLEX-5000A, AL-800H, Ham III. Gone: 1785482, 1783910. Skipped: none. Cross-posts: possible cross-post 1785540 / 1785541 (same text and price, no serials shown; both kept, 1785540 triaged). Outliers: none. Identity/uncertainty cautions: 1785504 variant not stated (D/MP variants listed in comp-drop notes, none counted); 1785485 'correctly wired bypassed for icom IC 746/756 ETC.' wiring wording carried verbatim in work_flag (UNCERTAIN); Heil Pro-Micro comp is the Icom (iC) version vs ad's AD-1YM adapter (UNCERTAIN); SB-221 itm 198736023642 'Rebuilt' title but eBay 'Parts Only' condition dropped (UNCERTAIN); SG-230 itm 206655890161 Codan 9103-S-badged listing kept (UNCERTAIN); Timewave DSP-9 vs DSP-9+ kept separate. Ask changes vs the 2026-11-23 drop: 1785491 $140 shipped -> $135 shipped. CARRIED OVER: 1785524, 1785553, 1785564, 1785527, 1785528, 1785544, 1785542 (all QTH counter IDs; order preserved; facts seen 2026-11-24 live read: 1785524 Yaesu FT-100 $450 OBO plus shipping, TCXO-8 installed, 'flawless in appearance and operation' as far as seller can tell; 1785553 multi-item Yaesu FT-5D $325 / FT-891 w/ mAT-30 + Digirig $750 / DEM transverters $350 each; 1785564 Yaesu FT2DR + SCU-39 $200 shipped, $175 radio only, 'very good condition with no known issues'; 1785527 LDG IT-100 $90 buyer pays shipping; 1785528 MFJ-945E $110 plus shipping; 1785544 Heil Gold Elite 'As new' $140 shipped; 1785542 MFJ Grandmaster 'like new' $120 shipped, Venmo only). BACKLOG CARRY: none. Browser: Leo's Chrome; eBay signed in as Leo, no challenge or CAPTCHA at any point; eHam not opened. QTH ads read one at a time ~4.5 s apart from the same tab. searched_at on comp drops is the file-build time, not the individual search time. Comp drop file name 2026-11-24-HHMM-yaesu-ft-891 uses the HHMM form because a same-day yaesu-ft-891 file already existed. Timestamps -05:00 (EST).",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785504",
+      "site": "qth",
+      "title": "Yaesu FTDX-5000 (variant not stated) w/ MH-31, FH-2, SM-2000 x2, DMU",
+      "price": 2000,
+      "shipping": 0,
+      "found_at": "2026-11-23",
+      "condition_notes": "live. Seller wording: 'Yaesu FTDX-5000 FTDX 5000 MH-31 Microphone FH-2 Keypad SM-2000 Station Monitor and a extra SM-2000 With DMU Data Management Unit With all boxes and manuals $2000.00'. No condition statement; shipping not stated. comps: yaesu-ftdx-5000, 0 kept (no plain FTDX-5000 sales; D/MP variants listed in comp-drop notes)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785501",
+      "site": "qth",
+      "title": "FlexRadio FLEX-5000A w/ optional ATU and 2nd RX",
+      "price": 875,
+      "shipping": 0,
+      "found_at": "2026-11-23",
+      "condition_notes": "live. Seller wording: 'Optional ATU and Second RX is installed Just a few blemishes on the top case otherwise very very clean', radio, DC cable, FireWire card and cable, spiral bound printed manual, '$875 plus shipping' (shipping amount not stated). comps: flexradio-flex-5000a, 0 kept",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785478",
+      "site": "qth",
+      "title": "Kenwood TS-520 w/ external VFO, speaker, CW filter, MC-50 mic, Heil headset",
+      "price": 250,
+      "shipping": 0,
+      "found_at": "2026-11-23",
+      "condition_notes": "live. Seller wording: 'a nice TS520 with external Vfo and Speaker. has cw filter Has MC 50 mic and a heil headset. Pickup only cash and carry $250 see it work in person ... the 520 works well.' Pickup only. comps: kenwood-ts-520, 3 kept, median 229.99",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785482",
+      "site": "qth",
+      "title": "VHQ Hexbeam",
+      "price": 975,
+      "shipping": 0,
+      "found_at": "2026-11-23",
+      "condition_notes": "no longer live (QTH: ad number no longer in our system). Last recorded in 2026-11-23 extras drop: $975 plus shipping, 'gently used for 2 seasons ... very good shape. Spreaders could use a spray paint touch up', includes mast extension. not comped: gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785485",
+      "site": "qth",
+      "title": "Heil HM-5 microphone",
+      "price": 90,
+      "shipping": 0,
+      "found_at": "2026-11-23",
+      "condition_notes": "live. Seller wording: 'works good, pics available. correctly wired bypassed for icom IC 746/756 ETC. non smoking shack. Conus shipping included.' $90.00. comps: heil-hm-5, 2 kept, median 91.975 (thin)",
+      "work_flag": "correctly wired bypassed for icom IC 746/756 ETC. (wiring wording, UNCERTAIN whether a modification)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785491",
+      "site": "qth",
+      "title": "Heil Pro-Micro dual side boomset w/ AD-1YM adapter",
+      "price": 135,
+      "shipping": 0,
+      "found_at": "2026-11-23",
+      "condition_notes": "live. Ask now $135.00 shipped lower 48 (ad last edited 2026-11-24; was $140 shipped in the prior drop). Seller wording: 'Cost $200.00 plus tax new. In very good condition and gets great audio reports.' comps: heil-pro-micro, 1 kept (thin)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785505",
+      "site": "qth",
+      "title": "Inrad DMS-629 mic + desk stand w/ Icom cable and extra Yaesu mic cable",
+      "price": 130,
+      "shipping": 0,
+      "found_at": "2026-11-23",
+      "condition_notes": "live. Seller wording: 'Almost New. Used once then returned to my favorite mode - CW. All original boxes and sales receipt.' '$130, plus shipping.' (shipping amount not stated). comps: inrad-dms-629, 1 kept (thin)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785486",
+      "site": "qth",
+      "title": "Timewave DSP-9 audio filter",
+      "price": 85,
+      "shipping": 0,
+      "found_at": "2026-11-23",
+      "condition_notes": "live. Seller wording: 'Looks and works like new. Really makes a big difference. No smoking, no pets. No returns. $85 shipped or best offer.' comps: timewave-dsp-9, 1 kept (thin)",
+      "work_flag": "No returns.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "Yaesu '991' (treated as original FT-991 per Leo's ruling)",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-11-23",
+      "condition_notes": "no longer live (QTH: ad number no longer in our system; gone again, per the 2026-11-23 extras drop). Named extra from Leo's stored prompt: Yaesu '991', $600 firm, treated as the ORIGINAL FT-991 (not FT-991A). comps: yaesu-ft-991, 5 kept, median 720 (one FT-991 sold search run; eBay FT-991A and FT-991M sales excluded)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785546",
+      "site": "qth",
+      "title": "FlexRadio FLEX-6500 + Maestro B (rechargeable battery, tilt feet)",
+      "price": 1600,
+      "shipping": 0,
+      "found_at": "2026-11-24",
+      "condition_notes": "live. Seller wording: 'I have a really nice Flex-6500 and a Maestro B with rechargeable battery that I am no longer using. The 6500 operates perfectly and looks great. The Maestro also operates perfectly and looks good. The Maestro has the tilt feet installed. The 6500 is running 4.3.19. Price shipped/insured for both items is $1600.' Price covers both items. comps: flexradio-flex-6500, 2 kept, median 1561.72 (thin)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785540",
+      "site": "qth",
+      "title": "Yaesu FT-891 + FC-50 tuner package",
+      "price": 795,
+      "shipping": 0,
+      "found_at": "2026-11-24",
+      "condition_notes": "live. Seller wording: 'ALL is SAME AS NEW! YAESU FT-891, I Opened what was basically NOS Box 2 weeks ago ... Matching Tuner, YAESU FC-50 ... bought New 1 week ago; it works great! My worst SWR is 4.3:1 and it matches it with Ease.' Includes transceiver amplifier relay, original boxes, manuals, mic. 'SELLING PACKAGE for $795 FIRM + SHIPPING' (shipping amount not stated); package, will not sell separately. comps: ledger hit (yaesu-ft-891), median 589, count 29, ledger 2026-11-02 - FT-891 only, FC-50 not priced",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785541",
+      "site": "qth",
+      "title": "Yaesu FT-891 + FC-50 tuner package (cross-post of 1785540)",
+      "price": 795,
+      "shipping": 0,
+      "found_at": "2026-11-24",
+      "condition_notes": "live (same text read via the cross-post). Possible cross-post of QTH 1785540: identical description and $795 FIRM + shipping, no serials shown, listed under antenna-tuner category. Triaged via 1785540 (cross-post 1785540 / 1785541). comps: ledger hit, see 1785540",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785531",
+      "site": "qth",
+      "title": "Ten-Tec Omni VI Plus (564) w/ 705 desk mic and manual",
+      "price": 675,
+      "shipping": 0,
+      "found_at": "2026-11-24",
+      "condition_notes": "live. Seller wording: 'excellent condition Ten Tec Omni VI Plus (model 564) transceiver with manual and 705 desk mic ... excellent cosmetic condition, has all filter slots populated and functions 100 % as intended ... Securely boxed and insured and shipped for $675 to CONUS.' comps: ten-tec-omni-vi-plus-564, 2 kept, median 704.995 (thin)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785533",
+      "site": "qth",
+      "title": "Heathkit SB-221 linear amplifier",
+      "price": 900,
+      "shipping": 0,
+      "found_at": "2026-11-24",
+      "condition_notes": "live. Seller wording: 'New Tubes, New Caps, New Rectifier Board, Soft-start, WB9ZKY KeyAll Embroidered Custom Dust Cover. Excellent Condition. $900. Will Not Ship. Delivery along I90 between Batavia, NY and Amsterdam, NY.' No shipping. comps: heathkit-sb-221, 1 kept (thin)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785548",
+      "site": "qth",
+      "title": "Ameritron AL-800H",
+      "price": 1800,
+      "shipping": 0,
+      "found_at": "2026-11-24",
+      "condition_notes": "live. Seller wording: 'I have a nice Ameritron AL-800H for sale $1800. PICKUP ONLY.' comps: ameritron-al-800h, 0 kept",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785525",
+      "site": "qth",
+      "title": "Kenwood TM-D710A w/ accessories",
+      "price": 450,
+      "shipping": 0,
+      "found_at": "2026-11-24",
+      "condition_notes": "live. Seller wording: 'Kenwood TM-D710a in immaculate condition. There are no scratches, dings, dents, or scrapes on the control head ... All firmware has been updated to the last and current revs.' Includes mounting brackets and two USB data cables. '$450.00 plus fees and shipping.' (shipping amount not stated). comps: kenwood-tm-d710a, 6 kept, median 504.5",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785566",
+      "site": "qth",
+      "title": "Yaesu FTM-300D (like new) w/ optional desktop face holder",
+      "price": 360,
+      "shipping": 0,
+      "found_at": "2026-11-24",
+      "condition_notes": "live. Seller wording: 'LIKE NEW ... USED VERY VERY LITTLE IN HOUSE ONLY. $360 SHIPPED. comes with everything it came with new also i have the optional desktop face holder.' comps: ledger hit (yaesu-ftm-300d), median 311, count 9, ledger 2026-10-29",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785563",
+      "site": "qth",
+      "title": "Elecraft P3 panadapter #030 w/ manual and K3 cables",
+      "price": 475,
+      "shipping": 0,
+      "found_at": "2026-11-24",
+      "condition_notes": "live. Seller wording: 'This is a very nice P3 ... I use one of these every day, and this one is not needed in my shack ... Local pickup is also fine.' '$475 delivered'. comps: ledger hit (elecraft-p3), median 549.99, count 11, ledger 2026-11-15",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785555",
+      "site": "qth",
+      "title": "Hy-Gain/CDE Ham III rebuilt rotator",
+      "price": 325,
+      "shipping": 0,
+      "found_at": "2026-11-24",
+      "condition_notes": "live. Seller wording: 'Hy-Gain/CDE Ham III rotor just rebuilt. New bearing installed. Excellent condition inside and out ... Rotor operates very smooth, bright meter light.' '$325 + shipping' (shipping amount not stated). comps: hy-gain-ham-iii, 0 kept",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785582",
+      "site": "qth",
+      "title": "SGC 230 automatic antenna tuner",
+      "price": 325,
+      "shipping": 0,
+      "found_at": "2026-11-24",
+      "condition_notes": "live. Seller wording: 'Made for remote tuning a long wire or Backstay etc. Very rugged and weather resistant. Tunes a 30' to 300' wire at 200 watts. Very Good condition $325 shipped US'. comps: sgc-sgc-230, 6 kept, median 299.975",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
