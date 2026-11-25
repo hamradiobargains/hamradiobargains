@@ -5,12 +5,18 @@
     {
       "term": "ic-202e",
       "searched_at": "2026-11-25T03:20:37-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "status": "worked",
+      "worked_at": "2026-11-25",
+      "result": "No comps found for Icom IC-202E; nearest variant Icom IC-202 already has 1 comp in 2026-11-25-icom-ic-202.json (not re-deposited)"
     },
     {
       "term": "ic-202",
       "searched_at": "2026-11-25T03:20:35-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "status": "worked",
+      "worked_at": "2026-11-25",
+      "result": "2026-11-25-icom-ic-202.json, 1 comp (very low confidence; deposited by an earlier 2026-11-25 run, re-confirmed this run - same single comp, not re-deposited)"
     },
     {
       "term": "tr-2400",
@@ -73,7 +79,10 @@
     {
       "term": "drake 4a",
       "searched_at": "2026-11-25T06:54:55-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "status": "worked",
+      "worked_at": "2026-11-25",
+      "result": "2026-11-25-drake-r-4a.json, 2 comps (low confidence; term read as Drake R-4A)"
     }
   ]
 }
