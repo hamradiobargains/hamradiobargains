@@ -1,0 +1,34 @@
+{
+  "model": "Ten-Tec Omni VI Plus (564)",
+  "slug": "ten-tec-omni-vi-plus-564",
+  "searched_at": "2026-11-24T18:55:37-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Ten-Tec Omni VI Plus 564', page 1 only. 2 kept, median 704.995 - thin. Dropped parts-only (1): itm 168653654514 Omni 6+ model 564 'Parts Only' auction $669 +26.13, 2026-09-07. Not counted (563 Omni VI is a different model): itm 407351595572 $489, 117511253321 $499.99, 287575835174 (BO, parts), 920040572280 (BO accepted), 237113549667/237056476549 563 Parts Only; PC boards/power supply ignored.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785531",
+    "site": "qth",
+    "ask": 675,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 800,
+      "sold_date": "2026-11-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880147973537",
+      "source": "ebay",
+      "notes": "title: Vintage Ham Radio Transceiver (excellent); shown shipping $91.65",
+      "flags": []
+    },
+    {
+      "price": 609.99,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128017150740",
+      "source": "ebay",
+      "notes": "shown shipping $31.55",
+      "flags": []
+    }
+  ]
+}
