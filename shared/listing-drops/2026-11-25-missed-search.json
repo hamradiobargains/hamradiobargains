@@ -15,7 +15,10 @@
     {
       "term": "tr-2400",
       "searched_at": "2026-11-25T03:19:54-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "status": "worked",
+      "worked_at": "2026-11-25",
+      "result": "No comps found — Kenwood TR-2400: only sale was parts-only with best offer accepted; Trident TR-2400 scanner sales are a different product, not deposited. Worked by Claude's 2026-11-25 price-check run; marking landed by Archie (run's repo access blocked)."
     },
     {
       "term": "ft-400xfr",

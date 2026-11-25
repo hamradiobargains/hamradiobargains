@@ -5,7 +5,10 @@
     {
       "term": "2520",
       "searched_at": "2026-11-21T00:16:03-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "status": "worked",
+      "worked_at": "2026-11-25",
+      "result": "No comps found — read as Kenwood TM-2530A (visitor typed 'tm 2520' minutes earlier); eBay showed only TM-2530A accessories, no radio sales. Worked by Claude's 2026-11-25 price-check run; marking landed by Archie (run's repo access blocked)."
     },
     {
       "term": "ft 636",
