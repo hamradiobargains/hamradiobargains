@@ -56,10 +56,9 @@
       "term": "collins kw-1",
       "searched_at": "2026-11-25T08:48:21-05:00",
       "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made \u2014 the price-check run determines the model. Visitor typed exactly this term and got no result.",
-      "likely_model": "Collins KW-1",
-      "result": "No comps found \u2014 eBay sold search for 'Collins KW-1' and 'Collins KW1 transmitter' returned 0 matching sales (only KWM-2/KWM-2A and other Collins models); nothing deposited",
-      "status": "worked",
-      "worked_at": "2026-11-25"
+      "likely_model": "Collins KWM-1",
+      "result": "Reopened 2026-11-25: Leo's call \u2014 the visitor's 'KW-1' is the Collins KWM-1 (the KW-1 search correctly found no sales; the KWM-1 is not in the ledger yet). Price the KWM-1.",
+      "priority": "front_of_queue"
     },
     {
       "term": "lcg-600",
