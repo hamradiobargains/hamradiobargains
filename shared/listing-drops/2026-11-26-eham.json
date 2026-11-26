@@ -1,0 +1,8 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-26",
+  "ran_at": "2026-11-26T05:53:00-05:00",
+  "ran_by": "claude",
+  "notes": "eHam work STOPPED after one page load: Chrome is signed IN to eHam - classifieds home showed 'Welcome back K4LFC' (expected signed out since 2026-10-08). Did not sign out (not permitted), opened no ads, no further page loads, no search/sold/seller pages. Window would have been since 2026-11-25T05:56:00-05:00. Page 1 titles visible but no prices/URLs captured, so nothing dropped: WN8BOB Ranger-69 100W base 10-12m (HF Radios), WA8DVD Vibroplex semi-auto bug (keys), KJ4OTL Eimac 8874 tubes (amp parts), W4EZY Elecraft K3/100 (HF Radios) - all dated 2026-11-25. No comps run (no candidates with captured price). Leo to sign out of eHam in Chrome.",
+  "listings": []
+}
