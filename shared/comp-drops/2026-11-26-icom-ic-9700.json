@@ -1,0 +1,54 @@
+{
+  "model": "Icom IC-9700",
+  "slug": "icom-ic-9700",
+  "searched_at": "2026-11-26T14:59:39-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'icom ic-9700', page 1 (29 results, mostly accessories). 4 kept. Dropped 3 best-offer-accepted working units (820232946253, 900060299682, 820214499366) and 2 parts-only (117398355962, 278365777902 - both also best-offer-accepted). Excluded 366140024878 ('50W ... Japan' domestic variant - identity doubt; 820214499366 is the same variant and BOA), an accessory bundle and accessories. eBay showed no condition label on the kept units. OUTLIER: $2,349.95 vs ~$1,550 median for the rest.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785704",
+    "site": "qth",
+    "ask": 1575,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 2349.95,
+      "sold_date": "2026-11-21",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/113727994032",
+      "source": "ebay",
+      "notes": "OUTLIER: $2,349.95 vs ~$1,550 median for the rest. Buy It Now, free delivery.",
+      "flags": []
+    },
+    {
+      "price": 1590,
+      "sold_date": "2026-10-19",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/940012266787",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not accepted). +$21.86 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1300,
+      "sold_date": "2026-09-19",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/307169645245",
+      "source": "ebay",
+      "notes": "Buy It Now. +$180.00 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1550,
+      "sold_date": "2026-09-03",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/178437192271",
+      "source": "ebay",
+      "notes": "Auction, 27 bids. Title: with original box and power supply. +$8.43 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
