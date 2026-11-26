@@ -107,6 +107,25 @@
       .cond-poor{ background:rgba(230,90,80,.14); color:#e66a5e; }
       .prop-foot{ color:var(--muted); font-size:13px; margin:14px 0 0; }
 
+      /* ---------- Band plan ---------- */
+      .plan-card{ margin-top:20px; }
+      .plan-legend{ display:flex; flex-wrap:wrap; gap:8px 18px; margin:4px 0 14px; font-size:13.5px; color:var(--muted); }
+      .plan-legend .sw{ display:inline-block; width:14px; height:10px; border-radius:3px; margin-right:6px; vertical-align:baseline; }
+      .sw-t{ background:#ff8c3b; } .sw-g{ background:#4a9eda; } .sw-e{ background:#9a7bff; }
+      .plan-row{ padding:9px 0 7px; border-top:1px solid var(--border); cursor:pointer; }
+      .plan-row:first-of-type{ border-top:none; }
+      .plan-top{ display:flex; align-items:baseline; gap:12px; }
+      .plan-name{ font-weight:800; font-size:16px; min-width:52px; }
+      .plan-range{ color:var(--muted); font-size:13px; font-variant-numeric:tabular-nums; }
+      .plan-bar{ display:flex; height:26px; border-radius:6px; overflow:hidden; background:#10161a; border:1px solid var(--border); margin-top:6px; }
+      .plan-seg{ height:100%; display:flex; align-items:center; justify-content:center; overflow:hidden; }
+      .plan-seg span{ font-size:10.5px; font-weight:800; letter-spacing:.6px; color:#12100c; white-space:nowrap; padding:0 4px; }
+      .seg-t{ background:#ff8c3b; } .seg-g{ background:#4a9eda; } .seg-e{ background:#9a7bff; }
+      .plan-detail{ display:none; color:var(--muted); font-size:14px; line-height:1.55; margin:8px 0 2px; max-width:860px; }
+      .plan-row.open .plan-detail{ display:block; }
+      .plan-note{ padding:10px 0 2px; border-top:1px solid var(--border); color:var(--muted); font-size:14px; line-height:1.55; }
+      .plan-note strong{ color:var(--text); }
+
       /* ---------- Two-column working area ---------- */
       .cols{ display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:20px; align-items:start; }
       @media (max-width:920px){ .cols{ grid-template-columns:1fr; } }
@@ -319,6 +338,20 @@
           <tbody id="propBandsBody"></tbody>
         </table>
         <p class="prop-foot">Numbers from NOAA's Space Weather Prediction Center, the same readings the classic solar banners republish. The band guide is a plain reading of those numbers, not a promise: your antenna and your local noise always get a vote.</p>
+      </section>
+
+      <section class="card plan-card" aria-label="Band plan by license class">
+        <h2>Band plan</h2>
+        <p class="sub">US frequencies by license class. The color shows the lowest license that can transmit on that slice. Tap a band for the details.</p>
+        <div class="plan-legend">
+          <span><span class="sw sw-t"></span>Technician and up</span>
+          <span><span class="sw sw-g"></span>General and up</span>
+          <span><span class="sw sw-e"></span>Extra only</span>
+        </div>
+        <div id="planRows"></div>
+        <p class="plan-note"><strong>60 meters:</strong> General and up, on four fixed channels (centers 5332, 5348, 5373 and 5405 kHz) plus a small shared segment at 5351.5–5366.5 kHz. Power there is tightly limited, so check the rules before you transmit.</p>
+        <p class="plan-note"><strong>6 m, 2 m and 70 cm:</strong> every license class, Technician included, has full privileges. On 6 meters, 50.0–50.1 MHz is CW only.</p>
+        <p class="prop-foot">US privileges under FCC Part 97, checked against the ARRL allocations chart. The Advanced class, no longer issued, sits between General and Extra on 80, 40, 20 and 15 meters. CW is allowed anywhere you hold privileges. This chart is a guide; the rule book wins.</p>
       </section>
 
       <section class="card pota-card" aria-label="Parks on the Air activators on the air now">
@@ -2068,6 +2101,94 @@
         }
         load();
         setInterval(load, 1800000);
+      })();
+    </script>
+<script>
+      /* ---------- Band plan: US privileges by license class (FCC Part 97) ---------- */
+      (function () {
+        var CLS = { t: "Technician and up", g: "General and up", e: "Extra only" };
+        var PLAN_BANDS = [
+          { name: "160 m", lo: 1.8, hi: 2.0, range: "1.800 – 2.000 MHz",
+            segs: [[1.8, 2.0, "g", "ALL MODES", "1.800–2.000 MHz · General and up · all modes"]],
+            detail: "General and Extra: the whole band, all modes. No Technician privileges on 160." },
+          { name: "80 m", lo: 3.5, hi: 4.0, range: "3.500 – 4.000 MHz",
+            segs: [[3.5, 3.525, "e", "", "3.500–3.525 MHz · Extra only · CW and data"],
+                   [3.525, 3.6, "t", "CW", "3.525–3.600 MHz · Technician and up · CW (data for General and up)"],
+                   [3.6, 3.8, "e", "PHONE", "3.600–3.800 MHz · Extra only · phone"],
+                   [3.8, 4.0, "g", "PHONE", "3.800–4.000 MHz · General and up · phone"]],
+            detail: "Extra: CW and data 3.500–3.600, phone 3.600–4.000. General: CW and data 3.525–3.600, phone 3.800–4.000. Technician: CW only, 3.525–3.600, 200 watts max." },
+          { name: "40 m", lo: 7.0, hi: 7.3, range: "7.000 – 7.300 MHz",
+            segs: [[7.0, 7.025, "e", "", "7.000–7.025 MHz · Extra only · CW and data"],
+                   [7.025, 7.125, "t", "CW", "7.025–7.125 MHz · Technician and up · CW (data for General and up)"],
+                   [7.125, 7.175, "e", "PHONE", "7.125–7.175 MHz · Extra only · phone"],
+                   [7.175, 7.3, "g", "PHONE", "7.175–7.300 MHz · General and up · phone"]],
+            detail: "Extra: CW and data 7.000–7.125, phone 7.125–7.300. General: CW and data 7.025–7.125, phone 7.175–7.300. Technician: CW only, 7.025–7.125, 200 watts max." },
+          { name: "30 m", lo: 10.1, hi: 10.15, range: "10.100 – 10.150 MHz",
+            segs: [[10.1, 10.15, "g", "CW / DATA ONLY", "10.100–10.150 MHz · General and up · CW and data only, 200 watts max"]],
+            detail: "General and Extra: the whole band, CW and data only. No phone on 30 meters for any class, and 200 watts max." },
+          { name: "20 m", lo: 14.0, hi: 14.35, range: "14.000 – 14.350 MHz",
+            segs: [[14.0, 14.025, "e", "", "14.000–14.025 MHz · Extra only · CW and data"],
+                   [14.025, 14.15, "g", "CW / DATA", "14.025–14.150 MHz · General and up · CW and data"],
+                   [14.15, 14.225, "e", "PHONE", "14.150–14.225 MHz · Extra only · phone"],
+                   [14.225, 14.35, "g", "PHONE", "14.225–14.350 MHz · General and up · phone"]],
+            detail: "Extra: CW and data 14.000–14.150, phone 14.150–14.350. General: CW and data 14.025–14.150, phone 14.225–14.350. No Technician privileges on 20." },
+          { name: "17 m", lo: 18.068, hi: 18.168, range: "18.068 – 18.168 MHz",
+            segs: [[18.068, 18.11, "g", "CW / DATA", "18.068–18.110 MHz · General and up · CW and data"],
+                   [18.11, 18.168, "g", "PHONE", "18.110–18.168 MHz · General and up · phone"]],
+            detail: "General and Extra share the whole band: CW and data 18.068–18.110, phone 18.110–18.168. No Technician privileges on 17." },
+          { name: "15 m", lo: 21.0, hi: 21.45, range: "21.000 – 21.450 MHz",
+            segs: [[21.0, 21.025, "e", "", "21.000–21.025 MHz · Extra only · CW and data"],
+                   [21.025, 21.2, "t", "CW", "21.025–21.200 MHz · Technician and up · CW (data for General and up)"],
+                   [21.2, 21.275, "e", "PHONE", "21.200–21.275 MHz · Extra only · phone"],
+                   [21.275, 21.45, "g", "PHONE", "21.275–21.450 MHz · General and up · phone"]],
+            detail: "Extra: CW and data 21.000–21.200, phone 21.200–21.450. General: CW and data 21.025–21.200, phone 21.275–21.450. Technician: CW only, 21.025–21.200, 200 watts max." },
+          { name: "12 m", lo: 24.89, hi: 24.99, range: "24.890 – 24.990 MHz",
+            segs: [[24.89, 24.93, "g", "CW / DATA", "24.890–24.930 MHz · General and up · CW and data"],
+                   [24.93, 24.99, "g", "PHONE", "24.930–24.990 MHz · General and up · phone"]],
+            detail: "General and Extra share the whole band: CW and data 24.890–24.930, phone 24.930–24.990. No Technician privileges on 12." },
+          { name: "10 m", lo: 28.0, hi: 29.7, range: "28.000 – 29.700 MHz",
+            segs: [[28.0, 28.3, "t", "CW / DATA", "28.000–28.300 MHz · Technician and up · CW and data"],
+                   [28.3, 28.5, "t", "PHONE", "28.300–28.500 MHz · Technician and up · SSB phone, 200 watts max"],
+                   [28.5, 29.7, "g", "PHONE", "28.500–29.700 MHz · General and up · phone"]],
+            detail: "Technician: CW and data 28.000–28.300, SSB phone 28.300–28.500, 200 watts max. General and Extra: the whole band, with phone from 28.300 to 29.700." }
+        ];
+        var host = document.getElementById("planRows");
+        if (!host) return;
+        PLAN_BANDS.forEach(function (b) {
+          var row = document.createElement("div");
+          row.className = "plan-row";
+          var top = document.createElement("div");
+          top.className = "plan-top";
+          top.innerHTML = "<span class=\"plan-name\">" + b.name + "</span><span class=\"plan-range\">" + b.range + "</span>";
+          row.appendChild(top);
+          var bar = document.createElement("div");
+          bar.className = "plan-bar";
+          b.segs.forEach(function (s) {
+            var w = (s[1] - s[0]) / (b.hi - b.lo) * 100;
+            var seg = document.createElement("div");
+            seg.className = "plan-seg seg-" + s[2];
+            seg.style.width = w.toFixed(2) + "%";
+            seg.title = s[4];
+            if (s[3] && w >= 8) {
+              var lab = document.createElement("span");
+              lab.textContent = s[3];
+              seg.appendChild(lab);
+            }
+            bar.appendChild(seg);
+          });
+          row.appendChild(bar);
+          var det = document.createElement("p");
+          det.className = "plan-detail";
+          det.textContent = b.detail;
+          row.appendChild(det);
+          row.addEventListener("click", function () {
+            var was = row.classList.contains("open");
+            var rows = host.querySelectorAll(".plan-row.open");
+            for (var i = 0; i < rows.length; i++) rows[i].classList.remove("open");
+            if (!was) row.classList.add("open");
+          });
+          host.appendChild(row);
+        });
       })();
     </script>
 <script data-goatcounter="https://hrb.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
