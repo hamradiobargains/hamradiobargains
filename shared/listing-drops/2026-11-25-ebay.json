@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-25",
+  "ran_at": "2026-11-25T19:40:00-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670) browse page, Buy It Now filter, sorted Time: newly listed, page 1 only; signed in as Leo, no challenges. Window since previous ebay run 2026-11-24T17:59:05-05:00 (all picks show NEW LISTING; none in dropped-urls). Seller rule: 9 checked, 8 passed; Yaesu FTM-300 'Used YAESU-FTM-300' $350 (itm 920185151760) skipped - seller has only 9 ratings. Cap reached at 8 candidates (6 ledger hits, 2 eBay sold searches). Not picked: parts-only (AEA CP-1, Johnson SWR bridge, Ameco converters, HY-GAIN III/PS-33A, Comet CF-706, 2SC2694), receivers/scanners/non-ham (HR-1680, L-Tronics LM 10 C, ATS-25X1, ATS Mini, Realistic scanner, Daniels receivers/audio monitor, SI-TEX AIS, JRC, ELAN Z-Wave, Maxon MCB-30, Kenwood NX-3820HG commercial, Technisonic TIL-91, Midland 70-1341B, Palomar 400 CB amp), components/accessories/manuals (roller inductors, coils, Belden wire/twin lead, insulators, OPC-440 cable, PTT intercom, DC cable, Heil PTT/headset, Heathkit SB-220 manual, AADE display, LP-PAN, MMDVM kit, Vectronics kits, MFJ-432 keyer, MFJ-259B analyzer). Alinco DR-735T $275 skipped - listing showed '0 bids', auction-format, not fixed-price. Seen but over cap: Kenwood TR-7500 $79.99, Yaesu FT-2800M $100, Alinco DR-430T $80, Atlas 210X $205, Yaesu G-800DXA rotator $534.72 (100V Japan model), Baofeng 5RM.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/407389012610",
+      "site": "ebay",
+      "title": "Yaesu FT-991A HF/50/140/430MHz All-Mode Transceiver",
+      "price": 975.0,
+      "shipping": 53.59,
+      "found_at": "2026-11-25",
+      "condition_notes": "eBay condition: Used. Seller does not accept returns.",
+      "work_flag": "no returns on a used radio (listing: 'Seller does not accept returns')",
+      "seller_feedback": "99.9% (9176 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/840165836767",
+      "site": "ebay",
+      "title": "Kenwood TS-2000 All-Mode Multi-Band HF/50/144/440/(1200)MHz w/ MC-60 Mic",
+      "price": 775.0,
+      "shipping": 65.76,
+      "found_at": "2026-11-25",
+      "condition_notes": "eBay condition: Used. Includes MC-60 mic. Seller does not accept returns.",
+      "work_flag": "no returns on a used radio (listing: 'Seller does not accept returns')",
+      "seller_feedback": "100% (27 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/267854754476",
+      "site": "ebay",
+      "title": "KENWOOD TH-D74A TRI-BAND 144/220/440Mhz HAM RADIO w/MARS Mod",
+      "price": 500.0,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "eBay condition: Used. Title says MARS mod. Free shipping. Returns accepted.",
+      "work_flag": "",
+      "seller_feedback": "100% (346 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/137963179621",
+      "site": "ebay",
+      "title": "Yaesu VX-8R Tri Band Submersible Transceiver Used With Accessories Works",
+      "price": 295.0,
+      "shipping": 14.89,
+      "found_at": "2026-11-25",
+      "condition_notes": "eBay condition: Used. Title says works, with accessories. Seller does not accept returns.",
+      "work_flag": "no returns on a used radio (listing: 'Seller does not accept returns')",
+      "seller_feedback": "99.5% (3976 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/267854751250",
+      "site": "ebay",
+      "title": "Yaesu FT-90R Mini Micro Dual Band Ham Radio Transceiver 144 & 440 MHz VHF/UHF",
+      "price": 285.0,
+      "shipping": 11.88,
+      "found_at": "2026-11-25",
+      "condition_notes": "eBay condition: Used. 30-day returns, seller pays return shipping. Same seller/title sold as itm 267850431629 on 2026-11-22 at $285 — possibly a relist of the same unit.",
+      "work_flag": "",
+      "seller_feedback": "99.3% (911 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/940123042287",
+      "site": "ebay",
+      "title": "MFJ TNC 2 Packet Radio MFJ-1270B Tested Working",
+      "price": 35.0,
+      "shipping": 8.42,
+      "found_at": "2026-11-25",
+      "condition_notes": "eBay condition: Used. Title says tested working. Returns accepted.",
+      "work_flag": "",
+      "seller_feedback": "100% (291 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/147697946634",
+      "site": "ebay",
+      "title": "Astron RS-20A Ham Radio Power Supply, Universal Compatible, On/Off Switch",
+      "price": 85.0,
+      "shipping": 6.98,
+      "found_at": "2026-11-25",
+      "condition_notes": "eBay condition: Used. Seller does not accept returns.",
+      "work_flag": "no returns (listing: 'Seller does not accept returns')",
+      "seller_feedback": "100% (27 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/128216727951",
+      "site": "ebay",
+      "title": "Yaesu FT-2900R Black FM Ham Radio Transceiver w/ Microphone FCC ID K6620393X50",
+      "price": 105.0,
+      "shipping": 8.13,
+      "found_at": "2026-11-25",
+      "condition_notes": "eBay condition: Used. Includes microphone. Seller does not accept returns.",
+      "work_flag": "no returns on a used radio (listing: 'Seller does not accept returns')",
+      "seller_feedback": "100% (210 ratings)"
+    }
+  ]
+}
