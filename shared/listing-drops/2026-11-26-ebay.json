@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-26",
+  "ran_at": "2026-11-26T17:59:56-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670) browse page, Buy It Now filter, sorted Time: newly listed, page 1 only; signed in as Leo, no challenges. Window since previous ebay run 2026-11-25T19:40:00-05:00 (all picks show NEW LISTING; none in dropped-urls). Seller rule: 8 checked, 8 passed. Cap reached at 8 candidates (2 ledger hits, 6 eBay sold searches). Not picked: parts-only (National NC-66, Kenwood TH-77A as-is, FT736 band unit, 2SC3217 PA boards, Hallicrafters S-38C, Icom IC-718 parts, MFJ-269 parts), receivers/CB/non-ham (Drake R8B/MS8, Icom IC-R3, Eton E1, ATS200, Palomar 400 CB amp, Galaxy 44DX, Regency scanner, Midland, Collins 75S receivers, RTL-SDR), accessories/components (crystals, fuses, dummy load, cables, MMDVM kit, Xiegu adapter, HD-20 calibrator). Galaxy 44DX and Icom IC-7100 w/ IT-100 showed '0 bids' (auction format), skipped. Seen but over cap: Heathkit DX-40 $165, Mirage B-34-G $119, Icom IC-275 $1072.04, IC-208D $345.78, IC-2720D $420.49, IC-2720 $402.62, IC-2710 modified $355.31, Yaesu FT-6200 $404.72, untested IC-T10/FTM-510D/FTM-500D/FT-220, Collins KWM-2A as-is $450, MFJ-2010 OCFD $90.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/168889032342",
+      "site": "ebay",
+      "title": "Icom IC-706MKIIG HF/VHF/UHF Tri-Band Ham Radio Transceiver Black",
+      "price": 429.99,
+      "shipping": 12.51,
+      "found_at": "2026-11-26",
+      "condition_notes": "eBay condition: Used. Fixed price or Best Offer. Ships from Winchester, KY.",
+      "work_flag": "",
+      "seller_feedback": "100% (17 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/227634062179",
+      "site": "ebay",
+      "title": "icom IC-7610 hf / 50 transceiver Ham Radio IC-7610 All Mode Transceiver Open Box",
+      "price": 3500.0,
+      "shipping": 60.0,
+      "found_at": "2026-11-26",
+      "condition_notes": "eBay condition: Open box. Fixed price or Best Offer. Ships from Tulsa, OK.",
+      "work_flag": "",
+      "seller_feedback": "100% (409 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/900124530479",
+      "site": "ebay",
+      "title": "Yaesu FT-1000 HF Ham/Amateur Radio Transceiver",
+      "price": 795.0,
+      "shipping": 144.55,
+      "found_at": "2026-11-26",
+      "condition_notes": "eBay condition: Used. Fixed price or Best Offer. Ships from Lorimor, IA. Title says FT-1000 (not stated as FT-1000D/MP).",
+      "work_flag": "",
+      "seller_feedback": "100% (3761 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/307303516300",
+      "site": "ebay",
+      "title": "ICOM IC-7000 Transceiver with LDG-AT-7000 Autotuner and Remote Display VERY NICE",
+      "price": 899.99,
+      "shipping": 25.0,
+      "found_at": "2026-11-26",
+      "condition_notes": "eBay condition: Used. Seller says 'VERY NICE'. Bundle includes LDG AT-7000 autotuner and remote display. Ships from Kerrville, TX.",
+      "work_flag": "",
+      "seller_feedback": "100% (4174 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366840674488",
+      "site": "ebay",
+      "title": "YAESU FTM-400DH 50W Amateur Radio Transceiver C4FM Digital Dual Band 144/430MHz",
+      "price": 541.27,
+      "shipping": 100.0,
+      "found_at": "2026-11-26",
+      "condition_notes": "eBay condition: Used. Japanese-market FTM-400DH (50W), ships from Japan.",
+      "work_flag": "",
+      "seller_feedback": "100% (246 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366840663529",
+      "site": "ebay",
+      "title": "YAESU FT-857DM All Mode Transceiver Ham Radio 002KN462 Tested Working",
+      "price": 959.76,
+      "shipping": 110.0,
+      "found_at": "2026-11-26",
+      "condition_notes": "eBay condition: Used. Title says tested working. Japanese-market FT-857DM, ships from Japan.",
+      "work_flag": "",
+      "seller_feedback": "100% (246 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/287761033751",
+      "site": "ebay",
+      "title": "AMERITRON AL-80A AMPLIFIER TESTED and WORKING with EIMAC 3-500Z TUBE",
+      "price": 899.0,
+      "shipping": 100.39,
+      "found_at": "2026-11-26",
+      "condition_notes": "eBay condition: Used. Title says tested and working, Eimac 3-500Z tube. Ships from Hernando, FL.",
+      "work_flag": "",
+      "seller_feedback": "100% (13515 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/336918480105",
+      "site": "ebay",
+      "title": "MFJ-948 Deluxe Versa Tuner II 300W HF Antenna Tuner SWR Meter",
+      "price": 139.98,
+      "shipping": 6.98,
+      "found_at": "2026-11-26",
+      "condition_notes": "eBay condition: Used. Fixed price or Best Offer. Ships from Daphne, AL.",
+      "work_flag": "",
+      "seller_feedback": "100% (640 ratings)"
+    }
+  ]
+}
