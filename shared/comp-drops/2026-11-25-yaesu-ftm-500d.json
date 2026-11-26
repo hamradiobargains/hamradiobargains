@@ -1,0 +1,52 @@
+{
+  "model": "Yaesu FTM-500D",
+  "slug": "yaesu-ftm-500d",
+  "searched_at": "2026-11-25T19:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Extras sweep 2026-11-25). Ad: $520 PayPal or $500 USPS money order, mailed USPS (shipping not separately stated, recorded as 0). Only titles saying FTM-500D (not FTM-500DR) counted - ledger carries YAESU FTM-500DR separately and identity of D vs DR not certain, so kept separate (UNCERTAIN). 4 kept, median 407.50; note itm 236260444268 (Apr 27, 2026 sale, Open Box) is much older than the rest. Dropped 2 best-offer-accepted: 960191106389 ($375.00), 158313930161 ($475.00). Excluded itm 257679618896 ($240.00 'FTM500D/FTM510D Waterproof Outdoor Emergency Commun...' - appears to be an accessory/enclosure, not the radio). No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785602",
+    "site": "qth",
+    "ask": 520,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 390,
+      "sold_date": "2026-11-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307279905675",
+      "source": "ebay",
+      "notes": "Shipping +$10.00 as shown; 11 bids",
+      "flags": []
+    },
+    {
+      "price": 474,
+      "sold_date": "2026-04-27",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/236260444268",
+      "source": "ebay",
+      "notes": "Shipping +$20.00 as shown; old sale (Apr 27) shown on page 1; Open Box condition",
+      "flags": []
+    },
+    {
+      "price": 425,
+      "sold_date": "2026-09-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257748677698",
+      "source": "ebay",
+      "notes": "Shipping +$9.06 as shown",
+      "flags": []
+    },
+    {
+      "price": 310,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278344456822",
+      "source": "ebay",
+      "notes": "Shipping +$11.94 as shown",
+      "flags": []
+    }
+  ]
+}
