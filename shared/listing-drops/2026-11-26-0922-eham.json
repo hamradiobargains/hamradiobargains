@@ -1,0 +1,8 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-26",
+  "ran_at": "2026-11-26T09:22:08-05:00",
+  "ran_by": "claude",
+  "notes": "NO eHam page loads this run. Earlier run today (2026-11-26-eham.json, ran_at 05:53) found Chrome signed IN to eHam as K4LFC; no sign that Leo has signed out since, so this run backed off rather than browse under his callsign (not permitted to sign out myself). No listings scanned, no comps run. eHam window NOT covered: last real coverage was the 2026-11-25 run (ran_at 2026-11-25T05:56:00-05:00) - next run should cover since then, not since this file's ran_at. Written as a time-suffixed file because 2026-11-26-eham.json already exists from the earlier run and was left untouched. Leo to sign out of eHam in Chrome.",
+  "listings": []
+}
