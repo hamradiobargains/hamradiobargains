@@ -1,0 +1,78 @@
+{
+  "model": "Icom IC-706",
+  "slug": "icom-ic-706",
+  "searched_at": "2026-11-25T19:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Extras sweep 2026-11-25; ledger entry ICOM IC-706 dated 2026-10-20 is older than 30 days). Ad is the original IC-706 (seller: 'NOT the MkII nor the MkIIG'). Only original IC-706 titles counted; MkII / MkIIG / 'MKtwo' sales excluded. 6 kept, median 475.00. Four kept sales share identical title wording 'Icom IC-706 100W All Mode Radio Transceiver HF VHF HAM RADIO' (287744539742, 287722888382, 287679608780, 128123221809) - possibly one seller relisting; flagged possible_duplicate. Dropped: 407375870545 parts $325.00 BOA; 407313754479 parts $150.00 BOA; 318905600798 parts $237.50 (28 bids); 900054549961 control head only parts $175.00 BOA; 117509883774 head/display only $200.00 BOA; 880056821513 $475.00 BOA (w/ AT-180 tuner). Accessories (latches, UT-102 voice module, screws, breakout box) excluded. No outliers. Ad: $450 plus shipping (amount not stated, recorded as 0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785607",
+    "site": "qth",
+    "ask": 450,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 475,
+      "sold_date": "2026-11-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287744539742",
+      "source": "ebay",
+      "notes": "Shipping free or not shown; identical title to 287722888382 / 287679608780 / 128123221809 (same wording \"Icom IC-706 100W All Mode Radio Transceiver HF VHF HAM RADIO\"); possible_duplicate",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 475,
+      "sold_date": "2026-11-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287722888382",
+      "source": "ebay",
+      "notes": "Shipping free or not shown; identical title wording to other kept IC-706 sales; possible_duplicate",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 429.99,
+      "sold_date": "2026-11-08",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/820125544515",
+      "source": "ebay",
+      "notes": "Shipping free or not shown",
+      "flags": []
+    },
+    {
+      "price": 475,
+      "sold_date": "2026-10-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287679608780",
+      "source": "ebay",
+      "notes": "Shipping free or not shown; identical title wording; possible_duplicate",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 478.95,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128123221809",
+      "source": "ebay",
+      "notes": "Shipping +$22.01 as shown; identical title wording; possible_duplicate",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 450,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366615746640",
+      "source": "ebay",
+      "notes": "Shipping +$20.47 as shown; title \"Nice ICOM IC-706 HF/VHF ALL MODE TRANSCEIVER\"",
+      "flags": []
+    }
+  ]
+}
