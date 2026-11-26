@@ -1,4 +1,4 @@
-const CACHE = "hrb-app-v10";
+const CACHE = "hrb-app-v11";
 const SHELL = ["/app/", "/app/index.html", "/app/manifest.webmanifest", "/app/icon-192.png", "/app/icon-512.png", "/app/apple-touch-icon.png"];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
