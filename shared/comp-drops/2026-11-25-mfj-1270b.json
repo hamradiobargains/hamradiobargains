@@ -1,0 +1,25 @@
+{
+  "model": "MFJ-1270B",
+  "slug": "mfj-1270b",
+  "searched_at": "2026-11-25T19:35:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no MFJ-1270B entry). eBay sold search page 1 (5 results). Thin: 1 kept comp. Dropped 2 best-offer-accepted (Oct 27 $39.99, Aug 31 $45.00) plus 1 BOA firmware EPROM (accessory). Dropped 0 parts-only. Left out Nov 1 $60 'MFJ 1270B & MFJ1274' — two-TNC bundle, not a single unit. MFJ-1270 / 1270C / TNC-X results are different models.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/940123042287",
+    "site": "ebay",
+    "ask": 35.0,
+    "shipping": 8.42
+  },
+  "comps": [
+    {
+      "price": 30.0,
+      "sold_date": "2026-10-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/318304165730",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping +$12.66.",
+      "flags": []
+    }
+  ]
+}
