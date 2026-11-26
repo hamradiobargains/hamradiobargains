@@ -1,0 +1,34 @@
+{
+  "model": "Yaesu FTDX-101D",
+  "slug": "yaesu-ftdx-101d",
+  "searched_at": "2026-11-26T14:57:53-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'yaesu ftdx-101d', page 1 (7 results, ignored fewer-words section). 2 kept - thin. Dropped 1 best-offer-accepted (FTDX101MP 880113084327 - also a different model) and 1 parts-only (168643492407 'Not Working', also best-offer-accepted). Excluded 3 accessories (SCU-LAN10, 2 DVI cables). OUTLIER: $2,999 vs $1,699 for the other kept comp (more than 1.5x). Ledger also has a separate 'YAESU FTDX101D' entry (count 12, 2026-11-23) - not used because the display name differs from the listing's 'FTDX-101D'.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785721",
+    "site": "qth",
+    "ask": 2400,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 2999,
+      "sold_date": "2026-11-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820087468641",
+      "source": "ebay",
+      "notes": "OUTLIER: $2,999 vs $1,699 for the other kept comp. Fixed price 'or Best Offer' (not accepted). Title: 'Excellent Condition 100 Watts'. +$87.24 delivery.",
+      "flags": []
+    },
+    {
+      "price": 1699,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278384904419",
+      "source": "ebay",
+      "notes": "Buy It Now. Title: 'TESTED and WORKING EXCELLENT COND.' +$29.06 delivery.",
+      "flags": []
+    }
+  ]
+}
