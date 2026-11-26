@@ -388,5 +388,18 @@
     "compLow": 400.0,
     "compHigh": 769.99,
     "note": "Ranger's 100-watt 10-meter base rig. The Base Plus V2 is the same model, and its sales count in the book. $449 asking against a $600 fair value from 6 recorded sales: 25.2% below. Shipping is not stated in the ad. The recorded sale prices behind the fair value do not include shipping either, so the percentage is price against price, before freight on both sides."
+  },
+  {
+    "date": "2026-11-26",
+    "item": "Elecraft K3/100",
+    "link": "https://www.eham.net/classifieds/629766",
+    "price": 909,
+    "extraCost": 0,
+    "pctBelow": 0.2422,
+    "median": 1199.49,
+    "compCount": 16,
+    "compLow": 909.0,
+    "compHigh": 2385.0,
+    "note": "Elecraft's K3/100 transceiver, serial 2756, from K6RO, with lots of mods done in May 2023. This same radio was listed earlier at $949; it is back at $909 delivered, against a $1,199.49 fair value from 16 recorded sales: 24.2% below, past our around-25% line. The price is delivered, so there is no shipping to add."
   }
 ]
