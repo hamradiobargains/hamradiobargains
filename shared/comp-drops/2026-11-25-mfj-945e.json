@@ -1,0 +1,97 @@
+{
+  "model": "MFJ-945E",
+  "slug": "mfj-945e",
+  "searched_at": "2026-11-25T19:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Extras sweep 2026-11-25). 9 kept, median 135.00. OUTLIERS (flagged in comp notes): itm 366683576903 $619.75 and itm 800174279185 $199.00. Dropped: 1 best-offer-accepted (168685652693 listed $149.99); 1 untested/as-is (900047048827 $36.00, title 'UNTESTED USED', 18 bids). Excluded accessories: DC power supplies 323940691700 ($12.95) and 176110303930 ($2.84). Ad: $110 plus shipping (amount not stated, recorded as 0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785528",
+    "site": "qth",
+    "ask": 110,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 150,
+      "sold_date": "2026-11-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366822895204",
+      "source": "ebay",
+      "notes": "Shipping +$9.82 as shown",
+      "flags": []
+    },
+    {
+      "price": 199,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800174279185",
+      "source": "ebay",
+      "notes": "OUTLIER: just over 1.5x median of other kept comps (~130); kept per rules; Shipping +$49.00 as shown",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-11-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840089204950",
+      "source": "ebay",
+      "notes": "Shipping +$9.99 as shown",
+      "flags": []
+    },
+    {
+      "price": 109.99,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128165433397",
+      "source": "ebay",
+      "notes": "Shipping +$16.20 as shown",
+      "flags": []
+    },
+    {
+      "price": 125,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206641522420",
+      "source": "ebay",
+      "notes": "Shipping +$8.71 as shown; 1 bid",
+      "flags": []
+    },
+    {
+      "price": 619.75,
+      "sold_date": "2026-10-20",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366683576903",
+      "source": "ebay",
+      "notes": "OUTLIER: more than 4x median of other kept comps (~130); title reads MFJ MFJ-945E HF 6M Antenna Tuner 1.8-60MHz 300W (possible bundle or mislabeled), kept per rules; Shipping +$100.00 as shown",
+      "flags": []
+    },
+    {
+      "price": 135,
+      "sold_date": "2026-10-10",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/137832001324",
+      "source": "ebay",
+      "notes": "Shipping +$10.03 as shown",
+      "flags": []
+    },
+    {
+      "price": 90,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168653925421",
+      "source": "ebay",
+      "notes": "Shipping +$9.95 as shown; 19 bids",
+      "flags": []
+    },
+    {
+      "price": 149.99,
+      "sold_date": "2026-08-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158222073643",
+      "source": "ebay",
+      "notes": "Shipping +$31.70 as shown; 1 bid",
+      "flags": []
+    }
+  ]
+}
