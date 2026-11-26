@@ -1,0 +1,240 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-25",
+  "ran_at": "2026-11-25T19:38:09-05:00",
+  "ran_by": "claude",
+  "notes": "Source drops covered (ran_at after previous extras drop 2026-11-24-extras.json, ran_at 2026-11-24T18:56:10-05:00): 2026-11-25-eham.json (05:56; no 'Extra plausible candidates not comped' list; eHam not opened), 2026-11-25-qth.json (14:52:33; extras list of 16 priced candidates + 7 vintage boat-anchors 1785656-1785662 with no price captured), 2026-11-25-ebay.json (19:40:00; no such heading, its over-cap items were not queued). Previous CARRIED OVER (7, at the front): 1785524, 1785553, 1785564, 1785527, 1785528, 1785544, 1785542. No previous BACKLOG CARRY. Named extra from Leo (stored task prompt): QTH 1783910 (Yaesu '991', $600 firm), treated as the ORIGINAL Yaesu FT-991 per Leo's ruling, filed under 'Yaesu FT-991' never FT-991A; already in dropped-urls.json (not re-appended); gone; one FT-991 sold search run, FT-991 comps only. Queue: 7 carry-overs + 1 named + 16 fresh priced QTH extras + 7 vintage = 31. Triaged 21 (live 19, gone 2: 1783910, 1785639; skipped for reason 1: 1785620 model not stated). Ledger hits: 8 models across 7 ads (FT-891 1785553; IC-7300 1785666; IC-718 1785604; IC-R75 1785594; TS-430S 1785647; TM-V71A + TS-2000 1785615; SM-50 1785600). eBay sold searches used 15 of 15: Yaesu FT-100 (2 kept, thin), Yaesu FT-5D (17), Down East Microwave 144-28 (0), DEM 432-28 (0), Yaesu FT2DR (4), LDG IT-100 (6), MFJ-945E (9), Heil Gold Elite (1, thin), MFJ Grandmaster (0, model not stated), Yaesu FT-991 (4), SunSDR2 Pro (0), Yaesu FTM-500D (4), Icom IC-706 (6), MFJ-941E (6), Yaesu MD-100A8X (24). Solid (3+): FT-5D, FT2DR, IT-100, MFJ-945E, FT-991, FTM-500D, IC-706, MFJ-941E, MD-100A8X; thin: FT-100, Heil Gold Elite; zero usable: DEM 144-28, DEM 432-28, SunSDR2 Pro, MFJ Grandmaster. Gone: 1783910, 1785639. Cross-posts: none identified (no repeats among queued ads). Outliers: MFJ-945E itm 366683576903 $619.75 and itm 800174279185 $199.00; MD-100A8X itm 396651485894 $206.39. UNCERTAIN: 1785604 'MARS mod completed' (transmit-mod wording carried verbatim in work_flag); 1785594 'early installed Motorola AM Sync Detector chip' (receive-side mod, carried in work_flag); FT5D vs FT5DR identity (kept separate); FTM-500D vs FTM-500DR (kept separate); FT-100 vs FT-100D (kept separate); IC-706 comps contain four same-title sales flagged possible_duplicate; MFJ Grandmaster identity (not comped). Facts seen live 2026-11-25 for carried ads (read this run, not comped because the cap of 15 was reached): 1785636 TYT MD-2017 DMR/analog dual-band w/ charger and manual, $85 OBO, UPS add $5 CONUS, seller's words 'Turned on and lit up, but I wasn't able to make a QSO. (Don't know anything about DMR and the manual didn't help...) From SK auction.'; 1785635 Astron RS-12A linear power supply, tested, $55 OBO, UPS add $6 CONUS, 'Outside case has scratches on it'; 1785618 QRP antennas and tuner lot (live; $65 shipped per the 2026-11-25 QTH drop, price not re-read). CARRIED OVER: 1785636, 1785635, 1785618, 1785656, 1785657, 1785658, 1785659, 1785660, 1785661, 1785662 (all QTH counter IDs; order preserved; 1785656-1785662 are vintage boat-anchors named in the 11-25 QTH drop with prices not captured: Johnson Invader 2000, Johnson Viking Valiant II, Johnson Ranger, National NC-200, National HRO-60 w/ coils and speaker, National NC2-40D, GPR-90). BACKLOG CARRY: none. Browser: Leo's Chrome; eBay signed in as Leo, no challenge or CAPTCHA at any point; eHam not opened. QTH ads read via same-tab requests ~4.5 s apart. searched_at on comp drops is the file-build time, not the individual search time. Comp drop files 2026-11-25-1947-icom-ic-7300.json and 2026-11-25-1947-kenwood-ts-2000.json use the HHMM form because same-day files of that slug already existed. Timestamps -05:00 (EST).",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785524",
+      "site": "qth",
+      "title": "Yaesu FT-100 (All Band All Mode Radio)",
+      "price": 450,
+      "shipping": 0,
+      "found_at": "2026-11-24",
+      "condition_notes": "live. Ad: 'As far as I can tell it is flawless in appearance and operation.' 'The optional TCXO-8 High-Stability Reference Crystal Module is installed.' $450.00 OBO plus shipping (amount not stated); Zelle preferred. comps: yaesu-ft-100, 2 kept (thin), median 554.995 (FT-100D sales not counted)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785553",
+      "site": "qth",
+      "title": "Multi-item: Yaesu FT-5D $325, Yaesu FT-891 w/ mAT-30 + Digirig $750, DEM 144-28 transverter $350, DEM 432-28 transverter $350",
+      "price": 325,
+      "shipping": 0,
+      "found_at": "2026-11-24",
+      "condition_notes": "live. MULTI-ITEM AD; price field is the FT5D ($325); other items listed. Ad: 'All have had very little use.' FT5D 'All original items 10 out of 10 with screen protector and box'; FT-891 'with mAT-30 tuner and Digirig and box'. Will ship CONUS UPS Ground, PayPal accepted, will split shipping. comps: yaesu-ft-5d, 17 kept, median 305.00 (FT5D vs FT5DR identity UNCERTAIN, kept separate); FT-891 ledger hit (comp drop yaesu-ft-891, median 589.0, count 29); DEM 144-28 and 432-28: 0 exact comps (comp drops down-east-microwave-144-28 / -432-28)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785564",
+      "site": "qth",
+      "title": "Yaesu FT2DR + SCU-39",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-11-24",
+      "condition_notes": "live. Ad: 'very lightly used'; 'The radio is in very good condition with no known issues.' $200 shipped CONUS (or make offer); $175 radio only; SCU-39 alone $25. comps: yaesu-ft2dr, 4 kept, median 167.745",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785527",
+      "site": "qth",
+      "title": "LDG IT-100 AutoTuner",
+      "price": 90,
+      "shipping": 0,
+      "found_at": "2026-11-24",
+      "condition_notes": "live. Ad gives no condition wording; $90.00, buyer pays shipping (amount not stated), Zelle preferred. comps: ldg-it-100, 6 kept, median 129.99",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785528",
+      "site": "qth",
+      "title": "MFJ-945E Mobile 300 Watt Tuner",
+      "price": 110,
+      "shipping": 0,
+      "found_at": "2026-11-24",
+      "condition_notes": "live. Ad gives no condition wording; $110.00 plus shipping (amount not stated), Zelle preferred. comps: mfj-945e, 9 kept, median 135.00 (2 OUTLIERS flagged: $619.75, $199.00)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785544",
+      "site": "qth",
+      "title": "Heil Gold Elite Microphone",
+      "price": 140,
+      "shipping": 0,
+      "found_at": "2026-11-24",
+      "condition_notes": "live. Ad: 'As new Heil Gold Elite including box, manual, sticker, 2 wind screens and 2 mic clips.' $140 shipped; CC1K Heil cable for Kenwood add $25. comps: heil-gold-elite, 1 kept (thin), median 120.00",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785542",
+      "site": "qth",
+      "title": "MFJ Grandmaster SWR/Power Meter",
+      "price": 120,
+      "shipping": 0,
+      "found_at": "2026-11-24",
+      "condition_notes": "live. Ad: 'in like new condition and has been only slightly used. It's in excellent working and cosmetic condition.' $120.00 shipped, Venmo only. not comped: MFJ Grandmaster is a brand name (keyers and meters); ad gives no model number (spec resembles MFJ-874 but not certain); search run, see comp drop mfj-grandmaster",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "Yaesu '991' (named extra, treated as original Yaesu FT-991)",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "no longer live (QTH: 'The ad number you specified is no longer in our system'). Named extra from the stored task prompt: Yaesu '991', $600 firm, treated as the ORIGINAL FT-991 per Leo's ruling; filed under Yaesu FT-991, never FT-991A. Ad text could not be read (gone); ask taken from the prompt. comps: yaesu-ft-991, 4 kept, median 713.33 (FT-991 only, no FT-991A figures)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785666",
+      "site": "qth",
+      "title": "Icom IC-7300 with SP-23 speaker",
+      "price": 750,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. Ad (seller's words, caps): 'WORKS PERFECTLY. THE RADIO HAS ONE LITTLE SCRACH ON THE TOP COVER; IT DOESN'T LOOK BAD. THE SPEAKER HAS A FEW SCRACHES ON IT.' $750.00 PLUS SHIPPING (amount not stated); local pickup available (Lake Wales, FL). comps: ledger hit icom-ic-7300 (median 795.0, count 57, ledger date 2026-11-22)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785606",
+      "site": "qth",
+      "title": "Expert Electronics SunSDR2 Pro HF+2m SDR Transceiver",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. Ad: 'like-new condition. Updated firmware and tested working with ExpertSDR V3 software. Sounds amazing on both receive and TX. Output power measured at 15w max.' $600 shipped. comps: sunsdr2-pro, 0 exact comps (not comped: no SunSDR2 Pro sold results; SunSDR2 DX is a different model)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785604",
+      "site": "qth",
+      "title": "Icom IC-718",
+      "price": 500,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. Ad: 'very clean, looks new, from non-smoking shack.' 'MARS mod completed.' Includes double fused power cord and HM-36 mike; SM-50 mike is in separate ad (1785600). $500; ships overpacked in original box. comps: ledger hit icom-ic-718 (median 439.99, count 27, ledger date 2026-11-09)",
+      "work_flag": "MARS mod completed. (seller's words; transmit-modification wording - Archie to apply Leo's rulings)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785594",
+      "site": "qth",
+      "title": "Icom IC-R75 receiver",
+      "price": 500,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. Ad: 'early installed Motorola AM Sync Detector chip' with the DSP UT-106 options; 'Standard FL-272 SSB filter installed. Excellent physical [and] operating condition.' $500. comps: ledger hit icom-ic-r75 (median 444.5, count 14, ledger date 2026-11-11)",
+      "work_flag": "early installed Motorola AM Sync Detector chip (seller's words; receive-side modification, UNCERTAIN whether it counts under Leo's rulings)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785602",
+      "site": "qth",
+      "title": "Yaesu FTM-500D",
+      "price": 520,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. Ad: 'Lightly used. Includes: original box, MANUAL, Mounting bracket, power cable. Non Smoker, NO issues.' $520.00 PayPal or $500.00 U.S. postal money order; will mail USPS (shipping not separately stated). comps: yaesu-ftm-500d, 4 kept, median 407.50 (FTM-500D vs FTM-500DR kept separate, UNCERTAIN identity)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785607",
+      "site": "qth",
+      "title": "Icom IC-706 (original, not MkII / MkIIG)",
+      "price": 450,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. Ad: 'Functions well, I can send video showing RX and CW TX functionality. There is a visible blemish on the display cover, and one ding, not dent, on top cover.' Includes double fused power cord and HM-103 mike. $450 plus shipping (amount not stated). comps: icom-ic-706, 6 kept, median 475.00 (possible repeat-title duplicates flagged)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785647",
+      "site": "qth",
+      "title": "Kenwood TS-430S",
+      "price": 285,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. Ad: 'working condition, 100 watts on all hf bands and good receiver. Cosmetics about 6 or 7 on top cover. Sides and bottom better.' 'no optional filters and no FM module. Guaranteed to work as advertised.' Includes DC power cord. $285 shipped insured to the lower 48. comps: ledger hit kenwood-ts-430s (median 339.99, count 15, ledger date 2026-11-05)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785615",
+      "site": "qth",
+      "title": "Multi-item: Kenwood TM-V71A $400 shipped, Kenwood TS-2000 $1000 shipped",
+      "price": 400,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. MULTI-ITEM AD; price field is the TM-V71A ($400 shipped, 'WORKS VERY WELL LOOKS GREAT! INCLUDES RARE VOICE BOARD', mic, manual, power cord, original box); TS-2000 $1000 shipped ('with mic, powercord, manual, duplexer. Has both voice boards... no box but packed very well'). Postal or bank money order only. comps: ledger hits kenwood-tm-v71a (median 425.0, count 33, 2026-11-04) and kenwood-ts-2000 (median 950.0, count 13, 2026-10-28)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785639",
+      "site": "qth",
+      "title": "Ameritron ALS-500RC remote head",
+      "price": 180,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "no longer live (QTH: 'The ad number you specified is no longer in our system'). Ask $180 as recorded in the 2026-11-25 QTH drop. not comped: gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785600",
+      "site": "qth",
+      "title": "Icom SM-50 desk microphone",
+      "price": 175,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. Ad: 'in like new condition, in original box with instructions'; includes OPC-589 adapter cable. $175 plus shipping (amount not stated). comps: ledger hit icom-sm-50 (median 176.93, count 24, ledger date 2026-10-28)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785601",
+      "site": "qth",
+      "title": "MFJ-941E Versa Tuner II",
+      "price": 130,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. Ad: 'In fair cosmetic condition, but fully functioning, including lamp'; power cord for 12V lamp included. $130 plus shipping (amount not stated). comps: mfj-941e, 6 kept, median 122.495",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785620",
+      "site": "qth",
+      "title": "Super Antenna portable with counterpoise kit",
+      "price": 120,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. Ad: 'portable super antenna with counterpoise kit. Great for portable ops.' $120 shipped. not comped: model not stated (Super Antenna MP1 / MP1DX / other not identifiable from the ad); no search spent",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785627",
+      "site": "qth",
+      "title": "Yaesu MD-100A8X desk microphone",
+      "price": 115,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. Ad: 'VERY CLEAN NICE WORKING MIC. COMES WITH 2 CABLES. ONE IS A EXTENSION FOR MODULATOR JACK.' $115 shipped. comps: yaesu-md-100a8x, 24 kept, median 122.00 (1 OUTLIER flagged: $206.39)",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
