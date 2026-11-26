@@ -1,0 +1,31 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-26",
+  "ran_at": "2026-11-26T09:23:37-05:00",
+  "ran_by": "claude",
+  "notes": "Rerun after Leo signed out of eHam (supersedes 2026-11-26-0922-eham.json, which skipped eHam). Window: since 2026-11-25T05:56:00-05:00 (last real eham coverage). Browsed signed OUT ('Welcome Guest!'). Cloudflare 'Performing security verification' interstitial cleared on its own in ~10 s, no interaction (not a 1015, no CAPTCHA). One page load: classifieds page 1 only (all 4 ads in window were on it). No individual ad pages, search, sold, or seller pages. New public ads 629772-629775. 629770 and 629771 are not on the public pages (likely pending approval) - not opened. Skipped: 629774 Vibroplex bug $99 shipped (keys), 629773 Eimac 8874 tubes (no price). Comps: ledger hit Elecraft K3/100; eBay sold search Ranger RCI-69 Base Plus. eBay signed in as Leo, no challenge.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629772",
+      "site": "eham",
+      "title": "Elecraft K3/100",
+      "price": 1450.0,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "Seller: excellent cosmetic and working condition. Options: KAT3 tuner, KTCXO3, KXV3A, KIO3, KFL3A 2.8k/400Hz/1.8k + 6k filters, KBPF3 gen-cov RX, HM2 mic; firmware 5.67; manual and power cable. $1,450 + shipping (amount not stated). Posted 2026-11-25.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629775",
+      "site": "eham",
+      "title": "RANGER -69 100 WATT BASE PLUS MODEL 10-12 MTRS",
+      "price": 449.0,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "Seller: 'nary a scratch'; both original cartons, manual, 2 hand mics (one Astatic 636). $449 plus shipping (amount not stated). Posted 2026-11-25. Model read as Ranger RCI-69 Base Plus; listing does not say V2.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
