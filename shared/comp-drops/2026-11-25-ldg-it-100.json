@@ -1,0 +1,70 @@
+{
+  "model": "LDG IT-100",
+  "slug": "ldg-it-100",
+  "searched_at": "2026-11-25T19:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Extras sweep 2026-11-25; ledger entry LDG IT-100 dated 2026-10-11 is older than 30 days). 6 kept, median 129.99. Dropped 2 best-offer-accepted: 168769894003 ($81.00), 398409235733 ($115.00). Unrelated hits (Icom IC-7100 itm 147551914765, ION turntable itm 366697295130) excluded. Ad: $90 plus buyer-paid shipping (amount not stated, recorded as 0). No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785527",
+    "site": "qth",
+    "ask": 90,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 162.5,
+      "sold_date": "2026-11-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147664971023",
+      "source": "ebay",
+      "notes": "Shipping +$15.00 as shown; 4 bids",
+      "flags": []
+    },
+    {
+      "price": 129.99,
+      "sold_date": "2026-11-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198773753248",
+      "source": "ebay",
+      "notes": "Shipping +$19.98 as shown",
+      "flags": []
+    },
+    {
+      "price": 129.99,
+      "sold_date": "2026-10-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189059039371",
+      "source": "ebay",
+      "notes": "Shipping +$18.98 as shown",
+      "flags": []
+    },
+    {
+      "price": 125,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178522360005",
+      "source": "ebay",
+      "notes": "Shipping free or not shown; title \"LDG IT100 antenna tuner G2U\"",
+      "flags": []
+    },
+    {
+      "price": 135,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336785324683",
+      "source": "ebay",
+      "notes": "Shipping +$10.15 as shown",
+      "flags": []
+    },
+    {
+      "price": 125,
+      "sold_date": "2026-08-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117373130207",
+      "source": "ebay",
+      "notes": "Shipping +$11.23 as shown; title \"LDG IT100 antenna tuner\"",
+      "flags": []
+    }
+  ]
+}
