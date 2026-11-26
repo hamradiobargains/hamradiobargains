@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T13:53:42+00:00",
+ "updated": "2026-11-26T13:53:38+00:00",
  "models": {
   "ALINCO DM-330MV": {
    "display": "Alinco DM-330MV",
@@ -39,12 +39,12 @@
   },
   "ELECRAFT K3/100": {
    "display": "Elecraft K3/100",
-   "pct": 12.4,
+   "pct": 23.4,
    "window": "3mo",
-   "recent_median": 1347.49,
-   "recent_count": 8,
+   "recent_median": 1479.0,
+   "recent_count": 7,
    "prior_median": 1199.0,
-   "prior_count": 7
+   "prior_count": 8
   },
   "ICOM IC-7000": {
    "display": "Icom IC-7000",
@@ -102,12 +102,12 @@
   },
   "ICOM SM-50": {
    "display": "Icom SM-50",
-   "pct": 25.1,
+   "pct": 25.4,
    "window": "3mo",
-   "recent_median": 183.0,
-   "recent_count": 15,
-   "prior_median": 146.34,
-   "prior_count": 8
+   "recent_median": 191.5,
+   "recent_count": 14,
+   "prior_median": 152.7,
+   "prior_count": 9
   },
   "KENWOOD R-1000": {
    "display": "Kenwood R-1000",
@@ -168,9 +168,9 @@
    "pct": -15.8,
    "window": "3mo",
    "recent_median": 159.97,
-   "recent_count": 18,
+   "recent_count": 16,
    "prior_median": 189.99,
-   "prior_count": 5
+   "prior_count": 7
   },
   "TIGERTRONICS SIGNALINK USB": {
    "display": "Tigertronics SignaLink USB",
@@ -291,12 +291,12 @@
   },
   "YAESU FT5D": {
    "display": "Yaesu FT5D",
-   "pct": -11.6,
+   "pct": -9.1,
    "window": "3mo",
-   "recent_median": 309.5,
-   "recent_count": 26,
-   "prior_median": 350.0,
-   "prior_count": 5
+   "recent_median": 309.0,
+   "recent_count": 25,
+   "prior_median": 340.0,
+   "prior_count": 6
   },
   "YAESU M-90D": {
    "display": "Yaesu M-90D",
