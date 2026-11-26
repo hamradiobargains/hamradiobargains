@@ -1,0 +1,15 @@
+{
+  "model": "Palstar AT4K",
+  "slug": "palstar-at4k",
+  "searched_at": "2026-11-26T15:00:09-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'palstar at4k', page 1: 0 results. No comps - thin.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785676",
+    "site": "qth",
+    "ask": 675,
+    "shipping": 0
+  },
+  "comps": []
+}
