@@ -117,7 +117,13 @@
       .plan-top{ display:flex; align-items:baseline; gap:12px; }
       .plan-name{ font-weight:800; font-size:16px; min-width:52px; }
       .plan-range{ color:var(--muted); font-size:13px; font-variant-numeric:tabular-nums; }
-      .plan-bar{ display:flex; height:26px; border-radius:6px; overflow:hidden; background:#10161a; border:1px solid var(--border); margin-top:6px; }
+      .plan-bar{ position:relative; display:flex; height:26px; border-radius:6px; overflow:hidden; background:#10161a; border:1px solid var(--border); margin-top:6px; }
+      .plan-seam{ position:absolute; top:0; bottom:0; width:1px; background:rgba(10,10,10,.5); z-index:2; }
+      .plan-scale{ position:relative; height:38px; margin-top:1px; }
+      .plan-tick{ position:absolute; top:0; width:1px; height:7px; background:var(--muted); }
+      .plan-lab{ position:absolute; font-size:11px; color:var(--muted); font-variant-numeric:tabular-nums; white-space:nowrap; transform:translateX(-50%); }
+      .plan-lab.r1{ top:9px; } .plan-lab.r2{ top:23px; }
+      .plan-lab.first{ transform:none; } .plan-lab.last{ transform:translateX(-100%); }
       .plan-seg{ height:100%; display:flex; align-items:center; justify-content:center; overflow:hidden; }
       .plan-seg span{ font-size:10.5px; font-weight:800; letter-spacing:.6px; color:#12100c; white-space:nowrap; padding:0 4px; }
       .seg-t{ background:#ff8c3b; } .seg-g{ background:#4a9eda; } .seg-e{ background:#9a7bff; }
@@ -342,7 +348,7 @@
 
       <section class="card plan-card" aria-label="Band plan by license class">
         <h2>Band plan</h2>
-        <p class="sub">US frequencies by license class. The color shows the lowest license that can transmit on that slice. Tap a band for the details.</p>
+        <p class="sub">US frequencies by license class. The color shows the lowest license that can transmit on that slice, and the scale under each bar marks the exact edges. Tap a band for the details.</p>
         <div class="plan-legend">
           <span><span class="sw sw-t"></span>Technician and up</span>
           <span><span class="sw sw-g"></span>General and up</span>
@@ -2176,7 +2182,40 @@
             }
             bar.appendChild(seg);
           });
+          /* Graduated scale: a seam on the bar and a tick + exact frequency
+             label under it at every segment boundary, so a licensee can read
+             the precise edges of the portions open to them. Labels that would
+             collide drop to a second row. */
+          var bounds = [b.lo];
+          b.segs.forEach(function (s) { bounds.push(s[1]); });
+          bounds.forEach(function (f, bi) {
+            if (bi > 0 && bi < bounds.length - 1) {
+              var seam = document.createElement("div");
+              seam.className = "plan-seam";
+              seam.style.left = ((f - b.lo) / (b.hi - b.lo) * 100) + "%";
+              bar.appendChild(seam);
+            }
+          });
           row.appendChild(bar);
+          var scale = document.createElement("div");
+          scale.className = "plan-scale";
+          var lastRow1 = -100;
+          bounds.forEach(function (f, bi) {
+            var pct = (f - b.lo) / (b.hi - b.lo) * 100;
+            var tick = document.createElement("div");
+            tick.className = "plan-tick";
+            tick.style.left = pct + "%";
+            scale.appendChild(tick);
+            var lab = document.createElement("span");
+            var row2 = pct - lastRow1 < 11;
+            if (!row2) lastRow1 = pct;
+            lab.className = "plan-lab " + (row2 ? "r2" : "r1") +
+              (bi === 0 ? " first" : bi === bounds.length - 1 ? " last" : "");
+            lab.style.left = pct + "%";
+            lab.textContent = f.toFixed(3);
+            scale.appendChild(lab);
+          });
+          row.appendChild(scale);
           var det = document.createElement("p");
           det.className = "plan-detail";
           det.textContent = b.detail;
