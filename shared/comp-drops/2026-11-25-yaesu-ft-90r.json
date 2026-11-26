@@ -1,0 +1,54 @@
+{
+  "model": "Yaesu FT-90R",
+  "slug": "yaesu-ft-90r",
+  "searched_at": "2026-11-25T19:33:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (no FT-90R entry). eBay sold search page 1, exact model only. Kept 4. Dropped 6 parts-only (Nov 17 $168.65, Oct 31 $75, Oct 30 $40, Oct 24 $50, Oct 23 $100, Sep 1 $130.49). Dropped 0 best-offer-accepted. Left out 2 Japanese-market 'FT-90 Micro Commander' sales (Nov 13 $280, Aug 31 $272.70) — FT-90 is not certain to be the same model as FT-90R. Accessories (mics, cables) excluded. OUTLIERS: $100 (Nov 18) vs ~$249 median of the rest; $285 (Nov 22) vs ~$175 median of the rest. The Nov 22 $285 sale is by the same seller (jmb154) with the identical title as the trigger listing — the trigger may be a relist of that unit; seller also sold one Sep 8 at $249.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/267854751250",
+    "site": "ebay",
+    "ask": 285.0,
+    "shipping": 11.88
+  },
+  "comps": [
+    {
+      "price": 285.0,
+      "sold_date": "2026-11-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267850431629",
+      "source": "ebay",
+      "notes": "OUTLIER: $285 vs ~$175 median of the other kept comps. Fixed price 'or Best Offer' (not marked accepted). Shipping +$11.88. Same seller (jmb154) and identical title as trigger listing 267854751250.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 100.0,
+      "sold_date": "2026-11-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267847604455",
+      "source": "ebay",
+      "notes": "OUTLIER: $100 vs ~$249 median of the other kept comps. Title 'Yaesu FT90r (Tested Working)'. Buy It Now. Shipping +$10.47.",
+      "flags": []
+    },
+    {
+      "price": 174.99,
+      "sold_date": "2026-11-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407336621524",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping +$15.65.",
+      "flags": []
+    },
+    {
+      "price": 249.0,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267778920139",
+      "source": "ebay",
+      "notes": "Buy It Now. Shipping +$11.88. Same seller (jmb154) and same title as trigger listing — a different earlier sale.",
+      "flags": []
+    }
+  ]
+}
