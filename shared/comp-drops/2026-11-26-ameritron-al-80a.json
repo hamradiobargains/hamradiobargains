@@ -1,0 +1,15 @@
+{
+  "model": "Ameritron AL-80A",
+  "slug": "ameritron-al-80a",
+  "searched_at": "2026-11-26T17:59:56-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "No qualifying comps. Page 1 held only 3 accessory sales (antenna relay, screw kit, LED meter) - excluded. dropped 0 best-offer-accepted, dropped 0 parts-only. Thin (0 comps). Ledger AL-80A had count 1 (2026-08-20), so missed.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/287761033751",
+    "site": "ebay",
+    "ask": 899.0,
+    "shipping": 100.39
+  },
+  "comps": []
+}
