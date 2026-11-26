@@ -1,0 +1,173 @@
+{
+  "model": "Yaesu FT-5D",
+  "slug": "yaesu-ft-5d",
+  "searched_at": "2026-11-25T19:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Extras sweep 2026-11-25) for the FT-5D item in multi-item ad 1785553 (ad lists 'Yaesu FT5D ... $325'). Titles containing FT5D, FT-5D or the dual naming 'FT5DR FT5D' / 'FT5D/FT5DR' counted; titles saying only FT5DR NOT counted (ledger carries YAESU FT5DR separately; unsure whether identical to FT5D, so kept separate). 17 kept, median 305.00, low 175.00 (itm 128175185960, 1 bid), high 391.80. Dropped 5 best-offer-accepted: 407312041925 ($250.00), 840024828586 ($260.00), 137786736343 ($289.00), 206532170310 ($349.99), 128059748406 ($315.00). No parts-only sales found; accessories excluded. UNCERTAIN: FT5D vs FT5DR identity. itm 227550889362 title says 'PLUS Mars mod' (flagged modified). No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785553",
+    "site": "qth",
+    "ask": 325,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 175,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128175185960",
+      "source": "ebay",
+      "notes": "Shipping +$12.28 as shown; 1 bid",
+      "flags": []
+    },
+    {
+      "price": 350,
+      "sold_date": "2026-11-01",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/147649356719",
+      "source": "ebay",
+      "notes": "Shipping +$14.15 as shown",
+      "flags": []
+    },
+    {
+      "price": 379.99,
+      "sold_date": "2026-10-29",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/880044183102",
+      "source": "ebay",
+      "notes": "Shipping free or not shown",
+      "flags": []
+    },
+    {
+      "price": 309.99,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117473560774",
+      "source": "ebay",
+      "notes": "Shipping +$11.95 as shown; 2 bids; title says \"+ extras\"",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 303,
+      "sold_date": "2026-10-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227550889362",
+      "source": "ebay",
+      "notes": "Shipping +$21.95 as shown; 1 bid; title says \"PLUS Mars mod\" (transmit-mod wording)",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 391.8,
+      "sold_date": "2026-10-08",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/365116201535",
+      "source": "ebay",
+      "notes": "Shipping +$90.00 as shown; title says Black English version",
+      "flags": []
+    },
+    {
+      "price": 285,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189037663995",
+      "source": "ebay",
+      "notes": "Shipping +$15.65 as shown",
+      "flags": []
+    },
+    {
+      "price": 339.99,
+      "sold_date": "2026-10-01",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137756913424",
+      "source": "ebay",
+      "notes": "Shipping free or not shown",
+      "flags": []
+    },
+    {
+      "price": 285,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407235763103",
+      "source": "ebay",
+      "notes": "Shipping +$10.15 as shown",
+      "flags": []
+    },
+    {
+      "price": 309,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128095304427",
+      "source": "ebay",
+      "notes": "Shipping +$10.15 as shown",
+      "flags": []
+    },
+    {
+      "price": 305,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158326240203",
+      "source": "ebay",
+      "notes": "Shipping +$9.06 as shown; 1 bid",
+      "flags": []
+    },
+    {
+      "price": 305,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158311292082",
+      "source": "ebay",
+      "notes": "Shipping +$9.06 as shown; 2 bids",
+      "flags": []
+    },
+    {
+      "price": 299,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327343303534",
+      "source": "ebay",
+      "notes": "Shipping +$26.88 as shown",
+      "flags": []
+    },
+    {
+      "price": 190,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237054810302",
+      "source": "ebay",
+      "notes": "Shipping free or not shown",
+      "flags": []
+    },
+    {
+      "price": 330,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117366796876",
+      "source": "ebay",
+      "notes": "Shipping +$13.26 as shown",
+      "flags": []
+    },
+    {
+      "price": 209.99,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257715120476",
+      "source": "ebay",
+      "notes": "Shipping +$10.00 as shown",
+      "flags": []
+    },
+    {
+      "price": 320,
+      "sold_date": "2026-08-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257688439164",
+      "source": "ebay",
+      "notes": "Shipping +$10.00 as shown",
+      "flags": []
+    }
+  ]
+}
