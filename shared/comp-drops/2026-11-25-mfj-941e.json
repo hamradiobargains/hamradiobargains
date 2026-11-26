@@ -1,0 +1,70 @@
+{
+  "model": "MFJ-941E",
+  "slug": "mfj-941e",
+  "searched_at": "2026-11-25T19:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Extras sweep 2026-11-25; ledger entry MFJ-941E dated 2026-10-23 is older than 30 days). 6 kept, median 122.495. Dropped 5 best-offer-accepted: 168873481879, 407325619398, 128140983969 (these two titled 'MFJ Versa Tuner II ... w/ Antenna Selector'), 237035629805, 158206786663; dropped 3 parts: 336809166703 ($99.99), 327345060471 ($99.00), 336774410888 ($58.00, 11 bids). No outliers. Ad: $130 plus shipping (amount not stated, recorded as 0).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785601",
+    "site": "qth",
+    "ask": 130,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 129.99,
+      "sold_date": "2026-11-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/920086158589",
+      "source": "ebay",
+      "notes": "Shipping +$14.85 as shown",
+      "flags": []
+    },
+    {
+      "price": 95,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278418314296",
+      "source": "ebay",
+      "notes": "Shipping +$28.24 as shown",
+      "flags": []
+    },
+    {
+      "price": 149.95,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227469895938",
+      "source": "ebay",
+      "notes": "Shipping free or not shown",
+      "flags": []
+    },
+    {
+      "price": 90,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287585022916",
+      "source": "ebay",
+      "notes": "Shipping +$11.95 as shown; title says \"tested, working\"",
+      "flags": []
+    },
+    {
+      "price": 115,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336788372336",
+      "source": "ebay",
+      "notes": "Shipping +$17.00 as shown; title says \"tested\"",
+      "flags": []
+    },
+    {
+      "price": 139.99,
+      "sold_date": "2026-09-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/298627624619",
+      "source": "ebay",
+      "notes": "Shipping free or not shown",
+      "flags": []
+    }
+  ]
+}
