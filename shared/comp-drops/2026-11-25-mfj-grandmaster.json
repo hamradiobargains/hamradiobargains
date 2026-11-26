@@ -1,0 +1,15 @@
+{
+  "model": "MFJ Grandmaster SWR/Power Meter (model number not stated)",
+  "slug": "mfj-grandmaster",
+  "searched_at": "2026-11-25T19:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'MFJ Grandmaster' (Extras sweep 2026-11-25). NOT COMPED: ad names no model number; 'Grandmaster' is an MFJ brand name used on keyers (MFJ-484 etc.) and SWR/power meters (MFJ-870 1.8-60 MHz, MFJ-873 VHF/UHF, MFJ-874 1.8-525 MHz). Ad specs (1.8-525 MHz, avg/PEP switch) resemble MFJ-874 but the identity is not certain, so no comp set was built. For reference only, NOT counted: MFJ-874 itm 178326533705 sold $85.00 Aug 28 (+$7.91); MFJ-874 itm 377361272176 $89.00 Sep 10 best-offer-accepted (dropped). Ad: $120 shipped (Venmo).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785542",
+    "site": "qth",
+    "ask": 120,
+    "shipping": 0
+  },
+  "comps": []
+}
