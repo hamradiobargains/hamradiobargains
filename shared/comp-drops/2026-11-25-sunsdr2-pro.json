@@ -1,0 +1,15 @@
+{
+  "model": "Expert Electronics SunSDR2 Pro",
+  "slug": "sunsdr2-pro",
+  "searched_at": "2026-11-25T19:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Extras sweep 2026-11-25). ZERO exact comps: results were SunSDR2 connecting cables (itm 377306117672 $23.98, 397720593377 $24.98) and a new SunSDR2 DX 100W (itm 198420741882 $1,879.29, different model). Ledger carries only EXPERT ELECTRONICS SUNSDR2 DX (count 1). Not comped. Ad: $600 shipped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785606",
+    "site": "qth",
+    "ask": 600,
+    "shipping": 0
+  },
+  "comps": []
+}
