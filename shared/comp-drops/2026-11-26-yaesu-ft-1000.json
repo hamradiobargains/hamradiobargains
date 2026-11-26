@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FT-1000",
+  "slug": "yaesu-ft-1000",
+  "searched_at": "2026-11-26T17:59:56-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "No qualifying comps. Exact-model search for plain FT-1000: only one unit sale on page 1 (itm 336838824045, $690, Oct 12 2026) and it was best-offer-accepted, so dropped. dropped 1 best-offer-accepted, dropped 0 parts-only. FT-1000MP / MARK-V / FT-1000D / FTV-1000 sales and manuals, mics, filters, switches, knobs excluded as different models or accessories. Thin (0 comps).",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/900124530479",
+    "site": "ebay",
+    "ask": 795.0,
+    "shipping": 144.55
+  },
+  "comps": []
+}
