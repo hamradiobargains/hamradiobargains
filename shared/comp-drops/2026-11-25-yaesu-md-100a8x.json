@@ -1,0 +1,232 @@
+{
+  "model": "Yaesu MD-100A8X",
+  "slug": "yaesu-md-100a8x",
+  "searched_at": "2026-11-25T19:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Extras sweep 2026-11-25). Only MD-100A8X / MD-100 A8X desk microphone titles counted. 24 kept, median 122.00. OUTLIER: itm 396651485894 $206.39 (+$60 shipping). Dropped 6 best-offer-accepted (800860504502, 336848034955, 336848103014, 336749871939, 800571008286, 257712748418) and 2 parts (336848128580, 128075927400). Excluded: Yaesu M-70 successor mics (387728553320, 126047207565), replacement mic holders (178534765119, 287613218493, 158231208634), windshield (336714286262). Ad: $115 shipped, 'VERY CLEAN NICE WORKING MIC', with 2 cables.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785627",
+    "site": "qth",
+    "ask": 115,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 113,
+      "sold_date": "2026-11-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147694878790",
+      "source": "ebay",
+      "notes": "Shipping +$10.15 as shown",
+      "flags": []
+    },
+    {
+      "price": 149,
+      "sold_date": "2026-11-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800769452812",
+      "source": "ebay",
+      "notes": "Shipping +$6.98 as shown",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-11-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128187132890",
+      "source": "ebay",
+      "notes": "Shipping +$15.70 as shown; 1 bid",
+      "flags": []
+    },
+    {
+      "price": 134.99,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840088026025",
+      "source": "ebay",
+      "notes": "Shipping +$19.76 as shown",
+      "flags": []
+    },
+    {
+      "price": 145,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257839594185",
+      "source": "ebay",
+      "notes": "Shipping +$21.50 as shown; title starts \"ESTATE ... IN ORIGINAL...\"",
+      "flags": []
+    },
+    {
+      "price": 129,
+      "sold_date": "2026-11-05",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/377607173795",
+      "source": "ebay",
+      "notes": "Shipping +$40.00 as shown",
+      "flags": []
+    },
+    {
+      "price": 119,
+      "sold_date": "2026-08-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/389713322087",
+      "source": "ebay",
+      "notes": "Shipping +$79.00 as shown",
+      "flags": []
+    },
+    {
+      "price": 134.99,
+      "sold_date": "2026-10-31",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198708603911",
+      "source": "ebay",
+      "notes": "Shipping +$19.76 as shown",
+      "flags": []
+    },
+    {
+      "price": 94,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257814695956",
+      "source": "ebay",
+      "notes": "Shipping +$9.07 as shown; 17 bids",
+      "flags": []
+    },
+    {
+      "price": 80,
+      "sold_date": "2026-10-24",
+      "condition": "Open Box",
+      "url": "https://www.ebay.com/itm/237129448021",
+      "source": "ebay",
+      "notes": "Shipping +$20.00 as shown; 6 bids",
+      "flags": []
+    },
+    {
+      "price": 95.99,
+      "sold_date": "2026-10-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257812852148",
+      "source": "ebay",
+      "notes": "Shipping +$9.07 as shown; 1 bid",
+      "flags": []
+    },
+    {
+      "price": 134.99,
+      "sold_date": "2026-10-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178385232116",
+      "source": "ebay",
+      "notes": "Shipping +$19.76 as shown",
+      "flags": []
+    },
+    {
+      "price": 102.5,
+      "sold_date": "2026-10-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128101882749",
+      "source": "ebay",
+      "notes": "Shipping +$15.70 as shown; 3 bids",
+      "flags": []
+    },
+    {
+      "price": 125,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178457051181",
+      "source": "ebay",
+      "notes": "Shipping +$18.50 as shown",
+      "flags": []
+    },
+    {
+      "price": 110,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327366870143",
+      "source": "ebay",
+      "notes": "Shipping +$7.95 as shown",
+      "flags": []
+    },
+    {
+      "price": 135,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117422182633",
+      "source": "ebay",
+      "notes": "Shipping +$9.82 as shown",
+      "flags": []
+    },
+    {
+      "price": 80,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206564199813",
+      "source": "ebay",
+      "notes": "Shipping +$14.78 as shown",
+      "flags": []
+    },
+    {
+      "price": 95,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278371762465",
+      "source": "ebay",
+      "notes": "Shipping +$15.03 as shown",
+      "flags": []
+    },
+    {
+      "price": 99.95,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278366098139",
+      "source": "ebay",
+      "notes": "Shipping +$8.42 as shown",
+      "flags": []
+    },
+    {
+      "price": 181.28,
+      "sold_date": "2026-09-11",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/287579875117",
+      "source": "ebay",
+      "notes": "Shipping +$20.00 as shown; title \"YAESU MD-100A8X Dynamic Microphone Used Japan\"",
+      "flags": []
+    },
+    {
+      "price": 206.39,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/396651485894",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x the median of other kept comps (~121); kept per rules. Shipping +$60.00 as shown",
+      "flags": []
+    },
+    {
+      "price": 171.89,
+      "sold_date": "2026-10-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267740519130",
+      "source": "ebay",
+      "notes": "Shipping free or not shown; shipping not shown on results row; title \"Boxed with new wind muff\"",
+      "flags": []
+    },
+    {
+      "price": 144.27,
+      "sold_date": "2026-09-27",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188908572167",
+      "source": "ebay",
+      "notes": "Shipping free or not shown; shipping not shown on results row",
+      "flags": []
+    },
+    {
+      "price": 105.5,
+      "sold_date": "2026-10-23",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/800803390001",
+      "source": "ebay",
+      "notes": "Shipping +$25.00 as shown; 6 bids; title \"Vertex Standard MD-100a8x Desk Microphone\" (condition shown Brand New)",
+      "flags": []
+    }
+  ]
+}
