@@ -1,0 +1,45 @@
+{
+  "model": "Kenwood TS-520S",
+  "slug": "kenwood-ts-520s",
+  "searched_at": "2026-11-26T15:00:51-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'kenwood ts-520s', page 1 (19 results). 3 kept. Dropped 3 best-offer-accepted (237142825708, 307231143643, 137298402386) and 2 parts-only (237142825708 - also BOA, 137656560659). Excluded 4 non-S TS-520 units (358497897576, 227594639924, 178506175238, and a $50 parts unit), a restoration kit, manual, and parts. No outliers.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785706",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 325,
+      "sold_date": "2026-11-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227609920338",
+      "source": "ebay",
+      "notes": "Includes Astatic D104C microphone. Title says 'Excellent'. Fixed price 'or Best Offer' (not accepted). +$30.65 delivery.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 299.99,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117187220391",
+      "source": "ebay",
+      "notes": "Title: 'Calibrated Tested Works'. +$59.99 delivery.",
+      "flags": []
+    },
+    {
+      "price": 287.09,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128139474838",
+      "source": "ebay",
+      "notes": "Title: 'Tested Working w/ Cables'. +$35.68 delivery.",
+      "flags": []
+    }
+  ]
+}
