@@ -1,0 +1,15 @@
+{
+  "model": "Yaesu FTM-400DH",
+  "slug": "yaesu-ftm-400dh",
+  "searched_at": "2026-11-26T17:59:56-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "No qualifying comps. Only result on page 1 before 'fewer words' was a Yaesu FTM-400DE sold Parts Only (itm 336800123908, $121.70) - different model and parts-only, excluded. dropped 0 best-offer-accepted, dropped 1 parts-only. Thin (0 comps). Ledger has FTM-400DR / FTM-400XDR entries but those are different models.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366840674488",
+    "site": "ebay",
+    "ask": 541.27,
+    "shipping": 100.0
+  },
+  "comps": []
+}
