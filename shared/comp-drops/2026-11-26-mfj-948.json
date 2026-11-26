@@ -1,0 +1,92 @@
+{
+  "model": "MFJ-948",
+  "slug": "mfj-948",
+  "searched_at": "2026-11-26T17:59:56-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "8 kept. dropped 3 best-offer-accepted (237089111256, 307189281280, 178506069295), dropped 2 parts-only (800434829542, 168644176429). Excluded a DC lamp connector accessory. OUTLIERS flagged: 327469401198 $50.0; 188288853228 $299.99. 307200666438 and 257638401913 may be the same unit relisted.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/336918480105",
+    "site": "ebay",
+    "ask": 139.98,
+    "shipping": 6.98
+  },
+  "comps": [
+    {
+      "price": 60.0,
+      "sold_date": "2026-11-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327474445393",
+      "source": "ebay",
+      "notes": "auction 1 bid; +$28.24 shipping",
+      "flags": []
+    },
+    {
+      "price": 50.0,
+      "sold_date": "2026-11-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327469401198",
+      "source": "ebay",
+      "notes": "OUTLIER: $50.00 vs ~$120 median for the rest; auction 1 bid; +$28.24 shipping",
+      "flags": []
+    },
+    {
+      "price": 99.99,
+      "sold_date": "2026-11-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960204492155",
+      "source": "ebay",
+      "notes": "Buy It Now; +$15.00 shipping",
+      "flags": []
+    },
+    {
+      "price": 120.0,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206622282036",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$10.58 shipping",
+      "flags": []
+    },
+    {
+      "price": 149.0,
+      "sold_date": "2026-10-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307200666438",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$13.75 shipping; same title/price as 257638401913",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 299.99,
+      "sold_date": "2026-09-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188288853228",
+      "source": "ebay",
+      "notes": "OUTLIER: $299.99 vs ~$100 median for the rest; Buy It Now; +$60.00 shipping; title says tested working",
+      "flags": []
+    },
+    {
+      "price": 149.0,
+      "sold_date": "2026-09-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257638401913",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$15.85 shipping; same title/price as 307200666438",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 81.0,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188876210401",
+      "source": "ebay",
+      "notes": "auction 2 bids; +$15.65 shipping; title says working",
+      "flags": []
+    }
+  ]
+}
