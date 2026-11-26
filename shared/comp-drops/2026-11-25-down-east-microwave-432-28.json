@@ -1,0 +1,15 @@
+{
+  "model": "Down East Microwave 432-28",
+  "slug": "down-east-microwave-432-28",
+  "searched_at": "2026-11-25T19:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Extras sweep 2026-11-25) for the DEM 432-28 70 cm transverter in multi-item ad 1785553 ($350). ZERO exact comps: same three non-transverter DEM items as the 144-28 search (interface, 3-8PA amplifier, TR sequencer) - none counted. Not comped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785553",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": []
+}
