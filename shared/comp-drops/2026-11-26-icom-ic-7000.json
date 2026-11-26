@@ -1,0 +1,155 @@
+{
+  "model": "Icom IC-7000",
+  "slug": "icom-ic-7000",
+  "searched_at": "2026-11-26T17:59:56-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "14 kept. dropped 10 best-offer-accepted unit sales, dropped 2 parts-only (itm 198730895987 $779 and 198701331080 $555.55, both eBay-labeled Parts Only). Excluded accessories/manuals/boards/control head/body-only/head-only sales and IC-7000M / IC-R7000. Several kept comps include tuners or other extras (flagged extras_included). 227598543934 and 227590606268 share seller and title (possible relist). Ledger IC-7000 latest was 2026-10-26 (31 days old) so ledger missed.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/307303516300",
+    "site": "ebay",
+    "ask": 899.99,
+    "shipping": 25.0
+  },
+  "comps": [
+    {
+      "price": 850.0,
+      "sold_date": "2026-11-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198781487242",
+      "source": "ebay",
+      "notes": "auction 1 bid; +$13.46 shipping; POTA package with LDG AT-7000 tuner and SignaLink USB",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 775.0,
+      "sold_date": "2026-11-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227598543934",
+      "source": "ebay",
+      "notes": "auction 9 bids; +$40.00 shipping; w/ mic, manual; same seller/title as 227590606268",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 810.0,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227590606268",
+      "source": "ebay",
+      "notes": "auction 16 bids; +$40.00 shipping; w/ mic, manual; same seller/title as 227598543934",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2026-10-26",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377595614926",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); free shipping; USA version",
+      "flags": []
+    },
+    {
+      "price": 775.0,
+      "sold_date": "2026-10-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940033925440",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$25.12 shipping",
+      "flags": []
+    },
+    {
+      "price": 800.0,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880012006604",
+      "source": "ebay",
+      "notes": "Buy It Now; +$35.43 shipping; with box, US version",
+      "flags": []
+    },
+    {
+      "price": 710.0,
+      "sold_date": "2026-10-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287629750973",
+      "source": "ebay",
+      "notes": "auction 9 bids; +$36.68 shipping; with MFJ-939 tuner and separation cable",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-10-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198592671075",
+      "source": "ebay",
+      "notes": "Buy It Now; +$32.00 shipping; US version, title says 'please read'",
+      "flags": []
+    },
+    {
+      "price": 599.99,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128101831585",
+      "source": "ebay",
+      "notes": "auction 3 bids; +$20.85 shipping",
+      "flags": []
+    },
+    {
+      "price": 725.0,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278390283359",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$28.22 shipping; with antenna tuner",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 749.99,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/307189488353",
+      "source": "ebay",
+      "notes": "Buy It Now; free shipping",
+      "flags": []
+    },
+    {
+      "price": 745.0,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257700886541",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$17.90 shipping; w/ mic & power cord, tested",
+      "flags": []
+    },
+    {
+      "price": 700.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117386597949",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); +$40.00 shipping; with MFJ-7000 EmComm system; untested",
+      "flags": [
+        "as_is",
+        "extras_included"
+      ]
+    },
+    {
+      "price": 721.33,
+      "sold_date": "2026-09-05",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198617199632",
+      "source": "ebay",
+      "notes": "fixed price (or Best Offer, not accepted); tested working",
+      "flags": []
+    }
+  ]
+}
