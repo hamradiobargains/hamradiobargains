@@ -1,0 +1,34 @@
+{
+  "model": "Yaesu FT-857DM",
+  "slug": "yaesu-ft-857dm",
+  "searched_at": "2026-11-26T17:59:56-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "2 kept. dropped 0 best-offer-accepted, dropped 0 parts-only. Thin. Both sales look like Japan-based sellers (shipping $110-$120). Ledger FT-857DM had count 1, so missed.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/366840663529",
+    "site": "ebay",
+    "ask": 959.76,
+    "shipping": 110.0
+  },
+  "comps": [
+    {
+      "price": 1114.08,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366635117053",
+      "source": "ebay",
+      "notes": "Buy It Now; +$110.00 shipping; title 'Excellent Final Mode'",
+      "flags": []
+    },
+    {
+      "price": 1166.63,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366671117376",
+      "source": "ebay",
+      "notes": "Buy It Now; +$120.00 shipping",
+      "flags": []
+    }
+  ]
+}
