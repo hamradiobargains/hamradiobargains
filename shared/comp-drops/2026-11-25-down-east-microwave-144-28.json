@@ -1,0 +1,15 @@
+{
+  "model": "Down East Microwave 144-28",
+  "slug": "down-east-microwave-144-28",
+  "searched_at": "2026-11-25T19:50:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search (Extras sweep 2026-11-25) for the DEM 144-28 2 m transverter in multi-item ad 1785553 ($350). ZERO exact comps: search returned only a Transverter Interface (327347120337 $99.00), a 3-8PA RF amplifier (880056780299 $330.00) and a TR Sequencer (327347104581 $79.00) - different products, not counted. Not comped.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785553",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": []
+}
