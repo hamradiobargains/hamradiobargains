@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T13:53:41+00:00",
+ "updated": "2026-11-26T13:53:38+00:00",
  "source": "HamRadioBargains sold-comp ledger \u2014 genuine sold listings from eHam, QTH, eBay and site deals, plus the eHam comp archive. Prices are asking prices at sale; best offers may differ.",
  "models": {
   "ACOM 06AT": {
@@ -1520,6 +1520,24 @@
     }
    ]
   },
+  "DRAKE R-4A": {
+   "latest": {
+    "date": "2026-11-11",
+    "median": 218.25,
+    "low": 156.5,
+    "high": 280.0,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-11-11",
+     "median": 218.25,
+     "low": 156.5,
+     "high": 280.0,
+     "count": 2
+    }
+   ]
+  },
   "DRAKE R-4B": {
    "latest": {
     "date": "2026-09-28",
@@ -2823,6 +2841,24 @@
     }
    ]
   },
+  "HEIL GOLD ELITE": {
+   "latest": {
+    "date": "2026-11-21",
+    "median": 120.0,
+    "low": 120.0,
+    "high": 120.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-11-21",
+     "median": 120.0,
+     "low": 120.0,
+     "high": 120.0,
+     "count": 1
+    }
+   ]
+  },
   "HEIL GOLDLINE GM-5": {
    "latest": {
     "date": "2026-11-12",
@@ -3215,6 +3251,42 @@
     }
    ]
   },
+  "ICOM IC-02AT": {
+   "latest": {
+    "date": "2026-11-18",
+    "median": 79.95,
+    "low": 40.0,
+    "high": 134.87,
+    "count": 7
+   },
+   "history": [
+    {
+     "date": "2026-11-18",
+     "median": 79.95,
+     "low": 40.0,
+     "high": 134.87,
+     "count": 7
+    }
+   ]
+  },
+  "ICOM IC-202": {
+   "latest": {
+    "date": "2026-08-29",
+    "median": 163.94,
+    "low": 163.94,
+    "high": 163.94,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-08-29",
+     "median": 163.94,
+     "low": 163.94,
+     "high": 163.94,
+     "count": 1
+    }
+   ]
+  },
   "ICOM IC-207": {
    "latest": {
     "date": "2026-03-18",
@@ -3519,11 +3591,11 @@
   },
   "ICOM IC-706": {
    "latest": {
-    "date": "2026-10-20",
-    "median": 455.0,
+    "date": "2026-11-08",
+    "median": 452.5,
     "low": 379.99,
     "high": 628.55,
-    "count": 5
+    "count": 6
    },
    "history": [
     {
@@ -3532,6 +3604,13 @@
      "low": 379.99,
      "high": 628.55,
      "count": 5
+    },
+    {
+     "date": "2026-11-08",
+     "median": 452.5,
+     "low": 379.99,
+     "high": 628.55,
+     "count": 6
     }
    ]
   },
@@ -7230,11 +7309,11 @@
   },
   "LDG IT-100": {
    "latest": {
-    "date": "2026-10-11",
-    "median": 125.0,
+    "date": "2026-11-10",
+    "median": 129.99,
     "low": 85.0,
     "high": 174.99,
-    "count": 9
+    "count": 11
    },
    "history": [
     {
@@ -7243,6 +7322,13 @@
      "low": 85.0,
      "high": 174.99,
      "count": 9
+    },
+    {
+     "date": "2026-11-10",
+     "median": 129.99,
+     "low": 85.0,
+     "high": 174.99,
+     "count": 11
     }
    ]
   },
@@ -7487,6 +7573,24 @@
     }
    ]
   },
+  "MFJ-1270B": {
+   "latest": {
+    "date": "2026-10-29",
+    "median": 30.0,
+    "low": 30.0,
+    "high": 30.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-10-29",
+     "median": 30.0,
+     "low": 30.0,
+     "high": 30.0,
+     "count": 1
+    }
+   ]
+  },
   "MFJ-16010": {
    "latest": {
     "date": "2026-10-25",
@@ -7651,11 +7755,11 @@
   },
   "MFJ-941E": {
    "latest": {
-    "date": "2026-10-23",
-    "median": 125.0,
+    "date": "2026-11-23",
+    "median": 127.5,
     "low": 81.0,
     "high": 149.95,
-    "count": 11
+    "count": 12
    },
    "history": [
     {
@@ -7664,6 +7768,13 @@
      "low": 81.0,
      "high": 149.95,
      "count": 11
+    },
+    {
+     "date": "2026-11-23",
+     "median": 127.5,
+     "low": 81.0,
+     "high": 149.95,
+     "count": 12
     }
    ]
   },
@@ -7682,6 +7793,24 @@
      "low": 129.99,
      "high": 140.5,
      "count": 2
+    }
+   ]
+  },
+  "MFJ-945E": {
+   "latest": {
+    "date": "2026-11-19",
+    "median": 130.0,
+    "low": 90.0,
+    "high": 199.0,
+    "count": 8
+   },
+   "history": [
+    {
+     "date": "2026-11-19",
+     "median": 130.0,
+     "low": 90.0,
+     "high": 199.0,
+     "count": 8
     }
    ]
   },
@@ -10136,6 +10265,24 @@
     }
    ]
   },
+  "YAESU FT-100": {
+   "latest": {
+    "date": "2026-10-14",
+    "median": 610.0,
+    "low": 610.0,
+    "high": 610.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-10-14",
+     "median": 610.0,
+     "low": 610.0,
+     "high": 610.0,
+     "count": 1
+    }
+   ]
+  },
   "YAESU FT-1000D": {
    "latest": {
     "date": "2026-09-10",
@@ -10736,6 +10883,24 @@
      "low": 225.0,
      "high": 225.0,
      "count": 1
+    }
+   ]
+  },
+  "YAESU FT-5D": {
+   "latest": {
+    "date": "2026-11-04",
+    "median": 305.0,
+    "low": 175.0,
+    "high": 391.8,
+    "count": 17
+   },
+   "history": [
+    {
+     "date": "2026-11-04",
+     "median": 305.0,
+     "low": 175.0,
+     "high": 391.8,
+     "count": 17
     }
    ]
   },
@@ -11588,6 +11753,24 @@
     }
    ]
   },
+  "YAESU FT-90R": {
+   "latest": {
+    "date": "2026-11-18",
+    "median": 174.99,
+    "low": 100.0,
+    "high": 249.0,
+    "count": 3
+   },
+   "history": [
+    {
+     "date": "2026-11-18",
+     "median": 174.99,
+     "low": 100.0,
+     "high": 249.0,
+     "count": 3
+    }
+   ]
+  },
   "YAESU FT-920": {
    "latest": {
     "date": "2026-11-02",
@@ -11980,11 +12163,11 @@
   },
   "YAESU FTDX101D": {
    "latest": {
-    "date": "2026-09-17",
-    "median": 2350.0,
+    "date": "2026-11-23",
+    "median": 2375.0,
     "low": 1300.0,
-    "high": 2700.0,
-    "count": 11
+    "high": 2999.0,
+    "count": 12
    },
    "history": [
     {
@@ -12014,6 +12197,13 @@
      "low": 1300.0,
      "high": 2700.0,
      "count": 11
+    },
+    {
+     "date": "2026-11-23",
+     "median": 2375.0,
+     "low": 1300.0,
+     "high": 2999.0,
+     "count": 12
     }
    ]
   },
@@ -12250,6 +12440,24 @@
      "low": 340.0,
      "high": 495.0,
      "count": 16
+    }
+   ]
+  },
+  "YAESU FTM-500D": {
+   "latest": {
+    "date": "2026-11-17",
+    "median": 407.5,
+    "low": 310.0,
+    "high": 474.0,
+    "count": 4
+   },
+   "history": [
+    {
+     "date": "2026-11-17",
+     "median": 407.5,
+     "low": 310.0,
+     "high": 474.0,
+     "count": 4
     }
    ]
   },
@@ -12508,6 +12716,24 @@
      "low": 74.99,
      "high": 188.01,
      "count": 13
+    }
+   ]
+  },
+  "YAESU MD-100A8X": {
+   "latest": {
+    "date": "2026-11-24",
+    "median": 122.0,
+    "low": 80.0,
+    "high": 206.39,
+    "count": 24
+   },
+   "history": [
+    {
+     "date": "2026-11-24",
+     "median": 122.0,
+     "low": 80.0,
+     "high": 206.39,
+     "count": 24
     }
    ]
   },
