@@ -336,5 +336,44 @@
     "compLow": 230.0,
     "compHigh": 339.99,
     "note": "The Icom IC-R70 is a general-coverage HF receiver from the early 1980s, and this one has the optional FL-32 CW, FL-30 SSB, and FL-33 AM filters installed. $125 plus shipping (amount not stated) against a $280 median across 4 recorded sales: 55% below fair value on the ask alone, and even $50 of freight still leaves it 37% below. The seller calls it a working radio in well used condition with a small axis cover missing. As always, the asking price is compared against the recorded sale price; shipping is extra unless the listing says shipped."
+  },
+  {
+    "date": "2026-11-26",
+    "item": "Yaesu FT-2900R",
+    "link": "https://www.ebay.com/itm/128216727951",
+    "price": 105,
+    "extraCost": 8.13,
+    "pctBelow": 0.2508,
+    "median": 151,
+    "compCount": 24,
+    "compLow": 80.0,
+    "compHigh": 200.0,
+    "note": "Yaesu's 75-watt 2-meter mobile, with microphone. $105 plus $8.13 shipping comes to $113.13 all-in, against a $151 fair value from 24 recorded sales: 25.1% below. The fair value is figured from recorded sale prices, and this percentage is figured all-in on this side, so the comparison runs against the deal, not for it. Seller does not accept returns."
+  },
+  {
+    "date": "2026-11-26",
+    "item": "Kenwood TS-2000",
+    "link": "https://www.ebay.com/itm/840165836767",
+    "price": 775,
+    "extraCost": 65.76,
+    "pctBelow": 0.236,
+    "median": 950,
+    "compCount": 13,
+    "compLow": 510.0,
+    "compHigh": 1500.0,
+    "note": "Kenwood's all-mode rig, HF through 440 with satellite work in its blood, sold with an MC-60 desk mic. The package is $775 plus $65.76 shipping, $840.76 all-in. The MC-60 is an optional extra that sells on its own for a $115 median across 25 recorded sales; priced without it, the radio alone is $725.76 against a $950 fair value from 13 recorded sales: 23.6% below, just past our around-25% line. Seller does not accept returns."
+  },
+  {
+    "date": "2026-11-26",
+    "item": "LDG IT-100 AutoTuner",
+    "link": "https://swap.qth.com/view_ad.php?counter=1785527",
+    "price": 90,
+    "extraCost": 0,
+    "pctBelow": 0.3076,
+    "median": 129.99,
+    "compCount": 11,
+    "compLow": 85.0,
+    "compHigh": 174.99,
+    "note": "LDG's 100-watt automatic tuner, the Icom-ready one. $90 asking against a $129.99 fair value from 11 recorded sales: 30.8% below. Shipping is on the buyer and the amount is not stated in the ad. The recorded sale prices behind the fair value do not include shipping either, so the percentage is price against price, before freight on both sides."
   }
 ]
