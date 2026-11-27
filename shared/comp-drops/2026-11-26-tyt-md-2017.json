@@ -1,0 +1,34 @@
+{
+  "model": "TYT MD-2017",
+  "slug": "tyt-md-2017",
+  "searched_at": "2026-11-26T19:01:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'TYT MD-2017' (Sold + Completed, sorted ended recently, page 1 of 120 per page; 15 results matched MD-2017/MD-398 in title). 2 radios kept (thin): itm 880138392083 and itm 800643265353. The other 13 matches are programming cables, chargers, mic and parts for this radio (not comps). 0 Best-offer-accepted sales among the radios, 0 parts-only, 0 Read Description. Seller of the trigger ad (K1BE, Newington CT) says the radio powers up but he could not make a QSO; sold comps are not condition-matched to that. Trigger ad price shown is $85 OBO, UPS add $5. THIN - fewer than 3 comps. ",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785636",
+    "site": "qth",
+    "ask": 85,
+    "shipping": 5
+  },
+  "comps": [
+    {
+      "price": 55,
+      "sold_date": "2026-11-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880138392083",
+      "source": "ebay",
+      "notes": "Shipping +$7.55. Title: TYT MD-2017 VHF/UHF DMR Digital 5W Handheld Two-Way Radio Keypad Black.",
+      "flags": []
+    },
+    {
+      "price": 49.99,
+      "sold_date": "2026-09-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800643265353",
+      "source": "ebay",
+      "notes": "Shipping +$8.03. Title: Tytera TYT-MD2017 Dual Band 144/440 Analog/Digital DMR Transceiver.",
+      "flags": []
+    }
+  ]
+}
