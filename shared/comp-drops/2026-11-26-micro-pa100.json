@@ -1,0 +1,54 @@
+{
+  "model": "Micro PA100 (HamGeek)",
+  "slug": "micro-pa100",
+  "searched_at": "2026-11-26T19:01:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Micro PA100 amplifier' (Sold + Completed, page 1, 120 results). 4 kept (solid), median 319.00 (computed here); all Brand New, amplifier only. Not kept (kept separate): 'Upgraded HamGeek Micro PA100+ Plus' variant sales itm 178074286487 $309.70 (2026-11-03), itm 389931543460 $326.00 (2026-10-29), itm 389931487952 $299.25 (2026-09-03), shipping +$35.00 each. 0 parts-only, 0 Best-offer-accepted among PA100 results, 0 Read Description. itm 297434236707 and itm 306472893371 share the same title and price (flagged possible_duplicate on one). Trigger ad: QTH 1785725 is a USED Micro PA100 + ATU-100 EXT tuner pair, $325 net shipped; the comps are the amplifier alone, new - tuner is not in these comps. Ledger name for this model is 'MICRO PA100 (HAMGEEK, 100W HF QRP AMP)' (count 4, 2026-10-17).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785725",
+    "site": "qth",
+    "ask": 325,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 303.05,
+      "sold_date": "2026-11-24",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/365694262486",
+      "source": "ebay",
+      "notes": "Shipping +$11.00. Title: Micro PA100 100W 3.5MHz-30MHz QRP HF Power A...",
+      "flags": []
+    },
+    {
+      "price": 319,
+      "sold_date": "2026-11-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/306472893371",
+      "source": "ebay",
+      "notes": "Shipping +$11.00. Title: Micro PA100 100W Shortwave HF Power Amplifie...",
+      "flags": []
+    },
+    {
+      "price": 319,
+      "sold_date": "2026-10-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/297434236707",
+      "source": "ebay",
+      "notes": "Shipping +$11.00. Same title/price as itm 306472893371.",
+      "flags": [
+        "possible_duplicate"
+      ]
+    },
+    {
+      "price": 319,
+      "sold_date": "2026-10-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/116888896903",
+      "source": "ebay",
+      "notes": "Shipping +$11.00. Title: Micro PA100 100W QRP HF Power Amp Shortwave...",
+      "flags": []
+    }
+  ]
+}
