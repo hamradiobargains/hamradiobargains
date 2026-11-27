@@ -1,0 +1,49 @@
+{
+  "model": "AEA PK-232",
+  "slug": "aea-pk-232",
+  "searched_at": "2026-11-27T18:00:40-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "3 kept. Exact model only: original PK-232; PK-232MBX sales excluded as a different model. Excluded cables. Dropped 1 parts-only ($9.99, Sep 16). Dropped 0 best-offer-accepted. OUTLIER: $40.00 (Oct 4) vs ~$25 median of the other two. None of the comps mention the Timewave DSP/PSK upgrades the trigger listing has.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/900127034749",
+    "site": "ebay",
+    "ask": 119.0,
+    "shipping": 12.99
+  },
+  "comps": [
+    {
+      "price": 40.0,
+      "sold_date": "2026-10-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/137431525519",
+      "source": "ebay",
+      "notes": "OUTLIER: $40.00 vs ~$25 median of the other kept comps. Title says Untested; or Best Offer (not accepted); shipping $10.00",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 20.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158240099141",
+      "source": "ebay",
+      "notes": "Title says Untested; Buy It Now; shipping $11.10",
+      "flags": [
+        "as_is"
+      ]
+    },
+    {
+      "price": 29.99,
+      "sold_date": "2026-09-28",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227535854744",
+      "source": "ebay",
+      "notes": "Title: PK-232 PAKRATT 232 Black with Cables; Buy It Now; shipping $16.99",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
