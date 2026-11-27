@@ -1,0 +1,25 @@
+{
+  "model": "Icom IC-781",
+  "slug": "icom-ic-781",
+  "searched_at": "2026-11-26T19:01:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Icom IC-781' (Sold + Completed, page 1, 134 results). 1 kept (THIN): itm 206660007830. Dropped as parts-only (2): itm 960137828803 sold 2026-11-07 $600.00 1 bid +$94.10 'icom ic 781 transceiver' (Parts Only); itm 206539778234 sold 2026-09-10 $1,100.00 1 bid +$100.00 'ICOM IC-781 transceiver *** READ ***' (Parts Only, Read-description-style title; counted as 1 Read Description). 0 Best-offer-accepted. Many accessory/part results (backup battery, manuals, brochure, PC board itm 267593671749 $225.00, LCD kits, cover) not comps. Trigger: QTH 1785693 multi-radio ad lists 'Still have Icom 781. Works. $900, pickup only.'",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785693",
+    "site": "qth",
+    "ask": 900,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 885,
+      "sold_date": "2026-11-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206660007830",
+      "source": "ebay",
+      "notes": "Auction, 2 bids. Shipping +$92.73. Title: ICOM IC-781 Transceiver.",
+      "flags": []
+    }
+  ]
+}
