@@ -1,0 +1,74 @@
+{
+  "model": "Yaesu FT-1000MP Mark-V",
+  "slug": "yaesu-ft-1000mp-mark-v",
+  "searched_at": "2026-11-27T15:02:34-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Search: Yaesu FT-1000MP Mark-V. Ledger has YAESU FT-1000MP MARK-V (count 4, 2026-11-04) but the listing says only \"MK5\" (200 W vs Mark-V Field not stated), so treated as a miss. Kept 6 non-Field Mark-V units. Excluded: 1 Mark-V Field unit ($549.95, 2026-09-12 - different model), parts boards, PA unit, tuners, transverter, manuals, cables, speaker. Dropped 3 parts-only (Nov 26 $555 FOR REPAIR/PARTS; Oct 5 $806 Parts Only; Oct 1 $1,500 Parts Only). Dropped 0 best-offer-accepted. OUTLIERS flagged: $1,980.00 (2026-10-06); $450.00 (2026-09-17). searched_at is file-build time; searches ran ~14:58-15:02 EST.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785749",
+    "site": "qth",
+    "ask": 1500.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 1295.0,
+      "sold_date": "2026-11-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147685711800",
+      "source": "ebay",
+      "notes": "Title prefixed \"CDROM ... From Japan\"; located in Japan; free delivery incl import fees; listed \"or Best Offer\" (not marked accepted)",
+      "flags": []
+    },
+    {
+      "price": 1399.99,
+      "sold_date": "2026-11-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188075433531",
+      "source": "ebay",
+      "notes": "Title says 230 Watts; +$49.99 delivery; \"or Best Offer\" (not marked accepted)",
+      "flags": []
+    },
+    {
+      "price": 1250.0,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960106931428",
+      "source": "ebay",
+      "notes": "Title: \"200 Watt HF Transceiver W Options\"; +$75.00 delivery; \"or Best Offer\" (not marked accepted)",
+      "flags": [
+        "option_installed"
+      ]
+    },
+    {
+      "price": 1980.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128045553701",
+      "source": "ebay",
+      "notes": "OUTLIER: $1,980.00 vs ~$1,250 median for the rest; Title: \"200W FP-29 Working\" - includes FP-29 power supply; located in Japan; +$500.00 delivery",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158213724218",
+      "source": "ebay",
+      "notes": "+$100.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 450.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800677669533",
+      "source": "ebay",
+      "notes": "OUTLIER: $450.00 vs ~$1,295 median for the rest; Title: \"w/ LCD Screen Black\"; +$27.50 delivery; \"or Best Offer\" (not marked accepted)",
+      "flags": []
+    }
+  ]
+}
