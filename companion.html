@@ -298,6 +298,13 @@
       .empty-log{ color:var(--muted); font-size:15px; padding:18px 4px 6px; }
       .log-note{ color:var(--muted); font-size:13.5px; margin-top:14px; }
       .file-tools{ display:flex; gap:10px; flex-wrap:wrap; margin-top:12px; }
+      .worked-before{ margin-top:16px; border-top:1px solid var(--border); padding-top:12px; }
+      .worked-before h3{ margin:0 0 4px; font-size:16px; }
+      .wb-summary{ color:var(--muted); font-size:13.5px; margin:0 0 8px; }
+      .wb-row{ display:flex; gap:8px; flex-wrap:wrap; font-size:14px; padding:5px 0; border-bottom:1px dashed var(--border); }
+      .wb-row:last-child{ border-bottom:none; }
+      .wb-when{ font-weight:600; white-space:nowrap; }
+      .wb-note{ color:var(--muted); }
 
       footer{ text-align:center; color:var(--muted); font-size:13.5px; margin-top:38px; padding-top:20px; border-top:1px solid var(--border); }
 
@@ -429,6 +436,11 @@
           <div class="message" id="message" role="status" aria-live="polite"></div>
           <div class="logthis" id="logThisBox">
             <button type="button" class="btn" id="logThisBtn">Log this contact &rarr;</button>
+          </div>
+          <div class="worked-before" id="workedBefore" style="display:none;">
+            <h3 id="wbTitle">Worked before</h3>
+            <p class="wb-summary" id="wbSummary"></p>
+            <div id="wbRows"></div>
           </div>
         </section>
 
@@ -1123,6 +1135,7 @@
           }
           body.innerHTML = rows;
           if (MAP) MAP.sessionChanged();
+          try { refreshWorkedBefore(); } catch (e) {}
         }
         function findEntry(id) {
           for (var i = 0; i < entries.length; i++) if (entries[i].id === id) return entries[i];
@@ -1183,6 +1196,7 @@
           if (!LAST) return;
           if (editingId) resetFormForNext();
           $('fCall').value = LAST.call || '';
+          try { renderWorkedBefore(LAST.call); } catch (e) {}
           if (LAST.name) $('fName').value = LAST.name;
           if (LAST.qth) $('fQth').value = LAST.qth;
           if (LAST.country) $('fCountry').value = LAST.country;
@@ -1453,6 +1467,42 @@
               renderFileLink(false);
             });
           }
+        } catch (e) {}
+
+        /* ---------- Worked before: previous QSOs with the call on the table ---------- */
+        var wbCall = '';
+        function renderWorkedBefore(call) {
+          var box = $('workedBefore');
+          if (!box) return;
+          call = String(call || '').trim().toUpperCase();
+          wbCall = call;
+          if (!call) { box.style.display = 'none'; return; }
+          var list = entries.filter(function (en) { return en.call === call; }).slice().sort(function (a, b) {
+            var ka = (a.date || '') + (a.timeOn || ''), kb = (b.date || '') + (b.timeOn || '');
+            return ka < kb ? 1 : ka > kb ? -1 : 0;
+          });
+          if (!list.length) { box.style.display = 'none'; return; }
+          var bands = [];
+          list.forEach(function (en) { if (en.band && bands.indexOf(en.band) === -1) bands.push(en.band); });
+          $('wbTitle').textContent = 'Worked before: ' + call;
+          $('wbSummary').textContent = list.length + ' previous QSO' + (list.length === 1 ? '' : 's') + ' in your log' +
+            (bands.length ? ' · bands: ' + bands.join(', ') : '') +
+            ' · first on ' + list[list.length - 1].date + ', most recent ' + list[0].date + '.';
+          var rows = list.slice(0, 8).map(function (en) {
+            var bits = [en.date, en.timeOn, en.band, en.mode].filter(Boolean).join(' · ');
+            var extra = [en.name, en.qth].filter(Boolean).join(', ');
+            return '<div class="wb-row"><span class="wb-when">' + esc(bits) + '</span>' +
+              (extra ? '<span>' + esc(extra) + '</span>' : '') +
+              (en.note ? '<span class="wb-note">' + esc(en.note) + '</span>' : '') + '</div>';
+          }).join('');
+          if (list.length > 8) rows += '<div class="wb-row"><span class="wb-note">and ' + (list.length - 8) + ' earlier QSO' + (list.length - 8 === 1 ? '' : 's') + ', in the log below.</span></div>';
+          $('wbRows').innerHTML = rows;
+          box.style.display = '';
+        }
+        function refreshWorkedBefore() { if (wbCall) renderWorkedBefore(wbCall); }
+        try {
+          $('callInput').addEventListener('input', function () { renderWorkedBefore($('callInput').value); });
+          $('fCall').addEventListener('input', function () { renderWorkedBefore($('fCall').value); });
         } catch (e) {}
 
         $('clearBtn').addEventListener('click', function () {
