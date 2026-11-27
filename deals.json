@@ -401,5 +401,44 @@
     "compLow": 909.0,
     "compHigh": 2385.0,
     "note": "Elecraft's K3/100 transceiver, serial 2756, from K6RO, with lots of mods done in May 2023. This same radio was listed earlier at $949; it is back at $909 delivered, against a $1,199.49 fair value from 16 recorded sales: 24.2% below, past our around-25% line. The price is delivered, so there is no shipping to add."
+  },
+  {
+    "date": "2026-11-27",
+    "item": "Kenwood TS-590S",
+    "link": "https://swap.qth.com/view_ad.php?counter=1785547",
+    "price": 500,
+    "extraCost": 0,
+    "pctBelow": 0.3548,
+    "median": 774.98,
+    "compCount": 8,
+    "compLow": 630.0,
+    "compHigh": 940.0,
+    "note": "Kenwood's TS-590S HF and 6-meter transceiver. $500 asking, pickup, against a $774.98 fair value from 8 recorded sales: 35.5% below."
+  },
+  {
+    "date": "2026-11-27",
+    "item": "Kenwood TS-940S",
+    "link": "https://swap.qth.com/view_ad.php?counter=1785538",
+    "price": 300,
+    "extraCost": 0,
+    "pctBelow": 0.5,
+    "median": 599.99,
+    "compCount": 5,
+    "compLow": 440.11,
+    "compHigh": 1100.0,
+    "note": "Kenwood's TS-940S HF transceiver. $300 asking, pickup, against a $599.99 fair value from 5 recorded sales: 50.0% below. The seller is listing it for a friend and says it had no issues the last time it was operated, so the condition report is secondhand."
+  },
+  {
+    "date": "2026-11-27",
+    "item": "Icom IC-706MKIIG",
+    "link": "https://www.ebay.com/itm/168889032342",
+    "price": 429.99,
+    "extraCost": 12.51,
+    "pctBelow": 0.2623,
+    "median": 599.99,
+    "compCount": 27,
+    "compLow": 425.0,
+    "compHigh": 750.0,
+    "note": "Icom's IC-706MKIIG all-mode HF, VHF and UHF mobile. $429.99 plus $12.51 shipping comes to $442.50 all-in, against a $599.99 fair value from 27 recorded sales: 26.2% below. The percentage is figured all-in on this side, so the comparison runs against the deal, not for it."
   }
 ]
