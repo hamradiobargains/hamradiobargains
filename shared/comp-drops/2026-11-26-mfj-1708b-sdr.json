@@ -1,0 +1,34 @@
+{
+  "model": "MFJ-1708B-SDR",
+  "slug": "mfj-1708b-sdr",
+  "searched_at": "2026-11-26T19:01:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'MFJ-1708B-SDR' (Sold + Completed, page 1, 11 results). 2 kept (THIN), median 150.48 (computed here). Not kept (kept separate, title/model differs): 'MFJ-1708B-SDRS' (as written) itm 198660310518 $99.99 +$20.00 (2026-09-27), itm 198625065273, itm 198625317854, itm 198655222809 all $99.99 (Sep 7-22); 'MFJ-1708SDR' (no B) itm 227598760419 $129.00 Open Box (2026-11-04), itm 227599739406 $129.00 Open Box (2026-11-05), itm 188955835310 $140.00 (2026-09-21); itm 318878738817 'MFJ-1708B' $149.99 Best offer accepted (dropped). itm 144010974690 keying interface accessory (not a comp). 0 parts-only, 0 Read Description. Comps are Pre-Owned; trigger ad is NEW, never used: QTH 1785685, $175 cash only, pickup North Houston 77338. OUTLIERS flagged (kept, notes start with OUTLIER:): itm 327359676266.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785685",
+    "site": "qth",
+    "ask": 175,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 189.95,
+      "sold_date": "2026-09-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327359676266",
+      "source": "ebay",
+      "notes": "OUTLIER: price 189.95 vs median 111.00 of the other kept comps. Buy It Now, free shipping. Title: MFJ-1708B-SDR SDR RF Sensing Receiver T/R Switch.",
+      "flags": []
+    },
+    {
+      "price": 111,
+      "sold_date": "2026-09-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/278352944379",
+      "source": "ebay",
+      "notes": "Buy It Now, free shipping. Title: MFJ-1708B-SDR SDR RF Sensing T/R Switch FOR SDR EQUIP. not T/R Relay.",
+      "flags": []
+    }
+  ]
+}
