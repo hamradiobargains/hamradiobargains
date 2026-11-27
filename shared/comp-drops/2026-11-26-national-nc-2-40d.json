@@ -1,0 +1,15 @@
+{
+  "model": "National NC-2-40D",
+  "slug": "national-nc-2-40d",
+  "searched_at": "2026-11-26T19:01:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'National NC-2-40D' (Sold + Completed, page 1, 120 results, mostly non-radio noise). 0 usable comps. Parts-only dropped (1): itm 257827347132 sold 2026-11-05 $150.00 2 bids +$115.57 'Vintage National High Frequency Radio Receiver Type NC-2-40D' - condition Parts Only. Not comps: itm 276387974972 NC 2-40D coil carriage $49.00 (BOA); itm 178341284552 NC-2-40D instruction manual $30.00; itm 137878019594 NC-2-TSG speaker $100.00 auction. Trigger ad: QTH 1785661, NC2-40D receiver working condition, will benefit from a recap, includes speaker from an NC-200, $85 pickup NW Indiana. NO COMPS.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785661",
+    "site": "qth",
+    "ask": 85,
+    "shipping": 0
+  },
+  "comps": []
+}
