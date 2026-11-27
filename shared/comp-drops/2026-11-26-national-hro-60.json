@@ -1,0 +1,15 @@
+{
+  "model": "National HRO-60",
+  "slug": "national-hro-60",
+  "searched_at": "2026-11-26T19:01:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'National HRO-60' (Sold + Completed, page 1, 38 results). 0 usable comps for the exact HRO-60. Parts-only dropped (2): itm 236931693373 sold 2026-09-10 $225.00 Buy It Now (NATIONAL HRO-60 'Sixty' RECEIVER, 5 COILS, SPEAKER, CALIBRATOR AND FM BAND UNIT - condition Parts Only); itm 860101596989 sold 2026-11-05 $199.00 or Best Offer +$42.50 (HRO-60R Sixty Rack, Parts Only, located Canada). Variant sales NOT kept (HRO-60T / HRO-60R treated as different models, unsure): itm 227540815073 HRO-60T 'UNTESTED' Pre-Owned auction 6 bids $134.07 +$133.04 sold 2026-10-01. Best-offer-accepted dropped: itm 800259810914 HRO-60T Parts Only $249.99 (2026-10-04); itm 198653813759 HRO-60T $99.50 (2026-09-29). Other results are coils, calibrators, power supplies, HRO-50/HRO-7/HRO-500 etc. (other models/parts). Trigger ad: QTH 1785660, HRO-60 receiver, 4 coils and matching speaker, good condition, recapped, $100 pickup NW Indiana. NO COMPS.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785660",
+    "site": "qth",
+    "ask": 100,
+    "shipping": 0
+  },
+  "comps": []
+}
