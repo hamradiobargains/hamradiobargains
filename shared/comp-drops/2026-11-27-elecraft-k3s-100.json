@@ -1,0 +1,15 @@
+{
+  "model": "Elecraft K3S/100",
+  "slug": "elecraft-k3s-100",
+  "searched_at": "2026-11-27T05:55:34-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (ELECRAFT K3S/100 count 1, 2026-08-14). eBay sold search 'elecraft k3s' page 1 (73 results) held no K3S transceiver sales — only option boards, knobs, manuals, cords and original K3 / P3 units, all excluded as accessories or a different model (K3 is not K3S). Zero comps — thin.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629776",
+    "site": "eham",
+    "ask": 2750.0,
+    "shipping": 0
+  },
+  "comps": []
+}
