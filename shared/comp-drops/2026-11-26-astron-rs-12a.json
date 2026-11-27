@@ -1,0 +1,151 @@
+{
+  "model": "Astron RS-12A",
+  "slug": "astron-rs-12a",
+  "searched_at": "2026-11-26T19:01:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Astron RS-12A' (Sold + Completed, page 1, 20 results). 15 kept (solid), median 49.99 (computed here). Dropped: 2 Best-offer-accepted sales (itm 188609445488 $37.00 sold 2026-11-08; itm 196154792078 $89.00 Open box sold 2026-10-24); 0 parts-only; 0 Read Description. Not comps (different/other item): itm 287736286130 RS12A/RS20A on-off switch pack $29.99; itm 237083893423 'RS-12S' 3 A supply $34.99 (different model, kept separate); itm 227366594102 'Astron Model RS-12' $37.99 (title lacks the A suffix, kept separate - unsure of identity). Shipping varies widely ($0 to $41.00). Trigger ad: QTH 1785635, tested, $55 OBO + $6 UPS CONUS, 'Outside case has scratches on it'. OUTLIERS flagged (kept, notes start with OUTLIER:): itm 287578872254, itm 820190370311, itm 365940503045.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785635",
+    "site": "qth",
+    "ask": 55,
+    "shipping": 6
+  },
+  "comps": [
+    {
+      "price": 34.99,
+      "sold_date": "2026-11-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366739101133",
+      "source": "ebay",
+      "notes": "Shipping +$19.99. Title: Astron RS-12A Power Supply - Working.",
+      "flags": []
+    },
+    {
+      "price": 50,
+      "sold_date": "2026-11-22",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/407362623038",
+      "source": "ebay",
+      "notes": "Shipping +$33.91.",
+      "flags": []
+    },
+    {
+      "price": 49.99,
+      "sold_date": "2026-11-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/237114351477",
+      "source": "ebay",
+      "notes": "Shipping +$17.05.",
+      "flags": []
+    },
+    {
+      "price": 59.1,
+      "sold_date": "2026-11-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/960189615623",
+      "source": "ebay",
+      "notes": "Free shipping. Condition shown Brand New.",
+      "flags": []
+    },
+    {
+      "price": 42,
+      "sold_date": "2026-11-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/306763494820",
+      "source": "ebay",
+      "notes": "Shipping +$32.82.",
+      "flags": []
+    },
+    {
+      "price": 37,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840108659714",
+      "source": "ebay",
+      "notes": "Shipping +$8.44.",
+      "flags": []
+    },
+    {
+      "price": 28.77,
+      "sold_date": "2026-10-30",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336859635774",
+      "source": "ebay",
+      "notes": "Auction, 4 bids. Shipping +$15.00. Title: ASTRON RS-12A Power Supply-Works Fine-So...",
+      "flags": []
+    },
+    {
+      "price": 79.95,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287578872254",
+      "source": "ebay",
+      "notes": "OUTLIER: price 79.95 vs median 46.00 of the other kept comps. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 34.99,
+      "sold_date": "2026-10-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227573163500",
+      "source": "ebay",
+      "notes": "Shipping +$14.99.",
+      "flags": []
+    },
+    {
+      "price": 69.95,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/820190370311",
+      "source": "ebay",
+      "notes": "OUTLIER: price 69.95 vs median 46.00 of the other kept comps. Free shipping.",
+      "flags": []
+    },
+    {
+      "price": 65,
+      "sold_date": "2026-10-16",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/167073062073",
+      "source": "ebay",
+      "notes": "Free shipping. Title: ASTRON RS-12A 115VAC 3A UNMP...",
+      "flags": []
+    },
+    {
+      "price": 50,
+      "sold_date": "2026-09-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366507588679",
+      "source": "ebay",
+      "notes": "Shipping +$33.07.",
+      "flags": []
+    },
+    {
+      "price": 39.95,
+      "sold_date": "2026-09-17",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/236916923897",
+      "source": "ebay",
+      "notes": "Shipping +$41.00. Condition shown Brand New.",
+      "flags": []
+    },
+    {
+      "price": 35.95,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287588797443",
+      "source": "ebay",
+      "notes": "Shipping +$14.85.",
+      "flags": []
+    },
+    {
+      "price": 81,
+      "sold_date": "2026-09-03",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/365940503045",
+      "source": "ebay",
+      "notes": "OUTLIER: price 81.00 vs median 46.00 of the other kept comps. Shipping +$22.84. Title spells model RS12A.",
+      "flags": []
+    }
+  ]
+}
