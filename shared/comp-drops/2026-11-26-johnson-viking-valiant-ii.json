@@ -1,0 +1,27 @@
+{
+  "model": "Johnson Viking Valiant II",
+  "slug": "johnson-viking-valiant-ii",
+  "searched_at": "2026-11-26T19:01:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Johnson Viking Valiant II' (Sold + Completed, page 1, 45 results, mostly Leaf Valiant football-card noise). 1 comp kept (THIN): itm 840030950232 sold 2026-11-10 $100.00 or Best Offer (not marked accepted), Pre-Owned, no shipping shown, title 'CB Radio or Ham Radio HF TRANSMITTER - JOHNSON VIKING VALIANT II - UNTESTED' (flagged as_is because title says UNTESTED; seller coolslides 100% positive 3.2K). Dropped: 2 Best-offer-accepted parts-only sales of 'Johnson Viking Valiant' (original Valiant, not II, Untested As Is): itm 398045652573 $450.00 sold 2026-09-09 +$150.00; itm 398394563326 $250.00 sold 2026-09-15 +$150.00 (both Parts Only, both BOA). Not comps (parts): itm 397302535957 band switch & VFO knob $22.36; itm 820067190164 faceplate $99.95; small hardware. 0 Read Description. Trigger ad: QTH 1785657, $175 pickup NW Indiana, recapped, rebuilt VFO installed.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785657",
+    "site": "qth",
+    "ask": 175,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 100,
+      "sold_date": "2026-11-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840030950232",
+      "source": "ebay",
+      "notes": "Fixed price $100.00 or Best Offer, not marked accepted. No shipping shown. Title says UNTESTED.",
+      "flags": [
+        "as_is"
+      ]
+    }
+  ]
+}
