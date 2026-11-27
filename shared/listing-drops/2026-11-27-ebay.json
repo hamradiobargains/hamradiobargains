@@ -1,0 +1,97 @@
+{
+  "run": "ebay",
+  "run_date": "2026-11-27",
+  "ran_at": "2026-11-27T18:00:40-05:00",
+  "ran_by": "claude",
+  "notes": "eBay Ham & Amateur Radio Electronics (cat 4670) browse page, Buy It Now filter, sorted newly listed, page 1 only (54 items); signed in as Leo, no challenges. Window since previous ebay run 2026-11-26T17:59:56-05:00; all picks show 'Just listed' and none are in dropped-urls. Seller rule: 8 checked, 8 passed. Cap reached at 8 candidates (1 ledger hit, 7 eBay sold searches). Not picked: parts-only (TEN-TEC INRAD filters, Kenwood TS-790 IF board, Drake TR-4 parts, Judge Trailblazer tester, CPI BC 2000, Yaesu FT-103R parts/fix), receivers/CB/non-ham (Hammarlund HQ-170 panel, Kenwood R-5000, Hallicrafters SX-99, Heathkit SW-7800, Yupiteru MTV-3300, Road King CB, EF Johnson Messenger 4125, SI4732 receiver), components/accessories (tubes, crystals, MRF429, knobs, coax switch, DC strip, CW decoder module, MMDVM hotspot, AllScan interfaces, DC cable, Larsen duplexer). Unbranded/unclear-brand WL-2000HF amp skipped. Seen but over cap: Alinco DR-735H untested $702.99, Icom IC-Q7A $185, Mirage D24 untested $65, Wouxun KG-UV9D Plus, Yaesu FT-709R, Yaesu FT-703R, RadioShack HTX-212 untested, Drake AC-4 rebuilt, Drake RV-4 $239, CDE Tailtwister control (meter changed), unbranded iCOM mobile $85.",
+  "listings": [
+    {
+      "url": "https://www.ebay.com/itm/206731146889",
+      "site": "ebay",
+      "title": "Elecraft K3 HF Ham Radio Transceiver SSB CW FM AM Black",
+      "price": 1040.0,
+      "shipping": 17.84,
+      "found_at": "2026-11-27",
+      "condition_notes": "Used. Seller description is generic marketing text; no power level (K3/10 vs K3/100), installed options, or testing status stated. Best Offer enabled.",
+      "work_flag": "",
+      "seller_feedback": "100% (427 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/206731137968",
+      "site": "ebay",
+      "title": "Elecraft P3 Panadaptor for Elecraft",
+      "price": 400.0,
+      "shipping": 8.68,
+      "found_at": "2026-11-27",
+      "condition_notes": "Used. Seller: 'Good condition. No cables'.",
+      "work_flag": "",
+      "seller_feedback": "100% (427 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366843484504",
+      "site": "ebay",
+      "title": "Kenwood TM-V71 145/433MHz 20W Mobile Transceiver Receiver Tested Working",
+      "price": 445.93,
+      "shipping": 85.0,
+      "found_at": "2026-11-27",
+      "condition_notes": "Used, ships from Japan (20W Japanese TM-V71, not US TM-V71A). 'Repaired and tested in working order'; receive mod and crossband repeater mod installed; minor scratches and dirt; includes radio, display unit, hand mic, power cable; no manual. Returns accepted.",
+      "work_flag": "Repaired and tested in working order",
+      "seller_feedback": "100% (247 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366843484718",
+      "site": "ebay",
+      "title": "ICOM IC-2400 144/430MHz Dual Band FM Transceiver 10W Amateur Tested Working",
+      "price": 223.49,
+      "shipping": 85.0,
+      "found_at": "2026-11-27",
+      "condition_notes": "Used, ships from Japan. TX/RX tested and confirmed working; minor scratches and light dirt from age; vintage radio. Includes hand mic and DC power cable.",
+      "work_flag": "",
+      "seller_feedback": "100% (247 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/960247336539",
+      "site": "ebay",
+      "title": "Yaesu FT2D Dual Band Handheld Transceiver, long antenna and charger.",
+      "price": 175.0,
+      "shipping": 6.03,
+      "found_at": "2026-11-27",
+      "condition_notes": "Used. Includes battery (new 04/26), long antenna and charger. No testing statement.",
+      "work_flag": "",
+      "seller_feedback": "100% (196 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/900127034749",
+      "site": "ebay",
+      "title": "AEA Pakratt PK-232 Ham Radio TNC w/ Timewave DSP 7.2 Memory & PSK Interface",
+      "price": 119.0,
+      "shipping": 12.99,
+      "found_at": "2026-11-27",
+      "condition_notes": "Used. Original PK-232 (not MBX) upgraded with internal Timewave DSP board, v7.2 ROM/memory expansion, and Timewave PSK sound-card interface. Clean interior. Powers on and passes startup self-test; not tested over the air or via RS-232. Includes 2 radio DIN cables and sound card cable; no power supply or DB-25 cable.",
+      "work_flag": "Tested for power-on and startup self-test only; not tested over the air with a transceiver or connected to a computer via RS-232",
+      "seller_feedback": "100% (876 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/336920032630",
+      "site": "ebay",
+      "title": "Icom AT-130 Automatic Antenna Tuner for Marine or Ham",
+      "price": 150.0,
+      "shipping": 0,
+      "found_at": "2026-11-27",
+      "condition_notes": "Used. Free UPS Ground Saver. Description gives no condition or testing details.",
+      "work_flag": "",
+      "seller_feedback": "100% (1116 ratings)"
+    },
+    {
+      "url": "https://www.ebay.com/itm/366843484667",
+      "site": "ebay",
+      "title": "Untested ICOM AH-705 Auto Antenna Tuner Black Amateur Radio Equipment",
+      "price": 393.46,
+      "shipping": 85.0,
+      "found_at": "2026-11-27",
+      "condition_notes": "Used, ships from Japan. 'This item has not been tested.' No noticeable scratches or dirt.",
+      "work_flag": "Untested / This item has not been tested",
+      "seller_feedback": "100% (247 ratings)"
+    }
+  ]
+}
