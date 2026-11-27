@@ -57,8 +57,10 @@
       "searched_at": "2026-11-25T08:48:21-05:00",
       "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
       "likely_model": "Collins KWM-1",
-      "result": "Reopened 2026-11-25: Leo's call — the visitor's 'KW-1' is the Collins KWM-1 (the KW-1 search correctly found no sales; the KWM-1 is not in the ledger yet). Price the KWM-1.",
-      "priority": "front_of_queue"
+      "result": "Priced as Collins KWM-1 (per Leo's reopen call): 2026-11-27-collins-kwm-1.json, 1 comp (low confidence; 3 parts-only units and 1 best-offer-accepted excluded)",
+      "priority": "front_of_queue",
+      "status": "worked",
+      "worked_at": "2026-11-27"
     },
     {
       "term": "lcg-600",
@@ -119,12 +121,19 @@
     {
       "term": "ic-7309",
       "searched_at": "2026-11-25T13:46:41-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "status": "worked",
+      "worked_at": "2026-11-27",
+      "result": "No comps found — eBay sold search 'ic-7309' returned 0 results; no IC-7309 exists (likely typo for IC-7300, already well covered in the ledger, latest 2026-11-25); nothing deposited"
     },
     {
       "term": "cushcraft r-7 antenna",
       "searched_at": "2026-11-25T12:45:06-05:00",
-      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result."
+      "note": "Filed automatically by the missed-search collector from the Formspree alert. No likely-model inference made — the price-check run determines the model. Visitor typed exactly this term and got no result.",
+      "likely_model": "Cushcraft R-7",
+      "status": "worked",
+      "worked_at": "2026-11-27",
+      "result": "No comps found — eBay sold searches 'Cushcraft R-7' and 'Cushcraft R7 vertical' returned 0 results (only other Cushcraft antennas/accessories); nothing deposited"
     }
   ]
 }
