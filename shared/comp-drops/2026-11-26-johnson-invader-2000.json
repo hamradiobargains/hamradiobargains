@@ -1,0 +1,15 @@
+{
+  "model": "Johnson Invader 2000",
+  "slug": "johnson-invader-2000",
+  "searched_at": "2026-11-26T19:01:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Johnson Invader 2000' (Sold + Completed, page 1, 120 results shown, mostly Randy Johnson/Topps card noise). 0 usable comps. Only 2 ham results: itm 960197743875 sold 2026-11-16 $199.95 or Best Offer +$66.78 'Vintage 1960s Johnson Viking Invader 2000 Transmitter Ham Radio HELP!' - condition Parts Only; itm 377659636843 sold 2026-11-24 $129.95 Buy It Now +$74.95 'EF Johnson Viking Invader 200 [sic] Ham Radio Transmitter Parts Only As-Is' - condition Parts Only. Both dropped as parts-only (2 parts-only, 0 BOA, 0 Read Description). No working Invader 2000 sale on page 1. Trigger ad: QTH 1785656, Invader + D-104 mic + power supply, $850 pickup NW Indiana, ad says excellent condition, recapped. NO COMPS.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785656",
+    "site": "qth",
+    "ask": 850,
+    "shipping": 0
+  },
+  "comps": []
+}
