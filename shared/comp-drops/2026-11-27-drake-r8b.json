@@ -1,0 +1,34 @@
+{
+  "model": "Drake R8B",
+  "slug": "drake-r8b",
+  "searched_at": "2026-11-27T15:02:34-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Search: Drake R8B. Thin - 2 kept. Dropped 2 best-offer-accepted (Nov 2 $1,100; Sep 6 $1,400 w/ speaker). Dropped 0 parts-only. Excluded R8A unit, VHF converters, MS-8 speaker, accessories. Comps do not state VHF option; the trigger listing has it installed. searched_at is file-build time; searches ran ~14:58-15:02 EST.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785804",
+    "site": "qth",
+    "ask": 1300.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 900.0,
+      "sold_date": "2026-11-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/960171749489",
+      "source": "ebay",
+      "notes": "Title: \"Tested working\"; +$50.00 delivery",
+      "flags": []
+    },
+    {
+      "price": 1279.99,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/377481860152",
+      "source": "ebay",
+      "notes": "Title: \"Tested and works great!\"; +$23.19 delivery",
+      "flags": []
+    }
+  ]
+}
