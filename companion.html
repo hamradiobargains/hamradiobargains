@@ -499,6 +499,7 @@
             <div class="form-actions">
               <button type="submit" class="btn" id="logBtn">Log QSO</button>
               <button type="button" class="btn-ghost" id="nowBtn">Stamp now</button>
+              <button type="button" class="btn-ghost" id="clearBtn">Clear</button>
               <button type="button" class="btn-ghost" id="cancelEditBtn" style="display:none;">Cancel edit</button>
               <span class="edit-note" id="editNote">Editing a logged QSO</span>
             </div>
@@ -1012,6 +1013,7 @@
           $('fCall').focus();
         });
         $('nowBtn').addEventListener('click', stampNow);
+        $('clearBtn').addEventListener('click', resetFormForNext);
         $('cancelEditBtn').addEventListener('click', resetFormForNext);
         $('logThisBtn').addEventListener('click', function () {
           if (!LAST) return;
