@@ -1,0 +1,15 @@
+{
+  "model": "W9INN MBD-684",
+  "slug": "w9inn-mbd-684",
+  "searched_at": "2026-11-26T19:01:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'W9INN MBD-684' (Sold + Completed, page 1, 33 results). 0 usable comps: no MBD-684 160/80/40 dipole sales. Page 1 held W9INN MFJ-912 4:1 balun boxes (a different product, e.g. itm 336792506081 $40.00, itm 287687582880 $19.00 auction) and unrelated Super Micro motherboard / shoe results. Trigger ad: QTH 1785672, W9INN MBD-684 160/80/40 dipole 113 ft, used and in good condition, $100 plus shipping (shipping amount not stated; recorded as 0). NO COMPS.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785672",
+    "site": "qth",
+    "ask": 100,
+    "shipping": 0
+  },
+  "comps": []
+}
