@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T13:53:38+00:00",
+ "updated": "2026-11-27T13:53:39+00:00",
  "source": "HamRadioBargains sold-comp ledger \u2014 genuine sold listings from eHam, QTH, eBay and site deals, plus the eHam comp archive. Prices are asking prices at sale; best offers may differ.",
  "models": {
   "ACOM 06AT": {
@@ -708,6 +708,24 @@
      "low": 699.99,
      "high": 699.99,
      "count": 1
+    }
+   ]
+  },
+  "ASTRON RS-12A": {
+   "latest": {
+    "date": "2026-11-25",
+    "median": 49.99,
+    "low": 28.77,
+    "high": 81.0,
+    "count": 15
+   },
+   "history": [
+    {
+     "date": "2026-11-25",
+     "median": 49.99,
+     "low": 28.77,
+     "high": 81.0,
+     "count": 15
     }
    ]
   },
@@ -2052,6 +2070,24 @@
      "low": 1800.0,
      "high": 2850.0,
      "count": 14
+    }
+   ]
+  },
+  "ELECRAFT KX1": {
+   "latest": {
+    "date": "2026-09-25",
+    "median": 603.2,
+    "low": 510.0,
+    "high": 696.4,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-09-25",
+     "median": 603.2,
+     "low": 510.0,
+     "high": 696.4,
+     "count": 2
     }
    ]
   },
@@ -3505,11 +3541,11 @@
   },
   "ICOM IC-7000": {
    "latest": {
-    "date": "2026-10-26",
-    "median": 722.0,
+    "date": "2026-11-15",
+    "median": 725.0,
     "low": 595.0,
     "high": 1100.0,
-    "count": 18
+    "count": 19
    },
    "history": [
     {
@@ -3525,6 +3561,13 @@
      "low": 595.0,
      "high": 1100.0,
      "count": 18
+    },
+    {
+     "date": "2026-11-15",
+     "median": 725.0,
+     "low": 595.0,
+     "high": 1100.0,
+     "count": 19
     }
    ]
   },
@@ -4265,6 +4308,24 @@
     }
    ]
   },
+  "ICOM IC-781": {
+   "latest": {
+    "date": "2026-11-07",
+    "median": 885.0,
+    "low": 885.0,
+    "high": 885.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-11-07",
+     "median": 885.0,
+     "low": 885.0,
+     "high": 885.0,
+     "count": 1
+    }
+   ]
+  },
   "ICOM IC-820H": {
    "latest": {
     "date": "2026-07-30",
@@ -4346,11 +4407,11 @@
   },
   "ICOM IC-9700": {
    "latest": {
-    "date": "2026-10-19",
+    "date": "2026-11-21",
     "median": 1500.0,
     "low": 1100.0,
-    "high": 1736.69,
-    "count": 16
+    "high": 2349.95,
+    "count": 17
    },
    "history": [
     {
@@ -4366,6 +4427,13 @@
      "low": 1100.0,
      "high": 1736.69,
      "count": 16
+    },
+    {
+     "date": "2026-11-21",
+     "median": 1500.0,
+     "low": 1100.0,
+     "high": 2349.95,
+     "count": 17
     }
    ]
   },
@@ -5106,6 +5174,24 @@
      "low": 80.0,
      "high": 125.0,
      "count": 2
+    }
+   ]
+  },
+  "JOHNSON VIKING VALIANT II": {
+   "latest": {
+    "date": "2026-11-10",
+    "median": 100.0,
+    "low": 100.0,
+    "high": 100.0,
+    "count": 1
+   },
+   "history": [
+    {
+     "date": "2026-11-10",
+     "median": 100.0,
+     "low": 100.0,
+     "high": 100.0,
+     "count": 1
     }
    ]
   },
@@ -6288,11 +6374,11 @@
   },
   "KENWOOD TS-2000": {
    "latest": {
-    "date": "2026-10-28",
-    "median": 950.0,
+    "date": "2026-11-27",
+    "median": 925.0,
     "low": 510.0,
     "high": 1500.0,
-    "count": 13
+    "count": 14
    },
    "history": [
     {
@@ -6315,6 +6401,13 @@
      "low": 510.0,
      "high": 1500.0,
      "count": 13
+    },
+    {
+     "date": "2026-11-27",
+     "median": 925.0,
+     "low": 510.0,
+     "high": 1500.0,
+     "count": 14
     }
    ]
   },
@@ -6570,11 +6663,11 @@
   },
   "KENWOOD TS-520S": {
    "latest": {
-    "date": "2026-10-26",
-    "median": 293.54,
+    "date": "2026-11-25",
+    "median": 299.99,
     "low": 287.09,
-    "high": 299.99,
-    "count": 2
+    "high": 325.0,
+    "count": 3
    },
    "history": [
     {
@@ -6590,6 +6683,13 @@
      "low": 287.09,
      "high": 299.99,
      "count": 2
+    },
+    {
+     "date": "2026-11-25",
+     "median": 299.99,
+     "low": 287.09,
+     "high": 325.0,
+     "count": 3
     }
    ]
   },
@@ -7609,6 +7709,24 @@
     }
    ]
   },
+  "MFJ-1708B-SDR": {
+   "latest": {
+    "date": "2026-09-22",
+    "median": 150.47,
+    "low": 111.0,
+    "high": 189.95,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-09-22",
+     "median": 150.47,
+     "low": 111.0,
+     "high": 189.95,
+     "count": 2
+    }
+   ]
+  },
   "MFJ-212": {
    "latest": {
     "date": "2026-11-09",
@@ -7811,6 +7929,24 @@
      "low": 90.0,
      "high": 199.0,
      "count": 8
+    }
+   ]
+  },
+  "MFJ-948": {
+   "latest": {
+    "date": "2026-11-25",
+    "median": 81.0,
+    "low": 50.0,
+    "high": 120.0,
+    "count": 5
+   },
+   "history": [
+    {
+     "date": "2026-11-25",
+     "median": 81.0,
+     "low": 50.0,
+     "high": 120.0,
+     "count": 5
     }
    ]
   },
@@ -8034,6 +8170,24 @@
      "low": 699.99,
      "high": 699.99,
      "count": 1
+    }
+   ]
+  },
+  "MICRO PA100 (HAMGEEK)": {
+   "latest": {
+    "date": "2026-11-24",
+    "median": 319.0,
+    "low": 303.05,
+    "high": 319.0,
+    "count": 3
+   },
+   "history": [
+    {
+     "date": "2026-11-24",
+     "median": 319.0,
+     "low": 303.05,
+     "high": 319.0,
+     "count": 3
     }
    ]
   },
@@ -8460,11 +8614,11 @@
   },
   "PALSTAR SP30B": {
    "latest": {
-    "date": "2026-08-27",
-    "median": 71.5,
+    "date": "2026-11-23",
+    "median": 95.0,
     "low": 53.0,
-    "high": 90.0,
-    "count": 2
+    "high": 129.95,
+    "count": 4
    },
    "history": [
     {
@@ -8473,6 +8627,13 @@
      "low": 53.0,
      "high": 90.0,
      "count": 2
+    },
+    {
+     "date": "2026-11-23",
+     "median": 95.0,
+     "low": 53.0,
+     "high": 129.95,
+     "count": 4
     }
    ]
   },
@@ -8780,11 +8941,11 @@
   },
   "RANGER RCI-69 BASE PLUS": {
    "latest": {
-    "date": "2026-09-07",
-    "median": 550.0,
-    "low": 550.0,
-    "high": 550.0,
-    "count": 1
+    "date": "2026-11-25",
+    "median": 600.0,
+    "low": 400.0,
+    "high": 769.99,
+    "count": 6
    },
    "history": [
     {
@@ -8793,6 +8954,13 @@
      "low": 550.0,
      "high": 550.0,
      "count": 1
+    },
+    {
+     "date": "2026-11-25",
+     "median": 600.0,
+     "low": 400.0,
+     "high": 769.99,
+     "count": 6
     }
    ]
   },
@@ -9706,6 +9874,24 @@
      "low": 90.0,
      "high": 210.0,
      "count": 5
+    }
+   ]
+  },
+  "TYT MD-2017": {
+   "latest": {
+    "date": "2026-11-21",
+    "median": 52.5,
+    "low": 49.99,
+    "high": 55.0,
+    "count": 2
+   },
+   "history": [
+    {
+     "date": "2026-11-21",
+     "median": 52.5,
+     "low": 49.99,
+     "high": 55.0,
+     "count": 2
     }
    ]
   },
@@ -11533,11 +11719,11 @@
   },
   "YAESU FT-857DM": {
    "latest": {
-    "date": "2026-09-22",
-    "median": 1174.52,
-    "low": 1174.52,
+    "date": "2026-11-09",
+    "median": 1144.3,
+    "low": 1114.08,
     "high": 1174.52,
-    "count": 1
+    "count": 2
    },
    "history": [
     {
@@ -11546,6 +11732,13 @@
      "low": 1174.52,
      "high": 1174.52,
      "count": 1
+    },
+    {
+     "date": "2026-11-09",
+     "median": 1144.3,
+     "low": 1114.08,
+     "high": 1174.52,
+     "count": 2
     }
    ]
   },
@@ -12070,11 +12263,11 @@
   },
   "YAESU FTDX-101D": {
    "latest": {
-    "date": "2026-09-17",
-    "median": 1499.5,
+    "date": "2026-11-23",
+    "median": 1699.0,
     "low": 1300.0,
-    "high": 1699.0,
-    "count": 2
+    "high": 2999.0,
+    "count": 3
    },
    "history": [
     {
@@ -12083,6 +12276,13 @@
      "low": 1300.0,
      "high": 1699.0,
      "count": 2
+    },
+    {
+     "date": "2026-11-23",
+     "median": 1699.0,
+     "low": 1300.0,
+     "high": 2999.0,
+     "count": 3
     }
    ]
   },
