@@ -184,7 +184,7 @@
       .edit-note.show{ display:inline; }
 
       /* ---------- QSL result card (same dress as Callsign Lookup) ---------- */
-      .qsl-wrap{ display:none; margin-top:20px; }
+      .qsl-wrap{ display:none; margin:0 0 20px; }
       .qsl-wrap.show{ display:block; }
       .qsl{
         background:
@@ -193,7 +193,7 @@
           var(--paper);
         color:var(--ink); border-radius:10px;
         box-shadow:0 22px 44px rgba(0,0,0,.5), 0 3px 8px rgba(0,0,0,.45);
-        padding:12px; transform:rotate(-.5deg);
+        padding:12px;
       }
       .qsl-frame{ border:1.5px solid var(--ink-line); border-radius:6px; padding:18px 20px 14px; position:relative; }
       .qsl-frame::after{ content:""; position:absolute; inset:4px; border:1px solid rgba(42,37,28,.16); border-radius:4px; pointer-events:none; }
@@ -376,14 +376,6 @@
         <section class="card" aria-label="Callsign lookup">
           <h2>Look up a station</h2>
           <p class="sub">US records from the FCC, full records for Canada, Australia, Germany and the Czech Republic, and country plus beam data for everywhere else.</p>
-          <form id="lookupForm" novalidate>
-            <label for="callInput">Callsign</label>
-            <div class="search-row">
-              <input id="callInput" type="text" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="e.g. JA1NUT" maxlength="12" />
-              <button type="submit" class="btn" id="lookupBtn">Look it up</button>
-            </div>
-          </form>
-          <div class="message" id="message" role="status" aria-live="polite"></div>
           <div class="qsl-wrap" id="qslWrap" aria-live="polite">
             <div class="qsl">
               <div class="qsl-frame">
@@ -411,6 +403,14 @@
               </div>
             </div>
           </div>
+          <form id="lookupForm" novalidate>
+            <label for="callInput">Callsign</label>
+            <div class="search-row">
+              <input id="callInput" type="text" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="e.g. JA1NUT" maxlength="12" />
+              <button type="submit" class="btn" id="lookupBtn">Look it up</button>
+            </div>
+          </form>
+          <div class="message" id="message" role="status" aria-live="polite"></div>
           <div class="logthis" id="logThisBox">
             <button type="button" class="btn" id="logThisBtn">Log this contact &rarr;</button>
           </div>
