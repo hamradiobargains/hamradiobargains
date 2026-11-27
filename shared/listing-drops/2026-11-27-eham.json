@@ -1,0 +1,42 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-27",
+  "ran_at": "2026-11-27T05:55:34-05:00",
+  "ran_by": "claude",
+  "notes": "eHam signed out this run ('Welcome Guest!'). Previous run (2026-11-26) captured nothing because Chrome was signed in, so this run covered ads dated 2026-11-25 onward; the two priced 11-25 radio ads (629775 Ranger-69, 629772 Elecraft K3/100) were already in dropped-urls.json and were skipped. One eHam page load only (classifieds home page 1, reaching back to 2026-11-24); no individual ads opened. Non-candidates on page 1: crystals wanted, Vibroplex bug (key), Eimac 8874 tubes (no price).",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629779",
+      "site": "eham",
+      "title": "FOR SALE: Palstar SP30B Speakers (x2)",
+      "price": 96.0,
+      "shipping": 12.0,
+      "found_at": "2026-11-27",
+      "condition_notes": "Less than 1 year old, excellent condition (body text says 'SB30B'). Price is for one speaker: $96 + $12 shipping; both: $174 + $19 shipping. Posted 2026-11-26.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629778",
+      "site": "eham",
+      "title": "ELECRAFT P3 PANADAPTER # 4093 w/ TX Mon Board",
+      "price": 650.0,
+      "shipping": 0,
+      "found_at": "2026-11-27",
+      "condition_notes": "Works great, with cables for a standard K3 and transmit monitor board installed. $650 delivered. Posted 2026-11-26.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629776",
+      "site": "eham",
+      "title": "Elecraft K3S/100 TRANSCEIVER  # 10493 WOW !",
+      "price": 2750.0,
+      "shipping": 0,
+      "found_at": "2026-11-27",
+      "condition_notes": "'Nice'. Options: KPA3A 100W, KAT3A internal tuner, 2.7 SSB and 400 CW filters, KSYN3A, KIO3B, KXV3B. Includes power cord. $2750 delivered. Posted 2026-11-26.",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
