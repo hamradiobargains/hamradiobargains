@@ -282,12 +282,6 @@
       a.desk-btn{ text-decoration:none; display:inline-block; }
       .desk-row{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-top:16px; }
       .desk-label{ font-size:11px; letter-spacing:1.4px; text-transform:uppercase; color:var(--muted); min-width:96px; }
-
-      /* ---------- Your Wavelog ---------- */
-      .wl-card{ margin-top:20px; }
-      .wl-auto{ display:flex; gap:8px; align-items:center; margin-top:12px; cursor:pointer; }
-      .wl-auto input{ accent-color:var(--accent); width:17px; height:17px; margin:0; cursor:pointer; }
-      .wl-actions{ display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; }
       .table-wrap{ overflow-x:auto; margin-top:14px; }
       table{ width:100%; border-collapse:collapse; font-size:14.5px; min-width:760px; }
       th{ text-align:left; font-size:11px; letter-spacing:1.4px; text-transform:uppercase; color:var(--muted); padding:8px 10px; border-bottom:1px solid var(--border); white-space:nowrap; }
@@ -539,7 +533,6 @@
         <p class="hint" id="deskHint">Type a callsign in the lookup above, or log a QSO, and these buttons aim themselves at that station.</p>
         <div class="desk-row">
           <span class="desk-label">Send the log</span>
-          <a class="btn-ghost desk-btn" id="deskWavelog" href="#" target="_blank" rel="noopener" style="display:none;">Your Wavelog</a>
           <a class="btn-ghost desk-btn" href="https://logbook.qrz.com/" target="_blank" rel="noopener">QRZ Logbook</a>
           <a class="btn-ghost desk-btn" href="https://lotw.arrl.org/" target="_blank" rel="noopener">LoTW</a>
           <a class="btn-ghost desk-btn" href="https://clublog.org/" target="_blank" rel="noopener">Club Log</a>
@@ -618,34 +611,6 @@
           <p class="empty-log" id="emptyLog">Nothing logged yet. Work a station, look them up, and log it here.</p>
         </div>
         <p class="log-note">Straight talk: this log lives in this browser on this computer, and clearing browser data can erase it. Export the ADIF file after a session and load it into LoTW, your regular logbook, or anywhere else. That file is yours and it works everywhere.</p>
-      </section>
-
-      <section class="card wl-card" aria-label="Your Wavelog">
-        <h2>Your Wavelog: a permanent home for this log</h2>
-        <p class="sub">This page's log lives in your browser, and browsers forget. Wavelog is a free logbook you run yourself, on a small server or a Pi at home, where your QSOs live for good, and it passes them on to LoTW, QRZ, eQSL and Club Log. Connect yours here and the QSOs you log on this page get filed there too. New to it? <a href="wavelog-start.html">Our plain-English start guide</a> walks you from zero to connected.</p>
-        <div class="grid2">
-          <div class="field">
-            <label for="wlUrl">Your Wavelog address</label>
-            <input id="wlUrl" type="text" autocomplete="off" spellcheck="false" placeholder="https://log.example.com" />
-          </div>
-          <div class="field">
-            <label for="wlStation">Station profile ID</label>
-            <input id="wlStation" type="text" autocomplete="off" spellcheck="false" placeholder="1" />
-          </div>
-        </div>
-        <div class="field" style="margin-top:10px;">
-          <label for="wlKey">Wavelog API key (read/write)</label>
-          <input id="wlKey" type="password" autocomplete="off" spellcheck="false" placeholder="Made in Wavelog: your user menu, then API" />
-        </div>
-        <label class="wl-auto"><input type="checkbox" id="wlAuto" checked /> File each QSO in Wavelog as I log it</label>
-        <div class="wl-actions">
-          <button type="button" class="btn" id="wlSave">Save the connection</button>
-          <button type="button" class="btn-ghost" id="wlTest">Test the connection</button>
-          <button type="button" class="btn-ghost" id="wlSend">Send unsent QSOs (0)</button>
-        </div>
-        <p class="hint" id="wlStatus" style="margin-top:12px;"></p>
-        <div id="wlStations"></div>
-        <p class="log-note">Straight talk, same as the log above: your address and API key are stored only in this browser on this device, and this page talks straight to your Wavelog. They never pass through a server of ours, because there is none in the middle. The station profile ID is the number in the address bar while you edit a station location in Wavelog, and the Test button will list yours.</p>
       </section>
 
       <footer>
@@ -796,12 +761,6 @@
         function renderDesk() {
           var dc = $('deskCall'), q = $('deskQrz'), h = $('deskHamcall'), hint = $('deskHint');
           if (!dc || !q || !h) return;
-          var dw = $('deskWavelog');
-          if (dw) {
-            var wcfg = null;
-            try { wcfg = JSON.parse(window.localStorage.getItem('hrbWavelog') || 'null'); } catch (e) {}
-            if (wcfg && wcfg.url) { dw.href = wcfg.url; dw.style.display = ''; } else { dw.style.display = 'none'; }
-          }
           var call = deskCallsign();
           if (call) {
             dc.textContent = call;
@@ -1194,7 +1153,6 @@
         $('logForm').addEventListener('submit', function (e) {
           e.preventDefault();
           var en = readForm();
-          var wasNew = !editingId;
           if (!en.call) { $('fCall').focus(); return; }
           if (editingId) {
             en.id = editingId;
@@ -1204,9 +1162,7 @@
             entries.push(en);
             gc('companion-log-add');
           }
-          saveLog(); renderLog(); renderWl();
-          if (wasNew && wlReady() && wlConfig().auto !== 0) wlPush([en], true);
-          resetFormForNext();
+          saveLog(); renderLog(); resetFormForNext();
           $('fCall').focus();
         });
         $('nowBtn').addEventListener('click', stampNow);
@@ -1344,119 +1300,6 @@
             reader.readAsText(file);
           }
         });
-        /* ---------- Your Wavelog ---------- */
-        var WL_KEY = 'hrbWavelog';
-        function wlConfig() {
-          try { var c = JSON.parse(window.localStorage.getItem(WL_KEY) || 'null'); return (c && typeof c === 'object') ? c : null; } catch (e) { return null; }
-        }
-        function wlCleanUrl(u) {
-          var s = String(u || '').trim().replace(/\/+$/, '');
-          s = s.replace(/\/index\.php\/api\/qso$/i, '').replace(/\/api\/qso$/i, '').replace(/\/index\.php$/i, '');
-          return s.replace(/\/+$/, '');
-        }
-        function wlReady() { var c = wlConfig(); return !!(c && c.url && c.key && c.station); }
-        function wlAdifRecord(en) {
-          return adifField('CALL', en.call) +
-            adifField('QSO_DATE', toAdifDate(en.date)) +
-            adifField('TIME_ON', toAdifTime(en.timeOn)) +
-            adifField('TIME_OFF', toAdifTime(en.timeOff)) +
-            adifField('BAND', en.band) +
-            adifField('FREQ', en.freq) +
-            adifField('MODE', en.mode === 'Other' ? '' : en.mode) +
-            adifField('RST_SENT', en.rstS) +
-            adifField('RST_RCVD', en.rstR) +
-            adifField('NAME', en.name) +
-            adifField('QTH', en.qth) +
-            adifField('COUNTRY', en.country) +
-            adifField('GRIDSQUARE', en.grid) +
-            adifField('COMMENT', en.note) +
-            '<EOR>\n';
-        }
-        function wlUnsent() { return entries.filter(function (en) { return !en.wl; }); }
-        function wlStatus(msg) { var el = $('wlStatus'); if (el) el.textContent = msg; }
-        function renderWl() {
-          var b = $('wlSend');
-          if (b) b.textContent = 'Send unsent QSOs (' + wlUnsent().length + ')';
-        }
-        function wlPush(list, quiet) {
-          var c = wlConfig();
-          if (!wlReady()) { if (!quiet) wlStatus('The connection is not complete yet: the address, the API key and the station profile ID are all needed.'); return; }
-          if (!list.length) { if (!quiet) wlStatus('Nothing waiting to send.'); return; }
-          wlStatus('Sending ' + list.length + ' QSO' + (list.length === 1 ? '' : 's') + ' to your Wavelog...');
-          var body = { key: c.key, station_profile_id: String(c.station), type: 'adif', string: list.map(wlAdifRecord).join('') };
-          fetch(c.url + '/index.php/api/qso', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(body) })
-            .then(function (r) { return r.text().then(function (t) { return { ok: r.ok, status: r.status, text: t }; }); })
-            .then(function (res) {
-              var j = null; try { j = JSON.parse(res.text); } catch (e) {}
-              var failed = !res.ok || (j && (j.status === 'failed' || j.status === 'error'));
-              if (failed) {
-                var why = (j && (j.reason || j.message)) || ('HTTP ' + res.status);
-                wlStatus('Wavelog did not take them: ' + why + '. They are still in this log and still marked unsent, so you can try again.');
-                return;
-              }
-              list.forEach(function (en) { en.wl = 1; });
-              saveLog(); renderWl();
-              wlStatus('Filed in your Wavelog: ' + list.length + ' QSO' + (list.length === 1 ? '' : 's') + '.');
-              gc('companion-wavelog-push');
-            })
-            .catch(function () {
-              wlStatus('Could not reach your Wavelog at that address. If it lives on your home network, this works only while you are home, and the address needs to start with https://. Nothing was sent.');
-            });
-        }
-        function wlTest() {
-          var url = wlCleanUrl($('wlUrl') ? $('wlUrl').value : '');
-          var key = $('wlKey') ? $('wlKey').value.trim() : '';
-          var box = $('wlStations'); if (box) box.innerHTML = '';
-          if (!url || !key) { wlStatus('Put your Wavelog address and API key in first, then test.'); return; }
-          wlStatus('Asking your Wavelog who it is...');
-          fetch(url + '/index.php/api/station_info/' + encodeURIComponent(key), { headers: { 'Accept': 'application/json' } })
-            .then(function (r) { return r.text().then(function (t) { return { ok: r.ok, status: r.status, text: t }; }); })
-            .then(function (res) {
-              if (res.status === 401) { wlStatus('That address answered, but the API key was not accepted. In Wavelog, keys live under your user menu, then API: make a read/write one and paste it exactly.'); return; }
-              var j = null; try { j = JSON.parse(res.text); } catch (e) {}
-              if (!res.ok || !Array.isArray(j)) { wlStatus('That address answered in a way I do not recognise (HTTP ' + res.status + '). Check that the address is your Wavelog base address, like https://log.example.com.'); return; }
-              if (!j.length) { wlStatus('Connected, and the key works, but that Wavelog account has no station locations yet. Add one in Wavelog first, then test again.'); return; }
-              var lines = j.map(function (s) { return 'Station profile ID ' + esc(String(s.station_id)) + ': ' + esc(String(s.station_profile_name || s.station_callsign || '')); }).join('<br>');
-              if (box) box.innerHTML = '<p class="hint">Your Wavelog answered. Its station locations:<br>' + lines + '</p>';
-              if (j.length === 1 && $('wlStation') && !$('wlStation').value.trim()) $('wlStation').value = j[0].station_id;
-              wlStatus('Connected. The address and key work' + (j.length === 1 ? ', and your station profile ID is filled in. Save the connection and you are set.' : '. Put the profile ID you want in the box above, then save.'));
-            })
-            .catch(function () {
-              wlStatus('Could not reach that address from this browser. It needs to start with https:// and be reachable from here: a Wavelog that only lives on your home network answers only while you are home.');
-            });
-        }
-        try {
-          var wlc = wlConfig();
-          if (wlc) {
-            if ($('wlUrl')) $('wlUrl').value = wlc.url || '';
-            if ($('wlKey')) $('wlKey').value = wlc.key || '';
-            if ($('wlStation')) $('wlStation').value = wlc.station || '';
-            if ($('wlAuto')) $('wlAuto').checked = wlc.auto !== 0;
-          }
-          renderWl();
-          setInterval(renderWl, 3000);
-          var wlSaveBtn = $('wlSave');
-          if (wlSaveBtn) wlSaveBtn.addEventListener('click', function () {
-            var cfg = { url: wlCleanUrl($('wlUrl').value), key: $('wlKey').value.trim(), station: $('wlStation').value.trim(), auto: $('wlAuto').checked ? 1 : 0 };
-            try { window.localStorage.setItem(WL_KEY, JSON.stringify(cfg)); } catch (e) {}
-            if ($('wlUrl')) $('wlUrl').value = cfg.url;
-            if (!cfg.url && !cfg.key && !cfg.station) {
-              wlStatus('Cleared. This browser no longer holds a Wavelog connection.');
-            } else if (wlReady()) {
-              wlStatus('Saved in this browser. The connection is complete: QSOs will file as you log them' + (cfg.auto ? '.' : ' (auto-file is off, so use Send unsent).'));
-            } else {
-              var missing = [];
-              if (!cfg.url) missing.push('the address');
-              if (!cfg.key) missing.push('the API key');
-              if (!cfg.station) missing.push('the station profile ID');
-              wlStatus('Saved in this browser. Still needed: ' + missing.join(', ') + '.');
-            }
-            renderWl(); renderDesk();
-          });
-          var wlTestBtn = $('wlTest'); if (wlTestBtn) wlTestBtn.addEventListener('click', wlTest);
-          var wlSendBtn = $('wlSend'); if (wlSendBtn) wlSendBtn.addEventListener('click', function () { wlPush(wlUnsent(), false); });
-        } catch (e) {}
-
         $('clearBtn').addEventListener('click', function () {
           if (!entries.length) return;
           if (window.confirm('Clear the whole log in this browser? Export the ADIF first if you want to keep it.')) {
