@@ -1,0 +1,15 @@
+{
+  "model": "DX Engineering RTR-1",
+  "slug": "dx-engineering-rtr-1",
+  "searched_at": "2026-11-26T19:01:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'DX Engineering RTR-1' (Sold + Completed, page 1, 120 results, mostly RC-car 'RTR' noise). 0 usable comps for the RTR-1. Only related sale: itm 358748771448 'Used DX Dngineering Model RTR-1A Modular Rec...' Pre-Owned $174.99 +$22.50 sold 2026-10-07 - RTR-1A is a different model, kept separate, NOT a comp. 0 parts-only, 0 BOA, 0 Read Description for the RTR-1. Trigger ad: QTH 1785722, DX Engineering RTR-1 receive antenna interface, nice condition, manual and power cord, $140 shipped CONUS. NO COMPS.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785722",
+    "site": "qth",
+    "ask": 140,
+    "shipping": 0
+  },
+  "comps": []
+}
