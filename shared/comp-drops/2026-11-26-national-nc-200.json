@@ -1,0 +1,15 @@
+{
+  "model": "National NC-200",
+  "slug": "national-nc-200",
+  "searched_at": "2026-11-26T19:01:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'National NC-200' (Sold + Completed, page 1, 120 results). 0 usable comps: no National NC-200 radio sale on page 1. Page was ChemoMetec NC-200 cell-counter sales (itm 168653393424, itm 358840540907 - unrelated), sports/trading cards, and other National models (NC-183 itm 960238797038 parts-only $99.99; NC-155 itm 168761788133 $120 sold 2026-10-05 and itm 287551296152 $99 auction; NC 60 Special itm 128133686910 $29 auction; NC 1-10A itm 298642027717 $27 auction; NC-183D itm 960083488448 BOA) - not NC-200, not comps. Trigger ad: QTH 1785659, NC-200 Silver Anniversary Edition receiver with matching speaker, recapped, $125 pickup NW Indiana. NO COMPS.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785659",
+    "site": "qth",
+    "ask": 125,
+    "shipping": 0
+  },
+  "comps": []
+}
