@@ -704,7 +704,8 @@
           var d = new Date();
           for (var i = 0; i < WC.length; i++) {
             var o = wcParts(WC[i][1], d);
-            var t = $('wct' + i); if (t) t.textContent = pad(o.hour) + ':' + pad(o.minute);
+            var t = $('wct' + i);
+            if (t) { var hh = o.hour % 24, h12 = hh % 12; if (h12 === 0) h12 = 12; t.textContent = h12 + ':' + pad(o.minute) + (hh < 12 ? ' AM' : ' PM'); }
             var cv = $('wc' + i); if (!cv || !cv.getContext) continue;
             var ctx = cv.getContext('2d'); if (!ctx) continue;
             wcDraw(ctx, o.hour, o.minute, o.second);
