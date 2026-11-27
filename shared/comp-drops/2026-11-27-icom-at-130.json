@@ -1,0 +1,34 @@
+{
+  "model": "Icom AT-130",
+  "slug": "icom-at-130",
+  "searched_at": "2026-11-27T18:00:40-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 2 kept, and they disagree: OUTLIER on both ($386.99 new-in-box vs $150.00 used; with only 2 comps each is outside 0.5x-1.5x of the other). Excluded bundles where the AT-130 is a minor part (IC-M710 w/ AT-130 $500, IC-M802 w/ AT-130 $917.49 best-offer-accepted, IC-M802 for AT-130E) and control cables. Dropped 0 best-offer-accepted among standalone tuners, 0 parts-only. The $150 Nov 7 sale has the same title as the trigger listing but a different seller (inshore900), so not marked duplicate.",
+  "trigger_listing": {
+    "url": "https://www.ebay.com/itm/336920032630",
+    "site": "ebay",
+    "ask": 150.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 150.0,
+      "sold_date": "2026-11-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/287639980415",
+      "source": "ebay",
+      "notes": "OUTLIER: $150.00 vs $386.99 for the only other comp (new in box). or Best Offer (not accepted); shipping $20.00; seller inshore900",
+      "flags": []
+    },
+    {
+      "price": 386.99,
+      "sold_date": "2026-10-30",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/407176734342",
+      "source": "ebay",
+      "notes": "OUTLIER: $386.99 vs $150.00 for the only other comp (used). Title: New In Box; Buy It Now; free shipping",
+      "flags": []
+    }
+  ]
+}
