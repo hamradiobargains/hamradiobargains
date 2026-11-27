@@ -1326,6 +1326,7 @@
         function requestPersist() {
           if (typeof navigator === 'undefined' || !navigator.storage || !navigator.storage.persist) { noteStoreLine(); return; }
           if (persistAsked) { noteStoreLine(); return; }
+          if (!entries.length) { noteStoreLine(); return; }
           persistAsked = true;
           navigator.storage.persist().then(function () { noteStoreLine(); }).catch(function () { noteStoreLine(); });
         }
@@ -1423,7 +1424,6 @@
         }
         try {
           noteStoreLine();
-          requestPersist();
           renderFileLink(false);
           if (fsSupported()) {
             idbGet('logFileHandle').then(function (h) {
