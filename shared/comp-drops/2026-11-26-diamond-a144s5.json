@@ -1,0 +1,15 @@
+{
+  "model": "Diamond A144S5",
+  "slug": "diamond-a144s5",
+  "searched_at": "2026-11-26T19:01:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Diamond A144S5' (Sold + Completed, page 1, 122 results). 0 usable comps for the A144S5. Related, kept separate: itm 175728073581 '5 ELEMENT DIAMOND 2M YAGI A144S5R' Brand New $82.61 +$104.91 sold 2026-09-26 (A144S5R is a different model name); itm 127903367302 KB144R2 side-mount bracket $45.89 (accessory). Trigger ad: QTH 1785732, Diamond A144S5 yagi, like new, used one time, $50 shipped, 'Sold as is no return'. NO COMPS.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785732",
+    "site": "qth",
+    "ask": 50,
+    "shipping": 0
+  },
+  "comps": []
+}
