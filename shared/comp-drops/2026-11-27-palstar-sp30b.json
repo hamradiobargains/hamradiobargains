@@ -1,0 +1,34 @@
+{
+  "model": "Palstar SP30B",
+  "slug": "palstar-sp30b",
+  "searched_at": "2026-11-27T05:55:34-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Ledger miss (PALSTAR SP30B count 2). eBay sold page 1: 2 exact-model sales, both fixed price; dropped 0 best-offer-accepted, 0 parts-only; no outliers. Thin.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629779",
+    "site": "eham",
+    "ask": 96.0,
+    "shipping": 12.0
+  },
+  "comps": [
+    {
+      "price": 100.0,
+      "sold_date": "2026-11-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/880147973523",
+      "source": "ebay",
+      "notes": "Title: 'w/ Black Wood Cabinet (nice)'. +$19.57 delivery.",
+      "flags": []
+    },
+    {
+      "price": 129.95,
+      "sold_date": "2026-11-14",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/189039869491",
+      "source": "ebay",
+      "notes": "+$22.15 delivery.",
+      "flags": []
+    }
+  ]
+}
