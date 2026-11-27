@@ -1,0 +1,38 @@
+{
+  "model": "Elecraft KX1",
+  "slug": "elecraft-kx1",
+  "searched_at": "2026-11-26T19:01:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "eBay sold search 'Elecraft KX1' (Sold + Completed, page 1, 120 results). 2 kept (THIN), median 603.20 (computed here): itm 158313933052 and itm 267781452636. Titles do not say which bands or whether the ATU is installed, so the ad (20 and 40 m with ATU installed) may not match these units. Dropped: 1 parts-only (itm 960032436904 sold 2026-10-14 $377.74 27 bids +$18.47 'Elecraft KX1 QRP Transceiver With Iambic Paddle & Manual - For Parts or Repair', Canada); 0 Best-offer-accepted; 0 Read Description. Not comps: KX2/KX1 and VFO knobs (itm 254251303792, itm 327364165986, itm 178132402770). Trigger ad: QTH 1785687, Elecraft KX1 20 and 40 meters with ATU installed, aligned and calibrated by W8FGU, $800 free shipping.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785687",
+    "site": "qth",
+    "ask": 800,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 696.4,
+      "sold_date": "2026-09-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158313933052",
+      "source": "ebay",
+      "notes": "Auction, 32 bids. Shipping +$18.47. Located in Canada (import fees may apply). Title: Elecraft KX1 QRP Transceiver With Iambic Paddle and Original Manual.",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 510,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267781452636",
+      "source": "ebay",
+      "notes": "Auction, 9 bids. Shipping +$25.12. Title: Elecraft KX1 HF Portable Ham Radio Transceiver w/ KXPD1 Paddle, 12V Power... (title truncated on results page).",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
