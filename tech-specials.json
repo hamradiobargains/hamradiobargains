@@ -1,28 +1,52 @@
 {
-  "listings": [
-    {
-      "date": "2026-11-07",
-      "title": "Yaesu FC-757AT auto tuner (as-is)",
-      "url": "https://swap.qth.com/view_ad.php?counter=1784193",
-      "price": 75,
-      "extra": 0,
-      "pct_below": 48,
-      "median": 145,
-      "comp_count": 5,
-      "source": "QTH",
-      "work_flag": "Unit powers on but does not function properly. Sold AS-IS for repair, restoration, or parts. No guarantee of tuning operation. Complete front panel with all buttons and controls intact; normal cosmetic wear consistent with age. Plus shipping (amount not stated)."
-    },
-    {
-      "date": "2026-11-20",
-      "title": "Kenwood TS-590S (needs work)",
-      "url": "https://swap.qth.com/view_ad.php?counter=1785277",
-      "price": 450,
-      "extra": 0,
-      "pct_below": 42,
-      "median": 774.98,
-      "comp_count": 8,
-      "source": "QTH",
-      "work_flag": "Works, but with DSP slope tuning issues \u2014 works wide only. No mic (a replacement mic is on the buyer). Has manual, box, power cord, and the optional voice board installed. $450 shipped; payment by postal or bank money order. Listed in a multi-rig ad \u2014 this entry covers the TS-590S only."
-    }
-  ]
+    "listings": [
+        {
+            "date": "2026-11-07",
+            "title": "Yaesu FC-757AT auto tuner (as-is)",
+            "url": "https://swap.qth.com/view_ad.php?counter=1784193",
+            "price": 75,
+            "extra": 0,
+            "pct_below": 48,
+            "median": 145,
+            "comp_count": 5,
+            "source": "QTH",
+            "work_flag": "Unit powers on but does not function properly. Sold AS-IS for repair, restoration, or parts. No guarantee of tuning operation. Complete front panel with all buttons and controls intact; normal cosmetic wear consistent with age. Plus shipping (amount not stated)."
+        },
+        {
+            "date": "2026-11-20",
+            "title": "Kenwood TS-590S (needs work)",
+            "url": "https://swap.qth.com/view_ad.php?counter=1785277",
+            "price": 450,
+            "extra": 0,
+            "pct_below": 42,
+            "median": 774.98,
+            "comp_count": 8,
+            "source": "QTH",
+            "work_flag": "Works, but with DSP slope tuning issues \u2014 works wide only. No mic (a replacement mic is on the buyer). Has manual, box, power cord, and the optional voice board installed. $450 shipped; payment by postal or bank money order. Listed in a multi-rig ad \u2014 this entry covers the TS-590S only."
+        },
+        {
+            "date": "2026-11-26",
+            "title": "Kenwood TS-590SG (needs finals)",
+            "url": "https://swap.qth.com/view_ad.php?counter=1785693",
+            "price": 700,
+            "extra": 0,
+            "pct_below": 42,
+            "median": 1199.99,
+            "comp_count": 7,
+            "source": "QTH",
+            "work_flag": "Needs finals, as best the seller can tell; everything else works. $700, pickup only. Listed in a multi-rig ad \u2014 this entry covers the TS-590SG only."
+        },
+        {
+            "date": "2026-11-26",
+            "title": "Kenwood TS-940 (needs repair) \u2014 two available",
+            "url": "https://swap.qth.com/view_ad.php?counter=1785693",
+            "price": 275,
+            "extra": 0,
+            "pct_below": 54,
+            "median": 599.99,
+            "comp_count": 5,
+            "source": "QTH",
+            "work_flag": "Needs repair \u2014 could be simple, the seller doesn't know. Two available at $275 each or both for $500, pickup only. Listed in a multi-rig ad \u2014 this entry covers the TS-940s only."
+        }
+    ]
 }
