@@ -1,0 +1,63 @@
+{
+  "model": "Yaesu FT-991",
+  "slug": "yaesu-ft-991",
+  "searched_at": "2026-11-26T19:01:00-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "ORIGINAL Yaesu FT-991 ONLY (Leo's ruling for QTH ad 1783910: filed under 'Yaesu FT-991', never FT-991A; FT-991A results ignored - 39 FT-991A results on page 1 were not used). eBay sold search 'Yaesu FT-991' (Sold + Completed, page 1, 133 results). 5 kept (solid), median 720.00 (computed here). Dropped: 4 Best-offer-accepted (itm 800647647024 $650.00 sold 2026-09-15; itm 117399359206 $1,000.00 2026-09-12; itm 178471016735 $799.99 2026-09-07; itm 178456840062 $845.00 2026-09-06); 0 parts-only; 0 Read Description. Not comps: itm 318849980696 'Yaesu FT-991M' $900.00 sold 2026-11-20 (FT-991M kept separate - different model name); itm 287707894934 side rails; itm 192037858843 instruction manual. itm 227509624770 shows $782.13 with $899.00 or Best Offer also shown - kept at the shown $782.13, not marked accepted. Trigger ad: QTH 1783910 (Yaesu '991', $600 firm) was GONE when worked (named extra); this is the one FT-991 sold search run per Leo's instruction. NOTE: ledger already has 'YAESU FT-991' count 4 median 748.33 date 2026-11-11 and 'YAESU FT-991 (ORIGINAL, NOT FT-991A)' count 3 median 720.00 date 2026-11-11; this fresh search is not merged here.",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+    "site": "qth",
+    "ask": 600,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 586,
+      "sold_date": "2026-11-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128169070600",
+      "source": "ebay",
+      "notes": "Auction, 4 bids. Shipping +$45.00. Title: Yaesu ft-991 hf ham radio transceiver.",
+      "flags": []
+    },
+    {
+      "price": 776.66,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128111155293",
+      "source": "ebay",
+      "notes": "Auction, 25 bids. Shipping +$139.86. Title: YAESU FT-991 HF/50/144/430MHz All Mode Transceiver Whith Manuals.",
+      "flags": []
+    },
+    {
+      "price": 650,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800686253602",
+      "source": "ebay",
+      "notes": "Fixed price $650.00 or Best Offer, not marked accepted. Shipping +$20.27. Title: YAESU FT-991 HF/50/144/430MHz All Mode Transceiver Whith Manuals.",
+      "flags": []
+    },
+    {
+      "price": 720,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800588791875",
+      "source": "ebay",
+      "notes": "Auction, 11 bids. Shipping +$45.00. Title: yaesu FT 991 +SP10 (SP-10 speaker included).",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 782.13,
+      "sold_date": "2026-09-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227509624770",
+      "source": "ebay",
+      "notes": "Shown $782.13 ($899.00 or Best Offer also shown, not marked accepted). Shipping +$30.00. Title: 2016 Yaesu American Version Model FT-991 UHF VHF HF Transceiver Working.",
+      "flags": []
+    }
+  ]
+}
