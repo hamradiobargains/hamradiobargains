@@ -1,0 +1,273 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-26",
+  "ran_at": "2026-11-26T18:47:06-05:00",
+  "ran_by": "claude",
+  "notes": "Extras sweep. Source drops covered (ran_at after previous extras drop 2026-11-25-extras.json, ran_at 2026-11-25T19:38:09-05:00): 2026-11-25-ebay.json (19:40:00; no 'Extra plausible candidates not comped' list, its over-cap items not queued), 2026-11-26-eham.json (05:53; stopped, no listings), 2026-11-26-0922-eham.json (09:22; no listings), 2026-11-26-0924-eham.json (09:23; no extras list; Ranger RCI-69 and Elecraft K3/100 were comped there), 2026-11-26-qth.json (14:53:12; extras list used), 2026-11-26-ebay.json (17:59:56; no extras list under that heading; 'Seen but over cap' items not queued). Previous CARRIED OVER (10, at the front): 1785636, 1785635, 1785618, 1785656, 1785657, 1785658, 1785659, 1785660, 1785661, 1785662. No previous BACKLOG CARRY. Named extra from Leo (stored task prompt): QTH 1783910 (Yaesu \"991\", $600 firm), treated as the ORIGINAL Yaesu FT-991 per Leo's ruling, filed under 'Yaesu FT-991' never FT-991A; ad GONE; one FT-991 sold search run (5 kept, median 720.00) and FT-991 comps only; URL already in dropped-urls.json so not re-appended. Queue: 10 carry-overs + 1 named + 22 fresh QTH extras (1785702 included) = 33. Triaged 24 (live 17, gone 5: 1785658, 1785662, 1783910, 1785690, 1785702; skipped for reason 2: 1785673 no price, 1785703 'MAKE OFFER' no asking price). Ledger hits: 2 models on 1 ad (Icom IC-7600 and Kenwood TS-590SG, both from 1785693). eBay sold searches used 15 of 15: TYT MD-2017 (2 kept, thin), Astron RS-12A (15), Johnson Invader 2000 (0; 2 parts-only dropped), Johnson Viking Valiant II (1 kept, thin), National NC-200 (0), National HRO-60 (0; 2 parts-only dropped), National NC-2-40D (0; 1 parts-only dropped), Yaesu FT-991 (5), Elecraft KX1 (2, thin), Micro PA100 (4), DX Engineering RTR-1 (0), MFJ-1708B-SDR (2, thin), W9INN MBD-684 (0), Diamond A144S5 (0), Icom IC-781 (1, thin; 2 parts-only dropped). Solid (3+): Astron RS-12A, Yaesu FT-991, Micro PA100; thin: TYT MD-2017, Valiant II, KX1, MFJ-1708B-SDR, IC-781; zero usable: Invader 2000, NC-200, HRO-60, NC-2-40D, RTR-1, W9INN MBD-684, A144S5. Not comped (no search spent): 1785618 (lot, no model), 1785700 (FTDX5000 variant not stated), 1785710 (Ameritron '811' - AL-811 vs AL-811H not stated). Cross-posts: none identified. Outliers (kept, flagged in comp files): Astron RS-12A itm 287578872254 $79.95, itm 820190370311 $69.95, itm 365940503045 $81.00; MFJ-1708B-SDR itm 327359676266 $189.95. UNCERTAIN: 1785710 'recently serviced and upgraded by a licensed tech' (carried verbatim in work_flag; model AL-811 vs AL-811H unknown); 1785657 'rebuilt VFO installed' (in work_flag); 1785661 'will benefit from a recap' (in work_flag); Valiant II comp flagged as_is because title says UNTESTED; HRO-60 vs HRO-60T/60R kept separate; MFJ-1708B-SDR vs -SDRS/-1708SDR kept separate; Micro PA100 vs PA100+ Plus kept separate; KX1 comps do not show bands/ATU. Cap of 15 searches reached; remaining extras carried over. Facts seen live 2026-11-26 for carried ads (read this run, not comped because the cap was reached): 1785731 Elecraft K3/K3S sale list 'Sale items 11/26', shipping included, many parts/options, units include K3 no tuner $899, K3 w/tuner $1331, K3S $2719, P3 panadapter $474 (list also says 'SP4 sold'); 1785694 SharkRF M1KE model SRF-M1K 'WORKS PERFECTLY' $300.00 plus shipping, Lake Wales FL; 1785671 Icom SP-20 filtered desk speaker 'excellent shape', $140 picked up 'or plus shipping' (shipping amount not stated); 1785695 Palstar SP30B speakers x2 'less than 1 year old ... excellent condition', $96.00 plus $12.00 shipping for one, $174.00 plus $19.00 for both; 1785699 Yaesu FT2DR/DE 'good used VHF UHF C4FM HT .. complete with box nifty manual and the box', $219.00 shipped lower 48, 'sale final'; 1785701 Yaesu FT-227 Memorizer 'working', $65 shipped (US 48); 1785724 Alinco CS-25 220 MHz 'Very little use', $150.00 shipped USPS, no original box; 1785669 Ten-Tec Orion II + RX-366 + extras package 'excellent working and cosmetic condition', $3,000 plus $75 toward shipping, CONUS only, wording ends 'ALL EQUIPMENT SOLD AS' (cut off on the page); 1785678 Radioddity HF-010 portable antenna 'NEW- NEVER DEPLOYED' $200 shipped US. Ledger notes for those: FT2DR ledger date 2026-10-25 (32 days, older than 30), SP-20 2026-10-06, SP30B 2026-08-27 (count 2), HF-010 count 2. Browser: Leo's Chrome; eBay signed in as Leo, no challenge or CAPTCHA at any point; eHam not opened. QTH ads read via same-tab requests ~4.5 s apart. searched_at on comp drops is the file-build time, not the individual search time. Timestamps -05:00 (EST). CARRIED OVER: 1785731, 1785694, 1785671, 1785695, 1785699, 1785701, 1785724, 1785669, 1785678 (all QTH counter IDs; order preserved: Elecraft K3 list, SharkRF M1KE, then the prices-not-captured ads). BACKLOG CARRY: none.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785636",
+      "site": "qth",
+      "title": "TYT MD-2017 DMR/analog Dual-band Transceiver (RADIOVHF, K1BE, Newington CT)",
+      "price": 85,
+      "shipping": 5,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. \"FS: TYT MD-2017 DMR/analog Dual-band Transceiver, with charger and owner's manual. Turned on and lit up, but I wasn't able to make a QSO. (Don't know anything about DMR and the manual didn't help...) From SK auction.\" $85 OBO. \"UPS delivery add only $5 to CONUS.\" \"All sales are final, no returns, due to part swappers, etc.\" comps: tyt-md-2017, 2 kept (thin), median 52.50",
+      "work_flag": "Turned on and lit up, but I wasn't able to make a QSO. (Don't know anything about DMR and the manual didn't help...) From SK auction. | All sales are final, no returns, due to part swappers, etc.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785635",
+      "site": "qth",
+      "title": "Astron RS-12A linear power supply, tested (POWERSUP, K1BE)",
+      "price": 55,
+      "shipping": 6,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. \"For sale: Astron RS-12A linear power supply, tested, works fine. 13.4 volts output. Outside case has scratches on it, I'd re-paint it. I made a test cord with banana plugs, fuses, and Anderson connectors you can have with it. From SK auction.\" $55 OBO. UPS delivery add only $6 to CONUS. comps: astron-rs-12a, 15 kept (solid), median 49.99; 3 outliers flagged in the comp file",
+      "work_flag": "Outside case has scratches on it, I'd re-paint it.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785618",
+      "site": "qth",
+      "title": "QRP Antennas and tuner lot (ANTHF, K2ZZ)",
+      "price": 65,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. \"I picked up this lot of qrp antenna setup from an estate sale. These are extra to my needs. The tuner is great and the antennas look like they were never used.\" \"Price is $65 shipped\". not comped: lot of unnamed QRP antennas plus a tuner, no model stated",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785656",
+      "site": "qth",
+      "title": "Johnson Invader 2000 + D-104 mic + power supply (RADIOANQ, NW Indiana)",
+      "price": 850,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. \"Johnson Invader 2000 in excellent condition and works great. Gold D-104 will be included in sale. Power Supply has been recapped and so has the transmitter. Several pics available.\" \"I'll sell the Invader, mic and power supply for $850 pickup in NW Indiana.\" comps: johnson-invader-2000, 0 kept (2 parts-only sales dropped)",
+      "work_flag": "Power Supply has been recapped and so has the transmitter.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785657",
+      "site": "qth",
+      "title": "Johnson Viking Valiant II + D-104 mic (RADIOANQ, NW Indiana)",
+      "price": 175,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. \"Very nice Johnson Valiant II and D-104 mic. The transmitter has been recapped and works great. This transmitter has a rebuilt VFO installed. Several pics are available.\" \"I'll sell the Valiant II for $175 pickup only in NW Indiana.\" comps: johnson-viking-valiant-ii, 1 kept (thin), median 100.00",
+      "work_flag": "The transmitter has been recapped and works great. This transmitter has a rebuilt VFO installed.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785658",
+      "site": "qth",
+      "title": "Johnson Ranger (RADIOANQ) - ad gone",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "no longer live (QTH page: ad number no longer in our system). Price and wording not captured (vintage boat-anchor named in the 2026-11-25 QTH drop). not comped: gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785659",
+      "site": "qth",
+      "title": "National NC-200 Silver Anniversary Edition receiver + matching speaker (RADIOANQ, NW Indiana)",
+      "price": 125,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. \"National NC-200 Silver Anniversary Edition receiver with matching speaker. The receiver has been recapped and works well. Both the receiver and speaker are in VGC. Several pics are available.\" \"I'll sell the receiver and speaker for $125 pickup only in NW Indiana\" comps: national-nc-200, 0 kept (no NC-200 sales on page 1)",
+      "work_flag": "The receiver has been recapped and works well.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785660",
+      "site": "qth",
+      "title": "National HRO-60 receiver, 4 coils and matching speaker (RADIOANQ, NW Indiana)",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. \"HRO 60 receiver, 4 coils and matching speaker in good condition. The receiver has been recapped and works well. Several pics are available.\" \"I'll sell the HRO-60, coils and matching speaker for $100 pickup only in NW Indiana.\" comps: national-hro-60, 0 kept (2 parts-only sales dropped; HRO-60T/60R kept separate)",
+      "work_flag": "The receiver has been recapped and works well.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785661",
+      "site": "qth",
+      "title": "National NC2-40D receiver + NC-200 speaker (RADIOANQ, NW Indiana)",
+      "price": 85,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "live. \"National NC2-40D receiver in working condition. The receiver will benefit from a recap. I'll include a speaker from a NC-200 receiver that works well with the receiver. Several pics are available.\" \"I'll sell the receiver and speaker for $85 pickup only in NW Indiana.\" comps: national-nc-2-40d, 0 kept (1 parts-only sale dropped)",
+      "work_flag": "The receiver will benefit from a recap.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785662",
+      "site": "qth",
+      "title": "GPR-90 (RADIOANQ) - ad gone",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-25",
+      "condition_notes": "no longer live (QTH page: ad number no longer in our system). Price and wording not captured (vintage boat-anchor named in the 2026-11-25 QTH drop). not comped: gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "Yaesu \"991\" - ad gone (named extra, treated as original FT-991 per Leo's ruling)",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "no longer live (QTH page: ad number no longer in our system). Ad as named in the task: Yaesu \"991\", $600 firm; wording not re-read (ad gone). Original FT-991 only, never FT-991A (Leo's ruling). comps: yaesu-ft-991, 5 kept (solid), median 720.00 (FT-991A figures not used). URL already in dropped-urls.json, not re-appended",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785687",
+      "site": "qth",
+      "title": "Elecraft KX1 20/40 m with ATU installed (RADIOHF)",
+      "price": 800,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. \"FOR SALE: Elecraft KX1 QRP Elecraft KX1 20 and 40 meters with ATU installed. Aligned and calibrated by W8FGU. Super clean! $800 with free shipping.\" comps: elecraft-kx1, 2 kept (thin), median 603.20",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785700",
+      "site": "qth",
+      "title": "Yaesu FTDX5000 (variant not stated) with MH-31, FH-2, two SM-2000, DMU (RADIOHF)",
+      "price": 2000,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. \"ftdx5000 FTDX 5000MH-31 MicrophoneFH-2 KeypadSM-2000 Station Monitor and a extra SM-2000With DMU Data Management UnitWith all Boxes and manuals $ 2000.00 or best offer\". not comped: variant not stated (ledger carries FTDX-5000D, FTDX-5000MP and FTDX5000MP LIMITED as separate models; kept separate), no search spent",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785710",
+      "site": "qth",
+      "title": "Ameritron \"811\" amplifier (exact model not stated), new 572B tubes (AMPHF)",
+      "price": 800,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. \"FOR SALE: Ameritron 811 Extra clean, fully functional, and recently serviced and upgraded by a licensed tech. New 572B tubes. Full output as listed in the specs.\" \"$800, plus shipping.\" (shipping amount not stated, recorded 0). not comped: ad says only \"811\" - AL-811 vs AL-811H not stated, and tube count not stated (ledger carries AMERITRON AL-811 median 737.50 count 8 dated 2026-10-27 and AMERITRON AL-811H median 899.00 count 8 dated 2026-10-01 as separate models); no search spent. UNCERTAIN identity",
+      "work_flag": "recently serviced and upgraded by a licensed tech",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785725",
+      "site": "qth",
+      "title": "Micro PA100 QRP amplifier + ATU-100 EXT automatic tuner (RADIOHF)",
+      "price": 325,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. \"Micro PA100 and ATU-100 EXT Amplifier and Automatic Antenna Tuner. These are in excellent condition with very little use. I used it with my FTX-1 Field. I am going to get the SPA-1 so I no longer need this pair. Includes the power cables and coax cable.\" \"I am asking $325 net shipped and prefer Zelle\". comps: micro-pa100, 4 kept (solid), median 319.00 (amplifier only, new; tuner not in comps)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785722",
+      "site": "qth",
+      "title": "DX Engineering RTR-1 receive antenna interface (ANTHF)",
+      "price": 140,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. \"Have a nice condition DX Engineering RTR-1 receive antenna interface which is used with XCVR's that only have one antenna jack. ... Have manual, power cord and asking $140 shipped conus sales only lower 48\". comps: dx-engineering-rtr-1, 0 kept (only an RTR-1A sale found, kept separate)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785685",
+      "site": "qth",
+      "title": "MFJ-1708B-SDR RF Sensing T/R Switch, new (MISC)",
+      "price": 175,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. \"New and never used. MFJ-1708B-SDR RF Sensing T/R Switch. Has S0-239 [sic] Connectors. AC power cable, and CTRL cable. Pickup in North Houston area 77338. $175. cash only. From a smoker-free home and shack.\" pickup only. comps: mfj-1708b-sdr, 2 kept (thin), median 150.48; 1 outlier flagged in the comp file (comps are Pre-Owned, ad is new)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785672",
+      "site": "qth",
+      "title": "W9INN MBD-684 160/80/40 dipole, 113 ft (ANTHF)",
+      "price": 100,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. \"FOR SALE: W9INN 160 80 40 Dipole W9INN MBD-684 160 80 40 dipole 113 ft long. Can also be used as a sloper. Instructions included. Used and in good condition. $100 plus shipping.\" (shipping amount not stated, recorded 0). comps: w9inn-mbd-684, 0 kept",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785732",
+      "site": "qth",
+      "title": "Diamond A144S5 2 m yagi, like new (ANTVHF)",
+      "price": 50,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. \"FOR SALE: DIAMOND ANTENNA A144S5 YAGI 144-148 NHz. Like New. Used one time. Put back in box. Works great. Paid $69.99. USA Sales and Shipping Only. $50 Shipped. ... Sold as is no return.\" comps: diamond-a144s5, 0 kept (only the A144S5R variant found, kept separate)",
+      "work_flag": "Sold as is no return.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785690",
+      "site": "qth",
+      "title": "Kenwood SP-520 speaker - ad gone",
+      "price": 60,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "no longer live (QTH page: ad number no longer in our system). Ask $60 as recorded in the 2026-11-26 QTH drop. not comped: gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785702",
+      "site": "qth",
+      "title": "Multi-radio 'Thanksgiving blowout' ($485/$1830/$775 items per 2026-11-26 QTH drop) - ad gone",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "no longer live (QTH page: ad number no longer in our system). Items/prices as recorded in the QTH drop only; no single price. not comped: gone",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785693",
+      "site": "qth",
+      "title": "Multi-radio sale, KC6TTZ: Kenwood TS-590SG, Icom IC-7600, IC-781, TS-940 x2, TS-711, TK-863G, HD73 rotors (RADIOHF)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. MULTI-ITEM AD, no single price (price field 0): \"Try this again. Have a few radios to sell. Kenwood TS-590sg Needs finals as best I can tell. Everything else works. $700 pick up only. Another Icom IC-7600. Everything works as best as I can tell. $900. Pick up only. Several Kenwood Tk-863g uhf mobile w/mic. Works. $70 each. 2x Kenwood TS-940 Needs repair. Could be simple, dont know. $275 each or both for $500. Still have Icom 781. Works. $900, pick up only. Several HD73 rotors without control box. Have not tested. $150 each. Pick up only. Kenwood TS-711 2 meter all mode. Works. $275 pick up only. Can take pics if need.\" comps: icom-ic-7600 (ledger hit, median 1147.50, count 4, 2026-11-13); kenwood-ts-590sg (ledger hit, median 1199.99, count 7, 2026-11-15); icom-ic-781 (eBay, 1 kept, thin, median 885.00). NOT comped (cap of 15 searches reached): Kenwood TS-940 x2 (ledger TS-940S is count 5 dated 2026-10-06, older than 30 days), TS-711 (ledger count 1), TK-863G, HD73 rotors",
+      "work_flag": "Kenwood TS-590sg Needs finals as best I can tell. | 2x Kenwood TS-940 Needs repair. Could be simple, dont know. | Several HD73 rotors without control box. Have not tested.",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785673",
+      "site": "qth",
+      "title": "Hammarlund HQ-140-X receiver, like new (RADIOHF)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. \"vintage Hammarlund HQ-140-X shortwave communications receiver in exceptional, like-new cosmetic condition. ... Serious inquiries welcome.\" skipped: ad names no price (no $ amount in the ad), no comp search",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785703",
+      "site": "qth",
+      "title": "Wonder Wand MKII (Inline) antenna, brand new factory sealed (ANTHF)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. \"New Antenna: Wonder Wand MKII (Inline) ... Brand New, Factory Sealed!\" ad ends \"# MAKE OFFER #\" and lists retail comparison prices ($524.85 combined) but no asking price; local pickup in 20705/20707/20904 ZIP areas or shipped at buyer's expense. skipped: no asking price, no comp search",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
