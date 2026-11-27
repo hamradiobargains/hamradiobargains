@@ -1,0 +1,19 @@
+{
+  "model": "Collins KWM-1",
+  "slug": "collins-kwm-1",
+  "searched_at": "2026-11-27T15:40:00Z",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "From missed search shared/listing-drops/2026-11-25-missed-search.json — visitor typed 'collins kw-1'; Leo's call (entry reopened 2026-11-25) is that the intended model is the Collins KWM-1. eBay sold/completed search 'Collins KWM-1' (60/page, one page). Only 1 genuine whole-unit sale found — LOW CONFIDENCE. Excluded: three parts-only/for-repair KWM-1 transceivers ($300 'ugly, for parts or restoration' 206631966549; $750 'RX noise only, for repair' 198691294602; $680 'sold for repair' 198691294603); SN#21 engineering test unit, parts only AND best-offer-accepted ($899 ask, 137833049812); accessories/parts mentioning KWM-1 (22-pin connector, MP-1 power supply BOA, 189A-2 phone patch, tube kit, 312B-1 speaker, 70K-1 PTO BOA); other Collins models (KWM-2/KWM-2A, 51S-1, 62S-1, CP-1 etc.).",
+  "comps": [
+    {
+      "price": 521.0,
+      "sold_date": "2026-10-13",
+      "condition": "Pre-Owned (listed as working vintage transceiver, not parts-only)",
+      "url": "https://www.ebay.com/itm/206599426786",
+      "source": "ebay",
+      "notes": "Auction, 37 bids; +$60.00 shipping not included in price. Title: 'VTG Collins KWM-1 Amateur HAM Radio HF Transceiver'.",
+      "flags": []
+    }
+  ]
+}
