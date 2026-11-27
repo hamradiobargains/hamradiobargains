@@ -273,6 +273,15 @@
       .log-card{ margin-top:20px; }
       .log-head{ display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between; }
       .log-tools{ display:flex; gap:8px; flex-wrap:wrap; }
+
+      /* ---------- After-the-QSO desk ---------- */
+      .desk-card{ margin-top:20px; }
+      .desk-now{ font-size:16px; margin:4px 0 10px; }
+      .desk-now strong{ letter-spacing:1px; }
+      .desk-btns{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+      a.desk-btn{ text-decoration:none; display:inline-block; }
+      .desk-row{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-top:16px; }
+      .desk-label{ font-size:11px; letter-spacing:1.4px; text-transform:uppercase; color:var(--muted); min-width:96px; }
       .table-wrap{ overflow-x:auto; margin-top:14px; }
       table{ width:100%; border-collapse:collapse; font-size:14.5px; min-width:760px; }
       th{ text-align:left; font-size:11px; letter-spacing:1.4px; text-transform:uppercase; color:var(--muted); padding:8px 10px; border-bottom:1px solid var(--border); white-space:nowrap; }
@@ -581,6 +590,29 @@
         <p class="log-note">Straight talk: this log lives in this browser on this computer, and clearing browser data can erase it. Export the ADIF file after a session and load it into LoTW, your regular logbook, or anywhere else. That file is yours and it works everywhere.</p>
       </section>
 
+      <section class="card desk-card" aria-label="After the QSO desk">
+        <h2>&ldquo;Good on QRZ&rdquo;: after the QSO</h2>
+        <p class="sub">The QSO ends and they say they are good on QRZ. You do not have to leave this page to finish the job: everything here opens in a new tab, and the Companion stays right where you left it.</p>
+        <p class="desk-now">Station in front of you: <strong id="deskCall">none yet</strong></p>
+        <div class="desk-btns">
+          <a class="btn desk-btn" id="deskQrz" href="https://www.qrz.com/" target="_blank" rel="noopener">Open QRZ</a>
+          <a class="btn-ghost desk-btn" id="deskHamcall" href="https://hamcall.net/" target="_blank" rel="noopener">Open HamCall</a>
+        </div>
+        <p class="hint" id="deskHint">Type a callsign in the lookup above, or log a QSO, and these buttons aim themselves at that station.</p>
+        <div class="desk-row">
+          <span class="desk-label">Send the log</span>
+          <a class="btn-ghost desk-btn" href="https://logbook.qrz.com/" target="_blank" rel="noopener">QRZ Logbook</a>
+          <a class="btn-ghost desk-btn" href="https://lotw.arrl.org/" target="_blank" rel="noopener">LoTW</a>
+          <a class="btn-ghost desk-btn" href="https://clublog.org/" target="_blank" rel="noopener">Club Log</a>
+          <a class="btn-ghost desk-btn" href="https://www.eqsl.cc/" target="_blank" rel="noopener">eQSL</a>
+        </div>
+        <div class="desk-row">
+          <span class="desk-label">Errands</span>
+          <a class="btn-ghost desk-btn" href="https://mail.google.com/" target="_blank" rel="noopener">Gmail</a>
+          <a class="btn-ghost desk-btn" href="https://www.qrz.com/" target="_blank" rel="noopener">QRZ home</a>
+        </div>
+      </section>
+
       <footer>
         US license details come from the FCC&rsquo;s public amateur radio records, served by Callook. Records for Canada, Australia, Germany and the Czech Republic come from HamDB; country, zone and reference-point data for all callsigns come from HamQTH&rsquo;s DXCC tables. Your log never leaves this browser unless you export it.
       </footer>
@@ -712,6 +744,44 @@
           }
         }
         try { tickWorld(); setInterval(tickWorld, 1000); } catch (e) {}
+
+        /* ---------- After-the-QSO desk ---------- */
+        function deskCallsign() {
+          var c = '';
+          var f = $('fCall'); if (f && f.value.trim()) c = f.value.trim();
+          if (!c) { var li = $('callInput'); if (li && li.value.trim()) c = li.value.trim(); }
+          if (!c) {
+            try {
+              var saved = JSON.parse(window.localStorage.getItem('hrbCompanionLog') || '[]');
+              if (Array.isArray(saved) && saved.length) c = String(saved[saved.length - 1].call || '');
+            } catch (e) {}
+          }
+          return c.toUpperCase().replace(/[^A-Z0-9/]/g, '');
+        }
+        function renderDesk() {
+          var dc = $('deskCall'), q = $('deskQrz'), h = $('deskHamcall'), hint = $('deskHint');
+          if (!dc || !q || !h) return;
+          var call = deskCallsign();
+          if (call) {
+            dc.textContent = call;
+            q.href = 'https://www.qrz.com/db/' + encodeURIComponent(call);
+            q.textContent = 'Open ' + call + ' on QRZ';
+            h.href = 'https://hamcall.net/call?callsign=' + encodeURIComponent(call);
+            h.textContent = call + ' on HamCall';
+            if (hint) hint.style.display = 'none';
+          } else {
+            dc.textContent = 'none yet';
+            q.href = 'https://www.qrz.com/'; q.textContent = 'Open QRZ';
+            h.href = 'https://hamcall.net/'; h.textContent = 'Open HamCall';
+            if (hint) hint.style.display = '';
+          }
+        }
+        try {
+          renderDesk();
+          setInterval(renderDesk, 1500);
+          var deskCi = $('callInput'); if (deskCi) deskCi.addEventListener('input', renderDesk);
+          var deskCf = $('fCall'); if (deskCf) deskCf.addEventListener('input', renderDesk);
+        } catch (e) {}
         function todayISO() { var d = new Date(); return d.getUTCFullYear() + '-' + pad(d.getUTCMonth() + 1) + '-' + pad(d.getUTCDate()); }
         function nowTime() { var d = new Date(); return pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()); }
 
