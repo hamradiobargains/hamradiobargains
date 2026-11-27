@@ -297,6 +297,7 @@
       .row-actions button:hover, .row-actions a:hover{ border-color:var(--accent); text-decoration:none; }
       .empty-log{ color:var(--muted); font-size:15px; padding:18px 4px 6px; }
       .log-note{ color:var(--muted); font-size:13.5px; margin-top:14px; }
+      .file-tools{ display:flex; gap:10px; flex-wrap:wrap; margin-top:12px; }
 
       footer{ text-align:center; color:var(--muted); font-size:13.5px; margin-top:38px; padding-top:20px; border-top:1px solid var(--border); }
 
@@ -600,6 +601,13 @@
             <button type="button" class="btn-ghost" id="clearBtn">Clear log</button>
           </div>
         </div>
+        <div class="file-tools" id="fileLinkRow" style="display:none;">
+          <button type="button" class="btn-ghost" id="fileLinkBtn">Keep a copy in a file on this computer</button>
+          <button type="button" class="btn-ghost" id="fileOpenBtn">Link an existing log file</button>
+          <button type="button" class="btn-ghost" id="fileUnlinkBtn" style="display:none;">Stop using the file</button>
+        </div>
+        <p class="hint" id="fileLinkStatus" style="display:none; margin-top:10px;"></p>
+        <p class="hint" id="logStoreLine" style="margin-top:10px;"></p>
         <p class="hint" id="logStatus" style="margin-top:12px;"></p>
         <div class="table-wrap">
           <table>
@@ -610,7 +618,7 @@
           </table>
           <p class="empty-log" id="emptyLog">Nothing logged yet. Work a station, look them up, and log it here.</p>
         </div>
-        <p class="log-note">Straight talk: this log lives in this browser on this computer, and clearing browser data can erase it. Export the ADIF file after a session and load it into LoTW, your regular logbook, or anywhere else. That file is yours and it works everywhere.</p>
+        <p class="log-note">Straight talk: this log lives in this browser on this computer. Closing the browser never touches it, but clearing the browser's site data can erase it, and Safari drops stored data for sites you stop visiting. That is why this page asks the browser to protect the log (see the storage check above), why Chrome and Edge can keep a copy in a real file on your computer, and why the ADIF export still matters: export after a session, load it into LoTW or your regular logbook, and that file is yours and works everywhere.</p>
       </section>
 
       <footer>
@@ -1020,6 +1028,8 @@
 
         function saveLog() {
           try { window.localStorage.setItem(LOG_KEY, JSON.stringify(entries)); } catch (e) {}
+          try { fileSyncWrite(); } catch (e) {}
+          try { requestPersist(); } catch (e) {}
         }
         function stampNow() {
           $('fDate').value = todayISO();
@@ -1154,6 +1164,7 @@
           e.preventDefault();
           var en = readForm();
           if (!en.call) { $('fCall').focus(); return; }
+          en.m = Date.now();
           if (editingId) {
             en.id = editingId;
             for (var i = 0; i < entries.length; i++) if (entries[i].id === editingId) entries[i] = en;
@@ -1300,6 +1311,150 @@
             reader.readAsText(file);
           }
         });
+        /* ---------- Log durability: protected storage + a file on this computer ---------- */
+        var persistAsked = false;
+        function noteStoreLine() {
+          var el = $('logStoreLine');
+          if (!el) return;
+          if (typeof navigator === 'undefined' || !navigator.storage || !navigator.storage.persisted) { el.style.display = 'none'; return; }
+          navigator.storage.persisted().then(function (p) {
+            el.textContent = p
+              ? 'Storage check: this browser is keeping your log as protected storage, exempt from silent clearing. Closing the browser never touches it.'
+              : 'Storage check: this browser is keeping your log as ordinary site data. Closing the browser never touches it, but clearing site data can erase it.';
+          }).catch(function () {});
+        }
+        function requestPersist() {
+          if (typeof navigator === 'undefined' || !navigator.storage || !navigator.storage.persist) { noteStoreLine(); return; }
+          if (persistAsked) { noteStoreLine(); return; }
+          persistAsked = true;
+          navigator.storage.persist().then(function () { noteStoreLine(); }).catch(function () { noteStoreLine(); });
+        }
+
+        var logFileHandle = null;
+        var logFilePerm = 'none';
+        function fsSupported() { return typeof window !== 'undefined' && typeof window.showSaveFilePicker === 'function' && typeof window.indexedDB !== 'undefined'; }
+        function idbOpen() {
+          return new Promise(function (res, rej) {
+            var rq = window.indexedDB.open('hrb-companion', 1);
+            rq.onupgradeneeded = function () { try { rq.result.createObjectStore('kv'); } catch (e) {} };
+            rq.onsuccess = function () { res(rq.result); };
+            rq.onerror = function () { rej(rq.error || new Error('idb')); };
+          });
+        }
+        function idbCall(mode, fn) {
+          return idbOpen().then(function (db) {
+            return new Promise(function (res, rej) {
+              var rq = fn(db.transaction('kv', mode).objectStore('kv'));
+              rq.onsuccess = function () { res(rq.result); };
+              rq.onerror = function () { rej(rq.error || new Error('idb')); };
+            });
+          });
+        }
+        function idbGet(key) { return idbCall('readonly', function (os) { return os.get(key); }); }
+        function idbSet(key, val) { return idbCall('readwrite', function (os) { return os.put(val, key); }); }
+        function idbDel(key) { return idbCall('readwrite', function (os) { return os.delete(key); }); }
+        function filePerm(ask) {
+          if (!logFileHandle) { logFilePerm = 'none'; return Promise.resolve(logFilePerm); }
+          var opts = { mode: 'readwrite' };
+          if (typeof logFileHandle.queryPermission !== 'function') { logFilePerm = 'granted'; return Promise.resolve(logFilePerm); }
+          return logFileHandle.queryPermission(opts).then(function (p) {
+            if (p === 'granted' || !ask || typeof logFileHandle.requestPermission !== 'function') { logFilePerm = p; return p; }
+            return logFileHandle.requestPermission(opts).then(function (p2) { logFilePerm = p2; return p2; });
+          }).catch(function () { logFilePerm = 'prompt'; return logFilePerm; });
+        }
+        function renderFileLink(savedNote) {
+          var row = $('fileLinkRow'), st = $('fileLinkStatus');
+          if (!row || !st) return;
+          if (!fsSupported()) { row.style.display = 'none'; st.style.display = 'none'; return; }
+          row.style.display = '';
+          st.style.display = '';
+          var link = $('fileLinkBtn'), open = $('fileOpenBtn'), un = $('fileUnlinkBtn');
+          if (!logFileHandle) {
+            link.textContent = 'Keep a copy in a file on this computer';
+            link.style.display = ''; open.style.display = ''; un.style.display = 'none';
+            st.textContent = 'Chrome and Edge can keep your log in a real file on this computer, one you can see, copy and back up. The browser log above stays as it is; the file is a second, stronger home.';
+          } else if (logFilePerm === 'granted') {
+            link.style.display = 'none'; open.style.display = 'none'; un.style.display = '';
+            st.textContent = 'Log file linked: ' + logFileHandle.name + '. Every change is saved to it as you log.' + (savedNote ? ' Last saved just now.' : '');
+          } else {
+            link.textContent = 'Reconnect your log file';
+            link.style.display = ''; open.style.display = 'none'; un.style.display = '';
+            st.textContent = 'Log file linked: ' + logFileHandle.name + ', but this browser needs your tap before it can write to it again. Reconnect, and this session\u2019s QSOs will be saved into it.';
+          }
+        }
+        function fileSyncWrite() {
+          if (!logFileHandle || logFilePerm !== 'granted') return;
+          var data = JSON.stringify(entries);
+          logFileHandle.createWritable().then(function (w) {
+            return w.write(data).then(function () { return w.close(); });
+          }).then(function () { renderFileLink(true); }).catch(function () {});
+        }
+        function mergeEntries(local, fromFile) {
+          var byId = {};
+          local.concat(fromFile).forEach(function (en) {
+            if (!en || !en.id) return;
+            var cur = byId[en.id];
+            if (!cur || (en.m || 0) >= (cur.m || 0)) byId[en.id] = en;
+          });
+          return Object.keys(byId).map(function (k) { return byId[k]; }).sort(function (a, b) {
+            var ka = (a.date || '') + (a.timeOn || ''), kb = (b.date || '') + (b.timeOn || '');
+            return ka < kb ? -1 : ka > kb ? 1 : 0;
+          });
+        }
+        function fileLoadMerge() {
+          if (!logFileHandle) return;
+          logFileHandle.getFile().then(function (f) { return f.text(); }).then(function (txt) {
+            var fromFile = [];
+            try { fromFile = JSON.parse(txt || '[]'); } catch (e) {}
+            if (!Array.isArray(fromFile)) fromFile = [];
+            if (!fromFile.length) { fileSyncWrite(); return; }
+            var merged = mergeEntries(entries, fromFile);
+            if (JSON.stringify(merged) !== JSON.stringify(entries)) {
+              entries = merged;
+              saveLog(); renderLog();
+              gc('companion-log-file-restore');
+            } else { fileSyncWrite(); }
+          }).catch(function () {});
+        }
+        function linkLogFile(handle) {
+          logFileHandle = handle;
+          idbSet('logFileHandle', handle).catch(function () {});
+          filePerm(false).then(function () { renderFileLink(false); fileLoadMerge(); });
+        }
+        try {
+          noteStoreLine();
+          requestPersist();
+          renderFileLink(false);
+          if (fsSupported()) {
+            idbGet('logFileHandle').then(function (h) {
+              if (h) { logFileHandle = h; filePerm(false).then(function () { renderFileLink(false); if (logFilePerm === 'granted') fileLoadMerge(); }); }
+            }).catch(function () {});
+            var flb = $('fileLinkBtn');
+            if (flb) flb.addEventListener('click', function () {
+              if (logFileHandle && logFilePerm !== 'granted') {
+                filePerm(true).then(function () { renderFileLink(false); if (logFilePerm === 'granted') fileLoadMerge(); });
+                return;
+              }
+              window.showSaveFilePicker({ suggestedName: 'companion-log.json', types: [{ description: 'Companion log file', accept: { 'application/json': ['.json'] } }] })
+                .then(function (h) { linkLogFile(h); })
+                .catch(function () {});
+            });
+            var fob = $('fileOpenBtn');
+            if (fob) fob.addEventListener('click', function () {
+              if (typeof window.showOpenFilePicker !== 'function') return;
+              window.showOpenFilePicker({ types: [{ description: 'Companion log file', accept: { 'application/json': ['.json'] } }], multiple: false })
+                .then(function (hs) { if (hs && hs[0]) linkLogFile(hs[0]); })
+                .catch(function () {});
+            });
+            var fub = $('fileUnlinkBtn');
+            if (fub) fub.addEventListener('click', function () {
+              logFileHandle = null; logFilePerm = 'none';
+              idbDel('logFileHandle').catch(function () {});
+              renderFileLink(false);
+            });
+          }
+        } catch (e) {}
+
         $('clearBtn').addEventListener('click', function () {
           if (!entries.length) return;
           if (window.confirm('Clear the whole log in this browser? Export the ADIF first if you want to keep it.')) {
