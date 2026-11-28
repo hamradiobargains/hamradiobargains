@@ -1,23 +1,23 @@
 {
- "updated": "2026-11-27T13:53:39+00:00",
+ "updated": "2026-11-28T13:53:38+00:00",
  "models": {
   "ALINCO DM-330MV": {
    "display": "Alinco DM-330MV",
-   "pct": 3.6,
+   "pct": -0.0,
    "window": "3mo",
-   "recent_median": 144.97,
-   "recent_count": 12,
-   "prior_median": 140.0,
-   "prior_count": 6
+   "recent_median": 142.47,
+   "recent_count": 10,
+   "prior_median": 142.5,
+   "prior_count": 8
   },
   "ASTRON RS-20A": {
    "display": "Astron RS-20A",
-   "pct": 20.1,
+   "pct": 20.0,
    "window": "3mo",
    "recent_median": 59.99,
-   "recent_count": 14,
-   "prior_median": 49.95,
-   "prior_count": 7
+   "recent_count": 12,
+   "prior_median": 49.99,
+   "prior_count": 9
   },
   "ASTRON RS-35A": {
    "display": "Astron RS-35A",
@@ -84,12 +84,12 @@
   },
   "ICOM IC-7300": {
    "display": "Icom IC-7300",
-   "pct": 3.2,
+   "pct": 6.5,
    "window": "3mo",
-   "recent_median": 797.0,
-   "recent_count": 48,
-   "prior_median": 772.48,
-   "prior_count": 8
+   "recent_median": 799.0,
+   "recent_count": 47,
+   "prior_median": 749.95,
+   "prior_count": 9
   },
   "ICOM IC-R20": {
    "display": "Icom IC-R20",
@@ -108,6 +108,15 @@
    "recent_count": 14,
    "prior_median": 152.7,
    "prior_count": 9
+  },
+  "ICOM SP-20": {
+   "display": "ICOM SP-20",
+   "pct": 30.6,
+   "window": "3mo",
+   "recent_median": 149.5,
+   "recent_count": 10,
+   "prior_median": 114.5,
+   "prior_count": 6
   },
   "KENWOOD R-1000": {
    "display": "Kenwood R-1000",
@@ -147,12 +156,12 @@
   },
   "MFJ MFJ-949E": {
    "display": "MFJ MFJ-949E",
-   "pct": 9.5,
+   "pct": 9.3,
    "window": "3mo",
-   "recent_median": 120.5,
-   "recent_count": 21,
+   "recent_median": 120.25,
+   "recent_count": 20,
    "prior_median": 110.0,
-   "prior_count": 13
+   "prior_count": 14
   },
   "MFJ-989C": {
    "display": "MFJ-989C",
@@ -183,12 +192,12 @@
   },
   "XIEGU G90": {
    "display": "Xiegu G90",
-   "pct": -5.5,
+   "pct": -4.4,
    "window": "3mo",
-   "recent_median": 367.5,
-   "recent_count": 34,
-   "prior_median": 389.0,
-   "prior_count": 17
+   "recent_median": 370.0,
+   "recent_count": 33,
+   "prior_median": 387.0,
+   "prior_count": 18
   },
   "XIEGU X6100": {
    "display": "Xiegu X6100",
@@ -291,21 +300,21 @@
   },
   "YAESU FT-991A": {
    "display": "Yaesu FT-991A",
-   "pct": -9.6,
+   "pct": -11.6,
    "window": "3mo",
-   "recent_median": 994.0,
-   "recent_count": 20,
+   "recent_median": 972.0,
+   "recent_count": 29,
    "prior_median": 1099.0,
    "prior_count": 9
   },
   "YAESU FT5D": {
    "display": "Yaesu FT5D",
-   "pct": -9.1,
+   "pct": -6.2,
    "window": "3mo",
-   "recent_median": 309.0,
-   "recent_count": 25,
-   "prior_median": 340.0,
-   "prior_count": 6
+   "recent_median": 309.5,
+   "recent_count": 24,
+   "prior_median": 329.99,
+   "prior_count": 7
   },
   "YAESU M-90D": {
    "display": "Yaesu M-90D",
