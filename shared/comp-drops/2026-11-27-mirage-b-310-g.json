@@ -1,0 +1,15 @@
+{
+  "model": "Mirage B-310-G",
+  "slug": "mirage-b-310-g",
+  "searched_at": "2026-11-27T19:00:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Searched \"mirage b-310-g\"; 0 sold results on page 1 (15th and last search of the cap; a looser query such as \"mirage b310g\" was not tried). 0 kept. Kept 0. Trigger ad: https://swap.qth.com/view_ad.php?counter=1785801. Sold prices as shown on eBay sold search page 1 (shipping separate, not in price).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785801",
+    "site": "qth",
+    "ask": 225,
+    "shipping": 0
+  },
+  "comps": []
+}
