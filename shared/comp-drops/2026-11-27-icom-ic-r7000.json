@@ -1,0 +1,135 @@
+{
+  "model": "Icom IC-R7000",
+  "slug": "icom-ic-r7000",
+  "searched_at": "2026-11-27T19:00:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Searched \"icom ic-r7000\" (ad says \"Icom R-7000\"). Dropped: 8 Best-offer-accepted receiver sales (itm 287714195914 $360.00; 287380662408 $500.00; 298545309642 $248.99; 800656980177 $240.00; 307175864100 $229.99; 800330025679 $240.00; 307155249912 $319.99; 318128076943 $400.00); parts: itm 336826931003 $150.00 (+$41.90) Parts or repair, itm 127886556292 $105.28 (+$68.52) (PARTS). IC-EX310 voice synthesizer and RC-12 remote accessories excluded. Ledger (ICOM IC-R7000, count 7, 2026-10-09) was older than 30 days. Kept 13, median $234.95, low $170.00, high $548.45. OUTLIERS kept and flagged: 128137527850, 136836475238, 336741360985, 117220448891. ask $400 plus shipping (amount not stated) Trigger ad: https://swap.qth.com/view_ad.php?counter=1785755. Sold prices as shown on eBay sold search page 1 (shipping separate, not in price).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785755",
+    "site": "qth",
+    "ask": 400,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 184.5,
+      "sold_date": "2026-11-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840142781987",
+      "source": "ebay",
+      "notes": "shipping: +$75.00; title: Auto-Scan Memory w/ Speaker",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-11-22",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/168825050958",
+      "source": "ebay",
+      "notes": "shipping: +$38.62",
+      "flags": []
+    },
+    {
+      "price": 382.49,
+      "sold_date": "2026-10-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128137527850",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x the median of the other kept comps ($229.97); shipping: +$29.14; title: Tested Working",
+      "flags": []
+    },
+    {
+      "price": 184.28,
+      "sold_date": "2026-10-17",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/168782967424",
+      "source": "ebay",
+      "notes": "shipping: +$24.67",
+      "flags": []
+    },
+    {
+      "price": 548.45,
+      "sold_date": "2026-10-09",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/136836475238",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x the median of the other kept comps ($229.97); shipping: +$27.42",
+      "flags": []
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2026-10-06",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/318933844158",
+      "source": "ebay",
+      "notes": "shipping: +$21.64",
+      "flags": []
+    },
+    {
+      "price": 234.95,
+      "sold_date": "2026-10-02",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/960004291241",
+      "source": "ebay",
+      "notes": "shipping: +$25.12",
+      "flags": []
+    },
+    {
+      "price": 200.0,
+      "sold_date": "2026-09-30",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/257773592430",
+      "source": "ebay",
+      "notes": "shipping: +$79.94",
+      "flags": []
+    },
+    {
+      "price": 475.95,
+      "sold_date": "2026-09-27",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/336741360985",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x the median of the other kept comps ($229.97); shipping: +$31.20",
+      "flags": []
+    },
+    {
+      "price": 239.99,
+      "sold_date": "2026-09-21",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/204455551597",
+      "source": "ebay",
+      "notes": "shipping: +$48.00",
+      "flags": []
+    },
+    {
+      "price": 350.0,
+      "sold_date": "2026-09-18",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/117220448891",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x the median of the other kept comps ($229.97); shipping: +$36.91; title: Working",
+      "flags": []
+    },
+    {
+      "price": 320.0,
+      "sold_date": "2026-09-16",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/336696787790",
+      "source": "ebay",
+      "notes": "shipping: +$41.90; title: Nice ... Powers On",
+      "flags": []
+    },
+    {
+      "price": 170.0,
+      "sold_date": "2026-09-10",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/117220461940",
+      "source": "ebay",
+      "notes": "shipping: +$36.91",
+      "flags": []
+    }
+  ]
+}
