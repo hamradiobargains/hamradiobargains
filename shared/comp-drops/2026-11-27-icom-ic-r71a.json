@@ -1,0 +1,121 @@
+{
+  "model": "Icom IC-R71A",
+  "slug": "icom-ic-r71a",
+  "searched_at": "2026-11-27T19:00:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Searched \"icom ic-r71a\". Dropped: 7 Best-offer-accepted sales (itm 198688058524 $199.99; 188940097815 $225.00; 198658334310 $130.00; 158229695479 $199.00; 178390459772 $249.99; 267770995643 $239.99; 257620274192 $320.00); not working: itm 227609757246 $95.00 (+$28.13) \"DOA! NOT WORKING!\". Excluded accessories (itm 117406499423 CW filter $75.00; itm 406015592340 power supply module $79.95; EX257/EX310 modules) and other models (R-7000, R-75). Kept 11, median $225.00, low $150.00, high $499.99. OUTLIERS kept and flagged: 157745901117, 407265335987. ask $400 plus shipping (amount not stated) Trigger ad: https://swap.qth.com/view_ad.php?counter=1785754. Sold prices as shown on eBay sold search page 1 (shipping separate, not in price).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785754",
+    "site": "qth",
+    "ask": 400,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 216.0,
+      "sold_date": "2026-11-21",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/227614935995",
+      "source": "ebay",
+      "notes": "shipping: +$40.20; title: Works.(See Photos & Description)",
+      "flags": []
+    },
+    {
+      "price": 499.99,
+      "sold_date": "2026-11-08",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/157745901117",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x the median of the other kept comps ($225.00); shipping: +$25.03; title: CLASSIC DX MACHINE w/MANU(AL)",
+      "flags": []
+    },
+    {
+      "price": 260.0,
+      "sold_date": "2026-11-06",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/880077106171",
+      "source": "ebay",
+      "notes": "shipping: +$52.56; title: excellent cosmetics",
+      "flags": []
+    },
+    {
+      "price": 199.0,
+      "sold_date": "2026-10-19",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/336833082972",
+      "source": "ebay",
+      "notes": "shipping: +$54.29; title: With Damaged Knobs",
+      "flags": [
+        "faulty"
+      ]
+    },
+    {
+      "price": 399.95,
+      "sold_date": "2026-10-11",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/407265335987",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x the median of the other kept comps ($225.00); shipping: +$52.95; title: TIER ONE DX MACHINE",
+      "flags": []
+    },
+    {
+      "price": 190.0,
+      "sold_date": "2026-09-27",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/147587040932",
+      "source": "ebay",
+      "notes": "shipping: +$33.56",
+      "flags": []
+    },
+    {
+      "price": 150.0,
+      "sold_date": "2026-09-20",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/398392169444",
+      "source": "ebay",
+      "notes": "shipping: +$31.20",
+      "flags": []
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2026-09-19",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/157790814134",
+      "source": "ebay",
+      "notes": "shipping: +$27.20",
+      "flags": []
+    },
+    {
+      "price": 225.0,
+      "sold_date": "2026-09-17",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/198646896100",
+      "source": "ebay",
+      "notes": "shipping: +$16.32",
+      "flags": []
+    },
+    {
+      "price": 235.0,
+      "sold_date": "2026-09-13",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/227495397153",
+      "source": "ebay",
+      "notes": "shipping: +$28.13; title: ...EEB Modified: Icom IC-R71a HP HF ...",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 314.99,
+      "sold_date": "2026-09-01",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/307155597768",
+      "source": "ebay",
+      "notes": "shipping: +$27.52; title: INRAD Filter, Boxed",
+      "flags": [
+        "option_installed"
+      ]
+    }
+  ]
+}
