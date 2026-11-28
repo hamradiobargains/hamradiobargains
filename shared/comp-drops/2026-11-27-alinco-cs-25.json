@@ -1,0 +1,27 @@
+{
+  "model": "Alinco CS-25",
+  "slug": "alinco-cs-25",
+  "searched_at": "2026-11-27T19:00:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Searched \"alinco cs-25\"; 1 result, titled DR-CS25. 1 kept, thin. Kept 1, median $185.00, low $185.00, high $185.00. Thin. Ad text begins \"**Pending Negotiations**\". Trigger ad: https://swap.qth.com/view_ad.php?counter=1785724. Sold prices as shown on eBay sold search page 1 (shipping separate, not in price).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785724",
+    "site": "qth",
+    "ask": 150,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 185.0,
+      "sold_date": "2026-11-03",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/237154558570",
+      "source": "ebay",
+      "notes": "shipping: +$6.19; title: Alinco DR-CS25 220 mhz mobile with all accessories in original box (listing titled DR-CS25)",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
