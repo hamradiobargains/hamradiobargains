@@ -1,0 +1,296 @@
+{
+  "model": "Yaesu FT-991A",
+  "slug": "yaesu-ft-991a",
+  "searched_at": "2026-11-27T19:00:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Searched \"yaesu ft-991a\"; 52 results on page 1 incl. accessories. Dropped: Best-offer-accepted sales (itm 940088815224 $900.00; itm 267823822088 $1,441.00; itm 117455605147 $1,199.00 MARS; itm 407268322314 $975.00; itm 398418317827 $770.00 untested; itm 237058446429 $1,200.00; itm 227509399606 $1,000.00; itm 158250511662 $1,705.50); parts/repair: itm 117523409094 $619.00 (+$31.20) FOR PARTS OR REPAIR ONLY, itm 287642122772 $485.00 (+$48.00) For Parts or Repair. FT-991 (non-A) titled sales set aside (see yaesu-ft-991 file); itm 178456840062 FT-991 BOA. Ledger YAESU FT-991A last dated 2026-10-27 (31 days) so a fresh search was run. Items titled Japan model/Field Gear kept as FT-991A per title; shipping \"not captured\" means the card showed no shipping amount (recorded as 0). Kept 30, median $973.50, low $629.99, high $1700.00. Trigger ad: https://swap.qth.com/view_ad.php?counter=1785789. Sold prices as shown on eBay sold search page 1 (shipping separate, not in price).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785789",
+    "site": "qth",
+    "ask": 900,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 900.0,
+      "sold_date": "2026-11-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/336914821873",
+      "source": "ebay",
+      "notes": "shipping: Free delivery",
+      "flags": []
+    },
+    {
+      "price": 890.0,
+      "sold_date": "2026-11-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267842084762",
+      "source": "ebay",
+      "notes": "shipping: +$20.91",
+      "flags": []
+    },
+    {
+      "price": 850.0,
+      "sold_date": "2026-11-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168865412123",
+      "source": "ebay",
+      "notes": "shipping: +$12.21; title: US Version",
+      "flags": []
+    },
+    {
+      "price": 972.0,
+      "sold_date": "2026-11-18",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227609829850",
+      "source": "ebay",
+      "notes": "shipping: +$12.73; title: MINTY",
+      "flags": []
+    },
+    {
+      "price": 959.0,
+      "sold_date": "2026-11-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/940086900434",
+      "source": "ebay",
+      "notes": "shipping: +$22.73; title: TESTED & WORKING",
+      "flags": []
+    },
+    {
+      "price": 900.0,
+      "sold_date": "2026-11-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/168831480962",
+      "source": "ebay",
+      "notes": "shipping: +$21.73; title: US Version",
+      "flags": []
+    },
+    {
+      "price": 937.49,
+      "sold_date": "2026-11-07",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206677869382",
+      "source": "ebay",
+      "notes": "shipping: +$9.42; title: With Factory MARS/CAP Mod",
+      "flags": [
+        "modified"
+      ]
+    },
+    {
+      "price": 999.0,
+      "sold_date": "2026-11-02",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/920082055511",
+      "source": "ebay",
+      "notes": "shipping: Free delivery; title: from Japan, 100w",
+      "flags": []
+    },
+    {
+      "price": 629.99,
+      "sold_date": "2026-11-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/257819124276",
+      "source": "ebay",
+      "notes": "shipping: +$52.15",
+      "flags": []
+    },
+    {
+      "price": 1146.99,
+      "sold_date": "2026-10-31",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/205084941842",
+      "source": "ebay",
+      "notes": "shipping: +$243.34; title: New, FT991A, 100w",
+      "flags": []
+    },
+    {
+      "price": 1287.0,
+      "sold_date": "2026-05-04",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/157827710390",
+      "source": "ebay",
+      "notes": "shipping: +$203.94; sold date shown by eBay as May 4, 2026 though listed in Oct-27..Oct-31 position of recent-first sort; title: Field Gear, From JAPAN",
+      "flags": []
+    },
+    {
+      "price": 1200.0,
+      "sold_date": "2026-10-27",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/206622851059",
+      "source": "ebay",
+      "notes": "shipping: +$60.26",
+      "flags": []
+    },
+    {
+      "price": 1100.0,
+      "sold_date": "2026-10-22",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/237134643061",
+      "source": "ebay",
+      "notes": "shipping: +$29.00",
+      "flags": []
+    },
+    {
+      "price": 849.99,
+      "sold_date": "2026-10-19",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/920051502284",
+      "source": "ebay",
+      "notes": "shipping: Free delivery or not shown; shipping not captured",
+      "flags": []
+    },
+    {
+      "price": 999.0,
+      "sold_date": "2026-10-17",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/307003959176",
+      "source": "ebay",
+      "notes": "shipping: +$120.00; title: w/mic, DC power cable, JP MODEL",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 1000.0,
+      "sold_date": "2026-10-15",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/198697654057",
+      "source": "ebay",
+      "notes": "shipping: shipping not captured",
+      "flags": []
+    },
+    {
+      "price": 970.0,
+      "sold_date": "2026-10-06",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/189052877826",
+      "source": "ebay",
+      "notes": "shipping: +$30.00",
+      "flags": []
+    },
+    {
+      "price": 999.99,
+      "sold_date": "2026-10-06",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/198624994097",
+      "source": "ebay",
+      "notes": "shipping: +$21.86",
+      "flags": []
+    },
+    {
+      "price": 765.0,
+      "sold_date": "2026-10-02",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/206581703508",
+      "source": "ebay",
+      "notes": "shipping: Free delivery; title: Power Sply, Manual, Mic",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 999.99,
+      "sold_date": "2026-09-30",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/298709297897",
+      "source": "ebay",
+      "notes": "shipping: +$25.00; title: Cables, Manual, Mic",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 950.0,
+      "sold_date": "2026-09-29",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/287611293575",
+      "source": "ebay",
+      "notes": "shipping: +$51.49",
+      "flags": []
+    },
+    {
+      "price": 725.0,
+      "sold_date": "2026-09-28",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/287612772864",
+      "source": "ebay",
+      "notes": "shipping: +$48.00",
+      "flags": []
+    },
+    {
+      "price": 1700.0,
+      "sold_date": "2026-09-27",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/137785883452",
+      "source": "ebay",
+      "notes": "shipping: +$116.56; OUTLIER: above 1.5x the median of the other kept comps",
+      "flags": []
+    },
+    {
+      "price": 1150.0,
+      "sold_date": "2026-09-24",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/307195809392",
+      "source": "ebay",
+      "notes": "shipping: shipping not captured",
+      "flags": []
+    },
+    {
+      "price": 980.0,
+      "sold_date": "2026-09-23",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/227524909505",
+      "source": "ebay",
+      "notes": "shipping: +$26.95",
+      "flags": []
+    },
+    {
+      "price": 860.0,
+      "sold_date": "2026-09-06",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/287558750422",
+      "source": "ebay",
+      "notes": "shipping: +$25.00",
+      "flags": []
+    },
+    {
+      "price": 680.0,
+      "sold_date": "2026-09-05",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/237052322753",
+      "source": "ebay",
+      "notes": "shipping: shipping not captured",
+      "flags": []
+    },
+    {
+      "price": 1150.0,
+      "sold_date": "2026-09-02",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/117386640491",
+      "source": "ebay",
+      "notes": "shipping: +$48.49",
+      "flags": []
+    },
+    {
+      "price": 1111.0,
+      "sold_date": "2026-08-31",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/188835230024",
+      "source": "ebay",
+      "notes": "shipping: +$50.00; title mentions Manual",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 975.0,
+      "sold_date": "2026-08-30",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/137679051005",
+      "source": "ebay",
+      "notes": "shipping: +$19.86",
+      "flags": []
+    }
+  ]
+}
