@@ -1,0 +1,31 @@
+{
+  "run": "eham",
+  "run_date": "2026-11-28",
+  "ran_at": "2026-11-28T05:53:30-05:00",
+  "ran_by": "claude",
+  "notes": "eHam signed out ('Welcome Guest!'). Cloudflare 'Performing security verification' interstitial on first load cleared on its own after ~10 s wait (no CAPTCHA, no action taken). One eHam page load only (classifieds home page 1, back to 2026-11-26); no individual ads opened. Covered ads public since 2026-11-27T05:55:34-05:00. Non-candidates: WTB Penntek TR-45, WANTED FT-100D, WANTED Kachina 505DSP help, Heathkit HW-5400 (no price), B&W 595 coax switch (switch, not a candidate category), 40m crystals wanted.",
+  "listings": [
+    {
+      "url": "https://www.eham.net/classifieds/629789",
+      "site": "eham",
+      "title": "ACOM 1200S HF/6M amplifier",
+      "price": 2900.0,
+      "shipping": 0,
+      "found_at": "2026-11-28",
+      "condition_notes": "Seller: three years old, perfect operational and cosmetic condition, full KW on all bands. Includes amp, 220V power cable, Yaesu CAT cable. $2,900 + shipping (amount not stated) in original double box, CONUS only. Posted 2026-11-27.",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://www.eham.net/classifieds/629781",
+      "site": "eham",
+      "title": "Palstar AT2KD",
+      "price": 475.0,
+      "shipping": 0,
+      "found_at": "2026-11-28",
+      "condition_notes": "Antenna tuner, 6-160 m, 2000 W PEP. Seller: excellent condition. $475 shipped. Posted 2026-11-26 (not on public page 1 during the 2026-11-27 run).",
+      "work_flag": "",
+      "seller_feedback": ""
+    }
+  ]
+}
