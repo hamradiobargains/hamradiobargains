@@ -1,0 +1,34 @@
+{
+  "model": "Palstar AT2KD",
+  "slug": "palstar-at2kd",
+  "searched_at": "2026-11-28T05:54:10-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 2 kept comps. Ledger miss (latest 2026-09-28, older than 30 days). dropped 0 best-offer-accepted, 0 parts-only. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629781",
+    "site": "eham",
+    "ask": 475.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 500.0,
+      "sold_date": "2026-11-15",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/188956000766",
+      "source": "ebay",
+      "notes": "Buy It Now. +$24.97 delivery. Title: 'K9TWO Collection'.",
+      "flags": []
+    },
+    {
+      "price": 549.0,
+      "sold_date": "2026-09-12",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/267783514303",
+      "source": "ebay",
+      "notes": "Fixed price 'or Best Offer' (not marked best offer accepted). +$14.80 delivery.",
+      "flags": []
+    }
+  ]
+}
