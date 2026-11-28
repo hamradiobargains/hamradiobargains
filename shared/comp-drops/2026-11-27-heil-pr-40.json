@@ -1,0 +1,101 @@
+{
+  "model": "Heil PR-40",
+  "slug": "heil-pr-40",
+  "searched_at": "2026-11-27T19:00:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Searched \"heil pr-40\"; 13 results. Dropped: 4 Best-offer-accepted sales (itm 195243535286 $449.00 bundle sold Oct 9, 2024; itm 227442825839 $125.00; itm 287525161049 $213.00; itm 257736848113 $249.00). Kept 9, median $180.00, low $98.00, high $299.00. OUTLIERS kept and flagged: 227631837078. Trigger ad: https://swap.qth.com/view_ad.php?counter=1785742. Sold prices as shown on eBay sold search page 1 (shipping separate, not in price).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785742",
+    "site": "qth",
+    "ask": 235,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 299.0,
+      "sold_date": "2026-11-25",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/227631837078",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x the median of the other kept comps ($180.00); shipping: +$8.42; title: with Shock Mount and Pop Filter",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 180.0,
+      "sold_date": "2026-11-23",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/128212498507",
+      "source": "ebay",
+      "notes": "shipping: +$6.05",
+      "flags": []
+    },
+    {
+      "price": 199.95,
+      "sold_date": "2026-10-26",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/257804981737",
+      "source": "ebay",
+      "notes": "shipping: +$35.46; title: w/ Heil Bas... (extra accessory in title)",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 180.0,
+      "sold_date": "2026-10-10",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/267794555681",
+      "source": "ebay",
+      "notes": "shipping: +$9.95",
+      "flags": []
+    },
+    {
+      "price": 98.0,
+      "sold_date": "2026-09-30",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/178522762397",
+      "source": "ebay",
+      "notes": "shipping: +$10.23",
+      "flags": []
+    },
+    {
+      "price": 122.5,
+      "sold_date": "2026-09-30",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/178522761441",
+      "source": "ebay",
+      "notes": "shipping: +$7.53; title: Stand...",
+      "flags": []
+    },
+    {
+      "price": 199.0,
+      "sold_date": "2026-09-13",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/128069364428",
+      "source": "ebay",
+      "notes": "shipping: Free delivery",
+      "flags": []
+    },
+    {
+      "price": 125.0,
+      "sold_date": "2026-09-09",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/147559972197",
+      "source": "ebay",
+      "notes": "shipping: +$10.00; title: Champagne, with Clip and Bag",
+      "flags": []
+    },
+    {
+      "price": 229.0,
+      "sold_date": "2026-09-08",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/287525163257",
+      "source": "ebay",
+      "notes": "shipping: +$6.65",
+      "flags": []
+    }
+  ]
+}
