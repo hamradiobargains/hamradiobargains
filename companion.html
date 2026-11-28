@@ -1471,13 +1471,24 @@
 
         /* ---------- Worked before: previous QSOs with the call on the table ---------- */
         var wbCall = '';
+        function wbBase(c) {
+          var parts = String(c || '').trim().toUpperCase().split('/').filter(Boolean);
+          if (!parts.length) return '';
+          if (parts.length === 1) return parts[0];
+          var best = '';
+          parts.forEach(function (p) {
+            if (/\d/.test(p) && p.length >= 3 && p.length > best.length) best = p;
+          });
+          return best || parts[0];
+        }
         function renderWorkedBefore(call) {
           var box = $('workedBefore');
           if (!box) return;
           call = String(call || '').trim().toUpperCase();
           wbCall = call;
           if (!call) { box.style.display = 'none'; return; }
-          var list = entries.filter(function (en) { return en.call === call; }).slice().sort(function (a, b) {
+          var base = wbBase(call);
+          var list = entries.filter(function (en) { return en.call === call || wbBase(en.call) === base; }).slice().sort(function (a, b) {
             var ka = (a.date || '') + (a.timeOn || ''), kb = (b.date || '') + (b.timeOn || '');
             return ka < kb ? 1 : ka > kb ? -1 : 0;
           });
