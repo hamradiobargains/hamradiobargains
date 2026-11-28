@@ -295,6 +295,8 @@
         margin-right:4px; display:inline-block; line-height:1.3;
       }
       .row-actions button:hover, .row-actions a:hover{ border-color:var(--accent); text-decoration:none; }
+      .qsl-chip{ display:inline-block; margin-top:4px; font-size:10.5px; font-weight:800; letter-spacing:.8px; text-transform:uppercase; color:#7ee2a0; border:1px solid #2e7d46; background:rgba(46,125,70,.18); border-radius:999px; padding:1px 8px; }
+      .row-actions button.qsl-mark.sent{ background:#2e7d46; border-color:#2e7d46; color:#fff; }
       .empty-log{ color:var(--muted); font-size:15px; padding:18px 4px 6px; }
       .log-note{ color:var(--muted); font-size:13.5px; margin-top:14px; }
       .file-tools{ display:flex; gap:10px; flex-wrap:wrap; margin-top:12px; }
@@ -604,7 +606,7 @@
         <div class="log-head">
           <div>
             <h2>Your log</h2>
-            <p class="sub" style="margin:0;"><span id="logCount">0</span> QSOs in this browser</p>
+            <p class="sub" style="margin:0;"><span id="logCount">0</span> QSOs in this browser<span id="qslTodo"></span></p>
           </div>
           <div class="log-tools">
             <button type="button" class="btn-ghost" id="exportBtn">Export ADIF</button>
@@ -1109,25 +1111,36 @@
           if (en.grid) p.set('toGrid', en.grid);
           return 'https://hamradiobargains.com/qsl.html?' + p.toString();
         }
+        function fmtQslDate(v) {
+          var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(v || ''));
+          if (!m) return '';
+          var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+          return (months[parseInt(m[2], 10) - 1] || m[2]) + ' ' + parseInt(m[3], 10);
+        }
         function renderLog() {
           var body = $('logBody');
           $('logCount').textContent = entries.length;
           $('emptyLog').style.display = entries.length ? 'none' : '';
+          var unsent = 0;
+          entries.forEach(function (x) { if (!x.qslSent) unsent++; });
+          $('qslTodo').textContent = !entries.length ? '' : (unsent ? ' · ' + unsent + (unsent === 1 ? ' QSO still needs' : ' QSOs still need') + ' a QSL' : ' · every QSL sent');
           var rows = '';
           for (var i = entries.length - 1; i >= 0; i--) {
             var en = entries[i];
             var nameQth = [en.name, en.qth].filter(Boolean).join(' · ');
             if (en.country) nameQth += (nameQth ? '<span class="sub2">' : '') + esc(en.country) + (nameQth ? '</span>' : '');
+            var qslChip = en.qslSent ? '<span class="qsl-chip">QSL sent' + (fmtQslDate(en.qslSent) ? ' · ' + fmtQslDate(en.qslSent) : '') + '</span>' : '';
             rows += '<tr>' +
               '<td style="white-space:nowrap;">' + esc(en.date) + '</td>' +
               '<td style="white-space:nowrap;">' + esc(en.timeOn) + (en.timeOff ? '<span class="sub2">to ' + esc(en.timeOff) + '</span>' : '') + '</td>' +
-              '<td class="call">' + esc(en.call) + (en.grid ? '<span class="sub2">' + esc(en.grid) + '</span>' : '') + '</td>' +
+              '<td class="call">' + esc(en.call) + (en.grid ? '<span class="sub2">' + esc(en.grid) + '</span>' : '') + qslChip + '</td>' +
               '<td>' + esc(en.band) + (en.freq ? '<span class="sub2">' + esc(en.freq) + ' MHz</span>' : '') + '</td>' +
               '<td>' + esc(en.mode) + '</td>' +
               '<td>' + esc(en.rstS) + ' / ' + esc(en.rstR) + '</td>' +
               '<td>' + nameQth + '</td>' +
               '<td>' + esc(en.note) + '</td>' +
               '<td class="row-actions">' +
+                '<button type="button" data-act="qsl" data-id="' + en.id + '" class="qsl-mark' + (en.qslSent ? ' sent' : '') + '" title="' + (en.qslSent ? 'QSL sent. Tap to undo.' : 'Tap after you send this station a QSL') + '">' + (en.qslSent ? 'QSL sent ✓' : 'Mark QSL sent') + '</button>' +
                 '<button type="button" data-act="card" data-id="' + en.id + '">QSL card</button>' +
                 '<button type="button" data-act="edit" data-id="' + en.id + '">Edit</button>' +
                 '<button type="button" data-act="del" data-id="' + en.id + '">Delete</button>' +
@@ -1154,6 +1167,10 @@
               if (editingId === id) resetFormForNext();
               saveLog(); renderLog();
             }
+          } else if (act === 'qsl') {
+            en.qslSent = en.qslSent ? '' : todayISO();
+            en.m = Date.now();
+            saveLog(); renderLog();
           } else if (act === 'edit') {
             editingId = id;
             fillForm(en);
@@ -1180,6 +1197,8 @@
           en.m = Date.now();
           if (editingId) {
             en.id = editingId;
+            var oldEn = findEntry(editingId);
+            if (oldEn && oldEn.qslSent) en.qslSent = oldEn.qslSent;
             for (var i = 0; i < entries.length; i++) if (entries[i].id === editingId) entries[i] = en;
           } else {
             en.id = 'q' + Date.now().toString(36) + Math.floor(Math.random() * 1e6).toString(36);
@@ -1229,6 +1248,8 @@
               adifField('MODE', en.mode === 'Other' ? '' : en.mode) +
               adifField('RST_SENT', en.rstS) +
               adifField('RST_RCVD', en.rstR) +
+              adifField('QSL_SENT', en.qslSent ? 'Y' : '') +
+              adifField('QSLSDATE', /^\d{4}-\d{2}-\d{2}$/.test(en.qslSent || '') ? toAdifDate(en.qslSent) : '') +
               adifField('NAME', en.name) +
               adifField('QTH', en.qth) +
               adifField('COUNTRY', en.country) +
@@ -1276,7 +1297,8 @@
               grid: (map.GRIDSQUARE || '').toUpperCase(),
               qth: map.QTH || '',
               country: map.COUNTRY || '',
-              note: map.COMMENT || map.NOTES || ''
+              note: map.COMMENT || map.NOTES || '',
+              qslSent: String(map.QSL_SENT || '').toUpperCase() === 'Y' ? (fromAdifDate(map.QSLSDATE) || 'Y') : ''
             });
           });
           return out;
