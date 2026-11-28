@@ -1,0 +1,251 @@
+{
+  "run": "extras",
+  "run_date": "2026-11-27",
+  "ran_at": "2026-11-27T19:02:00-05:00",
+  "ran_by": "claude",
+  "notes": "Extras sweep. Source drops covered (ran_at after previous extras drop 2026-11-26-extras.json, ran_at 2026-11-26T18:47:06-05:00): 2026-11-27-eham.json (05:55; no extras list, eHam not opened by this run), 2026-11-27-qth.json (14:52:35; extras list used), 2026-11-27-ebay.json (18:00:40; no 'Extra plausible candidates not comped' list, 'Seen but over cap' items not queued). Previous CARRIED OVER (9, at the front): 1785731, 1785694, 1785671, 1785695, 1785699, 1785701, 1785724, 1785669, 1785678. No previous BACKLOG CARRY. Named extra from Leo (stored task prompt): QTH 1783910 (Yaesu '991', $600 firm), treated as the ORIGINAL Yaesu FT-991, filed under 'Yaesu FT-991' never FT-991A; ad GONE again (not in the system); one FT-991 sold search run (4 kept, median 685.00), FT-991 comps only; URL already in dropped-urls.json so not re-appended. Queue: 9 carry-overs + 1 named + 26 fresh QTH extras = 36. Triaged 22 (live 21, gone 1: 1783910). Comped: 18 ads (15 searched models, including the FT-991 search for gone ad 1783910, plus 2 ledger hits). Ledger hits: 2 (Drake MN-2000 for 1785759; Palstar SP30B for 1785695). eBay sold searches used 15 of 15: SharkRF M1KE (2 kept, thin), Icom SP-20 (11 kept), Yaesu FT2DR (5; serves 1785699 and 1785791), Yaesu FT-227 Memorizer (1, thin), Alinco CS-25 (1, thin), Ten-Tec Orion II (0, accessories only), Radioddity HF-010 (1, thin), Yaesu FT-991 (4), Yaesu FT-991A (30), Kenwood TM-701A (3), Cushcraft A50-6S (0 results), Heil PR-40 (9), Icom IC-R7000 (13), Icom IC-R71A (11), Mirage B-310-G (0 results). Solid (3+): SP-20, FT2DR, FT-991, FT-991A, TM-701A, PR-40, R-7000, R-71A; thin: M1KE, FT-227, CS-25, HF-010; zero usable: Orion II, A50-6S, B-310-G. Not comped (no search spent): 1785731 (multi-item K3 list), 1785745 (multi-amp list), 1785763 (Palstar HF-Auto + IC-7600 package). Skipped: 1785781 (Kenwood TS-990S, no asking price). Cross-posts: none identified (1785699 and 1785791 are both FT2DR from different sellers, no serials shown; not treated as cross-posts). Outliers (kept, flagged in comp files): SP-20 itm 287147081213 $220.00 and itm 327370701831 $57.67; FT-991A itm 137785883452 $1,700.00; Heil PR-40 itm 227631837078 $299.00; IC-R7000 itms 128137527850 $382.49, 136836475238 $548.45, 336741360985 $475.95, 117220448891 $350.00; IC-R71A itms 157745901117 $499.99 and 407265335987 $399.95. Dropped sale counts are in each comp file's notes (Best-offer-accepted and parts/non-working sales). UNCERTAIN: 1785669 ad wording 'ALL EQUIPMENT SOLD AS' cut off on the page; 1785789 'has 3d printed side rails'; 1785745 'repaired' / 'TL922 NEEDS TUBES'; 1785781 'phit kits installed' on speakers. Model-identity notes: FT-991 kept separate from FT-991A and from 'FT-991M Japan Model'; FT-2D-titled sales kept out of FT2DR set; FT-227R sales used for ad 'FT 227 Memorizer' (suffix unconfirmed); Alinco CS-25 comps titled DR-CS25. Ad 1785724 text starts '**Pending Negotiations**'. 1785678 ask dropped from $200 to $185 shipped. Facts seen live 2026-11-27 for ads carried over (read this run, not comped because the cap was reached): 1785802 Nye Viking KW Matchbox (EF Johnson KW Matchbox version) 'Rare, good condition', no swr meter coupler, 80 m dipole with open wire feedline included free, $239 OBO; 1785786 Palstar LA-1K 'like new condition', scratch/blemish/smoke free, lightly used, 120v and 240v cords, original box and printed manual, $2,500 plus $75 shipping; 1785766 Drake R-4C / T-4XC / MS-4 / AC-4 set 'Near perfect physically and fully functional', switches cleaned, R-4C has 500-cycle CW filter, four non-original switching cables, no OSC cables, $550 plus shipping; 1785760 CDE/Hy-Gain H4 rotator 'recent service & refurbished', 'excellent condition like NEW', new G25 ball bearings, with control unit and manual, $325 + ship; 1785761 CDE/Hy-Gain H2 rotator same wording, $225 + ship; 1785793 Yaesu FT-707 set (radio with AM, CW filter, hand mike, antenna tuner, power supply) 'Works perfect full power', $600 plus shipping; 1785777 Alinco DM-330MV 32 amp power supply 'very good condition', $115 shipped CONUS, Zelle only; 1785775 MyAntennas EFHW-4010-1K-Plus 'Brand new in box' with pole mounting kit, $200 shipped CONUS (retail $229.95 + $21.95 shipping per ad); 1785769 Heil Pro-Micro for Yaesu rigs with ad-1-ym adapter 'very good condition', $135.00 shipped lower 48; 1785787 Radioddity QT80 10 meter HF radio 'LIKE NEW', in box with all accessories, $230.00 shipped; 1785779 ComJot CJ-1UV Android DMR dual-band HT 'excellent working and cosmetic condition', box, two batteries, $275 OBO shipped CONUS; 1785747 HA8DU DU1500T 2 kW tuner 'as new', both boxes and manual, $525.00 firm, ship/insure CONUS; 1785772 FlexRadio Aurora AU-520M 'Like new', bought new June, original box, mic and cables, $8,500 shipped lower 48; 1785743 Yaesu M-90D desk mic 'EXCELLENT CONDITION BUT NO ORIGINAL BOX', $145 shipped. Ledger notes for those: Palstar LA-1K count 1; Yaesu FT-707 count 2; Alinco DM-330MV 2026-10-17 (stale); Yaesu M-90D 2026-10-05 (stale); Hy-Gain HAM IV (ad titled H4) 2026-10-16 (stale); Radioddity QT80 count 2; Drake R-4C 2026-11-10 count 5 (ledger covers the receiver alone, ad is a four-unit station set). Browser: Leo's Chrome; eBay signed in (searches loaded as Leo), no challenge or CAPTCHA at any point; eHam not opened. QTH ads read via same-tab requests ~4.5 s apart. searched_at on comp drops is the file-build time, not the individual search time. Timestamps -05:00 (EST). CARRIED OVER: 1785802, 1785786, 1785766, 1785760, 1785761, 1785793, 1785777, 1785775, 1785769, 1785787, 1785779, 1785747, 1785772, 1785743. BACKLOG CARRY: none.",
+  "listings": [
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785731",
+      "site": "qth",
+      "title": "Elecraft K3 K3S Sale items 11/26 (K6RO, multi-item parts/radio list)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. Multi-item sale list, no single ask; \"Shipping included\"; units on list: K3 - No tuner $899, K3 W/tuner $1331, K3S $2719, K3/10 QRP $654, P3 Panadapter $474, P3 With TX Mon. $799 (also \"SP4 sold\"; \"Wanted - Old boards from K3 KANT3 etc Ksyn3 , Kio3, kxv3\"). not comped: multi-item list, K3 variant per unit not stated, no search spent",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785694",
+      "site": "qth",
+      "title": "SharkRF M1KE (model SRF-M1K)",
+      "price": 300,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. \"YES, IT'S A SHARKRD M1KE FOR SALE. MODEL SRF-M1K WORKS PERFECTLY I WANT $300.00 PLUS SHIPPING.\" Lake Wales FL; shipping amount not stated. comps: sharkrf-m1ke, 2 kept, median 262.50 (thin)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785671",
+      "site": "qth",
+      "title": "Icom SP-20 Filtered Desk Speaker",
+      "price": 140,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. \"No scratches on covers, excellent  shape\" / \"Very nice condition with raised front feet. No cables, just what you see in the picture picked up $140, or plus shipping.\" Shipping amount not stated. comps: icom-sp-20, 11 kept, median 149.00 (outliers flagged)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785695",
+      "site": "qth",
+      "title": "Palstar SP30B Speakers (x2)",
+      "price": 96,
+      "shipping": 12,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. \"less than 1 year old set of Palstar SB30B speakers. These are in excellent condition\"; $96.00 plus $12.00 shipping for one, $174.00 plus $19.00 for both. ledger hit (PALSTAR SP30B count 4, 2026-11-23, median 95.00)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785699",
+      "site": "qth",
+      "title": "Yaesu FT2DR/DE",
+      "price": 219,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. \"good used VHF UHF C4FM  HT ..  complete with box nifty manual and the box\" ... \"219.00  shipped lower 48 states\" ... \"u pay fees sale final\". comps: yaesu-ft2dr, 5 kept, median 179.99",
+      "work_flag": "sale final",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785791",
+      "site": "qth",
+      "title": "Yaesu FT2DR UHF/VHF and SCU-39",
+      "price": 200,
+      "shipping": 0,
+      "found_at": "2026-11-27",
+      "condition_notes": "live. \"very lightly used FT2DR ... I am asking $200 shipped in CONUS (or make offer)\"; radio only $175, SCU-39 only $25; \"very good condition with no known issues\"; includes original box, manual, SBR-14LI battery pack, SAD-18B charger, antenna, belt clip, USB cable. comps: yaesu-ft2dr (shared file, trigger is 1785699), 5 kept, median 179.99",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785701",
+      "site": "qth",
+      "title": "Yaesu FT-227 Memorizer",
+      "price": 65,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. \"This is a working FT 227 memorizer.8 watts output. Has mobile mount bracket, dip switch adjustable PL board.set at 100hz. Touchpad microphone.\" $65 shipped (US 48). comps: yaesu-ft-227, 1 kept, median 26.00 (thin; model suffix R vs ad unconfirmed)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785724",
+      "site": "qth",
+      "title": "Alinco CS-25 220mhz",
+      "price": 150,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. \"**Pending Negotiations**Alinco CS-25. Very little use. Comes with rig, original power cord, mounting bracket, mic and manual. Do not have original box. 150.00 shipped USPS.\" comps: alinco-cs-25, 1 kept, median 185.00 (thin; eBay title DR-CS25)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785669",
+      "site": "qth",
+      "title": "Ten Tec Orion II +Extras (with RX-366, mics, speaker, keypad)",
+      "price": 3000,
+      "shipping": 75,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. \"Ten Tec Orion II with latest firmware in excellent condition w/RX-366 sub receiver ... TT-310 fan installed\" ... \"excellent working and cosmetic condition. $3,000 plus $75 toward shipping. CONUS ONLY\". comps: ten-tec-orion-ii, 0 kept (page 1 accessories only)",
+      "work_flag": "\"**DUE TO AGE AND PARTS SWAPPERS, ALL EQUIPMENT SOLD AS\" (ad text ends there on the page; remainder cut off) - UNCERTAIN",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785678",
+      "site": "qth",
+      "title": "Radioddity HF-010 portable antenna",
+      "price": 185,
+      "shipping": 0,
+      "found_at": "2026-11-26",
+      "condition_notes": "live. \"NEW- NEVER DEPLOYED    $185 shipped US    NOTE: STOCK PHOTO - ACTUAL PICTURE AVAILABLE\"; \"AD WILL DELETE WHEN SOLD\". Ask now $185 (was $200). comps: radioddity-hf-010, 1 kept, median 298.00 (thin)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+      "site": "qth",
+      "title": "Yaesu \"991\" (named extra; treated as ORIGINAL FT-991)",
+      "price": 600,
+      "shipping": 0,
+      "found_at": "2026-11-27",
+      "condition_notes": "no longer live (\"The ad number you specified, 1783910, is no longer in our system\"). Ask from stored task prompt: $600 firm. comps: yaesu-ft-991, 4 kept, median 685.00 (FT-991 only, never FT-991A)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785789",
+      "site": "qth",
+      "title": "Yaesu FT-991a (WY7CDL)",
+      "price": 900,
+      "shipping": 0,
+      "found_at": "2026-11-27",
+      "condition_notes": "live. \"Have a nice Ft-991a for sale. Works 100% has 3d printed side rails, mic and power cable. No manual or box. But will include Nifty quick manual. Will take $900 shipped to you!\" comps: yaesu-ft-991a, 30 kept, median 973.50",
+      "work_flag": "\"has 3d printed side rails\" - UNCERTAIN (aftermarket cosmetic part, not a transmit modification as worded)",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785803",
+      "site": "qth",
+      "title": "Kenwood TM-701A Dual Band",
+      "price": 130,
+      "shipping": 0,
+      "found_at": "2026-11-27",
+      "condition_notes": "live. \"Very good condition has pl tone bd.Comes with hand mic, mobile bracket,DC cable $130.00 shipped lower 48 USA only\". comps: kenwood-tm-701a, 3 kept, median 155.00",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785744",
+      "site": "qth",
+      "title": "Cushcraft A50-6S 6 meter Yagi",
+      "price": 350,
+      "shipping": 0,
+      "found_at": "2026-11-27",
+      "condition_notes": "live. \"Excellent condition, used 2 seasons with no cosmetic or functional issues.\" $350 plus shipping (amount not stated), or free local (Spokane area) pickup. comps: cushcraft-a50-6s, 0 results",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785742",
+      "site": "qth",
+      "title": "Heil PR-40 with shock mount and pop filter",
+      "price": 235,
+      "shipping": 0,
+      "found_at": "2026-11-27",
+      "condition_notes": "live. \"VERY NICE HEIL PR-40 WITH SHOCK MOUNT AND RE POP FILTER.EXCELLENT CONDITION AND IN PERFECT WORKING ORDER,COMES WITH ORIGINAL BOX.$235 SHIPPED\". comps: heil-pr-40, 9 kept, median 180.00 (outliers flagged)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785759",
+      "site": "qth",
+      "title": "Drake MN-2000 Antenna Tuner",
+      "price": 220,
+      "shipping": 0,
+      "found_at": "2026-11-27",
+      "condition_notes": "live. \"Great Antenna Tuner Drake MN-2000----Asking $220 plus shipping\" (amount not stated). ledger hit (DRAKE MN-2000 count 13, 2026-10-31, median 200.00)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785755",
+      "site": "qth",
+      "title": "Icom R-7000 receiver",
+      "price": 400,
+      "shipping": 0,
+      "found_at": "2026-11-27",
+      "condition_notes": "live. \"Icom R-7000 receiver in great working condition.----Asking $400 plus shipping.\" (amount not stated). comps: icom-ic-r7000, 13 kept, median 234.95 (outliers flagged)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785754",
+      "site": "qth",
+      "title": "Icom IC R-71A Receiver",
+      "price": 400,
+      "shipping": 0,
+      "found_at": "2026-11-27",
+      "condition_notes": "live. \"Works with bright display.Great receiver.-----Asking $400 plus shipping\" (amount not stated). comps: icom-ic-r71a, 11 kept, median 225.00 (outliers flagged)",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785801",
+      "site": "qth",
+      "title": "Mirage B-310-G 2m amplifier",
+      "price": 225,
+      "shipping": 0,
+      "found_at": "2026-11-27",
+      "condition_notes": "live. \"bench-tested and fully operational Mirage B-310-G 2-meter VHF amplifier ... Output: Easily puts out a solid 100 Watts when driven with 5W ... Cosmetics: Pristine. Non-smoking environment. Just $225 shipped CONUS\". comps: mirage-b-310-g, 0 results",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785745",
+      "site": "qth",
+      "title": "Several Amplifiers For Sale (KC5TJT, multi-amp list)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-27",
+      "condition_notes": "live. List of 7 amps: Tentec 425 Titan $1800 plus shipping (~$250), Ameritron AL811H 4 tube new tubes $900, Ameritron AL811 $700, Ameritron AL1500 $2100, Kenwood TL922 NEEDS TUBES $650, Yaesu Quadra $2000, OM4000HF no price. Prefers pickup. not comped: multi-amp list, no single ask, no search spent",
+      "work_flag": "\"A couple I've had repaired and from different estates. But all are working now. Some were tested and put on a shelf.\" / \"Kenwood TL922 NEEDS TUBES\" - UNCERTAIN",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785763",
+      "site": "qth",
+      "title": "Palstar HF-Auto with Icom IC-7600 (package)",
+      "price": 1600,
+      "shipping": 0,
+      "found_at": "2026-11-27",
+      "condition_notes": "live. \"$1600 obo Package deal Only , Zelle or Pickup with cash\"; Palstar HF-Auto tuner + Icom 7600 only as a package. not comped: bundle price covers two items; ledger Icom IC-7600 has a hit on file, Palstar HF-Auto count 2 (stale); no search spent",
+      "work_flag": "",
+      "seller_feedback": ""
+    },
+    {
+      "url": "https://swap.qth.com/view_ad.php?counter=1785781",
+      "site": "qth",
+      "title": "Kenwood TS-990S with 2 SP-990 speakers (N8LPQ)",
+      "price": 0,
+      "shipping": 0,
+      "found_at": "2026-11-27",
+      "condition_notes": "live. no price in the ad text (\"I prefer an in person sale\"); \"beautiful late model Kenwood TS-990s ... 2 Kenwood SP-990 speakers with the phit kits installed ... perfect as new condition. Not a mark anywhere. Works as it should.\" skipped: no asking price, not comped",
+      "work_flag": "\"speakers with the phit kits installed\" - UNCERTAIN (speaker modification, radio itself not modified as worded)",
+      "seller_feedback": ""
+    }
+  ]
+}
