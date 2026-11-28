@@ -208,7 +208,7 @@ nav.tabs .badge{position:absolute;top:0;right:calc(50% - 21px);background:var(--
 
   <div style="text-align:center;margin:20px 0 2px"><button class="btn ghost shareBtn" type="button" style="padding:10px 20px">Send this app to a ham</button></div>
   <p class="foot">Fair values from recorded sales, gathered and kept by HamRadioBargains.com.<br>Buy right. Sell straight.</p>
-  <p class="foot" style="margin-top:6px;font-size:12px;opacity:.75">App version 17 · Nov 26, 2026</p>
+  <p class="foot" style="margin-top:6px;font-size:12px;opacity:.75">App version 18 · Nov 28, 2026</p>
 </main>
 
 <nav class="tabs">
@@ -438,7 +438,8 @@ document.querySelectorAll("#dealChips .chip").forEach(function(ch){
 
 function renderModels(){
   var q = document.getElementById("modSearch").value.trim().toUpperCase();
-  var names = modelNames().filter(function(n){ return !q || n.indexOf(q) >= 0; });
+  var qs = q.replace(/[^A-Z0-9]/g, "");
+  var names = modelNames().filter(function(n){ return !q || n.indexOf(q) >= 0 || (qs.length >= 3 && n.replace(/[^A-Z0-9]/g, "").indexOf(qs) >= 0); });
   names.sort(function(a, b){
     var ca = (comps.models[a].latest || {}).count || 0, cb = (comps.models[b].latest || {}).count || 0;
     return cb - ca || a.localeCompare(b);
