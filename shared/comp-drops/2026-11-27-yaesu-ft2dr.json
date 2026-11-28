@@ -1,0 +1,63 @@
+{
+  "model": "Yaesu FT2DR",
+  "slug": "yaesu-ft2dr",
+  "searched_at": "2026-11-27T19:00:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Dropped: 2 Best-offer-accepted sales (itm 407208317694 lot of 2, $149.99; itm 318720865961 FT-2D, $225.00). Not used: FT-2D-titled sale itm 117392155625 ($177.50, +$20.64) because FT-2D kept separate from FT2DR when unsure. Batteries/manuals/accessories excluded. Kept 5, median $179.99, low $155.07, high $224.99. Other queued ad for same model: https://swap.qth.com/view_ad.php?counter=1785791 ($200 shipped with SCU-39; $175 radio only; separate seller). Trigger ad: https://swap.qth.com/view_ad.php?counter=1785699. Sold prices as shown on eBay sold search page 1 (shipping separate, not in price).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785699",
+    "site": "qth",
+    "ask": 219,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 224.99,
+      "sold_date": "2026-11-04",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128159605992",
+      "source": "ebay",
+      "notes": "shipping: Free delivery; title: w/ Charger, GPS",
+      "flags": [
+        "extras_included"
+      ]
+    },
+    {
+      "price": 155.5,
+      "sold_date": "2026-10-25",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117473584364",
+      "source": "ebay",
+      "notes": "shipping: +$10.03",
+      "flags": []
+    },
+    {
+      "price": 179.99,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117399335776",
+      "source": "ebay",
+      "notes": "shipping: +$10.03; title: works well",
+      "flags": []
+    },
+    {
+      "price": 180.0,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117388926261",
+      "source": "ebay",
+      "notes": "shipping: +$6.98; title lists \"FT2DR FT2D\"",
+      "flags": []
+    },
+    {
+      "price": 155.07,
+      "sold_date": "2026-09-08",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178450606166",
+      "source": "ebay",
+      "notes": "shipping: +$14.85",
+      "flags": []
+    }
+  ]
+}
