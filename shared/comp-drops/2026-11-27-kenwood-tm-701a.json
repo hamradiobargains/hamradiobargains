@@ -1,0 +1,43 @@
+{
+  "model": "Kenwood TM-701A",
+  "slug": "kenwood-tm-701a",
+  "searched_at": "2026-11-27T19:00:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Searched \"kenwood tm-701a\"; 4 results; excluded memory backup battery accessory (itm 144831549619). 3 kept; one is new-old-stock in box. Kept 3, median $155.00, low $149.95, high $199.00. Trigger ad: https://swap.qth.com/view_ad.php?counter=1785803. Sold prices as shown on eBay sold search page 1 (shipping separate, not in price).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785803",
+    "site": "qth",
+    "ask": 130,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 199.0,
+      "sold_date": "2026-11-23",
+      "condition": "Brand New",
+      "url": "https://www.ebay.com/itm/147183476540",
+      "source": "ebay",
+      "notes": "shipping: +$9.90; title: NOS ... New in Box",
+      "flags": []
+    },
+    {
+      "price": 155.0,
+      "sold_date": "2026-09-23",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/158299105730",
+      "source": "ebay",
+      "notes": "shipping: +$9.42",
+      "flags": []
+    },
+    {
+      "price": 149.95,
+      "sold_date": "2026-09-10",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/147542473423",
+      "source": "ebay",
+      "notes": "shipping: +$12.42",
+      "flags": []
+    }
+  ]
+}
