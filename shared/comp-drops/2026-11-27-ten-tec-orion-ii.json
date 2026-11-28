@@ -1,0 +1,15 @@
+{
+  "model": "Ten-Tec Orion II",
+  "slug": "ten-tec-orion-ii",
+  "searched_at": "2026-11-27T19:00:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Searched \"ten-tec orion ii\"; page 1 held only accessories (filters, mics, keypads, speakers, manual, cables, dust cover, encoders); no transceiver sale on page 1. 0 kept. Trigger ad is a package (Orion II + RX-366 + mics/speaker/keypad) at $3,000 + $75 shipping. Kept 0. Ad is a package (Orion II + RX-366 + mics/speaker/keypad), $3,000 plus $75 toward shipping. Trigger ad: https://swap.qth.com/view_ad.php?counter=1785669. Sold prices as shown on eBay sold search page 1 (shipping separate, not in price).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785669",
+    "site": "qth",
+    "ask": 3000,
+    "shipping": 75
+  },
+  "comps": []
+}
