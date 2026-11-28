@@ -1,0 +1,15 @@
+{
+  "model": "Cushcraft A50-6S",
+  "slug": "cushcraft-a50-6s",
+  "searched_at": "2026-11-27T19:00:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Searched \"cushcraft a50-6s\"; 0 sold results on page 1. 0 kept. Kept 0. ask $350 plus shipping (amount not stated), or free local pickup (Spokane area) Trigger ad: https://swap.qth.com/view_ad.php?counter=1785744. Sold prices as shown on eBay sold search page 1 (shipping separate, not in price).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785744",
+    "site": "qth",
+    "ask": 350,
+    "shipping": 0
+  },
+  "comps": []
+}
