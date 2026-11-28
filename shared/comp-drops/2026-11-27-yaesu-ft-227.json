@@ -1,0 +1,25 @@
+{
+  "model": "Yaesu FT-227 Memorizer",
+  "slug": "yaesu-ft-227",
+  "searched_at": "2026-11-27T19:00:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Searched \"yaesu ft-227 memorizer\"; 4 results. Dropped: 2 parts/repair sales that were also Best-offer-accepted (itm 168758978326 $42.50 FT-227RA for parts or repair; itm 237027989464 $35.00 untested for parts). Not used: itm 377495412781 lot of 2 FT-227R at $60.00 (+$20.00). 1 kept, thin. Kept 1, median $26.00, low $26.00, high $26.00. Thin. Trigger ad: https://swap.qth.com/view_ad.php?counter=1785701. Sold prices as shown on eBay sold search page 1 (shipping separate, not in price).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785701",
+    "site": "qth",
+    "ask": 65,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 26.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178474648696",
+      "source": "ebay",
+      "notes": "shipping: +$20.84; title: Vintage Yaesu FT-227R Memorizer; model suffix R vs ad \"FT 227\" unconfirmed",
+      "flags": []
+    }
+  ]
+}
