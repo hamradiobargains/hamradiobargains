@@ -1,0 +1,22 @@
+{
+  "model": "Palstar SP30B",
+  "slug": "palstar-sp30b",
+  "searched_at": "2026-11-27T19:00:30-05:00",
+  "searched_by": "claude",
+  "source": "ledger",
+  "notes": "ledger comps used, eBay sold search skipped — median 95.0, count 4, ledger date 2026-11-23 — ledger hit — individual sales behind the median are not auditable from this file. Ad: $96.00 plus $12.00 shipping for one; $174.00 plus $19.00 for both; ad body spells the model SB30B, title says SP30B; same-day file 2026-11-27-palstar-sp30b.json exists from another run",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785695",
+    "site": "qth",
+    "ask": 96,
+    "shipping": 12
+  },
+  "comps": [],
+  "ledger": {
+    "median": 95.0,
+    "low": 53.0,
+    "high": 129.95,
+    "count": 4,
+    "date": "2026-11-23"
+  }
+}
