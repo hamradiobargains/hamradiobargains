@@ -1,0 +1,54 @@
+{
+  "model": "Yaesu FT-991",
+  "slug": "yaesu-ft-991",
+  "searched_at": "2026-11-27T19:00:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "ORIGINAL FT-991 only (named extra 1783910, ad gone). Search \"yaesu ft-991\" returns FT-991A sales too; all FT-991A-titled sales set aside. Dropped: 4 Best-offer-accepted sales (itm 800647647024 $650.00; itm 117399359206 $1,000.00 bundle; itm 178471016735 $799.99; itm 178456840062 $845.00). Not used: itm 318849980696 titled \"FT-991M ... Japan Model\" $900.00 (+$25.22), variant kept separate; manual itm 192037858843 and GPS unit itm 386411316648 are accessories. 4 kept. Ledger has YAESU FT-991 (count 4, 2026-11-11, median 748.33) and YAESU FT-991 (ORIGINAL, NOT FT-991A) (count 3, 2026-11-11, median 720.0); a fresh search was run because the ad was gone and the stored instruction asked for one. Kept 4, median $685.00, low $586.00, high $776.66. Ad gone (\"no longer in our system\"); ask recorded from stored task prompt: Yaesu \"991\" $600 firm, ruled ORIGINAL FT-991 by Leo. Trigger ad: https://swap.qth.com/view_ad.php?counter=1783910. Sold prices as shown on eBay sold search page 1 (shipping separate, not in price).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1783910",
+    "site": "qth",
+    "ask": 600,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 586.0,
+      "sold_date": "2026-11-11",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128169070600",
+      "source": "ebay",
+      "notes": "shipping: +$45.00; title: ft-991 hf ham radio transceiver",
+      "flags": []
+    },
+    {
+      "price": 776.66,
+      "sold_date": "2026-10-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/128111155293",
+      "source": "ebay",
+      "notes": "shipping: +$139.86; title: with Manuals",
+      "flags": []
+    },
+    {
+      "price": 650.0,
+      "sold_date": "2026-09-21",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800686253602",
+      "source": "ebay",
+      "notes": "shipping: +$20.27; title: with Manuals",
+      "flags": []
+    },
+    {
+      "price": 720.0,
+      "sold_date": "2026-09-02",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/800588791875",
+      "source": "ebay",
+      "notes": "shipping: +$45.00; title: yaesu FT 991 +SP10 (speaker included)",
+      "flags": [
+        "extras_included"
+      ]
+    }
+  ]
+}
