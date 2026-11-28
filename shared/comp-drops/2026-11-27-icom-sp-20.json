@@ -1,0 +1,115 @@
+{
+  "model": "Icom SP-20",
+  "slug": "icom-sp-20",
+  "searched_at": "2026-11-27T19:00:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Dropped: 1 Best-offer-accepted sale (itm 960221266427, shown $199.96, sold 2026-11-27); 1 station package (itm 287628569438, IC-746PRO + PS-125 + SP-20, $760.00) is not the unit. Kept 11, median $149.00, low $57.67, high $220.00. OUTLIERS kept and flagged: 287147081213. ask $140 picked up, \"or plus shipping\" (amount not stated) Trigger ad: https://swap.qth.com/view_ad.php?counter=1785671. Sold prices as shown on eBay sold search page 1 (shipping separate, not in price).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785671",
+    "site": "qth",
+    "ask": 140,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 149.99,
+      "sold_date": "2026-11-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366793291310",
+      "source": "ebay",
+      "notes": "shipping: +$24.99",
+      "flags": []
+    },
+    {
+      "price": 149.99,
+      "sold_date": "2026-11-21",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/187704924991",
+      "source": "ebay",
+      "notes": "shipping: +$40.00",
+      "flags": []
+    },
+    {
+      "price": 220.0,
+      "sold_date": "2026-10-07",
+      "condition": "Used",
+      "url": "https://www.ebay.com/itm/287147081213",
+      "source": "ebay",
+      "notes": "OUTLIER: above 1.5x the median of the other kept comps ($139.50); shipping: Free delivery; title: Operation confirmed",
+      "flags": []
+    },
+    {
+      "price": 160.0,
+      "sold_date": "2026-10-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/227491580393",
+      "source": "ebay",
+      "notes": "shipping: +$11.89",
+      "flags": []
+    },
+    {
+      "price": 97.0,
+      "sold_date": "2026-10-02",
+      "condition": "not shown",
+      "url": "https://www.ebay.com/itm/336734246599",
+      "source": "ebay",
+      "notes": "shipping: +$70.75; title says for IC-781, IC-765 + other HF",
+      "flags": []
+    },
+    {
+      "price": 155.0,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/398440410497",
+      "source": "ebay",
+      "notes": "shipping: +$12.51; title: CLEAN",
+      "flags": []
+    },
+    {
+      "price": 120.0,
+      "sold_date": "2026-09-17",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/366661500594",
+      "source": "ebay",
+      "notes": "shipping: +$18.88; title: Tested",
+      "flags": []
+    },
+    {
+      "price": 130.0,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/206534319458",
+      "source": "ebay",
+      "notes": "shipping: +$32.50",
+      "flags": []
+    },
+    {
+      "price": 149.0,
+      "sold_date": "2026-09-09",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178462413773",
+      "source": "ebay",
+      "notes": "shipping: +$28.49",
+      "flags": []
+    },
+    {
+      "price": 127.5,
+      "sold_date": "2026-09-06",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/178445509151",
+      "source": "ebay",
+      "notes": "shipping: +$16.32; title: speaker only",
+      "flags": []
+    },
+    {
+      "price": 57.67,
+      "sold_date": "2026-09-29",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/327370701831",
+      "source": "ebay",
+      "notes": "shipping: +$52.97; OUTLIER: below 0.5x median of the other kept comps; titled \"Second Hand Icom SP-20 Loudspeaker\", shipping $52.97",
+      "flags": []
+    }
+  ]
+}
