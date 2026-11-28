@@ -63,6 +63,8 @@ input:focus,select:focus{outline:2px solid var(--accent);outline-offset:1px;bord
 .email-box{margin-top:16px;background:#0f171b;border:1px solid var(--border);border-radius:12px;padding:14px}
 .email-box p{margin:0 0 10px;font-size:14px;line-height:1.5;color:var(--muted)}
 .email-preview{white-space:pre-wrap;word-break:break-word;background:#0a0f12;border:1px solid var(--border);border-radius:10px;padding:12px;font-size:13.5px;line-height:1.55;color:var(--text);margin:0 0 12px}
+.email-subject-row{display:flex;gap:10px;align-items:stretch;margin:0 0 10px}
+.email-subject{flex:1;display:flex;align-items:center;background:#0a0f12;border:1px solid var(--border);border-radius:10px;padding:10px 12px;font-size:13.5px;line-height:1.45;color:var(--text);word-break:break-word}
 .email-actions{display:flex;gap:10px;flex-wrap:wrap}
 .email-open{display:inline-flex;align-items:center;text-decoration:none}
 .email-box .email-note{margin:10px 0 0;font-size:13px}
@@ -374,11 +376,15 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
       <div class="copy-feedback" id="copyFeedbackR"></div>
     </div>
     <div class="email-box" id="emailBoxR" style="max-width:420px;margin:16px auto 0;text-align:left">
-      <p><strong style="color:var(--text)">Email this card.</strong> A ready-made message with the card link inside it, filled in from the card.</p>
+      <p><strong style="color:var(--text)">Email this card.</strong> A ready-made message with the card link inside it, filled in from the card. Copy the subject and the body into your email, each in its place, or open it in your email app.</p>
+      <div class="email-subject-row">
+        <div class="email-subject" id="emailSubjectR"></div>
+        <button type="button" class="copy-btn" id="emailSubjectCopyBtnR">Copy subject</button>
+      </div>
       <div class="email-preview" id="emailPreviewR"></div>
       <div class="email-actions">
         <a class="btn btn-secondary email-open" id="emailOpenR" href="#">Open in my email app</a>
-        <button type="button" class="copy-btn" id="emailCopyBtnR">Copy email text</button>
+        <button type="button" class="copy-btn" id="emailCopyBtnR">Copy body text</button>
       </div>
       <div class="copy-feedback" id="emailFeedbackR"></div>
     </div>
@@ -488,11 +494,15 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
       </div>
 
       <div class="email-box" id="emailBox">
-        <p><strong style="color:var(--text)">Sending it by email?</strong> Here is a ready-made message, filled in from your card as you type. Open it in your email app, or copy it and paste it in.</p>
+        <p><strong style="color:var(--text)">Sending it by email?</strong> Here is a ready-made message, filled in from your card as you type. Open it in your email app, or copy the subject and the body into your own email, each in its place.</p>
+        <div class="email-subject-row">
+          <div class="email-subject" id="emailSubject"></div>
+          <button type="button" class="copy-btn" id="emailSubjectCopyBtn">Copy subject</button>
+        </div>
         <div class="email-preview" id="emailPreview"></div>
         <div class="email-actions">
           <a class="btn btn-secondary email-open" id="emailOpen" href="#">Open in my email app</a>
-          <button type="button" class="copy-btn" id="emailCopyBtn">Copy email text</button>
+          <button type="button" class="copy-btn" id="emailCopyBtn">Copy body text</button>
         </div>
         <p class="email-note" id="emailNote">Your email app cannot attach the card by itself: download the card image above first, then attach it to the message before you send.</p>
         <div class="copy-feedback" id="emailFeedback"></div>
@@ -1242,12 +1252,12 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
   }
   function updateEmail(){
     var subj = emailSubject(), body = emailBody();
-    var text = 'Subject: ' + subj + '\n\n' + body;
     var href = 'mailto:?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(body);
-    [['emailPreview','emailOpen'],['emailPreviewR','emailOpenR']].forEach(function(pair){
-      var box = $(pair[0]); if(!box) return;
-      box.textContent = text;
-      $(pair[1]).href = href;
+    [['emailSubject','emailPreview','emailOpen'],['emailSubjectR','emailPreviewR','emailOpenR']].forEach(function(trio){
+      var sBox = $(trio[0]); if(!sBox) return;
+      sBox.textContent = 'Subject: ' + subj;
+      $(trio[1]).textContent = body;
+      $(trio[2]).href = href;
     });
     var note = $('emailNote');
     if(note) note.textContent = cardLink()
@@ -1258,25 +1268,35 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
   }
   var _rpEmail = renderPreview;
   renderPreview = function(){ _rpEmail(); updateEmail(); };
+  function copyText(text, feedbackId, doneMsg){
+    function done(){ $(feedbackId).textContent = doneMsg; }
+    function fallback(){
+      var ta = document.createElement('textarea');
+      ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); done(); }
+      catch(e){ $(feedbackId).textContent = 'Copy did not work — select the text and copy it by hand.'; }
+      document.body.removeChild(ta);
+    }
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(done).catch(fallback); }
+    else { fallback(); }
+  }
   function bindEmailCopy(btnId, feedbackId){
     var btn = $(btnId); if(!btn) return;
     btn.addEventListener('click', function(){
-      var text = 'Subject: ' + emailSubject() + '\n\n' + emailBody();
-      function done(){ $(feedbackId).textContent = 'Copied — paste it into your email.' + (cardLink() ? '' : ' Remember to attach the card image.'); }
-      function fallback(){
-        var ta = document.createElement('textarea');
-        ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
-        document.body.appendChild(ta); ta.select();
-        try { document.execCommand('copy'); done(); }
-        catch(e){ $(feedbackId).textContent = 'Copy did not work — select the message text above and copy it by hand.'; }
-        document.body.removeChild(ta);
-      }
-      if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(done).catch(fallback); }
-      else { fallback(); }
+      copyText(emailBody(), feedbackId, 'Body copied — paste it into the message area of your email.' + (cardLink() ? '' : ' Remember to attach the card image.'));
+    });
+  }
+  function bindSubjectCopy(btnId, feedbackId){
+    var btn = $(btnId); if(!btn) return;
+    btn.addEventListener('click', function(){
+      copyText(emailSubject(), feedbackId, 'Subject copied — paste it into the subject line of your email.');
     });
   }
   bindEmailCopy('emailCopyBtn','emailFeedback');
   bindEmailCopy('emailCopyBtnR','emailFeedbackR');
+  bindSubjectCopy('emailSubjectCopyBtn','emailFeedback');
+  bindSubjectCopy('emailSubjectCopyBtnR','emailFeedbackR');
   var copyBtnR = $('copyBtnR');
   if(copyBtnR) copyBtnR.addEventListener('click', function(){
     var v = $('shareLinkR').value; if(!v) return;
