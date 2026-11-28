@@ -365,6 +365,23 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
         <p style="font-size:13px;opacity:.75;margin-top:8px">On an iPhone or iPad, press and hold the image to save it to Photos. It is sized to print at exactly postcard size — 5.5 × 3.5 inches.</p>
       </div>
     </div>
+    <div class="share-box show" id="linkBoxR" style="max-width:420px;margin:20px auto 0;text-align:left">
+      <p><strong style="color:var(--text)">This card's link.</strong> Copy it to send the card to the other station yourself, by email, text, or message.</p>
+      <div class="share-row">
+        <input type="text" id="shareLinkR" readonly aria-label="Link to this QSL card" />
+        <button type="button" class="copy-btn" id="copyBtnR">Copy link</button>
+      </div>
+      <div class="copy-feedback" id="copyFeedbackR"></div>
+    </div>
+    <div class="email-box" id="emailBoxR" style="max-width:420px;margin:16px auto 0;text-align:left">
+      <p><strong style="color:var(--text)">Email this card.</strong> A ready-made message with the card link inside it, filled in from the card.</p>
+      <div class="email-preview" id="emailPreviewR"></div>
+      <div class="email-actions">
+        <a class="btn btn-secondary email-open" id="emailOpenR" href="#">Open in my email app</a>
+        <button type="button" class="copy-btn" id="emailCopyBtnR">Copy email text</button>
+      </div>
+      <div class="copy-feedback" id="emailFeedbackR"></div>
+    </div>
     <div style="text-align:center;margin-top:20px">
       <button class="btn btn-primary" id="sendBackBtn" style="max-width:420px;width:100%">Send one back</button>
       <p style="margin-top:16px;font-size:14px"><a href="https://hamradiobargains.com/">hamradiobargains.com</a></p>
@@ -477,7 +494,7 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
           <a class="btn btn-secondary email-open" id="emailOpen" href="#">Open in my email app</a>
           <button type="button" class="copy-btn" id="emailCopyBtn">Copy email text</button>
         </div>
-        <p class="email-note">Your email app cannot attach the card by itself: download the card image above first, then attach it to the message before you send.</p>
+        <p class="email-note" id="emailNote">Your email app cannot attach the card by itself: download the card image above first, then attach it to the message before you send.</p>
         <div class="copy-feedback" id="emailFeedback"></div>
       </div>
 
@@ -904,6 +921,7 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
     }
     $('shareBox').classList.add('show');
     $('copyFeedback').textContent='';
+    updateEmail();
     $('shareBox').scrollIntoView({behavior:'smooth', block:'nearest'});
   });
   $('copyBtn').addEventListener('click', function(){
@@ -1172,16 +1190,32 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
 
   // ---------- Receive view ----------
   // ---------- Email template — filled in live from the card ----------
+  function cardLink(){
+    // In the receive view the address bar already holds this card's link.
+    // In the form view the link exists once "Make my card" has built it.
+    if($('formView').classList.contains('hidden')) return window.location.href;
+    var sl = $('shareLink');
+    if(sl && $('shareBox').classList.contains('show') && sl.value) return sl.value;
+    return '';
+  }
   function emailSubject(){
     var band = state.freq ? (state.freq + ' MHz') : state.band;
     return 'QSL: ' + String(state.fromCall||'').toUpperCase() + ' confirming our ' + band + ' ' + state.mode + ' QSO on ' + fmtDate(state.date);
   }
   function emailBody(){
+    var link = cardLink();
     var first = state.toName ? titleCase(state.toName).split(' ')[0] : '';
     var lines = [];
     lines.push(first ? ('Hello ' + first + ',') : 'Hello,');
     lines.push('');
-    lines.push('Thanks for the contact. This email and the attached card confirm our QSO:');
+    if(link){
+      lines.push('Thanks for the contact. This email confirms our QSO, and your QSL card is ready here:');
+      lines.push(link);
+      lines.push('');
+      lines.push('The details on the card:');
+    } else {
+      lines.push('Thanks for the contact. This email and the attached card confirm our QSO:');
+    }
     lines.push('');
     lines.push('Your call: ' + String(state.toCall||'').toUpperCase());
     lines.push('Date: ' + fmtDate(state.date) + ' (UTC)');
@@ -1203,31 +1237,52 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
     var sign = String(state.fromCall||'').toUpperCase();
     if(state.fromLoc) sign += ', ' + state.fromLoc;
     lines.push(sign);
-    lines.push('');
-    lines.push('Card made at hamradiobargains.com/qsl.html');
+    if(!link){ lines.push(''); lines.push('Card made at hamradiobargains.com/qsl.html'); }
     return lines.join('\n');
   }
   function updateEmail(){
-    var box = $('emailPreview'); if(!box) return;
-    var subj = emailSubject();
-    box.textContent = 'Subject: ' + subj + '\n\n' + emailBody();
-    $('emailOpen').href = 'mailto:?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(emailBody());
+    var subj = emailSubject(), body = emailBody();
+    var text = 'Subject: ' + subj + '\n\n' + body;
+    var href = 'mailto:?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(body);
+    [['emailPreview','emailOpen'],['emailPreviewR','emailOpenR']].forEach(function(pair){
+      var box = $(pair[0]); if(!box) return;
+      box.textContent = text;
+      $(pair[1]).href = href;
+    });
+    var note = $('emailNote');
+    if(note) note.textContent = cardLink()
+      ? 'This message carries the card link, so there is nothing to attach.'
+      : 'Your email app cannot attach the card by itself: download the card image above first, then attach it to the message before you send.';
+    var slr = $('shareLinkR');
+    if(slr && $('formView').classList.contains('hidden')) slr.value = window.location.href;
   }
   var _rpEmail = renderPreview;
   renderPreview = function(){ _rpEmail(); updateEmail(); };
-  $('emailCopyBtn').addEventListener('click', function(){
-    var text = 'Subject: ' + emailSubject() + '\n\n' + emailBody();
-    function done(){ $('emailFeedback').textContent = 'Copied — paste it into your email, and remember to attach the card image.'; }
-    function fallback(){
-      var ta = document.createElement('textarea');
-      ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
-      document.body.appendChild(ta); ta.select();
-      try { document.execCommand('copy'); done(); }
-      catch(e){ $('emailFeedback').textContent = 'Copy did not work — select the message text above and copy it by hand.'; }
-      document.body.removeChild(ta);
-    }
-    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(done).catch(fallback); }
-    else { fallback(); }
+  function bindEmailCopy(btnId, feedbackId){
+    var btn = $(btnId); if(!btn) return;
+    btn.addEventListener('click', function(){
+      var text = 'Subject: ' + emailSubject() + '\n\n' + emailBody();
+      function done(){ $(feedbackId).textContent = 'Copied — paste it into your email.' + (cardLink() ? '' : ' Remember to attach the card image.'); }
+      function fallback(){
+        var ta = document.createElement('textarea');
+        ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+        document.body.appendChild(ta); ta.select();
+        try { document.execCommand('copy'); done(); }
+        catch(e){ $(feedbackId).textContent = 'Copy did not work — select the message text above and copy it by hand.'; }
+        document.body.removeChild(ta);
+      }
+      if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(done).catch(fallback); }
+      else { fallback(); }
+    });
+  }
+  bindEmailCopy('emailCopyBtn','emailFeedback');
+  bindEmailCopy('emailCopyBtnR','emailFeedbackR');
+  var copyBtnR = $('copyBtnR');
+  if(copyBtnR) copyBtnR.addEventListener('click', function(){
+    var v = $('shareLinkR').value; if(!v) return;
+    function done(){ $('copyFeedbackR').textContent = 'Copied — now paste it wherever you talk to ' + (state.toCall||'them') + '.'; }
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(v).then(done).catch(function(){ $('shareLinkR').select(); document.execCommand('copy'); done(); }); }
+    else { $('shareLinkR').select(); document.execCommand('copy'); done(); }
   });
 
   function init(){
