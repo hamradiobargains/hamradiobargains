@@ -1,0 +1,25 @@
+{
+  "model": "ACOM 1200S",
+  "slug": "acom-1200s",
+  "searched_at": "2026-11-28T05:53:50-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "thin — 1 kept comp. Ledger miss (count 2, latest 2026-09-13). dropped 1 best-offer-accepted ($3,350 asking, Nov 18, 2026, item 820329104213). dropped 0 parts-only. No outliers.",
+  "trigger_listing": {
+    "url": "https://www.eham.net/classifieds/629789",
+    "site": "eham",
+    "ask": 2900.0,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 2850.0,
+      "sold_date": "2026-09-13",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/198608449723",
+      "source": "ebay",
+      "notes": "Auction, 42 bids. Free delivery.",
+      "flags": []
+    }
+  ]
+}
