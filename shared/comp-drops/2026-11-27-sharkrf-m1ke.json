@@ -1,0 +1,34 @@
+{
+  "model": "SharkRF M1KE",
+  "slug": "sharkrf-m1ke",
+  "searched_at": "2026-11-27T19:00:30-05:00",
+  "searched_by": "claude",
+  "source": "ebay",
+  "notes": "Excluded: desktop stand accessory (itm 157761856082). 2 kept, thin. Kept 2, median $262.50, low $250.00, high $275.00. Thin. Trigger ad: https://swap.qth.com/view_ad.php?counter=1785694. Sold prices as shown on eBay sold search page 1 (shipping separate, not in price).",
+  "trigger_listing": {
+    "url": "https://swap.qth.com/view_ad.php?counter=1785694",
+    "site": "qth",
+    "ask": 300,
+    "shipping": 0
+  },
+  "comps": [
+    {
+      "price": 250.0,
+      "sold_date": "2026-11-24",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/117533762060",
+      "source": "ebay",
+      "notes": "shipping: Free delivery",
+      "flags": []
+    },
+    {
+      "price": 275.0,
+      "sold_date": "2026-11-19",
+      "condition": "Pre-Owned",
+      "url": "https://www.ebay.com/itm/840145108564",
+      "source": "ebay",
+      "notes": "shipping: Free delivery",
+      "flags": []
+    }
+  ]
+}
