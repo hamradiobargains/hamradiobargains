@@ -60,6 +60,12 @@ input:focus,select:focus{outline:2px solid var(--accent);outline-offset:1px;bord
 .share-row input{flex:1;min-width:0;font-size:13px !important}
 .copy-btn{min-height:48px;padding:0 16px;border-radius:10px;border:1px solid var(--accent);background:var(--accent);color:#161006;font-weight:800;cursor:pointer;white-space:nowrap}
 .copy-feedback{font-size:13px;color:#9fd3a8;margin-top:8px;min-height:18px}
+.email-box{margin-top:16px;background:#0f171b;border:1px solid var(--border);border-radius:12px;padding:14px}
+.email-box p{margin:0 0 10px;font-size:14px;line-height:1.5;color:var(--muted)}
+.email-preview{white-space:pre-wrap;word-break:break-word;background:#0a0f12;border:1px solid var(--border);border-radius:10px;padding:12px;font-size:13.5px;line-height:1.55;color:var(--text);margin:0 0 12px}
+.email-actions{display:flex;gap:10px;flex-wrap:wrap}
+.email-open{display:inline-flex;align-items:center;text-decoration:none}
+.email-box .email-note{margin:10px 0 0;font-size:13px}
 .honest{font-size:13.5px;line-height:1.6;color:var(--muted);text-align:center;margin:18px auto 0;max-width:540px}
 footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-align:center;color:var(--muted);font-size:13.5px;line-height:1.6}
 .receive-head{text-align:center;padding-top:10px}
@@ -462,6 +468,17 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
           <button type="button" class="copy-btn" id="copyBtn">Copy link</button>
         </div>
         <div class="copy-feedback" id="copyFeedback"></div>
+      </div>
+
+      <div class="email-box" id="emailBox">
+        <p><strong style="color:var(--text)">Sending it by email?</strong> Here is a ready-made message, filled in from your card as you type. Open it in your email app, or copy it and paste it in.</p>
+        <div class="email-preview" id="emailPreview"></div>
+        <div class="email-actions">
+          <a class="btn btn-secondary email-open" id="emailOpen" href="#">Open in my email app</a>
+          <button type="button" class="copy-btn" id="emailCopyBtn">Copy email text</button>
+        </div>
+        <p class="email-note">Your email app cannot attach the card by itself: download the card image above first, then attach it to the message before you send.</p>
+        <div class="copy-feedback" id="emailFeedback"></div>
       </div>
 
       <p class="honest">A friendly card between hams — not an awards confirmation (that's LoTW and eQSL territory). You send the link yourself — text it, email it, or drop it in a message.</p>
@@ -1154,6 +1171,65 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding-top:18px;text-
   $('shareImgBtnR').addEventListener('click', shareCardImage);
 
   // ---------- Receive view ----------
+  // ---------- Email template — filled in live from the card ----------
+  function emailSubject(){
+    var band = state.freq ? (state.freq + ' MHz') : state.band;
+    return 'QSL: ' + String(state.fromCall||'').toUpperCase() + ' confirming our ' + band + ' ' + state.mode + ' QSO on ' + fmtDate(state.date);
+  }
+  function emailBody(){
+    var first = state.toName ? titleCase(state.toName).split(' ')[0] : '';
+    var lines = [];
+    lines.push(first ? ('Hello ' + first + ',') : 'Hello,');
+    lines.push('');
+    lines.push('Thanks for the contact. This email and the attached card confirm our QSO:');
+    lines.push('');
+    lines.push('Your call: ' + String(state.toCall||'').toUpperCase());
+    lines.push('Date: ' + fmtDate(state.date) + ' (UTC)');
+    if(state.time) lines.push('Time: ' + state.time + ' UTC');
+    var bandLine = 'Band: ' + state.band;
+    if(state.freq) bandLine += ' (' + state.freq + ' MHz)';
+    lines.push(bandLine);
+    lines.push('Mode: ' + state.mode);
+    if(state.rstSent) lines.push('Your report: ' + state.rstSent);
+    if(state.rstRcvd) lines.push('Report you gave me: ' + state.rstRcvd);
+    if(state.note){ lines.push(''); lines.push(state.note); }
+    lines.push('');
+    lines.push("If anything above doesn't match your log, tell me and I'll correct it on my end.");
+    lines.push('');
+    lines.push('A paper card is welcome but never required. This confirmation counts either way.');
+    lines.push('');
+    lines.push('73,');
+    if(state.fromName) lines.push(titleCase(state.fromName));
+    var sign = String(state.fromCall||'').toUpperCase();
+    if(state.fromLoc) sign += ', ' + state.fromLoc;
+    lines.push(sign);
+    lines.push('');
+    lines.push('Card made at hamradiobargains.com/qsl.html');
+    return lines.join('\n');
+  }
+  function updateEmail(){
+    var box = $('emailPreview'); if(!box) return;
+    var subj = emailSubject();
+    box.textContent = 'Subject: ' + subj + '\n\n' + emailBody();
+    $('emailOpen').href = 'mailto:?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(emailBody());
+  }
+  var _rpEmail = renderPreview;
+  renderPreview = function(){ _rpEmail(); updateEmail(); };
+  $('emailCopyBtn').addEventListener('click', function(){
+    var text = 'Subject: ' + emailSubject() + '\n\n' + emailBody();
+    function done(){ $('emailFeedback').textContent = 'Copied — paste it into your email, and remember to attach the card image.'; }
+    function fallback(){
+      var ta = document.createElement('textarea');
+      ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); done(); }
+      catch(e){ $('emailFeedback').textContent = 'Copy did not work — select the message text above and copy it by hand.'; }
+      document.body.removeChild(ta);
+    }
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(done).catch(fallback); }
+    else { fallback(); }
+  });
+
   function init(){
     $('qsoDate').value = state.date;
     $('noteCount').textContent = $('note').value.length;
