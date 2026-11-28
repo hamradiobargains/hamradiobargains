@@ -168,10 +168,12 @@
   var q = document.getElementById('q'), grid = document.getElementById('grid'),
       empty = document.getElementById('empty'),
       cards = Array.prototype.slice.call(grid.children);
+  var squash = function (s) { return s.replace(/[^a-z0-9]/g, ''); };
   q.addEventListener('input', function () {
-    var t = q.value.trim().toLowerCase(), shown = 0;
+    var t = q.value.trim().toLowerCase(), ts = squash(t), shown = 0;
     cards.forEach(function (c) {
-      var hit = !t || c.getAttribute('data-name').toLowerCase().indexOf(t) !== -1;
+      var dn = c.getAttribute('data-name').toLowerCase();
+      var hit = !t || dn.indexOf(t) !== -1 || (ts.length >= 3 && squash(dn).indexOf(ts) !== -1);
       c.style.display = hit ? '' : 'none';
       if (hit) shown++;
     });
